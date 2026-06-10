@@ -178,8 +178,7 @@ const MOBILE_STEPS: readonly WalkStep[] = [
     eyebrow: 'Time',
     title: 'Scrub through time',
     body:
-      'Drag the year scrubber at the bottom to move through 500–1500 CE — the map updates live. Tap play to ' +
-      'auto-advance the years.',
+      'Drag the year scrubber at the bottom to move through 500–1500 CE — the map updates as you drag.',
     selector: '.m-shell__timerail',
     placement: 'top',
   },
@@ -190,6 +189,18 @@ const MOBILE_STEPS: readonly WalkStep[] = [
     body:
       'Tap any polity on the map to open its full record in the bottom drawer — overview, demographics, ' +
       'economy, connections and sources. Drag the drawer up for more, or down to dismiss.',
+    selector: '.m-shell__map',
+    placement: 'center',
+  },
+  {
+    id: 'm-limitations',
+    eyebrow: 'Heads up',
+    title: 'Best on desktop',
+    body:
+      'InvaderGIS is a heavy, data-dense GIS, and a phone is fundamentally more limited than a computer. ' +
+      'A few things are reduced or unavailable on mobile: timeline auto-play is off (scrub the year by hand ' +
+      'instead), the chronoscope is simplified, and the large analytical views (Network, Lineage, Compare, ' +
+      'Registers) are cramped on a small screen. For the full experience, open InvaderGIS on a desktop.',
     selector: '.m-shell__map',
     placement: 'center',
   },

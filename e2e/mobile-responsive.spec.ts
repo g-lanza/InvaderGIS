@@ -284,8 +284,9 @@ test.describe('mobile responsiveness', () => {
     test.skip(!(await page.locator('.m-shell').count()), 'No phone shell at this viewport');
     await expect(page.locator('.tr-era-strip')).toBeHidden();
     await expect(page.locator('.tr-century-strip')).toBeHidden();
-    await expect(page.locator('.tr-play__speed')).toBeHidden();
-    await expect(page.locator('.tr-play__loop')).toBeHidden();
+    // Auto-play is removed on mobile — the entire playback cluster is hidden.
+    await expect(page.locator('.tr-play')).toBeHidden();
+    await expect(page.locator('.tr-play__btn')).toBeHidden();
     await expect(page.locator('.tr-readout__year')).toBeVisible();
     await expect(page.locator('.tr-scrubber')).toBeVisible();
     const rail = await page.locator('.m-shell__timerail').boundingBox();
@@ -345,7 +346,7 @@ test.describe('mobile tour (Issue E)', () => {
     // Do NOT pre-seed hdv-walkthrough-seen — let the tour auto-open.
     await page.goto('/');
     await page.locator('.walkthrough__card').waitFor({ state: 'visible', timeout: 15000 });
-    await expect(page.locator('.walkthrough__count')).toContainText('/ 5');
+    await expect(page.locator('.walkthrough__count')).toContainText('/ 6');
     // No horizontal overflow with the card up.
     const overflow = await page.evaluate(() =>
       document.documentElement.scrollWidth > document.documentElement.clientWidth + 1);
