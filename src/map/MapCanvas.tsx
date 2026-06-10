@@ -138,6 +138,31 @@ function isMapReady(map: any): boolean {
 }
 
 /**
+ * Looser liveness check: map exists, isn't removed, and its style OBJECT is
+ * present — but does NOT require isStyleLoaded() to be true. Mirrors
+ * mapGuards.layerExists: a heavy GeoJSON source (events 5061, settlements 4077,
+ * …) keeps isStyleLoaded() FALSE while it reprocesses, and toggling such a layer
+ * on triggers exactly that reprocessing. The per-layer setFilter/visibility
+ * setters are themselves teardown-safe (they guard with layerExists internally),
+ * so a setter called in that window is safe — only the STRICT isMapReady gate was
+ * wrongly skipping it, which left a freshly-toggled layer frozen at its boot-year
+ * filter (invisible until a second toggle once the style settled). Use this guard
+ * for the toggle-on re-apply path so the layer shows the first time. Callers must
+ * still wrap mutations in try/catch for the reflow teardown race (runMapMutation
+ * / the applyTimeFilter try block do this).
+ */
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function isMapAlive(map: any): boolean {
+  if (!map) return false;
+  try {
+    if (map._removed) return false;
+    return typeof map.getStyle === 'function' && !!map.getStyle();
+  } catch {
+    return false;
+  }
+}
+
+/**
  * Run a batch of map mutations safely. Combines the isMapReady() pre-check with a
  * try/catch around the WHOLE batch — closing the check-then-use RACE that causes
  * the panel-reflow "white screen": isStyleLoaded() can return true, then a CSS
@@ -314,12 +339,19 @@ export function MapCanvas() {
     (targetYear: number) => {
       const map = mapRef.current;
       const geojson = geojsonRef.current;
-      if (!geojson || !isMapReady(map)) return;
+      // isMapAlive (NOT isMapReady): every per-layer setFilter here is guarded
+      // internally by layerExists, which is safe while a heavy source keeps
+      // isStyleLoaded() false. The strict isStyleLoaded() gate made the toggle-on
+      // re-apply (the visibility→time-filter effect) bail for exactly the heavy
+      // layer being toggled — so it kept its stale boot-year filter and rendered
+      // empty until a second off→on. The whole body is already try/catch-wrapped
+      // for the reflow teardown race, so dropping the strict gate is safe.
+      if (!geojson || !isMapAlive(map)) return;
 
-      // Whole body wrapped: even after isMapReady() passes, a panel reflow can
-      // tear the style down between calls, making a per-layer getLayer/setFilter
-      // throw inside MapLibre. That must never reach a white screen — on a
-      // transient failure we no-op and the scrubber re-applies on the next tick.
+      // Whole body wrapped: even with the style present, a panel reflow can tear it
+      // down between calls, making a per-layer getLayer/setFilter throw inside
+      // MapLibre. That must never reach a white screen — on a transient failure we
+      // no-op and the scrubber re-applies on the next tick.
       try {
       const t0 = performance.now();
 
@@ -640,9 +672,19 @@ export function MapCanvas() {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     (fn: (m: any) => void): (() => void) | void => {
       const map = mapRef.current;
-      if (!isMapReady(map)) { return; }
-      fn(map);
-      const t = setTimeout(() => { if (isMapReady(mapRef.current)) fn(mapRef.current); }, 250);
+      // isMapAlive (NOT isMapReady): the visibility setters guard each layer with
+      // layerExists internally, so they are safe to call while a heavy source keeps
+      // isStyleLoaded() false. Gating on the strict isStyleLoaded() check made the
+      // FIRST toggle-on of a heavy layer a silent no-op (style busy reprocessing the
+      // source), so the layer only appeared after a second off→on once the style
+      // settled. Wrap in try/catch for the reflow teardown race.
+      if (!isMapAlive(map)) { return; }
+      try { fn(map); } catch { /* transient style teardown — retry below covers it */ }
+      const t = setTimeout(() => {
+        if (isMapAlive(mapRef.current)) {
+          try { fn(mapRef.current); } catch { /* transient */ }
+        }
+      }, 250);
       return () => { clearTimeout(t); };
     },
     [mapRef],
