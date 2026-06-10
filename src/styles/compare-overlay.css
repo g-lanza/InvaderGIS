@@ -1,0 +1,258 @@
+/* =============================================================================
+   compare-overlay.css — Compare / Storyline Overlay (P4-C)
+   Historical Data Visualizer · A product of Gavin Lanza.
+
+   DESIGN CONTRACT (same as network-graph.css):
+   · Zero hard-coded hex — all via var(--token) or currentColor.
+   · No box-shadow on panels. Borders only.
+   · Square corners — var(--radius) = 0 in every theme.
+   · No italics in chrome.
+   · Animations on transform + opacity only (compositor-safe).
+   · All four themes correct (atlas / manuscript / dark / contrast).
+
+   Layout mirrors NetworkOverlay:
+   · position: fixed; inset: topbar-h 0 (timerail-h + statusbar-h) 0
+   · z-index 50 — above map (0) and layerrail (5), below topbar (10)
+   · Opacity/pointer-events toggled via .is-open class.
+   ============================================================================= */
+
+/* ── Overlay container ────────────────────────────────────────────────────── */
+
+.compare-overlay {
+  position: fixed;
+  inset: var(--topbar-h, 40px) 0 calc(var(--timerail-h, 72px) + var(--statusbar-h, 24px)) 0;
+  z-index: 50;
+
+  display: flex;
+  flex-direction: column;
+
+  background: var(--surface);
+  border-top: 1px solid var(--border-mid);
+  border-bottom: 1px solid var(--border-mid);
+
+  /* Hidden by default — visibility:hidden removes focusable children from the tab
+     order (WCAG 2.4.3/4.1.2), delayed to the end of the fade so close still animates. */
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  transition: opacity 200ms cubic-bezier(0.16, 1, 0.3, 1), visibility 0s linear 200ms;
+}
+
+.compare-overlay.is-open {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+  transition: opacity 200ms cubic-bezier(0.16, 1, 0.3, 1), visibility 0s;
+}
+
+/* Reduced motion: no fade */
+@media (prefers-reduced-motion: reduce) {
+  .compare-overlay {
+    transition: none;
+  }
+}
+
+/* ── Header bar ───────────────────────────────────────────────────────────── */
+
+.compare-overlay__bar {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: 0 var(--space-4);
+  height: 36px;
+  background: var(--surface-2);
+  border-bottom: 1px solid var(--border-mid);
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.compare-overlay__title {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-mid);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.compare-overlay__close {
+  flex-shrink: 0;
+  margin-left: auto;
+}
+
+/* ── Content area ─────────────────────────────────────────────────────────── */
+
+.compare-overlay__content {
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+  position: relative;
+  background: var(--bg);
+}
+
+/* ── Disabled tab state (.is-disabled is toggled by React via inline style) ── */
+/* Inline opacity + cursor handles it — no class needed here.                   */
+
+/* ── Diff highlight rule for compare table cells ──────────────────────────── */
+/* Applied via inline style (borderLeft + background) in CompareTable.tsx       */
+/* so this rule is a reminder only — no CSS selector needed.                    */
+
+/* ── AddSearch panel (search-to-add, slides in below header bar) ─────────── */
+
+.cmp-addsearch {
+  display: flex;
+  flex-direction: column;
+  background: var(--surface-2);
+  border-bottom: 1px solid var(--border-mid);
+  flex-shrink: 0;
+}
+
+/* Kind-selector tab row */
+.cmp-addsearch__kinds {
+  display: flex;
+  align-items: stretch;
+  padding: 0 var(--space-3);
+  gap: var(--space-1);
+  height: 28px;
+  background: var(--surface-3);
+  border-bottom: 1px solid var(--border);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.cmp-addsearch__kinds::-webkit-scrollbar { display: none; }
+
+.cmp-addsearch__kind-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 var(--space-2);
+  height: 100%;
+  font-family: var(--font-mono);
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: color 80ms ease, border-color 80ms ease;
+}
+
+.cmp-addsearch__kind-btn:hover {
+  color: var(--ink-mid);
+}
+
+.cmp-addsearch__kind-btn.is-active {
+  color: var(--ink);
+  border-bottom-color: var(--accent);
+}
+
+.cmp-addsearch__kind-btn:focus-visible {
+  outline: 1.5px solid var(--focus-ring, var(--accent));
+  outline-offset: -2px;
+}
+
+/* Search input row */
+.cmp-addsearch__inputrow {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-3);
+}
+
+.cmp-addsearch__input {
+  flex: 1;
+  height: 26px;
+  padding: 0 var(--space-2);
+  font-family: var(--font-body);
+  font-size: 12px;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--border-mid);
+  border-radius: var(--radius);
+  outline: none;
+  min-width: 0;
+}
+
+.cmp-addsearch__input:focus {
+  border-color: var(--accent);
+}
+
+.cmp-addsearch__input:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Results list */
+.cmp-addsearch__results {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 var(--space-2);
+  max-height: 220px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-mid) transparent;
+}
+
+.cmp-addsearch__results::-webkit-scrollbar { width: 4px; }
+.cmp-addsearch__results::-webkit-scrollbar-thumb { background: var(--border-mid); }
+
+.cmp-addsearch__result {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 0 var(--space-3);
+  min-height: 28px;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+}
+
+.cmp-addsearch__result:last-child {
+  border-bottom: none;
+}
+
+.cmp-addsearch__result:hover {
+  background: var(--surface-2);
+}
+
+.cmp-addsearch__result-name {
+  flex: 1;
+  font-size: 12px;
+  color: var(--ink);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
+}
+
+.cmp-addsearch__result-id {
+  font-size: 9px;
+  color: var(--ink-mute);
+  letter-spacing: 0.04em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 140px;
+  flex-shrink: 0;
+}
+
+/* No-match and full messages */
+.cmp-addsearch__empty,
+.cmp-addsearch__full {
+  padding: var(--space-2) var(--space-3);
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.04em;
+  color: var(--ink-mute);
+}
+
+.cmp-addsearch__full {
+  color: var(--ink-mid);
+  border-top: 1px solid var(--border);
+}

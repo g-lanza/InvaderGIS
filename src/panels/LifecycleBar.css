@@ -1,0 +1,74 @@
+/* LifecycleBar — six-phase polity lifespan visualization */
+
+.lifecycle-bar {
+  padding: var(--space-2) var(--space-3) var(--space-3);
+}
+
+.lifecycle-bar__track {
+  display: flex;
+  height: 16px;
+  border: 0.5px solid var(--border-mid);
+  position: relative;
+  overflow: visible;
+}
+
+.lifecycle-bar__phase {
+  border-right: 0.5px solid var(--border);
+  background: var(--surface-2);
+  flex-shrink: 0;
+}
+
+.lifecycle-bar__phase:last-child {
+  border-right: none;
+}
+
+/* Hatched phases — alternating texture */
+.lifecycle-bar__phase--form,
+.lifecycle-bar__phase--peak,
+.lifecycle-bar__phase--fragment {
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.06) 0 0.5px,
+    transparent 0.5px 4px
+  );
+}
+
+/* Dark theme: lighter hatch so it reads on dark surface */
+[data-theme="dark"] .lifecycle-bar__phase--form,
+[data-theme="dark"] .lifecycle-bar__phase--peak,
+[data-theme="dark"] .lifecycle-bar__phase--fragment {
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.08) 0 0.5px,
+    transparent 0.5px 4px
+  );
+}
+
+/* Peak is slightly darker to stand out as the dominant phase */
+.lifecycle-bar__phase--peak {
+  background-color: var(--surface-3);
+}
+
+/* Live year cursor — accent bar */
+.lifecycle-bar__cursor {
+  position: absolute;
+  top: -3px;
+  bottom: -3px;
+  width: 1.5px;
+  background: var(--accent);
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+/* Year labels */
+.lifecycle-bar__labels {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4px;
+}
+
+.lifecycle-bar__year {
+  font-size: 9px;
+  color: var(--ink-mute);
+  letter-spacing: 0.03em;
+}

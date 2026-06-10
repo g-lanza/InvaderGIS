@@ -1,0 +1,341 @@
+/* =============================================================================
+   lineage-gantt.css — Ruler Lineage Gantt (P4-B)
+   Historical Data Visualizer · A product of Gavin Lanza.
+
+   DESIGN CONTRACT (mirrors network-graph.css):
+   · Zero hard-coded hex — all via var(--token) or currentColor.
+   · No box-shadow on panels. Borders only.
+   · Square corners — var(--radius) = 0 in every theme.
+   · Animations on transform + opacity only (compositor-safe).
+   · All four themes correct (atlas / manuscript / dark / contrast).
+   ============================================================================= */
+
+/* ── Lineage overlay (mirrors .network-overlay exactly) ────────────────────── */
+
+.lineage-overlay {
+  position: fixed;
+  inset: var(--topbar-h, 40px) 0 calc(var(--timerail-h, 72px) + var(--statusbar-h, 24px)) 0;
+  z-index: 50;
+
+  display: flex;
+  flex-direction: column;
+
+  background: var(--surface);
+  border-top: 1px solid var(--border-mid);
+  border-bottom: 1px solid var(--border-mid);
+
+  /* visibility:hidden removes focusable children from the tab order (WCAG
+     2.4.3/4.1.2), delayed to the end of the fade so close still animates. */
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  transition: opacity 200ms cubic-bezier(0.16, 1, 0.3, 1), visibility 0s linear 200ms;
+}
+
+.lineage-overlay.is-open {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+  transition: opacity 200ms cubic-bezier(0.16, 1, 0.3, 1), visibility 0s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lineage-overlay {
+    transition: none;
+  }
+}
+
+/* ── Overlay header bar (mirrors .network-overlay__bar) ────────────────────── */
+
+.lineage-overlay__bar {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: 0 var(--space-4);
+  height: 36px;
+  background: var(--surface-2);
+  border-bottom: 1px solid var(--border-mid);
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.lineage-overlay__title {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-mid);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.lineage-overlay__meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.lineage-overlay__stat {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.06em;
+  color: var(--ink-mute);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.lineage-overlay__hint {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.04em;
+  color: var(--ink-mute);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* Legend strip — shows open-ended dash style */
+.lineage-overlay__legend {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  flex-shrink: 0;
+}
+
+.lineage-overlay__legend-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+}
+
+.lineage-overlay__legend-label {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  white-space: nowrap;
+}
+
+.lineage-overlay__close {
+  flex-shrink: 0;
+  margin-left: auto;
+}
+
+/* ── Canvas area (mirrors .network-overlay__canvas) ─────────────────────────── */
+
+.lineage-overlay__canvas {
+  flex: 1;
+  min-height: 0;
+  position: relative;
+  overflow: hidden;
+  background: var(--bg);
+}
+
+/* ── LineageGantt root ────────────────────────────────────────────────────── */
+
+.lineage-gantt {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/* ── Gantt header strip (axis labels + year indicator) ───────────────────── */
+
+.lineage-gantt__axis-bar {
+  display: flex;
+  align-items: center;
+  height: 24px;
+  background: var(--surface-3);
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+  position: relative;
+  /* Reserve left gutter for row labels */
+  padding-left: var(--lineage-label-w, 160px);
+  overflow: hidden;
+}
+
+/* ── Scroll container (rows + overlay SVG) ───────────────────────────────── */
+
+.lineage-gantt__scroll {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* ── SVG layer (bars, edges, now-line) ───────────────────────────────────── */
+
+.lineage-gantt__svg {
+  display: block;
+  width: 100%;
+  overflow: visible;
+  /* height is set via style prop to match totalHeight */
+}
+
+/* ── Ruler bar ────────────────────────────────────────────────────────────── */
+
+.lineage-gantt__bar {
+  cursor: pointer;
+  /* Opacity transition for active-year dimming */
+  transition: opacity 120ms ease;
+}
+
+.lineage-gantt__bar:hover {
+  opacity: 1 !important;
+}
+
+/* Solid bar fill rect */
+.lineage-gantt__bar-fill {
+  /* No rx/ry — square corners (DESIGN.md) */
+}
+
+/* Dashed open-ended bar overlay */
+.lineage-gantt__bar-dash {
+  fill: none;
+  /* stroke-dasharray applied via SVG attr */
+}
+
+/* ── Row label (polity name — left gutter) ───────────────────────────────── */
+
+.lineage-gantt__row-label {
+  position: absolute;
+  left: 0;
+  width: var(--lineage-label-w, 160px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  pointer-events: none;
+  user-select: none;
+}
+
+.lineage-gantt__row-label-text {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ink-mid);
+  padding: 0 var(--space-2);
+  line-height: 20px; /* matches ROW_HEADER_H */
+}
+
+/* ── Now-line (active year vertical rule) ────────────────────────────────── */
+
+.lineage-gantt__now-line {
+  pointer-events: none;
+  /* Stroke color set inline to use accent token */
+}
+
+/* ── Succession edge connector ───────────────────────────────────────────── */
+
+.lineage-gantt__edge {
+  pointer-events: none;
+  /* Stroke set inline */
+}
+
+/* ── Axis tick labels ─────────────────────────────────────────────────────── */
+
+.lineage-gantt__tick-label {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.04em;
+  fill: var(--ink-mute);
+  pointer-events: none;
+  user-select: none;
+}
+
+/* ── Tooltip (same shape as network-graph tooltip) ──────────────────────── */
+
+.lineage-gantt__tooltip {
+  position: absolute;
+  bottom: var(--space-4);
+  left: calc(var(--lineage-label-w, 160px) + var(--space-4));
+  z-index: 60;
+
+  width: 240px;
+
+  background: var(--surface);
+  border: 1px solid var(--border-mid);
+
+  pointer-events: none;
+  user-select: none;
+}
+
+.lineage-gantt__tooltip-head {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-3);
+  border-bottom: 1px solid var(--border);
+  background: var(--surface-2);
+}
+
+.lineage-gantt__tooltip-swatch {
+  width: 8px;
+  height: 8px;
+  flex-shrink: 0;
+  /* No border-radius — square corners (DESIGN.md) */
+}
+
+.lineage-gantt__tooltip-name {
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--ink);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.lineage-gantt__tooltip-dl {
+  margin: 0;
+  padding: 0;
+}
+
+.lineage-gantt__tooltip-row {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-2);
+  padding: var(--space-1) var(--space-3);
+  border-bottom: 1px solid var(--border);
+}
+
+.lineage-gantt__tooltip-row:last-child {
+  border-bottom: none;
+}
+
+.lineage-gantt__tooltip-key {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  flex-shrink: 0;
+}
+
+.lineage-gantt__tooltip-val {
+  font-family: var(--font-body);
+  font-size: 11px;
+  color: var(--ink);
+  text-align: right;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ── State panels ─────────────────────────────────────────────────────────── */
+
+.lineage-gantt__state {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

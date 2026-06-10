@@ -1,0 +1,177 @@
+/* =============================================================================
+   Walkthrough.css — first-open guided spotlight tour
+   Historical Data Visualizer · A product of Gavin Lanza.
+
+   DESIGN CONTRACT (DESIGN.md / atlas-shell.css):
+   · Zero hard-coded hex — all via var(--token). The dim scrim uses an rgba on
+     the ink token surrogate (--surface-dim) so it works in every theme.
+   · No box-shadow on the card — hairline borders only. The spotlight ring is a
+     border, not a shadow.
+   · Square corners (--radius = 0 in every theme).
+   · No italics in chrome.
+   · Animations on transform + opacity only (compositor-safe); reduced-motion
+     drops the slide.
+   ============================================================================= */
+
+/* Root layer sits above every overlay (z 50) and the command palette (z 200). */
+.walkthrough {
+  position: fixed;
+  inset: 0;
+  z-index: 300;
+  /* The root itself is transparent; the scrim panels provide the dim. */
+  pointer-events: none;
+}
+
+/* ── Dim scrim panels (surround the spotlight cut-out) ─────────────────────── */
+
+.walkthrough__scrim {
+  position: fixed;
+  /* --surface-dim is the theme's deepest ink surface; 0.55 alpha dims without
+     fully hiding the highlighted region's surroundings. */
+  background: var(--surface-dim);
+  opacity: 0.55;
+  pointer-events: auto; /* clicks on the scrim are absorbed (no accidental map use) */
+  animation: walkthrough-fade 160ms ease both;
+}
+
+.walkthrough__scrim--full {
+  inset: 0;
+}
+
+/* Hairline ring framing the spotlight target — border, never shadow. */
+.walkthrough__ring {
+  position: fixed;
+  border: 1.5px solid var(--accent);
+  pointer-events: none;
+  animation: walkthrough-fade 160ms ease both;
+}
+
+/* ── Tooltip card ──────────────────────────────────────────────────────────── */
+
+.walkthrough__card {
+  position: fixed;
+  max-width: calc(100vw - 24px);
+  background: var(--surface);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius);
+  color: var(--ink);
+  font-family: var(--font-body);
+  pointer-events: auto;
+  padding: var(--space-3) var(--space-4) var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  /* Compositor-only entrance: fade + 6px rise. */
+  animation: walkthrough-card 220ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.walkthrough__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-2);
+}
+
+.walkthrough__eyebrow {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+}
+
+.walkthrough__count {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.06em;
+  color: var(--ink-mute);
+  flex-shrink: 0;
+}
+
+.walkthrough__title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--ink);
+}
+
+.walkthrough__body {
+  margin: 0;
+  font-size: 12.5px;
+  line-height: 1.55;
+  color: var(--ink-light);
+}
+
+/* ── Progress dots ─────────────────────────────────────────────────────────── */
+
+.walkthrough__dots {
+  display: flex;
+  gap: 6px;
+  margin-top: var(--space-1);
+}
+
+.walkthrough__dot {
+  width: 6px;
+  height: 6px;
+  /* Square per design law. */
+  background: transparent;
+  border: 1px solid var(--border-mid);
+  transition: background 120ms ease, border-color 120ms ease;
+}
+
+.walkthrough__dot.is-done {
+  background: var(--ink-mute);
+  border-color: var(--ink-mute);
+}
+
+.walkthrough__dot.is-active {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+/* ── Actions ───────────────────────────────────────────────────────────────── */
+
+.walkthrough__actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+  margin-top: var(--space-2);
+  padding-top: var(--space-2);
+  border-top: 1px solid var(--border);
+}
+
+.walkthrough__nav {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.walkthrough__nav .btn[disabled],
+.walkthrough__nav .btn[aria-disabled='true'] {
+  opacity: 0.4;
+  cursor: default;
+}
+
+/* ── Keyframes (transform + opacity only) ──────────────────────────────────── */
+
+@keyframes walkthrough-fade {
+  from { opacity: 0; }
+  to   { opacity: 0.55; }
+}
+
+/* The card fades from 0 → 1 (its own opacity), independent of the scrim's 0.55. */
+@keyframes walkthrough-card {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .walkthrough__scrim,
+  .walkthrough__ring { animation: none; }
+  .walkthrough__card { animation: none; }
+}

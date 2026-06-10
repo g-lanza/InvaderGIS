@@ -1,0 +1,2472 @@
+/* =============================================================================
+   atlas-shell.css — SIX-REGION APPLICATION FRAME
+   Historical Data Visualizer · A product of Gavin Lanza.
+
+   SHELL-CHROME CONTRACT (src/components/AppShell.tsx reads this):
+   ───────────────────────────────────────────────────────────────
+   Mount these elements in this exact tree under a root <div class="msa-app">:
+
+     <div class="msa-app [is-ready]">
+       <header class="msa-topbar">
+         <div   class="msa-topbar__brand">     ← logo + wordmark + subtitle
+           <span class="msa-topbar__wordmark">InvaderGIS</span>
+           <span class="msa-topbar__sub">Historical Data Visualizer</span>
+         </div>
+         <div   class="msa-topbar__cluster">  ← Analysis (Network/Compare/…)
+         <div   class="msa-topbar__cluster">  ← Data (Views/My Data)
+         <div   class="msa-topbar__cluster">  ← Tools (Search/Filter)
+         <div   class="msa-topbar__cluster">  ← App (Settings)
+                                              ← clusters left-align; each leads
+                                                with a .msa-topbar__divider
+       <aside  class="msa-layerrail">         ← .panel > .panel-head + .panel-body
+       <main   class="msa-map">               ← MapLibre canvas mounts here
+       <aside  class="msa-dock">              ← .panel / .tab-row / .dl / .crest
+       <nav    class="msa-timerail">          ← chronoscope mounts here
+       <div    class="msa-statusbar">
+         <span class="msa-statusbar__item">
+     </div>
+
+   ENTRANCE: add `.is-ready` to `.msa-app` once the app has bootstrapped
+   (stores hydrated, map lib loaded). Triggers the staggered reveal.
+   Without `.is-ready` all regions are opacity:0; this prevents a flash of
+   unstyled frame before the map tile first render.
+
+   MOBILE: below 600 px the grid collapses to single-column.
+   `.msa-layerrail` and `.msa-dock` become fixed bottom-sheet overlays.
+   Add/remove `.is-open` on each to show/hide from shell-chrome behaviour code.
+
+   PRIMITIVES DEFINED HERE (complement atlas-tokens.css — do not duplicate):
+     .btn--ghost           transparent-background button variant
+     .btn--icon            square icon-button sizing
+     .panel                sectioning container for rails/dock
+     .panel-head           section header inside a .panel
+     .panel-body           scrollable body inside a .panel
+     .row-key              left currentColor-banded list row
+     .row-key__label       primary label inside .row-key
+     .row-key__meta        secondary mono label inside .row-key
+     .dl                   definition list (mono label / sans value)
+     .dl dt / .dl dd
+     .crest                monogram + region band badge
+     .crest__mono          letter(s) inside .crest
+     .crest__band          color band at base of .crest
+     .tab-row              horizontal tab strip
+     .tab-row__tab         individual tab item
+     .tab-row__tab.is-active
+     .msa-empty            honest empty-state block (intentional, not broken)
+     .msa-empty__icon      glyph cell in empty state
+     .msa-empty__label     primary label
+     .msa-empty__hint      supporting hint copy
+     .msa-statusbar__item  status strip token
+     .msa-statusbar__sep   hairline divider between status tokens
+
+   HARD RULES (the design rules):
+   · Zero hard-coded hex, radius, or shadow — all via var(--token) or
+     currentColor. The only bare keyword allowed is `transparent`.
+   · No box-shadow on panels — borders only.
+   · No italics in chrome (atlas-tokens.css already blocks i/em globally).
+   · Square corners — var(--radius) is 0 px in every theme.
+   · Parchment (--paper/--sea) ONLY in .msa-map region.
+   · Animations on transform + opacity only (compositor-safe, no layout reflow).
+   ============================================================================= */
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   LOCAL LAYOUT TOKENS  (extend :root from atlas-tokens.css)
+   ───────────────────────────────────────────────────────────────────────────── */
+
+:root {
+  /* Shell track dimensions — adjust here, grid rebuilds automatically */
+  --topbar-h:     48px;
+  --statusbar-h:  24px;
+  --timerail-h:   72px;
+  --layerrail-w:  224px;
+  --dock-w:       280px;
+  /* Reading measure for the inspector content when the dock is fullscreen — the
+     UI is designed for ~280px, so in fullscreen the content centers within this
+     measure instead of stretching across the whole map area. */
+  --dock-measure: 720px;
+
+  /* Mobile breakpoint */
+  --bp-mobile: 600px;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   ROOT GRID  (.msa-app)
+   Six named areas — topbar spans full width; layerrail and dock flank the map;
+   timerail and statusbar each span full width at the bottom.
+
+   Columns:  layerrail-w | flex-map | dock-w
+   Rows:     topbar-h | flex-map | timerail-h | statusbar-h
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.msa-app {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  min-height: 0;
+  overflow: hidden;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+
+  grid-template-columns: var(--layerrail-w) 1fr var(--dock-w);
+  grid-template-rows:
+    var(--topbar-h)
+    1fr
+    var(--timerail-h)
+    var(--statusbar-h);
+
+  /* Animate panel collapse/expand so the MapLibre canvas resizes gradually rather
+     than jumping in a single frame. The instantaneous jump was the root cause of the
+     panel hide/fullscreen white-screen crash: the ResizeObserver burst fired while
+     MapLibre's style was mid-mutation, producing a TOCTOU throw that RegionErrorBoundary
+     could not reliably recover from in 16ms. A 200ms ease spreads the resize across
+     ~12 frames, eliminating the race window and giving transitionend a signal to fire. */
+  transition: grid-template-columns 200ms cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Collapsible panels (user request: every aspect hideable). When collapsed the
+     grid column shrinks to a thin re-open strip; the panel renders only that strip. */
+  --rail-strip-w: 26px;
+
+  grid-template-areas:
+    "topbar    topbar    topbar"
+    "layerrail map       dock"
+    "timerail  timerail  timerail"
+    "statusbar statusbar statusbar";
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   SHARED REGION BASE
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.msa-topbar,
+.msa-layerrail,
+.msa-map,
+.msa-dock,
+.msa-timerail,
+.msa-statusbar {
+  position: relative;
+  overflow: hidden;
+  min-width: 0;
+  min-height: 0;
+}
+
+/* Smooth repaints on theme swap (body already has this; shell panels need it too) */
+.msa-topbar,
+.msa-layerrail,
+.msa-dock,
+.msa-timerail,
+.msa-statusbar {
+  transition:
+    background 160ms ease,
+    border-color 160ms ease,
+    color 160ms ease;
+}
+
+.msa-map {
+  transition: background 160ms ease;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   TOP BAR
+   Brand wordmark — spacer — controls. z-index above map overlays.
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.msa-topbar {
+  grid-area: topbar;
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: 0 var(--space-4);
+  height: var(--topbar-h);
+  background: var(--surface);
+  border-bottom: 0.5px solid var(--border-mid);
+  z-index: 10;
+  /* Allow topbar to scroll horizontally if controls overflow rather than clip.
+     flex-wrap is intentionally NOT used here — wrapping would push controls
+     onto a second row and increase the topbar height, breaking the grid.
+     Instead, all child groups have flex-shrink:0 except the spacer, so the
+     layout compresses predictably.  Horizontal scroll is the graceful fallback
+     on viewports narrower than the minimum content width. */
+  overflow-x: auto;
+  overflow-y: hidden;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none; /* Firefox */
+}
+
+.msa-topbar::-webkit-scrollbar { display: none; } /* Chrome/Safari */
+
+.msa-topbar__brand {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  flex-shrink: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+.msa-topbar__logo {
+  /* Crisp rendering for the badge icon at small sizes */
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
+.msa-topbar__wordmark {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  white-space: nowrap;
+  user-select: none;
+}
+
+.msa-topbar__sub {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  white-space: nowrap;
+}
+
+/* Thin vertical rule between brand and control groups */
+.msa-topbar__divider {
+  width: 1px;
+  height: 20px;
+  background: var(--border-mid);
+  flex-shrink: 0;
+}
+
+/* Grouped control clusters (theme picker, settings icon, etc.) */
+.msa-topbar__group {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+  flex-shrink: 0;
+}
+
+/* Two-row cluster: label on top, buttons below */
+.msa-topbar__cluster {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  flex-shrink: 0;
+}
+
+.msa-topbar__cluster-label {
+  font-family: var(--font-mono);
+  font-size: 8px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  white-space: nowrap;
+  padding-left: 2px;
+  line-height: 1;
+}
+
+.msa-topbar__cluster-btns {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+/* Compact btn height inside the topbar clusters */
+.msa-topbar .msa-topbar__cluster-btns .btn {
+  height: 22px;
+  padding: 0 var(--space-2);
+  font-size: 10px;
+}
+
+.msa-topbar__label {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  white-space: nowrap;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   LAYER RAIL
+   Scrollable column of .panel sections. Thin scrollbar, token-colored.
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.msa-layerrail {
+  grid-area: layerrail;
+  display: flex;
+  flex-direction: column;
+  /* Cap inner content so the dense legend never stretches edge-to-edge when the
+     rail is wide (fullscreen). At the normal 200px width the cap is inert. */
+  --rail-content-max: 340px;
+  width: var(--layerrail-w);
+  background: var(--surface);
+  border-right: 1px solid var(--border-mid);
+  overflow-y: auto;
+  overflow-x: hidden;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-mid) transparent;
+}
+
+/* Direct content blocks fill the rail up to the content cap, left-aligned. The
+   collapse/fullscreen control head spans full width (it's positioned chrome). */
+.msa-layerrail > .panel,
+.msa-layerrail > .layer-groups,
+.msa-layerrail > .rail-tabs {
+  width: 100%;
+  max-width: var(--rail-content-max);
+  align-self: flex-start;
+}
+
+/* ── Rail tabs (Layers | Legend) ─────────────────────────────────────────── */
+.rail-tabs {
+  display: flex;
+  border-bottom: 1px solid var(--border-mid);
+  background: var(--surface-2);
+  flex-shrink: 0;
+}
+
+.rail-tab {
+  flex: 1;
+  min-width: 0;
+  padding: var(--space-2) var(--space-2);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  /* Active tab carries a 2px accent underline (compositor-safe box-shadow). */
+  box-shadow: none;
+  transition: color 120ms ease, box-shadow 120ms ease, background 120ms ease;
+}
+
+.rail-tab:hover { color: var(--ink-mid); }
+
+.rail-tab.is-active {
+  color: var(--ink);
+  font-weight: 600;
+  box-shadow: inset 0 -2px 0 var(--accent);
+}
+
+.rail-tab:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+}
+
+.msa-layerrail::-webkit-scrollbar { width: 4px; }
+.msa-layerrail::-webkit-scrollbar-track { background: transparent; }
+.msa-layerrail::-webkit-scrollbar-thumb {
+  background: var(--border-mid);
+  border-radius: var(--radius);
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   MAP CANVAS
+   Parchment background — the only non-surface color region in Atlas/Dark/Contrast.
+   MapLibre canvas is absolutely positioned to fill this by its own init logic.
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.msa-map {
+  grid-area: map;
+  background: var(--paper);
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   ENTITY DOCK
+   Mirror of layerrail: scrollable column of panels, right edge.
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.msa-dock {
+  grid-area: dock;
+  display: flex;
+  flex-direction: column;
+  width: var(--dock-w);
+  background: var(--surface);
+  border-left: 1px solid var(--border-mid);
+  overflow-y: auto;
+  overflow-x: hidden;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-mid) transparent;
+}
+
+/* ── Collapsible LayerRail / EntityDock ──────────────────────────────────────
+   Narrow the grid column to a thin strip; the panel renders only its re-open
+   tab. Width transitions on the column for a smooth slide (compositor-cheap
+   enough at this size; no layout thrash on children since they unmount). */
+.msa-app.is-rail-collapsed { --layerrail-w: var(--rail-strip-w); }
+.msa-app.is-dock-collapsed { --dock-w: var(--rail-strip-w); }
+/* Fullscreen dock: inspector breaks out of the grid column and covers the full
+   map+layerrail area as a fixed overlay (same inset formula as NetworkOverlay).
+   The grid column is zeroed so the map region takes its space back; the dock
+   renders on top via position:fixed + z-index. */
+.msa-app.is-dock-fullscreen { --dock-w: 0px; }
+/* Fullscreen layer rail — mirror of the dock: zero the grid column and float the
+   rail as a fixed overlay covering the map (+dock) area. Anchored left. */
+.msa-app.is-rail-fullscreen { --layerrail-w: 0px; }
+
+.msa-app.is-rail-fullscreen .msa-layerrail {
+  position: fixed;
+  z-index: 40;
+  top: var(--topbar-h, 40px);
+  left: 0;
+  right: 0;
+  bottom: calc(var(--timerail-h, 72px) + var(--statusbar-h, 24px));
+  width: auto;
+  min-width: 0;
+  border-right: 1px solid var(--border-mid);
+  border-top: 1px solid var(--border-mid);
+  border-bottom: 1px solid var(--border-mid);
+  transition:
+    opacity 160ms cubic-bezier(0.16, 1, 0.3, 1),
+    background 160ms ease,
+    border-color 160ms ease;
+  animation: msa-rail-fullscreen-enter 180ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes msa-rail-fullscreen-enter {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.msa-app.is-dock-fullscreen .msa-dock {
+  position: fixed;
+  /* Sit above the map (z:0), layer-rail (z:5), and topbar (z:10) neighbours,
+     but below the compare/network overlays (z:50) so those still float on top. */
+  z-index: 40;
+  /* Inset: below topbar, above timerail+statusbar — identical to .compare-overlay */
+  top: var(--topbar-h, 40px);
+  right: 0;
+  bottom: calc(var(--timerail-h, 72px) + var(--statusbar-h, 24px));
+  left: 0;
+  width: auto;
+  min-width: 0;
+  border-left: none;
+  border-top: 1px solid var(--border-mid);
+  border-bottom: 1px solid var(--border-mid);
+  /* Fullscreen dock fades in — compositor-only, no layout reflow.
+     The grid-template-columns transition on .msa-app already handles the
+     map-column expansion; opacity here prevents a flash of the dock panel
+     during the simultaneous grid resize. */
+  transition:
+    opacity 160ms cubic-bezier(0.16, 1, 0.3, 1),
+    background 160ms ease,
+    border-color 160ms ease;
+  /* Start transparent so the fade-in plays on enter. Exit is instant because
+     the dock re-enters the grid flow (position:static) which repaints cleanly. */
+  animation: msa-dock-fullscreen-enter 180ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes msa-dock-fullscreen-enter {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Fullscreen reading measure: the inspector is designed for the ~280px docked
+   column, so when it goes fullscreen we DON'T stretch that single column across
+   the whole map area (which magnifies charts + definition-list text). Instead we
+   centre the content within --dock-measure. The header centres to the same
+   measure so it lines up with the body. Docked + mobile modes are unaffected. */
+.msa-app.is-dock-fullscreen .msa-dock-scroll > * {
+  max-width: var(--dock-measure);
+  margin-inline: auto;
+}
+.msa-app.is-dock-fullscreen .msa-dock .dock-header {
+  max-width: var(--dock-measure);
+  margin-inline: auto;
+  width: 100%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  /* Kill the grid-column slide and fullscreen fade for users who prefer no motion. */
+  .msa-app {
+    transition: none;
+  }
+  .msa-app.is-dock-fullscreen .msa-dock {
+    animation: none;
+    transition: background 160ms ease, border-color 160ms ease;
+  }
+  .msa-app.is-rail-fullscreen .msa-layerrail {
+    animation: none;
+    transition: background 160ms ease, border-color 160ms ease;
+  }
+}
+
+.msa-layerrail--collapsed,
+.msa-dock--collapsed {
+  width: var(--rail-strip-w);
+  min-width: var(--rail-strip-w);
+  padding: 0;
+  overflow: hidden;
+  align-items: stretch;
+}
+
+/* Vertical re-open tab shown when a panel is collapsed. */
+.msa-rail-reopen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+  width: 100%;
+  height: 100%;
+  padding: var(--space-3) 0;
+  background: var(--surface);
+  border: none;
+  cursor: pointer;
+  color: var(--ink-mute);
+  transition: color var(--duration-fast, 120ms) var(--ease-out-expo, ease),
+              background var(--duration-fast, 120ms) var(--ease-out-expo, ease);
+}
+.msa-rail-reopen:hover,
+.msa-rail-reopen:focus-visible { color: var(--ink); background: var(--surface-2); }
+.msa-rail-reopen__chevron { font-size: 14px; line-height: 1; }
+.msa-rail-reopen__label {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  /* Vertical text for the thin strip. */
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+/* The "Hide" control at the top of each expanded panel. */
+.msa-rail-collapsehead {
+  display: flex;
+  justify-content: flex-start;
+  padding: var(--space-1) var(--space-2) 0;
+}
+.msa-rail-collapsehead--dock { justify-content: flex-end; }
+.msa-rail-collapse-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  padding: 2px 4px;
+  transition: color var(--duration-fast, 120ms) var(--ease-out-expo, ease);
+}
+.msa-rail-collapse-btn:hover,
+.msa-rail-collapse-btn:focus-visible { color: var(--ink); }
+
+.msa-dock::-webkit-scrollbar { width: 4px; }
+.msa-dock::-webkit-scrollbar-track { background: transparent; }
+.msa-dock::-webkit-scrollbar-thumb {
+  background: var(--border-mid);
+  border-radius: var(--radius);
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   TIME RAIL
+   Full-width strip, bottom of the map row. Chronoscope mounts here.
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.msa-timerail {
+  grid-area: timerail;
+  display: flex;
+  align-items: center;
+  height: var(--timerail-h);
+  padding: 0 var(--space-4);
+  background: var(--surface-2);
+  border-top: 1px solid var(--border-mid);
+  overflow: hidden;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   STATUS BAR
+   Slim bottom strip: each item = muted label + mono value, separated by
+   hairline dividers. Never clips text mid-word. Gracefully truncates on narrow
+   viewports: shrinkable items get text-overflow:ellipsis; fixed items stay put.
+
+   LAYOUT CONTRACT:
+   · All items share the same 24 px row height (--statusbar-h).
+   · .msa-statusbar__item  — flex-shrink:0; fixed; always visible at ≥ 1280 px.
+   · .msa-statusbar__item--shrink — flex-shrink:1; truncates with ellipsis when
+     space is tight; never breaks mid-word.
+   · .msa-statusbar__divider — hairline 1px vertical rule, flex-shrink:0.
+   · .msa-statusbar__spacer  — eats the remaining gap; pushes credit to far right.
+   · .msa-statusbar__item--credit — far-right product mark; opacity muted.
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.msa-statusbar {
+  grid-area: statusbar;
+  display: flex;
+  align-items: center;
+  height: var(--statusbar-h);
+  padding: 0 var(--space-3);
+  background: var(--surface-3);
+  border-top: 0.5px solid var(--border-mid);
+  /* Clip at the bar boundary — never show a scrollbar in this strip */
+  overflow: hidden;
+  /* Gap between items is provided by padding inside each item; no gap here
+     so the hairline dividers sit flush with the adjacent items. */
+  gap: 0;
+}
+
+/* ── Item shell ── */
+.msa-statusbar__item {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-1);
+  padding: 0 var(--space-2);
+  flex-shrink: 0;
+  /* Prevent items from flowing to a second line; the outer bar clips. */
+  white-space: nowrap;
+  min-width: 0;
+}
+
+/* Shrinkable variant: allows this item to compress and truncate its value */
+.msa-statusbar__item--shrink {
+  flex-shrink: 1;
+  min-width: 0;
+  overflow: hidden;
+}
+
+/* Far-right product credit: extra opacity reduction */
+.msa-statusbar__item--credit {
+  opacity: 0.35;
+  flex-shrink: 0;
+}
+
+/* ── Label (muted uppercase) ── */
+.msa-statusbar__label {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  flex-shrink: 0;
+  /* Override opacity so label stays distinct from value */
+  opacity: 0.7;
+}
+
+/* ── Value (readable mono, tabular-nums) ── */
+.msa-statusbar__value {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.03em;
+  color: var(--ink-mid);
+  /* Truncate long values with ellipsis — only kicks in inside --shrink items */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
+}
+
+/* ── Hairline divider ── */
+.msa-statusbar__divider {
+  width: 0.5px;
+  height: 10px;
+  background: var(--border-mid);
+  flex-shrink: 0;
+  align-self: center;
+}
+
+/* ── Legacy alias kept for any other code that references .msa-statusbar__sep ── */
+.msa-statusbar__sep {
+  width: 0.5px;
+  height: 10px;
+  background: var(--border-mid);
+  flex-shrink: 0;
+  align-self: center;
+}
+
+.msa-statusbar__spacer {
+  flex: 1;
+  min-width: 0;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   PANEL + PANEL-HEAD + PANEL-BODY
+   Sectioning blocks inside rails and dock. No box-shadow. Borders only.
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.panel:last-child {
+  border-bottom: none;
+}
+
+.panel-head {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  /* Account for the 3px accent band so the label aligns with .dl/.panel-body. */
+  padding: var(--space-2) var(--space-3) var(--space-2) calc(var(--space-3) - 3px);
+  min-height: var(--tap);
+  background: var(--surface-2);
+  border-bottom: 1px solid var(--border-mid);
+  /* Leading accent band groups each section visually (reuses the .row-key idiom).
+     --accent reads in every theme, including contrast. */
+  border-left: 3px solid var(--accent);
+  flex-shrink: 0;
+}
+
+.panel-head__label {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-mid);
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.panel-head__actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+  flex-shrink: 0;
+}
+
+.panel-body {
+  padding: var(--space-3);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   DOCK HEADER  (.dock-header) — inspector identity + actions row.
+   Was inline-styled in EntityDock; consolidated here. Contrast-safe tokens.
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.dock-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 0 var(--space-3);
+  min-height: var(--tap);
+  border-bottom: 1px solid var(--border-mid);
+  background: var(--surface);
+  flex-shrink: 0;
+}
+
+.dock-header__identity {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.dock-header__kind { line-height: 1.1; }
+
+.dock-header__name {
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink);
+  line-height: 1.15;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dock-header__compare {
+  background: none;
+  border: 1px solid var(--border-mid);
+  padding: 3px var(--space-2);
+  cursor: pointer;
+  color: var(--ink-mid);
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.dock-header__compare:hover:not(:disabled) { color: var(--ink); border-color: var(--ink-mid); }
+.dock-header__compare.is-active { color: var(--accent); opacity: 0.85; cursor: default; }
+.dock-header__compare:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+.dock-header__close {
+  background: none;
+  border: none;
+  padding: 4px;
+  cursor: pointer;
+  color: var(--ink-mid);
+  font-family: var(--font-mono);
+  font-size: 16px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.dock-header__close:hover { color: var(--ink); }
+.dock-header__close:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   RELATED PANEL  (.related-*) — adjacency-driven "related & similar" lists.
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.related-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.related-subhead {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-mid);
+  margin-bottom: var(--space-2);
+}
+
+.related-empty { font-size: 11px; color: var(--ink-mute); }
+
+.related-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.related-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+}
+
+.related-row__name {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.related-row__chips { display: flex; gap: 3px; flex-shrink: 0; }
+
+.related-row__shared {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  color: var(--ink-mute);
+  flex-shrink: 0;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   GHOST BUTTON  (.btn--ghost)
+   Extends .btn from atlas-tokens.css. Transparent fill; border only.
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.btn--ghost {
+  background: transparent;
+  color: var(--ink-mid);
+  border-color: var(--border-mid);
+}
+
+.btn--ghost:hover {
+  background: var(--surface-2);
+  color: var(--ink);
+  border-color: var(--border-strong);
+}
+
+.btn--ghost:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+/* Square icon-button sizing (topbar / panel-head controls) */
+.btn--icon {
+  padding: 0;
+  width: var(--tap);
+  height: var(--tap);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   ROW-KEY
+   List row with a 3 px left currentColor band encoding category/region/type.
+   Set `color` or `--row-color` inline on the element to tint the band.
+   The band uses currentColor so it inherits automatically.
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.row-key {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-2) var(--space-3);
+  min-height: var(--tap);
+  position: relative;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+}
+
+/* The left band: pseudo-element inherits currentColor from the element */
+.row-key::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: currentColor;
+  opacity: 0.65;
+}
+
+.row-key__label {
+  font-family: var(--font-body);
+  font-size: 12px;
+  color: var(--ink);
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.row-key__meta {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--ink-mute);
+  flex-shrink: 0;
+  letter-spacing: 0.04em;
+}
+
+.row-key:hover {
+  background: var(--surface-2);
+}
+
+.row-key.is-active {
+  background: var(--select-bg);
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   DL — DEFINITION LIST
+   Two-column grid: mono uppercase label | sans readable value.
+   Used in entity dock cards, inspect panels, tooltips.
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.dl {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0 var(--space-4);
+  margin: 0;
+  padding: var(--space-2) var(--space-3);
+}
+
+/* In the narrow docked column (~280px) a long mono label ("ADMINISTRATIVE
+   LANGUAGE") under `max-content` would starve the value column. Let the label
+   column shrink so the value always keeps usable width; the dt below also wraps
+   instead of forcing a single overflowing line. Dock-scoped so the roomy
+   desktop/fullscreen `max-content 1fr` default is untouched elsewhere. */
+.msa-dock .dl {
+  grid-template-columns: minmax(0, max-content) 1fr;
+}
+.msa-dock .dl dt {
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+/* Label: --ink-mid (not --ink-mute) so it stays legible under the contrast theme;
+   slightly more vertical rhythm so rows breathe instead of reading as a wall. */
+.dl dt {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-mid);
+  padding: var(--space-2) 0;
+  white-space: nowrap;
+  align-self: baseline;
+}
+
+/* Value: the dominant element — full ink, 13px, normal weight. */
+.dl dd {
+  font-family: var(--font-body);
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--ink);
+  margin: 0;
+  padding: var(--space-2) 0;
+  min-width: 0;
+  word-break: break-word;
+  align-self: baseline;
+}
+
+/* Row divider — use --border-mid (not the faint --border) so the separation
+   survives the contrast theme. Skip the first row pair. */
+.dl dt + dt,
+.dl dd + dd {
+  border-top: 1px solid var(--border-mid);
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   CREST — monogram + region color band
+   Usage: <div class="crest" style="--crest-color: …">
+            <span class="crest__mono">WE</span>
+            <span class="crest__band"></span>
+          </div>
+   The --crest-color should be set from domain tokens (REGION_COLORS in tokens.ts)
+   via inline style — it never appears as a literal hex here.
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.crest {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  width: 36px;
+  flex-shrink: 0;
+  border: 1px solid var(--border-mid);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--surface);
+}
+
+.crest__mono {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink);
+  padding: var(--space-1);
+  width: 100%;
+  text-align: center;
+  line-height: 1.2;
+}
+
+/* Color band: value injected via inline --crest-color from domain tokens */
+.crest__band {
+  display: block;
+  width: 100%;
+  height: 5px;
+  background: var(--crest-color, var(--ink-mute));
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   TAB-ROW
+   Horizontal tab strip. Active tab gets a bottom accent rule.
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.tab-row {
+  display: flex;
+  align-items: stretch;
+  border-bottom: 1px solid var(--border-mid);
+  background: var(--surface-2);
+  overflow-x: auto;
+  overflow-y: hidden;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+  flex-shrink: 0;
+}
+
+.tab-row::-webkit-scrollbar {
+  display: none;
+}
+
+.tab-row__tab {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-mid);
+  padding: 0 var(--space-3);
+  min-height: var(--tap);
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  cursor: pointer;
+  border-right: 1px solid var(--border);
+  border-bottom: 2px solid transparent;
+  background: transparent;
+  user-select: none;
+  transition: color 100ms ease, border-bottom-color 100ms ease, background 80ms ease;
+}
+
+.tab-row__tab:hover {
+  color: var(--ink);
+  background: var(--surface);
+}
+
+.tab-row__tab.is-active {
+  color: var(--ink);
+  background: var(--surface);
+  border-bottom-color: var(--accent);
+}
+
+.tab-row__tab:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   EMPTY STATE  (.msa-empty)
+   Used in .msa-layerrail, .msa-dock, .msa-timerail, and .msa-map when the
+   relevant data layer has not yet loaded. Reads as intentional, not broken:
+   a centered mark, a short uppercase label, and a one-line hint.
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.msa-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3);
+  width: 100%;
+  height: 100%;
+  min-height: 120px;
+  padding: var(--space-6);
+  text-align: center;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* Bordered glyph cell — the mark lives inside as an SVG or text character */
+.msa-empty__icon {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border-mid);
+  border-radius: var(--radius);
+  background: var(--surface-2);
+  color: var(--ink-mute);
+  flex-shrink: 0;
+}
+
+/* PRIMARY LABEL — mono caps, mid ink */
+.msa-empty__label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-mid);
+  margin: 0;
+}
+
+/* HINT — body, muted, short */
+.msa-empty__hint {
+  font-family: var(--font-body);
+  font-size: 11px;
+  line-height: 1.5;
+  color: var(--ink-mute);
+  margin: 0;
+  max-width: 22ch;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   GLOBAL FOCUS RING — hairline outline + halo (DESIGN.md: selection = outline + halo)
+   Token-driven. All four themes correct automatically via --focus-ring /
+   --focus-halo / --focus-offset tokens defined in atlas-tokens.css.
+
+   We do NOT suppress outline via `outline: none` anywhere in this file.
+   Per WCAG 2.4.7 / 2.4.11: every interactive element MUST have a visible
+   focus indicator. The only permitted suppression is inside .msa-map itself
+   (the MapLibre canvas handles its own focus UI).
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.msa-app *:focus-visible {
+  outline: 1.5px solid var(--focus-ring, var(--accent));
+  outline-offset: var(--focus-offset, 2px);
+  /* Halo: a spread box-shadow that halos the ring against any surface.
+     This is a FOCUS INDICATOR effect (WCAG 2.4.11), distinct from the
+     banned "panel shadow" (DESIGN.md §shadows). */
+  box-shadow: 0 0 0 3px var(--focus-halo, rgba(0,0,0,0.08));
+}
+
+/* Suppress the default browser outline — our custom ring already satisfies WCAG */
+.msa-app *:focus:not(:focus-visible) {
+  outline: none;
+  box-shadow: none;
+}
+
+/* MapLibre canvas — NO whole-map border (DESIGN.md §943: the one permitted
+   outline suppression). The selection indicator the user wants is the per-feature
+   blue ring drawn INSIDE the canvas by the map layers (e.g. polities-selected,
+   line-color #1d6fb5) — NOT a border around the entire map region. Focusing /
+   clicking the map must therefore NOT draw a DOM outline or halo around the whole
+   map rectangle. We suppress both `:focus-within` (whole region) and the canvas
+   focus states; every real UI control outside the map keeps its accessible ring. */
+.msa-map:focus-within,
+.msa-map:focus,
+.msa-map .maplibregl-canvas:focus,
+.msa-map .maplibregl-canvas:focus-visible,
+.msa-map .maplibregl-canvas-container:focus,
+.msa-map .maplibregl-canvas-container:focus-visible,
+.msa-map canvas:focus,
+.msa-map canvas:focus-visible {
+  outline: none;
+  box-shadow: none;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   ENTRANCE ANIMATION — one orchestrated staggered reveal
+   Apply `.is-ready` to `.msa-app` once stores hydrate and the map lib loads.
+   All six regions fade in and slide up 6 px, staggered 40 ms apart.
+   Without `.is-ready` they are invisible — prevents a flash of empty frame.
+
+   MOTION: transform + opacity only (compositor-only, no layout reflow).
+   REDUCED MOTION: regions are immediately visible; no animation runs.
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.msa-app:not(.is-ready) .msa-topbar,
+.msa-app:not(.is-ready) .msa-layerrail,
+.msa-app:not(.is-ready) .msa-map,
+.msa-app:not(.is-ready) .msa-dock,
+.msa-app:not(.is-ready) .msa-timerail,
+.msa-app:not(.is-ready) .msa-statusbar {
+  opacity: 0;
+  transform: translateY(6px);
+}
+
+.msa-app.is-ready .msa-topbar {
+  animation: msa-reveal 300ms cubic-bezier(0.16, 1, 0.3, 1) 40ms both;
+}
+
+.msa-app.is-ready .msa-layerrail {
+  animation: msa-reveal 320ms cubic-bezier(0.16, 1, 0.3, 1) 80ms both;
+}
+
+.msa-app.is-ready .msa-map {
+  animation: msa-reveal 380ms cubic-bezier(0.16, 1, 0.3, 1) 100ms both;
+}
+
+.msa-app.is-ready .msa-dock {
+  animation: msa-reveal 320ms cubic-bezier(0.16, 1, 0.3, 1) 140ms both;
+}
+
+.msa-app.is-ready .msa-timerail {
+  animation: msa-reveal 300ms cubic-bezier(0.16, 1, 0.3, 1) 180ms both;
+}
+
+.msa-app.is-ready .msa-statusbar {
+  animation: msa-reveal 260ms cubic-bezier(0.16, 1, 0.3, 1) 220ms both;
+}
+
+@keyframes msa-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Reduced motion: skip entirely — immediate full-opacity show */
+@media (prefers-reduced-motion: reduce) {
+  .msa-app:not(.is-ready) .msa-topbar,
+  .msa-app:not(.is-ready) .msa-layerrail,
+  .msa-app:not(.is-ready) .msa-map,
+  .msa-app:not(.is-ready) .msa-dock,
+  .msa-app:not(.is-ready) .msa-timerail,
+  .msa-app:not(.is-ready) .msa-statusbar {
+    opacity: 1;
+    transform: none;
+  }
+
+  .msa-app.is-ready .msa-topbar,
+  .msa-app.is-ready .msa-layerrail,
+  .msa-app.is-ready .msa-map,
+  .msa-app.is-ready .msa-dock,
+  .msa-app.is-ready .msa-timerail,
+  .msa-app.is-ready .msa-statusbar {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   RESPONSIVE — MOBILE (≤ 600 px)
+   Single-column stack. Layerrail and dock become fixed bottom-sheet overlays.
+   shell-chrome adds/removes `.is-open` to show/hide them.
+   No horizontal overflow at 320 or 375 px.
+   ───────────────────────────────────────────────────────────────────────────── */
+
+@media (max-width: 600px) {
+  :root {
+    --layerrail-w:   100%;
+    --dock-w:        100%;
+    --timerail-h:    60px;
+    /* Sheet bar: two trigger buttons sit above the TimeRail */
+    --sheet-bar-h:   44px;
+  }
+
+  .msa-app {
+    grid-template-columns: 1fr;
+    grid-template-rows:
+      var(--topbar-h)
+      1fr
+      var(--sheet-bar-h)
+      var(--timerail-h)
+      var(--statusbar-h);
+
+    grid-template-areas:
+      "topbar"
+      "map"
+      "sheetbar"
+      "timerail"
+      "statusbar";
+  }
+
+  /* Definition lists stack to a single column in the mobile bottom-sheet — at
+     phone width the two-column label/value grid squeezes both. Label sits above
+     its value with tight rhythm. */
+  .dl {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .dl dt {
+    padding-bottom: 0;
+    white-space: normal;
+  }
+  .dl dd {
+    padding-top: 2px;
+  }
+  /* First-row divider rule keyed on dt+dt / dd+dd still applies; no change. */
+
+  /* ── Sheet trigger bar ───────────────────────────────────────────────────────
+     A narrow strip of two buttons (Layers / Entity) that open/close the sheets.
+     Positioned in the grid between map and timerail; always visible on mobile.
+     Uses .is-open class state toggled by useMobileSheet to style active buttons.
+  ──────────────────────────────────────────────────────────────────────────── */
+
+  .msa-sheet-bar {
+    grid-area: sheetbar;
+    display: flex;
+    align-items: center;
+    height: var(--sheet-bar-h);
+    background: var(--surface-2);
+    border-top: 1px solid var(--border-mid);
+    border-bottom: none;
+    z-index: 10;
+    padding: 0 var(--space-3);
+    gap: var(--space-2);
+  }
+
+  /* Hide the sheet-bar on desktop (only rendered in mobile grid) */
+
+  .msa-sheet-trigger {
+    flex: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-2);
+    height: 32px;
+    background: transparent;
+    border: 1px solid var(--border-mid);
+    color: var(--ink-mute);
+    font-family: var(--font-mono);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    cursor: pointer;
+    user-select: none;
+    /* Compositor-only state transitions */
+    transition:
+      background 120ms ease,
+      color 120ms ease,
+      border-color 120ms ease;
+  }
+
+  .msa-sheet-trigger:hover {
+    background: var(--surface-3);
+    color: var(--ink-mid);
+    border-color: var(--border-strong);
+  }
+
+  .msa-sheet-trigger.is-open {
+    background: var(--surface);
+    color: var(--ink);
+    border-color: var(--accent);
+  }
+
+  .msa-sheet-trigger:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+
+  /* Dot indicator — matches the layer-row dot language */
+  .msa-sheet-trigger__dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 1.5px solid var(--border-strong);
+    background: transparent;
+    flex-shrink: 0;
+    transition: background 100ms ease, border-color 100ms ease;
+  }
+
+  .msa-sheet-trigger.is-open .msa-sheet-trigger__dot {
+    background: var(--accent);
+    border-color: var(--accent);
+  }
+
+  /* Vertical divider between the two trigger buttons */
+  .msa-sheet-bar__sep {
+    width: 1px;
+    height: 20px;
+    background: var(--border-mid);
+    flex-shrink: 0;
+  }
+
+  /* ── Sheet backdrop ───────────────────────────────────────────────────────────
+     Semi-opaque overlay behind the open sheet, above the map, below the sheet.
+     Rendered by useMobileSheet; clicked to close the active sheet.
+     opacity-only transition — compositor safe.
+  ──────────────────────────────────────────────────────────────────────────── */
+
+  .msa-sheet-backdrop {
+    position: fixed;
+    inset: var(--topbar-h) 0 calc(var(--sheet-bar-h) + var(--timerail-h) + var(--statusbar-h)) 0;
+    background: var(--ink);
+    opacity: 0;
+    pointer-events: none;
+    z-index: 190;
+    transition: opacity 220ms ease;
+  }
+
+  .msa-sheet-backdrop.is-visible {
+    opacity: 0.35;
+    pointer-events: auto;
+  }
+
+  /* ── Sheet handle ─────────────────────────────────────────────────────────────
+     Visual drag bar at the top of each bottom-sheet. Always rendered inside
+     .msa-layerrail and .msa-dock via useMobileSheet — hidden on desktop via
+     display:none on the non-mobile rule below.
+     Square corners; no shadow; compositor-only.
+  ──────────────────────────────────────────────────────────────────────────── */
+
+  .msa-sheet-handle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 28px;
+    flex-shrink: 0;
+    cursor: pointer;
+    background: var(--surface-2);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .msa-sheet-handle::before {
+    content: '';
+    display: block;
+    width: 32px;
+    height: 3px;
+    background: var(--border-strong);
+    /* Square handle pill — radius=0 follows DESIGN.md */
+  }
+
+  .msa-sheet-handle:hover::before {
+    background: var(--ink-mute);
+  }
+
+  /* Rails slide off the bottom edge by default */
+  .msa-layerrail,
+  .msa-dock {
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-height: 60vh;
+    bottom: calc(var(--sheet-bar-h) + var(--timerail-h) + var(--statusbar-h));
+    z-index: 200;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    /* Cancel the desktop msa-reveal animation — its fill-mode:both would leave
+       transform:translateY(0) applied via animation-fill-mode, which overrides
+       the translateY(100%) below. Resetting animation to none lets the CSS
+       transform take effect so the sheets start off-screen on mobile. */
+    animation: none !important;
+    transform: translateY(100%);
+    /* Slide transition — compositor only */
+    transition:
+      transform 220ms cubic-bezier(0.22, 1, 0.36, 1),
+      background 160ms ease,
+      border-color 160ms ease;
+  }
+
+  .msa-layerrail.is-open,
+  .msa-dock.is-open {
+    transform: translateY(0);
+  }
+
+  /* Dock draws slightly above rail on mobile if both open simultaneously */
+  .msa-dock {
+    z-index: 210;
+  }
+
+  /* Collapsed topbar at 480 px — hide subtitle and divider, keep brand + icon controls */
+  @media (max-width: 480px) {
+    .msa-topbar__sub,
+    .msa-topbar__divider {
+      display: none;
+    }
+  }
+}
+
+/* ── Desktop: hide mobile-only chrome ────────────────────────────────────────
+   Elements added by useMobileSheet are hidden on desktop so they never appear
+   in the six-column grid layout.
+──────────────────────────────────────────────────────────────────────────── */
+
+@media (min-width: 601px) {
+  .msa-sheet-bar,
+  .msa-sheet-backdrop,
+  .msa-sheet-handle {
+    display: none !important;
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   GLYPH STUD — map event marker
+   The colored disc + mark rendered by GlyphStud (design/glyphs.tsx).
+   Layout helper: display:inline-block so studs sit inline in flex containers
+   and the .msa-empty__icon cell. All color comes from the SVG fill/stroke.
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.glyph-stud {
+  display: inline-block;
+  flex-shrink: 0;
+  /* Compositor-only hover scale — no layout reflow */
+  transition: transform 120ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glyph-stud:hover {
+  transform: scale(1.15);
+}
+
+/* Stud inside an .msa-empty__icon cell — fills the 32×32 container */
+.msa-empty__icon .glyph-stud {
+  width: 100%;
+  height: 100%;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   LAYER-ROW — toggle button in the layer rail
+   Full-width button; left dot indicates visibility; name label fills remaining.
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.layer-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 0 var(--space-3);
+  min-height: var(--tap);
+  width: 100%;
+  background: var(--surface);
+  border: none;
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  text-align: left;
+  transition: background 80ms ease, color 80ms ease;
+  color: var(--ink-mute);
+}
+
+.layer-row:hover {
+  background: var(--surface-2);
+  color: var(--ink-mid);
+}
+
+.layer-row.is-visible {
+  color: var(--ink);
+}
+
+.layer-row:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+}
+
+/* Dot — off: hollow ring; on: filled accent circle */
+.layer-row__dot {
+  flex-shrink: 0;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  border: 1.5px solid var(--border-strong);
+  background: transparent;
+  transition: background 100ms ease, border-color 100ms ease;
+}
+
+.layer-row__dot.is-on {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.layer-row__name {
+  font-family: var(--font-body);
+  font-size: 12px;
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   LAYER GROUPS + LAYER ITEMS (ArcGIS LayerList convention)
+   Collapsible groups (Territory/Places/Activity/Relations) of layer items.
+   Each item = visibility toggle + name + opacity %; expanding reveals the
+   opacity slider "actions" panel. Reuses the legend expander chrome language:
+   square corners, hairline borders only, no shadow, motion on transform/opacity.
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.layer-groups {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Collapsible group ────────────────────────────────────────────────────── */
+
+.layer-group {
+  border-bottom: 1px solid var(--border);
+}
+
+.layer-group:last-child {
+  border-bottom: none;
+}
+
+.layer-group > summary {
+  list-style: none;
+}
+
+.layer-group > summary::-webkit-details-marker {
+  display: none;
+}
+
+.layer-group__summary {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-3);
+  min-height: 28px;
+  background: var(--surface-2);
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  user-select: none;
+  transition: background 80ms ease;
+}
+
+.layer-group__summary:hover {
+  background: var(--surface-3);
+}
+
+.layer-group__summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+}
+
+.layer-group__title {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-mid);
+  flex: 1;
+  min-width: 0;
+}
+
+.layer-group__count {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  color: var(--ink-mute);
+  letter-spacing: 0.04em;
+  flex-shrink: 0;
+}
+
+/* Chevron: rotates from right (collapsed) to down (open) — transform only */
+.layer-group__summary::after {
+  content: '›';
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 1;
+  color: var(--ink-mute);
+  flex-shrink: 0;
+  transition: transform 160ms ease;
+}
+
+.layer-group[open] > .layer-group__summary::after {
+  transform: rotate(90deg);
+}
+
+.layer-group__items {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Layer item (one row + expandable opacity panel) ──────────────────────── */
+
+.layer-item {
+  border-bottom: 1px solid var(--border);
+}
+
+.layer-item:last-child {
+  border-bottom: none;
+}
+
+.layer-item__summary {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  /* Vertical rhythm: a little top/bottom padding loosens the dense border-only
+     rows so the label and toggle breathe; min-height still guarantees the tap
+     target. A transparent left border reserves space for the is-visible accent
+     below so toggling a layer on never shifts the row horizontally. */
+  padding: var(--space-1) var(--space-3);
+  min-height: var(--tap);
+  background: var(--surface);
+  border-left: 2px solid transparent;
+  user-select: none;
+  color: var(--ink-mute);
+  transition: background 80ms ease, color 80ms ease, border-color 80ms ease;
+}
+
+.layer-item__summary:hover {
+  background: var(--surface-2);
+  color: var(--ink-mid);
+}
+
+/* Visible-layer affordance: the row carries the layer's name in full ink and a
+   thin accent rule on its leading edge, so on/off reads at a glance beyond the
+   small dot alone. Driven by the same is-visible state as the toggle. */
+.layer-item__summary.is-visible {
+  color: var(--ink);
+  border-left-color: var(--accent);
+}
+
+/* Visibility toggle button */
+.layer-item__toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+.layer-item__toggle:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 0;
+}
+
+.layer-item__toggle.is-visible {
+  color: var(--ink);
+}
+
+/* Expand/collapse button at end of row */
+.layer-item__expand {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--ink-mute);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  line-height: 1;
+  transition: transform 160ms ease;
+}
+
+.layer-item__expand.is-open {
+  transform: rotate(90deg);
+}
+
+.layer-item__expand:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 0;
+}
+
+/* Dot — off: hollow ring; on: filled accent circle */
+.layer-item__dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  border: 1.5px solid var(--border-strong);
+  background: transparent;
+  transition: background 100ms ease, border-color 100ms ease;
+}
+
+.layer-item__dot.is-on {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.layer-item__name {
+  font-family: var(--font-body);
+  font-size: 12px;
+  line-height: 1.3;
+  color: inherit;
+  flex: 1;
+  min-width: 0;
+  /* Wrap long names ("Language families (modern, not medieval)") to 2 lines
+     instead of truncating with an ellipsis. Full text stays in the title attr. */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  overflow-wrap: anywhere;
+}
+
+.layer-item__summary:hover .layer-item__name {
+  color: inherit;
+}
+
+/* Live opacity percent readout on the row */
+.layer-item__pct {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  color: var(--ink-mute);
+  letter-spacing: 0.02em;
+  flex-shrink: 0;
+  min-width: 30px;
+  text-align: right;
+}
+
+/* Actions panel revealed on expand */
+.layer-item__panel {
+  /* Modest left indent (aligns under the label, not the full toggle+gap offset)
+     so the opacity slider has usable width at the 200px rail. */
+  padding: var(--space-2) var(--space-3) var(--space-2) calc(var(--space-3) + var(--space-2));
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+}
+
+/* ── Opacity slider ───────────────────────────────────────────────────────── */
+
+.layer-slider {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.layer-slider__label {
+  font-family: var(--font-mono);
+  font-size: 8px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  flex-shrink: 0;
+}
+
+.layer-slider__value {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  color: var(--ink-mid);
+  flex-shrink: 0;
+  min-width: 28px;
+  text-align: right;
+}
+
+/* Square, hairline, token-styled range input — no rounded native chrome */
+.layer-slider__input {
+  flex: 1;
+  min-width: 0;
+  height: var(--tap);
+  margin: 0;
+  background: transparent;
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.layer-slider__input:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Track — a thin hairline rule */
+.layer-slider__input::-webkit-slider-runnable-track {
+  height: 2px;
+  background: var(--border-strong);
+  border-radius: var(--radius);
+}
+
+.layer-slider__input::-moz-range-track {
+  height: 2px;
+  background: var(--border-strong);
+  border-radius: var(--radius);
+}
+
+/* Thumb — square accent block with a hairline border */
+.layer-slider__input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 9px;
+  height: 14px;
+  margin-top: -6px;
+  background: var(--accent);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius);
+  transition: background 100ms ease;
+}
+
+.layer-slider__input::-moz-range-thumb {
+  width: 9px;
+  height: 14px;
+  background: var(--accent);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius);
+  transition: background 100ms ease;
+}
+
+.layer-slider__input:hover::-webkit-slider-thumb {
+  background: var(--ink);
+}
+
+.layer-slider__input:hover::-moz-range-thumb {
+  background: var(--ink);
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   LEGEND
+   Real color key below the layer toggles. Three collapsible sections:
+   Event categories, Regions, Relationship types.
+
+   HARD RULES (all inherited from shell contract):
+   · No box-shadow. Borders only.
+   · Square corners (--radius = 0 px in every theme).
+   · No hard-coded hex — all color comes from inline `style` (domain tokens)
+     or CSS custom properties.
+   · Transition on opacity only (compositor-safe).
+   ───────────────────────────────────────────────────────────────────────────── */
+
+/* Scroll container for all legend sections — takes remaining panel height */
+.legend-body {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-mid) transparent;
+}
+
+.legend-body::-webkit-scrollbar { width: 3px; }
+.legend-body::-webkit-scrollbar-track { background: transparent; }
+.legend-body::-webkit-scrollbar-thumb { background: var(--border-mid); }
+
+/* ── Legend section wrapper ─────────────────────────────────────────────── */
+
+.legend-section {
+  border-bottom: 1px solid var(--border);
+  transition: opacity 140ms ease;
+}
+
+.legend-section:last-child {
+  border-bottom: none;
+}
+
+/* Dim the whole section when its corresponding layer is toggled off */
+.legend-section.is-layer-off {
+  opacity: 0.38;
+}
+
+/* Section header (for the non-collapsible categories section) */
+.legend-section__head {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-3);
+  background: var(--surface-2);
+  border-bottom: 1px solid var(--border);
+  min-height: 28px;
+}
+
+.legend-section__title {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-mid);
+  flex: 1;
+  min-width: 0;
+}
+
+/* Small "off" badge shown inline in the header when layer is hidden */
+.legend-section__off-badge {
+  font-family: var(--font-mono);
+  font-size: 8px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  border: 0.5px solid var(--border-mid);
+  padding: 0 var(--space-1);
+  line-height: 1.6;
+  flex-shrink: 0;
+}
+
+/* Clickable variant — turns the dimmed layer on (P2-2). Button reset + affordance. */
+.legend-section__off-badge--btn {
+  background: transparent;
+  cursor: pointer;
+  transition: color var(--duration-fast, 120ms) var(--ease-out-expo, ease),
+              border-color var(--duration-fast, 120ms) var(--ease-out-expo, ease);
+}
+.legend-section__off-badge--btn:hover,
+.legend-section__off-badge--btn:focus-visible {
+  color: var(--ink);
+  border-color: var(--ink-mute);
+}
+
+/* ── Collapsible expander (regions + relationships) ──────────────────────── */
+
+.legend-expander {
+  /* No native marker — we control the chevron via CSS content trick */
+}
+
+.legend-expander > summary {
+  list-style: none; /* remove default triangle in Firefox */
+}
+
+.legend-expander > summary::-webkit-details-marker {
+  display: none; /* remove default triangle in Chrome/Safari */
+}
+
+.legend-expander__summary {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-3);
+  background: var(--surface-2);
+  border-bottom: 1px solid var(--border);
+  min-height: 28px;
+  cursor: pointer;
+  user-select: none;
+  transition: background 80ms ease;
+}
+
+.legend-expander__summary:hover {
+  background: var(--surface-3);
+}
+
+.legend-expander__summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+}
+
+/* Chevron: right-pointing arrow that rotates down when open */
+.legend-expander__summary::after {
+  content: '›';
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--ink-mute);
+  margin-left: auto;
+  transition: transform 160ms ease;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.legend-expander[open] > .legend-expander__summary::after {
+  transform: rotate(90deg);
+}
+
+.legend-expander__count {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  color: var(--ink-mute);
+  letter-spacing: 0.04em;
+  flex-shrink: 0;
+}
+
+/* ── Event category list ─────────────────────────────────────────────────── */
+
+.legend-cat-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.legend-cat-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-1) var(--space-3);
+  border-bottom: 1px solid var(--border);
+  min-height: 28px;
+  background: var(--surface);
+}
+
+.legend-cat-row:last-child {
+  border-bottom: none;
+}
+
+.legend-cat-row__stud {
+  flex-shrink: 0;
+  /* Scale transition on hover inherited from .glyph-stud */
+}
+
+.legend-cat-row__label {
+  font-family: var(--font-body);
+  font-size: 11px;
+  line-height: 1.3;
+  color: var(--ink);
+  flex: 1;
+  min-width: 0;
+  /* Wrap long category labels to 2 lines instead of truncating. */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  overflow-wrap: anywhere;
+}
+
+/* Mono code letter — single uppercase character, right-aligned */
+.legend-cat-row__code {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--ink-mute);
+  flex-shrink: 0;
+  width: 12px;
+  text-align: right;
+  letter-spacing: 0;
+}
+
+/* ── Event category clickable rows — solo / dimmed states ────────────────── */
+
+/* Make category rows interactive (click-to-solo). */
+.legend-cat-row--clickable {
+  cursor: pointer;
+  transition: background 120ms ease, opacity 120ms ease;
+  user-select: none;
+}
+
+.legend-cat-row--clickable:hover {
+  background: var(--surface-raised, var(--surface));
+  filter: brightness(0.97);
+}
+
+.legend-cat-row--clickable:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+}
+
+/* Solo'd row: highlighted with a subtle accent tint */
+.legend-cat-row--clickable.is-solo {
+  background: color-mix(in srgb, var(--accent, #4a7) 12%, var(--surface));
+  border-left: 2px solid var(--accent, #4a7);
+  padding-left: calc(var(--space-3) - 2px);
+}
+
+/* Non-solo rows when a solo is active: dim them */
+.legend-cat-row--clickable.is-dimmed {
+  opacity: 0.38;
+}
+
+/* Solo badge — small mono chip on the active row */
+.legend-cat-row__solo-badge {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent, #4a7);
+  flex-shrink: 0;
+  padding: 1px 4px;
+  border: 1px solid var(--accent, #4a7);
+  border-radius: var(--radius);
+  line-height: 1.4;
+}
+
+/* Reset button in the legend head (reuses off-badge shape) */
+.legend-cat-reset {
+  color: var(--accent, #4a7);
+  border-color: var(--accent, #4a7);
+}
+
+/* ── Event time mode — segmented Exact / Span toggle + span stepper ─────────── */
+
+.legend-time-mode {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* Wrap the Exact/Span segmented control and the ± span stepper onto a second
+     line at narrow widths instead of overflowing/cramping. */
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-3);
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+}
+
+/* Segmented control: two buttons sharing one hairline-bordered track. */
+.legend-seg {
+  display: inline-flex;
+  border: 1px solid var(--border-mid);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.legend-seg__btn {
+  appearance: none;
+  height: 24px;
+  padding: 0 var(--space-3);
+  font-family: var(--font-body);
+  font-size: 11px;
+  line-height: 1;
+  color: var(--ink-mute);
+  background: var(--surface-raised, var(--paper, #faf8f4));
+  border: none;
+  cursor: pointer;
+  transition: color 100ms ease, background 100ms ease;
+}
+
+.legend-seg__btn + .legend-seg__btn {
+  border-left: 1px solid var(--border-mid);
+}
+
+.legend-seg__btn:hover {
+  color: var(--ink);
+}
+
+.legend-seg__btn.is-active {
+  color: var(--paper, #fff);
+  background: var(--accent, #4a7);
+}
+
+.legend-seg__btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+}
+
+/* ± year stepper, shown only in span mode. */
+.legend-span-step {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1, 4px);
+}
+
+.legend-span-step__btn {
+  appearance: none;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  line-height: 1;
+  color: var(--ink);
+  background: var(--surface-raised, var(--paper, #faf8f4));
+  border: 1px solid var(--border-mid);
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: color 100ms ease, background 100ms ease, opacity 100ms ease;
+}
+
+.legend-span-step__btn:hover:not(:disabled) {
+  color: var(--accent, #4a7);
+  border-color: var(--accent, #4a7);
+}
+
+.legend-span-step__btn:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.legend-span-step__btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+.legend-span-step__value {
+  min-width: 48px;
+  text-align: center;
+  font-family: var(--font-mono, monospace);
+  font-size: 11px;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+
+/* When the events layer is off the whole section dims (via .is-layer-off on the
+   parent), so these controls inherit the dim — no extra rule needed. */
+
+/* ── Event search input ───────────────────────────────────────────────────── */
+
+.legend-cat-search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: var(--space-2) var(--space-3);
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+}
+
+.legend-cat-search__input {
+  flex: 1;
+  min-width: 0;
+  height: 24px;
+  padding: 0 24px 0 var(--space-2);
+  font-family: var(--font-body);
+  font-size: 11px;
+  color: var(--ink);
+  background: var(--surface-raised, var(--paper, #faf8f4));
+  border: 1px solid var(--border-mid);
+  border-radius: var(--radius);
+  outline: none;
+  /* Remove browser default search decorations */
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.legend-cat-search__input::placeholder {
+  color: var(--ink-mute);
+}
+
+.legend-cat-search__input:focus {
+  border-color: var(--accent, #4a7);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent, #4a7) 18%, transparent);
+}
+
+/* Clear (×) button overlaid at the right of the input */
+.legend-cat-search__clear {
+  position: absolute;
+  right: calc(var(--space-3) + 4px);
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  line-height: 1;
+  color: var(--ink-mute);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  border-radius: 50%;
+  transition: color 100ms ease, background 100ms ease;
+}
+
+.legend-cat-search__clear:hover {
+  color: var(--ink);
+  background: var(--border);
+}
+
+.legend-cat-search__clear:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+/* Empty-state row when search matches nothing */
+.legend-cat-empty {
+  padding: var(--space-2) var(--space-3);
+  font-family: var(--font-body);
+  font-size: 11px;
+  color: var(--ink-mute);
+  font-style: italic;
+  list-style: none;
+}
+
+/* ── Color swatch list (regions + relationships) ──────────────────────────── */
+
+.legend-swatch-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  /* Allow internal scroll if the expander is very tall. Responsive cap: show
+     more rows on tall screens (was a hard 220px ≈ 10 rows). */
+  max-height: min(50vh, 360px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-mid) transparent;
+}
+
+.legend-swatch-list::-webkit-scrollbar { width: 3px; }
+.legend-swatch-list::-webkit-scrollbar-thumb { background: var(--border-mid); }
+
+.legend-swatch-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-1) var(--space-3);
+  border-bottom: 1px solid var(--border);
+  min-height: 24px;
+  background: var(--surface);
+}
+
+.legend-swatch-row:last-child {
+  border-bottom: none;
+}
+
+/* Square filled swatch — region fill color comes from inline style.background */
+.legend-swatch {
+  flex-shrink: 0;
+  width: 10px;
+  height: 10px;
+  border: 1px solid var(--border-mid);
+  /* background set inline by the component */
+  display: inline-block;
+}
+
+/* Dash swatch for relationship lines — a short colored horizontal rule */
+.legend-dash-swatch {
+  flex-shrink: 0;
+  width: 14px;
+  height: 0;
+  border-top: 2.5px solid;
+  /* border-top-color set inline by the component */
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.legend-swatch-row__label {
+  font-family: var(--font-body);
+  font-size: 11px;
+  line-height: 1.3;
+  color: var(--ink);
+  flex: 1;
+  min-width: 0;
+  /* Wrap long region/relationship labels to 2 lines instead of truncating. */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  overflow-wrap: anywhere;
+}

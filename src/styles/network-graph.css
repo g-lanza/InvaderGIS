@@ -1,0 +1,713 @@
+/* =============================================================================
+   network-graph.css — Relationship Network Graph (P4-A)
+   Historical Data Visualizer · A product of Gavin Lanza.
+
+   DESIGN CONTRACT:
+   · Zero hard-coded hex — all via var(--token) or currentColor.
+   · No box-shadow on panels. Borders only.
+   · Square corners — var(--radius) = 0 in every theme.
+   · No italics in chrome.
+   · Animations on transform + opacity only (compositor-safe).
+   · All four themes correct (atlas / manuscript / dark / contrast).
+
+   LEGEND COLOR VARS (--ng-color-*):
+   Values mirror RELATIONSHIP_TYPES in design/tokens.ts.
+   They are set as CSS custom properties so the legend swatches reference
+   the same source-of-truth tokens without importing JS in CSS.
+   ============================================================================= */
+
+/* ── Legend color vars (relationship type palette) ────────────────────────── */
+/* These match the hex values in tokens.ts RELATIONSHIP_TYPES exactly.
+   In dark theme the SVG layer calls domainColor() to lighten them — the legend
+   uses the same vars so it stays aligned. */
+:root {
+  --ng-color-alliance:   #2e8b57;
+  --ng-color-rivalry:    #9c1c1c;
+  --ng-color-succession: #3b6a8c;
+  --ng-color-vassalage:  #5a3d8a;
+  --ng-color-tributary:  #9b7a3a;
+  --ng-color-trade:      #a3592a;
+  --ng-color-marriage:   #a07a9b;
+  --ng-color-religious:  #7a5c1e;
+}
+
+[data-theme="dark"] {
+  /* Lightened 28% per domainColor() in tokens.ts */
+  --ng-color-alliance:   #5fc97f;
+  --ng-color-rivalry:    #c95050;
+  --ng-color-succession: #6a9dc2;
+  --ng-color-vassalage:  #9068b2;
+  --ng-color-tributary:  #c9a568;
+  --ng-color-trade:      #c9845a;
+  --ng-color-marriage:   #c9a5c9;
+  --ng-color-religious:  #a08548;
+}
+
+/* ── Overlay (full-screen over map) ──────────────────────────────────────── */
+
+.network-overlay {
+  /* Fixed over the map area — leaves TopBar (40px) + TimeRail/StatusBar visible */
+  position: fixed;
+  inset: var(--topbar-h, 40px) 0 calc(var(--timerail-h, 72px) + var(--statusbar-h, 24px)) 0;
+  z-index: 50;
+
+  display: flex;
+  flex-direction: column;
+
+  background: var(--surface);
+  border-top: 1px solid var(--border-mid);
+  border-bottom: 1px solid var(--border-mid);
+
+  /* Hidden by default — no pointer-events, invisible, and visibility:hidden so
+     focusable children are removed from the tab order (WCAG 2.4.3/4.1.2 — was a
+     keyboard focus-trap into an invisible overlay). visibility is delayed to the
+     end of the fade so the close transition still animates. */
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  transition: opacity 200ms cubic-bezier(0.16, 1, 0.3, 1), visibility 0s linear 200ms;
+}
+
+.network-overlay.is-open {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+  transition: opacity 200ms cubic-bezier(0.16, 1, 0.3, 1), visibility 0s;
+}
+
+/* Reduced motion: skip fade */
+@media (prefers-reduced-motion: reduce) {
+  .network-overlay {
+    transition: none;
+  }
+}
+
+/* ── Overlay header bar ───────────────────────────────────────────────────── */
+
+.network-overlay__bar {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: 0 var(--space-4);
+  height: 36px;
+  background: var(--surface-2);
+  border-bottom: 1px solid var(--border-mid);
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.network-overlay__title {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-mid);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* Legend strip */
+.network-overlay__legend {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.network-overlay__legend-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+  flex-shrink: 0;
+}
+
+.network-overlay__legend-swatch {
+  display: inline-block;
+  width: 16px;
+  height: 2px;
+  flex-shrink: 0;
+}
+
+.network-overlay__legend-label {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  white-space: nowrap;
+}
+
+/* Clickable legend rows that double as relationship-type filters. */
+.network-overlay__legend-item--toggle {
+  background: none;
+  border: none;
+  padding: 2px 4px;
+  margin: 0;
+  cursor: pointer;
+  border-radius: var(--radius);
+  transition: background 80ms ease, opacity 80ms ease;
+}
+.network-overlay__legend-item--toggle:hover {
+  background: var(--surface-2);
+}
+.network-overlay__legend-item--toggle:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 0;
+}
+.network-overlay__legend-item--toggle.is-hidden .network-overlay__legend-label {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+/* "Active year only" toggle button — same mono chrome as the legend. */
+.network-overlay__active-toggle {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  white-space: nowrap;
+  background: none;
+  border: 1px solid var(--border-mid);
+  border-radius: var(--radius);
+  padding: 2px var(--space-2);
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: background 80ms ease, color 80ms ease, border-color 80ms ease;
+}
+.network-overlay__active-toggle:hover {
+  color: var(--ink-mid);
+  background: var(--surface-2);
+}
+.network-overlay__active-toggle.is-active {
+  color: var(--ink);
+  border-color: var(--accent);
+}
+.network-overlay__active-toggle:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 0;
+}
+
+.network-overlay__legend-dash {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.04em;
+  color: var(--ink-mute);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.network-overlay__close {
+  flex-shrink: 0;
+  margin-left: auto;
+}
+
+/* ── Graph canvas area ────────────────────────────────────────────────────── */
+
+.network-overlay__canvas {
+  flex: 1;
+  min-height: 0;
+  position: relative;
+  overflow: hidden;
+  background: var(--bg);
+}
+
+/* ── NetworkGraph component ───────────────────────────────────────────────── */
+
+.network-graph {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/* ── Graph header (counts + status) ──────────────────────────────────────── */
+
+.network-graph__header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-1) var(--space-3);
+  height: 24px;
+  background: var(--surface-3);
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.network-graph__stat {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.04em;
+  color: var(--ink-mute);
+  white-space: nowrap;
+}
+
+.network-graph__stat--dim {
+  opacity: 0.6;
+}
+
+.network-graph__sep {
+  width: 1px;
+  height: 10px;
+  background: var(--border-mid);
+  flex-shrink: 0;
+}
+
+.network-graph__warn {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+/* ── SVG canvas ───────────────────────────────────────────────────────────── */
+
+/* Shared "how to read this view" help line under each Network tab's header. */
+.network-help-line {
+  margin: 0;
+  padding: var(--space-2) var(--space-3);
+  font-size: 11px;
+  line-height: 1.5;
+  color: var(--ink-mute);
+  background: var(--surface-2);
+  border-bottom: 0.5px solid var(--border-mid);
+  flex-shrink: 0;
+}
+.network-help-line strong {
+  color: var(--ink-mid);
+  font-weight: 600;
+}
+
+.network-graph__svg {
+  flex: 1;
+  min-height: 0;
+  display: block;
+  /* Ensure SVG fills the canvas container */
+  width: 100%;
+  height: 100%;
+  /* Reveal: the layout is pre-settled off-screen, so we just gently fade the
+     finished graph in — no visible flailing of nodes/edges on open. */
+  animation: ng-reveal 320ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes ng-reveal {
+  from { opacity: 0; transform: scale(0.985); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .network-graph__svg { animation: none; }
+}
+
+/* ── Edge elements ────────────────────────────────────────────────────────── */
+
+.network-graph__edge {
+  /* Transition opacity for hover dimming — compositor-safe (SVG attr) */
+  transition: stroke-opacity 80ms ease;
+}
+
+/* ── Node elements ────────────────────────────────────────────────────────── */
+
+.network-graph__node-circle {
+  /* Scale on hover via parent opacity transition */
+  transition: r 80ms ease;
+}
+
+.network-graph__node-label {
+  font-family: var(--font-mono);
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* Focus ring on keyboard-navigated nodes */
+.network-graph__node:focus-visible circle {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* ── State panels (loading / error / empty) ───────────────────────────────── */
+
+.network-graph__state {
+  flex: 1;
+}
+
+/* ── Tooltip ──────────────────────────────────────────────────────────────── */
+
+.network-graph__tooltip {
+  position: absolute;
+  /* Positioned in bottom-left; JS could position near node but CSS fixed
+     corners are simpler, avoid SVG coordinate transforms, and stay in-bounds */
+  bottom: var(--space-4);
+  left: var(--space-4);
+  z-index: 60;
+
+  width: 220px;
+
+  background: var(--surface);
+  border: 1px solid var(--border-mid);
+
+  /* No box-shadow — borders only (DESIGN.md) */
+  pointer-events: none;
+  user-select: none;
+}
+
+.network-graph__tooltip-head {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-3);
+  border-bottom: 1px solid var(--border);
+  background: var(--surface-2);
+}
+
+.network-graph__tooltip-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 0;         /* Square corners — DESIGN.md law */
+  flex-shrink: 0;
+}
+
+.network-graph__tooltip-name {
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--ink);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Reuse .dl from atlas-shell.css for the tooltip definition list */
+.network-graph__tooltip-dl {
+  margin: 0;
+}
+
+/* Relationship list inside tooltip */
+.network-graph__tooltip-edges {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--border);
+}
+
+.network-graph__tooltip-edge {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-2);
+  padding: var(--space-1) var(--space-3);
+  border-left: 3px solid transparent;
+  border-bottom: 1px solid var(--border);
+  min-height: 0;
+}
+
+.network-graph__tooltip-edge:last-child {
+  border-bottom: none;
+}
+
+.network-graph__tooltip-edge-type {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.network-graph__tooltip-edge-name {
+  font-family: var(--font-body);
+  font-size: 11px;
+  color: var(--ink);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.network-graph__tooltip-edge--more {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.04em;
+  color: var(--ink-mute);
+  padding: var(--space-1) var(--space-3);
+  border-left: none;
+}
+
+.network-graph__tooltip-hint {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.04em;
+  color: var(--ink-mute);
+  margin: 0;
+  padding: var(--space-1) var(--space-3);
+  border-top: 1px solid var(--border);
+}
+
+/* =============================================================================
+   Wave-6: View toggle + cost-basis toggle (NetworkOverlay internal controls)
+   ============================================================================= */
+
+/* ── View toggle (graph / matrix) ────────────────────────────────────────── */
+
+.network-overlay__view-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  border: 0.5px solid var(--border-mid);
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.network-overlay__view-btn {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0 var(--space-2);
+  height: 20px;
+  background: transparent;
+  border: none;
+  border-right: 0.5px solid var(--border-mid);
+  color: var(--ink-mute);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 100ms ease, color 100ms ease;
+  flex-shrink: 0;
+}
+
+.network-overlay__view-btn:last-child {
+  border-right: none;
+}
+
+.network-overlay__view-btn.is-active,
+.network-overlay__view-btn[aria-checked="true"] {
+  background: var(--surface-3);
+  color: var(--ink);
+}
+
+.network-overlay__view-btn:hover:not(.is-active) {
+  background: var(--surface-2);
+  color: var(--ink-mid);
+}
+
+/* ── Cost-basis toggle ───────────────────────────────────────────────────── */
+
+.network-overlay__cost-toggle {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+  flex-shrink: 0;
+}
+
+.network-overlay__cost-label {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  white-space: nowrap;
+  user-select: none;
+}
+
+.network-overlay__cost-btn {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0 var(--space-2);
+  height: 20px;
+  background: transparent;
+  border: 0.5px solid var(--border-mid);
+  color: var(--ink-mute);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 100ms ease, color 100ms ease;
+  flex-shrink: 0;
+}
+
+.network-overlay__cost-btn.is-active,
+.network-overlay__cost-btn[aria-checked="true"] {
+  background: var(--surface-3);
+  color: var(--ink);
+  border-color: var(--ink-mid);
+}
+
+.network-overlay__cost-btn:hover:not(.is-active) {
+  background: var(--surface-2);
+  color: var(--ink-mid);
+}
+
+/* ── View containers (force graph / matrix) ─────────────────────────────── */
+
+.network-overlay__view {
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+/* =============================================================================
+   Wave-6: RelationshipMatrix component styles
+   ============================================================================= */
+
+/* ── Matrix wrapper ──────────────────────────────────────────────────────── */
+
+.relationship-matrix {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/* ── Matrix header ───────────────────────────────────────────────────────── */
+
+.relationship-matrix__header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-1) var(--space-3);
+  height: 24px;
+  background: var(--surface-3);
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.relationship-matrix__stat {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.04em;
+  color: var(--ink-mute);
+  white-space: nowrap;
+}
+
+.relationship-matrix__sep {
+  width: 1px;
+  height: 10px;
+  background: var(--border-mid);
+  flex-shrink: 0;
+}
+
+.relationship-matrix__note {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.04em;
+  color: var(--ink-mute);
+  opacity: 0.7;
+  white-space: nowrap;
+}
+
+/* ── Scroll wrapper ──────────────────────────────────────────────────────── */
+
+.relationship-matrix__scroll {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+}
+
+.relationship-matrix__scroll:focus-visible {
+  outline: 1px solid var(--accent);
+  outline-offset: -1px;
+}
+
+/* ── SVG ─────────────────────────────────────────────────────────────────── */
+
+.relationship-matrix__svg {
+  display: block;
+}
+
+/* ── State (empty / loading) ─────────────────────────────────────────────── */
+
+.relationship-matrix__state {
+  flex: 1;
+}
+
+/* ── Tooltip ─────────────────────────────────────────────────────────────── */
+
+.relationship-matrix__tooltip {
+  position: absolute;
+  bottom: var(--space-4);
+  left: var(--space-4);
+  z-index: 60;
+  width: 240px;
+  background: var(--surface);
+  border: 1px solid var(--border-mid);
+  pointer-events: none;
+  user-select: none;
+}
+
+.relationship-matrix__tooltip-head {
+  padding: var(--space-2) var(--space-3);
+  border-bottom: 1px solid var(--border);
+  background: var(--surface-2);
+}
+
+.relationship-matrix__tooltip-pair {
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--ink);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+
+.relationship-matrix__tooltip-rels {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.relationship-matrix__tooltip-rel {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-2);
+  padding: var(--space-1) var(--space-3);
+  border-left: 3px solid transparent;
+  border-bottom: 0.5px solid var(--border);
+}
+
+.relationship-matrix__tooltip-rel:last-child {
+  border-bottom: none;
+}
+
+.relationship-matrix__tooltip-type {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.relationship-matrix__tooltip-span {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.04em;
+  color: var(--ink-mute);
+  white-space: nowrap;
+}
+
+.relationship-matrix__tooltip-hint {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.04em;
+  color: var(--ink-mute);
+  margin: 0;
+  padding: var(--space-1) var(--space-3);
+  border-top: 1px solid var(--border);
+}

@@ -1,0 +1,183 @@
+/* =============================================================================
+   fonts.css — Self-hosted web font declarations.
+
+   DESIGN CONTRACT (atlas-tokens.css):
+     Inter            → --font-display / --font-body   (Atlas / Dark / Contrast)
+     IBM Plex Mono    → --font-mono                    (all four themes)
+     Fraunces         → --font-display                 (Manuscript theme only)
+     Spectral         → --font-body                    (Manuscript theme only)
+
+   WEIGHTS REQUIRED:
+     Inter            400 (Regular), 500 (Medium), 700 (Bold)
+     IBM Plex Mono    400 (Regular), 500 (Medium)
+     Fraunces         400 (Regular), 700 (Bold)  — optical-size axis 9–144
+     Spectral         400 (Regular), 600 (SemiBold)
+
+   SELF-HOSTING STATUS:
+     @fontsource packages are NOT installed (checked 2026-05-30).
+     /public/fonts/ directory does NOT yet exist.
+
+   TODO (one-time setup — do this before first production deploy):
+     1. Download the four families from Google Fonts or Fontsource:
+          npx fontsource-cli download inter ibm-plex-mono fraunces spectral
+        Or manually download subset WOFF2 files and place them under:
+          /public/fonts/inter/inter-latin-{400,500,700}-normal.woff2
+          /public/fonts/ibm-plex-mono/ibm-plex-mono-latin-{400,500}-normal.woff2
+          /public/fonts/fraunces/fraunces-latin-{400,700}-normal.woff2
+          /public/fonts/spectral/spectral-latin-{400,600}-normal.woff2
+     2. Remove the Google Fonts <link> elements from index.html (already done).
+     3. Update the src paths in the @font-face blocks below to match the actual
+        filenames (Google Fonts WOFF2s use a hashed name; rename or update here).
+
+   FALLBACK BEHAVIOUR (current state — no woff2 files present):
+     Each @font-face block lists the local() hint first so browsers that have
+     the font installed system-wide will use it at zero cost.  When neither
+     the local hint nor the woff2 resolves (fresh CI machine with no fonts
+     and no woff2 files), the browser falls through to the system-ui / serif /
+     monospace generic families declared in atlas-tokens.css.  This means the
+     UI renders with system fonts — no 404 errors, no layout shifts, no blank
+     text.  The visual result is slightly degraded but fully functional.
+
+   FONT-DISPLAY: swap
+     Text is rendered immediately with the fallback font.  When the WOFF2
+     finishes loading the font is swapped in.  Combined with the local() hint
+     this eliminates FOIT (flash of invisible text).
+   ============================================================================= */
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   INTER  (body + display — Atlas / Dark / Contrast themes)
+   ───────────────────────────────────────────────────────────────────────────── */
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    local('Inter'),
+    local('Inter Regular'),
+    /* TODO: replace with real path once woff2 files are present */
+    url('../fonts/inter/inter-latin-400-normal.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212,
+    U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src:
+    local('Inter Medium'),
+    url('../fonts/inter/inter-latin-500-normal.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212,
+    U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src:
+    local('Inter Bold'),
+    url('../fonts/inter/inter-latin-700-normal.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212,
+    U+2215, U+FEFF, U+FFFD;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   IBM PLEX MONO  (all four themes — mono readouts, statusbar, labels)
+   ───────────────────────────────────────────────────────────────────────────── */
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    local('IBM Plex Mono'),
+    local('IBM Plex Mono Regular'),
+    url('../fonts/ibm-plex-mono/ibm-plex-mono-latin-400-normal.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212,
+    U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src:
+    local('IBM Plex Mono Medium'),
+    url('../fonts/ibm-plex-mono/ibm-plex-mono-latin-500-normal.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212,
+    U+2215, U+FEFF, U+FFFD;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   FRAUNCES  (Manuscript theme display — optical-size variable font)
+   ───────────────────────────────────────────────────────────────────────────── */
+
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  /* Fraunces is a variable font; the opsz axis covers 9–144 automatically */
+  src:
+    local('Fraunces'),
+    url('../fonts/fraunces/fraunces-latin-400-normal.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212,
+    U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src:
+    local('Fraunces Bold'),
+    url('../fonts/fraunces/fraunces-latin-700-normal.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212,
+    U+2215, U+FEFF, U+FFFD;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   SPECTRAL  (Manuscript theme body — warm old-style serif)
+   ───────────────────────────────────────────────────────────────────────────── */
+
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    local('Spectral'),
+    local('Spectral Regular'),
+    url('../fonts/spectral/spectral-latin-400-normal.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212,
+    U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src:
+    local('Spectral SemiBold'),
+    url('../fonts/spectral/spectral-latin-600-normal.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212,
+    U+2215, U+FEFF, U+FFFD;
+}

@@ -1,0 +1,444 @@
+/* =============================================================================
+   TimeRail.css — Chronoscope styles for the .msa-timerail region.
+
+   DESIGN CONTRACT (DESIGN.md):
+   · Square corners (--radius = 0).
+   · Hairline borders via --border / --border-mid / --border-strong.
+   · No box-shadow. Borders only.
+   · No italics. No hard-coded hex, radius, or shadow.
+   · Parchment (.msa-map) is NOT used here.
+   · All four themes (Atlas / Manuscript / Dark / Contrast) must render correctly.
+   · Compositor-friendly animation only: transform + opacity.
+
+   The timerail region (.msa-timerail) is already defined in atlas-shell.css:
+     display:flex; align-items:center; height:var(--timerail-h); padding:0 var(--space-4)
+   These classes extend/inhabit that region without overriding its grid placement.
+   ============================================================================= */
+
+/* ── Root chronoscope layout ──────────────────────────────────────────────── */
+
+/**
+ * .tr-shell — fills .msa-timerail; three columns: readout | track | play.
+ * All alignment is flex; no hard-coded pixel sizes beyond the design-token ones.
+ */
+.tr-shell {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  height: 100%;
+  gap: var(--space-3);
+}
+
+/* ── Year readout ─────────────────────────────────────────────────────────── */
+
+/**
+ * .tr-readout — left cell: big mono year + era label stacked vertically.
+ * Width is held narrow so the track gets the most space.
+ */
+.tr-readout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+  width: 84px;
+  border-right: 1px solid var(--border-mid);
+  padding-right: var(--space-3);
+}
+
+.tr-readout__year {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--ink);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  white-space: nowrap;
+}
+
+.tr-readout__era {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  margin-top: var(--space-1);
+  white-space: nowrap;
+}
+
+/* ── Track area ───────────────────────────────────────────────────────────── */
+
+/**
+ * .tr-track-area — flex-1 center cell containing:
+ *   era ribbon row + century tick row + histogram + scrubber input
+ * Stacked vertically. SVG histogram fills available space.
+ */
+.tr-track-area {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  gap: 2px;
+}
+
+/* ── Era ribbon strip ─────────────────────────────────────────────────────── */
+
+.tr-era-strip {
+  display: flex;
+  width: 100%;
+  height: 10px;
+  flex-shrink: 0;
+  border: 1px solid var(--border);
+  overflow: hidden;
+}
+
+.tr-era-band {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-right: 1px solid var(--border-mid);
+  transition: background 160ms ease;
+}
+
+.tr-era-band:last-child {
+  border-right: none;
+}
+
+/**
+ * Era bands use subtle surface tints to distinguish three medieval periods.
+ * These are chrome-surface colors — NOT parchment (DESIGN.md rule).
+ * Active era (current year's band) gets a stronger border-bottom accent.
+ */
+.tr-era-band--early {
+  background: var(--surface-2);
+}
+
+.tr-era-band--high {
+  background: var(--surface-3);
+}
+
+.tr-era-band--late {
+  background: var(--surface-4);
+}
+
+/* Generic fallback for non-medieval era bands */
+.tr-era-band--generic {
+  background: var(--surface-2);
+}
+
+.tr-era-band.is-active {
+  background: var(--accent-bg);
+}
+
+.tr-era-band__label {
+  font-family: var(--font-mono);
+  font-size: 7px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  pointer-events: none;
+  user-select: none;
+  padding: 0 2px;
+}
+
+/* ── Histogram + scrubber composite ──────────────────────────────────────── */
+
+/**
+ * .tr-histogram-wrap — stacks the SVG sparkline and range input on top of
+ * each other. The input is transparent but interactive; SVG is visual-only.
+ */
+.tr-histogram-wrap {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.tr-histogram-svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  will-change: auto;
+}
+
+/* ── Sparkline area + stroke (replaces bar rects) ─────────────────────────── */
+
+.tr-sparkline-fill {
+  fill: var(--border-mid);
+  opacity: 0.45;
+}
+
+.tr-sparkline-stroke {
+  fill: none;
+  stroke: var(--ink-mute);
+  stroke-width: 0.8;
+  vector-effect: non-scaling-stroke;
+}
+
+/* Current-year needle inside the SVG (complements the DOM .tr-thumb-indicator) */
+.tr-sparkline-needle {
+  stroke: var(--accent);
+  stroke-width: 1.5;
+  vector-effect: non-scaling-stroke;
+  opacity: 0.7;
+}
+
+/* ── Century tick marks ───────────────────────────────────────────────────── */
+
+.tr-century-strip {
+  display: flex;
+  width: 100%;
+  height: 12px;
+  flex-shrink: 0;
+  position: relative;
+}
+
+/* Each century marker is absolutely positioned along the strip */
+.tr-century-mark {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateX(-50%);
+}
+
+.tr-century-mark__tick {
+  width: 1px;
+  height: 4px;
+  background: var(--border-strong);
+  flex-shrink: 0;
+}
+
+.tr-century-mark__label {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 7px;
+  color: var(--ink-mute);
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  user-select: none;
+  line-height: 1;
+}
+
+/* ── Range input (scrubber) ───────────────────────────────────────────────── */
+
+/**
+ * The native <input type="range"> is overlaid on top of the histogram SVG.
+ * It is fully transparent so the SVG shows through — the input handles
+ * all pointer and keyboard events.
+ *
+ * Custom thumb styling respects the design contract:
+ *   · Square thumb (border-radius: 0 — matches --radius).
+ *   · No box-shadow.
+ *   · Accent color from --accent token.
+ *
+ * Track is transparent so the SVG histogram serves as the visual track.
+ */
+.tr-scrubber {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: ew-resize;
+  margin: 0;
+  padding: 0;
+  /* Stack above SVG */
+  z-index: 2;
+  /* Increase hit area without layout change */
+  touch-action: none;
+}
+
+/* Show a visible ghost overlay while dragging (the SVG thumb indicator handles visual) */
+.tr-scrubber:focus-visible {
+  opacity: 0.01; /* just enough to show outline */
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/**
+ * .tr-thumb-indicator — the visible "needle" drawn on top of the histogram
+ * at the current year position. Positioned by the component via inline style.
+ * Compositor-only: transform moves it.
+ */
+.tr-thumb-indicator {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--accent);
+  pointer-events: none;
+  z-index: 1;
+  transform: translateX(-50%);
+  will-change: transform;
+}
+
+.tr-thumb-indicator::after {
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 6px;
+  height: 6px;
+  background: var(--accent);
+  border: 1px solid var(--surface);
+  /* Square per DESIGN.md: --radius is 0 */
+  border-radius: var(--radius);
+}
+
+/* ── Play/pause button ────────────────────────────────────────────────────── */
+
+/**
+ * .tr-play — right cell: playback cluster (play/pause + speed + loop).
+ * Uses .btn grammar from atlas-tokens.css.
+ */
+.tr-play {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-1);
+  flex-shrink: 0;
+  border-left: 1px solid var(--border-mid);
+  padding-left: var(--space-3);
+}
+
+.tr-play__btn {
+  width: var(--tap);
+  height: var(--tap);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 1px solid var(--border-mid);
+  border-radius: var(--radius);
+  color: var(--ink-mid);
+  cursor: pointer;
+  transition:
+    background 100ms ease,
+    color 100ms ease,
+    border-color 100ms ease;
+}
+
+.tr-play__btn:hover {
+  background: var(--surface-2);
+  color: var(--ink);
+  border-color: var(--border-strong);
+}
+
+.tr-play__btn.is-playing {
+  background: var(--accent-bg);
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.tr-play__btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+/* Speed + loop share the play button grammar; speed is wider for its label. */
+.tr-play__speed,
+.tr-play__loop {
+  height: var(--tap);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 1px solid var(--border-mid);
+  border-radius: var(--radius);
+  color: var(--ink-mid);
+  cursor: pointer;
+  transition:
+    background 100ms ease,
+    color 100ms ease,
+    border-color 100ms ease;
+}
+
+.tr-play__speed {
+  /* Roomy enough for "Slow"/"Med"/"Fast" without reflowing the rail. */
+  min-width: calc(var(--tap) + var(--space-3));
+  padding-inline: var(--space-2);
+  font-size: var(--text-xs, 11px);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
+}
+
+.tr-play__loop {
+  width: var(--tap);
+}
+
+.tr-play__speed:hover,
+.tr-play__loop:hover {
+  background: var(--surface-2);
+  color: var(--ink);
+  border-color: var(--border-strong);
+}
+
+/* Loop engaged → accent treatment, matching the playing state of the main btn. */
+.tr-play__loop.is-active {
+  background: var(--accent-bg);
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.tr-play__speed:focus-visible,
+.tr-play__loop:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+/* ── Accessible live year announcement ────────────────────────────────────── */
+
+/**
+ * .tr-live-year — visually hidden aria-live region that announces the
+ * current year to screen readers on every scrub/key/play change.
+ * Uses the standard visually-hidden pattern (not display:none — that
+ * removes it from the a11y tree).
+ */
+.tr-live-year {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ── Loading state ────────────────────────────────────────────────────────── */
+
+/**
+ * .tr-loading — shown while the year index hasn't been built yet.
+ * Uses the same .mono + .cap-sm typography primitives as the rest of chrome.
+ */
+.tr-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  gap: var(--space-2);
+  color: var(--ink-mute);
+}
+
+.tr-loading__label {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}

@@ -1,0 +1,245 @@
+/* =============================================================================
+   atlas-tokens.css — THE VISUAL CONTRACT (theme-able)
+   Faithful to the Atlas Redesign Spec Sheet (artboard 30) + Handoff (artboard 32),
+   extended into a swappable theme engine. Set the theme on <html data-theme="...">.
+   Domain colors (event categories, regions, relationships, journeys) live in
+   src/design/tokens.ts as the single source of truth and are mirrored here.
+
+   RULES (carried from the package): square corners, hairline borders, no panel
+   shadows, no italics in chrome, parchment lives in the MAP only (except the
+   Manuscript theme, which intentionally warms the chrome).
+   ============================================================================= */
+
+/* ---- ATLAS (default): neutral chrome, parchment map, Inter + IBM Plex Mono ---- */
+:root,
+[data-theme='atlas'] {
+  /* Surfaces — 4 neutral tiers + dark. No warmth outside the map. */
+  --bg: #ececea;
+  --surface: #ffffff;
+  --surface-2: #f6f6f5;
+  --surface-3: #ebebe9;
+  --surface-4: #dedddb;
+  --surface-dim: #1a1208;
+
+  /* Map-only parchment */
+  --paper: #efe7d0;
+  --sea: #e8e0c8;
+
+  /* Ink — 4 stops, AA on every surface */
+  --ink: #0d0907;
+  --ink-mid: #3a342c;
+  --ink-light: #5a534a;
+  --ink-mute: #908980;
+
+  /* Borders + rules */
+  --border: rgba(13, 9, 7, 0.1);
+  --border-mid: rgba(13, 9, 7, 0.28);
+  --border-strong: rgba(13, 9, 7, 0.65);
+  --rule: #0d0907;
+
+  /* Accent (gilt) */
+  --accent: #c19a3e;
+  --accent-bg: rgba(193, 154, 62, 0.14);
+  --select: #0d0907;
+  --select-bg: rgba(193, 154, 62, 0.2);
+
+  /* Type — swappable per theme */
+  --font-display: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+
+  /* Map base style + label tint (consumed by MapCanvas) */
+  --map-land: #efe7d0;
+  --map-sea: #e8e0c8;
+  --map-graticule: rgba(13, 9, 7, 0.14);
+  --map-label: #0d0907;
+
+  /* Geometry + spacing (4px base, 8 stops) */
+  --radius: 0px;
+  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px;
+  --space-5: 20px; --space-6: 24px; --space-7: 32px; --space-8: 40px;
+  --tap: 34px;
+}
+
+/* ---- MANUSCRIPT: warm parchment chrome + serif display (the v.0 heritage look) ---- */
+[data-theme='manuscript'] {
+  --bg: #e7ddc4;
+  --surface: #f4f0e6;
+  --surface-2: #ece6d6;
+  --surface-3: #e0d9c8;
+  --surface-4: #d6cdb4;
+  --surface-dim: #1a1208;
+
+  --paper: #f4f0e6;
+  --sea: #e2d8bd;
+
+  --ink: #1a1208;
+  --ink-mid: #5a4530;
+  --ink-light: #6a5040;
+  --ink-mute: #9a8a70;
+
+  --border: rgba(26, 18, 8, 0.15);
+  --border-mid: rgba(26, 18, 8, 0.32);
+  --border-strong: rgba(26, 18, 8, 0.6);
+  --rule: #1a1208;
+
+  --accent: #7a5c1e;
+  --accent-bg: rgba(122, 92, 30, 0.16);
+  --select: #1a1208;
+  --select-bg: rgba(200, 158, 76, 0.45);
+
+  /* The one place the frontend-design skill earns its keep: a characterful serif. */
+  --font-display: 'Fraunces', 'Spectral', Georgia, serif;
+  --font-body: 'Spectral', Georgia, serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+
+  --map-land: #f4f0e6;
+  --map-sea: #e2d8bd;
+  --map-graticule: rgba(26, 18, 8, 0.16);
+  --map-label: #1a1208;
+}
+
+/* ---- DARK: low-light reading. Domain colors are lightened in tokens.ts at runtime. ---- */
+[data-theme='dark'] {
+  --bg: #0f0e0c;
+  --surface: #1a1916;
+  --surface-2: #211f1b;
+  --surface-3: #2a2722;
+  --surface-4: #34302a;
+  --surface-dim: #000000;
+
+  --paper: #24211b;
+  --sea: #1b1813;
+
+  --ink: #f2efe7;
+  --ink-mid: #c5bfb2;
+  --ink-light: #9a9488;
+  --ink-mute: #6e685e;
+
+  --border: rgba(242, 239, 231, 0.12);
+  --border-mid: rgba(242, 239, 231, 0.26);
+  --border-strong: rgba(242, 239, 231, 0.6);
+  --rule: #f2efe7;
+
+  --accent: #d8b25a;
+  --accent-bg: rgba(216, 178, 90, 0.16);
+  --select: #d8b25a;
+  --select-bg: rgba(216, 178, 90, 0.22);
+
+  --font-display: 'Inter', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+
+  --map-land: #2a2620;
+  --map-sea: #181510;
+  --map-graticule: rgba(242, 239, 231, 0.12);
+  --map-label: #f2efe7;
+}
+
+/* ---- CONTRAST: maximum legibility / accessibility ---- */
+[data-theme='contrast'] {
+  --bg: #ffffff;
+  --surface: #ffffff;
+  --surface-2: #ffffff;
+  --surface-3: #f2f2f2;
+  --surface-4: #e6e6e6;
+  --surface-dim: #000000;
+
+  --paper: #ffffff;
+  --sea: #f0f0f0;
+
+  --ink: #000000;
+  --ink-mid: #1a1a1a;
+  --ink-light: #333333;
+  --ink-mute: #555555;
+
+  --border: #000000;
+  --border-mid: #000000;
+  --border-strong: #000000;
+  --rule: #000000;
+
+  --accent: #6a4a00;
+  --accent-bg: rgba(106, 74, 0, 0.12);
+  --select: #000000;
+  --select-bg: rgba(106, 74, 0, 0.18);
+
+  --font-display: 'Inter', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+
+  --map-land: #ffffff;
+  --map-sea: #e8e8e8;
+  --map-graticule: rgba(0, 0, 0, 0.35);
+  --map-label: #000000;
+}
+
+/* ---- Focus ring tokens (shared across all four themes) ---- */
+/*
+  DESIGN.md: selection = outline + halo.
+  --focus-ring    : hairline outline color (accent).
+  --focus-halo    : subtle glow spread that makes the ring pop against both
+                    light and dark surfaces. Implemented as a box-shadow spread
+                    (this is a focus-indicator effect, distinct from the banned
+                    "panel shadow" — WCAG 2.5.3 / 2.4.11 compliance).
+  --focus-offset  : gap between the element border and the ring.
+
+  All :focus-visible rules reference these tokens so a single edit here
+  propagates to every interactive control in every theme.
+*/
+:root,
+[data-theme='atlas'],
+[data-theme='manuscript'],
+[data-theme='dark'],
+[data-theme='contrast'] {
+  --focus-ring:   var(--accent);
+  --focus-halo:   rgba(0, 0, 0, 0.08);
+  --focus-offset: 2px;
+}
+
+/* Dark theme halo needs a lighter spread to remain visible */
+[data-theme='dark'] {
+  --focus-halo: rgba(255, 255, 255, 0.12);
+}
+
+/* Contrast theme: maximum-legibility outline, no halo needed */
+[data-theme='contrast'] {
+  --focus-halo: transparent;
+}
+
+/* ---- Base resets + type primitives (shared across themes) ---- */
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; margin: 0; }
+body {
+  font-family: var(--font-body);
+  color: var(--ink);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  line-height: 1.45;
+  transition: background 160ms ease, color 160ms ease; /* smooth theme swap */
+}
+.msa-app i, .msa-app em { font-style: normal; } /* no italics in chrome */
+
+/* Type primitives from the Component Sheet */
+.display { font-family: var(--font-display); font-size: 30px; font-weight: 700; letter-spacing: -0.01em; }
+.title   { font-family: var(--font-display); font-size: 22px; font-weight: 700; }
+.mono    { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+.cap-sm  { font-family: var(--font-mono); font-size: 10px; font-weight: 500;
+           letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-mid); }
+.eyebrow { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.1em;
+           text-transform: uppercase; color: var(--ink-mute); }
+
+/* Slab chip / button grammar (no pills, no rounding, no hover glow) */
+.chip { font-family: var(--font-mono); font-size: 10px; text-transform: uppercase;
+        letter-spacing: 0.04em; border: 1px solid var(--border-mid);
+        padding: 2px var(--space-2); border-radius: var(--radius); color: var(--ink-mid); }
+.btn  { font-family: var(--font-mono); font-size: 11px; text-transform: uppercase;
+        letter-spacing: 0.04em; background: var(--surface); color: var(--ink);
+        border: 1px solid var(--border-mid); border-radius: var(--radius);
+        padding: 5px 10px; cursor: pointer; }
+.btn.is-active { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+.btn:focus-visible {
+  outline: 1.5px solid var(--focus-ring, var(--accent));
+  outline-offset: var(--focus-offset, 2px);
+  box-shadow: 0 0 0 3px var(--focus-halo, rgba(0,0,0,0.08));
+}

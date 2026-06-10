@@ -1,0 +1,307 @@
+/*
+ * CommandBar.css — P4-D command palette / unified search.
+ *
+ * Design contract (DESIGN.md):
+ *   - Square corners (--radius: 0px)
+ *   - Hairline borders (--border / --border-mid / --border-strong)
+ *   - No box-shadow on panels
+ *   - No italics in chrome
+ *   - Token-driven; four themes correct automatically
+ *
+ * Z-index: 200 — above everything (NetworkOverlay is z-50, TopBar z-100).
+ */
+
+/* ── Backdrop ──────────────────────────────────────────────────────────── */
+.cmd-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.38);
+  z-index: 200;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 10vh;
+}
+
+/* ── Palette container ────────────────────────────────────────────────── */
+.cmd-palette {
+  width: min(640px, calc(100vw - 32px));
+  background: var(--surface);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  max-height: 70vh;
+  font-family: var(--font-body);
+  color: var(--ink);
+  /* No box-shadow per DESIGN.md */
+}
+
+/* ── Input row ────────────────────────────────────────────────────────── */
+.cmd-input-row {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--border-mid);
+  padding: 0 var(--space-3);
+  flex-shrink: 0;
+}
+
+.cmd-input-icon {
+  color: var(--ink-mute);
+  margin-right: var(--space-2);
+  flex-shrink: 0;
+  font-size: 14px;
+  font-family: var(--font-mono);
+  line-height: 1;
+}
+
+.cmd-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.45;
+  padding: var(--space-3) 0;
+  caret-color: var(--accent);
+}
+
+.cmd-input::placeholder {
+  color: var(--ink-mute);
+}
+
+.cmd-kbd-esc {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ink-mute);
+  border: 1px solid var(--border-mid);
+  border-radius: var(--radius);
+  padding: 1px 5px;
+  flex-shrink: 0;
+  margin-left: var(--space-2);
+}
+
+/* ── Results area ─────────────────────────────────────────────────────── */
+.cmd-results {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  overscroll-behavior: contain;
+  min-height: 0;
+}
+
+/* ── Loading / error / empty states ──────────────────────────────────── */
+.cmd-state {
+  padding: var(--space-5) var(--space-4);
+  text-align: center;
+  color: var(--ink-mute);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+}
+
+.cmd-state--error {
+  color: #9c1c1c;
+}
+
+/* ── Group ────────────────────────────────────────────────────────────── */
+.cmd-group {
+  /* no extra padding — items handle their own */
+}
+
+.cmd-group-label {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  padding: var(--space-2) var(--space-4) 2px;
+  border-top: 1px solid var(--border);
+  background: var(--surface-2);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.cmd-group:first-child .cmd-group-label {
+  border-top: none;
+}
+
+/* ── Result item ──────────────────────────────────────────────────────── */
+.cmd-item {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-3);
+  width: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  padding: var(--space-2) var(--space-4);
+  color: var(--ink);
+  transition: background 80ms;
+  border-bottom: 1px solid var(--border);
+}
+
+.cmd-item:last-child {
+  border-bottom: none;
+}
+
+.cmd-item:hover,
+.cmd-item.is-active {
+  background: var(--select-bg);
+  outline: none;
+}
+
+.cmd-item.is-active {
+  /* stronger active state for keyboard nav */
+  background: var(--accent-bg);
+}
+
+.cmd-item:focus {
+  outline: none;
+}
+
+.cmd-item__name {
+  font-size: 13px;
+  color: var(--ink);
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cmd-item__name mark {
+  background: transparent;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* Kind chip in a result row — a small bordered tag (e.g. "Polity"). */
+.cmd-item__kind {
+  font-family: var(--font-mono);
+  font-size: 8px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-mid);
+  border: 1px solid var(--border-mid);
+  padding: 1px 4px;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.cmd-item__id {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--ink-mute);
+  letter-spacing: 0.02em;
+  flex-shrink: 0;
+  white-space: nowrap;
+  max-width: 140px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ── Kind pre-filter chips (above results) ────────────────────────────── */
+.cmd-kind-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1);
+  padding: var(--space-2) var(--space-3);
+  border-bottom: 1px solid var(--border-mid);
+}
+
+.cmd-kind-chip {
+  appearance: none;
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-mid);
+  background: none;
+  border: 1px solid var(--border-mid);
+  padding: 2px var(--space-2);
+  cursor: pointer;
+  transition: color 100ms ease, background 100ms ease, border-color 100ms ease;
+}
+
+.cmd-kind-chip:hover {
+  color: var(--ink);
+}
+
+.cmd-kind-chip.is-active {
+  color: var(--paper, #fff);
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.cmd-kind-chip:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+/* ── Special: year-jump item ──────────────────────────────────────────── */
+.cmd-item--year-jump .cmd-item__name {
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: 13px;
+}
+
+/* ── Slash command item ───────────────────────────────────────────────── */
+.cmd-item--slash .cmd-item__name {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.02em;
+}
+
+.cmd-item--slash .cmd-item__id {
+  color: var(--ink-light);
+}
+
+/* ── Footer hint ──────────────────────────────────────────────────────── */
+.cmd-footer {
+  border-top: 1px solid var(--border-mid);
+  padding: var(--space-2) var(--space-4);
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  background: var(--surface-2);
+  flex-shrink: 0;
+}
+
+.cmd-footer-hint {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  white-space: nowrap;
+}
+
+.cmd-footer-hint kbd {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-style: normal;
+  background: var(--surface-3);
+  border: 1px solid var(--border-mid);
+  border-radius: var(--radius);
+  padding: 0 4px;
+  margin-right: 2px;
+}
+
+/* ── Scrollbar polish ─────────────────────────────────────────────────── */
+.cmd-results::-webkit-scrollbar {
+  width: 5px;
+}
+.cmd-results::-webkit-scrollbar-thumb {
+  background: var(--border-mid);
+}
+.cmd-results::-webkit-scrollbar-track {
+  background: transparent;
+}

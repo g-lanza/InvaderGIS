@@ -1,0 +1,483 @@
+/* =============================================================================
+   registers.css — Registers Overlay + Attribute Table (Phase Wave2-B)
+   Historical Data Visualizer · A product of Gavin Lanza.
+
+   DESIGN CONTRACT (mirrors sources-library.css / network-graph.css):
+   · Zero hard-coded hex — all via var(--token) or currentColor.
+   · No box-shadow on panels. Borders only.
+   · Square corners — var(--radius) = 0 in every theme.
+   · No italics in chrome.
+   · Animations on transform + opacity only (compositor-safe).
+   · All four themes correct (atlas / manuscript / dark / contrast).
+   · Mono numerals via font-variant-numeric: tabular-nums on numeric cells.
+
+   NOTE: the table body reuses the .sl-* classes from sources-library.css
+   (imported by AppShell). This file adds the overlay shell, the kind-picker
+   tab row, and the .at-* windowing helpers.
+
+   ROW HEIGHT CONTRACT: .at-row height (30px) MUST equal ROW_H in
+   AttributeTable.tsx — the virtual-scroll arithmetic depends on it.
+   ============================================================================= */
+
+/* ── Overlay container (mirrors .sources-overlay) ──────────────────────────── */
+
+.registers-overlay {
+  position: fixed;
+  inset: var(--topbar-h, 40px) 0 calc(var(--timerail-h, 72px) + var(--statusbar-h, 24px)) 0;
+  z-index: 50;
+
+  display: flex;
+  flex-direction: column;
+
+  background: var(--surface);
+  border-top: 1px solid var(--border-mid);
+  border-bottom: 1px solid var(--border-mid);
+
+  /* visibility:hidden removes focusable children from the tab order (WCAG
+     2.4.3/4.1.2), delayed to the end of the fade so close still animates. */
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  transition: opacity 200ms cubic-bezier(0.16, 1, 0.3, 1), visibility 0s linear 200ms;
+}
+
+.registers-overlay.is-open {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+  transition: opacity 200ms cubic-bezier(0.16, 1, 0.3, 1), visibility 0s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .registers-overlay {
+    transition: none;
+  }
+}
+
+/* ── Overlay header bar ──────────────────────────────────────────────────────── */
+
+.registers-overlay__bar {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: 0 var(--space-4);
+  height: 36px;
+  background: var(--surface-2);
+  border-bottom: 1px solid var(--border-mid);
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.registers-overlay__title {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-mid);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.registers-overlay__hint {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.04em;
+  color: var(--ink-mute);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1;
+  min-width: 0;
+}
+
+/* Table ⇄ Gallery segmented control — sits between the hint and the close button. */
+.registers-overlay__viewmode {
+  display: inline-flex;
+  gap: var(--space-1);
+  flex-shrink: 0;
+  margin-left: auto;
+}
+
+.registers-overlay__close {
+  flex-shrink: 0;
+}
+
+/* ── Kind-picker tab row ──────────────────────────────────────────────────────── */
+
+.registers-overlay__tabs {
+  display: flex;
+  align-items: stretch;
+  gap: 0;
+  padding: 0 var(--space-3);
+  height: 44px;
+  background: var(--surface-3);
+  border-bottom: 1px solid var(--border-mid);
+  flex-shrink: 0;
+  overflow-x: auto;
+}
+
+.registers-tab {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 0 var(--space-4);
+  height: 100%;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  color: var(--ink-mute);
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: color 80ms ease, border-color 80ms ease;
+}
+
+.registers-tab:hover {
+  color: var(--ink-mid);
+}
+
+.registers-tab.is-active {
+  color: var(--ink);
+  border-bottom-color: var(--accent);
+}
+
+.registers-tab__label {
+  font-weight: 500;
+}
+
+.registers-tab__count {
+  font-variant-numeric: tabular-nums;
+  font-size: 9px;
+  color: var(--ink-mute);
+  border: 1px solid var(--border);
+  padding: 0 var(--space-1);
+  min-width: 2ch;
+  text-align: center;
+}
+
+.registers-tab.is-active .registers-tab__count {
+  color: var(--ink-mid);
+  border-color: var(--border-mid);
+}
+
+/* ── Canvas area (fills remaining height) ─────────────────────────────────────── */
+
+.registers-overlay__canvas {
+  flex: 1;
+  min-height: 0;
+  position: relative;
+  overflow: hidden;
+  background: var(--bg);
+}
+
+/* ── Attribute table — windowing helpers ──────────────────────────────────────── */
+
+.at-root {
+  /* inherits .sl-root layout */
+}
+
+/* Fixed table layout so windowed column widths stay stable as rows enter/leave. */
+.at-table {
+  table-layout: fixed;
+}
+
+/* ROW HEIGHT CONTRACT — must equal ROW_H (30) in AttributeTable.tsx. */
+.at-row {
+  height: 30px;
+}
+
+/* The cells inside a windowed row clip rather than reflow, keeping the row at
+   exactly ROW_H so scrollbar geometry matches the computed totalHeight. */
+.at-row .sl-td {
+  height: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Spacer rows reserve scrolled-past / not-yet-reached height. No content. */
+.at-spacer td {
+  padding: 0;
+  border: none;
+}
+
+/* Selected row (map → table link). Hairline accent bar on the leading cell,
+   background tint — no shadow (DESIGN.md: hairline borders, not shadows). */
+.at-row.is-selected {
+  background: var(--surface-2);
+}
+
+.at-row.is-selected > .sl-td:first-child {
+  border-left: 2px solid var(--accent);
+  /* compensate the 2px border so cell text does not shift */
+  padding-left: calc(var(--space-3) - 2px);
+}
+
+.at-row.is-selected:hover {
+  background: var(--surface-3);
+}
+
+/* Cross-view hover highlight (Pass 1, linked views): hovering a record on the map
+   or in a chart highlights its row here. Distinct from selection (--accent bar):
+   a --select-toned leading bar + faint tint, hairline only (DESIGN.md). */
+.at-row.is-hovered > .sl-td:first-child {
+  border-left: 2px solid var(--select);
+  padding-left: calc(var(--space-3) - 2px);
+}
+
+.at-row.is-hovered {
+  background: var(--select-bg);
+}
+
+/* Loading state fills the canvas. */
+.at-loading {
+  width: 100%;
+  height: 100%;
+}
+
+/* ── Compare action column ────────────────────────────────────────────────────── */
+
+/* Header cell — fixed narrow width, centered */
+.at-th-cmp {
+  width: 40px;
+  min-width: 40px;
+  text-align: center;
+  color: var(--ink-mute);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Data cell — centered, no padding overflow */
+.at-td-cmp {
+  width: 40px;
+  min-width: 40px;
+  text-align: center;
+  padding: 0 !important;
+  vertical-align: middle;
+}
+
+/* Row highlight when already in the compare set */
+.at-row--in-compare {
+  background: var(--accent-bg);
+}
+
+.at-row--in-compare:hover {
+  background: var(--select-bg);
+}
+
+/* The +/✓ compare button */
+.at-cmp-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1;
+  background: transparent;
+  border: 1px solid var(--border-mid);
+  color: var(--ink-mute);
+  cursor: pointer;
+  border-radius: var(--radius);
+  transition:
+    background 80ms ease,
+    color 80ms ease,
+    border-color 80ms ease;
+}
+
+.at-cmp-btn:hover:not(:disabled) {
+  background: var(--surface-2);
+  color: var(--ink);
+  border-color: var(--border-strong);
+}
+
+.at-cmp-btn.is-active {
+  background: var(--accent-bg);
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.at-cmp-btn.is-active:hover {
+  background: var(--select-bg);
+  color: var(--ink);
+  border-color: var(--border-strong);
+}
+
+.at-cmp-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.at-cmp-btn:focus-visible {
+  outline: 1.5px solid var(--focus-ring, var(--accent));
+  outline-offset: 1px;
+}
+
+/* ── Gallery view (card grid) — sibling to the attribute table ─────────────────
+   A text-card presentation of the same register kinds. Reuses .sl-toolbar /
+   .sl-filter for the count + name filter, and .at-cmp-btn for the compare toggle.
+   Tokens only, square corners, 0.5px hairline borders, no shadows, 4 themes.
+   ----------------------------------------------------------------------------- */
+
+.gal-root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
+}
+
+/* Honest "Showing N of M" notice — shown only when more records exist than the
+   current cap renders. Never silent truncation. */
+.gal-notice {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding: var(--space-2) var(--space-4);
+  background: var(--surface-2);
+  border-bottom: 0.5px solid var(--border-mid);
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.02em;
+  color: var(--ink-mid);
+  flex-shrink: 0;
+}
+
+.gal-notice > span {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Scroll region fills the remaining height below the toolbar/notice. */
+.gal-scroll {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  background: var(--bg);
+}
+
+/* Responsive auto-fill grid — cards size to a min width and wrap. */
+.gal-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: var(--space-3);
+  padding: var(--space-4);
+  align-content: start;
+}
+
+/* Honest empty state — neutral message, never a fabricated card. */
+.gal-empty {
+  padding: var(--space-6) var(--space-4);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.03em;
+  color: var(--ink-mute);
+  text-align: center;
+}
+
+/* A single record card. content-visibility keeps off-screen cards cheap to
+   paint; contain-intrinsic-size ≈ card height so the scrollbar stays stable.
+   This is a paint optimisation only — the visible count comes from the cap. */
+.gal-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: var(--space-3);
+  background: var(--surface);
+  border: 0.5px solid var(--border-mid);
+  border-radius: var(--radius);
+  cursor: pointer;
+  content-visibility: auto;
+  contain-intrinsic-size: 0 132px;
+  transition: border-color 80ms ease, background 80ms ease;
+}
+
+.gal-card:hover {
+  border-color: var(--border-strong);
+}
+
+.gal-card:focus-visible {
+  outline: 1.5px solid var(--focus-ring, var(--accent));
+  outline-offset: 1px;
+}
+
+/* Selected (map → gallery link): accent leading edge + tint, hairline only. */
+.gal-card.is-selected {
+  background: var(--surface-2);
+  border-left: 2px solid var(--accent);
+  padding-left: calc(var(--space-3) - 2px);
+}
+
+/* Cross-view hover highlight — distinct --select tone. */
+.gal-card.is-hovered {
+  background: var(--select-bg);
+  border-left: 2px solid var(--select);
+  padding-left: calc(var(--space-3) - 2px);
+}
+
+/* In the compare set. */
+.gal-card--in-compare {
+  background: var(--accent-bg);
+}
+
+.gal-card__title {
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--ink);
+  /* clamp to two lines so card heights stay close to the intrinsic-size hint */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.gal-card__fields {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin: 0;
+}
+
+.gal-card__field {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-2);
+  min-width: 0;
+}
+
+.gal-card__field dt {
+  flex-shrink: 0;
+  width: 5.5em;
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+}
+
+.gal-card__field dd {
+  margin: 0;
+  flex: 1;
+  min-width: 0;
+  font-size: 11px;
+  color: var(--ink-mid);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.gal-card__field dd.gal-card__num {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Footer hosts the reused compare button, pushed to the trailing edge. */
+.gal-card__foot {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: auto;
+}

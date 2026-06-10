@@ -1,0 +1,252 @@
+/*
+ * mapControls.css — GIS chrome overlay for InvaderGIS
+ *
+ * Positions the four GIS controls inside .msa-map:
+ *   - Zoom +/- buttons       (top-left)
+ *   - Coordinate readout     (bottom-left, above scale bar)
+ *   - Scale bar              (bottom-left, via MapLibre ScaleControl restyle)
+ *   - Attribution line       (bottom-right)
+ *
+ * HARD RULES (DESIGN.md + atlas-shell.css contract):
+ *   · Tokens only — zero hard-coded hex. var(--token) everywhere.
+ *   · Square corners — var(--radius) = 0px in every theme.
+ *   · NO box-shadow. Hairline borders (1px solid var(--border-mid)) separate
+ *     controls from the map. This is the explicit ArcGIS-vs-DESIGN.md reconciliation:
+ *     ArcGIS widget cards use drop-shadow for elevation; DESIGN.md forbids shadows.
+ *     We substitute a 1px border on var(--surface) backing — same legibility goal,
+ *     zero shadow.
+ *   · IBM Plex Mono (var(--font-mono)) for all numeric readouts.
+ *   · pointer-events: none on the root overlay; pointer-events: auto on
+ *     interactive children only — map interaction passes through the gaps.
+ *   · Transitions on opacity/transform only (compositor-safe, no layout reflow).
+ */
+
+/* ── Overlay root ─────────────────────────────────────────────────────────── */
+
+.gis-chrome {
+  position: absolute;
+  inset: 0;
+  pointer-events: none; /* map panning works through the gaps */
+  z-index: 5;           /* above the MapLibre canvas (z-index 2) */
+}
+
+/* ── Zoom control (top-left) ─────────────────────────────────────────────── */
+
+.gis-zoom {
+  position: absolute;
+  top: var(--space-3);
+  left: var(--space-3);
+  display: flex;
+  flex-direction: column;
+  pointer-events: auto;
+  /* Composite backing card: surface + hairline border; NO shadow */
+  background: var(--surface);
+  border: 1px solid var(--border-mid);
+  border-radius: var(--radius); /* 0 px — square corners per DESIGN.md */
+  overflow: hidden;
+}
+
+.gis-zoom__btn {
+  /* Reset browser button defaults */
+  appearance: none;
+  margin: 0;
+  padding: 0;
+  /* Square icon-button sizing matching .btn--icon */
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Token typography */
+  font-family: var(--font-mono);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1;
+  /* Colors */
+  background: var(--surface);
+  color: var(--ink-mid);
+  border: none;
+  cursor: pointer;
+  /* Compositor-safe transition */
+  transition: background 80ms ease, color 80ms ease;
+  /* Ensure the text glyph renders cleanly */
+  user-select: none;
+}
+
+.gis-zoom__btn:hover {
+  background: var(--surface-2);
+  color: var(--ink);
+}
+
+.gis-zoom__btn:active {
+  background: var(--surface-3);
+  color: var(--ink);
+}
+
+.gis-zoom__btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+}
+
+/* Divider between the two buttons */
+.gis-zoom__divider {
+  width: 100%;
+  height: 1px;
+  background: var(--border-mid);
+  flex-shrink: 0;
+}
+
+/* ── Bottom-left cluster: coord readout + scale bar ─────────────────────── */
+
+.gis-bottom-left {
+  position: absolute;
+  bottom: var(--space-3);
+  left: var(--space-3);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-1);
+  pointer-events: none; /* coord readout is passive */
+}
+
+/* Coordinate readout ─────────────────────────────────────────────────────── */
+
+.gis-coords {
+  background: var(--surface);
+  border: 1px solid var(--border-mid);
+  border-radius: var(--radius);
+  padding: 3px var(--space-2);
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.gis-coords__label {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  line-height: 1.2;
+  white-space: nowrap;
+  user-select: none;
+}
+
+.gis-coords__value {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.04em;
+  color: var(--ink);
+  line-height: 1.2;
+  white-space: nowrap;
+  min-width: 22ch; /* stable width for 6 dp lat+lon string, no layout shift */
+}
+
+/* Representative-fraction scale ─────────────────────────────────────────── */
+
+.gis-rf-scale {
+  background: var(--surface);
+  border: 1px solid var(--border-mid);
+  border-radius: var(--radius);
+  padding: 3px var(--space-2);
+}
+
+.gis-rf-scale__value {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.04em;
+  color: var(--ink-mute);
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+/* ── MapLibre ScaleControl restyle ───────────────────────────────────────── */
+/*
+ * We add MapLibre's own ScaleControl for the metric bar (it auto-snaps to
+ * round distances). Override its default styles here to match our token system:
+ * square corners, hairline border, mono font, no shadow, token colors.
+ *
+ * The control renders inside .maplibregl-ctrl-bottom-left but we relocate it
+ * by appending to our .gis-bottom-left instead (see MapControls.tsx).
+ */
+
+.gis-scale-container .maplibregl-ctrl-scale {
+  /* Strip all default MapLibre chrome */
+  box-shadow: none !important;
+  border-radius: var(--radius) !important;
+  border: 1px solid var(--border-mid) !important;
+  background: var(--surface) !important;
+  /* Typography */
+  font-family: var(--font-mono) !important;
+  font-size: 10px !important;
+  font-variant-numeric: tabular-nums !important;
+  letter-spacing: 0.04em !important;
+  color: var(--ink-mid) !important;
+  /* Layout */
+  padding: 3px var(--space-2) !important;
+  line-height: 1.2 !important;
+  height: auto !important;
+  min-width: 48px !important;
+  max-width: 120px !important;
+  box-sizing: border-box !important;
+  /* The bottom border of MapLibre's scale bar is its actual "bar" visual.
+     Keep it at 2px but use a token color. */
+  border-bottom-width: 2px !important;
+  border-bottom-color: var(--ink-mid) !important;
+}
+
+.gis-scale-container {
+  pointer-events: none; /* passive info; no clicks needed */
+}
+
+/* Hide the default MapLibre bottom-left control container since we're
+   relocating the ScaleControl into our overlay */
+.msa-map .maplibregl-ctrl-bottom-left {
+  display: none !important;
+}
+
+/* Also suppress the default MapLibre attribution (we show our own) */
+.msa-map .maplibregl-ctrl-bottom-right {
+  display: none !important;
+}
+
+/* And hide MapLibre's top-right controls (we show our own zoom) */
+.msa-map .maplibregl-ctrl-top-right {
+  display: none !important;
+}
+
+/* Attribution line styles removed (2026-06-01): the data-source credit no longer
+   renders on the map. It now lives in Settings → Guides → Attribution. */
+
+/* ── Measure tool readout (top-left, under the zoom/measure control) ──────── */
+.gis-measure {
+  position: absolute;
+  top: calc(var(--space-3) + 132px); /* below the 3-button zoom/measure stack */
+  left: var(--space-3);
+  pointer-events: none; /* readout only; the map underneath stays clickable */
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  background: var(--surface);
+  border: 1px solid var(--border-mid);
+  border-radius: var(--radius);
+  padding: 4px var(--space-2);
+  max-width: 200px;
+}
+
+.gis-measure__hint {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+}
+
+.gis-measure__value {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--ink);
+}

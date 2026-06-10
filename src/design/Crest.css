@@ -1,0 +1,39 @@
+/* Crest — monogram identity mark */
+
+.crest {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.5px solid var(--border-mid);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+/* SVG hatch fills the whole square, positioned absolutely */
+.crest__hatch {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+
+/* Monogram sits above the hatch */
+.crest__label {
+  position: relative;
+  z-index: 1;
+  font-family: var(--font-mono);
+  font-weight: 700;
+  color: var(--ink);
+  letter-spacing: 0.02em;
+  line-height: 1;
+  /* push up slightly to leave room for the band */
+  margin-bottom: 4px;
+}
+
+/* Region color band pinned to bottom */
+.crest__band {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
