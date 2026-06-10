@@ -11,7 +11,7 @@
  */
 
 /** Human labels for each speed, in the same order. */
-const PLAY_SPEED_LABELS: Record<number, string> = { 5: 'Slow', 20: 'Med', 50: 'Fast' };
+const PLAY_SPEED_LABELS: Record<number, string> = { 5: 'Slow', 20: 'REG' };
 
 /** Props for the PlaybackControls sub-component. */
 interface PlaybackControlsProps {
@@ -34,7 +34,7 @@ interface PlaybackControlsProps {
  *
  * Uses .btn grammar from atlas-tokens.css (square corners, hairline border) so it
  * renders correctly in all four themes with no hardcoded color. SVG icons use
- * currentColor. The speed button shows a short label (Slow/Med/Fast) and cycles
+ * currentColor. The speed button shows a short label (Slow/REG) and cycles
  * on click; the loop button is an aria-pressed toggle.
  */
 export function PlaybackControls({

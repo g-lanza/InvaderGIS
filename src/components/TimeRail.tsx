@@ -63,7 +63,7 @@ import { PlaybackControls } from './TimeRailPlayback';
 /** Discrete time-lapse speeds (years/second) handleCycleSpeed cycles through.
  *  Kept here (the owner of the cycle handler + store write); the playback button's
  *  display labels live in TimeRailPlayback. */
-const PLAY_SPEEDS = [5, 20, 50] as const;
+const PLAY_SPEEDS = [5, 20] as const;
 
 // Play speed is now owned by timeStore (`playSpeed`, default 20 yrs/s) so it is
 // user-adjustable via the speed control and read live by the RAF loop below.
@@ -594,7 +594,7 @@ export function TimeRail() {
     setPlaying(!playing);
   }, [playing, year, boundsMin, boundsMax, setYear, setPlaying]);
 
-  /** Cycle playback speed through PLAY_SPEEDS (Slow → Med → Fast → Slow). */
+  /** Cycle playback speed through PLAY_SPEEDS (Slow → REG → Slow). */
   const handleCycleSpeed = useCallback(() => {
     const idx = PLAY_SPEEDS.indexOf(playSpeed as (typeof PLAY_SPEEDS)[number]);
     const next = PLAY_SPEEDS[(idx + 1) % PLAY_SPEEDS.length];

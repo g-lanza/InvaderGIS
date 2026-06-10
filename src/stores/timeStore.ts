@@ -84,9 +84,11 @@ export interface TimeState {
   playing: boolean;
   /**
    * Playback speed in years/second for time-lapse (the RAF loop in TimeRail reads
-   * this). Default 20 (≈50 s to cross the 1000-yr window). Additive (Phase: time-
-   * lapse enhancement) — kept optional-by-default so any consumer that ignores it
-   * sees no behaviour change.
+   * this). Default 20 — the "REG" (regular) speed (≈50 s to cross the 1000-yr
+   * window). The speed control cycles Slow (5) ↔ REG (20); both are slow enough
+   * that the map's 50 ms time-filter renders every snapshot without skipping.
+   * Additive (Phase: time-lapse enhancement) — kept optional-by-default so any
+   * consumer that ignores it sees no behaviour change.
    */
   playSpeed: number;
   /**
