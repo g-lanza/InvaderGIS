@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="en" data-theme="contrast">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>InvaderGIS — Marker System</title>
+<style>
+  :root{
+    --ink:#1a1a1c; --ink-2:#55555c; --ink-3:#8a8a92;
+    --paper:#faf8f4; --card:#ffffff; --line:#e7e3da; --line-2:#efece4;
+    --mono:"IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+    --sans:system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;}
+  body{
+    background:var(--paper); color:var(--ink); font-family:var(--sans);
+    -webkit-font-smoothing:antialiased; padding-bottom:80px;
+  }
+  /* faint cartographic grid */
+  body::before{
+    content:""; position:fixed; inset:0; pointer-events:none; z-index:0;
+    background-image:linear-gradient(var(--line-2) 1px, transparent 1px),
+                     linear-gradient(90deg, var(--line-2) 1px, transparent 1px);
+    background-size:32px 32px; opacity:.5;
+  }
+  .wrap{position:relative; z-index:1; max-width:1180px; margin:0 auto; padding:0 28px;}
+
+  header.masthead{padding:46px 0 30px; border-bottom:1px solid var(--line);}
+  .eyebrow{font-family:var(--mono); font-size:11px; letter-spacing:.22em;
+    text-transform:uppercase; color:var(--ink-3); margin:0 0 14px;}
+  h1{font-size:34px; font-weight:700; letter-spacing:-.02em; margin:0 0 12px; line-height:1.05;}
+  .lede{font-size:15px; line-height:1.6; color:var(--ink-2); max-width:680px; margin:0;}
+  .lede code{font-family:var(--mono); font-size:12.5px; background:#f1ede4;
+    padding:1px 5px; border-radius:3px; color:var(--ink);}
+
+  .legend{display:flex; flex-wrap:wrap; gap:22px; margin-top:24px;}
+  .legend-item{display:flex; align-items:center; gap:10px;}
+  .legend-item .swatch{width:34px; height:46px; display:flex; align-items:center; justify-content:center;}
+  .legend-item .lbl{font-family:var(--mono); font-size:10.5px; letter-spacing:.12em;
+    text-transform:uppercase; color:var(--ink-2); line-height:1.5;}
+  .legend-item .lbl b{display:block; color:var(--ink); font-size:11px; letter-spacing:.1em;}
+
+  section.block{padding:40px 0 8px; border-bottom:1px solid var(--line);}
+  .block-head{display:flex; align-items:baseline; justify-content:space-between;
+    gap:16px; margin-bottom:26px; flex-wrap:wrap;}
+  .block-title{display:flex; align-items:baseline; gap:14px;}
+  .block-num{font-family:var(--mono); font-size:12px; color:var(--ink-3); letter-spacing:.1em;}
+  .block-title h2{font-size:21px; font-weight:650; letter-spacing:-.01em; margin:0;}
+  .block-meta{font-family:var(--mono); font-size:11px; letter-spacing:.08em;
+    text-transform:uppercase; color:var(--ink-3); text-align:right; line-height:1.6;}
+
+  .grid{display:grid; grid-template-columns:repeat(auto-fill, minmax(118px,1fr)); gap:14px;}
+  .card{background:var(--card); border:1px solid var(--line); border-radius:10px;
+    padding:14px 10px 12px; display:flex; flex-direction:column; align-items:center;
+    transition:border-color .15s, transform .15s, box-shadow .15s;}
+  .card:hover{border-color:#d6d0c4; transform:translateY(-2px);
+    box-shadow:0 6px 18px -10px rgba(40,30,10,.35);}
+  .stage{height:78px; display:flex; align-items:flex-end; justify-content:center; margin-bottom:11px;}
+  .stage.mid{align-items:center;}
+  .stage svg{height:var(--h,64px); width:auto; display:block;
+    filter:drop-shadow(0 1px 1px rgba(0,0,0,.12));}
+  .name{font-family:var(--mono); font-size:11px; letter-spacing:.06em; color:var(--ink);
+    text-align:center; line-height:1.3;}
+  .sub{font-family:var(--mono); font-size:9.5px; letter-spacing:.05em; color:var(--ink-3);
+    text-align:center; margin-top:3px; text-transform:uppercase;}
+  .dot{display:inline-block; width:7px; height:7px; border-radius:50%; vertical-align:middle;
+    margin-right:5px; transform:translateY(-1px);}
+
+  /* settlements special row */
+  .tiers{display:flex; align-items:flex-end; gap:44px; padding:8px 6px 2px; flex-wrap:wrap;}
+  .tier{display:flex; flex-direction:column; align-items:center; gap:12px;}
+  .tier .stage{height:72px;}
+
+  footer.foot{padding:30px 0 0; color:var(--ink-3); font-family:var(--mono);
+    font-size:11px; letter-spacing:.06em; line-height:1.8;}
+  footer.foot b{color:var(--ink-2);}
+
+  /* ── Line layer styles ─────────────────────────────────────────────────── */
+  .line-grid{display:grid; grid-template-columns:repeat(auto-fill, minmax(220px,1fr)); gap:14px;}
+  .line-card{background:var(--card); border:1px solid var(--line); border-radius:10px;
+    padding:16px 16px 13px; display:flex; flex-direction:column; gap:10px;
+    transition:border-color .15s, transform .15s, box-shadow .15s;}
+  .line-card:hover{border-color:#d6d0c4; transform:translateY(-2px);
+    box-shadow:0 6px 18px -10px rgba(40,30,10,.35);}
+  .line-preview{display:flex; align-items:center; height:28px;}
+  .line-preview svg{display:block;}
+  .line-label{font-family:var(--mono); font-size:11px; letter-spacing:.06em; color:var(--ink);
+    display:flex; align-items:center; gap:6px;}
+  .line-label .dot{flex-shrink:0;}
+  .line-note{font-family:var(--mono); font-size:9.5px; letter-spacing:.05em;
+    color:var(--ink-3); text-transform:uppercase;}
+  .line-types{font-family:var(--mono); font-size:9px; letter-spacing:.04em;
+    color:var(--ink-3); line-height:1.7;}
+
+  /* Relationship type swatch grid */
+  .rel-swatch-grid{display:grid; grid-template-columns:repeat(auto-fill, minmax(160px,1fr)); gap:8px; margin-top:20px;}
+  .rel-swatch{background:var(--card); border:1px solid var(--line); border-radius:7px;
+    padding:9px 12px; display:flex; align-items:center; gap:8px;}
+  .rel-swatch .dot{width:9px; height:9px; border-radius:50%; flex-shrink:0;}
+  .rel-swatch-info{flex:1; min-width:0;}
+  .rel-swatch-name{font-family:var(--mono); font-size:10px; letter-spacing:.06em; color:var(--ink);}
+  .rel-swatch-bucket{font-family:var(--mono); font-size:8.5px; letter-spacing:.05em;
+    color:var(--ink-3); text-transform:uppercase; margin-top:1px;}
+  .rel-directed-badge{font-family:var(--mono); font-size:7.5px; letter-spacing:.06em;
+    background:#f1ede4; color:var(--ink-2); padding:1px 5px; border-radius:3px;
+    text-transform:uppercase; flex-shrink:0;}
+
+  /* Endpoint cards */
+  .endpoint-grid{display:grid; grid-template-columns:repeat(auto-fill, minmax(160px,1fr)); gap:14px;}
+  .endpoint-card{background:var(--card); border:1px solid var(--line); border-radius:10px;
+    padding:18px 14px 13px; display:flex; flex-direction:column; align-items:center; gap:10px;
+    transition:border-color .15s, transform .15s, box-shadow .15s;}
+  .endpoint-card:hover{border-color:#d6d0c4; transform:translateY(-2px);
+    box-shadow:0 6px 18px -10px rgba(40,30,10,.35);}
+  .endpoint-stage{width:48px; height:48px; display:flex; align-items:center;
+    justify-content:center;}
+  .endpoint-stage svg{width:100%; height:100%; display:block;}
+  .endpoint-label{font-family:var(--mono); font-size:11px; letter-spacing:.06em;
+    color:var(--ink); text-align:center;}
+  .endpoint-desc{font-family:var(--mono); font-size:9px; letter-spacing:.05em;
+    color:var(--ink-3); text-align:center; text-transform:uppercase; line-height:1.6;}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead">
+      <p class="eyebrow">InvaderGIS · Cartographic Marker System</p>
+      <h1>Map markers</h1>
+      <p class="lede">A unified marker vocabulary across the four data layers. Each layer owns a
+        distinct silhouette so it reads at a glance even when overlapped; the white glyph carries the
+        subtype. Geometry is ported 1:1 from <code>src/design/glyphMarks.tsx</code>; colors are the
+        locked tokens from <code>tokens.ts</code>. Use the <b>Tweaks</b> panel to compare glyph-stroke
+        treatments, then export the set you choose.</p>
+
+      <div class="legend" id="legend"></div>
+    </header>
+
+    <div id="sections"></div>
+
+    <div id="line-sections"></div>
+
+    <footer class="foot">
+      <div><b>7</b> data layers · <b>4</b> silhouettes · <b>9</b> event categories · <b>4</b> journey kinds · <b>16</b> relationship types · stroked on the 24×24 / currentColor contract.</div>
+      <div>Anchor: pin → bottom point · disc / diamond / shield → center · lines → currentColor dash encoding.</div>
+    </footer>
+  </div>
+
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+  <script src="marker-kit.js"></script>
+  <script type="text/babel" src="tweaks-panel.jsx"></script>
+
+  <script type="text/babel">
+    const { useTweaks, TweaksPanel, TweakSection, TweakRadio, TweakToggle } = window;
+    // ── Marker catalog ──────────────────────────────────────────────────────
+    const C = {
+      violence:'#9c1c1c', diplomacy:'#2e8b57', power:'#b8860b', religion:'#5a3d8a',
+      culture:'#2a7575', discovery:'#3b6a8c', economy:'#a3592a', hazard:'#6e3030',
+      institution:'#4a4a52', settle:'#7a6a5a', capital:'#b8860b',
+      battle:'#6e3030', fort:'#9c1c1c', furniture:'#4a4a52',
+    };
+
+    const EVENT_CATS = [
+      ['violence','swords','Violence'], ['diplomacy','dove','Diplomacy'],
+      ['power','crown','Power'], ['religion','pray','Religion'],
+      ['culture','people','Culture'], ['discovery','magnifier','Discovery'],
+      ['economy','dollar','Economy'], ['hazard','bolt','Hazard'],
+      ['institution','pillars','Institution'],
+    ];
+    // [label, glyph, categoryColorKey]
+    const EVENT_SUBS = [
+      ['siege','flame','violence'], ['rebellion','broken_heart','violence'],
+      ['assassination','ninja','violence'], ['raid · naval','ship','violence'],
+      ['treaty','scroll','diplomacy'], ['marriage','rings','diplomacy'],
+      ['council','church','religion'], ['founding','fortress','institution'],
+      ['plague','skull','hazard'], ['famine','wheat','hazard'],
+      ['fire','flame','hazard'], ['earthquake','crack','hazard'],
+      ['climate','cloud','hazard'],
+    ];
+    const MILITARY = [
+      ['battle','swords',C.battle], ['fort','house',C.fort], ['castle','castle',C.fort],
+    ];
+    const SETTLE_TIERS = [
+      ['megacity','58px','16 records'], ['city','44px','4,002 records'], ['town','30px','16 records'],
+    ];
+
+    const DISPLAY_H = { pin:'70px', diamond:'58px', shield:'60px', stud:'46px', disc:'52px' };
+
+    function Marker({ section, glyph, color, h, opts }) {
+      const svg = MarkerKit.buildMarkerSVG(section, { glyph, color }, opts);
+      return React.createElement('div', {
+        className:'stage' + (section==='settlements'?' mid':''),
+        style:{ '--h': h || DISPLAY_H[MarkerKit.SECTION_SHAPE[section]] },
+        dangerouslySetInnerHTML:{ __html: svg },
+      });
+    }
+
+    function Card({ section, glyph, color, label, sub, h, opts }) {
+      return React.createElement('div', { className:'card' },
+        React.createElement(Marker, { section, glyph, color, h, opts }),
+        React.createElement('div', { className:'name' }, label),
+        sub && React.createElement('div', { className:'sub' },
+          React.createElement('span', { className:'dot', style:{ background:color } }), sub),
+      );
+    }
+
+    function Block({ num, title, meta, children }) {
+      return React.createElement('section', { className:'block' },
+        React.createElement('div', { className:'block-head' },
+          React.createElement('div', { className:'block-title' },
+            React.createElement('span', { className:'block-num' }, num),
+            React.createElement('h2', null, title)),
+          React.createElement('div', { className:'block-meta',
+            dangerouslySetInnerHTML:{ __html: meta } })),
+        children);
+    }
+
+    const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
+      "glyphWeight": "regular",
+      "glyphCap": "round",
+      "shadow": false
+    }/*EDITMODE-END*/;
+
+    const WEIGHT = { hairline:1.35, regular:1.7, bold:2.35 };
+
+    function Legend() {
+      const items = [
+        ['events','Events','Teardrop pin', C.power, 'crown'],
+        ['settlements','Settlements','Disc · sized', C.settle, null],
+        ['capitals','Capitals','Diamond', C.capital, 'column'],
+        ['military','Military','Shield', C.battle, 'swords'],
+      ];
+      const opts = { weight:1.7, cap:'round', shadow:true };
+      return items.map(([sec,name,shape,col,glyph]) =>
+        React.createElement('div', { className:'legend-item', key:sec },
+          React.createElement('div', { className:'swatch',
+            dangerouslySetInnerHTML:{ __html: MarkerKit.buildMarkerSVG(sec, { glyph, color: col }, opts) } }),
+          React.createElement('div', { className:'lbl' },
+            React.createElement('b', null, name), shape)));
+    }
+
+    function App() {
+      const [t, setTweak] = useTweaks(TWEAK_DEFAULTS);
+      const opts = { weight: WEIGHT[t.glyphWeight] || 1.7, cap: t.glyphCap, shadow: t.shadow };
+
+      return React.createElement(React.Fragment, null,
+        // EVENTS
+        React.createElement(Block, {
+          num:'01', title:'Events',
+          meta:'2,914 records · <b>PIN</b><br/>9 categories · subtype glyph swaps' },
+          React.createElement('div', { className:'grid' },
+            EVENT_CATS.map(([key,glyph,label]) =>
+              React.createElement(Card, { key, section:'events', glyph, color:C[key],
+                label, sub:label, h:DISPLAY_H.pin, opts })))),
+
+        React.createElement(Block, {
+          num:'01·b', title:'Event subtype overrides',
+          meta:'glyph swaps · inherit category color' },
+          React.createElement('div', { className:'grid' },
+            EVENT_SUBS.map(([label,glyph,catKey],i) =>
+              React.createElement(Card, { key:i, section:'events', glyph, color:C[catKey],
+                label, sub:catKey, h:DISPLAY_H.pin, opts })))),
+
+        // SETTLEMENTS
+        React.createElement(Block, {
+          num:'02', title:'Settlements',
+          meta:'4,077 records · <b>DISC</b><br/>warm grey #7a6a5a · size + ring = tier' },
+          React.createElement('div', { className:'tiers' },
+            SETTLE_TIERS.map(([tier,h,sub]) =>
+              React.createElement('div', { className:'tier', key:tier },
+                React.createElement('div', { className:'stage mid', style:{ '--h':h },
+                  dangerouslySetInnerHTML:{ __html: MarkerKit.buildSettlementSVG(tier, C.settle, opts) } }),
+                React.createElement('div', { className:'name' }, tier),
+                React.createElement('div', { className:'sub' }, sub))))),
+
+        // CAPITALS
+        React.createElement(Block, {
+          num:'03', title:'Capitals',
+          meta:'230 records · <b>DIAMOND</b><br/>amber-gold #b8860b · column glyph' },
+          React.createElement('div', { className:'grid' },
+            React.createElement(Card, { section:'capitals', glyph:'column', color:C.capital,
+              label:'capital', sub:'seat of power', h:DISPLAY_H.diamond, opts }))),
+
+        // MILITARY
+        React.createElement(Block, {
+          num:'04', title:'Military sites',
+          meta:'2,055 records · <b>SHIELD</b><br/>battle / fort / castle' },
+          React.createElement('div', { className:'grid' },
+            MILITARY.map(([label,glyph,color]) =>
+              React.createElement(Card, { key:label, section:'military', glyph, color,
+                label, sub:label==='battle'?'#6e3030':'#9c1c1c', h:DISPLAY_H.shield, opts })))),
+
+        // TWEAKS
+        React.createElement(TweaksPanel, null,
+          React.createElement(TweakSection, { label:'Glyph style' }),
+          React.createElement(TweakRadio, { label:'Stroke weight', value:t.glyphWeight,
+            options:['hairline','regular','bold'], onChange:(v)=>setTweak('glyphWeight', v) }),
+          React.createElement(TweakRadio, { label:'Line ends', value:t.glyphCap,
+            options:['round','butt'], onChange:(v)=>setTweak('glyphCap', v) }),
+          React.createElement(TweakSection, { label:'Presentation' }),
+          React.createElement(TweakToggle, { label:'Drop shadow', value:t.shadow,
+            onChange:(v)=>setTweak('shadow', v) })));
+    }
+
+    ReactDOM.createRoot(document.getElementById('sections')).render(React.createElement(App));
+    ReactDOM.createRoot(document.getElementById('legend')).render(React.createElement(Legend));
+  </script>
+
+  <script type="text/babel">
+    // ── Line layer preview (Blocks 05–07) ───────────────────────────────────
+    const {
+      JOURNEY_KINDS, RELATIONSHIP_DASH_BUCKETS, RELATIONSHIP_TYPES_MAP,
+      RELATIONSHIP_TYPE_BUCKET, DIRECTED_RELATIONSHIP_TYPES, TRADE_STYLE,
+      buildLinePreviewSVG, buildEndpointPreviewSVG,
+    } = MarkerKit;
+
+    const DIRECTED_SET = new Set(DIRECTED_RELATIONSHIP_TYPES);
+
+    // Representative color per dash bucket (first type in each bucket's types list).
+    const bucketRepColor = (bucket) => {
+      const firstType = bucket.types[0];
+      return RELATIONSHIP_TYPES_MAP[firstType] || '#7a7a8a';
+    };
+
+    function LineCard({ color, dash, cap, label, note, types, opacity }) {
+      const svg = buildLinePreviewSVG(color, dash, cap, { opacity });
+      return React.createElement('div', { className: 'line-card' },
+        React.createElement('div', { className: 'line-preview', dangerouslySetInnerHTML: { __html: svg } }),
+        React.createElement('div', { className: 'line-label' },
+          React.createElement('span', { className: 'dot', style: { background: color, width: 8, height: 8, borderRadius: '50%', display: 'inline-block', flexShrink: 0 } }),
+          label,
+        ),
+        note && React.createElement('div', { className: 'line-note' }, note),
+        types && React.createElement('div', { className: 'line-types' }, types.join(' · ')),
+      );
+    }
+
+    function RelSwatchGrid() {
+      const entries = Object.entries(RELATIONSHIP_TYPES_MAP);
+      return React.createElement('div', { className: 'rel-swatch-grid' },
+        entries.map(([type, color]) => {
+          const bucket = RELATIONSHIP_TYPE_BUCKET[type] || '—';
+          const directed = DIRECTED_SET.has(type);
+          return React.createElement('div', { className: 'rel-swatch', key: type },
+            React.createElement('div', { className: 'dot', style: { background: color } }),
+            React.createElement('div', { className: 'rel-swatch-info' },
+              React.createElement('div', { className: 'rel-swatch-name' }, type.replace(/_/g, ' ')),
+              React.createElement('div', { className: 'rel-swatch-bucket' }, bucket),
+            ),
+            directed && React.createElement('div', { className: 'rel-directed-badge' }, '→ directed'),
+          );
+        }),
+      );
+    }
+
+    function EndpointCards({ svgs }) {
+      const ENDPOINTS = [
+        { key: 'waypoint', label: 'Waypoint', desc: 'color ring · white core' },
+        { key: 'origin',   label: 'Origin',   desc: 'white ring · color core' },
+        { key: 'terminus', label: 'Terminus', desc: 'color disc · white core' },
+        { key: 'stud',     label: 'Stud',     desc: 'white ring · ink dot' },
+        { key: 'arrow',    label: 'Arrowhead', desc: 'directed ties only' },
+      ];
+      const inkColor = '#4a4a52';
+      return React.createElement('div', { className: 'endpoint-grid' },
+        ENDPOINTS.map(({ key, label, desc }) => {
+          const raw = svgs[key];
+          if (!raw) return null;
+          const colored = buildEndpointPreviewSVG(raw, inkColor);
+          return React.createElement('div', { className: 'endpoint-card', key },
+            React.createElement('div', { className: 'endpoint-stage', dangerouslySetInnerHTML: { __html: colored } }),
+            React.createElement('div', { className: 'endpoint-label' }, label),
+            React.createElement('div', { className: 'endpoint-desc' }, desc),
+          );
+        }),
+      );
+    }
+
+    function LineApp({ svgs }) {
+      return React.createElement(React.Fragment, null,
+
+        // BLOCK 05 — Journeys
+        React.createElement('section', { className: 'block' },
+          React.createElement('div', { className: 'block-head' },
+            React.createElement('div', { className: 'block-title' },
+              React.createElement('span', { className: 'block-num' }, '05'),
+              React.createElement('h2', null, 'Journeys')),
+            React.createElement('div', { className: 'block-meta',
+              dangerouslySetInnerHTML: { __html: '152 journeys · 3,481 waypoints<br/><b>LINE</b> · kind-colored · per-kind dash' } })),
+          React.createElement('div', { className: 'line-grid' },
+            JOURNEY_KINDS.map((k) =>
+              React.createElement(LineCard, {
+                key: k.key, color: k.color, dash: k.dash, cap: k.cap,
+                label: k.label, note: k.note,
+              })))),
+
+        // BLOCK 06 — Relationships
+        React.createElement('section', { className: 'block' },
+          React.createElement('div', { className: 'block-head' },
+            React.createElement('div', { className: 'block-title' },
+              React.createElement('span', { className: 'block-num' }, '06'),
+              React.createElement('h2', null, 'Relationships')),
+            React.createElement('div', { className: 'block-meta',
+              dangerouslySetInnerHTML: { __html: '428 records · 16 types<br/><b>ARC</b> · color + dash encodes type · directed arrowhead' } })),
+          // Dash bucket rows
+          React.createElement('div', { className: 'line-grid' },
+            RELATIONSHIP_DASH_BUCKETS.map((b) =>
+              React.createElement(LineCard, {
+                key: b.label,
+                color: bucketRepColor(b),
+                dash: b.dash, cap: b.cap,
+                label: b.label + ' — ' + b.desc,
+                types: b.types,
+              }))),
+          // All 16 type swatches
+          React.createElement(RelSwatchGrid)),
+
+        // BLOCK 07 — Trade Routes
+        React.createElement('section', { className: 'block' },
+          React.createElement('div', { className: 'block-head' },
+            React.createElement('div', { className: 'block-title' },
+              React.createElement('span', { className: 'block-num' }, '07'),
+              React.createElement('h2', null, 'Trade Routes')),
+            React.createElement('div', { className: 'block-meta',
+              dangerouslySetInnerHTML: { __html: '25 records · unified style<br/><b>LINE</b> · economy orange-brown · dashed [4,3]' } })),
+          React.createElement('div', { className: 'line-grid' },
+            React.createElement(LineCard, {
+              color: TRADE_STYLE.color, dash: TRADE_STYLE.dash, cap: TRADE_STYLE.cap,
+              label: TRADE_STYLE.label, note: 'dashed [4, 3] · opacity 0.78',
+              opacity: TRADE_STYLE.opacity,
+            }))),
+
+        // BLOCK 08 — Line Endpoints
+        React.createElement('section', { className: 'block' },
+          React.createElement('div', { className: 'block-head' },
+            React.createElement('div', { className: 'block-title' },
+              React.createElement('span', { className: 'block-num' }, '08'),
+              React.createElement('h2', null, 'Line Endpoints')),
+            React.createElement('div', { className: 'block-meta',
+              dangerouslySetInnerHTML: { __html: 'svg/line-endpoints/<br/>currentColor · ink #4a4a52' } })),
+          React.createElement(EndpointCards, { svgs })),
+      );
+    }
+
+    // Fetch the 5 endpoint SVGs then render.
+    const ENDPOINT_KEYS = ['waypoint', 'origin', 'terminus', 'stud', 'arrow'];
+    Promise.all(
+      ENDPOINT_KEYS.map((k) =>
+        fetch('svg/line-endpoints/' + k + '.svg')
+          .then((r) => r.ok ? r.text() : '')
+          .catch(() => '')
+      )
+    ).then((texts) => {
+      const svgs = {};
+      ENDPOINT_KEYS.forEach((k, i) => { svgs[k] = texts[i]; });
+      ReactDOM.createRoot(document.getElementById('line-sections')).render(
+        React.createElement(LineApp, { svgs })
+      );
+    });
+  </script>
+</body>
+</html>

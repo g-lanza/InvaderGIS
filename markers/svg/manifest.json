@@ -1,0 +1,365 @@
+{
+  "generated": "2026-06-04",
+  "style": {
+    "weight": 1.7,
+    "cap": "round",
+    "shadow": true
+  },
+  "layers": [
+    "events",
+    "settlements",
+    "capitals",
+    "military"
+  ],
+  "files": {
+    "markers/svg/markers/evt-violence.svg": {
+      "layer": "events",
+      "shape": "pin",
+      "glyph": "swords",
+      "color": "#9c1c1c",
+      "role": "category-default"
+    },
+    "markers/svg/markers/evt-diplomacy.svg": {
+      "layer": "events",
+      "shape": "pin",
+      "glyph": "dove",
+      "color": "#2e8b57",
+      "role": "category-default"
+    },
+    "markers/svg/markers/evt-power.svg": {
+      "layer": "events",
+      "shape": "pin",
+      "glyph": "crown",
+      "color": "#b8860b",
+      "role": "category-default"
+    },
+    "markers/svg/markers/evt-religion.svg": {
+      "layer": "events",
+      "shape": "pin",
+      "glyph": "pray",
+      "color": "#5a3d8a",
+      "role": "category-default"
+    },
+    "markers/svg/markers/evt-culture.svg": {
+      "layer": "events",
+      "shape": "pin",
+      "glyph": "people",
+      "color": "#2a7575",
+      "role": "category-default"
+    },
+    "markers/svg/markers/evt-discovery.svg": {
+      "layer": "events",
+      "shape": "pin",
+      "glyph": "magnifier",
+      "color": "#3b6a8c",
+      "role": "category-default"
+    },
+    "markers/svg/markers/evt-economy.svg": {
+      "layer": "events",
+      "shape": "pin",
+      "glyph": "dollar",
+      "color": "#a3592a",
+      "role": "category-default"
+    },
+    "markers/svg/markers/evt-hazard.svg": {
+      "layer": "events",
+      "shape": "pin",
+      "glyph": "bolt",
+      "color": "#6e3030",
+      "role": "category-default"
+    },
+    "markers/svg/markers/evt-institution.svg": {
+      "layer": "events",
+      "shape": "pin",
+      "glyph": "pillars",
+      "color": "#4a4a52",
+      "role": "category-default"
+    },
+    "markers/svg/markers/evt-siege.svg": {
+      "layer": "events",
+      "shape": "pin",
+      "glyph": "flame",
+      "color": "#9c1c1c",
+      "category": "violence",
+      "role": "subtype-override"
+    },
+    "markers/svg/markers/evt-rebellion.svg": {
+      "layer": "events",
+      "shape": "pin",
+      "glyph": "broken_heart",
+      "color": "#9c1c1c",
+      "category": "violence",
+      "role": "subtype-override"
+    },
+    "markers/svg/markers/evt-revolt.svg": {
+      "layer": "events",
+      "shape": "pin",
+      "glyph": "broken_heart",
+      "color": "#9c1c1c",
+      "category": "violence",
+      "role": "subtype-override"
+    },
+    "markers/svg/markers/evt-assassination.svg": {
+      "layer": "events",
+      "shape": "pin",
+      "glyph": "ninja",
+      "color": "#9c1c1c",
+      "category": "violence",
+      "role": "subtype-override"
+    },
+    "markers/svg/markers/evt-raid.svg": {
+      "layer": "events",
+      "shape": "pin",
+      "glyph": "ship",
+      "color": "#9c1c1c",
+      "category": "violence",
+      "role": "subtype-override"
+    },
+    "markers/svg/markers/evt-naval.svg": {
+      "layer": "events",
+      "shape": "pin",
+      "glyph": "ship",
+      "color": "#9c1c1c",
+      "category": "violence",
+      "role": "subtype-override"
+    },
+    "markers/svg/markers/evt-treaty.svg": {
+      "layer": "events",
+      "shape": "pin",
+      "glyph": "scroll",
+      "color": "#2e8b57",
+      "category": "diplomacy",
+      "role": "subtype-override"
+    },
+    "markers/svg/markers/evt-treaty_fragmentation.svg": {
+      "layer": "events",
+      "shape": "pin",
+      "glyph": "scroll",
+      "color": "#2e8b57",
+      "category": "diplomacy",
+      "role": "subtype-override"
+    },
+    "markers/svg/markers/evt-marriage.svg": {
+      "layer": "events",
+      "shape": "pin",
+      "glyph": "rings",
+      "color": "#2e8b57",
+      "category": "diplomacy",
+      "role": "subtype-override"
+    },
+    "markers/svg/markers/evt-council.svg": {
+      "layer": "events",
+      "shape": "pin",
+      "glyph": "church",
+      "color": "#5a3d8a",
+      "category": "religion",
+      "role": "subtype-override"
+    },
+    "markers/svg/markers/evt-religious_council.svg": {
+      "layer": "events",
+      "shape": "pin",
+      "glyph": "church",
+      "color": "#5a3d8a",
+      "category": "religion",
+      "role": "subtype-override"
+    },
+    "markers/svg/markers/evt-founding.svg": {
+      "layer": "events",
+      "shape": "pin",
+      "glyph": "fortress",
+      "color": "#4a4a52",
+      "category": "institution",
+      "role": "subtype-override"
+    },
+    "markers/svg/markers/evt-plague.svg": {
+      "layer": "events",
+      "shape": "pin",
+      "glyph": "skull",
+      "color": "#6e3030",
+      "category": "hazard",
+      "role": "subtype-override"
+    },
+    "markers/svg/markers/evt-epidemic.svg": {
+      "layer": "events",
+      "shape": "pin",
+      "glyph": "skull",
+      "color": "#6e3030",
+      "category": "hazard",
+      "role": "subtype-override"
+    },
+    "markers/svg/markers/evt-famine.svg": {
+      "layer": "events",
+      "shape": "pin",
+      "glyph": "wheat",
+      "color": "#6e3030",
+      "category": "hazard",
+      "role": "subtype-override"
+    },
+    "markers/svg/markers/evt-fire.svg": {
+      "layer": "events",
+      "shape": "pin",
+      "glyph": "flame",
+      "color": "#6e3030",
+      "category": "hazard",
+      "role": "subtype-override"
+    },
+    "markers/svg/markers/evt-earthquake.svg": {
+      "layer": "events",
+      "shape": "pin",
+      "glyph": "crack",
+      "color": "#6e3030",
+      "category": "hazard",
+      "role": "subtype-override"
+    },
+    "markers/svg/markers/evt-climate.svg": {
+      "layer": "events",
+      "shape": "pin",
+      "glyph": "cloud",
+      "color": "#6e3030",
+      "category": "hazard",
+      "role": "subtype-override"
+    },
+    "markers/svg/markers/set-town.svg": {
+      "layer": "settlements",
+      "shape": "disc",
+      "tier": "town",
+      "color": "#7a6a5a"
+    },
+    "markers/svg/markers/set-city.svg": {
+      "layer": "settlements",
+      "shape": "disc",
+      "tier": "city",
+      "color": "#7a6a5a"
+    },
+    "markers/svg/markers/set-megacity.svg": {
+      "layer": "settlements",
+      "shape": "disc",
+      "tier": "megacity",
+      "color": "#7a6a5a"
+    },
+    "markers/svg/markers/cap-capital.svg": {
+      "layer": "capitals",
+      "shape": "diamond",
+      "glyph": "column",
+      "color": "#b8860b"
+    },
+    "markers/svg/markers/mil-battle.svg": {
+      "layer": "military",
+      "shape": "shield",
+      "glyph": "swords",
+      "color": "#6e3030"
+    },
+    "markers/svg/markers/mil-fort.svg": {
+      "layer": "military",
+      "shape": "shield",
+      "glyph": "house",
+      "color": "#9c1c1c"
+    },
+    "markers/svg/markers/mil-castle.svg": {
+      "layer": "military",
+      "shape": "shield",
+      "glyph": "castle",
+      "color": "#9c1c1c"
+    },
+    "markers/svg/glyphs/swords.svg": {
+      "kind": "glyph-atom",
+      "name": "swords"
+    },
+    "markers/svg/glyphs/dove.svg": {
+      "kind": "glyph-atom",
+      "name": "dove"
+    },
+    "markers/svg/glyphs/crown.svg": {
+      "kind": "glyph-atom",
+      "name": "crown"
+    },
+    "markers/svg/glyphs/pray.svg": {
+      "kind": "glyph-atom",
+      "name": "pray"
+    },
+    "markers/svg/glyphs/people.svg": {
+      "kind": "glyph-atom",
+      "name": "people"
+    },
+    "markers/svg/glyphs/magnifier.svg": {
+      "kind": "glyph-atom",
+      "name": "magnifier"
+    },
+    "markers/svg/glyphs/dollar.svg": {
+      "kind": "glyph-atom",
+      "name": "dollar"
+    },
+    "markers/svg/glyphs/bolt.svg": {
+      "kind": "glyph-atom",
+      "name": "bolt"
+    },
+    "markers/svg/glyphs/pillars.svg": {
+      "kind": "glyph-atom",
+      "name": "pillars"
+    },
+    "markers/svg/glyphs/flame.svg": {
+      "kind": "glyph-atom",
+      "name": "flame"
+    },
+    "markers/svg/glyphs/broken_heart.svg": {
+      "kind": "glyph-atom",
+      "name": "broken_heart"
+    },
+    "markers/svg/glyphs/ninja.svg": {
+      "kind": "glyph-atom",
+      "name": "ninja"
+    },
+    "markers/svg/glyphs/ship.svg": {
+      "kind": "glyph-atom",
+      "name": "ship"
+    },
+    "markers/svg/glyphs/scroll.svg": {
+      "kind": "glyph-atom",
+      "name": "scroll"
+    },
+    "markers/svg/glyphs/rings.svg": {
+      "kind": "glyph-atom",
+      "name": "rings"
+    },
+    "markers/svg/glyphs/church.svg": {
+      "kind": "glyph-atom",
+      "name": "church"
+    },
+    "markers/svg/glyphs/fortress.svg": {
+      "kind": "glyph-atom",
+      "name": "fortress"
+    },
+    "markers/svg/glyphs/house.svg": {
+      "kind": "glyph-atom",
+      "name": "house"
+    },
+    "markers/svg/glyphs/castle.svg": {
+      "kind": "glyph-atom",
+      "name": "castle"
+    },
+    "markers/svg/glyphs/column.svg": {
+      "kind": "glyph-atom",
+      "name": "column"
+    },
+    "markers/svg/glyphs/skull.svg": {
+      "kind": "glyph-atom",
+      "name": "skull"
+    },
+    "markers/svg/glyphs/wheat.svg": {
+      "kind": "glyph-atom",
+      "name": "wheat"
+    },
+    "markers/svg/glyphs/crack.svg": {
+      "kind": "glyph-atom",
+      "name": "crack"
+    },
+    "markers/svg/glyphs/cloud.svg": {
+      "kind": "glyph-atom",
+      "name": "cloud"
+    },
+    "markers/svg/glyphs/ring.svg": {
+      "kind": "glyph-atom",
+      "name": "ring"
+    }
+  }
+}

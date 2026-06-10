@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Atlas Redesign · print</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    @page { size: 1280px 800px; margin: 0; }
+
+    html, body {
+      background: #ffffff;
+      color: var(--ink);
+      font-family: var(--sans);
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    /* Each page: 1280 × 800 with breaks */
+    .page, .cover {
+      width: 1280px;
+      height: 800px;
+      box-sizing: border-box;
+      page-break-after: always;
+      break-after: page;
+      page-break-inside: avoid;
+      break-inside: avoid;
+      position: relative;
+      overflow: hidden;
+      background: #ffffff;
+    }
+
+    /* Cover */
+    .cover {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 80px;
+      background: var(--surface);
+    }
+    .cover-inner { max-width: 760px; }
+
+    /* TOC */
+    .page-toc {
+      padding: 60px 80px;
+    }
+    .toc-grid {
+      column-count: 2;
+      column-gap: 40px;
+    }
+
+    /* Artboard page */
+    .page-art {
+      padding: 24px 80px 28px;
+      display: flex;
+      flex-direction: column;
+    }
+    .page-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border-mid);
+      margin-bottom: 12px;
+    }
+    .page-body {
+      margin: 0 auto;
+      background: var(--surface);
+    }
+
+    /* No animation in print */
+    *, *::before, *::after {
+      animation: none !important;
+      transition: none !important;
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+
+  <!-- React -->
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+  <!-- Data first -->
+  <script src="data/atlas.js"></script>
+
+  <!-- Shared components -->
+  <script type="text/babel" src="components/Glyphs.jsx"></script>
+  <script type="text/babel" src="components/MapBackground.jsx"></script>
+
+  <!-- Artboards -->
+  <script type="text/babel" src="artboards/AtlasFull.jsx"></script>
+  <script type="text/babel" src="artboards/EntityPanelOverview.jsx"></script>
+  <script type="text/babel" src="artboards/ChromeStudy.jsx"></script>
+  <script type="text/babel" src="artboards/TimeSliderArtboard.jsx"></script>
+  <script type="text/babel" src="artboards/StorylinePanelArtboard.jsx"></script>
+  <script type="text/babel" src="artboards/WorkspaceConcept.jsx"></script>
+  <script type="text/babel" src="artboards/WorkspaceModes.jsx"></script>
+  <script type="text/babel" src="artboards/ComponentSheet.jsx"></script>
+  <script type="text/babel" src="artboards/GlyphStudio.jsx"></script>
+  <script type="text/babel" src="artboards/UserGuide.jsx"></script>
+  <script type="text/babel" src="artboards/LoadingScreen.jsx"></script>
+  <script type="text/babel" src="artboards/LayersAndKeys.jsx"></script>
+  <script type="text/babel" src="artboards/OtherViews.jsx"></script>
+  <script type="text/babel" src="artboards/CommandPalette.jsx"></script>
+  <script type="text/babel" src="artboards/SystemStates.jsx"></script>
+  <script type="text/babel" src="artboards/InspectorsAndTooltips.jsx"></script>
+  <script type="text/babel" src="artboards/FiltersAndViews.jsx"></script>
+  <script type="text/babel" src="artboards/SourcesLibrary.jsx"></script>
+  <script type="text/babel" src="artboards/EditingMode.jsx"></script>
+  <script type="text/babel" src="artboards/AltMapViews.jsx"></script>
+  <script type="text/babel" src="artboards/DiscussionPanel.jsx"></script>
+  <script type="text/babel" src="artboards/CompareTable.jsx"></script>
+  <script type="text/babel" src="artboards/NotificationsAndHelp.jsx"></script>
+  <script type="text/babel" src="artboards/AboutPage.jsx"></script>
+  <script type="text/babel" src="artboards/OnboardingTour.jsx"></script>
+  <script type="text/babel" src="artboards/PrintSheet.jsx"></script>
+  <script type="text/babel" src="artboards/DataDictionary.jsx"></script>
+  <script type="text/babel" src="artboards/SpecSheet.jsx"></script>
+  <script type="text/babel" src="artboards/MobileViews.jsx"></script>
+  <script type="text/babel" src="artboards/HandoffPackage.jsx"></script>
+
+  <!-- Print app -->
+  <script type="text/babel" src="app-print.jsx"></script>
+</body>
+</html>
