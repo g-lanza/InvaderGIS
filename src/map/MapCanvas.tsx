@@ -35,7 +35,7 @@
 import { useEffect, useRef, useCallback, useState } from 'react';
 import { useTimeStore } from '@/stores/timeStore';
 import { useSettingsStore } from '@/stores/settingsStore';
-import { useLayersStore } from '@/stores/layersStore';
+import { useLayersStore, type LayerId } from '@/stores/layersStore';
 import { useSelectionStore } from '@/stores/selectionStore';
 import { useFilterStore } from '@/stores/filterStore';
 import { buildFilterMapExpression } from '@/data/filterPredicate';
@@ -350,29 +350,32 @@ export function MapCanvas() {
       }
       // Keep the selection ring in lockstep with the time/facet filter.
       applySelectionHighlight();
-      // P3-B fix: also update the events layer's time + category filter so event
-      // studs move with the scrubber while preserving any active solo category.
-      // Read the event facets at apply-time (not via deps) so their changes don't
-      // recreate this callback — a dedicated effect below handles facet-only changes.
-      {
+
+      // PERF: only re-filter layers that are actually VISIBLE. Every setFilter forces
+      // MapLibre to re-evaluate the expression over all features in that source; the
+      // optional layers (events 5061, settlements 4077, military 2055, …) are OFF by
+      // default, so filtering them each play tick was pure wasted work that the phone
+      // GPU/CPU couldn't sustain at 10 fps (the desktop could). A hidden layer's
+      // filter is re-applied for the current year the moment it's toggled on (see the
+      // visibility→time-filter effect below), so skipping it while hidden is safe.
+      // Polities always filter — they're the always-on base layer.
+      const vis = useLayersStore.getState().layers;
+      const isVis = (id: LayerId): boolean => vis[id]?.visible ?? false;
+
+      if (isVis('events')) {
         const ef = useEventFilterStore.getState();
         setEventsCategoryFilter(map, targetYear, ef.eventCategory, ef.eventTimeMode, ef.eventYearSpan);
       }
-      // Wave1-A: move journey paths with the scrubber too (preserves curated-only).
-      setJourneysTimeFilter(map, targetYear);
-      // Geo-layers move with the scrubber (each guards internally if not present).
-      setCapitalsTimeFilter(map, targetYear);
-      setSettlementsTimeFilter(map, targetYear);
-      setMilitaryTimeFilter(map, targetYear);
-      setTradeTimeFilter(map, targetYear);
-      setRelationshipsTimeFilter(map, targetYear);
-      // T2 fix: cartogram proportional symbols also move with the scrubber.
-      // Previously added once at initialYear and never re-filtered, so the bubbles
-      // were frozen at the load year. Helper guards internally if not present yet.
-      setCartogramTimeFilter(map, targetYear);
-      setHeatmapTimeFilter(map, targetYear);
-      // capitals-tower symbol layer has its own filter (not covered by setCapitalsTimeFilter).
-      if (map.getLayer('capitals-tower')) {
+      if (isVis('journeys'))      setJourneysTimeFilter(map, targetYear);
+      if (isVis('capitals'))      setCapitalsTimeFilter(map, targetYear);
+      if (isVis('settlements'))   setSettlementsTimeFilter(map, targetYear);
+      if (isVis('military'))      setMilitaryTimeFilter(map, targetYear);
+      if (isVis('trade'))         setTradeTimeFilter(map, targetYear);
+      if (isVis('relationships')) setRelationshipsTimeFilter(map, targetYear);
+      if (isVis('cartogram'))     setCartogramTimeFilter(map, targetYear);
+      if (isVis('heatmap'))       setHeatmapTimeFilter(map, targetYear);
+      // capitals-tower rides with the capitals layer's visibility.
+      if (isVis('capitals') && map.getLayer('capitals-tower')) {
         map.setFilter('capitals-tower', [
           'all',
           ['<=', ['coalesce', ['get', 'start_year'], 500], targetYear],
@@ -487,6 +490,22 @@ export function MapCanvas() {
       }
     };
   }, [filterYearRange, filterRegions, filterConfidence, year, state.phase, applyTimeFilter]);
+
+  // ── Visibility → time-filter re-apply ───────────────────────────────────────
+  // applyTimeFilter now SKIPS hidden layers (perf — see the isVis() guards), so a
+  // layer that was off while the year moved is stale when it's toggled on. Re-apply
+  // the current year whenever any optional layer's visibility changes, so a freshly
+  // shown layer immediately matches the current year. Cheap: runs only on toggle,
+  // not per play tick.
+  useEffect(() => {
+    if (state.phase !== 'ready') return;
+    lastYearRef.current = -1;
+    applyTimeFilter(useTimeStore.getState().year);
+  }, [
+    eventsVisible, journeysVisible, capitalsVisible, settlementsVisible,
+    militaryVisible, tradeVisible, relationshipsVisible, heatmapVisible, cartogramVisible,
+    state.phase, applyTimeFilter,
+  ]);
 
   // ── Theme effect ───────────────────────────────────────────────────────────
   // Re-reads CSS tokens and rebuilds the polity fill (region tint) plus every
