@@ -71,6 +71,10 @@ export const EVENTS_SOURCE_ID   = 'events-source';
 export const EVENTS_CIRCLE_ID   = 'events-circle';
 export const EVENTS_LABEL_ID    = 'events-label';
 export const EVENTS_SYMBOL_ID   = 'events-symbol';
+/** Invisible wide hit circle so event pins are reliably hover/clickable at any
+ *  zoom (the visible circle is radius-0 below zoom 7 and the symbol pin's hitbox
+ *  is unreliable with icon-allow-overlap). Mirrors MILITARY_HIT_ID. */
+export const EVENTS_HIT_ID      = 'events-hit';
 
 const EVENTS_URL = assetUrl('/data/layers/events.geojson');
 
@@ -430,6 +434,9 @@ export function addEventsLayer(
       // zoom (matching the reference component) — not a sub-pixel dot at world view.
       // Collision (icon-allow-overlap:false) keeps the 2,984-event field from
       // overdrawing; tier opacity gates further thin low zoom. 32×42 canvas @ pr2.
+      // NOTE: icon-size is a LAYOUT property and MapLibre forbids feature-state in
+      // layout props, so the hover "pop" CANNOT live here — it is done on the
+      // EVENTS_HIT_ID circle's paint instead (see addLayer below + featureStatePop).
       'icon-size': [
         'interpolate', ['linear'], ['zoom'],
         2,  0.62,  // world overview: ~10×13 CSS px — clearly a colored pin, glyph readable
@@ -466,6 +473,55 @@ export function addEventsLayer(
       'text-color': 'rgba(30, 20, 10, 0.85)',
       'text-halo-color': 'rgba(255, 255, 255, 0.8)',
       'text-halo-width': 1,
+    },
+  });
+
+  // ── Hit circle + hover "pop" ─────────────────────────────────────────────────
+  // Wide circle on TOP that serves two purposes:
+  //  1. Reliable hover/click target — the visible event circle is radius-0 below
+  //     zoom 7 and the symbol pin's queryable box is unreliable with
+  //     icon-allow-overlap:true, so without this the event hover never fired.
+  //  2. The hover "pop" indicator. icon-size (a LAYOUT prop) can't read
+  //     feature-state, so the pin itself can't grow; instead this circle is fully
+  //     transparent at rest and blooms into a soft halo disc + ring on hover/select
+  //     (circle PAINT props DO support feature-state). This is the events analogue
+  //     of the capitals circle pop. Same hit-target pattern as MILITARY_HIT_ID.
+  map.addLayer({
+    id: EVENTS_HIT_ID,
+    type: 'circle',
+    source: EVENTS_SOURCE_ID,
+    filter: timeFilter,
+    layout: { visibility },
+    paint: {
+      // Grow a touch on interaction so the halo reads as a "lift" around the pin.
+      'circle-radius': [
+        'case',
+        ['boolean', ['feature-state', 'selected'], false], 16,
+        ['boolean', ['feature-state', 'hover'], false], 15,
+        14,
+      ],
+      // Transparent at rest; soft translucent fill on hover, a bit stronger on select.
+      'circle-color': '#ffffff',
+      'circle-opacity': [
+        'case',
+        ['boolean', ['feature-state', 'selected'], false], 0.22,
+        ['boolean', ['feature-state', 'hover'], false], 0.16,
+        0,
+      ],
+      // A crisp ring appears on interaction — the clearest size-independent pop cue.
+      'circle-stroke-color': '#ffffff',
+      'circle-stroke-width': [
+        'case',
+        ['boolean', ['feature-state', 'selected'], false], 2,
+        ['boolean', ['feature-state', 'hover'], false], 1.5,
+        0,
+      ],
+      'circle-stroke-opacity': [
+        'case',
+        ['boolean', ['feature-state', 'selected'], false], 0.9,
+        ['boolean', ['feature-state', 'hover'], false], 0.75,
+        0,
+      ],
     },
   });
 
@@ -550,10 +606,11 @@ export function setEventsCategoryFilter(
   // heavy events GeoJSON keeps isStyleLoaded() false. See mapGuards.layerExists.
   if (layerExists(map, EVENTS_CIRCLE_ID)) map.setFilter(EVENTS_CIRCLE_ID, filter);
   if (layerExists(map, EVENTS_SYMBOL_ID)) map.setFilter(EVENTS_SYMBOL_ID, filter);
+  if (layerExists(map, EVENTS_HIT_ID))    map.setFilter(EVENTS_HIT_ID,    filter);
 }
 
 /**
- * Update the time filter on both events layers (called on year change).
+ * Update the time filter on all events layers (called on year change).
  * Guards against calling when layers are absent (fetch failed).
  *
  * NOTE: If a category filter is active, callers should use
@@ -571,6 +628,7 @@ export function setEventsTimeFilter(
   const filter = buildEventsTimeFilter(year, mode, span);
   if (layerExists(map, EVENTS_CIRCLE_ID))  map.setFilter(EVENTS_CIRCLE_ID,  filter);
   if (layerExists(map, EVENTS_SYMBOL_ID))  map.setFilter(EVENTS_SYMBOL_ID,  filter);
+  if (layerExists(map, EVENTS_HIT_ID))     map.setFilter(EVENTS_HIT_ID,     filter);
 }
 
 /**
@@ -594,6 +652,7 @@ export function setEventsVisibility(map: any, visible: boolean): void {
   const apply = (): void => {
     if (layerExists(map, EVENTS_CIRCLE_ID))  map.setLayoutProperty(EVENTS_CIRCLE_ID,  'visibility', v);
     if (layerExists(map, EVENTS_SYMBOL_ID))  map.setLayoutProperty(EVENTS_SYMBOL_ID,  'visibility', v);
+    if (layerExists(map, EVENTS_HIT_ID))     map.setLayoutProperty(EVENTS_HIT_ID,     'visibility', v);
   };
   apply();
   // Re-apply on the next frame: a SYMBOL layer's visibility set can be a no-op on

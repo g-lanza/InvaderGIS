@@ -45,7 +45,6 @@ const LAYER_LABELS: Record<LayerId, string> = {
   journeys:      'Journeys',
   trade:         'Trade',
   relationships: 'Relationships',
-  cartogram:     'Cartogram',
 };
 
 /** Tooltip shown on hover for layers that need a caveat. */
@@ -79,9 +78,9 @@ const LAYER_GROUPS: ReadonlyArray<LayerGroup> = [
   {
     key: 'territory',
     title: 'Territory',
-    // Cartogram is a polity-derived analytical view (proportional symbols), so it
-    // belongs with Territory. (The Event-Density heatmap layer was removed.)
-    layerIds: ['polities', 'cartogram'],
+    // Cartogram (proportional-symbol analytical view) and the Event-Density heatmap
+    // were both removed from the user-facing Layers list.
+    layerIds: ['polities'],
     defaultOpen: true,
   },
   {

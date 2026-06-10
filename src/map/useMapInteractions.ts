@@ -14,7 +14,7 @@
  */
 import { useEffect } from 'react';
 import type { RefObject } from 'react';
-import { EVENTS_CIRCLE_ID, EVENTS_SYMBOL_ID } from './eventsLayer';
+import { EVENTS_CIRCLE_ID, EVENTS_SYMBOL_ID, EVENTS_HIT_ID } from './eventsLayer';
 import { JOURNEYS_LINE_ID, JOURNEYS_HIT_ID, JOURNEYS_WAYPOINT_ID } from './journeysLayer';
 import { CAPITALS_LAYER_ID } from './capitalsLayer';
 import { SETTLEMENTS_LAYER_ID } from './settlementsLayer';
@@ -26,6 +26,7 @@ import {
   RELATIONSHIP_STUDS_RING_ID,
 } from './relationshipsLayer';
 import { humanizeId } from '@/data/displayName';
+import { useTradeRouteStore } from '@/stores/tradeRouteStore';
 
 /** Minimal MapLibre map surface this hook touches. */
 interface InteractiveMap {
@@ -133,6 +134,48 @@ export function useMapInteractions(
     const handleRelationshipClick = makeClick('relationship');
     const handleStudClick       = makeClick('polity'); // studs carry polity id
 
+    // Trade routes have no backing record, so a plain makeClick → dock would show
+    // "Record not found". Instead, stash the clicked route's real GeoJSON props in
+    // tradeRouteStore and select kind 'trade'; EntityDock renders TradeCard from the
+    // store. We read name + active years off the feature here (not just id).
+    const handleTradeClick = (e: ClickEvent) => {
+      const props = e.features?.[0]?.properties;
+      if (!props) return;
+      const id = props['id'];
+      if (typeof id !== 'string' || id.length === 0) return;
+      const name = typeof props['name'] === 'string' && props['name'] ? props['name'] : humanizeId(id);
+      const toYear = (v: unknown): number | null => (typeof v === 'number' ? v : null);
+      const toStr = (v: unknown): string | undefined => (typeof v === 'string' && v ? v : undefined);
+      // MapLibre serializes array-valued GeoJSON properties to JSON strings, so
+      // goods/hubs come back as a JSON string here — parse them back to arrays.
+      const toList = (v: unknown): string[] | undefined => {
+        if (Array.isArray(v)) return v.filter((x): x is string => typeof x === 'string');
+        if (typeof v === 'string' && v.startsWith('[')) {
+          try {
+            const arr = JSON.parse(v);
+            return Array.isArray(arr) ? arr.filter((x): x is string => typeof x === 'string') : undefined;
+          } catch { return undefined; }
+        }
+        return undefined;
+      };
+      const rawMode = toStr(props['mode']);
+      const mode =
+        rawMode === 'overland' || rawMode === 'maritime' || rawMode === 'river-and-portage'
+          ? rawMode
+          : undefined;
+      useTradeRouteStore.getState().setRoute({
+        id,
+        name,
+        start_year: toYear(props['start_year']),
+        end_year: toYear(props['end_year']),
+        summary: toStr(props['summary']),
+        goods: toList(props['goods']),
+        hubs: toList(props['hubs']),
+        mode,
+      });
+      select(id, 'trade');
+    };
+
     const setCursorPointer = () => { map.getCanvas().style.cursor = 'pointer'; };
     const clearCursor = () => { map.getCanvas().style.cursor = ''; };
 
@@ -203,6 +246,15 @@ export function useMapInteractions(
     map.on('mousemove',  EVENTS_SYMBOL_ID,  handleEventMove);
     map.on('mouseleave', EVENTS_SYMBOL_ID,  clearCursor);
     map.on('mouseleave', EVENTS_SYMBOL_ID,  clearHoverTip);
+    // The invisible wide hit circle (events-hit) is the RELIABLE hover/click target:
+    // the visible circle is radius-0 below zoom 7 and the symbol pin's hitbox is
+    // unreliable with icon-allow-overlap, so the hover annotation never fired on
+    // events. This mirrors the capitals/military hit-circle pattern.
+    map.on('click',      EVENTS_HIT_ID,     handleEventClick);
+    map.on('mouseenter', EVENTS_HIT_ID,     setCursorPointer);
+    map.on('mousemove',  EVENTS_HIT_ID,     handleEventMove);
+    map.on('mouseleave', EVENTS_HIT_ID,     clearCursor);
+    map.on('mouseleave', EVENTS_HIT_ID,     clearHoverTip);
 
     map.on('click',      JOURNEYS_HIT_ID,      handleJourneyClick);
     map.on('click',      JOURNEYS_WAYPOINT_ID, handleJourneyClick);
@@ -233,11 +285,20 @@ export function useMapInteractions(
     map.on('mouseleave', MILITARY_HIT_ID, clearCursor);
     map.on('mouseleave', MILITARY_HIT_ID, clearHoverTip);
 
-    // Trade routes are a map-only layer (baked GeoJSON, no backing record), so a
-    // click has nothing to inspect — wiring one produced a "Record not found"
-    // dead-end. We keep the hover tip (route name) but DO NOT register a click,
-    // and we do not show the pointer cursor that would promise a clickable detail.
+    // Trade routes ARE clickable: handleTradeClick stashes the route's GeoJSON
+    // props in tradeRouteStore and selects kind 'trade', which EntityDock renders
+    // via TradeCard (no backing record needed). The wide hit-line is the forgiving
+    // click/hover target; the visible line carries the hover tip. Pointer cursor
+    // signals the line is now interactive.
+    map.on('click',      TRADE_HIT_ID,  handleTradeClick);
+    map.on('click',      TRADE_LINE_ID, handleTradeClick);
+    map.on('mouseenter', TRADE_HIT_ID,  setCursorPointer);
+    map.on('mouseenter', TRADE_LINE_ID, setCursorPointer);
     map.on('mousemove',  TRADE_LINE_ID, handleTradeMove);
+    map.on('mousemove',  TRADE_HIT_ID,  handleTradeMove);
+    map.on('mouseleave', TRADE_LINE_ID, clearCursor);
+    map.on('mouseleave', TRADE_HIT_ID,  clearCursor);
+    map.on('mouseleave', TRADE_LINE_ID, clearHoverTip);
     map.on('mouseleave', TRADE_HIT_ID,  clearHoverTip);
 
     map.on('click',      RELATIONSHIPS_HIT_ID, handleRelationshipClick);
@@ -279,6 +340,11 @@ export function useMapInteractions(
       map.off('mousemove',  EVENTS_SYMBOL_ID, handleEventMove);
       map.off('mouseleave', EVENTS_SYMBOL_ID, clearCursor);
       map.off('mouseleave', EVENTS_SYMBOL_ID, clearHoverTip);
+      map.off('click',      EVENTS_HIT_ID,    handleEventClick);
+      map.off('mouseenter', EVENTS_HIT_ID,    setCursorPointer);
+      map.off('mousemove',  EVENTS_HIT_ID,    handleEventMove);
+      map.off('mouseleave', EVENTS_HIT_ID,    clearCursor);
+      map.off('mouseleave', EVENTS_HIT_ID,    clearHoverTip);
       map.off('click',      JOURNEYS_HIT_ID,      handleJourneyClick);
       map.off('click',      JOURNEYS_WAYPOINT_ID, handleJourneyClick);
       map.off('mouseenter', JOURNEYS_HIT_ID,      setCursorPointer);
@@ -304,7 +370,15 @@ export function useMapInteractions(
       map.off('mousemove',  MILITARY_HIT_ID, handleMilitaryMove);
       map.off('mouseleave', MILITARY_HIT_ID, clearCursor);
       map.off('mouseleave', MILITARY_HIT_ID, clearHoverTip);
+      map.off('click',      TRADE_HIT_ID,  handleTradeClick);
+      map.off('click',      TRADE_LINE_ID, handleTradeClick);
+      map.off('mouseenter', TRADE_HIT_ID,  setCursorPointer);
+      map.off('mouseenter', TRADE_LINE_ID, setCursorPointer);
       map.off('mousemove',  TRADE_LINE_ID, handleTradeMove);
+      map.off('mousemove',  TRADE_HIT_ID,  handleTradeMove);
+      map.off('mouseleave', TRADE_LINE_ID, clearCursor);
+      map.off('mouseleave', TRADE_HIT_ID,  clearCursor);
+      map.off('mouseleave', TRADE_LINE_ID, clearHoverTip);
       map.off('mouseleave', TRADE_HIT_ID,  clearHoverTip);
       map.off('click',      RELATIONSHIPS_HIT_ID, handleRelationshipClick);
       map.off('mouseenter', RELATIONSHIPS_HIT_ID, setCursorPointer);

@@ -306,7 +306,13 @@
   --rail-content-max: 340px;
   width: var(--layerrail-w);
   background: var(--surface);
-  border-right: 1px solid var(--border-mid);
+  /* Collapse to content: don't stretch the panel background to fill the tall 1fr
+     grid row (that left a large empty --surface block below the groups). align-self
+     lets it size to its content; max-height keeps overflow scrolling meaningful when
+     the Legend tab content is long. The full-height divider next to the map is drawn
+     by .msa-map's border-left so the hairline still runs top-to-bottom. */
+  align-self: start;
+  max-height: 100%;
   overflow-y: auto;
   overflow-x: hidden;
   overscroll-behavior: contain;
@@ -379,6 +385,10 @@
 .msa-map {
   grid-area: map;
   background: var(--paper);
+  /* Carries the full-height hairline between the (content-height) layer rail and the
+     map. Previously this divider was border-right on .msa-layerrail, but that now
+     ends with the panel content; moving it here keeps the line top-to-bottom. */
+  border-left: 1px solid var(--border-mid);
 }
 
 /* ─────────────────────────────────────────────────────────────────────────────
@@ -509,6 +519,15 @@
   padding: 0;
   overflow: hidden;
   align-items: stretch;
+}
+
+/* Collapsed/fullscreen rail must run the FULL grid-row height (its re-open tab and
+   overlay use height:100%). Undo the content-height collapse used for the normal
+   expanded rail so the strip/overlay still stretch. */
+.msa-layerrail--collapsed,
+.msa-app.is-rail-fullscreen .msa-layerrail {
+  align-self: stretch;
+  max-height: none;
 }
 
 /* Vertical re-open tab shown when a panel is collapsed. */

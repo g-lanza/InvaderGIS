@@ -57,6 +57,7 @@ import {
   useMemo,
 } from 'react';
 import { loadRecords } from '@/data/loaders';
+import { humanizeType, humanizeId } from '@/data/displayName';
 import { assetUrl } from '@/data/assetUrl';
 import { useTimeStore } from '@/stores/timeStore';
 import { useSelectionStore } from '@/stores/selectionStore';
@@ -826,9 +827,9 @@ function NetworkNodeTooltip({ nodeId, graph, year, theme }: NetworkNodeTooltipPr
                 className="network-graph__tooltip-edge"
                 style={{ borderLeftColor: color }}
               >
-                <span className="network-graph__tooltip-edge-type">{e.type}</span>
+                <span className="network-graph__tooltip-edge-type">{humanizeType(e.type)}</span>
                 <span className="network-graph__tooltip-edge-name">
-                  {otherNode?.label ?? otherId}
+                  {otherNode?.label ?? humanizeId(otherId)}
                 </span>
               </li>
             );

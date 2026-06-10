@@ -166,22 +166,23 @@ async function verifySurface(page: Page, surface: string, projectName: string): 
   });
 }
 
-/** Open a TopBar action via its mobile Menu proxy (or directly on wider widths). */
+/** Open a heavy overlay/panel via the mobile Menu drawer (or the desktop TopBar). */
 async function openViaMenu(page: Page, label: string): Promise<boolean> {
-  const menuTrigger = page.locator('.msa-sheet-trigger', { hasText: 'Menu' });
-  if (await menuTrigger.count()) {
-    await menuTrigger.first().click();
-    const item = page.locator('.msa-menu-sheet__item', { hasText: label });
+  // Phone shell: open the Menu drawer, then tap the action row.
+  const menuBtn = page.locator('.m-topbar__btn', { hasText: 'Menu' });
+  if (await menuBtn.count()) {
+    await menuBtn.first().click();
+    await page.waitForTimeout(350);
+    const item = page.locator('.m-menu__item', { hasText: new RegExp(`^${label}`, 'i') });
     if (await item.count()) {
       await item.first().click();
-      await page.waitForTimeout(400);
+      await page.waitForTimeout(450);
       return true;
     }
-    // Close the menu if the action wasn't found.
-    await menuTrigger.first().click();
+    await menuBtn.first().click(); // close menu
     return false;
   }
-  // Wider viewport (tablet): click the TopBar button directly.
+  // Desktop/tablet: click the TopBar button directly.
   const btn = page.locator(`.msa-topbar [data-mobile-menu="${label}"]`);
   if (await btn.count()) {
     await btn.first().click();
@@ -197,40 +198,44 @@ test.describe('mobile responsiveness', () => {
     await verifySurface(page, 'shell', testInfo.project.name);
   });
 
-  test('layers sheet', async ({ page }, testInfo) => {
+  test('layers drawer', async ({ page }, testInfo) => {
     await waitForShell(page);
-    const trigger = page.locator('.msa-sheet-trigger', { hasText: 'Layers' });
-    if (await trigger.count()) {
-      await trigger.first().click();
-      await page.waitForTimeout(400);
-      await verifySurface(page, 'layers-sheet', testInfo.project.name);
+    const btn = page.locator('.m-topbar__btn', { hasText: 'Layers' });
+    if (await btn.count()) {
+      await btn.first().click();
+      await page.waitForTimeout(450);
+      await verifySurface(page, 'layers-drawer', testInfo.project.name);
     } else {
-      test.skip(true, 'No mobile sheet bar at this viewport');
+      test.skip(true, 'No phone shell at this viewport');
     }
   });
 
-  test('entity sheet', async ({ page }, testInfo) => {
+  test('menu drawer', async ({ page }, testInfo) => {
     await waitForShell(page);
-    const trigger = page.locator('.msa-sheet-trigger', { hasText: 'Entity' });
-    if (await trigger.count()) {
-      await trigger.first().click();
-      await page.waitForTimeout(400);
-      await verifySurface(page, 'entity-sheet', testInfo.project.name);
+    const btn = page.locator('.m-topbar__btn', { hasText: 'Menu' });
+    if (await btn.count()) {
+      await btn.first().click();
+      await page.waitForTimeout(450);
+      await verifySurface(page, 'menu-drawer', testInfo.project.name);
     } else {
-      test.skip(true, 'No mobile sheet bar at this viewport');
+      test.skip(true, 'No phone shell at this viewport');
     }
   });
 
-  test('menu sheet', async ({ page }, testInfo) => {
+  test('entity drawer (select a polity)', async ({ page }, testInfo) => {
     await waitForShell(page);
-    const trigger = page.locator('.msa-sheet-trigger', { hasText: 'Menu' });
-    if (await trigger.count()) {
-      await trigger.first().click();
-      await page.waitForTimeout(400);
-      await verifySurface(page, 'menu-sheet', testInfo.project.name);
-    } else {
-      test.skip(true, 'No mobile sheet bar at this viewport');
+    if (!(await page.locator('.m-shell').count())) {
+      test.skip(true, 'No phone shell at this viewport');
+      return;
     }
+    await page.evaluate(() => {
+      const w = window as unknown as { __msaSelect?: (id: string, kind: string) => void };
+      w.__msaSelect?.('abbasid_caliphate', 'polity');
+    });
+    await page.waitForTimeout(600);
+    // The drawer auto-opens at peek with the record title.
+    await page.locator('.m-drawer__title').waitFor({ state: 'visible', timeout: 5000 });
+    await verifySurface(page, 'entity-drawer', testInfo.project.name);
   });
 
   for (const label of ['Network', 'Lineage', 'Registers', 'Compare', 'Sources', 'Filter', 'Search', 'Settings', 'Views']) {

@@ -30,7 +30,7 @@ import { lazy, Suspense, useMemo, type JSX } from 'react';
 import { formatYear as fmtYear } from '@/data/formatYear';
 import type { CardProps } from '@/panels/types';
 import { loadRecords, findRecordById } from '@/data/loaders';
-import { humanizeId, displayNameFromRecord } from '@/data/displayName';
+import { humanizeId, humanizeType, displayNameFromRecord } from '@/data/displayName';
 import { RelationshipLink } from '@/panels/RelationshipLink';
 import { RelatedPanel } from '@/panels/RelatedPanel';
 import type { RelationshipEntry } from '@/charts/RelationshipDonut';
@@ -300,7 +300,7 @@ export function ConnectionsTab({ record, onNavigate }: CardProps): JSX.Element {
                       textTransform: 'capitalize',
                     }}
                   >
-                    {row.type.replace(/_/g, ' ')}
+                    {humanizeType(row.type)}
                   </span>
                   {/* Note */}
                   {row.note && (

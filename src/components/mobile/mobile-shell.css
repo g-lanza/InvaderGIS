@@ -1,0 +1,308 @@
+/* =============================================================================
+   mobile-shell.css — the phone-native shell (≤600px).
+
+   A full-bleed map with floating chrome and ONE draggable bottom drawer. This
+   intentionally does NOT use the desktop six-region grid. Design contract is
+   preserved: square corners (--radius:0), hairline borders, NO shadows, mono
+   labels, token colors, all four themes.
+   ============================================================================= */
+
+/* The mobile root fills the dynamic viewport; the map sits under all chrome. */
+.msa-app--mobile {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  height: 100dvh;
+  overflow: hidden;
+  position: relative;
+  background: var(--bg);
+}
+
+.m-shell {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+/* ── Full-bleed map ──────────────────────────────────────────────────────────
+   The map fills the whole shell. Its own internal chrome (zoom/coords) still
+   renders inside it. */
+.m-shell__map {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+.m-shell__map .msa-map {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* ── Floating top bar ────────────────────────────────────────────────────────
+   A slim translucent bar over the map. Honors the notch via safe-area padding. */
+.m-topbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  height: 52px;
+  padding: 0 var(--space-3);
+  padding-top: max(0px, env(safe-area-inset-top));
+  height: calc(52px + max(0px, env(safe-area-inset-top)));
+  background: color-mix(in srgb, var(--surface) 88%, transparent);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border-mid);
+}
+
+.m-topbar__brand {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-width: 0;
+}
+.m-topbar__logo {
+  display: block;
+  flex: 0 0 auto;
+}
+.m-topbar__wordmark {
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+.m-topbar__actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  flex-shrink: 0;
+}
+.m-topbar__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 38px;
+  padding: 0 var(--space-3);
+  background: var(--surface);
+  border: 1px solid var(--border-mid);
+  border-radius: var(--radius);
+  color: var(--ink);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.m-topbar__btn.is-active {
+  background: var(--ink);
+  color: var(--surface);
+  border-color: var(--ink);
+}
+.m-topbar__btn:focus-visible {
+  outline: 1.5px solid var(--focus-ring, var(--accent));
+  outline-offset: var(--focus-offset, 2px);
+}
+
+/* ── TimeRail pinned to the bottom edge ──────────────────────────────────────
+   Sits above the home indicator; floats over the map like the top bar. */
+.m-shell__timerail {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 20;
+  height: calc(64px + max(0px, env(safe-area-inset-bottom)));
+  padding: 0 var(--space-3);
+  padding-bottom: max(0px, env(safe-area-inset-bottom));
+  background: color-mix(in srgb, var(--surface) 92%, transparent);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  border-top: 1px solid var(--border-mid);
+  transition: transform 220ms cubic-bezier(0.22, 1, 0.36, 1), opacity 180ms ease;
+}
+/* The .msa-timerail inside fills this strip. */
+.m-shell__timerail .msa-timerail {
+  height: 64px;
+}
+/* When the drawer is full, slide the TimeRail out of the way. */
+.m-shell__timerail.is-hidden {
+  transform: translateY(110%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* ── The drawer ──────────────────────────────────────────────────────────────
+   Anchored to the bottom; height measured in px (set inline) and hidden by a
+   px translate — never translateY(100%) (which fails on iOS Safari). */
+.m-drawer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 40;
+  display: flex;
+  flex-direction: column;
+  background: var(--surface);
+  border-top: 1px solid var(--border-strong);
+  /* height + transform are set inline by MobileDrawer. */
+  will-change: transform;
+  touch-action: none; /* the grip handles vertical drag */
+}
+
+/* Backdrop only at full, so peek keeps the map interactive. */
+.m-drawer__backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 39;
+  background: var(--ink);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 220ms ease;
+}
+.m-drawer__backdrop.is-visible {
+  opacity: 0.35;
+  pointer-events: auto;
+}
+
+/* Grip — the drag surface + visual grabber. */
+.m-drawer__grip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 28px;
+  flex-shrink: 0;
+  cursor: grab;
+  touch-action: none;
+}
+.m-drawer__grabber {
+  display: block;
+  width: 40px;
+  height: 4px;
+  background: var(--border-strong);
+  border-radius: var(--radius);
+}
+
+/* Header: eyebrow + title + close. */
+.m-drawer__head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding: 0 var(--space-4) var(--space-2);
+  flex-shrink: 0;
+  border-bottom: 1px solid var(--border-mid);
+}
+.m-drawer__titlewrap {
+  min-width: 0;
+  flex: 1;
+}
+.m-drawer__eyebrow {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  margin-bottom: 2px;
+}
+.m-drawer__title {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--ink);
+  /* Allow up to two lines, then ellipsize. */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.m-drawer__close {
+  flex-shrink: 0;
+  width: var(--tap);
+  height: var(--tap);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 1px solid var(--border-mid);
+  border-radius: var(--radius);
+  color: var(--ink-mid);
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+}
+.m-drawer__close:focus-visible {
+  outline: 1.5px solid var(--focus-ring, var(--accent));
+  outline-offset: var(--focus-offset, 2px);
+}
+
+/* Body scrolls; clears the home indicator at full height. */
+.m-drawer__body {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
+  background: var(--surface-2);
+  padding-bottom: max(var(--space-4), env(safe-area-inset-bottom));
+}
+
+/* The LayerRail inside the drawer fills it without its own desktop chrome. */
+.m-drawer__body .msa-layerrail {
+  position: static;
+  width: 100%;
+  max-height: none;
+  transform: none;
+  border: none;
+  background: transparent;
+}
+
+/* ── Menu list ───────────────────────────────────────────────────────────────
+   The analysis/data/tools actions as a tappable list. */
+.m-menu {
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-2);
+  gap: var(--space-1);
+}
+.m-menu__item {
+  display: flex;
+  align-items: center;
+  min-height: var(--tap);
+  padding: 0 var(--space-3);
+  background: var(--surface);
+  border: 1px solid var(--border-mid);
+  border-radius: var(--radius);
+  color: var(--ink);
+  font-family: var(--font-mono);
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.m-menu__item.is-active {
+  background: var(--ink);
+  color: var(--surface);
+  border-color: var(--ink);
+}
+.m-menu__item:focus-visible {
+  outline: 1.5px solid var(--focus-ring, var(--accent));
+  outline-offset: var(--focus-offset, 2px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .m-drawer,
+  .m-drawer__backdrop,
+  .m-shell__timerail {
+    transition: none !important;
+  }
+}

@@ -59,3 +59,9 @@ export function popStrokeWidth(base: number, hover = base + 2, sel = base + 3): 
     base,
   ];
 }
+
+// NOTE: there is intentionally NO icon-size pop helper. icon-size is a MapLibre
+// LAYOUT property and feature-state is not permitted in layout props (it throws
+// "feature-state data expressions are not supported with layout properties" and
+// drops the whole symbol layer). Symbol layers that want a hover pop use a circle
+// hit/halo layer in PAINT instead — see EVENTS_HIT_ID in eventsLayer.ts.

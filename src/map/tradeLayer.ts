@@ -64,6 +64,9 @@ const DATASET_END   = 1500;
 
 // ── Types ─────────────────────────────────────────────────────────────────────
 
+/** Transport mode of a trade route. */
+export type TradeMode = 'overland' | 'maritime' | 'river-and-portage';
+
 /** Properties stamped on every baked trade route feature. */
 export interface TradeFeatureProperties {
   /** Unique feature id. */
@@ -76,6 +79,14 @@ export interface TradeFeatureProperties {
   start_year: number | null;
   /** Last year, or null if open-ended. */
   end_year: number | null;
+  /** Real 1–2 sentence historical summary (enrich-trade.mjs). Absent on un-enriched data. */
+  summary?: string;
+  /** Primary commodities carried along the route. */
+  goods?: string[];
+  /** Key cities / emporia along the route. */
+  hubs?: string[];
+  /** Transport mode (overland / maritime / river-and-portage). */
+  mode?: TradeMode;
 }
 
 /** A single baked trade route LineString feature. */

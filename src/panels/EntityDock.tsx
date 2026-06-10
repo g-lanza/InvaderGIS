@@ -25,7 +25,9 @@ import type { RecordType }   from '@/types/record';
 import { MEDIEVAL_KINDS }    from '@/panels/types';
 import { cardForKind }       from '@/panels/cardForKind';
 import { RelatedPanel }      from '@/panels/RelatedPanel';
-import { humanizeType, displayNameFromRecord } from '@/data/displayName';
+import { TradeCard }         from '@/panels/TradeCard';
+import { useTradeRouteStore } from '@/stores/tradeRouteStore';
+import { humanizeType, humanizeId, displayNameFromRecord } from '@/data/displayName';
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -36,7 +38,7 @@ import { humanizeType, displayNameFromRecord } from '@/data/displayName';
  * (polity precedence). The kind guard keeps the "unknown kind → Record not found"
  * contract: if the selected kind isn't a known kind, return null.
  */
-function findRecord(id: string, kind: string): RawRecord | null {
+export function findRecord(id: string, kind: string): RawRecord | null {
   if (!MEDIEVAL_KINDS.has(kind as RecordType)) return null;
   return findRecordByKindId(kind as RecordType, id);
 }
@@ -82,6 +84,11 @@ function NotFoundDock({ id, kind }: { id: string; kind: string }) {
       }}
     >
       <div className="eyebrow" style={{ color: 'var(--ink-mute)' }}>Not found</div>
+      {/* Humanized label first so a missing record never surfaces a raw slug like
+          "rel_pictish_viking"; the raw kind/id stays beneath as a mono diagnostic. */}
+      <div style={{ fontSize: '13px', color: 'var(--ink)' }}>
+        {humanizeType(kind)}: {humanizeId(id)}
+      </div>
       <div style={{ fontSize: '12px', color: 'var(--ink-mute)', fontFamily: 'var(--font-mono)', wordBreak: 'break-all' }}>
         {kind} / {id}
       </div>
@@ -94,14 +101,24 @@ function NotFoundDock({ id, kind }: { id: string; kind: string }) {
 }
 
 /** Header bar with the record id, a Compare action, and a close button. */
-function DockHeader({ id, kind, onClose }: { id: string; kind: string; onClose: () => void }) {
+export function DockHeader({ id, kind, onClose }: { id: string; kind: string; onClose: () => void }) {
   // P4-C: compareStore access for the "Compare" action button
   const addToCompare = useCompareStore((s) => s.add);
   const alreadyIn    = useCompareStore((s) => s.hasId(id));
 
+  // Trade routes have no backing record (map-only GeoJSON), so resolve their name
+  // from tradeRouteStore; every other kind resolves from the record loader.
+  const tradeRoute = useTradeRouteStore((s) => s.route);
+
   // Memoize the id-index lookup + name so compareStore re-renders (and any other
   // parent re-render) don't re-resolve the record each time.
-  const name     = useMemo(() => displayNameFromRecord(findRecord(id, kind)), [id, kind]);
+  const name = useMemo(
+    () =>
+      kind === 'trade'
+        ? (tradeRoute?.id === id && tradeRoute.name ? tradeRoute.name : humanizeId(id))
+        : displayNameFromRecord(findRecord(id, kind)),
+    [id, kind, tradeRoute],
+  );
   const kindText = useMemo(() => humanizeType(kind), [kind]);
 
   return (
@@ -302,9 +319,16 @@ function polityIdForGeo(record: RawRecord): string {
  * Resolves the record from the in-memory loader and renders the correct card.
  * Shown as "not found" if the record cannot be located.
  */
-function DockBody({ id, kind, onNavigate }: DockBodyProps) {
+export function DockBody({ id, kind, onNavigate }: DockBodyProps) {
   const record        = useMemo(() => findRecord(id, kind), [id, kind]);
   const CardComponent = useMemo(() => cardForKind(kind), [kind]);
+
+  // Trade routes are map-only GeoJSON with no backing record — render TradeCard
+  // straight from tradeRouteStore instead of resolving through the record loader
+  // (which would always miss and show "Record not found").
+  if (kind === 'trade') {
+    return <TradeCard />;
+  }
 
   if (!record) {
     return <NotFoundDock id={id} kind={kind} />;

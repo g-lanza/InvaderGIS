@@ -47,7 +47,6 @@ export const MEDIEVAL_LAYER_IDS = [
   'military',
   'capitals',
   'events',
-  'cartogram', // alternate analytical view: proportional symbols by metric (defaults off)
 ] as const;
 
 /**

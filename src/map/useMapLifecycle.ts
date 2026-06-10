@@ -280,6 +280,14 @@ export function useMapLifecycle(containerRef: RefObject<HTMLDivElement | null>) 
       mapInstance = map;
       mapRef.current = map;
 
+      // Dev-only debug handle: expose the live map on window so e2e tests and
+      // manual debugging can drive the real instance (project coords, toggle
+      // layers, fire events). Guarded by import.meta.env.DEV — never in prod.
+      if (import.meta.env.DEV) {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        (window as any).__map = map;
+      }
+
       // ── White-screen crash hardening (panel hide / fullscreen reflow) ─────────
       // During a CSS-grid reflow MapLibre can transiently tear its internal style
       // down. A mutation/query in that window throws deep inside MapLibre

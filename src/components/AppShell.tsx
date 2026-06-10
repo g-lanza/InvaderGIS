@@ -54,7 +54,9 @@ import { TimeRail }              from '@/components/TimeRail';     // P3-D chron
 import { EntityDock }            from '@/panels/EntityDock';       // P3-C
 import { StatusBar }             from '@/components/StatusBar';
 import { CommandBar }            from '@/components/CommandBar';   // P4-D
-import { useMobileSheet }        from '@/components/useMobileSheet'; // 4C mobile sheets
+import { useIsMobile }           from '@/components/useIsMobile';  // phone shell branch
+import { MobileShell, type MobileMenuAction } from '@/components/mobile/MobileShell';
+import '@/components/mobile/mobile-shell.css';
 
 // ── Eager hook imports (tiny — just useState+useCallback) ──────────────────────
 import { useNetworkOverlay } from '@/charts/useNetworkOverlay';   // P4-A hook
@@ -358,14 +360,130 @@ export function AppShell() {
     return () => cancelAnimationFrame(id);
   }, []);
 
-  // 4C: Mobile bottom-sheet chrome — injects sheet-bar, handles, and backdrop
-  // into the DOM when the viewport is ≤600 px. Self-contained; no store touch.
-  useMobileSheet(appRef);
+  // Phone shell branch: at ≤600px we render a purpose-built MobileShell
+  // (full-bleed map + one draggable bottom drawer) instead of the desktop grid.
+  // The old injected bottom-sheet chrome (useMobileSheet) is retired — it stacked
+  // fixed panels at the bottom on real iOS Safari. The desktop layout is unchanged.
+  const isMobile = useIsMobile();
 
   // Layout-transition key for the region error boundaries: whenever a panel is
   // collapsed, expanded, or full-screened, this string changes — so if a region
   // briefly threw during the reflow, its boundary auto-recovers on the toggle.
   const layoutKey = `${railCollapsed}|${dockCollapsed}|${dockFullscreen}|${railFullscreen}`;
+
+  // The analysis/data/tools actions surfaced in the phone Menu drawer. Each one
+  // reuses the SAME exclusive toggle the desktop TopBar uses, so the overlays
+  // behave identically — only the entry point (a Menu list row) is phone-specific.
+  const mobileMenuActions: MobileMenuAction[] = [
+    { key: 'network',   label: 'Network',   active: networkOpen,   onSelect: exclusive(networkOpen, toggleNetwork) },
+    { key: 'compare',   label: 'Compare',   active: compareOpen,   onSelect: exclusive(compareOpen, toggleCompare) },
+    { key: 'lineage',   label: 'Lineage',   active: lineageOpen,   onSelect: exclusive(lineageOpen, toggleLineage) },
+    { key: 'sources',   label: 'Sources',   active: sourcesOpen,   onSelect: exclusive(sourcesOpen, toggleSources) },
+    { key: 'registers', label: 'Registers', active: registersOpen, onSelect: exclusive(registersOpen, toggleRegisters) },
+    { key: 'views',     label: 'Saved Views', active: viewsOpen,   onSelect: exclusive(viewsOpen, toggleViews) },
+    { key: 'upload',    label: 'My Data',   active: uploadOpen,    onSelect: exclusive(uploadOpen, toggleUpload) },
+    { key: 'search',    label: 'Search',    active: searchOpen,    onSelect: exclusive(searchOpen, toggleSearch) },
+    { key: 'filter',    label: 'Filter',    active: filterOpen,    onSelect: exclusive(filterOpen, toggleFilter) },
+    { key: 'settings',  label: 'Settings',  active: settingsOpen,  onSelect: exclusive(settingsOpen, toggleSettings) },
+  ];
+
+  // ── All overlays + command bar + walkthrough, shared by both shells ──────────
+  // These are position:fixed full-screen surfaces (already mobile-friendly via
+  // the shared overlay CSS), so the SAME nodes render in the desktop grid and the
+  // phone shell. Extracted once to avoid duplicating the lazy/Suspense ladder.
+  const overlays = (
+    <>
+      {networkHasOpened && (
+        <Suspense fallback={null}>
+          <RegionErrorBoundary region="Network" resetKey={layoutKey}>
+            <NetworkOverlay open={networkOpen} onClose={closeNetwork} />
+          </RegionErrorBoundary>
+        </Suspense>
+      )}
+      {lineageHasOpened && (
+        <Suspense fallback={null}>
+          <RegionErrorBoundary region="Lineage" resetKey={layoutKey}>
+            <LineageOverlay open={lineageOpen} onClose={closeLineage} />
+          </RegionErrorBoundary>
+        </Suspense>
+      )}
+      {compareHasOpened && (
+        <Suspense fallback={null}>
+          <RegionErrorBoundary region="Compare" resetKey={layoutKey}>
+            <CompareOverlay open={compareOpen} onClose={closeCompare} />
+          </RegionErrorBoundary>
+        </Suspense>
+      )}
+      {sourcesHasOpened && (
+        <Suspense fallback={null}>
+          <RegionErrorBoundary region="Sources" resetKey={layoutKey}>
+            <SourcesOverlay open={sourcesOpen} onClose={closeSources} focusId={sourcesTargetId} />
+          </RegionErrorBoundary>
+        </Suspense>
+      )}
+      {viewsHasOpened && (
+        <Suspense fallback={null}>
+          <RegionErrorBoundary region="Saved views" resetKey={layoutKey}>
+            <SavedViewsPanel open={viewsOpen} onClose={closeViews} />
+          </RegionErrorBoundary>
+        </Suspense>
+      )}
+      {registersHasOpened && (
+        <Suspense fallback={null}>
+          <RegionErrorBoundary region="Registers" resetKey={layoutKey}>
+            <RegistersOverlay open={registersOpen} onClose={closeRegisters} />
+          </RegionErrorBoundary>
+        </Suspense>
+      )}
+      {uploadHasOpened && (
+        <Suspense fallback={null}>
+          <RegionErrorBoundary region="My Data" resetKey={layoutKey}>
+            <UploadOverlay open={uploadOpen} onClose={closeUpload} />
+          </RegionErrorBoundary>
+        </Suspense>
+      )}
+      {filterHasOpened && (
+        <Suspense fallback={null}>
+          <RegionErrorBoundary region="Filter" resetKey={layoutKey}>
+            <FilterPanel open={filterOpen} onClose={closeFilter} />
+          </RegionErrorBoundary>
+        </Suspense>
+      )}
+      {searchHasOpened && (
+        <Suspense fallback={null}>
+          <RegionErrorBoundary region="Search" resetKey={layoutKey}>
+            <SemanticSearchBar open={searchOpen} onClose={closeSearch} />
+          </RegionErrorBoundary>
+        </Suspense>
+      )}
+      {settingsHasOpened && (
+        <Suspense fallback={null}>
+          <RegionErrorBoundary region="Settings" resetKey={layoutKey}>
+            <SettingsPanel open={settingsOpen} onClose={closeSettings} />
+          </RegionErrorBoundary>
+        </Suspense>
+      )}
+      <CommandBar />
+      {walkthroughHasOpened && (
+        <Suspense fallback={null}>
+          <Walkthrough open={walkthroughOpen} onClose={handleWalkthroughClose} />
+        </Suspense>
+      )}
+    </>
+  );
+
+  // ── Phone shell ──────────────────────────────────────────────────────────────
+  if (isMobile) {
+    return (
+      <div className={`msa-app msa-app--mobile${isReady ? ' is-ready' : ''}`} ref={appRef}>
+        <RegionErrorBoundary region="Mobile shell" resetKey={layoutKey} fallbackClassName="m-shell">
+          <MobileShell menuActions={mobileMenuActions}>
+            {overlays}
+          </MobileShell>
+        </RegionErrorBoundary>
+      </div>
+    );
+  }
 
   return (
     <div
@@ -431,134 +549,11 @@ export function AppShell() {
       </RegionErrorBoundary>
 
       {/*
-        P4-A: Relationship network overlay — fixed above map, below TopBar.
-        Chunk loads on first open; stays rendered once opened so the force
-        simulation is preserved across close/reopen cycles.
+        All lazy overlays + command bar + first-open tour. Shared verbatim with
+        the phone shell (see the `overlays` element above) — these are fixed
+        full-screen surfaces, so the same nodes serve both layouts.
       */}
-      {networkHasOpened && (
-        <Suspense fallback={null}>
-          <RegionErrorBoundary region="Network" resetKey={layoutKey}>
-            <NetworkOverlay open={networkOpen} onClose={closeNetwork} />
-          </RegionErrorBoundary>
-        </Suspense>
-      )}
-
-      {/*
-        P4-B: Ruler lineage Gantt overlay — same fixed layer, same z-index.
-        Chunk loads on first open; Gantt layout memo preserved across cycles.
-      */}
-      {lineageHasOpened && (
-        <Suspense fallback={null}>
-          <RegionErrorBoundary region="Lineage" resetKey={layoutKey}>
-            <LineageOverlay open={lineageOpen} onClose={closeLineage} />
-          </RegionErrorBoundary>
-        </Suspense>
-      )}
-
-      {/*
-        P4-C: Compare / Storyline overlay — same fixed layer, same z-index.
-        Chunk loads on first open; compare set + tab state preserved across cycles.
-      */}
-      {compareHasOpened && (
-        <Suspense fallback={null}>
-          <RegionErrorBoundary region="Compare" resetKey={layoutKey}>
-            <CompareOverlay open={compareOpen} onClose={closeCompare} />
-          </RegionErrorBoundary>
-        </Suspense>
-      )}
-
-      {/*
-        P5-C: Sources Library overlay — same fixed layer, same z-index.
-        Chunk loads on first open; sort/filter state preserved across cycles.
-      */}
-      {sourcesHasOpened && (
-        <Suspense fallback={null}>
-          <RegionErrorBoundary region="Sources" resetKey={layoutKey}>
-            <SourcesOverlay open={sourcesOpen} onClose={closeSources} focusId={sourcesTargetId} />
-          </RegionErrorBoundary>
-        </Suspense>
-      )}
-
-      {/*
-        Wave2-D: Saved Views drawer — fixed right-side drawer. Chunk loads on
-        first open; stays mounted so the draft name input is preserved across
-        close/reopen cycles. Captures/applies frozen-store state via public actions.
-      */}
-      {viewsHasOpened && (
-        <Suspense fallback={null}>
-          <RegionErrorBoundary region="Saved views" resetKey={layoutKey}>
-            <SavedViewsPanel open={viewsOpen} onClose={closeViews} />
-          </RegionErrorBoundary>
-        </Suspense>
-      )}
-
-      {/*
-        Wave2-B: Registers (attribute-table) overlay — same fixed layer, same
-        z-index. Chunk loads on first open; stays mounted so the active register
-        kind + per-table sort/filter state persist across close/reopen cycles.
-      */}
-      {registersHasOpened && (
-        <Suspense fallback={null}>
-          <RegionErrorBoundary region="Registers" resetKey={layoutKey}>
-            <RegistersOverlay open={registersOpen} onClose={closeRegisters} />
-          </RegionErrorBoundary>
-        </Suspense>
-      )}
-
-      {/*
-        Wave2-A: User-data Upload / "My Data" overlay — same fixed layer, same
-        z-index. Chunk loads on first open; stays mounted so import preview and
-        list scroll state persist across close/reopen cycles. The user's data
-        lives ONLY in the browser (IndexedDB) — never transmitted.
-      */}
-      {uploadHasOpened && (
-        <Suspense fallback={null}>
-          <RegionErrorBoundary region="My Data" resetKey={layoutKey}>
-            <UploadOverlay open={uploadOpen} onClose={closeUpload} />
-          </RegionErrorBoundary>
-        </Suspense>
-      )}
-
-      {/* Wave1-B: Faceted Filter panel — chunk loads on first open. */}
-      {filterHasOpened && (
-        <Suspense fallback={null}>
-          <RegionErrorBoundary region="Filter" resetKey={layoutKey}>
-            <FilterPanel open={filterOpen} onClose={closeFilter} />
-          </RegionErrorBoundary>
-        </Suspense>
-      )}
-
-      {/* Wave1-B: Semantic (local TF-IDF) search overlay — chunk loads on first open. */}
-      {searchHasOpened && (
-        <Suspense fallback={null}>
-          <RegionErrorBoundary region="Search" resetKey={layoutKey}>
-            <SemanticSearchBar open={searchOpen} onClose={closeSearch} />
-          </RegionErrorBoundary>
-        </Suspense>
-      )}
-
-      {/* Settings panel (Theme + Map-base selectors) — chunk loads on first open. */}
-      {settingsHasOpened && (
-        <Suspense fallback={null}>
-          <RegionErrorBoundary region="Settings" resetKey={layoutKey}>
-            <SettingsPanel open={settingsOpen} onClose={closeSettings} />
-          </RegionErrorBoundary>
-        </Suspense>
-      )}
-
-      {/* P4-D: Command palette — fixed overlay, z-200, listens for Cmd-K globally */}
-      <CommandBar />
-
-      {/*
-        First-open guided tour (z-300, above every overlay). Auto-shows once on
-        first visit and replays from Settings → Guides. Mount-gated on hasOpened
-        so its chunk only loads when the tour actually runs.
-      */}
-      {walkthroughHasOpened && (
-        <Suspense fallback={null}>
-          <Walkthrough open={walkthroughOpen} onClose={handleWalkthroughClose} />
-        </Suspense>
-      )}
+      {overlays}
     </div>
   );
 }

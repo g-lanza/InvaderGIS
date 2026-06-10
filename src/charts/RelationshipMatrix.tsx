@@ -36,6 +36,7 @@
 
 import { useMemo, useState, useCallback } from 'react';
 import { loadRecords } from '@/data/loaders';
+import { humanizeType } from '@/data/displayName';
 import { useFilterStore } from '@/stores/filterStore';
 import { passesFilter, type FilterFacets } from '@/data/filterPredicate';
 import { useSelectionStore } from '@/stores/selectionStore';
@@ -533,7 +534,7 @@ export function RelationshipMatrix({ containerWidth: _containerWidth }: Relation
                   if (hasRels && cell) {
                     const primaryType = cell.relationships[0].type;
                     fillColor = relationshipColor(primaryType, theme) ?? 'var(--ink-mute)';
-                    const typeList = [...new Set(cell.relationships.map((r) => r.type))].join(', ');
+                    const typeList = [...new Set(cell.relationships.map((r) => humanizeType(r.type)))].join(', ');
                     const rowLabel = resolveEntityLabel(rowEntity, nameMap);
                     const colLabel = resolveEntityLabel(colEntity, nameMap);
                     title = `${rowLabel} ↔ ${colLabel}: ${typeList}`;
@@ -646,7 +647,7 @@ function MatrixCellTooltip({ rowLabel, colLabel, relationships, theme }: MatrixC
               className="relationship-matrix__tooltip-rel"
               style={{ borderLeftColor: color }}
             >
-              <span className="relationship-matrix__tooltip-type">{rel.type}</span>
+              <span className="relationship-matrix__tooltip-type">{humanizeType(rel.type)}</span>
               <span className="relationship-matrix__tooltip-span">
                 {rel.since}–{rel.until ?? 'ongoing'}
               </span>
