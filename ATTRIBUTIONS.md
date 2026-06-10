@@ -1,6 +1,6 @@
 # Attributions
 
-InvaderGIS — Historical Data Visualizer. A product of Gavin Lanza.
+InvaderGIS — Historical Data Visualizer.
 
 This file is the canonical record of upstream data sources incorporated into the
 dataset and the attribution / share-alike obligations that travel with them. When
@@ -71,4 +71,5 @@ with the respective packages under `node_modules/`.
 
 ---
 
-*Questions about attribution or reuse: **lanzagavin@gmail.com**.*
+*Questions about attribution or reuse: open an issue on the
+[project repository](https://github.com/g-lanza/InvaderGIS).*
