@@ -1,0 +1,47 @@
+name: CI
+
+# Gate every push/PR with the same checks a human runs locally: data validation,
+# lint, typecheck, tests, and a full production build. This is what would have
+# caught the broken build the pre-launch audit found — there was no CI before.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      # Bake first: public/index is gitignored, so the search + adjacency indexes
+      # must be regenerated from data/ before validate/build can pass meaningfully.
+      # (`npm run build` also bakes via its prebuild hook; running it here surfaces
+      # bake failures as their own step.)
+      - name: Bake data artifacts
+        run: npm run bake
+
+      - name: Validate data integrity
+        run: npm run validate
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Test
+        run: npm test
+
+      - name: Build
+        run: npm run build

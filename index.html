@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en" data-theme="contrast">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>InvaderGIS — Historical Data Visualizer</title>
+    <!-- SVG favicon — highest fidelity, theme-adaptive in supported browsers. -->
+    <link rel="icon" type="image/svg+xml" href="/hdv-logo.svg" />
+    <!-- Raster fallbacks for browsers that don't support SVG favicons. -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16.png" />
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+    <meta
+      name="description"
+      content="InvaderGIS — Historical Data Visualizer. A custom GIS for exploring historical datasets across time and space."
+    />
+    <!--
+      Content-Security-Policy. InvaderGIS is a fully self-contained static SPA that
+      makes ZERO runtime external calls (verified), so the policy is tight:
+        - default/script/connect/img/font: 'self' only (+ data:/blob: for inline SVG,
+          raster, and MapLibre worker blobs).
+        - style-src allows 'unsafe-inline' — MapLibre GL injects inline styles and the
+          boot splash uses an inline <style>; there is no safe nonce path for a purely
+          static host without a server to stamp one.
+        - worker-src/child-src blob: — MapLibre GL spawns its render workers from blobs.
+      No external origins are permitted; tighten further only if a remote basemap/tile
+      provider is ever added (then add its origin to img-src/connect-src). Mirror these
+      directives as real HTTP response headers on the host (see netlify.toml / public/_headers).
+    -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; worker-src 'self' blob:; child-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'"
+    />
+    <!--
+      Web fonts are self-hosted via @font-face rules in src/styles/fonts.css,
+      imported in src/main.tsx before atlas-tokens.css.
+      Families required:
+        Inter 400/500/700         → --font-display / --font-body (Atlas/Dark/Contrast)
+        IBM Plex Mono 400/500     → --font-mono (all themes)
+        Fraunces 400/700          → --font-display (Manuscript theme)
+        Spectral 400/600          → --font-body (Manuscript theme)
+      WOFF2 files go in /public/fonts/{family}/*.woff2 — see fonts.css for paths.
+      Until the files are present the UI falls back to system-ui / serif / monospace.
+    -->
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- ── App splash screen ────────────────────────────────────────────────
+         Stays visible until BOTH signals fire:
+           window.__splashRecordsReady() — called by main.tsx when initDataset() resolves
+           window.__splashMapReady()     — called by AppShell when .is-ready is added
+         Status text updates between signals so the user sees real progress.
+    ──────────────────────────────────────────────────────────────────────── -->
+    <div id="app-splash" aria-live="polite" role="status">
+      <div id="app-splash__inner">
+        <img src="/hdv-logo.svg" alt="InvaderGIS" width="80" height="80" id="app-splash__logo" />
+        <span id="app-splash__name">InvaderGIS</span>
+        <span id="app-splash__subtitle">Historical Data Visualizer</span>
+        <span id="app-splash__tagline">A custom GIS for historical research, 500–1500 CE</span>
+        <span id="app-splash__status">Loading records…</span>
+        <div id="app-splash__bar"><div id="app-splash__fill"></div></div>
+      </div>
+    </div>
+
+    <style>
+      #app-splash {
+        position: fixed;
+        inset: 0;
+        z-index: 9999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #fff;
+        transition: opacity 400ms cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      #app-splash.is-hiding {
+        opacity: 0;
+        pointer-events: none;
+      }
+      #app-splash__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        user-select: none;
+      }
+      #app-splash__logo {
+        display: block;
+        margin-bottom: 4px;
+      }
+      #app-splash__name {
+        font-family: system-ui, sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        color: #111;
+      }
+      #app-splash__subtitle {
+        font-family: ui-monospace, monospace;
+        font-size: 10px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: #555;
+        margin-top: -4px;
+        -webkit-text-fill-color: #555;
+      }
+      #app-splash__tagline {
+        font-family: Georgia, serif;
+        font-size: 12px;
+        color: #999;
+        font-style: italic;
+      }
+      #app-splash__status {
+        font-family: ui-monospace, monospace;
+        font-size: 10px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #aaa;
+        margin-top: 8px;
+        min-height: 14px;
+        transition: opacity 200ms ease;
+      }
+      #app-splash__bar {
+        width: 160px;
+        height: 1px;
+        background: #e8e8e8;
+        overflow: hidden;
+      }
+      #app-splash__fill {
+        height: 100%;
+        width: 0%;
+        background: #111;
+        transition: width 600ms cubic-bezier(0.4, 0, 0.2, 1);
+      }
+    </style>
+
+    <!-- Boot-splash controller. EXTERNAL (not inline) so the strict CSP
+         `script-src 'self'` permits it — an inline script would be blocked. -->
+    <script src="/splash.js"></script>
+
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

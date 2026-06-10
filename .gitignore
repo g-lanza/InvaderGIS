@@ -1,0 +1,53 @@
+node_modules/
+dist/
+public/index/
+public/tiles/
+.env
+*.local
+.DS_Store
+
+# Local tooling / editor scaffolding — never part of the published project.
+.agents/
+.claude/
+skills.json
+skills-lock.json
+
+# Internal working notes (kept locally, not published).
+improves.txt
+**/improves.txt
+
+# data/_raw/ holds large raw upstream sources (Cliopatria borders, GIS gazetteers).
+# Documented in data/_raw/README.md — keep the README, ignore the heavy assets.
+data/_raw/*
+!data/_raw/README.md
+
+# Backup cruft — timestamped snapshots from backfill scripts. Never the last copy
+# of a record (the live <name>.json sits beside them). Cleaned via
+# scripts/maintenance/quarantine-bak-cruft.mjs; ignored so it never reaccumulates.
+*.bak
+*.bak-*
+**/*.bak-*
+data/entities.bak-*/
+
+# data/_audit holds local migration revert-logs + ingestion scratch (operational
+# trail, not part of the published dataset). Kept locally, never committed.
+data/_audit/
+
+# Build-time WALS download cache — re-fetchable; README marks it gitignored.
+scripts/ingest/_cache/
+
+# Reproducible build-scratch intermediates (the seeds/worklists/RESUME.md are kept).
+scripts/build/_*/out-*.json
+scripts/build/_*/slice-*.json
+scripts/build/_*/wave*/
+
+# Data-ingestion scratch — scraped HTML, intermediate extraction JSON, and the
+# PowerShell scrapers belong in scripts/ingest, never the repo root.
+/--*
+/*.ps1
+/fordham_*.html
+/sbook*.html
+/sourcebook_*.html
+/end_of_rome_*
+/*_records.json
+desktop.ini
