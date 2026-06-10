@@ -11,7 +11,37 @@
  * documented in relationshipsLayer.ts: the composed filter must stay FLAT.
  */
 import { describe, it, expect } from 'vitest';
-import { eventAtYear, buildEventsTimeFilter, buildEventsComposedFilter } from './eventsLayer';
+import {
+  eventAtYear,
+  buildEventsTimeFilter,
+  buildEventsComposedFilter,
+  buildTierCircleOpacityExpression,
+  buildTierSymbolOpacityExpression,
+} from './eventsLayer';
+
+/**
+ * Minimal evaluator for the exact expression shape the tier-opacity builders
+ * produce: ['step', ['zoom'], default, z1, out1, z2, out2, …] where each output
+ * is a ['case', ['==',['get','tier'],1], a, ['==',['get','tier'],2], b, c].
+ * Lets us assert what opacity a given tier resolves to at a given zoom without a
+ * live MapLibre instance.
+ */
+function evalTierOpacity(expr: unknown[], zoom: number, tier: number): number {
+  // expr = ['step', ['zoom'], def, stop1, out1, stop2, out2, ...]
+  const def = expr[2] as unknown[];
+  let chosen = def;
+  for (let i = 3; i < expr.length; i += 2) {
+    const stop = expr[i] as number;
+    if (zoom >= stop) chosen = expr[i + 1] as unknown[];
+  }
+  // chosen = ['case', cond1, a, cond2, b, fallback]
+  const a = chosen[2] as number;
+  const b = chosen[4] as number;
+  const fallback = chosen[5] as number;
+  if (tier === 1) return a;
+  if (tier === 2) return b;
+  return fallback;
+}
 
 describe('eventAtYear — events show only on their exact year', () => {
   it('shows an event at the exact scrubber year', () => {
@@ -50,6 +80,43 @@ describe('buildEventsComposedFilter — flat, no nested all', () => {
     // Both conditions present: exact year + category equality.
     expect(expr).toContainEqual(['==', ['get', 'year'], 800]);
     expect(expr).toContainEqual(['==', ['get', 'category'], 'violence']);
+  });
+});
+
+describe('tier-3 (violence) markers are visible at every zoom', () => {
+  // Regression: violence/battle events are ALL tier 3 (4332 of 5061). The prior
+  // tier gate faded tier 3 to opacity 0 below zoom 6, so battles were invisible at
+  // the world/continental zoom users actually use, while tier 1/2 showed from zoom
+  // 2–3. User decision: show violence at all zooms, same as other categories.
+  const ZOOMS = [2, 3, 4, 5, 6, 8, 12];
+
+  it('symbol layer: tier 3 opacity is > 0 at every zoom', () => {
+    const expr = buildTierSymbolOpacityExpression(1);
+    for (const z of ZOOMS) {
+      expect(evalTierOpacity(expr, z, 3), `symbol tier3 @ zoom ${z}`).toBeGreaterThan(0);
+    }
+  });
+
+  it('symbol layer: tier 3 matches tier 1 opacity at every zoom (no second-class fade)', () => {
+    const expr = buildTierSymbolOpacityExpression(1);
+    for (const z of ZOOMS) {
+      expect(evalTierOpacity(expr, z, 3), `symbol tier3 vs tier1 @ zoom ${z}`)
+        .toBe(evalTierOpacity(expr, z, 1));
+    }
+  });
+
+  it('circle layer: tier 3 opacity is > 0 at every zoom', () => {
+    const expr = buildTierCircleOpacityExpression(1);
+    for (const z of ZOOMS) {
+      expect(evalTierOpacity(expr, z, 3), `circle tier3 @ zoom ${z}`).toBeGreaterThan(0);
+    }
+  });
+
+  it('respects the overall opacity scale (slider) for tier 3', () => {
+    const expr = buildTierSymbolOpacityExpression(0.5);
+    // tier 3 at low zoom should now be the scaled value, not a hard 0.
+    expect(evalTierOpacity(expr, 2, 3)).toBeCloseTo(evalTierOpacity(expr, 2, 1));
+    expect(evalTierOpacity(expr, 2, 3)).toBeGreaterThan(0);
   });
 });
 

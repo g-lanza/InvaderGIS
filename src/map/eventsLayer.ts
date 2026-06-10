@@ -229,67 +229,68 @@ export function buildEventsTimeFilter(
 // opacity slider continues to work correctly.
 
 /**
- * Build a MapLibre paint opacity expression for the events circle layer that
- * combines the existing Wave 4A zoom-stepped declutter with tier-aware fading.
+ * Build a MapLibre paint opacity expression for the events circle layer.
  *
- * - zoom < 4 : tier 1 → 0.5×scale, tier 2/3 → 0 (invisible, still clickable)
- * - zoom 4–5 : tier 1 → 0.85×scale, tier 2 → 0.85×scale, tier 3 → 0
- * - zoom ≥ 6 : all tiers → 0.85×scale (full hand-off to symbol layer anyway)
+ * Wave 4A zoom-stepped declutter is preserved (lower opacity at world zoom so the
+ * stud mass doesn't dominate the polity fills), but the Wave 4B per-TIER fade is
+ * REMOVED (user decision 2026-06-10): tier 3 is the violence/battle category and
+ * is 86% of all events, so fading it to 0 below zoom 6 made battles invisible at
+ * the zoom levels users actually use, while tier 1/2 categories showed from world
+ * zoom. All tiers now share the same zoom-stepped opacity — violence appears like
+ * every other event category at every zoom.
+ *
+ * - zoom < 4 : 0.5×scale (faint anchor pips; pins are the primary marker)
+ * - zoom ≥ 4 : 0.85×scale
  *
  * @param scale Overall opacity scalar from layersStore (0..1, default 1.0).
  */
 export function buildTierCircleOpacityExpression(scale = 1): unknown[] {
   const s = Math.max(0, Math.min(1, scale));
-  // Tier gate at each zoom bracket: ['case', tier==1, fullOp, tier==2, fullOp, 0]
-  const tierGate = (t1Op: number, t2Op: number, t3Op: number): unknown[] => [
+  // Tier-agnostic (all tiers equal); kept as a `case` so the structure mirrors the
+  // symbol expression and the unit-test evaluator.
+  const allTiers = (op: number): unknown[] => [
     'case',
-    ['==', ['get', 'tier'], 1], t1Op * s,
-    ['==', ['get', 'tier'], 2], t2Op * s,
-    t3Op * s,
+    ['==', ['get', 'tier'], 1], op * s,
+    ['==', ['get', 'tier'], 2], op * s,
+    op * s,
   ];
   return [
     'step', ['zoom'],
-    // zoom < 4: tier 1 only
-    tierGate(0.5, 0, 0),
-    // zoom 4+: tier 1 + 2
-    4, tierGate(0.85, 0.85, 0),
-    // zoom 6+: all tiers
-    6, tierGate(0.85, 0.85, 0.85),
+    allTiers(0.5),    // zoom < 4: faint anchor pips
+    4, allTiers(0.85), // zoom ≥ 4
   ];
 }
 
 /**
- * Build a MapLibre paint opacity expression for the events symbol layer that
- * combines zoom-stepped declutter with tier-aware fading.
+ * Build a MapLibre paint opacity expression for the events symbol (pin) layer.
  *
- * With the Google-pin color-flooded body, icons are legible even at small sizes,
- * so the symbol layer now starts at zoom 3 (not 4) for tier-1 events. The circle
- * layer is the colored-dot fallback for collision-culled icons at zoom ≤ 3.
- *
- * - zoom < 3  : all icons at low opacity (0.75×scale for tier 1) — the icon IS
- *               rendered at the smallest icon-size (0.40) but kept semi-transparent
- *               so the denser polity fills still read through. Tier 2/3 → 0.
- * - zoom 3–5  : tier 1 → 0.92×scale, tier 2 → 0.92×scale, tier 3 → 0
- * - zoom ≥ 6  : all tiers → 0.95×scale
+ * The Wave 4B per-TIER fade is REMOVED (user decision 2026-06-10): tier 3 is the
+ * violence/battle category (86% of all events), and fading it to 0 below zoom 6
+ * made battles invisible at the zoom levels users actually use while tier 1/2
+ * showed from world zoom. All tiers are now fully opaque at every zoom — violence
+ * pins appear like every other event category. Density is handled by the symbol
+ * collision engine / the time filter (only events at the exact scrubber year show),
+ * not by hiding a whole category. The pin keeps full opacity so a single colored
+ * teardrop reads clearly at any zoom.
  *
  * @param scale Overall opacity scalar from layersStore (0..1, default 1.0).
  */
 export function buildTierSymbolOpacityExpression(scale = 1): unknown[] {
   const s = Math.max(0, Math.min(1, scale));
-  const tierGate = (t1Op: number, t2Op: number, t3Op: number): unknown[] => [
+  // Tier-agnostic: every event pin is fully opaque at every zoom (× the layer
+  // opacity slider). Kept as a tier `case` (all branches equal) so the structure
+  // mirrors the circle expression and the unit-test evaluator, and so re-adding a
+  // per-tier fade later is a one-line change rather than a structural rewrite.
+  const allTiers = (op: number): unknown[] => [
     'case',
-    ['==', ['get', 'tier'], 1], t1Op * s,
-    ['==', ['get', 'tier'], 2], t2Op * s,
-    t3Op * s,
+    ['==', ['get', 'tier'], 1], op * s,
+    ['==', ['get', 'tier'], 2], op * s,
+    op * s,
   ];
   return [
     'step', ['zoom'],
-    // zoom < 3: tier 1 fully solid (reads like a real pin); tier 2/3 hidden for declutter
-    tierGate(1, 0, 0),
-    // zoom 3+: tier 1 + 2 solid; tier 3 still hidden
-    3, tierGate(1, 1, 0),
-    // zoom 6+: all tiers solid
-    6, tierGate(1, 1, 1),
+    allTiers(1),    // every zoom: full opacity for all tiers
+    6, allTiers(1),
   ];
 }
 
