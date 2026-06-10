@@ -175,3 +175,17 @@
   .walkthrough__ring { animation: none; }
   .walkthrough__card { animation: none; }
 }
+
+/* ── Mobile (≤600px) ──────────────────────────────────────────────────────────
+   The card width is clamped to the viewport in JS (Walkthrough.tsx) and by
+   max-width here; tighten the interior rhythm and type so the smaller card reads
+   well on a phone, and keep the action row from crowding. */
+@media (max-width: 600px) {
+  .walkthrough__card {
+    padding: var(--space-3);
+    gap: var(--space-1);
+  }
+  .walkthrough__title { font-size: 15px; }
+  .walkthrough__body  { font-size: 12px; line-height: 1.5; }
+  .walkthrough__actions { gap: var(--space-1); }
+}

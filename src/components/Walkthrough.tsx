@@ -30,6 +30,7 @@
 
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { useFocusTrap } from '@/components/useFocusTrap';
+import { useIsMobile } from '@/components/useIsMobile';
 import './Walkthrough.css';
 
 // ── Step model ──────────────────────────────────────────────────────────────────
@@ -135,6 +136,65 @@ const STEPS: readonly WalkStep[] = [
   },
 ];
 
+/**
+ * The phone-shell tour. The mobile layout has none of the desktop grid regions
+ * (it uses .m-topbar / .m-shell__map / .m-shell__timerail / the bottom drawer),
+ * so the desktop STEPS above would spotlight empty space. These five stops point
+ * at the real mobile chrome instead. Chosen at render time by useIsMobile().
+ */
+const MOBILE_STEPS: readonly WalkStep[] = [
+  {
+    id: 'm-welcome',
+    eyebrow: 'Welcome',
+    title: 'InvaderGIS',
+    body:
+      'A custom GIS for exploring historical data across 500–1500 CE. This quick tour points out the phone ' +
+      'controls. Tap Next to step through, or Skip to dismiss.',
+    selector: '.m-shell__map',
+    placement: 'center',
+  },
+  {
+    id: 'm-layers',
+    eyebrow: 'Layers',
+    title: 'Map layers',
+    body:
+      'Tap Layers to open the panel: toggle polities, capitals, events, journeys and more on or off, and set ' +
+      'each layer’s opacity.',
+    selector: '[data-tour="m-layers-btn"]',
+    placement: 'bottom',
+  },
+  {
+    id: 'm-menu',
+    eyebrow: 'Menu',
+    title: 'Views & tools',
+    body:
+      'Tap Menu for the analytical views — Network, Compare, Lineage, Sources, Registers, Search, Filter — ' +
+      'and Settings.',
+    selector: '[data-tour="m-menu-btn"]',
+    placement: 'bottom',
+  },
+  {
+    id: 'm-timerail',
+    eyebrow: 'Time',
+    title: 'Scrub through time',
+    body:
+      'Drag the year scrubber at the bottom to move through 500–1500 CE — the map updates live. Tap play to ' +
+      'auto-advance the years.',
+    selector: '.m-shell__timerail',
+    placement: 'top',
+  },
+  {
+    id: 'm-select',
+    eyebrow: 'Explore',
+    title: 'Tap a region',
+    body:
+      'Tap any polity on the map to open its full record in the bottom drawer — overview, demographics, ' +
+      'economy, connections and sources. Drag the drawer up for more, or down to dismiss.',
+    selector: '.m-shell__map',
+    placement: 'center',
+  },
+];
+
 // ── Geometry helpers ─────────────────────────────────────────────────────────────
 
 /** A measured target rectangle in viewport coordinates, plus whether it resolved. */
@@ -179,7 +239,7 @@ function clamp(v: number, min: number, max: number): number {
  * Compute the card's top/left for a placement, clamped to the viewport so it never
  * runs off-screen. Falls back to centering when the target was not found.
  */
-function placeCard(rect: TargetRect, placement: Placement): { top: number; left: number } {
+function placeCard(rect: TargetRect, placement: Placement, cardW: number): { top: number; left: number } {
   const vw = window.innerWidth;
   const vh = window.innerHeight;
   const margin = 12;
@@ -187,7 +247,7 @@ function placeCard(rect: TargetRect, placement: Placement): { top: number; left:
   if (!rect.found || placement === 'center') {
     return {
       top: clamp(vh / 2 - CARD_H_EST / 2, margin, vh - CARD_H_EST - margin),
-      left: clamp(vw / 2 - CARD_W / 2, margin, vw - CARD_W - margin),
+      left: clamp(vw / 2 - cardW / 2, margin, vw - cardW - margin),
     };
   }
 
@@ -199,11 +259,11 @@ function placeCard(rect: TargetRect, placement: Placement): { top: number; left:
   switch (placement) {
     case 'bottom':
       top = rect.top + rect.height + CARD_GAP;
-      left = cx - CARD_W / 2;
+      left = cx - cardW / 2;
       break;
     case 'top':
       top = rect.top - CARD_H_EST - CARD_GAP;
-      left = cx - CARD_W / 2;
+      left = cx - cardW / 2;
       break;
     case 'right':
       top = cy - CARD_H_EST / 2;
@@ -211,16 +271,16 @@ function placeCard(rect: TargetRect, placement: Placement): { top: number; left:
       break;
     case 'left':
       top = cy - CARD_H_EST / 2;
-      left = rect.left - CARD_W - CARD_GAP;
+      left = rect.left - cardW - CARD_GAP;
       break;
     default:
       top = vh / 2 - CARD_H_EST / 2;
-      left = vw / 2 - CARD_W / 2;
+      left = vw / 2 - cardW / 2;
   }
 
   return {
     top: clamp(top, margin, vh - CARD_H_EST - margin),
-    left: clamp(left, margin, vw - CARD_W - margin),
+    left: clamp(left, margin, vw - cardW - margin),
   };
 }
 
@@ -247,14 +307,22 @@ export interface WalkthroughProps {
  * @param onClose - Callback fired when the tour ends.
  */
 export function Walkthrough({ open, onClose }: WalkthroughProps) {
+  const isMobile = useIsMobile();
+  // The phone shell renders different chrome, so the tour uses a separate step
+  // set that points at the real mobile elements. Desktop keeps the 7 STEPS.
+  const steps = isMobile ? MOBILE_STEPS : STEPS;
+
   const [stepIdx, setStepIdx] = useState(0);
   const [rect, setRect] = useState<TargetRect>({ found: false, top: 0, left: 0, width: 0, height: 0 });
   const cardRef = useRef<HTMLDivElement>(null);
   const nextRef = useRef<HTMLButtonElement>(null);
 
-  const step = STEPS[stepIdx];
-  const isFirst = stepIdx === 0;
-  const isLast = stepIdx === STEPS.length - 1;
+  // Clamp the index so flipping the breakpoint mid-tour (e.g. rotation) onto a
+  // shorter step list can't read past the end.
+  const safeIdx = Math.min(stepIdx, steps.length - 1);
+  const step = steps[safeIdx];
+  const isFirst = safeIdx === 0;
+  const isLast = safeIdx === steps.length - 1;
 
   // Reset to the first step whenever the tour (re)opens.
   useEffect(() => {
@@ -303,13 +371,13 @@ export function Walkthrough({ open, onClose }: WalkthroughProps) {
 
   const goNext = useCallback(() => {
     setStepIdx((i) => {
-      if (i >= STEPS.length - 1) {
+      if (i >= steps.length - 1) {
         onClose();
         return i;
       }
       return i + 1;
     });
-  }, [onClose]);
+  }, [onClose, steps.length]);
 
   const goBack = useCallback(() => {
     setStepIdx((i) => Math.max(0, i - 1));
@@ -336,7 +404,11 @@ export function Walkthrough({ open, onClose }: WalkthroughProps) {
 
   if (!open) return null;
 
-  const cardPos = placeCard(rect, step.placement);
+  // Responsive card width: never wider than the viewport minus a 12px gutter each
+  // side, so the 320px card fits a 320px phone. (CSS max-width is the visual
+  // backstop; this keeps the placeCard clamp math correct.)
+  const cardW = Math.min(CARD_W, window.innerWidth - 24);
+  const cardPos = placeCard(rect, step.placement, cardW);
 
   // Spotlight cut-out geometry (only when the target resolved). The four dim
   // panels surround the transparent target window; we never use box-shadow.
@@ -405,12 +477,12 @@ export function Walkthrough({ open, onClose }: WalkthroughProps) {
       <div
         ref={cardRef}
         className="walkthrough__card"
-        style={{ top: cardPos.top, left: cardPos.left, width: CARD_W }}
+        style={{ top: cardPos.top, left: cardPos.left, width: cardW }}
       >
         <div className="walkthrough__head">
           <span className="walkthrough__eyebrow">{step.eyebrow}</span>
           <span className="walkthrough__count" aria-hidden="true">
-            {stepIdx + 1} / {STEPS.length}
+            {safeIdx + 1} / {steps.length}
           </span>
         </div>
 
@@ -419,10 +491,10 @@ export function Walkthrough({ open, onClose }: WalkthroughProps) {
 
         {/* Progress dots */}
         <div className="walkthrough__dots" aria-hidden="true">
-          {STEPS.map((s, i) => (
+          {steps.map((s, i) => (
             <span
               key={s.id}
-              className={`walkthrough__dot${i === stepIdx ? ' is-active' : ''}${i < stepIdx ? ' is-done' : ''}`}
+              className={`walkthrough__dot${i === safeIdx ? ' is-active' : ''}${i < safeIdx ? ' is-done' : ''}`}
             />
           ))}
         </div>

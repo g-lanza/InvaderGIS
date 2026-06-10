@@ -16,6 +16,13 @@
   overflow: hidden;
   position: relative;
   background: var(--bg);
+
+  /* Base heights of the floating chrome (safe-area inset is added per-consumer).
+     The map controls in mapControls.css read these so the zoom buttons clear the
+     top bar and the scale readout clears the TimeRail. Keep --m-timerail-h equal
+     to the .m-shell__timerail strip height below or the scale readout under-clears. */
+  --m-topbar-h: 52px;
+  --m-timerail-h: 72px;
 }
 
 .m-shell {
@@ -55,9 +62,12 @@
   padding: 0 var(--space-3);
   padding-top: max(0px, env(safe-area-inset-top));
   height: calc(52px + max(0px, env(safe-area-inset-top)));
-  background: color-mix(in srgb, var(--surface) 88%, transparent);
-  -webkit-backdrop-filter: blur(8px);
-  backdrop-filter: blur(8px);
+  /* OPAQUE — no backdrop-filter. A translucent + blurred bar floating over the
+     MapLibre canvas forces the browser to re-sample and re-blur the map pixels
+     beneath it on EVERY map repaint. During year playback the map repaints ~10x/s,
+     so the blur made playback lag badly on mobile (desktop bars are opaque, in a
+     grid, never over the map — hence smooth there). Opaque chrome = no recomposite. */
+  background: var(--surface);
   border-bottom: 1px solid var(--border-mid);
 }
 
@@ -90,7 +100,7 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 38px;
+  min-height: var(--tap); /* 44px touch target */
   padding: 0 var(--space-3);
   background: var(--surface);
   border: 1px solid var(--border-mid);
@@ -120,18 +130,22 @@
   right: 0;
   bottom: 0;
   z-index: 20;
-  height: calc(64px + max(0px, env(safe-area-inset-bottom)));
+  /* 72px gives the simplified slider (year + sparkline + scrubber + play) a
+     comfortable height. Keep --m-timerail-h above in sync with this base value. */
+  height: calc(72px + max(0px, env(safe-area-inset-bottom)));
   padding: 0 var(--space-3);
   padding-bottom: max(0px, env(safe-area-inset-bottom));
-  background: color-mix(in srgb, var(--surface) 92%, transparent);
-  -webkit-backdrop-filter: blur(8px);
-  backdrop-filter: blur(8px);
+  /* OPAQUE — no backdrop-filter. Critical for smooth playback: a blurred bar over
+     the map forces a backdrop re-blur on every map repaint, and the scrubber
+     repaints the map ~10x/s during REG auto-play. Blur here made mobile playback
+     lag while desktop stayed real-time. Opaque chrome removes the per-repaint cost. */
+  background: var(--surface-2);
   border-top: 1px solid var(--border-mid);
   transition: transform 220ms cubic-bezier(0.22, 1, 0.36, 1), opacity 180ms ease;
 }
 /* The .msa-timerail inside fills this strip. */
 .m-shell__timerail .msa-timerail {
-  height: 64px;
+  height: 72px;
 }
 /* When the drawer is full, slide the TimeRail out of the way. */
 .m-shell__timerail.is-hidden {
@@ -155,7 +169,9 @@
   border-top: 1px solid var(--border-strong);
   /* height + transform are set inline by MobileDrawer. */
   will-change: transform;
-  touch-action: none; /* the grip handles vertical drag */
+  /* NOTE: no touch-action:none here — it would block taps/scroll in the body
+     (layer toggles, menu rows, entity links). The grip element keeps its own
+     touch-action:none so the vertical drag gesture still works. */
 }
 
 /* Backdrop only at full, so peek keeps the map interactive. */
@@ -252,6 +268,8 @@
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   overscroll-behavior: contain;
+  /* Vertical scroll for the list; taps still reach the toggles/rows beneath. */
+  touch-action: pan-y;
   background: var(--surface-2);
   padding-bottom: max(var(--space-4), env(safe-area-inset-bottom));
 }
@@ -264,6 +282,41 @@
   transform: none;
   border: none;
   background: transparent;
+  /* Cancel the retired mobile bottom-sheet rule in atlas-shell.css, which sets
+     pointer-events:none on a closed .msa-layerrail; the in-drawer rail never gets
+     .is-open, so without this its toggles stay un-tappable. */
+  pointer-events: auto;
+}
+
+/* Interactive controls inside the drawer content (entity-card tabs, dock-header
+   buttons, etc.) get a comfortable touch height on the phone. The entity tab row
+   is built from desktop-sized 27px buttons; bump them to the 44px tap floor. */
+.m-drawer__body button {
+  min-height: var(--tap);
+}
+
+/* Narrow legend stepper / segment / chip buttons in the LayerRail legend are
+   ~22px wide on desktop; give them a square 44px touch target inside the drawer. */
+.m-drawer__body .legend-span-step__btn,
+.m-drawer__body .legend-seg__btn,
+.m-drawer__body .legend-cat-search__clear,
+.m-drawer__body .legend-section__off-badge--btn {
+  min-width: var(--tap);
+}
+
+/* Non-<button> tap targets in the drawer — the .m-drawer__body button rule above
+   only matches real <button>s. This catches role="button" rows (the legend
+   category list rows, 28px tall) and inline navigation links (RelationshipLink),
+   without re-touching real buttons (already height-handled). */
+.m-drawer__body a,
+.m-drawer__body [role="button"]:not(button) {
+  min-height: var(--tap);
+}
+
+/* The legend category search box sets font-size:11px at class specificity, which
+   beats the generic input floor — give it ≥16px (no iOS focus-zoom) here. */
+.m-drawer__body .legend-cat-search__input {
+  font-size: var(--fs-input);
 }
 
 /* ── Menu list ───────────────────────────────────────────────────────────────

@@ -250,12 +250,13 @@
   flex-shrink: 0;
 }
 
-/* Two-row cluster: label on top, buttons below */
+/* Single-row cluster: label INLINE before its buttons (no floating-label
+   whitespace). The label and buttons share one baseline, centred in the bar. */
 .msa-topbar__cluster {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 2px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--space-2);
   flex-shrink: 0;
 }
 
@@ -266,8 +267,8 @@
   text-transform: uppercase;
   color: var(--ink-mute);
   white-space: nowrap;
-  padding-left: 2px;
   line-height: 1;
+  flex-shrink: 0;
 }
 
 .msa-topbar__cluster-btns {
@@ -1554,9 +1555,14 @@
     background: var(--ink-mute);
   }
 
-  /* Rails slide off the bottom edge by default */
-  .msa-layerrail,
-  .msa-dock {
+  /* Rails slide off the bottom edge by default.
+     SCOPED to the retired (non-mobile-shell) layout: the new phone shell
+     (.msa-app--mobile) renders the LayerRail INSIDE the drawer, so these dead
+     bottom-sheet rules must not match it — their pointer-events:none below would
+     kill the in-drawer toggles. :not(.msa-app--mobile) excludes the phone shell;
+     the desktop grid (.msa-app without --mobile) still matches as before. */
+  .msa-app:not(.msa-app--mobile) .msa-layerrail,
+  .msa-app:not(.msa-app--mobile) .msa-dock {
     position: fixed;
     left: 0;
     right: 0;
@@ -1584,8 +1590,8 @@
       border-color 160ms ease;
   }
 
-  .msa-layerrail.is-open,
-  .msa-dock.is-open {
+  .msa-app:not(.msa-app--mobile) .msa-layerrail.is-open,
+  .msa-app:not(.msa-app--mobile) .msa-dock.is-open {
     transform: translateY(0);
     pointer-events: auto;
     /* Keep sheet content clear of the home indicator when the sheet sits at the
@@ -1594,7 +1600,7 @@
   }
 
   /* Dock draws slightly above rail on mobile if both open simultaneously */
-  .msa-dock {
+  .msa-app:not(.msa-app--mobile) .msa-dock {
     z-index: 210;
   }
 

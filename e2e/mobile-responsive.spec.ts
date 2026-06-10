@@ -25,6 +25,7 @@ const TAP_ALLOWLIST = [
   '.tr-thumb-indicator', // visual needle, not a hit target
   '.claim-cite',         // inline footnote superscripts inside prose
   '.msa-sheet-handle',   // full-width drag bar; height is intentionally < 44
+  '.m-drawer__grip',     // full-width (375px) drag bar; you drag it, not tap a 44² target
   // Data-visualization marks are not discrete UI controls — they are zoomable
   // data points. The 44px guideline targets chrome buttons, not graph nodes /
   // Gantt bars, which the user enlarges via pinch-zoom (usePanZoom) or scroll.
@@ -46,7 +47,9 @@ async function waitForShell(page: Page): Promise<void> {
   });
   await page.goto('/');
   await page.locator('.msa-app').waitFor({ state: 'visible' });
-  await page.locator('.msa-topbar').waitFor({ state: 'visible' });
+  // Wait for whichever top bar this viewport renders: the desktop grid uses
+  // `.msa-topbar`; the phone shell (≤600px) uses `.m-topbar`.
+  await page.locator('.msa-topbar, .m-topbar').first().waitFor({ state: 'visible' });
   // The boot splash (#app-splash) intercepts pointer events until both ready
   // signals fire; wait for it to detach (splash.js removes it after .is-hiding).
   await page
@@ -166,6 +169,12 @@ async function verifySurface(page: Page, surface: string, projectName: string): 
   });
 }
 
+/** Loop label → the text shown on the mobile Menu row (some differ). */
+const MENU_ROW_TEXT: Record<string, string> = {
+  Views: 'Saved Views',
+  Upload: 'My Data',
+};
+
 /** Open a heavy overlay/panel via the mobile Menu drawer (or the desktop TopBar). */
 async function openViaMenu(page: Page, label: string): Promise<boolean> {
   // Phone shell: open the Menu drawer, then tap the action row.
@@ -173,7 +182,8 @@ async function openViaMenu(page: Page, label: string): Promise<boolean> {
   if (await menuBtn.count()) {
     await menuBtn.first().click();
     await page.waitForTimeout(350);
-    const item = page.locator('.m-menu__item', { hasText: new RegExp(`^${label}`, 'i') });
+    const rowText = MENU_ROW_TEXT[label] ?? label;
+    const item = page.locator('.m-menu__item', { hasText: new RegExp(`^${rowText}`, 'i') });
     if (await item.count()) {
       await item.first().click();
       await page.waitForTimeout(450);
@@ -238,6 +248,51 @@ test.describe('mobile responsiveness', () => {
     await verifySurface(page, 'entity-drawer', testInfo.project.name);
   });
 
+  // ── Real-device fix regressions (Issues A–D) ────────────────────────────────
+  test('layer toggle is tappable inside the drawer (Issue A)', async ({ page }) => {
+    await waitForShell(page);
+    const layersBtn = page.locator('.m-topbar__btn', { hasText: 'Layers' });
+    test.skip(!(await layersBtn.count()), 'No phone shell at this viewport');
+    await layersBtn.first().click();
+    await page.waitForTimeout(450);
+    const toggle = page.locator('.m-drawer__body .layer-item__toggle').first();
+    await toggle.waitFor({ state: 'visible', timeout: 5000 });
+    const before = await toggle.getAttribute('aria-pressed');
+    await toggle.click();
+    await page.waitForTimeout(150);
+    const after = await toggle.getAttribute('aria-pressed');
+    expect(after, 'layer toggle aria-pressed should flip on tap').not.toBe(before);
+  });
+
+  test('map chrome clears the top bar and the slider (Issues B + C)', async ({ page }) => {
+    await waitForShell(page);
+    test.skip(!(await page.locator('.m-shell').count()), 'No phone shell at this viewport');
+    const topbar = await page.locator('.m-topbar').boundingBox();
+    const zoom = await page.locator('.gis-zoom').boundingBox();
+    expect(zoom!.y, 'zoom cluster below the top bar').toBeGreaterThanOrEqual(topbar!.y + topbar!.height - 2);
+
+    const timerail = await page.locator('.m-shell__timerail').boundingBox();
+    const bl = await page.locator('.gis-bottom-left').boundingBox();
+    expect(bl!.y + bl!.height, 'scale cluster above the TimeRail').toBeLessThanOrEqual(timerail!.y + 2);
+
+    await expect(page.locator('.gis-coords'), 'cursor coords hidden on touch').toBeHidden();
+    await expect(page.locator('.gis-rf-scale'), 'RF scale kept').toBeVisible();
+  });
+
+  test('TimeRail is simplified, scrubber spans the strip (Issue D)', async ({ page }) => {
+    await waitForShell(page);
+    test.skip(!(await page.locator('.m-shell').count()), 'No phone shell at this viewport');
+    await expect(page.locator('.tr-era-strip')).toBeHidden();
+    await expect(page.locator('.tr-century-strip')).toBeHidden();
+    await expect(page.locator('.tr-play__speed')).toBeHidden();
+    await expect(page.locator('.tr-play__loop')).toBeHidden();
+    await expect(page.locator('.tr-readout__year')).toBeVisible();
+    await expect(page.locator('.tr-scrubber')).toBeVisible();
+    const rail = await page.locator('.m-shell__timerail').boundingBox();
+    const scr = await page.locator('.tr-scrubber').boundingBox();
+    expect(scr!.width, 'scrubber spans most of the strip').toBeGreaterThan(rail!.width * 0.4);
+  });
+
   for (const label of ['Network', 'Lineage', 'Registers', 'Compare', 'Sources', 'Filter', 'Search', 'Settings', 'Views']) {
     test(`overlay: ${label}`, async ({ page }, testInfo) => {
       await waitForShell(page);
@@ -249,6 +304,22 @@ test.describe('mobile responsiveness', () => {
       await verifySurface(page, `overlay-${label.toLowerCase()}`, testInfo.project.name);
     });
   }
+});
+
+test.describe('mobile tour (Issue E)', () => {
+  test('first-visit tour uses the 5 mobile steps', async ({ page }) => {
+    const width = page.viewportSize()?.width ?? 0;
+    test.skip(width > 600, 'mobile-only tour check');
+    // Do NOT pre-seed hdv-walkthrough-seen — let the tour auto-open.
+    await page.goto('/');
+    await page.locator('.walkthrough__card').waitFor({ state: 'visible', timeout: 15000 });
+    await expect(page.locator('.walkthrough__count')).toContainText('/ 5');
+    // No horizontal overflow with the card up.
+    const overflow = await page.evaluate(() =>
+      document.documentElement.scrollWidth > document.documentElement.clientWidth + 1);
+    expect(overflow, 'tour card must not cause horizontal overflow').toBe(false);
+    await page.screenshot({ path: `e2e/__screens__/mobile-tour-${width}.png` });
+  });
 });
 
 test.describe('desktop regression', () => {

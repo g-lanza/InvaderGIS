@@ -178,6 +178,7 @@ export function MobileShell({ menuActions, children }: MobileShellProps) {
           <button
             type="button"
             className={`m-topbar__btn${panel === 'layers' ? ' is-active' : ''}`}
+            data-tour="m-layers-btn"
             onClick={() => (panel === 'layers' ? closeDrawer() : openPanel('layers'))}
             aria-pressed={panel === 'layers'}
           >
@@ -186,6 +187,7 @@ export function MobileShell({ menuActions, children }: MobileShellProps) {
           <button
             type="button"
             className={`m-topbar__btn${panel === 'menu' ? ' is-active' : ''}`}
+            data-tour="m-menu-btn"
             onClick={() => (panel === 'menu' ? closeDrawer() : openPanel('menu'))}
             aria-pressed={panel === 'menu'}
             aria-label="Menu"

@@ -12,8 +12,14 @@ import { defineConfig, devices } from '@playwright/test';
  * port be reused locally.
  */
 
-const PORT = 5180;
+// Port + server command are env-overridable so a run can dodge a port another
+// process is holding (E2E_PORT) or test the static production build via preview
+// (E2E_PREVIEW=1) instead of the dev server. Defaults are unchanged.
+const PORT = Number(process.env.E2E_PORT ?? 5180);
 const BASE_URL = `http://localhost:${PORT}`;
+const SERVER_CMD = process.env.E2E_PREVIEW
+  ? `npm run preview -- --port ${PORT} --strictPort`
+  : `npm run dev -- --port ${PORT} --strictPort`;
 
 /** Phone + tablet widths the overhaul targets (320–414 phones, 768 tablet),
  *  plus a desktop width (1280) as a regression sentinel for the unchanged
@@ -56,7 +62,7 @@ export default defineConfig({
   })),
 
   webServer: {
-    command: `npm run dev -- --port ${PORT} --strictPort`,
+    command: SERVER_CMD,
     url: BASE_URL,
     reuseExistingServer: !process.env.CI,
     timeout: 120_000,

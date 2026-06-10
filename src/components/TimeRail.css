@@ -454,10 +454,21 @@
    buttons already read var(--tap), which is 44px on mobile (atlas-tokens.css).
    ═══════════════════════════════════════════════════════════════════════════ */
 @media (max-width: 600px) {
-  /* Legibility: era / century / era-band micro-labels → readable floor. */
-  .tr-readout__era,
-  .tr-century-mark__label,
-  .tr-era-band__label {
+  /* ── Simplify to essentials: year + sparkline + scrubber + play/pause ───────
+     The desktop chronoscope crams an era ribbon, absolutely-positioned century
+     ticks, and speed/loop buttons into a tiny strip; on a phone the 7px labels
+     overlap and bleed. Hide the dense decorative bits — all elements stay in the
+     DOM (no TimeRail.tsx / timeStore change), we only hide them here. Removing
+     the two flex-shrink:0 strips also gives the histogram/scrubber more height. */
+  .tr-era-strip,        /* era ribbon + its 7px band labels */
+  .tr-century-strip,    /* absolutely-positioned century ticks — primary bleed source */
+  .tr-play__speed,      /* keep only play/pause on mobile */
+  .tr-play__loop {
+    display: none;
+  }
+
+  /* Legibility floor on the surviving year-readout era sub-label. */
+  .tr-readout__era {
     font-size: var(--fs-micro);
   }
 

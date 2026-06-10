@@ -264,25 +264,40 @@
     font-size: 20px; /* larger glyph to match the bigger button */
   }
 
+  /* ── Issue B: clear the floating top bar ────────────────────────────────────
+     The phone shell's .m-topbar is calc(52px + safe-area-inset-top) tall at
+     z-index 30; the .gis-chrome controls are z-index 5 inside the map, so at
+     top:12px the zoom cluster hid behind the bar. Push it (and the measure
+     readout below it) down by the top-bar height. --m-topbar-h is defined on
+     .msa-app--mobile; the literal fallback keeps this correct in isolation. */
+  .gis-zoom {
+    top: calc(var(--m-topbar-h, 52px) + var(--space-3) + max(0px, env(safe-area-inset-top)));
+    left: var(--space-3);
+  }
+  /* Measure readout stacks below the zoom cluster (3 × 44px + dividers ≈ 134px;
+     +144 keeps a small gap). */
+  .gis-measure {
+    top: calc(var(--m-topbar-h, 52px) + var(--space-3) + max(0px, env(safe-area-inset-top)) + 144px);
+    left: var(--space-3);
+  }
+
+  /* ── Issue C: hide cursor coords, lift the scale readout above the slider ────
+     A touchscreen has no hover cursor, so the live lat/lon readout (.gis-coords)
+     is meaningless — hide it. Keep the zoom-derived RF scale + the MapLibre scale
+     bar, and raise the whole bottom-left cluster above the bottom-pinned TimeRail
+     (.m-shell__timerail, calc(72px + safe-area-inset-bottom), z-index 20). */
+  .gis-coords {
+    display: none;
+  }
+  .gis-bottom-left {
+    bottom: calc(var(--m-timerail-h, 72px) + var(--space-3) + max(0px, env(safe-area-inset-bottom)));
+  }
+
   /* Readouts: lift the 10–11px text so it's legible on a phone. */
-  .gis-coords__label,
-  .gis-coords__value,
   .gis-rf-scale__value {
     font-size: var(--fs-micro);
   }
   .gis-scale-container .maplibregl-ctrl-scale {
     font-size: var(--fs-micro) !important;
-  }
-
-  /* The coord readout's fixed 22ch min-width can crowd a 320px screen; let it
-     shrink (the value still wraps cleanly inside the surface card). */
-  .gis-coords__value {
-    min-width: 0;
-  }
-
-  /* If the measure readout stack is shown, keep it clear of the larger zoom
-     buttons (3 × 44px + dividers ≈ 134px). */
-  .gis-measure {
-    top: calc(var(--space-3) + 144px);
   }
 }
