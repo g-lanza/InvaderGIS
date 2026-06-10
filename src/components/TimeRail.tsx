@@ -63,9 +63,9 @@ import { PlaybackControls } from './TimeRailPlayback';
 /** Discrete time-lapse speeds (years/second) handleCycleSpeed cycles through.
  *  Kept here (the owner of the cycle handler + store write); the playback button's
  *  display labels live in TimeRailPlayback. */
-const PLAY_SPEEDS = [5, 20] as const;
+const PLAY_SPEEDS = [5, 10] as const;
 
-// Play speed is now owned by timeStore (`playSpeed`, default 20 yrs/s) so it is
+// Play speed is now owned by timeStore (`playSpeed`, default 10 yrs/s) so it is
 // user-adjustable via the speed control and read live by the RAF loop below.
 
 // ── Histogram bucket size ──────────────────────────────────────────────────
@@ -450,10 +450,11 @@ export function TimeRail() {
   }, [boundsMin, boundsMax]);
 
   // ── RAF-based play loop ───────────────────────────────────────────────────────
-  // Advances at timeStore.playSpeed (default 20 yrs/s, read live via playSpeedRef)
+  // Advances at timeStore.playSpeed (default 10 yrs/s, read live via playSpeedRef)
   // using requestAnimationFrame + a fractional-year accumulator so the scrubber
   // moves smoothly. At boundsMax it loops to boundsMin if loop is on, else stops.
-  // The map's existing 50 ms filter throttle in MapCanvas absorbs the setYear calls.
+  // The map's 100 ms filter throttle in MapCanvas absorbs the setYear calls; at REG
+  // (one year / 100 ms) each year lands in its own throttle window.
 
   useEffect(() => {
     if (!playing) {
@@ -483,11 +484,20 @@ export function TimeRail() {
         const wholeYears = Math.floor(fracYearRef.current);
         fracYearRef.current -= wholeYears;
 
-        const cur = yearPlayRef.current;
+        // Read the CURRENT year straight from the store, not from yearPlayRef.
+        // yearPlayRef is only synced via a post-commit useEffect, which lags
+        // behind the store when the RAF loop (≈60 fps) outruns React's commit
+        // cycle during a heavy map re-render. Reading the stale ref made the loop
+        // compute the same `next` repeatedly, so the year got stuck and only
+        // jumped when React finally committed — the intermittent stutter.
+        const cur = useTimeStore.getState().year;
         const max = boundsMaxPlayRef.current;
         const min = boundsMinPlayRef.current;
         const next = Math.min(max, cur + wholeYears);
         useTimeStore.getState().setYear(next);
+        // Keep the ref in lockstep immediately (don't wait for the effect) so it
+        // never reports a stale year within the same frame batch.
+        yearPlayRef.current = next;
 
         if (next >= max) {
           if (loopRef.current) {

@@ -102,8 +102,10 @@ const SELECTED_LAYER_ID = 'polities-selected';
 
 /** Minimum ms between time-filter re-applications on year scrub.
  *  Keeps filter computation cheap with 3,149 features while staying
- *  well inside the ≤100 ms chronoscope repaint budget (docs/00 §3). */
-const FILTER_THROTTLE_MS = 50;
+ *  at the ≤100 ms chronoscope repaint budget (docs/00 §3). Matched to the
+ *  REG playback step rate (one year / 100 ms = 10 yr/s) so each played year
+ *  gets its own throttle window and none are collapsed away. */
+const FILTER_THROTTLE_MS = 100;
 
 /**
  * Safe readiness check for a MapLibre map before calling any style/layer method.
@@ -441,7 +443,19 @@ export function MapCanvas() {
     if (state.phase !== 'ready') return;
     if (lastYearRef.current === year) return;
     scheduleFilter(year);
+    // NOTE: deliberately NO cleanup here. A per-year cleanup that cleared
+    // filterThrottleRef/pendingYearRef ran on EVERY year change (because `year`
+    // is a dep), tearing down the leading+trailing throttle window each tick.
+    // During playback that dropped intermediate years and made the map repaint
+    // only intermittently. The throttle is torn down once on unmount instead
+    // (see the unmount-only effect below).
+  }, [year, state.phase, scheduleFilter]);
 
+  // Unmount-only teardown for the filter throttle. Empty dep array → runs the
+  // cleanup exactly once when MapCanvas unmounts, never on year changes. This
+  // preserves the original "don't leak a pending timer" safety without
+  // sabotaging the throttle during playback.
+  useEffect(() => {
     return () => {
       if (filterThrottleRef.current !== null) {
         clearTimeout(filterThrottleRef.current);
@@ -449,7 +463,7 @@ export function MapCanvas() {
       }
       pendingYearRef.current = null;
     };
-  }, [year, state.phase, scheduleFilter]);
+  }, []);
 
   // ── Facet effect (Pass 1, linked views) ────────────────────────────────────
   // Re-apply the polity filter when the region/confidence/year-range facets change.

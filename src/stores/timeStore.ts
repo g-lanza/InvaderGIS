@@ -84,11 +84,11 @@ export interface TimeState {
   playing: boolean;
   /**
    * Playback speed in years/second for time-lapse (the RAF loop in TimeRail reads
-   * this). Default 20 — the "REG" (regular) speed (≈50 s to cross the 1000-yr
-   * window). The speed control cycles Slow (5) ↔ REG (20); both are slow enough
-   * that the map's 50 ms time-filter renders every snapshot without skipping.
-   * Additive (Phase: time-lapse enhancement) — kept optional-by-default so any
-   * consumer that ignores it sees no behaviour change.
+   * this). Default 10 — the "REG" (regular) speed (≈100 s to cross the 1000-yr
+   * window). The speed control cycles Slow (5) ↔ REG (10). REG advances one year
+   * per 100 ms, matching the map's 100 ms time-filter window so every year renders
+   * without skipping. Additive (Phase: time-lapse enhancement) — kept optional-by-
+   * default so any consumer that ignores it sees no behaviour change.
    */
   playSpeed: number;
   /**
@@ -139,7 +139,7 @@ export const useTimeStore = create<TimeState>((set, get) => ({
   year:            800,
   era:             eraForYear(800),      // 'early' — identical to pre-G2
   playing:         false,
-  playSpeed:       20,                   // yrs/s — matches the prior hardcoded PLAY_YEARS_PER_SECOND
+  playSpeed:       10,                   // yrs/s — REG: one year per 100 ms, matches the map filter window
   loop:            false,                // stop at end (prior behaviour)
   scrubThrottleMs: 16,
   boundsMin:       YEAR_MIN,             // 500

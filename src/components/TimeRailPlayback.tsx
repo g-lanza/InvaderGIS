@@ -11,7 +11,7 @@
  */
 
 /** Human labels for each speed, in the same order. */
-const PLAY_SPEED_LABELS: Record<number, string> = { 5: 'Slow', 20: 'REG' };
+const PLAY_SPEED_LABELS: Record<number, string> = { 5: 'Slow', 10: 'REG' };
 
 /** Props for the PlaybackControls sub-component. */
 interface PlaybackControlsProps {
