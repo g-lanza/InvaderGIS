@@ -19,6 +19,7 @@
  */
 import { useSettingsStore } from '@/stores/settingsStore';
 import type { Projection } from '@/stores/settingsStore';
+import { assetUrl } from '@/data/assetUrl';
 
 /** Human-readable label for each projection. */
 const PROJECTION_LABELS: Record<Projection, string> = {
@@ -186,7 +187,7 @@ export function TopBar({
       */}
       <div className="msa-topbar__brand" aria-label="InvaderGIS">
         <img
-          src="/hdv-logo.svg"
+          src={assetUrl('/hdv-logo.svg')}
           alt="InvaderGIS"
           width={28}
           height={28}
