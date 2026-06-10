@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_ani_1161_c01",
+  "statement": "Siege of Ani (1161 CE), at Ani (part of Georgian–Seljuk wars).",
+  "subject_ids": [
+    "kingdom_of_georgia"
+  ],
+  "period": {
+    "from": 1161,
+    "to": 1161
+  },
+  "derived_from": "wd_siege_of_ani_1161",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

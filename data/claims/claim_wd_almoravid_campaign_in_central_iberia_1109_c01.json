@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_almoravid_campaign_in_central_iberia_1109_c01",
+  "statement": "The Almoravids conducted a military campaign in central Iberia in 1109 CE.",
+  "subject_ids": [
+    "almoravid_emirate_iberia"
+  ],
+  "period": {
+    "from": 1109,
+    "to": 1109
+  },
+  "derived_from": "wd_almoravid_campaign_in_central_iberia_1109",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_the_2004",
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

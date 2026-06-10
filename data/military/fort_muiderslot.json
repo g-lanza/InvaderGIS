@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "fort_muiderslot",
+  "name": "Muiderslot Castle",
+  "subtype": "fort",
+  "start_year": 1285,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "Dutch water castle near Amsterdam",
+  "coords": [
+    5.071,
+    52.334
+  ]
+}

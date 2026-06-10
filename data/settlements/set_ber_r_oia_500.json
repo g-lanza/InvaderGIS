@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_ber_r_oia_500",
+  "name": "Ber(r)oia",
+  "importance": "city",
+  "start_year": 500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "inferred",
+    "external_ids": {
+      "pleiades": "491546"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    22.2015,
+    40.5221
+  ]
+}

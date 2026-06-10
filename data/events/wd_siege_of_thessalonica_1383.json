@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_thessalonica_1383",
+  "name": "Siege of Thessalonica",
+  "year": 1383,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41,
+    28.9
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Siege of Thessalonica (1383 CE), at Thessaloniki (part of Byzantine–Ottoman wars). Source: Wikidata Q60315800.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "ottoman_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

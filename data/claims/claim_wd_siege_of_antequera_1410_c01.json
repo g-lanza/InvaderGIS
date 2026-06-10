@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_antequera_1410_c01",
+  "statement": "Siege of Antequera (1410 CE), at Antequera (part of Reconquista).",
+  "subject_ids": [
+    "crown_of_castile"
+  ],
+  "period": {
+    "from": 1410,
+    "to": 1410
+  },
+  "derived_from": "wd_siege_of_antequera_1410",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "o'callaghan_a_1975",
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

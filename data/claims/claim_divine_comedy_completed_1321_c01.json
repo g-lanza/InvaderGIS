@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_divine_comedy_completed_1321_c01",
+  "statement": "Dante Alighieri, exiled from Florence, completed the Paradiso shortly before his death in Ravenna in 1321.",
+  "subject_ids": [
+    "republic_of_florence"
+  ],
+  "period": {
+    "from": 1321,
+    "to": 1321
+  },
+  "derived_from": "divine_comedy_completed_1321",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "najemy_a_2006",
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

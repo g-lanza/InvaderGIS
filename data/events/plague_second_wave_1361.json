@@ -1,0 +1,42 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "plague_second_wave_1361",
+  "name": "Second Plague Wave, \"The Pestilence of Children\"",
+  "year": 1361,
+  "type": "disaster",
+  "category": "hazard",
+  "coords": [
+    48.85,
+    2.35
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "The second major plague epidemic (called the Pestilence of Children or Second Pestilence) strikes Europe in 1360-1363, killing primarily children and young adults who had been born after the first plague and lacked immunity. This wave demonstrates that plague is endemic rather than a one-time event; subsequent waves occur in 1369, 1374-1375, 1379-1383, and almost every decade thereafter through the 15th century. Total European population does not recover to pre-1348 levels until 1500-1550.",
+  "outcomes": [
+    "young_population_decimated",
+    "labor_shortage_deepened",
+    "recurrence_dispels_hope_of_one_time_event"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "kingdom_of_england",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "The recurrence of plague is as important as the initial outbreak for social transformation; the demographic deficit persists for a century, keeping wages high, enabling peasant mobility, and transforming the European economy toward labor-saving techniques and livestock (less labor than grain farming); the continuous mortality also shapes late medieval religious culture, the danse macabre, the ars moriendi tradition, and the intense focus on death in art",
+    "year_range": [
+      1360,
+      1363
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

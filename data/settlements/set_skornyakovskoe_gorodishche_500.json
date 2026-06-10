@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_skornyakovskoe_gorodishche_500",
+  "name": "Skornyakovskoe Gorodishche",
+  "importance": "city",
+  "start_year": 500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "inferred",
+    "external_ids": {
+      "pleiades": "677771033"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    48.3238,
+    58.2841
+  ]
+}

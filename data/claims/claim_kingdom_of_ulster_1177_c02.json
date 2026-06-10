@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_kingdom_of_ulster_1177_c02",
+  "statement": "The Earldom of Ulster was established following the Norman invasion of 1177, creating a permanent English foothold in the province.",
+  "subject_ids": [
+    "kingdom_of_ulster"
+  ],
+  "period": {
+    "from": 1177,
+    "to": 1177
+  },
+  "derived_from": "kingdom_of_ulster_1177",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

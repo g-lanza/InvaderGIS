@@ -1,0 +1,1076 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "judicate_of_cagliari",
+  "name_primary": "Judicate of Cagliari",
+  "name_variants": [
+    "Giudicato di Cagliari"
+  ],
+  "type": "kingdom",
+  "region": "italy",
+  "formed": 900,
+  "dissolved": 1258,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 866,
+      "label": "Giudicato of Cagliari",
+      "polygon": [
+        [
+          39.19,
+          9.67
+        ],
+        [
+          39.19,
+          9.12
+        ],
+        [
+          38.87,
+          8.97
+        ],
+        [
+          39,
+          8.34
+        ],
+        [
+          39.26,
+          8.41
+        ],
+        [
+          39.26,
+          8.33
+        ],
+        [
+          39.51,
+          8.33
+        ],
+        [
+          39.64,
+          8.96
+        ],
+        [
+          40.1,
+          9.27
+        ],
+        [
+          40.23,
+          9.51
+        ],
+        [
+          40.16,
+          9.74
+        ],
+        [
+          39.19,
+          9.67
+        ]
+      ]
+    },
+    {
+      "year": 911,
+      "label": "Giudicato of Cagliari",
+      "polygon": [
+        [
+          40.23,
+          9.51
+        ],
+        [
+          40.16,
+          9.74
+        ],
+        [
+          39.64,
+          9.75
+        ],
+        [
+          39.64,
+          9.67
+        ],
+        [
+          39.13,
+          9.59
+        ],
+        [
+          39.19,
+          9.12
+        ],
+        [
+          38.87,
+          8.97
+        ],
+        [
+          38.93,
+          8.42
+        ],
+        [
+          39.51,
+          8.33
+        ],
+        [
+          39.64,
+          8.96
+        ],
+        [
+          40.1,
+          9.27
+        ],
+        [
+          40.23,
+          9.51
+        ]
+      ]
+    },
+    {
+      "year": 1015,
+      "label": "Giudicato of Cagliari",
+      "polygon": [
+        [
+          39.9,
+          9.43
+        ],
+        [
+          39.38,
+          9.36
+        ],
+        [
+          39.45,
+          8.96
+        ],
+        [
+          39.32,
+          8.88
+        ],
+        [
+          39.32,
+          8.73
+        ],
+        [
+          39.64,
+          8.72
+        ],
+        [
+          39.64,
+          8.96
+        ],
+        [
+          40.03,
+          9.27
+        ],
+        [
+          39.9,
+          9.43
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    39.22,
+    9.11
+  ],
+  "religion": "catholic",
+  "population_estimates": [
+    {
+      "year": 1000,
+      "estimate": 42000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2297073",
+          "url": "https://www.wikidata.org/wiki/Q2297073",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Judicate of Cagliari",
+          "url": "https://en.wikipedia.org/wiki/Judicate_of_Cagliari"
+        }
+      ]
+    },
+    {
+      "year": 1150,
+      "estimate": 60000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2297073",
+          "url": "https://www.wikidata.org/wiki/Q2297073",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Judicate of Cagliari",
+          "url": "https://en.wikipedia.org/wiki/Judicate_of_Cagliari"
+        }
+      ]
+    },
+    {
+      "year": 1300,
+      "estimate": 66000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2297073",
+          "url": "https://www.wikidata.org/wiki/Q2297073",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Judicate of Cagliari",
+          "url": "https://en.wikipedia.org/wiki/Judicate_of_Cagliari"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low"
+  },
+  "description": "One of the four indigenous Sardinian giudicati (c. 900–1258) that emerged from Byzantine administrative devolution; its strategic southern port was the gateway for Pisan and Genoese commercial penetration, and its dynasty's extinction through conquest by the Pisan-allied Della Gherardesca family removed the last independent southern Sardinian polity before Aragonese unification.",
+  "temporal": {
+    "start_year": 900,
+    "end_year": 1258,
+    "end_year_within_scope": null,
+    "start_event_id": null,
+    "end_event_id": null,
+    "notes": "Sardinian judicate alongside Arborea; Aragonese pressure."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      39.22,
+      9.11
+    ],
+    "core_regions": [
+      "Cagliari",
+      "Sardinia"
+    ],
+    "polygon_simplified": [
+      [
+        40.23,
+        9.51
+      ],
+      [
+        40.16,
+        9.74
+      ],
+      [
+        39.64,
+        9.75
+      ],
+      [
+        39.64,
+        9.67
+      ],
+      [
+        39.13,
+        9.59
+      ],
+      [
+        39.19,
+        9.12
+      ],
+      [
+        38.87,
+        8.97
+      ],
+      [
+        38.93,
+        8.42
+      ],
+      [
+        39.51,
+        8.33
+      ],
+      [
+        39.64,
+        8.96
+      ],
+      [
+        40.1,
+        9.27
+      ],
+      [
+        40.23,
+        9.51
+      ]
+    ],
+    "notes": "Centroid approximate; polygon pending schematic or OHM sourcing.",
+    "polygon_snapshots": [
+      {
+        "year": 866,
+        "label": "Giudicato of Cagliari",
+        "polygon": [
+          [
+            39.19,
+            9.67
+          ],
+          [
+            39.19,
+            9.12
+          ],
+          [
+            38.87,
+            8.97
+          ],
+          [
+            39,
+            8.34
+          ],
+          [
+            39.26,
+            8.41
+          ],
+          [
+            39.26,
+            8.33
+          ],
+          [
+            39.51,
+            8.33
+          ],
+          [
+            39.64,
+            8.96
+          ],
+          [
+            40.1,
+            9.27
+          ],
+          [
+            40.23,
+            9.51
+          ],
+          [
+            40.16,
+            9.74
+          ],
+          [
+            39.19,
+            9.67
+          ]
+        ]
+      },
+      {
+        "year": 911,
+        "label": "Giudicato of Cagliari",
+        "polygon": [
+          [
+            40.23,
+            9.51
+          ],
+          [
+            40.16,
+            9.74
+          ],
+          [
+            39.64,
+            9.75
+          ],
+          [
+            39.64,
+            9.67
+          ],
+          [
+            39.13,
+            9.59
+          ],
+          [
+            39.19,
+            9.12
+          ],
+          [
+            38.87,
+            8.97
+          ],
+          [
+            38.93,
+            8.42
+          ],
+          [
+            39.51,
+            8.33
+          ],
+          [
+            39.64,
+            8.96
+          ],
+          [
+            40.1,
+            9.27
+          ],
+          [
+            40.23,
+            9.51
+          ]
+        ]
+      },
+      {
+        "year": 1015,
+        "label": "Giudicato of Cagliari",
+        "polygon": [
+          [
+            39.9,
+            9.43
+          ],
+          [
+            39.38,
+            9.36
+          ],
+          [
+            39.45,
+            8.96
+          ],
+          [
+            39.32,
+            8.88
+          ],
+          [
+            39.32,
+            8.73
+          ],
+          [
+            39.64,
+            8.72
+          ],
+          [
+            39.64,
+            8.96
+          ],
+          [
+            40.03,
+            9.27
+          ],
+          [
+            39.9,
+            9.43
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "real_historical_boundary",
+    "polygon_source": "Seshat-Global-History-Databank/cliopatria",
+    "polygon_source_date": "2026-05-10",
+    "capital": {
+      "name": "Cagliari",
+      "coords": [
+        39.21489,
+        9.10952
+      ],
+      "source": "wikidata"
+    }
+  },
+  "internal_structure": {
+    "centralization": "low_to_medium",
+    "centralization_trajectory": null,
+    "governance_type": "dynastic_feudal",
+    "legitimacy_basis": [
+      "inheritance"
+    ],
+    "administrative_system": ""
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "formation",
+      "years": "c.900–960",
+      "description": "Cagliari emerges as one of four Sardinian judicates.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2297073",
+          "url": "https://www.wikidata.org/wiki/Q2297073"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Judicate of Cagliari",
+          "url": "https://en.wikipedia.org/wiki/Judicate_of_Cagliari"
+        }
+      ]
+    },
+    {
+      "phase": "peak",
+      "years": "960–1200",
+      "description": "Sustained independence; southern Sardinian trade hub.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2297073",
+          "url": "https://www.wikidata.org/wiki/Q2297073"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Judicate of Cagliari",
+          "url": "https://en.wikipedia.org/wiki/Judicate_of_Cagliari"
+        }
+      ]
+    },
+    {
+      "phase": "crisis",
+      "years": "1200–1258",
+      "description": "Pisan penetration and dynastic failure.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2297073",
+          "url": "https://www.wikidata.org/wiki/Q2297073"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Judicate of Cagliari",
+          "url": "https://en.wikipedia.org/wiki/Judicate_of_Cagliari"
+        }
+      ]
+    },
+    {
+      "phase": "dissolution",
+      "years": "1258",
+      "description": "Judicate absorbed; Pisan control formalized.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2297073",
+          "url": "https://www.wikidata.org/wiki/Q2297073"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Judicate of Cagliari",
+          "url": "https://en.wikipedia.org/wiki/Judicate_of_Cagliari"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "trade_route_control",
+      "layer": "economic_commercial",
+      "description": "Southern Sardinian ports, especially Cagliari, provided access to Pisan and Genoese commercial networks.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2297073",
+          "url": "https://www.wikidata.org/wiki/Q2297073"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Judicate of Cagliari",
+          "url": "https://en.wikipedia.org/wiki/Judicate_of_Cagliari"
+        }
+      ]
+    },
+    {
+      "tag": "geographic_defensibility",
+      "layer": "geography_territory",
+      "description": "Coastal lagoons and marshlands around Cagliari hampered overland assault.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2297073",
+          "url": "https://www.wikidata.org/wiki/Q2297073"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Judicate of Cagliari",
+          "url": "https://en.wikipedia.org/wiki/Judicate_of_Cagliari"
+        }
+      ]
+    },
+    {
+      "tag": "external_alliance",
+      "layer": "external_political",
+      "description": "Pisan commercial patronage provided military and financial support that extended Cagliari's viability.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2297073",
+          "url": "https://www.wikidata.org/wiki/Q2297073"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Judicate of Cagliari",
+          "url": "https://en.wikipedia.org/wiki/Judicate_of_Cagliari"
+        }
+      ]
+    },
+    {
+      "layer": "economic_commercial",
+      "tag": "trade_route_control",
+      "direction": "rise",
+      "description": "Cagliari's salt pans produced one of Sardinia's most valuable export commodities, generating revenues that funded the judicate's administration and gave its rulers leverage in Italian commercial networks.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2297073",
+          "url": "https://www.wikidata.org/wiki/Q2297073"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Judicate of Cagliari",
+          "url": "https://en.wikipedia.org/wiki/Judicate_of_Cagliari"
+        }
+      ],
+      "tag_prose": "salt_trade"
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "external_alliance",
+      "direction": "rise",
+      "description": "The judicate of Cagliari formed close commercial and political ties with Pisa, benefiting from Pisan merchant networks and military support in exchange for trading privileges.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2297073",
+          "url": "https://www.wikidata.org/wiki/Q2297073"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Judicate of Cagliari",
+          "url": "https://en.wikipedia.org/wiki/Judicate_of_Cagliari"
+        }
+      ],
+      "tag_prose": "pisano_alliance"
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "external_military_pressure",
+      "layer": "military_security",
+      "description": "Pisan families effectively took over governance through marriage and commercial dominance.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2297073",
+          "url": "https://www.wikidata.org/wiki/Q2297073"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Judicate of Cagliari",
+          "url": "https://en.wikipedia.org/wiki/Judicate_of_Cagliari"
+        }
+      ]
+    },
+    {
+      "tag": "succession_crisis",
+      "layer": "dynastic_legitimacy",
+      "description": "Giudicale dynasty died out; territory absorbed by Pisan families and then Aragonese claimants.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2297073",
+          "url": "https://www.wikidata.org/wiki/Q2297073"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Judicate of Cagliari",
+          "url": "https://en.wikipedia.org/wiki/Judicate_of_Cagliari"
+        }
+      ]
+    },
+    {
+      "tag": "external_displacement",
+      "layer": "external_political",
+      "description": "Pisan-Aragonese competition eliminated the independent judicate.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2297073",
+          "url": "https://www.wikidata.org/wiki/Q2297073"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Judicate of Cagliari",
+          "url": "https://en.wikipedia.org/wiki/Judicate_of_Cagliari"
+        }
+      ]
+    },
+    {
+      "layer": "military_security",
+      "tag": "external_military_pressure",
+      "direction": "decline",
+      "description": "The Pisan commune progressively absorbed Cagliari's territory through the 13th century, replacing the indigenous Sardinian judicial administration with Pisan podestà governance.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2297073",
+          "url": "https://www.wikidata.org/wiki/Q2297073"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Judicate of Cagliari",
+          "url": "https://en.wikipedia.org/wiki/Judicate_of_Cagliari"
+        }
+      ],
+      "tag_prose": "pisano_annexation"
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "dynastic_extinction",
+      "direction": "decline",
+      "description": "The Lacon-Massa dynasty died out in 1258; without male heirs the judicate fragmented among rival claimants allied with Pisa and Genoa, destroying the unified administrative structure.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2297073",
+          "url": "https://www.wikidata.org/wiki/Q2297073"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Judicate of Cagliari",
+          "url": "https://en.wikipedia.org/wiki/Judicate_of_Cagliari"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "person_id": "guglielmo_di_massa",
+      "name": "Guglielmo di Massa",
+      "role": "ruler",
+      "years": "d.1214",
+      "year_start": 1214,
+      "year_end": null,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Guglielmo di Massa",
+          "url": "https://en.wikipedia.org/wiki/Guglielmo_di_Massa"
+        }
+      ]
+    }
+  ],
+  "successor_entity_ids": [
+    "crown_of_aragon"
+  ],
+  "primary_ethnicity": "iberian",
+  "ethnic_composition": [
+    {
+      "group": "iberian",
+      "proportion": 0.88
+    }
+  ],
+  "religion_composition": [
+    {
+      "religion": "catholic",
+      "proportion": 0.95
+    },
+    {
+      "religion": "pagan",
+      "proportion": 0.05
+    }
+  ],
+  "primary_language": "italian_lang",
+  "language_composition": [
+    {
+      "language": "italian_lang",
+      "proportion": 0.78,
+      "role": "vernacular"
+    },
+    {
+      "language": "latin",
+      "proportion": 0.14,
+      "role": "liturgical"
+    },
+    {
+      "language": "arabic",
+      "proportion": 0.08,
+      "role": "regional"
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "maritime_trade",
+      "mining"
+    ],
+    "wealth_level": "moderate",
+    "major_exports": [
+      "grain",
+      "salt",
+      "silver",
+      "cattle"
+    ],
+    "major_trade_partners": [
+      "republic_of_pisa",
+      "republic_of_genoa",
+      "kingdom_of_sicily_norman"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "mining_rights",
+      "customs_duties"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q2297073",
+        "url": "https://www.wikidata.org/wiki/Q2297073"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Judicate of Cagliari",
+        "url": "https://en.wikipedia.org/wiki/Judicate_of_Cagliari"
+      }
+    ]
+  },
+  "social_structure": {
+    "ruling_ethnicity": "iberian",
+    "subject_majority": "iberian",
+    "military_ethnicity": "iberian",
+    "administrative_language": "italian_lang",
+    "stratification_type": "homogeneous"
+  },
+  "wikidata_enrichment": {
+    "qid": "Q2297073",
+    "matched_name": "manual/judicate_of_cagliari",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Judicate_of_Cagliari",
+    "capital": {
+      "name": "Cagliari",
+      "coords": [
+        39.21489,
+        9.10952
+      ]
+    },
+    "rulers_from_wikidata": [
+      {
+        "name": "Mariano I Salusio I",
+        "qid": "Q3847774",
+        "year_start": 1000,
+        "year_end": 1058,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3847774",
+            "url": "https://www.wikidata.org/wiki/Q3847774"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mariano I Salusio I",
+            "url": "https://en.wikipedia.org/wiki/Mariano_I_Salusio_I"
+          }
+        ]
+      },
+      {
+        "name": "Torchitorio I of Cagliari",
+        "qid": "Q1777452",
+        "year_start": 1058,
+        "year_end": 1089,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1777452",
+            "url": "https://www.wikidata.org/wiki/Q1777452"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Torchitorio I of Cagliari",
+            "url": "https://en.wikipedia.org/wiki/Torchitorio_I_of_Cagliari"
+          }
+        ]
+      },
+      {
+        "name": "Constantine I of Cagliari",
+        "qid": "Q1777496",
+        "year_start": 1089,
+        "year_end": 1103,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1777496",
+            "url": "https://www.wikidata.org/wiki/Q1777496"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Constantine I of Cagliari",
+            "url": "https://en.wikipedia.org/wiki/Constantine_I_of_Cagliari"
+          }
+        ]
+      },
+      {
+        "name": "Torchitorio II of Cagliari",
+        "qid": "Q1777489",
+        "year_start": 1103,
+        "year_end": 1130,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1777489",
+            "url": "https://www.wikidata.org/wiki/Q1777489"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Torchitorio II of Cagliari",
+            "url": "https://en.wikipedia.org/wiki/Torchitorio_II_of_Cagliari"
+          }
+        ]
+      },
+      {
+        "name": "Constantine II of Cagliari",
+        "qid": "Q4216815",
+        "year_start": 1130,
+        "year_end": 1163,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4216815",
+            "url": "https://www.wikidata.org/wiki/Q4216815"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Constantine II of Cagliari",
+            "url": "https://en.wikipedia.org/wiki/Constantine_II_of_Cagliari"
+          }
+        ]
+      },
+      {
+        "name": "Torchitorio III of Cagliari",
+        "qid": "Q4251687",
+        "year_start": 1163,
+        "year_end": 1188,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4251687",
+            "url": "https://www.wikidata.org/wiki/Q4251687"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Torchitorio III of Cagliari",
+            "url": "https://en.wikipedia.org/wiki/Torchitorio_III_of_Cagliari"
+          }
+        ]
+      },
+      {
+        "name": "William I of Cagliari",
+        "qid": "Q1983761",
+        "year_start": 1188,
+        "year_end": 1214,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1983761",
+            "url": "https://www.wikidata.org/wiki/Q1983761"
+          },
+          {
+            "type": "wikipedia",
+            "label": "William I of Cagliari",
+            "url": "https://en.wikipedia.org/wiki/William_I_of_Cagliari"
+          }
+        ]
+      },
+      {
+        "name": "Benedetta of Cagliari",
+        "qid": "Q1750821",
+        "year_start": 1214,
+        "year_end": 1232,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1750821",
+            "url": "https://www.wikidata.org/wiki/Q1750821"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Benedetta of Cagliari",
+            "url": "https://en.wikipedia.org/wiki/Benedetta_of_Cagliari"
+          }
+        ]
+      },
+      {
+        "name": "Torchitorio IV of Cagliari",
+        "qid": "Q4216612",
+        "year_start": 1214,
+        "year_end": 1217,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4216612",
+            "url": "https://www.wikidata.org/wiki/Q4216612"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Torchitorio IV of Cagliari",
+            "url": "https://en.wikipedia.org/wiki/Torchitorio_IV_of_Cagliari"
+          }
+        ]
+      },
+      {
+        "name": "William II of Cagliari",
+        "qid": "Q1983803",
+        "year_start": 1232,
+        "year_end": 1254,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1983803",
+            "url": "https://www.wikidata.org/wiki/Q1983803"
+          },
+          {
+            "type": "wikipedia",
+            "label": "William II of Cagliari",
+            "url": "https://en.wikipedia.org/wiki/William_II_of_Cagliari"
+          }
+        ]
+      },
+      {
+        "name": "Torchitorio V of Cagliari",
+        "qid": "Q1983505",
+        "year_start": 1254,
+        "year_end": 1256,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1983505",
+            "url": "https://www.wikidata.org/wiki/Q1983505"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Torchitorio V of Cagliari",
+            "url": "https://en.wikipedia.org/wiki/Torchitorio_V_of_Cagliari"
+          }
+        ]
+      },
+      {
+        "name": "William III of Cagliari",
+        "qid": "Q1983524",
+        "year_start": 1256,
+        "year_end": 1258,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1983524",
+            "url": "https://www.wikidata.org/wiki/Q1983524"
+          },
+          {
+            "type": "wikipedia",
+            "label": "William III of Cagliari",
+            "url": "https://en.wikipedia.org/wiki/William_III_of_Cagliari"
+          }
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "type": "book",
+      "author": "Wickham, Chris",
+      "title": "The Inheritance of Rome: A History of Europe from 400 to 1000",
+      "publisher": "Allen Lane",
+      "year": 2009
+    },
+    {
+      "type": "book",
+      "author": "Abulafia, David (ed.)",
+      "title": "The New Cambridge Medieval History, Vol. V: c. 1198 – c. 1300",
+      "publisher": "Cambridge University Press",
+      "year": 1999
+    }
+  ],
+  "monogram": "JC"
+}

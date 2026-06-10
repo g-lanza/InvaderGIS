@@ -1,0 +1,38 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_lithuania_moscow_rivalry",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "grand_duchy_of_lithuania",
+      "role": "principal"
+    },
+    {
+      "entity_id": "grand_principality_of_moscow",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 1368,
+  "until": 1500,
+  "note": "The Grand Duchy of Lithuania and the Grand Principality of Moscow competed for control of the Orthodox Ruthenian principalities — the former lands of Kievan Rus — throughout the 14th and 15th centuries. Lithuania under Algirdas expanded aggressively eastward, defeating the Golden Horde at Blue Waters (1362) and pushing Lithuanian control to within 50 miles of Moscow. Moscow under Ivan III reversed this, annexing Novgorod (1478) and Tver (1485) and scoring a diplomatic victory at the Battle of the Vedrosha (1500). The competition shaped which Slavic peoples would align with Latin (Polish-Lithuanian) versus Orthodox (Muscovite) civilization.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Lithuania-Moscow competition determines the fundamental division of the Slavic Orthodox world; Lithuania's earlier eastward expansion temporarily wins the contest, but Moscow's ultimate victory determines that the largest Orthodox Slavic state will be Muscovite rather than Lithuanian; this competition creates the modern Ukrainian-Belarusian-Russian cultural distinctions"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "rowell_lithuania_1994",
+      "christiansen_the_1997",
+      "halperin_russia_1985",
+      "fennell_the_1983",
+      "ostrowski_muscovy_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

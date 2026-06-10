@@ -1,0 +1,20 @@
+{
+ "kind": "polity",
+ "id": "spanish_crown",
+ "name": "Spanish Crown",
+ "type": "kingdom",
+ "formed": 1492,
+ "dissolved": null,
+ "provenance": {
+  "sources_used": [
+   "ims_fordham",
+   "ims_fordham_sbook1z"
+  ],
+  "confidence": "medium",
+  "status": "draft"
+ },
+ "dataset": "medieval-europe-500-1500",
+ "_fordham_index": "sbook1z",
+ "from_sourcebook": true,
+ "name_primary": "Spanish Crown"
+}

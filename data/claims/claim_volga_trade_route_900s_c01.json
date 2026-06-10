@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_volga_trade_route_900s_c01",
+  "statement": "Norse Varangian merchants developed the Volga trade route running from Scandinavia through Ladoga and Novgorod down the Volga River to the Caspian Sea and Islamic Abbasid markets.",
+  "subject_ids": [
+    "kievan_rus"
+  ],
+  "period": {
+    "from": 900,
+    "to": 900
+  },
+  "derived_from": "volga_trade_route_900s",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "franklin_the_1996",
+      "riasanovsky_a_2000",
+      "martin_medieval_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

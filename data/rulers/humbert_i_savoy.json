@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "humbert_i_savoy",
+  "name": "Humbert I White-Handed",
+  "polity": "county_of_savoy",
+  "title": "dynastic_founder",
+  "reign_start": 980,
+  "reign_end": 1048,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "county_of_savoy",
+        "role": "dynastic_founder",
+        "start_year": 980,
+        "end_year": 1048
+      }
+    ],
+    "key_actions": [],
+    "region": "western_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

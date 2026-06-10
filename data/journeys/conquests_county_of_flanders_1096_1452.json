@@ -1,0 +1,180 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_county_of_flanders_1096_1452",
+  "name": "County of Flanders — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1096,
+  "year_end": 1452,
+  "waypoints": [
+    {
+      "year": 1096,
+      "place": "First Crusade",
+      "coords": [
+        43.3,
+        11.2
+      ],
+      "note": "military",
+      "event_id": "wd_first_crusade_1096"
+    },
+    {
+      "year": 1108,
+      "place": "Claim of William Clito",
+      "coords": [
+        49.8,
+        1.375
+      ],
+      "note": "military",
+      "event_id": "wd_claim_of_william_clito_1108"
+    },
+    {
+      "year": 1116,
+      "place": "Anglo-French War",
+      "coords": [
+        49.3675,
+        1.1625
+      ],
+      "note": "military",
+      "event_id": "wd_anglo_french_war_1116"
+    },
+    {
+      "year": 1148,
+      "place": "Siege of Damascus",
+      "coords": [
+        43.6029,
+        16.8657
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_damascus_1148"
+    },
+    {
+      "year": 1157,
+      "place": "Siege of Shaizar",
+      "coords": [
+        38.35,
+        27.725
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_shaizar_1157"
+    },
+    {
+      "year": 1159,
+      "place": "Capetian-Plantagenet rivalry",
+      "coords": [
+        49.1667,
+        5.5667
+      ],
+      "note": "military",
+      "event_id": "wd_capetian_plantagenet_rivalry_1159"
+    },
+    {
+      "year": 1302,
+      "place": "Battle of Courtrai",
+      "coords": [
+        50.83,
+        3.27
+      ],
+      "note": "battle",
+      "event_id": "courtrai_1302"
+    },
+    {
+      "year": 1303,
+      "place": "Siege of Tournai",
+      "coords": [
+        48.75,
+        3.1
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_tournai_1303"
+    },
+    {
+      "year": 1304,
+      "place": "Battle of Mons-en-Pévèle",
+      "coords": [
+        50.64,
+        3.37
+      ],
+      "note": "battle",
+      "event_id": "battle_grunwald_context_1410"
+    },
+    {
+      "year": 1337,
+      "place": "Edwardian War",
+      "coords": [
+        47.3691,
+        2.2482
+      ],
+      "note": "military",
+      "event_id": "wd_edwardian_war_1337"
+    },
+    {
+      "year": 1338,
+      "place": "English Channel naval campaign, 1338-1339",
+      "coords": [
+        50,
+        1.7333
+      ],
+      "note": "military",
+      "event_id": "wd_english_channel_naval_campaign_1338_1339_1338"
+    },
+    {
+      "year": 1340,
+      "place": "Siege of Tournai",
+      "coords": [
+        50.17,
+        4.01
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_tournai_1340"
+    },
+    {
+      "year": 1356,
+      "place": "Battle of Scheut",
+      "coords": [
+        50.925,
+        4.025
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_scheut_1356"
+    },
+    {
+      "year": 1356,
+      "place": "Siege of Brussels",
+      "coords": [
+        51,
+        3.7
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_brussels_1356"
+    },
+    {
+      "year": 1415,
+      "place": "Battle of Chef-de-Caux",
+      "coords": [
+        47.08,
+        2.02
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_chef_de_caux_1415"
+    },
+    {
+      "year": 1452,
+      "place": "Battle of Lokeren",
+      "coords": [
+        51,
+        3.7
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_lokeren_1452"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

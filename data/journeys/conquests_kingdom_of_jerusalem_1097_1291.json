@@ -1,0 +1,633 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_kingdom_of_jerusalem_1097_1291",
+  "name": "Kingdom of Jerusalem — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1097,
+  "year_end": 1291,
+  "waypoints": [
+    {
+      "year": 1097,
+      "place": "Battle of Dorylaeum",
+      "coords": [
+        39.78,
+        30.52
+      ],
+      "note": "battle",
+      "event_id": "battle_dorylaeum_1097"
+    },
+    {
+      "year": 1098,
+      "place": "Siege and Capture of Antioch",
+      "coords": [
+        36.2,
+        36.2
+      ],
+      "note": "battle",
+      "event_id": "siege_of_antioch_1098"
+    },
+    {
+      "year": 1099,
+      "place": "Capture of Jerusalem (First Crusade)",
+      "coords": [
+        31.78,
+        35.23
+      ],
+      "note": "crusade",
+      "event_id": "first_crusade_1099"
+    },
+    {
+      "year": 1099,
+      "place": "Crusader–Fatimid Wars",
+      "coords": [
+        30.9,
+        33.2
+      ],
+      "note": "military",
+      "event_id": "wd_crusader_fatimid_wars_1099"
+    },
+    {
+      "year": 1099,
+      "place": "Venetian expedition to the Levant",
+      "coords": [
+        37.725,
+        22.275
+      ],
+      "note": "military",
+      "event_id": "wd_venetian_expedition_to_the_levant_1099"
+    },
+    {
+      "year": 1100,
+      "place": "Battle of the Dog River",
+      "coords": [
+        31.8,
+        35.2
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_the_dog_river_1100"
+    },
+    {
+      "year": 1100,
+      "place": "Siege of Haifa",
+      "coords": [
+        35.7333,
+        26.2333
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_haifa_1100"
+    },
+    {
+      "year": 1101,
+      "place": "Siege of Caesarea Maritima",
+      "coords": [
+        38.1,
+        22.05
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_caesarea_maritima_1101"
+    },
+    {
+      "year": 1102,
+      "place": "Battle of Jaffa",
+      "coords": [
+        30.9,
+        33.2
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_jaffa_1102"
+    },
+    {
+      "year": 1102,
+      "place": "Siege of Tripoli",
+      "coords": [
+        37.2,
+        25.2833
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_tripoli_1102"
+    },
+    {
+      "year": 1103,
+      "place": "Siege of Acre",
+      "coords": [
+        30.9,
+        33.2
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_acre_1103"
+    },
+    {
+      "year": 1104,
+      "place": "Siege of Acre",
+      "coords": [
+        35.4,
+        25.1
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_acre_1104"
+    },
+    {
+      "year": 1110,
+      "place": "Siege of Beirut",
+      "coords": [
+        38.7,
+        17.42
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_beirut_1110"
+    },
+    {
+      "year": 1110,
+      "place": "Siege of Sidon",
+      "coords": [
+        41.925,
+        21.8
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_sidon_1110"
+    },
+    {
+      "year": 1111,
+      "place": "Siege of Tyre",
+      "coords": [
+        34.2667,
+        31.7667
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_tyre_1111"
+    },
+    {
+      "year": 1119,
+      "place": "Battle of Hab",
+      "coords": [
+        34.1333,
+        35.7333
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_hab_1119"
+    },
+    {
+      "year": 1123,
+      "place": "Battle of Gerger",
+      "coords": [
+        31.8,
+        35.2
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_gerger_1123"
+    },
+    {
+      "year": 1123,
+      "place": "Battle of Yibneh",
+      "coords": [
+        30.9,
+        33.2
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_yibneh_1123"
+    },
+    {
+      "year": 1124,
+      "place": "Siege of Aleppo",
+      "coords": [
+        34.5,
+        37
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_aleppo_1124"
+    },
+    {
+      "year": 1125,
+      "place": "Battle of Azaz",
+      "coords": [
+        34.9,
+        36.5
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_azaz_1125"
+    },
+    {
+      "year": 1126,
+      "place": "Battle of Beirut",
+      "coords": [
+        30.9,
+        33.2
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_beirut_1126"
+    },
+    {
+      "year": 1130,
+      "place": "Battle of al-Atharib",
+      "coords": [
+        34,
+        35.7
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_al_atharib_1130"
+    },
+    {
+      "year": 1137,
+      "place": "Battle of Ba'rin",
+      "coords": [
+        33.1,
+        35.5
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_ba_rin_1137"
+    },
+    {
+      "year": 1138,
+      "place": "Battle of Teqoa",
+      "coords": [
+        30.9,
+        33.2
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_teqoa_1138"
+    },
+    {
+      "year": 1147,
+      "place": "Second Crusade",
+      "coords": [
+        47.46,
+        3.74
+      ],
+      "note": "crusade",
+      "event_id": "second_crusade_1147"
+    },
+    {
+      "year": 1148,
+      "place": "Second Crusade Failure",
+      "coords": [
+        33.5,
+        36.3
+      ],
+      "note": "battle",
+      "event_id": "deaths_of_crusade_leaders_1148"
+    },
+    {
+      "year": 1148,
+      "place": "Siege of Damascus",
+      "coords": [
+        43.6029,
+        16.8657
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_damascus_1148"
+    },
+    {
+      "year": 1152,
+      "place": "Jerusalemite Civil War",
+      "coords": [
+        31.8,
+        35.2
+      ],
+      "note": "military",
+      "event_id": "wd_jerusalemite_civil_war_1152"
+    },
+    {
+      "year": 1157,
+      "place": "Battle of Lake Huleh",
+      "coords": [
+        31.8,
+        35.2
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_lake_huleh_1157"
+    },
+    {
+      "year": 1157,
+      "place": "Siege of Shaizar",
+      "coords": [
+        38.35,
+        27.725
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_shaizar_1157"
+    },
+    {
+      "year": 1163,
+      "place": "Battle of al-Buqaia",
+      "coords": [
+        35.85,
+        34.025
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_al_buqaia_1163"
+    },
+    {
+      "year": 1163,
+      "place": "Crusader invasions of Egypt",
+      "coords": [
+        34.9667,
+        32.5833
+      ],
+      "note": "military",
+      "event_id": "wd_crusader_invasions_of_egypt_1163"
+    },
+    {
+      "year": 1167,
+      "place": "Battle of al-Babein",
+      "coords": [
+        31.8,
+        35.2
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_al_babein_1167"
+    },
+    {
+      "year": 1167,
+      "place": "Siege of Alexandria",
+      "coords": [
+        30.9,
+        33.2
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_alexandria_1167"
+    },
+    {
+      "year": 1169,
+      "place": "Siege of Damietta",
+      "coords": [
+        34.2667,
+        31.7667
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_damietta_1169"
+    },
+    {
+      "year": 1171,
+      "place": "Siege of Ayla",
+      "coords": [
+        30.9,
+        33.2
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_ayla_1171"
+    },
+    {
+      "year": 1178,
+      "place": "Battle of Hama",
+      "coords": [
+        31.8,
+        35.2
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_hama_1178"
+    },
+    {
+      "year": 1179,
+      "place": "Battle of Banias",
+      "coords": [
+        31.8,
+        35.2
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_banias_1179"
+    },
+    {
+      "year": 1182,
+      "place": "Battle of Belvoir Castle",
+      "coords": [
+        31.8,
+        35.2
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_belvoir_castle_1182"
+    },
+    {
+      "year": 1183,
+      "place": "Battle of Al-Fule",
+      "coords": [
+        31.8,
+        35.2
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_al_fule_1183"
+    },
+    {
+      "year": 1187,
+      "place": "Battle of Hattin",
+      "coords": [
+        32.82,
+        35.47
+      ],
+      "note": "battle",
+      "event_id": "battle_hattin_1187"
+    },
+    {
+      "year": 1187,
+      "place": "Saladin captures Jerusalem",
+      "coords": [
+        31.78,
+        35.23
+      ],
+      "note": "battle",
+      "event_id": "saladin_jerusalem_1187"
+    },
+    {
+      "year": 1187,
+      "place": "Saladin Reconquers Jerusalem",
+      "coords": [
+        31.78,
+        35.22
+      ],
+      "note": "conquest",
+      "event_id": "saladin_reconquers_jerusalem_1187"
+    },
+    {
+      "year": 1187,
+      "place": "Battle of Cresson",
+      "coords": [
+        34.1,
+        31.7
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_cresson_1187"
+    },
+    {
+      "year": 1187,
+      "place": "Siege of Jerusalem",
+      "coords": [
+        34.2,
+        33.0667
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_jerusalem_1187"
+    },
+    {
+      "year": 1187,
+      "place": "Siege of Kerak",
+      "coords": [
+        31.8,
+        35.2
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_kerak_1187"
+    },
+    {
+      "year": 1189,
+      "place": "Third Crusade",
+      "coords": [
+        32.92,
+        35.07
+      ],
+      "note": "crusade",
+      "event_id": "third_crusade_1189"
+    },
+    {
+      "year": 1191,
+      "place": "Richard I's Massacre at Acre",
+      "coords": [
+        32.92,
+        35.07
+      ],
+      "note": "battle",
+      "event_id": "massacre_acre_1191"
+    },
+    {
+      "year": 1191,
+      "place": "Battle of Arsuf",
+      "coords": [
+        41.8,
+        16.225
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_arsuf_1191"
+    },
+    {
+      "year": 1197,
+      "place": "Battle of Jaffa",
+      "coords": [
+        31.8,
+        35.2
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_jaffa_1197"
+    },
+    {
+      "year": 1197,
+      "place": "Siege of Toron",
+      "coords": [
+        40.9,
+        22.85
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_toron_1197"
+    },
+    {
+      "year": 1217,
+      "place": "Fifth Crusade",
+      "coords": [
+        31.42,
+        31.82
+      ],
+      "note": "crusade",
+      "event_id": "fifth_crusade_1217"
+    },
+    {
+      "year": 1217,
+      "place": "Siege of Mount Tabor",
+      "coords": [
+        37.52,
+        29.42
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_mount_tabor_1217"
+    },
+    {
+      "year": 1218,
+      "place": "Siege of Damietta",
+      "coords": [
+        41.9625,
+        18.725
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_damietta_1218"
+    },
+    {
+      "year": 1228,
+      "place": "War of the Lombards",
+      "coords": [
+        38.9875,
+        24.775
+      ],
+      "note": "military",
+      "event_id": "wd_war_of_the_lombards_1228"
+    },
+    {
+      "year": 1244,
+      "place": "Battle of Forbie",
+      "coords": [
+        32.8,
+        31.5333
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_forbie_1244"
+    },
+    {
+      "year": 1244,
+      "place": "Siege of Jerusalem",
+      "coords": [
+        31.8,
+        35.2
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_jerusalem_1244"
+    },
+    {
+      "year": 1268,
+      "place": "Fall of Jaffa",
+      "coords": [
+        30.9,
+        33.2
+      ],
+      "note": "military",
+      "event_id": "wd_fall_of_jaffa_1268"
+    },
+    {
+      "year": 1271,
+      "place": "Battle of Qaqun",
+      "coords": [
+        37.14,
+        25.32
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_qaqun_1271"
+    },
+    {
+      "year": 1291,
+      "place": "Final Fall of the Crusader States",
+      "coords": [
+        32.92,
+        35.07
+      ],
+      "note": "conquest",
+      "event_id": "fall_acre_to_mamluks_1291"
+    },
+    {
+      "year": 1291,
+      "place": "Siege of Acre",
+      "coords": [
+        32.1,
+        31.45
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_acre_1291"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

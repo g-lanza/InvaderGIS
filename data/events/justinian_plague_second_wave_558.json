@@ -1,0 +1,31 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "justinian_plague_second_wave_558",
+  "name": "Second wave of the Justinianic Plague",
+  "year": 558,
+  "type": "epidemic",
+  "category": "hazard",
+  "coords": [
+    41.0086,
+    28.9802
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Plague returns to Constantinople, killing thousands daily according to Agathias. The second wave is the first of approximately eighteen documented outbreaks across the Mediterranean basin between 541 and the early 8th century, collectively known as the First Plague Pandemic.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire"
+    ],
+    "structural_significance": "Confirms the Justinianic Plague as a recurrent rather than singular event; the cumulative demographic effect of the 6th–8th century outbreaks contributes to the late-antique demographic contraction.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kaldellis_streams_of_gold_2017",
+      "campbell_great_transition_2016"
+    ],
+    "confidence": "low"
+  }
+}

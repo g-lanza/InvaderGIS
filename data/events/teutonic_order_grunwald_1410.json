@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "teutonic_order_grunwald_1410",
+  "name": "Battle of Grunwald, Poland-Lithuania Defeats the Teutonic Order",
+  "year": 1410,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    53.49,
+    20.08
+  ],
+  "entity": "teutonic_order_state",
+  "summary": "The combined Polish-Lithuanian army under King Władysław II Jagiełło and Grand Duke Vytautas defeats the Teutonic Order at Grunwald (Tannenberg) on July 15, 1410. The Grand Master Ulrich von Jungingen and most of the Order's leadership are killed. The subsequent Peace of Thorn (1411) is lenient, the Order pays reparations but retains Prussia, but the battle permanently demonstrates that the Order cannot resist the combined power of the Polish-Lithuanian Union.",
+  "outcomes": [
+    "teutonic_order_crushed",
+    "polish_lithuanian_power_demonstrated",
+    "prussian_power_broken"
+  ],
+  "_quarry": {
+    "participants": [
+      "teutonic_order_state",
+      "kingdom_of_poland_jagiellonian",
+      "grand_duchy_of_lithuania"
+    ],
+    "structural_significance": "Grunwald is one of the largest battles of medieval Europe (reportedly 39,000 vs 27,000) and signals the end of Crusader-state power in the Baltic; the definitive Peace of Thorn (1466) eventually forces the Order to cede west Prussia to Poland; Grunwald becomes the founding myth of Polish and Lithuanian national identity; the battle demonstrates that the largest military order in Europe could be defeated by a well-organized dynastic union",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "christiansen_the_1997",
+      "urban_the_1994",
+      "turnbull_crusader_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

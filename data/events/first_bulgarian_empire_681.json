@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "first_bulgarian_empire_681",
+  "name": "Treaty of 681, Byzantine Recognition of Bulgaria",
+  "year": 681,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    42.14,
+    24.75
+  ],
+  "entity": "byzantine_empire",
+  "summary": "After the Bulgar Khan Asparuh defeats a Byzantine army and forces Emperor Constantine IV to negotiate, the Treaty of 681 recognizes the First Bulgarian Empire as an independent state south of the Danube. Byzantium agrees to pay annual tribute to the Bulgars. The treaty is one of the most humiliating in Byzantine history, an emperor paying tribute to what Byzantines considered barbarians, but it stabilizes the Danube frontier.",
+  "outcomes": [
+    "bulgaria_recognized_as_independent_state",
+    "byzantium_pays_tribute",
+    "danube_frontier_established"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "bulgar_khanate"
+    ],
+    "structural_significance": "The Bulgarian Empire's formal recognition establishes one of the most durable state entities in the medieval Balkans; Bulgaria's subsequent Christianization (864) and the adoption of the Cyrillic alphabet (developed by Saints Cyril and Methodius for Slavic use) creates a distinct Bulgarian literary culture; Bulgarian-Byzantine rivalry shapes Balkan history for centuries",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

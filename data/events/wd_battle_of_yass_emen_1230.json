@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_yass_emen_1230",
+  "name": "Battle of Yassıçemen",
+  "year": 1230,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    38.8,
+    36.0333
+  ],
+  "entity": "empire_of_trebizond",
+  "summary": "Battle of Yassıçemen (1230 CE), at Erzincan. Source: Wikidata Q929537.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "empire_of_trebizond",
+      "armenian_kingdom_of_cilicia",
+      "sultanate_of_rum"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "miller_trebizond_1926",
+      "eastmond_art_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

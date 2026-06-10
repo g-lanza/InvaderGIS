@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_posada_1330",
+  "name": "Battle of Posada",
+  "year": 1330,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    44.4,
+    26.1
+  ],
+  "entity": "principality_of_wallachia",
+  "summary": "Battle of Posada (1330 CE), at Transylvania. Source: Wikidata Q1076246.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "principality_of_wallachia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "deletant_romania_1998",
+      "panaitescu_mircea_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,2157 @@
+{
+ "kind": "polity",
+ "dataset": "medieval-europe-500-1500",
+ "id": "hanseatic_league",
+ "name_primary": "Hanseatic League",
+ "name_variants": [
+  "Hansa",
+  "Düdesche Hanse"
+ ],
+ "type": "league",
+ "region": "northern_europe",
+ "formed": 1159,
+ "dissolved": 1500,
+ "capital_history": [],
+ "polygon_snapshots": [
+  {
+   "year": 1200,
+   "label": "Hanseatic League (member cities)",
+   "polygon": [
+    [
+     [
+      52.8,
+      8.530000000000001
+     ],
+     [
+      52.8,
+      9.09
+     ],
+     [
+      53.36,
+      9.09
+     ],
+     [
+      53.36,
+      8.530000000000001
+     ],
+     [
+      52.8,
+      8.530000000000001
+     ]
+    ],
+    [
+     [
+      53.269999999999996,
+      9.72
+     ],
+     [
+      53.269999999999996,
+      10.28
+     ],
+     [
+      53.83,
+      10.28
+     ],
+     [
+      53.83,
+      9.72
+     ],
+     [
+      53.269999999999996,
+      9.72
+     ]
+    ],
+    [
+     [
+      53.589999999999996,
+      10.41
+     ],
+     [
+      53.589999999999996,
+      10.969999999999999
+     ],
+     [
+      54.15,
+      10.969999999999999
+     ],
+     [
+      54.15,
+      10.41
+     ],
+     [
+      53.589999999999996,
+      10.41
+     ]
+    ],
+    [
+     [
+      53.81,
+      11.850000000000001
+     ],
+     [
+      53.81,
+      12.41
+     ],
+     [
+      54.370000000000005,
+      12.41
+     ],
+     [
+      54.370000000000005,
+      11.850000000000001
+     ],
+     [
+      53.81,
+      11.850000000000001
+     ]
+    ],
+    [
+     [
+      54.03,
+      12.8
+     ],
+     [
+      54.03,
+      13.36
+     ],
+     [
+      54.59,
+      13.36
+     ],
+     [
+      54.59,
+      12.8
+     ],
+     [
+      54.03,
+      12.8
+     ]
+    ],
+    [
+     [
+      54.07,
+      18.369999999999997
+     ],
+     [
+      54.07,
+      18.93
+     ],
+     [
+      54.63,
+      18.93
+     ],
+     [
+      54.63,
+      18.369999999999997
+     ],
+     [
+      54.07,
+      18.369999999999997
+     ]
+    ],
+    [
+     [
+      56.67,
+      23.83
+     ],
+     [
+      56.67,
+      24.39
+     ],
+     [
+      57.230000000000004,
+      24.39
+     ],
+     [
+      57.230000000000004,
+      23.83
+     ],
+     [
+      56.67,
+      23.83
+     ]
+    ],
+    [
+     [
+      59.16,
+      24.47
+     ],
+     [
+      59.16,
+      25.03
+     ],
+     [
+      59.72,
+      25.03
+     ],
+     [
+      59.72,
+      24.47
+     ],
+     [
+      59.16,
+      24.47
+     ]
+    ],
+    [
+     [
+      50.93,
+      2.9400000000000004
+     ],
+     [
+      50.93,
+      3.5
+     ],
+     [
+      51.49,
+      3.5
+     ],
+     [
+      51.49,
+      2.9400000000000004
+     ],
+     [
+      50.93,
+      2.9400000000000004
+     ]
+    ]
+   ]
+  },
+  {
+   "year": 1300,
+   "label": "Hanseatic League (member cities)",
+   "polygon": [
+    [
+     [
+      52.8,
+      8.530000000000001
+     ],
+     [
+      52.8,
+      9.09
+     ],
+     [
+      53.36,
+      9.09
+     ],
+     [
+      53.36,
+      8.530000000000001
+     ],
+     [
+      52.8,
+      8.530000000000001
+     ]
+    ],
+    [
+     [
+      53.269999999999996,
+      9.72
+     ],
+     [
+      53.269999999999996,
+      10.28
+     ],
+     [
+      53.83,
+      10.28
+     ],
+     [
+      53.83,
+      9.72
+     ],
+     [
+      53.269999999999996,
+      9.72
+     ]
+    ],
+    [
+     [
+      53.589999999999996,
+      10.41
+     ],
+     [
+      53.589999999999996,
+      10.969999999999999
+     ],
+     [
+      54.15,
+      10.969999999999999
+     ],
+     [
+      54.15,
+      10.41
+     ],
+     [
+      53.589999999999996,
+      10.41
+     ]
+    ],
+    [
+     [
+      53.81,
+      11.850000000000001
+     ],
+     [
+      53.81,
+      12.41
+     ],
+     [
+      54.370000000000005,
+      12.41
+     ],
+     [
+      54.370000000000005,
+      11.850000000000001
+     ],
+     [
+      53.81,
+      11.850000000000001
+     ]
+    ],
+    [
+     [
+      54.03,
+      12.8
+     ],
+     [
+      54.03,
+      13.36
+     ],
+     [
+      54.59,
+      13.36
+     ],
+     [
+      54.59,
+      12.8
+     ],
+     [
+      54.03,
+      12.8
+     ]
+    ],
+    [
+     [
+      54.07,
+      18.369999999999997
+     ],
+     [
+      54.07,
+      18.93
+     ],
+     [
+      54.63,
+      18.93
+     ],
+     [
+      54.63,
+      18.369999999999997
+     ],
+     [
+      54.07,
+      18.369999999999997
+     ]
+    ],
+    [
+     [
+      56.67,
+      23.83
+     ],
+     [
+      56.67,
+      24.39
+     ],
+     [
+      57.230000000000004,
+      24.39
+     ],
+     [
+      57.230000000000004,
+      23.83
+     ],
+     [
+      56.67,
+      23.83
+     ]
+    ],
+    [
+     [
+      59.16,
+      24.47
+     ],
+     [
+      59.16,
+      25.03
+     ],
+     [
+      59.72,
+      25.03
+     ],
+     [
+      59.72,
+      24.47
+     ],
+     [
+      59.16,
+      24.47
+     ]
+    ],
+    [
+     [
+      50.93,
+      2.9400000000000004
+     ],
+     [
+      50.93,
+      3.5
+     ],
+     [
+      51.49,
+      3.5
+     ],
+     [
+      51.49,
+      2.9400000000000004
+     ],
+     [
+      50.93,
+      2.9400000000000004
+     ]
+    ]
+   ]
+  },
+  {
+   "year": 1400,
+   "label": "Hanseatic League (member cities)",
+   "polygon": [
+    [
+     [
+      52.8,
+      8.530000000000001
+     ],
+     [
+      52.8,
+      9.09
+     ],
+     [
+      53.36,
+      9.09
+     ],
+     [
+      53.36,
+      8.530000000000001
+     ],
+     [
+      52.8,
+      8.530000000000001
+     ]
+    ],
+    [
+     [
+      53.269999999999996,
+      9.72
+     ],
+     [
+      53.269999999999996,
+      10.28
+     ],
+     [
+      53.83,
+      10.28
+     ],
+     [
+      53.83,
+      9.72
+     ],
+     [
+      53.269999999999996,
+      9.72
+     ]
+    ],
+    [
+     [
+      53.589999999999996,
+      10.41
+     ],
+     [
+      53.589999999999996,
+      10.969999999999999
+     ],
+     [
+      54.15,
+      10.969999999999999
+     ],
+     [
+      54.15,
+      10.41
+     ],
+     [
+      53.589999999999996,
+      10.41
+     ]
+    ],
+    [
+     [
+      53.81,
+      11.850000000000001
+     ],
+     [
+      53.81,
+      12.41
+     ],
+     [
+      54.370000000000005,
+      12.41
+     ],
+     [
+      54.370000000000005,
+      11.850000000000001
+     ],
+     [
+      53.81,
+      11.850000000000001
+     ]
+    ],
+    [
+     [
+      54.03,
+      12.8
+     ],
+     [
+      54.03,
+      13.36
+     ],
+     [
+      54.59,
+      13.36
+     ],
+     [
+      54.59,
+      12.8
+     ],
+     [
+      54.03,
+      12.8
+     ]
+    ],
+    [
+     [
+      54.07,
+      18.369999999999997
+     ],
+     [
+      54.07,
+      18.93
+     ],
+     [
+      54.63,
+      18.93
+     ],
+     [
+      54.63,
+      18.369999999999997
+     ],
+     [
+      54.07,
+      18.369999999999997
+     ]
+    ],
+    [
+     [
+      56.67,
+      23.83
+     ],
+     [
+      56.67,
+      24.39
+     ],
+     [
+      57.230000000000004,
+      24.39
+     ],
+     [
+      57.230000000000004,
+      23.83
+     ],
+     [
+      56.67,
+      23.83
+     ]
+    ],
+    [
+     [
+      59.16,
+      24.47
+     ],
+     [
+      59.16,
+      25.03
+     ],
+     [
+      59.72,
+      25.03
+     ],
+     [
+      59.72,
+      24.47
+     ],
+     [
+      59.16,
+      24.47
+     ]
+    ],
+    [
+     [
+      50.93,
+      2.9400000000000004
+     ],
+     [
+      50.93,
+      3.5
+     ],
+     [
+      51.49,
+      3.5
+     ],
+     [
+      51.49,
+      2.9400000000000004
+     ],
+     [
+      50.93,
+      2.9400000000000004
+     ]
+    ]
+   ]
+  },
+  {
+   "year": 1500,
+   "label": "Hanseatic League (member cities)",
+   "polygon": [
+    [
+     [
+      52.8,
+      8.530000000000001
+     ],
+     [
+      52.8,
+      9.09
+     ],
+     [
+      53.36,
+      9.09
+     ],
+     [
+      53.36,
+      8.530000000000001
+     ],
+     [
+      52.8,
+      8.530000000000001
+     ]
+    ],
+    [
+     [
+      53.269999999999996,
+      9.72
+     ],
+     [
+      53.269999999999996,
+      10.28
+     ],
+     [
+      53.83,
+      10.28
+     ],
+     [
+      53.83,
+      9.72
+     ],
+     [
+      53.269999999999996,
+      9.72
+     ]
+    ],
+    [
+     [
+      53.589999999999996,
+      10.41
+     ],
+     [
+      53.589999999999996,
+      10.969999999999999
+     ],
+     [
+      54.15,
+      10.969999999999999
+     ],
+     [
+      54.15,
+      10.41
+     ],
+     [
+      53.589999999999996,
+      10.41
+     ]
+    ],
+    [
+     [
+      53.81,
+      11.850000000000001
+     ],
+     [
+      53.81,
+      12.41
+     ],
+     [
+      54.370000000000005,
+      12.41
+     ],
+     [
+      54.370000000000005,
+      11.850000000000001
+     ],
+     [
+      53.81,
+      11.850000000000001
+     ]
+    ],
+    [
+     [
+      54.03,
+      12.8
+     ],
+     [
+      54.03,
+      13.36
+     ],
+     [
+      54.59,
+      13.36
+     ],
+     [
+      54.59,
+      12.8
+     ],
+     [
+      54.03,
+      12.8
+     ]
+    ],
+    [
+     [
+      54.07,
+      18.369999999999997
+     ],
+     [
+      54.07,
+      18.93
+     ],
+     [
+      54.63,
+      18.93
+     ],
+     [
+      54.63,
+      18.369999999999997
+     ],
+     [
+      54.07,
+      18.369999999999997
+     ]
+    ],
+    [
+     [
+      56.67,
+      23.83
+     ],
+     [
+      56.67,
+      24.39
+     ],
+     [
+      57.230000000000004,
+      24.39
+     ],
+     [
+      57.230000000000004,
+      23.83
+     ],
+     [
+      56.67,
+      23.83
+     ]
+    ],
+    [
+     [
+      59.16,
+      24.47
+     ],
+     [
+      59.16,
+      25.03
+     ],
+     [
+      59.72,
+      25.03
+     ],
+     [
+      59.72,
+      24.47
+     ],
+     [
+      59.16,
+      24.47
+     ]
+    ],
+    [
+     [
+      50.93,
+      2.9400000000000004
+     ],
+     [
+      50.93,
+      3.5
+     ],
+     [
+      51.49,
+      3.5
+     ],
+     [
+      51.49,
+      2.9400000000000004
+     ],
+     [
+      50.93,
+      2.9400000000000004
+     ]
+    ]
+   ]
+  }
+ ],
+ "centroid": [
+  53.5,
+  10
+ ],
+ "religion": "catholic",
+ "population_estimates": [
+  {
+   "year": 1200,
+   "estimate": 1400000,
+   "confidence": "low",
+   "sources": [
+    {
+     "type": "wikidata",
+     "id": "Q42908",
+     "url": "https://www.wikidata.org/wiki/Q42908",
+     "statement": "P1082"
+    },
+    {
+     "type": "wikipedia",
+     "label": "Hanseatic League",
+     "url": "https://en.wikipedia.org/wiki/Hanseatic_League"
+    }
+   ]
+  },
+  {
+   "year": 1350,
+   "estimate": 2000000,
+   "confidence": "low",
+   "sources": [
+    {
+     "type": "wikidata",
+     "id": "Q42908",
+     "url": "https://www.wikidata.org/wiki/Q42908",
+     "statement": "P1082"
+    },
+    {
+     "type": "wikipedia",
+     "label": "Hanseatic League",
+     "url": "https://en.wikipedia.org/wiki/Hanseatic_League"
+    }
+   ]
+  },
+  {
+   "year": 1500,
+   "estimate": 2200000,
+   "confidence": "low",
+   "sources": [
+    {
+     "type": "wikidata",
+     "id": "Q42908",
+     "url": "https://www.wikidata.org/wiki/Q42908",
+     "statement": "P1082"
+    },
+    {
+     "type": "wikipedia",
+     "label": "Hanseatic League",
+     "url": "https://en.wikipedia.org/wiki/Hanseatic_League"
+    }
+   ]
+  }
+ ],
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "dollinger_the_1970",
+   "hammel-kiesow_die_2000",
+   "ims_fordham",
+   "ims_fordham_sbookmap"
+  ],
+  "confidence": "low"
+ },
+ "description": "Commercial alliance of north German and Baltic cities (c. 1241–1669) that monopolised Baltic and North Sea trade; its Kontore in Bruges, London, Bergen, and Novgorod organised Europe's most extensive medieval trading network, its military capacity to coerce kings demonstrated the economic power of organised merchant communities, and its structural innovations in commercial law influenced later European trade.",
+ "temporal": {
+  "start_year": 1159,
+  "end_year": 1500,
+  "end_year_within_scope": 1500,
+  "start_event_id": null,
+  "end_event_id": null,
+  "notes": "Mercantile confederation of Baltic and North Sea cities"
+ },
+ "geographic": {
+  "representation": "schematic_approximation",
+  "centroid": [
+   53.5,
+   10
+  ],
+  "core_regions": [
+   "Lübeck",
+   "Baltic",
+   "North Sea"
+  ],
+  "polygon_simplified": [
+   [
+    52.8,
+    8.530000000000001
+   ],
+   [
+    52.8,
+    9.09
+   ],
+   [
+    53.36,
+    9.09
+   ],
+   [
+    53.36,
+    8.530000000000001
+   ],
+   [
+    52.8,
+    8.530000000000001
+   ]
+  ],
+  "notes": "",
+  "polygon_status": "approximate",
+  "polygon_representative_year": 1330,
+  "polygon_source": "hand_crafted",
+  "polygon_source_date": "2026-05-11",
+  "polygon_snapshots": [
+   {
+    "year": 1200,
+    "label": "Hanseatic League (member cities)",
+    "polygon": [
+     [
+      [
+       52.8,
+       8.530000000000001
+      ],
+      [
+       52.8,
+       9.09
+      ],
+      [
+       53.36,
+       9.09
+      ],
+      [
+       53.36,
+       8.530000000000001
+      ],
+      [
+       52.8,
+       8.530000000000001
+      ]
+     ],
+     [
+      [
+       53.269999999999996,
+       9.72
+      ],
+      [
+       53.269999999999996,
+       10.28
+      ],
+      [
+       53.83,
+       10.28
+      ],
+      [
+       53.83,
+       9.72
+      ],
+      [
+       53.269999999999996,
+       9.72
+      ]
+     ],
+     [
+      [
+       53.589999999999996,
+       10.41
+      ],
+      [
+       53.589999999999996,
+       10.969999999999999
+      ],
+      [
+       54.15,
+       10.969999999999999
+      ],
+      [
+       54.15,
+       10.41
+      ],
+      [
+       53.589999999999996,
+       10.41
+      ]
+     ],
+     [
+      [
+       53.81,
+       11.850000000000001
+      ],
+      [
+       53.81,
+       12.41
+      ],
+      [
+       54.370000000000005,
+       12.41
+      ],
+      [
+       54.370000000000005,
+       11.850000000000001
+      ],
+      [
+       53.81,
+       11.850000000000001
+      ]
+     ],
+     [
+      [
+       54.03,
+       12.8
+      ],
+      [
+       54.03,
+       13.36
+      ],
+      [
+       54.59,
+       13.36
+      ],
+      [
+       54.59,
+       12.8
+      ],
+      [
+       54.03,
+       12.8
+      ]
+     ],
+     [
+      [
+       54.07,
+       18.369999999999997
+      ],
+      [
+       54.07,
+       18.93
+      ],
+      [
+       54.63,
+       18.93
+      ],
+      [
+       54.63,
+       18.369999999999997
+      ],
+      [
+       54.07,
+       18.369999999999997
+      ]
+     ],
+     [
+      [
+       56.67,
+       23.83
+      ],
+      [
+       56.67,
+       24.39
+      ],
+      [
+       57.230000000000004,
+       24.39
+      ],
+      [
+       57.230000000000004,
+       23.83
+      ],
+      [
+       56.67,
+       23.83
+      ]
+     ],
+     [
+      [
+       59.16,
+       24.47
+      ],
+      [
+       59.16,
+       25.03
+      ],
+      [
+       59.72,
+       25.03
+      ],
+      [
+       59.72,
+       24.47
+      ],
+      [
+       59.16,
+       24.47
+      ]
+     ],
+     [
+      [
+       50.93,
+       2.9400000000000004
+      ],
+      [
+       50.93,
+       3.5
+      ],
+      [
+       51.49,
+       3.5
+      ],
+      [
+       51.49,
+       2.9400000000000004
+      ],
+      [
+       50.93,
+       2.9400000000000004
+      ]
+     ]
+    ]
+   },
+   {
+    "year": 1300,
+    "label": "Hanseatic League (member cities)",
+    "polygon": [
+     [
+      [
+       52.8,
+       8.530000000000001
+      ],
+      [
+       52.8,
+       9.09
+      ],
+      [
+       53.36,
+       9.09
+      ],
+      [
+       53.36,
+       8.530000000000001
+      ],
+      [
+       52.8,
+       8.530000000000001
+      ]
+     ],
+     [
+      [
+       53.269999999999996,
+       9.72
+      ],
+      [
+       53.269999999999996,
+       10.28
+      ],
+      [
+       53.83,
+       10.28
+      ],
+      [
+       53.83,
+       9.72
+      ],
+      [
+       53.269999999999996,
+       9.72
+      ]
+     ],
+     [
+      [
+       53.589999999999996,
+       10.41
+      ],
+      [
+       53.589999999999996,
+       10.969999999999999
+      ],
+      [
+       54.15,
+       10.969999999999999
+      ],
+      [
+       54.15,
+       10.41
+      ],
+      [
+       53.589999999999996,
+       10.41
+      ]
+     ],
+     [
+      [
+       53.81,
+       11.850000000000001
+      ],
+      [
+       53.81,
+       12.41
+      ],
+      [
+       54.370000000000005,
+       12.41
+      ],
+      [
+       54.370000000000005,
+       11.850000000000001
+      ],
+      [
+       53.81,
+       11.850000000000001
+      ]
+     ],
+     [
+      [
+       54.03,
+       12.8
+      ],
+      [
+       54.03,
+       13.36
+      ],
+      [
+       54.59,
+       13.36
+      ],
+      [
+       54.59,
+       12.8
+      ],
+      [
+       54.03,
+       12.8
+      ]
+     ],
+     [
+      [
+       54.07,
+       18.369999999999997
+      ],
+      [
+       54.07,
+       18.93
+      ],
+      [
+       54.63,
+       18.93
+      ],
+      [
+       54.63,
+       18.369999999999997
+      ],
+      [
+       54.07,
+       18.369999999999997
+      ]
+     ],
+     [
+      [
+       56.67,
+       23.83
+      ],
+      [
+       56.67,
+       24.39
+      ],
+      [
+       57.230000000000004,
+       24.39
+      ],
+      [
+       57.230000000000004,
+       23.83
+      ],
+      [
+       56.67,
+       23.83
+      ]
+     ],
+     [
+      [
+       59.16,
+       24.47
+      ],
+      [
+       59.16,
+       25.03
+      ],
+      [
+       59.72,
+       25.03
+      ],
+      [
+       59.72,
+       24.47
+      ],
+      [
+       59.16,
+       24.47
+      ]
+     ],
+     [
+      [
+       50.93,
+       2.9400000000000004
+      ],
+      [
+       50.93,
+       3.5
+      ],
+      [
+       51.49,
+       3.5
+      ],
+      [
+       51.49,
+       2.9400000000000004
+      ],
+      [
+       50.93,
+       2.9400000000000004
+      ]
+     ]
+    ]
+   },
+   {
+    "year": 1400,
+    "label": "Hanseatic League (member cities)",
+    "polygon": [
+     [
+      [
+       52.8,
+       8.530000000000001
+      ],
+      [
+       52.8,
+       9.09
+      ],
+      [
+       53.36,
+       9.09
+      ],
+      [
+       53.36,
+       8.530000000000001
+      ],
+      [
+       52.8,
+       8.530000000000001
+      ]
+     ],
+     [
+      [
+       53.269999999999996,
+       9.72
+      ],
+      [
+       53.269999999999996,
+       10.28
+      ],
+      [
+       53.83,
+       10.28
+      ],
+      [
+       53.83,
+       9.72
+      ],
+      [
+       53.269999999999996,
+       9.72
+      ]
+     ],
+     [
+      [
+       53.589999999999996,
+       10.41
+      ],
+      [
+       53.589999999999996,
+       10.969999999999999
+      ],
+      [
+       54.15,
+       10.969999999999999
+      ],
+      [
+       54.15,
+       10.41
+      ],
+      [
+       53.589999999999996,
+       10.41
+      ]
+     ],
+     [
+      [
+       53.81,
+       11.850000000000001
+      ],
+      [
+       53.81,
+       12.41
+      ],
+      [
+       54.370000000000005,
+       12.41
+      ],
+      [
+       54.370000000000005,
+       11.850000000000001
+      ],
+      [
+       53.81,
+       11.850000000000001
+      ]
+     ],
+     [
+      [
+       54.03,
+       12.8
+      ],
+      [
+       54.03,
+       13.36
+      ],
+      [
+       54.59,
+       13.36
+      ],
+      [
+       54.59,
+       12.8
+      ],
+      [
+       54.03,
+       12.8
+      ]
+     ],
+     [
+      [
+       54.07,
+       18.369999999999997
+      ],
+      [
+       54.07,
+       18.93
+      ],
+      [
+       54.63,
+       18.93
+      ],
+      [
+       54.63,
+       18.369999999999997
+      ],
+      [
+       54.07,
+       18.369999999999997
+      ]
+     ],
+     [
+      [
+       56.67,
+       23.83
+      ],
+      [
+       56.67,
+       24.39
+      ],
+      [
+       57.230000000000004,
+       24.39
+      ],
+      [
+       57.230000000000004,
+       23.83
+      ],
+      [
+       56.67,
+       23.83
+      ]
+     ],
+     [
+      [
+       59.16,
+       24.47
+      ],
+      [
+       59.16,
+       25.03
+      ],
+      [
+       59.72,
+       25.03
+      ],
+      [
+       59.72,
+       24.47
+      ],
+      [
+       59.16,
+       24.47
+      ]
+     ],
+     [
+      [
+       50.93,
+       2.9400000000000004
+      ],
+      [
+       50.93,
+       3.5
+      ],
+      [
+       51.49,
+       3.5
+      ],
+      [
+       51.49,
+       2.9400000000000004
+      ],
+      [
+       50.93,
+       2.9400000000000004
+      ]
+     ]
+    ]
+   },
+   {
+    "year": 1500,
+    "label": "Hanseatic League (member cities)",
+    "polygon": [
+     [
+      [
+       52.8,
+       8.530000000000001
+      ],
+      [
+       52.8,
+       9.09
+      ],
+      [
+       53.36,
+       9.09
+      ],
+      [
+       53.36,
+       8.530000000000001
+      ],
+      [
+       52.8,
+       8.530000000000001
+      ]
+     ],
+     [
+      [
+       53.269999999999996,
+       9.72
+      ],
+      [
+       53.269999999999996,
+       10.28
+      ],
+      [
+       53.83,
+       10.28
+      ],
+      [
+       53.83,
+       9.72
+      ],
+      [
+       53.269999999999996,
+       9.72
+      ]
+     ],
+     [
+      [
+       53.589999999999996,
+       10.41
+      ],
+      [
+       53.589999999999996,
+       10.969999999999999
+      ],
+      [
+       54.15,
+       10.969999999999999
+      ],
+      [
+       54.15,
+       10.41
+      ],
+      [
+       53.589999999999996,
+       10.41
+      ]
+     ],
+     [
+      [
+       53.81,
+       11.850000000000001
+      ],
+      [
+       53.81,
+       12.41
+      ],
+      [
+       54.370000000000005,
+       12.41
+      ],
+      [
+       54.370000000000005,
+       11.850000000000001
+      ],
+      [
+       53.81,
+       11.850000000000001
+      ]
+     ],
+     [
+      [
+       54.03,
+       12.8
+      ],
+      [
+       54.03,
+       13.36
+      ],
+      [
+       54.59,
+       13.36
+      ],
+      [
+       54.59,
+       12.8
+      ],
+      [
+       54.03,
+       12.8
+      ]
+     ],
+     [
+      [
+       54.07,
+       18.369999999999997
+      ],
+      [
+       54.07,
+       18.93
+      ],
+      [
+       54.63,
+       18.93
+      ],
+      [
+       54.63,
+       18.369999999999997
+      ],
+      [
+       54.07,
+       18.369999999999997
+      ]
+     ],
+     [
+      [
+       56.67,
+       23.83
+      ],
+      [
+       56.67,
+       24.39
+      ],
+      [
+       57.230000000000004,
+       24.39
+      ],
+      [
+       57.230000000000004,
+       23.83
+      ],
+      [
+       56.67,
+       23.83
+      ]
+     ],
+     [
+      [
+       59.16,
+       24.47
+      ],
+      [
+       59.16,
+       25.03
+      ],
+      [
+       59.72,
+       25.03
+      ],
+      [
+       59.72,
+       24.47
+      ],
+      [
+       59.16,
+       24.47
+      ]
+     ],
+     [
+      [
+       50.93,
+       2.9400000000000004
+      ],
+      [
+       50.93,
+       3.5
+      ],
+      [
+       51.49,
+       3.5
+      ],
+      [
+       51.49,
+       2.9400000000000004
+      ],
+      [
+       50.93,
+       2.9400000000000004
+      ]
+     ]
+    ]
+   }
+  ],
+  "capital": {
+   "name": "Lübeck",
+   "coords": [
+    53.86972,
+    10.68639
+   ],
+   "source": "wikidata"
+  }
+ },
+ "internal_structure": {
+  "centralization": null,
+  "centralization_trajectory": null,
+  "governance_type": "commercial_league",
+  "legitimacy_basis": [
+   "commercial_charter",
+   "mutual_treaty"
+  ],
+  "administrative_system": ""
+ },
+ "lifecycle_phases": [
+  {
+   "phase": "early_formation",
+   "years": "1159–1280",
+   "description": "German merchants settle at Visby (Gotland) and establish the Kontore (trading posts) at London (Steelyard), Bruges, Bergen, and Novgorod. The Hanseatic diet first meets formally (1260s). The League protects merchant shipping through collective action against piracy and secures trading privileges from rulers by threatening embargoes.",
+   "sources": [
+    {
+     "type": "wikidata",
+     "id": "Q42908",
+     "url": "https://www.wikidata.org/wiki/Q42908"
+    },
+    {
+     "type": "wikipedia",
+     "label": "Hanseatic League",
+     "url": "https://en.wikipedia.org/wiki/Hanseatic_League"
+    }
+   ]
+  },
+  {
+   "phase": "zenith",
+   "years": "1280–1400",
+   "description": "The Hanseatic League at its height controls Baltic and North Sea trade, with 200+ member cities. Lübeck, Hamburg, and Bremen are the core cities. The League defeats Denmark at the Battle of the Helgeå (1362) and imposes the Treaty of Stralsund (1370), giving the League effective control of Danish foreign policy. Herring fisheries at Scania, Baltic grain, Russian furs, Swedish iron, all flow through Hanseatic networks.",
+   "sources": [
+    {
+     "type": "wikidata",
+     "id": "Q42908",
+     "url": "https://www.wikidata.org/wiki/Q42908"
+    },
+    {
+     "type": "wikipedia",
+     "label": "Hanseatic League",
+     "url": "https://en.wikipedia.org/wiki/Hanseatic_League"
+    }
+   ]
+  },
+  {
+   "phase": "decline",
+   "years": "1400–1500",
+   "description": "The League faces rising competition from Dutch shipping (the fluyt design makes Dutch transport cheaper), growing royal power in England and Scandinavia that challenges Hanseatic privileges, and internal conflicts between coastal and inland cities. The Baltic herring stocks shift from Scania to the Dutch-controlled North Sea. Member cities increasingly pursue independent policies, weakening collective action.",
+   "sources": [
+    {
+     "type": "wikidata",
+     "id": "Q42908",
+     "url": "https://www.wikidata.org/wiki/Q42908"
+    },
+    {
+     "type": "wikipedia",
+     "label": "Hanseatic League",
+     "url": "https://en.wikipedia.org/wiki/Hanseatic_League"
+    }
+   ]
+  }
+ ],
+ "rise_factors": [
+  {
+   "tag": "trade_route_control",
+   "layer": "economic_commercial",
+   "description": "The Hanseatic League controlled virtually all trade between the Baltic (grain, timber, furs, metals) and western Europe (cloth, wine, luxury goods); its network of Kontore and privileged access to English wool and Flemish cloth made it the essential middleman for northern European commerce",
+   "sources": [
+    {
+     "type": "wikidata",
+     "id": "Q42908",
+     "url": "https://www.wikidata.org/wiki/Q42908"
+    },
+    {
+     "type": "wikipedia",
+     "label": "Hanseatic League",
+     "url": "https://en.wikipedia.org/wiki/Hanseatic_League"
+    }
+   ]
+  },
+  {
+   "tag": "administrative_innovation",
+   "layer": "governance_institutional",
+   "description": "The League's collective merchant governance, with annual diets, shared enforcement of commercial law, and coordinated economic sanctions (embargoes), was a unique form of non-territorial political organization that predated the modern international organization concept",
+   "sources": [
+    {
+     "type": "wikidata",
+     "id": "Q42908",
+     "url": "https://www.wikidata.org/wiki/Q42908"
+    },
+    {
+     "type": "wikipedia",
+     "label": "Hanseatic League",
+     "url": "https://en.wikipedia.org/wiki/Hanseatic_League"
+    }
+   ]
+  },
+  {
+   "layer": "economic_commercial",
+   "tag": "trade_route_control",
+   "direction": "rise",
+   "description": "The Hanse specialized in Baltic bulk commodities: Prussian grain, Swedish copper and iron, Norwegian fish, and Russian furs, goods too heavy for Italian galley trade. This commercial niche had no competition.",
+   "sources": [
+    {
+     "type": "wikidata",
+     "id": "Q42908",
+     "url": "https://www.wikidata.org/wiki/Q42908"
+    },
+    {
+     "type": "wikipedia",
+     "label": "Hanseatic League",
+     "url": "https://en.wikipedia.org/wiki/Hanseatic_League"
+    }
+   ],
+   "tag_prose": "bulk_goods_trade_specialization"
+  },
+  {
+   "layer": "governance_institutional",
+   "tag": "kontor_extraterritorial_privileges",
+   "direction": "rise",
+   "description": "Hanseatic Kontore (trading posts) in London, Bruges, Bergen, and Novgorod enjoyed extraterritorial legal status, exemption from local taxes, and dedicated storage, competitive advantages protected by treaty rather than military conquest.",
+   "sources": [
+    {
+     "type": "wikidata",
+     "id": "Q42908",
+     "url": "https://www.wikidata.org/wiki/Q42908"
+    },
+    {
+     "type": "wikipedia",
+     "label": "Hanseatic League",
+     "url": "https://en.wikipedia.org/wiki/Hanseatic_League"
+    }
+   ]
+  },
+  {
+   "layer": "military_security",
+   "tag": "military_organizational_advantage",
+   "direction": "rise",
+   "description": "The Hanse's naval coalition defeated Denmark in 1370 (Treaty of Stralsund), extracting the right to ratify Danish royal succession, an extraordinary political concession from a sovereign state to a commercial confederation.",
+   "sources": [
+    {
+     "type": "wikidata",
+     "id": "Q42908",
+     "url": "https://www.wikidata.org/wiki/Q42908"
+    },
+    {
+     "type": "wikipedia",
+     "label": "Hanseatic League",
+     "url": "https://en.wikipedia.org/wiki/Hanseatic_League"
+    }
+   ],
+   "tag_prose": "stralsund_treaty_military_victory"
+  },
+  {
+   "layer": "governance_institutional",
+   "tag": "kontor_system",
+   "direction": "rise",
+   "description": "The Hanseatic Kontors at London (Steelyard), Bruges, Bergen, and Novgorod gave member cities permanent commercial embassies with extraterritorial legal rights, transforming ad hoc trading relationships into a durable institutional network.",
+   "sources": [
+    {
+     "type": "wikidata",
+     "id": "Q42908",
+     "url": "https://www.wikidata.org/wiki/Q42908"
+    },
+    {
+     "type": "wikipedia",
+     "label": "Hanseatic League",
+     "url": "https://en.wikipedia.org/wiki/Hanseatic_League"
+    }
+   ]
+  }
+ ],
+ "decline_factors": [
+  {
+   "tag": "trade_route_disruption",
+   "layer": "economic_commercial",
+   "description": "Dutch shipping innovations (the fluyt cargo ship c.1595, bulk-cargo focus) undercut Hanseatic transport costs; Dutch direct trade with the Baltic bypassed the League's middleman position and the English Merchant Adventurers directly competed in cloth exports",
+   "sources": [
+    {
+     "type": "wikidata",
+     "id": "Q42908",
+     "url": "https://www.wikidata.org/wiki/Q42908"
+    },
+    {
+     "type": "wikipedia",
+     "label": "Hanseatic League",
+     "url": "https://en.wikipedia.org/wiki/Hanseatic_League"
+    }
+   ]
+  },
+  {
+   "tag": "internal_fragmentation",
+   "layer": "governance_institutional",
+   "description": "As member cities' interests diverged, coastal cities favoring open Baltic competition, inland cities protecting overland routes, collective action became impossible; cities increasingly made separate commercial agreements with rulers that undercut League solidarity",
+   "sources": [
+    {
+     "type": "wikidata",
+     "id": "Q42908",
+     "url": "https://www.wikidata.org/wiki/Q42908"
+    },
+    {
+     "type": "wikipedia",
+     "label": "Hanseatic League",
+     "url": "https://en.wikipedia.org/wiki/Hanseatic_League"
+    }
+   ]
+  },
+  {
+   "layer": "economic_commercial",
+   "tag": "external_displacement",
+   "direction": "decline",
+   "description": "Dutch development of the fluyt (cheap bulk carrier) in the late 15th century undercut Hanseatic freight costs. Dutch traders systematically penetrated Baltic markets by offering lower transport costs and more flexible capital arrangements.",
+   "sources": [
+    {
+     "type": "wikidata",
+     "id": "Q42908",
+     "url": "https://www.wikidata.org/wiki/Q42908"
+    },
+    {
+     "type": "wikipedia",
+     "label": "Hanseatic League",
+     "url": "https://en.wikipedia.org/wiki/Hanseatic_League"
+    }
+   ],
+   "tag_prose": "dutch_competition_displacement"
+  },
+  {
+   "layer": "governance_institutional",
+   "tag": "state_centralization_pressure",
+   "direction": "decline",
+   "description": "As territorial princes centralized power (Denmark, Poland, England, Russia), they revoked Hanseatic privileges. Ivan III's closure of the Novgorod Kontor (1494) severed the eastern anchor of the Hanse commercial network.",
+   "sources": [
+    {
+     "type": "wikidata",
+     "id": "Q42908",
+     "url": "https://www.wikidata.org/wiki/Q42908"
+    },
+    {
+     "type": "wikipedia",
+     "label": "Hanseatic League",
+     "url": "https://en.wikipedia.org/wiki/Hanseatic_League"
+    }
+   ]
+  }
+ ],
+ "key_figures": [
+  {
+   "name": "Godofredo Biggelaar",
+   "role": "ruler",
+   "years": "1250–1310",
+   "year_start": 1250,
+   "year_end": 1310,
+   "sources": [
+    {
+     "type": "wikipedia",
+     "label": "Godofredo Biggelaar",
+     "url": "https://en.wikipedia.org/wiki/Godofredo_Biggelaar"
+    }
+   ]
+  }
+ ],
+ "primary_ethnicity": "germanic",
+ "ethnic_composition": [
+  {
+   "group": "germanic",
+   "proportion": 0.88
+  }
+ ],
+ "religion_composition": [
+  {
+   "religion": "catholic",
+   "proportion": 0.95
+  },
+  {
+   "religion": "pagan",
+   "proportion": 0.05
+  }
+ ],
+ "primary_language": "german",
+ "language_composition": [
+  {
+   "language": "german",
+   "proportion": 0.72,
+   "role": "vernacular"
+  },
+  {
+   "language": "norse",
+   "proportion": 0.1,
+   "role": "regional"
+  },
+  {
+   "language": "church_slavonic",
+   "proportion": 0.1,
+   "role": "regional"
+  },
+  {
+   "language": "latin",
+   "proportion": 0.08,
+   "role": "liturgical"
+  }
+ ],
+ "economic": {
+  "primary_base": "long_distance_trade",
+  "secondary_bases": [
+   "manufacturing",
+   "maritime_trade"
+  ],
+  "wealth_level": "very_high",
+  "major_exports": [
+   "cloth",
+   "herring",
+   "grain",
+   "furs",
+   "timber",
+   "amber"
+  ],
+  "major_trade_partners": [
+   "kingdom_of_england",
+   "county_of_flanders",
+   "kingdom_of_norway",
+   "duchy_of_saxony",
+   "kievan_rus"
+  ],
+  "revenue_sources": [
+   "commercial_taxes",
+   "customs_duties"
+  ],
+  "sources": [
+   {
+    "type": "wikidata",
+    "id": "Q42908",
+    "url": "https://www.wikidata.org/wiki/Q42908"
+   },
+   {
+    "type": "wikipedia",
+    "label": "Hanseatic League",
+    "url": "https://en.wikipedia.org/wiki/Hanseatic_League"
+   }
+  ]
+ },
+ "social_structure": {
+  "ruling_ethnicity": "germanic",
+  "subject_majority": "germanic",
+  "military_ethnicity": "germanic",
+  "administrative_language": "german",
+  "stratification_type": "merchant_oligarchy"
+ },
+ "wikidata_enrichment": {
+  "qid": "Q42908",
+  "matched_name": "Hanseatic League",
+  "enrichment_date": "2026-05-14",
+  "enrichment_status": "pending_human_review",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Hanseatic_League",
+  "capital": {
+   "name": "Lübeck",
+   "coords": [
+    53.86972,
+    10.68639
+   ]
+  }
+ },
+ "sources": [
+  {
+   "type": "book",
+   "author": "Dollinger, Philippe",
+   "title": "The German Hansa",
+   "publisher": "Stanford University Press",
+   "year": 1970
+  },
+  {
+   "type": "book",
+   "author": "Hammel-Kiesow, Rolf",
+   "title": "Die Hanse",
+   "publisher": "Beck",
+   "year": 2000
+  }
+ ],
+ "monogram": "HL"
+}

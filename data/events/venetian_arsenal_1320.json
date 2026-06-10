@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "venetian_arsenal_1320",
+  "name": "Venetian Arsenal, First Factory System",
+  "year": 1320,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    45.44,
+    12.33
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Venice's Arsenal employs 2,000 workers in an assembly-line production system, producing a galley per day at peak production in the early 16th century. The Arsenal's innovation: standardized parts, sequential assembly, specialized workers, and state management of production. Visiting dignitaries (including Henry III of France) are shown the Arsenal as a demonstration of Venetian state power, a complete galley launched during dinner.",
+  "outcomes": [
+    "galleys_built_assembly_line",
+    "2000_workers",
+    "state_industrial_production"
+  ],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice"
+    ],
+    "structural_significance": "The Venetian Arsenal is the first industrial facility in history, its assembly-line production, standardized components, and state management anticipate the 19th-century factory system by 400 years; the Arsenal's capacity to rapidly produce a war fleet is the military foundation of Venetian naval dominance; its organizational principles (standardization, specialization, sequential production) are the conceptual ancestors of modern manufacturing",
+    "year_range": [
+      1300,
+      1400
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

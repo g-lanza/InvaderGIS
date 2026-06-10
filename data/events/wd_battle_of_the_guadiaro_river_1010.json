@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_the_guadiaro_river_1010",
+  "name": "Battle of the Guadiaro River",
+  "year": 1010,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.65,
+    -1.3
+  ],
+  "entity": "caliphate_of_cordoba",
+  "summary": "Battle of the Guadiaro River (1010 CE), at Guadiaro (part of Fitna of al-Andalus). Source: Wikidata Q20875449.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "caliphate_of_cordoba",
+      "county_of_barcelona"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_muslim_1996",
+      "scales_the_1994"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

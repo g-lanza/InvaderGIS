@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_tuscany",
+  "name": "Florence",
+  "entity_id": "duchy_of_tuscany",
+  "entity_name": "Margraviate / Duchy of Tuscany",
+  "start_year": 774,
+  "end_year": 1115,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1867844"
+    }
+  },
+  "coords": [
+    11.25417,
+    43.77139
+  ]
+}

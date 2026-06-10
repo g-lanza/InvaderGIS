@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "despotate_of_dobruja_1346",
+  "name": "Dobrotitsa Establishes Despotate",
+  "year": 1346,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    43.57,
+    28.47
+  ],
+  "entity": "despotate_of_dobruja",
+  "summary": "The Despotate of Dobruja emerged around 1346 CE as a successor state in the Black Sea coastal region between the declining Bulgarian Empire and Byzantine sphere. Under the despot Dobrotitsa, it controlled strategic Danube delta ports and maintained a small but effective navy.",
+  "outcomes": [
+    "byzantine_successor",
+    "black_sea_control",
+    "short_lived_state"
+  ],
+  "_quarry": {
+    "participants": [
+      "despotate_of_dobruja"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

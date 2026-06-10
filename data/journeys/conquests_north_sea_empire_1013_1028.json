@@ -1,0 +1,50 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_north_sea_empire_1013_1028",
+  "name": "North Sea Empire — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1013,
+  "year_end": 1028,
+  "waypoints": [
+    {
+      "year": 1013,
+      "place": "Danish Conquest of England",
+      "coords": [
+        52,
+        -1
+      ],
+      "note": "conquest",
+      "event_id": "danish_conquest_england_1013"
+    },
+    {
+      "year": 1026,
+      "place": "Battle of Helgeå",
+      "coords": [
+        55,
+        5
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_helge_1026"
+    },
+    {
+      "year": 1028,
+      "place": "Cnut's invasion of Norway",
+      "coords": [
+        57.75,
+        6.75
+      ],
+      "note": "military",
+      "event_id": "wd_cnut_s_invasion_of_norway_1028"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

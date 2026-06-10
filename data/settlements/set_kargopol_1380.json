@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_kargopol_1380",
+  "name": "Kargopol",
+  "importance": "city",
+  "start_year": 1380,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q145261"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    38.9333,
+    61.5
+  ]
+}

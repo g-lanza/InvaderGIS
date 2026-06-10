@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_lombard_kingdom_to_duchy_of_tuscany_fragmentation",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "lombard_kingdom",
+      "role": "parent"
+    },
+    {
+      "entity_id": "duchy_of_tuscany",
+      "role": "fragment"
+    }
+  ],
+  "directed": true,
+  "type": "fragmentation",
+  "since": 774,
+  "until": 774,
+  "note": "Derived from predecessor/successor links recorded in the lombard_kingdom and duchy_of_tuscany entity records. Transition anchored to duchy_of_tuscany start_year.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Mechanical normalisation of curated predecessor/successor links into the relationships register."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "deacon_history_1907",
+      "christie_the_1995",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

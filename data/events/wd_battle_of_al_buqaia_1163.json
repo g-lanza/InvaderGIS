@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_al_buqaia_1163",
+  "name": "Battle of al-Buqaia",
+  "year": 1163,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    35.85,
+    34.025
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Battle of al-Buqaia (1163 CE), at Beqaa Valley (part of Crusades). Source: Wikidata Q4872819.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "kingdom_of_jerusalem",
+      "principality_of_antioch",
+      "county_of_tripoli"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

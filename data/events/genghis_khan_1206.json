@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "genghis_khan_1206",
+  "name": "Genghis Khan Unifies the Mongols",
+  "year": 1206,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    48,
+    100
+  ],
+  "entity": "mongol_empire",
+  "summary": "Temüjin is proclaimed Genghis Khan (\"Universal Ruler\") at a great quriltai on the Mongolian steppe, unifying all Mongol and Turkish tribes under a single authority for the first time. He issues the Yasa (code of laws), creates a new meritocratic military organization based on decimal units, and begins the conquests that will create history's largest contiguous land empire.",
+  "outcomes": [
+    "mongol_empire_founded",
+    "universal_law_created",
+    "military_revolution"
+  ],
+  "_quarry": {
+    "participants": [
+      "mongol_empire"
+    ],
+    "structural_significance": "Creates the Mongol Empire (1206–1368) which at its peak rules 24 million km²; the Pax Mongolica enables the first regular trade and communication across Eurasia; the Black Death travels the Mongol network to reach Europe.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

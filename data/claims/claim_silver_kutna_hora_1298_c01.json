@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_silver_kutna_hora_1298_c01",
+  "statement": "Rich silver veins discovered in Bohemia's Kutná Hora district made it the largest silver source in Europe by 1300, producing an estimated 5-6 tonnes annually at peak.",
+  "subject_ids": [
+    "duchy_of_bohemia"
+  ],
+  "period": {
+    "from": 1298,
+    "to": 1298
+  },
+  "derived_from": "silver_kutna_hora_1298",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

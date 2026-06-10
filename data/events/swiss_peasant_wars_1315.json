@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "swiss_peasant_wars_1315",
+  "name": "Forest Cantons Alliance, Eternal League of 1315",
+  "year": 1315,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    46.9,
+    8.25
+  ],
+  "entity": "swiss_confederation",
+  "summary": "Following the Swiss victory at Morgarten (November 1315), the three forest cantons (Uri, Schwyz, Unterwalden) renew their Eternal League, establishing the permanent framework for the Swiss Confederation. The battle demonstrated that Swiss infantry in mountain terrain could defeat Austrian heavy cavalry; the Eternal League formalizes the defensive alliance that will gradually attract additional cantons (Lucerne 1332, Zürich 1351, Bern 1353).",
+  "outcomes": [
+    "morgarten_victory_confirms_confederation",
+    "eternal_league_signed",
+    "habsburg_expansion_halted"
+  ],
+  "_quarry": {
+    "participants": [
+      "swiss_confederation",
+      "duchy_of_austria"
+    ],
+    "structural_significance": "The Eternal League is the constitutional foundation of the Swiss Confederation, a unique medieval state organized around communal military obligation rather than feudal hierarchy; the Swiss model of citizen infantry (pike squares) eventually displaces feudal cavalry as the dominant military force in Europe; Swiss mercenaries become the most prized professional soldiers of the 15th-16th centuries",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "marchal_schweizer_2006",
+      "rippmann_die_2006"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

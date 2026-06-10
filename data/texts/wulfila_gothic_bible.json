@@ -1,0 +1,24 @@
+{
+ "kind": "text",
+ "id": "wulfila_gothic_bible",
+ "name_primary": "Gothic Bible",
+ "author": "Wulfila",
+ "language": "Gothic",
+ "composed": {
+  "place": null,
+  "year": 380
+ },
+ "tradition": "biblical_translation",
+ "provenance": {
+  "sources_used": [
+   "ims_fordham",
+   "ims_fordham_sbook1f"
+  ],
+  "confidence": "high",
+  "attestation": "full text hosted online",
+  "status": "draft"
+ },
+ "dataset": "medieval-europe-500-1500",
+ "_fordham_index": "sbook1f",
+ "from_sourcebook": true
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_kievan_rus_golden_horde",
+  "statement": "Following the Mongol destruction of Kiev (1240), Russian principalities become tributaries of the Golden Horde. Princes must travel to Sarai to receive their yarlik (patent) from the khan. This arrangement lasts until Moscow's Ivan III refuses tribute payment in 1480.",
+  "subject_ids": [
+    "golden_horde",
+    "kievan_rus"
+  ],
+  "predicate": "tributary",
+  "derived_from": "rel_kievan_rus_golden_horde",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "allsen_mongol_1987",
+      "franklin_the_1996",
+      "riasanovsky_a_2000",
+      "martin_medieval_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "kievan_rus"
+  ],
+  "period": {
+    "from": 1240,
+    "to": 1480
+  }
+}

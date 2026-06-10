@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_kingdom_of_scotland_937_1513",
+  "statement": "Kingdom of Scotland — campaigns and battles spanned 937–1513, from Battle of Brunanburh to Battle of Flodden — Scotland Loses a King.",
+  "subject_ids": [
+    "kingdom_of_scotland"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_kingdom_of_scotland_937_1513",
+  "period": {
+    "from": 937,
+    "to": 1513
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "barrell_medieval_2000",
+      "brown_the_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

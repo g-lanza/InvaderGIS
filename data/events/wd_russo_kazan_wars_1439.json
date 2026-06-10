@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_russo_kazan_wars_1439",
+  "name": "Russo-Kazan Wars",
+  "year": 1439,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    55.795,
+    43.36
+  ],
+  "entity": "grand_principality_of_moscow",
+  "summary": "Russo-Kazan Wars (1439 CE). Source: Wikidata Q1949299.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "grand_principality_of_moscow",
+      "khanate_of_kazan"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "fennell_the_1983",
+      "ostrowski_muscovy_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

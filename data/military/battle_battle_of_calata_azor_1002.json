@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_calata_azor_1002",
+  "name": "Battle of Calatañazor",
+  "subtype": "battle",
+  "start_year": 1002,
+  "end_year": 1002,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1807089"
+    }
+  },
+  "description": "Battle during Reconquista (1002)",
+  "coords": [
+    -2.8167,
+    41.7
+  ]
+}

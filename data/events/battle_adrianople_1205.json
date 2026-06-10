@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_adrianople_1205",
+  "name": "Battle of Adrianople 1205",
+  "year": 1205,
+  "type": "conflict",
+  "category": "violence",
+  "coords": [
+    41.677,
+    26.556
+  ],
+  "entity": "latin_empire_constantinople",
+  "summary": "Less than a year after the Latin conquest of Constantinople, Emperor Baldwin I fell into an ambush near Adrianople set by Kaloyan of Bulgaria and his Cuman allies. Baldwin was captured and died in captivity. The catastrophic defeat shattered the Latin Empire's ability to consolidate its conquests and emboldened both the Bulgarian Empire and the Byzantine successor states.",
+  "outcomes": [
+    "Latin Emperor Baldwin I captured by Bulgarians",
+    "Baldwin dies in captivity",
+    "Latin Empire severely weakened",
+    "Bulgarian power reaches its zenith"
+  ],
+  "_quarry": {
+    "participants": [
+      "latin_empire_constantinople",
+      "second_bulgarian_empire"
+    ],
+    "structural_significance": "Decisively weakened the Latin Empire of Constantinople within a year of its founding; shifted the balance of power in the Balkans toward Bulgaria.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Wolff, The Latin Empire of Constantinople",
+      "Fine, The Late Medieval Balkans"
+    ],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_timurid_empire_1449_c02",
+  "statement": "Bayqara's court attracted the poet Jami and the artist Bihzad, whose miniature paintings defined Persian visual art for centuries.",
+  "subject_ids": [
+    "timurid_empire"
+  ],
+  "period": {
+    "from": 1449,
+    "to": 1449
+  },
+  "derived_from": "timurid_empire_1449",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "manz_the_1989",
+      "lentz_timur_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

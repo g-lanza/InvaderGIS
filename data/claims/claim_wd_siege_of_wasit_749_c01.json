@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_wasit_749_c01",
+  "statement": "Siege of Wasit (749 CE), at Wasit (part of Abbasid Revolution).",
+  "subject_ids": [
+    "abbasid_caliphate"
+  ],
+  "period": {
+    "from": 749,
+    "to": 749
+  },
+  "derived_from": "wd_siege_of_wasit_749",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_the_2004",
+      "kennedy_when_2004",
+      "crone_gods_2004",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

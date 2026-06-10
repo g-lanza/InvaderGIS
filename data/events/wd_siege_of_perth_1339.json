@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_perth_1339",
+  "name": "Siege of Perth",
+  "year": 1339,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    54.5,
+    -2.5
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Siege of Perth (1339 CE), at Perth (part of Second War of Scottish Independence). Source: Wikidata Q127698630.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "kingdom_of_scotland"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_erci_1394",
+  "name": "Battle of Erciş",
+  "year": 1394,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.7,
+    66.9
+  ],
+  "entity": "timurid_empire",
+  "summary": "Battle of Erciş (1394 CE), at Erciş (part of Timurid campaigns in Azerbaijan). Source: Wikidata Q119788473.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "timurid_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "manz_the_1989",
+      "lentz_timur_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

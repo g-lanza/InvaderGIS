@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_principality_of_zeta_1463_1478",
+  "statement": "Principality of Zeta — campaigns and battles spanned 1463–1478, from First Ottoman–Venetian War to Siege of Shkodra.",
+  "subject_ids": [
+    "principality_of_zeta"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_principality_of_zeta_1463_1478",
+  "period": {
+    "from": 1463,
+    "to": 1478
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

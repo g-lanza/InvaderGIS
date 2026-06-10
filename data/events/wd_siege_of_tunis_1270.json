@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_tunis_1270",
+  "name": "Siege of Tunis",
+  "year": 1270,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    36.8,
+    10.2
+  ],
+  "entity": "hafsid_sultanate",
+  "summary": "Siege of Tunis (1270 CE), at Tunis (part of Eighth Crusade). Source: Wikidata Q11794915.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "hafsid_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "abun-nasr_a_1987",
+      "khaldun_the_1958"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

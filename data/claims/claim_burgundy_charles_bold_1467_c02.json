@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_burgundy_charles_bold_1467_c02",
+  "statement": "Charles the Bold conquered Lorraine in 1475 to connect his northern and southern Burgundian territories.",
+  "subject_ids": [
+    "duchy_of_burgundy"
+  ],
+  "period": {
+    "from": 1467,
+    "to": 1467
+  },
+  "derived_from": "burgundy_charles_bold_1467",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_frankish_byzantine_recognition",
+  "statement": "The Byzantine Empire formally recognized Charlemagne's imperial title in the Treaty of Aachen (812), negotiated with Emperor Michael I Rhangabe. Byzantium had initially rejected the coronation (800) as usurpation — the Empress Irene's regency created a constitutional argument that the Roman imperial throne was vacant, but Byzantium naturally rejected a western imperial rival. The 12-year negotiation ultimately produced recognition in exchange for Frankish relinquishment of Venetian and Dalmatian territorial claims. The recognition established the 'two emperor' system — East and West — that defined European political theory throughout the medieval period.",
+  "subject_ids": [
+    "merovingian_kingdom",
+    "byzantine_empire"
+  ],
+  "predicate": "alliance",
+  "derived_from": "rel_frankish_byzantine_recognition",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wood_the_1994",
+      "geary_before_1988",
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 508,
+    "to": 600
+  }
+}

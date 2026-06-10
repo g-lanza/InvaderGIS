@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "albigensian_crusade",
+  "name": "Albigensian Crusade",
+  "year": 1209,
+  "type": "crusade",
+  "category": "violence",
+  "coords": [
+    43.21,
+    2.35
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Pope Innocent III launches the Albigensian Crusade (1209–1229) against the Cathar heresy in southern France (Languedoc), killing Simon de Montfort's famous statement at the siege of Béziers: 'Kill them all, God will know his own.' Estimates of 7,000–20,000 civilians massacred in the city. The 20-year campaign systematically destroys Occitanian culture, establishes the Papal Inquisition (1233) as a permanent institution, and transfers the County of Toulouse to the French crown (1271). It is the first crusade against fellow Christians.",
+  "outcomes": [
+    "toulouse_incorporated_french_sphere"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "county_of_toulouse",
+      "papal_states"
+    ],
+    "structural_significance": "Destroys the distinctive Occitanian culture; establishes the Papal Inquisition; integrates Languedoc into the French royal domain; demonstrates the papacy's willingness to use crusade ideology against internal enemies",
+    "year_range": [
+      1209,
+      1229
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

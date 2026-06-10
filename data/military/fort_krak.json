@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "fort_krak",
+  "name": "Krak des Chevaliers",
+  "subtype": "fort",
+  "start_year": 1142,
+  "end_year": 1271,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "Crusader castle; one of the best-preserved medieval fortifications",
+  "coords": [
+    36.264,
+    34.756
+  ]
+}

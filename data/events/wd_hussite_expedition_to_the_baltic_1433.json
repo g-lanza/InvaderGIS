@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_hussite_expedition_to_the_baltic_1433",
+  "name": "Hussite expedition to the Baltic",
+  "year": 1433,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    53,
+    19.75
+  ],
+  "entity": "teutonic_order_state",
+  "summary": "Hussite expedition to the Baltic (1433 CE), at State of the Teutonic Order (part of Hussite Wars). Source: Wikidata Q12020964.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "teutonic_order_state",
+      "kingdom_of_poland_jagiellonian"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "christiansen_the_1997",
+      "urban_the_1994",
+      "turnbull_crusader_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

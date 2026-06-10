@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "iona_founding_563",
+  "name": "Columba Founds Iona",
+  "year": 563,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    56.33,
+    -6.39
+  ],
+  "entity": "kingdom_of_dal_riata",
+  "summary": "Irish monk Columba (Colmcille) founds a monastery on the island of Iona in the Inner Hebrides, creating the base from which Celtic Christianity spreads across Scotland and northern England. Iona produces the Lindisfarne Gospels and Aidan, who founds Lindisfarne and begins the Christianization of Northumbria.",
+  "outcomes": [
+    "celtic_christianity_spread",
+    "lindisfarne_mission",
+    "scottish_christianization"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_dal_riata"
+    ],
+    "structural_significance": "Iona becomes the center of the Celtic Christian mission to Scotland and northern England; the monastery's scriptorium produces extraordinary illuminated manuscripts; the Celtic monastic model influences religious organization across northern Europe.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

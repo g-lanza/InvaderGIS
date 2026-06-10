@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "council_of_chalcedon_451",
+  "name": "Council of Chalcedon",
+  "year": 451,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    40.77,
+    29.42
+  ],
+  "entity": "byzantine_empire",
+  "summary": "The fourth ecumenical council defines Christ as having two natures (divine and human) united in one person. Egypt, Syria, Armenia, and Ethiopia reject this formula, establishing Monophysite churches that persist today. The theological split creates lasting political divisions in the Byzantine Empire's eastern provinces.",
+  "outcomes": [
+    "chalcedonian_creed",
+    "monophysite_schism",
+    "copts_armenians_split"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire"
+    ],
+    "structural_significance": "Creates permanent Christian schism dividing Chalcedonian (Catholic, Orthodox) from Oriental Orthodox churches; the Monophysite populations of Egypt and Syria will prove more receptive to Islamic conquest in the 7th century.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

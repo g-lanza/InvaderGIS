@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "republic_of_siena_1348",
+  "name": "Black Death Devastates Siena",
+  "year": 1348,
+  "type": "disaster",
+  "category": "hazard",
+  "coords": [
+    43.32,
+    11.33
+  ],
+  "entity": "republic_of_siena",
+  "summary": "The Black Death of 1348 killed approximately half of Siena's population in a matter of months. The great Sienese painter Ambrogio Lorenzetti and his entire family perished. The cathedral, under construction to become the largest in Christendom, was never completed; the half-finished nave still stands as a monument to catastrophe.",
+  "outcomes": [
+    "half_population_dead",
+    "artistic_revival_interrupted",
+    "government_collapse"
+  ],
+  "_quarry": {
+    "participants": [
+      "republic_of_siena"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

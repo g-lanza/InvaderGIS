@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_marienburg_1410_c01",
+  "statement": "Siege of Marienburg (1410 CE), at Malbork Castle (part of Polish-Lithuanian-Teutonic War).",
+  "subject_ids": [
+    "grand_duchy_of_lithuania"
+  ],
+  "period": {
+    "from": 1410,
+    "to": 1410
+  },
+  "derived_from": "wd_siege_of_marienburg_1410",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "rowell_lithuania_1994",
+      "christiansen_the_1997"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

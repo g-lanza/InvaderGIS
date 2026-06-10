@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_nak_o_1109",
+  "name": "Battle of Nakło",
+  "year": 1109,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    52,
+    19
+  ],
+  "entity": "kingdom_of_poland_piast",
+  "summary": "Battle of Nakło (1109 CE), at Nakło nad Notecią. Source: Wikidata Q734300.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_poland_piast"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "davies_gods_1981",
+      "knoll_the_1972"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

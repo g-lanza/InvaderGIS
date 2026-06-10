@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_glenmama_1000",
+  "name": "Battle of Glenmama",
+  "subtype": "battle",
+  "start_year": 1000,
+  "end_year": 1000,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1992706"
+    }
+  },
+  "description": "Battle of 1000",
+  "coords": [
+    -6.525,
+    53.28
+  ]
+}

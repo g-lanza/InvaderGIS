@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_antioch_earthquake_526_c02",
+  "statement": "Justin I and Justinian funded extensive reconstruction of Antioch after the 526 earthquake, but the city never recovered its late-antique demographic peak.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 526,
+    "to": 526
+  },
+  "derived_from": "antioch_earthquake_526",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kaldellis_streams_of_gold_2017"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

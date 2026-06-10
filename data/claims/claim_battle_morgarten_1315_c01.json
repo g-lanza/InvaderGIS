@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_battle_morgarten_1315_c01",
+  "statement": "Swiss forest canton fighters ambushed and defeated Duke Leopold I of Austria's cavalry at Morgarten on 15 November 1315.",
+  "subject_ids": [
+    "swiss_confederation"
+  ],
+  "period": {
+    "from": 1315,
+    "to": 1315
+  },
+  "derived_from": "battle_morgarten_1315",
+  "unresolved_sources": [
+    "rippmann_die_2006"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "marchal_schweizer_2006"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

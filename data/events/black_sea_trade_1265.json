@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "black_sea_trade_1265",
+  "name": "Genoese Black Sea Colony Network Established",
+  "year": 1265,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    45.04,
+    35.38
+  ],
+  "entity": "republic_of_genoa",
+  "summary": "Following the Byzantine-Genoese treaty of Nymphaeum (1261), Genoa establishes a network of Black Sea colonies: Caffa (Feodosia) in the Crimea (1266), Tana at the Don mouth, and Trebizond factories. The Golden Horde rulers grant the Genoese privileged trading access to the steppe trade routes. These colonies handle Central Asian silk, Chinese goods, Persian spices, Crimean grain, and enslaved peoples, the most valuable Eastern trade of the medieval period.",
+  "outcomes": [
+    "caffa_founded",
+    "silk_road_western_end_controlled",
+    "plague_transmission_later"
+  ],
+  "_quarry": {
+    "participants": [
+      "republic_of_genoa",
+      "mongol_empire",
+      "golden_horde"
+    ],
+    "structural_significance": "The Genoese Black Sea network is the western terminus of the Mongol-era Silk Road; the colonies grow fabulously wealthy and maintain sophisticated fortifications; Caffa in 1346-1347 is the point through which the Black Death enters the Mediterranean world, the colony's commercial success makes it the vector for the most destructive epidemic in medieval history",
+    "year_range": [
+      1261,
+      1300
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

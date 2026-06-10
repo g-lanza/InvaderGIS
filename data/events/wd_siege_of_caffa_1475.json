@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_caffa_1475",
+  "name": "Siege of Caffa",
+  "year": 1475,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    43.45,
+    23.9667
+  ],
+  "entity": "ottoman_empire",
+  "summary": "Siege of Caffa (1475 CE), at Feodosiia (part of Ottoman conquest of the southern coast of Crimea). Source: Wikidata Q118946261.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "ottoman_empire",
+      "khanate_of_crimea",
+      "republic_of_genoa"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_moya_1183_c01",
+  "statement": "Siege of Moya (1183 CE), at Moya (part of Reconquista).",
+  "subject_ids": [
+    "kingdom_of_castile"
+  ],
+  "period": {
+    "from": 1183,
+    "to": 1183
+  },
+  "derived_from": "wd_siege_of_moya_1183",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

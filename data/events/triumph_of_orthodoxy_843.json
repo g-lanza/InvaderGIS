@@ -1,0 +1,31 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "triumph_of_orthodoxy_843",
+  "name": "Triumph of Orthodoxy",
+  "year": 843,
+  "type": "religious_council",
+  "category": "religion",
+  "coords": [
+    41.0086,
+    28.9802
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Empress regent Theodora restores the veneration of icons in a synod presided by Patriarch Methodius. The 'Triumph of Orthodoxy' is thereafter commemorated annually on the first Sunday of Great Lent.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire"
+    ],
+    "structural_significance": "Ends the second iconoclast period and the broader iconoclast controversy permanently; consolidates the visual culture of Byzantine and later Orthodox Christianity around the icon.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "meyendorff_byzantium_and_rise_of_russia_1981",
+      "kazhdan_oxford_dictionary_byzantium_1991"
+    ],
+    "confidence": "low"
+  }
+}

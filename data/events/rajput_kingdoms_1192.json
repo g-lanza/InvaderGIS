@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rajput_kingdoms_1192",
+  "name": "Rajput Defeat at Tarain Ends Era",
+  "year": 1192,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    26.2295,
+    76.261
+  ],
+  "entity": "rajput_kingdoms",
+  "summary": "The Rajput defeat at the Second Battle of Tarain in 1192 ended Rajput political dominance of the Indo-Gangetic plain. While Rajput kingdoms survived in Rajasthan and the Deccan margins, the great northern cities fell to the Delhi Sultanate. Rajput culture and identity nevertheless persisted, with Rajput dynasties ruling subordinate kingdoms under Sultanate and later Mughal suzerainty.",
+  "outcomes": [
+    "tarain_defeat",
+    "muslim_rule_north_india",
+    "rajput_retreat_south"
+  ],
+  "_quarry": {
+    "participants": [
+      "rajput_kingdoms",
+      "delhi_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

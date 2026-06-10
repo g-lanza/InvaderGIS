@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "merovingian_kingdom",
+  "name": "Paris",
+  "entity_id": "merovingian_kingdom",
+  "entity_name": "Merovingian Kingdom",
+  "start_year": 481,
+  "end_year": 751,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q146246"
+    }
+  },
+  "coords": [
+    2.35222,
+    48.85667
+  ]
+}

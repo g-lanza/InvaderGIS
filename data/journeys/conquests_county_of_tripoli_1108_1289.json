@@ -1,0 +1,169 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_county_of_tripoli_1108_1289",
+  "name": "County of Tripoli — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1108,
+  "year_end": 1289,
+  "waypoints": [
+    {
+      "year": 1108,
+      "place": "Battle of Akkum",
+      "coords": [
+        34.4,
+        35.8
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_akkum_1108"
+    },
+    {
+      "year": 1119,
+      "place": "Battle of Hab",
+      "coords": [
+        34.1333,
+        35.7333
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_hab_1119"
+    },
+    {
+      "year": 1125,
+      "place": "Battle of Azaz",
+      "coords": [
+        34.9,
+        36.5
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_azaz_1125"
+    },
+    {
+      "year": 1133,
+      "place": "Battle of Rafaniyya",
+      "coords": [
+        34.4,
+        35.8
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_rafaniyya_1133"
+    },
+    {
+      "year": 1135,
+      "place": "Battle of Qinnasrin",
+      "coords": [
+        34.4,
+        35.8
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_qinnasrin_1135"
+    },
+    {
+      "year": 1137,
+      "place": "Battle of Ba'rin",
+      "coords": [
+        33.1,
+        35.5
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_ba_rin_1137"
+    },
+    {
+      "year": 1137,
+      "place": "Battle of Tripoli",
+      "coords": [
+        34.4,
+        35.8
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_tripoli_1137"
+    },
+    {
+      "year": 1157,
+      "place": "Siege of Shaizar",
+      "coords": [
+        38.35,
+        27.725
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_shaizar_1157"
+    },
+    {
+      "year": 1163,
+      "place": "Battle of al-Buqaia",
+      "coords": [
+        35.85,
+        34.025
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_al_buqaia_1163"
+    },
+    {
+      "year": 1163,
+      "place": "Crusader invasions of Egypt",
+      "coords": [
+        34.9667,
+        32.5833
+      ],
+      "note": "military",
+      "event_id": "wd_crusader_invasions_of_egypt_1163"
+    },
+    {
+      "year": 1187,
+      "place": "Siege of Jerusalem",
+      "coords": [
+        34.2,
+        33.0667
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_jerusalem_1187"
+    },
+    {
+      "year": 1228,
+      "place": "War of the Lombards",
+      "coords": [
+        38.9875,
+        24.775
+      ],
+      "note": "military",
+      "event_id": "wd_war_of_the_lombards_1228"
+    },
+    {
+      "year": 1271,
+      "place": "Siege of Tripoli",
+      "coords": [
+        32.2,
+        33.5
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_tripoli_1271"
+    },
+    {
+      "year": 1289,
+      "place": "Fall of Tripoli — Penultimate Crusader City",
+      "coords": [
+        34.44,
+        35.85
+      ],
+      "note": "conquest",
+      "event_id": "fall_tripoli_1289"
+    },
+    {
+      "year": 1289,
+      "place": "Fall of Tripoli",
+      "coords": [
+        33.6,
+        31.7333
+      ],
+      "note": "military",
+      "event_id": "wd_fall_of_tripoli_1289"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

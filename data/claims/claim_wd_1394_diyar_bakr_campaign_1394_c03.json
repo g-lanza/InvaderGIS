@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_1394_diyar_bakr_campaign_1394_c03",
+  "statement": "The 1394 Diyar Bakr campaign was part of the Five Years' Campaign.",
+  "subject_ids": [
+    "timurid_empire"
+  ],
+  "period": {
+    "from": 1394,
+    "to": 1394
+  },
+  "derived_from": "wd_1394_diyar_bakr_campaign_1394",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "manz_the_1989",
+      "lentz_timur_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_tomar_1190_c01",
+  "statement": "Siege of Tomar (1190 CE), at Tomar (part of Almohad campaign against Portugal).",
+  "subject_ids": [
+    "kingdom_of_portugal"
+  ],
+  "period": {
+    "from": 1190,
+    "to": 1190
+  },
+  "derived_from": "wd_siege_of_tomar_1190",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_east_francia_to_duchy_of_swabia_fragmentation",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "east_francia",
+      "role": "parent"
+    },
+    {
+      "entity_id": "duchy_of_swabia",
+      "role": "fragment"
+    }
+  ],
+  "directed": true,
+  "type": "fragmentation",
+  "since": 496,
+  "until": 496,
+  "note": "Derived from predecessor/successor links recorded in the east_francia and duchy_of_swabia entity records. Transition anchored to duchy_of_swabia start_year.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Mechanical normalisation of curated predecessor/successor links into the relationships register."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

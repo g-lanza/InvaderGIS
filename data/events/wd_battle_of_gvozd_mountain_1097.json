@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_gvozd_mountain_1097",
+  "name": "Battle of Gvozd Mountain",
+  "year": 1097,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    46,
+    17.75
+  ],
+  "entity": "kingdom_of_hungary",
+  "summary": "Battle of Gvozd Mountain (1097 CE), at Croatia. Source: Wikidata Q842361.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_hungary",
+      "kingdom_of_croatia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "engel_the_2001",
+      "berend_at_2001"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

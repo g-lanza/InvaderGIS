@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_meath_980",
+  "name": "Brian Boru Rises to Challenge Meath",
+  "year": 980,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    53.65,
+    -6.7
+  ],
+  "entity": "kingdom_of_meath",
+  "summary": "The rise of Brian Boru of Munster in the late 10th century challenged Meath's traditional role as the seat of Irish High Kingship. The rivalry between these kingdoms and the persistence of provincial power fragmentation defined Irish politics until the Norman invasion, preventing the unified Irish state that Brian had briefly achieved.",
+  "outcomes": [
+    "irish_power_shifts",
+    "munster_rises",
+    "high_kingship_contested"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_meath"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

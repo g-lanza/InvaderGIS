@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "diet_of_roncaglia_1158",
+  "name": "Diet of Roncaglia, Barbarossa Asserts Imperial Rights",
+  "year": 1158,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    45.05,
+    9.97
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Frederick I Barbarossa convenes the Diet of Roncaglia, where imperial jurists from Bologna University enumerate the regalia, the full rights of the emperor over Italian territories: coinage, toll collection, judicial authority, military levies, and appointment of local officials. The Bolognese lawyers justify these claims through Justinianic Roman law. The Italian communes resist paying the newly asserted taxes, provoking the conflict that leads to the Lombard League (1167) and Barbarossa's defeat at Legnano (1176).",
+  "outcomes": [
+    "regalia_rights_claimed",
+    "lombard_communes_taxed",
+    "resistance_triggers_lombard_league"
+  ],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "commune_of_milan"
+    ],
+    "structural_significance": "Roncaglia represents the high-water mark of Hohenstaufen imperial ambition in Italy; the use of Roman law to justify imperial claims introduces a new theoretical framework for medieval political thought; the Italian communes' resistance demonstrates that urban economic power could resist imperial authority, establishing the precedent for city-state independence",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_ottoman_trebizond_conquest",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "empire_of_trebizond",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "ottoman_empire",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 1461,
+  "until": 1461,
+  "note": "The Empire of Trebizond — the last surviving Byzantine successor state, ruled by the Komnenos dynasty since 1204 — was conquered by Mehmed II in August 1461, eight years after Constantinople. Mehmed blockaded the harbor while his army advanced through the Pontic Alps. Emperor David Komnenos surrendered after a month; he was later executed despite promises of safety. Mehmed II claimed the title 'Caesar of Rome' after both conquests, completing the elimination of all Greek Christian imperial states.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Eliminates the last Byzantine successor state; ends 1,257 years of continuous Roman imperial rule in the East; Mehmed II's claim to Roman imperial title becomes uncontested"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "miller_trebizond_1926",
+      "eastmond_art_2004",
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

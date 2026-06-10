@@ -1,0 +1,627 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "chauhans",
+  "name_primary": "Chahamana Dynasty",
+  "name_variants": [
+    "Chauhans"
+  ],
+  "type": "kingdom",
+  "region": "south_asia",
+  "formed": 600,
+  "dissolved": 1192,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 800,
+      "label": "Chahamana Dynasty (approx.)",
+      "polygon": [
+        [
+          24,
+          72
+        ],
+        [
+          24,
+          75
+        ],
+        [
+          25,
+          77
+        ],
+        [
+          27,
+          77
+        ],
+        [
+          29,
+          76
+        ],
+        [
+          29,
+          73
+        ],
+        [
+          28,
+          71
+        ],
+        [
+          26,
+          71
+        ],
+        [
+          24,
+          72
+        ]
+      ]
+    },
+    {
+      "year": 1000,
+      "label": "Chahamana Dynasty (approx.)",
+      "polygon": [
+        [
+          24,
+          72
+        ],
+        [
+          24,
+          75
+        ],
+        [
+          25,
+          77
+        ],
+        [
+          27,
+          77
+        ],
+        [
+          29,
+          76
+        ],
+        [
+          29,
+          73
+        ],
+        [
+          28,
+          71
+        ],
+        [
+          26,
+          71
+        ],
+        [
+          24,
+          72
+        ]
+      ]
+    },
+    {
+      "year": 1100,
+      "label": "Chahamana Dynasty (approx.)",
+      "polygon": [
+        [
+          24,
+          72
+        ],
+        [
+          24,
+          75
+        ],
+        [
+          25,
+          77
+        ],
+        [
+          27,
+          77
+        ],
+        [
+          29,
+          76
+        ],
+        [
+          29,
+          73
+        ],
+        [
+          28,
+          71
+        ],
+        [
+          26,
+          71
+        ],
+        [
+          24,
+          72
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    26.5,
+    74
+  ],
+  "population_estimates": [
+    {
+      "year": 1100,
+      "estimate": 2000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q24897370",
+          "url": "https://www.wikidata.org/wiki/Q24897370",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chauhans",
+          "url": "https://en.wikipedia.org/wiki/Chahamanas_of_Shakambhari"
+        }
+      ]
+    },
+    {
+      "year": 1140,
+      "estimate": 2500000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q24897370",
+          "url": "https://www.wikidata.org/wiki/Q24897370",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chauhans",
+          "url": "https://en.wikipedia.org/wiki/Chahamanas_of_Shakambhari"
+        }
+      ]
+    },
+    {
+      "year": 1180,
+      "estimate": 3000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q24897370",
+          "url": "https://www.wikidata.org/wiki/Q24897370",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chauhans",
+          "url": "https://en.wikipedia.org/wiki/Chahamanas_of_Shakambhari"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Rajput dynasty of the Chahamanas of Shakambhari (c. 6th–12th c.) controlling Rajputana and the Delhi region; Prithviraj III's defeat at the Second Battle of Tarain (1192) by Muhammad of Ghor ended Rajput military dominance of northern India and opened the subcontinent to the Delhi Sultanate; Prithviraj's romantic legend and Chand Bardai's Prithvirajraso epic made him the paradigmatic Rajput warrior-king in Indian historical memory.",
+  "temporal": {
+    "start_year": 600,
+    "end_year": 1192,
+    "notes": ""
+  },
+  "geographic": {
+    "centroid": [
+      26.5,
+      74
+    ],
+    "polygon_simplified": [
+      [
+        24,
+        72
+      ],
+      [
+        24,
+        75
+      ],
+      [
+        25,
+        77
+      ],
+      [
+        27,
+        77
+      ],
+      [
+        29,
+        76
+      ],
+      [
+        29,
+        73
+      ],
+      [
+        28,
+        71
+      ],
+      [
+        26,
+        71
+      ],
+      [
+        24,
+        72
+      ]
+    ],
+    "capital": {
+      "name": "Ajmer",
+      "coords": [
+        26.45,
+        74.64
+      ],
+      "source": "curated"
+    },
+    "polygon_snapshots": [
+      {
+        "year": 800,
+        "label": "Chahamana Dynasty (approx.)",
+        "polygon": [
+          [
+            24,
+            72
+          ],
+          [
+            24,
+            75
+          ],
+          [
+            25,
+            77
+          ],
+          [
+            27,
+            77
+          ],
+          [
+            29,
+            76
+          ],
+          [
+            29,
+            73
+          ],
+          [
+            28,
+            71
+          ],
+          [
+            26,
+            71
+          ],
+          [
+            24,
+            72
+          ]
+        ]
+      },
+      {
+        "year": 1000,
+        "label": "Chahamana Dynasty (approx.)",
+        "polygon": [
+          [
+            24,
+            72
+          ],
+          [
+            24,
+            75
+          ],
+          [
+            25,
+            77
+          ],
+          [
+            27,
+            77
+          ],
+          [
+            29,
+            76
+          ],
+          [
+            29,
+            73
+          ],
+          [
+            28,
+            71
+          ],
+          [
+            26,
+            71
+          ],
+          [
+            24,
+            72
+          ]
+        ]
+      },
+      {
+        "year": 1100,
+        "label": "Chahamana Dynasty (approx.)",
+        "polygon": [
+          [
+            24,
+            72
+          ],
+          [
+            24,
+            75
+          ],
+          [
+            25,
+            77
+          ],
+          [
+            27,
+            77
+          ],
+          [
+            29,
+            76
+          ],
+          [
+            29,
+            73
+          ],
+          [
+            28,
+            71
+          ],
+          [
+            26,
+            71
+          ],
+          [
+            24,
+            72
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "approximate",
+    "polygon_source": "hand_crafted",
+    "polygon_source_date": "2026-05-11"
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "rajput_formation",
+      "years": "800-1000",
+      "description": "Chahamana (Chauhan) dynasty rose in Rajputana from a subordinate lineage to control Shakambhari and surrounding territory.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q24897370",
+          "url": "https://www.wikidata.org/wiki/Q24897370"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chauhans",
+          "url": "https://en.wikipedia.org/wiki/Chahamanas_of_Shakambhari"
+        }
+      ]
+    },
+    {
+      "phase": "expansion",
+      "years": "1000-1150",
+      "description": "Expanded control over Ajmer and Dilli; became dominant Rajput power of northern India.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q24897370",
+          "url": "https://www.wikidata.org/wiki/Q24897370"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chauhans",
+          "url": "https://en.wikipedia.org/wiki/Chahamanas_of_Shakambhari"
+        }
+      ]
+    },
+    {
+      "phase": "prithviraj_climax",
+      "years": "1150-1192",
+      "description": "Prithviraj III represented peak Chauhan power; resisted Muhammad of Ghor at First Battle of Tarain (1191) but was defeated at Second Battle (1192).",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q24897370",
+          "url": "https://www.wikidata.org/wiki/Q24897370"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chauhans",
+          "url": "https://en.wikipedia.org/wiki/Chahamanas_of_Shakambhari"
+        }
+      ]
+    },
+    {
+      "phase": "dissolution",
+      "years": "1192-1194",
+      "description": "Ghurid conquest destroyed Chauhan power; dynasty fragmented into small principalities.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q24897370",
+          "url": "https://www.wikidata.org/wiki/Q24897370"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chauhans",
+          "url": "https://en.wikipedia.org/wiki/Chahamanas_of_Shakambhari"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "military_excellence",
+      "layer": "military_security",
+      "description": "Chauhan cavalry was among the finest in Rajputana; tradition of warfare maintained battle-hardened nobility.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q24897370",
+          "url": "https://www.wikidata.org/wiki/Q24897370"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chauhans",
+          "url": "https://en.wikipedia.org/wiki/Chahamanas_of_Shakambhari"
+        }
+      ]
+    },
+    {
+      "tag": "geographic_advantage",
+      "layer": "geography_territory",
+      "description": "Control of Ajmer and Delhi region gave access to the Gangetic plain's wealth.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q24897370",
+          "url": "https://www.wikidata.org/wiki/Q24897370"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chauhans",
+          "url": "https://en.wikipedia.org/wiki/Chahamanas_of_Shakambhari"
+        }
+      ],
+      "tag_prose": "strategic_location"
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "second_battle_of_tarain",
+      "layer": "military_security",
+      "description": "Defeat at the Second Battle of Tarain (1192) by Muhammad of Ghor was decisive and irreversible.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q24897370",
+          "url": "https://www.wikidata.org/wiki/Q24897370"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chauhans",
+          "url": "https://en.wikipedia.org/wiki/Chahamanas_of_Shakambhari"
+        }
+      ]
+    },
+    {
+      "tag": "political_isolation",
+      "layer": "external_political",
+      "description": "Rajput kingdoms failed to form a united front against the Ghurid invasion.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q24897370",
+          "url": "https://www.wikidata.org/wiki/Q24897370"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chauhans",
+          "url": "https://en.wikipedia.org/wiki/Chahamanas_of_Shakambhari"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Ajayaraja II",
+      "role": "ruler",
+      "years": "1110–1135",
+      "year_start": 1110,
+      "year_end": 1135,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Ajayaraja II",
+          "url": "https://en.wikipedia.org/wiki/Ajayaraja_II"
+        }
+      ]
+    },
+    {
+      "name": "Vigraharaja IV",
+      "role": "ruler",
+      "years": "1150–1164",
+      "year_start": 1150,
+      "year_end": 1164,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Vigraharaja IV",
+          "url": "https://en.wikipedia.org/wiki/Vigraharaja_IV"
+        }
+      ]
+    },
+    {
+      "name": "Prithviraj III",
+      "role": "ruler",
+      "years": "1178–1192",
+      "year_start": 1178,
+      "year_end": 1192,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Prithviraj III",
+          "url": "https://en.wikipedia.org/wiki/Prithviraj_Chauhan"
+        }
+      ]
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "pastoralism",
+      "limited_trade"
+    ],
+    "wealth_level": "moderate",
+    "major_exports": [
+      "grain",
+      "horses",
+      "cattle",
+      "cotton"
+    ],
+    "major_trade_partners": [
+      "pratiharas",
+      "ghaznavid_emirate",
+      "palas"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "feudal_dues",
+      "tribute_from_vassals"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q24897370",
+        "url": "https://www.wikidata.org/wiki/Q24897370"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Chauhans",
+        "url": "https://en.wikipedia.org/wiki/Chahamanas_of_Shakambhari"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q24897370",
+    "matched_name": "manual/chauhans",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Chahamanas_of_Shakambhari"
+  },
+  "monogram": "CD"
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_city_walls_of_sabucina_500",
+  "name": "City walls of Sabucina",
+  "importance": "city",
+  "start_year": 500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "inferred",
+    "external_ids": {
+      "pleiades": "221984496"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    14.1213,
+    37.5027
+  ]
+}

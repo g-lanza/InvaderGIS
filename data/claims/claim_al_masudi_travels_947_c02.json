@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_al_masudi_travels_947_c02",
+  "statement": "Al-Masʿūdī's work followed three decades of travel from the Caspian to the Indus and down the East African coast.",
+  "subject_ids": [
+    "abbasid_caliphate"
+  ],
+  "period": {
+    "from": 947,
+    "to": 947
+  },
+  "derived_from": "al_masudi_travels_947",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "hourani_arab_peoples_1991",
+      "hodgson_venture_of_islam_1974"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

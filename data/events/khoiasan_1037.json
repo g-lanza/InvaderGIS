@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "khoiasan_1037",
+  "name": "Seljuks Conquer Khorasan",
+  "year": 1037,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    35.5345,
+    61.791
+  ],
+  "entity": "ghaznavid_emirate",
+  "summary": "The Seljuk Turks under Tughril Beg defeated the Ghaznavids and conquered Khorasan in 1037 CE. The region became the heartland of the Seljuk Sultanate, and the Seljuks, despite their Turkic origin, became enthusiastic patrons of Persian culture and Islamic scholarship, continuing Khorasan's tradition as a centre of learning.",
+  "outcomes": [
+    "ghaznavid_expelled",
+    "seljuk_power_base",
+    "iranian_culture_preserved"
+  ],
+  "_quarry": {
+    "participants": [
+      "ghaznavid_emirate",
+      "seljuk_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

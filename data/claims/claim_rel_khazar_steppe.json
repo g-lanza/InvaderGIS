@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_khazar_steppe",
+  "statement": "The Khazar Khaganate controlled the Pontic steppe (modern Ukraine and southern Russia) from the 7th to 10th centuries, serving as a buffer state between Byzantine Christendom and the Islamic caliphates. The Khazar ruling elite famously converted to Judaism in the 8th century. They controlled the key trade routes between the Baltic and the Caspian, collecting tolls from Varangian (Viking) merchants trading the river routes to Constantinople. Sviatoslav I of Kiev destroyed the Khazar state in 965, opening the steppe to successive nomadic groups — Pechenegs, then Cumans, then Mongols.",
+  "subject_ids": [
+    "khazar_khaganate",
+    "pecheneg_confederation"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_khazar_steppe",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "golden_khazar_1980",
+      "brook_the_1999",
+      "reuter_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 860,
+    "to": 969
+  }
+}

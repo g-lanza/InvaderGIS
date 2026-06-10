@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "lateran_councils_1123",
+  "name": "First Lateran Council, First General Council of the West",
+  "year": 1123,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.89,
+    12.51
+  ],
+  "entity": "papal_states",
+  "summary": "Pope Calixtus II convenes the First Lateran Council, the first ecumenical council to meet in the West, ratifying the Concordat of Worms (1122) and passing canons against clerical marriage, simony (purchasing church offices), and lay investiture. Approximately 300 bishops attend. The council marks the culmination of the Gregorian Reform movement and establishes that general councils are the highest legislative authority in the Church.",
+  "outcomes": [
+    "worms_concordat_confirmed",
+    "clerical_marriage_banned",
+    "simony_condemned"
+  ],
+  "_quarry": {
+    "participants": [
+      "papal_states",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "The Lateran Councils (1123, 1139, 1179, 1215) are the legislative summits of medieval papal monarchy; their canons shape canon law, clerical discipline, and theological definition for centuries; the prohibition of clerical marriage creates a distinct celibate clergy divorced from local family loyalties, increasing papal control but also creating the sexual hypocrisy that Reformation critics attack",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

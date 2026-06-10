@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_heworth_moor_1453",
+  "name": "Battle of Heworth Moor",
+  "subtype": "battle",
+  "start_year": 1453,
+  "end_year": 1453,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q25456539"
+    }
+  },
+  "description": "Battle of 1453",
+  "coords": [
+    -1.0833,
+    54.6
+  ]
+}

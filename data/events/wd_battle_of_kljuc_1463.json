@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_kljuc_1463",
+  "name": "Battle of Kljuc",
+  "year": 1463,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    44.144,
+    19.216
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Battle of Kljuc (1463 CE), at Ključ (part of Ottoman conquest of Bosnia and Herzegovina). Source: Wikidata Q121283166.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "ottoman_empire",
+      "kingdom_of_hungary",
+      "republic_of_ragusa",
+      "kingdom_of_bosnia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

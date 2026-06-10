@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_lepanto_1499",
+  "name": "Siege of Lepanto",
+  "year": 1499,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    43.2,
+    20.6
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Siege of Lepanto (1499 CE), at Nafpaktos (part of Second Ottoman–Venetian War). Source: Wikidata Q97648778.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "ottoman_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

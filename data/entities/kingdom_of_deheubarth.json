@@ -1,0 +1,993 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_deheubarth",
+  "name_primary": "Kingdom of Deheubarth",
+  "name_variants": [],
+  "type": "kingdom",
+  "region": "british_isles",
+  "formed": 920,
+  "dissolved": 1283,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 1000,
+      "label": "Kingdom of Deheubarth (approx.)",
+      "polygon": [
+        [
+          51.45,
+          -5.3
+        ],
+        [
+          51.55,
+          -5.15
+        ],
+        [
+          51.85,
+          -5
+        ],
+        [
+          52.1,
+          -4.8
+        ],
+        [
+          52.4,
+          -4.55
+        ],
+        [
+          52.8,
+          -4.3
+        ],
+        [
+          52.85,
+          -3.8
+        ],
+        [
+          52.4,
+          -3.2
+        ],
+        [
+          52.05,
+          -3.45
+        ],
+        [
+          51.75,
+          -3.95
+        ],
+        [
+          51.45,
+          -4.65
+        ],
+        [
+          51.45,
+          -5.3
+        ]
+      ]
+    },
+    {
+      "year": 1100,
+      "label": "Kingdom of Deheubarth (approx.)",
+      "polygon": [
+        [
+          51.45,
+          -5.3
+        ],
+        [
+          51.55,
+          -5.15
+        ],
+        [
+          51.85,
+          -5
+        ],
+        [
+          52.1,
+          -4.8
+        ],
+        [
+          52.4,
+          -4.55
+        ],
+        [
+          52.8,
+          -4.3
+        ],
+        [
+          52.85,
+          -3.8
+        ],
+        [
+          52.4,
+          -3.2
+        ],
+        [
+          52.05,
+          -3.45
+        ],
+        [
+          51.75,
+          -3.95
+        ],
+        [
+          51.45,
+          -4.65
+        ],
+        [
+          51.45,
+          -5.3
+        ]
+      ]
+    },
+    {
+      "year": 1200,
+      "label": "Kingdom of Deheubarth (approx.)",
+      "polygon": [
+        [
+          51.45,
+          -5.3
+        ],
+        [
+          51.55,
+          -5.15
+        ],
+        [
+          51.85,
+          -5
+        ],
+        [
+          52.1,
+          -4.8
+        ],
+        [
+          52.4,
+          -4.55
+        ],
+        [
+          52.8,
+          -4.3
+        ],
+        [
+          52.85,
+          -3.8
+        ],
+        [
+          52.4,
+          -3.2
+        ],
+        [
+          52.05,
+          -3.45
+        ],
+        [
+          51.75,
+          -3.95
+        ],
+        [
+          51.45,
+          -4.65
+        ],
+        [
+          51.45,
+          -5.3
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    51.94,
+    -4.2
+  ],
+  "religion": "catholic",
+  "population_estimates": [
+    {
+      "year": 850,
+      "estimate": 84000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q837136",
+          "url": "https://www.wikidata.org/wiki/Q837136",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Deheubarth",
+          "url": "https://en.wikipedia.org/wiki/Deheubarth"
+        }
+      ]
+    },
+    {
+      "year": 1000,
+      "estimate": 120000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q837136",
+          "url": "https://www.wikidata.org/wiki/Q837136",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Deheubarth",
+          "url": "https://en.wikipedia.org/wiki/Deheubarth"
+        }
+      ]
+    },
+    {
+      "year": 1150,
+      "estimate": 132000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q837136",
+          "url": "https://www.wikidata.org/wiki/Q837136",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Deheubarth",
+          "url": "https://en.wikipedia.org/wiki/Deheubarth"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low"
+  },
+  "description": "Southwestern Welsh kingdom (c. 920–1197) under Hywel Dda, who codified Welsh law and sought English alliance; though repeatedly subjugated by Gwynedd and Anglo-Norman lords, it maintained periodic independence and its legal tradition survived as the foundation of Welsh common law until full English absorption.",
+  "temporal": {
+    "start_year": 920,
+    "end_year": 1283,
+    "end_year_within_scope": null,
+    "start_event_id": null,
+    "end_event_id": null,
+    "notes": "Southwestern Welsh kingdom; absorbed into English crown principality era."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      51.94,
+      -4.2
+    ],
+    "core_regions": [
+      "Deheubarth",
+      "Dyfed"
+    ],
+    "polygon_simplified": [
+      [
+        51.45,
+        -5.3
+      ],
+      [
+        51.55,
+        -5.15
+      ],
+      [
+        51.85,
+        -5
+      ],
+      [
+        52.1,
+        -4.8
+      ],
+      [
+        52.4,
+        -4.55
+      ],
+      [
+        52.8,
+        -4.3
+      ],
+      [
+        52.85,
+        -3.8
+      ],
+      [
+        52.4,
+        -3.2
+      ],
+      [
+        52.05,
+        -3.45
+      ],
+      [
+        51.75,
+        -3.95
+      ],
+      [
+        51.45,
+        -4.65
+      ],
+      [
+        51.45,
+        -5.3
+      ]
+    ],
+    "notes": "Centroid approximate; polygon pending schematic or OHM sourcing.",
+    "polygon_snapshots": [
+      {
+        "year": 1000,
+        "label": "Kingdom of Deheubarth (approx.)",
+        "polygon": [
+          [
+            51.45,
+            -5.3
+          ],
+          [
+            51.55,
+            -5.15
+          ],
+          [
+            51.85,
+            -5
+          ],
+          [
+            52.1,
+            -4.8
+          ],
+          [
+            52.4,
+            -4.55
+          ],
+          [
+            52.8,
+            -4.3
+          ],
+          [
+            52.85,
+            -3.8
+          ],
+          [
+            52.4,
+            -3.2
+          ],
+          [
+            52.05,
+            -3.45
+          ],
+          [
+            51.75,
+            -3.95
+          ],
+          [
+            51.45,
+            -4.65
+          ],
+          [
+            51.45,
+            -5.3
+          ]
+        ]
+      },
+      {
+        "year": 1100,
+        "label": "Kingdom of Deheubarth (approx.)",
+        "polygon": [
+          [
+            51.45,
+            -5.3
+          ],
+          [
+            51.55,
+            -5.15
+          ],
+          [
+            51.85,
+            -5
+          ],
+          [
+            52.1,
+            -4.8
+          ],
+          [
+            52.4,
+            -4.55
+          ],
+          [
+            52.8,
+            -4.3
+          ],
+          [
+            52.85,
+            -3.8
+          ],
+          [
+            52.4,
+            -3.2
+          ],
+          [
+            52.05,
+            -3.45
+          ],
+          [
+            51.75,
+            -3.95
+          ],
+          [
+            51.45,
+            -4.65
+          ],
+          [
+            51.45,
+            -5.3
+          ]
+        ]
+      },
+      {
+        "year": 1200,
+        "label": "Kingdom of Deheubarth (approx.)",
+        "polygon": [
+          [
+            51.45,
+            -5.3
+          ],
+          [
+            51.55,
+            -5.15
+          ],
+          [
+            51.85,
+            -5
+          ],
+          [
+            52.1,
+            -4.8
+          ],
+          [
+            52.4,
+            -4.55
+          ],
+          [
+            52.8,
+            -4.3
+          ],
+          [
+            52.85,
+            -3.8
+          ],
+          [
+            52.4,
+            -3.2
+          ],
+          [
+            52.05,
+            -3.45
+          ],
+          [
+            51.75,
+            -3.95
+          ],
+          [
+            51.45,
+            -4.65
+          ],
+          [
+            51.45,
+            -5.3
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "approximate",
+    "polygon_source": "hand_crafted",
+    "polygon_source_date": "2026-05-11",
+    "capital": {
+      "name": "Dinefwr",
+      "coords": [
+        51.883,
+        -4.013
+      ],
+      "source": "wikidata"
+    }
+  },
+  "internal_structure": {
+    "centralization": "low_to_medium",
+    "centralization_trajectory": null,
+    "governance_type": "dynastic_feudal",
+    "legitimacy_basis": [
+      "inheritance"
+    ],
+    "administrative_system": ""
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "formation",
+      "years": "c.920–950",
+      "description": "Hywel Dda unifies south Wales.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q837136",
+          "url": "https://www.wikidata.org/wiki/Q837136"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Deheubarth",
+          "url": "https://en.wikipedia.org/wiki/Deheubarth"
+        }
+      ]
+    },
+    {
+      "phase": "peak",
+      "years": "950–1063",
+      "description": "Deheubarth dominant in south Wales; laws codified.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q837136",
+          "url": "https://www.wikidata.org/wiki/Q837136"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Deheubarth",
+          "url": "https://en.wikipedia.org/wiki/Deheubarth"
+        }
+      ]
+    },
+    {
+      "phase": "crisis",
+      "years": "1063–1136",
+      "description": "Norman conquest of south Wales; intermittent Deheubarth resistance.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q837136",
+          "url": "https://www.wikidata.org/wiki/Q837136"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Deheubarth",
+          "url": "https://en.wikipedia.org/wiki/Deheubarth"
+        }
+      ]
+    },
+    {
+      "phase": "recovery_consolidation",
+      "years": "1136–1197",
+      "description": "The Lord Rhys reasserts Deheubarth power.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q837136",
+          "url": "https://www.wikidata.org/wiki/Q837136"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Deheubarth",
+          "url": "https://en.wikipedia.org/wiki/Deheubarth"
+        }
+      ]
+    },
+    {
+      "phase": "fragmentation",
+      "years": "1197–1283",
+      "description": "Partition among Rhys's sons; English conquest completes.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q837136",
+          "url": "https://www.wikidata.org/wiki/Q837136"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Deheubarth",
+          "url": "https://en.wikipedia.org/wiki/Deheubarth"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "dynastic_consolidation",
+      "layer": "dynastic_legitimacy",
+      "description": "Hywel Dda unified Dyfed, Seisyllwg, and Brycheiniog to create a large south Welsh kingdom.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q837136",
+          "url": "https://www.wikidata.org/wiki/Q837136"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Deheubarth",
+          "url": "https://en.wikipedia.org/wiki/Deheubarth"
+        }
+      ]
+    },
+    {
+      "tag": "legal_codification",
+      "layer": "governance_institutional",
+      "description": "Laws of Hywel Dda codified Welsh customary law, creating administrative predictability across the unified kingdom.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q837136",
+          "url": "https://www.wikidata.org/wiki/Q837136"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Deheubarth",
+          "url": "https://en.wikipedia.org/wiki/Deheubarth"
+        }
+      ]
+    },
+    {
+      "tag": "geographic_defensibility",
+      "layer": "geography_territory",
+      "description": "Cambrian Mountains and Preseli Hills provided interior refuges against English and Norman pressure.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q837136",
+          "url": "https://www.wikidata.org/wiki/Q837136"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Deheubarth",
+          "url": "https://en.wikipedia.org/wiki/Deheubarth"
+        }
+      ]
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "dynastic_consolidation",
+      "direction": "rise",
+      "description": "Hywel Dda unified the petty kingdoms of southwest Wales into Deheubarth and extended his rule to much of Wales, promulgating the Welsh law code that bears his name.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q837136",
+          "url": "https://www.wikidata.org/wiki/Q837136"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Deheubarth",
+          "url": "https://en.wikipedia.org/wiki/Deheubarth"
+        }
+      ],
+      "tag_prose": "unification_of_southwest_wales"
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "welsh_law",
+      "direction": "rise",
+      "description": "The codification of Welsh customary law under Hywel Dda created a uniform legal system across Deheubarth that strengthened royal authority and provided a framework for resolving disputes without external arbitration.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q837136",
+          "url": "https://www.wikidata.org/wiki/Q837136"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Deheubarth",
+          "url": "https://en.wikipedia.org/wiki/Deheubarth"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "internal_fragmentation",
+      "layer": "governance_institutional",
+      "description": "Welsh inheritance custom repeatedly divided the kingdom among male heirs, preventing sustained consolidation.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q837136",
+          "url": "https://www.wikidata.org/wiki/Q837136"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Deheubarth",
+          "url": "https://en.wikipedia.org/wiki/Deheubarth"
+        }
+      ]
+    },
+    {
+      "tag": "external_military_pressure",
+      "layer": "military_security",
+      "description": "Norman and English penetration of south Wales; castles at Pembroke and Carmarthen constrained Deheubarth.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q837136",
+          "url": "https://www.wikidata.org/wiki/Q837136"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Deheubarth",
+          "url": "https://en.wikipedia.org/wiki/Deheubarth"
+        }
+      ]
+    },
+    {
+      "tag": "succession_crisis",
+      "layer": "dynastic_legitimacy",
+      "description": "Rhys ap Gruffudd's death in 1197 triggered immediate succession wars among his sons.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q837136",
+          "url": "https://www.wikidata.org/wiki/Q837136"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Deheubarth",
+          "url": "https://en.wikipedia.org/wiki/Deheubarth"
+        }
+      ]
+    },
+    {
+      "layer": "military_security",
+      "tag": "norman_colonization",
+      "direction": "decline",
+      "description": "Norman marcher lords carved out lordships in southern Wales from the late 11th century, fragmenting Deheubarth's territory and subordinating its kings to English overlordship.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q837136",
+          "url": "https://www.wikidata.org/wiki/Q837136"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Deheubarth",
+          "url": "https://en.wikipedia.org/wiki/Deheubarth"
+        }
+      ]
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "internal_fragmentation",
+      "direction": "decline",
+      "description": "Welsh inheritance customs dividing land equally among sons repeatedly fragmented Deheubarth into competing sub-kingdoms, making unified resistance to English power structurally impossible.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q837136",
+          "url": "https://www.wikidata.org/wiki/Q837136"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Deheubarth",
+          "url": "https://en.wikipedia.org/wiki/Deheubarth"
+        }
+      ],
+      "tag_prose": "dynastic_partition"
+    }
+  ],
+  "key_figures": [
+    {
+      "person_id": "hywel_dda",
+      "name": "Hywel Dda",
+      "role": "ruler",
+      "years": "c.880–950",
+      "year_start": 880,
+      "year_end": 950,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Hywel Dda",
+          "url": "https://en.wikipedia.org/wiki/Hywel_Dda"
+        }
+      ]
+    },
+    {
+      "person_id": "rhys_ap_gruffudd",
+      "name": "Rhys ap Gruffudd (the Lord Rhys)",
+      "role": "ruler",
+      "years": "1132–1197",
+      "year_start": 1132,
+      "year_end": 1197,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Rhys ap Gruffudd (the Lord Rhys)",
+          "url": "https://en.wikipedia.org/wiki/Rhys_ap_Gruffudd_(the_Lord_Rhys)"
+        }
+      ]
+    }
+  ],
+  "successor_entity_ids": [
+    "principality_of_wales",
+    "kingdom_of_england"
+  ],
+  "primary_ethnicity": "celtic",
+  "ethnic_composition": [
+    {
+      "group": "celtic",
+      "proportion": 0.92
+    }
+  ],
+  "religion_composition": [
+    {
+      "religion": "catholic",
+      "proportion": 0.95
+    },
+    {
+      "religion": "pagan",
+      "proportion": 0.05
+    }
+  ],
+  "primary_language": "celtic_lang",
+  "language_composition": [
+    {
+      "language": "celtic_lang",
+      "proportion": 0.86,
+      "role": "vernacular"
+    },
+    {
+      "language": "old_english",
+      "proportion": 0.1,
+      "role": "regional"
+    },
+    {
+      "language": "latin",
+      "proportion": 0.04,
+      "role": "liturgical"
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "pastoralism",
+      "fishing"
+    ],
+    "wealth_level": "subsistence",
+    "major_exports": [
+      "cattle",
+      "wool",
+      "fish",
+      "copper"
+    ],
+    "major_trade_partners": [
+      "kingdom_of_england",
+      "principality_of_wales"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "tribute",
+      "tithes"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q837136",
+        "url": "https://www.wikidata.org/wiki/Q837136"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Kingdom of Deheubarth",
+        "url": "https://en.wikipedia.org/wiki/Deheubarth"
+      }
+    ]
+  },
+  "social_structure": {
+    "ruling_ethnicity": "celtic",
+    "subject_majority": "celtic",
+    "military_ethnicity": "celtic",
+    "administrative_language": "celtic_lang",
+    "stratification_type": "homogeneous"
+  },
+  "wikidata_enrichment": {
+    "qid": "Q837136",
+    "matched_name": "Kingdom of Deheubarth",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Deheubarth",
+    "capital": {
+      "name": "Dinefwr",
+      "coords": [
+        51.883,
+        -4.013
+      ]
+    },
+    "rulers_from_wikidata": [
+      {
+        "name": "Hywel Dda",
+        "qid": "Q422205",
+        "year_start": 920,
+        "year_end": 950,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q422205",
+            "url": "https://www.wikidata.org/wiki/Q422205"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Hywel Dda",
+            "url": "https://en.wikipedia.org/wiki/Hywel_Dda"
+          }
+        ]
+      },
+      {
+        "name": "Maredudd ab Owain",
+        "qid": "Q2670611",
+        "year_start": 986,
+        "year_end": 999,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2670611",
+            "url": "https://www.wikidata.org/wiki/Q2670611"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Maredudd ab Owain",
+            "url": "https://en.wikipedia.org/wiki/Maredudd_ab_Owain"
+          }
+        ]
+      },
+      {
+        "name": "Cynan ap Hywel",
+        "qid": "Q2454783",
+        "year_start": 999,
+        "year_end": 1003,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2454783",
+            "url": "https://www.wikidata.org/wiki/Q2454783"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Cynan ap Hywel",
+            "url": "https://en.wikipedia.org/wiki/Cynan_ap_Hywel"
+          }
+        ]
+      },
+      {
+        "name": "Gruffudd ap Llywelyn",
+        "qid": "Q727897",
+        "year_start": 1055,
+        "year_end": 1063,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q727897",
+            "url": "https://www.wikidata.org/wiki/Q727897"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Gruffudd ap Llywelyn",
+            "url": "https://en.wikipedia.org/wiki/Gruffudd_ap_Llywelyn"
+          }
+        ]
+      }
+    ],
+    "predecessors_from_wikidata": [
+      "Kingdom of Brycheiniog",
+      "Kingdom of Dyfed",
+      "Kingdom of Seisyllwg"
+    ],
+    "successors_from_wikidata": [
+      "Principality of Wales"
+    ]
+  },
+  "sources": [
+    {
+      "type": "book",
+      "author": "Wickham, Chris",
+      "title": "The Inheritance of Rome: A History of Europe from 400 to 1000",
+      "publisher": "Allen Lane",
+      "year": 2009
+    },
+    {
+      "type": "book",
+      "author": "Abulafia, David (ed.)",
+      "title": "The New Cambridge Medieval History, Vol. V: c. 1198 – c. 1300",
+      "publisher": "Cambridge University Press",
+      "year": 1999
+    }
+  ],
+  "monogram": "DE"
+}

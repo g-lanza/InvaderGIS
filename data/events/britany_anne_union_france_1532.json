@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "britany_anne_union_france_1532",
+  "name": "Anne of Brittany and Union with France",
+  "year": 1514,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    48,
+    -3
+  ],
+  "entity": "duchy_of_brittany",
+  "summary": "Anne of Brittany, twice queen of France through marriage, died in 1514. Her daughter Claude's marriage to Francis I of France led to the Edict of Union (1532) incorporating Brittany into the French crown, ending Breton sovereignty.",
+  "outcomes": [
+    "brittany_absorbed_france",
+    "breton_autonomy_reduced"
+  ],
+  "_quarry": {
+    "participants": [
+      "duchy_of_brittany"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

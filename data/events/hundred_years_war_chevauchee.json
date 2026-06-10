@@ -1,0 +1,42 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "hundred_years_war_chevauchee",
+  "name": "The Chevauchée, Economic Warfare Strategy",
+  "year": 1355,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    48.85,
+    2.35
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "The English strategy of chevauchée, systematic large-scale raids through French territory designed to devastate the agricultural economy and demonstrate that the French king cannot protect his subjects, is employed repeatedly from the Black Prince's campaigns (1355-1356) through Agincourt (1415). The Black Prince's 1355 chevauchée through Languedoc destroys approximately 500 towns and villages.",
+  "outcomes": [
+    "systematic_devastation",
+    "french_economy_damaged",
+    "civilians_targeted"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "kingdom_of_france"
+    ],
+    "structural_significance": "The chevauchée is a medieval version of total war, deliberately targeting civilian economic infrastructure to undermine enemy war-making capacity and political legitimacy; the strategy works because medieval kingship's legitimacy rests partly on the ability to protect subjects; its systematic use creates the devastation of the French countryside that contributes to the Jacquerie revolt (1358) and the political crisis of Charles V's reign; the strategy demonstrates the medieval military's understanding of economic warfare",
+    "year_range": [
+      1337,
+      1415
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

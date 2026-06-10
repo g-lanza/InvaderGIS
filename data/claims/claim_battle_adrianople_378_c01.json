@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_battle_adrianople_378_c01",
+  "statement": "Emperor Valens led the Eastern Roman army to a catastrophic defeat against the Visigoths at Adrianople on 9 August 378, and was killed in the battle.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 378,
+    "to": 378
+  },
+  "derived_from": "battle_adrianople_378",
+  "unresolved_sources": [
+    "treadgold_a_1997",
+    "kazhdan_the_1991"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "haldon_byzantium_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

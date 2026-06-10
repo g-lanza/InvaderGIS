@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_poland_teutonic_piast",
+  "statement": "The Piast Polish kings competed with the Teutonic Order for control of Pomerania and later Samogitia (Lithuanian territory claimed by the Order) throughout the 13th–14th centuries. Władysław I 'the Short' unified fragmented Poland (1320) and immediately challenged the Order, winning the famous lawsuit at the papal court of Avignon (1320–1321) that granted Poland reparations — never collected. The Piast conflict with the Order established the territorial claims that the Jagiellonians later enforced militarily. The loss of Danzig/Gdańsk to the Order (1308) was the grievance that drove Polish policy toward the Order for 150 years.",
+  "subject_ids": [
+    "kingdom_of_poland_piast",
+    "teutonic_order_state"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_poland_teutonic_piast",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "davies_gods_1981",
+      "knoll_the_1972",
+      "christiansen_the_1997",
+      "urban_the_1994",
+      "turnbull_crusader_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1230,
+    "to": 1385
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_for_nizhniy_novgorod_1439",
+  "name": "Battle for Nizhniy Novgorod",
+  "subtype": "battle",
+  "start_year": 1439,
+  "end_year": 1439,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q120531939"
+    }
+  },
+  "description": "Battle during First Russo-Kazan War (1439)",
+  "coords": [
+    44.0032,
+    56.3285
+  ]
+}

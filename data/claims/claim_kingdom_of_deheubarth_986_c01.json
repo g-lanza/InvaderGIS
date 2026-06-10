@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_kingdom_of_deheubarth_986_c01",
+  "statement": "Maredudd ap Owain of Deheubarth briefly united much of Wales under his rule in the late 10th century, repelling Viking raids.",
+  "subject_ids": [
+    "kingdom_of_deheubarth"
+  ],
+  "period": {
+    "from": 986,
+    "to": 986
+  },
+  "derived_from": "kingdom_of_deheubarth_986",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

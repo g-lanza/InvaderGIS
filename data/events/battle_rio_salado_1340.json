@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_rio_salado_1340",
+  "name": "Battle of Río Salado, Last Moroccan Invasion of Spain",
+  "year": 1340,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    36.19,
+    -6.27
+  ],
+  "entity": "crown_of_castile",
+  "summary": "Alfonso XI of Castile and Afonso IV of Portugal defeat the Marinid sultan Abu al-Hasan and the Nasrid emir of Granada at Río Salado, the last significant Moroccan military intervention in Iberia. The battle ends the era of North African dynasties attempting to reverse the Reconquista. Control of the Strait of Gibraltar thereafter passes to Castile, permanently separating Iberian Islam from its African support.",
+  "outcomes": [
+    "marinid_moroccan_invasion_repulsed",
+    "straits_of_gibraltar_controlled",
+    "africa_europe_crossing_blocked"
+  ],
+  "_quarry": {
+    "participants": [
+      "crown_of_castile",
+      "kingdom_of_portugal",
+      "marinid_dynasty",
+      "emirate_of_granada"
+    ],
+    "structural_significance": "Río Salado is as significant as Las Navas (1212) for ending external Islamic military support for Iberian Islam; with no possibility of Moroccan reinforcement, the Nasrid emirate must depend entirely on its own resources and diplomatic accommodation with Castile; the Castilian control of the Strait accelerates the development of Portuguese and Castilian Atlantic navigation as the only viable alternative to Mediterranean routes",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "o'callaghan_a_1975",
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

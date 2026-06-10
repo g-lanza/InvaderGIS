@@ -1,0 +1,44 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "black_death_aftermath_1350",
+  "name": "Black Death Demographic Collapse and Social Transformation",
+  "year": 1350,
+  "type": "disaster",
+  "category": "hazard",
+  "coords": [
+    48.85,
+    2.35
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "By 1353, the Black Death has killed an estimated 25-30 million Europeans, roughly one-third of the continent's population. Survivors face a transformed economic world: labor is scarce, wages rise, and peasants can demand better terms or move to find them. The Church, which had no effective spiritual or medical response to the plague, suffers a profound loss of prestige. The flagellant movement (penitential self-scourging brotherhoods) spreads across Germany and the Low Countries, alarming both church and secular authorities.",
+  "outcomes": [
+    "labor_shortage_empowers_peasants",
+    "feudal_obligations_challenged",
+    "church_authority_undermined",
+    "flagellant_movement_spreads"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "kingdom_of_england",
+      "holy_roman_empire",
+      "papal_states"
+    ],
+    "structural_significance": "The Black Death is the single most transformative event of medieval social history; the labor shortage permanently weakens serfdom in western Europe while paradoxically strengthening it in eastern Europe where lords respond with increased coercion; the plague's recurrence (1360s, 1370s, 1380s) prevents demographic recovery for a century; the Church's failure to explain or stop the plague contributes to the late medieval spiritual crisis that eventually produces the Reformation",
+    "year_range": [
+      1347,
+      1353
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

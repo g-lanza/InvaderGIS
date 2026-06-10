@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "prince_henry_sagres_1418",
+  "name": "Henry the Navigator's school at Sagres",
+  "year": 1418,
+  "type": "exploration",
+  "category": "discovery",
+  "coords": [
+    37,
+    -8.94
+  ],
+  "entity": "kingdom_of_portugal",
+  "summary": "Prince Henry of Portugal patronises systematic Atlantic exploration from his base at Sagres on the Portuguese south-western tip. Madeira (1419), the Azores (1427), and a steady Portuguese push down the African coast (Cape Bojador rounded 1434) follow.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_portugal"
+    ],
+    "structural_significance": "Inaugurates the European Atlantic exploration that, within two generations after Henry's death, reaches India (Da Gama, 1498) and the New World (Columbus, 1492). The Portuguese caravel design developed under Henry's sponsorship is the defining ship of early modern oceanic navigation.",
+    "year_range": [
+      1418,
+      1460
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

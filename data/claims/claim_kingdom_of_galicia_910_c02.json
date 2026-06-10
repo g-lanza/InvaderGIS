@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_kingdom_of_galicia_910_c02",
+  "statement": "As the home of the shrine of Saint James at Santiago de Compostela, Galicia held unique spiritual prestige and attracted pilgrims from across Europe.",
+  "subject_ids": [
+    "kingdom_of_galicia"
+  ],
+  "period": {
+    "from": 910,
+    "to": 910
+  },
+  "derived_from": "kingdom_of_galicia_910",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

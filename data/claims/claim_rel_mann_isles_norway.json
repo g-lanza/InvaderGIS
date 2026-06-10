@@ -1,0 +1,30 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_mann_isles_norway",
+  "statement": "The Kingdom of the Isles (comprising the Hebrides and the Isle of Man) was an insular Norse kingdom that had existed under Norwegian suzerainty since Viking settlement (9th century). Its kings — most notably Godred Crovan (d. 1095), who united Man and the Hebrides — maintained a semi-independent status while nominally acknowledging Norwegian overlordship. King Haakon IV of Norway's expedition to the Hebrides (1263) to reassert Norwegian authority ended with the indecisive Battle of Largs; Haakon died returning to Norway. The Treaty of Perth (1266) transferred all islands to Scotland for 4,000 marks silver.",
+  "subject_ids": [
+    "kingdom_of_norway",
+    "kingdom_of_mann_isles"
+  ],
+  "predicate": "vassalage",
+  "derived_from": "rel_mann_isles_norway",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_the_1997",
+      "helle_the_2003",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "kingdom_of_mann_isles"
+  ],
+  "period": {
+    "from": 1079,
+    "to": 1265
+  }
+}

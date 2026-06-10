@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_alicante_1356_c01",
+  "statement": "Siege of Alicante (1356 CE), at Alicante (part of War of the Two Peters).",
+  "subject_ids": [
+    "republic_of_genoa"
+  ],
+  "period": {
+    "from": 1356,
+    "to": 1356
+  },
+  "derived_from": "wd_siege_of_alicante_1356",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_concordat_worms_1122_c02",
+  "statement": "Under the Concordat of Worms the emperor renounced investing bishops with ring and staff but retained investiture with the scepter for temporal lands.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1122,
+    "to": 1122
+  },
+  "derived_from": "concordat_worms_1122",
+  "unresolved_sources": [
+    "scales_the_2012"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

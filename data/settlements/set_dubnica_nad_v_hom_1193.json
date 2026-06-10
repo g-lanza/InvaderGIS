@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_dubnica_nad_v_hom_1193",
+  "name": "Dubnica nad Váhom",
+  "importance": "city",
+  "start_year": 1193,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q481528"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    18.1658,
+    48.9575
+  ]
+}

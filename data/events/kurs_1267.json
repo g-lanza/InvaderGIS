@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kurs_1267",
+  "name": "Curonians Submit to Livonian Order",
+  "year": 1267,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    57.0425,
+    23.6025
+  ],
+  "entity": "kurs",
+  "summary": "The Curonians formally submitted to the Livonian Order around 1267, ending their independence. Their submission was followed by Christianisation and gradual integration into the German-dominated Baltic social order. The Curonian dialect contributed to the later Latvian language.",
+  "outcomes": [
+    "independence_ends",
+    "christianisation_begins",
+    "latvian_territory"
+  ],
+  "_quarry": {
+    "participants": [
+      "kurs",
+      "livonian_order_state"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

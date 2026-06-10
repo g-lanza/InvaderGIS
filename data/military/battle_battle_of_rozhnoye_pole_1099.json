@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_rozhnoye_pole_1099",
+  "name": "Battle of Rozhnoye Pole",
+  "subtype": "battle",
+  "start_year": 1099,
+  "end_year": 1099,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q9172430"
+    }
+  },
+  "description": "Battle during Kievan Rus' Civil War of 1097–1100 (1099)",
+  "coords": [
+    24.8883,
+    49.9492
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "byzantine_restoration_1261",
+  "name": "Recapture of Constantinople",
+  "year": 1261,
+  "type": "coronation",
+  "category": "power",
+  "coords": [
+    41.01,
+    28.98
+  ],
+  "entity": "byzantine_empire",
+  "summary": "On July 25, 1261, the Byzantine general Alexios Strategopoulos leads a small force across the Bosphorus and enters Constantinople through an unguarded gate while the main Latin garrison is absent on an expedition. He captures the city without a siege; Emperor Michael VIII Palaiologos, who arranged this through the Treaty of Nymphaion (1261) with Genoa, enters the city in triumph. The Latin Empire of Constantinople ends after 57 years; the Byzantine Empire is formally restored and Michael crowns himself in Hagia Sophia.",
+  "outcomes": [
+    "palaiologoi_restored"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "empire_of_nicaea",
+      "latin_empire_constantinople"
+    ],
+    "structural_significance": "Ends the Latin Empire of Constantinople; restores Byzantine rule; drives Venice from its privileged position and replaces it with Genoa; but the restored Byzantine Empire lacks the strength of its predecessor",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

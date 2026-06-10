@@ -1,0 +1,111 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "mansa_musa_hajj_1324_1325",
+  "name": "Mansa Musa's Hajj",
+  "kind_type": "individual_journey",
+  "year_start": 1324,
+  "year_end": 1325,
+  "waypoints": [
+    {
+      "year": 1324,
+      "place": "Niani",
+      "coords": [
+        11.4,
+        -8.7
+      ],
+      "note": "Mali capital — departure with 60,000 attendants and 12,000 slaves carrying gold"
+    },
+    {
+      "year": 1324,
+      "place": "Walata",
+      "coords": [
+        17.3,
+        -7.03
+      ]
+    },
+    {
+      "year": 1324,
+      "place": "Taghaza",
+      "coords": [
+        23.5,
+        -4.5
+      ],
+      "note": "Saharan salt-mining outpost"
+    },
+    {
+      "year": 1324,
+      "place": "Tuat",
+      "coords": [
+        27.85,
+        -0.27
+      ]
+    },
+    {
+      "year": 1324,
+      "place": "Ghadames",
+      "coords": [
+        30.13,
+        9.5
+      ]
+    },
+    {
+      "year": 1324,
+      "place": "Cairo",
+      "coords": [
+        30.04,
+        31.24
+      ],
+      "note": "his gold spending crashed the Egyptian dinar for over a decade"
+    },
+    {
+      "year": 1325,
+      "place": "Medina",
+      "coords": [
+        24.47,
+        39.61
+      ]
+    },
+    {
+      "year": 1325,
+      "place": "Mecca",
+      "coords": [
+        21.42,
+        39.83
+      ],
+      "note": "completed the Hajj"
+    },
+    {
+      "year": 1325,
+      "place": "Cairo",
+      "coords": [
+        30.04,
+        31.24
+      ],
+      "note": "return"
+    },
+    {
+      "year": 1325,
+      "place": "Timbuktu",
+      "coords": [
+        16.77,
+        -3
+      ],
+      "note": "incorporated into Mali on the return trip; commissioned the Djinguereber Mosque"
+    },
+    {
+      "year": 1325,
+      "place": "Niani",
+      "coords": [
+        11.4,
+        -8.7
+      ],
+      "note": "return to capital"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

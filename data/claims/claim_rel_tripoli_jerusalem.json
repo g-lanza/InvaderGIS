@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_tripoli_jerusalem",
+  "statement": "The County of Tripoli — founded by Raymond IV of Toulouse (1105) after he failed to conquer Tripoli outright — and the Kingdom of Jerusalem maintained a close but occasionally contentious relationship throughout the 12th century. Tripoli served as the land bridge between Antioch and Jerusalem and provided critical military manpower. Raymond III of Tripoli served as regent of Jerusalem (1174–1177, 1185–1186) and his faction's quarrel with the Lusignan party contributed to the Frankish defeat at Hattin (1187). Tripoli survived the fall of Jerusalem; it was the last Crusader territory on the Syrian mainland, falling in 1289.",
+  "subject_ids": [
+    "county_of_tripoli",
+    "kingdom_of_jerusalem"
+  ],
+  "predicate": "alliance",
+  "derived_from": "rel_tripoli_jerusalem",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1102,
+    "to": 1289
+  }
+}

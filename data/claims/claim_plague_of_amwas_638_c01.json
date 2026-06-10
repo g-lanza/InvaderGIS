@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_plague_of_amwas_638_c01",
+  "statement": "An outbreak of bubonic plague struck the Syrian garrison town of Amwas in 638-639 during the Arab consolidation of the Levant.",
+  "subject_ids": [
+    "rashidun_caliphate"
+  ],
+  "period": {
+    "from": 638,
+    "to": 638
+  },
+  "derived_from": "plague_of_amwas_638",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "hodgson_venture_of_islam_1974"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

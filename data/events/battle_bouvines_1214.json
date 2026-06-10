@@ -1,0 +1,36 @@
+{
+ "kind": "event",
+ "dataset": "medieval-europe-500-1500",
+ "id": "battle_bouvines_1214",
+ "name": "Battle of Bouvines",
+ "year": 1214,
+ "type": "battle",
+ "category": "violence",
+ "coords": [
+  50.59,
+  3.04
+ ],
+ "entity": "kingdom_of_france",
+ "summary": "Philip II Augustus of France defeats a coalition of Otto IV (Holy Roman Emperor), King John of England, Count Ferrand of Flanders, and Renaud of Boulogne. The battle decisively consolidates Capetian power in France, confirms the loss of English-held Normandy, and contributes to John's baronial crisis that produces Magna Carta (1215). It is also one of the first battles where infantry played a decisive tactical role.",
+ "outcomes": [
+  "philip_augustus_victory",
+  "english_continental_losses_confirmed"
+ ],
+ "_quarry": {
+  "participants": [
+   "kingdom_of_france",
+   "holy_roman_empire",
+   "kingdom_of_england"
+  ],
+  "structural_significance": "Consolidates the French Capetian monarchy as the dominant force in Western Europe; English defeat in France redirects English political energy toward domestic constitutional reform (Magna Carta)",
+  "year_range": null
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "ims_fordham",
+   "ims_fordham_sbook1m"
+  ],
+  "confidence": "low"
+ }
+}

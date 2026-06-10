@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_justinian_plague_second_wave_558_c01",
+  "statement": "Plague returned to Constantinople in 558, killing thousands daily according to Agathias.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 558,
+    "to": 558
+  },
+  "derived_from": "justinian_plague_second_wave_558",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kaldellis_streams_of_gold_2017",
+      "campbell_great_transition_2016"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

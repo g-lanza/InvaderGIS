@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_temple_of_the_gadde_500",
+  "name": "Temple of The Gadde",
+  "importance": "city",
+  "start_year": 500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "inferred",
+    "external_ids": {
+      "pleiades": "888638017"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    40.7307,
+    34.7474
+  ]
+}

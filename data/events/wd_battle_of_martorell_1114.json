@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_martorell_1114",
+  "name": "Battle of Martorell",
+  "year": 1114,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.2,
+    -0.9
+  ],
+  "entity": "almoravid_emirate_iberia",
+  "summary": "Battle of Martorell (1114 CE), (part of Almoravid expedition to Catalonia). Source: Wikidata Q15895729.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "almoravid_emirate_iberia",
+      "county_of_barcelona"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_the_2004",
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

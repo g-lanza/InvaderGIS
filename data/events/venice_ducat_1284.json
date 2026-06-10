@@ -1,0 +1,31 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "venice_ducat_1284",
+  "name": "Venice mints the gold ducat",
+  "year": 1284,
+  "type": "economic",
+  "category": "economy",
+  "coords": [
+    45.4408,
+    12.3155
+  ],
+  "entity": "republic_of_venice",
+  "summary": "The Venetian Great Council authorises the minting of the gold ducat (later zecchino), 3.5 g of pure gold matched in weight to the Florentine florin. The ducat becomes the Mediterranean's most stable gold coinage and circulates unchanged in weight and fineness for five centuries.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice"
+    ],
+    "structural_significance": "Sets the dominant Mediterranean gold currency standard; carries the Venetian commercial empire into a position of monetary primacy that outlasts its territorial decline.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lopez_commercial_revolution_1971",
+      "abulafia_great_sea_2011"
+    ],
+    "confidence": "low"
+  }
+}

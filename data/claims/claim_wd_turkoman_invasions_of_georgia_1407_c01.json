@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_turkoman_invasions_of_georgia_1407_c01",
+  "statement": "Turkoman invasions of Georgia (1407 CE), at Caucasus.",
+  "subject_ids": [
+    "kingdom_of_georgia"
+  ],
+  "period": {
+    "from": 1407,
+    "to": 1407
+  },
+  "derived_from": "wd_turkoman_invasions_of_georgia_1407",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

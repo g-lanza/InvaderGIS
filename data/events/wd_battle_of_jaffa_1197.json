@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_jaffa_1197",
+  "name": "Battle of Jaffa",
+  "year": 1197,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    31.8,
+    35.2
+  ],
+  "entity": "kingdom_of_jerusalem",
+  "summary": "Battle of Jaffa (1197 CE), at Jaffa (part of Crusade of 1197). Source: Wikidata Q125480916.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_jerusalem"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

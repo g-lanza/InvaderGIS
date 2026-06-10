@@ -1,0 +1,39 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_georgia_byzantine",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_georgia",
+      "role": "principal"
+    },
+    {
+      "entity_id": "byzantine_empire",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "alliance",
+  "since": 1000,
+  "until": 1204,
+  "note": "The Kingdom of Georgia maintained a complex relationship with Byzantium from the 10th century onward — periodically allied (against the Seljuks), periodically in conflict (over Anatolia's border territories), and culturally deeply influenced by Byzantine art, theology, and court culture. The Georgian Golden Age under Queen Tamar (1184–1213) overlapped with the Fourth Crusade's dismemberment of Byzantium (1204); Georgian expansion into Trebizond helped create the Empire of Trebizond (1204) as a Byzantine successor state. The Mongol invasions (1220–1236) devastated Georgia and ended its role as a regional power.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Georgia's Byzantine cultural affiliation produces one of the finest expressions of Orthodox Christian culture outside Byzantium; the Georgian-Trebizond connection creates the last Byzantine successor state; the Mongol invasions of Georgia and Armenia simultaneously remove the main non-Byzantine Christian barrier to Mongol advance into Anatolia"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

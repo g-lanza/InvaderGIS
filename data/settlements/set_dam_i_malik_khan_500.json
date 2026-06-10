@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_dam_i_malik_khan_500",
+  "name": "Dam-i Malik Khan",
+  "importance": "city",
+  "start_year": 500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "inferred",
+    "external_ids": {
+      "pleiades": "753689708"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    61.8596,
+    30.5801
+  ]
+}

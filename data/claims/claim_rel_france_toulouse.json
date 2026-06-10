@@ -1,0 +1,31 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_france_toulouse",
+  "statement": "The County of Toulouse — the dominant power in Languedoc — was drawn into the French orbit through the Albigensian Crusade (1209–1229). Count Raymond VI of Toulouse, suspected of harboring Cathars, was excommunicated and his lands attacked. The Treaty of Paris (1229) forced Count Raymond VII to surrender half his lands, to hunt heretics, and to marry his daughter Jeanne to Alphonse of Poitiers (Louis IX's brother). When Alphonse and Jeanne died without children (1271), Toulouse reverted to the French crown, completing the absorption of Languedoc and permanently eliminating the distinct Occitanian cultural sphere.",
+  "subject_ids": [
+    "kingdom_of_france",
+    "county_of_toulouse"
+  ],
+  "predicate": "vassalage",
+  "derived_from": "rel_france_toulouse",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "county_of_toulouse"
+  ],
+  "period": {
+    "from": 1209,
+    "to": 1271
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_kyiv_898",
+  "name": "Siege of Kyiv",
+  "year": 898,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    50.4,
+    30.5
+  ],
+  "entity": "kievan_rus",
+  "summary": "Siege of Kyiv (898 CE), at Kyiv (part of Hungarian invasions of Europe). Source: Wikidata Q16683521.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kievan_rus"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "franklin_the_1996",
+      "riasanovsky_a_2000",
+      "martin_medieval_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

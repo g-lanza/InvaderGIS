@@ -1,0 +1,34 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_pisa_rival_genoa",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "republic_of_pisa",
+      "role": "principal"
+    },
+    {
+      "entity_id": "republic_of_genoa",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 1099,
+  "until": 1288,
+  "note": "Pisa and Genoa competed as rival maritime cities in the western Mediterranean, particularly for control of Corsica and Sardinia. The defining conflict was the Battle of Meloria (1284), in which a Genoese fleet decisively defeated the Pisan fleet; thousands of Pisan sailors were taken prisoner (they were kept in Genoa for years — the Genoese saying was 'to see Pisa, go to Genoa'). Meloria ended Pisa's status as a major naval power; Genoa took control of Corsica, and Pisa subsequently came under Florentine influence. Pisa's distinctive architectural achievements (Leaning Tower, baptistery) reflect the commercial wealth of its 11th–12th century prime.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Battle of Meloria (1284) ends Pisa as a naval power and establishes Genoese dominance of the western Mediterranean; Pisa's decline opens Sardinia to Aragonese conquest; the subsequent Florentine acquisition of Pisa (1406) gives Florence its long-sought port, enabling the Medici commercial empire"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

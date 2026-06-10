@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_duchy_of_tuscany_1115_c03",
+  "statement": "The dispute over Matilda's bequest fuelled the territorial dimension of the Investiture Controversy and destabilised central Italy for generations.",
+  "subject_ids": [
+    "duchy_of_tuscany"
+  ],
+  "period": {
+    "from": 1115,
+    "to": 1115
+  },
+  "derived_from": "duchy_of_tuscany_1115",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

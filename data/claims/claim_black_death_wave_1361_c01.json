@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_black_death_wave_1361_c01",
+  "statement": "The plague recurrence of 1361, known as the pestis secunda or pestis puerorum, disproportionately killed children who lacked acquired immunity.",
+  "subject_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 1361,
+    "to": 1361
+  },
+  "derived_from": "black_death_wave_1361",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "campbell_great_transition_2016"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

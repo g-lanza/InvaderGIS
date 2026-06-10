@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_navarre_1076_c02",
+  "statement": "The 1076 partition weakened Navarrese power and began a long period of vulnerability between stronger neighbours.",
+  "subject_ids": [
+    "kingdom_of_navarre"
+  ],
+  "period": {
+    "from": 1076,
+    "to": 1076
+  },
+  "derived_from": "navarre_1076",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

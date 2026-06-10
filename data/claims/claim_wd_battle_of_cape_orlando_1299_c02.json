@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_cape_orlando_1299_c02",
+  "statement": "The Battle of Cape Orlando took place at Capo d'Orlando.",
+  "subject_ids": [
+    "crown_of_aragon"
+  ],
+  "period": {
+    "from": 1299,
+    "to": 1299
+  },
+  "derived_from": "wd_battle_of_cape_orlando_1299",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

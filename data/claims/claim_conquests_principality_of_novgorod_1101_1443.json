@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_principality_of_novgorod_1101_1443",
+  "statement": "Novgorod Republic — campaigns and battles spanned 1101–1443, from Swedish–Novgorodian Wars to Novgorod-Livonian War.",
+  "subject_ids": [
+    "principality_of_novgorod"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_principality_of_novgorod_1101_1443",
+  "period": {
+    "from": 1101,
+    "to": 1443
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "martin_treasure_1986",
+      "birnbaum_lord_1981"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

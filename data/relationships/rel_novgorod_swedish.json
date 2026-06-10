@@ -1,0 +1,36 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_novgorod_swedish",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "principality_of_novgorod",
+      "role": "principal"
+    },
+    {
+      "entity_id": "kingdom_of_sweden",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 1142,
+  "until": 1323,
+  "note": "Novgorod and Sweden competed for control of Finland and the eastern Baltic coastline throughout the 12th–14th centuries. Swedish expansion into Finland (the Swedish crusades, 1157–1293) and their fortress at Vyborg (1293) brought them into direct conflict with Novgorod's fur-trade tributary zone. Alexander Nevsky's victory over Swedish forces at the Battle of the Neva (1240) — which earned him his epithet 'Nevsky' (of the Neva) — temporarily halted Swedish expansion. The border between Swedish Finland and Novgorodian Karelia was formalized in the Peace of Nöteborg (1323), which divided Karelia between the two powers.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Novgorod-Swedish competition defines the political geography of the eastern Baltic for four centuries; Alexander Nevsky's Neva victory becomes his defining achievement; the Peace of Nöteborg (1323) creates the Russo-Swedish border that shifts repeatedly through the Napoleonic Wars, with Finland's status never fully stable"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "martin_treasure_1986",
+      "birnbaum_lord_1981",
+      "sawyer_medieval_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

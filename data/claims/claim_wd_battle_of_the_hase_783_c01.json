@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_the_hase_783_c01",
+  "statement": "Battle of the Hase (783 CE), at Osnabrück (part of Saxon Wars).",
+  "subject_ids": [
+    "merovingian_kingdom"
+  ],
+  "period": {
+    "from": 783,
+    "to": 783
+  },
+  "derived_from": "wd_battle_of_the_hase_783",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wood_the_1994",
+      "geary_before_1988"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

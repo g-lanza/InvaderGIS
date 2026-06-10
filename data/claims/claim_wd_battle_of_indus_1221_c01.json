@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_indus_1221_c01",
+  "statement": "Battle of Indus (1221 CE), at Indus River (part of Mongol invasion of Khwarazmian Empire and Eastern Iran).",
+  "subject_ids": [
+    "mongol_empire"
+  ],
+  "period": {
+    "from": 1221,
+    "to": 1221
+  },
+  "derived_from": "wd_battle_of_indus_1221",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

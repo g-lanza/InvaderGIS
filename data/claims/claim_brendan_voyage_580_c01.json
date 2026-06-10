@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_brendan_voyage_580_c01",
+  "statement": "The Navigatio Sancti Brendani Abbatis, elaborating the Irish abbot Brendan's legendary Atlantic voyage, became one of the most-copied Latin texts of the central Middle Ages.",
+  "subject_ids": [
+    "kingdom_of_dal_riata"
+  ],
+  "period": {
+    "from": 580,
+    "to": 580
+  },
+  "derived_from": "brendan_voyage_580",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "bartlett_making_of_europe_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

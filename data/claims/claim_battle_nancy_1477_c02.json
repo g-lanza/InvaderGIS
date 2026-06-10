@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_battle_nancy_1477_c02",
+  "statement": "Charles the Bold's death at Nancy ended the Valois Burgundian state, and his daughter Mary's marriage to Maximilian of Habsburg reshaped European politics.",
+  "subject_ids": [
+    "duchy_of_burgundy"
+  ],
+  "period": {
+    "from": 1477,
+    "to": 1477
+  },
+  "derived_from": "battle_nancy_1477",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

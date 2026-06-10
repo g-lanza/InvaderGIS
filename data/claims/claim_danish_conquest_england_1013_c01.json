@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_danish_conquest_england_1013_c01",
+  "statement": "Sweyn Forkbeard of Denmark conquered England in 1013, compelling the submission of Northumbria, the Danelaw, and the southern kingdoms.",
+  "subject_ids": [
+    "north_sea_empire"
+  ],
+  "period": {
+    "from": 1013,
+    "to": 1013
+  },
+  "derived_from": "danish_conquest_england_1013",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

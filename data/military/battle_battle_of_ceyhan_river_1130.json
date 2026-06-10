@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_ceyhan_river_1130",
+  "name": "Battle of Ceyhan River",
+  "subtype": "battle",
+  "start_year": 1130,
+  "end_year": 1130,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q137756527"
+    }
+  },
+  "description": "Battle during Crusader battles between 1101 and 1145 (1130)",
+  "coords": [
+    35.5596,
+    36.5652
+  ]
+}

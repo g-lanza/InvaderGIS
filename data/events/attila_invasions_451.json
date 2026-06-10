@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "attila_invasions_451",
+  "name": "Attila's Invasion of Gaul and Italy",
+  "year": 451,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    48.5,
+    4
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Attila the Hun's massive invasion of Gaul is halted at the Battle of the Catalaunian Fields (Châlons) by a Roman-Visigoth coalition under Aetius. The following year Attila invades Italy, reaching Milan, but withdraws, possibly due to plague, famine, or Pope Leo I's famous embassy. Attila dies in 453; the Hunnic empire collapses within years.",
+  "outcomes": [
+    "battle_of_chalons",
+    "roman_papal_diplomacy",
+    "hunnic_withdrawal"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire"
+    ],
+    "structural_significance": "The last major Roman military victory in the west; Aetius's subsequent murder by Valentinian III eliminates the last capable western commander; the Hunnic collapse pushes further Germanic peoples into Roman territory.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

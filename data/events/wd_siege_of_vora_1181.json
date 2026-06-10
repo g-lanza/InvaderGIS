@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_vora_1181",
+  "name": "Siege of Évora",
+  "year": 1181,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    38.25,
+    -6
+  ],
+  "entity": "kingdom_of_portugal",
+  "summary": "Siege of Évora (1181 CE), at Évora (part of Spanish Christian–Muslim War of 1172–1212). Source: Wikidata Q130270158.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_portugal",
+      "almohad_caliphate_iberia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

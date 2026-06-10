@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battles_of_heraclea_1101",
+  "name": "Battles of Heraclea",
+  "year": 1101,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    45,
+    15.1667
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Battles of Heraclea (1101 CE), at Konya (part of Crusade of 1101). Source: Wikidata Q113624851.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "kingdom_of_france",
+      "sultanate_of_rum"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

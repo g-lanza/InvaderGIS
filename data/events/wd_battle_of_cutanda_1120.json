@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_cutanda_1120",
+  "name": "Battle of Cutanda",
+  "year": 1120,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.35,
+    -2.45
+  ],
+  "entity": "almoravid_emirate_iberia",
+  "summary": "Battle of Cutanda (1120 CE), at Cutanda (part of Reconquista). Source: Wikidata Q2630913.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "almoravid_emirate_iberia",
+      "kingdom_of_aragon"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_the_2004",
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

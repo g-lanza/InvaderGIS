@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_bryn_glas_1402",
+  "name": "Battle of Bryn Glas",
+  "year": 1402,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    52.5,
+    -2.4
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Battle of Bryn Glas (1402 CE), at Pilleth (part of Glyndŵr rebellion). Source: Wikidata Q2139756.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "principality_of_wales"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_belgrade_1440",
+  "name": "Siege of Belgrade",
+  "year": 1440,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    42.685,
+    24.915
+  ],
+  "entity": "ottoman_empire",
+  "summary": "Siege of Belgrade (1440 CE), at Belgrade (part of Serbian–Ottoman Wars). Source: Wikidata Q12756567.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "ottoman_empire",
+      "serbian_despotate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

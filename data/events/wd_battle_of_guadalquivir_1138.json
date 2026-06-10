@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_guadalquivir_1138",
+  "name": "Battle of Guadalquivir",
+  "year": 1138,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39,
+    -4
+  ],
+  "entity": "almoravid_emirate_iberia",
+  "summary": "Battle of Guadalquivir (1138 CE), at Guadalquivir (part of Almoravid conquest of al-Andalus). Source: Wikidata Q131686321.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "almoravid_emirate_iberia",
+      "kingdom_of_castile"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_the_2004",
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

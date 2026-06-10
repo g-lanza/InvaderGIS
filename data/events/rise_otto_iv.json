@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rise_otto_iv",
+  "name": "Otto IV imperial coronation",
+  "year": 1209,
+  "type": "coronation",
+  "category": "power",
+  "coords": [
+    41.9,
+    12.45
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Otto IV of Brunswick, a Welf, is elected Holy Roman Emperor (1198) after Philip of Swabia's assassination, supported by Pope Innocent III. Otto is crowned in Rome (1209). His subsequent betrayal of papal promises (he invaded papal territories in Italy rather than conceding them) provokes Innocent III to excommunicate him and back the Hohenstaufen candidate Frederick II. Otto's defeat at the Battle of Bouvines (1214), where he fought alongside King John of England against Philip Augustus of France and Frederick II, destroys his power base. He dies in 1218, leaving Frederick II as undisputed emperor.",
+  "outcomes": [
+    "welf_hohenstaufen_struggle"
+  ],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "kingdom_of_england"
+    ],
+    "structural_significance": "The Welf-Staufen succession struggle allows Innocent III to position the papacy as kingmaker in the Empire; Otto's defeat at Bouvines decisively shifts imperial power to Frederick II; Bouvines simultaneously destroys King John's prestige and precipitates Magna Carta (1215)",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

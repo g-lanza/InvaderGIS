@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_first_ottoman_venetian_war_1463_c01",
+  "statement": "First Ottoman–Venetian War (1463 CE), at Peloponnese (part of Ottoman–Venetian Wars).",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1463,
+    "to": 1463
+  },
+  "derived_from": "wd_first_ottoman_venetian_war_1463",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

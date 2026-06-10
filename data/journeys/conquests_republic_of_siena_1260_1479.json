@@ -1,0 +1,69 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_republic_of_siena_1260_1479",
+  "name": "Republic of Siena — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1260,
+  "year_end": 1479,
+  "waypoints": [
+    {
+      "year": 1260,
+      "place": "Siena Defeats Florence at Montaperti",
+      "coords": [
+        43.56,
+        11.265
+      ],
+      "note": "military",
+      "event_id": "republic_of_siena_1260"
+    },
+    {
+      "year": 1375,
+      "place": "War of the Eight Saints",
+      "coords": [
+        43.2067,
+        11.6767
+      ],
+      "note": "military",
+      "event_id": "wd_war_of_the_eight_saints_1375"
+    },
+    {
+      "year": 1390,
+      "place": "First Milano–Florentine War",
+      "coords": [
+        45.115,
+        11.4125
+      ],
+      "note": "military",
+      "event_id": "wd_first_milano_florentine_war_1390"
+    },
+    {
+      "year": 1478,
+      "place": "Pazzi War",
+      "coords": [
+        43.9743,
+        10.4757
+      ],
+      "note": "military",
+      "event_id": "wd_pazzi_war_1478"
+    },
+    {
+      "year": 1479,
+      "place": "Battle of Poggio Imperiale",
+      "coords": [
+        43.384,
+        10.366
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_poggio_imperiale_1479"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

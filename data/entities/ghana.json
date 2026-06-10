@@ -1,0 +1,2932 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ghana",
+  "name_primary": "Ghana Empire",
+  "name_variants": [
+    "Ghana"
+  ],
+  "type": "kingdom",
+  "region": "west_africa",
+  "formed": 500,
+  "dissolved": 1235,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 800,
+      "label": "Ghana Empire",
+      "polygon": [
+        [
+          16.38,
+          -11.91
+        ],
+        [
+          17.11,
+          -11.7
+        ],
+        [
+          17.64,
+          -7.83
+        ],
+        [
+          16.7,
+          -5.01
+        ],
+        [
+          15.55,
+          -4.8
+        ],
+        [
+          14.4,
+          -7
+        ],
+        [
+          14.29,
+          -8.88
+        ],
+        [
+          15.76,
+          -11.8
+        ],
+        [
+          16.38,
+          -11.91
+        ]
+      ]
+    },
+    {
+      "year": 1000,
+      "label": "Ghana Empire",
+      "polygon": [
+        [
+          17.11,
+          -11.7
+        ],
+        [
+          17.64,
+          -7.83
+        ],
+        [
+          16.7,
+          -5.01
+        ],
+        [
+          15.55,
+          -4.8
+        ],
+        [
+          14.4,
+          -7
+        ],
+        [
+          14.29,
+          -8.88
+        ],
+        [
+          15.76,
+          -11.8
+        ],
+        [
+          16.38,
+          -11.91
+        ],
+        [
+          17.11,
+          -11.7
+        ]
+      ]
+    },
+    {
+      "year": 1100,
+      "label": "Ghana Empire",
+      "polygon": [
+        [
+          17.11,
+          -11.7
+        ],
+        [
+          17.64,
+          -7.83
+        ],
+        [
+          16.7,
+          -5.01
+        ],
+        [
+          15.55,
+          -4.8
+        ],
+        [
+          14.4,
+          -7
+        ],
+        [
+          14.29,
+          -8.88
+        ],
+        [
+          15.76,
+          -11.8
+        ],
+        [
+          16.38,
+          -11.91
+        ],
+        [
+          17.11,
+          -11.7
+        ]
+      ]
+    },
+    {
+      "year": 1200,
+      "label": "Ghana Empire",
+      "polygon": [
+        [
+          17.11,
+          -11.7
+        ],
+        [
+          17.64,
+          -7.83
+        ],
+        [
+          16.7,
+          -5.01
+        ],
+        [
+          15.55,
+          -4.8
+        ],
+        [
+          14.4,
+          -7
+        ],
+        [
+          14.29,
+          -8.88
+        ],
+        [
+          15.76,
+          -11.8
+        ],
+        [
+          16.38,
+          -11.91
+        ],
+        [
+          17.11,
+          -11.7
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    16.104,
+    -8.96
+  ],
+  "population_estimates": [
+    {
+      "year": 1000,
+      "estimate": 1000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q117",
+          "url": "https://www.wikidata.org/wiki/Q117",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Ghana",
+          "url": "https://en.wikipedia.org/wiki/Ghana"
+        }
+      ]
+    },
+    {
+      "year": 1025,
+      "estimate": 1250000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q117",
+          "url": "https://www.wikidata.org/wiki/Q117",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Ghana",
+          "url": "https://en.wikipedia.org/wiki/Ghana"
+        }
+      ]
+    },
+    {
+      "year": 1050,
+      "estimate": 1500000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q117",
+          "url": "https://www.wikidata.org/wiki/Q117",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Ghana",
+          "url": "https://en.wikipedia.org/wiki/Ghana"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "West African empire (c. 300–1235) controlling the gold-salt exchange at the southern Saharan frontier; Ghana's kings taxed all gold entering and leaving the empire, supporting a royal city of Kumbi Saleh described by Arab geographers as one of Africa's great trading centres; gradual Almoravid pressure and internal fragmentation weakened it before Sundiata's Mali empire absorbed its territories.",
+  "temporal": {
+    "start_year": 500,
+    "end_year": 1235,
+    "notes": ""
+  },
+  "geographic": {
+    "centroid": [
+      16.104,
+      -8.96
+    ],
+    "polygon_simplified": [
+      [
+        17.11,
+        -11.7
+      ],
+      [
+        17.64,
+        -7.83
+      ],
+      [
+        16.7,
+        -5.01
+      ],
+      [
+        15.55,
+        -4.8
+      ],
+      [
+        14.4,
+        -7
+      ],
+      [
+        14.29,
+        -8.88
+      ],
+      [
+        15.76,
+        -11.8
+      ],
+      [
+        16.38,
+        -11.91
+      ],
+      [
+        17.11,
+        -11.7
+      ]
+    ],
+    "capital": {
+      "name": "Accra",
+      "coords": [
+        5.55602,
+        -0.1969
+      ],
+      "source": "wikidata"
+    },
+    "polygon_snapshots": [
+      {
+        "year": 800,
+        "label": "Ghana Empire",
+        "polygon": [
+          [
+            16.38,
+            -11.91
+          ],
+          [
+            17.11,
+            -11.7
+          ],
+          [
+            17.64,
+            -7.83
+          ],
+          [
+            16.7,
+            -5.01
+          ],
+          [
+            15.55,
+            -4.8
+          ],
+          [
+            14.4,
+            -7
+          ],
+          [
+            14.29,
+            -8.88
+          ],
+          [
+            15.76,
+            -11.8
+          ],
+          [
+            16.38,
+            -11.91
+          ]
+        ]
+      },
+      {
+        "year": 1000,
+        "label": "Ghana Empire",
+        "polygon": [
+          [
+            17.11,
+            -11.7
+          ],
+          [
+            17.64,
+            -7.83
+          ],
+          [
+            16.7,
+            -5.01
+          ],
+          [
+            15.55,
+            -4.8
+          ],
+          [
+            14.4,
+            -7
+          ],
+          [
+            14.29,
+            -8.88
+          ],
+          [
+            15.76,
+            -11.8
+          ],
+          [
+            16.38,
+            -11.91
+          ],
+          [
+            17.11,
+            -11.7
+          ]
+        ]
+      },
+      {
+        "year": 1100,
+        "label": "Ghana Empire",
+        "polygon": [
+          [
+            17.11,
+            -11.7
+          ],
+          [
+            17.64,
+            -7.83
+          ],
+          [
+            16.7,
+            -5.01
+          ],
+          [
+            15.55,
+            -4.8
+          ],
+          [
+            14.4,
+            -7
+          ],
+          [
+            14.29,
+            -8.88
+          ],
+          [
+            15.76,
+            -11.8
+          ],
+          [
+            16.38,
+            -11.91
+          ],
+          [
+            17.11,
+            -11.7
+          ]
+        ]
+      },
+      {
+        "year": 1200,
+        "label": "Ghana Empire",
+        "polygon": [
+          [
+            17.11,
+            -11.7
+          ],
+          [
+            17.64,
+            -7.83
+          ],
+          [
+            16.7,
+            -5.01
+          ],
+          [
+            15.55,
+            -4.8
+          ],
+          [
+            14.4,
+            -7
+          ],
+          [
+            14.29,
+            -8.88
+          ],
+          [
+            15.76,
+            -11.8
+          ],
+          [
+            16.38,
+            -11.91
+          ],
+          [
+            17.11,
+            -11.7
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "real_historical_boundary",
+    "polygon_source": "aourednik/historical-basemaps",
+    "polygon_source_date": "2026-05-09"
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "foundation",
+      "years": "c.300–700",
+      "description": "Soninke Wagadou kingdom establishes control of Bambuk gold deposits; Arab and Berber traders begin regular trans-Saharan contact",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q117",
+          "url": "https://www.wikidata.org/wiki/Q117"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Ghana",
+          "url": "https://en.wikipedia.org/wiki/Ghana"
+        }
+      ]
+    },
+    {
+      "phase": "peak",
+      "years": "700–1000",
+      "description": "Al-Bakri describes Ghana as one of the world's great kingdoms; Kumbi Saleh becomes major commercial city; gold and salt monopoly at maximum extent",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q117",
+          "url": "https://www.wikidata.org/wiki/Q117"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Ghana",
+          "url": "https://en.wikipedia.org/wiki/Ghana"
+        }
+      ]
+    },
+    {
+      "phase": "crisis",
+      "years": "1000–1076",
+      "description": "Almoravid Berber confederation attacks from north; internal tensions between Muslim merchants and traditional rulers",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q117",
+          "url": "https://www.wikidata.org/wiki/Q117"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Ghana",
+          "url": "https://en.wikipedia.org/wiki/Ghana"
+        }
+      ]
+    },
+    {
+      "phase": "dissolution",
+      "years": "1076–1235",
+      "description": "Almoravid capture of Kumbi Saleh (1076); Ghana fragments; tributary kingdoms become independent; Sundiata's Mali absorbs remaining territories",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q117",
+          "url": "https://www.wikidata.org/wiki/Q117"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Ghana",
+          "url": "https://en.wikipedia.org/wiki/Ghana"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "resource_concentration",
+      "layer": "economic_commercial",
+      "description": "Direct control of Bambuk and Bure gold deposits, the primary gold source for all medieval Saharan trade, gave Ghana structural commercial dominance",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q117",
+          "url": "https://www.wikidata.org/wiki/Q117"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Ghana",
+          "url": "https://en.wikipedia.org/wiki/Ghana"
+        }
+      ]
+    },
+    {
+      "tag": "geographic_advantage",
+      "layer": "geography_territory",
+      "description": "Position at the southern terminus of trans-Saharan routes allowed Ghana to tax all north-south commerce without possessing the Saharan routes themselves",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q117",
+          "url": "https://www.wikidata.org/wiki/Q117"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Ghana",
+          "url": "https://en.wikipedia.org/wiki/Ghana"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "overextension",
+      "layer": "military_security",
+      "description": "Almoravid Berber military pressure from the north proved beyond Ghana's cavalry to counter in open desert terrain",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q117",
+          "url": "https://www.wikidata.org/wiki/Q117"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Ghana",
+          "url": "https://en.wikipedia.org/wiki/Ghana"
+        }
+      ],
+      "tag_prose": "military_overextension"
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Bassi",
+      "role": "ruler",
+      "years": "1040–1062",
+      "year_start": 1040,
+      "year_end": 1062,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Bassi",
+          "url": "https://en.wikipedia.org/wiki/Bassi"
+        }
+      ]
+    },
+    {
+      "name": "Tunka Manin",
+      "role": "ruler",
+      "years": "1062–1076",
+      "year_start": 1062,
+      "year_end": 1076,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Tunka Manin",
+          "url": "https://en.wikipedia.org/wiki/Tunka_Manin"
+        }
+      ]
+    }
+  ],
+  "successor_entity_ids": [
+    "mali"
+  ],
+  "economic": {
+    "primary_base": "long_distance_trade",
+    "secondary_bases": [
+      "agriculture",
+      "gold_trade",
+      "salt_trade"
+    ],
+    "wealth_level": "high",
+    "major_exports": [
+      "gold",
+      "slaves",
+      "ivory",
+      "kola_nuts"
+    ],
+    "major_trade_partners": [
+      "almoravid_emirate_iberia",
+      "north_africa_berbers"
+    ],
+    "revenue_sources": [
+      "gold_transit_tax",
+      "salt_trade_duties",
+      "tribute"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q117",
+        "url": "https://www.wikidata.org/wiki/Q117"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Ghana",
+        "url": "https://en.wikipedia.org/wiki/Ghana"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q117",
+    "matched_name": "Ghana",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ghana",
+    "capital": {
+      "name": "Accra",
+      "coords": [
+        5.55602,
+        -0.1969
+      ]
+    },
+    "rulers_from_wikidata": [
+      {
+        "name": "Kwame Governs Agbodza",
+        "qid": "Q61694653",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q61694653",
+            "url": "https://www.wikidata.org/wiki/Q61694653"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Kwame Governs Agbodza",
+            "url": "https://en.wikipedia.org/wiki/Kwame_Governs_Agbodza"
+          }
+        ]
+      },
+      {
+        "name": "Margaret Clarke-Kwestie",
+        "qid": "Q63702425",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q63702425",
+            "url": "https://www.wikidata.org/wiki/Q63702425"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Margaret Clarke-Kwestie",
+            "url": "https://en.wikipedia.org/wiki/Margaret_Clarke-Kwestie"
+          }
+        ]
+      },
+      {
+        "name": "Lariba Zuweira Abudu",
+        "qid": "Q138665970",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q138665970",
+            "url": "https://www.wikidata.org/wiki/Q138665970"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Lariba Zuweira Abudu",
+            "url": "https://en.wikipedia.org/wiki/Lariba_Zuweira_Abudu"
+          }
+        ]
+      },
+      {
+        "name": "Martin Kwaku Adjei-Mensah Korsah",
+        "qid": "Q83870754",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q83870754",
+            "url": "https://www.wikidata.org/wiki/Q83870754"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Martin Kwaku Adjei-Mensah Korsah",
+            "url": "https://en.wikipedia.org/wiki/Martin_Kwaku_Adjei-Mensah_Korsah"
+          }
+        ]
+      },
+      {
+        "name": "Lipkalimor Kwajo Tawiah",
+        "qid": "Q97012456",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q97012456",
+            "url": "https://www.wikidata.org/wiki/Q97012456"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Lipkalimor Kwajo Tawiah",
+            "url": "https://en.wikipedia.org/wiki/Likpalimor_Kwajo_Tawiah"
+          }
+        ]
+      },
+      {
+        "name": "Samuel Sallas Mensah",
+        "qid": "Q98828186",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q98828186",
+            "url": "https://www.wikidata.org/wiki/Q98828186"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Samuel Sallas Mensah",
+            "url": "https://en.wikipedia.org/wiki/Samuel_Sallas_Mensah"
+          }
+        ]
+      },
+      {
+        "name": "Akuamoa Ofosu-Boateng",
+        "qid": "Q99905486",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q99905486",
+            "url": "https://www.wikidata.org/wiki/Q99905486"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Akuamoa Ofosu-Boateng",
+            "url": "https://en.wikipedia.org/wiki/Akuamoa_Ofosu-Boateng"
+          }
+        ]
+      },
+      {
+        "name": "Ato Ahwoi",
+        "qid": "Q102167032",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q102167032",
+            "url": "https://www.wikidata.org/wiki/Q102167032"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ato Ahwoi",
+            "url": "https://en.wikipedia.org/wiki/Ato_Ahwoi"
+          }
+        ]
+      },
+      {
+        "name": "John Willie Kofi Harlley",
+        "qid": "Q1234869",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1234869",
+            "url": "https://www.wikidata.org/wiki/Q1234869"
+          },
+          {
+            "type": "wikipedia",
+            "label": "John Willie Kofi Harlley",
+            "url": "https://en.wikipedia.org/wiki/John_Willie_Kofi_Harlley"
+          }
+        ]
+      },
+      {
+        "name": "Komla Agbeli Gbedemah",
+        "qid": "Q1235098",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1235098",
+            "url": "https://www.wikidata.org/wiki/Q1235098"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Komla Agbeli Gbedemah",
+            "url": "https://en.wikipedia.org/wiki/Komla_Agbeli_Gbedemah"
+          }
+        ]
+      },
+      {
+        "name": "Ebenezer Ako-Adjei",
+        "qid": "Q1278627",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1278627",
+            "url": "https://www.wikidata.org/wiki/Q1278627"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ebenezer Ako-Adjei",
+            "url": "https://en.wikipedia.org/wiki/Ako_Adjei"
+          }
+        ]
+      },
+      {
+        "name": "Victor Owusu",
+        "qid": "Q1314093",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1314093",
+            "url": "https://www.wikidata.org/wiki/Q1314093"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Victor Owusu",
+            "url": "https://en.wikipedia.org/wiki/Victor_Owusu"
+          }
+        ]
+      },
+      {
+        "name": "Frank Bernasko",
+        "qid": "Q1442948",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1442948",
+            "url": "https://www.wikidata.org/wiki/Q1442948"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Frank Bernasko",
+            "url": "https://en.wikipedia.org/wiki/Frank_Bernasko"
+          }
+        ]
+      },
+      {
+        "name": "Gloria Amon Nikoi",
+        "qid": "Q1532050",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1532050",
+            "url": "https://www.wikidata.org/wiki/Q1532050"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Gloria Amon Nikoi",
+            "url": "https://en.wikipedia.org/wiki/Gloria_Amon_Nikoi"
+          }
+        ]
+      },
+      {
+        "name": "Roger Joseph Felli",
+        "qid": "Q1585764",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1585764",
+            "url": "https://www.wikidata.org/wiki/Q1585764"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Roger Joseph Felli",
+            "url": "https://en.wikipedia.org/wiki/Roger_Joseph_Felli"
+          }
+        ]
+      },
+      {
+        "name": "Kwame Sanaa-Poku Jantuah",
+        "qid": "Q16019106",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q16019106",
+            "url": "https://www.wikidata.org/wiki/Q16019106"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Kwame Sanaa-Poku Jantuah",
+            "url": "https://en.wikipedia.org/wiki/Kwame_Sanaa-Poku_Jantuah"
+          }
+        ]
+      },
+      {
+        "name": "Patrick Dankwa Anin",
+        "qid": "Q1647615",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1647615",
+            "url": "https://www.wikidata.org/wiki/Q1647615"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Patrick Dankwa Anin",
+            "url": "https://en.wikipedia.org/wiki/Patrick_Dankwa_Anin"
+          }
+        ]
+      },
+      {
+        "name": "Isaac Chinebuah",
+        "qid": "Q1673371",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1673371",
+            "url": "https://www.wikidata.org/wiki/Q1673371"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Isaac Chinebuah",
+            "url": "https://en.wikipedia.org/wiki/Isaac_Chinebuah"
+          }
+        ]
+      },
+      {
+        "name": "Kojo Botsio",
+        "qid": "Q1778897",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1778897",
+            "url": "https://www.wikidata.org/wiki/Q1778897"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Kojo Botsio",
+            "url": "https://en.wikipedia.org/wiki/Kojo_Botsio"
+          }
+        ]
+      },
+      {
+        "name": "Kwadwo Baah Wiredu",
+        "qid": "Q1794877",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1794877",
+            "url": "https://www.wikidata.org/wiki/Q1794877"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Kwadwo Baah Wiredu",
+            "url": "https://en.wikipedia.org/wiki/Kwadwo_Baah-Wiredu"
+          }
+        ]
+      },
+      {
+        "name": "Kwame Baah",
+        "qid": "Q1794905",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1794905",
+            "url": "https://www.wikidata.org/wiki/Q1794905"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Kwame Baah",
+            "url": "https://en.wikipedia.org/wiki/Kwame_Baah"
+          }
+        ]
+      },
+      {
+        "name": "Kwamena Ahwoi",
+        "qid": "Q1794910",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1794910",
+            "url": "https://www.wikidata.org/wiki/Q1794910"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Kwamena Ahwoi",
+            "url": "https://en.wikipedia.org/wiki/Kwamena_Ahwoi"
+          }
+        ]
+      },
+      {
+        "name": "Nathan Apea Aferi",
+        "qid": "Q1966455",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1966455",
+            "url": "https://www.wikidata.org/wiki/Q1966455"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Nathan Apea Aferi",
+            "url": "https://en.wikipedia.org/wiki/Nathan_Apea_Aferi"
+          }
+        ]
+      },
+      {
+        "name": "Joseph Arthur Ankrah",
+        "qid": "Q356728",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q356728",
+            "url": "https://www.wikidata.org/wiki/Q356728"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Joseph Arthur Ankrah",
+            "url": "https://en.wikipedia.org/wiki/Joseph_Arthur_Ankrah"
+          }
+        ]
+      },
+      {
+        "name": "Akwasi Afrifa",
+        "qid": "Q424377",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q424377",
+            "url": "https://www.wikidata.org/wiki/Q424377"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Akwasi Afrifa",
+            "url": "https://en.wikipedia.org/wiki/Akwasi_Afrifa"
+          }
+        ]
+      },
+      {
+        "name": "Ignatius Kutu Acheampong",
+        "qid": "Q472593",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q472593",
+            "url": "https://www.wikidata.org/wiki/Q472593"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ignatius Kutu Acheampong",
+            "url": "https://en.wikipedia.org/wiki/Ignatius_Kutu_Acheampong"
+          }
+        ]
+      },
+      {
+        "name": "Amon Nikoi",
+        "qid": "Q473946",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q473946",
+            "url": "https://www.wikidata.org/wiki/Q473946"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Amon Nikoi",
+            "url": "https://en.wikipedia.org/wiki/Amon_Nikoi"
+          }
+        ]
+      },
+      {
+        "name": "Alex Quaison-Sackey",
+        "qid": "Q563212",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q563212",
+            "url": "https://www.wikidata.org/wiki/Q563212"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Alex Quaison-Sackey",
+            "url": "https://en.wikipedia.org/wiki/Alex_Quaison-Sackey"
+          }
+        ]
+      },
+      {
+        "name": "Isaac Adongo",
+        "qid": "Q61694730",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q61694730",
+            "url": "https://www.wikidata.org/wiki/Q61694730"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Isaac Adongo",
+            "url": "https://en.wikipedia.org/wiki/Isaac_Adongo"
+          }
+        ]
+      },
+      {
+        "name": "Ferdinand Koblavi Dra Goka",
+        "qid": "Q68298427",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q68298427",
+            "url": "https://www.wikidata.org/wiki/Q68298427"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ferdinand Koblavi Dra Goka",
+            "url": "https://en.wikipedia.org/wiki/Ferdinand_K._D._Goka"
+          }
+        ]
+      },
+      {
+        "name": "Kwesi Amoako-Atta",
+        "qid": "Q76518592",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q76518592",
+            "url": "https://www.wikidata.org/wiki/Q76518592"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Kwesi Amoako-Atta",
+            "url": "https://en.wikipedia.org/wiki/Kwesi_Amoako-Atta"
+          }
+        ]
+      },
+      {
+        "name": "Kofi Asante Ofori-Atta",
+        "qid": "Q1270076",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1270076",
+            "url": "https://www.wikidata.org/wiki/Q1270076"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Kofi Asante Ofori-Atta",
+            "url": "https://en.wikipedia.org/wiki/Kofi_Asante_Ofori-Atta"
+          }
+        ]
+      },
+      {
+        "name": "Obed Yao Asamoah",
+        "qid": "Q1311287",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1311287",
+            "url": "https://www.wikidata.org/wiki/Q1311287"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Obed Yao Asamoah",
+            "url": "https://en.wikipedia.org/wiki/Obed_Asamoah"
+          }
+        ]
+      },
+      {
+        "name": "Emmanuel Charles Quist",
+        "qid": "Q1338200",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1338200",
+            "url": "https://www.wikidata.org/wiki/Q1338200"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Emmanuel Charles Quist",
+            "url": "https://en.wikipedia.org/wiki/Emmanuel_Charles_Quist"
+          }
+        ]
+      },
+      {
+        "name": "Nii Ayikoi Otoo",
+        "qid": "Q1989946",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1989946",
+            "url": "https://www.wikidata.org/wiki/Q1989946"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Nii Ayikoi Otoo",
+            "url": "https://en.wikipedia.org/wiki/Nii_Ayikoi_Otoo"
+          }
+        ]
+      },
+      {
+        "name": "Bashiru Kwaw-Swanzy",
+        "qid": "Q58892230",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q58892230",
+            "url": "https://www.wikidata.org/wiki/Q58892230"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Bashiru Kwaw-Swanzy",
+            "url": "https://en.wikipedia.org/wiki/Bashiru_Kwaw-Swanzy"
+          }
+        ]
+      },
+      {
+        "name": "Joe Reindorf",
+        "qid": "Q62006799",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q62006799",
+            "url": "https://www.wikidata.org/wiki/Q62006799"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Joe Reindorf",
+            "url": "https://en.wikipedia.org/wiki/Joe_Reindorf"
+          }
+        ]
+      },
+      {
+        "name": "George Emmanuel Kwesi Aikins",
+        "qid": "Q64756427",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q64756427",
+            "url": "https://www.wikidata.org/wiki/Q64756427"
+          },
+          {
+            "type": "wikipedia",
+            "label": "George Emmanuel Kwesi Aikins",
+            "url": "https://en.wikipedia.org/wiki/George_Emmanuel_Kwesi_Aikins"
+          }
+        ]
+      },
+      {
+        "name": "Godfred Seidu Jasaw",
+        "qid": "Q113687161",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q113687161",
+            "url": "https://www.wikidata.org/wiki/Q113687161"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Godfred Seidu Jasaw",
+            "url": "https://en.wikipedia.org/wiki/Godfred_Seidu_Jasaw"
+          }
+        ]
+      },
+      {
+        "name": "Charles Kofi Agbenaza",
+        "qid": "Q98821000",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q98821000",
+            "url": "https://www.wikidata.org/wiki/Q98821000"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Charles Kofi Agbenaza",
+            "url": "https://en.wikipedia.org/wiki/Charles_Kofi_Agbenaza"
+          }
+        ]
+      },
+      {
+        "name": "Hamza Adam",
+        "qid": "Q106643807",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q106643807",
+            "url": "https://www.wikidata.org/wiki/Q106643807"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Hamza Adam",
+            "url": "https://en.wikipedia.org/wiki/Hamza_Adam"
+          }
+        ]
+      },
+      {
+        "name": "Mohammed Amin Adam",
+        "qid": "Q108489615",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q108489615",
+            "url": "https://www.wikidata.org/wiki/Q108489615"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mohammed Amin Adam",
+            "url": "https://en.wikipedia.org/wiki/Mohammed_Amin_Adam"
+          }
+        ]
+      },
+      {
+        "name": "Mahama Asei Seini",
+        "qid": "Q110098024",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q110098024",
+            "url": "https://www.wikidata.org/wiki/Q110098024"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mahama Asei Seini",
+            "url": "https://en.wikipedia.org/wiki/Mahama_Asei_Seini"
+          }
+        ]
+      },
+      {
+        "name": "Clement Samuel Crabbe",
+        "qid": "Q113578754",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q113578754",
+            "url": "https://www.wikidata.org/wiki/Q113578754"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Clement Samuel Crabbe",
+            "url": "https://en.wikipedia.org/wiki/Clement_Samuel_Crabbe"
+          }
+        ]
+      },
+      {
+        "name": "Michael Teye Nyanua",
+        "qid": "Q113578774",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q113578774",
+            "url": "https://www.wikidata.org/wiki/Q113578774"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Michael Teye Nyanua",
+            "url": "https://en.wikipedia.org/wiki/Michael_Teye_Nyanua"
+          }
+        ]
+      },
+      {
+        "name": "Alhaji Amadu Seidu",
+        "qid": "Q113578808",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q113578808",
+            "url": "https://www.wikidata.org/wiki/Q113578808"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Alhaji Amadu Seidu",
+            "url": "https://en.wikipedia.org/wiki/Alhaji_Amadu_Seidu"
+          }
+        ]
+      },
+      {
+        "name": "Daniel Francis Annan",
+        "qid": "Q1160705",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1160705",
+            "url": "https://www.wikidata.org/wiki/Q1160705"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Daniel Francis Annan",
+            "url": "https://en.wikipedia.org/wiki/Daniel_Francis_Annan"
+          }
+        ]
+      },
+      {
+        "name": "Joe Appiah",
+        "qid": "Q1262152",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1262152",
+            "url": "https://www.wikidata.org/wiki/Q1262152"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Joe Appiah",
+            "url": "https://en.wikipedia.org/wiki/Joe_Appiah"
+          }
+        ]
+      },
+      {
+        "name": "J. Benibengor Blay",
+        "qid": "Q15435130",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q15435130",
+            "url": "https://www.wikidata.org/wiki/Q15435130"
+          },
+          {
+            "type": "wikipedia",
+            "label": "J. Benibengor Blay",
+            "url": "https://en.wikipedia.org/wiki/John_Benibengor_Blay"
+          }
+        ]
+      },
+      {
+        "name": "Jacob Hackenburg Griffiths-Randolph",
+        "qid": "Q1631455",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1631455",
+            "url": "https://www.wikidata.org/wiki/Q1631455"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Jacob Hackenburg Griffiths-Randolph",
+            "url": "https://en.wikipedia.org/wiki/Jacob_Hackenburg_Griffiths-Randolph"
+          }
+        ]
+      },
+      {
+        "name": "Julius Debrah",
+        "qid": "Q16733699",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q16733699",
+            "url": "https://www.wikidata.org/wiki/Q16733699"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Julius Debrah",
+            "url": "https://en.wikipedia.org/wiki/Julius_Debrah"
+          }
+        ]
+      },
+      {
+        "name": "Joseph Richard Asiedu",
+        "qid": "Q1707882",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1707882",
+            "url": "https://www.wikidata.org/wiki/Q1707882"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Joseph Richard Asiedu",
+            "url": "https://en.wikipedia.org/wiki/Joseph_Richard_Asiedu"
+          }
+        ]
+      },
+      {
+        "name": "Nana Ato Arthur",
+        "qid": "Q1964418",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1964418",
+            "url": "https://www.wikidata.org/wiki/Q1964418"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Nana Ato Arthur",
+            "url": "https://en.wikipedia.org/wiki/Nana_Ato_Arthur"
+          }
+        ]
+      },
+      {
+        "name": "Zanetor Agyeman-Rawlings",
+        "qid": "Q23541289",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q23541289",
+            "url": "https://www.wikidata.org/wiki/Q23541289"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Zanetor Agyeman-Rawlings",
+            "url": "https://en.wikipedia.org/wiki/Zanetor_Agyeman-Rawlings"
+          }
+        ]
+      },
+      {
+        "name": "Salifu Yakubu",
+        "qid": "Q24453678",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q24453678",
+            "url": "https://www.wikidata.org/wiki/Q24453678"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Salifu Yakubu",
+            "url": "https://en.wikipedia.org/wiki/Salifu_Yakubu"
+          }
+        ]
+      },
+      {
+        "name": "Gifty Eugenia Kusi",
+        "qid": "Q27063318",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q27063318",
+            "url": "https://www.wikidata.org/wiki/Q27063318"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Gifty Eugenia Kusi",
+            "url": "https://en.wikipedia.org/wiki/Gifty_Eugenia_Kwofie"
+          }
+        ]
+      },
+      {
+        "name": "Kweku Tanikyi Kesse",
+        "qid": "Q32101851",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q32101851",
+            "url": "https://www.wikidata.org/wiki/Q32101851"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Kweku Tanikyi Kesse",
+            "url": "https://en.wikipedia.org/wiki/Kweku_Tanikyi_Kesse"
+          }
+        ]
+      },
+      {
+        "name": "Nii Amaa Ollennu",
+        "qid": "Q338928",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q338928",
+            "url": "https://www.wikidata.org/wiki/Q338928"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Nii Amaa Ollennu",
+            "url": "https://en.wikipedia.org/wiki/Nii_Amaa_Ollennu"
+          }
+        ]
+      },
+      {
+        "name": "Michael Okyere Baafi",
+        "qid": "Q37996963",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q37996963",
+            "url": "https://www.wikidata.org/wiki/Q37996963"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Michael Okyere Baafi",
+            "url": "https://en.wikipedia.org/wiki/Michael_Okyere_Baafi"
+          }
+        ]
+      },
+      {
+        "name": "Alfred Kwame Agbeshie",
+        "qid": "Q4723029",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4723029",
+            "url": "https://www.wikidata.org/wiki/Q4723029"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Alfred Kwame Agbeshie",
+            "url": "https://en.wikipedia.org/wiki/Alfred_Kwame_Agbesi"
+          }
+        ]
+      },
+      {
+        "name": "Ebenezer Sekyi-Hughes",
+        "qid": "Q523306",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q523306",
+            "url": "https://www.wikidata.org/wiki/Q523306"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ebenezer Sekyi-Hughes",
+            "url": "https://en.wikipedia.org/wiki/Ebenezer_Sekyi-Hughes"
+          }
+        ]
+      },
+      {
+        "name": "Emmanuel Adama Mahama",
+        "qid": "Q5373115",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q5373115",
+            "url": "https://www.wikidata.org/wiki/Q5373115"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Emmanuel Adama Mahama",
+            "url": "https://en.wikipedia.org/wiki/Emmanuel_Adama_Mahama"
+          }
+        ]
+      },
+      {
+        "name": "Frank Abdulai Ayariga",
+        "qid": "Q5484930",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q5484930",
+            "url": "https://www.wikidata.org/wiki/Q5484930"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Frank Abdulai Ayariga",
+            "url": "https://en.wikipedia.org/wiki/Frank_Abdulai_Ayariga"
+          }
+        ]
+      },
+      {
+        "name": "Kwadwo Baa Agyeman",
+        "qid": "Q55550231",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q55550231",
+            "url": "https://www.wikidata.org/wiki/Q55550231"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Kwadwo Baa Agyeman",
+            "url": "https://en.wikipedia.org/wiki/Kwadwo_Baa_Agyeman"
+          }
+        ]
+      },
+      {
+        "name": "Felicia Adjei",
+        "qid": "Q57915590",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q57915590",
+            "url": "https://www.wikidata.org/wiki/Q57915590"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Felicia Adjei",
+            "url": "https://en.wikipedia.org/wiki/Felicia_Adjei"
+          }
+        ]
+      },
+      {
+        "name": "Nana Ama Dokua Asiamah Adjei",
+        "qid": "Q57915909",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q57915909",
+            "url": "https://www.wikidata.org/wiki/Q57915909"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Nana Ama Dokua Asiamah Adjei",
+            "url": "https://en.wikipedia.org/wiki/Nana_Ama_Dokua_Asiamah-Adjei"
+          }
+        ]
+      },
+      {
+        "name": "Nana Akua Owusu Afriyieh",
+        "qid": "Q58176074",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q58176074",
+            "url": "https://www.wikidata.org/wiki/Q58176074"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Nana Akua Owusu Afriyieh",
+            "url": "https://en.wikipedia.org/wiki/Nana_Akua_Owusu_Afriyieh"
+          }
+        ]
+      },
+      {
+        "name": "Muhammad Mumuni",
+        "qid": "Q58327",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q58327",
+            "url": "https://www.wikidata.org/wiki/Q58327"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Muhammad Mumuni",
+            "url": "https://en.wikipedia.org/wiki/Muhammad_Mumuni"
+          }
+        ]
+      },
+      {
+        "name": "Krobo Edusei",
+        "qid": "Q6438717",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q6438717",
+            "url": "https://www.wikidata.org/wiki/Q6438717"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Krobo Edusei",
+            "url": "https://en.wikipedia.org/wiki/Krobo_Edusei"
+          }
+        ]
+      },
+      {
+        "name": "Kwaku Boateng",
+        "qid": "Q6450030",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q6450030",
+            "url": "https://www.wikidata.org/wiki/Q6450030"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Kwaku Boateng",
+            "url": "https://en.wikipedia.org/wiki/Kwaku_Boateng"
+          }
+        ]
+      },
+      {
+        "name": "Neville Alexander Odartey-Wellington",
+        "qid": "Q7004615",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q7004615",
+            "url": "https://www.wikidata.org/wiki/Q7004615"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Neville Alexander Odartey-Wellington",
+            "url": "https://en.wikipedia.org/wiki/Neville_Alexander_Odartey-Wellington"
+          }
+        ]
+      },
+      {
+        "name": "Eustace Akwei",
+        "qid": "Q72925106",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q72925106",
+            "url": "https://www.wikidata.org/wiki/Q72925106"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Eustace Akwei",
+            "url": "https://en.wikipedia.org/wiki/Eustace_Akwei"
+          }
+        ]
+      },
+      {
+        "name": "Simon Diedong Dombo",
+        "qid": "Q7518612",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q7518612",
+            "url": "https://www.wikidata.org/wiki/Q7518612"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Simon Diedong Dombo",
+            "url": "https://en.wikipedia.org/wiki/Simon_Diedong_Dombo"
+          }
+        ]
+      },
+      {
+        "name": "Augustus Molade Akiwumi",
+        "qid": "Q770521",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q770521",
+            "url": "https://www.wikidata.org/wiki/Q770521"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Augustus Molade Akiwumi",
+            "url": "https://en.wikipedia.org/wiki/Augustus_Molade_Akiwumi"
+          }
+        ]
+      },
+      {
+        "name": "Charles Obeng-Inkoom",
+        "qid": "Q83628084",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q83628084",
+            "url": "https://www.wikidata.org/wiki/Q83628084"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Charles Obeng-Inkoom",
+            "url": "https://en.wikipedia.org/wiki/Charles_Obeng-Inkoom"
+          }
+        ]
+      },
+      {
+        "name": "Jabaah John Bennam",
+        "qid": "Q84355093",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q84355093",
+            "url": "https://www.wikidata.org/wiki/Q84355093"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Jabaah John Bennam",
+            "url": "https://en.wikipedia.org/wiki/Jabaah_John_Bennam"
+          }
+        ]
+      },
+      {
+        "name": "Kwame Nkrumah",
+        "qid": "Q8620",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q8620",
+            "url": "https://www.wikidata.org/wiki/Q8620"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Kwame Nkrumah",
+            "url": "https://en.wikipedia.org/wiki/Kwame_Nkrumah"
+          }
+        ]
+      },
+      {
+        "name": "Luke Koo",
+        "qid": "Q99914801",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q99914801",
+            "url": "https://www.wikidata.org/wiki/Q99914801"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Luke Koo",
+            "url": "https://en.wikipedia.org/wiki/Luke_Koo"
+          }
+        ]
+      },
+      {
+        "name": "Michael Paul Ansah",
+        "qid": "Q77979175",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q77979175",
+            "url": "https://www.wikidata.org/wiki/Q77979175"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Michael Paul Ansah",
+            "url": "https://en.wikipedia.org/wiki/Michael_Paul_Ansah"
+          }
+        ]
+      },
+      {
+        "name": "Zuwera Ibrahimah",
+        "qid": "Q104538322",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q104538322",
+            "url": "https://www.wikidata.org/wiki/Q104538322"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Zuwera Ibrahimah",
+            "url": "https://en.wikipedia.org/wiki/Zuwera_Ibrahimah"
+          }
+        ]
+      },
+      {
+        "name": "Tahar Gaïd",
+        "qid": "Q97064358",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q97064358",
+            "url": "https://www.wikidata.org/wiki/Q97064358"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Tahar Gaïd",
+            "url": "https://en.wikipedia.org/wiki/Tahar_Gaïd"
+          }
+        ]
+      },
+      {
+        "name": "Ibrahim Saleh Bakr",
+        "qid": "Q58238293",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q58238293",
+            "url": "https://www.wikidata.org/wiki/Q58238293"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ibrahim Saleh Bakr",
+            "url": "https://en.wikipedia.org/wiki/Ibrahim_Saleh_Bakr"
+          }
+        ]
+      },
+      {
+        "name": "Christopher Ameyaw-Akumfi",
+        "qid": "Q1086476",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1086476",
+            "url": "https://www.wikidata.org/wiki/Q1086476"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Christopher Ameyaw-Akumfi",
+            "url": "https://en.wikipedia.org/wiki/Christopher_Ameyaw-Akumfi"
+          }
+        ]
+      },
+      {
+        "name": "Mavis Kuukua Bissue",
+        "qid": "Q131695870",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q131695870",
+            "url": "https://www.wikidata.org/wiki/Q131695870"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mavis Kuukua Bissue",
+            "url": "https://en.wikipedia.org/wiki/Mavis_Kuukua_Bissue"
+          }
+        ]
+      },
+      {
+        "name": "Emmanuel Kwasi Kotoka",
+        "qid": "Q1338320",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1338320",
+            "url": "https://www.wikidata.org/wiki/Q1338320"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Emmanuel Kwasi Kotoka",
+            "url": "https://en.wikipedia.org/wiki/Emmanuel_Kwasi_Kotoka"
+          }
+        ]
+      },
+      {
+        "name": "Frank Yeboah",
+        "qid": "Q134289412",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q134289412",
+            "url": "https://www.wikidata.org/wiki/Q134289412"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Frank Yeboah",
+            "url": "https://en.wikipedia.org/wiki/Frank_Yeboah"
+          }
+        ]
+      },
+      {
+        "name": "Maxwell Kwame Lukutor",
+        "qid": "Q134309046",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q134309046",
+            "url": "https://www.wikidata.org/wiki/Q134309046"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Maxwell Kwame Lukutor",
+            "url": "https://en.wikipedia.org/wiki/Maxwell_Kwame_Lukutor"
+          }
+        ]
+      },
+      {
+        "name": "Hackman Owusu-Agyeman",
+        "qid": "Q1567260",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1567260",
+            "url": "https://www.wikidata.org/wiki/Q1567260"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Hackman Owusu-Agyeman",
+            "url": "https://en.wikipedia.org/wiki/Hackman_Owusu-Agyeman"
+          }
+        ]
+      },
+      {
+        "name": "Kwaku Danso-Boafo",
+        "qid": "Q23907308",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q23907308",
+            "url": "https://www.wikidata.org/wiki/Q23907308"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Kwaku Danso-Boafo",
+            "url": "https://en.wikipedia.org/wiki/Kwaku_Danso-Boafo"
+          }
+        ]
+      },
+      {
+        "name": "William Ofori Atta",
+        "qid": "Q2580160",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2580160",
+            "url": "https://www.wikidata.org/wiki/Q2580160"
+          },
+          {
+            "type": "wikipedia",
+            "label": "William Ofori Atta",
+            "url": "https://en.wikipedia.org/wiki/William_Ofori_Atta"
+          }
+        ]
+      },
+      {
+        "name": "Mary Grant",
+        "qid": "Q26966428",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q26966428",
+            "url": "https://www.wikidata.org/wiki/Q26966428"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mary Grant",
+            "url": "https://en.wikipedia.org/wiki/Mary_Grant"
+          }
+        ]
+      },
+      {
+        "name": "Courage Quashigah",
+        "qid": "Q331645",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q331645",
+            "url": "https://www.wikidata.org/wiki/Q331645"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Courage Quashigah",
+            "url": "https://en.wikipedia.org/wiki/Courage_Quashigah"
+          }
+        ]
+      },
+      {
+        "name": "Daniel Addo",
+        "qid": "Q5216360",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q5216360",
+            "url": "https://www.wikidata.org/wiki/Q5216360"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Daniel Addo",
+            "url": "https://en.wikipedia.org/wiki/Daniel_Addo"
+          }
+        ]
+      },
+      {
+        "name": "E. M. Osei-Wusu",
+        "qid": "Q5322038",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q5322038",
+            "url": "https://www.wikidata.org/wiki/Q5322038"
+          },
+          {
+            "type": "wikipedia",
+            "label": "E. M. Osei-Wusu",
+            "url": "https://en.wikipedia.org/wiki/E._M._Osei-Wusu"
+          }
+        ]
+      },
+      {
+        "name": "Albert Adumakoh",
+        "qid": "Q54808684",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q54808684",
+            "url": "https://www.wikidata.org/wiki/Q54808684"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Albert Adumakoh",
+            "url": "https://en.wikipedia.org/wiki/Albert_Adumakoh"
+          }
+        ]
+      },
+      {
+        "name": "Anthony Selormey",
+        "qid": "Q55184237",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q55184237",
+            "url": "https://www.wikidata.org/wiki/Q55184237"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Anthony Selormey",
+            "url": "https://en.wikipedia.org/wiki/Anthony_Hugh_Selormey"
+          }
+        ]
+      },
+      {
+        "name": "Henry Sawyerr",
+        "qid": "Q5672203",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q5672203",
+            "url": "https://www.wikidata.org/wiki/Q5672203"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Henry Sawyerr",
+            "url": "https://en.wikipedia.org/wiki/Henry_Sawyerr"
+          }
+        ]
+      },
+      {
+        "name": "Kwame Safo-Adu",
+        "qid": "Q58895613",
+        "year_start": null,
+        "year_end": 1972,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q58895613",
+            "url": "https://www.wikidata.org/wiki/Q58895613"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Kwame Safo-Adu",
+            "url": "https://en.wikipedia.org/wiki/Kwame_Safo-Adu"
+          }
+        ]
+      },
+      {
+        "name": "Alfred Jonas Dowuona-Hammond",
+        "qid": "Q61524658",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q61524658",
+            "url": "https://www.wikidata.org/wiki/Q61524658"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Alfred Jonas Dowuona-Hammond",
+            "url": "https://en.wikipedia.org/wiki/Alfred_Jonas_Dowuona-Hammond"
+          }
+        ]
+      },
+      {
+        "name": "Nana Akuoko Sarpong",
+        "qid": "Q61646303",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q61646303",
+            "url": "https://www.wikidata.org/wiki/Q61646303"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Nana Akuoko Sarpong",
+            "url": "https://en.wikipedia.org/wiki/Nana_Akuoko_Sarpong"
+          }
+        ]
+      },
+      {
+        "name": "William Kwesi Aboah",
+        "qid": "Q61676105",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q61676105",
+            "url": "https://www.wikidata.org/wiki/Q61676105"
+          },
+          {
+            "type": "wikipedia",
+            "label": "William Kwesi Aboah",
+            "url": "https://en.wikipedia.org/wiki/William_Kwesi_Aboah"
+          }
+        ]
+      },
+      {
+        "name": "Ashford Emmanuel Inkumsah",
+        "qid": "Q61676431",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q61676431",
+            "url": "https://www.wikidata.org/wiki/Q61676431"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ashford Emmanuel Inkumsah",
+            "url": "https://en.wikipedia.org/wiki/Ashford_Emmanuel_Inkumsah"
+          }
+        ]
+      },
+      {
+        "name": "Cassiel Ato Forson",
+        "qid": "Q61694564",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q61694564",
+            "url": "https://www.wikidata.org/wiki/Q61694564"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Cassiel Ato Forson",
+            "url": "https://en.wikipedia.org/wiki/Cassiel_Ato_Forson"
+          }
+        ]
+      },
+      {
+        "name": "F. A. Jantuah",
+        "qid": "Q65070687",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q65070687",
+            "url": "https://www.wikidata.org/wiki/Q65070687"
+          },
+          {
+            "type": "wikipedia",
+            "label": "F. A. Jantuah",
+            "url": "https://en.wikipedia.org/wiki/F._A._Jantuah"
+          }
+        ]
+      },
+      {
+        "name": "J. H. Allassani",
+        "qid": "Q66490610",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q66490610",
+            "url": "https://www.wikidata.org/wiki/Q66490610"
+          },
+          {
+            "type": "wikipedia",
+            "label": "J. H. Allassani",
+            "url": "https://en.wikipedia.org/wiki/J._H._Allassani"
+          }
+        ]
+      },
+      {
+        "name": "Charles de Graft Dickson",
+        "qid": "Q67882160",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q67882160",
+            "url": "https://www.wikidata.org/wiki/Q67882160"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Charles de Graft Dickson",
+            "url": "https://en.wikipedia.org/wiki/Charles_de_Graft_Dickson"
+          }
+        ]
+      },
+      {
+        "name": "Osei Owusu Afriyie",
+        "qid": "Q69523798",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q69523798",
+            "url": "https://www.wikidata.org/wiki/Q69523798"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Osei Owusu Afriyie",
+            "url": "https://en.wikipedia.org/wiki/Osei_Owusu_Afriyie"
+          }
+        ]
+      },
+      {
+        "name": "Ben Forjoe",
+        "qid": "Q73641213",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q73641213",
+            "url": "https://www.wikidata.org/wiki/Q73641213"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ben Forjoe",
+            "url": "https://en.wikipedia.org/wiki/Ben_Forjoe"
+          }
+        ]
+      },
+      {
+        "name": "Betty Mould-Iddrisu",
+        "qid": "Q850396",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q850396",
+            "url": "https://www.wikidata.org/wiki/Q850396"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Betty Mould-Iddrisu",
+            "url": "https://en.wikipedia.org/wiki/Betty_Mould-Iddrisu"
+          }
+        ]
+      },
+      {
+        "name": "Archibald Dalzel",
+        "qid": "Q633115",
+        "year_start": 1792,
+        "year_end": 1798,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q633115",
+            "url": "https://www.wikidata.org/wiki/Q633115"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Archibald Dalzel",
+            "url": "https://en.wikipedia.org/wiki/Archibald_Dalzel"
+          }
+        ]
+      },
+      {
+        "name": "John Hope Smith",
+        "qid": "Q6239815",
+        "year_start": 1817,
+        "year_end": 1822,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q6239815",
+            "url": "https://www.wikidata.org/wiki/Q6239815"
+          },
+          {
+            "type": "wikipedia",
+            "label": "John Hope Smith",
+            "url": "https://en.wikipedia.org/wiki/John_Hope_Smith"
+          }
+        ]
+      },
+      {
+        "name": "Charles MacCarthy",
+        "qid": "Q5080525",
+        "year_start": 1822,
+        "year_end": 1822,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q5080525",
+            "url": "https://www.wikidata.org/wiki/Q5080525"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Charles MacCarthy",
+            "url": "https://en.wikipedia.org/wiki/Charles_MacCarthy"
+          }
+        ]
+      },
+      {
+        "name": "Charles Turner",
+        "qid": "Q28924271",
+        "year_start": 1825,
+        "year_end": 1826,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q28924271",
+            "url": "https://www.wikidata.org/wiki/Q28924271"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Charles Turner",
+            "url": "https://en.wikipedia.org/wiki/Charles_Turner"
+          }
+        ]
+      },
+      {
+        "name": "Neil Campbell",
+        "qid": "Q16239242",
+        "year_start": 1826,
+        "year_end": 1826,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q16239242",
+            "url": "https://www.wikidata.org/wiki/Q16239242"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Neil Campbell",
+            "url": "https://en.wikipedia.org/wiki/Neil_Campbell"
+          }
+        ]
+      },
+      {
+        "name": "Henry John Ricketts",
+        "qid": "Q24529661",
+        "year_start": 1826,
+        "year_end": 1827,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q24529661",
+            "url": "https://www.wikidata.org/wiki/Q24529661"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Henry John Ricketts",
+            "url": "https://en.wikipedia.org/wiki/Henry_John_Ricketts"
+          }
+        ]
+      },
+      {
+        "name": "George Maclean",
+        "qid": "Q5542034",
+        "year_start": 1830,
+        "year_end": 1836,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q5542034",
+            "url": "https://www.wikidata.org/wiki/Q5542034"
+          },
+          {
+            "type": "wikipedia",
+            "label": "George Maclean",
+            "url": "https://en.wikipedia.org/wiki/George_Maclean"
+          }
+        ]
+      }
+    ],
+    "population_from_wikidata": [
+      {
+        "estimate": 6652516,
+        "confidence": "low",
+        "year": 1960
+      },
+      {
+        "estimate": 6866780,
+        "confidence": "low",
+        "year": 1961
+      },
+      {
+        "estimate": 7085698,
+        "confidence": "low",
+        "year": 1962
+      },
+      {
+        "estimate": 7303664,
+        "confidence": "low",
+        "year": 1963
+      },
+      {
+        "estimate": 7513510,
+        "confidence": "low",
+        "year": 1964
+      },
+      {
+        "estimate": 7710761,
+        "confidence": "low",
+        "year": 1965
+      },
+      {
+        "estimate": 7891194,
+        "confidence": "low",
+        "year": 1966
+      },
+      {
+        "estimate": 8057629,
+        "confidence": "low",
+        "year": 1967
+      },
+      {
+        "estimate": 8221194,
+        "confidence": "low",
+        "year": 1968
+      },
+      {
+        "estimate": 8397508,
+        "confidence": "low",
+        "year": 1969
+      },
+      {
+        "estimate": 8597133,
+        "confidence": "low",
+        "year": 1970
+      },
+      {
+        "estimate": 8827429,
+        "confidence": "low",
+        "year": 1971
+      },
+      {
+        "estimate": 9083737,
+        "confidence": "low",
+        "year": 1972
+      },
+      {
+        "estimate": 9350286,
+        "confidence": "low",
+        "year": 1973
+      },
+      {
+        "estimate": 9604475,
+        "confidence": "low",
+        "year": 1974
+      },
+      {
+        "estimate": 9831636,
+        "confidence": "low",
+        "year": 1975
+      },
+      {
+        "estimate": 10023738,
+        "confidence": "low",
+        "year": 1976
+      },
+      {
+        "estimate": 10190202,
+        "confidence": "low",
+        "year": 1977
+      },
+      {
+        "estimate": 10354855,
+        "confidence": "low",
+        "year": 1978
+      },
+      {
+        "estimate": 10551189,
+        "confidence": "low",
+        "year": 1979
+      },
+      {
+        "estimate": 10802497,
+        "confidence": "low",
+        "year": 1980
+      },
+      {
+        "estimate": 11118132,
+        "confidence": "low",
+        "year": 1981
+      },
+      {
+        "estimate": 11488683,
+        "confidence": "low",
+        "year": 1982
+      },
+      {
+        "estimate": 11895742,
+        "confidence": "low",
+        "year": 1983
+      },
+      {
+        "estimate": 12311805,
+        "confidence": "low",
+        "year": 1984
+      },
+      {
+        "estimate": 12716887,
+        "confidence": "low",
+        "year": 1985
+      },
+      {
+        "estimate": 13104616,
+        "confidence": "low",
+        "year": 1986
+      },
+      {
+        "estimate": 13480997,
+        "confidence": "low",
+        "year": 1987
+      },
+      {
+        "estimate": 13853171,
+        "confidence": "low",
+        "year": 1988
+      },
+      {
+        "estimate": 14233006,
+        "confidence": "low",
+        "year": 1989
+      }
+    ]
+  },
+  "monogram": "GE"
+}

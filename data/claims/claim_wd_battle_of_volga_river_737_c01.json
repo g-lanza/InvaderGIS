@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_volga_river_737_c01",
+  "statement": "Battle of Volga River (737 CE), at Volga (part of Arab–Khazar Wars).",
+  "subject_ids": [
+    "khazar_khaganate"
+  ],
+  "period": {
+    "from": 737,
+    "to": 737
+  },
+  "derived_from": "wd_battle_of_volga_river_737",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "golden_khazar_1980",
+      "brook_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

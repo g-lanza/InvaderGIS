@@ -1,0 +1,30 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_taifa_kingdoms_to_almoravid_emirate_iberia_succession",
+  "statement": "Derived from predecessor/successor links recorded in the taifa_kingdoms and almoravid_emirate_iberia entity records. Transition anchored to almoravid_emirate_iberia start_year.",
+  "subject_ids": [
+    "taifa_kingdoms",
+    "almoravid_emirate_iberia"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_taifa_kingdoms_to_almoravid_emirate_iberia_succession",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "catlos_the_2004",
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "almoravid_emirate_iberia"
+  ],
+  "period": {
+    "from": 1086,
+    "to": 1086
+  }
+}

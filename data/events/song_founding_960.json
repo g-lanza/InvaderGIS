@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "song_founding_960",
+  "name": "Zhao Kuangyin Founds Song Dynasty",
+  "year": 960,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    28.49,
+    115.988
+  ],
+  "entity": "song_empire",
+  "summary": "General Zhao Kuangyin staged a coup and founded the Song Dynasty, ending the chaotic Five Dynasties period. He reformed the civil service to shift power from military commanders to scholar-officials, creating the Confucian bureaucratic state that defined imperial China.",
+  "outcomes": [
+    "five_dynasties_ended",
+    "china_reunified",
+    "civil_service_reformed"
+  ],
+  "_quarry": {
+    "participants": [
+      "song_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

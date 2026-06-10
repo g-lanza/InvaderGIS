@@ -1,0 +1,29 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_rum_byzantine_rivalry",
+  "statement": "The Sultanate of Rum occupied territory that Byzantium considered its heartland; the two states competed for Anatolia for two centuries. Byzantine attempts to reconquer the Anatolian plateau failed at Myriokephalon (1176). The Fourth Crusade's sack of Constantinople (1204) temporarily reduced Byzantine pressure on Rum.",
+  "subject_ids": [
+    "sultanate_of_rum",
+    "byzantine_empire"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_rum_byzantine_rivalry",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1077,
+    "to": 1261
+  }
+}

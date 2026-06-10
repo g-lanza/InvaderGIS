@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ulu_muhammad",
+  "name": "Ulu Muhammad",
+  "polity": "khanate_of_kazan",
+  "title": "dynastic_founder",
+  "reign_start": 1438,
+  "reign_end": 1445,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "khanate_of_kazan",
+        "role": "dynastic_founder",
+        "start_year": 1438,
+        "end_year": 1445
+      }
+    ],
+    "key_actions": [],
+    "region": "eastern_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

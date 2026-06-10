@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_grote_mandrenke_1362_c02",
+  "statement": "The 1362 storm surge permanently submerged the trading port of Rungholt and reshaped the Frisian coastline.",
+  "subject_ids": [
+    "kingdom_of_denmark"
+  ],
+  "period": {
+    "from": 1362,
+    "to": 1362
+  },
+  "derived_from": "grote_mandrenke_1362",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "campbell_great_transition_2016"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

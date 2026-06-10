@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_yijing_pilgrimage_695_c02",
+  "statement": "Spends a decade at Nalanda; returns with 400 Sanskrit texts via Srivijaya, where he writes his record of Mahayana monastic discipline in the Indian Ocean world.",
+  "subject_ids": [
+    "tang_dynasty"
+  ],
+  "period": {
+    "from": 695,
+    "to": 695
+  },
+  "derived_from": "yijing_pilgrimage_695",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "twitchett_cambridge_history_china_v3_1979",
+      "hall_history_southeast_asia_2011"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

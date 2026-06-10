@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_mongol_campaign_against_the_nizaris_1253",
+  "name": "Mongol campaign against the Nizaris",
+  "year": 1253,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    45.7333,
+    73.7667
+  ],
+  "entity": "mongol_empire",
+  "summary": "Mongol campaign against the Nizaris (1253 CE), (part of Mongol invasions and conquests). Source: Wikidata Q92987578.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "mongol_empire",
+      "golden_horde",
+      "chagatai_khanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "venetian_arsenal_expansion_1320",
+  "name": "Venetian Arsenal industrial expansion",
+  "year": 1320,
+  "type": "economic",
+  "category": "economy",
+  "coords": [
+    45.43,
+    12.35
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Venice consolidates ship-construction at a single state-run complex on the eastern lagoon. By 1450 the Arsenal employs ~16,000 workers and can produce a fully-rigged galley in 24 hours using interchangeable parts and assembly-line construction, the largest pre-industrial manufactory in Europe.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice"
+    ],
+    "structural_significance": "Underwrites Venetian naval dominance over Genoa (Chioggia War, 1378–81) and sustained galleys-of-Flanders trade rounds to northern Europe. Pre-figures Industrial-Revolution-era production methods by ~four centuries.",
+    "year_range": [
+      1300,
+      1450
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

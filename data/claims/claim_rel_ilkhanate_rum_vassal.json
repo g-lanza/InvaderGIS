@@ -1,0 +1,30 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_ilkhanate_rum_vassal",
+  "statement": "After the Battle of Köse Dağ (1243), the Sultanate of Rum becomes a vassal of the Ilkhanate. Seljuk sultans rule in name but require Mongol approval; the Ilkhanate extracts tribute and military service. This dependence accelerates the sultanate's fragmentation into rival Turkic beyliks.",
+  "subject_ids": [
+    "ilkhanate",
+    "sultanate_of_rum"
+  ],
+  "predicate": "vassalage",
+  "derived_from": "rel_ilkhanate_rum_vassal",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "jackson_the_2005",
+      "amitai-preiss_mongols_1995",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "sultanate_of_rum"
+  ],
+  "period": {
+    "from": 1243,
+    "to": 1307
+  }
+}

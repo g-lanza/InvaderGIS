@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_york_867",
+  "name": "Battle of York",
+  "year": 867,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    54.5,
+    -1.5
+  ],
+  "entity": "kingdom_of_northumbria",
+  "summary": "Battle of York (867 CE), at York (part of Viking activity in the British Isles). Source: Wikidata Q98785100.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_northumbria"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

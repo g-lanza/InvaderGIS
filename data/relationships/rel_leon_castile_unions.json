@@ -1,0 +1,49 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_leon_castile_unions",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_leon",
+      "role": "principal"
+    },
+    {
+      "entity_id": "kingdom_of_castile",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "personal_union",
+  "since": 1065,
+  "until": 1230,
+  "note": "León and Castile were periodically united through dynastic inheritance: Ferdinand I (1037–1065) first united them by inheriting Castile and conquering León; they were re-split among his sons and reunited under Alfonso VII (1126–1157), split again, and finally permanently united under Fernando III (1230). Each union was driven by inheritance accidents rather than administrative planning; each split by the tradition of equal inheritance among sons. Fernando III's permanent union was facilitated by the simultaneous failure of the Leonese male line and his mother Berenguela of Castile's political skill in managing the succession.",
+  "active_periods": [
+    [
+      1065,
+      1065
+    ],
+    [
+      1072,
+      1157
+    ],
+    [
+      1217,
+      1230
+    ]
+  ],
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The repeated union-and-split cycle of Castile-León demonstrates the structural instability of Iberian dynastic politics; Fernando III's permanent union (1230) is possible only because it follows the natural extinction of the Leonese male line rather than forced absorption; the permanent union creates the power base for the great Reconquista advances of the 13th century"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

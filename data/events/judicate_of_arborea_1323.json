@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "judicate_of_arborea_1323",
+  "name": "Arborea Leads Sardinian Resistance",
+  "year": 1323,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.9,
+    8.6
+  ],
+  "entity": "judicate_of_arborea",
+  "summary": "When Aragonese forces invaded Sardinia in 1323, the Judicate of Arborea initially cooperated but soon led indigenous resistance against Aragonese domination. The conflict lasted over a century as Arborea defended Sardinian autonomy against the Crown of Aragon.",
+  "outcomes": [
+    "aragonese_invasion",
+    "sardinian_resistance",
+    "giudicato_survives"
+  ],
+  "_quarry": {
+    "participants": [
+      "judicate_of_arborea"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

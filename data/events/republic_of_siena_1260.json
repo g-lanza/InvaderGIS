@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "republic_of_siena_1260",
+  "name": "Siena Defeats Florence at Montaperti",
+  "year": 1260,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    43.56,
+    11.265
+  ],
+  "entity": "republic_of_siena",
+  "summary": "The Battle of Montaperti in 1260 was Siena's greatest military triumph, routing the Florentine Guelfs and temporarily making Siena the dominant Tuscan city. The victory inspired great artistic patronage, producing the magnificent Sienese Gothic painting tradition. Dante memorably condemns the Sienese for their 'vain glory' at Montaperti.",
+  "outcomes": [
+    "florentine_guelfs_expelled",
+    "sienese_power_peaks",
+    "dante_references_battle"
+  ],
+  "_quarry": {
+    "participants": [
+      "republic_of_siena",
+      "republic_of_florence"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

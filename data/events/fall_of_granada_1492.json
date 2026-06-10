@@ -1,0 +1,39 @@
+{
+ "kind": "event",
+ "dataset": "medieval-europe-500-1500",
+ "id": "fall_of_granada_1492",
+ "name": "Fall of Granada and End of Reconquista",
+ "year": 1492,
+ "type": "conflict",
+ "category": "violence",
+ "coords": [
+  37.176,
+  -3.598
+ ],
+ "entity": "crown_of_castile",
+ "summary": "On 2 January 1492, Muhammad XII (Boabdil) surrendered the city and palace complex of Granada to Ferdinand and Isabella, ending the Nasrid Emirate of Granada and completing the eight-century Christian reconquest of Iberia. The surrender terms were initially generous but were violated within a decade. Later in 1492, Columbus sailed westward; the same year the Jews of Spain were expelled under the Alhambra Decree.",
+ "outcomes": [
+  "Last Muslim emirate in Iberia surrenders",
+  "Muhammad XII surrenders Alhambra",
+  "Reconquista completed after 780 years",
+  "Columbus voyage authorized same year"
+ ],
+ "_quarry": {
+  "participants": [
+   "crown_of_castile",
+   "crown_of_aragon"
+  ],
+  "structural_significance": "The symbolic culmination of the Reconquista; the unified Iberian monarchy emerging from the conquest would project power globally within decades.",
+  "year_range": null
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "Harvey, Islamic Spain 1250–1500",
+   "Fernández-Armesto, Ferdinand and Isabella",
+   "ims_fordham",
+   "ims_fordham_sbookmap"
+  ],
+  "confidence": "low"
+ }
+}

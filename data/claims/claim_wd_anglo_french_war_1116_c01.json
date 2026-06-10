@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_anglo_french_war_1116_c01",
+  "statement": "An Anglo-French war involving the Kingdom of France began in 1116 CE.",
+  "subject_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 1116,
+    "to": 1116
+  },
+  "derived_from": "wd_anglo_french_war_1116",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

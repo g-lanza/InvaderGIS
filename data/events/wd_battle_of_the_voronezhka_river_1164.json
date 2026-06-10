@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_the_voronezhka_river_1164",
+  "name": "Battle of the Voronezhka River",
+  "year": 1164,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    59.25,
+    23.15
+  ],
+  "entity": "principality_of_novgorod",
+  "summary": "Battle of the Voronezhka River (1164 CE), at Voronezhka. Source: Wikidata Q16537224.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "principality_of_novgorod",
+      "kingdom_of_sweden"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "martin_treasure_1986",
+      "birnbaum_lord_1981"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

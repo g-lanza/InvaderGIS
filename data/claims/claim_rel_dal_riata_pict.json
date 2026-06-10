@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_dal_riata_pict",
+  "statement": "The Gaelic Kingdom of Dál Riata (straddling the Irish Sea between Antrim and Argyll) and the Pictish kingdoms of northeastern Scotland coexisted, competed, and eventually merged into the Kingdom of Alba under Kenneth MacAlpin (c. 843). The mechanism of merger is debated: marriage alliance, conquest, or dynastic accident. Kenneth — who may have had both Pictish and Gaelic ancestry — united the two peoples; within generations the Pictish language had disappeared and Gaelic prevailed. The merger created the proto-Scottish kingdom that eventually became medieval Scotland through territorial expansion southward.",
+  "subject_ids": [
+    "kingdom_of_dal_riata",
+    "pictish_confederation"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_dal_riata_pict",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "reuter_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 600,
+    "to": 839
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "clermont_1095",
+  "name": "Council of Clermont",
+  "year": 1095,
+  "type": "religious_council",
+  "category": "religion",
+  "coords": [
+    45.78,
+    3.09
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Pope Urban II preaches at the Council of Clermont, calling on Western Christians to liberate Jerusalem from Muslim rule and aid the Byzantine Emperor Alexios I against the Seljuks. The crowd responds 'Deus vult!' (God wills it). Urban's call launches the First Crusade and establishes the papacy's claim to direct wars of religious conquest.",
+  "outcomes": [
+    "first_crusade_launched",
+    "papal_authority_demonstrated"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france"
+    ],
+    "structural_significance": "Launches the Crusading movement that reshapes medieval European politics, creates the Latin states in the East, and entrenches papal claims to direct Christian military action",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

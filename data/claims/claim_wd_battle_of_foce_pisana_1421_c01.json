@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_foce_pisana_1421_c01",
+  "statement": "Battle of Foce Pisana (1421 CE), at Arno (part of Mediterranean campaign of Alfonso V of Aragon).",
+  "subject_ids": [
+    "republic_of_genoa"
+  ],
+  "period": {
+    "from": 1421,
+    "to": 1421
+  },
+  "derived_from": "wd_battle_of_foce_pisana_1421",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

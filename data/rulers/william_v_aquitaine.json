@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "william_v_aquitaine",
+  "name": "William V the Great",
+  "polity": "duchy_of_aquitaine",
+  "title": "ruler",
+  "reign_start": 969,
+  "reign_end": 1030,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "duchy_of_aquitaine",
+        "role": "ruler",
+        "start_year": 969,
+        "end_year": 1030
+      }
+    ],
+    "key_actions": [],
+    "region": "western_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "fort_caernarfon",
+  "name": "Caernarfon Castle",
+  "subtype": "fort",
+  "start_year": 1283,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "Edwardian castle in north Wales; birthplace of first Prince of Wales",
+  "coords": [
+    -4.277,
+    53.14
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_edessa_jerusalem_link",
+  "statement": "Crusader states cooperated against Muslim neighbors; Baldwin of Boulogne moved from Edessa to Jerusalem.",
+  "subject_ids": [
+    "county_of_edessa",
+    "kingdom_of_jerusalem"
+  ],
+  "predicate": "alliance",
+  "derived_from": "rel_edessa_jerusalem_link",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1099,
+    "to": 1144
+  }
+}

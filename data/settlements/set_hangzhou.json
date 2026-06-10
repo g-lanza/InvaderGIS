@@ -1,0 +1,22 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_hangzhou",
+  "name": "Hangzhou",
+  "importance": "megacity",
+  "start_year": 907,
+  "end_year": 1279,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "end_confidence": "medium",
+  "coords": [
+    120.155,
+    30.274
+  ]
+}

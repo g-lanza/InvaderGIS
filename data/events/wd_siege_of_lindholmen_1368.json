@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_lindholmen_1368",
+  "name": "Siege of Lindholmen",
+  "year": 1368,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    56.75,
+    12.5
+  ],
+  "entity": "kingdom_of_sweden",
+  "summary": "Siege of Lindholmen (1368 CE), at Lindholmen Castle (part of Danish-Hanseatic War of 1361-1370). Source: Wikidata Q126454315.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_sweden",
+      "hanseatic_league"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_medieval_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

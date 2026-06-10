@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "england_793",
+  "name": "Viking Raid on Lindisfarne",
+  "year": 793,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    52.5,
+    -1
+  ],
+  "entity": "kingdom_of_wessex",
+  "summary": "Norse raiders sacked the monastery of Lindisfarne in 793 CE, shocking the Anglo-Saxon world and marking the beginning of the Viking Age in Britain. The raid exposed the vulnerability of coastal religious communities and prompted decades of defensive reorganisation.",
+  "outcomes": [
+    "monastery_sacked",
+    "viking_age_begins",
+    "church_vulnerability_exposed"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_wessex"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

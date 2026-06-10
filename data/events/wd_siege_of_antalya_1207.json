@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_antalya_1207",
+  "name": "Siege of Antalya",
+  "year": 1207,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.45,
+    31.1
+  ],
+  "entity": "empire_of_nicaea",
+  "summary": "Siege of Antalya (1207 CE), at Antalya (part of Byzantine–Seljuq Wars). Source: Wikidata Q3485813.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "empire_of_nicaea",
+      "sultanate_of_rum"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

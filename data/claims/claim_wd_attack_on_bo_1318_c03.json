@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_attack_on_bo_1318_c03",
+  "statement": "The 1318 attack on Åbo was part of the Swedish–Novgorodian Wars.",
+  "subject_ids": [
+    "kingdom_of_sweden"
+  ],
+  "period": {
+    "from": 1318,
+    "to": 1318
+  },
+  "derived_from": "wd_attack_on_bo_1318",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_medieval_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

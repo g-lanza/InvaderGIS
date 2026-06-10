@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_od_on_at_carthage_500",
+  "name": "Odéon at Carthage",
+  "importance": "city",
+  "start_year": 500,
+  "end_year": 698,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "high",
+    "attestation": "inferred",
+    "external_ids": {
+      "pleiades": "229363104"
+    }
+  },
+  "end_confidence": "high",
+  "coords": [
+    10.3305,
+    36.8587
+  ]
+}

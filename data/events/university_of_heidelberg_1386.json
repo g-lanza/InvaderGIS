@@ -1,0 +1,30 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "university_of_heidelberg_1386",
+  "name": "University of Heidelberg founded",
+  "year": 1386,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    49.4109,
+    8.6948
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Ruprecht I of the Palatinate, with Urban VI's bull of 23 October 1385, founds Heidelberg as the first university on the German territory of the Holy Roman Empire that survives continuously. The university opens 18 October 1386 with Marsilius of Inghen as first rector.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire"
+    ],
+    "structural_significance": "Defining medieval German university; Marsilius's nominalist via moderna shapes the curriculum at later German foundations (Cologne 1388, Erfurt 1392, Leipzig 1409).",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "bartlett_making_of_europe_1993"
+    ],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_mercia_918",
+  "name": "Mercia Absorbed into English Kingdom",
+  "year": 918,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    52.5,
+    -1.25
+  ],
+  "entity": "kingdom_of_mercia",
+  "summary": "The death of Æthelflæd, Lady of the Mercians, in 918 CE allowed her brother Edward the Elder of Wessex to absorb Mercia directly. Æthelflæd had been an exceptional ruler who had led Mercian military campaigns against the Danes; her death ended Mercia's semi-independent status and completed the unification of England.",
+  "outcomes": [
+    "lady_of_mercia",
+    "aethelflaed_dies",
+    "wessex_absorbs_mercia"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_mercia",
+      "kingdom_of_england"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

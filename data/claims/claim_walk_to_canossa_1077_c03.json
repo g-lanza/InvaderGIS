@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_walk_to_canossa_1077_c03",
+  "statement": "Henry IV later regained power and drove Gregory VII into exile.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1077,
+    "to": 1077
+  },
+  "derived_from": "walk_to_canossa_1077",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

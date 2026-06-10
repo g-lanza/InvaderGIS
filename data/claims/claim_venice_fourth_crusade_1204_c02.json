@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_venice_fourth_crusade_1204_c02",
+  "statement": "Venice gained a quarter of the Byzantine Empire, including Crete, Euboea, and key Aegean ports, after the 1204 sack of Constantinople.",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1204,
+    "to": 1204
+  },
+  "derived_from": "venice_fourth_crusade_1204",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_munster_high_kingship",
+  "statement": "Munster (southern Ireland) was the province from which Brian Boru rose to challenge the Uí Néill monopoly on the High Kingship. Brian Boru of the Dál Cais clan within Munster became King of Munster, then High King of Ireland after forcing Mael Sechnaill II's submission (1002). His death at Clontarf (1014) — the battle he won — prevented the consolidation of a hereditary Irish monarchy. After Brian, Munster split into Thomond and Desmond, with the high kingship contested between Leinster (Diarmait Mac Murchada) and Connacht (Ruaidrí Ua Conchobair) before the Anglo-Norman conquest ended effective native Irish high kingship.",
+  "subject_ids": [
+    "kingdom_of_ireland_high",
+    "kingdom_of_munster"
+  ],
+  "predicate": "vassalage",
+  "derived_from": "rel_munster_high_kingship",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "kingdom_of_munster"
+  ],
+  "period": {
+    "from": 500,
+    "to": 1118
+  }
+}

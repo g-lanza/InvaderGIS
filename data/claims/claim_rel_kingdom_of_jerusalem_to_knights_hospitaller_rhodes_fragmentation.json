@@ -1,0 +1,32 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_kingdom_of_jerusalem_to_knights_hospitaller_rhodes_fragmentation",
+  "statement": "Derived from predecessor/successor links recorded in the kingdom_of_jerusalem and knights_hospitaller_rhodes entity records. Transition anchored to knights_hospitaller_rhodes start_year.",
+  "subject_ids": [
+    "kingdom_of_jerusalem",
+    "knights_hospitaller_rhodes"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_kingdom_of_jerusalem_to_knights_hospitaller_rhodes_fragmentation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k",
+      "riley-smith_hospitallers_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "knights_hospitaller_rhodes"
+  ],
+  "period": {
+    "from": 1310,
+    "to": 1310
+  }
+}

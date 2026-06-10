@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_colle_di_val_d_elsa_1479",
+  "name": "Siege of Colle di Val d'Elsa",
+  "year": 1479,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    43.384,
+    10.366
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Siege of Colle di Val d'Elsa (1479 CE), at Colle di Val d'Elsa (part of Pazzi War). Source: Wikidata Q3625464.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "republic_of_florence",
+      "papal_states",
+      "kingdom_of_naples",
+      "republic_of_siena"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

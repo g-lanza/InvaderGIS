@@ -1,0 +1,38 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_burgundy_kingdom_hre",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_burgundy",
+      "role": "principal"
+    },
+    {
+      "entity_id": "holy_roman_empire",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "personal_union",
+  "since": 1032,
+  "until": 1032,
+  "note": "The Kingdom of Burgundy (or Kingdom of Arles) was an independent kingdom that passed to the Holy Roman Empire through Conrad II's inheritance in 1033. The kingdom comprised Provence, the Rhône-Saône corridor, Savoy, and parts of modern Switzerland. Imperial suzerainty was nominal in practice — the local counts and bishops governed independently. The French crown gradually absorbed the western portions (Lyonnais, Dauphiné) in the 14th century. The 'Burgundian' political identity eventually crystallized around the Valois Duchy of Burgundy, which was distinct from but built on the heritage of the old kingdom.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Kingdom of Burgundy's absorption into the empire creates the constitutional framework that makes Savoy, Provence, and the Rhône corridor imperial territories; the gradual French absorption of its western portions creates the persistent Franco-imperial boundary dispute that drives Lorraine and Burgundy conflicts"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

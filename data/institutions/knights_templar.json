@@ -1,0 +1,65 @@
+{
+  "kind": "institution",
+  "dataset": "medieval-europe-500-1500",
+  "id": "knights_templar",
+  "name_primary": "Knights Templar",
+  "domain": "military_order",
+  "formed": 1119,
+  "dissolved": 1312,
+  "_quarry": {
+    "key_developments": [
+      {
+        "year": 1119,
+        "event": "Hugh de Payens and eight companions found the Order at the Temple Mount in Jerusalem."
+      },
+      {
+        "year": 1129,
+        "event": "Council of Troyes officially recognizes the Order; Bernard of Clairvaux writes In Praise of the New Knighthood."
+      },
+      {
+        "year": 1139,
+        "event": "Bull Omne datum optimum exempts the Order from episcopal authority."
+      },
+      {
+        "year": 1187,
+        "event": "Battle of Hattin — Templar leadership decimated by Saladin."
+      },
+      {
+        "year": 1291,
+        "event": "Fall of Acre; Templars lose Levantine base."
+      },
+      {
+        "year": 1307,
+        "event": "Friday 13 October — mass arrest of French Templars by Philip IV."
+      },
+      {
+        "year": 1312,
+        "event": "Council of Vienne dissolves the Order."
+      },
+      {
+        "year": 1314,
+        "event": "Jacques de Molay burned at the stake in Paris."
+      }
+    ],
+    "influences_entities": [
+      "kingdom_of_jerusalem",
+      "principality_of_antioch",
+      "county_of_tripoli",
+      "county_of_edessa",
+      "kingdom_of_france",
+      "kingdom_of_england",
+      "crown_of_aragon",
+      "kingdom_of_portugal",
+      "papal_states"
+    ],
+    "description": "The Order of the Poor Knights of Christ and of the Temple of Solomon, founded c.1119 to protect Latin Christian pilgrims in the recently-captured Jerusalem. Granted papal exemption from local episcopal authority (Omne datum optimum, 1139), the Templars accumulated lands, banking networks, and a sophisticated proto-banking apparatus that financed the Crusader states. After the fall of Acre (1291) ended their Levantine raison d'être, Philip IV of France — heavily indebted to the Order — orchestrated their suppression. Mass arrests in 1307, dissolution by the Council of Vienne in 1312, and execution of Grand Master Jacques de Molay in 1314 ended the Order; its lands were largely transferred to the Hospitallers."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "barber_new_knighthood_1994",
+      "frale_templars_2009"
+    ],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "agincourt_1415",
+  "name": "Battle of Agincourt",
+  "year": 1415,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    50.46,
+    2.14
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Henry V's exhausted English army, outnumbered 3:1 and weakened by dysentery, defeats the French at Agincourt through superior use of the longbow against advancing armored knights in muddy conditions. The French nobility suffers catastrophic losses (over 6,000 killed vs. ~400 English). Henry V negotiates the Treaty of Troyes (1420), making him heir to France. The victory reignites the Hundred Years' War.",
+  "outcomes": [
+    "henry_v_victory",
+    "french_nobility_decimated"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "kingdom_of_france"
+    ],
+    "structural_significance": "Temporarily makes England heir to the French crown; Joan of Arc's campaigns (1429) eventually reverse the English gains, but Agincourt shapes Anglo-French politics for a generation",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

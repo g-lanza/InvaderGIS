@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "alcuin_york_education_782",
+  "name": "Alcuin at Charlemagne's Court",
+  "year": 782,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    50.8,
+    6.1
+  ],
+  "entity": "carolingian_empire",
+  "summary": "Charlemagne invites Alcuin of York, the leading scholar of the age, to head his palace school at Aachen. Alcuin reforms the Frankish church, standardizes the Carolingian minuscule script (ancestor of our lowercase letters), establishes scriptoria that copy classical texts, and develops the curriculum of the seven liberal arts that structures medieval education.",
+  "outcomes": [
+    "carolingian_renaissance",
+    "scriptoria_standardized",
+    "palace_school"
+  ],
+  "_quarry": {
+    "participants": [
+      "carolingian_empire"
+    ],
+    "structural_significance": "The Carolingian Renaissance preserves hundreds of classical Latin texts that would otherwise be lost; Carolingian minuscule creates a readable, standardized script adopted across Europe; the palace school model creates the basis for cathedral schools that become universities.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "mckitterick_charlemagne_2008",
+      "riché_the_1993",
+      "nelson_king_2019"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

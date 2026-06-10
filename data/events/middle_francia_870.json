@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "middle_francia_870",
+  "name": "Middle Francia Partitioned at Mersen",
+  "year": 870,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    47.5,
+    6.5
+  ],
+  "entity": "middle_francia",
+  "summary": "The Treaty of Mersen in 870 divided Middle Francia (specifically Lotharingia) between East and West Francia, eliminating it as a political entity. The borderlands between Germany and France, from Flanders through Alsace-Lorraine to Burgundy, became a zone of perpetual contest that shaped European history for a millennium.",
+  "outcomes": [
+    "lotharingia_disputed",
+    "east_west_conflict",
+    "carolingian_decline"
+  ],
+  "_quarry": {
+    "participants": [
+      "middle_francia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

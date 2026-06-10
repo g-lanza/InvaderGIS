@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_treaty_devol_1108_c04",
+  "statement": "The Treaty of Devol (1108) established Byzantine sovereignty claims over Antioch that persisted for decades.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 1108,
+    "to": 1108
+  },
+  "derived_from": "treaty_devol_1108",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

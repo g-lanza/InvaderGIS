@@ -1,0 +1,31 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_kalmar_union",
+  "statement": "The Kalmar Union (1397–1523), established by Queen Margaret I of Denmark (regent for her grandnephew Eric of Pomerania), united Denmark, Norway, and Sweden under a single crown while preserving each kingdom's laws and institutions. Margaret I effectively governed all three until her death (1412). The union was plagued by Swedish resistance to Danish dominance; Engelbrekt Engelbrektsson's revolt (1434) began the cycle of Swedish separatism that culminated in the Stockholm Bloodbath (1520) and the definitive Swedish exit under Gustav Vasa (1523).",
+  "subject_ids": [
+    "kalmar_union",
+    "kingdom_of_denmark",
+    "kingdom_of_sweden",
+    "kingdom_of_norway"
+  ],
+  "predicate": "dynastic_union",
+  "derived_from": "rel_kalmar_union",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "sawyer_medieval_1993",
+      "roesdahl_the_1992",
+      "sawyer_the_1997",
+      "helle_the_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1397,
+    "to": 1397
+  }
+}

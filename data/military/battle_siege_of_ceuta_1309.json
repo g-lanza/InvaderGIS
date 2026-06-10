@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_siege_of_ceuta_1309",
+  "name": "Siege of Ceuta",
+  "subtype": "battle",
+  "start_year": 1309,
+  "end_year": 1309,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q11949527"
+    }
+  },
+  "description": "Battle during Battle of the Strait (1309)",
+  "coords": [
+    -5.3064,
+    35.8898
+  ]
+}

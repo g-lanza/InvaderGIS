@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "peace_of_aude_1229",
+  "name": "Treaty of Paris (Albigensian)",
+  "year": 1229,
+  "type": "treaty",
+  "category": "diplomacy",
+  "coords": [
+    48.85,
+    2.35
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "The Treaty of Paris (1229), also called the Peace of Paris or the Treaty ending the Albigensian Crusade, is negotiated between the French crown (represented by Queen Blanche of Castile, regent) and Count Raymond VII of Toulouse. Raymond surrenders much of his territory to France, agrees to hunt heretics within his remaining lands, and betroths his daughter to the French king's brother. The Languedoc is effectively annexed to the French crown (completed 1271). The Inquisition is formally established in the region (1233). Occitanian culture is permanently suppressed.",
+  "outcomes": [
+    "toulouse_submission"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "county_of_toulouse"
+    ],
+    "structural_significance": "Integrates Languedoc into the French crown; establishes the Inquisition as a permanent institution; destroys Occitanian cultural autonomy; massively expands French royal territory",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

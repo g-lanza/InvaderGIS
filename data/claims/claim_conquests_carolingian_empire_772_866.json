@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_carolingian_empire_772_866",
+  "statement": "Carolingian Empire — campaigns and battles spanned 772–866, from Saxon Wars to Louis II's campaign against Bari.",
+  "subject_ids": [
+    "carolingian_empire"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_carolingian_empire_772_866",
+  "period": {
+    "from": 772,
+    "to": 866
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "mckitterick_charlemagne_2008",
+      "riché_the_1993",
+      "nelson_king_2019"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_volga_bulgar_mongol",
+  "statement": "The Volga Bulgaria — a Turkic Muslim trading state controlling the middle Volga fur trade route between the Baltic and the Caspian — was destroyed by the Mongols during the western campaign (1236–1237), several months before the assault on Kievan Rus. Batu Khan's forces sacked the Volga Bulgarian capital (Bulgar/Bilyar) in 1236; the population was massacred or enslaved. The destruction eliminated Islam's most northerly advanced state and the primary intermediary in the Baltic-Caspian fur trade, reshaping the economic geography of the Eurasian steppe.",
+  "subject_ids": [
+    "volga_bulgaria",
+    "golden_horde"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_volga_bulgar_mongol",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "halperin_russia_1985",
+      "allsen_mongol_1987"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "golden_horde"
+  ],
+  "period": {
+    "from": 1240,
+    "to": 1240
+  }
+}

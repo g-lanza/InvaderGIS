@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_dubiecko_1407",
+  "name": "Dubiecko",
+  "importance": "city",
+  "start_year": 1407,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2612477"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    22.3912,
+    49.8261
+  ]
+}

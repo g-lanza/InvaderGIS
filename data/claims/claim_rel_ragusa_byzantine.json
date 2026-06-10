@@ -1,0 +1,31 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_ragusa_byzantine",
+  "statement": "Ragusa (Dubrovnik) existed within the Byzantine sphere of influence as a duchy under the Theme of Dalmatia until the 12th century. Byzantine cultural influence is visible in Ragusa's Orthodox community and its Greek-influenced legal practices. When Venice gained Ragusa under the Treaty of Zadar (1204, confirmed 1205), Byzantine influence waned. The city's sophisticated diplomatic tradition — maintaining simultaneous relations with multiple great powers — developed partly from its Byzantine administrative heritage and its position as a crossroads between Latin and Orthodox worlds.",
+  "subject_ids": [
+    "byzantine_empire",
+    "republic_of_ragusa"
+  ],
+  "predicate": "vassalage",
+  "derived_from": "rel_ragusa_byzantine",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991",
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "republic_of_ragusa"
+  ],
+  "period": {
+    "from": 1358,
+    "to": 1358
+  }
+}

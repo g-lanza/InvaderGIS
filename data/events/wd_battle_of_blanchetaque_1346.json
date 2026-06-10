@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_blanchetaque_1346",
+  "name": "Battle of Blanchetaque",
+  "year": 1346,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    49.5,
+    0.75
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Battle of Blanchetaque (1346 CE), at Saint-Valery-sur-Somme (part of Hundred Years' War). Source: Wikidata Q611827.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "kingdom_of_england"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,1988 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "commune_of_milan",
+  "name_primary": "Commune of Milan",
+  "name_variants": [
+    "Comune di Milano"
+  ],
+  "type": "city_state",
+  "region": "italy",
+  "formed": 1097,
+  "dissolved": 1395,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 1100,
+      "label": "Commune of Milan (approx.)",
+      "polygon": [
+        [
+          45.1,
+          8.55
+        ],
+        [
+          44.9,
+          8.75
+        ],
+        [
+          44.75,
+          9.05
+        ],
+        [
+          44.68,
+          9.5
+        ],
+        [
+          44.72,
+          9.9
+        ],
+        [
+          44.85,
+          10.2
+        ],
+        [
+          45.2,
+          10.4
+        ],
+        [
+          45.55,
+          10.2
+        ],
+        [
+          45.8,
+          10
+        ],
+        [
+          45.95,
+          9.5
+        ],
+        [
+          45.92,
+          9
+        ],
+        [
+          45.8,
+          8.65
+        ],
+        [
+          45.1,
+          8.55
+        ]
+      ]
+    },
+    {
+      "year": 1200,
+      "label": "Commune of Milan (approx.)",
+      "polygon": [
+        [
+          45.1,
+          8.55
+        ],
+        [
+          44.9,
+          8.75
+        ],
+        [
+          44.75,
+          9.05
+        ],
+        [
+          44.68,
+          9.5
+        ],
+        [
+          44.72,
+          9.9
+        ],
+        [
+          44.85,
+          10.2
+        ],
+        [
+          45.2,
+          10.4
+        ],
+        [
+          45.55,
+          10.2
+        ],
+        [
+          45.8,
+          10
+        ],
+        [
+          45.95,
+          9.5
+        ],
+        [
+          45.92,
+          9
+        ],
+        [
+          45.8,
+          8.65
+        ],
+        [
+          45.1,
+          8.55
+        ]
+      ]
+    },
+    {
+      "year": 1300,
+      "label": "Commune of Milan (approx.)",
+      "polygon": [
+        [
+          45.1,
+          8.55
+        ],
+        [
+          44.9,
+          8.75
+        ],
+        [
+          44.75,
+          9.05
+        ],
+        [
+          44.68,
+          9.5
+        ],
+        [
+          44.72,
+          9.9
+        ],
+        [
+          44.85,
+          10.2
+        ],
+        [
+          45.2,
+          10.4
+        ],
+        [
+          45.55,
+          10.2
+        ],
+        [
+          45.8,
+          10
+        ],
+        [
+          45.95,
+          9.5
+        ],
+        [
+          45.92,
+          9
+        ],
+        [
+          45.8,
+          8.65
+        ],
+        [
+          45.1,
+          8.55
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    45.5,
+    9.2
+  ],
+  "religion": "catholic",
+  "population_estimates": [
+    {
+      "year": 1050,
+      "estimate": 70000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q490",
+          "url": "https://www.wikidata.org/wiki/Q490",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Commune of Milan",
+          "url": "https://en.wikipedia.org/wiki/Milan"
+        }
+      ]
+    },
+    {
+      "year": 1200,
+      "estimate": 100000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q490",
+          "url": "https://www.wikidata.org/wiki/Q490",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Commune of Milan",
+          "url": "https://en.wikipedia.org/wiki/Milan"
+        }
+      ]
+    },
+    {
+      "year": 1350,
+      "estimate": 110000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q490",
+          "url": "https://www.wikidata.org/wiki/Q490",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Commune of Milan",
+          "url": "https://en.wikipedia.org/wiki/Milan"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low"
+  },
+  "description": "Italian city-commune (c. 1097–1395) that pioneered consular self-government against episcopal and imperial authority; its resistance to Frederick Barbarossa through the Lombard League secured the Peace of Constance (1183) establishing communal autonomy as a constitutional norm in northern Italy, before eventual signorial transformation under the Visconti.",
+  "temporal": {
+    "start_year": 1097,
+    "end_year": 1395,
+    "end_year_within_scope": null,
+    "start_event_id": null,
+    "end_event_id": null,
+    "notes": "Communal phase; Lombard League against Barbarossa"
+  },
+  "geographic": {
+    "representation": "schematic_approximation",
+    "centroid": [
+      45.5,
+      9.2
+    ],
+    "core_regions": [
+      "Lombardy"
+    ],
+    "polygon_simplified": [
+      [
+        45.1,
+        8.55
+      ],
+      [
+        44.9,
+        8.75
+      ],
+      [
+        44.75,
+        9.05
+      ],
+      [
+        44.68,
+        9.5
+      ],
+      [
+        44.72,
+        9.9
+      ],
+      [
+        44.85,
+        10.2
+      ],
+      [
+        45.2,
+        10.4
+      ],
+      [
+        45.55,
+        10.2
+      ],
+      [
+        45.8,
+        10
+      ],
+      [
+        45.95,
+        9.5
+      ],
+      [
+        45.92,
+        9
+      ],
+      [
+        45.8,
+        8.65
+      ],
+      [
+        45.1,
+        8.55
+      ]
+    ],
+    "notes": "",
+    "polygon_status": "approximate",
+    "polygon_representative_year": 1246,
+    "polygon_source": "hand_crafted",
+    "polygon_source_date": "2026-05-11",
+    "polygon_snapshots": [
+      {
+        "year": 1100,
+        "label": "Commune of Milan (approx.)",
+        "polygon": [
+          [
+            45.1,
+            8.55
+          ],
+          [
+            44.9,
+            8.75
+          ],
+          [
+            44.75,
+            9.05
+          ],
+          [
+            44.68,
+            9.5
+          ],
+          [
+            44.72,
+            9.9
+          ],
+          [
+            44.85,
+            10.2
+          ],
+          [
+            45.2,
+            10.4
+          ],
+          [
+            45.55,
+            10.2
+          ],
+          [
+            45.8,
+            10
+          ],
+          [
+            45.95,
+            9.5
+          ],
+          [
+            45.92,
+            9
+          ],
+          [
+            45.8,
+            8.65
+          ],
+          [
+            45.1,
+            8.55
+          ]
+        ]
+      },
+      {
+        "year": 1200,
+        "label": "Commune of Milan (approx.)",
+        "polygon": [
+          [
+            45.1,
+            8.55
+          ],
+          [
+            44.9,
+            8.75
+          ],
+          [
+            44.75,
+            9.05
+          ],
+          [
+            44.68,
+            9.5
+          ],
+          [
+            44.72,
+            9.9
+          ],
+          [
+            44.85,
+            10.2
+          ],
+          [
+            45.2,
+            10.4
+          ],
+          [
+            45.55,
+            10.2
+          ],
+          [
+            45.8,
+            10
+          ],
+          [
+            45.95,
+            9.5
+          ],
+          [
+            45.92,
+            9
+          ],
+          [
+            45.8,
+            8.65
+          ],
+          [
+            45.1,
+            8.55
+          ]
+        ]
+      },
+      {
+        "year": 1300,
+        "label": "Commune of Milan (approx.)",
+        "polygon": [
+          [
+            45.1,
+            8.55
+          ],
+          [
+            44.9,
+            8.75
+          ],
+          [
+            44.75,
+            9.05
+          ],
+          [
+            44.68,
+            9.5
+          ],
+          [
+            44.72,
+            9.9
+          ],
+          [
+            44.85,
+            10.2
+          ],
+          [
+            45.2,
+            10.4
+          ],
+          [
+            45.55,
+            10.2
+          ],
+          [
+            45.8,
+            10
+          ],
+          [
+            45.95,
+            9.5
+          ],
+          [
+            45.92,
+            9
+          ],
+          [
+            45.8,
+            8.65
+          ],
+          [
+            45.1,
+            8.55
+          ]
+        ]
+      }
+    ],
+    "capital": {
+      "name": "Milan",
+      "coords": [
+        45.46,
+        9.19
+      ],
+      "source": "curated"
+    }
+  },
+  "internal_structure": {
+    "centralization": null,
+    "centralization_trajectory": null,
+    "governance_type": "republican",
+    "legitimacy_basis": [
+      "communal_charter"
+    ],
+    "administrative_system": ""
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "communal_government",
+      "years": "1097–1277",
+      "description": "Milan declares itself a commune (1097), one of the first Italian cities to achieve self-governance against the authority of the Archbishop and Holy Roman Emperor. It leads the Lombard League against Frederick Barbarossa, whose destruction of Milan (1162) galvanizes Italian city resistance; the League defeats him at Legnano (1176), the first great victory of infantry over feudal cavalry. Milan becomes the most populous city in medieval Europe north of Rome.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q490",
+          "url": "https://www.wikidata.org/wiki/Q490"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Commune of Milan",
+          "url": "https://en.wikipedia.org/wiki/Milan"
+        }
+      ]
+    },
+    {
+      "phase": "visconti_emergence",
+      "years": "1277–1395",
+      "description": "The Visconti family defeats the Della Torre family (1277) and establishes hereditary signorial rule while maintaining communal forms. Gian Galeazzo Visconti (1378–1402) consolidates the signoria, purchases the title of Duke of Milan (1395) from Emperor Wenceslaus IV, and nearly creates a unified northern Italian state before dying of plague. The commune is effectively over; the Duchy of Milan succeeds it.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q490",
+          "url": "https://www.wikidata.org/wiki/Q490"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Commune of Milan",
+          "url": "https://en.wikipedia.org/wiki/Milan"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "resource_concentration",
+      "layer": "economic_commercial",
+      "description": "Milan's position at the foot of the Alpine passes made it the distribution hub for trans-Alpine trade; Milanese wool, silk, and armor industries supplied markets from England to the Ottoman Empire, funding the civic programs and military ambitions of the commune",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q490",
+          "url": "https://www.wikidata.org/wiki/Q490"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Commune of Milan",
+          "url": "https://en.wikipedia.org/wiki/Milan"
+        }
+      ]
+    },
+    {
+      "tag": "military_organizational_advantage",
+      "layer": "military_security",
+      "description": "The Lombard League's innovation at Legnano (1176), using the carroccio (sacred war wagon) as a rallying point for infantry in a mixed formation against feudal cavalry, demonstrated that disciplined communal infantry could defeat armored knights",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q490",
+          "url": "https://www.wikidata.org/wiki/Q490"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Commune of Milan",
+          "url": "https://en.wikipedia.org/wiki/Milan"
+        }
+      ]
+    },
+    {
+      "tag": "lombard_league_leadership",
+      "layer": "military_security",
+      "description": "Milan led the Lombard League against Frederick Barbarossa, demonstrating its capacity to mobilize north Italian cities in coalition; defeating the emperor at Legnano (1176) established Milan as the preeminent communal power in Lombardy",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q490",
+          "url": "https://www.wikidata.org/wiki/Q490"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Commune of Milan",
+          "url": "https://en.wikipedia.org/wiki/Milan"
+        }
+      ]
+    },
+    {
+      "tag": "resource_concentration",
+      "layer": "economic_commercial",
+      "description": "Milan's control of the upper Po plain gave it access to the most productive agricultural land in Italy; surplus grain funded the Visconti and Sforza courts and supported a dense urban artisan population",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q490",
+          "url": "https://www.wikidata.org/wiki/Q490"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Commune of Milan",
+          "url": "https://en.wikipedia.org/wiki/Milan"
+        }
+      ],
+      "tag_prose": "po_valley_agriculture"
+    },
+    {
+      "tag": "military_organizational_advantage",
+      "layer": "economic_commercial",
+      "description": "Milanese armor and weapons workshops supplied armies across Europe by the 14th century; the city's metallurgical expertise, fed by Alpine iron, created an export industry that funded political ambitions and attracted skilled workers",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q490",
+          "url": "https://www.wikidata.org/wiki/Q490"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Commune of Milan",
+          "url": "https://en.wikipedia.org/wiki/Milan"
+        }
+      ],
+      "tag_prose": "arms_manufacturing"
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "communal_autonomy",
+      "direction": "rise",
+      "description": "Milan's commune wrested self-governance from the Archbishop through the Credenza di Sant'Ambrogio in 1198, establishing elected consuls who managed taxation, justice, and military conscription independent of imperial or episcopal authority.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q490",
+          "url": "https://www.wikidata.org/wiki/Q490"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Commune of Milan",
+          "url": "https://en.wikipedia.org/wiki/Milan"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "internal_fragmentation",
+      "layer": "governance_institutional",
+      "description": "Factional conflict between the Guelph Della Torre and Ghibelline Visconti families consumed Milanese politics for decades; the commune's republican institutions could not resolve these conflicts, enabling the Visconti to establish permanent signorial power",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q490",
+          "url": "https://www.wikidata.org/wiki/Q490"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Commune of Milan",
+          "url": "https://en.wikipedia.org/wiki/Milan"
+        }
+      ]
+    },
+    {
+      "tag": "internal_fragmentation",
+      "layer": "military_security",
+      "description": "The struggle between the Torriani and Visconti families in the late 13th century exemplified the vulnerability of communal institutions to aristocratic capture; the commune's elected consuls could not resist signorie who combined wealth and military force",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q490",
+          "url": "https://www.wikidata.org/wiki/Q490"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Commune of Milan",
+          "url": "https://en.wikipedia.org/wiki/Milan"
+        }
+      ],
+      "tag_prose": "factional_violence"
+    },
+    {
+      "tag": "imperial_intervention_cycles",
+      "layer": "military_security",
+      "description": "Every imperial expedition (Henry VII 1310, Louis IV 1327) disrupted Milanese political stability; the city oscillated between Guelph and Ghibelline alignments depending on which external power threatened most, preventing the emergence of stable institutions",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q490",
+          "url": "https://www.wikidata.org/wiki/Q490"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Commune of Milan",
+          "url": "https://en.wikipedia.org/wiki/Milan"
+        }
+      ]
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "signoria_transition",
+      "direction": "decline",
+      "description": "Recurrent factional violence between the Guelph Della Torre and Ghibelline Visconti families destabilized communal governance; the Visconti signoria established in 1277 ended the commune's republican institutions and concentrated power in a single dynasty.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q490",
+          "url": "https://www.wikidata.org/wiki/Q490"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Commune of Milan",
+          "url": "https://en.wikipedia.org/wiki/Milan"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Ottone Visconti",
+      "role": "ruler",
+      "years": "1207–1295",
+      "year_start": 1207,
+      "year_end": 1295,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Ottone Visconti",
+          "url": "https://en.wikipedia.org/wiki/Ottone_Visconti"
+        }
+      ]
+    },
+    {
+      "name": "Gian Galeazzo Visconti",
+      "role": "ruler",
+      "years": "1351–1402",
+      "year_start": 1351,
+      "year_end": 1402,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Gian Galeazzo Visconti",
+          "url": "https://en.wikipedia.org/wiki/Gian_Galeazzo_Visconti"
+        }
+      ]
+    }
+  ],
+  "successor_entity_ids": [
+    "duchy_of_milan"
+  ],
+  "primary_ethnicity": "italian_roman",
+  "ethnic_composition": [
+    {
+      "group": "italian_roman",
+      "proportion": 0.92
+    }
+  ],
+  "religion_composition": [
+    {
+      "religion": "catholic",
+      "proportion": 0.95
+    },
+    {
+      "religion": "pagan",
+      "proportion": 0.05
+    }
+  ],
+  "primary_language": "italian_lang",
+  "language_composition": [
+    {
+      "language": "italian_lang",
+      "proportion": 0.82,
+      "role": "vernacular"
+    },
+    {
+      "language": "latin",
+      "proportion": 0.12,
+      "role": "liturgical"
+    },
+    {
+      "language": "german",
+      "proportion": 0.04,
+      "role": "regional"
+    },
+    {
+      "language": "old_french",
+      "proportion": 0.02,
+      "role": "regional"
+    }
+  ],
+  "economic": {
+    "primary_base": "manufacturing",
+    "secondary_bases": [
+      "long_distance_trade",
+      "agriculture"
+    ],
+    "wealth_level": "very_high",
+    "major_exports": [
+      "arms",
+      "armor",
+      "wool_cloth",
+      "silk"
+    ],
+    "major_trade_partners": [
+      "holy_roman_empire",
+      "republic_of_venice",
+      "kingdom_of_france"
+    ],
+    "revenue_sources": [
+      "commercial_taxes",
+      "customs_duties",
+      "land_tax"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q490",
+        "url": "https://www.wikidata.org/wiki/Q490"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Commune of Milan",
+        "url": "https://en.wikipedia.org/wiki/Milan"
+      }
+    ]
+  },
+  "social_structure": {
+    "ruling_ethnicity": "italian_roman",
+    "subject_majority": "italian_roman",
+    "military_ethnicity": "italian_roman",
+    "administrative_language": "italian_lang",
+    "stratification_type": "merchant_oligarchy"
+  },
+  "wikidata_enrichment": {
+    "qid": "Q490",
+    "matched_name": "manual/commune_of_milan",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Milan",
+    "rulers_from_wikidata": [
+      {
+        "name": "Rino Gracili",
+        "qid": "Q103973833",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q103973833",
+            "url": "https://www.wikidata.org/wiki/Q103973833"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Rino Gracili",
+            "url": "https://en.wikipedia.org/wiki/Rino_Gracili"
+          }
+        ]
+      },
+      {
+        "name": "Alessandro Morelli",
+        "qid": "Q17251104",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q17251104",
+            "url": "https://www.wikidata.org/wiki/Q17251104"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Alessandro Morelli",
+            "url": "https://en.wikipedia.org/wiki/Alessandro_Morelli"
+          }
+        ]
+      },
+      {
+        "name": "Marco Cappato",
+        "qid": "Q1892362",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1892362",
+            "url": "https://www.wikidata.org/wiki/Q1892362"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Marco Cappato",
+            "url": "https://en.wikipedia.org/wiki/Marco_Cappato"
+          }
+        ]
+      },
+      {
+        "name": "Oldrado da Tresseno",
+        "qid": "Q3350248",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3350248",
+            "url": "https://www.wikidata.org/wiki/Q3350248"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Oldrado da Tresseno",
+            "url": "https://en.wikipedia.org/wiki/Oldrado_da_Tresseno"
+          }
+        ]
+      },
+      {
+        "name": "Bergando di San Nazzaro",
+        "qid": "Q96309233",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q96309233",
+            "url": "https://www.wikidata.org/wiki/Q96309233"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Bergando di San Nazzaro",
+            "url": "https://en.wikipedia.org/wiki/Bergando_di_San_Nazzaro"
+          }
+        ]
+      },
+      {
+        "name": "Bassano Gabba",
+        "qid": "Q21832879",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q21832879",
+            "url": "https://www.wikidata.org/wiki/Q21832879"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Bassano Gabba",
+            "url": "https://en.wikipedia.org/wiki/Bassano_Gabba"
+          }
+        ]
+      },
+      {
+        "name": "Virgilio Ferrari",
+        "qid": "Q2527720",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2527720",
+            "url": "https://www.wikidata.org/wiki/Q2527720"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Virgilio Ferrari",
+            "url": "https://en.wikipedia.org/wiki/Virgilio_Ferrari"
+          }
+        ]
+      },
+      {
+        "name": "Alberto da Carate",
+        "qid": "Q26734735",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q26734735",
+            "url": "https://www.wikidata.org/wiki/Q26734735"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Alberto da Carate",
+            "url": "https://en.wikipedia.org/wiki/Alberto_da_Carate"
+          }
+        ]
+      },
+      {
+        "name": "Giovanni Battista Barinetti",
+        "qid": "Q27712539",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q27712539",
+            "url": "https://www.wikidata.org/wiki/Q27712539"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Giovanni Battista Barinetti",
+            "url": "https://en.wikipedia.org/wiki/Giovanni_Battista_Barinetti"
+          }
+        ]
+      },
+      {
+        "name": "Gino Cassinis",
+        "qid": "Q302754",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q302754",
+            "url": "https://www.wikidata.org/wiki/Q302754"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Gino Cassinis",
+            "url": "https://en.wikipedia.org/wiki/Gino_Cassinis"
+          }
+        ]
+      },
+      {
+        "name": "Pietro Bucalossi",
+        "qid": "Q3388096",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3388096",
+            "url": "https://www.wikidata.org/wiki/Q3388096"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Pietro Bucalossi",
+            "url": "https://en.wikipedia.org/wiki/Pietro_Bucalossi"
+          }
+        ]
+      },
+      {
+        "name": "Aldo Aniasi",
+        "qid": "Q3609106",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3609106",
+            "url": "https://www.wikidata.org/wiki/Q3609106"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Aldo Aniasi",
+            "url": "https://en.wikipedia.org/wiki/Aldo_Aniasi"
+          }
+        ]
+      },
+      {
+        "name": "Aldo Brandirali",
+        "qid": "Q3609139",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3609139",
+            "url": "https://www.wikidata.org/wiki/Q3609139"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Aldo Brandirali",
+            "url": "https://en.wikipedia.org/wiki/Aldo_Brandirali"
+          }
+        ]
+      },
+      {
+        "name": "Angelo Filippetti",
+        "qid": "Q3616996",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3616996",
+            "url": "https://www.wikidata.org/wiki/Q3616996"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Angelo Filippetti",
+            "url": "https://en.wikipedia.org/wiki/Angelo_Filippetti"
+          }
+        ]
+      },
+      {
+        "name": "Anselmo dall'Orto",
+        "qid": "Q3618326",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3618326",
+            "url": "https://www.wikidata.org/wiki/Q3618326"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Anselmo dall'Orto",
+            "url": "https://en.wikipedia.org/wiki/Anselmo_dall'Orto"
+          }
+        ]
+      },
+      {
+        "name": "Antonio Beretta",
+        "qid": "Q3619251",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3619251",
+            "url": "https://www.wikidata.org/wiki/Q3619251"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Antonio Beretta",
+            "url": "https://en.wikipedia.org/wiki/Antonio_Beretta"
+          }
+        ]
+      },
+      {
+        "name": "Antonio Greppi",
+        "qid": "Q3619683",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3619683",
+            "url": "https://www.wikidata.org/wiki/Q3619683"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Antonio Greppi",
+            "url": "https://en.wikipedia.org/wiki/Antonio_Greppi"
+          }
+        ]
+      },
+      {
+        "name": "Emanuele Greppi, 6th Count of Bussero and Corneliano",
+        "qid": "Q3723940",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3723940",
+            "url": "https://www.wikidata.org/wiki/Q3723940"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Emanuele Greppi, 6th Count of Bussero and Corneliano",
+            "url": "https://en.wikipedia.org/wiki/Emanuele_Greppi,_6th_Count_of_Bussero_and_Corneliano"
+          }
+        ]
+      },
+      {
+        "name": "Emilio Caldara",
+        "qid": "Q3724359",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3724359",
+            "url": "https://www.wikidata.org/wiki/Q3724359"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Emilio Caldara",
+            "url": "https://en.wikipedia.org/wiki/Emilio_Caldara"
+          }
+        ]
+      },
+      {
+        "name": "Ettore Ponti",
+        "qid": "Q3733989",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3733989",
+            "url": "https://www.wikidata.org/wiki/Q3733989"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ettore Ponti",
+            "url": "https://en.wikipedia.org/wiki/Ettore_Ponti"
+          }
+        ]
+      },
+      {
+        "name": "Gaetano Negri",
+        "qid": "Q3757067",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3757067",
+            "url": "https://www.wikidata.org/wiki/Q3757067"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Gaetano Negri",
+            "url": "https://en.wikipedia.org/wiki/Gaetano_Negri"
+          }
+        ]
+      },
+      {
+        "name": "Giuseppe Mussi",
+        "qid": "Q3771071",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3771071",
+            "url": "https://www.wikidata.org/wiki/Q3771071"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Giuseppe Mussi",
+            "url": "https://en.wikipedia.org/wiki/Giuseppe_Mussi"
+          }
+        ]
+      },
+      {
+        "name": "Giuseppe Vigoni",
+        "qid": "Q3771624",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3771624",
+            "url": "https://www.wikidata.org/wiki/Q3771624"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Giuseppe Vigoni",
+            "url": "https://en.wikipedia.org/wiki/Giuseppe_Vigoni"
+          }
+        ]
+      },
+      {
+        "name": "Luigi Mangiagalli",
+        "qid": "Q3839819",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3839819",
+            "url": "https://www.wikidata.org/wiki/Q3839819"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Luigi Mangiagalli",
+            "url": "https://en.wikipedia.org/wiki/Luigi_Mangiagalli"
+          }
+        ]
+      },
+      {
+        "name": "Oberto Dall'Orto",
+        "qid": "Q3880543",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3880543",
+            "url": "https://www.wikidata.org/wiki/Q3880543"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Oberto Dall'Orto",
+            "url": "https://en.wikipedia.org/wiki/Oberto_Dall'Orto"
+          }
+        ]
+      },
+      {
+        "name": "Rambertino Buvalelli",
+        "qid": "Q3929853",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3929853",
+            "url": "https://www.wikidata.org/wiki/Q3929853"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Rambertino Buvalelli",
+            "url": "https://en.wikipedia.org/wiki/Rambertino_Buvalelli"
+          }
+        ]
+      },
+      {
+        "name": "Rubaconte da Mandello",
+        "qid": "Q43255344",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q43255344",
+            "url": "https://www.wikidata.org/wiki/Q43255344"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Rubaconte da Mandello",
+            "url": "https://en.wikipedia.org/wiki/Rubaconte_da_Mandello"
+          }
+        ]
+      },
+      {
+        "name": "Giovanni Bensi",
+        "qid": "Q94091365",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q94091365",
+            "url": "https://www.wikidata.org/wiki/Q94091365"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Giovanni Bensi",
+            "url": "https://en.wikipedia.org/wiki/Giovanni_Bensi"
+          }
+        ]
+      },
+      {
+        "name": "Pinamonte da Vimercate",
+        "qid": "Q93709440",
+        "year_start": 1171,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q93709440",
+            "url": "https://www.wikidata.org/wiki/Q93709440"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Pinamonte da Vimercate",
+            "url": "https://en.wikipedia.org/wiki/Pinamonte_da_Vimercate"
+          }
+        ]
+      },
+      {
+        "name": "Benno Gozzadini",
+        "qid": "Q109533009",
+        "year_start": 1257,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q109533009",
+            "url": "https://www.wikidata.org/wiki/Q109533009"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Benno Gozzadini",
+            "url": "https://en.wikipedia.org/wiki/Benno_Gozzadini"
+          }
+        ]
+      },
+      {
+        "name": "Matteo I Visconti",
+        "qid": "Q715225",
+        "year_start": 1287,
+        "year_end": 1289,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q715225",
+            "url": "https://www.wikidata.org/wiki/Q715225"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Matteo I Visconti",
+            "url": "https://en.wikipedia.org/wiki/Matteo_I_Visconti"
+          }
+        ]
+      },
+      {
+        "name": "Cesare Brivio Sforza",
+        "qid": "Q78233839",
+        "year_start": 1806,
+        "year_end": 1807,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q78233839",
+            "url": "https://www.wikidata.org/wiki/Q78233839"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Cesare Brivio Sforza",
+            "url": "https://en.wikipedia.org/wiki/Cesare_Brivio_Sforza"
+          }
+        ]
+      },
+      {
+        "name": "Guglielmo Lochis",
+        "qid": "Q56584084",
+        "year_start": 1842,
+        "year_end": 1848,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q56584084",
+            "url": "https://www.wikidata.org/wiki/Q56584084"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Guglielmo Lochis",
+            "url": "https://en.wikipedia.org/wiki/Guglielmo_Lochis"
+          }
+        ]
+      },
+      {
+        "name": "Luigi Barbiano di Belgioioso",
+        "qid": "Q3839307",
+        "year_start": 1859,
+        "year_end": 1860,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3839307",
+            "url": "https://www.wikidata.org/wiki/Q3839307"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Luigi Barbiano di Belgioioso",
+            "url": "https://en.wikipedia.org/wiki/Luigi_Barbiano_di_Belgioioso"
+          }
+        ]
+      },
+      {
+        "name": "Giulio Belinzaghi",
+        "qid": "Q3769494",
+        "year_start": 1868,
+        "year_end": 1884,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3769494",
+            "url": "https://www.wikidata.org/wiki/Q3769494"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Giulio Belinzaghi",
+            "url": "https://en.wikipedia.org/wiki/Giulio_Belinzaghi"
+          }
+        ]
+      },
+      {
+        "name": "Giovanni Battista Alberto Pirelli",
+        "qid": "Q731108",
+        "year_start": 1877,
+        "year_end": 1889,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q731108",
+            "url": "https://www.wikidata.org/wiki/Q731108"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Giovanni Battista Alberto Pirelli",
+            "url": "https://en.wikipedia.org/wiki/Giovanni_Battista_Alberto_Pirelli"
+          }
+        ]
+      },
+      {
+        "name": "Ernesto Belloni",
+        "qid": "Q22338061",
+        "year_start": 1926,
+        "year_end": 1928,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q22338061",
+            "url": "https://www.wikidata.org/wiki/Q22338061"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ernesto Belloni",
+            "url": "https://en.wikipedia.org/wiki/Ernesto_Belloni"
+          }
+        ]
+      },
+      {
+        "name": "Giuseppe De Capitani d'Arzago",
+        "qid": "Q3770412",
+        "year_start": 1928,
+        "year_end": 1929,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3770412",
+            "url": "https://www.wikidata.org/wiki/Q3770412"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Giuseppe De Capitani d'Arzago",
+            "url": "https://en.wikipedia.org/wiki/Giuseppe_De_Capitani_D'Arzago"
+          }
+        ]
+      },
+      {
+        "name": "Marcello Visconti di Modrone",
+        "qid": "Q3845707",
+        "year_start": 1929,
+        "year_end": 1935,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3845707",
+            "url": "https://www.wikidata.org/wiki/Q3845707"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Marcello Visconti di Modrone",
+            "url": "https://en.wikipedia.org/wiki/Marcello_Visconti_di_Modrone"
+          }
+        ]
+      },
+      {
+        "name": "Guido Pesenti",
+        "qid": "Q98690929",
+        "year_start": 1935,
+        "year_end": 1938,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q98690929",
+            "url": "https://www.wikidata.org/wiki/Q98690929"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Guido Pesenti",
+            "url": "https://en.wikipedia.org/wiki/Guido_Pesenti"
+          }
+        ]
+      },
+      {
+        "name": "Gian Giacomo Gallarati Scotti",
+        "qid": "Q3762662",
+        "year_start": 1938,
+        "year_end": 1943,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3762662",
+            "url": "https://www.wikidata.org/wiki/Q3762662"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Gian Giacomo Gallarati Scotti",
+            "url": "https://en.wikipedia.org/wiki/Gian_Giacomo_Gallarati_Scotti"
+          }
+        ]
+      },
+      {
+        "name": "Piero Parini",
+        "qid": "Q3903319",
+        "year_start": 1943,
+        "year_end": 1944,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3903319",
+            "url": "https://www.wikidata.org/wiki/Q3903319"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Piero Parini",
+            "url": "https://en.wikipedia.org/wiki/Piero_Parini"
+          }
+        ]
+      },
+      {
+        "name": "Guido Andreoni",
+        "qid": "Q98690931",
+        "year_start": 1944,
+        "year_end": 1944,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q98690931",
+            "url": "https://www.wikidata.org/wiki/Q98690931"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Guido Andreoni",
+            "url": "https://en.wikipedia.org/wiki/Guido_Andreoni"
+          }
+        ]
+      },
+      {
+        "name": "Giuseppe Spinelli",
+        "qid": "Q3771480",
+        "year_start": 1944,
+        "year_end": 1945,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3771480",
+            "url": "https://www.wikidata.org/wiki/Q3771480"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Giuseppe Spinelli",
+            "url": "https://en.wikipedia.org/wiki/Giuseppe_Spinelli"
+          }
+        ]
+      },
+      {
+        "name": "Mario Colombo",
+        "qid": "Q98690934",
+        "year_start": 1945,
+        "year_end": 1945,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q98690934",
+            "url": "https://www.wikidata.org/wiki/Q98690934"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mario Colombo",
+            "url": "https://en.wikipedia.org/wiki/Mario_Colombo"
+          }
+        ]
+      },
+      {
+        "name": "Carlo Tognoli",
+        "qid": "Q3659902",
+        "year_start": 1970,
+        "year_end": 1976,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3659902",
+            "url": "https://www.wikidata.org/wiki/Q3659902"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Carlo Tognoli",
+            "url": "https://en.wikipedia.org/wiki/Carlo_Tognoli"
+          }
+        ]
+      },
+      {
+        "name": "Giampiero Borghini",
+        "qid": "Q3762509",
+        "year_start": 1992,
+        "year_end": 1993,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3762509",
+            "url": "https://www.wikidata.org/wiki/Q3762509"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Giampiero Borghini",
+            "url": "https://en.wikipedia.org/wiki/Giampiero_Borghini"
+          }
+        ]
+      },
+      {
+        "name": "Marco Formentini",
+        "qid": "Q2249674",
+        "year_start": 1993,
+        "year_end": 1997,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2249674",
+            "url": "https://www.wikidata.org/wiki/Q2249674"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Marco Formentini",
+            "url": "https://en.wikipedia.org/wiki/Marco_Formentini"
+          }
+        ]
+      },
+      {
+        "name": "Matteo Salvini",
+        "qid": "Q1055449",
+        "year_start": 1993,
+        "year_end": 1997,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1055449",
+            "url": "https://www.wikidata.org/wiki/Q1055449"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Matteo Salvini",
+            "url": "https://en.wikipedia.org/wiki/Matteo_Salvini"
+          }
+        ]
+      },
+      {
+        "name": "Gabriele Albertini",
+        "qid": "Q697597",
+        "year_start": 1997,
+        "year_end": 2006,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q697597",
+            "url": "https://www.wikidata.org/wiki/Q697597"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Gabriele Albertini",
+            "url": "https://en.wikipedia.org/wiki/Gabriele_Albertini"
+          }
+        ]
+      },
+      {
+        "name": "Letizia Moratti",
+        "qid": "Q239024",
+        "year_start": 2006,
+        "year_end": 2011,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q239024",
+            "url": "https://www.wikidata.org/wiki/Q239024"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Letizia Moratti",
+            "url": "https://en.wikipedia.org/wiki/Letizia_Moratti"
+          }
+        ]
+      },
+      {
+        "name": "Elena Buscemi",
+        "qid": "Q48627701",
+        "year_start": 2011,
+        "year_end": 2016,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q48627701",
+            "url": "https://www.wikidata.org/wiki/Q48627701"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Elena Buscemi",
+            "url": "https://en.wikipedia.org/wiki/Elena_Buscemi"
+          }
+        ]
+      },
+      {
+        "name": "Giuliano Pisapia",
+        "qid": "Q666504",
+        "year_start": 2011,
+        "year_end": 2016,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q666504",
+            "url": "https://www.wikidata.org/wiki/Q666504"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Giuliano Pisapia",
+            "url": "https://en.wikipedia.org/wiki/Giuliano_Pisapia"
+          }
+        ]
+      },
+      {
+        "name": "Simone Sollazzo",
+        "qid": "Q48630234",
+        "year_start": 2012,
+        "year_end": 2016,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q48630234",
+            "url": "https://www.wikidata.org/wiki/Q48630234"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Simone Sollazzo",
+            "url": "https://en.wikipedia.org/wiki/Simone_Sollazzo"
+          }
+        ]
+      },
+      {
+        "name": "Gianluca Corrado",
+        "qid": "Q23936879",
+        "year_start": 2016,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q23936879",
+            "url": "https://www.wikidata.org/wiki/Q23936879"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Gianluca Corrado",
+            "url": "https://en.wikipedia.org/wiki/Gianluca_Corrado"
+          }
+        ]
+      },
+      {
+        "name": "Diana Alessandra De Marchi",
+        "qid": "Q48624987",
+        "year_start": 2016,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q48624987",
+            "url": "https://www.wikidata.org/wiki/Q48624987"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Diana Alessandra De Marchi",
+            "url": "https://en.wikipedia.org/wiki/Diana_Alessandra_De_Marchi"
+          }
+        ]
+      },
+      {
+        "name": "Giuseppe Sala",
+        "qid": "Q17146774",
+        "year_start": 2016,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q17146774",
+            "url": "https://www.wikidata.org/wiki/Q17146774"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Giuseppe Sala",
+            "url": "https://en.wikipedia.org/wiki/Giuseppe_Sala"
+          }
+        ]
+      },
+      {
+        "name": "Mariastella Gelmini",
+        "qid": "Q466712",
+        "year_start": 2016,
+        "year_end": 2021,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q466712",
+            "url": "https://www.wikidata.org/wiki/Q466712"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mariastella Gelmini",
+            "url": "https://en.wikipedia.org/wiki/Mariastella_Gelmini"
+          }
+        ]
+      }
+    ],
+    "population_from_wikidata": [
+      {
+        "estimate": 267618,
+        "confidence": "low",
+        "year": 1861
+      },
+      {
+        "estimate": 290514,
+        "confidence": "low",
+        "year": 1871
+      },
+      {
+        "estimate": 354041,
+        "confidence": "low",
+        "year": 1881
+      },
+      {
+        "estimate": 538478,
+        "confidence": "low",
+        "year": 1901
+      },
+      {
+        "estimate": 701401,
+        "confidence": "low",
+        "year": 1911
+      },
+      {
+        "estimate": 1324169,
+        "confidence": "low",
+        "year": 2013
+      },
+      {
+        "estimate": 1359905,
+        "confidence": "low",
+        "year": 2015
+      },
+      {
+        "estimate": 1351562,
+        "confidence": "low",
+        "year": 2016
+      },
+      {
+        "estimate": 1351562,
+        "confidence": "low",
+        "year": 2017
+      },
+      {
+        "estimate": 1366180,
+        "confidence": "low",
+        "year": 2018
+      },
+      {
+        "estimate": 1354196,
+        "confidence": "low",
+        "year": 2023
+      }
+    ]
+  },
+  "sources": [
+    {
+      "type": "book",
+      "author": "Wickham, Chris",
+      "title": "The Inheritance of Rome: A History of Europe from 400 to 1000",
+      "publisher": "Allen Lane",
+      "year": 2009
+    },
+    {
+      "type": "book",
+      "author": "Abulafia, David (ed.)",
+      "title": "The New Cambridge Medieval History, Vol. V: c. 1198 – c. 1300",
+      "publisher": "Cambridge University Press",
+      "year": 1999
+    }
+  ],
+  "monogram": "CM"
+}

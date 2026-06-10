@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "piast_mieszko_966",
+  "name": "Mieszko I's Baptism and Piast Poland's Emergence",
+  "year": 966,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    52.23,
+    21.01
+  ],
+  "entity": "kingdom_of_poland_piast",
+  "summary": "Duke Mieszko I of Poland accepts Catholic baptism (966), reportedly following his marriage to the Czech princess Dobrawa. The baptism connects Poland to Rome rather than the Byzantine church, aligning it with the Western European political and cultural sphere. Mieszko places Poland under papal protection through the Dagome iudex document (c. 990-992), making it a direct papal vassal and shielding it from German archbishops who might claim jurisdiction.",
+  "outcomes": [
+    "poland_christianized",
+    "piast_dynasty_legitimized",
+    "western_ecclesiastical_network_joined"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_poland_piast"
+    ],
+    "structural_significance": "Polish Christianization via Rome rather than Constantinople shapes Polish civilization's western orientation, Latin script, Roman law, university culture; the papal protection clause prevents the Polish church from falling under German ecclesiastical control; the precedent of placing Poland directly under Rome is used repeatedly in later centuries to resist German or Russian political claims",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "davies_gods_1981",
+      "knoll_the_1972"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

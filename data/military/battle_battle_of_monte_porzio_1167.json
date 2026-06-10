@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_monte_porzio_1167",
+  "name": "Battle of Monte Porzio",
+  "subtype": "battle",
+  "start_year": 1167,
+  "end_year": 1167,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1138687"
+    }
+  },
+  "description": "Battle during Guelphs and Ghibellines (1167)",
+  "coords": [
+    12.7165,
+    41.818
+  ]
+}

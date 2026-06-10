@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_b_ne_1360",
+  "name": "Battle of Bône",
+  "subtype": "battle",
+  "start_year": 1360,
+  "end_year": 1360,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q11908795"
+    }
+  },
+  "description": "Battle during War of the Two Peters (1360)",
+  "coords": [
+    7.7667,
+    36.9
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_hu_i_1415",
+  "name": "Huși",
+  "importance": "city",
+  "start_year": 1415,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q390162"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    28.0647,
+    46.6731
+  ]
+}

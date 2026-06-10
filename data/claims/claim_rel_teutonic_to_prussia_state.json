@@ -1,0 +1,30 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_teutonic_to_prussia_state",
+  "statement": "The Teutonic Order's Baltic state transformed from a crusading military order-state into a secular duchy when Grand Master Albert of Hohenzollern-Ansbach (1511–1525) converted to Lutheranism on Martin Luther's advice (1525) and secularized the remaining Ducal Prussia as a hereditary Hohenzollern duchy under Polish suzerainty. The transformation was theologically radical — the first major application of Lutheranism to state reorganization — and politically significant: the Hohenzollern Duchy of Prussia became the nucleus of the future Kingdom of Prussia that eventually unified Germany.",
+  "subject_ids": [
+    "teutonic_order_state",
+    "livonian_order_state"
+  ],
+  "predicate": "vassalage",
+  "derived_from": "rel_teutonic_to_prussia_state",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "christiansen_the_1997",
+      "urban_the_1994",
+      "turnbull_crusader_2003",
+      "riley-smith_hospitallers_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "livonian_order_state"
+  ],
+  "period": {
+    "from": 1237,
+    "to": 1500
+  }
+}

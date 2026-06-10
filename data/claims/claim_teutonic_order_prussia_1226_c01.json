@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_teutonic_order_prussia_1226_c01",
+  "statement": "In 1226 Duke Conrad I of Masovia invited the Teutonic Knights to help subdue the pagan Prussian tribes raiding his territories.",
+  "subject_ids": [
+    "teutonic_order_state"
+  ],
+  "period": {
+    "from": 1226,
+    "to": 1226
+  },
+  "derived_from": "teutonic_order_prussia_1226",
+  "unresolved_sources": [
+    "urban_the_1994"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "christiansen_the_1997",
+      "turnbull_crusader_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

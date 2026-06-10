@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "mael_sechnaill_i",
+  "name": "Máel Sechnaill I",
+  "polity": "kingdom_of_meath",
+  "title": "ruler",
+  "reign_start": 846,
+  "reign_end": 862,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "kingdom_of_meath",
+        "role": "ruler",
+        "start_year": 846,
+        "end_year": 862
+      }
+    ],
+    "key_actions": [],
+    "region": "british_isles",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

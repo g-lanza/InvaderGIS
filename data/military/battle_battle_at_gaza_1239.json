@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_at_gaza_1239",
+  "name": "Battle at Gaza",
+  "subtype": "battle",
+  "start_year": 1239,
+  "end_year": 1239,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q109285058"
+    }
+  },
+  "description": "Battle during Barons' Crusade (1239)",
+  "coords": [
+    34.4597,
+    31.5075
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "fourth_lateran_1215",
+  "name": "Fourth Lateran Council",
+  "year": 1215,
+  "type": "religious_council",
+  "category": "religion",
+  "coords": [
+    41.9,
+    12.45
+  ],
+  "entity": "papal_states",
+  "summary": "The Fourth Lateran Council (November 1215), convened by Pope Innocent III at the height of papal power, is the most important Church council of the Middle Ages. Its 70 canons include: the definition of transubstantiation as official doctrine; annual confession and communion required of all Christians; restrictions on Jews (yellow badges mandated); prohibition of new religious orders; and canons regulating the clergy. The council represents Innocent III's vision of a reformed, unified Christendom under papal leadership.",
+  "outcomes": [
+    "canon_reforms_declared"
+  ],
+  "_quarry": {
+    "participants": [
+      "papal_states",
+      "kingdom_of_france",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "Defines transubstantiation as Catholic doctrine; establishes annual confession as mandatory; marks the peak of Innocent III's program of papal theocracy; its Jewish restrictions become models for later discrimination",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

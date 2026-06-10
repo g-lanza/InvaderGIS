@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "principality_of_achaea_1259",
+  "name": "Achaea Defeated at Pelagonia",
+  "year": 1259,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.4,
+    25.65
+  ],
+  "entity": "principality_of_achaea",
+  "summary": "Achaea's defeat at the Battle of Pelagonia in 1259 forced Prince William of Villehardouin to surrender key Peloponnesian fortresses including Mystras to the Empire of Nicaea (Byzantine restoration). Mystras became a brilliant Byzantine cultural centre that eclipsed the Latin principality.",
+  "outcomes": [
+    "byzantine_restoration_aided",
+    "monstrous_concessions",
+    "morea_ceded"
+  ],
+  "_quarry": {
+    "participants": [
+      "principality_of_achaea",
+      "byzantine_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

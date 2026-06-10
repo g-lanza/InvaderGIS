@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_venetian_expedition_to_the_levant_1099_c01",
+  "statement": "Venetian expedition to the Levant (1099 CE), (part of First Crusade).",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1099,
+    "to": 1099
+  },
+  "derived_from": "wd_venetian_expedition_to_the_levant_1099",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

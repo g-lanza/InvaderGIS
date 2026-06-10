@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "umayyad_east_conquest_711_2",
+  "name": "Arab Conquest of Central Asia and Sind",
+  "year": 711,
+  "type": "conquest",
+  "category": "violence",
+  "coords": [
+    39.65,
+    66.94
+  ],
+  "entity": "umayyad_caliphate",
+  "summary": "Umayyad general Qutayba ibn Muslim conquers Transoxiana (modern Uzbekistan and Tajikistan), capturing Bukhara (706), Samarkand (711), and Ferghana (713). Simultaneously, Muhammad ibn Qasim conquers Sind (modern Pakistan) in 711-715. These campaigns bring the most important Silk Road cities and the Indian subcontinent's western gateway into the Islamic world, opening long-term connections with China and India.",
+  "outcomes": [
+    "transoxiana_conquered",
+    "sind_conquered",
+    "silk_road_nodes_captured"
+  ],
+  "_quarry": {
+    "participants": [
+      "umayyad_caliphate"
+    ],
+    "structural_significance": "The Central Asian conquests integrate the Silk Road's most commercially significant cities into the Islamic world; Samarkand and Bukhara become centers of Islamic learning and culture; the Battle of Talas (751) stops further Islamic advance into China but confirms Islamic control of the Silk Road; the Sind conquest begins Islam's long relationship with the Indian subcontinent that eventually produces the Mughal Empire",
+    "year_range": [
+      705,
+      715
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_the_2004",
+      "hawting_the_2000",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

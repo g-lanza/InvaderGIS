@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "peruzzi_bankruptcy_1343",
+  "name": "Peruzzi banking house collapses",
+  "year": 1343,
+  "type": "economic",
+  "category": "economy",
+  "coords": [
+    43.7696,
+    11.2558
+  ],
+  "entity": "republic_of_florence",
+  "summary": "The Peruzzi compagnia of Florence defaults after Edward III of England, having borrowed ~600,000 florins to finance the early Hundred Years' War, repudiates the debt. The Bardi follow into bankruptcy in 1345.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_florence",
+      "kingdom_of_england"
+    ],
+    "structural_significance": "First major medieval international banking crisis; demonstrates the structural risk of sovereign-creditor concentration that recurs through European banking history.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lopez_commercial_revolution_1971",
+      "abu_lughod_before_european_hegemony_1989"
+    ],
+    "confidence": "low"
+  }
+}

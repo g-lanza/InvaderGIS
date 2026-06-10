@@ -1,0 +1,39 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_byzantine_empire_to_duchy_of_athens_fragmentation",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "byzantine_empire",
+      "role": "parent"
+    },
+    {
+      "entity_id": "duchy_of_athens",
+      "role": "fragment"
+    }
+  ],
+  "directed": true,
+  "type": "fragmentation",
+  "since": 1205,
+  "until": 1205,
+  "note": "Derived from predecessor/successor links recorded in the byzantine_empire and duchy_of_athens entity records. Transition anchored to duchy_of_athens start_year.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Mechanical normalisation of curated predecessor/successor links into the relationships register."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

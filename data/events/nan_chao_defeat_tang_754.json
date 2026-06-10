@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "nan_chao_defeat_tang_754",
+  "name": "Nan Chao Defeats Tang Army",
+  "year": 754,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    22.894,
+    102.767
+  ],
+  "entity": "nan_chao",
+  "summary": "Nan Chao defeated two massive Tang armies in 751 and 754, with estimated Tang losses of over 100,000 soldiers. Nan Chao then allied with Tibet against Tang, becoming an independent regional power rather than a Tang vassal.",
+  "outcomes": [
+    "tang_defeated",
+    "nan_chao_independent",
+    "100000_tang_soldiers_lost"
+  ],
+  "_quarry": {
+    "participants": [
+      "nan_chao"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

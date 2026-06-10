@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_urgench_1379_c01",
+  "statement": "Siege of Urgench (1379 CE), at Konye-Urgench (part of Timurid conquests and invasions).",
+  "subject_ids": [
+    "timurid_empire"
+  ],
+  "period": {
+    "from": 1379,
+    "to": 1379
+  },
+  "derived_from": "wd_siege_of_urgench_1379",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "manz_the_1989",
+      "lentz_timur_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

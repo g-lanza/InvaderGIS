@@ -1,0 +1,31 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "university_of_paris_1170",
+  "name": "University of Paris emerges",
+  "year": 1170,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    48.8534,
+    2.3488
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Around 1170 the masters teaching in the schools attached to the cathedral of Notre-Dame in Paris organise themselves into a self-governing universitas. Royal protection (1200) and the statutes of Robert of Courson (1215) formalise the corporation.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france"
+    ],
+    "structural_significance": "Master-governed model that becomes the European norm for theology and the liberal arts. Aquinas, Albertus Magnus, Bonaventure, Duns Scotus, and Ockham all teach or study here.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "bartlett_making_of_europe_1993",
+      "marenbon_later_medieval_philosophy_1991"
+    ],
+    "confidence": "low"
+  }
+}

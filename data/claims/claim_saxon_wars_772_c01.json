@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_saxon_wars_772_c01",
+  "statement": "Charlemagne began the Saxon Wars in 772, the longest campaign of his reign, lasting until 804.",
+  "subject_ids": [
+    "carolingian_empire"
+  ],
+  "period": {
+    "from": 772,
+    "to": 772
+  },
+  "derived_from": "saxon_wars_772",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "mckitterick_charlemagne_2008",
+      "riché_the_1993",
+      "nelson_king_2019"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

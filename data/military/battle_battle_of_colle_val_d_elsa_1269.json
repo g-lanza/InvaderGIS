@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_colle_val_d_elsa_1269",
+  "name": "Battle of Colle Val d'Elsa",
+  "subtype": "battle",
+  "start_year": 1269,
+  "end_year": 1269,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2249697"
+    }
+  },
+  "description": "Battle during Guelphs and Ghibellines (1269)",
+  "coords": [
+    11.131,
+    43.413
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_fatimid_seljuk_rivalry",
+  "statement": "Seljuk Sunni expansion into Syria and Palestine directly challenged Fatimid Shia power; the Crusaders' arrival in 1099 was partly enabled by this Seljuk-Fatimid rivalry, as the two powers failed to coordinate a defense of Jerusalem.",
+  "subject_ids": [
+    "fatimid_caliphate",
+    "seljuk_sultanate"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_fatimid_seljuk_rivalry",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "brett_the_2001",
+      "daftary_the_1990",
+      "ims_fordham",
+      "ims_fordham_sbook1d",
+      "peacock_the_2015",
+      "bosworth_the_1963",
+      "cahen_preottoman_1968"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1055,
+    "to": 1171
+  }
+}

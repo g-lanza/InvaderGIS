@@ -1,0 +1,30 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "lisbon_earthquake_1356",
+  "name": "Lisbon earthquake of 1356",
+  "year": 1356,
+  "type": "earthquake",
+  "category": "hazard",
+  "coords": [
+    38.7223,
+    -9.1393
+  ],
+  "entity": "kingdom_of_portugal",
+  "summary": "Major earthquake on 24 August 1356 damages Lisbon, the Alentejo, and the Algarve. Chronicles report destruction of churches and walls; the city is rebuilt over the following decade. Far smaller than the catastrophic 1755 event but the largest recorded medieval seismic event on the Iberian peninsula.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_portugal"
+    ],
+    "structural_significance": "Largest medieval Iberian seismic event in the historical record; recovery delayed by simultaneous demographic pressure from recurring Black Death waves.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "campbell_great_transition_2016"
+    ],
+    "confidence": "low"
+  }
+}

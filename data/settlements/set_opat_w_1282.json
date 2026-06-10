@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_opat_w_1282",
+  "name": "Opatów",
+  "importance": "city",
+  "start_year": 1282,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q275694"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    21.4247,
+    50.805
+  ]
+}

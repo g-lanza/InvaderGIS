@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "lateran_i_1123",
+  "name": "First Lateran Council",
+  "year": 1123,
+  "type": "religious_council",
+  "category": "religion",
+  "coords": [
+    41.88,
+    12.51
+  ],
+  "entity": "papal_states",
+  "summary": "The First Lateran Council (1123), convened by Pope Calixtus II in the Lateran Palace in Rome, is the first general council held in the West and the ninth ecumenical council of the Catholic Church. Held immediately after the Concordat of Worms, it ratifies the investiture settlement and issues reform canons prohibiting simony, clerical marriage (Nicolaism), and lay control of church properties. It also renewed the Peace of God protections for pilgrims and crusaders and issued provisions for the ongoing Crusader states. The council represents the culmination of the Gregorian Reform movement's institutional program.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "papal_states",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "First ecumenical council held in the West; formally ratifies the Concordat of Worms; codifies the Gregorian Reform program into canon law; establishes the Lateran Palace as the center of medieval conciliar authority",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

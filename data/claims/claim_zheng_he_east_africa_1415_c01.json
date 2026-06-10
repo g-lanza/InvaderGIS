@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_zheng_he_east_africa_1415_c01",
+  "statement": "On his fourth treasure-fleet voyage (1413–1415) under the Yongle Emperor's commission, Zheng He's detached squadrons reach Hormuz, Aden, and Mogadishu.",
+  "subject_ids": [
+    "ming_dynasty"
+  ],
+  "period": {
+    "from": 1415,
+    "to": 1415
+  },
+  "derived_from": "zheng_he_east_africa_1415",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dreyer_zheng_he_2007"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

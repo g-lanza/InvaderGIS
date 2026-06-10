@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "burgandy_1363",
+  "name": "Philip the Bold Becomes Duke of Burgundy",
+  "year": 1363,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    47.3,
+    5
+  ],
+  "entity": "duchy_of_burgundy",
+  "summary": "Philip the Bold, youngest son of John II of France, received Burgundy as an appanage in 1363, founding the Valois Duchy of Burgundy. His successors would build one of the wealthiest courts in Europe, rivalling the French crown itself and aspiring to create an independent middle kingdom.",
+  "outcomes": [
+    "valois_burgundy_established",
+    "court_patronage_begins",
+    "low_countries_ambitions"
+  ],
+  "_quarry": {
+    "participants": [
+      "duchy_of_burgundy"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

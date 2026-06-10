@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "iconoclasm_726",
+  "name": "Byzantine Iconoclasm begins",
+  "year": 726,
+  "type": "religious_council",
+  "category": "religion",
+  "coords": [
+    41.01,
+    28.98
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Byzantine Emperor Leo III orders the removal of the iconic image of Christ above the Chalke Gate of Constantinople's imperial palace (726), beginning the first period of Byzantine Iconoclasm (726–787). The controversy over whether depicting Christ in images was heretical produces decades of violence: icon-venerating monks are persecuted, popes in Rome oppose the empire, and the intellectual crisis produces the greatest theological debate of Byzantine history. The Second Council of Nicaea (787) restores icon veneration; a second Iconoclasm follows (815–843).",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "papal_states"
+    ],
+    "structural_significance": "Triggers the first major break between Rome and Constantinople; creates Byzantine theological distinctions that persist in Orthodox-Catholic differences; the resolution of iconoclasm shapes Byzantine artistic tradition",
+    "year_range": [
+      726,
+      843
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

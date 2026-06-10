@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_acre_1104",
+  "name": "Siege of Acre",
+  "year": 1104,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    35.4,
+    25.1
+  ],
+  "entity": "kingdom_of_jerusalem",
+  "summary": "Siege of Acre (1104 CE), at Acre (part of Crusader battles between 1101 and 1145). Source: Wikidata Q815103.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_jerusalem",
+      "fatimid_caliphate",
+      "republic_of_genoa"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

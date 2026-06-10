@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_grand_principality_of_moscow_1368_1496",
+  "statement": "Grand Principality of Moscow — campaigns and battles spanned 1368–1496, from Muscovite–Lithuanian War of 1368-1372 to Assault on Ivangorod.",
+  "subject_ids": [
+    "grand_principality_of_moscow"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_grand_principality_of_moscow_1368_1496",
+  "period": {
+    "from": 1368,
+    "to": 1496
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "fennell_the_1983",
+      "ostrowski_muscovy_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

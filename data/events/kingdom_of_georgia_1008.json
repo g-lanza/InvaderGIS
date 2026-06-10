@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_georgia_1008",
+  "name": "David IV Unifies Georgia",
+  "year": 1008,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.72,
+    44.8
+  ],
+  "entity": "kingdom_of_georgia",
+  "summary": "David IV (the Builder) completed the unification of the Georgian kingdoms in the early 12th century, creating a powerful Caucasian state. His military campaigns expelled the Seljuk Turks from Georgian territory and extended Georgian power across much of the Caucasus, inaugurating the Georgian Golden Age.",
+  "outcomes": [
+    "unification",
+    "golden_age_begins",
+    "muslim_invasions_repelled"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_georgia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

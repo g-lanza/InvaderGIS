@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "poitiers_1356",
+  "name": "Battle of Poitiers",
+  "year": 1356,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    46.58,
+    0.34
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "At Poitiers (September 19, 1356), Edward the Black Prince with approximately 8,000 English and Gascon troops defeats a French army of 35,000 under King John II of France. Using a combined-arms defense, dismounted knights and longbowmen in prepared positions, the English repel multiple French charges then counterattack. King John II himself is captured, along with much of the French nobility. His ransom of 3 million gold écus (never fully paid) cripples the French treasury. Poitiers is the most complete English victory of the Hundred Years' War.",
+  "outcomes": [
+    "john_ii_captured"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "kingdom_of_england"
+    ],
+    "structural_significance": "Captures the French king and nobles; causes a French financial crisis; triggers the Estates General's attempt to limit royal power (Etienne Marcel's revolt); demonstrates English tactical superiority in the field",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_diaoyucheng_1259_c01",
+  "statement": "Siege of Diaoyucheng (1259 CE), at Diaoyu Fortress (part of Mongol conquest of the Song dynasty).",
+  "subject_ids": [
+    "mongol_empire"
+  ],
+  "period": {
+    "from": 1259,
+    "to": 1259
+  },
+  "derived_from": "wd_siege_of_diaoyucheng_1259",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "tang_dynasty",
+  "name": "Chang'an",
+  "entity_id": "tang_dynasty",
+  "entity_name": "Tang Dynasty",
+  "start_year": 618,
+  "end_year": 907,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q9899"
+    }
+  },
+  "coords": [
+    108.94,
+    34.27
+  ]
+}

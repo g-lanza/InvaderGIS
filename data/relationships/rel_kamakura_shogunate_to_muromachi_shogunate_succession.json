@@ -1,0 +1,31 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_kamakura_shogunate_to_muromachi_shogunate_succession",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kamakura_shogunate",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "muromachi_shogunate",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 1336,
+  "until": 1336,
+  "note": "Derived from predecessor/successor links recorded in the kamakura_shogunate and muromachi_shogunate entity records. Transition anchored to muromachi_shogunate start_year.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Mechanical normalisation of curated predecessor/successor links into the relationships register."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

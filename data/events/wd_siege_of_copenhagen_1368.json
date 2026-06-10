@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_copenhagen_1368",
+  "name": "Siege of Copenhagen",
+  "year": 1368,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    53.5,
+    10
+  ],
+  "entity": "hanseatic_league",
+  "summary": "Siege of Copenhagen (1368 CE), at Copenhagen (part of Danish-Hanseatic War of 1361-1370). Source: Wikidata Q126489113.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "hanseatic_league"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dollinger_the_1970",
+      "hammel-kiesow_die_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

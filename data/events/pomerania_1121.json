@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "pomerania_1121",
+  "name": "Pomerania Christianised",
+  "year": 1121,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    53.848,
+    11.738
+  ],
+  "entity": "pomerania",
+  "summary": "Bolesław III of Poland conquered Pomerania in 1121 and forcibly Christianised the region. The missionary Bishop Otto of Bamberg converted the Pomeranians in 1124–1128. Pomerania subsequently developed as a duchy under local Griffins dynasty rulers but under Polish and later imperial suzerainty.",
+  "outcomes": [
+    "boleslaw_annexes",
+    "bishopric_established",
+    "german_cultural_influence"
+  ],
+  "_quarry": {
+    "participants": [
+      "pomerania"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

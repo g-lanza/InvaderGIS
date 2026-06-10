@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_kingdom_of_thessalonica_1204_c01",
+  "statement": "Boniface of Montferrat established the Latin Kingdom of Thessalonica in 1204 following the Fourth Crusade.",
+  "subject_ids": [
+    "kingdom_of_thessalonica"
+  ],
+  "period": {
+    "from": 1204,
+    "to": 1204
+  },
+  "derived_from": "kingdom_of_thessalonica_1204",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

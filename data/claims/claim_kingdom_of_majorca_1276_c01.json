@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_kingdom_of_majorca_1276_c01",
+  "statement": "The Kingdom of Majorca was created in 1276 when James I of Aragon divided his territories, giving the Balearic Islands, Montpellier, and Roussillon to his younger son James II.",
+  "subject_ids": [
+    "kingdom_of_majorca"
+  ],
+  "period": {
+    "from": 1276,
+    "to": 1276
+  },
+  "derived_from": "kingdom_of_majorca_1276",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

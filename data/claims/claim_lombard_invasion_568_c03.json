@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_lombard_invasion_568_c03",
+  "statement": "Rome, Naples, Sicily, Ravenna, and coastal cities remained Byzantine after the Lombard invasion, leaving Italy permanently fragmented.",
+  "subject_ids": [
+    "lombard_kingdom"
+  ],
+  "period": {
+    "from": 568,
+    "to": 568
+  },
+  "derived_from": "lombard_invasion_568",
+  "unresolved_sources": [
+    "christie_the_1995"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "deacon_history_1907"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_santa_coloma_de_gramenet_1471",
+  "name": "Battle of Santa Coloma de Gramenet",
+  "subtype": "battle",
+  "start_year": 1471,
+  "end_year": 1471,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q24074723"
+    }
+  },
+  "description": "Battle during Catalan Civil War (1471)",
+  "coords": [
+    2.2092,
+    41.4472
+  ]
+}

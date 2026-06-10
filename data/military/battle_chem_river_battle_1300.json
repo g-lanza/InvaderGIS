@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_chem_river_battle_1300",
+  "name": "Chem River Battle",
+  "subtype": "battle",
+  "start_year": 1300,
+  "end_year": 1300,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q136451000"
+    }
+  },
+  "description": "Battle during Mongol invasion of Central Asia (1300)",
+  "coords": [
+    53.3172,
+    46.6283
+  ]
+}

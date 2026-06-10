@@ -1,0 +1,31 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_tang_japan_cultural",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "tang_dynasty",
+      "role": "partner"
+    },
+    {
+      "entity_id": "imperial_japan_fujiwara",
+      "role": "partner"
+    }
+  ],
+  "directed": false,
+  "type": "cultural_exchange",
+  "since": 618,
+  "until": 894,
+  "note": "Yamato and Heian Japan sent at least 19 official embassies (kentoshi) to the Tang court between 630 and 894, importing Tang-style bureaucracy, Buddhism, urban planning (Nara, Heian-kyo), and the kana script's kanji base.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The single most consequential cultural transfer in pre-modern East Asia."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

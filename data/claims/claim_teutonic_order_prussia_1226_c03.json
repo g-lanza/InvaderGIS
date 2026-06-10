@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_teutonic_order_prussia_1226_c03",
+  "statement": "Beginning in 1230, the Teutonic Order waged a systematic crusade of conquest and colonization in Prussia lasting 50 years, replacing the Baltic Prussian people with German settlers.",
+  "subject_ids": [
+    "teutonic_order_state"
+  ],
+  "period": {
+    "from": 1226,
+    "to": 1226
+  },
+  "derived_from": "teutonic_order_prussia_1226",
+  "unresolved_sources": [
+    "urban_the_1994"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "christiansen_the_1997",
+      "turnbull_crusader_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

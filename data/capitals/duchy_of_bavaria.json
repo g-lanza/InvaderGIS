@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_bavaria",
+  "name": "Munich",
+  "entity_id": "duchy_of_bavaria",
+  "entity_name": "Duchy of Bavaria",
+  "start_year": 555,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q47261"
+    }
+  },
+  "coords": [
+    11.575,
+    48.1375
+  ]
+}

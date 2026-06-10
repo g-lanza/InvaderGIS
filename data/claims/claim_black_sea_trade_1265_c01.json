@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_black_sea_trade_1265_c01",
+  "statement": "Following the treaty of Nymphaeum in 1261, Genoa established a network of Black Sea colonies including Caffa, Tana, and Trebizond factories.",
+  "subject_ids": [
+    "republic_of_genoa"
+  ],
+  "period": {
+    "from": 1265,
+    "to": 1265
+  },
+  "derived_from": "black_sea_trade_1265",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

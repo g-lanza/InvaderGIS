@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_aegan_expedition_1456_c02",
+  "statement": "The 1456 Aegean Expedition occurred at Lemnos.",
+  "subject_ids": [
+    "ottoman_empire"
+  ],
+  "period": {
+    "from": 1456,
+    "to": 1456
+  },
+  "derived_from": "wd_aegan_expedition_1456",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

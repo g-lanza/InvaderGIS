@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "oxford_university_1167",
+  "name": "Oxford University, English Learning Independent of Paris",
+  "year": 1167,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    51.75,
+    -1.25
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Oxford University develops from a cluster of schools in the city, growing rapidly after Henry II's 1167 expulsion of English scholars from Paris (during a dispute with France). By the early 13th century it has recognizable institutional structure, master regents, student nations, and academic halls. Roger Bacon's experimental natural philosophy (1250s-1280s) and Wycliffe's theology (1370s) demonstrate Oxford's capacity for intellectual innovation outside Parisian Scholasticism.",
+  "outcomes": [
+    "english_university_founded",
+    "intellectual_independence_from_paris",
+    "common_law_trained_lawyers"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england"
+    ],
+    "structural_significance": "Oxford's development gives England an indigenous university that trains royal administrators, common lawyers, and eventually reformers independently of continental influence; the common law emphasis (lawyers trained at the Inns of Court adjacent to Oxford) creates a distinctive English legal culture separate from the Roman law tradition dominant on the continent; Oxford's later Lollard connection demonstrates how universities could become centers of theological dissent",
+    "year_range": [
+      1150,
+      1200
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

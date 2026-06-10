@@ -1,0 +1,31 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "statute_of_labourers_1351",
+  "name": "English Statute of Labourers",
+  "year": 1351,
+  "type": "economic",
+  "category": "economy",
+  "coords": [
+    51.5074,
+    -0.1278
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Edward III's parliament caps wages at pre-Black-Death levels and compels labourers to accept work at customary rates, attempting to neutralise the post-plague labour shortage that had pushed wages up by a factor of two to three.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england"
+    ],
+    "structural_significance": "Classical statutory response to the Black Death's structural shift in labour markets; widely resisted, the statute's failure to hold wages is a precondition for the 1381 Peasants' Revolt and the slow erosion of villein servitude in England.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "campbell_great_transition_2016",
+      "duby_rural_economy_country_life_1968"
+    ],
+    "confidence": "low"
+  }
+}

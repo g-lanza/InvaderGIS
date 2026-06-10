@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_fall_thessaloniki_1430_c01",
+  "statement": "Sultan Murad II captured Thessaloniki on March 29, 1430, after a brief siege.",
+  "subject_ids": [
+    "ottoman_empire"
+  ],
+  "period": {
+    "from": 1430,
+    "to": 1430
+  },
+  "derived_from": "fall_thessaloniki_1430",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

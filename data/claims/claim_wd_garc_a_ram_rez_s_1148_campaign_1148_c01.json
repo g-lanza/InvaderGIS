@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_garc_a_ram_rez_s_1148_campaign_1148_c01",
+  "statement": "García Ramírez's 1148 campaign (1148 CE), at Navarre.",
+  "subject_ids": [
+    "kingdom_of_aragon"
+  ],
+  "period": {
+    "from": 1148,
+    "to": 1148
+  },
+  "derived_from": "wd_garc_a_ram_rez_s_1148_campaign_1148",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

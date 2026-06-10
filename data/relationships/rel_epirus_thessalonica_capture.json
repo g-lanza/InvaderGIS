@@ -1,0 +1,35 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_epirus_thessalonica_capture",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_thessalonica",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "despotate_of_epirus",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 1224,
+  "until": 1224,
+  "note": "Theodore Komnenos Doukas of Epirus captured the Latin Kingdom of Thessalonica (1224) — a Crusader state established for Boniface of Montferrat after 1204 — in a major westward expansion of Epirote power. The capture made Theodore the most powerful Greek ruler of the moment; he proclaimed himself Emperor of the Romans in 1224, the first claimant to challenge Nicaea's imperial monopoly. The capture of Thessalonica, however, led to overextension: Theodore's subsequent advance was halted by Bulgarian Tsar Ivan Asen II at the Battle of Klokotnitsa (1230), where Theodore was captured and blinded.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Thessalonica's capture by Epirus represents the high-water mark of Epirote power; the subsequent Klokotnitsa defeat collapses Epirote expansion and opens the road for Nicaea's eventual restoration; the cycle of Byzantine successor-state rise and fall demonstrates the instability of personal empire without institutional depth"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

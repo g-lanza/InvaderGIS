@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_calliano_1487_c01",
+  "statement": "The Battle of Calliano was fought in 1487 CE.",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1487,
+    "to": 1487
+  },
+  "derived_from": "wd_battle_of_calliano_1487",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_y_kihama_1180",
+  "name": "Battle of Yūkihama",
+  "subtype": "battle",
+  "start_year": 1180,
+  "end_year": 1180,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q11606609"
+    }
+  },
+  "description": "Battle during Genpei War (1180)",
+  "coords": [
+    140.3339,
+    35.7664
+  ]
+}

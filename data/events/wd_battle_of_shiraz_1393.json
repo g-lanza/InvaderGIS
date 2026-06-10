@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_shiraz_1393",
+  "name": "Battle of Shiraz",
+  "year": 1393,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.7,
+    66.9
+  ],
+  "entity": "timurid_empire",
+  "summary": "Battle of Shiraz (1393 CE), at Shiraz (part of 1393 Fars campaign). Source: Wikidata Q5722976.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "timurid_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "manz_the_1989",
+      "lentz_timur_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

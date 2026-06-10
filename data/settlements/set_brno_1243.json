@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_brno_1243",
+  "name": "Brno",
+  "importance": "city",
+  "start_year": 1243,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q14960"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    16.6083,
+    49.1953
+  ]
+}

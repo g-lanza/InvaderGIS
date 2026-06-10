@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "sultanate_of_rum",
+  "name": "Konya",
+  "entity_id": "sultanate_of_rum",
+  "entity_name": "Sultanate of Rum",
+  "start_year": 1077,
+  "end_year": 1307,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q975405"
+    }
+  },
+  "coords": [
+    32.5161,
+    37.84705
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_fariskur_1250",
+  "name": "Battle of Fariskur",
+  "subtype": "battle",
+  "start_year": 1250,
+  "end_year": 1250,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1148862"
+    }
+  },
+  "description": "Battle during Seventh Crusade (1250)",
+  "coords": [
+    31.7147,
+    31.3297
+  ]
+}

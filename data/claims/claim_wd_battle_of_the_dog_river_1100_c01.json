@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_the_dog_river_1100_c01",
+  "statement": "Battle of the Dog River (1100 CE), at Nahr al-Kalb (part of Crusades).",
+  "subject_ids": [
+    "kingdom_of_jerusalem"
+  ],
+  "period": {
+    "from": 1100,
+    "to": 1100
+  },
+  "derived_from": "wd_battle_of_the_dog_river_1100",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

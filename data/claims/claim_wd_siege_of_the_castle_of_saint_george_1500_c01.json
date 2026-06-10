@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_the_castle_of_saint_george_1500_c01",
+  "statement": "Siege of the Castle of Saint George (1500 CE), at Fortress St. George (part of Second Ottoman–Venetian War).",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1500,
+    "to": 1500
+  },
+  "derived_from": "wd_siege_of_the_castle_of_saint_george_1500",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

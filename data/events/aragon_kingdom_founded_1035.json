@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "aragon_kingdom_founded_1035",
+  "name": "Kingdom of Aragon Founded",
+  "year": 1035,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.7,
+    0.5
+  ],
+  "entity": "kingdom_of_aragon",
+  "summary": "Ramiro I inherited Aragon as a kingdom after the death of Sancho III of Navarre divided his realms among his sons. Aragon thus became an independent Christian kingdom and began its expansion southward against the Taifa states.",
+  "outcomes": [
+    "aragon_independent_kingdom",
+    "iberian_christian_expansion"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_aragon"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

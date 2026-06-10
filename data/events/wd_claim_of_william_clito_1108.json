@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_claim_of_william_clito_1108",
+  "name": "Claim of William Clito",
+  "year": 1108,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    49.8,
+    1.375
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Claim of William Clito (1108 CE), at Northern France (part of Anglo-French Wars). Source: Wikidata Q138001142.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "county_of_flanders",
+      "kingdom_of_england",
+      "duchy_of_normandy"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

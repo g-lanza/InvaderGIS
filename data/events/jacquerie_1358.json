@@ -1,0 +1,35 @@
+{
+ "kind": "event",
+ "dataset": "medieval-europe-500-1500",
+ "id": "jacquerie_1358",
+ "name": "The Jacquerie",
+ "year": 1358,
+ "type": "revolt",
+ "category": "violence",
+ "coords": [
+  49.43,
+  2.08
+ ],
+ "entity": "kingdom_of_france",
+ "summary": "A massive peasant uprising in northern France in May–June 1358, exploding from the convergence of military defeat at Poitiers (1356), the Black Death's aftermath, heavy taxation, and noble failure to protect the peasantry from English and mercenary plundering. Peasants ('Jacques', a contemptuous noble term) attack noble castles and manors across the Beauvaisis and Île-de-France, burning buildings and killing nobles and their families. The nobility, initially stunned, rallies under Charles of Navarre, who massacres the Jacques' leaders at a parley; the uprising collapses within weeks, with tens of thousands killed in reprisal.",
+ "outcomes": [
+  "noble_properties_burned",
+  "revolt_suppressed",
+  "thousands_killed"
+ ],
+ "_quarry": {
+  "participants": [
+   "kingdom_of_france"
+  ],
+  "structural_significance": "The largest peasant uprising in French history before the Revolution; though suppressed, it demonstrates the explosive social tensions of the late medieval period; the Jacquerie, alongside the English Peasants' Revolt (1381), marks the beginning of organized peasant resistance to the feudal order; the violence shocks noble society and contributes to 14th-century discussions of governance and social order",
+  "year_range": null
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "ims_fordham",
+   "ims_fordham_sbook1m"
+  ],
+  "confidence": "low"
+ }
+}

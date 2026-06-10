@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_otto_i_coronation_962_c02",
+  "statement": "The Privilegium Ottonianum redefined the emperor's role as protector of the papacy and confirmed imperial authority over papal elections.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 962,
+    "to": 962
+  },
+  "derived_from": "otto_i_coronation_962",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

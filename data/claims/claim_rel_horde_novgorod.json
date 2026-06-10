@@ -1,0 +1,30 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_horde_novgorod",
+  "statement": "Novgorod's relationship with the Golden Horde was indirect and episodic: the Mongols did not physically invade Novgorod (1237–1240) though they burned other cities, but they sent census-takers and tax collectors periodically. Alexander Nevsky — Prince of Novgorod and then Grand Prince of Vladimir — negotiated the tribute relationship with the Horde, accepting Mongol financial sovereignty while maintaining Novgorodian self-government. The 'anti-Mongol' riots in Novgorod (1257–1259), when census-takers arrived, were suppressed by Alexander Nevsky himself to preserve the tribute accommodation.",
+  "subject_ids": [
+    "golden_horde",
+    "principality_of_novgorod"
+  ],
+  "predicate": "tributary",
+  "derived_from": "rel_horde_novgorod",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "allsen_mongol_1987",
+      "martin_treasure_1986",
+      "birnbaum_lord_1981"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "principality_of_novgorod"
+  ],
+  "period": {
+    "from": 1240,
+    "to": 1478
+  }
+}

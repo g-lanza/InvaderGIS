@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "delhi_sultanate_founded_1206",
+  "name": "Qutb ud-Din Aibak Founds Delhi Sultanate",
+  "year": 1206,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    28.6,
+    77.2
+  ],
+  "entity": "delhi_sultanate",
+  "summary": "Qutb ud-Din Aibak, the Turkish slave-general of Muhammad of Ghor, established the Delhi Sultanate after his master's assassination. He began construction of the Qutb Minar, the first major Islamic monument in India.",
+  "outcomes": [
+    "delhi_sultanate_formed",
+    "muslim_rule_india",
+    "qutb_minar_built"
+  ],
+  "_quarry": {
+    "participants": [
+      "delhi_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "jackson_the_1999",
+      "kumar_the_2007"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

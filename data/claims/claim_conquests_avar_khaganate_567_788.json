@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_avar_khaganate_567_788",
+  "statement": "Avar Khaganate — campaigns and battles spanned 567–788, from Lombard–Gepid War to Avar Wars.",
+  "subject_ids": [
+    "avar_khaganate"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_avar_khaganate_567_788",
+  "period": {
+    "from": 567,
+    "to": 788
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "nizari_ismaili_alamut_1090",
+  "name": "Hassan-i-Sabbah and the Nizari Ismaili State at Alamut",
+  "year": 1090,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    36.45,
+    50.57
+  ],
+  "entity": "seljuk_sultanate",
+  "summary": "Hassan-i-Sabbah seizes the mountain fortress of Alamut in the Alborz Mountains (modern Iran) and establishes the Nizari Ismaili state, a network of mountain fortresses spread across Persia and Syria. His followers (called Assassins by their enemies, from the Arabic hashishin) conduct targeted political assassinations of Seljuk viziers, Crusader leaders, and Sunni scholars. The Nizari state operates for 166 years until the Mongol destruction of Alamut (1256).",
+  "outcomes": [
+    "alamut_castle_seized",
+    "assassins_founded",
+    "targeted_political_violence_weapon"
+  ],
+  "_quarry": {
+    "participants": [
+      "seljuk_sultanate",
+      "fatimid_caliphate"
+    ],
+    "structural_significance": "The Nizari state demonstrates that a small, distributed network of fortresses could survive surrounded by hostile great powers; the Assassins's targeted killings of Crusader leaders (including Conrad of Montferrat) and Islamic rulers show that political murder could be a state strategy; their resistance to the Seljuks and their eventual destruction by the Mongols illustrates the limits of asymmetric warfare against overwhelming force",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "peacock_the_2015",
+      "bosworth_the_1963",
+      "cahen_preottoman_1968"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

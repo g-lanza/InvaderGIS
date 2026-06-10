@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "brendan_voyage_580",
+  "name": "Brendan the Navigator's Atlantic voyage (traditional)",
+  "year": 580,
+  "type": "exploration",
+  "category": "discovery",
+  "coords": [
+    53.3498,
+    -6.2603
+  ],
+  "entity": "kingdom_of_dal_riata",
+  "summary": "Traditional dating of the Irish abbot Brendan of Clonfert's (c. 484–c. 577) seven-year Atlantic voyage in search of the 'Isle of the Blessed'. The 9th-century Navigatio Sancti Brendani Abbatis, which fictionalises and elaborates the journey, became one of the most-copied Latin texts of the central Middle Ages and was read by Columbus before 1492.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_dal_riata"
+    ],
+    "structural_significance": "Foundation of the Latin Christian imaginative geography of the Atlantic, the Hy-Brasil, Saint Brendan's Isle, and Antillia appearing on 13th–15th-century portolan charts trace to this tradition. Modern voyages in skin currachs (Severin 1976) demonstrated the Atlantic journey is technically achievable in 6th-century craft.",
+    "year_range": [
+      540,
+      580
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "bartlett_making_of_europe_1993"
+    ],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_saint_omer_1340",
+  "name": "Battle of Saint-Omer",
+  "subtype": "battle",
+  "start_year": 1340,
+  "end_year": 1340,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q63701"
+    }
+  },
+  "description": "Battle during Hundred Years' War (1340)",
+  "coords": [
+    2.2617,
+    50.7461
+  ]
+}

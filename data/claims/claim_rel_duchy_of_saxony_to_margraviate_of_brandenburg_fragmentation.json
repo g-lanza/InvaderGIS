@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_duchy_of_saxony_to_margraviate_of_brandenburg_fragmentation",
+  "statement": "Derived from predecessor/successor links recorded in the duchy_of_saxony and margraviate_of_brandenburg entity records. Transition anchored to margraviate_of_brandenburg start_year.",
+  "subject_ids": [
+    "duchy_of_saxony",
+    "margraviate_of_brandenburg"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_duchy_of_saxony_to_margraviate_of_brandenburg_fragmentation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "margraviate_of_brandenburg"
+  ],
+  "period": {
+    "from": 1157,
+    "to": 1157
+  }
+}

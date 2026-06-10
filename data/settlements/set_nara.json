@@ -1,0 +1,22 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_nara",
+  "name": "Nara (Heijōkyō)",
+  "importance": "capital",
+  "start_year": 710,
+  "end_year": 794,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "end_confidence": "medium",
+  "coords": [
+    135.805,
+    34.685
+  ]
+}

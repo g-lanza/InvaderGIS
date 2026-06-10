@@ -1,0 +1,90 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_kingdom_of_gwynedd_634_1282",
+  "name": "Kingdom of Gwynedd — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 634,
+  "year_end": 1282,
+  "waypoints": [
+    {
+      "year": 634,
+      "place": "Battle of Heavenfield",
+      "coords": [
+        53.775,
+        -2.89
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_heavenfield_634"
+    },
+    {
+      "year": 1039,
+      "place": "Battle of Rhyd Y Groes",
+      "coords": [
+        52.775,
+        -2.64
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_rhyd_y_groes_1039"
+    },
+    {
+      "year": 1067,
+      "place": "Norman invasion of Wales",
+      "coords": [
+        52.4975,
+        -3.32
+      ],
+      "note": "military",
+      "event_id": "wd_norman_invasion_of_wales_1067"
+    },
+    {
+      "year": 1118,
+      "place": "Battle of Maes Maen Cymro",
+      "coords": [
+        53.05,
+        -4.28
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_maes_maen_cymro_1118"
+    },
+    {
+      "year": 1157,
+      "place": "Battle of Ewloe",
+      "coords": [
+        52.775,
+        -2.64
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_ewloe_1157"
+    },
+    {
+      "year": 1165,
+      "place": "Battle of Crogen",
+      "coords": [
+        52.775,
+        -2.64
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_crogen_1165"
+    },
+    {
+      "year": 1282,
+      "place": "Llywelyn the Last Falls, Wales Conquered",
+      "coords": [
+        52.775,
+        -2.64
+      ],
+      "note": "military",
+      "event_id": "kingdom_of_gwynedd_1282"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

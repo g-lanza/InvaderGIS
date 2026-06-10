@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "alfred_the_great_treaty_878",
+  "name": "Treaty of Wedmore, Alfred and the Danes",
+  "year": 878,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    51.3,
+    -2.3
+  ],
+  "entity": "kingdom_of_northumbria",
+  "summary": "After Alfred the Great's victory at the Battle of Edington, the Danish leader Guthrum accepts baptism and the Treaty of Wedmore divides England: the Danes control the Danelaw (northeast) while Alfred rules Wessex and English Mercia. Alfred establishes a burghal network of fortified towns, reorganizes the fyrd, and creates a navy, transforming Wessex into the nucleus of a unified England.",
+  "outcomes": [
+    "danelaw_established",
+    "guthrum_baptized",
+    "england_divided"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_northumbria"
+    ],
+    "structural_significance": "Creates the Danelaw as a permanent Scandinavian settlement zone; Alfred's military and administrative reforms enable his successors to conquer the Danelaw and create unified England by 927.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_gwynedd_principality_wales",
+  "statement": "Gwynedd (northwest Wales) was the most powerful Welsh kingdom, protected by the Snowdonian mountains from English military pressure. Its rulers — most importantly Llywelyn Fawr (the Great, 1195–1240) and Llywelyn ap Gruffudd (the Last, 1246–1282) — used Gwynedd's defensive advantages to unite Welsh resistance. Llywelyn Fawr's Treaty of Worcester (1218) achieved English recognition of his predominance; his grandson Llywelyn ap Gruffudd received formal English recognition as 'Prince of Wales' in the Treaty of Montgomery (1267). Edward I's conquest (1282–1283) ended the Welsh principality and built his ring of castles to prevent its recovery.",
+  "subject_ids": [
+    "kingdom_of_gwynedd",
+    "principality_of_wales"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_gwynedd_principality_wales",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "principality_of_wales"
+  ],
+  "period": {
+    "from": 1216,
+    "to": 1216
+  }
+}

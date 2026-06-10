@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "dvaravati",
+  "name": "Nakhon Pathom",
+  "entity_id": "dvaravati",
+  "entity_name": "Dvaravati",
+  "start_year": 500,
+  "end_year": 1100,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1268307"
+    }
+  },
+  "coords": [
+    100.06,
+    13.82
+  ]
+}

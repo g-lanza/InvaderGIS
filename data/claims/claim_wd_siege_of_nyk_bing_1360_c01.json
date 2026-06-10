@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_nyk_bing_1360_c01",
+  "statement": "Siege of Nykøbing (1360 CE), at Nykøbing Castle (part of Danish-Hanseatic War of 1361-1370).",
+  "subject_ids": [
+    "kingdom_of_sweden"
+  ],
+  "period": {
+    "from": 1360,
+    "to": 1360
+  },
+  "derived_from": "wd_siege_of_nyk_bing_1360",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_medieval_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

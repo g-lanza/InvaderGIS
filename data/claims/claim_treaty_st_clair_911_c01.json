@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_treaty_st_clair_911_c01",
+  "statement": "In the Treaty of Saint-Clair-sur-Epte (911), King Charles the Simple of West Francia granted the lower Seine estuary to the Viking chieftain Rollo.",
+  "subject_ids": [
+    "west_francia"
+  ],
+  "period": {
+    "from": 911,
+    "to": 911
+  },
+  "derived_from": "treaty_st_clair_911",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "county_of_edessa",
+  "name": "Edessa",
+  "entity_id": "county_of_edessa",
+  "entity_name": "County of Edessa",
+  "start_year": 1098,
+  "end_year": 1150,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q232806"
+    }
+  },
+  "coords": [
+    38.78396,
+    37.14566
+  ]
+}

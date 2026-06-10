@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "arab_conquest_persia_636",
+  "name": "Arab Conquest of Persia, Battle of al-Qadisiyyah",
+  "year": 636,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    32.53,
+    44.4
+  ],
+  "entity": "abbasid_caliphate",
+  "summary": "Arab Muslim forces under Saad ibn Abi Waqqas defeat the main Sassanid army at al-Qadisiyyah on the Euphrates. The battle, lasting four days, ends with the death of the Sassanid general Rostam and the flight of the Sassanid court. The Sassanid capital Ctesiphon falls shortly after, and within twenty years the entire Sassanid Empire is absorbed into the Rashidun Caliphate.",
+  "outcomes": [
+    "sassanid_empire_destroyed",
+    "persia_becomes_islamic",
+    "caliphate_expands_east"
+  ],
+  "_quarry": {
+    "participants": [
+      "abbasid_caliphate"
+    ],
+    "structural_significance": "The destruction of the Sassanid Empire removes the eastern counterweight to Byzantine power and integrates Persia's sophisticated bureaucratic tradition into the Islamic state; Persian administrative culture, language, and scholarship profoundly shape the Abbasid Caliphate that emerges in 750; the conversion of Persia makes Islam a majority faith of continental scale",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_the_2004",
+      "kennedy_when_2004",
+      "crone_gods_2004",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_arab_conquest_persia_636_c02",
+  "statement": "The Sassanid capital Ctesiphon fell shortly after al-Qadisiyyah, and the Sassanid Empire was absorbed into the Rashidun Caliphate within twenty years.",
+  "subject_ids": [
+    "abbasid_caliphate"
+  ],
+  "period": {
+    "from": 636,
+    "to": 636
+  },
+  "derived_from": "arab_conquest_persia_636",
+  "unresolved_sources": [
+    "kennedy_the_2004",
+    "kennedy_when_2004",
+    "crone_gods_2004"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "kind": "institution",
+  "dataset": "medieval-europe-500-1500",
+  "id": "al_karaouine",
+  "name_primary": "Al-Qarawiyyin (Al-Karaouine)",
+  "domain": "educational_institution",
+  "formed": 859,
+  "dissolved": 1500,
+  "_quarry": {
+    "key_developments": [
+      {
+        "year": 859,
+        "event": "Foundation of the mosque and its teaching circles by Fatima al-Fihri."
+      },
+      {
+        "year": 933,
+        "event": "Becomes the principal Friday mosque of Fez under the Zenata."
+      },
+      {
+        "year": 1135,
+        "event": "Almoravid expansion under Ali ibn Yusuf."
+      },
+      {
+        "year": 1271,
+        "event": "Marinid extensions under Abu Yusuf Ya'qub; library expanded."
+      }
+    ],
+    "influences_entities": [
+      "almoravid_emirate_iberia",
+      "almohad_caliphate_iberia",
+      "marinid_dynasty"
+    ],
+    "description": "Founded in 859 in Fez by Fatima al-Fihri, a wealthy émigré from Kairouan, originally as a congregational mosque with adjacent teaching circles. Over the following centuries it crystallised into a major centre of Maliki jurisprudence, Arabic grammar, theology, and the natural sciences; Ibn Khaldun, Maimonides (according to some traditions), and the geographer al-Idrisi are reported among its scholars or visitors. Endowed and expanded successively by the Idrisid, Almoravid, Almohad, and Marinid dynasties. Often cited (e.g. by UNESCO) as the oldest continuously operating institution of higher learning in the world."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "hodgson_venture_of_islam_1974"
+    ],
+    "confidence": "low"
+  }
+}

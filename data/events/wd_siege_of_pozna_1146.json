@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_pozna_1146",
+  "name": "Siege of Poznań",
+  "year": 1146,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    52,
+    19
+  ],
+  "entity": "kingdom_of_poland_piast",
+  "summary": "Siege of Poznań (1146 CE), at Poznań. Source: Wikidata Q11794900.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_poland_piast"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "davies_gods_1981",
+      "knoll_the_1972"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

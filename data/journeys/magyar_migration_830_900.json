@@ -1,0 +1,86 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "magyar_migration_830_900",
+  "name": "Magyar Migration to the Carpathian Basin",
+  "kind_type": "migration",
+  "year_start": 830,
+  "year_end": 900,
+  "waypoints": [
+    {
+      "year": 830,
+      "place": "Levedia",
+      "coords": [
+        48.5,
+        39
+      ],
+      "note": "tribal heartland north of the Sea of Azov, under Khazar overlordship"
+    },
+    {
+      "year": 860,
+      "place": "Etelköz",
+      "coords": [
+        47.2,
+        30
+      ],
+      "note": "westward shift to lands between the Dnieper and Lower Danube"
+    },
+    {
+      "year": 894,
+      "place": "Lower Danube",
+      "coords": [
+        44.5,
+        28.5
+      ],
+      "note": "Byzantine ally against the Bulgars"
+    },
+    {
+      "year": 895,
+      "place": "Etelköz (Pecheneg raid)",
+      "coords": [
+        47.2,
+        30
+      ],
+      "note": "Pecheneg attack drove the migration westward in earnest"
+    },
+    {
+      "year": 896,
+      "place": "Verecke Pass",
+      "coords": [
+        48.85,
+        23.13
+      ],
+      "note": "crossing into the Carpathian basin under Árpád"
+    },
+    {
+      "year": 896,
+      "place": "Munkács",
+      "coords": [
+        48.43,
+        22.71
+      ]
+    },
+    {
+      "year": 897,
+      "place": "Buda",
+      "coords": [
+        47.5,
+        19.05
+      ]
+    },
+    {
+      "year": 900,
+      "place": "Pannonia",
+      "coords": [
+        47.2,
+        17.5
+      ],
+      "note": "settled the western plains; raiding into Italy and Germany began the next year"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

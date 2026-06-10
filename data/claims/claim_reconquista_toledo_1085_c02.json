@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_reconquista_toledo_1085_c02",
+  "statement": "Toledo had been the old Visigothic capital and a major Islamic city before its capture in 1085.",
+  "subject_ids": [
+    "kingdom_of_castile"
+  ],
+  "period": {
+    "from": 1085,
+    "to": 1085
+  },
+  "derived_from": "reconquista_toledo_1085",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

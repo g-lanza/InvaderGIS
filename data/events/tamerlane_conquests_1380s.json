@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "tamerlane_conquests_1380s",
+  "name": "Timur (Tamerlane), Rebuilder of Mongol Power",
+  "year": 1380,
+  "type": "conquest",
+  "category": "violence",
+  "coords": [
+    39.65,
+    66.94
+  ],
+  "entity": "ilkhanate",
+  "summary": "Timur (Tamerlane), a Turco-Mongol ruler from Samarkand, rebuilds Mongol-scale conquest in the late 14th century. He destroys the Golden Horde (1395-1396), sacks Delhi (1398), defeats the Mamluks in Syria (1400-1401), and destroys the Ottoman army at Ankara (1402). His empire collapses on his death (1405) but the devastation of Persia, Iraq, and Anatolia reshapes these regions for generations.",
+  "outcomes": [
+    "persia_devastated",
+    "delhi_sultanate_attacked",
+    "ottoman_empire_temporarily_destroyed"
+  ],
+  "_quarry": {
+    "participants": [
+      "ilkhanate",
+      "golden_horde",
+      "ottoman_empire"
+    ],
+    "structural_significance": "Timur's conquests represent the last great Mongol-style empire; his destruction of the Golden Horde opens the Pontic steppe to Moscow's expansion; his defeat of the Ottomans gives Constantinople 50 more years; his sack of Delhi's Punjab depopulation reduces the basis for another large Muslim empire in India for half a century; unlike the Mongols, Timur is a Muslim, his destruction is done in the name of religious reform, not steppe pragmatism",
+    "year_range": [
+      1370,
+      1405
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "jackson_the_2005",
+      "amitai-preiss_mongols_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_kingdom_of_croatia_700_1493",
+  "statement": "Kingdom of Croatia — campaigns and battles spanned 700–1493, from Croatian-Venetian Wars to Hundred Years' Croatian–Ottoman War.",
+  "subject_ids": [
+    "kingdom_of_croatia"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_kingdom_of_croatia_700_1493",
+  "period": {
+    "from": 700,
+    "to": 1493
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fine_the_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

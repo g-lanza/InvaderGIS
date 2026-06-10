@@ -1,0 +1,37 @@
+{
+ "kind": "event",
+ "dataset": "medieval-europe-500-1500",
+ "id": "council_vienne_1311",
+ "name": "Council of Vienne",
+ "year": 1311,
+ "type": "religious_council",
+ "category": "religion",
+ "coords": [
+  45.52,
+  4.87
+ ],
+ "entity": "papal_states",
+ "summary": "Pope Clement V convenes the Council of Vienne (October 1311 – May 1312) primarily to settle the fate of the Knights Templar, dissolved by French king Philip IV. The council does not find the Order guilty of heresy in formal proceedings, the evidence was insufficient, but dissolves it by papal decree under French pressure (Vox in excelso, 1312). The Order's vast properties are transferred to the Hospitallers, though Philip IV seizes most of the French Templar assets. The council also issued reform decrees and attempted (futilely) to organize a new crusade.",
+ "outcomes": [],
+ "_quarry": {
+  "participants": [
+   "papal_states"
+  ],
+  "structural_significance": "Dissolves the Knights Templar by papal decree; transfers Templar properties to the Hospitallers; demonstrates French monarchy's domination of the Avignon papacy; ends the era of the Military Orders as independent powers",
+  "year_range": [
+   1311,
+   1312
+  ]
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "partner_the_1972",
+   "morris_the_1989",
+   "ims_fordham",
+   "ims_fordham_sbook2"
+  ],
+  "confidence": "low",
+  "attestation": "inferred"
+ }
+}

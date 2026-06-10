@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_dan_no_ura_1185",
+  "name": "Battle of Dan-no-ura",
+  "subtype": "battle",
+  "start_year": 1185,
+  "end_year": 1185,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q968676"
+    }
+  },
+  "description": "Battle during Genpei War (1185)",
+  "coords": [
+    130.9566,
+    33.9651
+  ]
+}

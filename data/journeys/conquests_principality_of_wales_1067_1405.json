@@ -1,0 +1,180 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_principality_of_wales_1067_1405",
+  "name": "Principality of Wales — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1067,
+  "year_end": 1405,
+  "waypoints": [
+    {
+      "year": 1067,
+      "place": "Norman invasion of Wales",
+      "coords": [
+        52.4975,
+        -3.32
+      ],
+      "note": "military",
+      "event_id": "wd_norman_invasion_of_wales_1067"
+    },
+    {
+      "year": 1233,
+      "place": "Battle of Monmouth",
+      "coords": [
+        52.5,
+        -2.4
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_monmouth_1233"
+    },
+    {
+      "year": 1257,
+      "place": "Battle of Cadfan",
+      "coords": [
+        52.5,
+        -2.4
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_cadfan_1257"
+    },
+    {
+      "year": 1282,
+      "place": "Llywelyn ap Gruffudd — Last Prince of Wales",
+      "coords": [
+        52.4,
+        -3.49
+      ],
+      "note": "battle",
+      "event_id": "llywelyn_last_1282"
+    },
+    {
+      "year": 1283,
+      "place": "Edward I Conquers Wales — Statute of Rhuddlan",
+      "coords": [
+        53.14,
+        -4.27
+      ],
+      "note": "conquest",
+      "event_id": "edward_i_wales_1283"
+    },
+    {
+      "year": 1283,
+      "place": "Edward I completes Welsh conquest",
+      "coords": [
+        53.14,
+        -4.28
+      ],
+      "note": "expansion_milestone",
+      "event_id": "welsh_conquest_1283"
+    },
+    {
+      "year": 1400,
+      "place": "Glyndŵr rebellion",
+      "coords": [
+        50.5,
+        -0.7667
+      ],
+      "note": "military",
+      "event_id": "wd_glynd_r_rebellion_1400"
+    },
+    {
+      "year": 1401,
+      "place": "Battle of Mynydd Hyddgen",
+      "coords": [
+        52.5,
+        -2.4
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_mynydd_hyddgen_1401"
+    },
+    {
+      "year": 1402,
+      "place": "Battle of Bryn Glas",
+      "coords": [
+        52.5,
+        -2.4
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_bryn_glas_1402"
+    },
+    {
+      "year": 1402,
+      "place": "Siege of Harlech",
+      "coords": [
+        50.5,
+        -0.7667
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_harlech_1402"
+    },
+    {
+      "year": 1403,
+      "place": "Battle of Shrewsbury",
+      "coords": [
+        53.8333,
+        -2.9333
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_shrewsbury_1403"
+    },
+    {
+      "year": 1403,
+      "place": "Battle of Stalling Down",
+      "coords": [
+        52.5,
+        -2.4
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_stalling_down_1403"
+    },
+    {
+      "year": 1404,
+      "place": "Battle of Campston Hill",
+      "coords": [
+        52.5,
+        -2.4
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_campston_hill_1404"
+    },
+    {
+      "year": 1404,
+      "place": "Siege of Caernarfon",
+      "coords": [
+        50.5,
+        -0.7667
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_caernarfon_1404"
+    },
+    {
+      "year": 1405,
+      "place": "Battle of Grosmont",
+      "coords": [
+        52.5,
+        -2.4
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_grosmont_1405"
+    },
+    {
+      "year": 1405,
+      "place": "Battle of Milford Haven",
+      "coords": [
+        50.5,
+        -0.7667
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_milford_haven_1405"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

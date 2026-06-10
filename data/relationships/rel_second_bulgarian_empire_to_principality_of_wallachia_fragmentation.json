@@ -1,0 +1,36 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_second_bulgarian_empire_to_principality_of_wallachia_fragmentation",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "second_bulgarian_empire",
+      "role": "parent"
+    },
+    {
+      "entity_id": "principality_of_wallachia",
+      "role": "fragment"
+    }
+  ],
+  "directed": true,
+  "type": "fragmentation",
+  "since": 1330,
+  "until": 1330,
+  "note": "Derived from predecessor/successor links recorded in the second_bulgarian_empire and principality_of_wallachia entity records. Transition anchored to principality_of_wallachia start_year.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Mechanical normalisation of curated predecessor/successor links into the relationships register."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fine_the_1987",
+      "deletant_romania_1998",
+      "panaitescu_mircea_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

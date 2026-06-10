@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_capture_of_oviedo_795",
+  "name": "Capture of Oviedo",
+  "year": 795,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    40.65,
+    -5.3
+  ],
+  "entity": "kingdom_of_asturias",
+  "summary": "Capture of Oviedo (795 CE), at Oviedo (part of Reconquista). Source: Wikidata Q130251297.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_asturias",
+      "umayyad_emirate_cordoba"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_shkodra_1474",
+  "name": "Siege of Shkodra",
+  "year": 1474,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    43.06,
+    20.1067
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Siege of Shkodra (1474 CE), at Shkodër (part of First Ottoman–Venetian War). Source: Wikidata Q7510401.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "ottoman_empire",
+      "principality_of_zeta"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

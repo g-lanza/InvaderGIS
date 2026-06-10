@@ -1,0 +1,129 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_avar_khaganate_567_788",
+  "name": "Avar Khaganate — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 567,
+  "year_end": 788,
+  "waypoints": [
+    {
+      "year": 567,
+      "place": "Lombard–Gepid War",
+      "coords": [
+        44,
+        24.2
+      ],
+      "note": "military",
+      "event_id": "wd_lombard_gepid_war_567"
+    },
+    {
+      "year": 568,
+      "place": "Avar–Byzantine Wars",
+      "coords": [
+        44,
+        24.2
+      ],
+      "note": "military",
+      "event_id": "wd_avar_byzantine_wars_568"
+    },
+    {
+      "year": 580,
+      "place": "Siege of Sirmium",
+      "coords": [
+        44,
+        24.2
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_sirmium_580"
+    },
+    {
+      "year": 582,
+      "place": "Maurice's Balkan campaigns",
+      "coords": [
+        44,
+        24.2
+      ],
+      "note": "military",
+      "event_id": "wd_maurice_s_balkan_campaigns_582"
+    },
+    {
+      "year": 586,
+      "place": "Comentiolus' Avar Campaign",
+      "coords": [
+        44,
+        24.2
+      ],
+      "note": "military",
+      "event_id": "wd_comentiolus_avar_campaign_586"
+    },
+    {
+      "year": 602,
+      "place": "Byzantine–Sassanid War of 602–628",
+      "coords": [
+        44,
+        24.2
+      ],
+      "note": "military",
+      "event_id": "wd_byzantine_sassanid_war_of_602_628_602"
+    },
+    {
+      "year": 626,
+      "place": "Avar-Persian siege of Constantinople",
+      "coords": [
+        41.01,
+        28.98
+      ],
+      "note": "battle",
+      "event_id": "siege_constantinople_626"
+    },
+    {
+      "year": 626,
+      "place": "Samo's rebellion",
+      "coords": [
+        47,
+        19.5
+      ],
+      "note": "military",
+      "event_id": "wd_samo_s_rebellion_626"
+    },
+    {
+      "year": 626,
+      "place": "Siege of Constantinople",
+      "coords": [
+        44,
+        24.2
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_constantinople_626"
+    },
+    {
+      "year": 788,
+      "place": "Charlemagne's Avar campaigns",
+      "coords": [
+        47.5,
+        18
+      ],
+      "note": "war",
+      "event_id": "avar_war_788"
+    },
+    {
+      "year": 788,
+      "place": "Avar Wars",
+      "coords": [
+        48,
+        11.5
+      ],
+      "note": "military",
+      "event_id": "wd_avar_wars_788"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

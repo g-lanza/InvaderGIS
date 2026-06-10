@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_atella_1496_c01",
+  "statement": "Siege of Atella (1496 CE), at Atella (part of Italian War of 1494–1495).",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1496,
+    "to": 1496
+  },
+  "derived_from": "wd_siege_of_atella_1496",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

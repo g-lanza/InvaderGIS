@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_erzurum_1242",
+  "name": "Siege of Erzurum",
+  "year": 1242,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    42.85,
+    67.65
+  ],
+  "entity": "mongol_empire",
+  "summary": "Siege of Erzurum (1242 CE), at Erzurum (part of Mongol conquest of Anatolia). Source: Wikidata Q137161215.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "mongol_empire",
+      "sultanate_of_rum"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

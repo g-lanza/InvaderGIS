@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_first_war_of_scottish_independence_1296",
+  "name": "First War of Scottish Independence",
+  "year": 1296,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    54.5,
+    -2.5
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "First War of Scottish Independence (1296 CE), at Kingdom of England (part of Wars of Scottish Independence). Source: Wikidata Q3242848.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "kingdom_of_scotland"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

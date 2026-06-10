@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_toron_1197_c01",
+  "statement": "Siege of Toron (1197 CE), at Toron (part of Crusade of 1197).",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1197,
+    "to": 1197
+  },
+  "derived_from": "wd_siege_of_toron_1197",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

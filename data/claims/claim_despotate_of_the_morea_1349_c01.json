@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_despotate_of_the_morea_1349_c01",
+  "statement": "John VI Kantakouzenos established the Despotate of the Morea in 1349, creating a semi-autonomous Byzantine province in the Peloponnese.",
+  "subject_ids": [
+    "despotate_of_the_morea"
+  ],
+  "period": {
+    "from": 1349,
+    "to": 1349
+  },
+  "derived_from": "despotate_of_the_morea_1349",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

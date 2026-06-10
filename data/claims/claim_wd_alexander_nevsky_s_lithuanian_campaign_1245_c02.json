@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_alexander_nevsky_s_lithuanian_campaign_1245_c02",
+  "statement": "The 1245 Lithuanian campaign occurred in Pskov Oblast.",
+  "subject_ids": [
+    "grand_duchy_of_lithuania"
+  ],
+  "period": {
+    "from": 1245,
+    "to": 1245
+  },
+  "derived_from": "wd_alexander_nevsky_s_lithuanian_campaign_1245",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "rowell_lithuania_1994",
+      "christiansen_the_1997"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,529 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "takrur",
+  "name_primary": "Takrur Kingdom",
+  "name_variants": [
+    "Takrur"
+  ],
+  "type": "kingdom",
+  "region": "west_africa",
+  "formed": 800,
+  "dissolved": 1285,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 1000,
+      "label": "Takrur",
+      "polygon": [
+        [
+          15.6,
+          -16.13
+        ],
+        [
+          16.25,
+          -15.76
+        ],
+        [
+          16.52,
+          -14.39
+        ],
+        [
+          16.15,
+          -13.83
+        ],
+        [
+          15.79,
+          -13.65
+        ],
+        [
+          15.14,
+          -13.56
+        ],
+        [
+          14.41,
+          -13.74
+        ],
+        [
+          13.76,
+          -14.66
+        ],
+        [
+          13.86,
+          -15.67
+        ],
+        [
+          15.05,
+          -16.22
+        ],
+        [
+          15.6,
+          -16.13
+        ]
+      ]
+    },
+    {
+      "year": 1200,
+      "label": "Takrur",
+      "polygon": [
+        [
+          15.6,
+          -16.13
+        ],
+        [
+          16.25,
+          -15.76
+        ],
+        [
+          16.52,
+          -14.39
+        ],
+        [
+          16.15,
+          -13.83
+        ],
+        [
+          15.79,
+          -13.65
+        ],
+        [
+          15.14,
+          -13.56
+        ],
+        [
+          14.41,
+          -13.74
+        ],
+        [
+          13.76,
+          -14.66
+        ],
+        [
+          13.86,
+          -15.67
+        ],
+        [
+          15.05,
+          -16.22
+        ],
+        [
+          15.6,
+          -16.13
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    15.302,
+    -15.044
+  ],
+  "population_estimates": [
+    {
+      "year": 900,
+      "estimate": 200000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2272880",
+          "url": "https://www.wikidata.org/wiki/Q2272880",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Takrur",
+          "url": "https://en.wikipedia.org/wiki/Takrur"
+        }
+      ]
+    },
+    {
+      "year": 975,
+      "estimate": 300000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2272880",
+          "url": "https://www.wikidata.org/wiki/Q2272880",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Takrur",
+          "url": "https://en.wikipedia.org/wiki/Takrur"
+        }
+      ]
+    },
+    {
+      "year": 1050,
+      "estimate": 400000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2272880",
+          "url": "https://www.wikidata.org/wiki/Q2272880",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Takrur",
+          "url": "https://en.wikipedia.org/wiki/Takrur"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "West African state on the lower Senegal River (c. 800–1285) among the earliest sub-Saharan African polities to convert to Islam; under War-Jabi (c. 1040) Takrur's rulers adopted Islam and imposed it on their subjects, making it a base for subsequent Islamisation of the Senegambia region; its control of Saharan trade routes carrying gold and slaves defined its political economy before incorporation into the Mali Empire.",
+  "temporal": {
+    "start_year": 800,
+    "end_year": 1285,
+    "notes": ""
+  },
+  "geographic": {
+    "centroid": [
+      15.302,
+      -15.044
+    ],
+    "polygon_simplified": [
+      [
+        15.6,
+        -16.13
+      ],
+      [
+        16.25,
+        -15.76
+      ],
+      [
+        16.52,
+        -14.39
+      ],
+      [
+        16.15,
+        -13.83
+      ],
+      [
+        15.79,
+        -13.65
+      ],
+      [
+        15.14,
+        -13.56
+      ],
+      [
+        14.41,
+        -13.74
+      ],
+      [
+        13.76,
+        -14.66
+      ],
+      [
+        13.86,
+        -15.67
+      ],
+      [
+        15.05,
+        -16.22
+      ],
+      [
+        15.6,
+        -16.13
+      ]
+    ],
+    "capital": {
+      "name": "Morfil",
+      "coords": [
+        16.58356,
+        -14.58384
+      ],
+      "source": "wikidata"
+    },
+    "polygon_snapshots": [
+      {
+        "year": 1000,
+        "label": "Takrur",
+        "polygon": [
+          [
+            15.6,
+            -16.13
+          ],
+          [
+            16.25,
+            -15.76
+          ],
+          [
+            16.52,
+            -14.39
+          ],
+          [
+            16.15,
+            -13.83
+          ],
+          [
+            15.79,
+            -13.65
+          ],
+          [
+            15.14,
+            -13.56
+          ],
+          [
+            14.41,
+            -13.74
+          ],
+          [
+            13.76,
+            -14.66
+          ],
+          [
+            13.86,
+            -15.67
+          ],
+          [
+            15.05,
+            -16.22
+          ],
+          [
+            15.6,
+            -16.13
+          ]
+        ]
+      },
+      {
+        "year": 1200,
+        "label": "Takrur",
+        "polygon": [
+          [
+            15.6,
+            -16.13
+          ],
+          [
+            16.25,
+            -15.76
+          ],
+          [
+            16.52,
+            -14.39
+          ],
+          [
+            16.15,
+            -13.83
+          ],
+          [
+            15.79,
+            -13.65
+          ],
+          [
+            15.14,
+            -13.56
+          ],
+          [
+            14.41,
+            -13.74
+          ],
+          [
+            13.76,
+            -14.66
+          ],
+          [
+            13.86,
+            -15.67
+          ],
+          [
+            15.05,
+            -16.22
+          ],
+          [
+            15.6,
+            -16.13
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "real_historical_boundary",
+    "polygon_source": "aourednik/historical-basemaps",
+    "polygon_source_date": "2026-05-09"
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "early_kingdom",
+      "years": "800-1040",
+      "description": "Takrur was among the first West African kingdoms to adopt Islam; dominated the Senegal River valley.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2272880",
+          "url": "https://www.wikidata.org/wiki/Q2272880"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Takrur",
+          "url": "https://en.wikipedia.org/wiki/Takrur"
+        }
+      ]
+    },
+    {
+      "phase": "almoravid_alliance",
+      "years": "1040-1076",
+      "description": "War Jabi converted to Islam and allied with Almoravids; Takrurese soldiers participated in Almoravid campaigns.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2272880",
+          "url": "https://www.wikidata.org/wiki/Q2272880"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Takrur",
+          "url": "https://en.wikipedia.org/wiki/Takrur"
+        }
+      ]
+    },
+    {
+      "phase": "decline_and_tukolor",
+      "years": "1076-1500",
+      "description": "After Almoravid decline, Takrur became subordinate to Mali Empire; the region became known as Futa Toro.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2272880",
+          "url": "https://www.wikidata.org/wiki/Q2272880"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Takrur",
+          "url": "https://en.wikipedia.org/wiki/Takrur"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "trade_route_control",
+      "layer": "economic_commercial",
+      "description": "Gold and salt trade along the Senegal River valley gave Takrur commercial wealth.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2272880",
+          "url": "https://www.wikidata.org/wiki/Q2272880"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Takrur",
+          "url": "https://en.wikipedia.org/wiki/Takrur"
+        }
+      ],
+      "tag_prose": "trans_saharan_trade"
+    },
+    {
+      "tag": "early_islamisation",
+      "layer": "ideology_religion",
+      "description": "Early adoption of Islam connected Takrur to North African scholarly and commercial networks before rivals.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2272880",
+          "url": "https://www.wikidata.org/wiki/Q2272880"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Takrur",
+          "url": "https://en.wikipedia.org/wiki/Takrur"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "mali_hegemony",
+      "layer": "external_political",
+      "description": "Rise of the Mali Empire subordinated Takrur as a vassal state.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2272880",
+          "url": "https://www.wikidata.org/wiki/Q2272880"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Takrur",
+          "url": "https://en.wikipedia.org/wiki/Takrur"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "War Jabi",
+      "role": "ruler",
+      "years": "1030–1040",
+      "year_start": 1030,
+      "year_end": 1040,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "War Jabi",
+          "url": "https://en.wikipedia.org/wiki/War_Jabi"
+        }
+      ]
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "long_distance_trade",
+      "gold_trade",
+      "fishing"
+    ],
+    "wealth_level": "moderate",
+    "major_exports": [
+      "gold",
+      "slaves",
+      "fish",
+      "grain"
+    ],
+    "major_trade_partners": [
+      "ghana",
+      "north_africa_berbers",
+      "mali"
+    ],
+    "revenue_sources": [
+      "trans_saharan_tax",
+      "senegal_river_tolls",
+      "tribute"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q2272880",
+        "url": "https://www.wikidata.org/wiki/Q2272880"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Takrur",
+        "url": "https://en.wikipedia.org/wiki/Takrur"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q2272880",
+    "matched_name": "Takrur",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Takrur",
+    "capital": {
+      "name": "Morfil",
+      "coords": [
+        16.58356,
+        -14.58384
+      ]
+    }
+  },
+  "monogram": "TK"
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "merovingian_unification_558",
+  "name": "Chlothar I Reunites the Frankish Kingdom",
+  "year": 558,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    49.45,
+    3.52
+  ],
+  "entity": "merovingian_kingdom",
+  "summary": "Chlothar I, the last surviving son of Clovis I, reunites the entire Frankish realm under his sole rule, the first time since Clovis's death (511) that the kingdom is unified. His reign demonstrates the Merovingian capacity to absorb Thuringia, Burgundy, and Provence into a pan-Frankish empire. However, Chlothar I's death in 561 leads to partition among his four sons, inaugurating the long civil wars between Austrasia, Neustria, and Burgundy.",
+  "outcomes": [
+    "frankish_realm_briefly_unified",
+    "merovingian_dynasty_consolidated",
+    "subsequent_partition_inevitable"
+  ],
+  "_quarry": {
+    "participants": [
+      "merovingian_kingdom"
+    ],
+    "structural_significance": "The repeated Merovingian cycle of unification and partition shapes the political geography of medieval France; the Neustria-Austrasia rivalry creates the context for the Carolingian rise, the Carolingians emerge as Austrasian palace mayors who eventually replace the Merovingians",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wood_the_1994",
+      "geary_before_1988"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

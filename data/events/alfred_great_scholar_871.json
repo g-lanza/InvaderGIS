@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "alfred_great_scholar_871",
+  "name": "Alfred the Great, Scholar-King and English Literacy",
+  "year": 871,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    51.06,
+    -2.66
+  ],
+  "entity": "kingdom_of_wessex",
+  "summary": "Alfred the Great of Wessex, despite constant Viking pressure, establishes a court school, commissions translations of Latin texts into Old English (Boethius, Gregory's Pastoral Care, Bede's Ecclesiastical History), and initiates the Anglo-Saxon Chronicle. He personally translates several works and prefaces them with educational manifestos arguing that English clergy must be literate in their own language.",
+  "outcomes": [
+    "old_english_books_translated",
+    "court_school_founded",
+    "anglosaxon_chronicle_begins"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_wessex",
+      "kingdom_of_england"
+    ],
+    "structural_significance": "Alfred's scholarly program is the most ambitious royal educational initiative in early medieval Europe; the Anglo-Saxon Chronicle (begun c. 890) creates an English historical consciousness that extends through the Norman Conquest; the Old English translations create vernacular prose literature two centuries before French or German equivalents; Alfred's combination of military rebuilding and cultural investment demonstrates that crisis can stimulate rather than destroy cultural production",
+    "year_range": [
+      871,
+      899
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

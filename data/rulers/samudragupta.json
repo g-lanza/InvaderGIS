@@ -1,0 +1,43 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "samudragupta",
+  "name": "Samudragupta",
+  "polity": "gupta_empire",
+  "title": "emperor",
+  "reign_start": 335,
+  "reign_end": 380,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 315,
+      "death_year": 380
+    },
+    "entity_associations": [
+      {
+        "entity_id": "gupta_empire",
+        "role": "emperor",
+        "start_year": 335,
+        "end_year": 380
+      }
+    ],
+    "key_actions": [
+      {
+        "year": 340,
+        "event": "Begins conquest campaigns recorded in Allahabad pillar inscription."
+      },
+      {
+        "year": 360,
+        "event": "Subdues 21 kings of northern India; vassalizes Vakataka, Pallavas."
+      }
+    ],
+    "region": "south_asia",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "thapar_early_india_2002"
+    ],
+    "confidence": "low"
+  }
+}

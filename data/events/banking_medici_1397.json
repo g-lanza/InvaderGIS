@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "banking_medici_1397",
+  "name": "Founding of the Medici Bank",
+  "year": 1397,
+  "type": "economic",
+  "category": "economy",
+  "coords": [
+    43.769,
+    11.256
+  ],
+  "entity": "republic_of_florence",
+  "summary": "Giovanni di Bicci de' Medici established the Medici Bank in Florence in 1397. Through branches in Rome, Venice, Bruges, London, and Lyon, the bank serviced papal finances, royal clients, and international trade. It pioneered sophisticated financial instruments including letters of credit and exchange. The bank's profits financed the Medici political ascent and their patronage of Renaissance art.",
+  "outcomes": [
+    "Most powerful bank in 15th-century Europe",
+    "Branch network across major European cities",
+    "Papacy uses Medici as primary banker",
+    "Double-entry bookkeeping refined"
+  ],
+  "_quarry": {
+    "participants": [
+      "republic_of_florence"
+    ],
+    "structural_significance": "The Medici Bank exemplified the new financial capitalism of late medieval Italy; its methods became the template for early modern banking.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Parks, Medici Money",
+      "de Roover, The Rise and Decline of the Medici Bank"
+    ],
+    "confidence": "low"
+  }
+}

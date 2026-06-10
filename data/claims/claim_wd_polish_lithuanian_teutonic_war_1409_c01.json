@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_polish_lithuanian_teutonic_war_1409_c01",
+  "statement": "Polish-Lithuanian-Teutonic War (1409 CE), at State of the Teutonic Order (part of Lithuanian Crusade).",
+  "subject_ids": [
+    "grand_duchy_of_lithuania"
+  ],
+  "period": {
+    "from": 1409,
+    "to": 1409
+  },
+  "derived_from": "wd_polish_lithuanian_teutonic_war_1409",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "rowell_lithuania_1994",
+      "christiansen_the_1997"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

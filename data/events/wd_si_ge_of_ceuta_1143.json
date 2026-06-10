@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_si_ge_of_ceuta_1143",
+  "name": "Siège of Ceuta",
+  "year": 1143,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    37,
+    -4
+  ],
+  "entity": "almoravid_emirate_iberia",
+  "summary": "Siège of Ceuta (1143 CE), at Ceuta (part of Almoravid–Almohad Wars). Source: Wikidata Q109312807.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "almoravid_emirate_iberia",
+      "almohad_caliphate_iberia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_the_2004",
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

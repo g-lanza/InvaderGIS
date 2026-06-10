@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_villach_1492",
+  "name": "Battle of Villach",
+  "subtype": "battle",
+  "start_year": 1492,
+  "end_year": 1492,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q108910776"
+    }
+  },
+  "description": "Battle of 1492",
+  "coords": [
+    13.8333,
+    46.6167
+  ]
+}

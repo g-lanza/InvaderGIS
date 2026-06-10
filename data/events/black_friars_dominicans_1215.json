@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "black_friars_dominicans_1215",
+  "name": "Foundation of the Dominican Order",
+  "year": 1215,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    48.85,
+    2.35
+  ],
+  "entity": "papal_states",
+  "summary": "Dominic de Guzmán founds the Order of Preachers (Dominicans) at the Fourth Lateran Council, receiving papal approval from Honorius III in 1216. The Dominicans commit to apostolic poverty, intensive intellectual formation, and itinerant preaching, explicitly designed to combat Cathar heresy through argument rather than crusade. Within decades, Dominicans dominate the university theology faculties and the Inquisition tribunals across Europe.",
+  "outcomes": [
+    "mendicant_preaching_order_founded",
+    "heresy_combat_mission",
+    "university_theology_dominated"
+  ],
+  "_quarry": {
+    "participants": [
+      "papal_states",
+      "kingdom_of_france"
+    ],
+    "structural_significance": "The Dominicans represent the Church's attempt to win back educated and popular audiences lost to heretical movements; their combination of academic prestige (Thomas Aquinas is Dominican) and inquisitorial function makes them simultaneously the most intellectually creative and most coercively effective arm of the medieval Church; Dominican missions to the Mongols (Carpini, 1245) and China represent the Church's first systematic global missionary program",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

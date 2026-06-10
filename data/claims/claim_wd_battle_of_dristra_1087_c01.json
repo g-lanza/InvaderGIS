@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_dristra_1087_c01",
+  "statement": "Battle of Dristra (1087 CE), at Silistra (part of Byzantine–Pecheneg wars).",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 1087,
+    "to": 1087
+  },
+  "derived_from": "wd_battle_of_dristra_1087",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

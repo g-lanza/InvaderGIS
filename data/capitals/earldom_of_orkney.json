@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "earldom_of_orkney",
+  "name": "Birsay",
+  "entity_id": "earldom_of_orkney",
+  "entity_name": "Earldom of Orkney",
+  "start_year": 870,
+  "end_year": 1468,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2564297"
+    }
+  },
+  "coords": [
+    -3.31,
+    59.13
+  ]
+}

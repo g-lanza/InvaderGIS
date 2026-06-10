@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_cumae_552_c01",
+  "statement": "Siege of Cumae (552 CE), at Cumae (part of Gothic War of 535–554).",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 552,
+    "to": 552
+  },
+  "derived_from": "wd_siege_of_cumae_552",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

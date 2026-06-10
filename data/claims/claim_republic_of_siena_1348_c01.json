@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_republic_of_siena_1348_c01",
+  "statement": "The Black Death of 1348 killed approximately half of Siena's population within months.",
+  "subject_ids": [
+    "republic_of_siena"
+  ],
+  "period": {
+    "from": 1348,
+    "to": 1348
+  },
+  "derived_from": "republic_of_siena_1348",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

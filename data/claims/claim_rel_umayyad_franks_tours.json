@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_umayyad_franks_tours",
+  "statement": "Umayyad raids into Frankish territory checked at Tours (732); ended with Pepin's recovery of Septimania.",
+  "subject_ids": [
+    "umayyad_emirate_cordoba",
+    "merovingian_kingdom"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_umayyad_franks_tours",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "constable_medieval_1997",
+      "kennedy_muslim_1996",
+      "wood_the_1994",
+      "geary_before_1988"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 719,
+    "to": 759
+  }
+}

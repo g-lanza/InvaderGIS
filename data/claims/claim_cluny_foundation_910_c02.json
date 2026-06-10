@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_cluny_foundation_910_c02",
+  "statement": "The Cluniac congregation grew to over 1,000 dependent houses across Europe by the 11th century.",
+  "subject_ids": [
+    "kingdom_of_burgundy"
+  ],
+  "period": {
+    "from": 910,
+    "to": 910
+  },
+  "derived_from": "cluny_foundation_910",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

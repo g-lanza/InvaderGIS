@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_harlech_1402",
+  "name": "Siege of Harlech",
+  "year": 1402,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    50.5,
+    -0.7667
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Siege of Harlech (1402 CE), (part of Glyndŵr rebellion). Source: Wikidata Q55599903.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "kingdom_of_england",
+      "principality_of_wales"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

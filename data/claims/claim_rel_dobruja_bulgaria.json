@@ -1,0 +1,29 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_dobruja_bulgaria",
+  "statement": "Dobruja (the territory between the Danube delta and the Black Sea, modern northeastern Bulgaria and eastern Romania) was a distinct sub-region of the Second Bulgarian Empire, sometimes ruled by semi-autonomous Dobrotiтsi (Dobrotitsa) princes. After the Bulgarian tsars' power declined in the early 14th century, Dobrotitsa (ruled c. 1347–1386) governed Dobruja effectively independently, allied with Genoa, issuing his own coinage and conducting foreign policy. His successor Ivanko submitted to Wallachia's Mircea the Elder before Ottoman conquest (1393–1396) absorbed the region.",
+  "subject_ids": [
+    "second_bulgarian_empire",
+    "despotate_of_dobruja"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_dobruja_bulgaria",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fine_the_1987",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "despotate_of_dobruja"
+  ],
+  "period": {
+    "from": 1356,
+    "to": 1356
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_almoravid_expedition_to_catalonia_1114_c03",
+  "statement": "The 1114 Almoravid expedition to Catalonia was part of the Almoravid conquest of al-Andalus.",
+  "subject_ids": [
+    "almoravid_emirate_iberia"
+  ],
+  "period": {
+    "from": 1114,
+    "to": 1114
+  },
+  "derived_from": "wd_almoravid_expedition_to_catalonia_1114",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_the_2004",
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

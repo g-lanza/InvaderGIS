@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_kingdom_of_poland_jagiellonian_1389_1463",
+  "statement": "Kingdom of Poland (Jagiellonian) — campaigns and battles spanned 1389–1463, from Hungarian–Ottoman War to Battle of Vistula Lagoon.",
+  "subject_ids": [
+    "kingdom_of_poland_jagiellonian"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_kingdom_of_poland_jagiellonian_1389_1463",
+  "period": {
+    "from": 1389,
+    "to": 1463
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "davies_gods_1981",
+      "lukowski_a_2001"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

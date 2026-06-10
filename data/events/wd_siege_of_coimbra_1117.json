@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_coimbra_1117",
+  "name": "Siege of Coimbra",
+  "year": 1117,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    37,
+    -4
+  ],
+  "entity": "almoravid_emirate_iberia",
+  "summary": "Siege of Coimbra (1117 CE), at Coimbra (part of Almoravid conquest of al-Andalus). Source: Wikidata Q121065824.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "almoravid_emirate_iberia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_the_2004",
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

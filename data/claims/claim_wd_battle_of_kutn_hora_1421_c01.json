@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_kutn_hora_1421_c01",
+  "statement": "Battle of Kutná Hora (1421 CE), at Kutná Hora (part of Hussite Wars).",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1421,
+    "to": 1421
+  },
+  "derived_from": "wd_battle_of_kutn_hora_1421",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

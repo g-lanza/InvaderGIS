@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_thessalonica_1204",
+  "name": "Latin Kingdom of Thessalonica Founded",
+  "year": 1204,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    40.64,
+    22.95
+  ],
+  "entity": "kingdom_of_thessalonica",
+  "summary": "Boniface of Montferrat established the Latin Kingdom of Thessalonica in 1204 following the Fourth Crusade. As the second Latin state after the Empire of Constantinople, it faced constant pressure from the Bulgarian Empire and Greek populations, lasting only two decades before falling to the Despotate of Epirus.",
+  "outcomes": [
+    "fourth_crusade_partition",
+    "boniface_crowned",
+    "greek_resistance"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_thessalonica"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

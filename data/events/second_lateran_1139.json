@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "second_lateran_1139",
+  "name": "Second Lateran Council",
+  "year": 1139,
+  "type": "religious_council",
+  "category": "religion",
+  "coords": [
+    41.8861,
+    12.5056
+  ],
+  "entity": "papal_states",
+  "summary": "Ecumenical council convened by Pope Innocent II at the Lateran in April 1139 following the death of his rival Antipope Anacletus II. Some thousand prelates attended. The council annulled Anacletus's acts, formally enacted the prohibition on clerical marriage as a matter of canon law (whereas the First Lateran had merely declared such unions void), and condemned a slate of contemporary heresies.",
+  "outcomes": [
+    "antipope_anacletus_ii_schism_ended",
+    "clerical_marriage_banned_canonically",
+    "second_crusade_groundwork_laid"
+  ],
+  "_quarry": {
+    "participants": [
+      "papal_states"
+    ],
+    "structural_significance": "Hardened clerical celibacy into binding canon law, completing a process begun at the eleventh-century reforming synods, and reinforced the papal claim to summon ecumenical councils unilaterally.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morris_papal_monarchy_1989"
+    ],
+    "confidence": "low"
+  }
+}

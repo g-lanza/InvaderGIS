@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rabban_bar_sauma_europe_1288_c01",
+  "statement": "In 1287 Ilkhan Arghun dispatched a Nestorian Christian monk westward to negotiate a Mongol-Christian alliance against the Mamluks.",
+  "subject_ids": [
+    "ilkhanate"
+  ],
+  "period": {
+    "from": 1288,
+    "to": 1288
+  },
+  "derived_from": "rabban_bar_sauma_europe_1288",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_mongols_2007"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

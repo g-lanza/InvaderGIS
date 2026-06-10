@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "mongol_invasion_korea_1231",
+  "name": "Mongol Invasion of Korea",
+  "year": 1231,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    37.5,
+    127
+  ],
+  "entity": "korea",
+  "summary": "Ögedei Khan's forces invade Korea (Goryeo dynasty), forcing the court to flee to Ganghwa Island. Korea resists for 30 years before submitting in 1259. The Goryeo court commissions the creation of the Tripitaka Koreana, 81,258 wooden printing blocks of Buddhist scriptures, as a spiritual defense against the Mongols, completing it in 1251.",
+  "outcomes": [
+    "goryeo_dynasty_submits",
+    "celadon_production_disrupted",
+    "mongol_pacific_expansion"
+  ],
+  "_quarry": {
+    "participants": [
+      "korea"
+    ],
+    "structural_significance": "Demonstrates Mongol expansion beyond Eurasia's heartland; the Tripitaka Koreana becomes one of the most complete Buddhist text collections in existence; Korean submission enables the Mongol invasion attempts against Japan.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

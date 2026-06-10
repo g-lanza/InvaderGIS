@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_genoa_genoin_gold_1252_c01",
+  "statement": "In 1252 the Genoese mint began striking the genovino d'oro, one of the first stable gold coinages in the Latin West in more than five centuries.",
+  "subject_ids": [
+    "republic_of_genoa"
+  ],
+  "period": {
+    "from": 1252,
+    "to": 1252
+  },
+  "derived_from": "genoa_genoin_gold_1252",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lopez_commercial_revolution_1971"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

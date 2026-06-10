@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_roslavl_1137",
+  "name": "Roslavl",
+  "importance": "city",
+  "start_year": 1137,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q193328"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    32.8569,
+    53.9492
+  ]
+}

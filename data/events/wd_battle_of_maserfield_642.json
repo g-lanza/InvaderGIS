@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_maserfield_642",
+  "name": "Battle of Maserfield",
+  "year": 642,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    52.5,
+    -1.5
+  ],
+  "entity": "kingdom_of_mercia",
+  "summary": "Battle of Maserfield (642 CE), at Oswestry. Source: Wikidata Q1818410.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_mercia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

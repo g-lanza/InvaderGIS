@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rule_of_st_benedict_529_c03",
+  "statement": "The Rule of Saint Benedict became the dominant framework for western monasticism.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 529,
+    "to": 529
+  },
+  "derived_from": "rule_of_st_benedict_529",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

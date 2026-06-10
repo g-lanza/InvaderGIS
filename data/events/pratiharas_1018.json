@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "pratiharas_1018",
+  "name": "Mahmud of Ghazni Sacks Kannauj",
+  "year": 1018,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    31.3315,
+    74.5935
+  ],
+  "entity": "pratiharas",
+  "summary": "Mahmud of Ghazni sacked the Pratihara capital Kannauj in 1018 CE, dealing a fatal blow to the already-declining dynasty. The Pratihara empire had already fragmented, but the Ghaznavid raid destroyed any remaining central authority and left northern India fragmented among regional Rajput kingdoms.",
+  "outcomes": [
+    "capital_sacked",
+    "pratihara_collapse",
+    "rajput_fragmentation"
+  ],
+  "_quarry": {
+    "participants": [
+      "pratiharas",
+      "ghaznavid_emirate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_sicilian_vespers_context_1282_c03",
+  "statement": "Peter III of Aragon arrived in Sicily in August 1282 and was accepted as king of Sicily by the rebels.",
+  "subject_ids": [
+    "kingdom_of_sicily_aragonese"
+  ],
+  "period": {
+    "from": 1282,
+    "to": 1282
+  },
+  "derived_from": "sicilian_vespers_context_1282",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

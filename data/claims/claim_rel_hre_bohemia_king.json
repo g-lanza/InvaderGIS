@@ -1,0 +1,31 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_hre_bohemia_king",
+  "statement": "The Kings of Bohemia held a unique dual position in the Holy Roman Empire: as kings, they held hereditary rule over the richest kingdom in the empire; as electoral princes, they were first among the secular electors with the right to choose the emperor. Charles IV (1346–1378) — simultaneously King of Bohemia and Holy Roman Emperor — made Bohemia the center of imperial politics, moving the imperial capital to Prague and issuing the Golden Bull (1356) that formalized electoral procedure with Bohemia in first place. Prague's University (founded 1348) was the first in central Europe.",
+  "subject_ids": [
+    "holy_roman_empire",
+    "kingdom_of_bohemia"
+  ],
+  "predicate": "vassalage",
+  "derived_from": "rel_hre_bohemia_king",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "kingdom_of_bohemia"
+  ],
+  "period": {
+    "from": 1198,
+    "to": 1500
+  }
+}

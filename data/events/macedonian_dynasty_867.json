@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "macedonian_dynasty_867",
+  "name": "Founding of the Macedonian Dynasty",
+  "year": 867,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41,
+    28.97
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Basil I, a Macedonian peasant who rose through court intrigue to murder Emperor Michael III, founds the Macedonian dynasty that will rule Byzantium for nearly two centuries (867–1056). Despite his violent seizure of power, Basil proves an able administrator: he begins the Basilika, a comprehensive Greek revision of Justinian's Latin legal code; reconquers parts of southern Italy; and initiates a cultural and military renaissance. His grandson Constantine VII Porphyrogenitus becomes one of Byzantium's greatest scholar-emperors.",
+  "outcomes": [
+    "basil_i_founder",
+    "byzantine_renaissance_begins",
+    "legal_codification_launched"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire"
+    ],
+    "structural_significance": "The Macedonian dynasty represents the apex of Byzantine civilization: the expansion of 'Basil II the Bulgar-slayer' (976-1025) brings Bulgaria and much of the Balkans under Byzantine control; the dynasty's patronage of art and scholarship creates the Macedonian Renaissance; its end in 1056 precipitates the chaos that leads to Manzikert (1071)",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

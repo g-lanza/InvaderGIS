@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_attack_of_lalish_1415",
+  "name": "Attack of Lalish",
+  "subtype": "battle",
+  "start_year": 1415,
+  "end_year": 1415,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q133871163"
+    }
+  },
+  "description": "Battle during Persecution of Yazidis (1415)",
+  "coords": [
+    43.3033,
+    36.7714
+  ]
+}

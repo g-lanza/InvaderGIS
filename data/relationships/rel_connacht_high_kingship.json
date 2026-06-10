@@ -1,0 +1,35 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_connacht_high_kingship",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_ireland_high",
+      "role": "suzerain"
+    },
+    {
+      "entity_id": "kingdom_of_connacht",
+      "role": "vassal"
+    }
+  ],
+  "directed": true,
+  "type": "vassalage",
+  "since": 500,
+  "until": 1166,
+  "note": "Connacht, the western Irish province, was closely associated with the High Kingship through the Uí Briúin and especially the Uí Conchobuir dynasties. Toirdelbach Ua Conchobair (Turlough O'Connor) and his son Ruaidrí Ua Conchobair (Rory O'Connor) were the last two Irish kings to make credible claims to the High Kingship before the Anglo-Norman invasion. Rory O'Connor (d. 1198) acknowledged English overlordship in the Treaty of Windsor (1175) after Henry II's Irish expedition; the subsequent fragmentation of Irish political power left Connacht as a reduced western rump kingdom under Rory's successors.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Connacht's role in the last credible challenge to English suzerainty demonstrates the fragility of the Irish High Kingship system; Rory O'Connor's acknowledgment of English overlordship at Windsor (1175) creates the legal foundation for the English Lordship of Ireland"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

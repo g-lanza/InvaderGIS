@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "hadramaut",
+  "name": "Shibam",
+  "entity_id": "hadramaut",
+  "entity_name": "Hadramaut",
+  "start_year": 500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q11274"
+    }
+  },
+  "coords": [
+    48.62,
+    15.93
+  ]
+}

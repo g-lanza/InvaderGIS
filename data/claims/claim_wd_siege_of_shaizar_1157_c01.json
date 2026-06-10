@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_shaizar_1157_c01",
+  "statement": "Siege of Shaizar (1157 CE), at Shaizar (part of Crusader battles between 1149 and 1189).",
+  "subject_ids": [
+    "kingdom_of_jerusalem"
+  ],
+  "period": {
+    "from": 1157,
+    "to": 1157
+  },
+  "derived_from": "wd_siege_of_shaizar_1157",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

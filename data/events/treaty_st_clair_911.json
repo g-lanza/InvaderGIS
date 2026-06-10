@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "treaty_st_clair_911",
+  "name": "Treaty of Saint-Clair-sur-Epte",
+  "year": 911,
+  "type": "treaty",
+  "category": "diplomacy",
+  "coords": [
+    49.33,
+    1.68
+  ],
+  "entity": "west_francia",
+  "summary": "King Charles the Simple of West Francia grants the lower Seine estuary to the Viking chieftain Rollo (Hrólf) in the Treaty of Saint-Clair-sur-Epte (911). Rollo and his followers accept baptism, become French vassals, and undertake to defend the Seine from further Viking raids. The settlement creates Normandy (named for the 'Northmen'), the most dynamic duchy in Western Europe. Rollo's descendants rapidly assimilate Frankish culture; within two generations they speak French rather than Norse.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "west_francia",
+      "duchy_of_normandy"
+    ],
+    "structural_significance": "Creates the Duchy of Normandy; transforms a Viking raiding force into the most effective military power in 11th-century Europe; the Normans' descendants conquer England (1066), Sicily, and the Holy Land",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

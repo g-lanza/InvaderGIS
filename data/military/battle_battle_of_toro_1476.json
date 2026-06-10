@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_toro_1476",
+  "name": "Battle of Toro",
+  "subtype": "battle",
+  "start_year": 1476,
+  "end_year": 1476,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2734129"
+    }
+  },
+  "description": "Battle during War of the Castilian Succession (1476)",
+  "coords": [
+    -5.4444,
+    41.4958
+  ]
+}

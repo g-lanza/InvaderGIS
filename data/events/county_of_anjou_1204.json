@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "county_of_anjou_1204",
+  "name": "France Annexes Anjou from England",
+  "year": 1204,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    46.985,
+    0.975
+  ],
+  "entity": "county_of_anjou",
+  "summary": "Philip II Augustus of France captured Anjou from King John of England in 1204 CE during his systematic dismantling of the Angevin Empire. The loss of Anjou and Normandy transformed the Plantagenet kings from continental lords into primarily English monarchs and accelerated the development of a distinct English national identity.",
+  "outcomes": [
+    "philip_ii_victory",
+    "angevin_losses",
+    "french_crown_expands"
+  ],
+  "_quarry": {
+    "participants": [
+      "county_of_anjou",
+      "kingdom_of_france"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

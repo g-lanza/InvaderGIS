@@ -1,0 +1,35 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_leon_to_castile_split",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_leon",
+      "role": "parent"
+    },
+    {
+      "entity_id": "kingdom_of_castile",
+      "role": "fragment"
+    }
+  ],
+  "directed": true,
+  "type": "fragmentation",
+  "since": 1065,
+  "until": 1065,
+  "note": "Ferdinand I of León-Castile, following Iberian tradition, divided his kingdom among his sons at death (1065): Sancho II received Castile, Alfonso VI received León, and García II received Galicia. The division was immediately unstable — Sancho II forced his brothers to cede their shares (1071–1072), only to be assassinated at the siege of Zamora. Alfonso VI then reunited all three kingdoms. Fernando III permanently reunited Castile and León (1230), ending the periodic separations. The division practice, imported from Frankish custom, repeatedly destabilized Iberian kingdoms.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The dynastic division practice demonstrates the persistent weakness of Iberian kingdoms: repeatedly unified by inheritance, repeatedly split by succession custom; Fernando III's permanent union (1230) represents the decisive moment when Castilian-Leonese unity becomes the norm rather than the exception"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

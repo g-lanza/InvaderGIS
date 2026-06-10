@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "fort_castel_santangelo",
+  "name": "Castel Sant'Angelo",
+  "subtype": "fort",
+  "start_year": 500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "Mausoleum of Hadrian repurposed as papal fortress and refuge",
+  "coords": [
+    12.466,
+    41.903
+  ]
+}

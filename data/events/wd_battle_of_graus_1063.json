@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_graus_1063",
+  "name": "Battle of Graus",
+  "year": 1063,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    42.15,
+    -3.25
+  ],
+  "entity": "kingdom_of_leon",
+  "summary": "Battle of Graus (1063 CE), at Graus (part of Reconquista). Source: Wikidata Q1187406.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_leon",
+      "kingdom_of_aragon"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "fort_alhambra",
+  "name": "Alhambra",
+  "subtype": "fort",
+  "start_year": 1238,
+  "end_year": 1492,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "Nasrid palace-fortress; last Muslim stronghold in Iberia",
+  "coords": [
+    -3.588,
+    37.176
+  ]
+}

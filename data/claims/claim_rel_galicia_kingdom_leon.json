@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_galicia_kingdom_leon",
+  "statement": "The Kingdom of Galicia, created as a separate realm for García II when Ferdinand I of León-Castile divided his domains (1065), was rapidly reabsorbed into León after García's deposition by his brothers Alfonso VI and Sancho II (1071). The Galician territorial identity persisted, however — its separate legal customs, its pilgrimage route to Santiago de Compostela, and the Galician-Portuguese dialect that eventually became Portuguese. The County of Portugal, carved from Galicia in 1093 and granted to Henry of Burgundy, eventually broke away to become an independent kingdom (1139).",
+  "subject_ids": [
+    "kingdom_of_galicia",
+    "kingdom_of_leon"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_galicia_kingdom_leon",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "kingdom_of_leon"
+  ],
+  "period": {
+    "from": 1230,
+    "to": 1230
+  }
+}

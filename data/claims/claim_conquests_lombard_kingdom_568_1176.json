@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_lombard_kingdom_568_1176",
+  "statement": "Lombard Kingdom — campaigns and battles spanned 568–1176, from Lombard invasion of Italy to Battle of Legnano.",
+  "subject_ids": [
+    "lombard_kingdom"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_lombard_kingdom_568_1176",
+  "period": {
+    "from": 568,
+    "to": 1176
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "deacon_history_1907",
+      "christie_the_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

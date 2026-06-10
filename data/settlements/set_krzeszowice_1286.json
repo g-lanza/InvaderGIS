@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_krzeszowice_1286",
+  "name": "Krzeszowice",
+  "importance": "city",
+  "start_year": 1286,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q146509"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    19.6333,
+    50.1333
+  ]
+}

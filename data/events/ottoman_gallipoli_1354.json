@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ottoman_gallipoli_1354",
+  "name": "Ottoman Seizure of Gallipoli",
+  "year": 1354,
+  "type": "conquest",
+  "category": "violence",
+  "coords": [
+    40.4,
+    26.68
+  ],
+  "entity": "ottoman_empire",
+  "summary": "An earthquake destroys the walls of Gallipoli in March 1354; Ottoman prince Suleyman immediately occupies the abandoned fortress, giving the Ottomans their first permanent foothold in Europe. Byzantine Emperor John V Palaiologos demands evacuation but lacks the military force to compel it. The Ottomans use Gallipoli as a staging point to flood soldiers across the Hellespont, beginning the conquest of Thrace. Within a decade, Adrianople falls (1369), surrounding Constantinople on the European side.",
+  "outcomes": [
+    "first_ottoman_european_foothold",
+    "thrace_invasion_route_opened",
+    "byzantine_balkans_threatened"
+  ],
+  "_quarry": {
+    "participants": [
+      "ottoman_empire",
+      "byzantine_empire"
+    ],
+    "structural_significance": "The defining moment of Ottoman expansion into Europe; control of Gallipoli means control of the Hellespont crossing; Constantinople is now strategically surrounded; the Ottomans never again need to fight for a European bridgehead; from Gallipoli flow the conquests of Thrace, Bulgaria, Serbia, Greece, and ultimately Constantinople itself",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

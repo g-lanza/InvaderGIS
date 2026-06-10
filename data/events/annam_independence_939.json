@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "annam_independence_939",
+  "name": "Ngô Quyền Wins Battle of Bạch Đằng River",
+  "year": 939,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    18.918,
+    106.009
+  ],
+  "entity": "annam",
+  "summary": "Ngô Quyền defeated the Southern Han fleet at the Battle of Bạch Đằng River using iron-tipped stakes driven into the riverbed. This victory ended over a millennium of Chinese rule and established Vietnamese independence.",
+  "outcomes": [
+    "chinese_rule_ended",
+    "vietnam_independent",
+    "bach_dang_victory"
+  ],
+  "_quarry": {
+    "participants": [
+      "annam"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

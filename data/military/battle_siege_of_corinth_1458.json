@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_siege_of_corinth_1458",
+  "name": "Siege of Corinth",
+  "subtype": "battle",
+  "start_year": 1458,
+  "end_year": 1458,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q135522442"
+    }
+  },
+  "description": "Battle during Ottoman conquest of the Morea (1458)",
+  "coords": [
+    22.9272,
+    37.9386
+  ]
+}

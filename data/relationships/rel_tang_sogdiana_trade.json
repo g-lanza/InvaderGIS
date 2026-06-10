@@ -1,0 +1,31 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_tang_sogdiana_trade",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "tang_dynasty",
+      "role": "partner"
+    },
+    {
+      "entity_id": "sogdiana",
+      "role": "partner"
+    }
+  ],
+  "directed": false,
+  "type": "cultural_exchange",
+  "since": 618,
+  "until": 850,
+  "note": "Sogdian merchants formed extensive trading colonies in Chang'an and along the Silk Road; their language served as a lingua franca of Tang Central Asian administration. The two polities maintained a symbiotic commercial relationship until the An Lushan Rebellion and subsequent Arab conquest of Sogdiana severed direct contact.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Sogdian intermediation enabled Tang projection into Central Asia and the transmission of Manichaeism, Nestorian Christianity, and Buddhist iconography into China."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

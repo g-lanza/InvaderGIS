@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_aristotle_recovery_1150s_c01",
+  "statement": "Twelfth-century translators in Toledo, Palermo, and other Islamic-Christian contact zones produced Latin translations of Aristotle's complete works alongside Arabic commentaries by Avicenna and Averroës.",
+  "subject_ids": [
+    "kingdom_of_sicily_norman"
+  ],
+  "period": {
+    "from": 1150,
+    "to": 1150
+  },
+  "derived_from": "aristotle_recovery_1150s",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

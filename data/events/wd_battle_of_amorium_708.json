@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_amorium_708",
+  "name": "Battle of Amorium",
+  "year": 708,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    37.25,
+    32.6
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Battle of Amorium (708 CE), at Amorium (part of Arab–Byzantine Wars). Source: Wikidata Q20423849.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "umayyad_caliphate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

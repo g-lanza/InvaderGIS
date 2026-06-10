@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_fall_of_ubeda_1212",
+  "name": "Fall of Ubeda",
+  "year": 1212,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.025,
+    5.175
+  ],
+  "entity": "kingdom_of_castile",
+  "summary": "Fall of Ubeda (1212 CE), at Úbeda (part of Spanish Christian–Muslim War of 1172–1212). Source: Wikidata Q107445561.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_castile",
+      "knights_hospitaller_rhodes",
+      "almohad_caliphate_iberia",
+      "crown_of_aragon"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

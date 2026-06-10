@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_faro_1249",
+  "name": "Siege of Faro",
+  "year": 1249,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    38.25,
+    -6
+  ],
+  "entity": "kingdom_of_portugal",
+  "summary": "Siege of Faro (1249 CE), at Faro (part of Reconquista). Source: Wikidata Q25446956.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_portugal",
+      "almohad_caliphate_iberia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

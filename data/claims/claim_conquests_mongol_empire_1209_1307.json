@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_mongol_empire_1209_1307",
+  "statement": "Mongol Empire — campaigns and battles spanned 1209–1307, from Irghiz River skirmish to Genoese–Mongol Wars.",
+  "subject_ids": [
+    "mongol_empire"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_mongol_empire_1209_1307",
+  "period": {
+    "from": 1209,
+    "to": 1307
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

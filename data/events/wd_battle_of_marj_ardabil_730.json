@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_marj_ardabil_730",
+  "name": "Battle of Marj Ardabil",
+  "year": 730,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    40.25,
+    41.65
+  ],
+  "entity": "khazar_khaganate",
+  "summary": "Battle of Marj Ardabil (730 CE), at Ardabil (part of Arab–Khazar Wars). Source: Wikidata Q4087410.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "khazar_khaganate",
+      "umayyad_caliphate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "golden_khazar_1980",
+      "brook_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

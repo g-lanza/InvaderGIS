@@ -1,0 +1,50 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_county_of_anjou_1116_1204",
+  "name": "County of Anjou — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1116,
+  "year_end": 1204,
+  "waypoints": [
+    {
+      "year": 1116,
+      "place": "Anglo-French War",
+      "coords": [
+        49.3675,
+        1.1625
+      ],
+      "note": "military",
+      "event_id": "wd_anglo_french_war_1116"
+    },
+    {
+      "year": 1194,
+      "place": "Battle of Fréteval",
+      "coords": [
+        48.9175,
+        0.3125
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_fr_teval_1194"
+    },
+    {
+      "year": 1204,
+      "place": "France Annexes Anjou from England",
+      "coords": [
+        46.985,
+        0.975
+      ],
+      "note": "military",
+      "event_id": "county_of_anjou_1204"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

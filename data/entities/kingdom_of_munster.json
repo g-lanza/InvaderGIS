@@ -1,0 +1,999 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_munster",
+  "name_primary": "Kingdom of Munster",
+  "name_variants": [
+    "Mumu"
+  ],
+  "type": "kingdom",
+  "region": "british_isles",
+  "formed": 500,
+  "dissolved": 1118,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 600,
+      "label": "Kingdom of Munster (approx.)",
+      "polygon": [
+        [
+          52.65,
+          -8.63
+        ],
+        [
+          52.57,
+          -9.93
+        ],
+        [
+          52.3,
+          -9.9
+        ],
+        [
+          52.19,
+          -10.17
+        ],
+        [
+          51.9,
+          -10.3
+        ],
+        [
+          51.63,
+          -10.02
+        ],
+        [
+          51.45,
+          -9.8
+        ],
+        [
+          51.48,
+          -9.2
+        ],
+        [
+          51.63,
+          -8.24
+        ],
+        [
+          51.8,
+          -7.8
+        ],
+        [
+          51.93,
+          -7.58
+        ],
+        [
+          52.15,
+          -7.2
+        ],
+        [
+          52.5,
+          -7.5
+        ],
+        [
+          52.65,
+          -8
+        ],
+        [
+          52.65,
+          -8.63
+        ]
+      ]
+    },
+    {
+      "year": 800,
+      "label": "Kingdom of Munster (approx.)",
+      "polygon": [
+        [
+          52.65,
+          -8.63
+        ],
+        [
+          52.57,
+          -9.93
+        ],
+        [
+          52.3,
+          -9.9
+        ],
+        [
+          52.19,
+          -10.17
+        ],
+        [
+          51.9,
+          -10.3
+        ],
+        [
+          51.63,
+          -10.02
+        ],
+        [
+          51.45,
+          -9.8
+        ],
+        [
+          51.48,
+          -9.2
+        ],
+        [
+          51.63,
+          -8.24
+        ],
+        [
+          51.8,
+          -7.8
+        ],
+        [
+          51.93,
+          -7.58
+        ],
+        [
+          52.15,
+          -7.2
+        ],
+        [
+          52.5,
+          -7.5
+        ],
+        [
+          52.65,
+          -8
+        ],
+        [
+          52.65,
+          -8.63
+        ]
+      ]
+    },
+    {
+      "year": 1000,
+      "label": "Kingdom of Munster (approx.)",
+      "polygon": [
+        [
+          52.65,
+          -8.63
+        ],
+        [
+          52.57,
+          -9.93
+        ],
+        [
+          52.3,
+          -9.9
+        ],
+        [
+          52.19,
+          -10.17
+        ],
+        [
+          51.9,
+          -10.3
+        ],
+        [
+          51.63,
+          -10.02
+        ],
+        [
+          51.45,
+          -9.8
+        ],
+        [
+          51.48,
+          -9.2
+        ],
+        [
+          51.63,
+          -8.24
+        ],
+        [
+          51.8,
+          -7.8
+        ],
+        [
+          51.93,
+          -7.58
+        ],
+        [
+          52.15,
+          -7.2
+        ],
+        [
+          52.5,
+          -7.5
+        ],
+        [
+          52.65,
+          -8
+        ],
+        [
+          52.65,
+          -8.63
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    52.35,
+    -8.85
+  ],
+  "religion": "catholic",
+  "population_estimates": [
+    {
+      "year": 750,
+      "estimate": 105000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q20973653",
+          "url": "https://www.wikidata.org/wiki/Q20973653",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Munster",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Munster"
+        }
+      ]
+    },
+    {
+      "year": 900,
+      "estimate": 150000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q20973653",
+          "url": "https://www.wikidata.org/wiki/Q20973653",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Munster",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Munster"
+        }
+      ]
+    },
+    {
+      "year": 1050,
+      "estimate": 165000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q20973653",
+          "url": "https://www.wikidata.org/wiki/Q20973653",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Munster",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Munster"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low"
+  },
+  "description": "Southern Irish kingdom (c. 400–1118) whose Dál Cais branch produced Brian Boru; its division into Thomond and Desmond after Brian's death exemplified the fragmentary dynastic succession that prevented Irish political unification and facilitated Anglo-Norman conquest despite fierce local resistance.",
+  "temporal": {
+    "start_year": 500,
+    "end_year": 1118,
+    "end_year_within_scope": null,
+    "start_event_id": null,
+    "end_event_id": null,
+    "notes": "Irish province; Brian Boru power base."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      52.35,
+      -8.85
+    ],
+    "core_regions": [
+      "Munster"
+    ],
+    "polygon_simplified": [
+      [
+        52.65,
+        -8.63
+      ],
+      [
+        52.57,
+        -9.93
+      ],
+      [
+        52.3,
+        -9.9
+      ],
+      [
+        52.19,
+        -10.17
+      ],
+      [
+        51.9,
+        -10.3
+      ],
+      [
+        51.63,
+        -10.02
+      ],
+      [
+        51.45,
+        -9.8
+      ],
+      [
+        51.48,
+        -9.2
+      ],
+      [
+        51.63,
+        -8.24
+      ],
+      [
+        51.8,
+        -7.8
+      ],
+      [
+        51.93,
+        -7.58
+      ],
+      [
+        52.15,
+        -7.2
+      ],
+      [
+        52.5,
+        -7.5
+      ],
+      [
+        52.65,
+        -8
+      ],
+      [
+        52.65,
+        -8.63
+      ]
+    ],
+    "notes": "Centroid approximate; polygon pending schematic or OHM sourcing.",
+    "polygon_snapshots": [
+      {
+        "year": 600,
+        "label": "Kingdom of Munster (approx.)",
+        "polygon": [
+          [
+            52.65,
+            -8.63
+          ],
+          [
+            52.57,
+            -9.93
+          ],
+          [
+            52.3,
+            -9.9
+          ],
+          [
+            52.19,
+            -10.17
+          ],
+          [
+            51.9,
+            -10.3
+          ],
+          [
+            51.63,
+            -10.02
+          ],
+          [
+            51.45,
+            -9.8
+          ],
+          [
+            51.48,
+            -9.2
+          ],
+          [
+            51.63,
+            -8.24
+          ],
+          [
+            51.8,
+            -7.8
+          ],
+          [
+            51.93,
+            -7.58
+          ],
+          [
+            52.15,
+            -7.2
+          ],
+          [
+            52.5,
+            -7.5
+          ],
+          [
+            52.65,
+            -8
+          ],
+          [
+            52.65,
+            -8.63
+          ]
+        ]
+      },
+      {
+        "year": 800,
+        "label": "Kingdom of Munster (approx.)",
+        "polygon": [
+          [
+            52.65,
+            -8.63
+          ],
+          [
+            52.57,
+            -9.93
+          ],
+          [
+            52.3,
+            -9.9
+          ],
+          [
+            52.19,
+            -10.17
+          ],
+          [
+            51.9,
+            -10.3
+          ],
+          [
+            51.63,
+            -10.02
+          ],
+          [
+            51.45,
+            -9.8
+          ],
+          [
+            51.48,
+            -9.2
+          ],
+          [
+            51.63,
+            -8.24
+          ],
+          [
+            51.8,
+            -7.8
+          ],
+          [
+            51.93,
+            -7.58
+          ],
+          [
+            52.15,
+            -7.2
+          ],
+          [
+            52.5,
+            -7.5
+          ],
+          [
+            52.65,
+            -8
+          ],
+          [
+            52.65,
+            -8.63
+          ]
+        ]
+      },
+      {
+        "year": 1000,
+        "label": "Kingdom of Munster (approx.)",
+        "polygon": [
+          [
+            52.65,
+            -8.63
+          ],
+          [
+            52.57,
+            -9.93
+          ],
+          [
+            52.3,
+            -9.9
+          ],
+          [
+            52.19,
+            -10.17
+          ],
+          [
+            51.9,
+            -10.3
+          ],
+          [
+            51.63,
+            -10.02
+          ],
+          [
+            51.45,
+            -9.8
+          ],
+          [
+            51.48,
+            -9.2
+          ],
+          [
+            51.63,
+            -8.24
+          ],
+          [
+            51.8,
+            -7.8
+          ],
+          [
+            51.93,
+            -7.58
+          ],
+          [
+            52.15,
+            -7.2
+          ],
+          [
+            52.5,
+            -7.5
+          ],
+          [
+            52.65,
+            -8
+          ],
+          [
+            52.65,
+            -8.63
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "approximate",
+    "polygon_source": "hand_crafted",
+    "polygon_source_date": "2026-05-11",
+    "capital": {
+      "name": "Cashel",
+      "coords": [
+        52.51,
+        -7.89
+      ],
+      "source": "curated"
+    }
+  },
+  "internal_structure": {
+    "centralization": "low_to_medium",
+    "centralization_trajectory": null,
+    "governance_type": "dynastic_feudal",
+    "legitimacy_basis": [
+      "inheritance"
+    ],
+    "administrative_system": ""
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "formation",
+      "years": "c.400–800",
+      "description": "Eóganacht then Dál Cais dynasties compete for Munster kingship.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q20973653",
+          "url": "https://www.wikidata.org/wiki/Q20973653"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Munster",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Munster"
+        }
+      ]
+    },
+    {
+      "phase": "peak",
+      "years": "978–1014",
+      "description": "Brian Boru dominates Ireland; Munster at height.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q20973653",
+          "url": "https://www.wikidata.org/wiki/Q20973653"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Munster",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Munster"
+        }
+      ]
+    },
+    {
+      "phase": "crisis",
+      "years": "1014–1118",
+      "description": "Post-Clontarf fragmentation; O'Brien vs MacCarthy rivalry.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q20973653",
+          "url": "https://www.wikidata.org/wiki/Q20973653"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Munster",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Munster"
+        }
+      ]
+    },
+    {
+      "phase": "fragmentation",
+      "years": "1118–1198",
+      "description": "Split into Thomond and Desmond; Anglo-Norman encroachment.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q20973653",
+          "url": "https://www.wikidata.org/wiki/Q20973653"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Munster",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Munster"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "resource_concentration",
+      "layer": "economic_commercial",
+      "description": "Rich Munster grasslands supported a large cattle economy; Waterford and Cork were important Atlantic trade entry points.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q20973653",
+          "url": "https://www.wikidata.org/wiki/Q20973653"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Munster",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Munster"
+        }
+      ]
+    },
+    {
+      "tag": "succession_stability",
+      "layer": "dynastic_legitimacy",
+      "description": "Dál Cais dynasty under Brian Boru created unprecedented military and political consolidation across Munster.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q20973653",
+          "url": "https://www.wikidata.org/wiki/Q20973653"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Munster",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Munster"
+        }
+      ]
+    },
+    {
+      "tag": "trade_route_control",
+      "layer": "economic_commercial",
+      "description": "Atlantic coast harbors connected Munster to Gallic and Iberian trade; Waterford was a major Viking commercial port.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q20973653",
+          "url": "https://www.wikidata.org/wiki/Q20973653"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Munster",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Munster"
+        }
+      ]
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "brian_boru_kingship",
+      "direction": "rise",
+      "description": "Brian Boru's rise from King of Munster to High King of Ireland between 978 and 1014 represented the apex of Munster power, temporarily making it the paramount kingdom in Ireland.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q20973653",
+          "url": "https://www.wikidata.org/wiki/Q20973653"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Munster",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Munster"
+        }
+      ]
+    },
+    {
+      "layer": "economic_commercial",
+      "tag": "trade_route_control",
+      "direction": "rise",
+      "description": "Munster kings taxed the Viking settlement at Limerick after Brian Boru's conquest, channeling Norse trading revenues through the Shannon estuary into Munster's royal treasury.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q20973653",
+          "url": "https://www.wikidata.org/wiki/Q20973653"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Munster",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Munster"
+        }
+      ],
+      "tag_prose": "limerick_viking_trade"
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "internal_fragmentation",
+      "layer": "governance_institutional",
+      "description": "Permanent division of Munster into Thomond and Desmond after 1118 Synod of Ráith Bresail weakened both successor kingdoms.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q20973653",
+          "url": "https://www.wikidata.org/wiki/Q20973653"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Munster",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Munster"
+        }
+      ]
+    },
+    {
+      "tag": "succession_crisis",
+      "layer": "dynastic_legitimacy",
+      "description": "O'Brien dynastic conflicts weakened Munster's ability to resist Irish and Anglo-Norman pressure.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q20973653",
+          "url": "https://www.wikidata.org/wiki/Q20973653"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Munster",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Munster"
+        }
+      ]
+    },
+    {
+      "tag": "external_military_pressure",
+      "layer": "military_security",
+      "description": "Anglo-Norman settlement in Munster from the 1170s progressively eroded the kingdom's territorial base.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q20973653",
+          "url": "https://www.wikidata.org/wiki/Q20973653"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Munster",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Munster"
+        }
+      ]
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "dál_cais_leinster_split",
+      "direction": "decline",
+      "description": "After Clontarf (1014), Munster split into Thomond (under O'Brien) and Desmond (under MacCarthy), creating two rival successor kingdoms that contested the Munster high kingship and weakened the province collectively.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q20973653",
+          "url": "https://www.wikidata.org/wiki/Q20973653"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Munster",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Munster"
+        }
+      ]
+    },
+    {
+      "layer": "military_security",
+      "tag": "norman_encroachment",
+      "direction": "decline",
+      "description": "Anglo-Norman lords established fortified towns and manors across Munster from the 12th century, displacing Gaelic kingdoms with English feudal administration throughout the 13th century.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q20973653",
+          "url": "https://www.wikidata.org/wiki/Q20973653"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Munster",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Munster"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "person_id": "brian_boru",
+      "name": "Brian Boru",
+      "role": "ruler",
+      "years": "941–1014",
+      "year_start": 941,
+      "year_end": 1014,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Brian Boru",
+          "url": "https://en.wikipedia.org/wiki/Brian_Boru"
+        }
+      ]
+    },
+    {
+      "person_id": "muirchertach_ua_briain",
+      "name": "Muirchertach Ua Briain",
+      "role": "ruler",
+      "years": "c.1050–1119",
+      "year_start": 1050,
+      "year_end": 1119,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Muirchertach Ua Briain",
+          "url": "https://en.wikipedia.org/wiki/Muirchertach_Ua_Briain"
+        }
+      ]
+    }
+  ],
+  "predecessor_entity_ids": [
+    "kingdom_of_ireland_high"
+  ],
+  "successor_entity_ids": [
+    "lordship_of_ireland"
+  ],
+  "primary_ethnicity": "celtic",
+  "ethnic_composition": [
+    {
+      "group": "celtic",
+      "proportion": 0.92
+    }
+  ],
+  "religion_composition": [
+    {
+      "religion": "catholic",
+      "proportion": 0.95
+    },
+    {
+      "religion": "pagan",
+      "proportion": 0.05
+    }
+  ],
+  "primary_language": "celtic_lang",
+  "language_composition": [
+    {
+      "language": "celtic_lang",
+      "proportion": 0.88,
+      "role": "vernacular"
+    },
+    {
+      "language": "norse",
+      "proportion": 0.07,
+      "role": "regional"
+    },
+    {
+      "language": "latin",
+      "proportion": 0.05,
+      "role": "liturgical"
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "maritime_trade",
+      "pastoralism"
+    ],
+    "wealth_level": "moderate",
+    "major_exports": [
+      "cattle",
+      "butter",
+      "fish",
+      "gold"
+    ],
+    "major_trade_partners": [
+      "kingdom_of_ireland_high",
+      "kingdom_of_england",
+      "iberian_peninsula"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "customs_duties",
+      "tribute"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q20973653",
+        "url": "https://www.wikidata.org/wiki/Q20973653"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Kingdom of Munster",
+        "url": "https://en.wikipedia.org/wiki/Kingdom_of_Munster"
+      }
+    ]
+  },
+  "social_structure": {
+    "ruling_ethnicity": "celtic",
+    "subject_majority": "celtic",
+    "military_ethnicity": "celtic",
+    "administrative_language": "celtic_lang",
+    "stratification_type": "homogeneous"
+  },
+  "wikidata_enrichment": {
+    "qid": "Q20973653",
+    "matched_name": "Kingdom of Munster",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Kingdom_of_Munster",
+    "rulers_from_wikidata": [
+      {
+        "name": "list of kings of Munster",
+        "qid": "Q2532571",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2532571",
+            "url": "https://www.wikidata.org/wiki/Q2532571"
+          },
+          {
+            "type": "wikipedia",
+            "label": "list of kings of Munster",
+            "url": "https://en.wikipedia.org/wiki/List_of_kings_of_Munster"
+          }
+        ]
+      }
+    ],
+    "successors_from_wikidata": [
+      "Kingdom of Ossory",
+      "Kingdom of Desmond",
+      "Kingdom of Thomond"
+    ]
+  },
+  "sources": [
+    {
+      "type": "book",
+      "author": "Wickham, Chris",
+      "title": "The Inheritance of Rome: A History of Europe from 400 to 1000",
+      "publisher": "Allen Lane",
+      "year": 2009
+    },
+    {
+      "type": "book",
+      "author": "Abulafia, David (ed.)",
+      "title": "The New Cambridge Medieval History, Vol. V: c. 1198 – c. 1300",
+      "publisher": "Cambridge University Press",
+      "year": 1999
+    }
+  ],
+  "monogram": "MU"
+}

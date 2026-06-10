@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_treaty_tordesillas_1494_c02",
+  "statement": "Under the Treaty of Tordesillas (1494), land east of the meridian line was assigned to Portugal and land west to Spain.",
+  "subject_ids": [
+    "crown_of_castile"
+  ],
+  "period": {
+    "from": 1494,
+    "to": 1494
+  },
+  "derived_from": "treaty_tordesillas_1494",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "o'callaghan_a_1975",
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

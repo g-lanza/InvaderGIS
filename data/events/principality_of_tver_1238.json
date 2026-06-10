@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "principality_of_tver_1238",
+  "name": "Tver Survives Mongol Invasion",
+  "year": 1238,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    56.86,
+    35.92
+  ],
+  "entity": "principality_of_tver",
+  "summary": "While most Russian principalities were devastated by the Mongol invasion of 1237–1242, Tver rebuilt relatively quickly. The principality's location north of the main Mongol routes allowed faster recovery, and Tver became a major rival to Moscow for leadership of the Russian principalities in the 14th century.",
+  "outcomes": [
+    "mongol_devastation",
+    "partial_survival",
+    "reconstruction_begins"
+  ],
+  "_quarry": {
+    "participants": [
+      "principality_of_tver"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

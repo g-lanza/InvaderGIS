@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_georgia_mongol_invasion_1220_c02",
+  "statement": "Continued Mongol invasions through the 1230s forced Georgia into vassalage.",
+  "subject_ids": [
+    "kingdom_of_georgia"
+  ],
+  "period": {
+    "from": 1220,
+    "to": 1220
+  },
+  "derived_from": "georgia_mongol_invasion_1220",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

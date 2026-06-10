@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_kingdom_of_gwynedd_844_c01",
+  "statement": "Rhodri Mawr became King of Gwynedd in 844 CE and briefly united most of Wales under his rule.",
+  "subject_ids": [
+    "kingdom_of_gwynedd"
+  ],
+  "period": {
+    "from": 844,
+    "to": 844
+  },
+  "derived_from": "kingdom_of_gwynedd_844",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

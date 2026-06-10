@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_brabant_1183",
+  "name": "Duchy of Brabant Created",
+  "year": 1183,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    50.85,
+    4.35
+  ],
+  "entity": "duchy_of_brabant",
+  "summary": "The Duchy of Brabant was formally established in 1183 when Godfrey III received the ducal title. Located at the crossroads of trade routes connecting the Rhine to the sea, Brabant became one of the wealthiest territories in Europe, with cities like Brussels, Louvain, and Antwerp growing into major commercial centres.",
+  "outcomes": [
+    "louvain_elevated",
+    "low_countries_develops",
+    "trade_wealth_grows"
+  ],
+  "_quarry": {
+    "participants": [
+      "duchy_of_brabant"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_dalriata_to_alba",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_dal_riata",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "kingdom_of_alba",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 839,
+  "until": 843,
+  "note": "Gaelic Dál Riata merged into broader Picto-Gaelic kingdom of Alba in ninth century; exact chronology debated.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Dál Riata-Pictish fusion under Kenneth MacAlpin (c. 843) synthesised Irish Gaelic and indigenous Pictish cultures into a distinctively Scottish identity; the adoption of Gaelic as the language of the new kingdom and the transfer of Columba's relics to Scone established the cultural and religious foundations of Scottish national identity."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

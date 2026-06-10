@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_damascus_1148",
+  "name": "Siege of Damascus",
+  "year": 1148,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    43.6029,
+    16.8657
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Siege of Damascus (1148 CE), at Damascus (part of Second Crusade). Source: Wikidata Q382967.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "holy_roman_empire",
+      "kingdom_of_jerusalem",
+      "kingdom_of_france",
+      "county_of_flanders",
+      "knights_hospitaller_rhodes",
+      "duchy_of_swabia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

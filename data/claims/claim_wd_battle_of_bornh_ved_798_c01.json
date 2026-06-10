@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_bornh_ved_798_c01",
+  "statement": "The Battle of Bornhöved was fought in 798 CE at Bornhöved.",
+  "subject_ids": [
+    "merovingian_kingdom"
+  ],
+  "period": {
+    "from": 798,
+    "to": 798
+  },
+  "derived_from": "wd_battle_of_bornh_ved_798",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wood_the_1994",
+      "geary_before_1988"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

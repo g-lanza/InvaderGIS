@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "chuds_1219",
+  "name": "Danish Crusade Converts Estonians",
+  "year": 1219,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    60.481,
+    29.869
+  ],
+  "entity": "chuds",
+  "summary": "Danish forces landed in northern Estonia in 1219, winning the Battle of Lyndanisse where legend holds the Dannebrog (Danish flag) fell from heaven. The conquest and Christianisation of Estonia proceeded over the following decades under Danish and Teutonic Order control, extinguishing the traditional Chud/Estonian religion.",
+  "outcomes": [
+    "christianisation",
+    "danish_estonia",
+    "northern_crusade"
+  ],
+  "_quarry": {
+    "participants": [
+      "chuds"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

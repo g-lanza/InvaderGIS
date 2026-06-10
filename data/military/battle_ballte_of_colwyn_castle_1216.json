@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_ballte_of_colwyn_castle_1216",
+  "name": "Ballte of Colwyn Castle",
+  "subtype": "battle",
+  "start_year": 1216,
+  "end_year": 1216,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q61268045"
+    }
+  },
+  "description": "Battle during Norman Invasion of Wales (1216)",
+  "coords": [
+    -3.277,
+    51.902
+  ]
+}

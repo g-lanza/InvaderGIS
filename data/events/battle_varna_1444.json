@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_varna_1444",
+  "name": "Battle of Varna, Last Crusade Against the Turks",
+  "year": 1444,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    43.21,
+    27.91
+  ],
+  "entity": "ottoman_empire",
+  "summary": "The last major Western crusading effort against the Ottomans ends in disaster at Varna. King Vladislaus III of Poland-Hungary breaks a recently signed peace treaty with the Ottomans at papal urging; the resulting battle kills the king and destroys the Polish-Hungarian army. Sultan Murad II's victory ensures Ottoman control of the Balkans and removes the last serious external military threat to Constantinople before the final siege (1453).",
+  "outcomes": [
+    "vladislaus_iii_killed",
+    "hunyadi_army_destroyed",
+    "ottoman_balkans_secured"
+  ],
+  "_quarry": {
+    "participants": [
+      "ottoman_empire",
+      "kingdom_of_hungary",
+      "kingdom_of_poland_jagiellonian"
+    ],
+    "structural_significance": "Varna removes Hungary's best army and most capable royal line; John Hunyadi survives and continues resistance but cannot prevent Constantinople's fall nine years later; the battle's outcome demonstrates that papal exhortations to crusade could override prudent military calculation with catastrophic results; the defeat makes the fall of Constantinople in 1453 effectively inevitable by eliminating the only force that could have relieved the city",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

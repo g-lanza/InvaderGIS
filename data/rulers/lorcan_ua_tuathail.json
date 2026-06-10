@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "lorcan_ua_tuathail",
+  "name": "Lorcán Ua Tuathail",
+  "polity": "kingdom_of_leinster",
+  "title": "religious_authority",
+  "reign_start": 1128,
+  "reign_end": 1180,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "kingdom_of_leinster",
+        "role": "religious_authority",
+        "start_year": 1128,
+        "end_year": 1180
+      }
+    ],
+    "key_actions": [],
+    "region": "british_isles",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

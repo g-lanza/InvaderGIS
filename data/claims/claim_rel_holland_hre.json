@@ -1,0 +1,31 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_holland_hre",
+  "statement": "The County of Holland — originally a coastal county along the Meuse and Rhine delta — held imperial vassal status as part of the complex feudal hierarchy of the Low Countries. Holland's counts gradually expanded at the expense of the Duchy of Brabant and the Bishopric of Utrecht throughout the 13th–14th centuries. Burgundian acquisition of Holland (1428, through the Union of the House of Bavaria-Holland and then by purchase from Jacoba of Bavaria) integrated it into the emerging Burgundian state that eventually passed to the Habsburgs. Holland's exceptional commercial development (herring fishery, grain trade) made it the richest county per capita in the Empire.",
+  "subject_ids": [
+    "holy_roman_empire",
+    "county_of_holland"
+  ],
+  "predicate": "vassalage",
+  "derived_from": "rel_holland_hre",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "county_of_holland"
+  ],
+  "period": {
+    "from": 1018,
+    "to": 1432
+  }
+}

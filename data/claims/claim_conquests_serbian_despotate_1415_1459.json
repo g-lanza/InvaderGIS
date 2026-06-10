@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_serbian_despotate_1415_1459",
+  "statement": "Serbian Despotate — campaigns and battles spanned 1415–1459, from Hungarian–Ottoman War to Ottoman Conquest of Serbia.",
+  "subject_ids": [
+    "serbian_despotate"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_serbian_despotate_1415_1459",
+  "period": {
+    "from": 1415,
+    "to": 1459
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

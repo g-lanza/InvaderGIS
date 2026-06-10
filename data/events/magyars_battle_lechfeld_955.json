@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "magyars_battle_lechfeld_955",
+  "name": "Battle of Lechfeld Ends Magyar Raiding",
+  "year": 955,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    47.595,
+    20.143
+  ],
+  "entity": "magyars",
+  "summary": "Otto I of Germany defeated the Magyar army at Lechfeld near Augsburg. The Hungarian leaders were captured and executed; the battle ended half a century of Magyar raids into western Europe and forced Hungary toward Christianisation and settled statehood.",
+  "outcomes": [
+    "raiding_stopped",
+    "christianisation_follows",
+    "otto_i_prestige"
+  ],
+  "_quarry": {
+    "participants": [
+      "magyars"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "provisions_oxford_1258",
+  "name": "Provisions of Oxford, Baronial Reform",
+  "year": 1258,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    51.75,
+    -1.25
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "English barons under Simon de Montfort force Henry III to accept the Provisions of Oxford, a constitutional settlement more radical than Magna Carta. The provisions establish a permanent council of 15 barons with regular meetings, requiring the king to govern with their consent. Parliament is to meet three times a year. The provisions are suspended and re-imposed multiple times; the Second Barons' War (1264-1267) follows, with de Montfort's parliament (1265) representing the first parliament including knights and burgesses.",
+  "outcomes": [
+    "king_limited_by_council",
+    "magna_carta_extended",
+    "simon_de_montfort_rises"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england"
+    ],
+    "structural_significance": "The Provisions of Oxford and de Montfort's parliament establish the parliamentary precedent that becomes the model for English constitutional development; the concept of representation, knights of the shire and burgesses alongside magnates, is institutionalized even before Edward I's Model Parliament (1295); the reforms demonstrate that English baronage could unite against royal overreaching in ways French or German nobles could not",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

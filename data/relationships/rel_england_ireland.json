@@ -1,0 +1,39 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_england_ireland",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_england",
+      "role": "suzerain"
+    },
+    {
+      "entity_id": "lordship_of_ireland",
+      "role": "vassal"
+    }
+  ],
+  "directed": true,
+  "type": "vassalage",
+  "since": 1177,
+  "until": 1500,
+  "note": "The English Lordship of Ireland (1171–) was established when Henry II invaded to bring the Norman barons who had conquered Leinster (under Strongbow/Richard de Clare) under royal control. Pope Alexander III endorsed the invasion through the bull Laudabiliter (c. 1155, authenticity disputed). The subsequent English presence was limited: the 'Pale' around Dublin controlled by the crown; the 'Land of Peace' governed by Anglo-Norman lords who gradually 'went native'; and the 'Land of War' of Gaelic chiefs who accepted nominal English suzerainty. Ireland was never fully conquered in the medieval period.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The English lordship creates the pattern of partial conquest and cultural assimilation ('going native') that defines Anglo-Irish relations; the failure to complete the conquest leaves a permanently contested frontier; the contrast between Pale and Gaelic Ireland prefigures modern Northern Ireland"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_fall_of_tripoli_1289",
+  "name": "Fall of Tripoli",
+  "year": 1289,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    33.6,
+    31.7333
+  ],
+  "entity": "knights_hospitaller_rhodes",
+  "summary": "Fall of Tripoli (1289 CE), at Tripoli (part of Fall of Outremer). Source: Wikidata Q5432166.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "knights_hospitaller_rhodes",
+      "county_of_tripoli",
+      "mamluk_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_hospitallers_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

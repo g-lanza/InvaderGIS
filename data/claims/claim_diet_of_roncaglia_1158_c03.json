@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_diet_of_roncaglia_1158_c03",
+  "statement": "The Italian communes' resistance to the regalia asserted at Roncaglia provoked the conflict leading to the Lombard League in 1167 and Barbarossa's defeat at Legnano in 1176.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1158,
+    "to": 1158
+  },
+  "derived_from": "diet_of_roncaglia_1158",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

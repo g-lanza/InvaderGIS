@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_granada_emirate_founded_1232_c02",
+  "statement": "The Nasrid dynasty founded by Muhammad I ruled Granada for over 250 years as the last Muslim polity in Iberia.",
+  "subject_ids": [
+    "emirate_of_granada"
+  ],
+  "period": {
+    "from": 1232,
+    "to": 1232
+  },
+  "derived_from": "granada_emirate_founded_1232",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "harvey_islamic_1990",
+      "fernández-puertas_the_1997"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

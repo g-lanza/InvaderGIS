@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "portuguese_ceuta_1415",
+  "name": "Portugal's Conquest of Ceuta, Beginning of European Expansion",
+  "year": 1415,
+  "type": "conquest",
+  "category": "violence",
+  "coords": [
+    35.89,
+    -5.31
+  ],
+  "entity": "kingdom_of_portugal",
+  "summary": "King João I of Portugal captures Ceuta (Morocco) on August 21, 1415, the first European overseas conquest since the Crusades. Prince Henry (the Navigator) participates and becomes determined to find the source of West African gold that transits through Ceuta. His subsequent sponsorship of Atlantic exploration (1418-1460) sets in motion the Portuguese Age of Discovery: Madeira (1419), Azores (1427), down the African coast to Cape Bojador (1434) and beyond.",
+  "outcomes": [
+    "ceuta_captured",
+    "african_trade_routes_sought",
+    "atlantic_exploration_begins"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_portugal",
+      "mamluk_sultanate"
+    ],
+    "structural_significance": "Ceuta is the first act of European overseas territorial expansion that leads directly to the Age of Exploration; Henry the Navigator's focus on the African trade route bypasses Venetian and Genoese control of Mediterranean trade; the Portuguese technique of systematic coastal exploration, celestial navigation, and commercial fort-building (feitorias) creates the template for European colonial expansion; this moment in 1415 connects directly to Columbus (1492) and the global transformation that follows",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

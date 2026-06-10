@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "despotate_of_epirus",
+  "name": "Ioannina",
+  "entity_id": "despotate_of_epirus",
+  "entity_name": "Despotate of Epirus",
+  "start_year": 1205,
+  "end_year": 1479,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q187684"
+    }
+  },
+  "coords": [
+    20.85222,
+    39.66361
+  ]
+}

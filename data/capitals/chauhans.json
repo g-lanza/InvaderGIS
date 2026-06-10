@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "chauhans",
+  "name": "Ajmer",
+  "entity_id": "chauhans",
+  "entity_name": "Chahamana Dynasty",
+  "start_year": 600,
+  "end_year": 1192,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q24897370"
+    }
+  },
+  "coords": [
+    74.64,
+    26.45
+  ]
+}

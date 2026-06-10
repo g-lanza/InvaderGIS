@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "heraclius_defeats_persia_628",
+  "name": "Emperor Heraclius Defeats Persia",
+  "year": 628,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    38,
+    38
+  ],
+  "entity": "byzantine_empire",
+  "summary": "After six years of brilliant counteroffensive campaigns deep into Persian territory, Heraclius forces Khosrow II's assassination and the return of the True Cross, St. Helena's relic of the crucifixion. Heraclius processes through Constantinople in triumph, the first Byzantine emperor to personally lead a campaign since Theodosius I. But both empires are exhausted, three years later, Islam emerges to conquer both.",
+  "outcomes": [
+    "true_cross_recovered",
+    "persia_collapsed",
+    "both_powers_exhausted"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire"
+    ],
+    "structural_significance": "Heraclius's victory is pyrrhic, the mutual Byzantine-Persian exhaustion is the direct precondition for the Arab conquests; the recovery of Jerusalem's relics creates emotional investment that later inspires the Crusades.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_portugal",
+  "name": "Lisbon",
+  "entity_id": "kingdom_of_portugal",
+  "entity_name": "Kingdom of Portugal",
+  "start_year": 1139,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q45670"
+    }
+  },
+  "coords": [
+    -9.13902,
+    38.70804
+  ]
+}

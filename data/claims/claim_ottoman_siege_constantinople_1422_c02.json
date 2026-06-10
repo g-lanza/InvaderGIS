@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_ottoman_siege_constantinople_1422_c02",
+  "statement": "The 1422 Ottoman siege of Constantinople failed when the Theodosian Walls held and a revolt in Anatolia forced Murad II to withdraw.",
+  "subject_ids": [
+    "ottoman_empire"
+  ],
+  "period": {
+    "from": 1422,
+    "to": 1422
+  },
+  "derived_from": "ottoman_siege_constantinople_1422",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

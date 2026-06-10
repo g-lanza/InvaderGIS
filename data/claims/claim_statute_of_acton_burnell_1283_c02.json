@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_statute_of_acton_burnell_1283_c02",
+  "statement": "Under the 1283 Statute of Acton Burnell, defaulting debtors could be imprisoned and their lands and chattels seized by certified writ.",
+  "subject_ids": [
+    "kingdom_of_england"
+  ],
+  "period": {
+    "from": 1283,
+    "to": 1283
+  },
+  "derived_from": "statute_of_acton_burnell_1283",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lopez_commercial_revolution_1971"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

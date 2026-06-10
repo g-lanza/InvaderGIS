@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_strathclyde",
+  "name": "Dumbarton",
+  "entity_id": "kingdom_of_strathclyde",
+  "entity_name": "Kingdom of Strathclyde",
+  "start_year": 500,
+  "end_year": 1018,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q225890"
+    }
+  },
+  "coords": [
+    -4.54722,
+    55.94861
+  ]
+}

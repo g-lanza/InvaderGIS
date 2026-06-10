@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_kingdom_of_asturias_718_883",
+  "statement": "Kingdom of Asturias — campaigns and battles spanned 718–883, from Battle of Covadonga to Second Battle of Cellorigo.",
+  "subject_ids": [
+    "kingdom_of_asturias"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_kingdom_of_asturias_718_883",
+  "period": {
+    "from": 718,
+    "to": 883
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

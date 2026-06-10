@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "treaty_brétigny_aftermath_1360",
+  "name": "Treaty of Brétigny, England at its Territorial Peak",
+  "year": 1360,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    48.5,
+    1.75
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "The Treaty of Brétigny (May 1360) temporarily ends the first phase of the Hundred Years' War. England receives full sovereignty over Aquitaine, Calais, Ponthieu, and other territories, nearly a third of France. King John II is released for 3 million gold écus ransom. Edward III renounces his claim to the French throne. The settlement represents the maximum territorial success the English achieve in France, subsequent decades erode these gains as French power recovers.",
+  "outcomes": [
+    "england_receives_aquitaine_sovereign",
+    "king_john_released",
+    "english_territorial_peak_in_france"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "kingdom_of_france"
+    ],
+    "structural_significance": "Brétigny demonstrates that English military superiority (longbow, Crécy/Poitiers tactics) could compel favorable terms but not create a permanent solution; the treaty breaks down because France refuses to complete the territorial transfers; the resumed war after 1369 shows that English armies could win battles but could not hold territory without massive permanent garrisons; the war's resumption creates the conditions for Joan of Arc and the final French reconquest",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

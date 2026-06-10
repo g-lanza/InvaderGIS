@@ -1,0 +1,35 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_kingdom_of_galicia_distinct",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_leon",
+      "role": "parent"
+    },
+    {
+      "entity_id": "kingdom_of_galicia",
+      "role": "fragment"
+    }
+  ],
+  "directed": true,
+  "type": "fragmentation",
+  "since": 1065,
+  "until": 1065,
+  "note": "Galicia (northwestern Iberia, modern Galicia/Spain and northern Portugal) was briefly a separate kingdom under García II, son of Ferdinand I of León-Castile, who divided his realm among his sons at death (1065). García received Galicia; he was deposed by his brothers Sancho II and Alfonso VI (1071) and imprisoned until his death (1090). Galicia's distinct Celtic cultural heritage — Galician-Portuguese language, different legal customs — gave it a persistent regional identity even after reabsorption into León. The County of Portugal, carved from Galicia in 1093, eventually became an independent kingdom (1139).",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Galicia's brief independence demonstrates the instability of Leonese dynastic division; the cultural distinctiveness of Galician-Portuguese language creates the foundation for Portuguese national identity; Galicia's absorption back into León while Portugal gains independence represents the key dynastic accident that produces the Iberian division"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

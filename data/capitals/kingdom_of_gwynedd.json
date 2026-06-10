@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_gwynedd",
+  "name": "Aberffraw",
+  "entity_id": "kingdom_of_gwynedd",
+  "entity_name": "Kingdom of Gwynedd",
+  "start_year": 500,
+  "end_year": 1283,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q816814"
+    }
+  },
+  "coords": [
+    -4.46,
+    53.2
+  ]
+}

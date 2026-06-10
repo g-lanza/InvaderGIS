@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_ostia_1497",
+  "name": "Siege of Ostia",
+  "year": 1497,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    46.5,
+    2.5
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Siege of Ostia (1497 CE), at Ostia (part of Italian War of 1494–1495). Source: Wikidata Q5708050.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

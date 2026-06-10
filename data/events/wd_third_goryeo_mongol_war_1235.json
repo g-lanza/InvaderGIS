@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_third_goryeo_mongol_war_1235",
+  "name": "Third Goryeo-Mongol War",
+  "year": 1235,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    42.423,
+    114.922
+  ],
+  "entity": "mongol_empire",
+  "summary": "Third Goryeo-Mongol War (1235 CE). Source: Wikidata Q21060238.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "mongol_empire",
+      "korea"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

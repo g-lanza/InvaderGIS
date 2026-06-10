@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_second_crusade_1147_c02",
+  "statement": "Louis VII of France and Conrad III of Germany led the Second Crusade, the largest Crusade to that date.",
+  "subject_ids": [
+    "kingdom_of_jerusalem"
+  ],
+  "period": {
+    "from": 1147,
+    "to": 1147
+  },
+  "derived_from": "second_crusade_1147",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

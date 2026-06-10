@@ -1,0 +1,441 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "haripunjaya",
+  "name_primary": "Haripunjaya",
+  "name_variants": [],
+  "type": "kingdom",
+  "region": "southeast_asia",
+  "formed": 661,
+  "dissolved": 1292,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 1000,
+      "label": "Haripunjaya",
+      "polygon": [
+        [
+          18.59,
+          97.65
+        ],
+        [
+          19.8,
+          98.1
+        ],
+        [
+          20.25,
+          100.2
+        ],
+        [
+          19.42,
+          101.24
+        ],
+        [
+          17.57,
+          101.16
+        ],
+        [
+          16.85,
+          102.37
+        ],
+        [
+          15.57,
+          101.61
+        ],
+        [
+          14.47,
+          98.69
+        ],
+        [
+          16.22,
+          98.61
+        ],
+        [
+          17.45,
+          97.58
+        ],
+        [
+          18.59,
+          97.65
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    17.462,
+    99.357
+  ],
+  "population_estimates": [
+    {
+      "year": 800,
+      "estimate": 200000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q255931",
+          "url": "https://www.wikidata.org/wiki/Q255931",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Haripunjaya",
+          "url": "https://en.wikipedia.org/wiki/Haripu%C3%B1jaya"
+        }
+      ]
+    },
+    {
+      "year": 950,
+      "estimate": 300000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q255931",
+          "url": "https://www.wikidata.org/wiki/Q255931",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Haripunjaya",
+          "url": "https://en.wikipedia.org/wiki/Haripu%C3%B1jaya"
+        }
+      ]
+    },
+    {
+      "year": 1100,
+      "estimate": 400000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q255931",
+          "url": "https://www.wikidata.org/wiki/Q255931",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Haripunjaya",
+          "url": "https://en.wikipedia.org/wiki/Haripu%C3%B1jaya"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Mon Buddhist kingdom (c. 661–1292) in northern Thailand whose Lamphun centre was one of the earliest Southeast Asian cities; the Haripunjaya Mon maintained Buddhist scholarship and temple-building traditions that influenced the later Lanna Thai kingdom that absorbed them; their resistance to Pagan Burmese expansion preserved Mon cultural identity in the upper Ping valley.",
+  "temporal": {
+    "start_year": 661,
+    "end_year": 1292,
+    "notes": ""
+  },
+  "geographic": {
+    "centroid": [
+      17.462,
+      99.357
+    ],
+    "polygon_simplified": [
+      [
+        18.59,
+        97.65
+      ],
+      [
+        19.8,
+        98.1
+      ],
+      [
+        20.25,
+        100.2
+      ],
+      [
+        19.42,
+        101.24
+      ],
+      [
+        17.57,
+        101.16
+      ],
+      [
+        16.85,
+        102.37
+      ],
+      [
+        15.57,
+        101.61
+      ],
+      [
+        14.47,
+        98.69
+      ],
+      [
+        16.22,
+        98.61
+      ],
+      [
+        17.45,
+        97.58
+      ],
+      [
+        18.59,
+        97.65
+      ]
+    ],
+    "capital": {
+      "name": "Lamphun",
+      "coords": [
+        18.58028,
+        99.00722
+      ],
+      "source": "wikidata"
+    },
+    "polygon_snapshots": [
+      {
+        "year": 1000,
+        "label": "Haripunjaya",
+        "polygon": [
+          [
+            18.59,
+            97.65
+          ],
+          [
+            19.8,
+            98.1
+          ],
+          [
+            20.25,
+            100.2
+          ],
+          [
+            19.42,
+            101.24
+          ],
+          [
+            17.57,
+            101.16
+          ],
+          [
+            16.85,
+            102.37
+          ],
+          [
+            15.57,
+            101.61
+          ],
+          [
+            14.47,
+            98.69
+          ],
+          [
+            16.22,
+            98.61
+          ],
+          [
+            17.45,
+            97.58
+          ],
+          [
+            18.59,
+            97.65
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "real_historical_boundary",
+    "polygon_source": "aourednik/historical-basemaps",
+    "polygon_source_date": "2026-05-09"
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "formation",
+      "years": "661-800",
+      "description": "Mon kingdom founded at Lamphun in northern Thailand; legend attributes founding to holy man Suthep.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q255931",
+          "url": "https://www.wikidata.org/wiki/Q255931"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Haripunjaya",
+          "url": "https://en.wikipedia.org/wiki/Haripu%C3%B1jaya"
+        }
+      ]
+    },
+    {
+      "phase": "peak",
+      "years": "800-1100",
+      "description": "Haripunjaya was the northernmost Buddhist Mon kingdom; center of Theravada learning and temple construction.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q255931",
+          "url": "https://www.wikidata.org/wiki/Q255931"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Haripunjaya",
+          "url": "https://en.wikipedia.org/wiki/Haripu%C3%B1jaya"
+        }
+      ]
+    },
+    {
+      "phase": "mangrai_conquest",
+      "years": "1200-1292",
+      "description": "Conquered by Mangrai, founder of Chiang Mai and the Lanna kingdom, in 1292.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q255931",
+          "url": "https://www.wikidata.org/wiki/Q255931"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Haripunjaya",
+          "url": "https://en.wikipedia.org/wiki/Haripu%C3%B1jaya"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "buddhist_identity",
+      "layer": "ideology_religion",
+      "description": "Theravada Buddhism provided administrative literacy and cultural distinctiveness.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q255931",
+          "url": "https://www.wikidata.org/wiki/Q255931"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Haripunjaya",
+          "url": "https://en.wikipedia.org/wiki/Haripu%C3%B1jaya"
+        }
+      ]
+    },
+    {
+      "tag": "resource_concentration",
+      "layer": "geography_territory",
+      "description": "Fertile Ping river valley supported productive wet-rice agriculture.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q255931",
+          "url": "https://www.wikidata.org/wiki/Q255931"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Haripunjaya",
+          "url": "https://en.wikipedia.org/wiki/Haripu%C3%B1jaya"
+        }
+      ],
+      "tag_prose": "agricultural_valley"
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "external_military_pressure",
+      "layer": "military_security",
+      "description": "Mangrai's Lanna kingdom absorbed Haripunjaya after sustained military pressure.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q255931",
+          "url": "https://www.wikidata.org/wiki/Q255931"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Haripunjaya",
+          "url": "https://en.wikipedia.org/wiki/Haripu%C3%B1jaya"
+        }
+      ],
+      "tag_prose": "lanna_conquest"
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Camadevi",
+      "role": "legendary_queen",
+      "years": "661–700",
+      "year_start": 661,
+      "year_end": 700,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Camadevi",
+          "url": "https://en.wikipedia.org/wiki/Camadevi"
+        }
+      ]
+    },
+    {
+      "name": "Aditayaraja",
+      "role": "ruler",
+      "years": "1050–1090",
+      "year_start": 1050,
+      "year_end": 1090,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Aditayaraja",
+          "url": "https://en.wikipedia.org/wiki/Aditayaraja"
+        }
+      ]
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "long_distance_trade",
+      "forest_products"
+    ],
+    "wealth_level": "low",
+    "major_exports": [
+      "rice",
+      "teak",
+      "lacquer",
+      "cotton"
+    ],
+    "major_trade_partners": [
+      "dvaravati",
+      "khmer_empire",
+      "annam"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "trade_duties",
+      "temple_donations"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q255931",
+        "url": "https://www.wikidata.org/wiki/Q255931"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Haripunjaya",
+        "url": "https://en.wikipedia.org/wiki/Haripu%C3%B1jaya"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q255931",
+    "matched_name": "manual/haripunjaya",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Haripu%C3%B1jaya",
+    "capital": {
+      "name": "Lamphun",
+      "coords": [
+        18.58028,
+        99.00722
+      ]
+    }
+  },
+  "monogram": "HA"
+}

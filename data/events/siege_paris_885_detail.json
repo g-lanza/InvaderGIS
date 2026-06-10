@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "siege_paris_885_detail",
+  "name": "Siege of Paris by the Northmen",
+  "year": 885,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    48.85,
+    2.35
+  ],
+  "entity": "west_francia",
+  "summary": "A Viking fleet of reportedly 700 ships and 30,000 warriors besieges Paris from November 885 through October 886. Count Odo of Paris organizes a heroic defense that holds the two stone bridges, blocking the Viking advance up the Seine. Emperor Charles the Fat arrives with an army but negotiates instead of attacking, paying tribute and allowing the Vikings to raid Burgundy. Odo's heroism and Charles's humiliation lead directly to Odo's election as king of West Francia in 888.",
+  "outcomes": [
+    "count_odo_heroic_defense",
+    "emperor_charles_fat_pays_ransom",
+    "carolingian_dynasty_ends_in_france"
+  ],
+  "_quarry": {
+    "participants": [
+      "west_francia"
+    ],
+    "structural_significance": "Count Odo's defense makes him the effective champion of France, his election as king begins the eventual supplanting of the Carolingian dynasty by the Capetians (Odo's house); Charles the Fat's deposition in 887 effectively ends the Carolingian Empire; the siege demonstrates that fortified cities with determined defenders could resist Viking attack, encouraging the burh-building programs of Alfred the Great",
+    "year_range": [
+      885,
+      886
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

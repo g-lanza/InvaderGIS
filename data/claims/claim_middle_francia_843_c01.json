@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_middle_francia_843_c01",
+  "statement": "The Treaty of Verdun in 843 CE divided the Carolingian Empire among Charlemagne's three grandsons, creating Middle Francia as the central portion.",
+  "subject_ids": [
+    "middle_francia"
+  ],
+  "period": {
+    "from": 843,
+    "to": 843
+  },
+  "derived_from": "middle_francia_843",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

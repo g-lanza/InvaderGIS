@@ -1,0 +1,180 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_republic_of_florence_1260_1479",
+  "name": "Republic of Florence — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1260,
+  "year_end": 1479,
+  "waypoints": [
+    {
+      "year": 1260,
+      "place": "Siena Defeats Florence at Montaperti",
+      "coords": [
+        43.56,
+        11.265
+      ],
+      "note": "military",
+      "event_id": "republic_of_siena_1260"
+    },
+    {
+      "year": 1273,
+      "place": "Tuscan War",
+      "coords": [
+        41.25,
+        11.05
+      ],
+      "note": "military",
+      "event_id": "wd_tuscan_war_1273"
+    },
+    {
+      "year": 1290,
+      "place": "Florence completes third circle",
+      "coords": [
+        43.77,
+        11.25
+      ],
+      "note": "expansion_milestone",
+      "event_id": "city_wall_florence_1280"
+    },
+    {
+      "year": 1315,
+      "place": "Battle of Montecatini",
+      "coords": [
+        42.7667,
+        11.9667
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_montecatini_1315"
+    },
+    {
+      "year": 1336,
+      "place": "Scaliger War",
+      "coords": [
+        44.6,
+        11.75
+      ],
+      "note": "military",
+      "event_id": "wd_scaliger_war_1336"
+    },
+    {
+      "year": 1375,
+      "place": "War of the Eight Saints",
+      "coords": [
+        43.2067,
+        11.6767
+      ],
+      "note": "military",
+      "event_id": "wd_war_of_the_eight_saints_1375"
+    },
+    {
+      "year": 1390,
+      "place": "First Milano–Florentine War",
+      "coords": [
+        45.115,
+        11.4125
+      ],
+      "note": "military",
+      "event_id": "wd_first_milano_florentine_war_1390"
+    },
+    {
+      "year": 1390,
+      "place": "Florentine–Milanese Wars",
+      "coords": [
+        44.65,
+        10.2
+      ],
+      "note": "military",
+      "event_id": "wd_florentine_milanese_wars_1390"
+    },
+    {
+      "year": 1402,
+      "place": "Battle of Casalecchio",
+      "coords": [
+        44.65,
+        10.2
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_casalecchio_1402"
+    },
+    {
+      "year": 1423,
+      "place": "Wars in Lombardy",
+      "coords": [
+        44.775,
+        10.4
+      ],
+      "note": "military",
+      "event_id": "wd_wars_in_lombardy_1423"
+    },
+    {
+      "year": 1427,
+      "place": "Battle of Cremona",
+      "coords": [
+        44.9,
+        10.9
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_cremona_1427"
+    },
+    {
+      "year": 1429,
+      "place": "Siege of Lucca",
+      "coords": [
+        44.65,
+        10.2
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_lucca_1429"
+    },
+    {
+      "year": 1430,
+      "place": "Siege of Lucca",
+      "coords": [
+        44.1,
+        10.05
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_lucca_1430"
+    },
+    {
+      "year": 1467,
+      "place": "Battle of Molinella",
+      "coords": [
+        44.6,
+        11.75
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_molinella_1467"
+    },
+    {
+      "year": 1478,
+      "place": "Pazzi War",
+      "coords": [
+        43.9743,
+        10.4757
+      ],
+      "note": "military",
+      "event_id": "wd_pazzi_war_1478"
+    },
+    {
+      "year": 1479,
+      "place": "Battle of Poggio Imperiale",
+      "coords": [
+        43.384,
+        10.366
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_poggio_imperiale_1479"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "najemy_a_2006",
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

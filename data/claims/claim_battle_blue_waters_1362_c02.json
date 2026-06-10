@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_battle_blue_waters_1362_c02",
+  "statement": "The victory at Blue Waters extended Lithuanian sovereignty over former Kievan Rus territories toward the Black Sea.",
+  "subject_ids": [
+    "grand_duchy_of_lithuania"
+  ],
+  "period": {
+    "from": 1362,
+    "to": 1362
+  },
+  "derived_from": "battle_blue_waters_1362",
+  "unresolved_sources": [
+    "christiansen_the_1997"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "rowell_lithuania_1994"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

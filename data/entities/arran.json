@@ -1,0 +1,323 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "arran",
+  "name_primary": "Arran",
+  "name_variants": [],
+  "type": "kingdom",
+  "region": "caucasus",
+  "formed": 1000,
+  "dissolved": 1100,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    40.437,
+    47.104
+  ],
+  "population_estimates": [
+    {
+      "year": 1000,
+      "estimate": 5000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q437103",
+          "url": "https://www.wikidata.org/wiki/Q437103",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Arran",
+          "url": "https://en.wikipedia.org/wiki/Arran"
+        }
+      ]
+    },
+    {
+      "year": 1150,
+      "estimate": 6500,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q437103",
+          "url": "https://www.wikidata.org/wiki/Q437103",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Arran",
+          "url": "https://en.wikipedia.org/wiki/Arran"
+        }
+      ]
+    },
+    {
+      "year": 1300,
+      "estimate": 8000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q437103",
+          "url": "https://www.wikidata.org/wiki/Q437103",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Arran",
+          "url": "https://en.wikipedia.org/wiki/Arran"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Small island kingdom in the Firth of Clyde historically contested between the Kingdom of the Isles and the Scottish crown; its strategic position at the mouth of the Clyde made it important for western Scottish naval operations, and the island passed to Scotland through the Treaty of Perth (1266) that transferred the Hebrides from Norwegian to Scottish sovereignty.",
+  "temporal": {
+    "start_year": 1000,
+    "end_year": 1100,
+    "notes": "Stub: dates from GeoJSON basemap years 1000–1100"
+  },
+  "geographic": {
+    "centroid": [
+      40.437,
+      47.104
+    ],
+    "polygon_simplified": [
+      [
+        [
+          40.7772,
+          46.4752
+        ],
+        [
+          40.9341,
+          46.4243
+        ],
+        [
+          40.9428,
+          46.5342
+        ],
+        [
+          40.9312,
+          46.53
+        ],
+        [
+          40.8779,
+          46.8158
+        ],
+        [
+          40.856,
+          46.8725
+        ],
+        [
+          40.847,
+          46.8738
+        ],
+        [
+          40.0709,
+          48.0802
+        ],
+        [
+          39.9461,
+          48.3387
+        ],
+        [
+          39.9666,
+          48.3732
+        ],
+        [
+          39.6743,
+          47.9393
+        ],
+        [
+          39.673,
+          47.8175
+        ],
+        [
+          39.6653,
+          47.129
+        ],
+        [
+          40.4414,
+          47.0624
+        ],
+        [
+          40.4479,
+          46.8587
+        ],
+        [
+          40.4503,
+          46.7845
+        ],
+        [
+          40.5931,
+          46.4948
+        ],
+        [
+          40.7772,
+          46.4752
+        ]
+      ]
+    ],
+    "capital": {
+      "name": "Barda",
+      "coords": [
+        40.38,
+        47.13
+      ],
+      "source": "curated"
+    }
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "scottish_lordship",
+      "years": "500-900",
+      "description": "Isle of Arran formed part of the Dál Riata kingdom and later early Scottish realm.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q437103",
+          "url": "https://www.wikidata.org/wiki/Q437103"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Arran",
+          "url": "https://en.wikipedia.org/wiki/Arran"
+        }
+      ]
+    },
+    {
+      "phase": "norse_influence",
+      "years": "850-1100",
+      "description": "Viking raids and settlement brought Norse culture and place names; Arran passed between Norse and Scottish overlordship.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q437103",
+          "url": "https://www.wikidata.org/wiki/Q437103"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Arran",
+          "url": "https://en.wikipedia.org/wiki/Arran"
+        }
+      ]
+    },
+    {
+      "phase": "scottish_integration",
+      "years": "1100-1500",
+      "description": "Gradually incorporated into the Scottish kingdom following the 1263 Treaty of Perth which ceded the Western Isles.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q437103",
+          "url": "https://www.wikidata.org/wiki/Q437103"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Arran",
+          "url": "https://en.wikipedia.org/wiki/Arran"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "geographic_advantage",
+      "layer": "geography_territory",
+      "description": "Strategic position in the Firth of Clyde made Arran important for control of western sea lanes.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q437103",
+          "url": "https://www.wikidata.org/wiki/Q437103"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Arran",
+          "url": "https://en.wikipedia.org/wiki/Arran"
+        }
+      ],
+      "tag_prose": "geographic_position"
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "peripheral_status",
+      "layer": "external_political",
+      "description": "Small size and island geography kept Arran permanently subordinate to larger mainland powers.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q437103",
+          "url": "https://www.wikidata.org/wiki/Q437103"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Arran",
+          "url": "https://en.wikipedia.org/wiki/Arran"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Somerled of Argyll",
+      "role": "lord",
+      "years": "1140–1164",
+      "year_start": 1140,
+      "year_end": 1164,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Somerled of Argyll",
+          "url": "https://en.wikipedia.org/wiki/Somerled_of_Argyll"
+        }
+      ]
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "fishing",
+      "pastoral_farming"
+    ],
+    "wealth_level": "very_low",
+    "major_exports": [
+      "fish",
+      "cattle",
+      "wool"
+    ],
+    "major_trade_partners": [
+      "kingdom_of_scotland",
+      "kingdom_of_norway"
+    ],
+    "revenue_sources": [
+      "feudal_dues",
+      "fishing_rights"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q437103",
+        "url": "https://www.wikidata.org/wiki/Q437103"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Arran",
+        "url": "https://en.wikipedia.org/wiki/Arran"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q437103",
+    "matched_name": "Arran",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Arran"
+  },
+  "monogram": "AR"
+}

@@ -1,0 +1,70 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_duchy_of_aquitaine_721_1367",
+  "name": "Duchy of Aquitaine — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 721,
+  "year_end": 1367,
+  "waypoints": [
+    {
+      "year": 721,
+      "place": "Battle of Toulouse",
+      "coords": [
+        44.84,
+        -0.58
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_toulouse_721"
+    },
+    {
+      "year": 732,
+      "place": "Battle of the River Garonne",
+      "coords": [
+        39.17,
+        17.86
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_the_river_garonne_732"
+    },
+    {
+      "year": 761,
+      "place": "Aquitanian War",
+      "coords": [
+        46.92,
+        1.46
+      ],
+      "note": "military",
+      "event_id": "wd_aquitanian_war_761"
+    },
+    {
+      "year": 1120,
+      "place": "Siege of Calatayud",
+      "coords": [
+        41.18,
+        -1.8267
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_calatayud_1120"
+    },
+    {
+      "year": 1367,
+      "place": "Battle of Nájera",
+      "coords": [
+        45.13,
+        -0.0757
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_n_jera_1367"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

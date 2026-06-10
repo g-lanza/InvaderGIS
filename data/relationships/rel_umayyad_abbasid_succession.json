@@ -1,0 +1,39 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_umayyad_abbasid_succession",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "umayyad_caliphate",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "abbasid_caliphate",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 750,
+  "until": 750,
+  "note": "The Abbasid Revolution (747–750) overthrows the Umayyad Caliphate; the last Umayyad caliph Marwan II is defeated at the Battle of the Zab and killed in Egypt. The Abbasids move the capital from Damascus to the newly founded Baghdad (762).",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Abbasid revolution (750) replaced Arab tribal aristocratic governance with a Persian-influenced meritocratic imperial model; this shift moved the caliphal capital from Damascus to Baghdad, reoriented Islamic civilisation toward Persian administrative and intellectual traditions, and transformed the Islamic world from an Arab ethnic empire into a multiethnic Islamic commonwealth—the foundational shift in Islamic political identity."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_the_2004",
+      "hawting_the_2000",
+      "ims_fordham",
+      "ims_fordham_sbook1d",
+      "kennedy_when_2004",
+      "crone_gods_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

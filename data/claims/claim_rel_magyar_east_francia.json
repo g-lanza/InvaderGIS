@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_magyar_east_francia",
+  "statement": "Magyar cavalry raids devastated East Francia repeatedly from 899 to 955, penetrating as far as Burgundy, Lorraine, Saxony, and Italy. The raids — lightning fast, burning crops and towns, returning before resistance could organize — exposed the inadequacy of Carolingian defense. The Saxon kings Henry I 'the Fowler' organized systematic counter-measures: building burgs (fortified towns), training heavy cavalry, and negotiating a 9-year truce (926–934) that bought time. His son Otto I finally crushed the Magyars at the Battle of Lechfeld (955), ending the raids and demonstrating German military superiority that enabled Otto's imperial coronation (962).",
+  "subject_ids": [
+    "kingdom_of_hungary",
+    "east_francia"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_magyar_east_francia",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "engel_the_2001",
+      "berend_at_2001",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 899,
+    "to": 955
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "iceland_eldgja_eruption_939",
+  "name": "Eldgjá volcanic eruption in Iceland",
+  "year": 939,
+  "type": "disaster",
+  "category": "hazard",
+  "coords": [
+    63.95,
+    -18.61
+  ],
+  "entity": "iceland_commonwealth",
+  "summary": "One of the largest basaltic flood-lava eruptions of the past two millennia. Eldgjá's tephra and sulphate aerosols depress Northern Hemisphere temperatures for several years; chronicles from Ireland to China record unusually dim, reddish skies in 939–940.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "iceland_commonwealth"
+    ],
+    "structural_significance": "Recent ice-core and dendrochronological work links the eruption to crop failures across Europe and the Mediterranean in the early 940s; the timing roughly coincides with the formal Christianisation of Iceland (1000) and may have influenced the religious-cultural shift.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

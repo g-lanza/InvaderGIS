@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_connacht_1014",
+  "name": "Connacht at Battle of Clontarf",
+  "year": 1014,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    53.375,
+    -8.375
+  ],
+  "entity": "kingdom_of_connacht",
+  "summary": "Connacht forces under Maelseachlainn II fought at the Battle of Clontarf in 1014, the decisive engagement that ended Viking political dominance in Ireland. The death of the High King Brian Boru in victory prevented any single king from dominating Ireland again, perpetuating the fractured provincial power structure.",
+  "outcomes": [
+    "brian_boru_killed",
+    "viking_power_broken",
+    "irish_politics_fragmented"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_connacht",
+      "kingdom_of_ireland_high"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

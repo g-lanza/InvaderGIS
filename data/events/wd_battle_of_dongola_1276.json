@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_dongola_1276",
+  "name": "Battle of Dongola",
+  "year": 1276,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    25.328,
+    33.071
+  ],
+  "entity": "mamluk_sultanate",
+  "summary": "Battle of Dongola (1276 CE), at Old Dongola. Source: Wikidata Q110192510.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "mamluk_sultanate",
+      "makkura"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "irwin_the_1986",
+      "northrup_from_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

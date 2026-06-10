@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_roger_bacon_opus_majus_1267_c02",
+  "statement": "The Opus Majus surveyed mathematics, optics, astronomy, alchemy, and moral philosophy and advocated an experimental method.",
+  "subject_ids": [
+    "kingdom_of_england"
+  ],
+  "period": {
+    "from": 1267,
+    "to": 1267
+  },
+  "derived_from": "roger_bacon_opus_majus_1267",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "marenbon_later_medieval_philosophy_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

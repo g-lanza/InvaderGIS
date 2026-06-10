@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_duchy_of_carinthia_to_duchy_of_styria_fragmentation",
+  "statement": "Derived from predecessor/successor links recorded in the duchy_of_carinthia and duchy_of_styria entity records. Transition anchored to duchy_of_styria start_year.",
+  "subject_ids": [
+    "duchy_of_carinthia",
+    "duchy_of_styria"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_duchy_of_carinthia_to_duchy_of_styria_fragmentation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "duchy_of_styria"
+  ],
+  "period": {
+    "from": 1180,
+    "to": 1180
+  }
+}

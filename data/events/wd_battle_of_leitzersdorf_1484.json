@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_leitzersdorf_1484",
+  "name": "Battle of Leitzersdorf",
+  "year": 1484,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    48.75,
+    14.75
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Battle of Leitzersdorf (1484 CE), at Leitzersdorf (part of Austrian–Hungarian War). Source: Wikidata Q2236985.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "kingdom_of_hungary"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

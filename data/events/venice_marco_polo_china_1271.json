@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "venice_marco_polo_china_1271",
+  "name": "Marco Polo's Journey to China",
+  "year": 1271,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    45.434,
+    12.338
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Marco Polo, a young Venetian merchant, departed for Asia with his father and uncle in 1271, reaching the court of Kublai Khan in China by 1275. He spent 17 years in Mongol service before returning to Venice in 1295. Dictated to a writer while in a Genoese prison, his account described China's cities, wealth, paper money, and the spice trade. The Travels became one of the most widely read books in medieval Europe and directly inspired Columbus's westward voyages.",
+  "outcomes": [
+    "Travels recorded in 'The Travels of Marco Polo'",
+    "Kublai Khan's court described for European readers",
+    "Paper money, coal, silk industry documented",
+    "Inspired later explorers including Columbus"
+  ],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "mongol_empire"
+    ],
+    "structural_significance": "The most important first-hand European account of East Asia; Marco Polo's book shaped Western geographical imagination for two centuries and motivated the search for a direct sea route to the East.",
+    "year_range": [
+      1271,
+      1295
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Larner, Marco Polo and the Discovery of the World",
+      "bergreen_marco_2007"
+    ],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_fifth_crusade_1217_c01",
+  "statement": "The Fifth Crusade adopted the strategy of capturing Egypt rather than attacking Jerusalem directly, to cut off the Ayyubid heartland.",
+  "subject_ids": [
+    "kingdom_of_jerusalem"
+  ],
+  "period": {
+    "from": 1217,
+    "to": 1217
+  },
+  "derived_from": "fifth_crusade_1217",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

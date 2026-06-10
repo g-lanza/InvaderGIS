@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "county_of_savoy_1003",
+  "name": "House of Savoy Founded",
+  "year": 1003,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    45.07,
+    6.44
+  ],
+  "entity": "county_of_savoy",
+  "summary": "Humbert I (Whitehands) established the House of Savoy around 1003 CE, receiving territories controlling the western Alpine passes. Savoys strategic position commanding routes between France, Italy, and Germany made it invaluable to emperors, popes, and kings, allowing the small county to exert influence far exceeding its size.",
+  "outcomes": [
+    "alpine_crossroads",
+    "imperial_ally",
+    "mountain_passes_controlled"
+  ],
+  "_quarry": {
+    "participants": [
+      "county_of_savoy"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

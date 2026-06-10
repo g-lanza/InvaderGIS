@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_visigothic_kingdom_410_713",
+  "statement": "Visigothic Kingdom — campaigns and battles spanned 410–713, from Sack of Rome by the Visigoths to Battle of Orihuela.",
+  "subject_ids": [
+    "visigothic_kingdom"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_visigothic_kingdom_410_713",
+  "period": {
+    "from": 410,
+    "to": 713
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "collins_visigothic_2004",
+      "thompson_the_1969"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "almish_volga_bulgaria",
+  "name": "Almış",
+  "polity": "volga_bulgaria",
+  "title": "ruler",
+  "reign_start": 922,
+  "reign_end": null,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "volga_bulgaria",
+        "role": "ruler",
+        "start_year": 922,
+        "end_year": null
+      }
+    ],
+    "key_actions": [],
+    "region": "eastern_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

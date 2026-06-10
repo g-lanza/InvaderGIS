@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_marj_ayyun_1179",
+  "name": "Battle of Marj Ayyun",
+  "year": 1179,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    31.8,
+    35.2
+  ],
+  "entity": "kingdom_of_jerusalem",
+  "summary": "Battle of Marj Ayyun (1179 CE), at Marjayoun (part of Crusader battles between 1149 and 1189). Source: Wikidata Q636520.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_jerusalem"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

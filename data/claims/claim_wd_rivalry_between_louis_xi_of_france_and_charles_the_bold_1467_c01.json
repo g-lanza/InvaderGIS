@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_rivalry_between_louis_xi_of_france_and_charles_the_bold_1467_c01",
+  "statement": "rivalry between Louis XI of France and Charles the Bold (1467 CE).",
+  "subject_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 1467,
+    "to": 1467
+  },
+  "derived_from": "wd_rivalry_between_louis_xi_of_france_and_charles_the_bold_1467",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

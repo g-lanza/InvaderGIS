@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "formation_swiss_confederacy_1291",
+  "name": "Federal Charter of 1291",
+  "year": 1291,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    47.02,
+    8.65
+  ],
+  "entity": "swiss_confederation",
+  "summary": "Representatives of the three forest cantons of Uri, Schwyz, and Unterwalden sign a mutual defense pact (the Federal Charter) in August 1291, following the death of Rudolf of Habsburg. The document, written in Latin and rediscovered in 1760, commits each canton to mutual aid against external aggressors and to resolve disputes by arbitration rather than force. The date of August 1, 1291 is now celebrated as Swiss National Day. The confederacy grows from this kernel over the next two centuries.",
+  "outcomes": [
+    "swiss_cantons_allied",
+    "mutual_defense_pact",
+    "austrian_expansion_resisted"
+  ],
+  "_quarry": {
+    "participants": [
+      "swiss_confederation",
+      "duchy_of_austria"
+    ],
+    "structural_significance": "The nucleus of the Swiss Confederation, which expands to 13 cantons by 1513; the confederacy's military prowess (demonstrated at Morgarten 1315 and Grandson 1476) makes Swiss mercenaries the most prized in Europe; establishes an alternative model of republican self-governance in an era of expanding monarchies",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "marchal_schweizer_2006",
+      "rippmann_die_2006"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

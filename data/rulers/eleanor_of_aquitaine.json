@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "eleanor_of_aquitaine",
+  "name": "Eleanor of Aquitaine",
+  "polity": "duchy_of_aquitaine",
+  "title": "ruler",
+  "reign_start": 1122,
+  "reign_end": 1204,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "duchy_of_aquitaine",
+        "role": "ruler",
+        "start_year": 1122,
+        "end_year": 1204
+      }
+    ],
+    "key_actions": [],
+    "region": "western_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

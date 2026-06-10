@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_almohad_naval_campaign_against_byzantium_1190",
+  "name": "Almohad naval campaign against Byzantium",
+  "year": 1190,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39,
+    12.45
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Almohad naval campaign against Byzantium (1190 CE), at Aegean Sea. Source: Wikidata Q131766055.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "almohad_caliphate_iberia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,441 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "muscat",
+  "name_primary": "Muscat",
+  "name_variants": [],
+  "type": "kingdom",
+  "region": "arabia",
+  "formed": 500,
+  "dissolved": 1500,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    23.6929,
+    56.9244
+  ],
+  "population_estimates": [
+    {
+      "year": 900,
+      "estimate": 80000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q3826",
+          "url": "https://www.wikidata.org/wiki/Q3826",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Muscat",
+          "url": "https://en.wikipedia.org/wiki/Muscat"
+        }
+      ]
+    },
+    {
+      "year": 1100,
+      "estimate": 90000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q3826",
+          "url": "https://www.wikidata.org/wiki/Q3826",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Muscat",
+          "url": "https://en.wikipedia.org/wiki/Muscat"
+        }
+      ]
+    },
+    {
+      "year": 1300,
+      "estimate": 100000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q3826",
+          "url": "https://www.wikidata.org/wiki/Q3826",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Muscat",
+          "url": "https://en.wikipedia.org/wiki/Muscat"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Historic port of Oman (various polities, settled antiquity onward) that served as the main entrepôt for the Arabian Sea trade between India, East Africa, and the Persian Gulf; its strategic position at the mouth of the Gulf made it contested between Portuguese, Omani Yarubid, Safavid Persian, and later Omani Bu Saidi imams; the Ibadi Imamate tradition that characterises Oman's political culture has roots in the early Islamic period.",
+  "temporal": {
+    "start_year": 500,
+    "end_year": 1500,
+    "notes": ""
+  },
+  "geographic": {
+    "centroid": [
+      23.6929,
+      56.9244
+    ],
+    "polygon_simplified": [
+      [
+        [
+          22.2792,
+          59.8373
+        ],
+        [
+          22.1893,
+          57.7165
+        ],
+        [
+          23.5191,
+          55.5544
+        ],
+        [
+          24.7335,
+          54.7708
+        ],
+        [
+          25.02,
+          55.0908
+        ],
+        [
+          25.4202,
+          55.4572
+        ],
+        [
+          25.373,
+          55.5305
+        ],
+        [
+          25.4532,
+          55.6335
+        ],
+        [
+          25.7716,
+          56.0155
+        ],
+        [
+          25.9665,
+          56.1567
+        ],
+        [
+          26.1597,
+          56.2973
+        ],
+        [
+          26.2361,
+          56.3671
+        ],
+        [
+          25.8614,
+          56.405
+        ],
+        [
+          25.5433,
+          56.2148
+        ],
+        [
+          25.4733,
+          56.1613
+        ],
+        [
+          25.4624,
+          56.2816
+        ],
+        [
+          25.4547,
+          56.366
+        ],
+        [
+          25.3087,
+          56.4063
+        ],
+        [
+          25.08,
+          56.4065
+        ],
+        [
+          24.9187,
+          56.4053
+        ],
+        [
+          24.8195,
+          56.4054
+        ],
+        [
+          24.4769,
+          56.6108
+        ],
+        [
+          24.2676,
+          56.7942
+        ],
+        [
+          23.9825,
+          57.1462
+        ],
+        [
+          23.837,
+          57.3963
+        ],
+        [
+          23.8052,
+          57.451
+        ],
+        [
+          23.5711,
+          57.9042
+        ],
+        [
+          23.5016,
+          58.0807
+        ],
+        [
+          23.4955,
+          58.2053
+        ],
+        [
+          23.5088,
+          58.4647
+        ],
+        [
+          23.4583,
+          58.6285
+        ],
+        [
+          23.0208,
+          59.0216
+        ],
+        [
+          22.729,
+          59.2543
+        ],
+        [
+          22.5389,
+          59.4614
+        ],
+        [
+          22.3745,
+          59.8257
+        ],
+        [
+          22.2792,
+          59.8373
+        ]
+      ]
+    ],
+    "capital": {
+      "name": "Muscat",
+      "coords": [
+        23.59,
+        58.41
+      ],
+      "source": "curated"
+    }
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "ibadi_imamate",
+      "years": "700-900",
+      "description": "Ibadi Islamic state formed in Oman; Muscat was a key port for Indian Ocean trade.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q3826",
+          "url": "https://www.wikidata.org/wiki/Q3826"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Muscat",
+          "url": "https://en.wikipedia.org/wiki/Muscat"
+        }
+      ]
+    },
+    {
+      "phase": "commercial_peak",
+      "years": "900-1300",
+      "description": "Muscat and Sohar were major entrepots linking Persian Gulf trade to the Indian Ocean network.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q3826",
+          "url": "https://www.wikidata.org/wiki/Q3826"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Muscat",
+          "url": "https://en.wikipedia.org/wiki/Muscat"
+        }
+      ]
+    },
+    {
+      "phase": "hormuz_competition",
+      "years": "1300-1500",
+      "description": "Rise of the Kingdom of Hormuz as a rival Gulf commercial power reduced Muscat's relative importance.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q3826",
+          "url": "https://www.wikidata.org/wiki/Q3826"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Muscat",
+          "url": "https://en.wikipedia.org/wiki/Muscat"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "natural_harbour",
+      "layer": "geography_territory",
+      "description": "Muscat's sheltered harbour was one of the finest on the Arabian Sea coast.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q3826",
+          "url": "https://www.wikidata.org/wiki/Q3826"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Muscat",
+          "url": "https://en.wikipedia.org/wiki/Muscat"
+        }
+      ]
+    },
+    {
+      "tag": "ibadi_network",
+      "layer": "ideology_religion",
+      "description": "Ibadi Islam created a distinct mercantile identity linked to diaspora communities across the Indian Ocean.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q3826",
+          "url": "https://www.wikidata.org/wiki/Q3826"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Muscat",
+          "url": "https://en.wikipedia.org/wiki/Muscat"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "hormuz_competition",
+      "layer": "economic_commercial",
+      "description": "Hormuz emerged as the dominant Gulf entrepot, diverting trade away from Muscat.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q3826",
+          "url": "https://www.wikidata.org/wiki/Q3826"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Muscat",
+          "url": "https://en.wikipedia.org/wiki/Muscat"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Al-Julanda ibn Masud",
+      "role": "ibadi_imam",
+      "years": "750–752",
+      "year_start": 750,
+      "year_end": 752,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Al-Julanda ibn Masud",
+          "url": "https://en.wikipedia.org/wiki/Al-Julanda_ibn_Masud"
+        }
+      ]
+    },
+    {
+      "name": "Ahmad ibn Said",
+      "role": "ancestor_of_modern_dynasty",
+      "years": "1749–1783",
+      "year_start": 1749,
+      "year_end": 1783,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Ahmad ibn Said",
+          "url": "https://en.wikipedia.org/wiki/Ahmad_ibn_Said"
+        }
+      ]
+    }
+  ],
+  "economic": {
+    "primary_base": "maritime_trade",
+    "secondary_bases": [
+      "fishing",
+      "date_farming",
+      "pearl_diving"
+    ],
+    "wealth_level": "moderate",
+    "major_exports": [
+      "horses",
+      "dates",
+      "fish",
+      "pearls"
+    ],
+    "major_trade_partners": [
+      "abbasid_caliphate",
+      "india_general",
+      "east_africa_ports"
+    ],
+    "revenue_sources": [
+      "port_duties",
+      "transit_trade_fees",
+      "fishing_tax"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q3826",
+        "url": "https://www.wikidata.org/wiki/Q3826"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Muscat",
+        "url": "https://en.wikipedia.org/wiki/Muscat"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q3826",
+    "matched_name": "Muscat",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Muscat",
+    "population_from_wikidata": [
+      {
+        "estimate": 695432,
+        "confidence": "low",
+        "year": 2005
+      },
+      {
+        "estimate": 1421409,
+        "confidence": "low",
+        "year": 2019
+      }
+    ]
+  },
+  "monogram": "MU"
+}

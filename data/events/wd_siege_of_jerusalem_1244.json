@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_jerusalem_1244",
+  "name": "Siege of Jerusalem",
+  "year": 1244,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    31.8,
+    35.2
+  ],
+  "entity": "kingdom_of_jerusalem",
+  "summary": "Siege of Jerusalem (1244 CE), at Jerusalem (part of Crusades). Source: Wikidata Q3849563.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_jerusalem"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

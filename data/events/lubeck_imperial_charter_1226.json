@@ -1,0 +1,30 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "lubeck_imperial_charter_1226",
+  "name": "Lübeck made Free Imperial City",
+  "year": 1226,
+  "type": "economic",
+  "category": "economy",
+  "coords": [
+    53.8655,
+    10.6866
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Emperor Frederick II grants Lübeck the status of Reichsstadt (Free Imperial City), confirming its autonomy from territorial princes and its right to direct relations with the Empire. Lübeck becomes the model and de-facto capital of the developing Hanseatic league.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire"
+    ],
+    "structural_significance": "Institutional precondition for the Hanseatic League, Lübeck's status as a sovereign imperial city under no territorial prince becomes the template for other Hansa towns and underpins the league's diplomatic capacity.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "abu_lughod_before_european_hegemony_1989"
+    ],
+    "confidence": "low"
+  }
+}

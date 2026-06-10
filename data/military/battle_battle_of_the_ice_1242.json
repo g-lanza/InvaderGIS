@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_the_ice_1242",
+  "name": "Battle of the Ice",
+  "subtype": "battle",
+  "start_year": 1242,
+  "end_year": 1242,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q14689"
+    }
+  },
+  "description": "Battle during Northern Crusades (1242)",
+  "coords": [
+    27.5,
+    58.2333
+  ]
+}

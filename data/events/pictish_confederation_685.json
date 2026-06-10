@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "pictish_confederation_685",
+  "name": "Battle of Nechtansmere",
+  "year": 685,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    57,
+    -4
+  ],
+  "entity": "pictish_confederation",
+  "summary": "The Battle of Nechtansmere (685 CE) was the decisive Pictish victory over the Northumbrian king Ecgfrith, killing him and ending Northumbrian expansion northward. The battle preserved Pictish independence and prevented Anglian cultural domination of Scotland north of the Firth of Forth.",
+  "outcomes": [
+    "northumbrian_advance_halted",
+    "scots_independence_preserved",
+    "pictish_power_peaks"
+  ],
+  "_quarry": {
+    "participants": [
+      "pictish_confederation"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

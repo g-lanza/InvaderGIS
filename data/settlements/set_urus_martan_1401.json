@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_urus_martan_1401",
+  "name": "Urus-Martan",
+  "importance": "city",
+  "start_year": 1401,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q196845"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    45.5366,
+    43.1224
+  ]
+}

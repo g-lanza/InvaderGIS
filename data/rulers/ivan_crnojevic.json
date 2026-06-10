@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ivan_crnojevic",
+  "name": "Ivan Crnojevic",
+  "polity": "principality_of_zeta",
+  "title": "ruler",
+  "reign_start": 1490,
+  "reign_end": null,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "principality_of_zeta",
+        "role": "ruler",
+        "start_year": 1490,
+        "end_year": null
+      }
+    ],
+    "key_actions": [],
+    "region": "southeastern_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

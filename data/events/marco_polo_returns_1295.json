@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "marco_polo_returns_1295",
+  "name": "Marco Polo returns to Venice",
+  "year": 1295,
+  "type": "economic",
+  "category": "economy",
+  "coords": [
+    45.4408,
+    12.3155
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Marco Polo, his father Niccolò, and uncle Maffeo return to Venice after 24 years of travel through the Mongol world, having served Kublai Khan in administrative and ambassadorial roles. Captured in a Venetian-Genoese sea battle (1298), Marco dictates his Travels to fellow prisoner Rustichello of Pisa.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "ilkhanate"
+    ],
+    "structural_significance": "Definitive medieval European travelogue of inner Asia and China; despite scholarly debate over whether Marco actually reached the places he describes, the work supplies the European geographic imagination of the Far East until the 16th century.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "abu_lughod_before_european_hegemony_1989",
+      "hansen_silk_road_new_history_2012"
+    ],
+    "confidence": "low"
+  }
+}

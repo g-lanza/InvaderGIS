@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_venice_doge_697_c01",
+  "statement": "According to later tradition, the lagoon communities of the Veneto elected Paoluccio Anafesto as the first Doge of Venice in 697.",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 697,
+    "to": 697
+  },
+  "derived_from": "venice_doge_697",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_capture_of_aceca_1130_c01",
+  "statement": "Capture of Aceca (1130 CE), at Aceca, Toledo (part of Almoravid conquest of al-Andalus).",
+  "subject_ids": [
+    "almoravid_emirate_iberia"
+  ],
+  "period": {
+    "from": 1130,
+    "to": 1130
+  },
+  "derived_from": "wd_capture_of_aceca_1130",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_the_2004",
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

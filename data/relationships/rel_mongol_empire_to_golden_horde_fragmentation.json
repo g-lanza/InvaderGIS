@@ -1,0 +1,38 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_mongol_empire_to_golden_horde_fragmentation",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "mongol_empire",
+      "role": "parent"
+    },
+    {
+      "entity_id": "golden_horde",
+      "role": "fragment"
+    }
+  ],
+  "directed": true,
+  "type": "fragmentation",
+  "since": 1240,
+  "until": 1240,
+  "note": "Derived from predecessor/successor links recorded in the mongol_empire and golden_horde entity records. Transition anchored to golden_horde start_year.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Mechanical normalisation of curated predecessor/successor links into the relationships register."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009",
+      "halperin_russia_1985",
+      "allsen_mongol_1987"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_county_of_barcelona_878_c01",
+  "statement": "Wilfred the Hairy received the County of Barcelona as a hereditary possession in 878, breaking the tradition of Frankish royal appointment.",
+  "subject_ids": [
+    "county_of_barcelona"
+  ],
+  "period": {
+    "from": 878,
+    "to": 878
+  },
+  "derived_from": "county_of_barcelona_878",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

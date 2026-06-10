@@ -1,0 +1,852 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_pagan",
+  "name_primary": "Pagan Kingdom",
+  "name_variants": [
+    "Kingdom of Pagan"
+  ],
+  "type": "kingdom",
+  "region": "southeast_asia",
+  "formed": 849,
+  "dissolved": 1297,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 900,
+      "label": "Pagan",
+      "polygon": [
+        [
+          19.12,
+          96.7
+        ],
+        [
+          18.59,
+          94.24
+        ],
+        [
+          19.19,
+          93.97
+        ],
+        [
+          22.3,
+          94.3
+        ],
+        [
+          22.68,
+          94.88
+        ],
+        [
+          22.64,
+          95.9
+        ],
+        [
+          21.76,
+          96.48
+        ],
+        [
+          19.12,
+          96.7
+        ]
+      ]
+    },
+    {
+      "year": 1200,
+      "label": "Pagan",
+      "polygon": [
+        [
+          21.66,
+          99.48
+        ],
+        [
+          18.88,
+          97.53
+        ],
+        [
+          19.1,
+          97.44
+        ],
+        [
+          19.12,
+          96.7
+        ],
+        [
+          21.76,
+          96.48
+        ],
+        [
+          22.64,
+          95.9
+        ],
+        [
+          22.68,
+          94.88
+        ],
+        [
+          22.3,
+          94.3
+        ],
+        [
+          18.95,
+          93.84
+        ],
+        [
+          19.17,
+          93.46
+        ],
+        [
+          19.26,
+          93.81
+        ],
+        [
+          19.59,
+          93.72
+        ],
+        [
+          20.03,
+          93.33
+        ],
+        [
+          20.11,
+          92.89
+        ],
+        [
+          20.37,
+          92.92
+        ],
+        [
+          20.4,
+          92.66
+        ],
+        [
+          20.89,
+          92.18
+        ],
+        [
+          22.72,
+          91.41
+        ],
+        [
+          24.96,
+          93.72
+        ],
+        [
+          25.2,
+          98.63
+        ],
+        [
+          21.66,
+          99.48
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    22.03,
+    97.8466
+  ],
+  "population_estimates": [
+    {
+      "year": 1100,
+      "estimate": 1500000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q888574",
+          "url": "https://www.wikidata.org/wiki/Q888574",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Pagan",
+          "url": "https://en.wikipedia.org/wiki/Pagan_kingdom"
+        }
+      ]
+    },
+    {
+      "year": 1150,
+      "estimate": 1750000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q888574",
+          "url": "https://www.wikidata.org/wiki/Q888574",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Pagan",
+          "url": "https://en.wikipedia.org/wiki/Pagan_kingdom"
+        }
+      ]
+    },
+    {
+      "year": 1200,
+      "estimate": 2000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q888574",
+          "url": "https://www.wikidata.org/wiki/Q888574",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Pagan",
+          "url": "https://en.wikipedia.org/wiki/Pagan_kingdom"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Burmese kingdom (849–1297) that first unified the Irrawaddy valley; Anawrahta's conquest of the Mon city of Thaton (1057) introduced Theravada Buddhism and Mon script, which Pagan's kings sponsored in building over 3,000 temples and pagodas in the Bagan plain, the largest concentration of Buddhist monuments in mainland Southeast Asia; Mongol tributary pressure and internal fragmentation ended Pagan's centralised control.",
+  "temporal": {
+    "start_year": 849,
+    "end_year": 1297,
+    "notes": ""
+  },
+  "geographic": {
+    "centroid": [
+      22.03,
+      97.8466
+    ],
+    "polygon_simplified": [
+      [
+        21.66,
+        99.48
+      ],
+      [
+        18.88,
+        97.53
+      ],
+      [
+        19.1,
+        97.44
+      ],
+      [
+        19.12,
+        96.7
+      ],
+      [
+        21.76,
+        96.48
+      ],
+      [
+        22.64,
+        95.9
+      ],
+      [
+        22.68,
+        94.88
+      ],
+      [
+        22.3,
+        94.3
+      ],
+      [
+        18.95,
+        93.84
+      ],
+      [
+        19.17,
+        93.46
+      ],
+      [
+        19.26,
+        93.81
+      ],
+      [
+        19.59,
+        93.72
+      ],
+      [
+        20.03,
+        93.33
+      ],
+      [
+        20.11,
+        92.89
+      ],
+      [
+        20.37,
+        92.92
+      ],
+      [
+        20.4,
+        92.66
+      ],
+      [
+        20.89,
+        92.18
+      ],
+      [
+        22.72,
+        91.41
+      ],
+      [
+        24.96,
+        93.72
+      ],
+      [
+        25.2,
+        98.63
+      ],
+      [
+        21.66,
+        99.48
+      ]
+    ],
+    "capital": {
+      "name": "Bagan",
+      "coords": [
+        21.1725,
+        94.86
+      ],
+      "source": "wikidata"
+    },
+    "polygon_snapshots": [
+      {
+        "year": 900,
+        "label": "Pagan",
+        "polygon": [
+          [
+            19.12,
+            96.7
+          ],
+          [
+            18.59,
+            94.24
+          ],
+          [
+            19.19,
+            93.97
+          ],
+          [
+            22.3,
+            94.3
+          ],
+          [
+            22.68,
+            94.88
+          ],
+          [
+            22.64,
+            95.9
+          ],
+          [
+            21.76,
+            96.48
+          ],
+          [
+            19.12,
+            96.7
+          ]
+        ]
+      },
+      {
+        "year": 1200,
+        "label": "Pagan",
+        "polygon": [
+          [
+            21.66,
+            99.48
+          ],
+          [
+            18.88,
+            97.53
+          ],
+          [
+            19.1,
+            97.44
+          ],
+          [
+            19.12,
+            96.7
+          ],
+          [
+            21.76,
+            96.48
+          ],
+          [
+            22.64,
+            95.9
+          ],
+          [
+            22.68,
+            94.88
+          ],
+          [
+            22.3,
+            94.3
+          ],
+          [
+            18.95,
+            93.84
+          ],
+          [
+            19.17,
+            93.46
+          ],
+          [
+            19.26,
+            93.81
+          ],
+          [
+            19.59,
+            93.72
+          ],
+          [
+            20.03,
+            93.33
+          ],
+          [
+            20.11,
+            92.89
+          ],
+          [
+            20.37,
+            92.92
+          ],
+          [
+            20.4,
+            92.66
+          ],
+          [
+            20.89,
+            92.18
+          ],
+          [
+            22.72,
+            91.41
+          ],
+          [
+            24.96,
+            93.72
+          ],
+          [
+            25.2,
+            98.63
+          ],
+          [
+            21.66,
+            99.48
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "real_historical_boundary",
+    "polygon_source": "aourednik/historical-basemaps",
+    "polygon_source_date": "2026-05-09"
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "formation",
+      "years": "849–1044",
+      "description": "Burmese Pagan kingdom emerges in the Irrawaddy dry zone; control of overland trade routes",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q888574",
+          "url": "https://www.wikidata.org/wiki/Q888574"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Pagan",
+          "url": "https://en.wikipedia.org/wiki/Pagan_kingdom"
+        }
+      ]
+    },
+    {
+      "phase": "peak",
+      "years": "1044–1211",
+      "description": "Anawrahta conquers Thaton (1057) and introduces Theravada Buddhism and Mon script; 3,000+ temples built in Bagan plain; Narathu, Narapatisithu expand south",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q888574",
+          "url": "https://www.wikidata.org/wiki/Q888574"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Pagan",
+          "url": "https://en.wikipedia.org/wiki/Pagan_kingdom"
+        }
+      ]
+    },
+    {
+      "phase": "decline",
+      "years": "1211–1287",
+      "description": "Mongol tributary demands escalate; internal princely fragmentation; Pagan unable to maintain military mobilisation",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q888574",
+          "url": "https://www.wikidata.org/wiki/Q888574"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Pagan",
+          "url": "https://en.wikipedia.org/wiki/Pagan_kingdom"
+        }
+      ]
+    },
+    {
+      "phase": "dissolution",
+      "years": "1287",
+      "description": "Mongol attack and Pagan's sack end centralised control; Shan, Mon, and Burmese successor states fragment the former kingdom",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q888574",
+          "url": "https://www.wikidata.org/wiki/Q888574"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Pagan",
+          "url": "https://en.wikipedia.org/wiki/Pagan_kingdom"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "military_organizational_advantage",
+      "layer": "military_security",
+      "description": "Anawrahta's military reform incorporated Mon technical expertise in siege warfare and Theravada monastic networks for administrative reach",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q888574",
+          "url": "https://www.wikidata.org/wiki/Q888574"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Pagan",
+          "url": "https://en.wikipedia.org/wiki/Pagan_kingdom"
+        }
+      ]
+    },
+    {
+      "tag": "religious_legitimacy",
+      "layer": "ideology_religion",
+      "description": "Theravada Buddhism unified the ethnically diverse kingdom through shared religious practice and legitimised royal authority through merit accumulation",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q888574",
+          "url": "https://www.wikidata.org/wiki/Q888574"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Pagan",
+          "url": "https://en.wikipedia.org/wiki/Pagan_kingdom"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "overextension",
+      "layer": "military_security",
+      "description": "Mongol demands for tribute and military service were incompatible with maintaining Pagan's internal temple economy and corvée system",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q888574",
+          "url": "https://www.wikidata.org/wiki/Q888574"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Pagan",
+          "url": "https://en.wikipedia.org/wiki/Pagan_kingdom"
+        }
+      ],
+      "tag_prose": "military_overextension"
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Anawrahta",
+      "role": "ruler",
+      "years": "1044–1077",
+      "year_start": 1044,
+      "year_end": 1077,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Anawrahta",
+          "url": "https://en.wikipedia.org/wiki/Anawrahta"
+        }
+      ]
+    },
+    {
+      "name": "Kyanzittha",
+      "role": "ruler",
+      "years": "1084–1113",
+      "year_start": 1084,
+      "year_end": 1113,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Kyanzittha",
+          "url": "https://en.wikipedia.org/wiki/Kyansittha"
+        }
+      ]
+    },
+    {
+      "name": "Narapatisithu",
+      "role": "ruler",
+      "years": "1174–1211",
+      "year_start": 1174,
+      "year_end": 1211,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Narapatisithu",
+          "url": "https://en.wikipedia.org/wiki/Narapatisithu"
+        }
+      ]
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "temple_economy",
+      "long_distance_trade",
+      "cotton"
+    ],
+    "wealth_level": "high",
+    "major_exports": [
+      "cotton",
+      "rice",
+      "jade",
+      "precious_stones"
+    ],
+    "major_trade_partners": [
+      "song_empire",
+      "khmer_empire",
+      "srivijaya_empire"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "temple_revenues",
+      "trade_duties"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q888574",
+        "url": "https://www.wikidata.org/wiki/Q888574"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Kingdom of Pagan",
+        "url": "https://en.wikipedia.org/wiki/Pagan_kingdom"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q888574",
+    "matched_name": "manual/kingdom_of_pagan",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pagan_kingdom",
+    "capital": {
+      "name": "Bagan",
+      "coords": [
+        21.1725,
+        94.86
+      ]
+    },
+    "rulers_from_wikidata": [
+      {
+        "name": "Agga Mahethi of Pagan",
+        "qid": "Q20810387",
+        "year_start": 1048,
+        "year_end": 1077,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q20810387",
+            "url": "https://www.wikidata.org/wiki/Q20810387"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Agga Mahethi of Pagan",
+            "url": "https://en.wikipedia.org/wiki/Agga_Mahethi_of_Pagan"
+          }
+        ]
+      },
+      {
+        "name": "Khin Tan",
+        "qid": "Q6401686",
+        "year_start": 1084,
+        "year_end": 1113,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q6401686",
+            "url": "https://www.wikidata.org/wiki/Q6401686"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Khin Tan",
+            "url": "https://en.wikipedia.org/wiki/Khin_Tan"
+          }
+        ]
+      },
+      {
+        "name": "Ti Lawka Sanda Dewi",
+        "qid": "Q23619436",
+        "year_start": 1112,
+        "year_end": 1150,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q23619436",
+            "url": "https://www.wikidata.org/wiki/Q23619436"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ti Lawka Sanda Dewi",
+            "url": "https://en.wikipedia.org/wiki/Ti_Lawka_Sanda_Dewi"
+          }
+        ]
+      },
+      {
+        "name": "Yazakumari of Pagan",
+        "qid": "Q24969943",
+        "year_start": 1112,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q24969943",
+            "url": "https://www.wikidata.org/wiki/Q24969943"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Yazakumari of Pagan",
+            "url": "https://en.wikipedia.org/wiki/Yazakumari_of_Pagan"
+          }
+        ]
+      },
+      {
+        "name": "Saw Ahlwan of Pagan",
+        "qid": "Q24969950",
+        "year_start": 1171,
+        "year_end": 1190,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q24969950",
+            "url": "https://www.wikidata.org/wiki/Q24969950"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Saw Ahlwan of Pagan",
+            "url": "https://en.wikipedia.org/wiki/Saw_Ahlwan_of_Pagan"
+          }
+        ]
+      },
+      {
+        "name": "Weluwaddy",
+        "qid": "Q13076826",
+        "year_start": 1174,
+        "year_end": 1174,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q13076826",
+            "url": "https://www.wikidata.org/wiki/Q13076826"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Weluwaddy",
+            "url": "https://en.wikipedia.org/wiki/Weluwaddy"
+          }
+        ]
+      },
+      {
+        "name": "Wadanthika",
+        "qid": "Q24969974",
+        "year_start": 1190,
+        "year_end": 1190,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q24969974",
+            "url": "https://www.wikidata.org/wiki/Q24969974"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Wadanthika",
+            "url": "https://en.wikipedia.org/wiki/Wadanthika"
+          }
+        ]
+      },
+      {
+        "name": "Saw Mya Kan of Pagan",
+        "qid": "Q24969980",
+        "year_start": 1190,
+        "year_end": 1211,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q24969980",
+            "url": "https://www.wikidata.org/wiki/Q24969980"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Saw Mya Kan of Pagan",
+            "url": "https://en.wikipedia.org/wiki/Saw_Mya_Kan_of_Pagan"
+          }
+        ]
+      },
+      {
+        "name": "Saw Mi Pyan of Pagan",
+        "qid": "Q24969981",
+        "year_start": 1211,
+        "year_end": 1231,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q24969981",
+            "url": "https://www.wikidata.org/wiki/Q24969981"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Saw Mi Pyan of Pagan",
+            "url": "https://en.wikipedia.org/wiki/Saw_Mi_Pyan_of_Pagan"
+          }
+        ]
+      },
+      {
+        "name": "Mi Saw U",
+        "qid": "Q6827020",
+        "year_start": 1289,
+        "year_end": 1297,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q6827020",
+            "url": "https://www.wikidata.org/wiki/Q6827020"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mi Saw U",
+            "url": "https://en.wikipedia.org/wiki/Mi_Saw_U"
+          }
+        ]
+      }
+    ]
+  },
+  "monogram": "PK"
+}

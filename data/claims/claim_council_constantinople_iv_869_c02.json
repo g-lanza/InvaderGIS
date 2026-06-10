@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_council_constantinople_iv_869_c02",
+  "statement": "The 869 council is recognized as the Eighth Ecumenical Council in the Latin West but not in the Greek East.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 869,
+    "to": 869
+  },
+  "derived_from": "council_constantinople_iv_869",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "meyendorff_byzantium_and_rise_of_russia_1981"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

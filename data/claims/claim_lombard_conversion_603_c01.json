@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_lombard_conversion_603_c01",
+  "statement": "The Lombard Queen Theodelinda, encouraged by Pope Gregory the Great, moved the Lombard kingdom toward Catholic Christianity from Arianism around 603.",
+  "subject_ids": [
+    "lombard_kingdom"
+  ],
+  "period": {
+    "from": 603,
+    "to": 603
+  },
+  "derived_from": "lombard_conversion_603",
+  "unresolved_sources": [
+    "christie_the_1995"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "deacon_history_1907"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_serres_1205",
+  "name": "Battle of Serres",
+  "year": 1205,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    42.05,
+    27.25
+  ],
+  "entity": "latin_empire_constantinople",
+  "summary": "Battle of Serres (1205 CE), at Serres (part of Bulgarian–Latin Wars). Source: Wikidata Q3544422.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "latin_empire_constantinople",
+      "second_bulgarian_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

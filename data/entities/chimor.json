@@ -1,0 +1,133 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "chimor",
+  "name_primary": "Chimor",
+  "name_variants": [
+    "Kingdom of Chimor",
+    "Chimú"
+  ],
+  "type": "kingdom",
+  "region": "andean",
+  "formed": 900,
+  "dissolved": 1470,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    -8.106,
+    -79.075
+  ],
+  "religion": "Coastal Andean polytheism (Si moon-god central)",
+  "population_estimates": [
+    {
+      "year": 1450,
+      "estimate": 60000,
+      "confidence": "moderate",
+      "note": "Chan Chan resident population estimate; total kingdom likely ~600,000."
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "daltroy_incas_2014"
+    ],
+    "confidence": "low"
+  },
+  "description": "Late-Intermediate Period kingdom occupying the north coast of present-day Peru, with its capital at Chan Chan, a planned earthen-walled city of some twelve square kilometres, the largest pre-Columbian urban centre in the Americas before Tenochtitlan. Chimor's coastal-irrigation polity controlled a thousand-kilometre stretch from Tumbes south to the Lima area until the late-fifteenth-century Inca conquest under Tupac Inca Yupanqui absorbed it into Tawantinsuyu.",
+  "temporal": {
+    "start_year": 900,
+    "end_year": 1470,
+    "end_year_within_scope": 1470,
+    "notes": "North-coast Peruvian kingdom centred on Chan Chan; absorbed by the Inca conquest under Tupac Inca Yupanqui around 1470."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      -8.106,
+      -79.075
+    ],
+    "core_regions": [
+      "north_coast_peru"
+    ],
+    "notes": "Centroid set at Chan Chan near modern Trujillo."
+  },
+  "lifecycle_phases": [
+    {
+      "start_year": 900,
+      "end_year": 1100,
+      "description": "Early Chimor consolidation around Chan Chan after collapse of Moche.",
+      "phase": "formation"
+    },
+    {
+      "start_year": 1100,
+      "end_year": 1300,
+      "description": "Hydraulic expansion across north-coast valleys; Chan Chan reaches monumental form.",
+      "phase": "expansion"
+    },
+    {
+      "start_year": 1300,
+      "end_year": 1470,
+      "description": "Late Chimor reaches Tumbes in the north; Inca conquest c. 1470 ends independent rule.",
+      "phase": "peak"
+    }
+  ],
+  "rise_factors": [
+    {
+      "layer": "economic_commercial",
+      "direction": "rise",
+      "tag": "resource_concentration",
+      "description": "Engineered canals linking the Moche, Chicama, and Jequetepeque valleys irrigated tens of thousands of hectares of coastal desert.",
+      "sources": [
+        "daltroy_incas_2014"
+      ],
+      "tag_prose": "hydraulic_agriculture"
+    },
+    {
+      "layer": "governance_institutional",
+      "direction": "rise",
+      "tag": "administrative_innovation",
+      "description": "Ciudadela compound system, each king built a new walled palace, sealed at death, gave continuity to a dynastic-administrative apparatus.",
+      "sources": [
+        "daltroy_incas_2014"
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "layer": "external_political",
+      "direction": "decline",
+      "tag": "external_displacement",
+      "description": "Topa Inca Yupanqui's c. 1470 conquest absorbed Chimor into Tawantinsuyu, ending independent rule.",
+      "sources": [
+        "daltroy_incas_2014"
+      ]
+    }
+  ],
+  "predecessor_entity_ids": [
+    "wari"
+  ],
+  "successor_entity_ids": [
+    "inca_empire"
+  ],
+  "economic": {
+    "primary_base": "irrigation-fed coastal agriculture",
+    "secondary_bases": [
+      "maritime fishing",
+      "metallurgy (gold, silver, copper)"
+    ],
+    "wealth_level": "high",
+    "sources": [
+      "daltroy_incas_2014"
+    ]
+  },
+  "sources": [
+    {
+      "type": "book",
+      "author": "D'Altroy, Terence N.",
+      "title": "The Incas",
+      "publisher": "Wiley-Blackwell",
+      "year": 2014
+    }
+  ],
+  "monogram": "CH"
+}

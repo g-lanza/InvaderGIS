@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_olivenza_1228",
+  "name": "Olivenza",
+  "importance": "city",
+  "start_year": 1228,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q120170977"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    -7.1005,
+    38.6827
+  ]
+}

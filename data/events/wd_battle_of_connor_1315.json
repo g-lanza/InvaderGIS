@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_connor_1315",
+  "name": "Battle of Connor",
+  "year": 1315,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    54,
+    -4.3333
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Battle of Connor (1315 CE), at Kells (part of Bruce campaign in Ireland). Source: Wikidata Q4870784.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "kingdom_of_scotland",
+      "lordship_of_ireland"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

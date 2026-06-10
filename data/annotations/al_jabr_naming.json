@@ -1,0 +1,29 @@
+{
+  "id": "al_jabr_naming",
+  "kind": "annotation",
+  "dataset": "medieval",
+  "target_id": "al_jabr",
+  "target_kind": "text",
+  "anchor": {
+    "quote": "That fondness for science, by which God has distinguished the Imam al-Mamun, the Commander of the Faithful... has encouraged me to compose a short work on calculating by al-jabr and al-muqabala, confining it to what is easiest and most useful in arithmetic.",
+    "locator": "Dedication"
+  },
+  "body": "Al-Khwarizmi's dedication to the Abbasid caliph al-Mamun. The word 'al-jabr' (completion/restoration) gives us 'algebra'; the Latinization of the author's name gives us 'algorithm'. A direct line from Abbasid Baghdad's House of Wisdom into the European mathematical vocabulary.",
+  "links_to": [
+    "abbasid_caliphate"
+  ],
+  "tags": [
+    "mathematics",
+    "science",
+    "baghdad",
+    "transmission"
+  ],
+  "provenance": {
+    "status": "draft",
+    "confidence": "high",
+    "attestation": "strong",
+    "sources_used": [
+      "al_jabr"
+    ]
+  }
+}

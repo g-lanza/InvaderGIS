@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_santiago_de_compostela_campaign_997_c01",
+  "statement": "Santiago de Compostela campaign (997 CE), at Santiago de Compostela (part of Reconquista).",
+  "subject_ids": [
+    "caliphate_of_cordoba"
+  ],
+  "period": {
+    "from": 997,
+    "to": 997
+  },
+  "derived_from": "wd_santiago_de_compostela_campaign_997",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_muslim_1996",
+      "scales_the_1994"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

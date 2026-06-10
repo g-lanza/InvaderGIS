@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_reconquista_cordoba_1236_c01",
+  "statement": "Ferdinand III of Castile captured Cordoba on 29 June 1236.",
+  "subject_ids": [
+    "crown_of_castile"
+  ],
+  "period": {
+    "from": 1236,
+    "to": 1236
+  },
+  "derived_from": "reconquista_cordoba_1236",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "o'callaghan_a_1975",
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "leon_1230",
+  "name": "Permanent Union of León and Castile",
+  "year": 1230,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.8,
+    -4.8
+  ],
+  "entity": "kingdom_of_leon",
+  "summary": "The permanent union of the crowns of León and Castile in 1230 under Ferdinand III created the largest Christian kingdom in Iberia. This consolidation dramatically accelerated the Reconquista, leading to the conquest of Córdoba (1236), Seville (1248), and most of al-Andalus.",
+  "outcomes": [
+    "iberian_unification",
+    "reconquista_accelerated",
+    "unified_iberian_crown"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_leon",
+      "kingdom_of_castile"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

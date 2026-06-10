@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_naulochon_smyrna_palaia_smyrna_500",
+  "name": "Naulochon/Smyrna/Palaia Smyrna",
+  "importance": "city",
+  "start_year": 500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "inferred",
+    "external_ids": {
+      "pleiades": "550771"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    27.1704,
+    38.464
+  ]
+}

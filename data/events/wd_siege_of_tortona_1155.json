@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_tortona_1155",
+  "name": "Siege of Tortona",
+  "year": 1155,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    50,
+    10.5
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Siege of Tortona (1155 CE), at Tortona (part of Guelphs and Ghibellines). Source: Wikidata Q55633165.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

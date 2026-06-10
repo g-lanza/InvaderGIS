@@ -1,0 +1,37 @@
+{
+  "kind": "technology",
+  "dataset": "medieval-europe-500-1500",
+  "id": "mechanical_clock",
+  "name_primary": "Mechanical Clock",
+  "domain": "other",
+  "origin": {
+    "place": "Western Europe (likely England or northern Italy)",
+    "year": 1280
+  },
+  "materials": [
+    "iron",
+    "brass",
+    "bronze bells",
+    "lead weights",
+    "foliot or verge escapement"
+  ],
+  "diffusion": [
+    "Kingdom of England",
+    "Italian city-states",
+    "Kingdom of France",
+    "Holy Roman Empire",
+    "Crown of Castile"
+  ],
+  "_quarry": {
+    "description": "The weight-driven mechanical clock regulated by a verge-and-foliot escapement appeared in western Europe in the late 13th century, with documented large tower clocks at Dunstable Priory (1283) and at Exeter Cathedral (1284). Richard of Wallingford constructed an elaborate astronomical clock at St Albans Abbey in the 1320s–1330s. Unlike earlier water clocks or sundials, the mechanical clock could operate in darkness and cold, making it essential for monastic prayer schedules and later for civic timekeeping. The mechanical clock is regarded as the first significant mechanical invention of purely European origin in the medieval period."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "landes_revolution_1983",
+      "wiki_clock_history"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

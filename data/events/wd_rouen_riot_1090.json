@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_rouen_riot_1090",
+  "name": "Rouen Riot",
+  "year": 1090,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    50.85,
+    -0.35
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Rouen Riot (1090 CE), at Rouen. Source: Wikidata Q134522739.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "duchy_of_normandy"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

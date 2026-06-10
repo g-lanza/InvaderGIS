@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_iyo_kono_uprising_1180",
+  "name": "Iyo Kono Uprising",
+  "subtype": "battle",
+  "start_year": 1180,
+  "end_year": 1180,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q11378826"
+    }
+  },
+  "description": "Battle during Genpei War (1180)",
+  "coords": [
+    132.7587,
+    33.9228
+  ]
+}

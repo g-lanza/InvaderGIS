@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "sweden_christianisation_1008",
+  "name": "Olof Skötkonung, First Christian King of Sweden",
+  "year": 1008,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    60,
+    15
+  ],
+  "entity": "kingdom_of_sweden",
+  "summary": "Olof Skötkonung became the first Swedish king to be baptised, marking the formal beginning of Swedish Christianisation. Pagan resistance continued at Uppsala until the late 11th century.",
+  "outcomes": [
+    "sweden_christianised",
+    "skara_diocese",
+    "pagan_resistance"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_sweden"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_medieval_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

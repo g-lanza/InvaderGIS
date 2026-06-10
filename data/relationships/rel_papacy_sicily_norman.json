@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_papacy_sicily_norman",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "papal_states",
+      "role": "religious_authority"
+    },
+    {
+      "entity_id": "kingdom_of_sicily_norman",
+      "role": "principal"
+    }
+  ],
+  "directed": true,
+  "type": "religious_jurisdiction",
+  "since": 1130,
+  "until": 1198,
+  "note": "Pope Nicholas II recognized Robert Guiscard and his Norman brothers as vassals of the papacy for their Italian and Sicilian conquests (1059), transforming the Normans from opportunistic warlords into papal champions. The arrangement was mutually beneficial: the Normans gained legitimacy for their conquests; the papacy gained a powerful military ally against the Holy Roman Empire. Roger I's conquest of Muslim Sicily (1061–1091) was conducted under papal blessing. The Papal-Norman alliance fundamentally altered Italian politics — the Normans protected Rome from imperial pressure during the Investiture Controversy.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The papal recognition of Norman Sicily as a papal fief creates the most powerful ally the papacy has in its struggle with the Holy Roman Empire; the Norman-papal alliance enables Gregory VII's resistance to Henry IV; the Kingdom of Sicily's subsequent inheritance by the Hohenstaufen (1194) destroys this alliance with catastrophic consequences"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

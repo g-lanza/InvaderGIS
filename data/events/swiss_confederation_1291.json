@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "swiss_confederation_1291",
+  "name": "Swiss Confederation Founded",
+  "year": 1291,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    46.8,
+    8.2
+  ],
+  "entity": "swiss_confederation",
+  "summary": "The Forest Cantons of Uri, Schwyz, and Unterwalden sign the Federal Charter at Rütli Meadow, pledging mutual defense. The confederation gradually adds more cantons; victories at Morgarten (1315) and Sempach (1386) establish Swiss infantry as the most feared in Europe. The name \"Switzerland\" derives from Schwyz.",
+  "outcomes": [
+    "alpine_cantons_united",
+    "habsburg_resisted",
+    "federal_tradition"
+  ],
+  "_quarry": {
+    "participants": [
+      "swiss_confederation"
+    ],
+    "structural_significance": "Creates the oldest surviving federal constitution; the Swiss model of armed neutrality and confederal governance influences modern state theory; Swiss mercenaries reshape European warfare by making infantry the dominant military force.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "marchal_schweizer_2006",
+      "rippmann_die_2006"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_al_lujj_1146",
+  "name": "Battle of al-Lujj",
+  "subtype": "battle",
+  "start_year": 1146,
+  "end_year": 1146,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q11908718"
+    }
+  },
+  "description": "Battle during Andalusi revolt against the Almoravids (1146)",
+  "coords": [
+    -1.7167,
+    38.9167
+  ]
+}

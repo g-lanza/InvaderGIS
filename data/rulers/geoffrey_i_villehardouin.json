@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "geoffrey_i_villehardouin",
+  "name": "Geoffrey I of Villehardouin",
+  "polity": "principality_of_achaea",
+  "title": "dynastic_founder",
+  "reign_start": 1169,
+  "reign_end": 1218,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "principality_of_achaea",
+        "role": "dynastic_founder",
+        "start_year": 1169,
+        "end_year": 1218
+      }
+    ],
+    "key_actions": [],
+    "region": "southeastern_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

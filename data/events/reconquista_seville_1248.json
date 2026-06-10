@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "reconquista_seville_1248",
+  "name": "Ferdinand III Conquers Seville",
+  "year": 1248,
+  "type": "conquest",
+  "category": "violence",
+  "coords": [
+    37.39,
+    -5.99
+  ],
+  "entity": "crown_of_castile",
+  "summary": "Ferdinand III of Castile (later canonized) captures Seville after a 16-month siege, the second-greatest city of al-Andalus after Córdoba (taken in 1236). With Seville's fall, only the emirate of Granada remains as an independent Muslim state in Iberia. Ferdinand installs the Virgin of the Kings in the Great Mosque and establishes Castilian administration. Seville becomes the primary port for Atlantic trade and later the base for American colonial commerce.",
+  "outcomes": [
+    "seville_falls",
+    "guadalquivir_valley_controlled",
+    "only_granada_remains"
+  ],
+  "_quarry": {
+    "participants": [
+      "crown_of_castile",
+      "umayyad_emirate_cordoba"
+    ],
+    "structural_significance": "Seville's conquest marks the practical completion of the Reconquista in Castile (Granada holds out until 1492 through vassal status and geographic advantages); Seville's transformation from Muslim trading center to Castilian administrative capital demonstrates the Reconquista's cultural destruction, the sophisticated Islamic urban culture is largely dismantled; Seville's later designation as monopoly port for American trade (1503) is the direct institutional consequence of the Reconquista's Atlantic terminus",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "o'callaghan_a_1975",
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

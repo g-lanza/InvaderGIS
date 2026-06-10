@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "xixia_mongol_conquest_1227",
+  "name": "Genghis Khan Destroys Xi Xia",
+  "year": 1227,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    40.056,
+    97.528
+  ],
+  "entity": "xixia",
+  "summary": "Genghis Khan died during the final campaign against Xi Xia, but his forces completed the conquest and massacred much of the Tangut population. Xi Xia's systematic destruction meant the loss of most Tangut cultural heritage.",
+  "outcomes": [
+    "xixia_exterminated",
+    "genghis_khan_dies",
+    "tangut_culture_lost"
+  ],
+  "_quarry": {
+    "participants": [
+      "xixia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

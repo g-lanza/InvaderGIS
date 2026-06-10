@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_st_marcellus_flood_1219_c01",
+  "statement": "A North Sea storm surge on 16 January 1219 inundated the Frisian and Holstein coasts, killing an estimated 36,000 people.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1219,
+    "to": 1219
+  },
+  "derived_from": "st_marcellus_flood_1219",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

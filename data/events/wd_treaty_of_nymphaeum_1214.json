@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_treaty_of_nymphaeum_1214",
+  "name": "Treaty of Nymphaeum",
+  "year": 1214,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    40.7,
+    29.3
+  ],
+  "entity": "latin_empire_constantinople",
+  "summary": "Treaty of Nymphaeum (1214 CE), at Kemalpaşa. Source: Wikidata Q2512587.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "latin_empire_constantinople",
+      "empire_of_nicaea"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

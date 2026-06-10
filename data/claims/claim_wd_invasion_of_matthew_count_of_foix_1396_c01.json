@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_invasion_of_matthew_count_of_foix_1396_c01",
+  "statement": "Invasion of Matthew, Count of Foix (1396 CE), at Principality of Catalonia.",
+  "subject_ids": [
+    "crown_of_aragon"
+  ],
+  "period": {
+    "from": 1396,
+    "to": 1396
+  },
+  "derived_from": "wd_invasion_of_matthew_count_of_foix_1396",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

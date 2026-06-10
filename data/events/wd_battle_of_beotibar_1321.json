@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_beotibar_1321",
+  "name": "Battle of Beotibar",
+  "year": 1321,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    42.8,
+    -1.6
+  ],
+  "entity": "kingdom_of_navarre",
+  "summary": "Battle of Beotibar (1321 CE), at Beotibar. Source: Wikidata Q12254993.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_navarre"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

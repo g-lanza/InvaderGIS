@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_corbins_1126",
+  "name": "Battle of Corbins",
+  "year": 1126,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.2,
+    -0.9
+  ],
+  "entity": "almoravid_emirate_iberia",
+  "summary": "Battle of Corbins (1126 CE), at Corbins (part of Almoravid conquest of al-Andalus). Source: Wikidata Q11908733.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "almoravid_emirate_iberia",
+      "county_of_barcelona"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_the_2004",
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

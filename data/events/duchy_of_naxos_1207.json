@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_naxos_1207",
+  "name": "Duchy of the Archipelago Founded",
+  "year": 1207,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    37.1,
+    25.37
+  ],
+  "entity": "duchy_of_naxos",
+  "summary": "Marco Sanudo of Venice established the Duchy of the Archipelago (Duchy of Naxos) in 1207 following the Fourth Crusade's partition of the Byzantine Empire. The duchy comprised the Cyclades and ruled much of the Aegean, maintaining Venetian trade interests and Latin culture in the Greek islands.",
+  "outcomes": [
+    "venetian_control",
+    "aegean_islands_partitioned",
+    "latin_rule_established"
+  ],
+  "_quarry": {
+    "participants": [
+      "duchy_of_naxos"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

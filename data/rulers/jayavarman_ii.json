@@ -1,0 +1,45 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "jayavarman_ii",
+  "name": "Jayavarman II",
+  "polity": "chenla",
+  "title": "king",
+  "reign_start": 790,
+  "reign_end": 802,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 770,
+      "death_year": 835
+    },
+    "entity_associations": [
+      {
+        "entity_id": "chenla",
+        "role": "king",
+        "start_year": 790,
+        "end_year": 802
+      },
+      {
+        "entity_id": "khmer_empire",
+        "role": "founder_chakravartin",
+        "start_year": 802,
+        "end_year": 835
+      }
+    ],
+    "key_actions": [
+      {
+        "year": 802,
+        "event": "Proclaimed chakravartin (universal monarch) at Mount Mahendraparvata — foundation of Khmer Empire."
+      }
+    ],
+    "region": "southeast_asia",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "hall_history_southeast_asia_2011"
+    ],
+    "confidence": "low"
+  }
+}

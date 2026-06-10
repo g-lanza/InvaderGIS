@@ -1,0 +1,55 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "al_mamun",
+  "name": "Abū Jaʿfar al-Maʾmūn ibn Hārūn",
+  "polity": "abbasid_caliphate",
+  "title": "caliph",
+  "reign_start": 813,
+  "reign_end": 833,
+  "succeeds": "harun_al_rashid",
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 786,
+      "death_year": 833
+    },
+    "entity_associations": [
+      {
+        "entity_id": "abbasid_caliphate",
+        "role": "caliph",
+        "start_year": 813,
+        "end_year": 833
+      }
+    ],
+    "key_actions": [
+      {
+        "year": 813,
+        "summary": "Defeats his brother al-Amin in the Fourth Fitna and accedes as caliph from Khurasan.",
+        "source_id": "kennedy_caliphate_2004"
+      },
+      {
+        "year": 827,
+        "summary": "Imposes the Muʿtazila doctrine of the createdness of the Qurʾān as official caliphal theology; institutes the miḥna (inquisition) testing scholars on the doctrine.",
+        "source_id": "kennedy_caliphate_2004"
+      },
+      {
+        "year": 832,
+        "summary": "Founds (or formalises) the Bayt al-Ḥikma ('House of Wisdom') at Baghdad, sponsoring the systematic translation of Greek mathematical, astronomical, and philosophical works into Arabic.",
+        "source_id": "kennedy_caliphate_2004"
+      }
+    ],
+    "region": "central_asia",
+    "name_variants": [
+      "Al-Ma'mun",
+      "Al-Mamun"
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_caliphate_2004",
+      "hodgson_venture_of_islam_1974"
+    ],
+    "confidence": "low"
+  }
+}

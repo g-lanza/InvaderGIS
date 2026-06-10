@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_timur_s_campaign_in_azerbaijan_1386_c01",
+  "statement": "Timur's campaign in Azerbaijan (1386 CE), at Azerbaijan (part of Timurid conquests and invasions).",
+  "subject_ids": [
+    "timurid_empire"
+  ],
+  "period": {
+    "from": 1386,
+    "to": 1386
+  },
+  "derived_from": "wd_timur_s_campaign_in_azerbaijan_1386",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "manz_the_1989",
+      "lentz_timur_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

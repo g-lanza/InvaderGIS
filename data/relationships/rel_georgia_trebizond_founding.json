@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_georgia_trebizond_founding",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_georgia",
+      "role": "principal"
+    },
+    {
+      "entity_id": "empire_of_trebizond",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "alliance",
+  "since": 1204,
+  "until": 1300,
+  "note": "The Empire of Trebizond was founded in 1204 by Alexios and David Komnenos — Byzantine princes who had been raised at the court of their great-aunt, Georgian Queen Tamar. When Constantinople fell to the Fourth Crusade, Tamar provided Georgian troops and financial support for the Komnenos brothers to establish themselves at Trebizond on the Black Sea coast. Georgia's military support made Trebizond's founding possible; the Komnenoi then established diplomatic connections with the Mongol Ilkhanate (marrying daughters to Mongol khans) that secured the principality's survival against Turkish pressure.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Georgia's support for Trebizond's founding demonstrates the trans-Caucasian Orthodox Christian solidarity that created a network of surviving Christian states after the Fourth Crusade; the Komnenoi's dynastic marriages to Mongol Ilkhans represent the quintessential small-state survival strategy of the 13th-century near east"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "miller_trebizond_1926",
+      "eastmond_art_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

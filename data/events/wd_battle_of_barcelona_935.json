@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_barcelona_935",
+  "name": "Battle of Barcelona",
+  "year": 935,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    42.95,
+    -1.15
+  ],
+  "entity": "west_francia",
+  "summary": "Battle of Barcelona (935 CE), at Barcelona (part of Reconquista). Source: Wikidata Q97196090.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "west_francia",
+      "caliphate_of_cordoba"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

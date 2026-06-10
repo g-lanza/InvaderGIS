@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_oujda_1248",
+  "name": "Battle of Oujda",
+  "year": 1248,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    35.45,
+    -4.75
+  ],
+  "entity": "almohad_caliphate_iberia",
+  "summary": "Battle of Oujda (1248 CE), at Oujda (part of Marinid–Zayyanid Wars). Source: Wikidata Q111915115.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "almohad_caliphate_iberia",
+      "marinid_dynasty"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_kingdoms_2018",
+      "o'callaghan_reconquest_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

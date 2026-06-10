@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_tuscany_papal_donation",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "duchy_of_tuscany",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "papal_states",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 1115,
+  "until": 1115,
+  "note": "Countess Matilda of Tuscany, who had sheltered Pope Gregory VII during Henry IV's humiliation at Canossa (1077) and was the papacy's most powerful Italian ally, donated all her lands to the papacy in her will (1102, renewed 1115). The 'Matildine Lands' — central Tuscany including Lucca, Modena, Reggio, and Mantua — were disputed between the papacy and the empire for over a century after her death (1115). Emperor Frederick II's settlement (1213) ceded them to the papacy in exchange for imperial support, though enforcement was never complete. The donation contributed to the Papal States' territorial claims in Tuscany.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Matilda's donation is the defining act of the Investiture Controversy era: the greatest Italian landowner aligns permanently with the papacy against the empire; the century-long dispute over the 'Matildine Lands' is a central thread of Italian politics; the eventual papal acquisition strengthens the Papal States' Tuscan claims"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "partner_the_1972",
+      "morris_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

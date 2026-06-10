@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "khmer_jayavarman_vii_1181",
+  "name": "Jayavarman VII, Height of Khmer Empire",
+  "year": 1181,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    11.723,
+    104.06
+  ],
+  "entity": "khmer_empire",
+  "summary": "Jayavarman VII expelled Cham invaders and rebuilt Angkor as a Buddhist capital, constructing the Bayon temple with its famous face-towers. He built an extensive road network with rest houses and hospitals, the most ambitious welfare programme in Southeast Asian history.",
+  "outcomes": [
+    "champa_occupied",
+    "bayon_built",
+    "road_network"
+  ],
+  "_quarry": {
+    "participants": [
+      "khmer_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

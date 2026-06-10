@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_araviana_1359_c03",
+  "statement": "The Battle of Araviana (1359 CE) was part of the War of the Two Peters.",
+  "subject_ids": [
+    "crown_of_aragon"
+  ],
+  "period": {
+    "from": 1359,
+    "to": 1359
+  },
+  "derived_from": "wd_battle_of_araviana_1359",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_epfach_743",
+  "name": "Battle of Epfach",
+  "year": 743,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    49,
+    3.5
+  ],
+  "entity": "merovingian_kingdom",
+  "summary": "Battle of Epfach (743 CE), at Epfach. Source: Wikidata Q65244809.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "merovingian_kingdom"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wood_the_1994",
+      "geary_before_1988"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

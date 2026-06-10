@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "synod_whitby_664_detail",
+  "name": "Synod of Whitby, Roman vs Celtic Christianity",
+  "year": 664,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    54.49,
+    -0.6
+  ],
+  "entity": "kingdom_of_northumbria",
+  "summary": "King Oswiu of Northumbria convenes the Synod of Whitby to resolve the conflict between Celtic Christianity (following Irish dating of Easter and tonsure styles) and Roman Christianity (following Roman practice). Oswiu rules in favor of Rome, citing Peter's authority over the keys of heaven. The decision aligns England with Rome and ends the distinctive Celtic church tradition in Northumbria.",
+  "outcomes": [
+    "roman_rite_adopted",
+    "celtic_church_subordinated",
+    "england_joins_roman_church"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_northumbria"
+    ],
+    "structural_significance": "Whitby represents the integration of the Anglo-Saxon church into the mainstream of Latin Christianity; the decision is as much political as theological, alignment with Rome gives Northumbrian kings access to continental diplomatic networks and papal prestige; the 'Celtic church' disappears as an institutional alternative, though its scholarly and artistic traditions survive in manuscript illumination and learning",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

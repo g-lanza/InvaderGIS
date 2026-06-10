@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_al_d_m_s_1210",
+  "name": "Siege of Al-Dāmūs",
+  "year": 1210,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    38.3667,
+    8.2333
+  ],
+  "entity": "knights_hospitaller_rhodes",
+  "summary": "Siege of Al-Dāmūs (1210 CE), at Al-Dāmūs (part of Spanish Christian–Muslim War of 1172–1212). Source: Wikidata Q4890612.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "knights_hospitaller_rhodes",
+      "almohad_caliphate_iberia",
+      "crown_of_aragon"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_hospitallers_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

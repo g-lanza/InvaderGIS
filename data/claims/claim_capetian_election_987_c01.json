@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_capetian_election_987_c01",
+  "statement": "French nobles elected Hugh Capet king of France in June 987 following the death of the last Carolingian king Louis V without an heir.",
+  "subject_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 987,
+    "to": 987
+  },
+  "derived_from": "capetian_election_987",
+  "unresolved_sources": [
+    "jordan_france_2004"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

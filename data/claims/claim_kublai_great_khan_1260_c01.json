@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_kublai_great_khan_1260_c01",
+  "statement": "After the death of Möngke Khan in 1259, Kublai Khan claimed the title of Great Khan despite the opposition of his brother Ariq Böke.",
+  "subject_ids": [
+    "golden_horde"
+  ],
+  "period": {
+    "from": 1260,
+    "to": 1260
+  },
+  "derived_from": "kublai_great_khan_1260",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "allsen_mongol_1987"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

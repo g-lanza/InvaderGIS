@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "printing_press_1450",
+  "name": "Gutenberg's Printing Press",
+  "year": 1450,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    50,
+    8.27
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Johannes Gutenberg perfects moveable-type printing in Mainz around 1450, producing the Gutenberg Bible (c. 1455), the first book printed in the West with moveable type. The technology spreads to Italy by 1465, France by 1470, England by 1476, and across Europe by 1500. Within 50 years, over 20 million volumes are in print; within a century, an estimated 150 to 200 million. The printing press transforms the economics of knowledge: a book that once cost a craftsman several months' wages now costs a few days' pay. The Church's monopoly on textual interpretation collapses.",
+  "outcomes": [
+    "mass_book_production_enabled",
+    "information_revolution",
+    "reformation_made_possible"
+  ],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "papal_states"
+    ],
+    "structural_significance": "The printing press is the indispensable precondition for the Protestant Reformation: Luther's 95 Theses (1517) spread from Wittenberg across Germany within weeks, not years; it accelerates Renaissance learning, scientific communication, and ultimately the Enlightenment; the medieval world's oral and manuscript culture gives way to print culture, reshaping every aspect of European civilization",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

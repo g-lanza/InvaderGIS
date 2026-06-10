@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_capture_of_damascus_971",
+  "name": "Capture of Damascus",
+  "subtype": "battle",
+  "start_year": 971,
+  "end_year": 971,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q125497332"
+    }
+  },
+  "description": "Battle during First Qarmatian invasion of Egypt (971)",
+  "coords": [
+    36.292,
+    33.513
+  ]
+}

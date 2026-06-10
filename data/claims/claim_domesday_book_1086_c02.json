@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_domesday_book_1086_c02",
+  "statement": "Royal commissioners interrogated local juries about landholders, tenants, livestock, and taxable value at the time of Edward the Confessor, at William's accession, and in 1086.",
+  "subject_ids": [
+    "kingdom_of_england"
+  ],
+  "period": {
+    "from": 1086,
+    "to": 1086
+  },
+  "derived_from": "domesday_book_1086",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "ims_fordham",
+      "ims_fordham_sbook1n"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

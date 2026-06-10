@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_wieliczka_1123",
+  "name": "Wieliczka",
+  "importance": "city",
+  "start_year": 1123,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q472621"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    20.0661,
+    49.9894
+  ]
+}

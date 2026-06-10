@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_amalfi_1096",
+  "name": "Siege of Amalfi",
+  "year": 1096,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    40.63,
+    14.6
+  ],
+  "entity": "duchy_of_amalfi",
+  "summary": "Siege of Amalfi (1096 CE), at Amalfi. Source: Wikidata Q51987595.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "duchy_of_amalfi"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "norman_conquest_sicily",
+  "name": "Norman conquest of southern Italy and Sicily",
+  "year": 1061,
+  "type": "war",
+  "category": "violence",
+  "coords": [
+    38.11,
+    13.36
+  ],
+  "entity": "kingdom_of_sicily_norman",
+  "summary": "Norman adventurers, initially mercenaries serving Lombard and Byzantine factions in southern Italy, systematically carve out a territorial base from the 1030s onward. Roger de Hauteville and his brother Robert Guiscard expel the Byzantines from Calabria and Apulia (by 1071) and launch the conquest of Muslim Sicily (1061–1091). The island is taken town by town over 30 years; Palermo falls in 1072; Noto, the last Muslim holdout, surrenders in 1091. Roger I creates a remarkable multi-cultural kingdom where Norman, Arab, Greek, and Jewish populations coexist. His son Roger II unifies Sicily and southern Italy into the Kingdom of Sicily (1130), the wealthiest state in 12th-century Europe.",
+  "outcomes": [
+    "norman_southern_realm"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_sicily_norman"
+    ],
+    "structural_significance": "Creates the Kingdom of Sicily as the wealthiest state in the 12th-century Mediterranean; its Arab-Norman-Greek synthesis produces extraordinary cultural achievements (Roger II's map of the world by al-Idrisi; Monreale Cathedral's mosaics); provides a model of religious coexistence",
+    "year_range": [
+      1061,
+      1091
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

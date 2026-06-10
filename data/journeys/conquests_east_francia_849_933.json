@@ -1,0 +1,100 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_east_francia_849_933",
+  "name": "East Francia — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 849,
+  "year_end": 933,
+  "waypoints": [
+    {
+      "year": 849,
+      "place": "Battle of Zásek",
+      "coords": [
+        50.3,
+        11.95
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_z_sek_849"
+    },
+    {
+      "year": 872,
+      "place": "Battle of Vltava",
+      "coords": [
+        50.3,
+        11.95
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_vltava_872"
+    },
+    {
+      "year": 876,
+      "place": "Battle of Andernach",
+      "coords": [
+        49.25,
+        6
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_andernach_876"
+    },
+    {
+      "year": 882,
+      "place": "Frankish–Moravian Wars",
+      "coords": [
+        50,
+        13.25
+      ],
+      "note": "military",
+      "event_id": "wd_frankish_moravian_wars_882"
+    },
+    {
+      "year": 891,
+      "place": "Battle of the Geul River",
+      "coords": [
+        50.5,
+        9.5
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_the_geul_river_891"
+    },
+    {
+      "year": 910,
+      "place": "Battle of Lechfeld",
+      "coords": [
+        49.0475,
+        14.8215
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_lechfeld_910"
+    },
+    {
+      "year": 929,
+      "place": "Battle of Lenzen",
+      "coords": [
+        51.25,
+        10.25
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_lenzen_929"
+    },
+    {
+      "year": 933,
+      "place": "Battle of Riade",
+      "coords": [
+        49.0475,
+        14.8215
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_riade_933"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_caesarea_maritima_614_c01",
+  "statement": "Siege of Caesarea Maritima (614 CE), at Caesarea Maritima (part of Byzantine–Sassanid War of 602–628).",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 614,
+    "to": 614
+  },
+  "derived_from": "wd_siege_of_caesarea_maritima_614",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

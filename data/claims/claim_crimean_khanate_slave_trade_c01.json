@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_crimean_khanate_slave_trade_c01",
+  "statement": "The Crimean Khanate, a Golden Horde successor under Ottoman suzerainty, organized systematic slave raids into Poland, Lithuania, and Muscovy.",
+  "subject_ids": [
+    "khanate_of_crimea"
+  ],
+  "period": {
+    "from": 1450,
+    "to": 1450
+  },
+  "derived_from": "crimean_khanate_slave_trade",
+  "unresolved_sources": [
+    "fisher_the_1978"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "davies_warfare_2007"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

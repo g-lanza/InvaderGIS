@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_kingdom_of_majorca_1343_c01",
+  "statement": "Peter IV of Aragon conquered the Kingdom of Majorca in 1343, reabsorbing it into the Crown of Aragon.",
+  "subject_ids": [
+    "kingdom_of_majorca"
+  ],
+  "period": {
+    "from": 1343,
+    "to": 1343
+  },
+  "derived_from": "kingdom_of_majorca_1343",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,1178 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "corsica",
+  "name_primary": "Corsica",
+  "name_variants": [],
+  "type": "kingdom",
+  "region": "italy",
+  "formed": 1000,
+  "dissolved": 1400,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    42.209,
+    8.987
+  ],
+  "population_estimates": [
+    {
+      "year": 900,
+      "estimate": 80000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q14112",
+          "url": "https://www.wikidata.org/wiki/Q14112",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Corsica",
+          "url": "https://en.wikipedia.org/wiki/Corsica"
+        }
+      ]
+    },
+    {
+      "year": 1100,
+      "estimate": 100000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q14112",
+          "url": "https://www.wikidata.org/wiki/Q14112",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Corsica",
+          "url": "https://en.wikipedia.org/wiki/Corsica"
+        }
+      ]
+    },
+    {
+      "year": 1300,
+      "estimate": 120000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q14112",
+          "url": "https://www.wikidata.org/wiki/Q14112",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Corsica",
+          "url": "https://en.wikipedia.org/wiki/Corsica"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Mediterranean island (various polities 500–1768) that passed between Byzantine, Lombard, Frankish, Arab, Pisan, Genoese, and eventually French sovereignty; its mountainous interior supported pastoral clan societies that resisted external authority while coastal cities maintained commercial links with the mainland Italian city-states; Genoese rule (1284–1768) shaped modern Corsican culture before cession to France in the year of Napoleon's birth.",
+  "temporal": {
+    "start_year": 1000,
+    "end_year": 1400,
+    "notes": "Stub: dates from GeoJSON basemap years 1000–1400"
+  },
+  "geographic": {
+    "centroid": [
+      42.209,
+      8.987
+    ],
+    "polygon_simplified": [
+      [
+        [
+          42.7941,
+          9.4322
+        ],
+        [
+          42.5806,
+          9.4055
+        ],
+        [
+          42.5561,
+          9.4586
+        ],
+        [
+          42.4064,
+          9.4867
+        ],
+        [
+          42.0483,
+          9.4525
+        ],
+        [
+          41.9012,
+          9.3575
+        ],
+        [
+          41.5753,
+          9.3045
+        ],
+        [
+          41.3499,
+          9.173
+        ],
+        [
+          41.3695,
+          9.0389
+        ],
+        [
+          41.4577,
+          9.0133
+        ],
+        [
+          41.492,
+          8.8288
+        ],
+        [
+          41.5606,
+          8.7269
+        ],
+        [
+          41.6537,
+          8.8546
+        ],
+        [
+          41.688,
+          8.8233
+        ],
+        [
+          41.7321,
+          8.6269
+        ],
+        [
+          41.8816,
+          8.7424
+        ],
+        [
+          41.9135,
+          8.6928
+        ],
+        [
+          41.8816,
+          8.5619
+        ],
+        [
+          41.9478,
+          8.5379
+        ],
+        [
+          41.9576,
+          8.5896
+        ],
+        [
+          42.0287,
+          8.6683
+        ],
+        [
+          42.0973,
+          8.6265
+        ],
+        [
+          42.1341,
+          8.5107
+        ],
+        [
+          42.2077,
+          8.5172
+        ],
+        [
+          42.2617,
+          8.6284
+        ],
+        [
+          42.3598,
+          8.5004
+        ],
+        [
+          42.4873,
+          8.6093
+        ],
+        [
+          42.6248,
+          8.879
+        ],
+        [
+          42.6346,
+          9.0004
+        ],
+        [
+          42.691,
+          9.0184
+        ],
+        [
+          42.7107,
+          9.1495
+        ],
+        [
+          42.664,
+          9.2377
+        ],
+        [
+          42.7279,
+          9.2804
+        ],
+        [
+          42.8825,
+          9.2705
+        ],
+        [
+          42.9832,
+          9.3032
+        ],
+        [
+          42.9881,
+          9.3671
+        ],
+        [
+          42.9095,
+          9.4142
+        ],
+        [
+          42.7941,
+          9.4322
+        ]
+      ]
+    ],
+    "capital": {
+      "name": "Ajaccio",
+      "coords": [
+        41.92556,
+        8.73639
+      ],
+      "source": "wikidata"
+    }
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "byzantine_and_lombard_era",
+      "years": "534-725",
+      "description": "Corsica passed between Byzantine, Lombard, and Saracen control; frequent Arab raids devastated coastal settlements.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q14112",
+          "url": "https://www.wikidata.org/wiki/Q14112"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Corsica",
+          "url": "https://en.wikipedia.org/wiki/Corsica"
+        }
+      ]
+    },
+    {
+      "phase": "frankish_rule",
+      "years": "754-1000",
+      "description": "Charlemagne incorporated Corsica; Frankish control was nominal and local lords effectively self-governing.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q14112",
+          "url": "https://www.wikidata.org/wiki/Q14112"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Corsica",
+          "url": "https://en.wikipedia.org/wiki/Corsica"
+        }
+      ]
+    },
+    {
+      "phase": "genoese_dominance",
+      "years": "1000-1500",
+      "description": "Genoa and Pisa competed for Corsica; Genoa ultimately prevailed and established colonial administration.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q14112",
+          "url": "https://www.wikidata.org/wiki/Q14112"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Corsica",
+          "url": "https://en.wikipedia.org/wiki/Corsica"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "geographic_advantage",
+      "layer": "geography_territory",
+      "description": "Central position in the western Mediterranean made Corsica strategically valuable for any maritime power.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q14112",
+          "url": "https://www.wikidata.org/wiki/Q14112"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Corsica",
+          "url": "https://en.wikipedia.org/wiki/Corsica"
+        }
+      ],
+      "tag_prose": "strategic_position"
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "external_domination",
+      "layer": "external_political",
+      "description": "Corsica's strategic value always attracted external powers; the island never developed sufficient internal cohesion for independence.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q14112",
+          "url": "https://www.wikidata.org/wiki/Q14112"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Corsica",
+          "url": "https://en.wikipedia.org/wiki/Corsica"
+        }
+      ]
+    },
+    {
+      "tag": "arab_raiding",
+      "layer": "military_security",
+      "description": "Recurrent Saracen raids in the 8th-10th centuries destroyed coastal settlements and fragmented political authority.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q14112",
+          "url": "https://www.wikidata.org/wiki/Q14112"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Corsica",
+          "url": "https://en.wikipedia.org/wiki/Corsica"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Sambucuccio d'Alando",
+      "role": "resistance_leader",
+      "years": "1357–1370",
+      "year_start": 1357,
+      "year_end": 1370,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Sambucuccio d'Alando",
+          "url": "https://en.wikipedia.org/wiki/Sambucuccio_d'Alando"
+        }
+      ]
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "pastoralism",
+      "timber",
+      "fishing"
+    ],
+    "wealth_level": "low",
+    "major_exports": [
+      "timber",
+      "cattle",
+      "fish",
+      "cork"
+    ],
+    "major_trade_partners": [
+      "republic_of_genoa",
+      "republic_of_pisa",
+      "crown_of_aragon"
+    ],
+    "revenue_sources": [
+      "feudal_dues",
+      "port_tolls"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q14112",
+        "url": "https://www.wikidata.org/wiki/Q14112"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Corsica",
+        "url": "https://en.wikipedia.org/wiki/Corsica"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q14112",
+    "matched_name": "Corsica",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Corsica",
+    "capital": {
+      "name": "Ajaccio",
+      "coords": [
+        41.92556,
+        8.73639
+      ]
+    },
+    "rulers_from_wikidata": [
+      {
+        "name": "Émile Arrighi de Casanova",
+        "qid": "Q15973372",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q15973372",
+            "url": "https://www.wikidata.org/wiki/Q15973372"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Émile Arrighi de Casanova",
+            "url": "https://en.wikipedia.org/wiki/Émile_Arrighi_de_Casanova"
+          }
+        ]
+      },
+      {
+        "name": "Prosper Alfonsi",
+        "qid": "Q16164369",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q16164369",
+            "url": "https://www.wikidata.org/wiki/Q16164369"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Prosper Alfonsi",
+            "url": "https://en.wikipedia.org/wiki/Prosper_Alfonsi"
+          }
+        ]
+      },
+      {
+        "name": "Jean-Christophe Angelini",
+        "qid": "Q3164723",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3164723",
+            "url": "https://www.wikidata.org/wiki/Q3164723"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Jean-Christophe Angelini",
+            "url": "https://en.wikipedia.org/wiki/Jean-Christophe_Angelini"
+          }
+        ]
+      },
+      {
+        "name": "Léo Battesti",
+        "qid": "Q3172528",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3172528",
+            "url": "https://www.wikidata.org/wiki/Q3172528"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Léo Battesti",
+            "url": "https://en.wikipedia.org/wiki/Léo_Battesti"
+          }
+        ]
+      },
+      {
+        "name": "Jean-Guy Talamoni",
+        "qid": "Q511564",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q511564",
+            "url": "https://www.wikidata.org/wiki/Q511564"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Jean-Guy Talamoni",
+            "url": "https://en.wikipedia.org/wiki/Jean-Guy_Talamoni"
+          }
+        ]
+      },
+      {
+        "name": "Pierre-Jean-Thomas Boerio",
+        "qid": "Q3383154",
+        "year_start": 1791,
+        "year_end": 1792,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3383154",
+            "url": "https://www.wikidata.org/wiki/Q3383154"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Pierre-Jean-Thomas Boerio",
+            "url": "https://en.wikipedia.org/wiki/Pierre-Jean-Thomas_Boerio"
+          }
+        ]
+      },
+      {
+        "name": "Antoine Christophe Saliceti",
+        "qid": "Q772429",
+        "year_start": 1792,
+        "year_end": 1795,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q772429",
+            "url": "https://www.wikidata.org/wiki/Q772429"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Antoine Christophe Saliceti",
+            "url": "https://en.wikipedia.org/wiki/Antoine_Christophe_Saliceti"
+          }
+        ]
+      },
+      {
+        "name": "Michel-Ange d'Ornano",
+        "qid": "Q20019197",
+        "year_start": 1799,
+        "year_end": 1804,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q20019197",
+            "url": "https://www.wikidata.org/wiki/Q20019197"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Michel-Ange d'Ornano",
+            "url": "https://en.wikipedia.org/wiki/Michel-Ange_d'Ornano"
+          }
+        ]
+      },
+      {
+        "name": "Agénor de Gasparin",
+        "qid": "Q321304",
+        "year_start": 1842,
+        "year_end": 1846,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q321304",
+            "url": "https://www.wikidata.org/wiki/Q321304"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Agénor de Gasparin",
+            "url": "https://en.wikipedia.org/wiki/Agénor_de_Gasparin"
+          }
+        ]
+      },
+      {
+        "name": "Charles Étienne Conti",
+        "qid": "Q2960766",
+        "year_start": 1848,
+        "year_end": 1849,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2960766",
+            "url": "https://www.wikidata.org/wiki/Q2960766"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Charles Étienne Conti",
+            "url": "https://en.wikipedia.org/wiki/Charles_Étienne_Conti"
+          }
+        ]
+      },
+      {
+        "name": "Pierre Napoleon Bonaparte",
+        "qid": "Q764398",
+        "year_start": 1848,
+        "year_end": 1851,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q764398",
+            "url": "https://www.wikidata.org/wiki/Q764398"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Pierre Napoleon Bonaparte",
+            "url": "https://en.wikipedia.org/wiki/Pierre_Napol%C3%A9on_Bonaparte"
+          }
+        ]
+      },
+      {
+        "name": "Louis Lucien Bonaparte",
+        "qid": "Q523352",
+        "year_start": 1848,
+        "year_end": 1849,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q523352",
+            "url": "https://www.wikidata.org/wiki/Q523352"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Louis Lucien Bonaparte",
+            "url": "https://en.wikipedia.org/wiki/Louis_Lucien_Bonaparte"
+          }
+        ]
+      },
+      {
+        "name": "Louis-Thomas Mariani",
+        "qid": "Q15969609",
+        "year_start": 1857,
+        "year_end": 1863,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q15969609",
+            "url": "https://www.wikidata.org/wiki/Q15969609"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Louis-Thomas Mariani",
+            "url": "https://en.wikipedia.org/wiki/Louis-Thomas_Mariani"
+          }
+        ]
+      },
+      {
+        "name": "Denis Gavini",
+        "qid": "Q3022696",
+        "year_start": 1871,
+        "year_end": 1885,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3022696",
+            "url": "https://www.wikidata.org/wiki/Q3022696"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Denis Gavini",
+            "url": "https://en.wikipedia.org/wiki/Denis_Gavini"
+          }
+        ]
+      },
+      {
+        "name": "Georges-Eugène Haussmann",
+        "qid": "Q191798",
+        "year_start": 1877,
+        "year_end": 1881,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q191798",
+            "url": "https://www.wikidata.org/wiki/Q191798"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Georges-Eugène Haussmann",
+            "url": "https://en.wikipedia.org/wiki/Georges-Eugène_Haussmann"
+          }
+        ]
+      },
+      {
+        "name": "Christian de Villeneuve-Esclapon",
+        "qid": "Q2965731",
+        "year_start": 1889,
+        "year_end": 1893,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2965731",
+            "url": "https://www.wikidata.org/wiki/Q2965731"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Christian de Villeneuve-Esclapon",
+            "url": "https://en.wikipedia.org/wiki/Christian_de_Villeneuve-Esclapon"
+          }
+        ]
+      },
+      {
+        "name": "Horace de Choiseul-Praslin",
+        "qid": "Q3140479",
+        "year_start": 1889,
+        "year_end": 1893,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3140479",
+            "url": "https://www.wikidata.org/wiki/Q3140479"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Horace de Choiseul-Praslin",
+            "url": "https://en.wikipedia.org/wiki/Horace_de_Choiseul-Praslin"
+          }
+        ]
+      },
+      {
+        "name": "Joseph Chaleil",
+        "qid": "Q15974285",
+        "year_start": 1904,
+        "year_end": 1906,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q15974285",
+            "url": "https://www.wikidata.org/wiki/Q15974285"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Joseph Chaleil",
+            "url": "https://en.wikipedia.org/wiki/Joseph_Chaleil"
+          }
+        ]
+      },
+      {
+        "name": "Adolphe Landry",
+        "qid": "Q2824853",
+        "year_start": 1910,
+        "year_end": 1942,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2824853",
+            "url": "https://www.wikidata.org/wiki/Q2824853"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Adolphe Landry",
+            "url": "https://en.wikipedia.org/wiki/Adolphe_Landry"
+          }
+        ]
+      },
+      {
+        "name": "François Piétri",
+        "qid": "Q3085590",
+        "year_start": 1924,
+        "year_end": 1942,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3085590",
+            "url": "https://www.wikidata.org/wiki/Q3085590"
+          },
+          {
+            "type": "wikipedia",
+            "label": "François Piétri",
+            "url": "https://en.wikipedia.org/wiki/François_Piétri"
+          }
+        ]
+      },
+      {
+        "name": "César Campinchi",
+        "qid": "Q3010436",
+        "year_start": 1932,
+        "year_end": 1941,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3010436",
+            "url": "https://www.wikidata.org/wiki/Q3010436"
+          },
+          {
+            "type": "wikipedia",
+            "label": "César Campinchi",
+            "url": "https://en.wikipedia.org/wiki/César_Campinchi"
+          }
+        ]
+      },
+      {
+        "name": "Pascal Arrighi",
+        "qid": "Q3367254",
+        "year_start": 1984,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3367254",
+            "url": "https://www.wikidata.org/wiki/Q3367254"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Pascal Arrighi",
+            "url": "https://en.wikipedia.org/wiki/Pascal_Arrighi"
+          }
+        ]
+      },
+      {
+        "name": "Pierre Poggioli",
+        "qid": "Q3386640",
+        "year_start": 1984,
+        "year_end": 1998,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3386640",
+            "url": "https://www.wikidata.org/wiki/Q3386640"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Pierre Poggioli",
+            "url": "https://en.wikipedia.org/wiki/Pierre_Poggioli"
+          }
+        ]
+      },
+      {
+        "name": "Jean-Martin Mondoloni",
+        "qid": "Q109462847",
+        "year_start": 2004,
+        "year_end": 2010,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q109462847",
+            "url": "https://www.wikidata.org/wiki/Q109462847"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Jean-Martin Mondoloni",
+            "url": "https://en.wikipedia.org/wiki/Jean-Martin_Mondoloni"
+          }
+        ]
+      },
+      {
+        "name": "Christine Colonna",
+        "qid": "Q111364715",
+        "year_start": 2004,
+        "year_end": 2010,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q111364715",
+            "url": "https://www.wikidata.org/wiki/Q111364715"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Christine Colonna",
+            "url": "https://en.wikipedia.org/wiki/Christine_Colonna"
+          }
+        ]
+      },
+      {
+        "name": "Ange Santini",
+        "qid": "Q2849302",
+        "year_start": 2004,
+        "year_end": 2010,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2849302",
+            "url": "https://www.wikidata.org/wiki/Q2849302"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ange Santini",
+            "url": "https://en.wikipedia.org/wiki/Ange_Santini"
+          }
+        ]
+      },
+      {
+        "name": "Dominique Blais",
+        "qid": "Q118397924",
+        "year_start": 2010,
+        "year_end": 2012,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q118397924",
+            "url": "https://www.wikidata.org/wiki/Q118397924"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Dominique Blais",
+            "url": "https://en.wikipedia.org/wiki/Dominique_Blais"
+          }
+        ]
+      },
+      {
+        "name": "Jean-Jacques Coiplet",
+        "qid": "Q33103408",
+        "year_start": 2012,
+        "year_end": 2016,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q33103408",
+            "url": "https://www.wikidata.org/wiki/Q33103408"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Jean-Jacques Coiplet",
+            "url": "https://en.wikipedia.org/wiki/Jean-Jacques_Coiplet"
+          }
+        ]
+      },
+      {
+        "name": "Gilles Simeoni",
+        "qid": "Q3106502",
+        "year_start": 2015,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3106502",
+            "url": "https://www.wikidata.org/wiki/Q3106502"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Gilles Simeoni",
+            "url": "https://en.wikipedia.org/wiki/Gilles_Simeoni"
+          }
+        ]
+      },
+      {
+        "name": "Marie-Antoinette Maupertuis",
+        "qid": "Q100323003",
+        "year_start": 2015,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q100323003",
+            "url": "https://www.wikidata.org/wiki/Q100323003"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Marie-Antoinette Maupertuis",
+            "url": "https://en.wikipedia.org/wiki/Marie-Antoinette_Maupertuis"
+          }
+        ]
+      },
+      {
+        "name": "Laura Maria Poli",
+        "qid": "Q71586058",
+        "year_start": 2015,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q71586058",
+            "url": "https://www.wikidata.org/wiki/Q71586058"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Laura Maria Poli",
+            "url": "https://en.wikipedia.org/wiki/Laura_Maria_Poli"
+          }
+        ]
+      },
+      {
+        "name": "Marie-Hélène Casanova-Servas",
+        "qid": "Q71588315",
+        "year_start": 2015,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q71588315",
+            "url": "https://www.wikidata.org/wiki/Q71588315"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Marie-Hélène Casanova-Servas",
+            "url": "https://en.wikipedia.org/wiki/Marie-Hélène_Casanova-Servas"
+          }
+        ]
+      },
+      {
+        "name": "Xavier Lacombe",
+        "qid": "Q131631495",
+        "year_start": 2015,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q131631495",
+            "url": "https://www.wikidata.org/wiki/Q131631495"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Xavier Lacombe",
+            "url": "https://en.wikipedia.org/wiki/Xavier_Lacombe"
+          }
+        ]
+      },
+      {
+        "name": "Jean François Casalta",
+        "qid": "Q71578634",
+        "year_start": 2018,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q71578634",
+            "url": "https://www.wikidata.org/wiki/Q71578634"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Jean François Casalta",
+            "url": "https://en.wikipedia.org/wiki/Jean_François_Casalta"
+          }
+        ]
+      },
+      {
+        "name": "Laura Furioli",
+        "qid": "Q71583897",
+        "year_start": 2018,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q71583897",
+            "url": "https://www.wikidata.org/wiki/Q71583897"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Laura Furioli",
+            "url": "https://en.wikipedia.org/wiki/Laura_Furioli"
+          }
+        ]
+      },
+      {
+        "name": "Julie Guiseppi",
+        "qid": "Q71584931",
+        "year_start": 2018,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q71584931",
+            "url": "https://www.wikidata.org/wiki/Q71584931"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Julie Guiseppi",
+            "url": "https://en.wikipedia.org/wiki/Julie_Guiseppi"
+          }
+        ]
+      },
+      {
+        "name": "Julia Tiberi",
+        "qid": "Q71586235",
+        "year_start": 2018,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q71586235",
+            "url": "https://www.wikidata.org/wiki/Q71586235"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Julia Tiberi",
+            "url": "https://en.wikipedia.org/wiki/Julia_Tiberi"
+          }
+        ]
+      },
+      {
+        "name": "Romain Colonna",
+        "qid": "Q71586411",
+        "year_start": 2018,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q71586411",
+            "url": "https://www.wikidata.org/wiki/Q71586411"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Romain Colonna",
+            "url": "https://en.wikipedia.org/wiki/Romain_Colonna"
+          }
+        ]
+      }
+    ],
+    "population_from_wikidata": [
+      {
+        "estimate": 320208,
+        "confidence": "low",
+        "year": 2013
+      },
+      {
+        "estimate": 324212,
+        "confidence": "low",
+        "year": 2014
+      },
+      {
+        "estimate": 327283,
+        "confidence": "low",
+        "year": 2015
+      },
+      {
+        "estimate": 330354,
+        "confidence": "low",
+        "year": 2016
+      },
+      {
+        "estimate": 334938,
+        "confidence": "low",
+        "year": 2017
+      },
+      {
+        "estimate": 338554,
+        "confidence": "low",
+        "year": 2018
+      },
+      {
+        "estimate": 340440,
+        "confidence": "low",
+        "year": 2019
+      },
+      {
+        "estimate": 343701,
+        "confidence": "low",
+        "year": 2020
+      },
+      {
+        "estimate": 347597,
+        "confidence": "low",
+        "year": 2021
+      },
+      {
+        "estimate": 351276,
+        "confidence": "low",
+        "year": 2022
+      },
+      {
+        "estimate": 349465,
+        "confidence": "low",
+        "year": 2022
+      },
+      {
+        "estimate": 355486,
+        "confidence": "low",
+        "year": 2023
+      }
+    ]
+  },
+  "monogram": "CO"
+}

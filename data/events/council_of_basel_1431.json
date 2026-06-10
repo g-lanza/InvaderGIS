@@ -1,0 +1,31 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "council_of_basel_1431",
+  "name": "Council of Basel opens",
+  "year": 1431,
+  "type": "religious_council",
+  "category": "religion",
+  "coords": [
+    47.5596,
+    7.5886
+  ],
+  "entity": "papal_states",
+  "summary": "The last great conciliarist church council, convoked by Martin V and continued by Eugenius IV. Basel asserts the supremacy of general councils over popes and conducts negotiations with the Hussites and the Byzantine Church (transferred to Ferrara/Florence in 1437).",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "papal_states",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "High-water mark of the conciliarist movement; failure of Basel's claims against papal monarchy effectively ends the conciliar challenge to centralised papal authority.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morris_papal_monarchy_1989"
+    ],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_poitiers_1356_c01",
+  "statement": "At Poitiers on 19 September 1356, Edward the Black Prince with about 8,000 English and Gascon troops defeated a French army of about 35,000 under King John II of France.",
+  "subject_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 1356,
+    "to": 1356
+  },
+  "derived_from": "poitiers_1356",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

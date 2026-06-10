@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_second_siege_of_pontevico_1453",
+  "name": "Second Siege of Pontevico",
+  "year": 1453,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    45.45,
+    10.75
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Second Siege of Pontevico (1453 CE), at Pontevico (part of Wars in Lombardy). Source: Wikidata Q123735761.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "duchy_of_milan"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

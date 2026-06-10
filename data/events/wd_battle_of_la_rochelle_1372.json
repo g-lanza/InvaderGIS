@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_la_rochelle_1372",
+  "name": "Battle of La Rochelle",
+  "year": 1372,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    46.75,
+    -2.5
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Battle of La Rochelle (1372 CE), at La Rochelle (part of Hundred Years' War). Source: Wikidata Q518005.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "crown_of_castile"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

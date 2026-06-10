@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_county_of_barcelona_878_c02",
+  "statement": "Wilfred the Hairy's dynasty ruled Barcelona continuously for five centuries, making it the nucleus of Catalan culture.",
+  "subject_ids": [
+    "county_of_barcelona"
+  ],
+  "period": {
+    "from": 878,
+    "to": 878
+  },
+  "derived_from": "county_of_barcelona_878",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

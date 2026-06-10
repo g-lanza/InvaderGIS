@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "fort_kerak",
+  "name": "Kerak Castle",
+  "subtype": "fort",
+  "start_year": 1142,
+  "end_year": 1189,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "Crusader castle in Transjordan; surrendered to Saladin 1188–89",
+  "coords": [
+    35.7,
+    31.18
+  ]
+}

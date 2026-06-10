@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_negroponte_1470_c01",
+  "statement": "Siege of Negroponte (1470 CE), (part of First Ottoman–Venetian War).",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1470,
+    "to": 1470
+  },
+  "derived_from": "wd_siege_of_negroponte_1470",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

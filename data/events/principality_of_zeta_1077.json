@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "principality_of_zeta_1077",
+  "name": "Zeta Recognised as Kingdom",
+  "year": 1077,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    42.78,
+    19.12
+  ],
+  "entity": "principality_of_zeta",
+  "summary": "Zeta (roughly modern Montenegro) received papal recognition as a kingdom in 1077 CE under Mihailo Vojislavljević. Located on the Adriatic coast, Zeta navigated between Byzantine, Norman, and Serbian spheres of influence, developing a distinct coastal culture with strong Orthodox religious traditions.",
+  "outcomes": [
+    "papal_recognition",
+    "serbian_independence",
+    "adriatic_coast"
+  ],
+  "_quarry": {
+    "participants": [
+      "principality_of_zeta"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

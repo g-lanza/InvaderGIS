@@ -1,0 +1,31 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "vinland_voyage_1000",
+  "name": "Leif Erikson's voyage to Vinland",
+  "year": 1000,
+  "type": "exploration",
+  "category": "discovery",
+  "coords": [
+    51.59,
+    -55.53
+  ],
+  "entity": "iceland_commonwealth",
+  "summary": "Leif Erikson, son of Erik the Red, sails from Greenland and establishes a brief Norse settlement at L'Anse aux Meadows on northern Newfoundland. Subsequent expeditions by Thorfinn Karlsefni encounter indigenous peoples ('Skrælings'); the colony is abandoned within a generation.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "iceland_commonwealth"
+    ],
+    "structural_significance": "First European contact with the Americas, ~500 years before Columbus. The L'Anse aux Meadows site (excavated 1960s, UNESCO World Heritage 1978) is the only Norse settlement in the Americas yet identified archaeologically; the saga accounts have been vindicated by physical evidence.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

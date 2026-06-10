@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_county_of_anjou_1204_c02",
+  "statement": "The loss of Anjou and Normandy transformed the Plantagenet kings from continental lords into primarily English monarchs.",
+  "subject_ids": [
+    "county_of_anjou"
+  ],
+  "period": {
+    "from": 1204,
+    "to": 1204
+  },
+  "derived_from": "county_of_anjou_1204",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

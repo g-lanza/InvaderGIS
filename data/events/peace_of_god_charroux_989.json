@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "peace_of_god_charroux_989",
+  "name": "Council of Charroux proclaims the Peace of God",
+  "year": 989,
+  "type": "religious_council",
+  "category": "religion",
+  "coords": [
+    46.144,
+    0.405
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Synod convened at Charroux Abbey in Aquitaine by Archbishop Gunbald of Bordeaux around 989, traditionally taken as the inaugural council of the Peace of God movement. Its canons placed unarmed clerics, the poor, and church property under episcopal protection, threatening violators with excommunication. The movement spread across France through the eleventh century, paired later with the Truce of God, which prohibited fighting on particular days.",
+  "outcomes": [
+    "peace_of_god_movement_inaugurated",
+    "ecclesiastical_immunity_codified"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france"
+    ],
+    "structural_significance": "Early collective effort by Latin bishops to constrain seigneurial violence in the post-Carolingian vacuum. Constable and others trace the eleventh-century reformist religious culture, including the Crusades, partly to this Peace and Truce movement.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "constable_reformation_twelfth_century_1996"
+    ],
+    "confidence": "low"
+  }
+}

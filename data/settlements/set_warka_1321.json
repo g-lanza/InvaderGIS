@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_warka_1321",
+  "name": "Warka",
+  "importance": "city",
+  "start_year": 1321,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q276857"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    21.1834,
+    51.7851
+  ]
+}

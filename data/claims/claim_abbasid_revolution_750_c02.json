@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_abbasid_revolution_750_c02",
+  "statement": "The Abbasids defeated the last Umayyad caliph Marwan II at the Battle of the Zab River in 750.",
+  "subject_ids": [
+    "abbasid_caliphate"
+  ],
+  "period": {
+    "from": 750,
+    "to": 750
+  },
+  "derived_from": "abbasid_revolution_750",
+  "unresolved_sources": [
+    "kennedy_the_2004",
+    "kennedy_when_2004",
+    "crone_gods_2004"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

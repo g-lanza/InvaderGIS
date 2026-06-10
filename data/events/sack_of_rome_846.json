@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "sack_of_rome_846",
+  "name": "Arab Sack of Rome",
+  "year": 846,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    41.9,
+    12.5
+  ],
+  "entity": "papal_states",
+  "summary": "An Arab fleet of approximately 73 ships from Tunisia (Aghlabid forces, not Umayyad Cordoba) sails up the Tiber and sacks the Leonine district, plundering the Basilica of St. Peter and the church of St. Paul outside the walls. The Aurelian Walls protect the city proper, but the unwalked Vatican is ransacked. Pope Leo IV responds by constructing the Leonine Walls around the Vatican between 848 and 852, incorporating St. Peter's within a fortified circuit that still defines Vatican geography today.",
+  "outcomes": [
+    "st_peters_basilica_plundered",
+    "arab_raiding_base_established",
+    "leonine_walls_subsequently_built"
+  ],
+  "_quarry": {
+    "participants": [
+      "papal_states",
+      "duchy_of_benevento",
+      "umayyad_emirate_cordoba"
+    ],
+    "structural_significance": "The sack of Rome's holiest shrines triggers a major papal building program; the Leonine Walls reshape the physical form of Rome; demonstrates the vulnerability of Christian Europe's spiritual center to Islamic naval power; contributes to papal calls for unified Christian defense that prefigure the Crusades",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_saladin_death_1193_c02",
+  "statement": "After Saladin's death in 1193 his empire was partitioned among his sons and his brother al-Adil.",
+  "subject_ids": [
+    "ayyubid_sultanate"
+  ],
+  "period": {
+    "from": 1193,
+    "to": 1193
+  },
+  "derived_from": "saladin_death_1193",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "humphreys_from_1977",
+      "lyons_saladin_1982",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

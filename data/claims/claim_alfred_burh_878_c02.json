@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_alfred_burh_878_c02",
+  "statement": "Approximately 33 burhs were established in Wessex, spaced so no point was more than 20 miles from a fortification.",
+  "subject_ids": [
+    "kingdom_of_wessex"
+  ],
+  "period": {
+    "from": 878,
+    "to": 878
+  },
+  "derived_from": "alfred_burh_878",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

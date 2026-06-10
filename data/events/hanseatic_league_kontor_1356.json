@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "hanseatic_league_kontor_1356",
+  "name": "Hanseatic League's first Diet at Lübeck",
+  "year": 1356,
+  "type": "economic",
+  "category": "economy",
+  "coords": [
+    53.87,
+    10.69
+  ],
+  "entity": "hanseatic_league",
+  "summary": "The merchant towns of the North and Baltic Seas convene their first formal Hansetag at Lübeck and adopt collective rules for trading privileges, dispute arbitration, and joint embargoes. Member towns soon coordinate a successful war against Denmark (Treaty of Stralsund, 1370) that consolidates Hanseatic control of the Sound.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "hanseatic_league",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "Transforms a loose merchant network into a coordinated commercial alliance with diplomatic and military capacity; the Hansa's Kontore in London, Bruges, Bergen, and Novgorod set the terms of Northern European trade for two centuries.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dollinger_the_1970",
+      "hammel-kiesow_die_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

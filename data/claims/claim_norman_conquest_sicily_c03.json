@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_norman_conquest_sicily_c03",
+  "statement": "Roger II unified Sicily and southern Italy into the Kingdom of Sicily in 1130.",
+  "subject_ids": [
+    "kingdom_of_sicily_norman"
+  ],
+  "period": {
+    "from": 1061,
+    "to": 1061
+  },
+  "derived_from": "norman_conquest_sicily",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_treaty_wedmore_878_c03",
+  "statement": "After the Treaty of Wedmore (878), Guthrum withdrew his forces to East Anglia, and the division of England between Wessex and the Danelaw followed in subsequent agreements.",
+  "subject_ids": [
+    "kingdom_of_wessex"
+  ],
+  "period": {
+    "from": 878,
+    "to": 878
+  },
+  "derived_from": "treaty_wedmore_878",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

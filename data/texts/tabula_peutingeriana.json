@@ -1,0 +1,24 @@
+{
+ "kind": "text",
+ "id": "tabula_peutingeriana",
+ "name_primary": "Tabula Peutingeriana",
+ "author": "anonymous",
+ "language": "Latin",
+ "composed": {
+  "place": "Colmar",
+  "year": 1265
+ },
+ "tradition": "map",
+ "provenance": {
+  "sources_used": [
+   "ims_fordham",
+   "ims_fordham_sbookmap"
+  ],
+  "confidence": "high",
+  "attestation": "described as Roman road map drawn by monk from Colmar in 1265, made of 11 parchment scrolls measuring 34cm x 6.74m",
+  "status": "draft"
+ },
+ "dataset": "medieval-europe-500-1500",
+ "_fordham_index": "sbookmap",
+ "from_sourcebook": true
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_georgia_mongol_invasion_1220_c03",
+  "statement": "The Mongol invasions ended the Georgian Golden Age.",
+  "subject_ids": [
+    "kingdom_of_georgia"
+  ],
+  "period": {
+    "from": 1220,
+    "to": 1220
+  },
+  "derived_from": "georgia_mongol_invasion_1220",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

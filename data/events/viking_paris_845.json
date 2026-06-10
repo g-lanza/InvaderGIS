@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "viking_paris_845",
+  "name": "Viking Sack of Paris, Ragnar's Raid",
+  "year": 845,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    48.85,
+    2.35
+  ],
+  "entity": "west_francia",
+  "summary": "A Norse fleet of 120 ships and 5,000 warriors under a leader the Franks call \"Ragnar\" (possibly Ragnar Lothbrok) sails up the Seine and sacks Paris on Easter Sunday 845. Charles the Bald cannot mount an effective defense and pays a ransom of 7,000 pounds of silver (the first of many Danegeld payments) to persuade the Vikings to leave. The raid demonstrates that Carolingian defenses are inadequate against seaborne attackers.",
+  "outcomes": [
+    "paris_ransomed_7000_pounds_silver",
+    "carolingian_weakness_demonstrated",
+    "viking_tribute_payments_begin"
+  ],
+  "_quarry": {
+    "participants": [
+      "west_francia",
+      "merovingian_kingdom"
+    ],
+    "structural_significance": "The Paris raid inaugurates a cycle of Viking tribute payments that drain Carolingian financial reserves and undermine royal prestige; the repeated failure of Carolingian kings to protect their cities accelerates the rise of local counts and bishops as effective defenders, the feudal decentralization that defines 10th-century France; the siege of Paris in 885-886 will be more dramatically resisted but at greater cost",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

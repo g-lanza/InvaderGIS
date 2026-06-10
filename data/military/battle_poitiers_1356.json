@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_poitiers_1356",
+  "name": "Battle of Poitiers",
+  "subtype": "battle",
+  "start_year": 1356,
+  "end_year": 1356,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "Black Prince captures King John II of France",
+  "coords": [
+    0.33,
+    46.58
+  ]
+}

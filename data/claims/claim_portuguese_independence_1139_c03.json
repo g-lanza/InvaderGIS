@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_portuguese_independence_1139_c03",
+  "statement": "Pope Alexander III recognized Portugal as an independent kingdom in 1179.",
+  "subject_ids": [
+    "kingdom_of_portugal"
+  ],
+  "period": {
+    "from": 1139,
+    "to": 1139
+  },
+  "derived_from": "portuguese_independence_1139",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

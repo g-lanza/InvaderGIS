@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_maimonides_guide_1190_c02",
+  "statement": "Maimonides completed the 'Guide for the Perplexed' around 1190, a rationalist synthesis of Aristotelian philosophy and rabbinic Judaism.",
+  "subject_ids": [
+    "ayyubid_sultanate"
+  ],
+  "period": {
+    "from": 1190,
+    "to": 1190
+  },
+  "derived_from": "maimonides_guide_1190",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "hodgson_venture_of_islam_1974"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

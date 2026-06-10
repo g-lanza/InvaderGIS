@@ -1,0 +1,31 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_champagne_france_absorption",
+  "statement": "The County of Champagne — one of the most commercially dynamic territories in medieval France, hosting the famous Champagne Fairs that served as the primary northern European commercial exchange — was absorbed into the French royal domain through marriage: Philip IV 'the Fair' of France married Joan I of Navarre and Champagne (1284), who was the heiress. The absorption of Champagne gave France control of the most important commercial fairs in northern Europe, shifting the commercial axis from independent county to royal domain. The Champagne Fairs declined thereafter as Genoese-Venetian sea routes (via Gibraltar, from c. 1277) bypassed the overland routes.",
+  "subject_ids": [
+    "county_of_champagne",
+    "kingdom_of_france"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_champagne_france_absorption",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 1284,
+    "to": 1284
+  }
+}

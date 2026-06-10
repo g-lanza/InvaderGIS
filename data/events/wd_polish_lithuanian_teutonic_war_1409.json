@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_polish_lithuanian_teutonic_war_1409",
+  "name": "Polish-Lithuanian-Teutonic War",
+  "year": 1409,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    54.35,
+    22.65
+  ],
+  "entity": "grand_duchy_of_lithuania",
+  "summary": "Polish-Lithuanian-Teutonic War (1409 CE), at State of the Teutonic Order (part of Lithuanian Crusade). Source: Wikidata Q937255.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "grand_duchy_of_lithuania",
+      "teutonic_order_state"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "rowell_lithuania_1994",
+      "christiansen_the_1997"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

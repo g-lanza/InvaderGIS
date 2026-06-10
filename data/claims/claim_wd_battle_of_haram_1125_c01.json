@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_haram_1125_c01",
+  "statement": "Battle of Haram (1125 CE), at Banatska Palanka (part of Byzantine–Hungarian War).",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 1125,
+    "to": 1125
+  },
+  "derived_from": "wd_battle_of_haram_1125",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

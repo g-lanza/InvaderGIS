@@ -1,0 +1,42 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "volga_trade_route_900s",
+  "name": "Volga Trade Route and Varangian Commerce",
+  "year": 900,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    55.8,
+    49.1
+  ],
+  "entity": "kievan_rus",
+  "summary": "Norse Varangian merchants develop the Volga trade route, traveling from Scandinavia via the Baltic, through Ladoga and Novgorod, down the Volga River through Volga Bulgaria and the Khazar Khaganate to the Caspian Sea and Islamic Abbasid markets. The trade brings enormous quantities of Arabic silver dirhams to Scandinavia, Swedish hoards contain tens of thousands of Abbasid coins. In exchange, the Norse sell furs, amber, honey, wax, and enslaved peoples.",
+  "outcomes": [
+    "arabic_silver_floods_scandinavia",
+    "varangian_merchant_networks_established",
+    "islamic_world_connects_north_europe"
+  ],
+  "_quarry": {
+    "participants": [
+      "kievan_rus",
+      "volga_bulgaria",
+      "khazar_khaganate"
+    ],
+    "structural_significance": "The Volga route creates the economic foundation of Kievan Rus; the Islamic silver supply funds the Viking Age's expansion by allowing Norse chiefs to hire armies and purchase loyalty; Volga Bulgaria and the Khazar Khaganate grow rich as intermediaries; the route's disruption (when Sviatoslav I destroys the Khazar Khaganate in 965) pushes Rus traders toward the Dnieper-Constantinople route",
+    "year_range": [
+      860,
+      950
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "franklin_the_1996",
+      "riasanovsky_a_2000",
+      "martin_medieval_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

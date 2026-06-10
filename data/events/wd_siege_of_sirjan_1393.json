@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_sirjan_1393",
+  "name": "Siege of Sirjan",
+  "year": 1393,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.7,
+    66.9
+  ],
+  "entity": "timurid_empire",
+  "summary": "Siege of Sirjan (1393 CE), at Sirjan (part of Five Years' Campaign). Source: Wikidata Q110425644.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "timurid_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "manz_the_1989",
+      "lentz_timur_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

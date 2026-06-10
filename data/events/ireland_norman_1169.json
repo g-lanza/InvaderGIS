@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ireland_norman_1169",
+  "name": "Strongbow Invades Ireland, Beginning of English Involvement",
+  "year": 1169,
+  "type": "conquest",
+  "category": "violence",
+  "coords": [
+    52.14,
+    -8.45
+  ],
+  "entity": "lordship_of_ireland",
+  "summary": "Richard de Clare ('Strongbow'), invited by Diarmait Mac Murchada (exiled king of Leinster), lands in Ireland with Norman forces in 1170. He captures Waterford and Dublin and marries Diarmait's daughter, becoming King of Leinster on Diarmait's death. Henry II of England, concerned at the growing Norman fief outside his control, personally leads an expedition to Ireland (1171), accepting the submission of Irish kings and establishing the Lordship of Ireland.",
+  "outcomes": [
+    "normans_land_ireland",
+    "richard_de_clare_becomes_king_leinster",
+    "henry_ii_follows"
+  ],
+  "_quarry": {
+    "participants": [
+      "lordship_of_ireland",
+      "kingdom_of_leinster",
+      "kingdom_of_england"
+    ],
+    "structural_significance": "The Norman invasion of Ireland begins England's involvement in Ireland that persists to the present day; Henry II's assertion of the Lordship of Ireland prevents the emergence of an independent Norman-Irish state but cannot create effective control; the pattern of incomplete conquest, enough to disrupt existing Irish institutions but insufficient to replace them, creates the permanent instability that characterizes English-Irish relations for 800 years",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

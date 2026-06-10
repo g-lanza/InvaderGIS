@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ibn_battuta_journeys_1325",
+  "name": "Ibn Battuta Begins His Travels",
+  "year": 1325,
+  "type": "exploration",
+  "category": "discovery",
+  "coords": [
+    35.8,
+    -5.8
+  ],
+  "entity": "mamluk_sultanate",
+  "summary": "Ibn Battuta of Tangier sets out on a pilgrimage to Mecca that expands into 75,000 miles of travel over 30 years, more than any medieval traveler. He visits the Islamic world from West Africa to China, recording courts, customs, and geography. His Rihla is an incomparable source on the connected medieval Islamic world.",
+  "outcomes": [
+    "islamic_world_documented",
+    "rihla_written",
+    "geographical_knowledge"
+  ],
+  "_quarry": {
+    "participants": [
+      "mamluk_sultanate"
+    ],
+    "structural_significance": "The Rihla documents the Islamic world at its greatest extent; provides the only detailed description of Mali under Mansa Musa, the Black Death's devastation, and dozens of otherwise underdocumented societies.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "irwin_the_1986",
+      "northrup_from_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

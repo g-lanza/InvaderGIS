@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_dante_writes_comedy_1308_c01",
+  "statement": "Dante Alighieri, exiled from Florence, wrote the Commedia (later called the 'Divine Comedy') between approximately 1308 and 1321.",
+  "subject_ids": [
+    "republic_of_florence"
+  ],
+  "period": {
+    "from": 1308,
+    "to": 1308
+  },
+  "derived_from": "dante_writes_comedy_1308",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "najemy_a_2006",
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

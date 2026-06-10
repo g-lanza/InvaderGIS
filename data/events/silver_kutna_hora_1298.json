@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "silver_kutna_hora_1298",
+  "name": "Discovery of silver at Kutná Hora",
+  "year": 1298,
+  "type": "economic",
+  "category": "economy",
+  "coords": [
+    49.95,
+    15.27
+  ],
+  "entity": "duchy_of_bohemia",
+  "summary": "Rich silver veins discovered in Bohemia's Kutná Hora district make it the largest silver source in Europe by 1300, producing an estimated 5–6 tonnes annually at peak. King Wenceslas II's 1300 mining ordinance (Ius regale montanorum) codifies royal control and stable coinage in the new Prague groschen.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "duchy_of_bohemia",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "Fuels Bohemia's elevation to the wealthiest crown of Central Europe under Wenceslas II and Charles IV. The Prague groschen circulates widely from Poland to Italy; Kutná Hora's productivity underwrites Charles IV's imperial ambitions in the 14th century.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

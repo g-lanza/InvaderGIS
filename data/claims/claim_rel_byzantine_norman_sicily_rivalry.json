@@ -1,0 +1,29 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_byzantine_norman_sicily_rivalry",
+  "statement": "The Norman Kingdom of Sicily and the Byzantine Empire competed for control of the Adriatic and the Balkans throughout the 12th century. Roger II's fleet raided Byzantine ports (Corfu, Corinth, Athens) and captured Greek silk weavers in 1147–1148; William I's 'Bad' forces sacked Thessalonica (1185). Byzantine attempts to retake southern Italy failed; Manuel I Komnenos's alliance with Venice against Sicily (1171) and his Italian campaigns (1155–1158) achieved temporary gains quickly reversed. The Norman-Byzantine rivalry defined the geopolitics of the central Mediterranean until the Hohenstaufen inherited Sicily (1194).",
+  "subject_ids": [
+    "byzantine_empire",
+    "kingdom_of_sicily_norman"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_byzantine_norman_sicily_rivalry",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1130,
+    "to": 1194
+  }
+}

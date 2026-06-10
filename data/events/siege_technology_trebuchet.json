@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "siege_technology_trebuchet",
+  "name": "Development of Medieval Siege Technology",
+  "year": 1200,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    34.76,
+    36.26
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "The counterweight trebuchet, developed in the 12th century, transforms medieval siege warfare, capable of hurling 100-300 kg projectiles with devastating accuracy, it makes most older castle designs vulnerable. The Crusader states' concentrated castle-building (Krak des Chevaliers, Margat) responds to this threat with concentric defenses, round towers, and more complex approaches. Artillery specialists (engineers) become crucial military figures.",
+  "outcomes": [
+    "trebuchet_spreads",
+    "castle_design_evolves",
+    "siege_warfare_dominant"
+  ],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "kingdom_of_france"
+    ],
+    "structural_significance": "The trebuchet-castle arms race drives one of the great medieval engineering developments; Krak des Chevaliers (built 1142-1271) represents the peak of medieval defensive architecture in response to trebuchet threat; the same arms race produces the German Ordensburgen of the Teutonic Knights and Edward I's Welsh castles; the eventual superiority of gunpowder artillery (after 1380) over the trebuchet marks the end of the castle as a reliable defensive solution",
+    "year_range": [
+      1100,
+      1300
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

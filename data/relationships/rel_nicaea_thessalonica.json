@@ -1,0 +1,35 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_nicaea_thessalonica",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "empire_of_nicaea",
+      "role": "principal"
+    },
+    {
+      "entity_id": "kingdom_of_thessalonica",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 1205,
+  "until": 1224,
+  "note": "The Empire of Nicaea and the splinter Kingdom of Thessalonica (established by Theodore Komnenos Doukas of Epirus after his capture of the city in 1224) were competing Byzantine successor states. John III Vatatzes of Nicaea invaded Thessalonica, captured Theodore's nephew Manuel (1242), and forced the Thessalonican court to accept Nicaean imperial precedence (renouncing their imperial title for the lesser title of 'despot'). Nicaea subsequently absorbed Thessalonica (1246) under John III, eliminating the last separate Epirote/Thessalonican claim to Byzantine imperial succession.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Nicaea's absorption of Thessalonica (1246) eliminates the last serious competing claim to Byzantine imperial succession; with Thessalonica incorporated, Nicaea controls the two most important Byzantine cities outside Constantinople; the path to the 1261 restoration is now diplomatically and militarily feasible"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

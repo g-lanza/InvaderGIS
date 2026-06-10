@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_n_fels_1388",
+  "name": "Battle of Näfels",
+  "year": 1388,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    46.95,
+    8.23
+  ],
+  "entity": "swiss_confederation",
+  "summary": "Battle of Näfels (1388 CE), at Näfels (part of Growth of the Old Swiss Confederacy). Source: Wikidata Q667460.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "swiss_confederation"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "marchal_schweizer_2006",
+      "rippmann_die_2006"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

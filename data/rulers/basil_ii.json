@@ -1,0 +1,49 @@
+{
+ "kind": "ruler",
+ "dataset": "medieval-europe-500-1500",
+ "id": "basil_ii",
+ "name": "Basil II Bulgaroktonos",
+ "polity": "byzantine_empire",
+ "title": "emperor",
+ "reign_start": 976,
+ "reign_end": 1025,
+ "_quarry": {
+  "lifespan": {
+   "birth_year": 958,
+   "death_year": 1025
+  },
+  "entity_associations": [
+   {
+    "entity_id": "byzantine_empire",
+    "role": "emperor",
+    "start_year": 976,
+    "end_year": 1025
+   }
+  ],
+  "key_actions": [
+   {
+    "year": 989,
+    "event": "Marries sister Anna to Vladimir of Kievan Rus' — Russian Christianization."
+   },
+   {
+    "year": 1014,
+    "event": "Defeats Bulgarian tsar Samuel at Kleidion; blinds 14,000 prisoners."
+   },
+   {
+    "year": 1018,
+    "event": "Final annexation of Bulgaria — Byzantine empire at maximum territorial extent."
+   }
+  ],
+  "region": "byzantine_world",
+  "name_variants": []
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "kaldellis_streams_of_gold_2017",
+   "ims_fordham",
+   "ims_fordham_sbook1c"
+  ],
+  "confidence": "low"
+ }
+}

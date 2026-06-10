@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "norman_rollo_911",
+  "name": "Treaty of Saint-Clair-sur-Epte, Normandy Founded",
+  "year": 911,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    49.3,
+    1.69
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "King Charles the Simple of West Francia grants the Viking leader Rollo a large territory around Rouen in exchange for Rollo's baptism, his daughter Gisela in marriage, and his promise to defend the Seine against further Viking raids. The grant creates the County (later Duchy) of Normandy. Within generations, the Norse settlers assimilate into French culture while retaining their martial prowess, creating the Normans who conquer England (1066), southern Italy (1071), and the Holy Land (1098).",
+  "outcomes": [
+    "normandy_granted_to_vikings",
+    "norse_settlers_become_normans",
+    "future_conquest_england_enabled"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "duchy_of_normandy"
+    ],
+    "structural_significance": "Normandy's creation introduces a new dynamic into French feudalism, a duchy with strong central authority and military capability; the Normans' synthesis of Viking martial culture, Frankish feudalism, and Latin Christianity produces the most effective fighting force in 11th-century Europe; the treaty represents the Carolingian strategy of converting Viking raiders into frontier defenders",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "al_biruni",
+  "name": "Abū al-Rayḥān Muḥammad ibn Aḥmad al-Bīrūnī",
+  "polity": "ghaznavid_emirate",
+  "title": "court_scholar",
+  "reign_start": 1017,
+  "reign_end": 1048,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 973,
+      "death_year": 1048
+    },
+    "entity_associations": [
+      {
+        "entity_id": "ghaznavid_emirate",
+        "role": "court_scholar",
+        "start_year": 1017,
+        "end_year": 1048
+      }
+    ],
+    "key_actions": [
+      {
+        "year": 1000,
+        "summary": "Completes Athār al-bāqiya (Vestiges of the Past), a comparative chronology of pre-Islamic Persian, Greek, Jewish, Christian, and Sabian calendars.",
+        "source_id": "hodgson_venture_of_islam_1974"
+      },
+      {
+        "year": 1030,
+        "summary": "Completes Taḥqīq mā li-l-Hind (India), based on his accompanying Mahmud of Ghazni's campaigns into northern India and learning Sanskrit. The work is the first sustained empirical study of Indian religion and astronomy by a non-Indian.",
+        "source_id": "hodgson_venture_of_islam_1974"
+      },
+      {
+        "year": 1037,
+        "summary": "Completes Kitāb al-Qānūn al-Masʿūdī (The Canon Masudicus), the most extensive medieval Arabic astronomical compilation.",
+        "source_id": "hodgson_venture_of_islam_1974"
+      }
+    ],
+    "region": "central_asia",
+    "name_variants": [
+      "Al-Biruni",
+      "Alberonius"
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "hodgson_venture_of_islam_1974"
+    ],
+    "confidence": "low"
+  }
+}

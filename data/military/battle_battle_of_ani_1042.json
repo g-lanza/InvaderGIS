@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_ani_1042",
+  "name": "Battle of Ani",
+  "subtype": "battle",
+  "start_year": 1042,
+  "end_year": 1042,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q4870309"
+    }
+  },
+  "description": "Battle during Armenian-Byzantine wars (1042)",
+  "coords": [
+    43.5728,
+    40.5075
+  ]
+}

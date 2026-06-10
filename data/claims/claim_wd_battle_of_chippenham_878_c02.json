@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_chippenham_878_c02",
+  "statement": "The Battle of Chippenham took place at Chippenham.",
+  "subject_ids": [
+    "kingdom_of_wessex"
+  ],
+  "period": {
+    "from": 878,
+    "to": 878
+  },
+  "derived_from": "wd_battle_of_chippenham_878",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

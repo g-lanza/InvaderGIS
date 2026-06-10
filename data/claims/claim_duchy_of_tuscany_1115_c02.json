@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_duchy_of_tuscany_1115_c02",
+  "statement": "Matilda of Tuscany's bequest of her lands to the Papacy was disputed by the Holy Roman Emperor.",
+  "subject_ids": [
+    "duchy_of_tuscany"
+  ],
+  "period": {
+    "from": 1115,
+    "to": 1115
+  },
+  "derived_from": "duchy_of_tuscany_1115",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

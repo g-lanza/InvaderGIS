@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_spiritual_franciscans_condemned_1322_c01",
+  "statement": "The bull Ad conditorem canonum of 1322 and Cum inter nonnullos of 1323 rejected the absolute-poverty doctrine of the Spiritual Franciscans, holding that Christ and the apostles owned property.",
+  "subject_ids": [
+    "papal_states"
+  ],
+  "period": {
+    "from": 1322,
+    "to": 1322
+  },
+  "derived_from": "spiritual_franciscans_condemned_1322",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lawrence_medieval_monasticism_2001"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

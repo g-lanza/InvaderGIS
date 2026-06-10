@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_guadalete_711",
+  "name": "Battle of Guadalete",
+  "year": 711,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    36.68,
+    -6.14
+  ],
+  "entity": "umayyad_emirate_cordoba",
+  "summary": "Tariq ibn Ziyad leads a Berber-Arab army of approximately 7,000 across the Strait of Gibraltar and defeats the Visigothic King Roderic at a battle near the Guadalete River (July 711). Roderic is killed; the Visigothic army disintegrates. Within three years, the Umayyad forces under Musa ibn Nusayr have overrun virtually all of Iberia. Only the northern mountains retain small Christian kingdoms. The conquest is the fastest and most complete in early medieval history.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "umayyad_emirate_cordoba",
+      "visigothic_kingdom"
+    ],
+    "structural_significance": "Ends the Visigothic Kingdom; begins 781 years of Islamic presence in Iberia; creates al-Andalus; sets the conditions for the Reconquista that defines Iberian history until 1492",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "constable_medieval_1997",
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

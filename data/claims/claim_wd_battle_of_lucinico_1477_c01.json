@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_lucinico_1477_c01",
+  "statement": "Battle of Lucinico (1477 CE), at Lucinico (part of First Ottoman–Venetian War).",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1477,
+    "to": 1477
+  },
+  "derived_from": "wd_battle_of_lucinico_1477",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

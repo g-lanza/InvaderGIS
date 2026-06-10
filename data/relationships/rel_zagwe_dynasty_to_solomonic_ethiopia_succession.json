@@ -1,0 +1,31 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_zagwe_dynasty_to_solomonic_ethiopia_succession",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "zagwe_dynasty",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "solomonic_ethiopia",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 1270,
+  "until": 1270,
+  "note": "Derived from predecessor/successor links recorded in the zagwe_dynasty and solomonic_ethiopia entity records. Transition anchored to solomonic_ethiopia start_year.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Mechanical normalisation of curated predecessor/successor links into the relationships register."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

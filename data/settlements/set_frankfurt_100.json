@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_frankfurt_100",
+  "name": "Frankfurt",
+  "importance": "city",
+  "start_year": 100,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1794"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    8.6822,
+    50.1106
+  ]
+}

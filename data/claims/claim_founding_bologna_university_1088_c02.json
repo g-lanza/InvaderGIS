@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_founding_bologna_university_1088_c02",
+  "statement": "By 1200, the University of Bologna had over a thousand students from across Europe.",
+  "subject_ids": [
+    "commune_of_milan"
+  ],
+  "period": {
+    "from": 1088,
+    "to": 1088
+  },
+  "derived_from": "founding_bologna_university_1088",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

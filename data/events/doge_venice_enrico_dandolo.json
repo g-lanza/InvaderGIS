@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "doge_venice_enrico_dandolo",
+  "name": "Enrico Dandolo's Fourth Crusade Manipulation",
+  "year": 1202,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    45.44,
+    12.33
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Enrico Dandolo, 80 years old and nearly blind, leads Venice into the Fourth Crusade as the dominant partner. After diverting the crusade to sack Zara and then Constantinople, Venice receives three-eighths of the Byzantine Empire (the Partitio Romaniae) including Crete, key Aegean islands, and a strategic quarter of Constantinople. Dandolo dies in 1205 aged approximately 98, having secured Venice's commercial empire.",
+  "outcomes": [
+    "venice_gains_three_eighths_empire",
+    "colonial_empire_established",
+    "doge_blind_80_year_old_leads"
+  ],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "latin_empire_constantinople"
+    ],
+    "structural_significance": "Dandolo's manipulation of the Fourth Crusade is the supreme example of a city-state deploying a crusading movement for commercial ends; Venice's colonial acquisitions (Crete, Corfu, Negroponte) form the basis of its eastern empire that persists until the Ottoman conquests; the Partitio Romaniae transforms Venice from a privileged trading partner to a colonial power; Dandolo's personal role, a blind octogenarian leading an army, makes him one of the most remarkable figures in medieval history",
+    "year_range": [
+      1202,
+      1205
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

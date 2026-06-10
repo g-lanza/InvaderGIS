@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_mohács_context",
+  "name": "Mohács Context, Hungary Between Ottomans and Habsburgs",
+  "year": 1515,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    47.5,
+    19.04
+  ],
+  "entity": "kingdom_of_hungary",
+  "summary": "The Vienna Congress of 1515 arranges the dynastic marriages that ensure Habsburg succession in Hungary and Bohemia: Vladislaus II of Hungary marries his daughter Anna to the future Ferdinand I Habsburg, creating the dynastic link that transfers Hungary and Bohemia to Habsburg rule when Louis II dies childless at Mohács (1526). The Ottoman campaigns of Suleiman the Magnificent (Belgrade falls in 1521) make a major confrontation inevitable.",
+  "outcomes": [
+    "jagiellon_habsburg_marriage_treaties",
+    "ottoman_pressure_builds",
+    "battle_mohács_inevitable"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_hungary",
+      "ottoman_empire",
+      "duchy_of_austria"
+    ],
+    "structural_significance": "The Vienna Congress demonstrates how dynastic diplomacy could achieve territorial transfers without conquest, the Habsburg acquisitions of Hungary and Bohemia create the core of the Habsburg monarchy for three centuries; the convergence of Ottoman expansionism and Habsburg dynastic maneuvering at this moment shapes central European politics until the 20th century; the pre-Mohács decade shows Hungary caught between two imperial powers without the resources to resist either",
+    "year_range": [
+      1490,
+      1526
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "engel_the_2001",
+      "berend_at_2001"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

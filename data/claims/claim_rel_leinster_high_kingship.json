@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_leinster_high_kingship",
+  "statement": "Leinster, the southeastern Irish province, was the kingdom that initiated the Anglo-Norman conquest by inviting Strongbow's intervention. King Diarmait Mac Murchada, expelled by High King Ruaidrí Ua Conchobair and his Uí Néill allies, recruited Anglo-Norman barons from Wales (led by Richard de Clare 'Strongbow') and returned to reconquer his kingdom (1169–1170). Strongbow married Diarmait's daughter Aoife and inherited Leinster on Diarmait's death (1171). Henry II then arrived to bring the Anglo-Norman barons under royal control, effectively beginning the English Lordship of Ireland.",
+  "subject_ids": [
+    "kingdom_of_ireland_high",
+    "kingdom_of_leinster"
+  ],
+  "predicate": "vassalage",
+  "derived_from": "rel_leinster_high_kingship",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "kingdom_of_leinster"
+  ],
+  "period": {
+    "from": 500,
+    "to": 1166
+  }
+}

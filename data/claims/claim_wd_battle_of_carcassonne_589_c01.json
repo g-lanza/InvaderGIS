@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_carcassonne_589_c01",
+  "statement": "The Battle of Carcassonne was fought in 589 CE.",
+  "subject_ids": [
+    "merovingian_kingdom"
+  ],
+  "period": {
+    "from": 589,
+    "to": 589
+  },
+  "derived_from": "wd_battle_of_carcassonne_589",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wood_the_1994",
+      "geary_before_1988"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

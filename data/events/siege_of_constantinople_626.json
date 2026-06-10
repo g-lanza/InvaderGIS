@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "siege_of_constantinople_626",
+  "name": "Siege of Constantinople 626",
+  "year": 626,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    41,
+    29
+  ],
+  "entity": "byzantine_empire",
+  "summary": "A combined Avar-Sassanid-Slav force besieges Constantinople while Emperor Heraclius is campaigning deep inside Persia. The city's massive Theodosian Walls, defended by the Patriarch Sergius and a small garrison, repel the assault. The failure of the siege contributes to the Avar confederation's decline and allows Heraclius's decisive victory over Persia in 627.",
+  "outcomes": [
+    "avar_sassanid_siege_repulsed",
+    "theodoros_defense",
+    "heraclius_counterattacks"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire"
+    ],
+    "structural_significance": "The successful defense demonstrates the critical importance of Constantinople's walls; the Avar failure accelerates their decline; the siege inspires the Akathist Hymn, still sung in Orthodox churches.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

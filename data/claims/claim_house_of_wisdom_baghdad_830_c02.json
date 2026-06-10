@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_house_of_wisdom_baghdad_830_c02",
+  "statement": "Translators such as Hunayn ibn Ishaq and Thabit ibn Qurra worked from Greek and Syriac sources.",
+  "subject_ids": [
+    "abbasid_caliphate"
+  ],
+  "period": {
+    "from": 830,
+    "to": 830
+  },
+  "derived_from": "house_of_wisdom_baghdad_830",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_the_2004",
+      "kennedy_when_2004",
+      "crone_gods_2004",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

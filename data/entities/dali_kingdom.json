@@ -1,0 +1,140 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "dali_kingdom",
+  "name_primary": "Dali Kingdom",
+  "name_variants": [
+    "Kingdom of Dali",
+    "大理国"
+  ],
+  "type": "kingdom",
+  "region": "east_asia",
+  "formed": 937,
+  "dissolved": 1253,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    25.6,
+    100.2
+  ],
+  "population_estimates": [
+    {
+      "year": 1100,
+      "estimate": 2000000,
+      "confidence": "low",
+      "note": "Yunnan plateau under Dali rule; figures from Backus and Yang Bin scholarship."
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Buddhist kingdom of Yunnan (937–1253) founded by Duan Siping as the successor state to the Nanzhao kingdom that had ruled the region for two centuries; the Dali kingdom controlled the high tea-and-horse trade between Sichuan and the Southeast Asian highlands, maintained a Tang-derived bureaucratic and Buddhist scholastic culture distinct from contemporaneous Song China to the east, and exchanged regular tributary embassies with the Song court; the Mongol invasion of 1253 under Kublai Khan ended the kingdom's independence, and Yunnan was thereafter administered as part of the Yuan and subsequent Chinese dynasties, though the Duan family continued to govern as Yuan-era hereditary princes.",
+  "temporal": {
+    "start_year": 937,
+    "end_year": 1253,
+    "notes": "Successor state to Nanzhao centred on Yunnan; founded by Duan Siping; conquered by the Mongols under Kublai Khan in 1253, then administered as part of the Yuan and Ming."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      25.6,
+      100.2
+    ],
+    "core_regions": [
+      "east_asia"
+    ],
+    "capital": {
+      "name": "Dali",
+      "coords": [
+        25.6906,
+        100.1572
+      ],
+      "source": "wikidata"
+    }
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "foundation",
+      "years": "937–1094",
+      "description": "Duan Siping displaces the short-lived post-Nanzhao regimes and establishes the Dali kingdom; capital at Dali (Taihe); Buddhist state ideology consolidated."
+    },
+    {
+      "phase": "consolidation",
+      "years": "1094–1253",
+      "description": "Brief usurpation by the Gao family (Houli Dali) before Duan restoration; sustained tributary trade with Song China; gradual sinicization of administration."
+    },
+    {
+      "phase": "dissolution",
+      "years": "1253",
+      "description": "Kublai Khan's Mongol forces enter Yunnan during the southern flanking campaign against Song; Dali king Duan Xingzhi surrenders; the Duan family is retained as hereditary Yuan administrators."
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Duan Siping",
+      "role": "king",
+      "years": "937–944",
+      "year_start": 937,
+      "year_end": 944
+    },
+    {
+      "name": "Duan Xingzhi",
+      "role": "king",
+      "years": "1252–1253",
+      "year_start": 1252,
+      "year_end": 1253
+    }
+  ],
+  "predecessor_entity_ids": [
+    "nan_chao"
+  ],
+  "successor_entity_ids": [
+    "yuan_dynasty"
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "horse_trade",
+      "tea_trade",
+      "manufacturing"
+    ],
+    "wealth_level": "moderate",
+    "major_exports": [
+      "horses",
+      "tea",
+      "salt"
+    ],
+    "major_trade_partners": [
+      "song_empire",
+      "annam",
+      "kingdom_of_pagan"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "tea_horse_trade"
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q26472",
+    "matched_name": "manual/dali_kingdom",
+    "enrichment_date": "2026-05-24",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Dali_Kingdom",
+    "capital": {
+      "name": "Dali",
+      "coords": [
+        25.6906,
+        100.1572
+      ]
+    },
+    "predecessors_from_wikidata": [
+      "Nanzhao Kingdom"
+    ],
+    "successors_from_wikidata": [
+      "Yuan dynasty"
+    ]
+  },
+  "monogram": "DK"
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_magyar_first_bulgar",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_hungary",
+      "role": "principal"
+    },
+    {
+      "entity_id": "bulgar_khanate",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 1000,
+  "until": 1000,
+  "note": "The Magyar migration into Pannonia (895–896) brought the Hungarian tribes into direct conflict with the First Bulgarian Empire, whose Khan Simeon I had been raiding Byzantine territory. A Byzantine-Magyar alliance attacked Bulgaria from the north while Byzantine forces pressed from the south (894–896). Simeon defeated the Magyars in the counterattack, killing their prince Liutold; he then made peace with Byzantium. The Magyar-Bulgarian conflict shaped the early history of both peoples: it contributed to the Magyar migration further west into the Carpathian Basin and gave Simeon the free hand to pursue his Byzantine-focused imperial ambitions.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Magyar-Bulgarian conflict demonstrates the interconnected nature of 9th-century steppe and Balkan politics; Byzantine use of Magyars against Bulgaria models the great power's technique of deploying steppe peoples against Balkan rivals; the conflict's outcome shapes both Magyar settlement patterns and Bulgarian imperial ambitions"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "engel_the_2001",
+      "berend_at_2001"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "mansa_musa_hajj_1324",
+  "name": "Mansa Musa's Pilgrimage to Mecca",
+  "year": 1324,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    21.386,
+    39.857
+  ],
+  "entity": "mamluk_sultanate",
+  "summary": "Mansa Musa, ruler of the Mali Empire, made the hajj to Mecca in 1324–1325 with an entourage reportedly of 60,000 men and 80 camels carrying gold. His lavish generosity along the route flooded Cairo's markets with gold, depressing prices for years. He returned with the poet-architect Abu Ishaq al-Sahili, who built mosques in Timbuktu and Djenné. The pilgrimage placed Mali on European maps for the first time.",
+  "outcomes": [
+    "Mali gold depresses Cairo gold prices for a decade",
+    "Mali empire placed on European maps",
+    "Mosque construction in Timbuktu and Djenné funded",
+    "Trading connections with North Africa strengthened"
+  ],
+  "_quarry": {
+    "participants": [
+      "mamluk_sultanate"
+    ],
+    "structural_significance": "Demonstrated the wealth and international reach of sub-Saharan African empires to the Mediterranean world; opened Mali's integration into trans-Saharan trade networks.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Levtzion, Ancient Ghana and Mali",
+      "Conrad, Empires of Medieval West Africa"
+    ],
+    "confidence": "low"
+  }
+}

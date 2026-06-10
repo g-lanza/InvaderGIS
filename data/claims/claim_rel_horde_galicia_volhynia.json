@@ -1,0 +1,30 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_horde_galicia_volhynia",
+  "statement": "The Principality of Galicia-Volhynia, after its 1241 Mongol devastation, became a tribute-paying vassal of the Golden Horde under Daniel of Galicia. Daniel alternated between accommodation (accepting the Horde's patent) and resistance (seeking crusade support from Pope Innocent IV, receiving a royal crown in 1253). The Horde used Galician troops in its western campaigns; Galician princes periodically made the journey to Sarai to renew their submission. After Daniel's line ended (1323), Galicia passed to Poland and Volhynia to Lithuania — both of which were rising powers outside the Horde's sphere, ending the tributary relationship.",
+  "subject_ids": [
+    "golden_horde",
+    "principality_of_galicia_volhynia"
+  ],
+  "predicate": "tributary",
+  "derived_from": "rel_horde_galicia_volhynia",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "allsen_mongol_1987",
+      "dimnik_the_1994",
+      "magocsi_a_2010"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "principality_of_galicia_volhynia"
+  ],
+  "period": {
+    "from": 1240,
+    "to": 1349
+  }
+}

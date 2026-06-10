@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_gardiki_1375",
+  "name": "Battle of Gardiki",
+  "year": 1375,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    37.675,
+    22.4
+  ],
+  "entity": "principality_of_achaea",
+  "summary": "Battle of Gardiki (1375 CE), at Gardiki Castle, Arcadia (part of Byzantine–Latin wars). Source: Wikidata Q30622039.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "principality_of_achaea",
+      "despotate_of_the_morea"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

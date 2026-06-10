@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_porta_san_lorenzo_1347",
+  "name": "Battle of Porta San Lorenzo",
+  "subtype": "battle",
+  "start_year": 1347,
+  "end_year": 1347,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q3636580"
+    }
+  },
+  "description": "Battle of 1347",
+  "coords": [
+    12.5103,
+    41.8975
+  ]
+}

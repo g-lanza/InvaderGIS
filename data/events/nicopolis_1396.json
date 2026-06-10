@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "nicopolis_1396",
+  "name": "Battle of Nicopolis",
+  "year": 1396,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    43.71,
+    24.92
+  ],
+  "entity": "ottoman_beylik",
+  "summary": "A coalition of European knights, French, Burgundian, Hungarian, Wallachian, and others, launches the Crusade of Nicopolis to relieve the Ottoman siege of Constantinople. At the Battle of Nicopolis (September 25, 1396), Bayezid I annihilates the crusader force; the French knights' premature charge (against the advice of Hungarian King Sigismund) routs the center. John the Fearless of Burgundy and hundreds of nobles are captured; many are ransomed for enormous sums. The battle ends the last major crusade against the Ottomans until 1444.",
+  "outcomes": [
+    "crusade_turned_back"
+  ],
+  "_quarry": {
+    "participants": [
+      "ottoman_beylik",
+      "kingdom_of_hungary"
+    ],
+    "structural_significance": "Ends the Nicopolis Crusade; demonstrates the hopelessness of Western crusading against the disciplined Ottoman army; Constantinople is saved not by crusade but by Timur's invasion (1402)",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

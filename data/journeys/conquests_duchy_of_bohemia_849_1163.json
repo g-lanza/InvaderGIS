@@ -1,0 +1,120 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_duchy_of_bohemia_849_1163",
+  "name": "Duchy of Bohemia — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 849,
+  "year_end": 1163,
+  "waypoints": [
+    {
+      "year": 849,
+      "place": "Battle of Zásek",
+      "coords": [
+        50.3,
+        11.95
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_z_sek_849"
+    },
+    {
+      "year": 872,
+      "place": "Battle of Vltava",
+      "coords": [
+        50.3,
+        11.95
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_vltava_872"
+    },
+    {
+      "year": 1003,
+      "place": "German–Polish Wars",
+      "coords": [
+        50.05,
+        12.45
+      ],
+      "note": "military",
+      "event_id": "wd_german_polish_wars_1003"
+    },
+    {
+      "year": 1028,
+      "place": "German–Polish War of 1028-1031",
+      "coords": [
+        50.625,
+        18.6
+      ],
+      "note": "military",
+      "event_id": "wd_german_polish_war_of_1028_1031_1028"
+    },
+    {
+      "year": 1030,
+      "place": "German–Hungarian War",
+      "coords": [
+        49.5333,
+        12.1333
+      ],
+      "note": "military",
+      "event_id": "wd_german_hungarian_war_1030"
+    },
+    {
+      "year": 1040,
+      "place": "Battle at Chlumec",
+      "coords": [
+        50.05,
+        12.45
+      ],
+      "note": "military",
+      "event_id": "wd_battle_at_chlumec_1040"
+    },
+    {
+      "year": 1109,
+      "place": "German–Polish War of 1109",
+      "coords": [
+        50.7,
+        14.6333
+      ],
+      "note": "military",
+      "event_id": "wd_german_polish_war_of_1109_1109"
+    },
+    {
+      "year": 1126,
+      "place": "Second Battle of Chlumec",
+      "coords": [
+        50.05,
+        12.45
+      ],
+      "note": "military",
+      "event_id": "wd_second_battle_of_chlumec_1126"
+    },
+    {
+      "year": 1157,
+      "place": "Frederick I's expedition to Głogów",
+      "coords": [
+        50.7148,
+        19.8708
+      ],
+      "note": "military",
+      "event_id": "wd_frederick_i_s_expedition_to_g_og_w_1157"
+    },
+    {
+      "year": 1163,
+      "place": "Byzantine–Hungarian War",
+      "coords": [
+        46.4333,
+        19.2667
+      ],
+      "note": "military",
+      "event_id": "wd_byzantine_hungarian_war_1163"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

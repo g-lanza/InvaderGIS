@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_crusader_fatimid_wars_1099",
+  "name": "Crusader–Fatimid Wars",
+  "year": 1099,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    30.9,
+    33.2
+  ],
+  "entity": "kingdom_of_jerusalem",
+  "summary": "Crusader–Fatimid Wars (1099 CE), (part of Crusades). Source: Wikidata Q130739570.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_jerusalem",
+      "fatimid_caliphate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

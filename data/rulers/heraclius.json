@@ -1,0 +1,53 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "heraclius",
+  "name": "Heraclius",
+  "polity": "byzantine_empire",
+  "title": "emperor",
+  "reign_start": 610,
+  "reign_end": 641,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 575,
+      "death_year": 641
+    },
+    "entity_associations": [
+      {
+        "entity_id": "byzantine_empire",
+        "role": "emperor",
+        "start_year": 610,
+        "end_year": 641
+      }
+    ],
+    "key_actions": [
+      {
+        "year": 610,
+        "summary": "Sails from Carthage with the Carthaginian-African fleet; deposes the tyrant Phocas at Constantinople.",
+        "source_id": "kazhdan_oxford_dictionary_byzantium_1991"
+      },
+      {
+        "year": 627,
+        "summary": "Defeats the Sasanian Persian army at the Battle of Nineveh (12 December), inflicting the decisive defeat of a generation-long Roman-Persian war.",
+        "source_id": "kaldellis_streams_of_gold_2017"
+      },
+      {
+        "year": 636,
+        "summary": "Roman armies under Vahan are destroyed by the early Caliphate at the Battle of the Yarmuk (August 636), opening Syria, Palestine, and Egypt to Arab conquest.",
+        "source_id": "kaldellis_streams_of_gold_2017"
+      }
+    ],
+    "region": "byzantine_world",
+    "name_variants": [
+      "Herakleios"
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kazhdan_oxford_dictionary_byzantium_1991",
+      "kaldellis_streams_of_gold_2017"
+    ],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_balkh_900",
+  "name": "Battle of Balkh",
+  "subtype": "battle",
+  "start_year": 900,
+  "end_year": 900,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q4087412"
+    }
+  },
+  "description": "Battle of 900",
+  "coords": [
+    66.8989,
+    36.7581
+  ]
+}

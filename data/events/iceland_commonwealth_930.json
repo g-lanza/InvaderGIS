@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "iceland_commonwealth_930",
+  "name": "Althing Founded",
+  "year": 930,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    64,
+    -19
+  ],
+  "entity": "iceland_commonwealth",
+  "summary": "The Althing, one of the world's oldest parliaments, was established in 930 CE at Þingvellir in Iceland. Representing the free farmers and chieftains of the commonwealth, the Althing made laws, resolved disputes, and made major decisions without a king. This unique republican experiment lasted until 1262.",
+  "outcomes": [
+    "parliament_established",
+    "law_code_created",
+    "norse_democracy"
+  ],
+  "_quarry": {
+    "participants": [
+      "iceland_commonwealth"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

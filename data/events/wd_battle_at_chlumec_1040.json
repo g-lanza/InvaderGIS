@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_at_chlumec_1040",
+  "name": "Battle at Chlumec",
+  "year": 1040,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    50.05,
+    12.45
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Battle at Chlumec (1040 CE), at Chlumec. Source: Wikidata Q1361979.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "duchy_of_bohemia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

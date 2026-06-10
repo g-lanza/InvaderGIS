@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "almohad_decline_1212",
+  "name": "Las Navas de Tolosa, Almohad Power Broken",
+  "year": 1212,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    38.35,
+    -3.6
+  ],
+  "entity": "almohad_caliphate_iberia",
+  "summary": "The combined Christian armies of Alfonso VIII of Castile, Peter II of Aragon, and Sancho VII of Navarre defeat the Almohad Caliph Muhammad al-Nasir at Las Navas de Tolosa in July 1212. The Almohad army of approximately 100,000 is routed; Almohad power collapses. Within three decades, Castile takes Córdoba (1236), Valencia (1238), and Seville (1248); Portugal reaches the Algarve (1249). The Reconquista accelerates dramatically.",
+  "outcomes": [
+    "almohad_army_destroyed",
+    "andalus_open_to_reconquista",
+    "castile_dominates_reconquista"
+  ],
+  "_quarry": {
+    "participants": [
+      "almohad_caliphate_iberia",
+      "crown_of_castile",
+      "crown_of_aragon",
+      "kingdom_of_navarre",
+      "kingdom_of_portugal"
+    ],
+    "structural_significance": "Las Navas is the decisive battle of the Iberian Reconquista; the Almohad defeat collapses the most militarily capable Islamic power in Iberia; the rapid subsequent Christian expansion (1236-1248) is the most extensive territorial change in medieval Iberia; the battle demonstrates that Iberian Christian kingdoms could unite against a common enemy despite mutual hostility, a pattern repeated in the later Crusades",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_kingdoms_2018",
+      "o'callaghan_reconquest_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

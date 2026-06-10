@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_gibraltar_1476_1476_c01",
+  "statement": "Battle of Gibraltar (1476) (1476 CE), at Gibraltar (part of War of the Castilian Succession).",
+  "subject_ids": [
+    "kingdom_of_portugal"
+  ],
+  "period": {
+    "from": 1476,
+    "to": 1476
+  },
+  "derived_from": "wd_battle_of_gibraltar_1476_1476",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

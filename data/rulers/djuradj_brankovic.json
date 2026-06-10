@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "djuradj_brankovic",
+  "name": "Đurađ Branković",
+  "polity": "serbian_despotate",
+  "title": "ruler",
+  "reign_start": 1375,
+  "reign_end": 1456,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "serbian_despotate",
+        "role": "ruler",
+        "start_year": 1375,
+        "end_year": 1456
+      }
+    ],
+    "key_actions": [],
+    "region": "southeastern_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

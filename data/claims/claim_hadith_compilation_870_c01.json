@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_hadith_compilation_870_c01",
+  "statement": "Around 870, Muhammad al-Bukhari completed the Sahih, a critical compilation of some 7,275 hadith reports collected over sixteen years.",
+  "subject_ids": [
+    "abbasid_caliphate"
+  ],
+  "period": {
+    "from": 870,
+    "to": 870
+  },
+  "derived_from": "hadith_compilation_870",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "hodgson_venture_of_islam_1974",
+      "hourani_arab_peoples_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

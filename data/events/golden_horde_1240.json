@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "golden_horde_1240",
+  "name": "Consolidation of Golden Horde",
+  "year": 1240,
+  "type": "expansion_milestone",
+  "category": "discovery",
+  "coords": [
+    48.5,
+    44.5
+  ],
+  "entity": "golden_horde",
+  "summary": "Batu Khan's Mongol forces, having destroyed Vladimir (February 1238) and most of northeastern Rus, advance on Kiev, the mother of Russian cities and the religious center of Eastern Orthodoxy. The city resists briefly; Mongol forces breach the walls in December 1240 and destroy the city so thoroughly that when a papal envoy visits in 1246 he sees only skulls and ruins. The conquest of Kiev completes the subjugation of Kievan Rus and demonstrates the Mongols' ability to reduce major fortified cities.",
+  "outcomes": [
+    "western_ulus_formed"
+  ],
+  "_quarry": {
+    "participants": [
+      "golden_horde",
+      "kievan_rus"
+    ],
+    "structural_significance": "Destroys Kievan Rus as a political entity; displaces the political and demographic center of Russian civilization northward; establishes the Golden Horde's tax sovereignty over the Russian principalities for 240 years",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "allsen_mongol_1987"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

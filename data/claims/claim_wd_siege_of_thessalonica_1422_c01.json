@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_thessalonica_1422_c01",
+  "statement": "Siege of Thessalonica (1422 CE), at Thessaloniki (part of Byzantine–Ottoman War of 1421–1424).",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1422,
+    "to": 1422
+  },
+  "derived_from": "wd_siege_of_thessalonica_1422",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

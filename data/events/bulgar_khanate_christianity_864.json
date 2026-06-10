@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "bulgar_khanate_christianity_864",
+  "name": "Conversion of Bulgaria",
+  "year": 870,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    43.475,
+    24.394
+  ],
+  "entity": "bulgar_khanate",
+  "summary": "The Council of Constantinople recognized an independent Bulgarian archbishopric, confirming Bulgaria's place in the Eastern Orthodox world. This ecclesiastical independence was crucial to Bulgarian national identity.",
+  "outcomes": [
+    "orthodox_patriarchate_sofia",
+    "bulgarians_orthodox",
+    "slavonic_liturgy"
+  ],
+  "_quarry": {
+    "participants": [
+      "bulgar_khanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

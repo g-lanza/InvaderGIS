@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_bornholm_1460",
+  "name": "Battle of Bornholm",
+  "year": 1460,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    54,
+    20
+  ],
+  "entity": "teutonic_order_state",
+  "summary": "Battle of Bornholm (1460 CE), at Bornholm (part of Thirteen Years' War). Source: Wikidata Q30909351.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "teutonic_order_state"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "christiansen_the_1997",
+      "urban_the_1994",
+      "turnbull_crusader_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

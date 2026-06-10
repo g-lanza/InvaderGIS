@@ -1,0 +1,42 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ottoman_janissaries_1365",
+  "name": "Creation of the Ottoman Janissary Corps",
+  "year": 1365,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.69,
+    26.56
+  ],
+  "entity": "ottoman_empire",
+  "summary": "Sultan Murad I systematizes the devshirme (blood levy) system and creates the Janissary corps, elite infantry soldiers recruited as children from Christian Balkan families, converted to Islam, educated in the palace school, and raised in absolute loyalty to the sultan. Freed from tribal and family loyalties, the Janissaries become the most effective infantry force in the Near East. Their combination of discipline, literacy, and firearms makes them decisive in Ottoman expansion.",
+  "outcomes": [
+    "professional_standing_army_created",
+    "devshirme_system_established",
+    "christian_boys_recruited_converted"
+  ],
+  "_quarry": {
+    "participants": [
+      "ottoman_empire"
+    ],
+    "structural_significance": "The Janissary corps solves the fundamental problem of Near Eastern military organization, tribal cavalry armies are loyal to tribal leaders, not states; by creating soldiers whose only loyalty is to the sultan, Murad I builds a genuine standing army; the Janissaries' political power eventually undermines Ottoman governance (they assassinate sultans who threaten their privileges), but their creation is the military foundation of Ottoman imperial expansion",
+    "year_range": [
+      1360,
+      1380
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

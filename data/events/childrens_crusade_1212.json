@@ -1,0 +1,34 @@
+{
+ "kind": "event",
+ "dataset": "medieval-europe-500-1500",
+ "id": "childrens_crusade_1212",
+ "name": "Popular crusade movement",
+ "year": 1212,
+ "type": "crusade",
+ "category": "violence",
+ "coords": [
+  46,
+  2
+ ],
+ "entity": "kingdom_of_france",
+ "summary": "In the summer of 1212, two mass popular movements, one led by the French shepherd boy Stephen of Cloyes, one by the German youth Nicholas of Cologne, attract tens of thousands of young followers with the belief that God would open the sea for their passage to the Holy Land. Stephen's French followers reach Marseille; no sea opens; they disperse or take ship with merchants (allegedly sold into slavery in North Africa). Nicholas's German followers cross the Alps to Genoa; no sea opens; most struggle back home. The movements, poorly documented, are later mythologized as the 'Children's Crusade' though participants included adults. The episode reveals the popular crusading fervor that institutional crusades could not satisfy.",
+ "outcomes": [
+  "youth_pilgrimage_chaos"
+ ],
+ "_quarry": {
+  "participants": [
+   "kingdom_of_france",
+   "holy_roman_empire"
+  ],
+  "structural_significance": "Demonstrates the gap between popular crusading enthusiasm and institutional crusading organization; reveals the social forces that the crusading ideal unleashed beyond papal and royal control; the movements' failure reinforces the trend toward smaller, more professional crusading forces",
+  "year_range": null
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "ims_fordham",
+   "ims_fordham_sbook1k"
+  ],
+  "confidence": "low"
+ }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_byzantine_empire_378_1453",
+  "statement": "Byzantine Empire — campaigns and battles spanned 378–1453, from Battle of Adrianople to Fall of Constantinople.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_byzantine_empire_378_1453",
+  "period": {
+    "from": 378,
+    "to": 1453
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

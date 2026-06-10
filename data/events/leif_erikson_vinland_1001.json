@@ -1,0 +1,31 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "leif_erikson_vinland_1001",
+  "name": "Leif Erikson's Vinland voyage",
+  "year": 1001,
+  "type": "exploration",
+  "category": "discovery",
+  "coords": [
+    51.5961,
+    -55.5311
+  ],
+  "entity": "kingdom_of_norway",
+  "summary": "Erik the Red's son Leif sails west from his father's Greenland settlement and overwinters on the North American coast, at the site later excavated as L'Anse aux Meadows on the northern tip of Newfoundland (Helge and Anne Stine Ingstad, 1960). The Greenland Saga and Erik the Red's Saga (both Icelandic, both 13th-c.) preserve the narrative; the L'Anse aux Meadows excavation confirms a Norse presence around AD 1000–1020.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_norway",
+      "iceland_commonwealth"
+    ],
+    "structural_significance": "First documented European landfall in North America, ~490 years before Columbus. The Norse Vinland presence appears to have lasted only a few seasons; the failure to establish a permanent colony leaves no lasting demographic or political consequence on either side of the Atlantic.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "jones_history_vikings_1984"
+    ],
+    "confidence": "low"
+  }
+}

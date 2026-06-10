@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_alfred_great_scholar_871_c01",
+  "statement": "Alfred the Great of Wessex established a court school and commissioned translations of Latin texts into Old English, including Boethius, Gregory's Pastoral Care, and Bede's Ecclesiastical History.",
+  "subject_ids": [
+    "kingdom_of_wessex"
+  ],
+  "period": {
+    "from": 871,
+    "to": 871
+  },
+  "derived_from": "alfred_great_scholar_871",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

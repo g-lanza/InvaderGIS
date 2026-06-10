@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_siege_of_nantes_1380",
+  "name": "Siege of Nantes",
+  "subtype": "battle",
+  "start_year": 1380,
+  "end_year": 1380,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q3485969"
+    }
+  },
+  "description": "Battle during Hundred Years' War (1380)",
+  "coords": [
+    -1.5539,
+    47.2172
+  ]
+}

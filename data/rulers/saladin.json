@@ -1,0 +1,54 @@
+{
+ "kind": "ruler",
+ "dataset": "medieval-europe-500-1500",
+ "id": "saladin",
+ "name": "Saladin (Salah ad-Din Yusuf ibn Ayyub)",
+ "polity": "ayyubid_sultanate",
+ "title": "founder_sultan",
+ "reign_start": 1171,
+ "reign_end": 1193,
+ "_quarry": {
+  "lifespan": {
+   "birth_year": 1138,
+   "death_year": 1193
+  },
+  "entity_associations": [
+   {
+    "entity_id": "ayyubid_sultanate",
+    "role": "founder_sultan",
+    "start_year": 1171,
+    "end_year": 1193
+   }
+  ],
+  "key_actions": [
+   {
+    "year": 1171,
+    "event": "Abolishes Fatimid Caliphate; rules Egypt for Abbasids nominally."
+   },
+   {
+    "year": 1187,
+    "event": "Defeats Crusader army at Hattin; captures the True Cross."
+   },
+   {
+    "year": 1187,
+    "event": "Recaptures Jerusalem after 88 years of Christian rule."
+   },
+   {
+    "year": 1192,
+    "event": "Treaty of Jaffa with Richard the Lionheart concludes Third Crusade."
+   }
+  ],
+  "region": "levant",
+  "name_variants": []
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "riley_smith_crusades_2005",
+   "hodgson_venture_of_islam_1974",
+   "ims_fordham",
+   "ims_fordham_sbookmap"
+  ],
+  "confidence": "low"
+ }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_agincourt_1415_c01",
+  "statement": "Henry V's outnumbered English army defeated the French at Agincourt in 1415 through superior use of the longbow against armored knights in muddy conditions.",
+  "subject_ids": [
+    "kingdom_of_england"
+  ],
+  "period": {
+    "from": 1415,
+    "to": 1415
+  },
+  "derived_from": "agincourt_1415",
+  "unresolved_sources": [
+    "carpenter_the_2003"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

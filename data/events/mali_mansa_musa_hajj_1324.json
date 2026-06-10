@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "mali_mansa_musa_hajj_1324",
+  "name": "Mansa Musa's Pilgrimage to Mecca",
+  "year": 1324,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    12.697,
+    -7.454
+  ],
+  "entity": "mali",
+  "summary": "Mansa Musa I made his famous pilgrimage to Mecca with an entourage of 60,000 people carrying 80 camels each loaded with gold dust. His spending crashed the gold market in Cairo for a decade and put Mali on European maps for the first time.",
+  "outcomes": [
+    "mali_wealth_revealed",
+    "cairo_gold_market_disrupted",
+    "mali_fame_world"
+  ],
+  "_quarry": {
+    "participants": [
+      "mali"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

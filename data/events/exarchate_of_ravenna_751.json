@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "exarchate_of_ravenna_751",
+  "name": "Lombards Capture Ravenna",
+  "year": 751,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    44.96,
+    10.7
+  ],
+  "entity": "exarchate_of_ravenna",
+  "summary": "The Lombard king Aistulf captured Ravenna in 751 CE, ending Byzantine administration of Italy. The Pope, suddenly isolated, appealed to the Frankish kingdom for military support. This crisis directly led to Pepin the Short's Italian campaigns and the Donation of Pepin, establishing the Papal States.",
+  "outcomes": [
+    "byzantine_italy_ends",
+    "papal_isolation",
+    "frankish_intervention_sought"
+  ],
+  "_quarry": {
+    "participants": [
+      "exarchate_of_ravenna",
+      "lombard_kingdom"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

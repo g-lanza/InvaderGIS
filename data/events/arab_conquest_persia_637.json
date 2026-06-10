@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "arab_conquest_persia_637",
+  "name": "Arab Conquest of the Sassanid Empire",
+  "year": 637,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    32.5,
+    44.6
+  ],
+  "entity": "rashidun_caliphate",
+  "summary": "Arab forces defeat the Sassanid army at the Battle of al-Qadisiyyah (637), capturing the Persian capital Ctesiphon and its legendary treasury. The last Sassanid emperor Yazdegerd III flees and is murdered by his own subjects in 651. Persia converts to Islam over the following centuries, eventually making profound contributions to Islamic civilization.",
+  "outcomes": [
+    "sassanid_empire_destroyed",
+    "persia_islamicized",
+    "ctesiphon_sacked"
+  ],
+  "_quarry": {
+    "participants": [
+      "rashidun_caliphate"
+    ],
+    "structural_significance": "One of history's most consequential conquests; Persia's conversion fundamentally shapes Islamic philosophy, art, administration, and poetry; Persian becomes the language of Islamic high culture alongside Arabic.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

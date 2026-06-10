@@ -1,0 +1,40 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_carolingian_byzantine_disputes",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "carolingian_empire",
+      "role": "principal"
+    },
+    {
+      "entity_id": "byzantine_empire",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 800,
+  "until": 812,
+  "note": "Charlemagne's imperial coronation (800) provoked Byzantine claim of sole Roman legitimacy; settled by Pax Nicephori (812).",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The rivalry over imperial title (800–812) forced each power to develop competing theories of universal sovereignty—papal-legitimated western empire versus continuous Roman succession—that defined the ideological framework of medieval political theory; the eventual recognition settlement created a permanent dual-empire conceptual framework that shaped canon law and political theology for centuries."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "mckitterick_charlemagne_2008",
+      "riché_the_1993",
+      "nelson_king_2019",
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

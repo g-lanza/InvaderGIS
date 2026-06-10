@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "petrarch_laurel_1341",
+  "name": "Petrarch Crowned Poet Laureate",
+  "year": 1341,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    41.9,
+    12.5
+  ],
+  "entity": "republic_of_florence",
+  "summary": "Francesco Petrarch is crowned with the laurel wreath on the Capitoline Hill in Rome, the first such ceremony since antiquity. His Canzoniere (vernacular Italian sonnets to Laura) and his Latin letters consciously imitating Cicero create the model for Renaissance humanism. Petrarch's excavation of classical texts in monastic libraries begins the systematic recovery of ancient learning.",
+  "outcomes": [
+    "renaissance_humanism_begins",
+    "vernacular_poetry",
+    "classical_revival"
+  ],
+  "_quarry": {
+    "participants": [
+      "republic_of_florence",
+      "papal_states"
+    ],
+    "structural_significance": "Petrarch is widely considered the first Renaissance humanist; his combination of classical imitation and vernacular literary creation shapes both Italian and later European literature; his letters create the idea of the Renaissance as a recovery from the \"Dark Ages.\"",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "najemy_a_2006",
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

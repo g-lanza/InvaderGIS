@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_almohad_campaign_against_castile_1196_c01",
+  "statement": "The Almohads conducted a military campaign against the Kingdom of Castile in 1196 CE.",
+  "subject_ids": [
+    "kingdom_of_castile"
+  ],
+  "period": {
+    "from": 1196,
+    "to": 1196
+  },
+  "derived_from": "wd_almohad_campaign_against_castile_1196",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

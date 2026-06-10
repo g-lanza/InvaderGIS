@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_antioch_970",
+  "name": "Siege of Antioch",
+  "year": 970,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    35.5,
+    30.05
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Siege of Antioch (970 CE), at Antioch (part of Arab–Byzantine Wars). Source: Wikidata Q131359760.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "fatimid_caliphate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

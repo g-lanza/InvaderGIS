@@ -1,0 +1,32 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_ayyubid_mamluk_succession",
+  "statement": "The Mamluk slave-soldiers — the Ayyubid dynasty's own military elite — overthrow and kill Sultan Turanshah immediately after their victory over the Seventh Crusade at Mansura (1250); the Mamluks seize Egypt and gradually eliminate remaining Ayyubid princes from Syria by 1260.",
+  "subject_ids": [
+    "ayyubid_sultanate",
+    "mamluk_sultanate"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_ayyubid_mamluk_succession",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "humphreys_from_1977",
+      "lyons_saladin_1982",
+      "ims_fordham",
+      "ims_fordham_sbook1d",
+      "irwin_the_1986",
+      "northrup_from_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "mamluk_sultanate"
+  ],
+  "period": {
+    "from": 1250,
+    "to": 1250
+  }
+}

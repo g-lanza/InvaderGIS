@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_mirebeau_1202",
+  "name": "Battle of Mirebeau",
+  "subtype": "battle",
+  "start_year": 1202,
+  "end_year": 1202,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q4871743"
+    }
+  },
+  "description": "Battle during French invasion of Normandy (1202)",
+  "coords": [
+    0.1817,
+    46.7853
+  ]
+}

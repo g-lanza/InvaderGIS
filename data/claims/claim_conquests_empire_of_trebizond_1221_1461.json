@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_empire_of_trebizond_1221_1461",
+  "statement": "Empire of Trebizond — campaigns and battles spanned 1221–1461, from Battle of Sudak to Trebizond question.",
+  "subject_ids": [
+    "empire_of_trebizond"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_empire_of_trebizond_1221_1461",
+  "period": {
+    "from": 1221,
+    "to": 1461
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "miller_trebizond_1926",
+      "eastmond_art_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

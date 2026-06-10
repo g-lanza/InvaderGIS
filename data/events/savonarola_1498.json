@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "savonarola_1498",
+  "name": "Execution of Savonarola",
+  "year": 1498,
+  "type": "rebellion",
+  "category": "violence",
+  "coords": [
+    43.77,
+    11.25
+  ],
+  "entity": "republic_of_florence",
+  "summary": "Girolamo Savonarola, a Dominican friar, rose to prominence in Florence (1494) following the expulsion of the Medici after the French invasion. He established a theocratic republic centered on his prophetic preaching, organizing 'Bonfires of the Vanities' that burned cosmetics, mirrors, secular books, and artworks as instruments of sin. He defied Pope Alexander VI's orders to stop preaching, was excommunicated (1497), and eventually lost Florentine popular support after an ordeal by fire he had promised did not materialize. He was arrested, tortured, hanged, and burned in the Piazza della Signoria (May 23, 1498), on the same spot where his Bonfires had burned.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_florence",
+      "papal_states"
+    ],
+    "structural_significance": "Savonarola's brief theocracy demonstrates the power and limits of prophetic religious politics in Renaissance Florence; his career prefigures the Protestant Reformation's critique of papal corruption; his burning demonstrates the papacy's eventual ability to reassert control over radical reformers",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "najemy_a_2006",
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

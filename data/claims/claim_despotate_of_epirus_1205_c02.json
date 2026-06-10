@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_despotate_of_epirus_1205_c02",
+  "statement": "The Despotate of Epirus preserved Greek Orthodox culture and Byzantine administrative traditions against Latin domination.",
+  "subject_ids": [
+    "despotate_of_epirus"
+  ],
+  "period": {
+    "from": 1205,
+    "to": 1205
+  },
+  "derived_from": "despotate_of_epirus_1205",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

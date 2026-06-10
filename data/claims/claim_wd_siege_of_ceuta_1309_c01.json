@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_ceuta_1309_c01",
+  "statement": "Siege of Ceuta (1309 CE), at Ceuta under Muslim rule (part of Battle of the Strait).",
+  "subject_ids": [
+    "crown_of_aragon"
+  ],
+  "period": {
+    "from": 1309,
+    "to": 1309
+  },
+  "derived_from": "wd_siege_of_ceuta_1309",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

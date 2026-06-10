@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_treaty_wedmore_878_c02",
+  "statement": "The Treaty of Wedmore (878) required Guthrum and 30 of his leading men to accept Christian baptism, with Alfred as godfather, and Guthrum took the Christian name Æthelstan.",
+  "subject_ids": [
+    "kingdom_of_wessex"
+  ],
+  "period": {
+    "from": 878,
+    "to": 878
+  },
+  "derived_from": "treaty_wedmore_878",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_seminara_1495_c01",
+  "statement": "Battle of Seminara (1495 CE), at Seminara (part of Italian War of 1494–1495).",
+  "subject_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 1495,
+    "to": 1495
+  },
+  "derived_from": "wd_battle_of_seminara_1495",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

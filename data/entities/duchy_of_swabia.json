@@ -1,0 +1,1216 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_swabia",
+  "name_primary": "Duchy of Swabia",
+  "name_variants": [
+    "Ducatus Allemaniae"
+  ],
+  "type": "duchy",
+  "region": "central_europe",
+  "formed": 496,
+  "dissolved": 1268,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 1000,
+      "label": "Duchy of Swabia",
+      "polygon": [
+        [
+          47.46,
+          7.81
+        ],
+        [
+          48.72,
+          8.51
+        ],
+        [
+          48.82,
+          9.99
+        ],
+        [
+          47.69,
+          10.66
+        ],
+        [
+          46.48,
+          10.06
+        ],
+        [
+          46.41,
+          8.48
+        ],
+        [
+          47.46,
+          8.41
+        ],
+        [
+          47.46,
+          7.81
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    47.6269,
+    9.3172
+  ],
+  "religion": "catholic",
+  "population_estimates": [
+    {
+      "year": 800,
+      "estimate": 700000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q693980",
+          "url": "https://www.wikidata.org/wiki/Q693980",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Swabia",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Swabia"
+        }
+      ]
+    },
+    {
+      "year": 950,
+      "estimate": 1000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q693980",
+          "url": "https://www.wikidata.org/wiki/Q693980",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Swabia",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Swabia"
+        }
+      ]
+    },
+    {
+      "year": 1100,
+      "estimate": 1100000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q693980",
+          "url": "https://www.wikidata.org/wiki/Q693980",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Swabia",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Swabia"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low"
+  },
+  "description": "Stem duchy in southwestern Germany (c. 915–1268) with the highest concentration of imperial ministeriales and Hohenstaufen dynastic heartland; Frederick Barbarossa's Hohenstaufen dynasty launched imperial power from Swabia and its university towns later pioneered urban liberties, but after Conradin's execution the duchy fragmented into competing cities and lordships.",
+  "temporal": {
+    "start_year": 496,
+    "end_year": 1268,
+    "end_year_within_scope": null,
+    "start_event_id": null,
+    "end_event_id": null,
+    "notes": "Stem duchy; Hohenstaufen heartland; ends with Conradin."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      47.6269,
+      9.3172
+    ],
+    "core_regions": [
+      "Swabia",
+      "Upper Rhine"
+    ],
+    "polygon_simplified": [
+      [
+        47.46,
+        7.81
+      ],
+      [
+        48.72,
+        8.51
+      ],
+      [
+        48.82,
+        9.99
+      ],
+      [
+        47.69,
+        10.66
+      ],
+      [
+        46.48,
+        10.06
+      ],
+      [
+        46.41,
+        8.48
+      ],
+      [
+        47.46,
+        8.41
+      ],
+      [
+        47.46,
+        7.81
+      ]
+    ],
+    "notes": "Centroid approximate; polygon pending schematic or OHM sourcing.",
+    "polygon_snapshots": [
+      {
+        "year": 1000,
+        "label": "Duchy of Swabia",
+        "polygon": [
+          [
+            47.46,
+            7.81
+          ],
+          [
+            48.72,
+            8.51
+          ],
+          [
+            48.82,
+            9.99
+          ],
+          [
+            47.69,
+            10.66
+          ],
+          [
+            46.48,
+            10.06
+          ],
+          [
+            46.41,
+            8.48
+          ],
+          [
+            47.46,
+            8.41
+          ],
+          [
+            47.46,
+            7.81
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "real_historical_boundary",
+    "polygon_source": "aourednik/historical-basemaps",
+    "polygon_source_date": "2026-05-09",
+    "capital": {
+      "name": "Augsburg",
+      "coords": [
+        48.37,
+        10.9
+      ],
+      "source": "curated"
+    }
+  },
+  "internal_structure": {
+    "centralization": "low_to_medium",
+    "centralization_trajectory": null,
+    "governance_type": "dynastic_feudal",
+    "legitimacy_basis": [
+      "inheritance"
+    ],
+    "administrative_system": ""
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "formation",
+      "years": "c.915–1079",
+      "description": "Duchy established under Ottonian reorganization; successive dynasties.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q693980",
+          "url": "https://www.wikidata.org/wiki/Q693980"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Swabia",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Swabia"
+        }
+      ]
+    },
+    {
+      "phase": "peak",
+      "years": "1079–1250",
+      "description": "Hohenstaufen dukes; Swabia is core of imperial power base.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q693980",
+          "url": "https://www.wikidata.org/wiki/Q693980"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Swabia",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Swabia"
+        }
+      ]
+    },
+    {
+      "phase": "crisis",
+      "years": "1250–1268",
+      "description": "Hohenstaufen collapse; Conradin's failed Italian campaign and execution.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q693980",
+          "url": "https://www.wikidata.org/wiki/Q693980"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Swabia",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Swabia"
+        }
+      ]
+    },
+    {
+      "phase": "dissolution",
+      "years": "1268",
+      "description": "No successor appointed; duchy fragments into city leagues and lordships.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q693980",
+          "url": "https://www.wikidata.org/wiki/Q693980"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Swabia",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Swabia"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "geographic_defensibility",
+      "layer": "geography_territory",
+      "description": "Black Forest, Rhine, and Danube boundaries defined a coherent defensive zone.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q693980",
+          "url": "https://www.wikidata.org/wiki/Q693980"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Swabia",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Swabia"
+        }
+      ]
+    },
+    {
+      "tag": "dynastic_consolidation",
+      "layer": "dynastic_legitimacy",
+      "description": "Hohenstaufen family elevated Swabia to imperial prestige as their ancestral duchy and power base.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q693980",
+          "url": "https://www.wikidata.org/wiki/Q693980"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Swabia",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Swabia"
+        }
+      ]
+    },
+    {
+      "tag": "resource_concentration",
+      "layer": "economic_commercial",
+      "description": "Upper Rhine commerce and mineral resources in the Black Forest region sustained ducal finances.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q693980",
+          "url": "https://www.wikidata.org/wiki/Q693980"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Swabia",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Swabia"
+        }
+      ]
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "hohenstaufen_dynastic_base",
+      "direction": "rise",
+      "description": "Swabia was the territorial base of the Hohenstaufen dynasty, producing two major Holy Roman Emperors (Frederick Barbarossa, Frederick II). The duchy's central European position and agricultural wealth sustained imperial ambitions for 150 years.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q693980",
+          "url": "https://www.wikidata.org/wiki/Q693980"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Swabia",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Swabia"
+        }
+      ]
+    },
+    {
+      "layer": "economic_commercial",
+      "tag": "trade_route_control",
+      "direction": "rise",
+      "description": "Swabia's position at the headwaters of both the Rhine and upper Danube gave it access to multiple trade routes. The imperial free cities (Augsburg, Ulm, Constance) that developed in Swabia became commercial centers generating revenues that outlasted ducal governance.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q693980",
+          "url": "https://www.wikidata.org/wiki/Q693980"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Swabia",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Swabia"
+        }
+      ],
+      "tag_prose": "rhine_upper_danube_trade"
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "succession_crisis",
+      "layer": "dynastic_legitimacy",
+      "description": "Conradin's execution 1268 eliminated the last Hohenstaufen male heir, leaving no dynastic successor.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q693980",
+          "url": "https://www.wikidata.org/wiki/Q693980"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Swabia",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Swabia"
+        }
+      ]
+    },
+    {
+      "tag": "legitimacy_loss",
+      "layer": "dynastic_legitimacy",
+      "description": "Prolonged papal-imperial conflict eroded the Hohenstaufen and Swabian institutional coherence.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q693980",
+          "url": "https://www.wikidata.org/wiki/Q693980"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Swabia",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Swabia"
+        }
+      ]
+    },
+    {
+      "tag": "internal_fragmentation",
+      "layer": "governance_institutional",
+      "description": "Swabian cities (Ulm, Augsburg, Konstanz) and minor princes asserted independence after Hohenstaufen collapse.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q693980",
+          "url": "https://www.wikidata.org/wiki/Q693980"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Swabia",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Swabia"
+        }
+      ]
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "internal_fragmentation",
+      "direction": "decline",
+      "description": "When the last Hohenstaufen duke died (1268), the duchy was partitioned among Habsburg, Württemberg, and other noble families rather than granted to a single successor. This fragmentation of a once-unified duchy permanently prevented Swabian political consolidation.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q693980",
+          "url": "https://www.wikidata.org/wiki/Q693980"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Swabia",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Swabia"
+        }
+      ],
+      "tag_prose": "hohenstaufen_collapse_partition"
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "hohenstaufen_extinction",
+      "direction": "decline",
+      "description": "The execution of the last Hohenstaufen, Conradin, in 1268 ended the dynasty that had provided Swabia's dukes; without a strong ducal house, Swabia fragmented into hundreds of independent lordships, free cities, and ecclesiastical territories.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q693980",
+          "url": "https://www.wikidata.org/wiki/Q693980"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Swabia",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Swabia"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "person_id": "herman_ii_swabia",
+      "name": "Herman II of Swabia",
+      "role": "dynastic_founder",
+      "years": "954–1003",
+      "year_start": 954,
+      "year_end": 1003,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Herman II of Swabia",
+          "url": "https://en.wikipedia.org/wiki/Herman_II,_Duke_of_Swabia"
+        }
+      ]
+    },
+    {
+      "person_id": "frederick_ii_hre",
+      "name": "Frederick II Hohenstaufen",
+      "role": "ruler",
+      "years": "1194–1250",
+      "year_start": 1194,
+      "year_end": 1250,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Frederick II Hohenstaufen",
+          "url": "https://en.wikipedia.org/wiki/Frederick_II,_Holy_Roman_Emperor"
+        }
+      ]
+    }
+  ],
+  "predecessor_entity_ids": [
+    "east_francia"
+  ],
+  "successor_entity_ids": [
+    "swiss_confederation",
+    "holy_roman_empire"
+  ],
+  "primary_ethnicity": "germanic",
+  "ethnic_composition": [
+    {
+      "group": "germanic",
+      "proportion": 0.9
+    }
+  ],
+  "religion_composition": [
+    {
+      "religion": "catholic",
+      "proportion": 0.95
+    },
+    {
+      "religion": "pagan",
+      "proportion": 0.05
+    }
+  ],
+  "primary_language": "german",
+  "language_composition": [
+    {
+      "language": "german",
+      "proportion": 0.86,
+      "role": "vernacular"
+    },
+    {
+      "language": "latin",
+      "proportion": 0.1,
+      "role": "liturgical"
+    },
+    {
+      "language": "old_french",
+      "proportion": 0.04,
+      "role": "regional"
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "manufacturing",
+      "long_distance_trade"
+    ],
+    "wealth_level": "high",
+    "major_exports": [
+      "linen",
+      "grain",
+      "horses",
+      "silver"
+    ],
+    "major_trade_partners": [
+      "holy_roman_empire",
+      "swiss_confederation",
+      "duchy_of_bavaria"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "commercial_taxes",
+      "tithes"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q693980",
+        "url": "https://www.wikidata.org/wiki/Q693980"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Duchy of Swabia",
+        "url": "https://en.wikipedia.org/wiki/Duchy_of_Swabia"
+      }
+    ]
+  },
+  "social_structure": {
+    "ruling_ethnicity": "germanic",
+    "subject_majority": "germanic",
+    "military_ethnicity": "germanic",
+    "administrative_language": "german",
+    "stratification_type": "homogeneous"
+  },
+  "wikidata_enrichment": {
+    "qid": "Q693980",
+    "matched_name": "Duchy of Swabia",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Duchy_of_Swabia",
+    "rulers_from_wikidata": [
+      {
+        "name": "Philip of Swabia",
+        "qid": "Q121130",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q121130",
+            "url": "https://www.wikidata.org/wiki/Q121130"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Philip of Swabia",
+            "url": "https://en.wikipedia.org/wiki/Philip_of_Swabia"
+          }
+        ]
+      },
+      {
+        "name": "Otto IV, Holy Roman Emperor",
+        "qid": "Q151457",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q151457",
+            "url": "https://www.wikidata.org/wiki/Q151457"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Otto IV, Holy Roman Emperor",
+            "url": "https://en.wikipedia.org/wiki/Otto_IV,_Holy_Roman_Emperor"
+          }
+        ]
+      },
+      {
+        "name": "Conrad IV of Germany",
+        "qid": "Q157179",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q157179",
+            "url": "https://www.wikidata.org/wiki/Q157179"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Conrad IV of Germany",
+            "url": "https://en.wikipedia.org/wiki/Conrad_IV_of_Germany"
+          }
+        ]
+      },
+      {
+        "name": "Henry (VII) of Germany",
+        "qid": "Q163102",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q163102",
+            "url": "https://www.wikidata.org/wiki/Q163102"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Henry (VII) of Germany",
+            "url": "https://en.wikipedia.org/wiki/Henry_(VII)_of_Germany"
+          }
+        ]
+      },
+      {
+        "name": "Regelinda",
+        "qid": "Q2137291",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2137291",
+            "url": "https://www.wikidata.org/wiki/Q2137291"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Regelinda",
+            "url": "https://en.wikipedia.org/wiki/Regelinda"
+          }
+        ]
+      },
+      {
+        "name": "Frederick I, Duke of Swabia",
+        "qid": "Q281245",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q281245",
+            "url": "https://www.wikidata.org/wiki/Q281245"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Frederick I, Duke of Swabia",
+            "url": "https://en.wikipedia.org/wiki/Frederick_I,_Duke_of_Swabia"
+          }
+        ]
+      },
+      {
+        "name": "Rudolf II, Duke of Austria",
+        "qid": "Q314001",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q314001",
+            "url": "https://www.wikidata.org/wiki/Q314001"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Rudolf II, Duke of Austria",
+            "url": "https://en.wikipedia.org/wiki/Rudolf_II,_Duke_of_Austria"
+          }
+        ]
+      },
+      {
+        "name": "Rudolf of Rheinfelden",
+        "qid": "Q438435",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q438435",
+            "url": "https://www.wikidata.org/wiki/Q438435"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Rudolf of Rheinfelden",
+            "url": "https://en.wikipedia.org/wiki/Rudolf_of_Rheinfelden"
+          }
+        ]
+      },
+      {
+        "name": "Frederick VI, Duke of Swabia",
+        "qid": "Q504733",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q504733",
+            "url": "https://www.wikidata.org/wiki/Q504733"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Frederick VI, Duke of Swabia",
+            "url": "https://en.wikipedia.org/wiki/Frederick_VI,_Duke_of_Swabia"
+          }
+        ]
+      },
+      {
+        "name": "Ernest II",
+        "qid": "Q63601",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q63601",
+            "url": "https://www.wikidata.org/wiki/Q63601"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ernest II",
+            "url": "https://en.wikipedia.org/wiki/Ernest_II"
+          }
+        ]
+      },
+      {
+        "name": "Herman IV, Duke of Swabia",
+        "qid": "Q64318",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q64318",
+            "url": "https://www.wikidata.org/wiki/Q64318"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Herman IV, Duke of Swabia",
+            "url": "https://en.wikipedia.org/wiki/Herman_IV,_Duke_of_Swabia"
+          }
+        ]
+      },
+      {
+        "name": "Conrad",
+        "qid": "Q648938",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q648938",
+            "url": "https://www.wikidata.org/wiki/Q648938"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Conrad",
+            "url": "https://en.wikipedia.org/wiki/Conrad"
+          }
+        ]
+      },
+      {
+        "name": "John Parricida",
+        "qid": "Q696784",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q696784",
+            "url": "https://www.wikidata.org/wiki/Q696784"
+          },
+          {
+            "type": "wikipedia",
+            "label": "John Parricida",
+            "url": "https://en.wikipedia.org/wiki/John_Parricida"
+          }
+        ]
+      },
+      {
+        "name": "Herman II, Duke of Swabia",
+        "qid": "Q715062",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q715062",
+            "url": "https://www.wikidata.org/wiki/Q715062"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Herman II, Duke of Swabia",
+            "url": "https://en.wikipedia.org/wiki/Herman_II,_Duke_of_Swabia"
+          }
+        ]
+      },
+      {
+        "name": "Herman III of Swabia",
+        "qid": "Q77573",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q77573",
+            "url": "https://www.wikidata.org/wiki/Q77573"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Herman III of Swabia",
+            "url": "https://en.wikipedia.org/wiki/Herman_III_of_Swabia"
+          }
+        ]
+      },
+      {
+        "name": "Burchard I, Duke of Swabia",
+        "qid": "Q819567",
+        "year_start": 909,
+        "year_end": 911,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q819567",
+            "url": "https://www.wikidata.org/wiki/Q819567"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Burchard I, Duke of Swabia",
+            "url": "https://en.wikipedia.org/wiki/Burchard_I,_Duke_of_Swabia"
+          }
+        ]
+      },
+      {
+        "name": "Erchanger, Duke of Swabia",
+        "qid": "Q660851",
+        "year_start": 915,
+        "year_end": 917,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q660851",
+            "url": "https://www.wikidata.org/wiki/Q660851"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Erchanger, Duke of Swabia",
+            "url": "https://en.wikipedia.org/wiki/Erchanger,_Duke_of_Swabia"
+          }
+        ]
+      },
+      {
+        "name": "Burchard II of Swabia",
+        "qid": "Q819630",
+        "year_start": 917,
+        "year_end": 926,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q819630",
+            "url": "https://www.wikidata.org/wiki/Q819630"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Burchard II of Swabia",
+            "url": "https://en.wikipedia.org/wiki/Burchard_II,_Duke_of_Swabia"
+          }
+        ]
+      },
+      {
+        "name": "Herman I, Duke of Swabia",
+        "qid": "Q697220",
+        "year_start": 926,
+        "year_end": 949,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q697220",
+            "url": "https://www.wikidata.org/wiki/Q697220"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Herman I, Duke of Swabia",
+            "url": "https://en.wikipedia.org/wiki/Herman_I,_Duke_of_Swabia"
+          }
+        ]
+      },
+      {
+        "name": "Liudolf, Duke of Swabia",
+        "qid": "Q504535",
+        "year_start": 950,
+        "year_end": 954,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q504535",
+            "url": "https://www.wikidata.org/wiki/Q504535"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Liudolf, Duke of Swabia",
+            "url": "https://en.wikipedia.org/wiki/Liudolf,_Duke_of_Swabia"
+          }
+        ]
+      },
+      {
+        "name": "Burchard III, Duke of Swabia",
+        "qid": "Q62999",
+        "year_start": 954,
+        "year_end": 973,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q62999",
+            "url": "https://www.wikidata.org/wiki/Q62999"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Burchard III, Duke of Swabia",
+            "url": "https://en.wikipedia.org/wiki/Burchard_III,_Duke_of_Swabia"
+          }
+        ]
+      },
+      {
+        "name": "Otto I, Duke of Swabia and Bavaria",
+        "qid": "Q704896",
+        "year_start": 973,
+        "year_end": 982,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q704896",
+            "url": "https://www.wikidata.org/wiki/Q704896"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Otto I, Duke of Swabia and Bavaria",
+            "url": "https://en.wikipedia.org/wiki/Otto_I,_Duke_of_Swabia_and_Bavaria"
+          }
+        ]
+      },
+      {
+        "name": "Conrad I",
+        "qid": "Q704902",
+        "year_start": 983,
+        "year_end": 997,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q704902",
+            "url": "https://www.wikidata.org/wiki/Q704902"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Conrad I",
+            "url": "https://en.wikipedia.org/wiki/Conrad_I"
+          }
+        ]
+      },
+      {
+        "name": "Ernest I",
+        "qid": "Q63307",
+        "year_start": 1012,
+        "year_end": 1015,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q63307",
+            "url": "https://www.wikidata.org/wiki/Q63307"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ernest I",
+            "url": "https://en.wikipedia.org/wiki/Ernest_I"
+          }
+        ]
+      },
+      {
+        "name": "Henry III",
+        "qid": "Q153023",
+        "year_start": 1038,
+        "year_end": 1045,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q153023",
+            "url": "https://www.wikidata.org/wiki/Q153023"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Henry III",
+            "url": "https://en.wikipedia.org/wiki/Henry_III"
+          }
+        ]
+      },
+      {
+        "name": "Otto III",
+        "qid": "Q63607",
+        "year_start": 1048,
+        "year_end": 1057,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q63607",
+            "url": "https://www.wikidata.org/wiki/Q63607"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Otto III",
+            "url": "https://en.wikipedia.org/wiki/Otto_III,_Holy_Roman_Emperor"
+          }
+        ]
+      },
+      {
+        "name": "Berthold I, Duke of Swabia",
+        "qid": "Q537501",
+        "year_start": 1079,
+        "year_end": 1090,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q537501",
+            "url": "https://www.wikidata.org/wiki/Q537501"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Berthold I, Duke of Swabia",
+            "url": "https://en.wikipedia.org/wiki/Berthold_I,_Duke_of_Swabia"
+          }
+        ]
+      },
+      {
+        "name": "Berthold II, Duke of Swabia",
+        "qid": "Q650325",
+        "year_start": 1092,
+        "year_end": 1098,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q650325",
+            "url": "https://www.wikidata.org/wiki/Q650325"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Berthold II, Duke of Swabia",
+            "url": "https://en.wikipedia.org/wiki/Berthold_II,_Duke_of_Swabia"
+          }
+        ]
+      },
+      {
+        "name": "Frederick II, Duke of Swabia",
+        "qid": "Q552414",
+        "year_start": 1105,
+        "year_end": 1147,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q552414",
+            "url": "https://www.wikidata.org/wiki/Q552414"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Frederick II, Duke of Swabia",
+            "url": "https://en.wikipedia.org/wiki/Frederick_II,_Duke_of_Swabia"
+          }
+        ]
+      },
+      {
+        "name": "Frederick Barbarossa",
+        "qid": "Q79789",
+        "year_start": 1147,
+        "year_end": 1152,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q79789",
+            "url": "https://www.wikidata.org/wiki/Q79789"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Frederick Barbarossa",
+            "url": "https://en.wikipedia.org/wiki/Frederick_Barbarossa"
+          }
+        ]
+      },
+      {
+        "name": "Frederick II, Holy Roman Emperor",
+        "qid": "Q130221",
+        "year_start": 1195,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q130221",
+            "url": "https://www.wikidata.org/wiki/Q130221"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Frederick II, Holy Roman Emperor",
+            "url": "https://en.wikipedia.org/wiki/Frederick_II,_Holy_Roman_Emperor"
+          }
+        ]
+      },
+      {
+        "name": "Conradin",
+        "qid": "Q158246",
+        "year_start": 1254,
+        "year_end": 1268,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q158246",
+            "url": "https://www.wikidata.org/wiki/Q158246"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Conradin",
+            "url": "https://en.wikipedia.org/wiki/Conradin"
+          }
+        ]
+      }
+    ],
+    "predecessors_from_wikidata": [
+      "Alamannia",
+      "Duchy of Alsace"
+    ],
+    "successors_from_wikidata": [
+      "Old Swiss Confederacy",
+      "Principality of Fürstenberg",
+      "Further Austria"
+    ]
+  },
+  "sources": [
+    {
+      "type": "book",
+      "author": "Wickham, Chris",
+      "title": "The Inheritance of Rome: A History of Europe from 400 to 1000",
+      "publisher": "Allen Lane",
+      "year": 2009
+    },
+    {
+      "type": "book",
+      "author": "Abulafia, David (ed.)",
+      "title": "The New Cambridge Medieval History, Vol. V: c. 1198 – c. 1300",
+      "publisher": "Cambridge University Press",
+      "year": 1999
+    }
+  ],
+  "monogram": "SW"
+}

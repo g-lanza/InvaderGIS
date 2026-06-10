@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_kingdom_of_aragon_733_1472",
+  "statement": "Kingdom of Aragon — campaigns and battles spanned 733–1472, from Reconquista to Sitio de Barcelona (1472).",
+  "subject_ids": [
+    "kingdom_of_aragon"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_kingdom_of_aragon_733_1472",
+  "period": {
+    "from": 733,
+    "to": 1472
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

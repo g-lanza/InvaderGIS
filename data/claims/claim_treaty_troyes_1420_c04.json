@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_treaty_troyes_1420_c04",
+  "statement": "Henry V died in August 1422 and Charles VI died in October 1422, leaving the infant Henry VI as nominal king of both England and France.",
+  "subject_ids": [
+    "kingdom_of_england"
+  ],
+  "period": {
+    "from": 1420,
+    "to": 1420
+  },
+  "derived_from": "treaty_troyes_1420",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_battle_of_tours_732_c02",
+  "statement": "The Battle of Tours legitimized Charles Martel and the Carolingian family as protectors of Christendom.",
+  "subject_ids": [
+    "merovingian_kingdom"
+  ],
+  "period": {
+    "from": 732,
+    "to": 732
+  },
+  "derived_from": "battle_of_tours_732",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "ims_fordham",
+      "ims_fordham_sbook1h"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

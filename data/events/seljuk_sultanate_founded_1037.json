@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "seljuk_sultanate_founded_1037",
+  "name": "Rise of the Seljuk Empire",
+  "year": 1037,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    37.9,
+    58.4
+  ],
+  "entity": "seljuk_sultanate",
+  "summary": "After the Battle of Dandanaqan (1040), the Seljuk Turks under Tughril Beg establish dominance over Khorasan (northeastern Iran) at the expense of the Ghaznavid empire. Tughril Beg presents himself as the defender of Sunni Islam against Buyid Shia domination of the Abbasid caliphs; entering Baghdad in 1055, he liberates the Caliph from Buyid control and receives the title Sultan (from the Abbasid caliph). The Seljuks thus legitimize their rule through the caliphate while exercising actual political power themselves.",
+  "outcomes": [
+    "seljuks_defeat_ghaznavids",
+    "khorasan_conquered",
+    "turks_as_new_islamic_power"
+  ],
+  "_quarry": {
+    "participants": [
+      "seljuk_sultanate",
+      "abbasid_caliphate"
+    ],
+    "structural_significance": "Turkic peoples become the dominant political and military force in the Islamic world for centuries; the Seljuk model, Turkish military power legitimized through Sunni Islamic institutions, shapes successor states including the Ottomans; the expansion of Seljuk power into Anatolia creates the conditions for the Crusades; Tughril's 1055 entry into Baghdad ends Buyid (Shia) domination of the caliphate",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "peacock_the_2015",
+      "bosworth_the_1963",
+      "cahen_preottoman_1968"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

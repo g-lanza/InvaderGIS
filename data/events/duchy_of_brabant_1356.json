@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_brabant_1356",
+  "name": "Joyeuse Entrée Charter",
+  "year": 1356,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    50.85,
+    4.35
+  ],
+  "entity": "duchy_of_brabant",
+  "summary": "The Joyeuse Entrée of 1356 established a constitutional charter for Brabant, requiring each new duke to confirm the rights and privileges of the nobility, clergy, and towns before entering the duchy. This early constitutional document prefigured later parliamentary developments in the Low Countries.",
+  "outcomes": [
+    "noble_rights_codified",
+    "ducal_power_limited",
+    "constitutional_precedent"
+  ],
+  "_quarry": {
+    "participants": [
+      "duchy_of_brabant"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

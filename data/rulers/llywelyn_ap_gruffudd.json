@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "llywelyn_ap_gruffudd",
+  "name": "Llywelyn ap Gruffudd",
+  "polity": "kingdom_of_gwynedd",
+  "title": "ruler",
+  "reign_start": 1246,
+  "reign_end": 1282,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "kingdom_of_gwynedd",
+        "role": "ruler",
+        "start_year": 1246,
+        "end_year": 1282
+      }
+    ],
+    "key_actions": [],
+    "region": "british_isles",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

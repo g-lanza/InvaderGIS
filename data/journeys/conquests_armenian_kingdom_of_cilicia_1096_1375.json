@@ -1,0 +1,170 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_armenian_kingdom_of_cilicia_1096_1375",
+  "name": "Armenian Kingdom of Cilicia — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1096,
+  "year_end": 1375,
+  "waypoints": [
+    {
+      "year": 1096,
+      "place": "First Crusade",
+      "coords": [
+        43.3,
+        11.2
+      ],
+      "note": "military",
+      "event_id": "wd_first_crusade_1096"
+    },
+    {
+      "year": 1216,
+      "place": "Cilicia Campaign of Kaykaus I",
+      "coords": [
+        37.7,
+        34.2
+      ],
+      "note": "military",
+      "event_id": "wd_cilicia_campaign_of_kaykaus_i_1216"
+    },
+    {
+      "year": 1218,
+      "place": "Battle of Keban",
+      "coords": [
+        37.7,
+        34.2
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_keban_1218"
+    },
+    {
+      "year": 1221,
+      "place": "Siege of Kalonoros",
+      "coords": [
+        38.8,
+        32.4333
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_kalonoros_1221"
+    },
+    {
+      "year": 1230,
+      "place": "Battle of Yassıçemen",
+      "coords": [
+        38.8,
+        36.0333
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_yass_emen_1230"
+    },
+    {
+      "year": 1258,
+      "place": "Siege of Baghdad",
+      "coords": [
+        36.905,
+        44.125
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_baghdad_1258"
+    },
+    {
+      "year": 1260,
+      "place": "Siege of Aleppo",
+      "coords": [
+        34.75,
+        38.675
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_aleppo_1260"
+    },
+    {
+      "year": 1266,
+      "place": "Battle of Mari",
+      "coords": [
+        33.45,
+        33.55
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_mari_1266"
+    },
+    {
+      "year": 1276,
+      "place": "Second Battle of Sarvandik'ar",
+      "coords": [
+        34.2,
+        39.5
+      ],
+      "note": "military",
+      "event_id": "wd_second_battle_of_sarvandik_ar_1276"
+    },
+    {
+      "year": 1281,
+      "place": "Second Battle of Homs",
+      "coords": [
+        36.5367,
+        37.3333
+      ],
+      "note": "military",
+      "event_id": "wd_second_battle_of_homs_1281"
+    },
+    {
+      "year": 1292,
+      "place": "Siege of Rumkale",
+      "coords": [
+        33.45,
+        33.55
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_rumkale_1292"
+    },
+    {
+      "year": 1299,
+      "place": "Battle of Wadi al-Khaznadar",
+      "coords": [
+        36.08,
+        40.825
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_wadi_al_khaznadar_1299"
+    },
+    {
+      "year": 1303,
+      "place": "Battle of Marj al-Saffar",
+      "coords": [
+        34.2,
+        39.5
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_marj_al_saffar_1303"
+    },
+    {
+      "year": 1307,
+      "place": "Siege of Anazarba",
+      "coords": [
+        36.3,
+        43.65
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_anazarba_1307"
+    },
+    {
+      "year": 1375,
+      "place": "Mamluk Conquest Ends Cilician Armenia",
+      "coords": [
+        33.45,
+        33.55
+      ],
+      "note": "military",
+      "event_id": "armenian_kingdom_of_cilicia_1375"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "boase_the_1978",
+      "mutafian_le_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

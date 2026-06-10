@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "golden_bull_1356_detail",
+  "name": "Golden Bull of 1356, Imperial Electoral Constitution",
+  "year": 1356,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    49.45,
+    11.08
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Emperor Charles IV issues the Golden Bull at the Diet of Nuremberg and Metz, codifying the constitutional framework of the Holy Roman Empire. The document specifies seven electoral princes (archbishops of Mainz, Trier, Cologne; Count Palatine, Duke of Saxony, Margrave of Brandenburg, King of Bohemia) and establishes their near-sovereign rights within their territories, indivisibility of electoral territories, primogeniture succession, and exclusive taxation rights.",
+  "outcomes": [
+    "seven_electors_codified",
+    "electoral_principalities_autonomous",
+    "habsburg_imperial_monopoly_prevented"
+  ],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire"
+    ],
+    "structural_significance": "The Golden Bull formalizes Germany's peculiar political structure, a patchwork of semi-sovereign principalities with an elected emperor above them; by giving the major princes such extensive rights, it prevents the centralization that occurs in France and England; the electoral college structure means the Habsburgs must continuously negotiate to maintain imperial dignity rather than inheriting it automatically",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

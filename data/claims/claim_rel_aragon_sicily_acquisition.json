@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_aragon_sicily_acquisition",
+  "statement": "Peter III of Aragon's acquisition of Sicily through the Sicilian Vespers (1282) transformed the Crown of Aragon from a primarily Iberian power into a Mediterranean empire. Peter claimed Sicily through his wife Constance, daughter of King Manfred of Sicily (Hohenstaufen). His landing in Sicily days after the Vespers massacre of the French gave the revolt legitimate royal leadership. The subsequent Wars of the Sicilian Vespers (1282–1302) forced France to recognize Aragonese Sicily in the Peace of Caltabellotta (1302). Sicily became the first Aragonese possession outside Iberia, establishing the template for the Crown's later Mediterranean expansion.",
+  "subject_ids": [
+    "crown_of_aragon",
+    "kingdom_of_sicily_aragonese"
+  ],
+  "predicate": "personal_union",
+  "derived_from": "rel_aragon_sicily_acquisition",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1282,
+    "to": 1500
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "technology",
+  "dataset": "medieval-europe-500-1500",
+  "id": "three_field_rotation",
+  "name_primary": "Three-Field Crop Rotation",
+  "domain": "agricultural",
+  "origin": {
+    "place": "Northern France and the Low Countries (Carolingian heartland)",
+    "year": 800
+  },
+  "materials": [
+    "open strip fields",
+    "draught animals",
+    "winter grain seed (wheat/rye)",
+    "spring grain seed (barley/oats)",
+    "legumes (peas/beans)"
+  ],
+  "diffusion": [
+    "Carolingian Empire",
+    "Kingdom of France",
+    "Holy Roman Empire",
+    "County of Flanders",
+    "Kingdom of England",
+    "Kingdom of Poland",
+    "Kievan Rus"
+  ],
+  "_quarry": {
+    "description": "The three-field system emerged in the Carolingian heartland of northern France and the Low Countries during the 8th century, dividing arable land into three portions: winter grain, spring grain with legumes, and fallow, rotated annually. It increased the proportion of land under cultivation from roughly 50% (two-field system) to 67%, and the inclusion of leguminous crops restored soil nitrogen. Lynn White Jr.'s Medieval Technology and Social Change (1962) remains a key scholarly treatment; Oxford Academic stable-isotope analysis of cereal grains shows widespread adoption from the 10th century. Full implementation across England and Central Europe was not achieved until the 11th century due to the social reorganization of open-field manors it required."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "white_medieval_tech_1962",
+      "britannica_three_field"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

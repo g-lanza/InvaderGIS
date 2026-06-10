@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_almohad_to_taifa",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "almohad_caliphate_iberia",
+      "role": "parent"
+    },
+    {
+      "entity_id": "taifa_kingdoms",
+      "role": "fragment"
+    }
+  ],
+  "directed": true,
+  "type": "fragmentation",
+  "since": 1212,
+  "until": 1212,
+  "note": "The Almohad Caliphate collapsed in al-Andalus following the decisive defeat at Las Navas de Tolosa (1212) by a coalition of Castile, Aragon, Navarre, and Portugal. The Almohad governors withdrew or lost authority, creating a third period of Taifa fragmentation (c. 1228–1238). The new Taifa kingdoms were smaller, weaker, and more vulnerable than the first two Taifa periods. Most fell to Castile (Murcia 1243, Seville 1248, Cádiz 1262) within a generation. Only Granada, reorganized under Muhammad ibn Yusuf ibn Nasr (founder of the Nasrid dynasty, 1232), survived by accepting Castilian vassalage.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The third Taifa period completes the Reconquista's decisive phase; the collapse after Las Navas is more complete than previous Taifa fragmentation because Christian military superiority is now decisive rather than circumstantial; only Granada survives by immediately accepting tributary status — the last Muslim political entity in Iberia until 1492"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_kingdoms_2018",
+      "o'callaghan_reconquest_2003",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

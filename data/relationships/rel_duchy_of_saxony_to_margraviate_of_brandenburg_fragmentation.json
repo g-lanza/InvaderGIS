@@ -1,0 +1,35 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_duchy_of_saxony_to_margraviate_of_brandenburg_fragmentation",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "duchy_of_saxony",
+      "role": "parent"
+    },
+    {
+      "entity_id": "margraviate_of_brandenburg",
+      "role": "fragment"
+    }
+  ],
+  "directed": true,
+  "type": "fragmentation",
+  "since": 1157,
+  "until": 1157,
+  "note": "Derived from predecessor/successor links recorded in the duchy_of_saxony and margraviate_of_brandenburg entity records. Transition anchored to margraviate_of_brandenburg start_year.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Mechanical normalisation of curated predecessor/successor links into the relationships register."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

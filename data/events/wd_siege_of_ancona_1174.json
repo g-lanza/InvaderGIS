@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_ancona_1174",
+  "name": "Siege of Ancona",
+  "year": 1174,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    47.7,
+    11.4
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Siege of Ancona (1174 CE), at Ancona. Source: Wikidata Q109480896.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

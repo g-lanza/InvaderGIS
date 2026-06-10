@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "suebi_kingdom_409",
+  "name": "Suebi Enter Iberia",
+  "year": 409,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    42.28,
+    -8.45
+  ],
+  "entity": "suebi_kingdom",
+  "summary": "The Suebi crossed the Pyrenees into Iberia in 409 CE as Roman frontier control collapsed. Settling in northwestern Iberia (modern Galicia and northern Portugal), the Suebi established one of the earliest Germanic kingdoms in the post-Roman world, converting to Catholic Christianity by the 560s CE.",
+  "outcomes": [
+    "galicia_settled",
+    "roman_iberia_collapses",
+    "germanic_kingdom"
+  ],
+  "_quarry": {
+    "participants": [
+      "suebi_kingdom"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

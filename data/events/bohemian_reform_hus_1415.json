@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "bohemian_reform_hus_1415",
+  "name": "Jan Hus Burned at Constance, Czech Reform Martyrdom",
+  "year": 1415,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    47.66,
+    9.17
+  ],
+  "entity": "kingdom_of_bohemia",
+  "summary": "Jan Hus, Czech theologian and rector of Prague University, is burned at the stake at the Council of Constance on July 6, 1415, despite a guarantee of safe conduct from Emperor Sigismund. His execution for heresy (drawing on Wycliffite ideas about scripture and Church reform) triggers the Hussite Revolution in Bohemia, five crusades, 15 years of religious warfare, and the first successful Reformation movement in European history.",
+  "outcomes": [
+    "hus_executed",
+    "bohemia_inflamed",
+    "hussite_revolution_begins"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_bohemia",
+      "holy_roman_empire",
+      "papal_states"
+    ],
+    "structural_significance": "Hus's execution demonstrates the Council of Constance's limits: it ends the papal schism but cannot manage theological reform; its handling of Hus (ignoring the safe-conduct guarantee) destroys imperial credibility in Bohemia and makes Hussite resistance inevitable; the Hussite wars (1419-1434) are the direct precedent for the Protestant Reformation, they show that a determined national church community could resist papal and imperial pressure",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

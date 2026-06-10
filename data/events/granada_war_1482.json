@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "granada_war_1482",
+  "name": "Granada War",
+  "year": 1482,
+  "type": "war",
+  "category": "violence",
+  "coords": [
+    37.18,
+    -3.6
+  ],
+  "entity": "crown_of_castile",
+  "summary": "Ferdinand and Isabella launch the final campaign to extinguish the Nasrid sultanate of Granada (1482–1492). Unlike earlier Reconquista campaigns, this is a systematic artillery-supported siege war: each major Granadan town is reduced one by one. Ronda falls (1485), Loja (1486), Málaga (1487, after a brutal siege and mass enslavement of its population), Baza (1489), and finally the capital Granada itself is invested in 1491. Muhammad XII (Boabdil) surrenders on January 2, 1492. The war lasts a decade, mobilizes the full resources of Castile and Aragon, and costs enormous sums that are partly financed by the Italian banking houses.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "crown_of_castile",
+      "emirate_of_granada"
+    ],
+    "structural_significance": "Ends 781 years of Islamic political power in Iberia; unified Spain as a single Christian kingdom; the financial and administrative infrastructure built for the war directly enables the Spanish overseas empire; the expulsion of the Jews follows within months",
+    "year_range": [
+      1482,
+      1492
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "o'callaghan_a_1975",
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

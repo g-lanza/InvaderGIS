@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "troubadour_culture_1100s",
+  "name": "Troubadour Culture and Courtly Love",
+  "year": 1100,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    43.6,
+    1.44
+  ],
+  "entity": "duchy_of_aquitaine",
+  "summary": "The troubadour movement, originating in Occitan-speaking southern France with Duke William IX of Aquitaine, creates Europe's first major vernacular literary culture. Troubadours compose lyric poetry in Occitan celebrating fin'amors (courtly love), a complex code of idealized love and service to a lady. The tradition spreads to northern France (trouvères), Germany (Minnesingers), and Iberia (troubadours), creating the literary foundations of European romance traditions.",
+  "outcomes": [
+    "vernacular_poetry_flourishes",
+    "courtly_love_ideals_spread",
+    "romance_languages_literary_culture"
+  ],
+  "_quarry": {
+    "participants": [
+      "duchy_of_aquitaine",
+      "county_of_toulouse",
+      "kingdom_of_france"
+    ],
+    "structural_significance": "The troubadour movement is the origin of European secular lyric poetry; the promotion of vernacular Occitan as a literary language (rather than Latin) prefigures the later development of French, Italian, and Spanish as literary languages; the ideals of courtly love reshape aristocratic behavior codes and social expectations; the Albigensian Crusade's destruction of Occitan culture (1209-1229) permanently damages this literary tradition",
+    "year_range": [
+      1100,
+      1300
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

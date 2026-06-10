@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_pecheneg_byzantine",
+  "statement": "The Pechenegs — Turkic nomads occupying the Pontic steppe after destroying the Khazar Khaganate (965) — became one of Byzantium's most dangerous neighbors in the 10th–11th centuries. They served as Byzantine mercenaries and intermediaries with Rus, but also raided Byzantine Thrace repeatedly. Emperor Basil II's policy of buying Pecheneg neutrality through tribute and diplomatic manipulation became increasingly expensive. Emperor Isaac I Komnenos fought them (1059); Emperor Romanos IV lost at Manzikert (1071) while distracted by simultaneous Pecheneg pressure in Europe. Emperor Alexios I finally crushed the Pechenegs at the Battle of Levounion (1091) with Cuman allies.",
+  "subject_ids": [
+    "pecheneg_confederation",
+    "byzantine_empire"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_pecheneg_byzantine",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999",
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1018,
+    "to": 1091
+  }
+}

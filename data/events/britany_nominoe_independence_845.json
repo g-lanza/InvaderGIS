@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "britany_nominoe_independence_845",
+  "name": "Nominoe Defeats Franks, Establishes Breton Independence",
+  "year": 845,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    48,
+    -3
+  ],
+  "entity": "duchy_of_brittany",
+  "summary": "Nominoe, duke of Brittany, defeated the Frankish army of Charles the Bald at the Battle of Ballon (845), establishing Breton de facto independence. Nominoe is celebrated as the founding father of Brittany.",
+  "outcomes": [
+    "brittany_independent",
+    "frankish_expansion_halted",
+    "breton_identity"
+  ],
+  "_quarry": {
+    "participants": [
+      "duchy_of_brittany"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

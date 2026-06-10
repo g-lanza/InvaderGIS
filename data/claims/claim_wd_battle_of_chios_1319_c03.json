@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_chios_1319_c03",
+  "statement": "The Battle of Chios was part of the Frankokratia.",
+  "subject_ids": [
+    "knights_hospitaller_rhodes"
+  ],
+  "period": {
+    "from": 1319,
+    "to": 1319
+  },
+  "derived_from": "wd_battle_of_chios_1319",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_hospitallers_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

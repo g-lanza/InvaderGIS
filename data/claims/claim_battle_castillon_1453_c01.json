@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_battle_castillon_1453_c01",
+  "statement": "French forces defeated an English relief force under John Talbot at Castillon on 17 July 1453, the last major engagement of the Hundred Years' War.",
+  "subject_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 1453,
+    "to": 1453
+  },
+  "derived_from": "battle_castillon_1453",
+  "unresolved_sources": [
+    "jordan_france_2004"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

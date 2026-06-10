@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_aragon_peter_iii_sicily_1282_c02",
+  "statement": "The War of the Sicilian Vespers established Aragonese dominance in the western Mediterranean.",
+  "subject_ids": [
+    "crown_of_aragon"
+  ],
+  "period": {
+    "from": 1282,
+    "to": 1282
+  },
+  "derived_from": "aragon_peter_iii_sicily_1282",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

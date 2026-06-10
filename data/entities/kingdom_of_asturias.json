@@ -1,0 +1,1071 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_asturias",
+  "name_primary": "Kingdom of Asturias",
+  "name_variants": [
+    "Regnum Asturorum"
+  ],
+  "type": "kingdom",
+  "region": "iberia",
+  "formed": 718,
+  "dissolved": 910,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 800,
+      "label": "Asturias",
+      "polygon": [
+        [
+          42.42,
+          -8.64
+        ],
+        [
+          43.05,
+          -9.27
+        ],
+        [
+          43.28,
+          -9.01
+        ],
+        [
+          43.35,
+          -8.31
+        ],
+        [
+          43.74,
+          -7.98
+        ],
+        [
+          43.52,
+          -6.81
+        ],
+        [
+          43.71,
+          -5.82
+        ],
+        [
+          43.38,
+          -3.42
+        ],
+        [
+          43.54,
+          -2.77
+        ],
+        [
+          43.31,
+          -1.91
+        ],
+        [
+          42.64,
+          -1.94
+        ],
+        [
+          42.25,
+          -4.17
+        ],
+        [
+          42.42,
+          -8.64
+        ]
+      ]
+    },
+    {
+      "year": 900,
+      "label": "Asturias",
+      "polygon": [
+        [
+          42.42,
+          -8.64
+        ],
+        [
+          43.05,
+          -9.27
+        ],
+        [
+          43.28,
+          -9.01
+        ],
+        [
+          43.35,
+          -8.31
+        ],
+        [
+          43.74,
+          -7.98
+        ],
+        [
+          43.52,
+          -6.81
+        ],
+        [
+          43.71,
+          -5.82
+        ],
+        [
+          43.38,
+          -3.42
+        ],
+        [
+          43.54,
+          -2.77
+        ],
+        [
+          43.31,
+          -1.91
+        ],
+        [
+          42.64,
+          -1.94
+        ],
+        [
+          42.25,
+          -4.17
+        ],
+        [
+          42.42,
+          -8.64
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    43.4,
+    -5.8
+  ],
+  "religion": "catholic",
+  "population_estimates": [
+    {
+      "year": 650,
+      "estimate": 280000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q231392",
+          "url": "https://www.wikidata.org/wiki/Q231392",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Asturias",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Asturias"
+        }
+      ]
+    },
+    {
+      "year": 800,
+      "estimate": 400000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q231392",
+          "url": "https://www.wikidata.org/wiki/Q231392",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Asturias",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Asturias"
+        }
+      ]
+    },
+    {
+      "year": 950,
+      "estimate": 440000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q231392",
+          "url": "https://www.wikidata.org/wiki/Q231392",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Asturias",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Asturias"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low"
+  },
+  "description": "The first Christian successor state in the Iberian north (718–910) founded by Pelayo's resistance at Covadonga; its narrative of Visigothic continuity and Reconquista mission, elaborated in royal chronicles, became the ideological foundation for all subsequent Castilian and Leonese claims to the entire Iberian peninsula.",
+  "temporal": {
+    "start_year": 718,
+    "end_year": 910,
+    "end_year_within_scope": null,
+    "start_event_id": null,
+    "end_event_id": null,
+    "notes": "Christian polity established after Pelayo's victory at Covadonga"
+  },
+  "geographic": {
+    "representation": "schematic_approximation",
+    "centroid": [
+      43.4,
+      -5.8
+    ],
+    "core_regions": [
+      "Asturias"
+    ],
+    "polygon_simplified": [
+      [
+        42.42,
+        -8.64
+      ],
+      [
+        43.05,
+        -9.27
+      ],
+      [
+        43.28,
+        -9.01
+      ],
+      [
+        43.35,
+        -8.31
+      ],
+      [
+        43.74,
+        -7.98
+      ],
+      [
+        43.52,
+        -6.81
+      ],
+      [
+        43.71,
+        -5.82
+      ],
+      [
+        43.38,
+        -3.42
+      ],
+      [
+        43.54,
+        -2.77
+      ],
+      [
+        43.31,
+        -1.91
+      ],
+      [
+        42.64,
+        -1.94
+      ],
+      [
+        42.25,
+        -4.17
+      ],
+      [
+        42.42,
+        -8.64
+      ]
+    ],
+    "notes": "",
+    "polygon_status": "real_historical_boundary",
+    "polygon_representative_year": 814,
+    "polygon_source": "aourednik/historical-basemaps",
+    "polygon_source_date": "2026-05-09",
+    "polygon_snapshots": [
+      {
+        "year": 800,
+        "label": "Asturias",
+        "polygon": [
+          [
+            42.42,
+            -8.64
+          ],
+          [
+            43.05,
+            -9.27
+          ],
+          [
+            43.28,
+            -9.01
+          ],
+          [
+            43.35,
+            -8.31
+          ],
+          [
+            43.74,
+            -7.98
+          ],
+          [
+            43.52,
+            -6.81
+          ],
+          [
+            43.71,
+            -5.82
+          ],
+          [
+            43.38,
+            -3.42
+          ],
+          [
+            43.54,
+            -2.77
+          ],
+          [
+            43.31,
+            -1.91
+          ],
+          [
+            42.64,
+            -1.94
+          ],
+          [
+            42.25,
+            -4.17
+          ],
+          [
+            42.42,
+            -8.64
+          ]
+        ]
+      },
+      {
+        "year": 900,
+        "label": "Asturias",
+        "polygon": [
+          [
+            42.42,
+            -8.64
+          ],
+          [
+            43.05,
+            -9.27
+          ],
+          [
+            43.28,
+            -9.01
+          ],
+          [
+            43.35,
+            -8.31
+          ],
+          [
+            43.74,
+            -7.98
+          ],
+          [
+            43.52,
+            -6.81
+          ],
+          [
+            43.71,
+            -5.82
+          ],
+          [
+            43.38,
+            -3.42
+          ],
+          [
+            43.54,
+            -2.77
+          ],
+          [
+            43.31,
+            -1.91
+          ],
+          [
+            42.64,
+            -1.94
+          ],
+          [
+            42.25,
+            -4.17
+          ],
+          [
+            42.42,
+            -8.64
+          ]
+        ]
+      }
+    ],
+    "capital": {
+      "name": "Oviedo",
+      "coords": [
+        43.3625,
+        -5.85028
+      ],
+      "source": "wikidata"
+    }
+  },
+  "internal_structure": {
+    "centralization": null,
+    "centralization_trajectory": null,
+    "governance_type": "dynastic",
+    "legitimacy_basis": [
+      "inheritance",
+      "religious_consecration"
+    ],
+    "administrative_system": ""
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "foundation",
+      "years": "718–791",
+      "description": "Pelayo, a Visigothic nobleman, defeats an Umayyad raiding force at the Battle of Covadonga (718/722) in the Cantabrian mountains, traditionally the symbolic start of the Reconquista. The kingdom of Asturias emerges in the mountainous northwest as a refuge for Visigoths, Basques, and Christian refugees. The Asturian kings claim to be legitimate successors of the Visigothic Kingdom.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q231392",
+          "url": "https://www.wikidata.org/wiki/Q231392"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Asturias",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Asturias"
+        }
+      ]
+    },
+    {
+      "phase": "expansion",
+      "years": "791–910",
+      "description": "Alfonso II 'the Chaste' (791–842) moves the capital to Oviedo and begins the ideological program of Asturian kingship as Visigothic restoration. Alfonso III 'the Great' (866–910) significantly expands southward, repopulating the Duero valley and pushing the frontier to the Duero river. The discovery of Santiago de Compostela's shrine (813) gives the kingdom an ideological anchor for Christian resistance.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q231392",
+          "url": "https://www.wikidata.org/wiki/Q231392"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Asturias",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Asturias"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "geographic_defensibility",
+      "layer": "geography_territory",
+      "description": "The Cantabrian mountains provided an impenetrable natural fortress; Umayyad cavalry tactics were useless in the mountain terrain where Pelayo's forces sheltered, allowing the kingdom to survive until it could build military capacity for southward expansion",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q231392",
+          "url": "https://www.wikidata.org/wiki/Q231392"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Asturias",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Asturias"
+        }
+      ]
+    },
+    {
+      "tag": "religious_legitimacy",
+      "layer": "ideology_religion",
+      "description": "The Asturian court developed the ideology of 'neo-Gothicism', the kingdom as the legitimate heir of the Visigothic Christian kingdom, which gave the Reconquista its ideological framework; the Santiago de Compostela pilgrimage drew pan-Christian support",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q231392",
+          "url": "https://www.wikidata.org/wiki/Q231392"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Asturias",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Asturias"
+        }
+      ]
+    },
+    {
+      "tag": "cantabrian_mountain_refuge",
+      "layer": "military_security",
+      "description": "The Cantabrian and Asturian mountains provided a near-impregnable refuge from Muslim armies; the terrain allowed the Visigothic remnant kingdom to survive and consolidate while Al-Andalus focused on more accessible lowland territories",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q231392",
+          "url": "https://www.wikidata.org/wiki/Q231392"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Asturias",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Asturias"
+        }
+      ]
+    },
+    {
+      "tag": "battle_covadonga_legitimacy",
+      "layer": "ideology_religion",
+      "description": "Pelayo's victory at Covadonga (718 or 722) became the founding myth of Christian Iberian reconquest; the victory's narrative, miraculous divine intervention against the Muslim invader, gave Asturian kings a crusading mandate and priestly legitimacy",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q231392",
+          "url": "https://www.wikidata.org/wiki/Q231392"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Asturias",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Asturias"
+        }
+      ]
+    },
+    {
+      "tag": "ideological_unification",
+      "layer": "ideology_religion",
+      "description": "Asturian kings claimed to be heirs of the Visigothic kingdom, presenting the Reconquista as restoration of a legitimate Christian monarchy; this ideology justified expansion, unified noble families of different origins, and attracted clergy who brought Visigothic legal traditions",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q231392",
+          "url": "https://www.wikidata.org/wiki/Q231392"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Asturias",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Asturias"
+        }
+      ],
+      "tag_prose": "neogotico_ideology"
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "visigothic_succession_claim",
+      "direction": "rise",
+      "description": "Asturian kings claimed legitimate succession from the Visigothic monarchy, positioning themselves as the restorers of Iberian Christian civilization against Islamic rule. This legitimizing ideology framed the Reconquista as recovery of lost rights rather than new conquest.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q231392",
+          "url": "https://www.wikidata.org/wiki/Q231392"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Asturias",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Asturias"
+        }
+      ]
+    },
+    {
+      "layer": "ideology_religion",
+      "tag": "santiago_de_compostela_pilgrimage",
+      "direction": "rise",
+      "description": "The \"discovery\" of St. James's tomb at Santiago de Compostela (c.830) transformed the Asturian kingdom into the destination of Europe's premier pilgrimage. Pilgrimage traffic brought wealth, population, and Christian international solidarity to the kingdom.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q231392",
+          "url": "https://www.wikidata.org/wiki/Q231392"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Asturias",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Asturias"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "succession_instability",
+      "layer": "dynastic_legitimacy",
+      "description": "Alfonso III's division of his kingdom among three sons upon his abdication (910) transformed Asturias into the Kingdom of León, effectively ending the Asturian state as the royal line moved to the more central capital",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q231392",
+          "url": "https://www.wikidata.org/wiki/Q231392"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Asturias",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Asturias"
+        }
+      ]
+    },
+    {
+      "tag": "capital_shift_to_leon",
+      "layer": "military_security",
+      "description": "As the Reconquista pushed south, the political center of gravity shifted from Oviedo to León; Asturias became a peripheral northern region while the kingdom's identity transformed into the Kingdom of León, effectively ending the Asturian period even though the dynasty continued",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q231392",
+          "url": "https://www.wikidata.org/wiki/Q231392"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Asturias",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Asturias"
+        }
+      ]
+    },
+    {
+      "tag": "succession_crisis",
+      "layer": "military_security",
+      "description": "The Asturian kingdom suffered from the Visigothic tradition of elective monarchy applied to a de-facto dynastic state; disputes over succession (Alfonso II's contested enthronement, the rivalry between the sons of Ordoño I) drained military energy that could have been used for expansion",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q231392",
+          "url": "https://www.wikidata.org/wiki/Q231392"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Asturias",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Asturias"
+        }
+      ],
+      "tag_prose": "succession_disputes"
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "leonese_succession_transformation",
+      "direction": "decline",
+      "description": "Alfonso III's expansion south to the Douro and transfer of the capital to León (910) effectively transformed Asturias into the Kingdom of León. The \"Asturian\" identity was progressively replaced by Leonese identity as the political center moved south.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q231392",
+          "url": "https://www.wikidata.org/wiki/Q231392"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Asturias",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Asturias"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Pelayo",
+      "role": "dynastic_founder",
+      "years": "685–737",
+      "year_start": 685,
+      "year_end": 737,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Pelayo",
+          "url": "https://en.wikipedia.org/wiki/Pelayo"
+        }
+      ]
+    },
+    {
+      "name": "Alfonso II",
+      "role": "ruler",
+      "years": "760–842",
+      "year_start": 760,
+      "year_end": 842,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Alfonso II",
+          "url": "https://en.wikipedia.org/wiki/Alfonso_II"
+        }
+      ]
+    },
+    {
+      "name": "Alfonso III",
+      "role": "ruler",
+      "years": "848–910",
+      "year_start": 848,
+      "year_end": 910,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Alfonso III",
+          "url": "https://en.wikipedia.org/wiki/Alfonso_III"
+        }
+      ]
+    }
+  ],
+  "predecessor_entity_ids": [
+    "visigothic_kingdom"
+  ],
+  "successor_entity_ids": [
+    "kingdom_of_leon"
+  ],
+  "primary_ethnicity": "iberian",
+  "ethnic_composition": [
+    {
+      "group": "iberian",
+      "proportion": 0.85
+    },
+    {
+      "group": "germanic",
+      "proportion": 0.1
+    }
+  ],
+  "religion_composition": [
+    {
+      "religion": "catholic",
+      "proportion": 0.95
+    },
+    {
+      "religion": "pagan",
+      "proportion": 0.05
+    }
+  ],
+  "primary_language": "ibero_romance",
+  "language_composition": [
+    {
+      "language": "ibero_romance",
+      "proportion": 0.68,
+      "role": "vernacular"
+    },
+    {
+      "language": "arabic",
+      "proportion": 0.15,
+      "role": "regional"
+    },
+    {
+      "language": "latin",
+      "proportion": 0.12,
+      "role": "liturgical"
+    },
+    {
+      "language": "celtic_lang",
+      "proportion": 0.05,
+      "role": "regional"
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "mining",
+      "pastoralism"
+    ],
+    "wealth_level": "moderate",
+    "major_exports": [
+      "iron",
+      "cattle",
+      "grain",
+      "gold"
+    ],
+    "major_trade_partners": [
+      "carolingian_empire",
+      "caliphate_of_cordoba"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "tithes",
+      "tribute"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q231392",
+        "url": "https://www.wikidata.org/wiki/Q231392"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Kingdom of Asturias",
+        "url": "https://en.wikipedia.org/wiki/Kingdom_of_Asturias"
+      }
+    ]
+  },
+  "social_structure": {
+    "ruling_ethnicity": "iberian",
+    "subject_majority": "iberian",
+    "military_ethnicity": "iberian",
+    "administrative_language": "ibero_romance",
+    "stratification_type": "homogeneous"
+  },
+  "wikidata_enrichment": {
+    "qid": "Q231392",
+    "matched_name": "Kingdom of Asturias",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Kingdom_of_Asturias",
+    "capital": {
+      "name": "Oviedo",
+      "coords": [
+        43.3625,
+        -5.85028
+      ]
+    },
+    "rulers_from_wikidata": [
+      {
+        "name": "Monarch of the Kingdom of Asturias",
+        "qid": "Q58769733",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q58769733",
+            "url": "https://www.wikidata.org/wiki/Q58769733"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Monarch of the Kingdom of Asturias",
+            "url": "https://en.wikipedia.org/wiki/Monarch_of_the_Kingdom_of_Asturias"
+          }
+        ]
+      },
+      {
+        "name": "Pelagius",
+        "qid": "Q14655",
+        "year_start": 718,
+        "year_end": 737,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q14655",
+            "url": "https://www.wikidata.org/wiki/Q14655"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Pelagius",
+            "url": "https://en.wikipedia.org/wiki/Pelagius"
+          }
+        ]
+      },
+      {
+        "name": "Favila of Asturias",
+        "qid": "Q333648",
+        "year_start": 737,
+        "year_end": 739,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q333648",
+            "url": "https://www.wikidata.org/wiki/Q333648"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Favila of Asturias",
+            "url": "https://en.wikipedia.org/wiki/Favila_of_Asturias"
+          }
+        ]
+      },
+      {
+        "name": "Alfonso I of Asturias",
+        "qid": "Q333609",
+        "year_start": 739,
+        "year_end": 757,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q333609",
+            "url": "https://www.wikidata.org/wiki/Q333609"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Alfonso I of Asturias",
+            "url": "https://en.wikipedia.org/wiki/Alfonso_I_of_Asturias"
+          }
+        ]
+      },
+      {
+        "name": "Fruela I of Asturias",
+        "qid": "Q351715",
+        "year_start": 757,
+        "year_end": 768,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q351715",
+            "url": "https://www.wikidata.org/wiki/Q351715"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Fruela I of Asturias",
+            "url": "https://en.wikipedia.org/wiki/Fruela_I_of_Asturias"
+          }
+        ]
+      },
+      {
+        "name": "Aurelius of Asturias",
+        "qid": "Q205565",
+        "year_start": 768,
+        "year_end": 774,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q205565",
+            "url": "https://www.wikidata.org/wiki/Q205565"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Aurelius of Asturias",
+            "url": "https://en.wikipedia.org/wiki/Aurelius_of_Asturias"
+          }
+        ]
+      },
+      {
+        "name": "Silo of Asturias",
+        "qid": "Q351719",
+        "year_start": 774,
+        "year_end": 783,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q351719",
+            "url": "https://www.wikidata.org/wiki/Q351719"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Silo of Asturias",
+            "url": "https://en.wikipedia.org/wiki/Silo_of_Asturias"
+          }
+        ]
+      },
+      {
+        "name": "Mauregatus of Asturias",
+        "qid": "Q379777",
+        "year_start": 783,
+        "year_end": 788,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q379777",
+            "url": "https://www.wikidata.org/wiki/Q379777"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mauregatus of Asturias",
+            "url": "https://en.wikipedia.org/wiki/Mauregatus"
+          }
+        ]
+      },
+      {
+        "name": "Bermudo I of Asturias",
+        "qid": "Q379783",
+        "year_start": 788,
+        "year_end": 791,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q379783",
+            "url": "https://www.wikidata.org/wiki/Q379783"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Bermudo I of Asturias",
+            "url": "https://en.wikipedia.org/wiki/Bermudo_I_of_Asturias"
+          }
+        ]
+      },
+      {
+        "name": "Alfonso II of Asturias",
+        "qid": "Q360388",
+        "year_start": 791,
+        "year_end": 842,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q360388",
+            "url": "https://www.wikidata.org/wiki/Q360388"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Alfonso II of Asturias",
+            "url": "https://en.wikipedia.org/wiki/Alfonso_II_of_Asturias"
+          }
+        ]
+      },
+      {
+        "name": "Ramiro I of Asturias",
+        "qid": "Q168363",
+        "year_start": 842,
+        "year_end": 850,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q168363",
+            "url": "https://www.wikidata.org/wiki/Q168363"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ramiro I of Asturias",
+            "url": "https://en.wikipedia.org/wiki/Ramiro_I_of_Asturias"
+          }
+        ]
+      },
+      {
+        "name": "Ordoño I of Asturias",
+        "qid": "Q223646",
+        "year_start": 850,
+        "year_end": 866,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q223646",
+            "url": "https://www.wikidata.org/wiki/Q223646"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ordoño I of Asturias",
+            "url": "https://en.wikipedia.org/wiki/Ordoño_I_of_Asturias"
+          }
+        ]
+      },
+      {
+        "name": "Alfonso III of Asturias",
+        "qid": "Q311138",
+        "year_start": 866,
+        "year_end": 910,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q311138",
+            "url": "https://www.wikidata.org/wiki/Q311138"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Alfonso III of Asturias",
+            "url": "https://en.wikipedia.org/wiki/Alfonso_III_of_Asturias"
+          }
+        ]
+      },
+      {
+        "name": "Fruela II of Asturias",
+        "qid": "Q333603",
+        "year_start": 910,
+        "year_end": 924,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q333603",
+            "url": "https://www.wikidata.org/wiki/Q333603"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Fruela II of Asturias",
+            "url": "https://en.wikipedia.org/wiki/Fruela_II_of_Asturias"
+          }
+        ]
+      }
+    ],
+    "successors_from_wikidata": [
+      "Kingdom of Leon"
+    ]
+  },
+  "sources": [
+    {
+      "type": "book",
+      "author": "Wickham, Chris",
+      "title": "The Inheritance of Rome: A History of Europe from 400 to 1000",
+      "publisher": "Allen Lane",
+      "year": 2009
+    },
+    {
+      "type": "book",
+      "author": "Abulafia, David (ed.)",
+      "title": "The New Cambridge Medieval History, Vol. V: c. 1198 – c. 1300",
+      "publisher": "Cambridge University Press",
+      "year": 1999
+    }
+  ],
+  "monogram": "AS"
+}

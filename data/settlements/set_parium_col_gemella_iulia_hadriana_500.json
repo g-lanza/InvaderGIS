@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_parium_col_gemella_iulia_hadriana_500",
+  "name": "Parium/Col. Gemella Iulia *Hadriana",
+  "importance": "city",
+  "start_year": 500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "inferred",
+    "external_ids": {
+      "pleiades": "511354"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    27.0703,
+    40.4237
+  ]
+}

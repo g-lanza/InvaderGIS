@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_bruderholz_1499",
+  "name": "Battle of Bruderholz",
+  "subtype": "battle",
+  "start_year": 1499,
+  "end_year": 1499,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q319637"
+    }
+  },
+  "description": "Battle during Swabian War (1499)",
+  "coords": [
+    7.5948,
+    47.5076
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "maximilian_i_reforms_1493",
+  "name": "Maximilian I, Last Knight and First Modern Emperor",
+  "year": 1493,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    48.21,
+    16.37
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Maximilian I combines medieval chivalric ideals with modern statecraft: he reorganizes the Imperial Diet (1495 Diet of Worms establishing the Eternal Public Peace and an imperial court), creates the Imperial Chamber Court, and develops the Landsknecht mercenary infantry that becomes the dominant European military force of the early 16th century. His marriage to Mary of Burgundy and his grandson Charles V's multiple inheritances create the Habsburg global empire.",
+  "outcomes": [
+    "reichstag_reorganized",
+    "imperial_court_created",
+    "mercenary_lansquenets_developed"
+  ],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "duchy_of_burgundy",
+      "duchy_of_austria"
+    ],
+    "structural_significance": "Maximilian stands at the transition between medieval and modern empire; his Reichskammergericht (imperial court) is the first supra-national judicial institution in Europe; the Landsknecht system he develops transforms European warfare, combining pike and firearm in organized companies that supersede feudal cavalry; his dynastic strategy (bella gerant alii, tu felix Austria nube, 'let others fight wars; you, happy Austria, marry') creates the Habsburg empire through matrimony rather than conquest",
+    "year_range": [
+      1493,
+      1519
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

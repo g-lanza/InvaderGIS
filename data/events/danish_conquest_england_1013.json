@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "danish_conquest_england_1013",
+  "name": "Danish Conquest of England",
+  "year": 1013,
+  "type": "conquest",
+  "category": "violence",
+  "coords": [
+    52,
+    -1
+  ],
+  "entity": "north_sea_empire",
+  "summary": "Sweyn Forkbeard of Denmark conducts a systematic campaign of conquest across England in 1013, compelling the submission of Northumbria, the Danelaw, and ultimately the southern English kingdoms. King Æthelred II ('the Unready') flees to Normandy. Sweyn is recognized as king of England on Christmas 1013, but dies five weeks later in February 1014. His son Canute completes the conquest in 1016 after years of fighting, eventually ruling England, Denmark, and Norway as the 'North Sea Empire.' The conquest demonstrates England's fundamental vulnerability to Viking power.",
+  "outcomes": [
+    "sweyn_forkbeard_king_england",
+    "aethelred_flees",
+    "north_sea_empire_formed"
+  ],
+  "_quarry": {
+    "participants": [
+      "north_sea_empire",
+      "kingdom_of_england",
+      "kingdom_of_denmark"
+    ],
+    "structural_significance": "Creates the North Sea Empire under Canute, a non-Norman, non-French cross-Channel power that shapes English politics until his sons' deaths; Æthelred's exile in Normandy strengthens Norman-English dynastic connections that lead to William the Conqueror's 1066 claim; the Danish period introduces Norse administrative practices that blend with Anglo-Saxon governance",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

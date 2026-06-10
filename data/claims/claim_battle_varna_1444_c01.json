@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_battle_varna_1444_c01",
+  "statement": "Sultan Murad II destroyed the Polish-Hungarian crusading army and killed King Vladislaus III at Varna in 1444.",
+  "subject_ids": [
+    "ottoman_empire"
+  ],
+  "period": {
+    "from": 1444,
+    "to": 1444
+  },
+  "derived_from": "battle_varna_1444",
+  "unresolved_sources": [
+    "i̇nalcık_the_1973",
+    "finkel_osmans_2005",
+    "imber_the_2002"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

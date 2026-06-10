@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_mocl_n_1280",
+  "name": "Battle of Moclín",
+  "subtype": "battle",
+  "start_year": 1280,
+  "end_year": 1280,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q4871751"
+    }
+  },
+  "description": "Battle during Reconquista (1280)",
+  "coords": [
+    -3.7861,
+    37.3389
+  ]
+}

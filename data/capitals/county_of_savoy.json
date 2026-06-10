@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "county_of_savoy",
+  "name": "Chambéry",
+  "entity_id": "county_of_savoy",
+  "entity_name": "County of Savoy",
+  "start_year": 1033,
+  "end_year": 1416,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1232887"
+    }
+  },
+  "coords": [
+    5.92083,
+    45.56639
+  ]
+}

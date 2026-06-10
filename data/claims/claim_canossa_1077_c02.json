@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_canossa_1077_c02",
+  "statement": "Pope Gregory VII lifted the excommunication of Henry IV at Canossa, which had been levied during the Investiture Controversy.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1077,
+    "to": 1077
+  },
+  "derived_from": "canossa_1077",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morris_papal_monarchy_1989",
+      "robinson_papacy_1990"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

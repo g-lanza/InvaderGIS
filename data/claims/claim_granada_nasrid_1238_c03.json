@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_granada_nasrid_1238_c03",
+  "statement": "Construction of the Alhambra palace complex began under Muhammad I and his successors.",
+  "subject_ids": [
+    "emirate_of_granada"
+  ],
+  "period": {
+    "from": 1238,
+    "to": 1238
+  },
+  "derived_from": "granada_nasrid_1238",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "harvey_islamic_1990",
+      "fernández-puertas_the_1997"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_crusader_states_economy_c01",
+  "statement": "Italian city-states received quarters of Crusader cities and trade privileges amounting to extraterritorial rights.",
+  "subject_ids": [
+    "kingdom_of_jerusalem"
+  ],
+  "period": {
+    "from": 1150,
+    "to": 1150
+  },
+  "derived_from": "crusader_states_economy",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

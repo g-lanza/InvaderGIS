@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "clontarf_1014",
+  "name": "Battle of Clontarf",
+  "year": 1014,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    53.36,
+    -6.2
+  ],
+  "entity": "kingdom_of_ireland_high",
+  "summary": "Brian Boru, High King of Ireland, defeats a coalition of Leinster Irish and Dublin Norse forces at the Battle of Clontarf (Good Friday, April 23, 1014). Brian, aged approximately 73, is killed in his tent after the battle by a retreating Viking warrior (traditionally Broðir of the Isle of Man). Though the battle eliminates the political threat of a Norse-Irish coalition, Brian's death without a strong successor ends the brief period of unified Irish kingship. The battle is celebrated in Irish culture as the moment when the Vikings were definitively expelled from political power in Ireland.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_ireland_high",
+      "kingdom_of_dublin",
+      "kingdom_of_munster"
+    ],
+    "structural_significance": "Ends Viking political dominance in Ireland; but Brian's death prevents the consolidation of a unified Irish monarchy; Ireland remains fragmented and vulnerable to the Norman intervention 157 years later",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

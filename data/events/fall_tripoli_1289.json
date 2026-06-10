@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "fall_tripoli_1289",
+  "name": "Fall of Tripoli, Penultimate Crusader City",
+  "year": 1289,
+  "type": "conquest",
+  "category": "violence",
+  "coords": [
+    34.44,
+    35.85
+  ],
+  "entity": "mamluk_sultanate",
+  "summary": "Mamluk Sultan Qalawun captures and demolishes Tripoli in April 1289, eliminating the County of Tripoli. As with Antioch (1268) and Caesarea (1265), the Mamluks demolish captured cities to prevent their reuse as crusading bases. Only Acre remains as a major Crusader city. The systematic demolition policy ensures that even if Crusaders eventually reconquer the coast, they will find no usable urban infrastructure.",
+  "outcomes": [
+    "tripoli_falls",
+    "only_acre_remains",
+    "mamluk_methodical_reconquest"
+  ],
+  "_quarry": {
+    "participants": [
+      "mamluk_sultanate",
+      "county_of_tripoli"
+    ],
+    "structural_significance": "The fall of Tripoli follows the Mamluk formula: systematic siege with massive numerical advantage, destruction of the city after capture, deportation or enslavement of survivors; this policy is strategically rational (denying any future crusade a base of operations) but destroys centuries of urban development; the countdown to Acre (1291) begins, making the end of the Crusader states visible",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "irwin_the_1986",
+      "northrup_from_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

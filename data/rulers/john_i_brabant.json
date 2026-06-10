@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "john_i_brabant",
+  "name": "John I of Brabant",
+  "polity": "duchy_of_brabant",
+  "title": "military_leader",
+  "reign_start": 1252,
+  "reign_end": 1294,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "duchy_of_brabant",
+        "role": "military_leader",
+        "start_year": 1252,
+        "end_year": 1294
+      }
+    ],
+    "key_actions": [],
+    "region": "western_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "east_java_majapahit_founded_1293",
+  "name": "Majapahit Empire Founded",
+  "year": 1293,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    -3.243,
+    113.076
+  ],
+  "entity": "east_java",
+  "summary": "Raden Wijaya exploited the Mongol expedition that had come to punish the previous Javanese king, turning the invaders against his enemies and then expelling them. The new Majapahit Empire would become the greatest maritime empire in Southeast Asian history.",
+  "outcomes": [
+    "majapahit_founded",
+    "mongol_invasion_repelled",
+    "java_dominant"
+  ],
+  "_quarry": {
+    "participants": [
+      "east_java"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

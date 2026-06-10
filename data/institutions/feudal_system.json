@@ -1,0 +1,67 @@
+{
+  "kind": "institution",
+  "dataset": "medieval-europe-500-1500",
+  "id": "feudal_system",
+  "name_primary": "Feudal System",
+  "domain": "administrative_system",
+  "formed": 800,
+  "dissolved": 1500,
+  "_quarry": {
+    "key_developments": [
+      {
+        "year": 843,
+        "event": "Treaty of Verdun fragments Carolingian Empire; regional magnates effectively independent."
+      },
+      {
+        "year": 911,
+        "event": "William the Pious founds Cluny — abbey-based reform movement entwined with feudal patronage."
+      },
+      {
+        "year": 987,
+        "event": "Hugh Capet elected in France; Capetian dynasty operates as first-among-equals among great feudal lords."
+      },
+      {
+        "year": 1066,
+        "event": "Norman Conquest of England exports continental feudalism; Domesday Book (1086) catalogues holdings."
+      },
+      {
+        "year": 1166,
+        "event": "Henry II's Assize of Clarendon initiates royal-court substitution for feudal courts."
+      },
+      {
+        "year": 1215,
+        "event": "Magna Carta codifies feudal restraints on royal power."
+      },
+      {
+        "year": 1337,
+        "event": "Hundred Years' War begins; English knight-fee system gives way to indentured retainer companies."
+      }
+    ],
+    "influences_entities": [
+      "kingdom_of_france",
+      "kingdom_of_england",
+      "duchy_of_normandy",
+      "county_of_anjou",
+      "duchy_of_burgundy",
+      "duchy_of_aquitaine",
+      "duchy_of_brittany",
+      "kingdom_of_castile",
+      "crown_of_aragon",
+      "kingdom_of_navarre",
+      "duchy_of_saxony",
+      "duchy_of_swabia",
+      "duchy_of_bavaria",
+      "holy_roman_empire",
+      "kingdom_of_jerusalem"
+    ],
+    "description": "A loose constellation of legal and military practices — not a single 'system' as 19th-century historians once imagined — by which post-Carolingian Western Europe organised its land, military service, and political loyalty. Core elements: a lord-vassal relationship sealed by an oath of fealty and exchange of homage, in which a vassal received a fief (usually land) in return for military service and counsel. The system filled the administrative vacuum left by Carolingian collapse, but was unevenly distributed: classical feudalism dominated northern France and England, was weaker in Iberia and Italy, and largely absent from Byzantine, Islamic, and East European polities. By the late 13th century kings (especially in England and France) had begun replacing fealty obligations with cash commutation and professional armies, eroding the system before the 'classical' historiographic image was consolidated."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reynolds_fiefs_and_vassals_1994",
+      "ganshof_feudalism_1952"
+    ],
+    "confidence": "low"
+  }
+}

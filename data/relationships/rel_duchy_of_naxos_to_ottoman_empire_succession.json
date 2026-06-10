@@ -1,0 +1,40 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_duchy_of_naxos_to_ottoman_empire_succession",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "duchy_of_naxos",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "ottoman_empire",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 1453,
+  "until": 1453,
+  "note": "Derived from predecessor/successor links recorded in the duchy_of_naxos and ottoman_empire entity records. Transition anchored to ottoman_empire start_year.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Mechanical normalisation of curated predecessor/successor links into the relationships register."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_cosmas_indicopleustes_547_c02",
+  "statement": "The Christian Topography argued for a flat-earth cosmology but preserved uniquely valuable first-hand reports on Aksumite Christianity and Indian Ocean trade.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 547,
+    "to": 547
+  },
+  "derived_from": "cosmas_indicopleustes_547",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kaldellis_streams_of_gold_2017",
+      "munro_hay_aksum_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

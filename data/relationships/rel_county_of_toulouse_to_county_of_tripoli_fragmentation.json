@@ -1,0 +1,36 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_county_of_toulouse_to_county_of_tripoli_fragmentation",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "county_of_toulouse",
+      "role": "parent"
+    },
+    {
+      "entity_id": "county_of_tripoli",
+      "role": "fragment"
+    }
+  ],
+  "directed": true,
+  "type": "fragmentation",
+  "since": 1102,
+  "until": 1102,
+  "note": "Derived from predecessor/successor links recorded in the county_of_toulouse and county_of_tripoli entity records. Transition anchored to county_of_tripoli start_year.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Mechanical normalisation of curated predecessor/successor links into the relationships register."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "riley-smith_the_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

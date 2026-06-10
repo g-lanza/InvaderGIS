@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "bagrat_iii_georgia",
+  "name": "Bagrat III",
+  "polity": "kingdom_of_georgia",
+  "title": "dynastic_founder",
+  "reign_start": 975,
+  "reign_end": 1014,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "kingdom_of_georgia",
+        "role": "dynastic_founder",
+        "start_year": 975,
+        "end_year": 1014
+      }
+    ],
+    "key_actions": [],
+    "region": "eastern_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

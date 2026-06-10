@@ -1,0 +1,38 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_papal_carolingian_anointing",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "papal_states",
+      "role": "principal"
+    },
+    {
+      "entity_id": "carolingian_empire",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "alliance",
+  "since": 754,
+  "until": 843,
+  "note": "Pope Stephen II's anointing of Pippin III and his sons as 'Kings of the Franks and Patricians of the Romans' (754) — repeated by Pope Hadrian I at Charlemagne's coronation (781) and culminating in Leo III's imperial coronation (800) — established the principle that papal anointing legitimized royal and imperial authority. The Carolingians reciprocated with the Donation of Pippin (756) and military protection of Rome. This exchange created the political theology of medieval Europe: royal/imperial authority derives from God through the Church, making the pope the gatekeeper of legitimate secular power. The Investiture Controversy was the inevitable consequence.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Papal anointing of the Carolingians establishes the theory that secular authority requires ecclesiastical legitimation; this principle gives the medieval papacy its most powerful political lever; every subsequent pope-emperor conflict turns on whether the emperor can exercise authority without papal approval"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989",
+      "mckitterick_charlemagne_2008",
+      "riché_the_1993",
+      "nelson_king_2019"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

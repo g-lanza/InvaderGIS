@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_black_death_wave_1369_c01",
+  "statement": "The 1369 outbreak was the third pan-European recurrence of plague since 1347, with roughly 10–15% additional mortality in affected regions.",
+  "subject_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 1369,
+    "to": 1369
+  },
+  "derived_from": "black_death_wave_1369",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "campbell_great_transition_2016"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

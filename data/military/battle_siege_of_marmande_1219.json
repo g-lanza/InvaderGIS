@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_siege_of_marmande_1219",
+  "name": "Siege of Marmande",
+  "subtype": "battle",
+  "start_year": 1219,
+  "end_year": 1219,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2421563"
+    }
+  },
+  "description": "Battle during Albigensian Crusade (1219)",
+  "coords": [
+    0.1617,
+    44.51
+  ]
+}

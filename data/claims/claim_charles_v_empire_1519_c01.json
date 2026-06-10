@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_charles_v_empire_1519_c01",
+  "statement": "Charles V inherited Spain in 1516 and the Holy Roman Empire in 1519, creating the most extensive European empire since Rome.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1519,
+    "to": 1519
+  },
+  "derived_from": "charles_v_empire_1519",
+  "unresolved_sources": [
+    "scales_the_2012"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

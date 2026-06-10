@@ -1,0 +1,36 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_anglo_saxon_heptarchy_to_kingdom_of_kent_fragmentation",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "anglo_saxon_heptarchy",
+      "role": "parent"
+    },
+    {
+      "entity_id": "kingdom_of_kent",
+      "role": "fragment"
+    }
+  ],
+  "directed": true,
+  "type": "fragmentation",
+  "since": 455,
+  "until": 455,
+  "note": "Derived from predecessor/successor links recorded in the anglo_saxon_heptarchy and kingdom_of_kent entity records. Transition anchored to kingdom_of_kent start_year.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Mechanical normalisation of curated predecessor/successor links into the relationships register."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

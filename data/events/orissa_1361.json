@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "orissa_1361",
+  "name": "Firuz Shah Tughluq Raids Orissa",
+  "year": 1361,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    22.8715,
+    79.358
+  ],
+  "entity": "kalinga",
+  "summary": "Firuz Shah Tughluq's raid on Orissa in 1361 CE devastated coastal temples and carried away immense plunder including the sacred Puri idols. Despite the raid, Orissa maintained independence from the Delhi Sultanate, its forested terrain and strong naval capacity deterring permanent occupation.",
+  "outcomes": [
+    "orissa_temples_attacked",
+    "tughluq_loot",
+    "orissa_survives"
+  ],
+  "_quarry": {
+    "participants": [
+      "kalinga",
+      "delhi_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_crete_earthquake_1303_c01",
+  "statement": "A submarine earthquake near Crete on 8 August 1303 triggered a tsunami across the southern Aegean and the Egyptian coast.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 1303,
+    "to": 1303
+  },
+  "derived_from": "crete_earthquake_1303",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "abulafia_great_sea_2011"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

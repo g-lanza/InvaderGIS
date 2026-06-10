@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_zeta_serbia",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "serbian_kingdom_nemanjic",
+      "role": "suzerain"
+    },
+    {
+      "entity_id": "principality_of_zeta",
+      "role": "vassal"
+    }
+  ],
+  "directed": true,
+  "type": "vassalage",
+  "since": 1186,
+  "until": 1356,
+  "note": "Zeta (the coastal principality corresponding to modern Montenegro) was a constituent territory of the Serbian state under the Nemanjić dynasty, ruled by cadet branches of the dynasty as appanages. After the Battle of Kosovo (1389) and the fragmentation of the Serbian Empire, Zeta gained increasing autonomy under the Balšić and then Crnojević dynasties. The Zeta nobility fought ongoing resistance to Ottoman expansion while the Serbian Despotate's main territories fell; the Crnojevići maintained Zeta (Montenegro) as the last bastion of Serbian Christian statehood until 1499.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Zeta/Montenegro's resistance to Ottoman conquest after the fall of the Serbian Despotate creates the origins of modern Montenegro as a distinct political entity; the mountain terrain that allowed Zeta to resist where the Serbian lowlands could not becomes Montenegro's defining geographic and political characteristic"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fine_the_1987",
+      "ćirković_the_2004",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

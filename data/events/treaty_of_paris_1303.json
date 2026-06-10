@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "treaty_of_paris_1303",
+  "name": "Treaty of Paris 1303, France's Settlement with Flanders",
+  "year": 1303,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    50.85,
+    3.2
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Philip IV of France signs the Treaty of Paris with Count Robert III of Flanders, partially resolving the conflict that began with the Battle of the Golden Spurs (1302). While Flanders acknowledges French suzerainty, the treaty acknowledges Flemish urban liberties and reduces French direct control. The subsequent Treaty of Athis-sur-Orge (1305) imposes heavy financial penalties on Flanders but fails to incorporate it fully.",
+  "outcomes": [
+    "treaty_of_paris_signed",
+    "flanders_partial_independence",
+    "french_flemish_relations_normalized"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "county_of_flanders"
+    ],
+    "structural_significance": "The Flemish resistance forces France to accept a semi-autonomous northern region, the precedent for the later Burgundian state; the Flemish cloth industry's dependence on English wool creates an economic triangulation that dominates the Hundred Years' War diplomacy (Edward III's alliance with Flemish cities is a key early war advantage); the tension between French royal centralization and Flemish urban autonomy prefigures 16th-century revolt against Habsburgs in the Low Countries",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

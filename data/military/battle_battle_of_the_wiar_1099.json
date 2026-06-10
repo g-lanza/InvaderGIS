@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_the_wiar_1099",
+  "name": "Battle of the Wiar",
+  "subtype": "battle",
+  "start_year": 1099,
+  "end_year": 1099,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q4087335"
+    }
+  },
+  "description": "Battle during Kievan Rus' Civil War of 1097–1100 (1099)",
+  "coords": [
+    22.5881,
+    49.5142
+  ]
+}

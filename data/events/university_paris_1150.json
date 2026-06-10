@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "university_paris_1150",
+  "name": "Rise of the University of Paris",
+  "year": 1150,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    48.849,
+    2.347
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Growing from the cathedral schools of Notre-Dame, the University of Paris emerged by the mid-12th century as the leading center of scholastic theology. Scholars such as Abelard attracted students from across Europe. Papal bulls of the early 13th century formalized its constitution and academic freedom.",
+  "outcomes": [
+    "Cathedral school transformed into a studium generale",
+    "Theology becomes dominant discipline",
+    "Papal privileges granted 1215"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "papal_states"
+    ],
+    "structural_significance": "Became the intellectual center of Christendom; its Theology faculty defined orthodox doctrine for the medieval church.",
+    "year_range": [
+      1100,
+      1200
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Verger, Les universités françaises au Moyen Âge",
+      "Baldwin, Masters, Princes and Merchants"
+    ],
+    "confidence": "low"
+  }
+}

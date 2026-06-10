@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "robert_grosseteste_science_1230",
+  "name": "Robert Grosseteste and Scientific Method",
+  "year": 1230,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    51.752,
+    -1.257
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Robert Grosseteste, Chancellor of Oxford and later Bishop of Lincoln, developed the first systematic account in Latin of what we might call scientific method: the use of mathematics to understand nature and the principle of verification through experience. His commentaries on the Posterior Analytics and his work on optics, sound, and the rainbow laid the groundwork for 13th-century natural philosophy and directly influenced his student Roger Bacon.",
+  "outcomes": [
+    "First systematic theory of experimental science in Latin",
+    "Commentaries on Aristotelian natural philosophy",
+    "Bishop of Lincoln; church reformer",
+    "Roger Bacon his student"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england"
+    ],
+    "structural_significance": "The first major Western thinker to articulate an empirical-mathematical approach to nature; the intellectual grandfather of the Oxford scientific tradition.",
+    "year_range": [
+      1225,
+      1253
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "McEvoy, The Philosophy of Robert Grosseteste",
+      "southern_robert_1986"
+    ],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "obizzo_ii_este",
+  "name": "Obizzo d'Este II",
+  "polity": "duchy_of_ferrara",
+  "title": "dynastic_founder",
+  "reign_start": 1247,
+  "reign_end": 1293,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "duchy_of_ferrara",
+        "role": "dynastic_founder",
+        "start_year": 1247,
+        "end_year": 1293
+      }
+    ],
+    "key_actions": [],
+    "region": "italy",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

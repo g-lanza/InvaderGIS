@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_barcelona_1359",
+  "name": "Battle of Barcelona",
+  "year": 1359,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.85,
+    -3.775
+  ],
+  "entity": "kingdom_of_portugal",
+  "summary": "Battle of Barcelona (1359 CE), at Barcelona (part of War of the Two Peters). Source: Wikidata Q4870420.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_portugal",
+      "crown_of_aragon",
+      "crown_of_castile",
+      "emirate_of_granada"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "varna_1444",
+  "name": "Battle of Varna",
+  "year": 1444,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    43.21,
+    27.92
+  ],
+  "entity": "ottoman_empire",
+  "summary": "At the Battle of Varna (November 10, 1444), a crusading force under Władysław III of Poland-Hungary confronts the Ottoman army of Sultan Murad II. King Władysław breaks the truce (the 1444 Peace of Szeged) after papal pressure and advances to Varna on the Black Sea. In the battle, Władysław charges the Ottoman center personally and is killed; his head is displayed on a pike. The defeat ends the last serious attempt to drive the Ottomans from Europe and seals the fate of Constantinople.",
+  "outcomes": [
+    "crusader_army_defeated"
+  ],
+  "_quarry": {
+    "participants": [
+      "ottoman_empire",
+      "kingdom_of_hungary"
+    ],
+    "structural_significance": "Final crusade attempt before the fall of Constantinople; ending of Western ability to challenge the Ottomans in the Balkans; seals Ottoman control of the Balkans",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

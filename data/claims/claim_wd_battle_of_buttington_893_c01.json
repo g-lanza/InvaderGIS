@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_buttington_893_c01",
+  "statement": "The Battle of Buttington was fought in 893 CE at Buttington.",
+  "subject_ids": [
+    "kingdom_of_mercia"
+  ],
+  "period": {
+    "from": 893,
+    "to": 893
+  },
+  "derived_from": "wd_battle_of_buttington_893",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

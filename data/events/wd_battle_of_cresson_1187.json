@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_cresson_1187",
+  "name": "Battle of Cresson",
+  "year": 1187,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    34.1,
+    31.7
+  ],
+  "entity": "kingdom_of_jerusalem",
+  "summary": "Battle of Cresson (1187 CE), at Nazareth (part of Crusader battles between 1149 and 1189). Source: Wikidata Q577190.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_jerusalem",
+      "knights_hospitaller_rhodes"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

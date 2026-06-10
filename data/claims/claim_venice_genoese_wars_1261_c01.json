@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_venice_genoese_wars_1261_c01",
+  "statement": "In 1261, Michael VIII Palaiologos recaptured Constantinople with Genoese support, expelling Venice.",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1261,
+    "to": 1261
+  },
+  "derived_from": "venice_genoese_wars_1261",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_ascalon_1247",
+  "name": "Siege of Ascalon",
+  "year": 1247,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    36.4,
+    28.2
+  ],
+  "entity": "knights_hospitaller_rhodes",
+  "summary": "Siege of Ascalon (1247 CE), at Ascalon. Source: Wikidata Q125503841.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "knights_hospitaller_rhodes"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_hospitallers_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

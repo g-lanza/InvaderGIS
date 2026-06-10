@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "saladin_reconquers_jerusalem_1187",
+  "name": "Saladin Reconquers Jerusalem",
+  "year": 1187,
+  "type": "conquest",
+  "category": "violence",
+  "coords": [
+    31.78,
+    35.22
+  ],
+  "entity": "ayyubid_sultanate",
+  "summary": "Following his decisive victory at the Horns of Hattin (July 4, 1187) where he captured King Guy of Lusignan and destroyed the Crusader army, Saladin besieges Jerusalem. After a two-week siege, Balian of Ibelin negotiates the surrender on October 2, 1187. Saladin, in marked contrast to the Crusaders' 1099 massacre, allows the Christian population to ransom themselves and depart in peace. The fall of Jerusalem, held by Christians since 1099, triggers the Third Crusade and causes Pope Gregory VIII to issue the bull Audita tremendi.",
+  "outcomes": [
+    "jerusalem_returns_to_muslim_control",
+    "third_crusade_triggered",
+    "christian_world_shocked"
+  ],
+  "_quarry": {
+    "participants": [
+      "ayyubid_sultanate",
+      "kingdom_of_jerusalem"
+    ],
+    "structural_significance": "The fall of Jerusalem is the most psychologically devastating event in Crusader history; it triggers the Third Crusade under Richard I, Philip II, and Frederick I; Saladin's clemency in contrast to the 1099 massacre shapes the theological comparison between Islam and Christianity in medieval discourse; Jerusalem passes between Christian and Muslim control multiple more times but is never again held long by the Crusaders",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "humphreys_from_1977",
+      "lyons_saladin_1982",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

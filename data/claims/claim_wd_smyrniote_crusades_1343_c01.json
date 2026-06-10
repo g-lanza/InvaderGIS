@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_smyrniote_crusades_1343_c01",
+  "statement": "Smyrniote crusades (1343 CE), at İzmir (part of Crusades).",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1343,
+    "to": 1343
+  },
+  "derived_from": "wd_smyrniote_crusades_1343",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

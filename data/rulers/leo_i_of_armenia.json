@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "leo_i_of_armenia",
+  "name": "Leo I",
+  "polity": "armenian_kingdom_of_cilicia",
+  "title": "ruler",
+  "reign_start": 1187,
+  "reign_end": 1219,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "armenian_kingdom_of_cilicia",
+        "role": "ruler",
+        "start_year": 1187,
+        "end_year": 1219
+      }
+    ],
+    "key_actions": [],
+    "region": "byzantine_world",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

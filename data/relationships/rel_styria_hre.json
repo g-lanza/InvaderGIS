@@ -1,0 +1,38 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_styria_hre",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "holy_roman_empire",
+      "role": "suzerain"
+    },
+    {
+      "entity_id": "duchy_of_styria",
+      "role": "vassal"
+    }
+  ],
+  "directed": true,
+  "type": "vassalage",
+  "since": 1180,
+  "until": 1500,
+  "note": "Styria (the Steiermark) emerged as a separate imperial march from Carinthia in the late 10th century, elevated to a duchy in 1180 (by Emperor Frederick Barbarossa). Duke Ottokar IV of Styria, dying without heirs, bequeathed Styria to Duke Leopold V of Austria in the Georgenberg Pact (1186). Habsburgs definitively acquired Styria in 1282 when Rudolf I partitioned the Austrian territories among his sons. Combined with Austria and Carinthia, Styria formed the 'Inner Austrian' core of the Habsburg domain, providing the dynasty with iron deposits from the Erzberg — the richest iron mine in medieval Europe.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Styria's iron deposits (Erzberg) give the Habsburgs a crucial economic foundation for their military power; the Georgenberg Pact (1186) creates the Austrian-Styrian union that becomes the nucleus of the Habsburg hereditary lands; the convergence of iron production and Alpine passes makes inner Austria strategically irreplaceable"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

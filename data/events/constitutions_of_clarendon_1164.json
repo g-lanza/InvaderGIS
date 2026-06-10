@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "constitutions_of_clarendon_1164",
+  "name": "Constitutions of Clarendon",
+  "year": 1164,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    51.2,
+    -1
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Henry II issues the Constitutions of Clarendon, asserting royal authority over ecclesiastical courts and clergy accused of crimes. Archbishop Thomas Becket refuses to seal the document. The conflict culminates in Becket's murder in Canterbury Cathedral (1170), making him an instant martyr and forcing Henry's public penance.",
+  "outcomes": [
+    "becket_conflict",
+    "church_state_english",
+    "henry_ii_reform"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england"
+    ],
+    "structural_significance": "The conflict between Henry II and Becket defines the limits of royal authority over the church in England; Becket's martyrdom strengthens clerical independence; the conflict anticipates Henry VIII's later break with Rome.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

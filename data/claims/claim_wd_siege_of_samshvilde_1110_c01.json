@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_samshvilde_1110_c01",
+  "statement": "Siege of Samshvilde (1110 CE), at Samshvilde (part of Georgian–Seljuk wars).",
+  "subject_ids": [
+    "kingdom_of_georgia"
+  ],
+  "period": {
+    "from": 1110,
+    "to": 1110
+  },
+  "derived_from": "wd_siege_of_samshvilde_1110",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

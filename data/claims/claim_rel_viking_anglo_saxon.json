@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_viking_anglo_saxon",
+  "statement": "The Viking Age in England (793–954) transformed the political map of the British Isles. Beginning with the Lindisfarne raid (793), Scandinavian raids intensified until the Great Heathen Army's invasion (865–878) conquered all Anglo-Saxon kingdoms except Wessex. Alfred the Great's survival and eventual treaty with Guthrum (878) established the Danelaw; his descendants reconquered it by 954. The second Viking Age brought Cnut the Great (1016–1035) as King of England and creator of the North Sea Empire. The Norman Conquest (1066) — conducted by Norsemen who had assimilated into French culture — was the Vikings' final and most enduring impact on England.",
+  "subject_ids": [
+    "danelaw",
+    "anglo_saxon_heptarchy"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_viking_anglo_saxon",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 878,
+    "to": 878
+  }
+}

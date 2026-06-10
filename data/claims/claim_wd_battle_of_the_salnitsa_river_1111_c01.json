@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_the_salnitsa_river_1111_c01",
+  "statement": "Battle of the Salnitsa river (1111 CE), at Salnitsa (part of Rus'-Cuman wars).",
+  "subject_ids": [
+    "kievan_rus"
+  ],
+  "period": {
+    "from": 1111,
+    "to": 1111
+  },
+  "derived_from": "wd_battle_of_the_salnitsa_river_1111",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "franklin_the_1996",
+      "riasanovsky_a_2000",
+      "martin_medieval_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

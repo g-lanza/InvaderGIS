@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_schwerin_1161",
+  "name": "Schwerin",
+  "importance": "city",
+  "start_year": 1161,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1709"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    11.415,
+    53.6289
+  ]
+}

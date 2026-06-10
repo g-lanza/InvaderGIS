@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "alfonso_i_galicia",
+  "name": "Alfonso I of Galicia",
+  "polity": "kingdom_of_galicia",
+  "title": "ruler",
+  "reign_start": 739,
+  "reign_end": 757,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "kingdom_of_galicia",
+        "role": "ruler",
+        "start_year": 739,
+        "end_year": 757
+      }
+    ],
+    "key_actions": [],
+    "region": "iberia",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

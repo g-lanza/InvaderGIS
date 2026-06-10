@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_lokeren_1452",
+  "name": "Battle of Lokeren",
+  "year": 1452,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    51,
+    3.7
+  ],
+  "entity": "county_of_flanders",
+  "summary": "Battle of Lokeren (1452 CE), at Lokeren (part of Revolt of Ghent). Source: Wikidata Q138219328.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "county_of_flanders"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

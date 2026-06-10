@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "nicephorus_phocas_963",
+  "name": "Nicephorus Phocas Reconquests, Cilicia and Cyprus",
+  "year": 963,
+  "type": "conquest",
+  "category": "violence",
+  "coords": [
+    36.2,
+    36.16
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Emperor Nicephorus II Phocas (r. 963-969) leads a series of brilliant military campaigns that reconquer Cilicia (964-965), Cyprus (965), and finally Antioch (969) from the Hamdanid emirate. The campaigns represent the greatest Byzantine territorial expansion since Justinian and demonstrate that the Macedonian dynasty's military reforms have created a formidable offensive force. Nicephorus is assassinated in 969 by his nephew John Tzimiskes, but the gains are permanent.",
+  "outcomes": [
+    "cilicia_reconquered",
+    "antioch_retaken_969",
+    "byzantine_eastern_expansion_peak"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire"
+    ],
+    "structural_significance": "The reconquest of Antioch (lost since 637) restores Byzantine control over Syria and shifts the military frontier east; these gains create the overextension that the Battle of Manzikert (1071) fatally exposes; the eastern campaigns also exhaust the military treasury and contribute to the civilian-military factional conflict that weakens the Byzantine state in the 11th century",
+    "year_range": [
+      963,
+      969
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

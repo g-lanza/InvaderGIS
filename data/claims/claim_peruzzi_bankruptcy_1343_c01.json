@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_peruzzi_bankruptcy_1343_c01",
+  "statement": "The Peruzzi compagnia of Florence defaulted in 1343 after Edward III of England repudiated his debt.",
+  "subject_ids": [
+    "republic_of_florence"
+  ],
+  "period": {
+    "from": 1343,
+    "to": 1343
+  },
+  "derived_from": "peruzzi_bankruptcy_1343",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lopez_commercial_revolution_1971",
+      "abu_lughod_before_european_hegemony_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

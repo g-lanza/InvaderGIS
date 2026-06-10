@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_the_forest_of_heroes_800",
+  "name": "Battle of the Forest of Heroes",
+  "subtype": "battle",
+  "start_year": 800,
+  "end_year": 800,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2890837"
+    }
+  },
+  "description": "Battle of 800",
+  "coords": [
+    -0.6344,
+    45.7453
+  ]
+}

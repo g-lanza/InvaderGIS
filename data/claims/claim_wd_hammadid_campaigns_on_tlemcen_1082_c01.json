@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_hammadid_campaigns_on_tlemcen_1082_c01",
+  "statement": "Hammadid campaigns on Tlemcen (1082 CE), at Tlemcen Province.",
+  "subject_ids": [
+    "almoravid_emirate_iberia"
+  ],
+  "period": {
+    "from": 1082,
+    "to": 1082
+  },
+  "derived_from": "wd_hammadid_campaigns_on_tlemcen_1082",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_the_2004",
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

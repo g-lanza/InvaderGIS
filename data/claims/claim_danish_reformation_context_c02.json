@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_danish_reformation_context_c02",
+  "statement": "The Stockholm Bloodbath provoked Gustav Vasa's successful Swedish independence revolt, permanently ending the Kalmar Union.",
+  "subject_ids": [
+    "kingdom_of_denmark"
+  ],
+  "period": {
+    "from": 1520,
+    "to": 1520
+  },
+  "derived_from": "danish_reformation_context",
+  "unresolved_sources": [
+    "roesdahl_the_1992"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_medieval_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

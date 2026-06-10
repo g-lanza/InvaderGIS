@@ -1,0 +1,29 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_venice_byzantium",
+  "statement": "Venice held a privileged trading position within the Byzantine Empire from 1082 (Alexios I's Golden Bull granting trading rights) onward, paying no customs duties and operating with greater freedom than Byzantine citizens. The relationship was exploitative: Venetian commercial dominance of Byzantine ports damaged the empire's own merchant class and finances. Byzantine resentment culminated in the 'Massacre of the Latins' (1182), when the mob killed thousands of Venetians and other Latins in Constantinople. The Fourth Crusade's sack of Constantinople (1204) — largely shaped by Venetian interests — was the violent culmination of a century of tension.",
+  "subject_ids": [
+    "republic_of_venice",
+    "byzantine_empire"
+  ],
+  "predicate": "cultural_exchange",
+  "derived_from": "rel_venice_byzantium",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982",
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1081,
+    "to": 1204
+  }
+}

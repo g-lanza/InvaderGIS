@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_vespers_split",
+  "statement": "The Sicilian Vespers (1282) permanently split the Kingdom of Sicily into two distinct states: the island of Sicily under Aragonese rule (Peter III of Aragon, 1282–1285) and the mainland kingdom (Naples) remaining under the Angevins. The split was formalized in the Peace of Caltabellotta (1302), which recognized Frederick III of Sicily as king of the island and Charles II of Naples as king of the mainland. The divided kingdom persisted for over 150 years, with periodic wars (the Wars of the Sicilian Vespers, 1282–1302; the later Angevin-Aragonese conflicts) until the Aragonese-ruled dynasty also acquired Naples (1442).",
+  "subject_ids": [
+    "kingdom_of_naples",
+    "kingdom_of_sicily_aragonese"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_vespers_split",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1282,
+    "to": 1282
+  }
+}

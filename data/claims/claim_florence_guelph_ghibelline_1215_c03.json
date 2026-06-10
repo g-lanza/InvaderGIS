@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_florence_guelph_ghibelline_1215_c03",
+  "statement": "The Guelph victory at Benevento in 1266 established permanent Guelph domination in Florence.",
+  "subject_ids": [
+    "republic_of_florence"
+  ],
+  "period": {
+    "from": 1215,
+    "to": 1215
+  },
+  "derived_from": "florence_guelph_ghibelline_1215",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "najemy_a_2006",
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

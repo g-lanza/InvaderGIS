@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_andalusian_campaign_1133_c02",
+  "statement": "The 1133 Andalusian campaign took place in al-Andalus.",
+  "subject_ids": [
+    "almoravid_emirate_iberia"
+  ],
+  "period": {
+    "from": 1133,
+    "to": 1133
+  },
+  "derived_from": "wd_andalusian_campaign_1133",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_the_2004",
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

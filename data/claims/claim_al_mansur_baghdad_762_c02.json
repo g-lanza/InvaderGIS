@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_al_mansur_baghdad_762_c02",
+  "statement": "Within a generation of its founding, Baghdad became the world's largest city, with population estimates ranging from 500,000 to 1,000,000.",
+  "subject_ids": [
+    "abbasid_caliphate"
+  ],
+  "period": {
+    "from": 762,
+    "to": 762
+  },
+  "derived_from": "al_mansur_baghdad_762",
+  "unresolved_sources": [
+    "kennedy_the_2004",
+    "kennedy_when_2004",
+    "crone_gods_2004"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

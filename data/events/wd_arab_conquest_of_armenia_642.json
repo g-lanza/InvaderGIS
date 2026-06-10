@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_arab_conquest_of_armenia_642",
+  "name": "Arab conquest of Armenia",
+  "year": 642,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    40.5,
+    37.4
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Arab conquest of Armenia (642 CE), at Caucasus (part of Muslim conquests). Source: Wikidata Q3621258.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "khazar_khaganate",
+      "umayyad_caliphate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

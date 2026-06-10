@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_prudnik_1255",
+  "name": "Prudnik",
+  "importance": "city",
+  "start_year": 1255,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q986984"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    17.5792,
+    50.3197
+  ]
+}

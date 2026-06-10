@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_the_hippus_550",
+  "name": "Battle of the Hippus",
+  "year": 550,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    44.245,
+    28.6045
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Battle of the Hippus (550 CE), at Tskhenistsqali (part of Lazic War). Source: Wikidata Q12867265.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "alans"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

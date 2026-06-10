@@ -1,0 +1,113 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "arab_conquest_634_661",
+  "name": "Early Islamic Conquests",
+  "kind_type": "conquest",
+  "year_start": 634,
+  "year_end": 661,
+  "waypoints": [
+    {
+      "year": 634,
+      "place": "Medina",
+      "coords": [
+        24.47,
+        39.61
+      ],
+      "note": "campaigning base"
+    },
+    {
+      "year": 634,
+      "place": "Bosra",
+      "coords": [
+        32.52,
+        36.48
+      ],
+      "note": "first major Byzantine city to fall"
+    },
+    {
+      "year": 636,
+      "place": "Yarmouk",
+      "coords": [
+        32.66,
+        35.85
+      ],
+      "note": "decisive Byzantine defeat"
+    },
+    {
+      "year": 636,
+      "place": "Damascus",
+      "coords": [
+        33.51,
+        36.3
+      ]
+    },
+    {
+      "year": 637,
+      "place": "Jerusalem",
+      "coords": [
+        31.78,
+        35.22
+      ],
+      "note": "Caliph Umar accepts surrender personally"
+    },
+    {
+      "year": 637,
+      "place": "Ctesiphon",
+      "coords": [
+        33.09,
+        44.58
+      ],
+      "note": "Sasanian capital sacked"
+    },
+    {
+      "year": 641,
+      "place": "Alexandria",
+      "coords": [
+        31.2,
+        29.92
+      ],
+      "note": "Byzantine Egypt falls"
+    },
+    {
+      "year": 642,
+      "place": "Nahavand",
+      "coords": [
+        34.19,
+        48.37
+      ],
+      "note": "final shattering of Sasanian field army"
+    },
+    {
+      "year": 643,
+      "place": "Tripoli (Libya)",
+      "coords": [
+        32.89,
+        13.18
+      ]
+    },
+    {
+      "year": 651,
+      "place": "Merv",
+      "coords": [
+        37.66,
+        62.18
+      ],
+      "note": "death of last Sasanian shah; Khurasan secured"
+    },
+    {
+      "year": 661,
+      "place": "Kufa",
+      "coords": [
+        32.03,
+        44.4
+      ],
+      "note": "Umayyad seizure of caliphate ends Rashidun era"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

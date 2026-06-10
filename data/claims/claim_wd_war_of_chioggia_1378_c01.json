@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_war_of_chioggia_1378_c01",
+  "statement": "War of Chioggia (1378 CE), at Mediterranean Sea (part of Venetian–Genoese Wars).",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1378,
+    "to": 1378
+  },
+  "derived_from": "wd_war_of_chioggia_1378",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

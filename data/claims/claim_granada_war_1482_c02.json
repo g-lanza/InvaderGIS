@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_granada_war_1482_c02",
+  "statement": "In the Granada war, Ronda fell in 1485, Loja in 1486, Málaga in 1487, and Baza in 1489.",
+  "subject_ids": [
+    "crown_of_castile"
+  ],
+  "period": {
+    "from": 1482,
+    "to": 1482
+  },
+  "derived_from": "granada_war_1482",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "o'callaghan_a_1975",
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

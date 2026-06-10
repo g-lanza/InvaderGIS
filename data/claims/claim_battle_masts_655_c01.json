@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_battle_masts_655_c01",
+  "statement": "An Arab fleet under Muawiya's admiral destroyed the Byzantine fleet at the Battle of the Masts off the Lycian coast around 655, the first major Arab naval victory.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 655,
+    "to": 655
+  },
+  "derived_from": "battle_masts_655",
+  "unresolved_sources": [
+    "treadgold_a_1997",
+    "kazhdan_the_1991"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "haldon_byzantium_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

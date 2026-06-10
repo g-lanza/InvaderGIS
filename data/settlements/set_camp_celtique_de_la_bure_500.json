@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_camp_celtique_de_la_bure_500",
+  "name": "Camp celtique de la Bure",
+  "importance": "city",
+  "start_year": 500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "inferred",
+    "external_ids": {
+      "pleiades": "133577441"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    6.94,
+    48.3268
+  ]
+}

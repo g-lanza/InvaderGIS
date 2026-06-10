@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "yijing_pilgrimage_695",
+  "name": "Yijing returns from his Indian Ocean pilgrimage",
+  "year": 695,
+  "type": "exploration",
+  "category": "discovery",
+  "coords": [
+    34.3416,
+    108.9398
+  ],
+  "entity": "tang_dynasty",
+  "summary": "Tang Buddhist monk Yijing (635–713) completes a 24-year journey to India by the southern sea route via Srivijaya (Sumatra), in contrast to Xuanzang's overland route. Spends a decade at Nalanda; returns with 400 Sanskrit texts via Srivijaya, where he writes his record of Mahayana monastic discipline in the Indian Ocean world.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "tang_dynasty",
+      "srivijaya_empire"
+    ],
+    "structural_significance": "Documents the central importance of Srivijaya (Palembang) as the Buddhist learning hub of the maritime Silk Road in the late 7th century; first systematic Chinese-language account of monastic life in late-Gupta-successor India.",
+    "year_range": [
+      671,
+      695
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "twitchett_cambridge_history_china_v3_1979",
+      "hall_history_southeast_asia_2011"
+    ],
+    "confidence": "low"
+  }
+}

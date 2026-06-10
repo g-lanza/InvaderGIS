@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "magnus_lagaboter_law_1274",
+  "name": "Magnus Lagabøte's Law, Norway's National Legal Code",
+  "year": 1274,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    59.91,
+    10.75
+  ],
+  "entity": "kingdom_of_norway",
+  "summary": "King Magnus VI of Norway (called Lagabøte, 'Law-Mender') issues the Landslov, a unified national legal code replacing the regional thing laws. The Landslov codifies property rights, criminal law, and legal procedure for the entire kingdom. Combined with the Treaty of Perth (1266), by which Norway sells the Hebrides and Man to Scotland, Magnus reshapes the Norwegian kingdom's boundaries and internal governance.",
+  "outcomes": [
+    "national_legal_code_issued",
+    "regional_laws_unified",
+    "norwegian_state_centralized"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_norway"
+    ],
+    "structural_significance": "The Landslov is one of the earliest comprehensive national legal codes in medieval Europe; it demonstrates that Scandinavian kingdoms could achieve legal centralization comparable to the English common law or French royal ordinances; the accompanying territorial contraction (selling the western isles) reflects Norway's economic limitations relative to its ambitions",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_the_1997",
+      "helle_the_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

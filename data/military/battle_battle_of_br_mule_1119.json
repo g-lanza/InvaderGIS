@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_br_mule_1119",
+  "name": "Battle of Brémule",
+  "subtype": "battle",
+  "start_year": 1119,
+  "end_year": 1119,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1516439"
+    }
+  },
+  "description": "Battle during Anglo-French War (1119)",
+  "coords": [
+    1.4058,
+    49.3433
+  ]
+}

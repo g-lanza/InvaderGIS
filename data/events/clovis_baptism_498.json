@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "clovis_baptism_498",
+  "name": "Clovis I's Baptism and Frankish Catholicism",
+  "year": 498,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    49.26,
+    4.03
+  ],
+  "entity": "merovingian_kingdom",
+  "summary": "Clovis I, king of the Franks, is baptized as a Catholic Christian by Bishop Remigius of Reims, probably on Christmas Day 498, though the precise year is debated. Unlike the Arian Visigoths, Ostrogoths, and Burgundians, Clovis adopts the Nicene Catholic faith favored by the Roman population and the papacy. His conversion is reportedly influenced by his Burgundian wife Clotilde and by a battlefield vow at the Battle of Tolbiac.",
+  "outcomes": [
+    "franks_become_catholic",
+    "pope_alliance_formed",
+    "catholic_church_gains_frankish_protector"
+  ],
+  "_quarry": {
+    "participants": [
+      "merovingian_kingdom"
+    ],
+    "structural_significance": "Catholic conversion makes the Franks the papacy's natural military partner; the alliance between the Frankish kingdom and Rome is the foundation of medieval Western Christendom; Clovis's orthodoxy gives him a legitimizing advantage over the Arian German kingdoms, justifying his wars against Visigoths (507) and Burgundians as quasi-religious conflicts",
+    "year_range": [
+      496,
+      498
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wood_the_1994",
+      "geary_before_1988"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

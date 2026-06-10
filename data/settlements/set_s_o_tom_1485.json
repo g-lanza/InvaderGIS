@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_s_o_tom_1485",
+  "name": "São Tomé",
+  "importance": "city",
+  "start_year": 1485,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q3932"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    6.7283,
+    0.3375
+  ]
+}

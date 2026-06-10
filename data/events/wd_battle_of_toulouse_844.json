@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_toulouse_844",
+  "name": "Battle of Toulouse",
+  "year": 844,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    50,
+    10.5
+  ],
+  "entity": "east_francia",
+  "summary": "Battle of Toulouse (844 CE). Source: Wikidata Q25340547.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "east_francia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "hajj_pilgrimage_institution",
+  "name": "The Hajj, Islamic Annual Pilgrimage Institutionalized",
+  "year": 632,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    21.42,
+    39.82
+  ],
+  "entity": "umayyad_caliphate",
+  "summary": "Muhammad's final pilgrimage (632) and the subsequent institutionalization of the hajj as one of the Five Pillars creates an annual gathering at Mecca that draws Muslims from across the expanding Islamic world. The hajj functions simultaneously as religious obligation, information network, and diplomatic opportunity, news, goods, and ideas circulate among pilgrims from Spain to Central Asia; rulers demonstrate legitimacy by facilitating hajj access.",
+  "outcomes": [
+    "mecca_central_islamic_practice",
+    "annual_gathering_creates_unity",
+    "hajj_diplomacy_functions"
+  ],
+  "_quarry": {
+    "participants": [
+      "umayyad_caliphate",
+      "abbasid_caliphate"
+    ],
+    "structural_significance": "The hajj is the world's earliest and most persistent example of mass international travel; Mansa Musa's 1324 hajj (with his gold-laden caravan) illustrates its diplomatic dimension; the pilgrim traffic creates the routes that carry goods, diseases, and ideas across the Islamic world; control of Mecca and the hajj routes is central to Islamic political legitimacy, the Wahhabi movement (18th century) and later Saudi state gain Islamic authority primarily through Mecca control",
+    "year_range": [
+      622,
+      750
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_the_2004",
+      "hawting_the_2000",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

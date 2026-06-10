@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_third_siege_of_pontevico_1453_c01",
+  "statement": "Third Siege of Pontevico (1453 CE), at Pontevico (part of Wars in Lombardy).",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1453,
+    "to": 1453
+  },
+  "derived_from": "wd_third_siege_of_pontevico_1453",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_wadi_al_khaznadar_1299",
+  "name": "Battle of Wadi al-Khaznadar",
+  "subtype": "battle",
+  "start_year": 1299,
+  "end_year": 1299,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2290814"
+    }
+  },
+  "description": "Battle during Mongol invasions of the Levant (1299)",
+  "coords": [
+    36.7156,
+    34.7368
+  ]
+}

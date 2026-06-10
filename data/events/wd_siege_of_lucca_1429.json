@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_lucca_1429",
+  "name": "Siege of Lucca",
+  "year": 1429,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    44.65,
+    10.2
+  ],
+  "entity": "republic_of_florence",
+  "summary": "Siege of Lucca (1429 CE), at Lucca (part of Wars in Lombardy). Source: Wikidata Q24935142.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_florence",
+      "duchy_of_milan"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "najemy_a_2006",
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

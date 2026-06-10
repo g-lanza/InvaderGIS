@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_mann_scotland",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_mann_isles",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "kingdom_of_scotland",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 900,
+  "until": 900,
+  "note": "The Treaty of Perth (1266) transferred the Kingdom of the Isles (including the Isle of Man and the Hebrides) from Norway to Scotland following the Battle of Largs (1263), where a Norwegian fleet under King Haakon IV Haakonsson was repulsed. The transfer was secured for 4,000 marks and an annual payment of 100 marks. The Lordship of the Isles, created from the former kingdom, maintained a semi-autonomous Gaelic culture within the Scottish framework, with MacDonald lords operating almost independently of the Scottish crown until the title was forfeited in 1493.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Treaty of Perth completes Scottish territorial consolidation in the west; the Lordship of the Isles maintains Gaelic cultural distinctiveness for another 200 years; the forfeiture of the Lordship (1493) extends Scottish royal authority to the Atlantic fringe"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "barrell_medieval_2000",
+      "brown_the_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

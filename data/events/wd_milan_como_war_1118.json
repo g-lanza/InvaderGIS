@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_milan_como_war_1118",
+  "name": "Milan Como War",
+  "year": 1118,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    45.5,
+    9.2
+  ],
+  "entity": "commune_of_milan",
+  "summary": "Milan Como War (1118 CE), at Brianza. Source: Wikidata Q3778604.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "commune_of_milan"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

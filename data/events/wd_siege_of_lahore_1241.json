@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_lahore_1241",
+  "name": "Siege of Lahore",
+  "year": 1241,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    37.9,
+    90
+  ],
+  "entity": "mongol_empire",
+  "summary": "Siege of Lahore (1241 CE), at Lahore (part of Mongol invasions of India). Source: Wikidata Q136458748.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "mongol_empire",
+      "delhi_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

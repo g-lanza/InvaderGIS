@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_pero_covilha_india_1488_c01",
+  "statement": "Portuguese agent Pero da Covilhã, sent overland by João II in 1487, reached Cairo, Aden, Calicut, and the East African Swahili coast.",
+  "subject_ids": [
+    "kingdom_of_portugal"
+  ],
+  "period": {
+    "from": 1488,
+    "to": 1488
+  },
+  "derived_from": "pero_covilha_india_1488",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "bartlett_making_of_europe_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

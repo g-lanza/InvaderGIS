@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "boniface_tuscany",
+  "name": "Boniface of Tuscany",
+  "polity": "duchy_of_tuscany",
+  "title": "dynastic_founder",
+  "reign_start": 1052,
+  "reign_end": null,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "duchy_of_tuscany",
+        "role": "dynastic_founder",
+        "start_year": 1052,
+        "end_year": null
+      }
+    ],
+    "key_actions": [],
+    "region": "italy",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

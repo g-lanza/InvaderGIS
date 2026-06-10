@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_burgundy",
+  "name": "Dijon",
+  "entity_id": "duchy_of_burgundy",
+  "entity_name": "Duchy of Burgundy (Valois)",
+  "start_year": 1363,
+  "end_year": 1477,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q4712"
+    }
+  },
+  "coords": [
+    5.04194,
+    47.32306
+  ]
+}

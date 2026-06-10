@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_vologda_1147",
+  "name": "Vologda",
+  "importance": "city",
+  "start_year": 1147,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1957"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    39.9,
+    59.2167
+  ]
+}

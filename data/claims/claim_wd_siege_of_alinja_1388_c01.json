@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_alinja_1388_c01",
+  "statement": "Siege of Alinja (1388 CE), at Alinja Tower (part of Timurid conquests and invasions).",
+  "subject_ids": [
+    "timurid_empire"
+  ],
+  "period": {
+    "from": 1388,
+    "to": 1388
+  },
+  "derived_from": "wd_siege_of_alinja_1388",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "manz_the_1989",
+      "lentz_timur_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

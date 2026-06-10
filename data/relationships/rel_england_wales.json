@@ -1,0 +1,39 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_england_wales",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_england",
+      "role": "suzerain"
+    },
+    {
+      "entity_id": "principality_of_wales",
+      "role": "vassal"
+    }
+  ],
+  "directed": true,
+  "type": "vassalage",
+  "since": 1216,
+  "until": 1283,
+  "note": "English kings asserted overlordship over the Welsh kingdoms from the Norman Conquest onward, with Marcher Lords gradually pushing into Welsh territory. Llywelyn ap Gruffudd (Llywelyn the Last) achieved recognition as Prince of Wales by the Treaty of Montgomery (1267) but rebelled and was killed (1282). Edward I's Statute of Rhuddlan (1284) imposed English shires on Wales and built the most sophisticated castle-building program in Britain (Caernarfon, Conwy, Harlech, Beaumaris). The native Welsh principality was extinguished but Welsh law, language, and culture survived under English administration.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The conquest of Wales demonstrates Edward I's systematic approach to extending royal authority — combining military force with administrative reorganization; Welsh cultural distinctiveness survives 700 years of English rule; the castle-building program remains one of the finest examples of medieval military architecture"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

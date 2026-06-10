@@ -1,0 +1,42 @@
+{
+  "kind": "institution",
+  "dataset": "medieval-europe-500-1500",
+  "id": "teutonic_order",
+  "name_primary": "Teutonic Order",
+  "domain": "military_order",
+  "formed": 1190,
+  "dissolved": 1500,
+  "_quarry": {
+    "key_developments": [
+      {
+        "year": 1190,
+        "event": "Founded as a hospital fraternity at the siege of Acre."
+      },
+      {
+        "year": 1226,
+        "event": "Conrad of Masovia invites the order to the Baltic; Golden Bull of Rimini grants Prussia."
+      },
+      {
+        "year": 1283,
+        "event": "Conquest of Prussia complete; Prussian Crusade ends."
+      },
+      {
+        "year": 1410,
+        "event": "Battle of Grunwald — catastrophic defeat by Poland-Lithuania."
+      },
+      {
+        "year": 1466,
+        "event": "Second Peace of Thorn; western Prussia ceded to Poland, order becomes a Polish vassal in the east."
+      }
+    ],
+    "influences_entities": [
+      "holy_roman_empire"
+    ],
+    "description": "A German military order founded at Acre in 1190 during the Third Crusade. Failing to establish a lasting Levantine presence, the order pivoted to the Baltic in 1226 at the invitation of Conrad of Masovia, conquering Old Prussia in a 53-year crusade (1230–1283) and ruling a sovereign monastic state in Prussia and Livonia until catastrophic defeat at Grunwald (1410) and the Second Peace of Thorn (1466)."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_abergavenny_castle_1233",
+  "name": "Battle of Abergavenny Castle",
+  "subtype": "battle",
+  "start_year": 1233,
+  "end_year": 1233,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q61348110"
+    }
+  },
+  "description": "Battle during Norman Invasion of Wales (1233)",
+  "coords": [
+    -3.0176,
+    51.82
+  ]
+}

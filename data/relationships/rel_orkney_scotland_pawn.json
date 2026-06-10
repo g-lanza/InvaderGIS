@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_orkney_scotland_pawn",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "earldom_of_orkney",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "kingdom_of_scotland",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 1468,
+  "until": 1468,
+  "note": "The Orkney and Shetland Islands — Norwegian possessions since Viking settlement in the 9th century — were pawned to Scotland in 1468–1469 by King Christian I of Denmark-Norway as security for his daughter Margaret's dowry (for her marriage to King James III of Scotland). The pledge was never redeemed; Scotland absorbed the islands permanently. The transfer completed Scotland's territorial consolidation of the northern isles and ended Norwegian dominion over the Hebrides-Orkney region that the Treaty of Perth (1266) had begun. Shetland and Orkney retained Norse customary law (Udal law) for centuries.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The pawning of Orkney and Shetland to Scotland through Christian I's inability to pay his daughter's dowry completes Scotland's territorial consolidation of the northern islands; Orkney and Shetland's Norse customary law (Udal tenure) persists for centuries, demonstrating how legal traditions outlast political sovereignty"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "barrell_medieval_2000",
+      "brown_the_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

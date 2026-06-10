@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_latin_empire_constantinople_to_duchy_of_naxos_fragmentation",
+  "statement": "Derived from predecessor/successor links recorded in the latin_empire_constantinople and duchy_of_naxos entity records. Transition anchored to duchy_of_naxos start_year.",
+  "subject_ids": [
+    "latin_empire_constantinople",
+    "duchy_of_naxos"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_latin_empire_constantinople_to_duchy_of_naxos_fragmentation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "duchy_of_naxos"
+  ],
+  "period": {
+    "from": 1207,
+    "to": 1207
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_helsingborg_1368_c01",
+  "statement": "Siege of Helsingborg (1368 CE), at Helsingborg (part of Danish-Hanseatic War of 1361-1370).",
+  "subject_ids": [
+    "kingdom_of_sweden"
+  ],
+  "period": {
+    "from": 1368,
+    "to": 1368
+  },
+  "derived_from": "wd_siege_of_helsingborg_1368",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_medieval_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

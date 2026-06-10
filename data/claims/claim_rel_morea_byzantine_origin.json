@@ -1,0 +1,32 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_morea_byzantine_origin",
+  "statement": "The Despotate of the Morea was established by Emperor Michael VIII Palaiologos after the Byzantine restoration (1261) as a province governed by imperial princes (often sons of the emperor). From its initial base at Mystras, the Despotate gradually expanded to reclaim the Peloponnese from the Crusader Principality of Achaea. The Despotate became the most culturally vibrant part of the late Byzantine Empire: the Mystras court under the Palaiologos family hosted humanist scholars (Gemistos Plethon, George Scholarios) whose ideas influenced the Italian Renaissance. The Ottomans conquered it in 1460.",
+  "subject_ids": [
+    "byzantine_empire",
+    "despotate_of_the_morea"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_morea_byzantine_origin",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "despotate_of_the_morea"
+  ],
+  "period": {
+    "from": 1349,
+    "to": 1349
+  }
+}

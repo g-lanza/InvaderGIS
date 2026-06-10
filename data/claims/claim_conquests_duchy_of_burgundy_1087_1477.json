@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_duchy_of_burgundy_1087_1477",
+  "statement": "Duchy of Burgundy (Valois) — campaigns and battles spanned 1087–1477, from Siege of Tudela to Battle of Nancy.",
+  "subject_ids": [
+    "duchy_of_burgundy"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_duchy_of_burgundy_1087_1477",
+  "period": {
+    "from": 1087,
+    "to": 1477
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

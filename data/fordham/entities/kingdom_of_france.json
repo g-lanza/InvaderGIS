@@ -1,0 +1,17 @@
+{
+ "kind": "polity",
+ "id": "kingdom_of_france",
+ "name": "Kingdom of France",
+ "type": "kingdom",
+ "formed": 987,
+ "dissolved": 1870,
+ "provenance": {
+  "sources_used": [
+   "fordham:sbookmap"
+  ],
+  "confidence": "high",
+  "attestation": "multiple maps showing French royal domain growth 1182-1350 and various centuries"
+ },
+ "dataset": "fordham-medieval-sourcebook",
+ "_fordham_index": "sbookmap"
+}

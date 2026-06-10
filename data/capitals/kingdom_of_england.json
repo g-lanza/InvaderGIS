@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_england",
+  "name": "London",
+  "entity_id": "kingdom_of_england",
+  "entity_name": "Kingdom of England",
+  "start_year": 927,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q179876"
+    }
+  },
+  "coords": [
+    -0.1275,
+    51.50722
+  ]
+}

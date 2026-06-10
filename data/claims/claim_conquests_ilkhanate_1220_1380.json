@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_ilkhanate_1220_1380",
+  "statement": "Ilkhanate — campaigns and battles spanned 1220–1380, from Mongol Conquest of Persia to Timur (Tamerlane) — Rebuilder of Mongol Power.",
+  "subject_ids": [
+    "ilkhanate"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_ilkhanate_1220_1380",
+  "period": {
+    "from": 1220,
+    "to": 1380
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "jackson_the_2005",
+      "amitai-preiss_mongols_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

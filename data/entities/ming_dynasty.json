@@ -1,0 +1,160 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ming_dynasty",
+  "name_primary": "Ming Dynasty",
+  "name_variants": [
+    "Great Ming",
+    "大明"
+  ],
+  "type": "dynasty",
+  "region": "east_asia",
+  "formed": 1368,
+  "dissolved": 1644,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    34,
+    110
+  ],
+  "population_estimates": [
+    {
+      "year": 1400,
+      "estimate": 65000000,
+      "confidence": "low",
+      "note": "Hongwu-era census figures are widely held to undercount; estimates range from 60 to 75 million."
+    },
+    {
+      "year": 1500,
+      "estimate": 110000000,
+      "confidence": "low",
+      "note": "Mid-Ming demographic peak before the late-Ming late-16th century surge."
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Han Chinese dynasty (1368–1644) founded when Zhu Yuanzhang (Hongwu Emperor) drove the Yuan Mongols out of Khanbaliq and reclaimed the imperial throne for an ethnically Chinese ruling house; the early Ming consolidated under Hongwu's reorganisation of the bureaucracy and the Yongle Emperor's relocation of the capital to Beijing, his construction of the Forbidden City, his rebuilding of the Great Wall in its modern stone form, and his sponsorship of Zheng He's seven maritime expeditions (1405–1433); within the atlas's 1500 horizon the dynasty is at its mid-period institutional peak, with the civil-service examination system, Neo-Confucian orthodoxy, porcelain export industry, and a population approaching 110 million all defining a recognisably early-modern Chinese state.",
+  "temporal": {
+    "start_year": 1368,
+    "end_year": 1644,
+    "end_year_within_scope": 1500,
+    "notes": "Founded by Zhu Yuanzhang (Hongwu Emperor) after overthrowing the Yuan; ruled China to 1644, beyond the atlas's 1500 horizon."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      34,
+      110
+    ],
+    "core_regions": [
+      "east_asia"
+    ],
+    "capital": {
+      "name": "Beijing",
+      "coords": [
+        39.9042,
+        116.4074
+      ],
+      "source": "wikidata"
+    }
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "foundation",
+      "years": "1368–1398",
+      "description": "Hongwu Emperor expels the Yuan from Khanbaliq, restores Han rule, rebuilds the civil service examination system, reorganises the army into hereditary military households (weisuo)."
+    },
+    {
+      "phase": "imperial_apogee",
+      "years": "1402–1424",
+      "description": "Yongle Emperor moves the capital from Nanjing to Beijing, builds the Forbidden City, restores the Grand Canal, commissions Zheng He's treasure voyages to the Indian Ocean, and rebuilds the Great Wall in stone."
+    },
+    {
+      "phase": "consolidation",
+      "years": "1424–1500",
+      "description": "Post-Yongle retrenchment: maritime expeditions cancelled (1433), inward-looking Confucian bureaucracy stabilises into a long mid-period; population and economy continue to grow."
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Hongwu Emperor (Zhu Yuanzhang)",
+      "role": "emperor",
+      "years": "1368–1398",
+      "year_start": 1368,
+      "year_end": 1398
+    },
+    {
+      "name": "Yongle Emperor (Zhu Di)",
+      "role": "emperor",
+      "years": "1402–1424",
+      "year_start": 1402,
+      "year_end": 1424
+    },
+    {
+      "name": "Zheng He",
+      "role": "admiral",
+      "years": "1405–1433",
+      "year_start": 1405,
+      "year_end": 1433
+    },
+    {
+      "name": "Xuande Emperor (Zhu Zhanji)",
+      "role": "emperor",
+      "years": "1425–1435",
+      "year_start": 1425,
+      "year_end": 1435
+    }
+  ],
+  "predecessor_entity_ids": [
+    "yuan_dynasty"
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "porcelain",
+      "silk_production",
+      "maritime_trade",
+      "manufacturing"
+    ],
+    "wealth_level": "very_high",
+    "major_exports": [
+      "porcelain",
+      "silk",
+      "tea",
+      "lacquerware"
+    ],
+    "major_trade_partners": [
+      "muromachi_shogunate",
+      "annam",
+      "srivijaya_empire",
+      "champa"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "commercial_taxes",
+      "salt_monopoly",
+      "tribute"
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q9903",
+    "matched_name": "manual/ming_dynasty",
+    "enrichment_date": "2026-05-24",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ming_dynasty",
+    "capital": {
+      "name": "Beijing",
+      "coords": [
+        39.9042,
+        116.4074
+      ]
+    },
+    "predecessors_from_wikidata": [
+      "Yuan dynasty"
+    ]
+  },
+  "monogram": "MD"
+}

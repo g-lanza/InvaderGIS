@@ -1,0 +1,451 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "shirvan",
+  "name_primary": "Shirvan",
+  "name_variants": [],
+  "type": "kingdom",
+  "region": "caucasus",
+  "formed": 1000,
+  "dissolved": 1100,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    40.383,
+    48.973
+  ],
+  "population_estimates": [
+    {
+      "year": 900,
+      "estimate": 300000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q638064",
+          "url": "https://www.wikidata.org/wiki/Q638064",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Shirvan",
+          "url": "https://en.wikipedia.org/wiki/Shirvan"
+        }
+      ]
+    },
+    {
+      "year": 1050,
+      "estimate": 400000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q638064",
+          "url": "https://www.wikidata.org/wiki/Q638064",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Shirvan",
+          "url": "https://en.wikipedia.org/wiki/Shirvan"
+        }
+      ]
+    },
+    {
+      "year": 1200,
+      "estimate": 500000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q638064",
+          "url": "https://www.wikidata.org/wiki/Q638064",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Shirvan",
+          "url": "https://en.wikipedia.org/wiki/Shirvan"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Azerbaijani principality (c. 800–1538) governed by the Shirvanshah dynasty on the western Caspian coast; Shirvan's strategic position between Caucasian kingdoms, Mongol Il-Khanate, and Timurid empires required constant diplomatic maneuvering, while the Shirvanshah court at Shamakhi patronised Persian-language poetry, Nizami Ganjavi worked in the adjacent Arran region, and maintained the Zoroastrian fire temple tradition alongside Islam.",
+  "temporal": {
+    "start_year": 1000,
+    "end_year": 1100,
+    "notes": "Stub: dates from GeoJSON basemap years 1000–1100"
+  },
+  "geographic": {
+    "centroid": [
+      40.383,
+      48.973
+    ],
+    "polygon_simplified": [
+      [
+        [
+          41.1791,
+          47.8493
+        ],
+        [
+          41.1677,
+          47.8779
+        ],
+        [
+          40.5039,
+          49.5404
+        ],
+        [
+          40.659,
+          49.6585
+        ],
+        [
+          40.5807,
+          49.8073
+        ],
+        [
+          40.602,
+          50.0201
+        ],
+        [
+          40.5701,
+          50.1902
+        ],
+        [
+          40.4956,
+          50.3179
+        ],
+        [
+          40.4105,
+          50.4243
+        ],
+        [
+          40.3254,
+          50.4668
+        ],
+        [
+          40.2616,
+          50.4668
+        ],
+        [
+          40.3254,
+          50.3073
+        ],
+        [
+          40.3467,
+          50.1264
+        ],
+        [
+          40.3467,
+          50.0307
+        ],
+        [
+          40.3254,
+          49.9137
+        ],
+        [
+          40.2722,
+          49.8499
+        ],
+        [
+          40.2403,
+          49.669
+        ],
+        [
+          40.1765,
+          49.5733
+        ],
+        [
+          40.0914,
+          49.552
+        ],
+        [
+          39.8786,
+          49.5414
+        ],
+        [
+          39.7616,
+          49.4882
+        ],
+        [
+          39.6553,
+          49.4456
+        ],
+        [
+          39.4867,
+          49.4035
+        ],
+        [
+          39.4782,
+          49.0746
+        ],
+        [
+          39.8031,
+          48.9516
+        ],
+        [
+          39.954,
+          48.8945
+        ],
+        [
+          40.0619,
+          48.5343
+        ],
+        [
+          39.9666,
+          48.3732
+        ],
+        [
+          39.9461,
+          48.3387
+        ],
+        [
+          40.0709,
+          48.0802
+        ],
+        [
+          40.847,
+          46.8738
+        ],
+        [
+          40.856,
+          46.8725
+        ],
+        [
+          40.795,
+          47.0311
+        ],
+        [
+          40.8098,
+          47.1368
+        ],
+        [
+          40.9353,
+          46.8612
+        ],
+        [
+          41.0214,
+          46.8489
+        ],
+        [
+          41.1627,
+          47.745
+        ],
+        [
+          41.1791,
+          47.8493
+        ]
+      ]
+    ],
+    "capital": {
+      "name": "Shamakhi",
+      "coords": [
+        40.63,
+        48.65
+      ],
+      "source": "curated"
+    }
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "early_shirvanshahs",
+      "years": "799-1100",
+      "description": "Mazyadid Shirvanshahs established the dynasty in Azerbaijan; nominal Abbasid vassals with practical autonomy.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q638064",
+          "url": "https://www.wikidata.org/wiki/Q638064"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Shirvan",
+          "url": "https://en.wikipedia.org/wiki/Shirvan"
+        }
+      ]
+    },
+    {
+      "phase": "peak",
+      "years": "1100-1225",
+      "description": "Medieval Shirvan flourished as a cultural centre; Azerbaijani poet Nizami Ganjavi worked in Ganja nearby.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q638064",
+          "url": "https://www.wikidata.org/wiki/Q638064"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Shirvan",
+          "url": "https://en.wikipedia.org/wiki/Shirvan"
+        }
+      ]
+    },
+    {
+      "phase": "mongol_subordination",
+      "years": "1225-1500",
+      "description": "Mongol conquest made Shirvan a subordinate state; dynasty survived as Mongol vassals and later under Ilkhanate.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q638064",
+          "url": "https://www.wikidata.org/wiki/Q638064"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Shirvan",
+          "url": "https://en.wikipedia.org/wiki/Shirvan"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "caucasus_position",
+      "layer": "geography_territory",
+      "description": "Shirvan's position between the Caspian Sea and Caucasus mountains made it a natural commercial crossroads.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q638064",
+          "url": "https://www.wikidata.org/wiki/Q638064"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Shirvan",
+          "url": "https://en.wikipedia.org/wiki/Shirvan"
+        }
+      ]
+    },
+    {
+      "tag": "silk_production",
+      "layer": "economic_commercial",
+      "description": "Shirvan silk was among the most prized in the Islamic world; trade enriched the dynasty.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q638064",
+          "url": "https://www.wikidata.org/wiki/Q638064"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Shirvan",
+          "url": "https://en.wikipedia.org/wiki/Shirvan"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "mongol_vassalage",
+      "layer": "external_political",
+      "description": "After 1225 the Shirvanshahs never regained full sovereignty, paying tribute to successive Mongol successor states.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q638064",
+          "url": "https://www.wikidata.org/wiki/Q638064"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Shirvan",
+          "url": "https://en.wikipedia.org/wiki/Shirvan"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Yezid ibn Mazyad Shaybani",
+      "role": "governor_founder",
+      "years": "799–801",
+      "year_start": 799,
+      "year_end": 801,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Yezid ibn Mazyad Shaybani",
+          "url": "https://en.wikipedia.org/wiki/Yezid_ibn_Mazyad_Shaybani"
+        }
+      ]
+    },
+    {
+      "name": "Akhsitan I",
+      "role": "ruler",
+      "years": "1160–1196",
+      "year_start": 1160,
+      "year_end": 1196,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Akhsitan I",
+          "url": "https://en.wikipedia.org/wiki/Akhsitan_I"
+        }
+      ]
+    },
+    {
+      "name": "Farrukh Yasar",
+      "role": "ruler",
+      "years": "1462–1500",
+      "year_start": 1462,
+      "year_end": 1500,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Farrukh Yasar",
+          "url": "https://en.wikipedia.org/wiki/Farrukh_Yasar"
+        }
+      ]
+    }
+  ],
+  "economic": {
+    "primary_base": "long_distance_trade",
+    "secondary_bases": [
+      "silk_production",
+      "agriculture",
+      "fishing"
+    ],
+    "wealth_level": "high",
+    "major_exports": [
+      "silk",
+      "cotton",
+      "fish",
+      "saffron"
+    ],
+    "major_trade_partners": [
+      "abbasid_caliphate",
+      "kingdom_of_georgia",
+      "ilkhanate"
+    ],
+    "revenue_sources": [
+      "silk_trade_duties",
+      "land_tax",
+      "caspian_fishing_tax"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q638064",
+        "url": "https://www.wikidata.org/wiki/Q638064"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Shirvan",
+        "url": "https://en.wikipedia.org/wiki/Shirvan"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q638064",
+    "matched_name": "Shirvan",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Shirvan"
+  },
+  "monogram": "SH"
+}

@@ -1,0 +1,53 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ferdowsi",
+  "name": "Abuʾl-Qāsim Ferdowsī Ṭūsī",
+  "polity": "ghaznavid_emirate",
+  "title": "court_poet",
+  "reign_start": 999,
+  "reign_end": 1010,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 940,
+      "death_year": 1020
+    },
+    "entity_associations": [
+      {
+        "entity_id": "ghaznavid_emirate",
+        "role": "court_poet",
+        "start_year": 999,
+        "end_year": 1010
+      }
+    ],
+    "key_actions": [
+      {
+        "year": 977,
+        "summary": "Begins composing the Shāhnāma ('Book of Kings'), drawing on the Sasanian-era Khvatāynāmag tradition and oral epic recensions.",
+        "source_id": "hodgson_venture_of_islam_1974"
+      },
+      {
+        "year": 1010,
+        "summary": "Completes the Shāhnāma — ~60,000 couplets covering Iranian mythical, heroic, and historical eras down to the Arab conquest. Dedicates the work to Mahmud of Ghazni.",
+        "source_id": "hodgson_venture_of_islam_1974"
+      },
+      {
+        "year": 1020,
+        "summary": "Dies at Tus. The Shāhnāma becomes the foundational text of New Persian as a literary language across the Persianate world, from Ottoman Anatolia to Mughal India.",
+        "source_id": "hodgson_venture_of_islam_1974"
+      }
+    ],
+    "region": "central_asia",
+    "name_variants": [
+      "Ferdowsi",
+      "Firdausi"
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "hodgson_venture_of_islam_1974"
+    ],
+    "confidence": "low"
+  }
+}

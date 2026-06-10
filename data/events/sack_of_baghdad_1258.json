@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "sack_of_baghdad_1258",
+  "name": "Sack of Baghdad",
+  "year": 1258,
+  "type": "dissolution_event",
+  "category": "power",
+  "coords": [
+    33.3,
+    44.4
+  ],
+  "entity": "mongol_empire",
+  "summary": "Hulagu Khan's Mongol army sacks Baghdad over thirteen days in February 1258. The last Abbasid Caliph al-Musta'sim is executed (wrapped in a carpet and trampled by horses, according to tradition, to avoid shedding royal blood). The House of Wisdom, the greatest library in the medieval world, is destroyed; eyewitnesses describe the Tigris running black with ink. The event marks the definitive end of the Islamic Golden Age and is considered one of the most catastrophic in Islamic history.",
+  "outcomes": [
+    "abbasid_caliphate_ended",
+    "house_of_wisdom_destroyed",
+    "mesopotamian_irrigation_devastated"
+  ],
+  "_quarry": {
+    "participants": [
+      "mongol_empire",
+      "ilkhanate",
+      "abbasid_caliphate"
+    ],
+    "structural_significance": "End of the Abbasid Caliphate (750–1258); destruction of Baghdad as a political and cultural center; Mamluks install a shadow Abbasid caliph in Cairo",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

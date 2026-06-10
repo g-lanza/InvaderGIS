@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_friso_hollandic_wars_1256",
+  "name": "Friso-Hollandic Wars",
+  "year": 1256,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    50,
+    10.5
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Friso-Hollandic Wars (1256 CE), at Netherlands. Source: Wikidata Q3312857.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

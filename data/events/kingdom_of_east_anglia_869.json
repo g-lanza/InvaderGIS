@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_east_anglia_869",
+  "name": "Death of Edmund, King of East Anglia",
+  "year": 869,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    52.45,
+    1
+  ],
+  "entity": "kingdom_of_east_anglia",
+  "summary": "King Edmund of East Anglia was killed by the Danish Great Heathen Army in 869 CE after refusing to renounce Christianity or share his kingdom. Venerated as a martyr (St Edmund), his death symbolised East Anglia's conquest by the Vikings. The kingdom was subsequently absorbed into the Danelaw.",
+  "outcomes": [
+    "king_martyred",
+    "great_heathen_army",
+    "east_anglia_falls"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_east_anglia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

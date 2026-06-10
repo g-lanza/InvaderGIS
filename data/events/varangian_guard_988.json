@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "varangian_guard_988",
+  "name": "Varangian Guard Founded, Norse Mercenaries Serve Byzantium",
+  "year": 988,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.01,
+    28.97
+  ],
+  "entity": "kievan_rus",
+  "summary": "Basil II receives 6,000 Norse Varangian warriors from Vladimir I of Kiev as part of a marriage alliance (Vladimir receives Basil's sister Anna). These warriors form the Varangian Guard, an elite mercenary regiment that serves Byzantine emperors for centuries. The guard includes Norse, English (after 1066), and eventually other northern peoples. They fight at Chrysopolis, in Bulgaria, and throughout the empire.",
+  "outcomes": [
+    "norse_guard_established",
+    "basil_ii_military_asset",
+    "cultural_exchange"
+  ],
+  "_quarry": {
+    "participants": [
+      "kievan_rus",
+      "byzantine_empire"
+    ],
+    "structural_significance": "The Varangian Guard represents the commercial-military network connecting Scandinavia and Byzantium via the river routes of Russia; their service brings Norse mercenaries into direct contact with Byzantine civilization; English thanes fleeing Norman conquest find places in the Guard after 1066, creating an unexpected connection between Hastings and Constantinople; the Guard's runic inscriptions at Hagia Sophia are among the most evocative artifacts of medieval cultural contact",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "franklin_the_1996",
+      "riasanovsky_a_2000",
+      "martin_medieval_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

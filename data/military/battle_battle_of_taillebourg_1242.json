@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_taillebourg_1242",
+  "name": "Battle of Taillebourg",
+  "subtype": "battle",
+  "start_year": 1242,
+  "end_year": 1242,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1669489"
+    }
+  },
+  "description": "Battle during Saintonge War (1242)",
+  "coords": [
+    -0.65,
+    45.83
+  ]
+}

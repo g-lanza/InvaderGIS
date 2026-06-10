@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_nicotera_1282",
+  "name": "Battle of Nicotera",
+  "year": 1282,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    42.0667,
+    8.4
+  ],
+  "entity": "kingdom_of_naples",
+  "summary": "Battle of Nicotera (1282 CE), at Nicotera (part of War of the Sicilian Vespers). Source: Wikidata Q11017694.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_naples",
+      "crown_of_aragon",
+      "republic_of_pisa"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

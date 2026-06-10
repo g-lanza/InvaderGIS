@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_ganja_1213",
+  "name": "Siege of Ganja",
+  "year": 1213,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41.72,
+    44.8
+  ],
+  "entity": "kingdom_of_georgia",
+  "summary": "Siege of Ganja (1213 CE), at Ganja. Source: Wikidata Q55633155.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_georgia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

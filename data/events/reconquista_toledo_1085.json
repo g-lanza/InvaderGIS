@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "reconquista_toledo_1085",
+  "name": "Reconquista: Fall of Toledo",
+  "year": 1085,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    39.9,
+    -4
+  ],
+  "entity": "kingdom_of_castile",
+  "summary": "Alfonso VI of Castile captures Toledo, the old Visigothic capital and a major Islamic city, the first major Reconquista victory. Toledo becomes the center of the 12th-century translation movement, where Christian, Jewish, and Muslim scholars translate Arabic philosophical and scientific texts into Latin, bringing Aristotle, Euclid, and Avicenna to Western Europe.",
+  "outcomes": [
+    "toledo_recaptured",
+    "translation_movement",
+    "almoravid_invitation"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_castile"
+    ],
+    "structural_significance": "Toledo's translation schools are the primary channel through which ancient Greek and medieval Islamic science enter Latin European scholarship; the capture also alarms the Taifa kings enough to invite the Almoravids from North Africa.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

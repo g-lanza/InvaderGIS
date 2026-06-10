@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "saxon_wars_772",
+  "name": "Saxon Wars",
+  "year": 772,
+  "type": "war",
+  "category": "violence",
+  "coords": [
+    52.37,
+    9.73
+  ],
+  "entity": "carolingian_empire",
+  "summary": "Charlemagne begins the Saxon Wars (772–804), the longest campaign of his reign. The Saxons, the last major pagan people in Western Europe, resist Frankish conquest and forced Christianity for 32 years. Charlemagne's destruction of the Irminsul (a sacred Saxon pillar) in 772 desecrates Saxon religion. The Massacre of Verden (782), in which Charlemagne reportedly executes 4,500 Saxon prisoners in a single day, intensifies resistance under Widukind. The Capitulary of Saxony (785) imposes Christianity on pain of death; the Capitulatio de partibus Saxoniae codifies control.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "carolingian_empire"
+    ],
+    "structural_significance": "Last major Christianization campaign in Western Europe; creates the duchy of Saxony as a Carolingian province; the massacres and forced conversion shape Saxon collective memory and eventual revolt",
+    "year_range": [
+      772,
+      804
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "mckitterick_charlemagne_2008",
+      "riché_the_1993",
+      "nelson_king_2019"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

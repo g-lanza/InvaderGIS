@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_peace_of_god_charroux_989_c02",
+  "statement": "The canons of the Council of Charroux placed unarmed clerics, the poor, and church property under episcopal protection.",
+  "subject_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 989,
+    "to": 989
+  },
+  "derived_from": "peace_of_god_charroux_989",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "constable_reformation_twelfth_century_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

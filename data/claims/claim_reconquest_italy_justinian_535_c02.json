@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_reconquest_italy_justinian_535_c02",
+  "statement": "The general Belisarius captured Rome and Ravenna in the early campaigns of the Gothic War.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 535,
+    "to": 535
+  },
+  "derived_from": "reconquest_italy_justinian_535",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

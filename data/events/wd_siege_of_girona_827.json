@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_girona_827",
+  "name": "Siege of Girona",
+  "year": 827,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    43.95,
+    0.6
+  ],
+  "entity": "carolingian_empire",
+  "summary": "Siege of Girona (827 CE), at Girona (part of Ayxun revolt). Source: Wikidata Q18008014.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "carolingian_empire",
+      "umayyad_emirate_cordoba"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "mckitterick_charlemagne_2008",
+      "riché_the_1993",
+      "nelson_king_2019"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

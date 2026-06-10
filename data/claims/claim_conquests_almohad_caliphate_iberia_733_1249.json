@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_almohad_caliphate_iberia_733_1249",
+  "statement": "Almohad rule in al-Andalus — campaigns and battles spanned 733–1249, from Reconquista to Siege of Faro.",
+  "subject_ids": [
+    "almohad_caliphate_iberia"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_almohad_caliphate_iberia_733_1249",
+  "period": {
+    "from": 733,
+    "to": 1249
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_kingdoms_2018",
+      "o'callaghan_reconquest_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

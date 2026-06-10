@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_cyprus_richard_conquest_1191_c02",
+  "statement": "Richard I sold Cyprus to the Knights Templar and then to Guy of Lusignan, beginning three centuries of Latin rule.",
+  "subject_ids": [
+    "kingdom_of_cyprus"
+  ],
+  "period": {
+    "from": 1191,
+    "to": 1191
+  },
+  "derived_from": "cyprus_richard_conquest_1191",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

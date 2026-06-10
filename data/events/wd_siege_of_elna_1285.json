@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_elna_1285",
+  "name": "Siege of Elna",
+  "year": 1285,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    43.035,
+    2.575
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Siege of Elna (1285 CE), at Elne (part of Aragonese Crusade). Source: Wikidata Q17601017.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "kingdom_of_majorca"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

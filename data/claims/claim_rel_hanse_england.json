@@ -1,0 +1,29 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_hanse_england",
+  "statement": "The Hanseatic League maintained a major presence in England through the London Kontor known as the Steelyard (established 1320s on the Thames). Hanseatic merchants exported English wool and cloth, enjoying commercial privileges (low customs duties, legal extraterritoriality at the Steelyard) that English merchants resented. The relationship deteriorated in the 15th century as English merchants developed their own long-distance trading capacity and Parliament pressured successive kings to reduce Hanseatic privileges. Edward IV renewed the privileges in the Treaty of Utrecht (1473) in exchange for Hanseatic diplomatic support; the Steelyard was finally closed under Elizabeth I (1598).",
+  "subject_ids": [
+    "hanseatic_league",
+    "kingdom_of_england"
+  ],
+  "predicate": "contested_influence",
+  "derived_from": "rel_hanse_england",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dollinger_the_1970",
+      "hammel-kiesow_die_2000",
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1266,
+    "to": 1500
+  }
+}

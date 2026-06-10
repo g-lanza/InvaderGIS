@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_navarre_aragon_union",
+  "statement": "Navarre and Aragon were united under Sancho III 'the Great' of Pamplona (1004–1035), who also controlled Castile and León temporarily — the closest medieval Iberia came to a single Christian kingdom before Ferdinand and Isabella. His death produced the familiar disaster: partition among sons. Aragon (under Ramiro I) and Navarre (under García III) became separate kingdoms that only reunited briefly under Alfonso I 'the Battler' (ruled both 1104–1134). Alfonso I's death without heirs permanently separated them: Aragon passed to Ramon Berenguer IV through marriage; Navarre elected García Ramírez.",
+  "subject_ids": [
+    "kingdom_of_navarre",
+    "kingdom_of_aragon"
+  ],
+  "predicate": "personal_union",
+  "derived_from": "rel_navarre_aragon_union",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1076,
+    "to": 1134
+  }
+}

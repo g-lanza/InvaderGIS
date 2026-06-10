@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "hadramaut_1164",
+  "name": "Ayyubids Extend Control to Hadramaut",
+  "year": 1164,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    23.5265,
+    42.211
+  ],
+  "entity": "hadramaut",
+  "summary": "Ayyubid forces extended their influence into the Hadramaut region of Yemen in the mid-12th century. However, the rugged terrain and tribal social structure of Hadramaut prevented any power from fully controlling the region. The Hadrami valley clans maintained substantial autonomy throughout the medieval period.",
+  "outcomes": [
+    "ayyubid_suzerainty",
+    "yemen_contested",
+    "tribal_autonomy_maintained"
+  ],
+  "_quarry": {
+    "participants": [
+      "hadramaut",
+      "ayyubid_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

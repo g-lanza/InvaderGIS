@@ -1,0 +1,30 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "council_of_pisa_1409",
+  "name": "Council of Pisa",
+  "year": 1409,
+  "type": "religious_council",
+  "category": "religion",
+  "coords": [
+    43.7228,
+    10.4017
+  ],
+  "entity": "papal_states",
+  "summary": "Cardinals from both Roman and Avignonese obediences convene at Pisa, depose both Gregory XII and Benedict XIII, and elect Alexander V. Neither rival pope accepts the deposition, the Western Schism now has three claimants until the Council of Constance ends the schism (1414–18).",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "papal_states"
+    ],
+    "structural_significance": "First major conciliarist initiative; demonstrates the practical limits of conciliar deposition without papal consent and sets the stage for Constance's broader settlement.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morris_papal_monarchy_1989"
+    ],
+    "confidence": "low"
+  }
+}

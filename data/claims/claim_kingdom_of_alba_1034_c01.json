@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_kingdom_of_alba_1034_c01",
+  "statement": "Under Duncan I (reigned 1034–1040), the Kingdom of Alba extended its authority to include Strathclyde and parts of Northumbria.",
+  "subject_ids": [
+    "kingdom_of_alba"
+  ],
+  "period": {
+    "from": 1034,
+    "to": 1034
+  },
+  "derived_from": "kingdom_of_alba_1034",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

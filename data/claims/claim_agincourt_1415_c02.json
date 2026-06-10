@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_agincourt_1415_c02",
+  "statement": "The French nobility suffered catastrophic losses at Agincourt, with over 6,000 killed against roughly 400 English dead.",
+  "subject_ids": [
+    "kingdom_of_england"
+  ],
+  "period": {
+    "from": 1415,
+    "to": 1415
+  },
+  "derived_from": "agincourt_1415",
+  "unresolved_sources": [
+    "carpenter_the_2003"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

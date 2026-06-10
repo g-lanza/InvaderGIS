@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_unam_sanctam_1302_c02",
+  "statement": "Unam Sanctam (1302) articulated the doctrine of papal plenitude of power against Philip IV of France.",
+  "subject_ids": [
+    "papal_states"
+  ],
+  "period": {
+    "from": 1302,
+    "to": 1302
+  },
+  "derived_from": "unam_sanctam_1302",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morris_papal_monarchy_1989",
+      "kelly_oxford_dictionary_popes_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

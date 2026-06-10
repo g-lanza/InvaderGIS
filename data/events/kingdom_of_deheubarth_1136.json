@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_deheubarth_1136",
+  "name": "Deheubarth Resists Norman Conquest",
+  "year": 1136,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    51.94,
+    -4.2
+  ],
+  "entity": "kingdom_of_deheubarth",
+  "summary": "The Welsh victory at the Battle of Crug Mawr in 1136 temporarily halted Norman expansion into south Wales. Deheubarth under Gruffudd ap Rhys experienced a political and cultural resurgence, patronising Welsh poetry and maintaining royal continuity against overwhelming Norman pressure.",
+  "outcomes": [
+    "normans_defeated",
+    "welsh_recovery",
+    "gruffudd_ap_rhys_victory"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_deheubarth"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,59 @@
+{
+ "kind": "ruler",
+ "dataset": "medieval-europe-500-1500",
+ "id": "justinian_i",
+ "name": "Justinian I",
+ "polity": "byzantine_empire",
+ "title": "emperor",
+ "reign_start": 527,
+ "reign_end": 565,
+ "_quarry": {
+  "lifespan": {
+   "birth_year": 482,
+   "death_year": 565
+  },
+  "entity_associations": [
+   {
+    "entity_id": "byzantine_empire",
+    "role": "emperor",
+    "start_year": 527,
+    "end_year": 565
+   }
+  ],
+  "key_actions": [
+   {
+    "year": 529,
+    "event": "Begins compilation of Corpus Juris Civilis under Tribonian."
+   },
+   {
+    "year": 532,
+    "event": "Quells Nika Riots; rebuilds Constantinople, including Hagia Sophia."
+   },
+   {
+    "year": 534,
+    "event": "Belisarius reconquers North Africa from Vandals."
+   },
+   {
+    "year": 540,
+    "event": "Belisarius takes Ravenna from Ostrogoths; Italian reconquest underway."
+   },
+   {
+    "year": 541,
+    "event": "Plague of Justinian devastates the empire — halts further expansion."
+   }
+  ],
+  "region": "byzantine_world",
+  "name_variants": []
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "kaldellis_streams_of_gold_2017",
+   "stein_roman_law_in_european_history_1999",
+   "ims_fordham",
+   "ims_fordham_sbook1c",
+   "ims_fordham_sbook1b"
+  ],
+  "confidence": "low"
+ }
+}

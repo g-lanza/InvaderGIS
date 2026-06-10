@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "makkura_baqt_treaty_651",
+  "name": "Baqt Treaty Between Makuria and Arab Egypt",
+  "year": 651,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    20.656,
+    34.942
+  ],
+  "entity": "makkura",
+  "summary": "The Baqt treaty between the Arab rulers of Egypt and the Kingdom of Makuria established a unique bilateral agreement under which Makuria provided slaves annually in exchange for grain and textiles. The treaty held for over 600 years, protecting Christian Nubia from conquest.",
+  "outcomes": [
+    "christian_nubia_protected",
+    "diplomatic_innovation",
+    "300_year_peace"
+  ],
+  "_quarry": {
+    "participants": [
+      "makkura"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

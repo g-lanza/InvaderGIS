@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "al_andalus_poetry_950",
+  "name": "Caliphal court poetry in al-Andalus",
+  "year": 950,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    37.88,
+    -4.78
+  ],
+  "entity": "caliphate_of_cordoba",
+  "summary": "Under Abd al-Rahman III and al-Hakam II, Córdoba becomes the largest city in Western Europe (~250,000 inhabitants) and a centre of Arabic poetry, philology, and translation. The library of al-Hakam II reportedly holds 400,000 volumes; the muwaššaḥ strophic poetic form is invented in Iberia.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "caliphate_of_cordoba"
+    ],
+    "structural_significance": "Transmits a substantial portion of Greek philosophical and scientific texts (translated 9th-c. Baghdad → 10th-c. Córdoba → 12th-c. Toledo) into Latin Europe. Andalusian Hebrew and Arabic poetic forms reshape Romance vernacular poetry from troubadour Provence to Galician-Portuguese cantigas.",
+    "year_range": [
+      929,
+      1031
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_muslim_1996",
+      "scales_the_1994"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

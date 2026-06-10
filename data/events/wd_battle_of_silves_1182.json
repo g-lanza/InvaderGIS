@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_silves_1182",
+  "name": "Battle of Silves",
+  "year": 1182,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    38.25,
+    -6
+  ],
+  "entity": "kingdom_of_portugal",
+  "summary": "Battle of Silves (1182 CE), at Silves (part of Spanish Christian–Muslim War of 1172–1212). Source: Wikidata Q111207501.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_portugal",
+      "almohad_caliphate_iberia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

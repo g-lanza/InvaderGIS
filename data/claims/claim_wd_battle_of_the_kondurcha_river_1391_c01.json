@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_the_kondurcha_river_1391_c01",
+  "statement": "Battle of the Kondurcha River (1391 CE), at Kondurcha (part of Timur's first expedition against Tokhtamysh).",
+  "subject_ids": [
+    "golden_horde"
+  ],
+  "period": {
+    "from": 1391,
+    "to": 1391
+  },
+  "derived_from": "wd_battle_of_the_kondurcha_river_1391",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "allsen_mongol_1987"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

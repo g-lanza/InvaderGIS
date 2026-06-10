@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_algeciras_1278",
+  "name": "Battle of Algeciras",
+  "year": 1278,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    37.3667,
+    -4.3667
+  ],
+  "entity": "crown_of_castile",
+  "summary": "Battle of Algeciras (1278 CE), at Strait of Gibraltar (part of Battle of the Strait). Source: Wikidata Q4870261.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "crown_of_castile",
+      "emirate_of_granada",
+      "marinid_dynasty"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "o'callaghan_a_1975",
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

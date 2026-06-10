@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_urfa_1480",
+  "name": "Battle of Urfa",
+  "year": 1480,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    30,
+    31.2
+  ],
+  "entity": "mamluk_sultanate",
+  "summary": "Battle of Urfa (1480 CE), at Şanlıurfa. Source: Wikidata Q55702594.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "mamluk_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "irwin_the_1986",
+      "northrup_from_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

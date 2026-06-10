@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_liberation_of_kruj_1443",
+  "name": "Liberation of Krujë",
+  "subtype": "battle",
+  "start_year": 1443,
+  "end_year": 1443,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q131583820"
+    }
+  },
+  "description": "Battle during Skanderbeg's Albanian campaign (1443)",
+  "coords": [
+    19.7925,
+    41.5108
+  ]
+}

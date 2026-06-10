@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_donation_of_pepin_756_c02",
+  "statement": "The deed of 756 formally constituted the territorial holding of the bishop of Rome known as the Papal States.",
+  "subject_ids": [
+    "carolingian_empire"
+  ],
+  "period": {
+    "from": 756,
+    "to": 756
+  },
+  "derived_from": "donation_of_pepin_756",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morris_papal_monarchy_1989",
+      "robinson_papacy_1990"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_ibn_sina_canon_1025_c01",
+  "statement": "Around 1025, Avicenna (Ibn Sina) completed Al-Qanun fi al-Tibb, a five-volume synthesis of Galenic, Aristotelian, and Islamic medical knowledge.",
+  "subject_ids": [
+    "seljuk_sultanate"
+  ],
+  "period": {
+    "from": 1025,
+    "to": 1025
+  },
+  "derived_from": "ibn_sina_canon_1025",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "hodgson_venture_of_islam_1974",
+      "hourani_arab_peoples_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

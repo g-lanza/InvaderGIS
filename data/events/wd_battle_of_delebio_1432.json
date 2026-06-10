@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_delebio_1432",
+  "name": "Battle of Delebio",
+  "year": 1432,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    45.45,
+    10.75
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Battle of Delebio (1432 CE), at Delebio (part of Wars in Lombardy). Source: Wikidata Q2250674.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "duchy_of_milan"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

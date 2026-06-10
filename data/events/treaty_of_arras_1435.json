@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "treaty_of_arras_1435",
+  "name": "Treaty of Arras",
+  "year": 1435,
+  "type": "treaty",
+  "category": "diplomacy",
+  "coords": [
+    50.29,
+    2.78
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Duke Philip the Good of Burgundy abandons the English alliance and recognises Charles VII as legitimate king of France in exchange for the towns of the Somme and exemption from feudal homage during Philip's lifetime.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "duchy_of_burgundy",
+      "kingdom_of_england"
+    ],
+    "structural_significance": "Decisively shifts the Hundred Years' War in France's favour. Without Burgundian support, English Lancastrian positions in northern France collapse over the following two decades, culminating in the English expulsion from Normandy (1450) and Gascony (1453).",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

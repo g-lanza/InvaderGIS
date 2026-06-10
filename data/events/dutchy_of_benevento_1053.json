@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "dutchy_of_benevento_1053",
+  "name": "Normans Defeat Benevento's Allies",
+  "year": 1053,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41.1,
+    14.8
+  ],
+  "entity": "duchy_of_benevento",
+  "summary": "The Battle of Civitate in 1053 saw Norman adventurers defeat a coalition including Pope Leo IX, marking the decisive turning point for Norman power in southern Italy. The Duchy of Benevento's political independence effectively ended as Normans systematically absorbed southern Italian territories.",
+  "outcomes": [
+    "papal_coalition_defeated",
+    "norman_dominance_secured",
+    "south_italy_transformation"
+  ],
+  "_quarry": {
+    "participants": [
+      "duchy_of_benevento"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

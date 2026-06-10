@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "treaty_troyes_1420_detail",
+  "name": "Treaty of Troyes, Henry V Heir to France",
+  "year": 1420,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    48.3,
+    4.08
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "The Treaty of Troyes, signed May 21, 1420, makes Henry V of England heir to the French crown and regent of France during the lifetime of the mad King Charles VI. Henry marries Charles's daughter Catherine of Valois. The Dauphin Charles (future Charles VII) is declared illegitimate. Henry's subsequent death (1422) and Charles VI's death (same year) leave a nine-month-old Henry VI as nominal king of both England and France.",
+  "outcomes": [
+    "henry_v_declared_heir_france",
+    "charles_vi_disinherits_dauphin",
+    "double_monarchy_planned"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "kingdom_of_france"
+    ],
+    "structural_significance": "The Treaty of Troyes represents England's closest approach to winning the Hundred Years' War; the dual monarchy fails because it lacks a political base in France, Dauphinst resistance, culminating in Joan of Arc's relief of Orléans (1429), demonstrates that French national identity was stronger than dynastic legitimacy; the treaty's failure shows that conquest alone cannot create political acceptance",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_suebi_kingdom_585_c01",
+  "statement": "The Visigothic king Leovigild conquered and absorbed the Suebi kingdom in 585 CE, ending it after nearly 175 years of existence.",
+  "subject_ids": [
+    "suebi_kingdom"
+  ],
+  "period": {
+    "from": 585,
+    "to": 585
+  },
+  "derived_from": "suebi_kingdom_585",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

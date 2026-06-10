@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "vasco_da_gama_cape_1498",
+  "name": "Vasco da Gama Reaches India",
+  "year": 1498,
+  "type": "exploration",
+  "category": "discovery",
+  "coords": [
+    11.3,
+    75.8
+  ],
+  "entity": "kingdom_of_portugal",
+  "summary": "Vasco da Gama's fleet arrives at Calicut, India, completing the first European sea voyage to Asia. The route around the Cape of Good Hope bypasses the Ottoman-controlled eastern Mediterranean and undermines the Venetian and Mamluk monopoly on spice trade. Within decades, Portuguese control of Indian Ocean sea lanes transforms global commerce.",
+  "outcomes": [
+    "indian_ocean_route_opened",
+    "spice_trade_rerouted",
+    "venice_mamluk_trade_undermined"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_portugal"
+    ],
+    "structural_significance": "Opens the age of direct European-Asian trade; destroys the Mamluk economic model; begins the displacement of Islamic commercial dominance in the Indian Ocean; one of the most consequential voyages in history.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

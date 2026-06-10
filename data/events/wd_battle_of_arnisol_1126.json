@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_arnisol_1126",
+  "name": "Battle of Arnisol",
+  "year": 1126,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.35,
+    -2.45
+  ],
+  "entity": "almoravid_emirate_iberia",
+  "summary": "Battle of Arnisol (1126 CE), at Castillo Anzur (part of Granada campaign). Source: Wikidata Q11908711.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "almoravid_emirate_iberia",
+      "kingdom_of_aragon"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_the_2004",
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

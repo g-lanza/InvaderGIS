@@ -1,0 +1,56 @@
+{
+ "kind": "ruler",
+ "dataset": "medieval-europe-500-1500",
+ "id": "al_ghazali",
+ "name": "Abū Ḥāmid al-Ghazālī",
+ "polity": "seljuk_sultanate",
+ "title": "professor",
+ "reign_start": 1091,
+ "reign_end": 1095,
+ "_quarry": {
+  "lifespan": {
+   "birth_year": 1058,
+   "death_year": 1111
+  },
+  "entity_associations": [
+   {
+    "entity_id": "seljuk_sultanate",
+    "role": "professor",
+    "start_year": 1091,
+    "end_year": 1095
+   }
+  ],
+  "key_actions": [
+   {
+    "year": 1091,
+    "summary": "Appointed by vizier Nizam al-Mulk to the chair of Shafiʿi jurisprudence at the Nizamiyya in Baghdad.",
+    "source_id": "hodgson_venture_of_islam_1974"
+   },
+   {
+    "year": 1095,
+    "summary": "Spiritual crisis. Abandons his Baghdad professorship for a decade of Sufi wandering across Damascus, Jerusalem, and Hijaz.",
+    "source_id": "hodgson_venture_of_islam_1974"
+   },
+   {
+    "year": 1106,
+    "summary": "Returns to teaching at Nishapur; completes Iḥyāʾ ʿulūm al-dīn (Revival of the Religious Sciences), reconciling Sunni orthodoxy with Sufi mysticism.",
+    "source_id": "hodgson_venture_of_islam_1974"
+   }
+  ],
+  "region": "central_asia",
+  "name_variants": [
+   "Al-Ghazali",
+   "Algazel"
+  ]
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "hodgson_venture_of_islam_1974",
+   "hourani_arab_peoples_1991",
+   "ims_fordham",
+   "ims_fordham_sbook1d"
+  ],
+  "confidence": "low"
+ }
+}

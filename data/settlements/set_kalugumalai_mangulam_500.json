@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_kalugumalai_mangulam_500",
+  "name": "Kalugumalai, Mangulam",
+  "importance": "city",
+  "start_year": 500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "inferred",
+    "external_ids": {
+      "pleiades": "544503271"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    78.2584,
+    10.0223
+  ]
+}

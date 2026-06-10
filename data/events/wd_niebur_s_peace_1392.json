@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_niebur_s_peace_1392",
+  "name": "Niebur's Peace",
+  "year": 1392,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    56,
+    20.65
+  ],
+  "entity": "hanseatic_league",
+  "summary": "Niebur's Peace (1392 CE). Source: Wikidata Q84314107.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "hanseatic_league",
+      "principality_of_novgorod"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dollinger_the_1970",
+      "hammel-kiesow_die_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

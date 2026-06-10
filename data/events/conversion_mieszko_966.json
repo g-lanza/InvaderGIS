@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conversion_mieszko_966",
+  "name": "Conversion of Mieszko I",
+  "year": 966,
+  "type": "religious_council",
+  "category": "religion",
+  "coords": [
+    52.23,
+    17.08
+  ],
+  "entity": "kingdom_of_poland_piast",
+  "summary": "Prince Mieszko I of Poland accepts baptism (966), most likely through his marriage to the Czech princess Doubravka of Bohemia. The conversion is calculated to place Poland under papal protection, preventing German conquest under the guise of Christianization. By becoming Christian himself, Mieszko preempts the German bishops' justification for crusade. His son Bolesław I receives a royal crown (1025), completing Poland's integration into the Latin Christian world.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_poland_piast"
+    ],
+    "structural_significance": "Creates Poland as a Christian state; integrates it into Western European political order; preempts German Christianization campaigns; establishes the precedent of papal protection for peripheral kingdoms",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "davies_gods_1981",
+      "knoll_the_1972"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

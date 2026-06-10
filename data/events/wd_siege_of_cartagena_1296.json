@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_cartagena_1296",
+  "name": "Siege of Cartagena",
+  "year": 1296,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41.35,
+    -1.75
+  ],
+  "entity": "crown_of_aragon",
+  "summary": "Siege of Cartagena (1296 CE), at Cartagena (part of Aragonese conquest of the Kingdom of Murcia). Source: Wikidata Q130519277.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "crown_of_aragon",
+      "crown_of_castile"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

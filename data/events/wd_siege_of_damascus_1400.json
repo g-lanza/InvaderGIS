@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_damascus_1400",
+  "name": "Siege of Damascus",
+  "year": 1400,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    34.85,
+    49.05
+  ],
+  "entity": "mamluk_sultanate",
+  "summary": "Siege of Damascus (1400 CE), at Damascus (part of Syrian campaign). Source: Wikidata Q9389452.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "mamluk_sultanate",
+      "timurid_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "irwin_the_1986",
+      "northrup_from_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

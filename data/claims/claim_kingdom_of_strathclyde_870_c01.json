@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_kingdom_of_strathclyde_870_c01",
+  "statement": "Norse and Dublin Viking forces sacked Dumbarton Rock, the capital of Strathclyde, in 870 CE after a four-month siege.",
+  "subject_ids": [
+    "kingdom_of_strathclyde"
+  ],
+  "period": {
+    "from": 870,
+    "to": 870
+  },
+  "derived_from": "kingdom_of_strathclyde_870",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

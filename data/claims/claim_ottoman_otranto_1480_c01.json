@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_ottoman_otranto_1480_c01",
+  "statement": "On July 28, 1480, an Ottoman fleet under Gedik Ahmed Pasha landed at Otranto in southern Italy and captured the city after a two-week siege.",
+  "subject_ids": [
+    "ottoman_empire"
+  ],
+  "period": {
+    "from": 1480,
+    "to": 1480
+  },
+  "derived_from": "ottoman_otranto_1480",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

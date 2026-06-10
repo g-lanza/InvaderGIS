@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_k_se_da_1243",
+  "name": "Battle of Köse Dağ",
+  "subtype": "battle",
+  "start_year": 1243,
+  "end_year": 1243,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q136344"
+    }
+  },
+  "description": "Battle during Mongol conquest of Anatolia (1243)",
+  "coords": [
+    39.55,
+    40.25
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_schmilau_1093_c01",
+  "statement": "Battle of Schmilau (1093 CE), at Schmilau (part of Slavic rebellion of 1066).",
+  "subject_ids": [
+    "duchy_of_saxony"
+  ],
+  "period": {
+    "from": 1093,
+    "to": 1093
+  },
+  "derived_from": "wd_battle_of_schmilau_1093",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

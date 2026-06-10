@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_wiener_neustadt_1487",
+  "name": "Siege of Wiener Neustadt",
+  "year": 1487,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    50,
+    10.5
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Siege of Wiener Neustadt (1487 CE), at Wiener Neustadt (part of Austrian–Hungarian War). Source: Wikidata Q7510517.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_reintegration_of_the_crown_of_mallorca_1343_c01",
+  "statement": "Reintegration of the Crown of Mallorca (1343 CE), at Mallorca.",
+  "subject_ids": [
+    "crown_of_aragon"
+  ],
+  "period": {
+    "from": 1343,
+    "to": 1343
+  },
+  "derived_from": "wd_reintegration_of_the_crown_of_mallorca_1343",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

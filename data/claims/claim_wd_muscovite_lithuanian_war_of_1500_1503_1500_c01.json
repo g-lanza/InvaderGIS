@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_muscovite_lithuanian_war_of_1500_1503_1500_c01",
+  "statement": "Muscovite-Lithuanian War of 1500-1503 (1500 CE), (part of Muscovite-Lithuanian Wars).",
+  "subject_ids": [
+    "grand_duchy_of_lithuania"
+  ],
+  "period": {
+    "from": 1500,
+    "to": 1500
+  },
+  "derived_from": "wd_muscovite_lithuanian_war_of_1500_1503_1500",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "rowell_lithuania_1994",
+      "christiansen_the_1997"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_hostalric_1462_c01",
+  "statement": "Siege of Hostalric (1462 CE), at Hostalric (part of Catalan Civil War).",
+  "subject_ids": [
+    "crown_of_aragon"
+  ],
+  "period": {
+    "from": 1462,
+    "to": 1462
+  },
+  "derived_from": "wd_siege_of_hostalric_1462",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

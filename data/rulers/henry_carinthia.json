@@ -1,0 +1,33 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "henry_carinthia",
+  "name": "Henry of Carinthia",
+  "polity": "duchy_of_carinthia",
+  "title": "ruler",
+  "reign_start": 1295,
+  "reign_end": 1335,
+  "succeeds": "meinhard_ii_gorz",
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "duchy_of_carinthia",
+        "role": "ruler",
+        "start_year": 1295,
+        "end_year": 1335
+      }
+    ],
+    "key_actions": [],
+    "region": "central_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

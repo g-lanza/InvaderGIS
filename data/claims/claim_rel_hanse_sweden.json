@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_hanse_sweden",
+  "statement": "The Hanseatic League maintained extensive trading relationships with Sweden, operating through the key Baltic ports of Stockholm, Kalmar, and Visby (on Gotland). German Hanseatic merchants dominated Swedish trade in iron (from the Bergslagen region), copper, and timber — a dominance that Swedish kings periodically tried to limit through 'foreigners' exclusions. The Hanseatic capture of Stockholm (1389) and their support for the Kalmar Union (1397) represented Hanseatic political intervention; Erik of Pomerania's breach with the Hanse (1425) over Sound tolls led to war (1426–1435).",
+  "subject_ids": [
+    "hanseatic_league",
+    "kingdom_of_sweden"
+  ],
+  "predicate": "cultural_exchange",
+  "derived_from": "rel_hanse_sweden",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dollinger_the_1970",
+      "hammel-kiesow_die_2000",
+      "sawyer_medieval_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1200,
+    "to": 1500
+  }
+}

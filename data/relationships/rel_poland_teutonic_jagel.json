@@ -1,0 +1,38 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_poland_teutonic_jagel",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_poland_jagiellonian",
+      "role": "principal"
+    },
+    {
+      "entity_id": "teutonic_order_state",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 1386,
+  "until": 1500,
+  "note": "After the decisive Jagiellonian victory at Grunwald (1410), the Teutonic Order's military power was permanently broken. The subsequent Thirteen Years' War (1454–1466) — fought with Polish-Lithuanian support for the Prussian Confederation of cities that revolted against the Order — ended with the Second Peace of Thorn (1466): the Order ceded Royal Prussia to Poland (including Danzig/Gdańsk and the Vistula corridor) and became a Polish vassal for the remaining Ducal Prussia. The Order's last Prussian grand master, Albert of Brandenburg-Ansbach, converted to Lutheranism (1525) and secularized the remaining territory as the Duchy of Prussia.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Grunwald permanently ends the Teutonic Order's military expansion; the Second Peace of Thorn gives Poland Baltic access and riverine dominance; Albert's secularization of Ducal Prussia (1525) creates the nucleus of the future Prussian state that eventually absorbs Poland"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "davies_gods_1981",
+      "lukowski_a_2001",
+      "christiansen_the_1997",
+      "urban_the_1994",
+      "turnbull_crusader_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

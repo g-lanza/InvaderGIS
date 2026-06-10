@@ -1,0 +1,35 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_duchy_of_bavaria_to_duchy_of_carinthia_fragmentation",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "duchy_of_bavaria",
+      "role": "parent"
+    },
+    {
+      "entity_id": "duchy_of_carinthia",
+      "role": "fragment"
+    }
+  ],
+  "directed": true,
+  "type": "fragmentation",
+  "since": 976,
+  "until": 976,
+  "note": "Derived from predecessor/successor links recorded in the duchy_of_bavaria and duchy_of_carinthia entity records. Transition anchored to duchy_of_carinthia start_year.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Mechanical normalisation of curated predecessor/successor links into the relationships register."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

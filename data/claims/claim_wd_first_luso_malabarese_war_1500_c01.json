@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_first_luso_malabarese_war_1500_c01",
+  "statement": "First Luso-Malabarese War (1500 CE), at Indian Ocean.",
+  "subject_ids": [
+    "kingdom_of_portugal"
+  ],
+  "period": {
+    "from": 1500,
+    "to": 1500
+  },
+  "derived_from": "wd_first_luso_malabarese_war_1500",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

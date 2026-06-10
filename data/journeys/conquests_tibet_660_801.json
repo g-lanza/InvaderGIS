@@ -1,0 +1,66 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_tibet_660_801",
+  "name": "Tibet — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 660,
+  "year_end": 801,
+  "waypoints": [
+    {
+      "year": 660,
+      "place": "Tibetan Invasion of Tuyuhun",
+      "coords": [
+        32.08,
+        92.019
+      ],
+      "note": "military",
+      "event_id": "wd_tibetan_invasion_of_tuyuhun_660"
+    },
+    {
+      "year": 678,
+      "place": "Gaozong campaign of Tibet",
+      "coords": [
+        32.08,
+        92.019
+      ],
+      "note": "military",
+      "event_id": "wd_gaozong_campaign_of_tibet_678"
+    },
+    {
+      "year": 763,
+      "place": "Tibetan Empire Sacks Chang'an",
+      "coords": [
+        32.08,
+        92.019
+      ],
+      "note": "military",
+      "event_id": "tibet_tang_war_763"
+    },
+    {
+      "year": 794,
+      "place": "Battle of Shenchuan",
+      "coords": [
+        27.487,
+        97.393
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_shenchuan_794"
+    },
+    {
+      "year": 801,
+      "place": "Battle of Dulu",
+      "coords": [
+        29.4247,
+        79.7287
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_dulu_801"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

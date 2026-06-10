@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_byzantine_crisis_1042_c01",
+  "statement": "Michael V's attempt to exile Empress Zoe in 1042 provoked a popular uprising in Constantinople.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 1042,
+    "to": 1042
+  },
+  "derived_from": "byzantine_crisis_1042",
+  "unresolved_sources": [
+    "treadgold_a_1997",
+    "kazhdan_the_1991"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "haldon_byzantium_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

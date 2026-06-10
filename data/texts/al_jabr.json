@@ -1,0 +1,27 @@
+{
+  "kind": "text",
+  "dataset": "medieval-europe-500-1500",
+  "id": "al_jabr",
+  "name_primary": "Al-Kitab al-Mukhtasar fi Hisab al-Jabr wal-Muqabala (The Compendious Book on Calculation by Completion and Balancing)",
+  "author": "al-Khwarizmi (Muhammad ibn Musa al-Khwarizmi)",
+  "language": "Arabic",
+  "composed": {
+    "place": "Baghdad, Iraq",
+    "year": 830
+  },
+  "tradition": "scientific",
+  "influence": [
+    "foundations of algebra as a discipline",
+    "European mathematics via Latin translations",
+    "the word 'algebra' (from al-jabr)",
+    "computational mathematics"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "rosen_algebra_1831"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "mongol_invasion_europe_1241",
+  "name": "Mongol invasion of Europe",
+  "year": 1241,
+  "type": "war",
+  "category": "violence",
+  "coords": [
+    51.21,
+    16.16
+  ],
+  "entity": "golden_horde",
+  "summary": "Batu Khan and Subutai divide their forces to attack Poland and Hungary simultaneously. The Polish-German coalition is crushed at Legnica (1241); Béla IV's Hungarian army is annihilated at Mohi. The Mongols reach the Adriatic coast. Catastrophic destruction kills perhaps half of Hungary's population. The advance halts only because Ögedei Khan dies, the khuriltai requires Batu's return to Mongolia.",
+  "outcomes": [
+    "poland_devastated",
+    "hungary_devastated",
+    "mongol_advance_halted_by_ogedei_death"
+  ],
+  "_quarry": {
+    "participants": [
+      "golden_horde",
+      "kingdom_of_hungary",
+      "kingdom_of_poland_piast"
+    ],
+    "structural_significance": "Europe's narrowest escape from permanent Mongol occupation; Hungary and Poland take decades to recover; demonstrates Western Europe's military vulnerability to steppe cavalry at continental scale",
+    "year_range": [
+      1241,
+      1242
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "allsen_mongol_1987"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

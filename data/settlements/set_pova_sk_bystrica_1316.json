@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_pova_sk_bystrica_1316",
+  "name": "Považská Bystrica",
+  "importance": "city",
+  "start_year": 1316,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q319787"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    18.45,
+    49.1167
+  ]
+}

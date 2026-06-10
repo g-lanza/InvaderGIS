@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_1240_izborsk_and_pskov_campaign_1240_c02",
+  "statement": "The 1240 Izborsk and Pskov campaign was conducted against Rus.",
+  "subject_ids": [
+    "livonian_order_state"
+  ],
+  "period": {
+    "from": 1240,
+    "to": 1240
+  },
+  "derived_from": "wd_1240_izborsk_and_pskov_campaign_1240",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_hospitallers_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

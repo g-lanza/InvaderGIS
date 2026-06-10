@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_st_lucias_flood_1287_c01",
+  "statement": "A North Sea storm surge on the night of 14 December 1287 breached the coastal defences of the Frisian coast, killing an estimated 50,000-80,000 people.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1287,
+    "to": 1287
+  },
+  "derived_from": "st_lucias_flood_1287",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "campbell_great_transition_2016"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

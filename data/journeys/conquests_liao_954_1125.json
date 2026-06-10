@@ -1,0 +1,56 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_liao_954_1125",
+  "name": "Liao — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 954,
+  "year_end": 1125,
+  "waypoints": [
+    {
+      "year": 954,
+      "place": "Battle of Gaoping",
+      "coords": [
+        40.696,
+        121.971
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_gaoping_954"
+    },
+    {
+      "year": 979,
+      "place": "Battle of Gaoliang River",
+      "coords": [
+        34.593,
+        118.9795
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_gaoliang_river_979"
+    },
+    {
+      "year": 1010,
+      "place": "Second conflict in the Goryeo–Khitan War",
+      "coords": [
+        39.171,
+        124.5075
+      ],
+      "note": "military",
+      "event_id": "wd_second_conflict_in_the_goryeo_khitan_war_1010"
+    },
+    {
+      "year": 1125,
+      "place": "Jurchen Jin Conquest of Liao",
+      "coords": [
+        40.696,
+        121.971
+      ],
+      "note": "military",
+      "event_id": "liao_jurchens_conquest_1125"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_damietta_1218",
+  "name": "Siege of Damietta",
+  "year": 1218,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41.9625,
+    18.725
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Siege of Damietta (1218 CE), at Damietta (part of Fifth Crusade). Source: Wikidata Q742693.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "kingdom_of_jerusalem",
+      "kingdom_of_france",
+      "papal_states",
+      "latin_empire_constantinople",
+      "kingdom_of_england",
+      "knights_hospitaller_rhodes",
+      "kingdom_of_cyprus"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

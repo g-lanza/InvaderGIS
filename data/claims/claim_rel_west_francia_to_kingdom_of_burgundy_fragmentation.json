@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_west_francia_to_kingdom_of_burgundy_fragmentation",
+  "statement": "Derived from predecessor/successor links recorded in the west_francia and kingdom_of_burgundy entity records. Transition anchored to kingdom_of_burgundy start_year.",
+  "subject_ids": [
+    "west_francia",
+    "kingdom_of_burgundy"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_west_francia_to_kingdom_of_burgundy_fragmentation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "kingdom_of_burgundy"
+  ],
+  "period": {
+    "from": 888,
+    "to": 888
+  }
+}

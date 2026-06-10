@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_siponto_663",
+  "name": "Battle of Siponto",
+  "year": 663,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.5,
+    22.75
+  ],
+  "entity": "lombard_kingdom",
+  "summary": "Battle of Siponto (663 CE), at Siponto (part of Muslim conquests). Source: Wikidata Q3636620.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "lombard_kingdom",
+      "umayyad_caliphate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "deacon_history_1907",
+      "christie_the_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

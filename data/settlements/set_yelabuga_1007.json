@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_yelabuga_1007",
+  "name": "Yelabuga",
+  "importance": "city",
+  "start_year": 1007,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q135650"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    52.0333,
+    55.7667
+  ]
+}

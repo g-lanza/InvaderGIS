@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_kingdom_of_thessalonica_1204_c02",
+  "statement": "The Kingdom of Thessalonica faced constant pressure from the Bulgarian Empire and Greek populations.",
+  "subject_ids": [
+    "kingdom_of_thessalonica"
+  ],
+  "period": {
+    "from": 1204,
+    "to": 1204
+  },
+  "derived_from": "kingdom_of_thessalonica_1204",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

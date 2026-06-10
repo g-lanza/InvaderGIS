@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_first_bulgarian_empire_to_second_bulgarian_empire_succession",
+  "statement": "Derived from predecessor/successor links recorded in the first_bulgarian_empire and second_bulgarian_empire entity records. Transition anchored to second_bulgarian_empire start_year.",
+  "subject_ids": [
+    "first_bulgarian_empire",
+    "second_bulgarian_empire"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_first_bulgarian_empire_to_second_bulgarian_empire_succession",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fine_the_1987"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "second_bulgarian_empire"
+  ],
+  "period": {
+    "from": 1185,
+    "to": 1185
+  }
+}

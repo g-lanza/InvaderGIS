@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_lithuania_poland",
+  "statement": "The Union of Krewo (1385) and the subsequent Jagiellonian dynasty created the political entity that dominated central-eastern Europe for 200 years. Grand Duke Jogaila of Lithuania married Polish Queen Jadwiga, was baptized as Władysław II Jagiełło, and was crowned King of Poland (1386). Lithuania — the last major pagan state in Europe — converted to Catholic Christianity. The combined Polish-Lithuanian state defeated the Teutonic Order at Grunwald (1410), expanded into Ukraine and Ruthenia, and became the largest state in Europe under the mature Jagiellonian dynasty. The Union of Lublin (1569) transformed the personal union into the Polish-Lithuanian Commonwealth.",
+  "subject_ids": [
+    "grand_duchy_of_lithuania",
+    "kingdom_of_poland_jagiellonian"
+  ],
+  "predicate": "dynastic_union",
+  "derived_from": "rel_lithuania_poland",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "rowell_lithuania_1994",
+      "christiansen_the_1997",
+      "davies_gods_1981",
+      "lukowski_a_2001"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1386,
+    "to": 1500
+  }
+}

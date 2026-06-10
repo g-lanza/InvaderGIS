@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_hanseatic_danish_war_1361_c01",
+  "statement": "Valdemar IV's sack of the Hansa-protected port of Visby on Gotland in 1361 triggered a multi-year naval war by the Wendish towns against Denmark.",
+  "subject_ids": [
+    "kingdom_of_denmark"
+  ],
+  "period": {
+    "from": 1361,
+    "to": 1361
+  },
+  "derived_from": "hanseatic_danish_war_1361",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "abu_lughod_before_european_hegemony_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

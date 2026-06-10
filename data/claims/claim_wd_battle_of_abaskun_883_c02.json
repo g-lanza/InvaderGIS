@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_abaskun_883_c02",
+  "statement": "The Battle of Abaskun took place at Abaskun.",
+  "subject_ids": [
+    "kievan_rus"
+  ],
+  "period": {
+    "from": 883,
+    "to": 883
+  },
+  "derived_from": "wd_battle_of_abaskun_883",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "franklin_the_1996",
+      "riasanovsky_a_2000",
+      "martin_medieval_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

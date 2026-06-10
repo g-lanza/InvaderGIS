@@ -1,0 +1,67 @@
+{
+  "kind": "institution",
+  "dataset": "medieval-europe-500-1500",
+  "id": "eastern_orthodox_church",
+  "name_primary": "Eastern Orthodox Church",
+  "domain": "religious_institution",
+  "formed": 500,
+  "dissolved": 1500,
+  "_quarry": {
+    "key_developments": [
+      {
+        "year": 537,
+        "event": "Justinian completes Hagia Sophia — architectural icon of imperial Orthodoxy."
+      },
+      {
+        "year": 726,
+        "event": "Iconoclasm begins under Leo III — century-long debate over religious imagery."
+      },
+      {
+        "year": 843,
+        "event": "Triumph of Orthodoxy: icons restored permanently."
+      },
+      {
+        "year": 863,
+        "event": "Cyril and Methodius begin Slavic mission, inventing Glagolitic / Cyrillic script."
+      },
+      {
+        "year": 988,
+        "event": "Vladimir of Kievan Rus' baptized — Orthodoxy enters Slavic world."
+      },
+      {
+        "year": 1054,
+        "event": "Great Schism formalised."
+      },
+      {
+        "year": 1204,
+        "event": "Fourth Crusade sacks Constantinople; Latin Empire briefly displaces Orthodox patriarchate."
+      },
+      {
+        "year": 1453,
+        "event": "Fall of Constantinople; Moscow inherits 'Third Rome' status."
+      }
+    ],
+    "influences_entities": [
+      "byzantine_empire",
+      "kievan_rus",
+      "first_bulgarian_empire",
+      "second_bulgarian_empire",
+      "serbian_empire",
+      "serbian_despotate",
+      "grand_principality_of_moscow",
+      "principality_of_galicia_volhynia",
+      "empire_of_trebizond",
+      "empire_of_nicaea",
+      "despotate_of_epirus"
+    ],
+    "description": "The Greek-speaking Christian church centred on Constantinople, the Eastern Orthodox tradition preserved the Roman imperial religious heritage through Byzantine patronage of the four eastern patriarchates (Constantinople, Antioch, Alexandria, Jerusalem). Distinguished from Rome by acceptance of imperial authority in religious matters (caesaropapism), use of Greek liturgy, and rejection of the Filioque clause. The 1054 schism with Rome was the formal break, but mistrust between Greek and Latin Christendom deepened irreversibly during the Fourth Crusade's sack of Constantinople in 1204. By 1500 Orthodoxy had spread through Cyrillic-script Slavic missions into Rus', Bulgaria, and Serbia — making the Moscow patriarchate the natural successor after Constantinople fell in 1453."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "meyendorff_byzantium_and_rise_of_russia_1981",
+      "kazhdan_oxford_dictionary_byzantium_1991"
+    ],
+    "confidence": "low"
+  }
+}

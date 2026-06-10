@@ -1,0 +1,30 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_exarchate_of_ravenna_to_papal_states_fragmentation",
+  "statement": "Derived from predecessor/successor links recorded in the exarchate_of_ravenna and papal_states entity records. Transition anchored to papal_states start_year.",
+  "subject_ids": [
+    "exarchate_of_ravenna",
+    "papal_states"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_exarchate_of_ravenna_to_papal_states_fragmentation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "partner_the_1972",
+      "morris_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "papal_states"
+  ],
+  "period": {
+    "from": 754,
+    "to": 754
+  }
+}

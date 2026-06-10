@@ -1,0 +1,1230 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "song_empire",
+  "name_primary": "Song Empire",
+  "name_variants": [],
+  "type": "empire",
+  "region": "east_asia",
+  "formed": 960,
+  "dissolved": 1279,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 1000,
+      "label": "Northern Song (approx.)",
+      "polygon": [
+        [
+          40,
+          113
+        ],
+        [
+          40,
+          117
+        ],
+        [
+          40,
+          122
+        ],
+        [
+          38,
+          121
+        ],
+        [
+          35,
+          120
+        ],
+        [
+          32,
+          122
+        ],
+        [
+          28,
+          121
+        ],
+        [
+          24,
+          118
+        ],
+        [
+          22,
+          113
+        ],
+        [
+          21,
+          110
+        ],
+        [
+          22,
+          105
+        ],
+        [
+          25,
+          100
+        ],
+        [
+          29,
+          100
+        ],
+        [
+          33,
+          102
+        ],
+        [
+          36,
+          105
+        ],
+        [
+          40,
+          113
+        ]
+      ]
+    },
+    {
+      "year": 1100,
+      "label": "Northern Song (approx.)",
+      "polygon": [
+        [
+          40,
+          113
+        ],
+        [
+          40,
+          117
+        ],
+        [
+          40,
+          122
+        ],
+        [
+          38,
+          121
+        ],
+        [
+          35,
+          120
+        ],
+        [
+          32,
+          122
+        ],
+        [
+          28,
+          121
+        ],
+        [
+          24,
+          118
+        ],
+        [
+          22,
+          113
+        ],
+        [
+          21,
+          110
+        ],
+        [
+          22,
+          105
+        ],
+        [
+          25,
+          100
+        ],
+        [
+          29,
+          100
+        ],
+        [
+          33,
+          102
+        ],
+        [
+          36,
+          105
+        ],
+        [
+          40,
+          113
+        ]
+      ]
+    },
+    {
+      "year": 1200,
+      "label": "Song dynasty (approx.)",
+      "polygon": [
+        [
+          40,
+          113
+        ],
+        [
+          40,
+          117
+        ],
+        [
+          40,
+          122
+        ],
+        [
+          38,
+          121
+        ],
+        [
+          35,
+          120
+        ],
+        [
+          32,
+          122
+        ],
+        [
+          28,
+          121
+        ],
+        [
+          24,
+          118
+        ],
+        [
+          22,
+          113
+        ],
+        [
+          21,
+          110
+        ],
+        [
+          22,
+          105
+        ],
+        [
+          25,
+          100
+        ],
+        [
+          29,
+          100
+        ],
+        [
+          33,
+          102
+        ],
+        [
+          36,
+          105
+        ],
+        [
+          40,
+          113
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    31.0151,
+    111.3171
+  ],
+  "population_estimates": [
+    {
+      "year": 1000,
+      "estimate": 60000000,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q7462",
+          "url": "https://www.wikidata.org/wiki/Q7462",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Song Empire",
+          "url": "https://en.wikipedia.org/wiki/Song_dynasty"
+        }
+      ]
+    },
+    {
+      "year": 1100,
+      "estimate": 80000000,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q7462",
+          "url": "https://www.wikidata.org/wiki/Q7462",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Song Empire",
+          "url": "https://en.wikipedia.org/wiki/Song_dynasty"
+        }
+      ]
+    },
+    {
+      "year": 1200,
+      "estimate": 100000000,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q7462",
+          "url": "https://www.wikidata.org/wiki/Q7462",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Song Empire",
+          "url": "https://en.wikipedia.org/wiki/Song_dynasty"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Chinese dynasty (960–1279) that reunified the fractured Five Dynasties period and presided over the most economically sophisticated pre-industrial society the world had yet seen; gunpowder weapons, magnetic compasses, moveable-type printing, paper money, and canal networks developed under Song governance, while its neo-Confucian civil service examination system defined Chinese bureaucratic culture; military weakness against the Jurchens and Mongols forced the court south but the Southern Song economy continued to dominate East Asian trade.",
+  "temporal": {
+    "start_year": 960,
+    "end_year": 1279,
+    "notes": ""
+  },
+  "geographic": {
+    "centroid": [
+      31.0151,
+      111.3171
+    ],
+    "polygon_simplified": [
+      [
+        40,
+        113
+      ],
+      [
+        40,
+        117
+      ],
+      [
+        40,
+        122
+      ],
+      [
+        38,
+        121
+      ],
+      [
+        35,
+        120
+      ],
+      [
+        32,
+        122
+      ],
+      [
+        28,
+        121
+      ],
+      [
+        24,
+        118
+      ],
+      [
+        22,
+        113
+      ],
+      [
+        21,
+        110
+      ],
+      [
+        22,
+        105
+      ],
+      [
+        25,
+        100
+      ],
+      [
+        29,
+        100
+      ],
+      [
+        33,
+        102
+      ],
+      [
+        36,
+        105
+      ],
+      [
+        40,
+        113
+      ]
+    ],
+    "capital": {
+      "name": "Bianliang",
+      "coords": [
+        34.79361,
+        114.34028
+      ],
+      "source": "wikidata"
+    },
+    "polygon_snapshots": [
+      {
+        "year": 1000,
+        "label": "Northern Song (approx.)",
+        "polygon": [
+          [
+            40,
+            113
+          ],
+          [
+            40,
+            117
+          ],
+          [
+            40,
+            122
+          ],
+          [
+            38,
+            121
+          ],
+          [
+            35,
+            120
+          ],
+          [
+            32,
+            122
+          ],
+          [
+            28,
+            121
+          ],
+          [
+            24,
+            118
+          ],
+          [
+            22,
+            113
+          ],
+          [
+            21,
+            110
+          ],
+          [
+            22,
+            105
+          ],
+          [
+            25,
+            100
+          ],
+          [
+            29,
+            100
+          ],
+          [
+            33,
+            102
+          ],
+          [
+            36,
+            105
+          ],
+          [
+            40,
+            113
+          ]
+        ]
+      },
+      {
+        "year": 1100,
+        "label": "Northern Song (approx.)",
+        "polygon": [
+          [
+            40,
+            113
+          ],
+          [
+            40,
+            117
+          ],
+          [
+            40,
+            122
+          ],
+          [
+            38,
+            121
+          ],
+          [
+            35,
+            120
+          ],
+          [
+            32,
+            122
+          ],
+          [
+            28,
+            121
+          ],
+          [
+            24,
+            118
+          ],
+          [
+            22,
+            113
+          ],
+          [
+            21,
+            110
+          ],
+          [
+            22,
+            105
+          ],
+          [
+            25,
+            100
+          ],
+          [
+            29,
+            100
+          ],
+          [
+            33,
+            102
+          ],
+          [
+            36,
+            105
+          ],
+          [
+            40,
+            113
+          ]
+        ]
+      },
+      {
+        "year": 1200,
+        "label": "Song dynasty (approx.)",
+        "polygon": [
+          [
+            40,
+            113
+          ],
+          [
+            40,
+            117
+          ],
+          [
+            40,
+            122
+          ],
+          [
+            38,
+            121
+          ],
+          [
+            35,
+            120
+          ],
+          [
+            32,
+            122
+          ],
+          [
+            28,
+            121
+          ],
+          [
+            24,
+            118
+          ],
+          [
+            22,
+            113
+          ],
+          [
+            21,
+            110
+          ],
+          [
+            22,
+            105
+          ],
+          [
+            25,
+            100
+          ],
+          [
+            29,
+            100
+          ],
+          [
+            33,
+            102
+          ],
+          [
+            36,
+            105
+          ],
+          [
+            40,
+            113
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "approximate",
+    "polygon_source": "hand_crafted",
+    "polygon_source_date": "2026-05-11"
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "formation",
+      "years": "960–997",
+      "description": "Taizu reunifies the Five Dynasties; professional army replaces warlord militias; civil service expanded",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q7462",
+          "url": "https://www.wikidata.org/wiki/Q7462"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Song Empire",
+          "url": "https://en.wikipedia.org/wiki/Song_dynasty"
+        }
+      ]
+    },
+    {
+      "phase": "peak",
+      "years": "997–1127",
+      "description": "Northern Song economic revolution: paper money, gunpowder, compass, printing; population reaches 100 million; Kaifeng becomes world's largest city",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q7462",
+          "url": "https://www.wikidata.org/wiki/Q7462"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Song Empire",
+          "url": "https://en.wikipedia.org/wiki/Song_dynasty"
+        }
+      ]
+    },
+    {
+      "phase": "crisis",
+      "years": "1127",
+      "description": "Jurchen Jin dynasty captures Kaifeng and the emperor; Northern Song collapses; court flees south",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q7462",
+          "url": "https://www.wikidata.org/wiki/Q7462"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Song Empire",
+          "url": "https://en.wikipedia.org/wiki/Song_dynasty"
+        }
+      ]
+    },
+    {
+      "phase": "consolidation",
+      "years": "1127–1279",
+      "description": "Southern Song at Hangzhou; maritime trade replaces northern overland routes; neo-Confucian academies flourish; economy remains world's most sophisticated",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q7462",
+          "url": "https://www.wikidata.org/wiki/Q7462"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Song Empire",
+          "url": "https://en.wikipedia.org/wiki/Song_dynasty"
+        }
+      ]
+    },
+    {
+      "phase": "dissolution",
+      "years": "1267–1279",
+      "description": "Kublai Khan's Mongol-Chinese forces besiege Xiangyang (1267–73); naval defeat at Yamen (1279) ends the dynasty",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q7462",
+          "url": "https://www.wikidata.org/wiki/Q7462"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Song Empire",
+          "url": "https://en.wikipedia.org/wiki/Song_dynasty"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "administrative_innovation",
+      "layer": "governance_institutional",
+      "description": "Expanded civil service examination opened governance to commoner talent, reducing aristocratic military power and stabilising administration",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q7462",
+          "url": "https://www.wikidata.org/wiki/Q7462"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Song Empire",
+          "url": "https://en.wikipedia.org/wiki/Song_dynasty"
+        }
+      ]
+    },
+    {
+      "tag": "trade_route_control",
+      "layer": "economic_commercial",
+      "description": "Southern Song maritime commerce through Quanzhou and Guangzhou made China the dominant partner in Indian Ocean and East Asian trade networks",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q7462",
+          "url": "https://www.wikidata.org/wiki/Q7462"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Song Empire",
+          "url": "https://en.wikipedia.org/wiki/Song_dynasty"
+        }
+      ]
+    },
+    {
+      "tag": "resource_concentration",
+      "layer": "economic_commercial",
+      "description": "Yangtze Delta agricultural productivity and Jiangnan silk industry created the world's most advanced pre-industrial commercial economy",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q7462",
+          "url": "https://www.wikidata.org/wiki/Q7462"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Song Empire",
+          "url": "https://en.wikipedia.org/wiki/Song_dynasty"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "military_organizational_advantage",
+      "layer": "military_security",
+      "description": "Song's deliberate weakening of military commanders relative to civil officials left it without effective cavalry against steppe nomadic threats",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q7462",
+          "url": "https://www.wikidata.org/wiki/Q7462"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Song Empire",
+          "url": "https://en.wikipedia.org/wiki/Song_dynasty"
+        }
+      ]
+    },
+    {
+      "tag": "rival_fragmentation",
+      "layer": "external_political",
+      "description": "Jurchen Jin and later Mongol military superiority in cavalry tactics was never successfully countered by Song defensive strategy",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q7462",
+          "url": "https://www.wikidata.org/wiki/Q7462"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Song Empire",
+          "url": "https://en.wikipedia.org/wiki/Song_dynasty"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Zhao Kuangyin (Taizu)",
+      "role": "emperor",
+      "years": "960–976",
+      "year_start": 960,
+      "year_end": 976,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Zhao Kuangyin (Taizu)",
+          "url": "https://en.wikipedia.org/wiki/Zhao_Kuangyin_(Taizu)"
+        }
+      ]
+    },
+    {
+      "name": "Zhao Guangyi (Taizong)",
+      "role": "emperor",
+      "years": "976–997",
+      "year_start": 976,
+      "year_end": 997,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Zhao Guangyi (Taizong)",
+          "url": "https://en.wikipedia.org/wiki/Zhao_Guangyi_(Taizong)"
+        }
+      ]
+    },
+    {
+      "name": "Zhao Ji (Huizong)",
+      "role": "emperor",
+      "years": "1100–1125",
+      "year_start": 1100,
+      "year_end": 1125,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Zhao Ji (Huizong)",
+          "url": "https://en.wikipedia.org/wiki/Zhao_Ji_(Huizong)"
+        }
+      ]
+    },
+    {
+      "name": "Zhao Gou (Gaozong)",
+      "role": "emperor",
+      "years": "1127–1162",
+      "year_start": 1127,
+      "year_end": 1162,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Zhao Gou (Gaozong)",
+          "url": "https://en.wikipedia.org/wiki/Zhao_Gou_(Gaozong)"
+        }
+      ]
+    }
+  ],
+  "successor_entity_ids": [
+    "yuan_dynasty"
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "maritime_trade",
+      "manufacturing",
+      "silk_production",
+      "porcelain"
+    ],
+    "wealth_level": "very_high",
+    "major_exports": [
+      "silk",
+      "porcelain",
+      "tea",
+      "paper",
+      "iron"
+    ],
+    "major_trade_partners": [
+      "liao",
+      "xixia",
+      "srivijaya_empire",
+      "annam"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "commercial_taxes",
+      "maritime_customs",
+      "monopolies"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q7462",
+        "url": "https://www.wikidata.org/wiki/Q7462"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Song Empire",
+        "url": "https://en.wikipedia.org/wiki/Song_dynasty"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q7462",
+    "matched_name": "manual/song_empire",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Song_dynasty",
+    "capital": {
+      "name": "Bianliang",
+      "coords": [
+        34.79361,
+        114.34028
+      ]
+    },
+    "rulers_from_wikidata": [
+      {
+        "name": "Emperor Taizu of Song",
+        "qid": "Q7471",
+        "year_start": 960,
+        "year_end": 976,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q7471",
+            "url": "https://www.wikidata.org/wiki/Q7471"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Emperor Taizu of Song",
+            "url": "https://en.wikipedia.org/wiki/Emperor_Taizu_of_Song"
+          }
+        ]
+      },
+      {
+        "name": "Emperor Taizong of Song",
+        "qid": "Q7473",
+        "year_start": 976,
+        "year_end": 997,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q7473",
+            "url": "https://www.wikidata.org/wiki/Q7473"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Emperor Taizong of Song",
+            "url": "https://en.wikipedia.org/wiki/Emperor_Taizong_of_Song"
+          }
+        ]
+      },
+      {
+        "name": "Emperor Zhenzong of Song",
+        "qid": "Q7475",
+        "year_start": 997,
+        "year_end": 1022,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q7475",
+            "url": "https://www.wikidata.org/wiki/Q7475"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Emperor Zhenzong of Song",
+            "url": "https://en.wikipedia.org/wiki/Emperor_Zhenzong"
+          }
+        ]
+      },
+      {
+        "name": "Emperor Renzong of Song",
+        "qid": "Q7477",
+        "year_start": 1022,
+        "year_end": 1063,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q7477",
+            "url": "https://www.wikidata.org/wiki/Q7477"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Emperor Renzong of Song",
+            "url": "https://en.wikipedia.org/wiki/Emperor_Renzong_of_Song"
+          }
+        ]
+      },
+      {
+        "name": "Emperor Yingzong of Song",
+        "qid": "Q7479",
+        "year_start": 1063,
+        "year_end": 1067,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q7479",
+            "url": "https://www.wikidata.org/wiki/Q7479"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Emperor Yingzong of Song",
+            "url": "https://en.wikipedia.org/wiki/Emperor_Yingzong_of_Song"
+          }
+        ]
+      },
+      {
+        "name": "Emperor Shenzong of Song",
+        "qid": "Q7483",
+        "year_start": 1067,
+        "year_end": 1085,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q7483",
+            "url": "https://www.wikidata.org/wiki/Q7483"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Emperor Shenzong of Song",
+            "url": "https://en.wikipedia.org/wiki/Emperor_Shenzong_of_Song"
+          }
+        ]
+      },
+      {
+        "name": "Emperor Zhezong of Song",
+        "qid": "Q7484",
+        "year_start": 1085,
+        "year_end": 1100,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q7484",
+            "url": "https://www.wikidata.org/wiki/Q7484"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Emperor Zhezong of Song",
+            "url": "https://en.wikipedia.org/wiki/Emperor_Zhezong"
+          }
+        ]
+      },
+      {
+        "name": "Emperor Huizong of Song",
+        "qid": "Q7486",
+        "year_start": 1100,
+        "year_end": 1126,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q7486",
+            "url": "https://www.wikidata.org/wiki/Q7486"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Emperor Huizong of Song",
+            "url": "https://en.wikipedia.org/wiki/Emperor_Huizong_of_Song"
+          }
+        ]
+      },
+      {
+        "name": "Emperor Qinzong of Song",
+        "qid": "Q7488",
+        "year_start": 1126,
+        "year_end": 1127,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q7488",
+            "url": "https://www.wikidata.org/wiki/Q7488"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Emperor Qinzong of Song",
+            "url": "https://en.wikipedia.org/wiki/Emperor_Qinzong"
+          }
+        ]
+      },
+      {
+        "name": "Emperor Gaozong of Song",
+        "qid": "Q7489",
+        "year_start": 1127,
+        "year_end": 1129,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q7489",
+            "url": "https://www.wikidata.org/wiki/Q7489"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Emperor Gaozong of Song",
+            "url": "https://en.wikipedia.org/wiki/Emperor_Gaozong_of_Song"
+          }
+        ]
+      },
+      {
+        "name": "Zhao Fu",
+        "qid": "Q11636648",
+        "year_start": 1129,
+        "year_end": 1129,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q11636648",
+            "url": "https://www.wikidata.org/wiki/Q11636648"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Zhao Fu",
+            "url": "https://en.wikipedia.org/wiki/Zhao_Fu"
+          }
+        ]
+      },
+      {
+        "name": "Emperor Xiaozong of Song",
+        "qid": "Q7492",
+        "year_start": 1162,
+        "year_end": 1189,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q7492",
+            "url": "https://www.wikidata.org/wiki/Q7492"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Emperor Xiaozong of Song",
+            "url": "https://en.wikipedia.org/wiki/Emperor_Xiaozong_of_Song"
+          }
+        ]
+      },
+      {
+        "name": "Emperor Guangzong of Song",
+        "qid": "Q7494",
+        "year_start": 1189,
+        "year_end": 1194,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q7494",
+            "url": "https://www.wikidata.org/wiki/Q7494"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Emperor Guangzong of Song",
+            "url": "https://en.wikipedia.org/wiki/Emperor_Guangzong_of_Song"
+          }
+        ]
+      },
+      {
+        "name": "Emperor Ningzong of Song",
+        "qid": "Q7496",
+        "year_start": 1194,
+        "year_end": 1224,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q7496",
+            "url": "https://www.wikidata.org/wiki/Q7496"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Emperor Ningzong of Song",
+            "url": "https://en.wikipedia.org/wiki/Emperor_Ningzong"
+          }
+        ]
+      },
+      {
+        "name": "Emperor Lizong of Song",
+        "qid": "Q7497",
+        "year_start": 1224,
+        "year_end": 1264,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q7497",
+            "url": "https://www.wikidata.org/wiki/Q7497"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Emperor Lizong of Song",
+            "url": "https://en.wikipedia.org/wiki/Emperor_Lizong"
+          }
+        ]
+      },
+      {
+        "name": "Emperor Duzong of Song",
+        "qid": "Q7498",
+        "year_start": 1264,
+        "year_end": 1274,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q7498",
+            "url": "https://www.wikidata.org/wiki/Q7498"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Emperor Duzong of Song",
+            "url": "https://en.wikipedia.org/wiki/Emperor_Duzong"
+          }
+        ]
+      },
+      {
+        "name": "Emperor Gong of Song",
+        "qid": "Q7500",
+        "year_start": 1274,
+        "year_end": 1276,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q7500",
+            "url": "https://www.wikidata.org/wiki/Q7500"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Emperor Gong of Song",
+            "url": "https://en.wikipedia.org/wiki/Emperor_Gong_of_Song"
+          }
+        ]
+      },
+      {
+        "name": "Emperor Duanzong of Song",
+        "qid": "Q7501",
+        "year_start": 1276,
+        "year_end": 1278,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q7501",
+            "url": "https://www.wikidata.org/wiki/Q7501"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Emperor Duanzong of Song",
+            "url": "https://en.wikipedia.org/wiki/Emperor_Duanzong"
+          }
+        ]
+      },
+      {
+        "name": "Emperor Bing of Song",
+        "qid": "Q7503",
+        "year_start": 1278,
+        "year_end": 1279,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q7503",
+            "url": "https://www.wikidata.org/wiki/Q7503"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Emperor Bing of Song",
+            "url": "https://en.wikipedia.org/wiki/Zhao_Bing"
+          }
+        ]
+      }
+    ],
+    "predecessors_from_wikidata": [
+      "Later Zhou dynasty"
+    ]
+  },
+  "monogram": "SE"
+}

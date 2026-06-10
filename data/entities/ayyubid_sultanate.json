@@ -1,0 +1,1331 @@
+{
+ "kind": "polity",
+ "dataset": "medieval-europe-500-1500",
+ "id": "ayyubid_sultanate",
+ "name_primary": "Ayyubid Sultanate",
+ "name_variants": [
+  "Ayyubid Dynasty",
+  "Ayyubid Empire"
+ ],
+ "type": "empire",
+ "region": "near_east",
+ "formed": 1171,
+ "dissolved": 1341,
+ "capital_history": [],
+ "polygon_snapshots": [],
+ "centroid": [
+  30.2,
+  31.2
+ ],
+ "religion": "islam",
+ "population_estimates": [
+  {
+   "year": 1180,
+   "estimate": 6000000,
+   "confidence": "low",
+   "sources": [
+    {
+     "type": "wikidata",
+     "id": "Q180114",
+     "url": "https://www.wikidata.org/wiki/Q180114",
+     "statement": "P1082"
+    },
+    {
+     "type": "wikipedia",
+     "label": "Ayyubid Sultanate",
+     "url": "https://en.wikipedia.org/wiki/Ayyubid_dynasty"
+    }
+   ]
+  },
+  {
+   "year": 1200,
+   "estimate": 7500000,
+   "confidence": "high",
+   "sources": [
+    {
+     "type": "wikidata",
+     "id": "Q180114",
+     "url": "https://www.wikidata.org/wiki/Q180114",
+     "statement": "P1082"
+    },
+    {
+     "type": "wikipedia",
+     "label": "Ayyubid Sultanate",
+     "url": "https://en.wikipedia.org/wiki/Ayyubid_dynasty"
+    }
+   ]
+  },
+  {
+   "year": 1240,
+   "estimate": 6000000,
+   "confidence": "low",
+   "sources": [
+    {
+     "type": "wikidata",
+     "id": "Q180114",
+     "url": "https://www.wikidata.org/wiki/Q180114",
+     "statement": "P1082"
+    },
+    {
+     "type": "wikipedia",
+     "label": "Ayyubid Sultanate",
+     "url": "https://en.wikipedia.org/wiki/Ayyubid_dynasty"
+    }
+   ]
+  }
+ ],
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "humphreys_from_1977",
+   "lyons_saladin_1982",
+   "ims_fordham",
+   "ims_fordham_sbook1d",
+   "ims_fordham_sbookmap"
+  ],
+  "confidence": "low"
+ },
+ "description": "Sunni Kurdish dynasty founded by Saladin (1171) that reunified Egypt, Syria, and the Jazira under a single strategic command; its conquest of Jerusalem (1187) remade the Crusader states' political geography and its sophisticated administrative devolution into appanages for family princes created the fragmentation later exploited by the Mongols and Mamluks.",
+ "temporal": {
+  "start_year": 1171,
+  "end_year": 1341,
+  "notes": "Founded by Saladin; unites Egypt and Syria; Saladin retakes Jerusalem 1187; dynasty fragments after Saladin's death; last Ayyubid rulers ousted by Mamluks in Egypt (1250) and in Syria (1260)"
+ },
+ "geographic": {
+  "representation": "approximate",
+  "centroid": [
+   30.2,
+   31.2
+  ],
+  "core_regions": [
+   "Egypt",
+   "Syria",
+   "Palestine",
+   "Yemen",
+   "Mesopotamia"
+  ],
+  "polygon_simplified": [
+   [
+    [
+     22,
+     28
+    ],
+    [
+     22,
+     38
+    ],
+    [
+     22,
+     48
+    ],
+    [
+     29.75,
+     48
+    ],
+    [
+     37.5,
+     48
+    ],
+    [
+     37.5,
+     38
+    ],
+    [
+     37.5,
+     28
+    ],
+    [
+     29.75,
+     28
+    ],
+    [
+     22,
+     28
+    ]
+   ]
+  ],
+  "capital": {
+   "name": "Cairo",
+   "coords": [
+    30.04444,
+    31.23583
+   ],
+   "source": "wikidata"
+  }
+ },
+ "internal_structure": {
+  "governance_type": "military_monarchy",
+  "legitimacy_basis": [
+   "religious_authority",
+   "military_conquest",
+   "dynastic"
+  ],
+  "centralization": "decentralized"
+ },
+ "lifecycle_phases": [
+  {
+   "phase": "unification_under_saladin",
+   "years": "1171–1193",
+   "description": "Saladin abolishes the Fatimid Caliphate (1171), reuniting Egypt with Sunni orthodoxy; defeats Crusaders at Hattin (1187) and retakes Jerusalem; repels Third Crusade at Acre; dies 1193 having reunited the Islamic Near East",
+   "sources": [
+    {
+     "type": "wikidata",
+     "id": "Q180114",
+     "url": "https://www.wikidata.org/wiki/Q180114"
+    },
+    {
+     "type": "wikipedia",
+     "label": "Ayyubid Sultanate",
+     "url": "https://en.wikipedia.org/wiki/Ayyubid_dynasty"
+    }
+   ]
+  },
+  {
+   "phase": "fragmentation_under_successors",
+   "years": "1193–1250",
+   "description": "Saladin's empire divided among his brothers and sons; multiple Ayyubid sultans in Egypt, Damascus, Aleppo, and Yemen pursue independent policies; Fifth and Sixth Crusades negotiated away; al-Kamil cedes Jerusalem to Frederick II (1229)",
+   "sources": [
+    {
+     "type": "wikidata",
+     "id": "Q180114",
+     "url": "https://www.wikidata.org/wiki/Q180114"
+    },
+    {
+     "type": "wikipedia",
+     "label": "Ayyubid Sultanate",
+     "url": "https://en.wikipedia.org/wiki/Ayyubid_dynasty"
+    }
+   ]
+  },
+  {
+   "phase": "mamluk_displacement",
+   "years": "1250–1341",
+   "description": "Egyptian Ayyubids overthrown by their own Mamluk slave-soldiers (1250); Ayyubid princes survive in Hama and other Syrian cities until Mongol invasions and Mamluk consolidation eliminate remaining branches by 1341",
+   "sources": [
+    {
+     "type": "wikidata",
+     "id": "Q180114",
+     "url": "https://www.wikidata.org/wiki/Q180114"
+    },
+    {
+     "type": "wikipedia",
+     "label": "Ayyubid Sultanate",
+     "url": "https://en.wikipedia.org/wiki/Ayyubid_dynasty"
+    }
+   ]
+  }
+ ],
+ "rise_factors": [
+  {
+   "tag": "military_organizational_advantage",
+   "layer": "military_security",
+   "description": "Saladin combined Kurdish tribal forces with professional Syrian and Egyptian armies into a coherent command structure; his siege warfare ended Crusader castle dominance at key fortresses",
+   "sources": [
+    {
+     "type": "wikidata",
+     "id": "Q180114",
+     "url": "https://www.wikidata.org/wiki/Q180114"
+    },
+    {
+     "type": "wikipedia",
+     "label": "Ayyubid Sultanate",
+     "url": "https://en.wikipedia.org/wiki/Ayyubid_dynasty"
+    }
+   ]
+  },
+  {
+   "tag": "religious_legitimacy",
+   "layer": "ideology_religion",
+   "description": "Saladin cultivated the image of the ideal Sunni ruler defending Islam against Crusaders and the heretical Fatimids; retaking Jerusalem in 1187 gave enormous religious prestige throughout the Islamic world",
+   "sources": [
+    {
+     "type": "wikidata",
+     "id": "Q180114",
+     "url": "https://www.wikidata.org/wiki/Q180114"
+    },
+    {
+     "type": "wikipedia",
+     "label": "Ayyubid Sultanate",
+     "url": "https://en.wikipedia.org/wiki/Ayyubid_dynasty"
+    }
+   ]
+  },
+  {
+   "tag": "rival_fragmentation",
+   "layer": "external_political",
+   "description": "Exploited the Crusader states' internal succession crises (Baldwin IV's leprosy, disputed regencies) and the Fatimid caliphate's weakness to build a unified Egyptian-Syrian power base",
+   "sources": [
+    {
+     "type": "wikidata",
+     "id": "Q180114",
+     "url": "https://www.wikidata.org/wiki/Q180114"
+    },
+    {
+     "type": "wikipedia",
+     "label": "Ayyubid Sultanate",
+     "url": "https://en.wikipedia.org/wiki/Ayyubid_dynasty"
+    }
+   ]
+  },
+  {
+   "layer": "governance_institutional",
+   "tag": "dynastic_consolidation",
+   "direction": "rise",
+   "description": "Saladin eliminated Fatimid Shiism from Egypt (1171) and reunited Egypt, Syria, and Mesopotamia under Sunni rule for the first time since the 10th century. This reunification concentrated resources that had been divided between rival caliphates.",
+   "sources": [
+    {
+     "type": "wikidata",
+     "id": "Q180114",
+     "url": "https://www.wikidata.org/wiki/Q180114"
+    },
+    {
+     "type": "wikipedia",
+     "label": "Ayyubid Sultanate",
+     "url": "https://en.wikipedia.org/wiki/Ayyubid_dynasty"
+    }
+   ],
+   "tag_prose": "saladin_sunni_reunification"
+  },
+  {
+   "layer": "military_security",
+   "tag": "hattin_crusader_destruction",
+   "direction": "rise",
+   "description": "The Battle of Hattin (1187) annihilated the Kingdom of Jerusalem's field army and captured its True Cross relic. The subsequent capture of Jerusalem triggered the Third Crusade but demonstrated that sustained Muslim military mobilization could reverse Crusader territorial gains.",
+   "sources": [
+    {
+     "type": "wikidata",
+     "id": "Q180114",
+     "url": "https://www.wikidata.org/wiki/Q180114"
+    },
+    {
+     "type": "wikipedia",
+     "label": "Ayyubid Sultanate",
+     "url": "https://en.wikipedia.org/wiki/Ayyubid_dynasty"
+    }
+   ]
+  },
+  {
+   "layer": "external_political",
+   "tag": "jerusalem_negotiated_return",
+   "direction": "rise",
+   "description": "The Treaty of Jaffa (1229), Al-Kamil's negotiation with Frederick II, returned Jerusalem without military loss. This diplomatic flexibility, sacrificing territory for peace to address internal threats, demonstrated sophisticated foreign policy realism.",
+   "sources": [
+    {
+     "type": "wikidata",
+     "id": "Q180114",
+     "url": "https://www.wikidata.org/wiki/Q180114"
+    },
+    {
+     "type": "wikipedia",
+     "label": "Ayyubid Sultanate",
+     "url": "https://en.wikipedia.org/wiki/Ayyubid_dynasty"
+    }
+   ]
+  }
+ ],
+ "decline_factors": [
+  {
+   "tag": "succession_instability",
+   "layer": "dynastic_legitimacy",
+   "description": "Saladin's practice of dividing territories among relatives created endemic fragmentation; Ayyubid princes frequently allied with Crusaders against each other, destroying the dynasty's anti-Crusader unity",
+   "sources": [
+    {
+     "type": "wikidata",
+     "id": "Q180114",
+     "url": "https://www.wikidata.org/wiki/Q180114"
+    },
+    {
+     "type": "wikipedia",
+     "label": "Ayyubid Sultanate",
+     "url": "https://en.wikipedia.org/wiki/Ayyubid_dynasty"
+    }
+   ]
+  },
+  {
+   "tag": "military_technological_advantage",
+   "layer": "military_security",
+   "description": "The Mamluks (slave-soldier elite created by the Ayyubids themselves) developed superior military cohesion; Egyptian Mamluks overthrew Sultan Turanshah immediately after defeating the Seventh Crusade at Mansura",
+   "sources": [
+    {
+     "type": "wikidata",
+     "id": "Q180114",
+     "url": "https://www.wikidata.org/wiki/Q180114"
+    },
+    {
+     "type": "wikipedia",
+     "label": "Ayyubid Sultanate",
+     "url": "https://en.wikipedia.org/wiki/Ayyubid_dynasty"
+    }
+   ]
+  },
+  {
+   "layer": "governance_institutional",
+   "tag": "ayyubid_dynastic_division",
+   "direction": "decline",
+   "description": "Saladin's practice of distributing provinces to family members created permanent Ayyubid sub-dynasties in Damascus, Aleppo, Homs, Hamah, and Yemen. These relatives cooperated occasionally but competed chronically, preventing unified military response to both Crusaders and Mongols.",
+   "sources": [
+    {
+     "type": "wikidata",
+     "id": "Q180114",
+     "url": "https://www.wikidata.org/wiki/Q180114"
+    },
+    {
+     "type": "wikipedia",
+     "label": "Ayyubid Sultanate",
+     "url": "https://en.wikipedia.org/wiki/Ayyubid_dynasty"
+    }
+   ]
+  },
+  {
+   "layer": "military_security",
+   "tag": "mamluk_military_coup",
+   "direction": "decline",
+   "description": "The Mamluk slave-soldiers, brought in for military strength, overthrew Sultan Turanshah (1250) just after defeating the Seventh Crusade. This military coup ended Ayyubid rule in Egypt and inaugurated the Mamluk sultanate, which rapidly absorbed remaining Ayyubid territories.",
+   "sources": [
+    {
+     "type": "wikidata",
+     "id": "Q180114",
+     "url": "https://www.wikidata.org/wiki/Q180114"
+    },
+    {
+     "type": "wikipedia",
+     "label": "Ayyubid Sultanate",
+     "url": "https://en.wikipedia.org/wiki/Ayyubid_dynasty"
+    }
+   ]
+  }
+ ],
+ "key_figures": [
+  {
+   "name": "Saladin",
+   "role": "dynastic_founder",
+   "years": "1138–1193",
+   "year_start": 1138,
+   "year_end": 1193,
+   "sources": [
+    {
+     "type": "wikipedia",
+     "label": "Saladin",
+     "url": "https://en.wikipedia.org/wiki/Saladin"
+    }
+   ]
+  },
+  {
+   "name": "al-Adil I",
+   "role": "ruler",
+   "years": "1145–1218",
+   "year_start": 1145,
+   "year_end": 1218,
+   "sources": [
+    {
+     "type": "wikipedia",
+     "label": "al-Adil I",
+     "url": "https://en.wikipedia.org/wiki/Al-Adil_I"
+    }
+   ]
+  },
+  {
+   "name": "al-Kamil",
+   "role": "ruler",
+   "years": "1180–1238",
+   "year_start": 1180,
+   "year_end": 1238,
+   "sources": [
+    {
+     "type": "wikipedia",
+     "label": "al-Kamil",
+     "url": "https://en.wikipedia.org/wiki/Al-Kamil"
+    }
+   ]
+  }
+ ],
+ "predecessor_entity_ids": [
+  "fatimid_caliphate"
+ ],
+ "successor_entity_ids": [
+  "mamluk_sultanate"
+ ],
+ "primary_ethnicity": "arab",
+ "ethnic_composition": [
+  {
+   "group": "arab",
+   "proportion": 0.58
+  },
+  {
+   "group": "berber_north_african",
+   "proportion": 0.12
+  },
+  {
+   "group": "persian_iranian",
+   "proportion": 0.12
+  },
+  {
+   "group": "turkic",
+   "proportion": 0.12
+  },
+  {
+   "group": "greek_byzantine",
+   "proportion": 0.06
+  }
+ ],
+ "religion_composition": [
+  {
+   "religion": "islam",
+   "proportion": 0.62
+  },
+  {
+   "religion": "orthodox",
+   "proportion": 0.2
+  },
+  {
+   "religion": "jewish",
+   "proportion": 0.08
+  },
+  {
+   "religion": "catholic",
+   "proportion": 0.07
+  },
+  {
+   "religion": "armenian",
+   "proportion": 0.03
+  }
+ ],
+ "primary_language": "arabic",
+ "language_composition": [
+  {
+   "language": "arabic",
+   "proportion": 0.68,
+   "role": "vernacular"
+  },
+  {
+   "language": "persian",
+   "proportion": 0.18,
+   "role": "administrative"
+  },
+  {
+   "language": "greek",
+   "proportion": 0.08,
+   "role": "regional"
+  },
+  {
+   "language": "armenian_lang",
+   "proportion": 0.06,
+   "role": "regional"
+  }
+ ],
+ "economic": {
+  "primary_base": "agriculture",
+  "secondary_bases": [
+   "long_distance_trade",
+   "tribute"
+  ],
+  "wealth_level": "high",
+  "major_exports": [
+   "grain",
+   "sugar",
+   "cotton",
+   "spices"
+  ],
+  "major_trade_partners": [
+   "republic_of_venice",
+   "republic_of_genoa",
+   "kingdom_of_jerusalem",
+   "byzantine_empire"
+  ],
+  "revenue_sources": [
+   "land_tax",
+   "customs_duties",
+   "tribute"
+  ],
+  "sources": [
+   {
+    "type": "wikidata",
+    "id": "Q180114",
+    "url": "https://www.wikidata.org/wiki/Q180114"
+   },
+   {
+    "type": "wikipedia",
+    "label": "Ayyubid Sultanate",
+    "url": "https://en.wikipedia.org/wiki/Ayyubid_dynasty"
+   }
+  ]
+ },
+ "social_structure": {
+  "ruling_ethnicity": "arab",
+  "subject_majority": "arab",
+  "military_ethnicity": "arab",
+  "administrative_language": "arabic",
+  "stratification_type": "dynastic_multiethnic"
+ },
+ "wikidata_enrichment": {
+  "qid": "Q180114",
+  "matched_name": "manual/ayyubid_sultanate",
+  "enrichment_date": "2026-05-14",
+  "enrichment_status": "pending_human_review",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ayyubid_dynasty",
+  "capital": {
+   "name": "Cairo",
+   "coords": [
+    30.04444,
+    31.23583
+   ]
+  },
+  "rulers_from_wikidata": [
+   {
+    "name": "Baydara",
+    "qid": "Q11908849",
+    "year_start": null,
+    "year_end": null,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q11908849",
+      "url": "https://www.wikidata.org/wiki/Q11908849"
+     },
+     {
+      "type": "wikipedia",
+      "label": "Baydara",
+      "url": "https://en.wikipedia.org/wiki/Baydara"
+     }
+    ]
+   },
+   {
+    "name": "Fuad I of Egypt",
+    "qid": "Q311839",
+    "year_start": null,
+    "year_end": null,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q311839",
+      "url": "https://www.wikidata.org/wiki/Q311839"
+     },
+     {
+      "type": "wikipedia",
+      "label": "Fuad I of Egypt",
+      "url": "https://en.wikipedia.org/wiki/Fuad_I_of_Egypt"
+     }
+    ]
+   },
+   {
+    "name": "Hussein Kamel of Egypt",
+    "qid": "Q365930",
+    "year_start": null,
+    "year_end": null,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q365930",
+      "url": "https://www.wikidata.org/wiki/Q365930"
+     },
+     {
+      "type": "wikipedia",
+      "label": "Hussein Kamel of Egypt",
+      "url": "https://en.wikipedia.org/wiki/Hussein_Kamel_of_Egypt"
+     }
+    ]
+   },
+   {
+    "name": "Harun ibn Khumarawayh",
+    "qid": "Q707691",
+    "year_start": null,
+    "year_end": null,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q707691",
+      "url": "https://www.wikidata.org/wiki/Q707691"
+     },
+     {
+      "type": "wikipedia",
+      "label": "Harun ibn Khumarawayh",
+      "url": "https://en.wikipedia.org/wiki/Harun_ibn_Khumarawayh"
+     }
+    ]
+   },
+   {
+    "name": "Mohammad ben Ali al-Khalanji",
+    "qid": "Q76876122",
+    "year_start": null,
+    "year_end": null,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q76876122",
+      "url": "https://www.wikidata.org/wiki/Q76876122"
+     },
+     {
+      "type": "wikipedia",
+      "label": "Mohammad ben Ali al-Khalanji",
+      "url": "https://en.wikipedia.org/wiki/Mohammad_ben_Ali_al-Khalanji"
+     }
+    ]
+   },
+   {
+    "name": "Saladin",
+    "qid": "Q8581",
+    "year_start": 1169,
+    "year_end": 1193,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q8581",
+      "url": "https://www.wikidata.org/wiki/Q8581"
+     },
+     {
+      "type": "wikipedia",
+      "label": "Saladin",
+      "url": "https://en.wikipedia.org/wiki/Saladin"
+     }
+    ]
+   },
+   {
+    "name": "Al-Aziz Uthman",
+    "qid": "Q249058",
+    "year_start": 1193,
+    "year_end": 1198,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q249058",
+      "url": "https://www.wikidata.org/wiki/Q249058"
+     },
+     {
+      "type": "wikipedia",
+      "label": "Al-Aziz Uthman",
+      "url": "https://en.wikipedia.org/wiki/Al-Aziz_Uthman"
+     }
+    ]
+   },
+   {
+    "name": "Al-Mansur Nasir al-Din Muhammad",
+    "qid": "Q294031",
+    "year_start": 1198,
+    "year_end": 1200,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q294031",
+      "url": "https://www.wikidata.org/wiki/Q294031"
+     },
+     {
+      "type": "wikipedia",
+      "label": "Al-Mansur Nasir al-Din Muhammad",
+      "url": "https://en.wikipedia.org/wiki/Al-Mansur_Nasir_al-Din_Muhammad"
+     }
+    ]
+   },
+   {
+    "name": "Al-Adil I",
+    "qid": "Q285133",
+    "year_start": 1200,
+    "year_end": 1217,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q285133",
+      "url": "https://www.wikidata.org/wiki/Q285133"
+     },
+     {
+      "type": "wikipedia",
+      "label": "Al-Adil I",
+      "url": "https://en.wikipedia.org/wiki/Al-Adil_I"
+     }
+    ]
+   },
+   {
+    "name": "Al-Kamil",
+    "qid": "Q293464",
+    "year_start": 1218,
+    "year_end": 1238,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q293464",
+      "url": "https://www.wikidata.org/wiki/Q293464"
+     },
+     {
+      "type": "wikipedia",
+      "label": "Al-Kamil",
+      "url": "https://en.wikipedia.org/wiki/Al-Kamil"
+     }
+    ]
+   },
+   {
+    "name": "Al-Adil II",
+    "qid": "Q294314",
+    "year_start": 1238,
+    "year_end": 1240,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q294314",
+      "url": "https://www.wikidata.org/wiki/Q294314"
+     },
+     {
+      "type": "wikipedia",
+      "label": "Al-Adil II",
+      "url": "https://en.wikipedia.org/wiki/Al-Adil_II"
+     }
+    ]
+   },
+   {
+    "name": "As-Salih Najm al-din Ayyub",
+    "qid": "Q293559",
+    "year_start": 1240,
+    "year_end": 1249,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q293559",
+      "url": "https://www.wikidata.org/wiki/Q293559"
+     },
+     {
+      "type": "wikipedia",
+      "label": "As-Salih Najm al-din Ayyub",
+      "url": "https://en.wikipedia.org/wiki/As-Salih_Najm_al-din_Ayyub"
+     }
+    ]
+   },
+   {
+    "name": "Al-Muazzam Turanshah",
+    "qid": "Q327189",
+    "year_start": 1249,
+    "year_end": 1250,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q327189",
+      "url": "https://www.wikidata.org/wiki/Q327189"
+     },
+     {
+      "type": "wikipedia",
+      "label": "Al-Muazzam Turanshah",
+      "url": "https://en.wikipedia.org/wiki/Al-Muazzam_Turanshah"
+     }
+    ]
+   },
+   {
+    "name": "Al-Ashraf",
+    "qid": "Q309461",
+    "year_start": 1250,
+    "year_end": 1254,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q309461",
+      "url": "https://www.wikidata.org/wiki/Q309461"
+     },
+     {
+      "type": "wikipedia",
+      "label": "Al-Ashraf",
+      "url": "https://en.wikipedia.org/wiki/Al-Ashraf"
+     }
+    ]
+   },
+   {
+    "name": "Shajar al-Durr",
+    "qid": "Q464920",
+    "year_start": 1250,
+    "year_end": 1250,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q464920",
+      "url": "https://www.wikidata.org/wiki/Q464920"
+     },
+     {
+      "type": "wikipedia",
+      "label": "Shajar al-Durr",
+      "url": "https://en.wikipedia.org/wiki/Shajar_al-Durr"
+     }
+    ]
+   },
+   {
+    "name": "Aybak",
+    "qid": "Q327441",
+    "year_start": 1250,
+    "year_end": 1250,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q327441",
+      "url": "https://www.wikidata.org/wiki/Q327441"
+     },
+     {
+      "type": "wikipedia",
+      "label": "Aybak",
+      "url": "https://en.wikipedia.org/wiki/Aybak"
+     }
+    ]
+   },
+   {
+    "name": "Al-Mansur Ali",
+    "qid": "Q290392",
+    "year_start": 1257,
+    "year_end": 1259,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q290392",
+      "url": "https://www.wikidata.org/wiki/Q290392"
+     },
+     {
+      "type": "wikipedia",
+      "label": "Al-Mansur Ali",
+      "url": "https://en.wikipedia.org/wiki/Al-Mansur_Ali"
+     }
+    ]
+   },
+   {
+    "name": "Baibars",
+    "qid": "Q192960",
+    "year_start": 1260,
+    "year_end": 1277,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q192960",
+      "url": "https://www.wikidata.org/wiki/Q192960"
+     },
+     {
+      "type": "wikipedia",
+      "label": "Baibars",
+      "url": "https://en.wikipedia.org/wiki/Baybars"
+     }
+    ]
+   },
+   {
+    "name": "Al-Said Barakah",
+    "qid": "Q349370",
+    "year_start": 1277,
+    "year_end": 1279,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q349370",
+      "url": "https://www.wikidata.org/wiki/Q349370"
+     },
+     {
+      "type": "wikipedia",
+      "label": "Al-Said Barakah",
+      "url": "https://en.wikipedia.org/wiki/Al-Sa'id_Baraka"
+     }
+    ]
+   },
+   {
+    "name": "Solamish",
+    "qid": "Q249074",
+    "year_start": 1279,
+    "year_end": 1279,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q249074",
+      "url": "https://www.wikidata.org/wiki/Q249074"
+     },
+     {
+      "type": "wikipedia",
+      "label": "Solamish",
+      "url": "https://en.wikipedia.org/wiki/Solamish"
+     }
+    ]
+   },
+   {
+    "name": "Al-Ashraf Khalil",
+    "qid": "Q392815",
+    "year_start": 1290,
+    "year_end": 1293,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q392815",
+      "url": "https://www.wikidata.org/wiki/Q392815"
+     },
+     {
+      "type": "wikipedia",
+      "label": "Al-Ashraf Khalil",
+      "url": "https://en.wikipedia.org/wiki/Al-Ashraf_Khalil"
+     }
+    ]
+   },
+   {
+    "name": "Al-Nasir Muhammad",
+    "qid": "Q293505",
+    "year_start": 1293,
+    "year_end": 1294,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q293505",
+      "url": "https://www.wikidata.org/wiki/Q293505"
+     },
+     {
+      "type": "wikipedia",
+      "label": "Al-Nasir Muhammad",
+      "url": "https://en.wikipedia.org/wiki/Al-Nasir_Muhammad"
+     }
+    ]
+   },
+   {
+    "name": "Al-Adil Kitbugha",
+    "qid": "Q558359",
+    "year_start": 1294,
+    "year_end": 1296,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q558359",
+      "url": "https://www.wikidata.org/wiki/Q558359"
+     },
+     {
+      "type": "wikipedia",
+      "label": "Al-Adil Kitbugha",
+      "url": "https://en.wikipedia.org/wiki/Al-Adil_Kitbugha"
+     }
+    ]
+   },
+   {
+    "name": "Lajin",
+    "qid": "Q558157",
+    "year_start": 1296,
+    "year_end": 1299,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q558157",
+      "url": "https://www.wikidata.org/wiki/Q558157"
+     },
+     {
+      "type": "wikipedia",
+      "label": "Lajin",
+      "url": "https://en.wikipedia.org/wiki/Lajin"
+     }
+    ]
+   },
+   {
+    "name": "Baibars II",
+    "qid": "Q558305",
+    "year_start": 1308,
+    "year_end": 1309,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q558305",
+      "url": "https://www.wikidata.org/wiki/Q558305"
+     },
+     {
+      "type": "wikipedia",
+      "label": "Baibars II",
+      "url": "https://en.wikipedia.org/wiki/Baybars_II"
+     }
+    ]
+   },
+   {
+    "name": "Saif ad-Din Abu-Bakr",
+    "qid": "Q286582",
+    "year_start": 1341,
+    "year_end": 1341,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q286582",
+      "url": "https://www.wikidata.org/wiki/Q286582"
+     },
+     {
+      "type": "wikipedia",
+      "label": "Saif ad-Din Abu-Bakr",
+      "url": "https://en.wikipedia.org/wiki/Al-Mansur_Abu_Bakr"
+     }
+    ]
+   },
+   {
+    "name": "Kujuk",
+    "qid": "Q425325",
+    "year_start": 1341,
+    "year_end": 1342,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q425325",
+      "url": "https://www.wikidata.org/wiki/Q425325"
+     },
+     {
+      "type": "wikipedia",
+      "label": "Kujuk",
+      "url": "https://en.wikipedia.org/wiki/Al-Ashraf_Kujuk"
+     }
+    ]
+   },
+   {
+    "name": "Shihab ad-Din Ahmad",
+    "qid": "Q482338",
+    "year_start": 1342,
+    "year_end": 1342,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q482338",
+      "url": "https://www.wikidata.org/wiki/Q482338"
+     },
+     {
+      "type": "wikipedia",
+      "label": "Shihab ad-Din Ahmad",
+      "url": "https://en.wikipedia.org/wiki/Al-Nasir_Ahmad,_Sultan_of_Egypt"
+     }
+    ]
+   },
+   {
+    "name": "Al-Salih Ismail",
+    "qid": "Q280412",
+    "year_start": 1342,
+    "year_end": 1345,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q280412",
+      "url": "https://www.wikidata.org/wiki/Q280412"
+     },
+     {
+      "type": "wikipedia",
+      "label": "Al-Salih Ismail",
+      "url": "https://en.wikipedia.org/wiki/Al-Salih_Ismail"
+     }
+    ]
+   },
+   {
+    "name": "Al-Kamil Shaban",
+    "qid": "Q294139",
+    "year_start": 1345,
+    "year_end": 1346,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q294139",
+      "url": "https://www.wikidata.org/wiki/Q294139"
+     },
+     {
+      "type": "wikipedia",
+      "label": "Al-Kamil Shaban",
+      "url": "https://en.wikipedia.org/wiki/Al-Kamil_Shaban"
+     }
+    ]
+   },
+   {
+    "name": "Al-Mudhàffar Hajjí",
+    "qid": "Q294130",
+    "year_start": 1346,
+    "year_end": 1347,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q294130",
+      "url": "https://www.wikidata.org/wiki/Q294130"
+     },
+     {
+      "type": "wikipedia",
+      "label": "Al-Mudhàffar Hajjí",
+      "url": "https://en.wikipedia.org/wiki/Al-Mudhàffar_Hajjí"
+     }
+    ]
+   },
+   {
+    "name": "An-Nàssir Hàssan",
+    "qid": "Q288557",
+    "year_start": 1347,
+    "year_end": 1351,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q288557",
+      "url": "https://www.wikidata.org/wiki/Q288557"
+     },
+     {
+      "type": "wikipedia",
+      "label": "An-Nàssir Hàssan",
+      "url": "https://en.wikipedia.org/wiki/An-Nàssir_Hàssan"
+     }
+    ]
+   },
+   {
+    "name": "Al-Salih Salih",
+    "qid": "Q288013",
+    "year_start": 1351,
+    "year_end": 1354,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q288013",
+      "url": "https://www.wikidata.org/wiki/Q288013"
+     },
+     {
+      "type": "wikipedia",
+      "label": "Al-Salih Salih",
+      "url": "https://en.wikipedia.org/wiki/As-Salih_Salih"
+     }
+    ]
+   },
+   {
+    "name": "al-Mansur Muhammad",
+    "qid": "Q288580",
+    "year_start": 1361,
+    "year_end": 1363,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q288580",
+      "url": "https://www.wikidata.org/wiki/Q288580"
+     },
+     {
+      "type": "wikipedia",
+      "label": "al-Mansur Muhammad",
+      "url": "https://en.wikipedia.org/wiki/al-Mansur_Muhammad"
+     }
+    ]
+   },
+   {
+    "name": "Al-Ashraf Sha'ban",
+    "qid": "Q286592",
+    "year_start": 1363,
+    "year_end": 1377,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q286592",
+      "url": "https://www.wikidata.org/wiki/Q286592"
+     },
+     {
+      "type": "wikipedia",
+      "label": "Al-Ashraf Sha'ban",
+      "url": "https://en.wikipedia.org/wiki/Al-Ashraf_Sha'ban"
+     }
+    ]
+   },
+   {
+    "name": "Al-Mansur Alà-ad-Din Alí",
+    "qid": "Q288507",
+    "year_start": 1377,
+    "year_end": 1381,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q288507",
+      "url": "https://www.wikidata.org/wiki/Q288507"
+     },
+     {
+      "type": "wikipedia",
+      "label": "Al-Mansur Alà-ad-Din Alí",
+      "url": "https://en.wikipedia.org/wiki/Al-Mansur_Alà-ad-Din_Alí"
+     }
+    ]
+   },
+   {
+    "name": "Al-Salih Hajji",
+    "qid": "Q286573",
+    "year_start": 1381,
+    "year_end": 1382,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q286573",
+      "url": "https://www.wikidata.org/wiki/Q286573"
+     },
+     {
+      "type": "wikipedia",
+      "label": "Al-Salih Hajji",
+      "url": "https://en.wikipedia.org/wiki/Al-Salih_Hajji"
+     }
+    ]
+   },
+   {
+    "name": "Nasir-ad-Din Faraj",
+    "qid": "Q698037",
+    "year_start": 1399,
+    "year_end": 1405,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q698037",
+      "url": "https://www.wikidata.org/wiki/Q698037"
+     },
+     {
+      "type": "wikipedia",
+      "label": "Nasir-ad-Din Faraj",
+      "url": "https://en.wikipedia.org/wiki/An-Nasir_Faraj"
+     }
+    ]
+   },
+   {
+    "name": "Al-Manszúr Abd al-Azíz",
+    "qid": "Q558111",
+    "year_start": 1405,
+    "year_end": 1405,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q558111",
+      "url": "https://www.wikidata.org/wiki/Q558111"
+     },
+     {
+      "type": "wikipedia",
+      "label": "Al-Manszúr Abd al-Azíz",
+      "url": "https://en.wikipedia.org/wiki/Al-Manszúr_Abd_al-Azíz"
+     }
+    ]
+   },
+   {
+    "name": "Al-Musta'in",
+    "qid": "Q210445",
+    "year_start": 1412,
+    "year_end": 1412,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q210445",
+      "url": "https://www.wikidata.org/wiki/Q210445"
+     },
+     {
+      "type": "wikipedia",
+      "label": "Al-Musta'in",
+      "url": "https://en.wikipedia.org/wiki/Al-Musta'in"
+     }
+    ]
+   },
+   {
+    "name": "Hamoud bin Mohammed Al Busaidi",
+    "qid": "Q928434",
+    "year_start": 1896,
+    "year_end": 1902,
+    "sources": [
+     {
+      "type": "wikidata",
+      "id": "Q928434",
+      "url": "https://www.wikidata.org/wiki/Q928434"
+     },
+     {
+      "type": "wikipedia",
+      "label": "Hamoud bin Mohammed Al Busaidi",
+      "url": "https://en.wikipedia.org/wiki/Hamoud_bin_Mohammed_Al_Busaidi"
+     }
+    ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "type": "book",
+   "author": "Humphreys, R. Stephen",
+   "title": "From Saladin to the Mongols: The Ayyubids of Damascus, 1193–1260",
+   "publisher": "SUNY Press",
+   "year": 1977
+  },
+  {
+   "type": "book",
+   "author": "Lyons, Malcolm Cameron, and Jackson, D.E.P.",
+   "title": "Saladin: The Politics of the Holy War",
+   "publisher": "Cambridge University Press",
+   "year": 1982
+  }
+ ],
+ "monogram": "AS"
+}

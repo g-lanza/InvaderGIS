@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_zonchio_1499_c01",
+  "statement": "Battle of Zonchio (1499 CE), at Pylos (part of Second Ottoman–Venetian War).",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1499,
+    "to": 1499
+  },
+  "derived_from": "wd_battle_of_zonchio_1499",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

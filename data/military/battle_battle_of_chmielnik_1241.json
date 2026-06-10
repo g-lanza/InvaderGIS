@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_chmielnik_1241",
+  "name": "Battle of Chmielnik",
+  "subtype": "battle",
+  "start_year": 1241,
+  "end_year": 1241,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2615532"
+    }
+  },
+  "description": "Battle during Mongol invasion of Poland (1241)",
+  "coords": [
+    20.7497,
+    50.6117
+  ]
+}

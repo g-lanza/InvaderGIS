@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_laugharne_1291",
+  "name": "Laugharne",
+  "importance": "city",
+  "start_year": 1291,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1965490"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    -4.4631,
+    51.7694
+  ]
+}

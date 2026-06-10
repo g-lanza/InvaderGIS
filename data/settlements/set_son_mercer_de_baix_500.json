@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_son_mercer_de_baix_500",
+  "name": "Son Mercer de Baix",
+  "importance": "city",
+  "start_year": 500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "inferred",
+    "external_ids": {
+      "pleiades": "43375550"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    4.0064,
+    39.9546
+  ]
+}

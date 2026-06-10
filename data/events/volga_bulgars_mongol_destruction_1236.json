@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "volga_bulgars_mongol_destruction_1236",
+  "name": "Mongols Sack Volga Bulgaria",
+  "year": 1236,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    55,
+    49
+  ],
+  "entity": "volga_bulgaria",
+  "summary": "Batu Khan's Mongol army systematically destroyed the cities of Volga Bulgaria, sacking the capital Bolgar and killing or enslaving most of the population. Volga Bulgaria never recovered as an independent state.",
+  "outcomes": [
+    "bolgar_destroyed",
+    "volga_trade_disrupted",
+    "volga_bulgaria_ended"
+  ],
+  "_quarry": {
+    "participants": [
+      "volga_bulgaria"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

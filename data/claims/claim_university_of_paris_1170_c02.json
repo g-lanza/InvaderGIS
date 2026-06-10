@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_university_of_paris_1170_c02",
+  "statement": "Royal protection in 1200 and the statutes of Robert of Courson in 1215 formalised the University of Paris corporation.",
+  "subject_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 1170,
+    "to": 1170
+  },
+  "derived_from": "university_of_paris_1170",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "bartlett_making_of_europe_1993",
+      "marenbon_later_medieval_philosophy_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

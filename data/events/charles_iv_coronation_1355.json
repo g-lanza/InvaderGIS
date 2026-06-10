@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "charles_iv_coronation_1355",
+  "name": "Charles IV crowned Holy Roman Emperor in Rome",
+  "year": 1355,
+  "type": "coronation",
+  "category": "power",
+  "coords": [
+    41.9,
+    12.45
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Charles IV is crowned emperor at St Peter's by a papal legate (the popes still resident at Avignon). The Roman expedition is brief and ceremonial; Charles immediately returns north and the following year promulgates the Golden Bull of 1356 codifying imperial election procedure.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "papal_states",
+      "kingdom_of_bohemia"
+    ],
+    "structural_significance": "Last German emperor to receive coronation in Rome during the Avignon papacy; the Golden Bull that follows fixes the seven electors and removes papal involvement in imperial elections, ending centuries of papal-imperial dispute over the procedure.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

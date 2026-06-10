@@ -1,0 +1,31 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ad_abolendam_1184",
+  "name": "Ad Abolendam against heretics",
+  "year": 1184,
+  "type": "religious",
+  "category": "religion",
+  "coords": [
+    45.4384,
+    10.9916
+  ],
+  "entity": "papal_states",
+  "summary": "Lucius III's decretal Ad Abolendam, issued jointly with Frederick Barbarossa at Verona, names Cathars, Patarines, Waldensians, and other heretical movements and obliges secular princes to assist bishops in their suppression.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "papal_states"
+    ],
+    "structural_significance": "First systematic episcopal-inquisitorial procedure against heresy; establishes the legal framework that Gregory IX formalises into the papal inquisition in 1231.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morris_papal_monarchy_1989",
+      "robinson_papacy_1990"
+    ],
+    "confidence": "low"
+  }
+}

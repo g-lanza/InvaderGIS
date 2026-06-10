@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_confiscation_of_the_kingdom_of_mallorca_1285_c01",
+  "statement": "Confiscation of the Kingdom of Mallorca (1285 CE), (part of Aragonese Crusade).",
+  "subject_ids": [
+    "crown_of_aragon"
+  ],
+  "period": {
+    "from": 1285,
+    "to": 1285
+  },
+  "derived_from": "wd_confiscation_of_the_kingdom_of_mallorca_1285",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

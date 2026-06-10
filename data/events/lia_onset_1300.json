@@ -1,0 +1,31 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "lia_onset_1300",
+  "name": "Little Ice Age onset",
+  "year": 1300,
+  "type": "disaster",
+  "category": "hazard",
+  "coords": [
+    64.13,
+    -21.94
+  ],
+  "entity": "",
+  "summary": "Sustained Northern Hemisphere cooling begins in the early 14th century, marked by glacier advance in the Alps, retreat of Norse settlement in Greenland, and the catastrophic harvests of 1315–22. The Little Ice Age persists, with several pulses, until the late 19th century.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [],
+    "structural_significance": "Climate context for the late-medieval crisis, Great Famine, Black Death, agrarian retrenchment, and the long-run weakening of marginal settlement zones (Iceland, Greenland, the Anglo-Scottish border).",
+    "year_range": [
+      1300,
+      1850
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "campbell_great_transition_2016"
+    ],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_ewloe_1157",
+  "name": "Battle of Ewloe",
+  "year": 1157,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    52.775,
+    -2.64
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Battle of Ewloe (1157 CE), at Ewloe. Source: Wikidata Q4870992.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "kingdom_of_gwynedd"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

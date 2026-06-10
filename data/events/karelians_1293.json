@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "karelians_1293",
+  "name": "Swedish Crusade into Karelia",
+  "year": 1293,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    62.347,
+    29.322
+  ],
+  "entity": "karelians",
+  "summary": "The Swedish crusading campaign of 1293 founded Viborg castle and extended Swedish control into western Karelia, creating a boundary between Swedish Catholic and Novgorodian Orthodox influence over the Karelian people. This religious-political boundary shaped Karelian identity for centuries.",
+  "outcomes": [
+    "swedish_viborg_founded",
+    "swedish_influence",
+    "orthodox_resistance"
+  ],
+  "_quarry": {
+    "participants": [
+      "karelians"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

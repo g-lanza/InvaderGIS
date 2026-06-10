@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_sweden_engelbrekt_rebellion_1434_c01",
+  "statement": "In 1434 Engelbrekt Engelbrektsson led a popular uprising of Swedish miners and peasants against Danish exploitation under the Kalmar Union.",
+  "subject_ids": [
+    "kingdom_of_sweden"
+  ],
+  "period": {
+    "from": 1434,
+    "to": 1434
+  },
+  "derived_from": "sweden_engelbrekt_rebellion_1434",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_medieval_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

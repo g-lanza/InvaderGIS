@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_north_german_margrave_war_1308",
+  "name": "North German Margrave War",
+  "year": 1308,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    54.26,
+    11.705
+  ],
+  "entity": "margraviate_of_brandenburg",
+  "summary": "North German Margrave War (1308 CE). Source: Wikidata Q1997806.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "margraviate_of_brandenburg",
+      "kingdom_of_denmark"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

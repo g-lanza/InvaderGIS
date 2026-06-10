@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_connacht_1166",
+  "name": "Ruaidrí Ua Conchobair, Last High King",
+  "year": 1166,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    53.75,
+    -8.75
+  ],
+  "entity": "kingdom_of_connacht",
+  "summary": "Ruaidrí Ua Conchobair of Connacht became the last High King of Ireland in 1166. His political difficulties led the deposed Leinster king Diarmait Mac Murchada to invite Anglo-Norman forces to Ireland, the beginning of 750 years of English involvement. The Treaty of Windsor (1175) recognised Ruaidrí as High King under English overlordship.",
+  "outcomes": [
+    "last_high_king",
+    "norman_invitation",
+    "ireland_changes"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_connacht"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

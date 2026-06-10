@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "fall_of_western_rome_476",
+  "name": "Deposition of Romulus Augustulus",
+  "year": 476,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    40.8,
+    14.3
+  ],
+  "entity": "ostrogothic_kingdom",
+  "summary": "The Germanic chieftain Odoacer deposes the last Western Roman Emperor Romulus Augustulus (age ~16) and sends the imperial regalia to Constantinople, declaring the Western Empire unnecessary since there is only one emperor. Odoacer rules Italy as king, theoretically under Byzantine suzerainty.",
+  "outcomes": [
+    "western_roman_empire_ends",
+    "odoacer_king_italy",
+    "byzantine_nominal_claim"
+  ],
+  "_quarry": {
+    "participants": [
+      "ostrogothic_kingdom"
+    ],
+    "structural_significance": "Traditional end of the Western Roman Empire and ancient history; in reality the empire had been fragmenting for decades; the Eastern Empire (Byzantium) continues for another millennium.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "amory_people_1997",
+      "heather_the_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_suebi_visigoth_absorption",
+  "statement": "The Suebian Kingdom of Galicia (northwestern Iberia), established by the Suebi (Sueves) after the 409 crossing of the Rhine, was absorbed by the Visigothic Kingdom under Leovigild's conquest (585). The Suebi had converted to Catholic Christianity under Bishop Martin of Braga (c. 550–580) — one of the earliest Germanic Catholic conversions — before their conquest by the Arian Visigoths. Their territory (roughly modern Galicia and northern Portugal) was incorporated as a province, but the Galician provincial identity persisted through the Visigothic period and the subsequent Arab conquest.",
+  "subject_ids": [
+    "suebi_kingdom",
+    "visigothic_kingdom"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_suebi_visigoth_absorption",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "collins_visigothic_2004",
+      "thompson_the_1969"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "visigothic_kingdom"
+  ],
+  "period": {
+    "from": 585,
+    "to": 585
+  }
+}

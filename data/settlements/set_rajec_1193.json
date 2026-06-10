@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_rajec_1193",
+  "name": "Rajec",
+  "importance": "city",
+  "start_year": 1193,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q909333"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    18.6333,
+    49.0833
+  ]
+}

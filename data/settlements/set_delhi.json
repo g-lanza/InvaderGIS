@@ -1,0 +1,22 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_delhi",
+  "name": "Delhi (Sultanate)",
+  "importance": "megacity",
+  "start_year": 1206,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "end_confidence": "low",
+  "coords": [
+    77.23,
+    28.659
+  ]
+}

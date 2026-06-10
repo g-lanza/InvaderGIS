@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "byzantine_crisis_1042",
+  "name": "Byzantine Court Crisis, Zoe and Michael V",
+  "year": 1042,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.01,
+    28.97
+  ],
+  "entity": "byzantine_empire",
+  "summary": "The deposition of Empress Zoe and her successive husbands creates chronic political instability at Constantinople. Michael V's attempt to exile Zoe (1042) provokes a popular uprising; Constantine IX Monomachos (1042-1055) dissipates military funds on court luxury; the death of the last Macedonian empress (Theodora, 1056) opens a power struggle between the civil and military aristocracies that ends with Isaac I Komnenos seizing the throne by force in 1057.",
+  "outcomes": [
+    "military_aristocracy_seizes_power",
+    "macedonian_dynasty_ends",
+    "isaac_komnenos_throne"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire"
+    ],
+    "structural_significance": "The 1042-1057 crisis accelerates the systematic neglect of the Byzantine military, themes are allowed to decay, mercenaries replace provincial levies, and the tagmata are underfunded; this military degradation directly causes the catastrophe at Manzikert (1071); the Komnenos coup marks the transition from the Macedonian civilian bureaucracy to military aristocratic rule",
+    "year_range": [
+      1041,
+      1057
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

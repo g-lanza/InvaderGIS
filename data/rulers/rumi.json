@@ -1,0 +1,55 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rumi",
+  "name": "Jalāl al-Dīn Rūmī",
+  "polity": "sultanate_of_rum",
+  "title": "religious_authority",
+  "reign_start": 1244,
+  "reign_end": 1273,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 1207,
+      "death_year": 1273
+    },
+    "entity_associations": [
+      {
+        "entity_id": "sultanate_of_rum",
+        "role": "religious_authority",
+        "start_year": 1244,
+        "end_year": 1273
+      }
+    ],
+    "key_actions": [
+      {
+        "year": 1244,
+        "summary": "Encounters the wandering dervish Shams al-Dīn Tabrīzī at Konya; their three-year companionship transforms Rumi from a conventional jurist into a poet of ecstatic mysticism.",
+        "source_id": "lewis_rumi_2008"
+      },
+      {
+        "year": 1262,
+        "summary": "Begins composing the Mathnawī-i Maʿnawī, a six-book, ~25,000-couplet didactic poem in Persian — the central work of Persian Sufi literature.",
+        "source_id": "lewis_rumi_2008"
+      },
+      {
+        "year": 1273,
+        "summary": "Dies at Konya. His son Sultan Walad institutionalises the Sufi community around him as the Mevlevī order, with its characteristic samā (whirling) ceremony.",
+        "source_id": "lewis_rumi_2008"
+      }
+    ],
+    "region": "near_east",
+    "name_variants": [
+      "Mevlana",
+      "Mawlana Jalāl al-Dīn Muḥammad Balkhī",
+      "Rumi"
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lewis_rumi_2008",
+      "hodgson_venture_of_islam_1974"
+    ],
+    "confidence": "low"
+  }
+}

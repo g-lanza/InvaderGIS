@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "serbia",
+  "name": "Belgrade",
+  "entity_id": "serbia",
+  "entity_name": "Serbia",
+  "start_year": 900,
+  "end_year": 1279,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q403"
+    }
+  },
+  "coords": [
+    20.45694,
+    44.81778
+  ]
+}

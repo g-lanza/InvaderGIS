@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_university_of_prague_1348_c01",
+  "statement": "Charles IV's foundation charter of 7 April 1348 established the University of Prague, the first university east of the Rhine and north of the Alps.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1348,
+    "to": 1348
+  },
+  "derived_from": "university_of_prague_1348",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "bartlett_making_of_europe_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

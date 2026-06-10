@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_principality_of_achaea_1258_1429",
+  "statement": "Principality of Achaea — campaigns and battles spanned 1258–1429, from Battle of Karydi to Siege of Patras.",
+  "subject_ids": [
+    "principality_of_achaea"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_principality_of_achaea_1258_1429",
+  "period": {
+    "from": 1258,
+    "to": 1429
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

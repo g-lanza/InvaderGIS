@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_karlovy_vary_1350",
+  "name": "Karlovy Vary",
+  "importance": "city",
+  "start_year": 1350,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q384544"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    12.8725,
+    50.2306
+  ]
+}

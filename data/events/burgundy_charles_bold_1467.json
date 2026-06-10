@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "burgundy_charles_bold_1467",
+  "name": "Charles the Bold and the Burgundian State Project",
+  "year": 1467,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    47.32,
+    5.04
+  ],
+  "entity": "duchy_of_burgundy",
+  "summary": "Charles the Bold, Duke of Burgundy (r. 1467-1477), attempts to transform Burgundy from a French duchy into an independent kingdom between France and the Empire. He conquers Lorraine (1475) to connect his northern Low Countries territories with his southern Burgundian lands, and negotiates with the Emperor for a royal crown. His defeat by the Swiss at Grandson and Murten (1476) and death at Nancy (1477) end the Burgundian project.",
+  "outcomes": [
+    "burgundy_seeks_kingdom_status",
+    "swiss_defeat_ends_ambition",
+    "habsburg_inherits_burgundian_lands"
+  ],
+  "_quarry": {
+    "participants": [
+      "duchy_of_burgundy",
+      "kingdom_of_france",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "Charles's failure demonstrates that the territorial consolidation of the Low Countries and Burgundy could not create a viable third European power between France and the Empire without military success; his death without male heirs passes his northern territories to the Habsburgs (through his daughter Mary's marriage to Maximilian I), bringing the Dutch and Flemish cities under Habsburg rule and setting up the 16th-century Habsburg-Valois conflict over Italy and the Low Countries",
+    "year_range": [
+      1467,
+      1477
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_almohad_decline_1212_c01",
+  "statement": "The combined Christian armies of Castile, Aragon, and Navarre defeated the Almohad caliph Muhammad al-Nasir at Las Navas de Tolosa in July 1212.",
+  "subject_ids": [
+    "almohad_caliphate_iberia"
+  ],
+  "period": {
+    "from": 1212,
+    "to": 1212
+  },
+  "derived_from": "almohad_decline_1212",
+  "unresolved_sources": [
+    "o'callaghan_reconquest_2003"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

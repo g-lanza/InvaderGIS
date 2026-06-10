@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_abelard_sic_et_non_1140_c02",
+  "statement": "Abelard's Sic et Non became a paradigmatic model of the scholastic quaestio method.",
+  "subject_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 1140,
+    "to": 1140
+  },
+  "derived_from": "abelard_sic_et_non_1140",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "pieper_scholasticism_1960",
+      "marenbon_later_medieval_philosophy_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

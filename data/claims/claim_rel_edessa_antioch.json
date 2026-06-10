@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_edessa_antioch",
+  "statement": "The County of Edessa (the northernmost Crusader state) and the Principality of Antioch maintained close cooperative relations throughout the 12th century, linked by geography, dynastic marriages, and shared threats from the Artukids and later the Zengids. When Zengi's forces besieged Edessa (1144), Antioch under Raymond of Poitiers failed to send relief — a failure partly explained by political tensions and partly by the swiftness of the siege. The fall of Edessa triggered the Second Crusade and permanently weakened the northern Crusader states.",
+  "subject_ids": [
+    "county_of_edessa",
+    "principality_of_antioch"
+  ],
+  "predicate": "alliance",
+  "derived_from": "rel_edessa_antioch",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "asbridge_the_2000",
+      "cahen_la_1940"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1098,
+    "to": 1150
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "university_oxford_1167",
+  "name": "Founding of Oxford University",
+  "year": 1167,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    51.754,
+    -1.254
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "English scholars were expelled from the University of Paris around 1167, prompting a gathering of masters and students at Oxford. The town's existing tradition of teaching quickly grew into England's first university. Oxford developed the collegiate model of residential halls funded by endowments.",
+  "outcomes": [
+    "English scholars recall from Paris",
+    "First English studium generale",
+    "Collegiate system develops"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england"
+    ],
+    "structural_significance": "Established the English tradition of residential collegiate universities; trained the ecclesiastical and civil administrators of medieval England.",
+    "year_range": [
+      1167,
+      1200
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Catto (ed.), The History of the University of Oxford Vol. I",
+      "Cobban, Medieval English Universities"
+    ],
+    "confidence": "low"
+  }
+}

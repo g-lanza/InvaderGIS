@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_marco_polo_returns_1295_c02",
+  "statement": "Captured in a Venetian-Genoese sea battle in 1298, Marco Polo dictated his Travels to fellow prisoner Rustichello of Pisa.",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1295,
+    "to": 1295
+  },
+  "derived_from": "marco_polo_returns_1295",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "abu_lughod_before_european_hegemony_1989",
+      "hansen_silk_road_new_history_2012"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

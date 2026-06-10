@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ibn_rushd_averroes_1180",
+  "name": "Averroes and the Commentaries on Aristotle",
+  "year": 1180,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    37.888,
+    -4.779
+  ],
+  "entity": "umayyad_emirate_cordoba",
+  "summary": "Ibn Rushd (Averroes) of Córdoba produced exhaustive commentaries on virtually all of Aristotle's works between 1169 and 1198. When translated into Latin by the 1230s, they sparked a revolution in Western scholasticism. Averroes became known simply as \"The Commentator\" in European universities. His rationalist approach to reconciling philosophy and religion was condemned by Islamic authorities but proved enormously influential in Christian Europe.",
+  "outcomes": [
+    "Comprehensive commentaries on Aristotle completed",
+    "Works translated into Latin and Hebrew",
+    "Aristotelianism reintroduced to Western Europe",
+    "Conflict with Islamic orthodoxy leads to exile"
+  ],
+  "_quarry": {
+    "participants": [
+      "umayyad_emirate_cordoba"
+    ],
+    "structural_significance": "The conduit through which Aristotelian philosophy re-entered Latin Europe; Averroes's commentaries shaped scholastic philosophy for three centuries.",
+    "year_range": [
+      1169,
+      1198
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Leaman, Averroes and his Philosophy",
+      "Davidson, Alfarabi, Avicenna, and Averroes on Intellect"
+    ],
+    "confidence": "low"
+  }
+}

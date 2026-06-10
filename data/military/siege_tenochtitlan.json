@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "siege_tenochtitlan",
+  "name": "Siege of Tenochtitlan",
+  "subtype": "siege",
+  "start_year": 1521,
+  "end_year": 1521,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "Hernán Cortés and Tlaxcalan allies besiege and destroy the Aztec capital; end of the Triple Alliance empire",
+  "coords": [
+    -99.133,
+    19.434
+  ]
+}

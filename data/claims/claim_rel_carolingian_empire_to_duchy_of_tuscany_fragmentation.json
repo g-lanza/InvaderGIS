@@ -1,0 +1,31 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_carolingian_empire_to_duchy_of_tuscany_fragmentation",
+  "statement": "Derived from predecessor/successor links recorded in the carolingian_empire and duchy_of_tuscany entity records. Transition anchored to duchy_of_tuscany start_year.",
+  "subject_ids": [
+    "carolingian_empire",
+    "duchy_of_tuscany"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_carolingian_empire_to_duchy_of_tuscany_fragmentation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "mckitterick_charlemagne_2008",
+      "riché_the_1993",
+      "nelson_king_2019",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "duchy_of_tuscany"
+  ],
+  "period": {
+    "from": 774,
+    "to": 774
+  }
+}

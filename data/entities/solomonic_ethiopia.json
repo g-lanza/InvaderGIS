@@ -1,0 +1,142 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "solomonic_ethiopia",
+  "name_primary": "Solomonic Ethiopia",
+  "name_variants": [
+    "Solomonic Dynasty",
+    "Ethiopian Empire (medieval)"
+  ],
+  "type": "empire",
+  "region": "horn_of_africa",
+  "formed": 1270,
+  "dissolved": 1974,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    12.6,
+    39.5
+  ],
+  "population_estimates": [
+    {
+      "year": 1300,
+      "estimate": 4000000,
+      "confidence": "low",
+      "note": "Ethiopian highlands under early Solomonic rule."
+    },
+    {
+      "year": 1500,
+      "estimate": 5500000,
+      "confidence": "low",
+      "note": "Pre-Adal-invasion population; figures highly uncertain."
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Christian Ethiopian empire founded in 1270 when Yekuno Amlak overthrew the Zagwe king Yetbarak and asserted his line's descent from Menelik I, the legendary son of King Solomon and the Queen of Sheba whose mother had returned from Jerusalem with the Ark of the Covenant; for the late-medieval period within the atlas's horizon the dynasty operated without a fixed capital, the emperor's court moving between katama royal camps across the highland north and centre; under emperors including Amda Seyon (1314–1344) and Zara Yaqob (1434–1468) the empire expanded into the southern Cushitic lands, fought sustained wars with the Muslim sultanates of the Ethiopian lowlands (Ifat and later Adal), translated and indigenised Ge'ez Christian literature, and sent embassies to Cairo, Jerusalem, Venice, and Aragon; within the atlas's 1500 horizon the dynasty stands on the eve of the catastrophic Adal invasion of the 1520s.",
+  "temporal": {
+    "start_year": 1270,
+    "end_year": 1974,
+    "end_year_within_scope": 1500,
+    "notes": "Christian Ethiopian dynasty claiming descent from Solomon and the Queen of Sheba via Menelik I; founded by Yekuno Amlak after overthrowing the Zagwe; ruled to the 1974 revolution, far beyond the atlas's 1500 horizon."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      12.6,
+      39.5
+    ],
+    "core_regions": [
+      "horn_of_africa"
+    ],
+    "capital": {
+      "name": "Roving (no fixed capital before 1636)",
+      "coords": [
+        12.6,
+        39.5
+      ],
+      "source": "wikidata"
+    }
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "foundation",
+      "years": "1270–1314",
+      "description": "Yekuno Amlak overthrows the Zagwe; Solomonic dynasty consolidated; Lasta region left to the displaced Zagwe as a sub-kingdom."
+    },
+    {
+      "phase": "expansion",
+      "years": "1314–1414",
+      "description": "Amda Seyon's southern campaigns extend the empire into Shewa and beyond; sustained wars with the Sultanate of Ifat to the east; Ge'ez Christian literary flowering."
+    },
+    {
+      "phase": "imperial_apogee",
+      "years": "1434–1468",
+      "description": "Reign of Zara Yaqob; centralised reforms; suppression of heretical movements; embassy exchanges with the Council of Florence; Adal Sultanate sustained as the main rival to the east."
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Yekuno Amlak",
+      "role": "emperor",
+      "years": "1270–1285",
+      "year_start": 1270,
+      "year_end": 1285
+    },
+    {
+      "name": "Amda Seyon I",
+      "role": "emperor",
+      "years": "1314–1344",
+      "year_start": 1314,
+      "year_end": 1344
+    },
+    {
+      "name": "Zara Yaqob",
+      "role": "emperor",
+      "years": "1434–1468",
+      "year_start": 1434,
+      "year_end": 1468
+    }
+  ],
+  "predecessor_entity_ids": [
+    "zagwe_dynasty"
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "long_distance_trade",
+      "manufacturing"
+    ],
+    "wealth_level": "moderate",
+    "major_exports": [
+      "gold",
+      "ivory",
+      "slaves",
+      "civet"
+    ],
+    "major_trade_partners": [
+      "mamluk_sultanate",
+      "yemen",
+      "venice"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "tribute",
+      "trade_customs"
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q207521",
+    "matched_name": "manual/solomonic_ethiopia",
+    "enrichment_date": "2026-05-24",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ethiopian_Empire",
+    "predecessors_from_wikidata": [
+      "Zagwe dynasty"
+    ]
+  },
+  "monogram": "SE"
+}

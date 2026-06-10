@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "treaty_brest_1390s",
+  "name": "Krewo Union 1385",
+  "year": 1385,
+  "type": "treaty",
+  "category": "diplomacy",
+  "coords": [
+    54.32,
+    26.27
+  ],
+  "entity": "kingdom_of_poland_jagiellonian",
+  "summary": "The Union of Krewo (August 14, 1385) is a personal union agreement between Lithuania and Poland: Grand Duke Jogaila of Lithuania agrees to marry Polish Queen Jadwiga, convert Lithuania to Catholic Christianity, and join Lithuania to Poland. Jogaila is baptized as Władysław II Jagiełło, marries Jadwiga, and is crowned King of Poland (1386). Lithuania, the last major pagan state in Europe, begins its Christianization. The union creates the Lithuanian-Polish state that defeats the Teutonic Order at Grunwald (1410) and eventually becomes the largest state in Europe under the Jagiellonian dynasty.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_poland_jagiellonian",
+      "grand_duchy_of_lithuania"
+    ],
+    "structural_significance": "Unifies Poland and Lithuania under the Jagiellonian dynasty; Lithuania's conversion to Christianity eliminates the Teutonic Order's crusading justification; the combined state defeats the Teutonic Order and becomes the dominant power in central-eastern Europe",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "davies_gods_1981",
+      "lukowski_a_2001"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

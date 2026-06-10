@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "st_francis_of_assisi_1210",
+  "name": "Founding of the Franciscan Order",
+  "year": 1210,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    43.1,
+    12.6
+  ],
+  "entity": "papal_states",
+  "summary": "Pope Innocent III approves the Rule of St. Francis of Assisi, founding the Franciscan Order of friars who take vows of absolute poverty and preach directly to the laity in vernacular languages. The friars challenge the wealth of the established church, inspiring the heresy debates and scholastic theology that respond to their challenge.",
+  "outcomes": [
+    "mendicant_movement",
+    "poverty_ideology",
+    "scholastic_debate"
+  ],
+  "_quarry": {
+    "participants": [
+      "papal_states",
+      "republic_of_florence"
+    ],
+    "structural_significance": "Creates the mendicant movement that revitalizes Catholic pastoral care; the Franciscan challenge to church wealth generates theological debates about apostolic poverty that eventually contribute to the Protestant Reformation.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_city_wall_florence_1280_c01",
+  "statement": "In the 1280s and 1290s the Florentine commune built its third circuit of city walls, enclosing about 630 hectares to accommodate anticipated growth.",
+  "subject_ids": [
+    "republic_of_florence"
+  ],
+  "period": {
+    "from": 1290,
+    "to": 1290
+  },
+  "derived_from": "city_wall_florence_1280",
+  "unresolved_sources": [
+    "najemy_a_2006"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_battle_talas_751_c01",
+  "statement": "Abbasid forces under Ziyad ibn Salih defeated the Tang Chinese army under Gao Xianzhi at the Talas River in July 751, the only major clash between the Arab world and Tang China.",
+  "subject_ids": [
+    "abbasid_caliphate"
+  ],
+  "period": {
+    "from": 751,
+    "to": 751
+  },
+  "derived_from": "battle_talas_751",
+  "unresolved_sources": [
+    "kennedy_the_2004",
+    "kennedy_when_2004",
+    "crone_gods_2004"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

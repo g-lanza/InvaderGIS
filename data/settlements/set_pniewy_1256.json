@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_pniewy_1256",
+  "name": "Pniewy",
+  "importance": "city",
+  "start_year": 1256,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q52896"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    16.2564,
+    52.5089
+  ]
+}

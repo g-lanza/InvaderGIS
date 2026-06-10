@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_skanderbeg_s_rebellion_1443",
+  "name": "Skanderbeg's rebellion",
+  "year": 1443,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    42.225,
+    14
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Skanderbeg's rebellion (1443 CE), at Ohri sanjak (part of Albanian uprisings in the Ottoman Empire). Source: Wikidata Q61116375.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "ottoman_empire",
+      "kingdom_of_naples",
+      "crown_of_aragon"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

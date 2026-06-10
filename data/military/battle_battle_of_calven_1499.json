@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_calven_1499",
+  "name": "Battle of Calven",
+  "subtype": "battle",
+  "start_year": 1499,
+  "end_year": 1499,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q462099"
+    }
+  },
+  "description": "Battle during Swabian War (1499)",
+  "coords": [
+    10.5105,
+    46.6678
+  ]
+}

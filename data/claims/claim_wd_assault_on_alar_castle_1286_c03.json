@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_assault_on_alar_castle_1286_c03",
+  "statement": "The 1286 assault on Alaró Castle was part of the Aragonese Crusade.",
+  "subject_ids": [
+    "crown_of_aragon"
+  ],
+  "period": {
+    "from": 1286,
+    "to": 1286
+  },
+  "derived_from": "wd_assault_on_alar_castle_1286",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

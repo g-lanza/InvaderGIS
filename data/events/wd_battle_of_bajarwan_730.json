@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_bajarwan_730",
+  "name": "Battle of Bajarwan",
+  "year": 730,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    40.25,
+    41.65
+  ],
+  "entity": "khazar_khaganate",
+  "summary": "Battle of Bajarwan (730 CE), at Shirvan (part of Arab–Khazar Wars). Source: Wikidata Q20386327.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "khazar_khaganate",
+      "umayyad_caliphate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "golden_khazar_1980",
+      "brook_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

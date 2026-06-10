@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "bulgarian_christianization_864",
+  "name": "Christianisation of Bulgaria under Boris I",
+  "year": 864,
+  "type": "religious",
+  "category": "religion",
+  "coords": [
+    43.2,
+    27.91
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Bulgarian Khan Boris I adopts Eastern Christianity under Byzantine auspices, taking the baptismal name Michael after Emperor Michael III. After flirting with Rome (866–870), the Bulgarian church is incorporated under Constantinople, and the disciples of Cyril and Methodius bring a Slavonic-language clergy to Preslav.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire"
+    ],
+    "structural_significance": "Establishes the Bulgarian church as the second great Slavonic-language religious centre after Moravia; the Preslav and Ohrid literary schools fuel the later spread of Christianity (and Cyrillic) to Serbia and Rus.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

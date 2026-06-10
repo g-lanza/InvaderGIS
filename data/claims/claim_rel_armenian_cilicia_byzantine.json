@@ -1,0 +1,29 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_armenian_cilicia_byzantine",
+  "statement": "The Armenian Kingdom of Cilicia (established 1080 by Armenian refugees fleeing Seljuk conquest of Armenia proper) maintained complex relations with Byzantium, oscillating between cooperation (the Armenians provided crucial infantry for crusading armies) and conflict (Byzantine emperors periodically attempted to reassert suzerainty over Cilicia). The Armenian-Byzantine relationship was complicated by theological differences (Armenian Apostolic vs. Greek Orthodox Christianity). Armenian Cilicia aligned with the Crusader states and with the Mongol Ilkhanate against the Mamluks, ultimately being abandoned by both and destroyed by the Mamluks (1375).",
+  "subject_ids": [
+    "armenian_kingdom_of_cilicia",
+    "byzantine_empire"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_armenian_cilicia_byzantine",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "boase_the_1978",
+      "mutafian_le_1993",
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1198,
+    "to": 1198
+  }
+}

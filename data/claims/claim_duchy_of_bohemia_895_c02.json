@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_duchy_of_bohemia_895_c02",
+  "statement": "The 895 acceptance of Frankish overlordship began the Christianisation of Bohemia and established the duchy as a component of the emerging Holy Roman Empire.",
+  "subject_ids": [
+    "duchy_of_bohemia"
+  ],
+  "period": {
+    "from": 895,
+    "to": 895
+  },
+  "derived_from": "duchy_of_bohemia_895",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

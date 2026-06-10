@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "black_death_iberia_1348",
+  "name": "Black Death in Iberia",
+  "year": 1348,
+  "type": "epidemic",
+  "category": "hazard",
+  "coords": [
+    41.39,
+    2.16
+  ],
+  "entity": "crown_of_aragon",
+  "summary": "Plague enters via Mallorca and Barcelona in spring 1348 and spreads through Aragon, Castile, Portugal, and Nasrid Granada. King Alfonso XI of Castile dies of plague at the siege of Gibraltar in 1350, the only reigning European monarch killed by the disease.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "crown_of_aragon",
+      "crown_of_castile",
+      "kingdom_of_portugal",
+      "emirate_of_granada"
+    ],
+    "structural_significance": "Differential mortality between Christian and Jewish communities in Aragon and Castile fuels anti-Jewish violence that culminates in the 1391 pogroms. Castilian succession is destabilised by Alfonso XI's death mid-campaign.",
+    "year_range": [
+      1348,
+      1351
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_naples_1191",
+  "name": "Siege of Naples",
+  "year": 1191,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    43.8,
+    12.25
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Siege of Naples (1191 CE), at Naples. Source: Wikidata Q65121402.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "kingdom_of_sicily_norman"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

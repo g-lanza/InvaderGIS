@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_toledo_capture_1085_c01",
+  "statement": "On May 25, 1085, Alfonso VI of León-Castile captured Toledo, the ancient Visigothic capital, from the Taifa of Toledo.",
+  "subject_ids": [
+    "kingdom_of_leon"
+  ],
+  "period": {
+    "from": 1085,
+    "to": 1085
+  },
+  "derived_from": "toledo_capture_1085",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_kingdom_of_east_anglia_869_c01",
+  "statement": "King Edmund of East Anglia was killed by the Danish Great Heathen Army in 869 CE after refusing to renounce Christianity.",
+  "subject_ids": [
+    "kingdom_of_east_anglia"
+  ],
+  "period": {
+    "from": 869,
+    "to": 869
+  },
+  "derived_from": "kingdom_of_east_anglia_869",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

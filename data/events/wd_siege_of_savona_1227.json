@@ -1,0 +1,31 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_savona_1227",
+  "name": "Siege of Savona",
+  "year": 1227,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    44.4,
+    8.9
+  ],
+  "entity": "republic_of_genoa",
+  "summary": "Siege of Savona (1227 CE), at Savona. Source: Wikidata Q137510670.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_genoa"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

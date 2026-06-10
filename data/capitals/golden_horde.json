@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "golden_horde",
+  "name": "Bolğar",
+  "entity_id": "golden_horde",
+  "entity_name": "Golden Horde",
+  "start_year": 1240,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q79965"
+    }
+  },
+  "coords": [
+    49.03333,
+    54.96667
+  ]
+}

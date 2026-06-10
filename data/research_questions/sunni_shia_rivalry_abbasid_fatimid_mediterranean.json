@@ -1,0 +1,51 @@
+{
+  "id": "sunni_shia_rivalry_abbasid_fatimid_mediterranean",
+  "question": "How did the Sunni–Shia rivalry between the Abbasid and Fatimid caliphates reshape Mediterranean and Near Eastern political geography (909–1171)?",
+  "description": "Traces the contest for caliphal legitimacy between the Sunni Abbasids in Baghdad and the Ismaili Shia Fatimids who rose in Ifriqiya, conquered Egypt, founded Cairo and al-Azhar, and held Jerusalem and the Hijaz. Examines how this confessional and dynastic rivalry — and the parallel rise of the Seljuks as Sunni champions — restructured authority across the central Islamic lands until the Fatimid line dissolved into Saladin's Ayyubid sultanate.",
+  "scope": {
+    "from": 900,
+    "to": 1200,
+    "regions": ["near_east", "north_africa", "islamic_world_european_facing"]
+  },
+  "evidence": {
+    "entity_ids": [
+      "abbasid_caliphate",
+      "fatimid_caliphate",
+      "seljuk_empire",
+      "ayyubid_sultanate"
+    ],
+    "claim_ids": [
+      "claim_rel_abbasid_fatimid_rivalry",
+      "claim_fatimid_caliphate_founded_909_c01",
+      "claim_fatimid_caliphate_founded_909_c02",
+      "claim_fatimid_jerusalem_969_c01",
+      "claim_fatimid_al_azhar_970_c01",
+      "claim_abbasid_golden_age_830_c01"
+    ],
+    "source_ids": [
+      "kennedy_the_2004",
+      "brett_the_2001",
+      "daftary_the_1990",
+      "hodgson_venture_of_islam_1974"
+    ],
+    "relationship_ids": [
+      "rel_abbasid_fatimid_rivalry",
+      "rel_fatimid_seljuk_rivalry",
+      "rel_fatimid_caliphate_to_ayyubid_sultanate_succession"
+    ],
+    "event_ids": [
+      "fatimid_caliphate_founded_909",
+      "wd_fatimid_conquest_of_egypt_969",
+      "fatimid_jerusalem_969",
+      "fatimid_al_azhar_970"
+    ]
+  },
+  "status": "open",
+  "findings": "By proclaiming a rival Ismaili imam-caliphate in Ifriqiya in 909 and seizing Egypt in 969 — where they founded Cairo and al-Azhar as an instrument of Shia missionary authority — the Fatimids broke the fiction of a single caliphate and split the Mediterranean Islamic world into competing Sunni (Abbasid, then Seljuk) and Shia (Fatimid) spheres. Abbasid temporal power was already hollowed out before the Fatimid challenge matured, and the contest was ultimately resolved not in Baghdad's favour but by the Sunni Ayyubid suppression of the Fatimid line under Saladin in 1171.",
+  "provenance": {
+    "status": "draft",
+    "sources_used": ["kennedy_the_2004", "brett_the_2001", "daftary_the_1990"],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

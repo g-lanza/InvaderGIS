@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "aedan_mac_gabrain",
+  "name": "Áedán mac Gabráin",
+  "polity": "kingdom_of_dal_riata",
+  "title": "military_leader",
+  "reign_start": 574,
+  "reign_end": 608,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "kingdom_of_dal_riata",
+        "role": "military_leader",
+        "start_year": 574,
+        "end_year": 608
+      }
+    ],
+    "key_actions": [],
+    "region": "british_isles",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

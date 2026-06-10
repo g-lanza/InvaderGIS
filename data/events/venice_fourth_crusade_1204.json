@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "venice_fourth_crusade_1204",
+  "name": "Venice and the Fourth Crusade Sack Constantinople",
+  "year": 1204,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    45.4,
+    12.3
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Doge Enrico Dandolo redirected the Fourth Crusade to sack Constantinople. Venice gained a quarter of the Byzantine Empire including Crete, Euboea, and key Aegean ports, creating the most profitable colonial empire in medieval European history.",
+  "outcomes": [
+    "constantinople_sacked",
+    "latin_empire_founded",
+    "venice_colonial_empire"
+  ],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_aleppo_1400",
+  "name": "Battle of Aleppo",
+  "year": 1400,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    30,
+    31.2
+  ],
+  "entity": "mamluk_sultanate",
+  "summary": "Battle of Aleppo (1400 CE), at Aleppo. Source: Wikidata Q135005721.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "mamluk_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "irwin_the_1986",
+      "northrup_from_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

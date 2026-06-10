@@ -1,0 +1,24 @@
+{
+ "kind": "text",
+ "id": "john_calvin_biblical_commentaries",
+ "name_primary": "Biblical Commentaries",
+ "author": "John Calvin",
+ "language": "Latin",
+ "composed": {
+  "place": "Geneva",
+  "year": 1550
+ },
+ "tradition": "treatise",
+ "provenance": {
+  "sources_used": [
+   "ims_fordham",
+   "ims_fordham_sbook1y"
+  ],
+  "confidence": "medium",
+  "attestation": "linked at CCEL",
+  "status": "draft"
+ },
+ "dataset": "medieval-europe-500-1500",
+ "_fordham_index": "sbook1y",
+ "from_sourcebook": true
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_arab_siege_constantinople_717_2_c02",
+  "statement": "Emperor Leo III defended Constantinople using Greek fire, which destroyed the Arab fleet, and the siege was abandoned in 718.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 717,
+    "to": 717
+  },
+  "derived_from": "arab_siege_constantinople_717_2",
+  "unresolved_sources": [
+    "treadgold_a_1997",
+    "kazhdan_the_1991"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "haldon_byzantium_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

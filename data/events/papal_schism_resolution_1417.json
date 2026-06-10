@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "papal_schism_resolution_1417",
+  "name": "Council of Constance Elects Martin V, Schism Ends",
+  "year": 1417,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    47.66,
+    9.17
+  ],
+  "entity": "papal_states",
+  "summary": "The Council of Constance, presided over by Emperor Sigismund, resolves the Western Schism by deposing or accepting the resignation of all three claimants and electing Cardinal Oddo Colonna as Pope Martin V (1417). The council had already burned Jan Hus (1415) and Jerome of Prague (1416). Martin V's election restores a single papacy but the conciliarist principle, that councils are superior to popes, remains contested for decades.",
+  "outcomes": [
+    "western_schism_ends",
+    "martin_v_elected",
+    "conciliarism_briefly_triumphs"
+  ],
+  "_quarry": {
+    "participants": [
+      "papal_states",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "The Council of Constance demonstrates both the possibilities and limits of conciliarism; it solves the schism that individual papal action could not resolve, showing that institutional collective authority can override individual papal claims; but subsequent popes (especially Pius II's Execrabilis, 1460) explicitly reject conciliarist authority; the conciliarism-papalism debate prefigures Protestant arguments about Church authority",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

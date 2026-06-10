@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "venetian_grain_1268",
+  "name": "Venice's Grain Supply Crisis, Maritime State Vulnerabilities",
+  "year": 1268,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    45.44,
+    12.33
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Venice faces a severe grain shortage requiring imports from Egypt and Byzantium, despite papal prohibitions on trade with Muslims and ongoing crusading commitments. The episode reveals the fundamental tension in Italian city-state identity: civic survival requires pragmatic commercial relationships that contradict crusading ideology. Venice repeatedly trades with the Mamluks throughout the Crusader period, providing the commercial infrastructure that makes crusading possible while undermining its religious rationale.",
+  "outcomes": [
+    "grain_dependency_exposed",
+    "venice_buys_grain_from_enemies",
+    "pragmatic_trade_overrides_crusading"
+  ],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "mamluk_sultanate",
+      "byzantine_empire"
+    ],
+    "structural_significance": "The Venetian grain crisis illustrates the structural contradiction between the mercantile interests of Italian city-states and the religious-military ideology of the crusading movement; Venice's trade with the Mamluks demonstrates that commercial republics prioritize civic survival over theological consistency; this realism anticipates the separation of religious and economic considerations that characterizes early modern statecraft",
+    "year_range": [
+      1268,
+      1270
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_hospitaller_jerusalem",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_jerusalem",
+      "role": "suzerain"
+    },
+    {
+      "entity_id": "knights_hospitaller_order",
+      "role": "vassal"
+    }
+  ],
+  "directed": true,
+  "type": "vassalage",
+  "since": 1099,
+  "until": 1291,
+  "note": "The Knights Hospitaller were founded in Jerusalem (c. 1099–1113) as a hospital order serving poor pilgrims, evolving into a military order by the mid-12th century. Their massive fortress of Krak des Chevaliers in Syria — built c. 1142–1170 — became the most formidable Crusader castle in the Levant. The Hospitallers held substantial fiefs throughout the Kingdom of Jerusalem and remained after the fall of Jerusalem (1187), based at Acre until 1291. Their military and organizational capacity — unlike the Templars — was redirected to naval warfare in the eastern Mediterranean after the fall of Acre.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Hospitallers' evolution from hospital to military order models the institutionalization of crusading; their fortresses (Krak des Chevaliers, Marqab) represent the peak of medieval military architecture; unlike the Templars, the Hospitallers survived into the modern era by adapting to maritime defense"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

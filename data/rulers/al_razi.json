@@ -1,0 +1,53 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "al_razi",
+  "name": "Abū Bakr Muḥammad ibn Zakariyyāʾ al-Rāzī",
+  "polity": "abbasid_caliphate",
+  "title": "court_physician",
+  "reign_start": 902,
+  "reign_end": 925,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 854,
+      "death_year": 925
+    },
+    "entity_associations": [
+      {
+        "entity_id": "abbasid_caliphate",
+        "role": "court_physician",
+        "start_year": 902,
+        "end_year": 925
+      }
+    ],
+    "key_actions": [
+      {
+        "year": 902,
+        "summary": "Becomes head of the Baghdad hospital under caliph al-Muktafi.",
+        "source_id": "hodgson_venture_of_islam_1974"
+      },
+      {
+        "year": 910,
+        "summary": "Completes Kitāb al-Manṣūrī (Liber Almansoris in Latin), a ten-volume medical encyclopedia.",
+        "source_id": "hodgson_venture_of_islam_1974"
+      },
+      {
+        "year": 920,
+        "summary": "Completes Kitāb al-Ḥāwī (The Comprehensive Book), the longest medical work of the Islamic Middle Ages — 23 surviving volumes of case-notes and references.",
+        "source_id": "hodgson_venture_of_islam_1974"
+      }
+    ],
+    "region": "central_asia",
+    "name_variants": [
+      "Al-Razi",
+      "Rhazes"
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "hodgson_venture_of_islam_1974"
+    ],
+    "confidence": "low"
+  }
+}

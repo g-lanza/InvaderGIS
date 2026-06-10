@@ -1,0 +1,31 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_tang_tibetan_rivalry",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "tang_dynasty",
+      "role": "partner"
+    },
+    {
+      "entity_id": "tibet",
+      "role": "partner"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 618,
+  "until": 842,
+  "note": "Two centuries of contested control over the Tarim Basin, Gansu corridor, and Kashmir highlands. Tibetan armies briefly captured Chang'an in 763 during the post-An-Lushan chaos.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Among the longest sustained imperial rivalries of the medieval period."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

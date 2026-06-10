@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_marchfeld_1278",
+  "name": "Battle of Marchfeld",
+  "year": 1278,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    48.3,
+    16.75
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Rudolf I of Habsburg defeats and kills Ottokar II of Bohemia on the Marchfeld plain north of Vienna on August 26, 1278. Ottokar, who had refused to perform homage for his Austrian and Styrian holdings, fields a larger army but is outmaneuvered; Hungarian cavalry under Ladislaus IV flanks the Bohemian forces. Ottokar is killed in the rout. Rudolf distributes Austria, Styria, and Carinthia to his sons, founding the Habsburg hereditary domain that will endure until 1918.",
+  "outcomes": [
+    "ottokar_ii_killed",
+    "habsburg_dynasty_established_austria",
+    "bohemia_weakened"
+  ],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "duchy_of_austria",
+      "kingdom_of_bohemia",
+      "kingdom_of_hungary"
+    ],
+    "structural_significance": "The founding moment of Habsburg dynastic power in central Europe; Austria becomes the permanent Habsburg base; Bohemia is weakened but remains an independent kingdom; establishes the territorial configuration of Central Europe for the next six centuries",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_kosovo",
+  "name": "Battle of Kosovo",
+  "subtype": "battle",
+  "start_year": 1389,
+  "end_year": 1389,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "Ottoman victory over Serbian coalition; decisive for Balkan conquest",
+  "coords": [
+    21.05,
+    42.85
+  ]
+}

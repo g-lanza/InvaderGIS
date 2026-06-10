@@ -1,0 +1,52 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "himyarite_kingdom",
+  "name_primary": "Himyarite Kingdom",
+  "name_variants": [
+    "Himyar",
+    "Ḥimyar"
+  ],
+  "type": "kingdom",
+  "region": "arabia",
+  "formed": 110,
+  "dissolved": 525,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    14.7,
+    45.3
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "hourani_arab_peoples_1991"
+    ],
+    "confidence": "low"
+  },
+  "description": "South Arabian kingdom ruling Yemen and adjacent regions from the late first century BCE through the early sixth century CE. Originally polytheist, the Himyarite elite adopted monotheistic Judaism by the early fifth century. The reign of the Jewish Himyarite king Dhu Nuwas culminated in the persecution of the Christian community of Najran around 523, which served as the casus belli for the Aksumite invasion of 525 that ended the kingdom; the territory passed into Aksumite and then Sasanian hands before the Islamic conquests.",
+  "temporal": {
+    "start_year": 110,
+    "end_year": 525,
+    "end_year_within_scope": 525,
+    "notes": "South Arabian kingdom dominant in Yemen from the late first century BCE; ended after the Aksumite invasion of 525 and the killing of the last Himyarite ruler Dhu Nuwas; within atlas scope only briefly (500–525)."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      14.7,
+      45.3
+    ],
+    "core_regions": [
+      "yemen_highlands"
+    ],
+    "notes": "Capital Zafar in the central Yemeni highlands; the kingdom controlled trade routes from inland Arabia to the Red Sea and Indian Ocean."
+  },
+  "successor_entity_ids": [
+    "aksumite_empire"
+  ],
+  "sources": [
+    "hourani_arab_peoples_1991"
+  ],
+  "monogram": "HK"
+}

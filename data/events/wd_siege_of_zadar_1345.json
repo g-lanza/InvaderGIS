@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_zadar_1345",
+  "name": "Siege of Zadar",
+  "year": 1345,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    45.4,
+    12.3
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Siege of Zadar (1345 CE), at Zadar (part of Croatian-Venetian Wars). Source: Wikidata Q27465472.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

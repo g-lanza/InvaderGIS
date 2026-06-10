@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_rus_byzantine_war_of_941_944_941",
+  "name": "Rus'–Byzantine War of 941–944",
+  "year": 941,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    45.7,
+    29.7
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Rus'–Byzantine War of 941–944 (941 CE), at Constantinople (part of Rus'–Byzantine wars). Source: Wikidata Q1837308.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "kievan_rus"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

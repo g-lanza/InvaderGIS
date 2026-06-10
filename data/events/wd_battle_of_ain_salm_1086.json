@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_ain_salm_1086",
+  "name": "Battle of Ain Salm",
+  "year": 1086,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    38.5,
+    32.5
+  ],
+  "entity": "sultanate_of_rum",
+  "summary": "Battle of Ain Salm (1086 CE), at Aleppo. Source: Wikidata Q9172722.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "sultanate_of_rum"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "kind": "institution",
+  "dataset": "medieval-europe-500-1500",
+  "id": "cluniac_reform_movement",
+  "name_primary": "Cluniac Reform Movement",
+  "domain": "monastic_movement",
+  "formed": 910,
+  "dissolved": 1200,
+  "_quarry": {
+    "key_developments": [
+      {
+        "year": 910,
+        "event": "Foundation of Cluny by William I of Aquitaine; papal-protected charter."
+      },
+      {
+        "year": 1049,
+        "event": "Election of Pope Leo IX, a Cluniac-influenced reformer; reform crisis begins."
+      },
+      {
+        "year": 1075,
+        "event": "Investiture Controversy under Gregory VII — Cluniac ideals applied to papal politics."
+      },
+      {
+        "year": 1098,
+        "event": "Cistercian Order founded at Cîteaux as a stricter reform of Cluny."
+      }
+    ],
+    "influences_entities": [
+      "papal_states",
+      "duchy_of_burgundy",
+      "kingdom_of_france",
+      "holy_roman_empire"
+    ],
+    "description": "A revival of Benedictine monasticism centred on the abbey of Cluny in Burgundy, founded 910 with the unusual privilege of direct papal protection (no lay or local-bishop interference). Cluny's daughter houses grew into the first centralized monastic order, numbering in the hundreds across Latin Europe by 1100. Cluniac emphasis on elaborate liturgy, papal supremacy, and clerical celibacy fed directly into the 11th-century Gregorian Reform."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_cija_711",
+  "name": "Battle of Écija",
+  "subtype": "battle",
+  "start_year": 711,
+  "end_year": 711,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q133799914"
+    }
+  },
+  "description": "Battle during Umayyad conquest of Hispania (711)",
+  "coords": [
+    -5.0792,
+    37.5411
+  ]
+}

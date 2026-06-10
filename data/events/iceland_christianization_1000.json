@@ -1,0 +1,31 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "iceland_christianization_1000",
+  "name": "Christianisation of Iceland by the Althing",
+  "year": 1000,
+  "type": "religious",
+  "category": "religion",
+  "coords": [
+    64.25,
+    -21.05
+  ],
+  "entity": "iceland_commonwealth",
+  "summary": "At the annual Althing assembly at Þingvellir, the lawspeaker Þorgeirr Ljósvetningagoði rules in favour of formal conversion to Christianity to prevent the island fracturing between pagans and converts. Private pagan practice is permitted to continue for a transitional period.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "iceland_commonwealth"
+    ],
+    "structural_significance": "First polity to adopt Christianity by deliberative legal vote rather than royal decree; sets a precedent for institutional conversions elsewhere in Scandinavia and shapes the Icelandic Free State's law-centred political identity.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

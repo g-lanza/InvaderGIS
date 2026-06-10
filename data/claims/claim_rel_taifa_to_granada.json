@@ -1,0 +1,30 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_taifa_to_granada",
+  "statement": "The Nasrid Emirate of Granada emerged from the third Taifa period following the Almohad collapse. Muhammad ibn Yusuf ibn Nasr established himself at Granada (1232), quickly absorbing Almería and Málaga to create the largest surviving Muslim state in Iberia. Granada's survival required accepting Castilian suzerainty and paying tribute (parias) — first paid to Fernando III of Castile, who used Nasrid troops against Seville (1248). The Nasrid dynasty ruled for 260 years through a combination of mountain geography, tribute diplomacy, maritime connections with Morocco, and skillful exploitation of Castilian-Aragonese competition.",
+  "subject_ids": [
+    "taifa_kingdoms",
+    "emirate_of_granada"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_taifa_to_granada",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "harvey_islamic_1990",
+      "fernández-puertas_the_1997"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "emirate_of_granada"
+  ],
+  "period": {
+    "from": 1238,
+    "to": 1238
+  }
+}

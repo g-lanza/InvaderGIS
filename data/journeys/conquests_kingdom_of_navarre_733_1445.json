@@ -1,0 +1,180 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_kingdom_of_navarre_733_1445",
+  "name": "Kingdom of Navarre — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 733,
+  "year_end": 1445,
+  "waypoints": [
+    {
+      "year": 733,
+      "place": "Reconquista",
+      "coords": [
+        39.332,
+        -1.6233
+      ],
+      "note": "military",
+      "event_id": "wd_reconquista_733"
+    },
+    {
+      "year": 778,
+      "place": "Battle of Roncevaux Pass",
+      "coords": [
+        43,
+        -1.32
+      ],
+      "note": "battle",
+      "event_id": "battle_roncevaux_778"
+    },
+    {
+      "year": 1172,
+      "place": "Spanish Christian–Muslim War of 1172–1212",
+      "coords": [
+        40.7667,
+        -3.7833
+      ],
+      "note": "military",
+      "event_id": "wd_spanish_christian_muslim_war_of_1172_1212_1172"
+    },
+    {
+      "year": 1196,
+      "place": "Castilian–Leonese War",
+      "coords": [
+        40.7667,
+        -3.7833
+      ],
+      "note": "military",
+      "event_id": "wd_castilian_leonese_war_1196"
+    },
+    {
+      "year": 1212,
+      "place": "Las Navas de Tolosa — Almohad Power Broken",
+      "coords": [
+        38.35,
+        -3.6
+      ],
+      "note": "battle",
+      "event_id": "almohad_decline_1212"
+    },
+    {
+      "year": 1212,
+      "place": "Battle of Las Navas de Tolosa",
+      "coords": [
+        38.3,
+        -3.6
+      ],
+      "note": "battle",
+      "event_id": "battle_las_navas_tolosa_1212"
+    },
+    {
+      "year": 1283,
+      "place": "Aragonese Crusade",
+      "coords": [
+        42.61,
+        5.6786
+      ],
+      "note": "military",
+      "event_id": "wd_aragonese_crusade_1283"
+    },
+    {
+      "year": 1283,
+      "place": "Siege of Ull",
+      "coords": [
+        43.6667,
+        0.4667
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_ull_1283"
+    },
+    {
+      "year": 1284,
+      "place": "Siege of Tudela",
+      "coords": [
+        41.3567,
+        0.5167
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_tudela_1284"
+    },
+    {
+      "year": 1321,
+      "place": "Battle of Beotibar",
+      "coords": [
+        42.8,
+        -1.6
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_beotibar_1321"
+    },
+    {
+      "year": 1337,
+      "place": "Edwardian War",
+      "coords": [
+        47.3691,
+        2.2482
+      ],
+      "note": "military",
+      "event_id": "wd_edwardian_war_1337"
+    },
+    {
+      "year": 1367,
+      "place": "Battle of Nájera",
+      "coords": [
+        45.13,
+        -0.0757
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_n_jera_1367"
+    },
+    {
+      "year": 1369,
+      "place": "Caroline War",
+      "coords": [
+        46.16,
+        -1.42
+      ],
+      "note": "military",
+      "event_id": "wd_caroline_war_1369"
+    },
+    {
+      "year": 1378,
+      "place": "Navarro-Castilian war",
+      "coords": [
+        45.4333,
+        -2.2
+      ],
+      "note": "military",
+      "event_id": "wd_navarro_castilian_war_1378"
+    },
+    {
+      "year": 1429,
+      "place": "Castilian-Aragonese War of 1429-1430",
+      "coords": [
+        41.8333,
+        -1.7
+      ],
+      "note": "military",
+      "event_id": "wd_castilian_aragonese_war_of_1429_1430_1429"
+    },
+    {
+      "year": 1445,
+      "place": "First Battle of Olmedo",
+      "coords": [
+        41.8333,
+        -1.7
+      ],
+      "note": "military",
+      "event_id": "wd_first_battle_of_olmedo_1445"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

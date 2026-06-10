@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ottoman_suleiman_belgrade_1521",
+  "name": "Suleiman the Magnificent Takes Belgrade",
+  "year": 1521,
+  "type": "conflict",
+  "category": "violence",
+  "coords": [
+    44.817,
+    20.456
+  ],
+  "entity": "ottoman_empire",
+  "summary": "In August 1521, Suleiman I captured Belgrade, the fortress that had twice repelled the Ottomans (1440, 1456). Its fall removed the primary barrier between the Ottoman Empire and Hungary. Five years later at Mohács (1526) Suleiman annihilated the Hungarian army and killed King Louis II, opening central Europe to Ottoman power and eventually bringing Hungary under Ottoman suzerainty for 150 years.",
+  "outcomes": [
+    "Belgrade, \"gateway to Hungary\", captured",
+    "Hungarian frontier permanently breached",
+    "Stage set for Battle of Mohács 1526",
+    "Ottoman presence on Danube consolidated"
+  ],
+  "_quarry": {
+    "participants": [
+      "ottoman_empire",
+      "kingdom_of_hungary"
+    ],
+    "structural_significance": "Opened the road to Hungary and central Europe; the fall of Belgrade directly caused the Battle of Mohács and the collapse of medieval Hungary.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Imber, The Ottoman Empire",
+      "Ágoston, Guns for the Sultan"
+    ],
+    "confidence": "low"
+  }
+}

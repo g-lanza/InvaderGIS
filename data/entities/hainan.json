@@ -1,0 +1,418 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "hainan",
+  "name_primary": "Hainan",
+  "name_variants": [],
+  "type": "kingdom",
+  "region": "east_asia",
+  "formed": 500,
+  "dissolved": 1500,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    19.226,
+    109.72
+  ],
+  "population_estimates": [
+    {
+      "year": 900,
+      "estimate": 100000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q42200",
+          "url": "https://www.wikidata.org/wiki/Q42200",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Hainan",
+          "url": "https://en.wikipedia.org/wiki/Hainan"
+        }
+      ]
+    },
+    {
+      "year": 1100,
+      "estimate": 150000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q42200",
+          "url": "https://www.wikidata.org/wiki/Q42200",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Hainan",
+          "url": "https://en.wikipedia.org/wiki/Hainan"
+        }
+      ]
+    },
+    {
+      "year": 1300,
+      "estimate": 200000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q42200",
+          "url": "https://www.wikidata.org/wiki/Q42200",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Hainan",
+          "url": "https://en.wikipedia.org/wiki/Hainan"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Island province of the South China Sea whose indigenous Li and Miao peoples maintained highland autonomy alongside Han Chinese coastal settlements and exile communities; its position on the South China Sea trade route made it a waystation for Malay and Chinese maritime commerce, while its tropical agriculture, including rubber cultivation, distinguished it from mainland Chinese provinces.",
+  "temporal": {
+    "start_year": 500,
+    "end_year": 1500,
+    "notes": ""
+  },
+  "geographic": {
+    "centroid": [
+      19.226,
+      109.72
+    ],
+    "polygon_simplified": [
+      [
+        [
+          18.0966,
+          109.4297
+        ],
+        [
+          18.3306,
+          108.9386
+        ],
+        [
+          18.4824,
+          108.6519
+        ],
+        [
+          19.0603,
+          108.5605
+        ],
+        [
+          19.1874,
+          108.5769
+        ],
+        [
+          19.2956,
+          108.685
+        ],
+        [
+          19.404,
+          108.8737
+        ],
+        [
+          19.6841,
+          109.1982
+        ],
+        [
+          19.6592,
+          109.4201
+        ],
+        [
+          19.7355,
+          109.4423
+        ],
+        [
+          19.9136,
+          109.5503
+        ],
+        [
+          19.9011,
+          109.6577
+        ],
+        [
+          19.8,
+          109.9159
+        ],
+        [
+          19.9401,
+          110.0606
+        ],
+        [
+          19.9405,
+          110.2583
+        ],
+        [
+          20.0175,
+          110.6174
+        ],
+        [
+          19.7068,
+          110.8854
+        ],
+        [
+          19.6304,
+          110.8118
+        ],
+        [
+          19.4712,
+          110.6125
+        ],
+        [
+          19.2294,
+          110.427
+        ],
+        [
+          18.8988,
+          110.2987
+        ],
+        [
+          18.7656,
+          110.3615
+        ],
+        [
+          18.6256,
+          110.2625
+        ],
+        [
+          18.5872,
+          110.1313
+        ],
+        [
+          18.4147,
+          109.6691
+        ],
+        [
+          18.0966,
+          109.4297
+        ]
+      ]
+    ],
+    "capital": {
+      "name": "Haikou",
+      "coords": [
+        20.02,
+        110.32
+      ],
+      "source": "wikidata"
+    }
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "li_tribal_autonomy",
+      "years": "500-1000",
+      "description": "Interior of Hainan dominated by Li tribal peoples; coast gradually settled by Han Chinese migrants.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q42200",
+          "url": "https://www.wikidata.org/wiki/Q42200"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Hainan",
+          "url": "https://en.wikipedia.org/wiki/Hainan"
+        }
+      ]
+    },
+    {
+      "phase": "chinese_integration",
+      "years": "1000-1400",
+      "description": "Song and Yuan dynasties established firmer administrative control; Li resistance persisted in the interior mountains.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q42200",
+          "url": "https://www.wikidata.org/wiki/Q42200"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Hainan",
+          "url": "https://en.wikipedia.org/wiki/Hainan"
+        }
+      ]
+    },
+    {
+      "phase": "ming_province",
+      "years": "1400-1500",
+      "description": "Established as a full Chinese province with county-level administration; Li people confined to highland interior.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q42200",
+          "url": "https://www.wikidata.org/wiki/Q42200"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Hainan",
+          "url": "https://en.wikipedia.org/wiki/Hainan"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "island_geography",
+      "layer": "geography_territory",
+      "description": "Tropical island geography enabled Li peoples to maintain mountain refuges against Chinese expansion.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q42200",
+          "url": "https://www.wikidata.org/wiki/Q42200"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Hainan",
+          "url": "https://en.wikipedia.org/wiki/Hainan"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "chinese_colonisation",
+      "layer": "external_political",
+      "description": "Successive Chinese dynasties progressively settled the coastal lowlands and assimilated or displaced indigenous populations.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q42200",
+          "url": "https://www.wikidata.org/wiki/Q42200"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Hainan",
+          "url": "https://en.wikipedia.org/wiki/Hainan"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Feng Raofu",
+      "role": "li_chieftain",
+      "years": "900–940",
+      "year_start": 900,
+      "year_end": 940,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Feng Raofu",
+          "url": "https://en.wikipedia.org/wiki/Feng_Raofu"
+        }
+      ]
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "fishing",
+      "limited_trade"
+    ],
+    "wealth_level": "very_low",
+    "major_exports": [
+      "rice",
+      "fish",
+      "pearls",
+      "timber"
+    ],
+    "major_trade_partners": [
+      "song_empire",
+      "annam"
+    ],
+    "revenue_sources": [
+      "tribute_to_china",
+      "fishing",
+      "agricultural_taxes"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q42200",
+        "url": "https://www.wikidata.org/wiki/Q42200"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Hainan",
+        "url": "https://en.wikipedia.org/wiki/Hainan"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q42200",
+    "matched_name": "Hainan",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hainan",
+    "capital": {
+      "name": "Haikou",
+      "coords": [
+        20.02,
+        110.32
+      ]
+    },
+    "rulers_from_wikidata": [
+      {
+        "name": "Shen Xiaoming",
+        "qid": "Q16076972",
+        "year_start": 2017,
+        "year_end": 2020,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q16076972",
+            "url": "https://www.wikidata.org/wiki/Q16076972"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Shen Xiaoming",
+            "url": "https://en.wikipedia.org/wiki/Shen_Xiaoming"
+          }
+        ]
+      },
+      {
+        "name": "Feng Fei",
+        "qid": "Q28411600",
+        "year_start": 2020,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q28411600",
+            "url": "https://www.wikidata.org/wiki/Q28411600"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Feng Fei",
+            "url": "https://en.wikipedia.org/wiki/Feng_Fei"
+          }
+        ]
+      }
+    ],
+    "population_from_wikidata": [
+      {
+        "estimate": 8671518,
+        "confidence": "low",
+        "year": 2010
+      },
+      {
+        "estimate": 9171300,
+        "confidence": "low",
+        "year": 2016
+      },
+      {
+        "estimate": 10081232,
+        "confidence": "low",
+        "year": 2020
+      }
+    ]
+  },
+  "monogram": "HA"
+}

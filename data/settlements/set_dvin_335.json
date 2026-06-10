@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_dvin_335",
+  "name": "Dvin",
+  "importance": "city",
+  "start_year": 335,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q429059"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    44.5783,
+    40.0044
+  ]
+}

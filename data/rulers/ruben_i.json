@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ruben_i",
+  "name": "Ruben I",
+  "polity": "armenian_kingdom_of_cilicia",
+  "title": "dynastic_founder",
+  "reign_start": 1080,
+  "reign_end": 1095,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "armenian_kingdom_of_cilicia",
+        "role": "dynastic_founder",
+        "start_year": 1080,
+        "end_year": 1095
+      }
+    ],
+    "key_actions": [],
+    "region": "byzantine_world",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

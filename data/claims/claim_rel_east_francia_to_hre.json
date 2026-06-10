@@ -1,0 +1,31 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_east_francia_to_hre",
+  "statement": "The transformation of East Francia into the Holy Roman Empire occurred with Otto I's coronation as Emperor by Pope John XII (February 2, 962). Otto had already demonstrated imperial-scale authority by defeating the Magyars at Lechfeld (955) and was the undisputed dominant ruler of Latin Christendom. The imperial coronation linked his Frankish-German kingdom to the Roman imperial tradition and the papacy — creating a relationship that would generate centuries of conflict. The 'Holy Roman Empire of the German Nation' (the full title became standard in the 15th century) preserved Carolingian imperial ideology in a German institutional framework until 1806.",
+  "subject_ids": [
+    "east_francia",
+    "holy_roman_empire"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_east_francia_to_hre",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 962,
+    "to": 962
+  }
+}

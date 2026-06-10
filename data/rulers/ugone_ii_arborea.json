@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ugone_ii_arborea",
+  "name": "Ugone II of Arborea",
+  "polity": "judicate_of_arborea",
+  "title": "ruler",
+  "reign_start": 1335,
+  "reign_end": null,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "judicate_of_arborea",
+        "role": "ruler",
+        "start_year": 1335,
+        "end_year": null
+      }
+    ],
+    "key_actions": [],
+    "region": "italy",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

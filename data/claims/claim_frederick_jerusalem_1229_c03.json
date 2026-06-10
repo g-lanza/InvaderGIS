@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_frederick_jerusalem_1229_c03",
+  "statement": "Frederick II crowned himself King of Jerusalem in the Church of the Holy Sepulchre on March 18, 1229.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1229,
+    "to": 1229
+  },
+  "derived_from": "frederick_jerusalem_1229",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "antioch_earthquake_526",
+  "name": "Antioch earthquake",
+  "year": 526,
+  "type": "earthquake",
+  "category": "hazard",
+  "coords": [
+    36.2025,
+    36.1604
+  ],
+  "entity": "byzantine_empire",
+  "summary": "A magnitude-7 earthquake on 20 May 526 destroys most of Antioch on the Orontes, with chronicled casualty estimates of 250,000 (almost certainly inflated). A second major shock follows in 528. Justin I and Justinian fund extensive reconstruction, but the city's late-antique demographic peak is never recovered.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire"
+    ],
+    "structural_significance": "Demographic and economic blow to the Late-Antique Levant on the eve of the Persian-Byzantine wars and the Justinianic Plague; combined with these, marks the structural decline of Antioch from third-city of the empire to a regional town.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kaldellis_streams_of_gold_2017"
+    ],
+    "confidence": "low"
+  }
+}

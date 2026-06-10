@@ -1,0 +1,34 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_pictish_viking",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "pictish_confederation",
+      "role": "principal"
+    },
+    {
+      "entity_id": "danish_viking_polity",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 794,
+  "until": 850,
+  "note": "The Pictish kingdoms of northeastern Scotland (Fortriu, Ce, Fidach, and others) suffered devastating Viking raids beginning in the late 8th century — the monasteries of Iona (raided 795, 802, 806) were the most famous targets but Pictish coastal settlements were also hit. The pressures from Norse settlement in Orkney and Shetland (from c. 800) and Norse-Irish raids on the western coast squeezed Pictish territories. Norse settlement in the northern isles fundamentally altered Pictish culture in those regions; the Norse place-name layer in Orkney and Shetland (nearly 100% Norse) reflects the completeness of the displacement.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Viking pressure on Pictland contributes to the crisis conditions that produce the merger with the Gaelic Scots under Kenneth MacAlpin (c. 843); the Norse settlement of Orkney and Shetland permanently replaces Pictish culture with Norse culture in those islands, creating a cultural divide that persists to the present"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

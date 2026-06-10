@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_war_of_the_straits_1350",
+  "name": "War of the Straits",
+  "year": 1350,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41.5,
+    16.21
+  ],
+  "entity": "republic_of_venice",
+  "summary": "War of the Straits (1350 CE), at Mediterranean Sea (part of Venetian–Genoese Wars). Source: Wikidata Q894486.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "byzantine_empire",
+      "ottoman_empire",
+      "republic_of_genoa",
+      "crown_of_aragon",
+      "duchy_of_naxos",
+      "judicate_of_arborea"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

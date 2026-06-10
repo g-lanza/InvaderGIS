@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_hildegard_scivias_1151_c01",
+  "statement": "The Benedictine abbess Hildegard of Bingen completed Scivias in 1151 after ten years of composition.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1151,
+    "to": 1151
+  },
+  "derived_from": "hildegard_scivias_1151",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "constable_reformation_twelfth_century_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

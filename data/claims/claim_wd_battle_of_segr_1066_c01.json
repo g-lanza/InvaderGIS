@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_segr_1066_c01",
+  "statement": "Battle of Segré (1066 CE), at Segré (part of Breton-Norman War).",
+  "subject_ids": [
+    "duchy_of_brittany"
+  ],
+  "period": {
+    "from": 1066,
+    "to": 1066
+  },
+  "derived_from": "wd_battle_of_segr_1066",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

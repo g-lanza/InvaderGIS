@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "corpus_iuris_civilis_534",
+  "name": "Corpus Iuris Civilis completed",
+  "year": 534,
+  "type": "religious_council",
+  "category": "religion",
+  "coords": [
+    41.01,
+    28.98
+  ],
+  "entity": "byzantine_empire",
+  "summary": "The Byzantine jurist Tribonian completes the Corpus Iuris Civilis (Body of Civil Law) under Emperor Justinian I, a systematic compilation of Roman law consisting of the Codex (imperial rescripts), the Digest (excerpts from classical jurists), the Institutes (textbook), and the Novellae (new legislation). This is the most comprehensive legal text of the ancient world and the foundation of all modern European civil law systems. When rediscovered in Bologna in the 11th century, it becomes the basis for the revival of legal education and the formation of universities.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire"
+    ],
+    "structural_significance": "Codifies all of Roman law into a usable system; rediscovered in 11th-century Italy, it becomes the foundation of European continental legal systems; creates the model for medieval university legal education",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_war_of_the_lombards_1228",
+  "name": "War of the Lombards",
+  "year": 1228,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    38.9875,
+    24.775
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "War of the Lombards (1228 CE), at Kingdom of Jerusalem (part of Crusader states). Source: Wikidata Q510588.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "kingdom_of_jerusalem",
+      "republic_of_genoa",
+      "knights_hospitaller_rhodes",
+      "kingdom_of_cyprus",
+      "principality_of_antioch",
+      "county_of_tripoli",
+      "republic_of_pisa"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_archidona_1434_c02",
+  "statement": "The Battle of Archidona took place at Peña de los Enamorados.",
+  "subject_ids": [
+    "crown_of_castile"
+  ],
+  "period": {
+    "from": 1434,
+    "to": 1434
+  },
+  "derived_from": "wd_battle_of_archidona_1434",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "o'callaghan_a_1975",
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

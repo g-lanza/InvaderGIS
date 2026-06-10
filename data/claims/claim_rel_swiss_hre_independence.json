@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_swiss_hre_independence",
+  "statement": "Swiss Confederation gradually freed itself from Habsburg/Imperial control; effective independence by Swabian War (1499).",
+  "subject_ids": [
+    "swiss_confederation",
+    "holy_roman_empire"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_swiss_hre_independence",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "marchal_schweizer_2006",
+      "rippmann_die_2006",
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1291,
+    "to": 1499
+  }
+}

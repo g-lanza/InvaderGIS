@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "tamerlane_timurid_empire_1402",
+  "name": "Battle of Ankara, Timur vs. Bayezid",
+  "year": 1402,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    39.95,
+    32.85
+  ],
+  "entity": "ottoman_empire",
+  "summary": "Timur (Tamerlane) defeats and captures Ottoman Sultan Bayezid I at the Battle of Ankara, putting the Ottoman Empire in crisis for a decade. Timur restores independent Anatolian principalities and returns to Central Asia, dying in 1405. The Ottoman Interregnum (1402–13) temporarily halts Ottoman expansion, giving Byzantine Constantinople a 50-year reprieve.",
+  "outcomes": [
+    "bayezid_captured",
+    "ottoman_interregnum",
+    "timurid_empire_peak"
+  ],
+  "_quarry": {
+    "participants": [
+      "ottoman_empire"
+    ],
+    "structural_significance": "Timur's victory is a historical near-miss, if he had pushed further west, the Ottoman Empire might have collapsed; instead it recovers under Mehmed I; the Timurid cultural renaissance at Samarkand creates Central Asian Islamic civilization's high point.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

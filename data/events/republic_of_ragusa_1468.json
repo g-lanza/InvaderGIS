@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "republic_of_ragusa_1468",
+  "name": "Ragusa Pays Ottoman Tribute",
+  "year": 1468,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.825,
+    23.495
+  ],
+  "entity": "republic_of_ragusa",
+  "summary": "Ragusa negotiated a tribute agreement with the Ottoman Empire, paying an annual sum in exchange for trading privileges throughout Ottoman territories. This pragmatic arrangement allowed the tiny republic to thrive as a commercial intermediary between the Christian and Muslim worlds for another three centuries.",
+  "outcomes": [
+    "tribute_arrangement",
+    "trade_privileges",
+    "survival_strategy"
+  ],
+  "_quarry": {
+    "participants": [
+      "republic_of_ragusa",
+      "ottoman_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_childrens_crusade_1212_c01",
+  "statement": "Two mass popular movements led by Stephen of Cloyes and Nicholas of Cologne, later mythologized as the Children's Crusade, attracted tens of thousands of followers in 1212.",
+  "subject_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 1212,
+    "to": 1212
+  },
+  "derived_from": "childrens_crusade_1212",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

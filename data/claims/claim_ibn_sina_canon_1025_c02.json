@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_ibn_sina_canon_1025_c02",
+  "statement": "Al-Qanun fi al-Tibb was translated into Latin in the 12th century and remained the standard European medical textbook until the 17th century.",
+  "subject_ids": [
+    "seljuk_sultanate"
+  ],
+  "period": {
+    "from": 1025,
+    "to": 1025
+  },
+  "derived_from": "ibn_sina_canon_1025",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "hodgson_venture_of_islam_1974",
+      "hourani_arab_peoples_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

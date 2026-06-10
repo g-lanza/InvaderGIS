@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_vienna_1365_siege_c02",
+  "statement": "The Ottomans used Adrianople as the base for the conquest of Thrace and Bulgaria in the 1370s.",
+  "subject_ids": [
+    "duchy_of_austria"
+  ],
+  "period": {
+    "from": 1365,
+    "to": 1365
+  },
+  "derived_from": "vienna_1365_siege",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

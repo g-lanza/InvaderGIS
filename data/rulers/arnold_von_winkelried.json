@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "arnold_von_winkelried",
+  "name": "Arnold von Winkelried",
+  "polity": "swiss_confederation",
+  "title": "military_leader",
+  "reign_start": 1386,
+  "reign_end": null,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "swiss_confederation",
+        "role": "military_leader",
+        "start_year": 1386,
+        "end_year": null
+      }
+    ],
+    "key_actions": [],
+    "region": "western_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_umayyad_invasion_of_gaul_719_c01",
+  "statement": "Umayyad invasion of Gaul (719 CE), at Italy (part of Muslim conquests).",
+  "subject_ids": [
+    "merovingian_kingdom"
+  ],
+  "period": {
+    "from": 719,
+    "to": 719
+  },
+  "derived_from": "wd_umayyad_invasion_of_gaul_719",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wood_the_1994",
+      "geary_before_1988"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "arab_conquests_syria_636",
+  "name": "Arab Conquest of Syria and Palestine",
+  "year": 636,
+  "type": "conquest",
+  "category": "violence",
+  "coords": [
+    33.51,
+    36.29
+  ],
+  "entity": "umayyad_caliphate",
+  "summary": "Arab Muslim forces under Khalid ibn al-Walid defeat the Byzantine army at Yarmouk (636) and proceed to conquer Syria. Damascus falls in 634, Jerusalem surrenders to Caliph Umar in 638, and Caesarea (the last Byzantine stronghold) falls in 641. The conquest is remarkably rapid, facilitated by a local population exhausted by Byzantine-Persian warfare and in many cases welcoming lighter taxation under Arab rule.",
+  "outcomes": [
+    "byzantium_loses_syria",
+    "jerusalem_falls_638",
+    "arab_administration_begins"
+  ],
+  "_quarry": {
+    "participants": [
+      "umayyad_caliphate",
+      "byzantine_empire"
+    ],
+    "structural_significance": "The Arab conquest of Syria removes the most economically productive provinces from Byzantium, its granary and recruitment base; Jerusalem's capture fulfills Islamic theological expectations while disappointing the Byzantine church; the Arab administration's relatively light tax burden initially wins cooperation from local populations; the rapid conquest demonstrates that the Byzantine-Persian wars had fatally weakened both empires' military and fiscal capacity",
+    "year_range": [
+      634,
+      641
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_the_2004",
+      "hawting_the_2000",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

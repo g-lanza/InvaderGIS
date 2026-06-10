@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "donation_pippin_756",
+  "name": "Donation of Pippin",
+  "year": 756,
+  "type": "treaty",
+  "category": "diplomacy",
+  "coords": [
+    45.19,
+    9.16
+  ],
+  "entity": "carolingian_empire",
+  "summary": "Pippin III, King of the Franks, makes two military expeditions into Italy (754, 756) at Pope Stephen II's request to expel the Lombards from territories they had seized from the Exarchate of Ravenna. Rather than returning the territories to their Byzantine overlord, Pippin donates them to the papacy as the 'Donation of Pippin', creating the temporal basis of the Papal States. In exchange, Stephen II anoints Pippin and his sons as 'Patriots of the Romans.' The donation creates the papacy as a temporal power and begins the Franco-papal alliance that produces Charlemagne's empire.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "carolingian_empire",
+      "papal_states",
+      "lombard_kingdom"
+    ],
+    "structural_significance": "Creates the Papal States; establishes the Franco-papal alliance; begins the papacy's transformation into a territorial power; the forged Donation of Constantine (which Pippin cited) shaped papal theory for centuries",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "mckitterick_charlemagne_2008",
+      "riché_the_1993",
+      "nelson_king_2019"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

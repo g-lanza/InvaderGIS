@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "meinhard_ii_gorz",
+  "name": "Meinhard II of Gorz-Tyrol",
+  "polity": "duchy_of_carinthia",
+  "title": "ruler",
+  "reign_start": 1238,
+  "reign_end": 1295,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "duchy_of_carinthia",
+        "role": "ruler",
+        "start_year": 1238,
+        "end_year": 1295
+      }
+    ],
+    "key_actions": [],
+    "region": "central_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

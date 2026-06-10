@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_frankish_visigoth_vouille",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "merovingian_kingdom",
+      "role": "principal"
+    },
+    {
+      "entity_id": "visigothic_kingdom",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 507,
+  "until": 507,
+  "note": "The Battle of Vouillé (507), in which Clovis I's Frankish forces defeated and killed the Visigothic King Alaric II, expelled the Visigoths from virtually all of Gaul — limiting them to the Iberian Peninsula and Septimania (the Mediterranean coastal strip now called Languedoc-Roussillon). The Frankish victory, supported by the Burgundians and celebrated by the papacy as a victory of Catholic Christianity over Arian heresy, made the Franks the unchallenged dominant power in Gaul. Clovis received the title of honorary consul from the Byzantine Emperor Anastasius, connecting the Frankish kingdom to the Roman imperial tradition.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Vouillé is the battle that makes Gaul permanently Frankish rather than Gothic; the expulsion of the Visigoths to Iberia creates the two main Germanic cultural zones of early medieval Western Europe (Frankish Gaul and Visigothic Iberia); Clovis's Roman honorary consulship establishes the Franks' claim to Roman imperial succession that Charlemagne eventually perfects"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wood_the_1994",
+      "geary_before_1988",
+      "collins_visigothic_2004",
+      "thompson_the_1969"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

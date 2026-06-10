@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_chakirmaut_1204",
+  "name": "Battle of Chakirmaut",
+  "subtype": "battle",
+  "start_year": 1204,
+  "end_year": 1204,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q107143744"
+    }
+  },
+  "description": "Battle during Rise of Genghis Khan (1204)",
+  "coords": [
+    89,
+    49
+  ]
+}

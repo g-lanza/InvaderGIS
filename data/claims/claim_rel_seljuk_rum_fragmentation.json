@@ -1,0 +1,31 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_seljuk_rum_fragmentation",
+  "statement": "The Sultanate of Rum emerges from the Great Seljuk Empire as an autonomous branch ruling Anatolia ('Rum' = Roman, i.e., Byzantine lands); grows fully independent after the fragmentation of the Great Seljuk Empire following Malik Shah's death (1092).",
+  "subject_ids": [
+    "seljuk_sultanate",
+    "sultanate_of_rum"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_seljuk_rum_fragmentation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "peacock_the_2015",
+      "bosworth_the_1963",
+      "cahen_preottoman_1968",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "sultanate_of_rum"
+  ],
+  "period": {
+    "from": 1077,
+    "to": 1194
+  }
+}

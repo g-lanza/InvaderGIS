@@ -1,0 +1,31 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_6000_mark_war_1276",
+  "name": "6000-Mark War",
+  "year": 1276,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    60,
+    15
+  ],
+  "entity": "kingdom_of_sweden",
+  "summary": "6000-Mark War (1276 CE), at Halland. Source: Wikidata Q11956522.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_sweden"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_medieval_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_massacre_at_b_ziers_1209",
+  "name": "Massacre at Béziers",
+  "subtype": "battle",
+  "start_year": 1209,
+  "end_year": 1209,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q941312"
+    }
+  },
+  "description": "Battle during Albigensian Crusade (1209)",
+  "coords": [
+    3.219,
+    43.3476
+  ]
+}

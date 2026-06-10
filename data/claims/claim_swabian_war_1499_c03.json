@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_swabian_war_1499_c03",
+  "statement": "Swiss forces defeated imperial and Swabian League forces at the battles of Hard, Bruderholz, and Dornach.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1499,
+    "to": 1499
+  },
+  "derived_from": "swabian_war_1499",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "datasetId": "medieval-europe-500-1500",
+
+  "window": { "start": 500, "end": 1500 },
+
+  "bounds": { "latMin": -60, "latMax": 85, "lonMin": -180, "lonMax": 180 },
+
+  "categories": [
+    { "id": "violence",    "code": "V", "label": "Violence",    "color": "#9c1c1c", "glyph": "swords"    },
+    { "id": "diplomacy",   "code": "D", "label": "Diplomacy",   "color": "#2e8b57", "glyph": "dove"      },
+    { "id": "power",       "code": "P", "label": "Power",       "color": "#b8860b", "glyph": "crown"     },
+    { "id": "religion",    "code": "R", "label": "Religion",    "color": "#5a3d8a", "glyph": "pray"      },
+    { "id": "culture",     "code": "C", "label": "Culture",     "color": "#2a7575", "glyph": "people"    },
+    { "id": "discovery",   "code": "X", "label": "Discovery",   "color": "#3b6a8c", "glyph": "magnifier" },
+    { "id": "economy",     "code": "E", "label": "Economy",     "color": "#a3592a", "glyph": "dollar"    },
+    { "id": "hazard",      "code": "H", "label": "Hazard",      "color": "#6e3030", "glyph": "bolt"      },
+    { "id": "institution", "code": "I", "label": "Institution", "color": "#4a4a52", "glyph": "pillars"   }
+  ],
+
+  "subtypeToCategory": {
+    "battle":               "violence",
+    "war":                  "violence",
+    "military":             "violence",
+    "conflict":             "violence",
+    "conquest":             "violence",
+    "rebellion":            "violence",
+    "revolt":               "violence",
+    "crusade":              "violence",
+    "siege":                "violence",
+    "assassination":        "violence",
+
+    "treaty":               "diplomacy",
+    "treaty_fragmentation": "diplomacy",
+    "marriage":             "diplomacy",
+
+    "coronation":           "power",
+    "succession_crisis":    "power",
+    "election":             "power",
+
+    "religious":            "religion",
+    "religious_council":    "religion",
+    "council":              "religion",
+
+    "cultural":             "culture",
+
+    "exploration":          "discovery",
+    "expansion_milestone":  "discovery",
+
+    "economic":             "economy",
+
+    "disaster":             "hazard",
+    "epidemic":             "hazard",
+    "plague":               "hazard",
+    "famine":               "hazard",
+    "fire":                 "hazard",
+    "earthquake":           "hazard",
+    "climate":              "hazard",
+
+    "political":            "power",
+    "dissolution_event":    "power"
+  },
+
+  "subtypeGlyphs": {
+    "siege":        "shield",
+    "raid":         "ship",
+    "naval":        "ship",
+    "treaty":       "scroll",
+    "charter":      "scroll",
+    "proclamation": "bell",
+    "founding":     "fortress",
+    "council":      "church",
+    "mosque":       "mosque",
+    "islamic":      "crescent",
+    "orthodox":     "patriarchal",
+    "codex":        "book",
+    "learning":     "book",
+    "trade":        "caravan",
+    "fire":         "flame",
+    "famine":       "wheat",
+    "plague":       "skull",
+    "marriage":     "rings",
+    "coronation":   "orb"
+  },
+
+  "regions": {
+    "western_europe":                "#2b8cbe",
+    "central_europe":                "#e66101",
+    "northern_europe":               "#6a3d9a",
+    "southern_europe":               "#1b9e77",
+    "eastern_europe":                "#9e3030",
+    "southeastern_europe":           "#6ba858",
+    "british_isles":                 "#905088",
+    "iberia":                        "#66c2a5",
+    "italy":                         "#e6ab02",
+    "byzantine_world":               "#8da0cb",
+    "islamic_world_european_facing": "#b2abd2",
+    "central_asian":                 "#fb9a99",
+    "central_asia":                  "#fb9a99",
+    "north_africa":                  "#d99858",
+    "near_east":                     "#41ab5d",
+    "middle_east":                   "#c87c3a",
+    "scandinavia":                   "#756bb1",
+    "east_asia":                     "#cc7a3a",
+    "south_asia":                    "#a07a9b",
+    "southeast_asia":                "#6a9b41",
+    "sub_saharan_africa":            "#7a4a3a",
+    "west_africa":                   "#9b6a3a",
+    "horn_of_africa":                "#7a4a3a",
+    "nile_valley":                   "#b29a3a",
+    "americas":                      "#3a6a3a",
+    "north_america":                 "#3a6a3a",
+    "mesoamerica":                   "#5a8a4a",
+    "andean":                        "#4a7a6a",
+    "arabia":                        "#a08a3a",
+    "levant":                        "#a73a3a",
+    "anatolia":                      "#a73a3a",
+    "caucasus":                      "#6a3d9a",
+    "indian_ocean":                  "#3a7a9a",
+    "siberia":                       "#9aa6c6",
+    "oceania":                       "#3a7a9a",
+    "islamic_world":                 "#b2abd2"
+  },
+
+  "relationships": {
+    "alliance":               "#2e8b57",
+    "rivalry":                "#9c1c1c",
+    "vassalage":              "#5a3d8a",
+    "tributary":              "#9b7a3a",
+    "trade":                  "#a3592a",
+    "marriage":               "#a07a9b",
+    "successor":              "#3b6a8c",
+    "religious":              "#7a5c1e",
+    "predecessor":            "#3b6a8c",
+    "succession":             "#3b6a8c",
+    "dynastic_union":         "#a07a9b",
+    "personal_union":         "#a07a9b",
+    "cultural_exchange":      "#7a5c1e",
+    "religious_jurisdiction": "#7a5c1e",
+    "contested_influence":    "#9c1c1c",
+    "fragmentation":          "#5e4214"
+  },
+
+  "journeys": {
+    "conquest":           "#9c1c1c",
+    "individual_journey": "#7a4ec2",
+    "migration":          "#4d7d3a",
+    "spread":             "#c2912a"
+  },
+
+  "fallbackCategory": "power"
+}

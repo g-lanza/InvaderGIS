@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "venice_golden_bull_1082",
+  "name": "Byzantine Golden Bull for Venice",
+  "year": 1082,
+  "type": "economic",
+  "category": "economy",
+  "coords": [
+    45.44,
+    12.33
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Emperor Alexios I Komnenos grants Venice extraordinary commercial privileges in the Golden Bull of 1082, in exchange for Venetian naval assistance against the Norman Robert Guiscard's invasion of the Balkans. Venice receives the right to trade throughout the Byzantine Empire without paying customs duties, a privilege not even available to Byzantine merchants themselves. Venetian merchants receive their own quarter in Constantinople, Durazzo, and other major cities. The document transforms Venice into the dominant commercial power of the eastern Mediterranean.",
+  "outcomes": [
+    "venetian_trade_privileges",
+    "customs_exemption_granted",
+    "venetian_commercial_empire_begins"
+  ],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "byzantine_empire"
+    ],
+    "structural_significance": "Creates an economic asymmetry between Venice and Byzantium that the Fourth Crusade exploits: when Byzantine-Venetian relations deteriorate, Venice redirects the Fourth Crusade to sack Constantinople (1204) and seizes its commercial empire; the Golden Bull makes Venice the wealthiest city-state in the Mediterranean and establishes the commercial capitalism model that other Italian cities emulate",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

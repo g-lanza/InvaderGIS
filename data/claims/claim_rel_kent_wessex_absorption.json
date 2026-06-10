@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_kent_wessex_absorption",
+  "statement": "Egbert of Wessex — who had spent time in exile at Charlemagne's court — conquered Kent from the Mercian sphere of influence (825) after his decisive victory over Mercia at Ellendun. Kent's absorption gave Wessex control of Canterbury (the ecclesiastical capital of England), the key port of Sandwich, and the richest agricultural land in southeast England. Essex, Sussex, and Surrey submitted simultaneously. The absorption of Kent and the southeast transformed Wessex from a regional power into the dominant English kingdom.",
+  "subject_ids": [
+    "kingdom_of_kent",
+    "kingdom_of_wessex"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_kent_wessex_absorption",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "kingdom_of_wessex"
+  ],
+  "period": {
+    "from": 825,
+    "to": 825
+  }
+}

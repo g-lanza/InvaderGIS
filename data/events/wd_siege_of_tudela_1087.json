@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_tudela_1087",
+  "name": "Siege of Tudela",
+  "year": 1087,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    43.15,
+    -1.375
+  ],
+  "entity": "duchy_of_burgundy",
+  "summary": "Siege of Tudela (1087 CE), at Tudela (part of Reconquista). Source: Wikidata Q18210269.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "duchy_of_burgundy",
+      "kingdom_of_leon",
+      "kingdom_of_castile",
+      "kingdom_of_aragon"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

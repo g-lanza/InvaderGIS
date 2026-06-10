@@ -1,0 +1,43 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rashidun_caliphate",
+  "name_primary": "Rashidun Caliphate",
+  "name_variants": [
+    "Patriarchal Caliphate",
+    "Rightly Guided Caliphate"
+  ],
+  "type": "caliphate",
+  "region": "near_east",
+  "formed": 632,
+  "dissolved": 661,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    24.4667,
+    39.6167
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "The first caliphate after Muhammad's death, led by the four 'rightly guided' caliphs Abu Bakr, Umar, Uthman, and Ali. Oversaw the rapid Arab conquests of the Sasanian Empire and the Byzantine Levant + Egypt, the codification of the Qur'an under Uthman, and the early administrative organization of the Islamic state. The First and Second Fitna split the early community along lines that became Sunni and Shia.",
+  "temporal": {
+    "start_year": 632,
+    "end_year": 661,
+    "notes": "From Muhammad's death (632) through Caliph Ali's assassination (661); succeeded by the Umayyad Caliphate."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      24.4667,
+      39.6167
+    ],
+    "notes": "Centroid placed at Medina, the Rashidun capital under Abu Bakr, Umar, and Uthman (632-656). Ali moved the capital to Kufa (32.03, 44.40) in 656; a single-centroid representation can't encode that mid-period shift. Approximate-location marker only, no polygon shape is fabricated."
+  },
+  "successor_entity_ids": [
+    "umayyad_caliphate"
+  ],
+  "monogram": "RC"
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_war_of_the_messin_succession_1221",
+  "name": "War of the Messin Succession",
+  "year": 1221,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    48.32,
+    4.37
+  ],
+  "entity": "county_of_champagne",
+  "summary": "War of the Messin Succession (1221 CE), at Metz. Source: Wikidata Q130397102.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "county_of_champagne"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

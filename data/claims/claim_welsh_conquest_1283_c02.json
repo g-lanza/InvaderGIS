@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_welsh_conquest_1283_c02",
+  "statement": "Llywelyn had been the first and last native prince recognized by the English crown (Treaty of Montgomery, 1267); his alliance with Simon de Montfort and his marriage plans (Llywelyn's fiancée Eleanor de Montfort had died in childbirth) created the rift with Edward I.",
+  "subject_ids": [
+    "kingdom_of_england"
+  ],
+  "period": {
+    "from": 1283,
+    "to": 1283
+  },
+  "derived_from": "welsh_conquest_1283",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

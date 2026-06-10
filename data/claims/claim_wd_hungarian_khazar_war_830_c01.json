@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_hungarian_khazar_war_830_c01",
+  "statement": "Hungarian–Khazar war (830 CE), at Etelköz (part of Hungarian invasions of Europe).",
+  "subject_ids": [
+    "khazar_khaganate"
+  ],
+  "period": {
+    "from": 830,
+    "to": 830
+  },
+  "derived_from": "wd_hungarian_khazar_war_830",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "golden_khazar_1980",
+      "brook_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

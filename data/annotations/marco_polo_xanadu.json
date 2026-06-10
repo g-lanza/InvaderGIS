@@ -1,0 +1,30 @@
+{
+  "id": "marco_polo_xanadu",
+  "kind": "annotation",
+  "dataset": "medieval",
+  "target_id": "travels_of_marco_polo",
+  "target_kind": "text",
+  "anchor": {
+    "quote": "In the city of Kemenfu the Great Khan has built a huge palace of marble and other ornamental stones. Round this palace a wall is built, enclosing a compass of sixteen miles, and inside the park there are fountains and rivers and brooks, and beautiful meadows.",
+    "locator": "Book I, on Shangdu (Xanadu)"
+  },
+  "body": "Polo's account of Kublai Khan's summer capital at Shangdu — a key European source for the wealth and administration of the Yuan court, however filtered through Rustichello's romance framing.",
+  "links_to": [
+    "yuan_dynasty",
+    "mongol_empire"
+  ],
+  "tags": [
+    "travel",
+    "mongols",
+    "court",
+    "trade"
+  ],
+  "provenance": {
+    "status": "draft",
+    "confidence": "medium",
+    "attestation": "weak",
+    "sources_used": [
+      "travels_of_marco_polo"
+    ]
+  }
+}

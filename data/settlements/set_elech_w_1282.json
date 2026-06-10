@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_elech_w_1282",
+  "name": "Żelechów",
+  "importance": "city",
+  "start_year": 1282,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q393091"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    21.9,
+    51.8
+  ]
+}

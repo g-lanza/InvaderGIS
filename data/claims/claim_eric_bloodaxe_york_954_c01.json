@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_eric_bloodaxe_york_954_c01",
+  "statement": "Eric Bloodaxe, the last independent Viking king of York, was killed at the Battle of Stainmore in 954, ending the Viking kingdom of Jorvik.",
+  "subject_ids": [
+    "kingdom_of_jorvik"
+  ],
+  "period": {
+    "from": 954,
+    "to": 954
+  },
+  "derived_from": "eric_bloodaxe_york_954",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

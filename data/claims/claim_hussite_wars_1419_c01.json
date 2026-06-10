@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_hussite_wars_1419_c01",
+  "statement": "The execution of Jan Hus in 1415 triggered the Hussite revolt in Bohemia, beginning with the First Defenestration of Prague in 1419.",
+  "subject_ids": [
+    "kingdom_of_bohemia"
+  ],
+  "period": {
+    "from": 1419,
+    "to": 1419
+  },
+  "derived_from": "hussite_wars_1419",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

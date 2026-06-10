@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_lucca_1430",
+  "name": "Siege of Lucca",
+  "year": 1430,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    44.1,
+    10.05
+  ],
+  "entity": "republic_of_florence",
+  "summary": "Siege of Lucca (1430 CE), at Lucca (part of Wars in Lombardy). Source: Wikidata Q71315892.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_florence",
+      "republic_of_genoa"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "najemy_a_2006",
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "council_nicaea_ii_787",
+  "name": "Second Council of Nicaea",
+  "year": 787,
+  "type": "religious_council",
+  "category": "religion",
+  "coords": [
+    40.43,
+    29.72
+  ],
+  "entity": "byzantine_empire",
+  "summary": "The Second Council of Nicaea (787), convened by Empress Irene and confirmed by Pope Hadrian I, resolves the First Iconoclast Controversy. The council defines the veneration (but not worship) of icons as theologically legitimate: the veneration passes to the person depicted, not the physical object. This distinguishes legitimate honor from idolatry. The council is the last ecumenical council recognized by both Eastern and Western Christianity; subsequent councils are recognized only by one side.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "papal_states"
+    ],
+    "structural_significance": "Resolves the Iconoclast Controversy; defines Orthodox Christian theology of images; the last council recognized as authoritative by both Catholic and Orthodox Christianity",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

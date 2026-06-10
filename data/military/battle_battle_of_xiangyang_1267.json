@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_xiangyang_1267",
+  "name": "Battle of Xiangyang",
+  "subtype": "battle",
+  "start_year": 1267,
+  "end_year": 1267,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1205096"
+    }
+  },
+  "description": "Battle during Mongol conquest of the Song dynasty (1267)",
+  "coords": [
+    112.1403,
+    32.0306
+  ]
+}

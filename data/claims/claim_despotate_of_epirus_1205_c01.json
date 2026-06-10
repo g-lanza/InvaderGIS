@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_despotate_of_epirus_1205_c01",
+  "statement": "Michael Komnenos Doukas founded the Despotate of Epirus in 1205 as one of three Byzantine successor states following the Fourth Crusade's capture of Constantinople.",
+  "subject_ids": [
+    "despotate_of_epirus"
+  ],
+  "period": {
+    "from": 1205,
+    "to": 1205
+  },
+  "derived_from": "despotate_of_epirus_1205",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

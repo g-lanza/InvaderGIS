@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_niemcza_1017",
+  "name": "Siege of Niemcza",
+  "year": 1017,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    50,
+    10.5
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Siege of Niemcza (1017 CE), at Niemcza (part of German–Polish Wars). Source: Wikidata Q7510279.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

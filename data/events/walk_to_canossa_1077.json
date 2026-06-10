@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "walk_to_canossa_1077",
+  "name": "Walk to Canossa",
+  "year": 1077,
+  "type": "rebellion",
+  "category": "violence",
+  "coords": [
+    44.59,
+    10.44
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Holy Roman Emperor Henry IV, excommunicated by Pope Gregory VII, performs penitential submission at Canossa castle in a snowstorm, standing barefoot in the cold for three days before the pope absolves him. The event is the most dramatic moment of the Investiture Controversy and symbolizes the papacy's claim to authority over secular rulers. Henry later regains power and drives Gregory into exile, but the precedent of papal power is set.",
+  "outcomes": [
+    "henry_iv_absolved",
+    "papal_authority_demonstrated"
+  ],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire"
+    ],
+    "structural_significance": "Establishes that the pope can depose emperors; 'Canossa' becomes a permanent symbol of humiliation before ecclesiastical authority; shapes the ongoing struggle between papacy and empire for two centuries",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

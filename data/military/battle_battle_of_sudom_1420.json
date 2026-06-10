@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_sudom_1420",
+  "name": "Battle of Sudoměř",
+  "subtype": "battle",
+  "start_year": 1420,
+  "end_year": 1420,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1618294"
+    }
+  },
+  "description": "Battle during Hussite Wars (1420)",
+  "coords": [
+    14.0639,
+    49.2419
+  ]
+}

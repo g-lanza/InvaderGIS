@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_portugal_castile",
+  "statement": "Portugal and Castile were in periodic conflict throughout the medieval period over the Tagus-Douro borderlands, the direction of the Reconquista, and dynastic succession claims. Portugal (independent from 1139 under Afonso Henriques) pressed its Reconquista southward independently, completing it in 1249 (Afonso III's capture of the Algarve) — decades before Castile finished. Successive succession crises (1383–1385, 1580) brought the two crowns into conflict and eventually union: Philip II of Spain inherited Portugal (1580) through his mother, uniting the Iberian crowns until the Portuguese Restoration (1640).",
+  "subject_ids": [
+    "kingdom_of_portugal",
+    "crown_of_castile"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_portugal_castile",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977",
+      "o'callaghan_a_1975",
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1230,
+    "to": 1500
+  }
+}

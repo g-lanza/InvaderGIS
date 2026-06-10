@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_duchy_of_styria_1276_c01",
+  "statement": "Rudolf of Habsburg acquired Styria in 1276 after defeating Ottokar II of Bohemia, who had briefly controlled it.",
+  "subject_ids": [
+    "duchy_of_styria"
+  ],
+  "period": {
+    "from": 1276,
+    "to": 1276
+  },
+  "derived_from": "duchy_of_styria_1276",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

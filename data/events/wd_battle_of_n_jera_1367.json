@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_n_jera_1367",
+  "name": "Battle of Nájera",
+  "year": 1367,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    45.13,
+    -0.0757
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Battle of Nájera (1367 CE), at Nájera (part of Castilian Civil War). Source: Wikidata Q1631158.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "duchy_of_brittany",
+      "kingdom_of_england",
+      "kingdom_of_navarre",
+      "crown_of_aragon",
+      "kingdom_of_majorca",
+      "duchy_of_aquitaine"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

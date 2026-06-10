@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "hussite_wars_1419",
+  "name": "Hussite Wars",
+  "year": 1419,
+  "type": "war",
+  "category": "violence",
+  "coords": [
+    50.08,
+    14.42
+  ],
+  "entity": "kingdom_of_bohemia",
+  "summary": "The execution of Jan Hus (1415) triggers the Hussite revolt in Bohemia, beginning with the First Defenestration of Prague (1419). Under the brilliant commander Jan Žižka (blind after 1420, 'never defeated in battle'), the Hussites develop revolutionary warfare: the Wagenburg (war wagons) tactic creates mobile fortresses from which massed crossbow and handgun fire devastates charging knights. Hussite forces repel five papal crusades (1420–1431). The Council of Basel's Compactata (1436) grants the Hussites communion in both kinds, the first negotiated settlement with religious reformers.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_bohemia",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "First successful military resistance to a papal crusade by religious reformers; Wagenburg tactics revolutionize warfare; first major use of handguns in European battle; sets the precedent for religious compromise",
+    "year_range": [
+      1419,
+      1434
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

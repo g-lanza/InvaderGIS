@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_ahy_1237",
+  "name": "Šahy",
+  "importance": "city",
+  "start_year": 1237,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q390946"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    18.9667,
+    48.0667
+  ]
+}

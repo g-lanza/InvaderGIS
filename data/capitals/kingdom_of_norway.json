@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_norway",
+  "name": "Trondheim",
+  "entity_id": "kingdom_of_norway",
+  "entity_name": "Kingdom of Norway",
+  "start_year": 872,
+  "end_year": 1397,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2196956"
+    }
+  },
+  "coords": [
+    10.4,
+    63.43
+  ]
+}

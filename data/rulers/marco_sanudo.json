@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "marco_sanudo",
+  "name": "Marco Sanudo",
+  "polity": "duchy_of_naxos",
+  "title": "dynastic_founder",
+  "reign_start": 1207,
+  "reign_end": 1227,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "duchy_of_naxos",
+        "role": "dynastic_founder",
+        "start_year": 1207,
+        "end_year": 1227
+      }
+    ],
+    "key_actions": [],
+    "region": "southeastern_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

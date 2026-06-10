@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_kievan_rus_875_1240",
+  "statement": "Kievan Rus' — campaigns and battles spanned 875–1240, from Rus'-Pecheneg Wars to Mongol Sack of Kiev.",
+  "subject_ids": [
+    "kievan_rus"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_kievan_rus_875_1240",
+  "period": {
+    "from": 875,
+    "to": 1240
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "franklin_the_1996",
+      "riasanovsky_a_2000",
+      "martin_medieval_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_black_death_france_1348_c02",
+  "statement": "Pope Clement VI's physician Guy de Chauliac documented the bubonic and pneumonic clinical forms of the plague.",
+  "subject_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 1348,
+    "to": 1348
+  },
+  "derived_from": "black_death_france_1348",
+  "unresolved_sources": [
+    "jordan_france_2004"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

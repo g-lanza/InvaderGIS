@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "tibet_tang_war_763",
+  "name": "Tibetan Empire Sacks Chang'an",
+  "year": 763,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    32.08,
+    92.019
+  ],
+  "entity": "tibet",
+  "summary": "Taking advantage of the Tang Dynasty's weakness after the An Lushan Rebellion, the Tibetan Empire briefly captured and sacked Chang'an, the Tang capital. This humiliation represented the zenith of Tibetan imperial power.",
+  "outcomes": [
+    "tang_capital_sacked",
+    "tibetan_empire_peak",
+    "tang_weakened"
+  ],
+  "_quarry": {
+    "participants": [
+      "tibet"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

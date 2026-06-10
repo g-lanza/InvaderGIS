@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_yamen",
+  "name": "Battle of Yamen",
+  "subtype": "battle",
+  "start_year": 1279,
+  "end_year": 1279,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "Final naval battle of the Song dynasty; Mongols defeat the last Song fleet; 100,000 die; end of Song China",
+  "coords": [
+    113.06,
+    21.95
+  ]
+}

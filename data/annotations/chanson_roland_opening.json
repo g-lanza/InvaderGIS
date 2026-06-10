@@ -1,0 +1,30 @@
+{
+  "id": "chanson_roland_opening",
+  "kind": "annotation",
+  "dataset": "medieval",
+  "target_id": "chanson_de_roland",
+  "target_kind": "text",
+  "anchor": {
+    "quote": "Charles the King, our great Emperor, has been seven full years in Spain: he has conquered the high land down to the sea.",
+    "locator": "Laisse 1, opening lines"
+  },
+  "body": "The opening of the Old French epic that mythologized Charlemagne's 778 Pyrenean campaign. As history it is unreliable; as a window onto 11th–12th-century crusading ideology and Frankish identity it is invaluable.",
+  "links_to": [
+    "kingdom_of_france",
+    "al_andalus"
+  ],
+  "tags": [
+    "epic",
+    "crusade-ideology",
+    "franks",
+    "memory"
+  ],
+  "provenance": {
+    "status": "draft",
+    "confidence": "medium",
+    "attestation": "weak",
+    "sources_used": [
+      "chanson_de_roland"
+    ]
+  }
+}

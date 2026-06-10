@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "fall_constantinople_1453",
+  "name": "Fall of Constantinople",
+  "year": 1453,
+  "type": "dissolution_event",
+  "category": "power",
+  "coords": [
+    41.01,
+    28.98
+  ],
+  "entity": "byzantine_empire",
+  "summary": "After a 53-day siege, Ottoman Sultan Mehmed II's forces breach the walls of Constantinople on May 29, 1453. The massive Hungarian-cast bombards, including the 'Urban cannon' firing 600kg stone balls, had breached the Theodosian Walls in multiple places. The last Byzantine Emperor Constantine XI Palaiologos dies fighting on the walls. Mehmed II rides into the city and prays in Hagia Sophia, converting it to a mosque. The fall shocks western Christendom: scholars and manuscripts flee west, contributing to the Renaissance. The Ottoman Empire becomes the major Mediterranean power.",
+  "outcomes": [
+    "byzantine_polity_ends"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "ottoman_empire"
+    ],
+    "structural_significance": "Ends the Eastern Roman (Byzantine) Empire after 1,123 years; completes Ottoman control of the Bosphorus; accelerates the Renaissance by dispersing Greek scholars westward; seals Ottoman dominance over southeastern Europe",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

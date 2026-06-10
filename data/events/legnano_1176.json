@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "legnano_1176",
+  "name": "Battle of Legnano",
+  "year": 1176,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    45.59,
+    8.92
+  ],
+  "entity": "commune_of_milan",
+  "summary": "At the Battle of Legnano (May 29, 1176), the Lombard League, a coalition of northern Italian city communes, defeats Holy Roman Emperor Frederick Barbarossa's army. The key factor: the Lombard infantry militia, fighting from behind the carroccio (a sacred battle wagon with a bell and standard), used spear formations that halted Barbarossa's cavalry charge. Barbarossa's horse was killed; he fled the battlefield, which his forces interpreted as his death, causing a rout. The battle forces Barbarossa to negotiate the Peace of Constance (1183), recognizing communal self-governance.",
+  "outcomes": [
+    "lombard_league_victory"
+  ],
+  "_quarry": {
+    "participants": [
+      "commune_of_milan",
+      "holy_roman_empire",
+      "lombard_kingdom"
+    ],
+    "structural_significance": "First great infantry victory over feudal cavalry; establishes the political independence of northern Italian communes; Peace of Constance formally recognizes communal autonomy; models infantry tactics that later armies adopt",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

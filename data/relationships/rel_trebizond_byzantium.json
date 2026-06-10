@@ -1,0 +1,39 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_trebizond_byzantium",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "empire_of_trebizond",
+      "role": "principal"
+    },
+    {
+      "entity_id": "byzantine_empire",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "cultural_exchange",
+  "since": 1261,
+  "until": 1453,
+  "note": "The Empire of Trebizond was founded by Alexios and David Komnenos in 1204 — the same year as Constantinople's fall to the Fourth Crusade — with Georgian Queen Tamar's military support. The Komnenoi claimed the Byzantine imperial title before settling on 'Emperor of the East' after Michael VIII Palaiologos's restoration of Constantinople (1261). Trebizond controlled the Black Sea port at the terminus of the Persian/Silk Road trade routes, making it commercially vital. Its survival depended on playing Mongol, Turkish, and Byzantine powers against each other through diplomacy and dynastic marriages — until the Ottomans ended it (1461).",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Trebizond as the terminus of the Silk Road's Black Sea route makes it commercially vital despite its small territory; its 257-year survival through a combination of geography (defensible Pontic mountain valley), trade wealth, and multi-directional diplomacy models the small-state survival strategy"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "miller_trebizond_1926",
+      "eastmond_art_2004",
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "charles_v_empire_1519",
+  "name": "Charles V, Universal Monarchy's Peak and Failure",
+  "year": 1519,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    48.21,
+    16.37
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Charles V inherits Spain (1516) and the Holy Roman Empire (1519), creating the most extensive European empire since Rome: Spain, the Low Countries, Austria, southern Italy, and the emerging American colonies. His reign confronts the Protestant Reformation, the Ottoman advance into Europe, and the French kings' resistance, challenges too numerous for simultaneous resolution. He abdicates in 1556, dividing his empire between his son Philip II (Spain, Low Countries, Italy) and brother Ferdinand I (Empire, Austria).",
+  "outcomes": [
+    "greatest_empire_since_rome",
+    "protestant_reformation_unmanageable",
+    "empire_too_large"
+  ],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "duchy_of_burgundy",
+      "duchy_of_austria"
+    ],
+    "structural_significance": "Charles V's reign demonstrates the limits of universal monarchy, an empire encompassing too many conflicts (religious, territorial, Atlantic) cannot be governed by a single ruler; his abdication and partition is the most significant political self-limitation of a medieval/early modern ruler; the division creates the Habsburg-Spanish and Habsburg-Austrian lines that dominate European politics for two more centuries",
+    "year_range": [
+      1519,
+      1556
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

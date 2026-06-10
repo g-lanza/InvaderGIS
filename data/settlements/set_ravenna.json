@@ -1,0 +1,22 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_ravenna",
+  "name": "Ravenna",
+  "importance": "capital",
+  "start_year": 402,
+  "end_year": 751,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "end_confidence": "medium",
+  "coords": [
+    12.202,
+    44.415
+  ]
+}

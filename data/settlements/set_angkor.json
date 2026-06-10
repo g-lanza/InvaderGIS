@@ -1,0 +1,22 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_angkor",
+  "name": "Angkor",
+  "importance": "megacity",
+  "start_year": 802,
+  "end_year": 1432,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "end_confidence": "medium",
+  "coords": [
+    103.867,
+    13.412
+  ]
+}

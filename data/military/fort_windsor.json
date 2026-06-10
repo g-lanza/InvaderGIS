@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "fort_windsor",
+  "name": "Windsor Castle",
+  "subtype": "fort",
+  "start_year": 1070,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "English royal castle built by William I",
+  "coords": [
+    -0.604,
+    51.484
+  ]
+}

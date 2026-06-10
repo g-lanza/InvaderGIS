@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_spoleto_papal_succession",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "duchy_of_spoleto",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "papal_states",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 1198,
+  "until": 1198,
+  "note": "Pope Innocent III, exploiting the Staufen succession crisis (1197–1209) during which the rival claimants Philip of Swabia and Otto IV were both seeking papal recognition, reasserted papal control over the duchy of Spoleto and other territories of the 'Patrimony of Peter.' By 1198–1200, Innocent III had incorporated Spoleto into the Papal States, citing the Donation of Charlemagne and the prior claims of the papacy. The incorporation was part of Innocent III's broader assertion of papal temporal sovereignty that made him the most powerful pope in medieval history.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Innocent III's absorption of Spoleto is part of his broader program of establishing firm papal territorial control over central Italy; his exploitation of the Staufen succession crisis to expand the Papal States demonstrates the correlation between imperial weakness and papal territorial gains"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "partner_the_1972",
+      "morris_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

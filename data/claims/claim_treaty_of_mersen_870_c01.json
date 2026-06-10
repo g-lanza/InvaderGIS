@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_treaty_of_mersen_870_c01",
+  "statement": "Charles the Bald and Louis the German partitioned the inheritance of their nephew Lothair II at Meerssen on 8 August 870, dividing the Middle Francia of the Treaty of Verdun (843) along the rivers Meuse, Saône, and Rhône.",
+  "subject_ids": [
+    "west_francia"
+  ],
+  "period": {
+    "from": 870,
+    "to": 870
+  },
+  "derived_from": "treaty_of_mersen_870",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_inheritance_of_rome_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

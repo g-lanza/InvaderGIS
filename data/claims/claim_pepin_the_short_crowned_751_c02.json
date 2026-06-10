@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_pepin_the_short_crowned_751_c02",
+  "statement": "In 751, the Merovingian king Childeric III was deposed and Pepin III was anointed king of the Franks.",
+  "subject_ids": [
+    "carolingian_empire"
+  ],
+  "period": {
+    "from": 751,
+    "to": 751
+  },
+  "derived_from": "pepin_the_short_crowned_751",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "mckitterick_charlemagne_2008",
+      "riché_the_1993",
+      "nelson_king_2019"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

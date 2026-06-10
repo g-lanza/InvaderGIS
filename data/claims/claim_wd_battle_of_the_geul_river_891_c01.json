@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_the_geul_river_891_c01",
+  "statement": "Battle of the Geul River (891 CE), at Geul (part of viking expansion).",
+  "subject_ids": [
+    "east_francia"
+  ],
+  "period": {
+    "from": 891,
+    "to": 891
+  },
+  "derived_from": "wd_battle_of_the_geul_river_891",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

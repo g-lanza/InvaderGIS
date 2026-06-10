@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_commune_of_milan_1037_1176",
+  "statement": "Commune of Milan — campaigns and battles spanned 1037–1176, from Siege of Milan to Battle of Legnano.",
+  "subject_ids": [
+    "commune_of_milan"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_commune_of_milan_1037_1176",
+  "period": {
+    "from": 1037,
+    "to": 1176
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

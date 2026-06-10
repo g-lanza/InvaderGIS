@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "dante_comedy_1315",
+  "name": "Dante's Divine Comedy, Italian Literary Revolution",
+  "year": 1315,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    43.77,
+    11.25
+  ],
+  "entity": "republic_of_florence",
+  "summary": "Dante Alighieri completes the Divine Comedy (Paradiso finished 1321), the first major literary work in Italian rather than Latin. Written in exile from Florence (where the Guelphs expelled him in 1302), the Comedy synthesizes medieval theology, classical learning, and contemporary politics into an allegorical journey through Hell, Purgatory, and Heaven. It places popes in Hell and his Florentine enemies alongside classical villains.",
+  "outcomes": [
+    "vulgar_italian_literary_language",
+    "medieval_synthesis_poetry",
+    "guelph_ghibelline_conflict_recorded"
+  ],
+  "_quarry": {
+    "participants": [
+      "republic_of_florence"
+    ],
+    "structural_significance": "The Divine Comedy establishes Italian (specifically the Florentine dialect) as a literary language capable of matching Latin; it creates Italian national literary identity 550 years before Italian political unification; Dante's synthesis of Scholastic theology, classical epic (Virgil guides him through Hell), and vernacular love poetry (Beatrice in Paradise) models the Renaissance aspiration to reconcile ancient and modern, secular and sacred; his political theology, attacking both papal corruption and imperial weakness, articulates the frustrated ideals of Ghibelline Italy",
+    "year_range": [
+      1308,
+      1321
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "najemy_a_2006",
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

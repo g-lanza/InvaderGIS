@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_poggio_imperiale_1479",
+  "name": "Battle of Poggio Imperiale",
+  "year": 1479,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    43.384,
+    10.366
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Battle of Poggio Imperiale (1479 CE), at Poggibonsi (part of Pazzi War). Source: Wikidata Q106767501.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "republic_of_florence",
+      "papal_states",
+      "kingdom_of_naples",
+      "republic_of_siena"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

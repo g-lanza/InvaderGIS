@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_umayyad_caliphate_627_800",
+  "statement": "Umayyad Caliphate — campaigns and battles spanned 627–800, from Khazar campaigns in Georgia to Campaign of the mud.",
+  "subject_ids": [
+    "umayyad_caliphate"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_umayyad_caliphate_627_800",
+  "period": {
+    "from": 627,
+    "to": 800
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_the_2004",
+      "hawting_the_2000",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

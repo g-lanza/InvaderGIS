@@ -1,0 +1,22 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_constantinople",
+  "name": "Constantinople",
+  "importance": "megacity",
+  "start_year": 330,
+  "end_year": 1453,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "high",
+    "attestation": "inferred"
+  },
+  "end_confidence": "high",
+  "coords": [
+    28.98,
+    41.008
+  ]
+}

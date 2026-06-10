@@ -1,0 +1,53 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "hildegard_of_bingen",
+  "name": "Hildegard of Bingen",
+  "polity": "holy_roman_empire",
+  "title": "abbess",
+  "reign_start": 1136,
+  "reign_end": 1179,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 1098,
+      "death_year": 1179
+    },
+    "entity_associations": [
+      {
+        "entity_id": "holy_roman_empire",
+        "role": "abbess",
+        "start_year": 1136,
+        "end_year": 1179
+      }
+    ],
+    "key_actions": [
+      {
+        "year": 1141,
+        "summary": "Reports the visionary experience that initiates the composition of Scivias; her abbot Volmar and Pope Eugenius III endorse the writings at the synod of Trier (1147–48).",
+        "source_id": "constable_reformation_twelfth_century_1996"
+      },
+      {
+        "year": 1151,
+        "summary": "Completes Scivias (Know the Ways), a trilogy of 26 visions with extensive illuminations.",
+        "source_id": "constable_reformation_twelfth_century_1996"
+      },
+      {
+        "year": 1158,
+        "summary": "Begins her four preaching tours through the Rhineland; an extraordinary public role for a 12th-century woman.",
+        "source_id": "constable_reformation_twelfth_century_1996"
+      }
+    ],
+    "region": "central_europe",
+    "name_variants": [
+      "Hildegardis Bingensis",
+      "Sybil of the Rhine"
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "constable_reformation_twelfth_century_1996"
+    ],
+    "confidence": "low"
+  }
+}

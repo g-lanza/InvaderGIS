@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_alicante_1356",
+  "name": "Siege of Alicante",
+  "year": 1356,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    42.3667,
+    1.8
+  ],
+  "entity": "republic_of_genoa",
+  "summary": "Siege of Alicante (1356 CE), at Alicante (part of War of the Two Peters). Source: Wikidata Q110453407.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_genoa",
+      "crown_of_aragon",
+      "crown_of_castile"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

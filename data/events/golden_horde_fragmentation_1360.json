@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "golden_horde_fragmentation_1360",
+  "name": "Golden Horde's Great Troubles, Fragmentation Begins",
+  "year": 1360,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    47.5,
+    46
+  ],
+  "entity": "golden_horde",
+  "summary": "The 'Great Troubles' (Velikaya Zamyatnya) of the Golden Horde (1360-1380) see approximately 20 khans in 20 years, assassination and civil war becoming endemic. Mamai (a non-Genghisid who controls the western portion) faces challenges from Tokhtamysh (backed by Timur) from the east. This internal chaos enables Moscow's growing military resistance, culminating in Kulikovo (1380).",
+  "outcomes": [
+    "twenty_khans_in_twenty_years",
+    "golden_horde_weakens",
+    "tributary_states_gain_strength"
+  ],
+  "_quarry": {
+    "participants": [
+      "golden_horde",
+      "khanate_of_crimea"
+    ],
+    "structural_significance": "The Golden Horde's fragmentation is the necessary precondition for Russian independence; the tributary states (Moscow, Tver, Novgorod) can build strength during periods when Horde authority is disputed; Timur's destruction of the Horde (1396-1397) accelerates its disintegration into the successor khanates (Crimea, Kazan, Astrakhan, Siberia); Moscow's rise exploits this fragmentation systematically",
+    "year_range": [
+      1360,
+      1380
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "allsen_mongol_1987"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

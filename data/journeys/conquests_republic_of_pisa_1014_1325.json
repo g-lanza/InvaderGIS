@@ -1,0 +1,189 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_republic_of_pisa_1014_1325",
+  "name": "Republic of Pisa — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1014,
+  "year_end": 1325,
+  "waypoints": [
+    {
+      "year": 1014,
+      "place": "Mujahid's invasion of Sardinia",
+      "coords": [
+        41.805,
+        9.2525
+      ],
+      "note": "military",
+      "event_id": "wd_mujahid_s_invasion_of_sardinia_1014"
+    },
+    {
+      "year": 1016,
+      "place": "Battle of Luni",
+      "coords": [
+        44.05,
+        9.65
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_luni_1016"
+    },
+    {
+      "year": 1020,
+      "place": "Zirid expedition to Central Italy",
+      "coords": [
+        43.0333,
+        16.0667
+      ],
+      "note": "military",
+      "event_id": "wd_zirid_expedition_to_central_italy_1020"
+    },
+    {
+      "year": 1087,
+      "place": "Mahdia campaign of 1087",
+      "coords": [
+        42.91,
+        11.3
+      ],
+      "note": "military",
+      "event_id": "wd_mahdia_campaign_of_1087_1087"
+    },
+    {
+      "year": 1099,
+      "place": "Venetian expedition to the Levant",
+      "coords": [
+        37.725,
+        22.275
+      ],
+      "note": "military",
+      "event_id": "wd_venetian_expedition_to_the_levant_1099"
+    },
+    {
+      "year": 1110,
+      "place": "Siege of Beirut",
+      "coords": [
+        38.7,
+        17.42
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_beirut_1110"
+    },
+    {
+      "year": 1177,
+      "place": "Battle of Salvore",
+      "coords": [
+        45.875,
+        10.525
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_salvore_1177"
+    },
+    {
+      "year": 1190,
+      "place": "Battle of Pašman",
+      "coords": [
+        44.55,
+        11.35
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_pa_man_1190"
+    },
+    {
+      "year": 1192,
+      "place": "Battle of Jaffa",
+      "coords": [
+        46.8667,
+        6.1
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_jaffa_1192"
+    },
+    {
+      "year": 1228,
+      "place": "War of the Lombards",
+      "coords": [
+        38.9875,
+        24.775
+      ],
+      "note": "military",
+      "event_id": "wd_war_of_the_lombards_1228"
+    },
+    {
+      "year": 1241,
+      "place": "Battle of Giglio",
+      "coords": [
+        41.9,
+        11.1
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_giglio_1241"
+    },
+    {
+      "year": 1273,
+      "place": "Tuscan War",
+      "coords": [
+        41.25,
+        11.05
+      ],
+      "note": "military",
+      "event_id": "wd_tuscan_war_1273"
+    },
+    {
+      "year": 1282,
+      "place": "Battle of Nicotera",
+      "coords": [
+        42.0667,
+        8.4
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_nicotera_1282"
+    },
+    {
+      "year": 1284,
+      "place": "Battle of Meloria — Genoa Destroys Pisa's Fleet",
+      "coords": [
+        43.55,
+        10.25
+      ],
+      "note": "battle",
+      "event_id": "battle_meloria_1284"
+    },
+    {
+      "year": 1284,
+      "place": "Battle of Meloria",
+      "coords": [
+        44.05,
+        9.65
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_meloria_1284"
+    },
+    {
+      "year": 1315,
+      "place": "Battle of Montecatini",
+      "coords": [
+        42.7667,
+        11.9667
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_montecatini_1315"
+    },
+    {
+      "year": 1325,
+      "place": "Naval Battle of Cagliari",
+      "coords": [
+        43.2667,
+        6.6
+      ],
+      "note": "military",
+      "event_id": "wd_naval_battle_of_cagliari_1325"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

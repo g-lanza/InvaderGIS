@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_merovingian_lombards",
+  "statement": "The Merovingian Franks and the Lombard Kingdom of Italy maintained generally hostile but occasionally cooperative relations throughout the 6th–8th centuries. The Merovingians periodically attempted to assert overlordship over the Lombards and intervened in Italian politics; Lombard expansion southward into central Italy was checked by Frankish-papal pressure. The Lombard-Merovingian relationship was complicated by Arian-Catholic religious differences (the Lombards were initially Arian); the conversion of the Lombard queen Theodolinda to Catholicism (c. 589) and the gradual Lombard conversion shifted the dynamic. The Lombard kingdom was ultimately conquered by Charlemagne (774) at papal request.",
+  "subject_ids": [
+    "merovingian_kingdom",
+    "lombard_kingdom"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_merovingian_lombards",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wood_the_1994",
+      "geary_before_1988",
+      "deacon_history_1907",
+      "christie_the_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 584,
+    "to": 751
+  }
+}

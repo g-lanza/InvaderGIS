@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_kalmar_holstein",
+  "statement": "The Duchy of Holstein — a German-speaking territory held by the Danish crown as a fief of the Holy Roman Empire (since 1460 united with the Duchy of Schleswig under the Treaty of Ripen) — created a persistent constitutional entanglement between Denmark and the Empire. Danish kings ruled Holstein as German princes and Schleswig as Danish dukes, simultaneously holding membership in both the Danish crown and the imperial Diet. The Holstein connection brought German commercial interests and culture into the Danish crown, facilitating Hanseatic trade but also creating a German-Danish cultural borderland that persisted until the Second World War.",
+  "subject_ids": [
+    "kalmar_union",
+    "hanseatic_league"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_kalmar_holstein",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "dollinger_the_1970",
+      "hammel-kiesow_die_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1397,
+    "to": 1500
+  }
+}

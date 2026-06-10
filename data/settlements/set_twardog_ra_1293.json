@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_twardog_ra_1293",
+  "name": "Twardogóra",
+  "importance": "city",
+  "start_year": 1293,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1005419"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    17.4697,
+    51.3647
+  ]
+}

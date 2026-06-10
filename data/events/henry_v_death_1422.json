@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "henry_v_death_1422",
+  "name": "Death of Henry V of England",
+  "year": 1422,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    48.84,
+    2.44
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Henry V of England, aged 36 and at the peak of his power as heir to France under the Treaty of Troyes (1420), dies of dysentery at Vincennes on August 31, 1422. He leaves a nine-month-old son, Henry VI, as heir to both the English crown and (under Troyes) the French one. Charles VI of France dies weeks later; Henry VI theoretically becomes king of both realms. But the minority government proves unable to consolidate the conquest; Charles VII (the 'Dauphin' Henry V had declared illegitimate) rallies French resistance, and Joan of Arc's campaigns beginning 1429 reverse the English position.",
+  "outcomes": [
+    "henry_vi_infant_king",
+    "dual_monarchy_weakened",
+    "french_resistance_renewed"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "kingdom_of_france"
+    ],
+    "structural_significance": "Henry V's premature death unravels the most ambitious English territorial conquest; the weakness of a minority government (Henry VI's regency) is ultimately fatal to the dual monarchy project; the French national resurgence catalyzed by Joan of Arc is only possible because of the power vacuum created by Henry V's death; his son Henry VI's mental illness eventually triggers the Wars of the Roses",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

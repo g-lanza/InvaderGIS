@@ -1,0 +1,49 @@
+{
+ "kind": "institution",
+ "dataset": "medieval-europe-500-1500",
+ "id": "al_azhar",
+ "name_primary": "Al-Azhar",
+ "domain": "educational_institution",
+ "formed": 970,
+ "dissolved": 1500,
+ "_quarry": {
+  "key_developments": [
+   {
+    "year": 972,
+    "event": "Al-Azhar mosque inaugurated under al-Mu'izz."
+   },
+   {
+    "year": 988,
+    "event": "Al-Aziz institutes formal teaching salaried by the Fatimid state."
+   },
+   {
+    "year": 1171,
+    "event": "Saladin suppresses Friday prayer at Al-Azhar — Ismaili dawa shuttered."
+   },
+   {
+    "year": 1266,
+    "event": "Baybars revives Al-Azhar as a Sunni teaching institution."
+   },
+   {
+    "year": 1340,
+    "event": "Mamluk endowments under al-Nasir Muhammad expand the four-school curriculum."
+   }
+  ],
+  "influences_entities": [
+   "fatimid_caliphate",
+   "ayyubid_sultanate",
+   "mamluk_sultanate"
+  ],
+  "description": "Built between 970 and 972 by the Fatimid caliph al-Mu'izz as the congregational mosque of the new capital Cairo, Al-Azhar was developed under his successor al-Aziz into a centre for the propagation of Ismaili Shi'ism, becoming the doctrinal seat of the Fatimid da'wa. After Saladin's overthrow of the Fatimids in 1171, the institution was suppressed as a Shi'i centre but revived in 1266 under the Mamluk sultan Baybars as a Sunni school of Sunni jurisprudence and Qur'anic science. By the late Mamluk period it had become one of the principal centres of Sunni religious learning in the Islamic world."
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "kennedy_caliphate_2004",
+   "hodgson_venture_of_islam_1974",
+   "ims_fordham",
+   "ims_fordham_sbook1d"
+  ],
+  "confidence": "low"
+ }
+}

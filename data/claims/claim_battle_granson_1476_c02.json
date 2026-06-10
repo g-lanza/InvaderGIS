@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_battle_granson_1476_c02",
+  "statement": "The Burgundians fled Grandson abandoning their camp, treasury, and artillery to the Swiss.",
+  "subject_ids": [
+    "swiss_confederation"
+  ],
+  "period": {
+    "from": 1476,
+    "to": 1476
+  },
+  "derived_from": "battle_granson_1476",
+  "unresolved_sources": [
+    "rippmann_die_2006"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "marchal_schweizer_2006"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

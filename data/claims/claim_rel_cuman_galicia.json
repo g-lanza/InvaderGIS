@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_cuman_galicia",
+  "statement": "The Principality of Galicia-Volhynia maintained a complex relationship with the Cumans (Kipchaks) of the adjacent steppe: sometimes fighting them (periodic raids), sometimes hiring them as mercenaries, and sometimes entering dynastic marriages. Prince Roman of Galicia used Cuman mercenaries in his campaigns. After the Mongol conquest (1237–1241), Galician princes navigated between Mongol suzerainty and western Christian alliances, sometimes using Cuman auxiliaries as a buffer. The Cumans' absorption into the Golden Horde eliminated them as a distinct political actor by the mid-13th century.",
+  "subject_ids": [
+    "cuman_kipchak_confederation",
+    "principality_of_galicia_volhynia"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_cuman_galicia",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999",
+      "dimnik_the_1994",
+      "magocsi_a_2010"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1199,
+    "to": 1240
+  }
+}

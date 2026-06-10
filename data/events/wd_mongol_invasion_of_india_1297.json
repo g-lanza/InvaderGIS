@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_mongol_invasion_of_india_1297",
+  "name": "Mongol invasion of India",
+  "year": 1297,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    34.95,
+    75.6
+  ],
+  "entity": "delhi_sultanate",
+  "summary": "Mongol invasion of India (1297 CE), at Sindh (part of Mongol invasions of India). Source: Wikidata Q19562959.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "delhi_sultanate",
+      "chagatai_khanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "jackson_the_1999",
+      "kumar_the_2007"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "liao_jurchens_conquest_1125",
+  "name": "Jurchen Jin Conquest of Liao",
+  "year": 1125,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    40.696,
+    121.971
+  ],
+  "entity": "liao",
+  "summary": "The Jurchen Jin Dynasty conquered the Liao Empire after a decade of warfare. The last Liao emperor was captured; remnant Khitan nobles fled west to found the Western Liao (Qara Khitai) in Central Asia, which endured until the Mongol conquest.",
+  "outcomes": [
+    "liao_conquered",
+    "western_liao_founded",
+    "jurchen_rise"
+  ],
+  "_quarry": {
+    "participants": [
+      "liao"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

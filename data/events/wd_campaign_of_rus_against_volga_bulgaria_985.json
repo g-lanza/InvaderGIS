@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_campaign_of_rus_against_volga_bulgaria_985",
+  "name": "Campaign of Rus' against Volga Bulgaria",
+  "year": 985,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    52.7,
+    39.75
+  ],
+  "entity": "volga_bulgaria",
+  "summary": "Campaign of Rus' against Volga Bulgaria (985 CE). Source: Wikidata Q65159720.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "volga_bulgaria",
+      "kievan_rus"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

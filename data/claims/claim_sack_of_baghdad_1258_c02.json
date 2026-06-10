@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_sack_of_baghdad_1258_c02",
+  "statement": "The last Abbasid Caliph al-Musta'sim was executed following the Mongol sack of Baghdad in 1258.",
+  "subject_ids": [
+    "mongol_empire"
+  ],
+  "period": {
+    "from": 1258,
+    "to": 1258
+  },
+  "derived_from": "sack_of_baghdad_1258",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

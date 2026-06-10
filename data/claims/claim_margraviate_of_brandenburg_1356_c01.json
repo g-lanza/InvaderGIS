@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_margraviate_of_brandenburg_1356_c01",
+  "statement": "The Golden Bull of 1356 confirmed Brandenburg's status as one of the seven electoral principalities of the Holy Roman Empire.",
+  "subject_ids": [
+    "margraviate_of_brandenburg"
+  ],
+  "period": {
+    "from": 1356,
+    "to": 1356
+  },
+  "derived_from": "margraviate_of_brandenburg_1356",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

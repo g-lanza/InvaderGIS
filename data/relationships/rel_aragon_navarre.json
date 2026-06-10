@@ -1,0 +1,35 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_aragon_navarre",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_aragon",
+      "role": "principal"
+    },
+    {
+      "entity_id": "kingdom_of_navarre",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "contested_influence",
+  "since": 1076,
+  "until": 1162,
+  "note": "Aragon and Navarre were ruled by the same dynasty for much of the 11th–12th centuries. Alfonso I 'the Battler' of Aragon and Navarre (1104–1134) attempted to unite them permanently; his death without heirs split them: Aragon went to Ramon Berenguer IV of Barcelona through marriage; Navarre elected García Ramírez as independent king. Subsequent Navarrese dynasties had French affiliations (Champagne, Évreux). The two kingdoms periodically reunited through dynastic accidents — Ferdinand of Aragon became King of Navarre (1512) by conquest — but were never permanently merged.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Aragon-Navarre split after Alfonso I's death determines the entire subsequent structure of Iberian politics; Navarre's French dynastic connections align it with France rather than Spain; Ferdinand's conquest of Navarre (1512) completes Iberian territorial consolidation but leaves Navarre's constitutional autonomy intact"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

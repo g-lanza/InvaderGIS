@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "benedict_of_nursia",
+  "name": "Benedict of Nursia",
+  "polity": "",
+  "title": "abbot",
+  "reign_start": 0,
+  "reign_end": null,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 480,
+      "death_year": 547
+    },
+    "entity_associations": [],
+    "key_actions": [
+      {
+        "year": 529,
+        "event": "Founds Monte Cassino monastery; writes the Rule of Benedict."
+      }
+    ],
+    "region": "italy",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lawrence_medieval_monasticism_2001"
+    ],
+    "confidence": "low"
+  }
+}

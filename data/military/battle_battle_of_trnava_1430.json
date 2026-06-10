@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_trnava_1430",
+  "name": "Battle of Trnava",
+  "subtype": "battle",
+  "start_year": 1430,
+  "end_year": 1430,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q3277009"
+    }
+  },
+  "description": "Battle during Hussite Wars (1430)",
+  "coords": [
+    17.71,
+    48.3889
+  ]
+}

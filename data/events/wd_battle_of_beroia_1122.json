@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_beroia_1122",
+  "name": "Battle of Beroia",
+  "year": 1122,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    43.75,
+    29.45
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Battle of Beroia (1122 CE), at Augusta Traiana (part of Byzantine–Pecheneg wars). Source: Wikidata Q153702.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "pecheneg_confederation"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

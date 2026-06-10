@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_saladin_reconquers_jerusalem_1187_c02",
+  "statement": "Balian of Ibelin negotiated the surrender of Jerusalem to Saladin on 2 October 1187.",
+  "subject_ids": [
+    "ayyubid_sultanate"
+  ],
+  "period": {
+    "from": 1187,
+    "to": 1187
+  },
+  "derived_from": "saladin_reconquers_jerusalem_1187",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "humphreys_from_1977",
+      "lyons_saladin_1982",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

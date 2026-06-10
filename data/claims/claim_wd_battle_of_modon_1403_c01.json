@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_modon_1403_c01",
+  "statement": "Battle of Modon (1403 CE), at Methoni (part of Venetian–Genoese Wars).",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1403,
+    "to": 1403
+  },
+  "derived_from": "wd_battle_of_modon_1403",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

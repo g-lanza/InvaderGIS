@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "byzantine_macedonian_dynasty_867",
+  "name": "Rise of the Macedonian Dynasty",
+  "year": 867,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.01,
+    28.97
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Basil I, a Macedonian peasant who rose to co-emperor and murdered his predecessor, founded the Macedonian dynasty in 867. Under his successors, especially Nikephoros II Phokas, John I Tzimiskes, and Basil II, Byzantium reconquered Cilicia, Syria, and Bulgaria. Constantine VII Porphyrogennetos presided over a cultural renaissance that preserved classical learning. The dynasty marks the high point of Byzantine medieval power.",
+  "outcomes": [
+    "Basil I founds dynasty",
+    "Military expansion resumes under successors",
+    "Cultural renaissance under Constantine VII",
+    "Empire reaches its medieval peak"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire"
+    ],
+    "structural_significance": "The Macedonian dynasty represents the zenith of medieval Byzantine military and cultural power; the reconquests they achieved took centuries to lose.",
+    "year_range": [
+      867,
+      1056
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Treadgold, A History of the Byzantine State and Society",
+      "Magdalino, The Empire of Manuel I Komnenos"
+    ],
+    "confidence": "low"
+  }
+}

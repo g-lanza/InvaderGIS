@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_ferrara_venice",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "duchy_of_ferrara",
+      "role": "principal"
+    },
+    {
+      "entity_id": "republic_of_venice",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 1264,
+  "until": 1484,
+  "note": "Ferrara and Venice maintained complex relations determined by Ferrara's position at the head of the Adriatic and controlling the Po delta — the commercial artery that fed Venice's hinterland trade. Ferrara's Este lords received Venetian commercial privileges in exchange for allowing Venetian merchants access to Po River trade routes. Periodic conflicts arose over transit rights and the salt trade (Ferrara competed with Venice in the Adriatic salt market). Venice's war of Ferrara (1482–1484) — an attempt to seize direct control of the Po delta — ended inconclusively when Pope Sixtus IV opposed Venetian expansion.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Ferrara's control of Po delta access makes it Venice's most important commercial hinterland partner; the Este lords' ability to resist Venetian annexation demonstrates the role of papal patronage in protecting small Italian states; Venice's failure to absorb Ferrara limits its territorial ambitions in the Po valley"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

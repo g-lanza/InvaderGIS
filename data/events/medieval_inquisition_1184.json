@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "medieval_inquisition_1184",
+  "name": "Founding of the Medieval Inquisition",
+  "year": 1184,
+  "type": "religious",
+  "category": "religion",
+  "coords": [
+    45.43,
+    10.99
+  ],
+  "entity": "papal_states",
+  "summary": "Pope Lucius III and Emperor Frederick I Barbarossa issue the decree Ad abolendam at Verona in 1184, establishing the Episcopal Inquisition, the first systematic institutional mechanism for identifying and prosecuting heresy. Bishops are required to conduct regular searches for heretics in their dioceses; secular rulers are mandated to cooperate. The decree targets primarily the Cathar and Waldensian movements of southern France and northern Italy. This is the forerunner of the formal Papal Inquisition established by Gregory IX in 1231.",
+  "outcomes": [
+    "episcopal_inquisition_established",
+    "cathar_heresy_targeted",
+    "church_secular_cooperation_mandated"
+  ],
+  "_quarry": {
+    "participants": [
+      "papal_states",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "Establishes the institutional framework for the persecution of heresy that shapes European religious and political life for centuries; the later Dominican-run Papal Inquisition and ultimately the Spanish Inquisition descend from this moment; the Church's turn to coercion as a religious tool marks a pivotal transformation in medieval Christianity",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

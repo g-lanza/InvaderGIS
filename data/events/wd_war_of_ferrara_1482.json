@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_war_of_ferrara_1482",
+  "name": "War of Ferrara",
+  "year": 1482,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    43.385,
+    12.68
+  ],
+  "entity": "republic_of_venice",
+  "summary": "War of Ferrara (1482 CE), at Ferrara. Source: Wikidata Q2445409.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "papal_states",
+      "kingdom_of_naples",
+      "duchy_of_ferrara"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

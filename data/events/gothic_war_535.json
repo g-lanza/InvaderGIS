@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "gothic_war_535",
+  "name": "Gothic War",
+  "year": 535,
+  "type": "war",
+  "category": "violence",
+  "coords": [
+    44.42,
+    12.2
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Justinian I's Gothic Wars (535–554) reconquer Italy from the Ostrogothic Kingdom. General Belisarius rapidly captures Sicily (535) and advances through southern Italy, taking Naples (536) and Rome (536). The Ostrogoths rally under Totila, who recaptures Rome twice (546, 550) and campaigns as far south as Sicily. Justinian sends Narses with a large army (551); Totila is defeated and killed at the Battle of Busta Gallorum (552); the last Gothic resistance ends in 554. The 20-year war devastates Italy's population, destroys the senatorial aristocracy, collapses urban life, and leaves Italy impoverished for generations.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "ostrogothic_kingdom"
+    ],
+    "structural_significance": "Reconquers Italy for Byzantium but at catastrophic cost to Italy's population and economy; the Gothic Wars' destruction is more damaging to Italian civilization than the original Germanic invasions; creates the vacuum that the Lombards fill 14 years later (568)",
+    "year_range": [
+      535,
+      554
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

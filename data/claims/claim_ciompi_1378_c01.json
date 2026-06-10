@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_ciompi_1378_c01",
+  "statement": "The wool-workers (ciompi) of Florence revolted against the guild oligarchy in July 1378 and briefly established a worker-led government.",
+  "subject_ids": [
+    "republic_of_florence"
+  ],
+  "period": {
+    "from": 1378,
+    "to": 1378
+  },
+  "derived_from": "ciompi_1378",
+  "unresolved_sources": [
+    "najemy_a_2006"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

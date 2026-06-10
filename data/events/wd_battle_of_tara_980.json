@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_tara_980",
+  "name": "Battle of Tara",
+  "year": 980,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    53.65,
+    -6.7
+  ],
+  "entity": "kingdom_of_meath",
+  "summary": "Battle of Tara (980 CE), at Hill of Tara. Source: Wikidata Q4562817.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_meath"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

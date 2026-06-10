@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_k_se_da_1243",
+  "name": "Battle of Köse Dağ",
+  "year": 1243,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    42.2333,
+    58.3333
+  ],
+  "entity": "mongol_empire",
+  "summary": "Battle of Köse Dağ (1243 CE), at Mount Kösedağ (part of Mongol conquest of Anatolia). Source: Wikidata Q136344.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "mongol_empire",
+      "empire_of_trebizond",
+      "sultanate_of_rum"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

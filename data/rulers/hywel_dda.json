@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "hywel_dda",
+  "name": "Hywel Dda",
+  "polity": "kingdom_of_deheubarth",
+  "title": "ruler",
+  "reign_start": 880,
+  "reign_end": 950,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "kingdom_of_deheubarth",
+        "role": "ruler",
+        "start_year": 880,
+        "end_year": 950
+      }
+    ],
+    "key_actions": [],
+    "region": "british_isles",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

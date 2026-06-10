@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_republic_of_siena_1147_c02",
+  "statement": "Siena became one of the major banking centres of medieval Europe, with families financing popes and kings.",
+  "subject_ids": [
+    "republic_of_siena"
+  ],
+  "period": {
+    "from": 1147,
+    "to": 1147
+  },
+  "derived_from": "republic_of_siena_1147",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

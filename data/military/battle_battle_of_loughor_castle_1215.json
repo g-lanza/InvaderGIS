@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_loughor_castle_1215",
+  "name": "Battle of Loughor Castle",
+  "subtype": "battle",
+  "start_year": 1215,
+  "end_year": 1215,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q61412130"
+    }
+  },
+  "description": "Battle during Norman Invasion of Wales (1215)",
+  "coords": [
+    -4.0774,
+    51.6622
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_khoiasan_750_c01",
+  "statement": "The Abbasid Revolution of 750 originated in Khorasan, where discontent with Umayyad Arab supremacism was strongest.",
+  "subject_ids": [
+    "abbasid_caliphate"
+  ],
+  "period": {
+    "from": 750,
+    "to": 750
+  },
+  "derived_from": "khoiasan_750",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_the_2004",
+      "kennedy_when_2004",
+      "crone_gods_2004",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

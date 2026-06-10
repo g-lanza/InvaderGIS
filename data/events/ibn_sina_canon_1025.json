@@ -1,0 +1,31 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ibn_sina_canon_1025",
+  "name": "Ibn Sina completes the Canon of Medicine",
+  "year": 1025,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    36.2683,
+    59.6055
+  ],
+  "entity": "seljuk_sultanate",
+  "summary": "Avicenna (Ibn Sina) completes Al-Qanun fi al-Tibb, a five-volume synthesis of Galenic, Aristotelian, and Islamic medical knowledge. Translated into Latin in the 12th century, it remains the standard European medical textbook until the 17th century.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "seljuk_sultanate"
+    ],
+    "structural_significance": "Standard medical curriculum text of both the Islamic world and Latin Christendom for ~500 years; carries Greek medical knowledge into medieval universities.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "hodgson_venture_of_islam_1974",
+      "hourani_arab_peoples_1991"
+    ],
+    "confidence": "low"
+  }
+}

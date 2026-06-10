@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_staufen_to_naples",
+  "statement": "The Angevin conquest of the Kingdom of Sicily (Naples and Sicily) from the Hohenstaufen followed papal invitation and French military support. Charles of Anjou defeated and killed Manfred (Battle of Benevento, 1266) and then Conradin (Battle of Tagliacozzo, 1268). The Angevin Kingdom of Naples (as the mainland part came to be known after the Sicilian Vespers separated the island) was the wealthiest state in the Italian peninsula. Charles I of Anjou's aggressive Mediterranean ambitions — attempting to recreate an Angevin empire from Naples to Constantinople — provoked the Vespers reaction (1282) that permanently split the kingdom.",
+  "subject_ids": [
+    "kingdom_of_sicily_hohenstaufen",
+    "kingdom_of_naples"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_staufen_to_naples",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "kingdom_of_naples"
+  ],
+  "period": {
+    "from": 1266,
+    "to": 1816
+  }
+}

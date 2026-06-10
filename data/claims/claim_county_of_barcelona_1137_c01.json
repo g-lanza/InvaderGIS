@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_county_of_barcelona_1137_c01",
+  "statement": "The marriage of Petronilla of Aragon and Ramon Berenguer IV of Barcelona in 1137 created the dynastic union that became the Crown of Aragon.",
+  "subject_ids": [
+    "county_of_barcelona"
+  ],
+  "period": {
+    "from": 1137,
+    "to": 1137
+  },
+  "derived_from": "county_of_barcelona_1137",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_fatimid_caliphate_founded_909_c03",
+  "statement": "From their Tunisian base, the Fatimids subsequently conquered Egypt in 969 and founded Cairo.",
+  "subject_ids": [
+    "fatimid_caliphate"
+  ],
+  "period": {
+    "from": 909,
+    "to": 909
+  },
+  "derived_from": "fatimid_caliphate_founded_909",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "brett_the_2001",
+      "daftary_the_1990",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_orihuela_1364_c01",
+  "statement": "Siege of Orihuela (1364 CE), at Orihuela (part of War of the Two Peters).",
+  "subject_ids": [
+    "crown_of_aragon"
+  ],
+  "period": {
+    "from": 1364,
+    "to": 1364
+  },
+  "derived_from": "wd_siege_of_orihuela_1364",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

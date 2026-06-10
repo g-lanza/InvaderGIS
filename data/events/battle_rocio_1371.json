@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_rocio_1371",
+  "name": "Battle of Maritsa",
+  "year": 1371,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    41.68,
+    26.56
+  ],
+  "entity": "serbian_kingdom_nemanjic",
+  "summary": "At the Battle of Maritsa (September 26, 1371), Ottoman forces under Lala Shahin Pasha destroy a large Serbian-Bulgarian army under the Mrnjavčević brothers (Vukašin of Serbia and John Uglješa of Serres) near the Maritsa River in Thrace. The Serbs attempt a night raid on the Ottoman camp; the Ottomans, warned, ambush them at the crossing. Vukašin and John Uglješa are killed. The battle eliminates the main Serbian military power in Macedonia and Thrace and opens the Balkans to accelerated Ottoman expansion. Serbia becomes an Ottoman vassal within a generation.",
+  "outcomes": [
+    "serbian_nobility_routed"
+  ],
+  "_quarry": {
+    "participants": [
+      "serbian_kingdom_nemanjic",
+      "ottoman_beylik"
+    ],
+    "structural_significance": "Eliminates the Serbian-Bulgarian military leadership in Thrace; opens Macedonia and the central Balkans to Ottoman domination; accelerates the Ottoman advance toward Kosovo (1389) and the eventual fall of Bulgaria (1396)",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fine_the_1987",
+      "ćirković_the_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

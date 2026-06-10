@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_baug_1421",
+  "name": "Battle of Baugé",
+  "year": 1421,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    51.8333,
+    -0.8333
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Battle of Baugé (1421 CE), at Baugé (part of Hundred Years' War). Source: Wikidata Q1785755.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "kingdom_of_england",
+      "kingdom_of_scotland"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

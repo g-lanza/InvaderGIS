@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_campston_hill_1404",
+  "name": "Battle of Campston Hill",
+  "subtype": "battle",
+  "start_year": 1404,
+  "end_year": 1404,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q13126306"
+    }
+  },
+  "description": "Battle during Glyndŵr rebellion (1404)",
+  "coords": [
+    -2.8674,
+    51.9149
+  ]
+}

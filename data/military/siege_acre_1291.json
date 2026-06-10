@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "siege_acre_1291",
+  "name": "Siege of Acre 1291",
+  "subtype": "siege",
+  "start_year": 1291,
+  "end_year": 1291,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "Mamluk capture of the last Crusader stronghold in the Holy Land",
+  "coords": [
+    35.071,
+    32.928
+  ]
+}

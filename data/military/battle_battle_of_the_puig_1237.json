@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_the_puig_1237",
+  "name": "Battle of the Puig",
+  "subtype": "battle",
+  "start_year": 1237,
+  "end_year": 1237,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2890815"
+    }
+  },
+  "description": "Battle during Aragonese conquest of Valencia (1237)",
+  "coords": [
+    -0.3,
+    39.5833
+  ]
+}

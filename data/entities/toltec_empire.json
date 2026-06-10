@@ -1,0 +1,126 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "toltec_empire",
+  "name_primary": "Toltec",
+  "name_variants": [
+    "Toltec Empire",
+    "Toltec Civilisation"
+  ],
+  "type": "kingdom",
+  "region": "mesoamerica",
+  "formed": 950,
+  "dissolved": 1150,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    20.06,
+    -99.34
+  ],
+  "religion": "Toltec state cult (Quetzalcoatl, Tezcatlipoca)",
+  "population_estimates": [
+    {
+      "year": 1100,
+      "estimate": 40000,
+      "confidence": "low",
+      "note": "Tula resident-population estimate; wider Toltec polity poorly demographically constrained."
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "smith_aztecs_2012"
+    ],
+    "confidence": "low"
+  },
+  "description": "Central-Mexican civilisation centred on Tula (Tollan) and ascendant after the collapse of Teotihuacán and before the rise of the Mexica. Toltec material culture and ideology, the warrior orders, the figure of Quetzalcóatl-Topiltzin, chacmool sculpture, were claimed as foundational by later Mexica rulers, who described themselves as Toltec heirs. The polity's collapse around 1150 is associated with the legendary expulsion of Topiltzin and the political fragmentation of central Mexico that preceded the Mexica rise.",
+  "temporal": {
+    "start_year": 950,
+    "end_year": 1150,
+    "end_year_within_scope": 1150,
+    "notes": "Centred on the capital Tula (Tollan) in the central Mexican highlands; flourished from the mid-tenth century until political collapse in the mid-twelfth, after which the city was sacked."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      20.06,
+      -99.34
+    ],
+    "core_regions": [
+      "central_mexico"
+    ],
+    "notes": "Centroid set at Tula de Allende in the modern Mexican state of Hidalgo."
+  },
+  "lifecycle_phases": [
+    {
+      "start_year": 950,
+      "end_year": 1050,
+      "description": "Tula emerges as the dominant central-Mexican centre after Teotihuacan's collapse.",
+      "phase": "formation"
+    },
+    {
+      "start_year": 1050,
+      "end_year": 1150,
+      "description": "Toltec influence radiates across Mesoamerica; Chichen Itza shows Toltec-style architecture.",
+      "phase": "peak"
+    },
+    {
+      "start_year": 1150,
+      "end_year": 1168,
+      "description": "Internal conflict and external pressure end Tula's hegemony.",
+      "phase": "decline"
+    }
+  ],
+  "rise_factors": [
+    {
+      "layer": "ideology_religion",
+      "direction": "rise",
+      "tag": "religious_legitimacy",
+      "description": "Quetzalcoatl-Topiltzin cult centred on Tula gave Toltec rule continental religious authority.",
+      "sources": [
+        "smith_aztecs_2012"
+      ]
+    },
+    {
+      "layer": "external_political",
+      "direction": "rise",
+      "tag": "cultural_exchange",
+      "description": "Toltec craft, architectural, and religious motifs spread from central Mexico to Yucatán (Chichen Itza), Oaxaca, and the Gulf Coast.",
+      "sources": [
+        "smith_aztecs_2012"
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "layer": "governance_institutional",
+      "direction": "decline",
+      "tag": "internal_fragmentation",
+      "description": "Conflict between rival lineages (Topiltzin-Quetzalcoatl vs Tezcatlipoca factions in legend) traditionally marks the end of Tula.",
+      "sources": [
+        "smith_aztecs_2012"
+      ]
+    }
+  ],
+  "economic": {
+    "primary_base": "highland maize agriculture",
+    "secondary_bases": [
+      "obsidian quarrying at Pachuca",
+      "long-distance Mesoamerican trade"
+    ],
+    "wealth_level": "high",
+    "sources": [
+      "smith_aztecs_2012"
+    ]
+  },
+  "sources": [
+    {
+      "type": "book",
+      "author": "Smith, Michael E.",
+      "title": "The Aztecs",
+      "publisher": "Wiley-Blackwell",
+      "year": 2012
+    }
+  ],
+  "monogram": "TO"
+}

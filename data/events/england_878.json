@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "england_878",
+  "name": "Alfred the Great Defeats the Danes",
+  "year": 878,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    52.5,
+    -1
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "After a desperate guerrilla campaign from the Somerset marshes, Alfred of Wessex decisively defeated the Danish Great Army at the Battle of Edington in 878 CE. The subsequent Treaty of Wedmore established the Danelaw boundary and preserved English Christian culture south of the Thames.",
+  "outcomes": [
+    "danish_advance_halted",
+    "danelaw_established",
+    "alfred_consolidates_power"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "photian_schism_867",
+  "name": "Photian Schism",
+  "year": 867,
+  "type": "religious_council",
+  "category": "religion",
+  "coords": [
+    41.0086,
+    28.9802
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Patriarch Photius of Constantinople convenes a council that excommunicates Pope Nicholas I, accusing the Roman church of doctrinal innovations including the Filioque clause. Nicholas had previously refused to recognise Photius's elevation. The schism is temporarily healed in 879 but the precedents shape the long 1054 estrangement.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "papal_states"
+    ],
+    "structural_significance": "First major Greek-Latin schism over the Filioque; sets the doctrinal vocabulary that crystallises into the 1054 Great Schism two centuries later.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "meyendorff_byzantium_and_rise_of_russia_1981",
+      "kazhdan_oxford_dictionary_byzantium_1991"
+    ],
+    "confidence": "low"
+  }
+}

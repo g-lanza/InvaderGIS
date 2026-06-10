@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_almoravid_emirate_iberia_733_1149",
+  "statement": "Almoravid rule in al-Andalus — campaigns and battles spanned 733–1149, from Reconquista to Siege of Lleida.",
+  "subject_ids": [
+    "almoravid_emirate_iberia"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_almoravid_emirate_iberia_733_1149",
+  "period": {
+    "from": 733,
+    "to": 1149
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_the_2004",
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

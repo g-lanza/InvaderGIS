@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_gaggiano_1313",
+  "name": "Battle of Gaggiano",
+  "year": 1313,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    37.6,
+    14
+  ],
+  "entity": "kingdom_of_sicily_norman",
+  "summary": "Battle of Gaggiano (1313 CE), at Gaggiano (part of Guelphs and Ghibellines). Source: Wikidata Q125898094.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_sicily_norman"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_bohemian_reform_hus_1415_c02",
+  "statement": "The execution of Jan Hus triggered the Hussite Revolution in Bohemia, provoking five crusades and fifteen years of religious warfare.",
+  "subject_ids": [
+    "kingdom_of_bohemia"
+  ],
+  "period": {
+    "from": 1415,
+    "to": 1415
+  },
+  "derived_from": "bohemian_reform_hus_1415",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

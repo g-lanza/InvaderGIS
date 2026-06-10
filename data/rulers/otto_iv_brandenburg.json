@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "otto_iv_brandenburg",
+  "name": "Otto IV of Brandenburg",
+  "polity": "margraviate_of_brandenburg",
+  "title": "ruler",
+  "reign_start": 1238,
+  "reign_end": 1308,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "margraviate_of_brandenburg",
+        "role": "ruler",
+        "start_year": 1238,
+        "end_year": 1308
+      }
+    ],
+    "key_actions": [],
+    "region": "central_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

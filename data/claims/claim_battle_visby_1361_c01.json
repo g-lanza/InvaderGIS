@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_battle_visby_1361_c01",
+  "statement": "Danish King Valdemar IV invaded the Hanseatic island of Gotland and massacred its militia outside Visby in July 1361.",
+  "subject_ids": [
+    "kingdom_of_denmark"
+  ],
+  "period": {
+    "from": 1361,
+    "to": 1361
+  },
+  "derived_from": "battle_visby_1361",
+  "unresolved_sources": [
+    "roesdahl_the_1992"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_medieval_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

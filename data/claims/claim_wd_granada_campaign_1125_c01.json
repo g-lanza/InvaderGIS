@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_granada_campaign_1125_c01",
+  "statement": "Granada campaign (1125 CE), at Province of Granada (part of Almoravid conquest of al-Andalus).",
+  "subject_ids": [
+    "almoravid_emirate_iberia"
+  ],
+  "period": {
+    "from": 1125,
+    "to": 1125
+  },
+  "derived_from": "wd_granada_campaign_1125",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_the_2004",
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_otto_i_imperial_962_c01",
+  "statement": "On February 2, 962, Pope John XII crowned Otto I, King of East Francia, as Holy Roman Emperor in St. Peter's Basilica.",
+  "subject_ids": [
+    "east_francia"
+  ],
+  "period": {
+    "from": 962,
+    "to": 962
+  },
+  "derived_from": "otto_i_imperial_962",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

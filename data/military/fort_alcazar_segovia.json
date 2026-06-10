@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "fort_alcazar_segovia",
+  "name": "Alcázar of Segovia",
+  "subtype": "fort",
+  "start_year": 1120,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "Castilian royal castle and palace",
+  "coords": [
+    -4.131,
+    40.952
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "siege_paris_885",
+  "name": "Viking siege of Paris",
+  "year": 885,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    48.85,
+    2.35
+  ],
+  "entity": "west_francia",
+  "summary": "A Viking fleet of reportedly 700 ships and 30,000 warriors (likely exaggerated) besieges Paris (November 885 – October 886), attempting to sail past it to raid Burgundy. Count Odo of Paris and Bishop Gozlin organize a heroic 11-month defense of the two bridges across the Seine, preventing the Vikings from passing. King Charles the Fat arrives with a large army but pays tribute and allows the Vikings to pass through anyway, a humiliation that contributes to his deposition. Odo's defense makes him so popular he is elected King of West Francia (888).",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "west_francia"
+    ],
+    "structural_significance": "Demonstrates the failure of Carolingian monarchy to defend its people; Odo's defense creates the Capetian family's prestige; the siege is a pivotal moment in the transition from Carolingian to Capetian France",
+    "year_range": [
+      885,
+      886
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_diyarbak_r_1436",
+  "name": "Battle of Diyarbakır",
+  "year": 1436,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    30,
+    31.2
+  ],
+  "entity": "mamluk_sultanate",
+  "summary": "Battle of Diyarbakır (1436 CE), at Dokuzçeltik (part of Janibak al-Sufi revolt). Source: Wikidata Q135003813.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "mamluk_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "irwin_the_1986",
+      "northrup_from_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

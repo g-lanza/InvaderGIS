@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "fort_tower_london",
+  "name": "Tower of London",
+  "subtype": "fort",
+  "start_year": 1078,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "Royal castle begun by William the Conqueror",
+  "coords": [
+    -0.076,
+    51.508
+  ]
+}

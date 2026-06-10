@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_1378_1379_khwarazm_conflict_1378_c02",
+  "statement": "The 1378–1379 Khwarazm conflict occurred in Khwarazm.",
+  "subject_ids": [
+    "timurid_empire"
+  ],
+  "period": {
+    "from": 1378,
+    "to": 1378
+  },
+  "derived_from": "wd_1378_1379_khwarazm_conflict_1378",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "manz_the_1989",
+      "lentz_timur_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

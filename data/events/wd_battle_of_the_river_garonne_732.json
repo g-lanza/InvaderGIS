@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_the_river_garonne_732",
+  "name": "Battle of the River Garonne",
+  "year": 732,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.17,
+    17.86
+  ],
+  "entity": "duchy_of_aquitaine",
+  "summary": "Battle of the River Garonne (732 CE), at Bordeaux (part of Umayyad invasion of Gaul). Source: Wikidata Q2524627.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "duchy_of_aquitaine",
+      "umayyad_caliphate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

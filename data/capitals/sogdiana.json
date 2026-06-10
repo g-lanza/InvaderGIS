@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "sogdiana",
+  "name": "Samarkand",
+  "entity_id": "sogdiana",
+  "entity_name": "Sogdiana",
+  "start_year": 500,
+  "end_year": 850,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q204795"
+    }
+  },
+  "coords": [
+    66.96,
+    39.65
+  ]
+}

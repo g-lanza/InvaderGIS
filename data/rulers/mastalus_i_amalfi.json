@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "mastalus_i_amalfi",
+  "name": "Mastalus I",
+  "polity": "duchy_of_amalfi",
+  "title": "ruler",
+  "reign_start": 839,
+  "reign_end": 866,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "duchy_of_amalfi",
+        "role": "ruler",
+        "start_year": 839,
+        "end_year": 866
+      }
+    ],
+    "key_actions": [],
+    "region": "italy",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

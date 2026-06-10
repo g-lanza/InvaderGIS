@@ -1,0 +1,31 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_tuscany_hre",
+  "statement": "Tuscany was nominally an imperial march (the Margraviate of Tuscany), with the margraves appointed by the emperor to administer the territory. Countess Matilda of Tuscany (1046–1115) — the last and greatest of the margraves — allied firmly with the papacy against the empire, sheltering Pope Gregory VII and witnessing the Walk to Canossa (1077). Her donation of her lands to the papacy (1102) was contested by the emperor. After Matilda's death, Tuscany's communes gradually asserted autonomy; Frederick Barbarossa attempted to reimpose imperial control in the 1160s–1180s but ultimately failed. The Tuscan cities achieved de facto independence confirmed by the Peace of Constance (1183).",
+  "subject_ids": [
+    "holy_roman_empire",
+    "duchy_of_tuscany"
+  ],
+  "predicate": "vassalage",
+  "derived_from": "rel_tuscany_hre",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "duchy_of_tuscany"
+  ],
+  "period": {
+    "from": 962,
+    "to": 1115
+  }
+}

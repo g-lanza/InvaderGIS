@@ -1,0 +1,38 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_moscow_tver_rivalry",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "grand_principality_of_moscow",
+      "role": "principal"
+    },
+    {
+      "entity_id": "principality_of_tver",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 1304,
+  "until": 1485,
+  "note": "Moscow and Tver competed for dominance over northeastern Russia for nearly a century (1304–1408), with both claiming the title of Grand Prince of Vladimir and the Golden Horde's patent (yarlyk) to collect tribute. The rivalry involved alternating alliances with the Horde: when Moscow's prince held the patent, he used it to accumulate territory; when Tver's prince held it, he did likewise. Dmitry Donskoy's victory at Kulikovo (1380) and Moscow's collaboration in suppressing Tver's anti-Mongol revolt (1327) finally broke Tver's capacity for competition; Ivan III's conquest of Tver (1485) ended the rivalry definitively.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The century-long Moscow-Tver rivalry is the central political contest in 14th-century Russia; Moscow's victory — achieved through diplomatic skill rather than military superiority alone — establishes the model for subsequent Muscovite expansion: ally with the dominant external power, accumulate tribute-collection rights, use Mongol military force against rivals"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "fennell_the_1983",
+      "ostrowski_muscovy_1998",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "teutonic_order_marienburg_1309",
+  "name": "Teutonic Order Moves Capital to Marienburg",
+  "year": 1309,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    54.04,
+    19.03
+  ],
+  "entity": "teutonic_order_state",
+  "summary": "The Teutonic Order moves its Grand Master's seat from Venice to Marienburg (Malbork) in Prussia, completing the transformation of the crusading order into a territorial state. Marienburg castle, expanded continuously through the 14th century, becomes the largest Gothic brick castle in the world. The Order governs Prussia as a model of efficient administration, building roads, founding cities, and organizing agricultural colonization.",
+  "outcomes": [
+    "marienburg_becomes_greatest_gothic_fortress",
+    "prussian_state_consolidated",
+    "order_becomes_territorial_state"
+  ],
+  "_quarry": {
+    "participants": [
+      "teutonic_order_state"
+    ],
+    "structural_significance": "Marienburg's construction as an administrative and military capital signals the Order's shift from crusading institution to territorial state; the Ordensstaat becomes one of the most efficiently governed states in medieval Europe, pioneering administrative techniques later adopted by the emerging national monarchies; its defeat at Grunwald (1410) and subsequent Peace of Thorn (1466) demonstrate that military orders cannot maintain state power against large kingdoms",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "christiansen_the_1997",
+      "urban_the_1994",
+      "turnbull_crusader_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

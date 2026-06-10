@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_exarchate_of_ravenna_584_c02",
+  "statement": "With Ravenna as its capital, the Exarchate represented the last significant Byzantine territorial presence in Italy, governing a fragmented coastline against constant Lombard pressure.",
+  "subject_ids": [
+    "exarchate_of_ravenna"
+  ],
+  "period": {
+    "from": 584,
+    "to": 584
+  },
+  "derived_from": "exarchate_of_ravenna_584",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

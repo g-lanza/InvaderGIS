@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_mortemer_1054",
+  "name": "Battle of Mortemer",
+  "year": 1054,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    46.5,
+    2.5
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Battle of Mortemer (1054 CE), at Mortemer. Source: Wikidata Q68371.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

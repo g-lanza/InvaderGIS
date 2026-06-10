@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_1240_izborsk_and_pskov_campaign_1240",
+  "name": "1240 Izborsk and Pskov campaign",
+  "year": 1240,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    57.2,
+    32.2333
+  ],
+  "entity": "livonian_order_state",
+  "summary": "1240 Izborsk and Pskov campaign (1240 CE), at Rus (part of Northern Crusades). Source: Wikidata Q4261059.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "livonian_order_state",
+      "principality_of_vladimir_suzdal",
+      "principality_of_novgorod"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_hospitallers_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

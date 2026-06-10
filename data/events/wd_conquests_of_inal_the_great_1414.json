@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_conquests_of_inal_the_great_1414",
+  "name": "Conquests of Inal the Great",
+  "year": 1414,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    44.9425,
+    33.075
+  ],
+  "entity": "golden_horde",
+  "summary": "Conquests of Inal the Great (1414 CE), at Caucasus. Source: Wikidata Q126910484.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "golden_horde",
+      "kingdom_of_georgia",
+      "khanate_of_crimea",
+      "republic_of_genoa"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "allsen_mongol_1987"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

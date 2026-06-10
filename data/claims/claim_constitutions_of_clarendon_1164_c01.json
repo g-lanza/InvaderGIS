@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_constitutions_of_clarendon_1164_c01",
+  "statement": "Henry II issued the Constitutions of Clarendon in 1164, asserting royal authority over ecclesiastical courts and clergy accused of crimes.",
+  "subject_ids": [
+    "kingdom_of_england"
+  ],
+  "period": {
+    "from": 1164,
+    "to": 1164
+  },
+  "derived_from": "constitutions_of_clarendon_1164",
+  "unresolved_sources": [
+    "carpenter_the_2003"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

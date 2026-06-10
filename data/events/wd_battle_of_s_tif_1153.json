@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_s_tif_1153",
+  "name": "Battle of Sétif",
+  "year": 1153,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    37,
+    -4
+  ],
+  "entity": "almohad_caliphate_iberia",
+  "summary": "Battle of Sétif (1153 CE), at Sétif. Source: Wikidata Q30753691.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "almohad_caliphate_iberia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_kingdoms_2018",
+      "o'callaghan_reconquest_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

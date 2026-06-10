@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "suebi_kingdom",
+  "name": "Braga",
+  "entity_id": "suebi_kingdom",
+  "entity_name": "Kingdom of the Suebi",
+  "start_year": 409,
+  "end_year": 585,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1048918"
+    }
+  },
+  "coords": [
+    -8.41667,
+    41.53333
+  ]
+}

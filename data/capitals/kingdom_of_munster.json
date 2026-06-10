@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_munster",
+  "name": "Cashel",
+  "entity_id": "kingdom_of_munster",
+  "entity_name": "Kingdom of Munster",
+  "start_year": 500,
+  "end_year": 1118,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q20973653"
+    }
+  },
+  "coords": [
+    -7.89,
+    52.51
+  ]
+}

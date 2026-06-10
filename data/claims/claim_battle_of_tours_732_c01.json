@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_battle_of_tours_732_c01",
+  "statement": "Charles Martel's Frankish army defeated the Umayyad governor Abd al-Rahman al-Ghafiqi at the Battle of Tours in 732.",
+  "subject_ids": [
+    "merovingian_kingdom"
+  ],
+  "period": {
+    "from": 732,
+    "to": 732
+  },
+  "derived_from": "battle_of_tours_732",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "ims_fordham",
+      "ims_fordham_sbook1h"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

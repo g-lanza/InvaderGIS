@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_patras_1429_c01",
+  "statement": "Siege of Patras (1429 CE), at Patras (part of Byzantine–Latin wars).",
+  "subject_ids": [
+    "principality_of_achaea"
+  ],
+  "period": {
+    "from": 1429,
+    "to": 1429
+  },
+  "derived_from": "wd_siege_of_patras_1429",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

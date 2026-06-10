@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "miro_suebi",
+  "name": "Miro",
+  "polity": "suebi_kingdom",
+  "title": "ruler",
+  "reign_start": 570,
+  "reign_end": 583,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "suebi_kingdom",
+        "role": "ruler",
+        "start_year": 570,
+        "end_year": 583
+      }
+    ],
+    "key_actions": [],
+    "region": "iberia",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

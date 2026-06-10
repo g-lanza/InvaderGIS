@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_sack_of_aleppo_962",
+  "name": "Sack of Aleppo",
+  "subtype": "battle",
+  "start_year": 962,
+  "end_year": 962,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q28717575"
+    }
+  },
+  "description": "Battle during Arab–Byzantine Wars (962)",
+  "coords": [
+    37.15,
+    36.2
+  ]
+}

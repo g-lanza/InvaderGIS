@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_the_gates_of_trajan_986",
+  "name": "Battle of the Gates of Trajan",
+  "subtype": "battle",
+  "start_year": 986,
+  "end_year": 986,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2292026"
+    }
+  },
+  "description": "Battle during Byzantine conquest of Bulgaria (986)",
+  "coords": [
+    23.9183,
+    42.3561
+  ]
+}

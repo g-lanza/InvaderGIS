@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_leon_1230_c01",
+  "statement": "The permanent union of the crowns of León and Castile in 1230 under Ferdinand III created the largest Christian kingdom in Iberia.",
+  "subject_ids": [
+    "kingdom_of_leon"
+  ],
+  "period": {
+    "from": 1230,
+    "to": 1230
+  },
+  "derived_from": "leon_1230",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

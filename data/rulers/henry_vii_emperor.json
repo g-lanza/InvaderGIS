@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "henry_vii_emperor",
+  "name": "Henry VII Holy Roman Emperor",
+  "polity": "county_of_luxembourg",
+  "title": "ruler",
+  "reign_start": 1275,
+  "reign_end": 1313,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "county_of_luxembourg",
+        "role": "ruler",
+        "start_year": 1275,
+        "end_year": 1313
+      }
+    ],
+    "key_actions": [],
+    "region": "western_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

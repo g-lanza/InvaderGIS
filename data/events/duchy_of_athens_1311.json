@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_athens_1311",
+  "name": "Catalan Company Conquers Athens",
+  "year": 1311,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    37.98,
+    23.73
+  ],
+  "entity": "duchy_of_athens",
+  "summary": "The Catalan Company, a mercenary force hired and then betrayed by the duchy, massacred the Frankish knights at the Battle of Halmyros in 1311 and seized Athens. Catalan rule brought relative stability but also isolation from the wider Mediterranean world until Florentine and later Venetian rule.",
+  "outcomes": [
+    "frankish_rule_ended",
+    "catalan_mercenaries",
+    "battle_of_halmyros"
+  ],
+  "_quarry": {
+    "participants": [
+      "duchy_of_athens"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

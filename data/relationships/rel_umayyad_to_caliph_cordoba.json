@@ -1,0 +1,36 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_umayyad_to_caliph_cordoba",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "umayyad_emirate_cordoba",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "caliphate_of_cordoba",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 929,
+  "until": 929,
+  "note": "Abd al-Rahman III of the Umayyad Emirate of Córdoba proclaimed himself Caliph in 929 — a direct challenge to the Abbasid Caliphate in Baghdad and the Fatimid Caliphate in Tunisia. The proclamation was a response to Fatimid pressure on Spain's North African trade and represented the peak of Umayyad power in al-Andalus. The Caliphate of Córdoba (929–1031) coincided with the apex of Moorish learning and art (the Great Mosque expansion, the palace-city of Medina Azahara). The caliphate collapsed in the chaos of the Fitna (1009–1031), fragmenting into the Taifa kingdoms.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Creates a triple caliphate (Abbasid, Fatimid, Umayyad/Córdoban) as competing claimants to Muslim leadership; the Córdoban caliphate's cultural achievements make al-Andalus the most sophisticated society in 10th-century Europe; its collapse produces the Taifa fragmentation"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "constable_medieval_1997",
+      "kennedy_muslim_1996",
+      "scales_the_1994"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

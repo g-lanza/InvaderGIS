@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_montichiari_1420",
+  "name": "Battle of Montichiari",
+  "year": 1420,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    45.45,
+    10.75
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Battle of Montichiari (1420 CE), at Montichiari. Source: Wikidata Q124364378.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "duchy_of_milan"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

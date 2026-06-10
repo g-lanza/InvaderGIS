@@ -1,0 +1,30 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_visigothic_to_umayyad",
+  "statement": "The Umayyad conquest of Hispania (711–718) destroyed the Visigothic Kingdom in a remarkably short campaign. Tariq ibn Ziyad's initial crossing (711) and the victory at Guadalete (where Roderic was killed) was followed by Musa ibn Nusayr's systematic reduction of the remaining Visigothic cities. Toledo, the Visigothic capital, surrendered without a siege; many Visigothic noble families converted to Islam and retained their estates as clients (mawali) of the new rulers. Only the northern mountain regions (Asturias, the Basque Country) resisted; these became the seed of the Reconquista.",
+  "subject_ids": [
+    "visigothic_kingdom",
+    "umayyad_emirate_cordoba"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_visigothic_to_umayyad",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "collins_visigothic_2004",
+      "thompson_the_1969",
+      "constable_medieval_1997",
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "umayyad_emirate_cordoba"
+  ],
+  "period": {
+    "from": 711,
+    "to": 711
+  }
+}

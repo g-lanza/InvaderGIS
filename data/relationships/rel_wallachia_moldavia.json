@@ -1,0 +1,36 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_wallachia_moldavia",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "principality_of_wallachia",
+      "role": "principal"
+    },
+    {
+      "entity_id": "principality_of_moldavia",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "cultural_exchange",
+  "since": 1346,
+  "until": 1500,
+  "note": "Wallachia and Moldavia — the two Danubian principalities that constitute modern Romania — shared Vlach/Romanian language and culture but developed as separate principalities. Wallachia (founded c. 1310) and Moldavia (c. 1359) both navigated between Ottoman suzerainty (both became Ottoman tributaries, Wallachia from 1396, Moldavia from 1456) and Hungarian/Polish protection. The two principalities occasionally coordinated — Mircea the Elder of Wallachia and Alexander the Good of Moldavia both at times resisted Ottoman pressure — but were never permanently united in the medieval period.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The two Danubian principalities maintain Romanian culture and Orthodox Christianity through the Ottoman period as autonomous tributaries; their ability to retain internal self-governance while paying tribute creates the framework for eventual Romanian national consolidation (1859)"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "deletant_romania_1998",
+      "panaitescu_mircea_2000",
+      "treptow_a_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

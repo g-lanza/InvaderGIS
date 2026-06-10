@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_dara_530",
+  "name": "Battle of Dara",
+  "year": 530,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    37.17,
+    40.97
+  ],
+  "entity": "byzantine_empire",
+  "summary": "General Belisarius defeats a larger Sassanid Persian force at the fortress of Dara on the Mesopotamian frontier. The Byzantine force of around 25,000 men defeats a Sassanid army of 40,000 using innovative tactical formations. The victory establishes Belisarius as Justinian's preeminent military commander and secures the eastern frontier long enough for Justinian to pursue his western reconquest campaigns.",
+  "outcomes": [
+    "byzantine_victory_over_sassanids",
+    "belisarius_reputation_established",
+    "eastern_frontier_secured"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire"
+    ],
+    "structural_significance": "Demonstrates that disciplined tactical skill could overcome numerical disadvantage; Belisarius's innovations in combined-arms warfare (integrating cavalry archers and infantry) become a template for Byzantine military doctrine; the successful eastern defense frees Justinian to begin the Gothic War in Italy (535)",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

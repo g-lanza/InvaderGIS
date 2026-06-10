@@ -1,0 +1,38 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_luxembourg_hre",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "holy_roman_empire",
+      "role": "suzerain"
+    },
+    {
+      "entity_id": "county_of_luxembourg",
+      "role": "vassal"
+    }
+  ],
+  "directed": true,
+  "type": "vassalage",
+  "since": 963,
+  "until": 1354,
+  "note": "The Luxembourg dynasty acquired the Bohemian crown through John of Luxembourg's marriage to Eliška Přemyslovna (1310) and used it as the springboard for imperial power. John's son Charles IV (1346–1378) became simultaneously King of Bohemia, Holy Roman Emperor, and the most powerful ruler in 14th-century Europe. Charles IV made Prague the imperial capital, founded the University of Prague (1348), built the Charles Bridge, and issued the Golden Bull (1356) that gave Bohemia electoral primacy. The Luxembourg connection transformed Bohemia from a Přemyslid into a Bohemian-German-Luxembourg hybrid court.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Luxembourg-Bohemia connection produces the greatest 14th-century emperor (Charles IV); Prague under Charles IV becomes the most magnificent city in central Europe; the Golden Bull's codification of the electoral system with Bohemia first shapes imperial constitutional law for 400 years"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_almoravid_expedition_to_catalonia_1114",
+  "name": "Almoravid expedition to Catalonia",
+  "year": 1114,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.2,
+    -0.9
+  ],
+  "entity": "almoravid_emirate_iberia",
+  "summary": "Almoravid expedition to Catalonia (1114 CE), at Catalan counties (part of Almoravid conquest of al-Andalus). Source: Wikidata Q133406246.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "almoravid_emirate_iberia",
+      "county_of_barcelona"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_the_2004",
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

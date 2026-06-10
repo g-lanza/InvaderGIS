@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "saladin_death_1193",
+  "name": "Saladin's Death and the Ayyubid Succession",
+  "year": 1193,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    33.51,
+    36.29
+  ],
+  "entity": "ayyubid_sultanate",
+  "summary": "Saladin dies in Damascus on March 4, 1193, aged approximately 55, having spent most of his personal wealth on the poor and the mosques. His empire is immediately partitioned among his seventeen sons and brother al-Adil, the succession dispute he had feared. His legacy includes the reconquest of Jerusalem (1187), the defeat of the Third Crusade's attempt to retake it, and the creation of the Ayyubid state that rules Egypt, Syria, and parts of the Hejaz.",
+  "outcomes": [
+    "ayyubid_empire_partitioned",
+    "third_crusade_gains_unrecovered",
+    "crusader_states_survive_temporarily"
+  ],
+  "_quarry": {
+    "participants": [
+      "ayyubid_sultanate",
+      "kingdom_of_jerusalem"
+    ],
+    "structural_significance": "Saladin's death removes the one leader capable of holding his empire together; the Ayyubid partitions create internecine conflict among his successors that allows the Crusader states to survive another century; his reputation in both Islamic and Christian traditions as a chivalric ruler shapes European perceptions of the Muslim world and is exploited by Frederick II for his diplomatic crusade (1229)",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "humphreys_from_1977",
+      "lyons_saladin_1982",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

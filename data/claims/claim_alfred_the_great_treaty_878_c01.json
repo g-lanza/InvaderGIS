@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_alfred_the_great_treaty_878_c01",
+  "statement": "After Alfred the Great's victory at Edington, the Danish leader Guthrum accepted baptism and the Treaty of Wedmore divided England between Wessex and the Danelaw.",
+  "subject_ids": [
+    "kingdom_of_northumbria"
+  ],
+  "period": {
+    "from": 878,
+    "to": 878
+  },
+  "derived_from": "alfred_the_great_treaty_878",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "brian_boru",
+  "name": "Brian Boru",
+  "polity": "kingdom_of_munster",
+  "title": "ruler",
+  "reign_start": 941,
+  "reign_end": 1014,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "kingdom_of_munster",
+        "role": "ruler",
+        "start_year": 941,
+        "end_year": 1014
+      }
+    ],
+    "key_actions": [],
+    "region": "british_isles",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

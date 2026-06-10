@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_attack_on_antalya_1472",
+  "name": "Attack on Antalya",
+  "year": 1472,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41.22,
+    19.24
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Attack on Antalya (1472 CE), at Antalya (part of First Ottoman–Venetian War). Source: Wikidata Q133696197.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "ottoman_empire",
+      "papal_states",
+      "kingdom_of_naples",
+      "knights_hospitaller_rhodes"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

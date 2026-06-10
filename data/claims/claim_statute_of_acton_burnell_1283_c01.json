@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_statute_of_acton_burnell_1283_c01",
+  "statement": "Edward I issued the Statute of Acton Burnell in October 1283, creating a registry of merchant debts before the mayors of London, York, and Bristol.",
+  "subject_ids": [
+    "kingdom_of_england"
+  ],
+  "period": {
+    "from": 1283,
+    "to": 1283
+  },
+  "derived_from": "statute_of_acton_burnell_1283",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lopez_commercial_revolution_1971"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

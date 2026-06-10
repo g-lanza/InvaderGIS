@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_lleida_1122",
+  "name": "Siege of Lleida",
+  "year": 1122,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    40.0333,
+    -0.9
+  ],
+  "entity": "almoravid_emirate_iberia",
+  "summary": "Siege of Lleida (1122 CE), at Medina Larida (part of Reconquista). Source: Wikidata Q23503832.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "almoravid_emirate_iberia",
+      "kingdom_of_aragon",
+      "county_of_barcelona"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_the_2004",
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

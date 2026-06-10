@@ -1,0 +1,29 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_avar_khaganate_to_kingdom_of_hungary_fragmentation",
+  "statement": "Derived from predecessor/successor links recorded in the avar_khaganate and kingdom_of_hungary entity records. Transition anchored to kingdom_of_hungary start_year.",
+  "subject_ids": [
+    "avar_khaganate",
+    "kingdom_of_hungary"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_avar_khaganate_to_kingdom_of_hungary_fragmentation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "engel_the_2001",
+      "berend_at_2001"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "kingdom_of_hungary"
+  ],
+  "period": {
+    "from": 895,
+    "to": 895
+  }
+}

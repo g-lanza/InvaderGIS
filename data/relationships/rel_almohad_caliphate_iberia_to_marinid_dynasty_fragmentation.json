@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_almohad_caliphate_iberia_to_marinid_dynasty_fragmentation",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "almohad_caliphate_iberia",
+      "role": "parent"
+    },
+    {
+      "entity_id": "marinid_dynasty",
+      "role": "fragment"
+    }
+  ],
+  "directed": true,
+  "type": "fragmentation",
+  "since": 1244,
+  "until": 1244,
+  "note": "Derived from predecessor/successor links recorded in the almohad_caliphate_iberia and marinid_dynasty entity records. Transition anchored to marinid_dynasty start_year.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Mechanical normalisation of curated predecessor/successor links into the relationships register."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_kingdoms_2018",
+      "o'callaghan_reconquest_2003",
+      "abun-nasr_a_1987",
+      "messier_the_2010"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

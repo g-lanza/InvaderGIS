@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_mahdia_1159_c01",
+  "statement": "Siege of Mahdia (1159 CE), at Mahdia (part of Almohad conquest of Norman Africa).",
+  "subject_ids": [
+    "kingdom_of_sicily_norman"
+  ],
+  "period": {
+    "from": 1159,
+    "to": 1159
+  },
+  "derived_from": "wd_siege_of_mahdia_1159",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

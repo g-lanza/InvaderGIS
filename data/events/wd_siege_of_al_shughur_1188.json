@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_al_shughur_1188",
+  "name": "Siege of Al-Shughur",
+  "year": 1188,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    36.2,
+    36.2
+  ],
+  "entity": "principality_of_antioch",
+  "summary": "Siege of Al-Shughur (1188 CE), (part of Crusades). Source: Wikidata Q121090807.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "principality_of_antioch"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "asbridge_the_2000",
+      "cahen_la_1940"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

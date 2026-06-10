@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_ganja_660",
+  "name": "Ganja",
+  "importance": "city",
+  "start_year": 660,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q131290"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    46.3606,
+    40.6828
+  ]
+}

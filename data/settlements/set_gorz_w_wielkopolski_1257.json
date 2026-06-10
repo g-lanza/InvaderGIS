@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_gorz_w_wielkopolski_1257",
+  "name": "Gorzów Wielkopolski",
+  "importance": "city",
+  "start_year": 1257,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q104731"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    15.25,
+    52.7333
+  ]
+}

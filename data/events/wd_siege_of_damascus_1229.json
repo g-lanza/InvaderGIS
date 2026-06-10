@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_damascus_1229",
+  "name": "Siege of Damascus",
+  "year": 1229,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    30.2,
+    31.2
+  ],
+  "entity": "ayyubid_sultanate",
+  "summary": "Siege of Damascus (1229 CE), at Damascus. Source: Wikidata Q111182030.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "ayyubid_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "humphreys_from_1977",
+      "lyons_saladin_1982",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

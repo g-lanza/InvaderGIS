@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_si_ge_de_beauvais_1472",
+  "name": "Siège de Beauvais",
+  "year": 1472,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    46.9,
+    3.75
+  ],
+  "entity": "duchy_of_burgundy",
+  "summary": "Siège de Beauvais (1472 CE), at Beauvais. Source: Wikidata Q3485834.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "duchy_of_burgundy",
+      "kingdom_of_france"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

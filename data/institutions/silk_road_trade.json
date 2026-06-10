@@ -1,0 +1,58 @@
+{
+  "kind": "institution",
+  "dataset": "medieval-europe-500-1500",
+  "id": "silk_road_trade",
+  "name_primary": "Silk Road Trade Network",
+  "domain": "trade_network",
+  "formed": 500,
+  "dissolved": 1500,
+  "_quarry": {
+    "key_developments": [
+      {
+        "year": 600,
+        "event": "Tang Chang'an becomes Eurasian commercial nexus; Sogdians dominate caravan brokerage."
+      },
+      {
+        "year": 755,
+        "event": "An Lushan rebellion disrupts eastern Silk Road; trade shifts northward."
+      },
+      {
+        "year": 1260,
+        "event": "Pax Mongolica — Mongol Khanates impose uniform safe-conduct across Eurasia."
+      },
+      {
+        "year": 1271,
+        "event": "Marco Polo begins his journey to Kublai Khan's court."
+      },
+      {
+        "year": 1346,
+        "event": "Plague jumps from Caffa caravan terminus to the Mediterranean — beginning of Black Death."
+      },
+      {
+        "year": 1421,
+        "event": "Zheng He's seventh voyage; Ming pivot to Indian Ocean rather than overland."
+      }
+    ],
+    "influences_entities": [
+      "tang_dynasty",
+      "sogdiana",
+      "abbasid_caliphate",
+      "fatimid_caliphate",
+      "byzantine_empire",
+      "seljuk_sultanate",
+      "ilkhanate",
+      "golden_horde",
+      "chagatai_khanate",
+      "song_empire"
+    ],
+    "description": "The Eurasian overland trade network linking Tang and Song China to Byzantine Constantinople, Abbasid Baghdad, and Mongol-period Europe, via Sogdian and Persian intermediaries. Goods (silk, paper, gunpowder, porcelain, spices, horses, metals) traveled in caravan relays from oasis to oasis. The Mongol Pax Mongolica (c.1260–1350) was the network's apogee: Marco Polo's journey, Rabban Bar Sauma's embassy, and the transmission of plague all rode the same routes. Post-1350 the Black Death, Ming retrenchment, and rise of Indian Ocean shipping diverted long-distance trade to maritime channels."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "hansen_silk_road_new_history_2012",
+      "abu_lughod_before_european_hegemony_1989"
+    ],
+    "confidence": "low"
+  }
+}

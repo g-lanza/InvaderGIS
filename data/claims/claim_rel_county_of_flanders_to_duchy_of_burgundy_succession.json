@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_county_of_flanders_to_duchy_of_burgundy_succession",
+  "statement": "Derived from predecessor/successor links recorded in the county_of_flanders and duchy_of_burgundy entity records. Transition anchored to duchy_of_burgundy start_year.",
+  "subject_ids": [
+    "county_of_flanders",
+    "duchy_of_burgundy"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_county_of_flanders_to_duchy_of_burgundy_succession",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "duchy_of_burgundy"
+  ],
+  "period": {
+    "from": 1363,
+    "to": 1363
+  }
+}

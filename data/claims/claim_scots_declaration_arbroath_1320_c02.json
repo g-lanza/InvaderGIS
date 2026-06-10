@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_scots_declaration_arbroath_1320_c02",
+  "statement": "The Declaration of Arbroath stated that if Bruce agreed to English rule, the Scots would choose another king to defend their freedom.",
+  "subject_ids": [
+    "kingdom_of_scotland"
+  ],
+  "period": {
+    "from": 1320,
+    "to": 1320
+  },
+  "derived_from": "scots_declaration_arbroath_1320",
+  "unresolved_sources": [
+    "brown_the_2004"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "barrell_medieval_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_svolder_999_c01",
+  "statement": "Battle of Svolder (999 CE), at Øresund (part of Viking Age Norway).",
+  "subject_ids": [
+    "kingdom_of_sweden"
+  ],
+  "period": {
+    "from": 999,
+    "to": 999
+  },
+  "derived_from": "wd_battle_of_svolder_999",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_medieval_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

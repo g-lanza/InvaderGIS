@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_mamluk_sultanate_1250_1517",
+  "statement": "Mamluk Sultanate — campaigns and battles spanned 1250–1517, from Capture of Louis IX — Egypt Crusade Disaster to Ottoman Conquest of Egypt and the Caliphate.",
+  "subject_ids": [
+    "mamluk_sultanate"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_mamluk_sultanate_1250_1517",
+  "period": {
+    "from": 1250,
+    "to": 1517
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "irwin_the_1986",
+      "northrup_from_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

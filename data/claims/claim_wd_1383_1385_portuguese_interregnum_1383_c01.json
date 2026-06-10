@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_1383_1385_portuguese_interregnum_1383_c01",
+  "statement": "The Portuguese Interregnum lasted from 1383 to 1385 CE.",
+  "subject_ids": [
+    "kingdom_of_portugal"
+  ],
+  "period": {
+    "from": 1383,
+    "to": 1383
+  },
+  "derived_from": "wd_1383_1385_portuguese_interregnum_1383",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

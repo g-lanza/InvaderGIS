@@ -1,0 +1,59 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_ottoman_beylik_1365_1396",
+  "name": "Ottoman Beylik — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1365,
+  "year_end": 1396,
+  "waypoints": [
+    {
+      "year": 1365,
+      "place": "Ottoman raid on Vienna region",
+      "coords": [
+        48.21,
+        16.37
+      ],
+      "note": "war",
+      "event_id": "vienna_1365_siege"
+    },
+    {
+      "year": 1371,
+      "place": "Battle of Maritsa",
+      "coords": [
+        41.68,
+        26.56
+      ],
+      "note": "battle",
+      "event_id": "battle_rocio_1371"
+    },
+    {
+      "year": 1389,
+      "place": "Battle of Kosovo",
+      "coords": [
+        42.64,
+        21.09
+      ],
+      "note": "battle",
+      "event_id": "kosovo_1389"
+    },
+    {
+      "year": 1396,
+      "place": "Battle of Nicopolis",
+      "coords": [
+        43.71,
+        24.92
+      ],
+      "note": "battle",
+      "event_id": "nicopolis_1396"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

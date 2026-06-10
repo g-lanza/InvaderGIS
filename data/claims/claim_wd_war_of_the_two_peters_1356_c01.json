@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_war_of_the_two_peters_1356_c01",
+  "statement": "War of the Two Peters (1356 CE), at Crown of Aragon (part of Hundred Years' War).",
+  "subject_ids": [
+    "crown_of_aragon"
+  ],
+  "period": {
+    "from": 1356,
+    "to": 1356
+  },
+  "derived_from": "wd_war_of_the_two_peters_1356",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

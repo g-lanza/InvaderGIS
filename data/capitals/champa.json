@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "champa",
+  "name": "Vijaya",
+  "entity_id": "champa",
+  "entity_name": "Champa",
+  "start_year": 500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q216786"
+    }
+  },
+  "coords": [
+    109.07507,
+    13.92869
+  ]
+}

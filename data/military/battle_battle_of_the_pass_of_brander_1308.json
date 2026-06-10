@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_the_pass_of_brander_1308",
+  "name": "Battle of the Pass of Brander",
+  "subtype": "battle",
+  "start_year": 1308,
+  "end_year": 1308,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q3636244"
+    }
+  },
+  "description": "Battle during Wars of Scottish Independence (1308)",
+  "coords": [
+    -5.1803,
+    56.4131
+  ]
+}

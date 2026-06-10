@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_umayyad_visigoth_conquest",
+  "statement": "The Umayyad conquest of Visigothic Hispania (711–718) was among the fastest and most complete conquests in medieval history. Tariq ibn Ziyad's victory at Guadalete (711) killed King Roderic and eliminated the Visigothic army; Musa ibn Nusayr's subsequent campaigns reduced the remaining cities through a combination of military force and accommodation (many Visigothic noble families converted to Islam and retained their estates). Toledo surrendered without a siege; only the northern mountains (Asturias, Basque Country, Pyrenean valleys) retained Christian organization. The conquest established al-Andalus as a Umayyad province directly governed from Damascus/Córdoba.",
+  "subject_ids": [
+    "umayyad_emirate_cordoba",
+    "visigothic_kingdom"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_umayyad_visigoth_conquest",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "constable_medieval_1997",
+      "kennedy_muslim_1996",
+      "collins_visigothic_2004",
+      "thompson_the_1969"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 711,
+    "to": 718
+  }
+}

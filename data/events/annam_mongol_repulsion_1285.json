@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "annam_mongol_repulsion_1285",
+  "name": "Vietnam Repels Second Mongol Invasion",
+  "year": 1285,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    18.918,
+    106.009
+  ],
+  "entity": "annam",
+  "summary": "General Trần Hưng Đạo defeated the Mongol-Yuan invasion forces led by Toghan, son of Kublai Khan, despite being heavily outnumbered. Vietnam repelled three Mongol invasion attempts (1258, 1285, 1287-88), one of the few successful resistances to Mongol power in Asia.",
+  "outcomes": [
+    "mongols_defeated",
+    "tran_hung_dao_hero",
+    "independence_preserved"
+  ],
+  "_quarry": {
+    "participants": [
+      "annam"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

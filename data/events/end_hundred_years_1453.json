@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "end_hundred_years_1453",
+  "name": "End of Hundred Years' War",
+  "year": 1453,
+  "type": "war",
+  "category": "violence",
+  "coords": [
+    44.86,
+    -0.58
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "The Hundred Years' War ends definitively at the Battle of Castillon (July 17, 1453), the last major land battle on French soil, where a French army with artillery defeats an English relief force under John Talbot, Earl of Shrewsbury. Talbot (80 years old, the most feared English commander of the war) is killed when his horse falls on him. Bordeaux surrenders on October 19, 1453; England retains only Calais on the continent. The war, which began in 1337 with Edward III's claim to France, ends 116 years later with England expelled from all France except Calais. The loss triggers the Wars of the Roses as English nobles blame each other for the catastrophe.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "kingdom_of_france"
+    ],
+    "structural_significance": "Ends 116 years of Anglo-French warfare; France expels England from all continental territory except Calais; the humiliation triggers the Wars of the Roses; France emerges with a permanent standing army and a centralized taxation system, the foundations of French absolute monarchy",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

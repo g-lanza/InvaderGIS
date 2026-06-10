@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_kerak_1187",
+  "name": "Siege of Kerak",
+  "year": 1187,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    31.8,
+    35.2
+  ],
+  "entity": "kingdom_of_jerusalem",
+  "summary": "Siege of Kerak (1187 CE), at Kerak Castle (part of Crusader battles between 1149 and 1189). Source: Wikidata Q127502302.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_jerusalem"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

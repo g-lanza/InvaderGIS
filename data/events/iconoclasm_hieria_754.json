@@ -1,0 +1,31 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "iconoclasm_hieria_754",
+  "name": "Iconoclast Council of Hieria",
+  "year": 754,
+  "type": "religious_council",
+  "category": "religion",
+  "coords": [
+    40.9842,
+    29.0494
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Constantine V convenes 338 bishops at the imperial palace of Hieria, across the Bosphorus from Constantinople, in the absence of any of the five patriarchs. The council formally condemns the veneration of icons as idolatry and orders their destruction throughout the empire.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire"
+    ],
+    "structural_significance": "Doctrinal peak of the first iconoclast period; the absence of all five patriarchs delegitimises the council in later iconodule memory and provides the procedural basis for the Seventh Ecumenical Council to overturn it in 787.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "meyendorff_byzantium_and_rise_of_russia_1981",
+      "kazhdan_oxford_dictionary_byzantium_1991"
+    ],
+    "confidence": "low"
+  }
+}

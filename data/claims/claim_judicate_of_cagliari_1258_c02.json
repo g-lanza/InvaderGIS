@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_judicate_of_cagliari_1258_c02",
+  "statement": "After 1258, the territory of the Judicate of Cagliari was absorbed by rival Sardinian powers and Pisan and Genoese commercial interests.",
+  "subject_ids": [
+    "judicate_of_cagliari"
+  ],
+  "period": {
+    "from": 1258,
+    "to": 1258
+  },
+  "derived_from": "judicate_of_cagliari_1258",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

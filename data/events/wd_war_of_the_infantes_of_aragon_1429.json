@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_war_of_the_infantes_of_aragon_1429",
+  "name": "War of the Infantes of Aragon",
+  "year": 1429,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41.35,
+    -1.75
+  ],
+  "entity": "crown_of_aragon",
+  "summary": "War of the Infantes of Aragon (1429 CE). Source: Wikidata Q20105067.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "crown_of_aragon",
+      "crown_of_castile"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

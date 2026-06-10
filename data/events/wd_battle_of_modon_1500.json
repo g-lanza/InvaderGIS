@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_modon_1500",
+  "name": "Battle of Modon",
+  "year": 1500,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    43.2,
+    20.6
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Battle of Modon (1500 CE), at Methoni (part of Second Ottoman–Venetian War). Source: Wikidata Q2597432.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "ottoman_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

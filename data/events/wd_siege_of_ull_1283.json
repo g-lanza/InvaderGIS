@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_ull_1283",
+  "name": "Siege of Ull",
+  "year": 1283,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    43.6667,
+    0.4667
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Siege of Ull (1283 CE), at Navardún (part of Aragonese Crusade). Source: Wikidata Q18201435.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "kingdom_of_navarre",
+      "crown_of_aragon"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

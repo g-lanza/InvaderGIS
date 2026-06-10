@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_castillon_1453",
+  "name": "Battle of Castillon",
+  "subtype": "battle",
+  "start_year": 1453,
+  "end_year": 1453,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q932613"
+    }
+  },
+  "description": "Battle during Hundred Years' War (1453)",
+  "coords": [
+    -0.0189,
+    44.8517
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_kingdom_of_alba_900_c01",
+  "statement": "Around 900 CE, the Kingdom of Alba consolidated its hold over mainland Scotland north of the Forth under Kenneth MacAlpin's dynasty.",
+  "subject_ids": [
+    "kingdom_of_alba"
+  ],
+  "period": {
+    "from": 900,
+    "to": 900
+  },
+  "derived_from": "kingdom_of_alba_900",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_liao_to_jin_dynasty_jurchen_succession",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "liao",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "jin_dynasty_jurchen",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 1115,
+  "until": 1115,
+  "note": "Derived from predecessor/successor links recorded in the liao and jin_dynasty_jurchen entity records. Transition anchored to jin_dynasty_jurchen start_year.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Mechanical normalisation of curated predecessor/successor links into the relationships register."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

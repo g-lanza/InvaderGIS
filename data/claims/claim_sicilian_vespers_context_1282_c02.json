@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_sicilian_vespers_context_1282_c02",
+  "statement": "Within six weeks of the 1282 uprising, the entire island of Sicily had expelled or killed the French Angevin garrison.",
+  "subject_ids": [
+    "kingdom_of_sicily_aragonese"
+  ],
+  "period": {
+    "from": 1282,
+    "to": 1282
+  },
+  "derived_from": "sicilian_vespers_context_1282",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

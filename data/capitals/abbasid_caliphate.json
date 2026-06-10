@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "abbasid_caliphate",
+  "name": "Cairo",
+  "entity_id": "abbasid_caliphate",
+  "entity_name": "Abbasid Caliphate",
+  "start_year": 750,
+  "end_year": 1258,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q12536"
+    }
+  },
+  "coords": [
+    31.23583,
+    30.04444
+  ]
+}

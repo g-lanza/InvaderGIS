@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_great_moravia_papacy",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "great_moravia",
+      "role": "principal"
+    },
+    {
+      "entity_id": "papal_states",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "religious_jurisdiction",
+  "since": 867,
+  "until": 885,
+  "note": "Great Moravia sought papal recognition as an ecclesiastical independent entity — free from both Byzantine and Frankish ecclesiastical jurisdiction — and achieved this when Pope Hadrian II recognized the Slavic liturgy developed by Cyril and Methodius (868). Pope John VIII subsequently consecrated Methodius as Archbishop of Moravia (880), with jurisdiction over all Slavic-speaking peoples. After Methodius's death (885), Pope Stephen V reversed course, prohibiting the Slavic liturgy under Frankish pressure and expelling Methodius's disciples. The expulsion carried the Cyrillo-Methodian tradition to Bulgaria, where it ultimately survived and flourished.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Moravian-papal relationship demonstrates that the papacy was capable of recognizing Slavic liturgical autonomy — but only temporarily, under Frankish ecclesiastical pressure; the reversal (885) diverts the Cyrillo-Methodian tradition to Bulgaria and eventually to Russia; if Moravia had maintained Slavic liturgy under papal protection, central European Christianity might have developed very differently"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "havlík_kronika_1992",
+      "bowlus_franks_1995",
+      "partner_the_1972",
+      "morris_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

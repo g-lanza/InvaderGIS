@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "armenian_kingdom_of_cilicia_1080",
+  "name": "Armenian Kingdom of Cilicia Founded",
+  "year": 1080,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    36.9,
+    35.9
+  ],
+  "entity": "armenian_kingdom_of_cilicia",
+  "summary": "Roupen I established the Armenian principality of Cilicia around 1080 CE after Seljuk pressure displaced Armenians from their Anatolian homeland. Located in the fertile Cilician plain of southern Anatolia, the kingdom became a vital Crusader ally, providing provisions and soldiers while developing as a prosperous Armenian Christian state outside of Greater Armenia.",
+  "outcomes": [
+    "armenian_refuge",
+    "crusader_ally",
+    "crossroads_state"
+  ],
+  "_quarry": {
+    "participants": [
+      "armenian_kingdom_of_cilicia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "boase_the_1978",
+      "mutafian_le_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

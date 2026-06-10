@@ -1,0 +1,42 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "mehmed_ii_law_1451",
+  "name": "Mehmed II Codifies Ottoman Law, Kanunname",
+  "year": 1451,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.01,
+    28.97
+  ],
+  "entity": "ottoman_empire",
+  "summary": "Mehmed II issues the Kanunname, the sultanic legal code that exists parallel to Sharia (Islamic law). The Kanunname covers administrative, fiscal, and criminal law areas not addressed by religious law, establishing the principle that the sultan's legislative authority creates valid law independent of the religious scholars. Mehmed also reorganizes the palace school, the devshirme system, and the provincial administration.",
+  "outcomes": [
+    "ottoman_legal_code",
+    "sultan_law_separate_from_sharia",
+    "centralized_state_administration"
+  ],
+  "_quarry": {
+    "participants": [
+      "ottoman_empire"
+    ],
+    "structural_significance": "The Kanunname is the foundational document of Ottoman secular law, the principle that a Muslim ruler's positive law can supplement and sometimes override religious law enables the flexible governance of a multi-ethnic empire; the dual legal system (Sharia for personal status, Kanunname for public administration) is a sophisticated constitutional arrangement that allows the empire to function as a secular state while maintaining Islamic legitimacy",
+    "year_range": [
+      1451,
+      1481
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

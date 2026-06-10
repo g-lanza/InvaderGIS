@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "denmark_norway_battle_stiklestad_1030",
+  "name": "Battle of Stiklestad",
+  "year": 1030,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    56,
+    10
+  ],
+  "entity": "kingdom_of_denmark",
+  "summary": "King Olaf II of Norway was killed at Stiklestad fighting Danish-backed Norwegian rebels. His death was followed by rapid Christianisation of Norway and his canonisation as Saint Olaf, becoming the patron saint of Norway.",
+  "outcomes": [
+    "olaf_ii_killed",
+    "norway_christianised",
+    "saint_olaf_created"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_denmark"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_medieval_1993",
+      "roesdahl_the_1992"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

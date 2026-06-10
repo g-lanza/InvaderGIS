@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_iconoclasm_revival_815_c02",
+  "statement": "In the 815 iconoclast revival, the patriarch Nikephoros was deposed and Theodore the Studite led the iconodule resistance.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 815,
+    "to": 815
+  },
+  "derived_from": "iconoclasm_revival_815",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "meyendorff_byzantium_and_rise_of_russia_1981",
+      "kazhdan_oxford_dictionary_byzantium_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

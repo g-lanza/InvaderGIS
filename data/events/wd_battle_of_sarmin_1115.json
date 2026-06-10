@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_sarmin_1115",
+  "name": "Battle of Sarmin",
+  "year": 1115,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    36.7,
+    37.5
+  ],
+  "entity": "county_of_edessa",
+  "summary": "Battle of Sarmin (1115 CE), at Sarmin (part of Crusader battles between 1101 and 1145). Source: Wikidata Q2394344.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "county_of_edessa",
+      "principality_of_antioch"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

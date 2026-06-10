@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "margraviate_of_brandenburg_1157",
+  "name": "Brandenburg Established",
+  "year": 1157,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    51.26,
+    11.955
+  ],
+  "entity": "margraviate_of_brandenburg",
+  "summary": "Albert the Bear secured the North March (later Brandenburg) in 1157, founding the Margraviate of Brandenburg. He expelled or assimilated the Slavic Hevelli people and colonised the territory with German settlers, making Brandenburg the spearhead of German eastward expansion (Ostsiedlung) in the High Middle Ages.",
+  "outcomes": [
+    "albert_bear",
+    "slavic_lands_colonised",
+    "german_eastward_expansion"
+  ],
+  "_quarry": {
+    "participants": [
+      "margraviate_of_brandenburg",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

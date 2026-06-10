@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_tuscany_1155",
+  "name": "Frederick Barbarossa Confirms Tuscany",
+  "year": 1155,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    46.885,
+    10.88
+  ],
+  "entity": "duchy_of_tuscany",
+  "summary": "Frederick Barbarossa's Italian campaigns attempted to reassert imperial authority over Tuscany and northern Italy. The Tuscan cities resisted imperial control, and the growing commune movement transformed Florence, Siena, and Pisa into self-governing city-states that would dominate medieval Italian culture.",
+  "outcomes": [
+    "imperial_authority_reasserted",
+    "tuscan_cities_resist",
+    "commune_movement_grows"
+  ],
+  "_quarry": {
+    "participants": [
+      "duchy_of_tuscany",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

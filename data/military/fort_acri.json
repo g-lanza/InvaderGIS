@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "fort_acri",
+  "name": "Acre (Akko) Fortress",
+  "subtype": "fort",
+  "start_year": 1104,
+  "end_year": 1291,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "Crusader capital after loss of Jerusalem; major Hospitaller stronghold",
+  "coords": [
+    35.071,
+    32.928
+  ]
+}

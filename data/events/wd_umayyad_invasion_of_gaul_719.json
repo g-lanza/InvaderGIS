@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_umayyad_invasion_of_gaul_719",
+  "name": "Umayyad invasion of Gaul",
+  "year": 719,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    42.6667,
+    16.3333
+  ],
+  "entity": "merovingian_kingdom",
+  "summary": "Umayyad invasion of Gaul (719 CE), at Italy (part of Muslim conquests). Source: Wikidata Q129124.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "merovingian_kingdom",
+      "lombard_kingdom",
+      "umayyad_caliphate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wood_the_1994",
+      "geary_before_1988"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

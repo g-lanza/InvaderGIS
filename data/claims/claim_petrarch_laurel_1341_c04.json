@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_petrarch_laurel_1341_c04",
+  "statement": "Petrarch's recovery of classical texts from monastic libraries began the systematic recovery of ancient learning that modeled Renaissance humanism.",
+  "subject_ids": [
+    "republic_of_florence"
+  ],
+  "period": {
+    "from": 1341,
+    "to": 1341
+  },
+  "derived_from": "petrarch_laurel_1341",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "najemy_a_2006",
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

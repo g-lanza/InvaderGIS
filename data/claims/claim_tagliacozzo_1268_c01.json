@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_tagliacozzo_1268_c01",
+  "statement": "At the Battle of Tagliacozzo on August 23, 1268, Charles of Anjou, with papal and French backing, defeated Conradin, the last Hohenstaufen claimant to the kingdom of Sicily.",
+  "subject_ids": [
+    "kingdom_of_sicily_hohenstaufen"
+  ],
+  "period": {
+    "from": 1268,
+    "to": 1268
+  },
+  "derived_from": "tagliacozzo_1268",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

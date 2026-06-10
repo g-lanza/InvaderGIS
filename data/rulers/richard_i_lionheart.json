@@ -1,0 +1,59 @@
+{
+ "kind": "ruler",
+ "dataset": "medieval-europe-500-1500",
+ "id": "richard_i_lionheart",
+ "name": "Richard I the Lionheart",
+ "polity": "kingdom_of_england",
+ "title": "king",
+ "reign_start": 1189,
+ "reign_end": 1199,
+ "_quarry": {
+  "lifespan": {
+   "birth_year": 1157,
+   "death_year": 1199
+  },
+  "entity_associations": [
+   {
+    "entity_id": "kingdom_of_england",
+    "role": "king",
+    "start_year": 1189,
+    "end_year": 1199
+   },
+   {
+    "entity_id": "duchy_of_aquitaine",
+    "role": "duke",
+    "start_year": 1172,
+    "end_year": 1199
+   }
+  ],
+  "key_actions": [
+   {
+    "year": 1191,
+    "event": "Conquers Cyprus en route to Third Crusade; sells it to Templars."
+   },
+   {
+    "year": 1191,
+    "event": "Takes Acre after two-year Crusader siege."
+   },
+   {
+    "year": 1192,
+    "event": "Negotiates Treaty of Jaffa with Saladin."
+   },
+   {
+    "year": 1194,
+    "event": "Released from Habsburg captivity for ransom of 150,000 marks."
+   }
+  ],
+  "region": "western_europe",
+  "name_variants": []
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "riley_smith_crusades_2005",
+   "ims_fordham",
+   "ims_fordham_sbook1n"
+  ],
+  "confidence": "low"
+ }
+}

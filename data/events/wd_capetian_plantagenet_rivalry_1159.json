@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_capetian_plantagenet_rivalry_1159",
+  "name": "Capetian-Plantagenet rivalry",
+  "year": 1159,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    49.1667,
+    5.5667
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Capetian-Plantagenet rivalry (1159 CE), at Kingdom of France. Source: Wikidata Q4763630.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "kingdom_of_france",
+      "county_of_flanders"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_siege_of_narbonne_752",
+  "name": "Siege of Narbonne",
+  "subtype": "battle",
+  "start_year": 752,
+  "end_year": 752,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q16169269"
+    }
+  },
+  "description": "Battle during Umayyad invasion of Gaul (752)",
+  "coords": [
+    3.0042,
+    43.1836
+  ]
+}

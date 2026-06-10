@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "exarchate_of_ravenna_584",
+  "name": "Exarchate Established",
+  "year": 584,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    42.71,
+    20.55
+  ],
+  "entity": "exarchate_of_ravenna",
+  "summary": "The Exarchate of Ravenna was established around 584 CE as Byzantium's administrative response to Lombard invasions of Italy. With Ravenna as its capital, the Exarchate represented the last significant Byzantine territorial presence in Italy, governing a fragmented coastline against constant Lombard pressure.",
+  "outcomes": [
+    "byzantine_italy_reorganised",
+    "ravenna_capital",
+    "lombard_pressure_response"
+  ],
+  "_quarry": {
+    "participants": [
+      "exarchate_of_ravenna",
+      "byzantine_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "principality_of_moldavia_1475",
+  "name": "Stephen the Great Defeats Ottomans",
+  "year": 1475,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    44,
+    28.45
+  ],
+  "entity": "principality_of_moldavia",
+  "summary": "Stephen the Great of Moldavia's victory at the Battle of Vaslui in 1475 over a large Ottoman force was celebrated across Christian Europe. Stephen's 47-year reign (1457–1504) represented Moldavia's golden age, with remarkable military success and extensive Orthodox church-building that earned him sainthood.",
+  "outcomes": [
+    "ottoman_invasion_repelled",
+    "stephen_celebrated",
+    "moldavian_independence"
+  ],
+  "_quarry": {
+    "participants": [
+      "principality_of_moldavia",
+      "ottoman_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "treptow_a_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

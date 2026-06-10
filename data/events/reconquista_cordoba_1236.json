@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "reconquista_cordoba_1236",
+  "name": "Reconquest of Córdoba",
+  "year": 1236,
+  "type": "conquest",
+  "category": "violence",
+  "coords": [
+    37.88,
+    -4.77
+  ],
+  "entity": "crown_of_castile",
+  "summary": "Ferdinand III of Castile captures Córdoba on June 29, 1236, the Feast of Saints Peter and Paul. The ancient Umayyad capital, once the largest city in western Europe with a library of 400,000 volumes, has been in Muslim hands since 711. Ferdinand enters the city and the Great Mosque of Córdoba, one of the masterpieces of world architecture, is reconsecrated as a Cathedral. The city's Muslim population departs or converts. The conquest, made possible by the Almohad collapse after Las Navas de Tolosa (1212), accelerates the Reconquista's final phase.",
+  "outcomes": [
+    "cordoba_falls_to_castile",
+    "great_mosque_reconsecrated",
+    "almohad_iberia_fragmented"
+  ],
+  "_quarry": {
+    "participants": [
+      "crown_of_castile",
+      "taifa_kingdoms",
+      "emirate_of_granada"
+    ],
+    "structural_significance": "The fall of the former caliphate capital marks the symbolic heart of the Reconquista; within 15 years Seville (1248) also falls; only the Emirate of Granada survives as a Muslim state in Iberia, paying tribute to Castile until 1492; the Great Mosque's survival (converted to a cathedral with a nave inserted in the 16th century) makes Córdoba one of the most extraordinary architectural monuments in Europe",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "o'callaghan_a_1975",
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_principality_of_pskov_1240_c02",
+  "statement": "The Battle on the Ice in 1242 stopped the Teutonic Order's advance into Pskov and Novgorod.",
+  "subject_ids": [
+    "principality_of_novgorod"
+  ],
+  "period": {
+    "from": 1242,
+    "to": 1242
+  },
+  "derived_from": "principality_of_pskov_1240",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "martin_treasure_1986",
+      "birnbaum_lord_1981"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

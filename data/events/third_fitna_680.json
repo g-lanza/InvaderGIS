@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "third_fitna_680",
+  "name": "Battle of Karbala",
+  "year": 680,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    32.6,
+    44
+  ],
+  "entity": "umayyad_caliphate",
+  "summary": "Husayn ibn Ali, grandson of Muhammad, refuses to pledge loyalty to Umayyad Caliph Yazid I and marches toward Kufa with 72 followers to lead a revolt. He is intercepted at Karbala and massacred with his companions on the 10th of Muharram. His death creates the foundational trauma of Shia Islam, observed as Ashura, and permanently establishes the Sunni-Shia schism.",
+  "outcomes": [
+    "husayn_ibn_ali_killed",
+    "sunni_shia_split",
+    "umayyad_consolidation"
+  ],
+  "_quarry": {
+    "participants": [
+      "umayyad_caliphate"
+    ],
+    "structural_significance": "The single most divisive moment in Islamic history; Husayn's martyrdom at Karbala becomes the defining narrative of Shia identity, shaping Islamic civilization for 1,400 years.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_the_2004",
+      "hawting_the_2000",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_swedish_civil_war_1438",
+  "name": "Swedish Civil War",
+  "year": 1438,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    60,
+    15
+  ],
+  "entity": "kingdom_of_sweden",
+  "summary": "Swedish Civil War (1438 CE). Source: Wikidata Q130618940.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_sweden"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_medieval_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

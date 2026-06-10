@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_al_musalla_1052",
+  "name": "Battle of al-Musalla",
+  "subtype": "battle",
+  "start_year": 1052,
+  "end_year": 1052,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q132690180"
+    }
+  },
+  "description": "Battle during Hilalian invasion of Ifriqiya (1052)",
+  "coords": [
+    10.1,
+    35.6833
+  ]
+}

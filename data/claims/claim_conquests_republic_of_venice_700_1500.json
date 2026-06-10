@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_republic_of_venice_700_1500",
+  "statement": "Republic of Venice — campaigns and battles spanned 700–1500, from Croatian-Venetian Wars to Siege of the Castle of Saint George.",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_republic_of_venice_700_1500",
+  "period": {
+    "from": 700,
+    "to": 1500
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

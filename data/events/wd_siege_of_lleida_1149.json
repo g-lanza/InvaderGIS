@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_lleida_1149",
+  "name": "Siege of Lleida",
+  "year": 1149,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.2,
+    -0.9
+  ],
+  "entity": "almoravid_emirate_iberia",
+  "summary": "Siege of Lleida (1149 CE), at Medina Larida (part of Second Crusade). Source: Wikidata Q130306874.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "almoravid_emirate_iberia",
+      "county_of_barcelona"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_the_2004",
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

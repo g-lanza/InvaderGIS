@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_venetian_galley_trade_c03",
+  "statement": "The mude galleys were state-owned and leased to merchants.",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1320,
+    "to": 1320
+  },
+  "derived_from": "venetian_galley_trade",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

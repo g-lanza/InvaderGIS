@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_maskin_691_c01",
+  "statement": "Battle of Maskin (691 CE), at Dayr al-Jathaliq (part of Second Fitna).",
+  "subject_ids": [
+    "umayyad_caliphate"
+  ],
+  "period": {
+    "from": 691,
+    "to": 691
+  },
+  "derived_from": "wd_battle_of_maskin_691",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_the_2004",
+      "hawting_the_2000",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

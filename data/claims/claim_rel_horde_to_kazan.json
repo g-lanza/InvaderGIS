@@ -1,0 +1,29 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_horde_to_kazan",
+  "statement": "The Khanate of Kazan broke from the collapsing Golden Horde under Ulugh Muhammad (1438), who was expelled from the Horde's internal succession struggle and established himself at Kazan on the middle Volga. The Kazan Khanate controlled the key junction where the Volga and Kama rivers meet — the gateway to the Ural fur trade and the routes east toward Siberia. Kazan's mixed population (Tatar ruling class, Finno-Ugric Mari and Mordvin subjects) and strategic position made it Moscow's primary eastern adversary for a century, until Ivan IV's conquest (1552).",
+  "subject_ids": [
+    "golden_horde",
+    "khanate_of_kazan"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_horde_to_kazan",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "allsen_mongol_1987",
+      "morgan_the_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "khanate_of_kazan"
+  ],
+  "period": {
+    "from": 1438,
+    "to": 1438
+  }
+}

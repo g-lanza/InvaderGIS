@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "franciscan_order_founded_1209",
+  "name": "Pope Innocent III approves the Friars Minor",
+  "year": 1209,
+  "type": "religious",
+  "category": "religion",
+  "coords": [
+    43.0707,
+    12.6133
+  ],
+  "entity": "papal_states",
+  "summary": "Francis of Assisi, with a small group of companions, obtained an oral approbation of his rule of evangelical poverty from Pope Innocent III in 1209, launching the Order of Friars Minor. Coupled with Dominic's preachers (1216), the new mendicant orders broke with the older monastic pattern of stable rural cloisters and embedded themselves in the growing towns.",
+  "outcomes": [
+    "mendicant_movement_inaugurated",
+    "franciscan_rule_orally_approved"
+  ],
+  "_quarry": {
+    "participants": [
+      "papal_states",
+      "republic_of_florence"
+    ],
+    "structural_significance": "Inaugurated the mendicant movement that reshaped urban religion across thirteenth-century Latin Christendom. Lawrence's history of medieval monasticism treats the Franciscan emergence as a structural shift in the institutional church, not a sectarian episode.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lawrence_medieval_monasticism_2001"
+    ],
+    "confidence": "low"
+  }
+}

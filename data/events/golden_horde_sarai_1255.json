@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "golden_horde_sarai_1255",
+  "name": "Batu Khan Establishes the Golden Horde",
+  "year": 1255,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    47.5,
+    46
+  ],
+  "entity": "golden_horde",
+  "summary": "Batu Khan establishes Sarai (near modern Astrakhan) as the capital of the Golden Horde, the western Mongol khanate controlling the Pontic-Caspian steppe, the Caucasus, and Rus. Russian princes must travel to Sarai to receive a yarlyk (patent of rule); those who refuse are killed. The Golden Horde's control of Rus lasts 240 years. Batu creates the most durable of the Mongol successor states, converting to Islam under Berke Khan (1257-1267).",
+  "outcomes": [
+    "sarai_founded_capital",
+    "rus_princes_subordinated",
+    "steppe_empire_institutionalized"
+  ],
+  "_quarry": {
+    "participants": [
+      "golden_horde",
+      "kievan_rus"
+    ],
+    "structural_significance": "The Golden Horde's 240-year domination of Rus shapes Russian political culture, the argument that the Mongol influence introduced autocratic governance is debated but the isolation from western European developments (the Renaissance, the Reformation, the printing press) during this period is real; Moscow rises partly by successfully acting as the Horde's tax collector, using Mongol institutional models for centralization",
+    "year_range": [
+      1241,
+      1260
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "allsen_mongol_1987"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_badajoz_1169_c01",
+  "statement": "Siege of Badajoz (1169 CE), at Badajoz (part of Luso–Leonese War of 1167–1169).",
+  "subject_ids": [
+    "kingdom_of_portugal"
+  ],
+  "period": {
+    "from": 1169,
+    "to": 1169
+  },
+  "derived_from": "wd_siege_of_badajoz_1169",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

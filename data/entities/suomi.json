@@ -1,0 +1,1004 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "suomi",
+  "name_primary": "Suomi",
+  "name_variants": [],
+  "type": "kingdom",
+  "region": "northern_europe",
+  "formed": 800,
+  "dissolved": 1323,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 1000,
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              60.3448,
+              27.4062
+            ],
+            [
+              60.3763,
+              26.9456
+            ],
+            [
+              60.3478,
+              26.6131
+            ],
+            [
+              60.5707,
+              26.5516
+            ],
+            [
+              60.2702,
+              26.3227
+            ],
+            [
+              60.2358,
+              25.8901
+            ],
+            [
+              60.2623,
+              25.5805
+            ],
+            [
+              60.1097,
+              25.1458
+            ],
+            [
+              59.9381,
+              24.2814
+            ],
+            [
+              59.9325,
+              23.9611
+            ],
+            [
+              59.8298,
+              23.4189
+            ],
+            [
+              59.9325,
+              22.9821
+            ],
+            [
+              60.2088,
+              23.0052
+            ],
+            [
+              60.1212,
+              22.3921
+            ],
+            [
+              60.2588,
+              22.2207
+            ],
+            [
+              60.4083,
+              21.7468
+            ],
+            [
+              60.6936,
+              21.4432
+            ],
+            [
+              61.1833,
+              21.4983
+            ],
+            [
+              61.4849,
+              21.561
+            ],
+            [
+              61.8709,
+              21.2112
+            ],
+            [
+              62.3436,
+              21.3376
+            ],
+            [
+              61.7569,
+              29.0712
+            ],
+            [
+              61.27,
+              28.29
+            ],
+            [
+              60.55,
+              28.17
+            ],
+            [
+              60.5913,
+              28.3765
+            ],
+            [
+              60.3448,
+              27.4062
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "year": 1001,
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              61.123,
+              30.0405
+            ],
+            [
+              60.6233,
+              28.5215
+            ],
+            [
+              60.3448,
+              27.4062
+            ],
+            [
+              60.3763,
+              26.9456
+            ],
+            [
+              60.3478,
+              26.6131
+            ],
+            [
+              60.5707,
+              26.5516
+            ],
+            [
+              60.2702,
+              26.3227
+            ],
+            [
+              60.2358,
+              25.8901
+            ],
+            [
+              60.2623,
+              25.5805
+            ],
+            [
+              60.1097,
+              25.1458
+            ],
+            [
+              59.9381,
+              24.2814
+            ],
+            [
+              59.9325,
+              23.9611
+            ],
+            [
+              59.8298,
+              23.4189
+            ],
+            [
+              59.9325,
+              22.9821
+            ],
+            [
+              60.2088,
+              23.0052
+            ],
+            [
+              60.1212,
+              22.3921
+            ],
+            [
+              60.2588,
+              22.2207
+            ],
+            [
+              60.4083,
+              21.7468
+            ],
+            [
+              60.6936,
+              21.4432
+            ],
+            [
+              61.1833,
+              21.4983
+            ],
+            [
+              61.4849,
+              21.561
+            ],
+            [
+              61.8709,
+              21.2112
+            ],
+            [
+              62.3436,
+              21.3376
+            ],
+            [
+              61.7707,
+              29.0189
+            ],
+            [
+              61.4477,
+              30.2395
+            ],
+            [
+              61.3763,
+              30.168
+            ],
+            [
+              61.3188,
+              30.2384
+            ],
+            [
+              61.2841,
+              30.1274
+            ],
+            [
+              61.2389,
+              30.0788
+            ],
+            [
+              61.2967,
+              29.8997
+            ],
+            [
+              61.2801,
+              29.8827
+            ],
+            [
+              61.2585,
+              29.8973
+            ],
+            [
+              61.2618,
+              29.8226
+            ],
+            [
+              61.2406,
+              29.8973
+            ],
+            [
+              61.229,
+              29.8685
+            ],
+            [
+              61.1982,
+              29.898
+            ],
+            [
+              61.2127,
+              29.8188
+            ],
+            [
+              61.123,
+              30.0405
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "centroid": [
+    60.84,
+    26.784
+  ],
+  "population_estimates": [
+    {
+      "year": 900,
+      "estimate": 80000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q351432",
+          "url": "https://www.wikidata.org/wiki/Q351432",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Suomi",
+          "url": "https://en.wikipedia.org/wiki/Suomi"
+        }
+      ]
+    },
+    {
+      "year": 1100,
+      "estimate": 140000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q351432",
+          "url": "https://www.wikidata.org/wiki/Q351432",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Suomi",
+          "url": "https://en.wikipedia.org/wiki/Suomi"
+        }
+      ]
+    },
+    {
+      "year": 1300,
+      "estimate": 200000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q351432",
+          "url": "https://www.wikidata.org/wiki/Q351432",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Suomi",
+          "url": "https://en.wikipedia.org/wiki/Suomi"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Finnish tribal confederation (pre-state to 1249) whose multiple tribes, Tavastians, Karelians, Finns proper, controlled the Baltic-Ladoga forest zone; Swedish Crusades of the 12th–13th centuries incorporated Finland into the Swedish kingdom as a Catholic province, beginning linguistic and cultural Swedification of coastal areas while inland populations preserved distinct Finnish language and folk traditions that survive in the Kalevala oral epic.",
+  "temporal": {
+    "start_year": 800,
+    "end_year": 1323,
+    "notes": "Finnish tribal confederations (Suomi proper, Tavastians, Karelians) until the Second Swedish Crusade brought Finland under Swedish rule in 1249."
+  },
+  "geographic": {
+    "centroid": [
+      60.84,
+      26.784
+    ],
+    "polygon_simplified": [
+      [
+        [
+          61.123,
+          30.0405
+        ],
+        [
+          60.6233,
+          28.5215
+        ],
+        [
+          60.5107,
+          28.0114
+        ],
+        [
+          60.3448,
+          27.4062
+        ],
+        [
+          60.3763,
+          26.9456
+        ],
+        [
+          60.3478,
+          26.6131
+        ],
+        [
+          60.5707,
+          26.5516
+        ],
+        [
+          60.2702,
+          26.3227
+        ],
+        [
+          60.2358,
+          25.8901
+        ],
+        [
+          60.2623,
+          25.5805
+        ],
+        [
+          60.1097,
+          25.1458
+        ],
+        [
+          60.0868,
+          24.9695
+        ],
+        [
+          59.9895,
+          24.516
+        ],
+        [
+          59.9381,
+          24.2814
+        ],
+        [
+          59.9325,
+          23.9611
+        ],
+        [
+          59.8298,
+          23.4189
+        ],
+        [
+          59.9325,
+          22.9821
+        ],
+        [
+          60.2088,
+          23.0052
+        ],
+        [
+          60.1212,
+          22.3921
+        ],
+        [
+          60.2588,
+          22.2207
+        ],
+        [
+          60.4083,
+          21.7468
+        ],
+        [
+          60.6936,
+          21.4432
+        ],
+        [
+          61.1833,
+          21.4983
+        ],
+        [
+          61.4849,
+          21.561
+        ],
+        [
+          61.8709,
+          21.2112
+        ],
+        [
+          62.3436,
+          21.3376
+        ],
+        [
+          61.7707,
+          29.0189
+        ],
+        [
+          61.4477,
+          30.2395
+        ],
+        [
+          61.3763,
+          30.168
+        ],
+        [
+          61.3188,
+          30.2384
+        ],
+        [
+          61.2841,
+          30.1274
+        ],
+        [
+          61.2389,
+          30.0788
+        ],
+        [
+          61.282,
+          29.9684
+        ],
+        [
+          61.2967,
+          29.8997
+        ],
+        [
+          61.2814,
+          29.8967
+        ],
+        [
+          61.2801,
+          29.8827
+        ],
+        [
+          61.2585,
+          29.8973
+        ],
+        [
+          61.2602,
+          29.8432
+        ],
+        [
+          61.2618,
+          29.8226
+        ],
+        [
+          61.2578,
+          29.8275
+        ],
+        [
+          61.2551,
+          29.8265
+        ],
+        [
+          61.2406,
+          29.8973
+        ],
+        [
+          61.229,
+          29.8685
+        ],
+        [
+          61.1982,
+          29.898
+        ],
+        [
+          61.2127,
+          29.8188
+        ],
+        [
+          61.123,
+          30.0405
+        ]
+      ]
+    ],
+    "no_central_capital": true,
+    "no_central_capital_reason": "Pre-state Finnic tribal groups.",
+    "polygon_snapshots": [
+      {
+        "year": 1000,
+        "polygon": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                60.3448,
+                27.4062
+              ],
+              [
+                60.3763,
+                26.9456
+              ],
+              [
+                60.3478,
+                26.6131
+              ],
+              [
+                60.5707,
+                26.5516
+              ],
+              [
+                60.2702,
+                26.3227
+              ],
+              [
+                60.2358,
+                25.8901
+              ],
+              [
+                60.2623,
+                25.5805
+              ],
+              [
+                60.1097,
+                25.1458
+              ],
+              [
+                59.9381,
+                24.2814
+              ],
+              [
+                59.9325,
+                23.9611
+              ],
+              [
+                59.8298,
+                23.4189
+              ],
+              [
+                59.9325,
+                22.9821
+              ],
+              [
+                60.2088,
+                23.0052
+              ],
+              [
+                60.1212,
+                22.3921
+              ],
+              [
+                60.2588,
+                22.2207
+              ],
+              [
+                60.4083,
+                21.7468
+              ],
+              [
+                60.6936,
+                21.4432
+              ],
+              [
+                61.1833,
+                21.4983
+              ],
+              [
+                61.4849,
+                21.561
+              ],
+              [
+                61.8709,
+                21.2112
+              ],
+              [
+                62.3436,
+                21.3376
+              ],
+              [
+                61.7569,
+                29.0712
+              ],
+              [
+                61.27,
+                28.29
+              ],
+              [
+                60.55,
+                28.17
+              ],
+              [
+                60.5913,
+                28.3765
+              ],
+              [
+                60.3448,
+                27.4062
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "year": 1001,
+        "polygon": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                61.123,
+                30.0405
+              ],
+              [
+                60.6233,
+                28.5215
+              ],
+              [
+                60.3448,
+                27.4062
+              ],
+              [
+                60.3763,
+                26.9456
+              ],
+              [
+                60.3478,
+                26.6131
+              ],
+              [
+                60.5707,
+                26.5516
+              ],
+              [
+                60.2702,
+                26.3227
+              ],
+              [
+                60.2358,
+                25.8901
+              ],
+              [
+                60.2623,
+                25.5805
+              ],
+              [
+                60.1097,
+                25.1458
+              ],
+              [
+                59.9381,
+                24.2814
+              ],
+              [
+                59.9325,
+                23.9611
+              ],
+              [
+                59.8298,
+                23.4189
+              ],
+              [
+                59.9325,
+                22.9821
+              ],
+              [
+                60.2088,
+                23.0052
+              ],
+              [
+                60.1212,
+                22.3921
+              ],
+              [
+                60.2588,
+                22.2207
+              ],
+              [
+                60.4083,
+                21.7468
+              ],
+              [
+                60.6936,
+                21.4432
+              ],
+              [
+                61.1833,
+                21.4983
+              ],
+              [
+                61.4849,
+                21.561
+              ],
+              [
+                61.8709,
+                21.2112
+              ],
+              [
+                62.3436,
+                21.3376
+              ],
+              [
+                61.7707,
+                29.0189
+              ],
+              [
+                61.4477,
+                30.2395
+              ],
+              [
+                61.3763,
+                30.168
+              ],
+              [
+                61.3188,
+                30.2384
+              ],
+              [
+                61.2841,
+                30.1274
+              ],
+              [
+                61.2389,
+                30.0788
+              ],
+              [
+                61.2967,
+                29.8997
+              ],
+              [
+                61.2801,
+                29.8827
+              ],
+              [
+                61.2585,
+                29.8973
+              ],
+              [
+                61.2618,
+                29.8226
+              ],
+              [
+                61.2406,
+                29.8973
+              ],
+              [
+                61.229,
+                29.8685
+              ],
+              [
+                61.1982,
+                29.898
+              ],
+              [
+                61.2127,
+                29.8188
+              ],
+              [
+                61.123,
+                30.0405
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "tribal_autonomy",
+      "years": "500-1150",
+      "description": "Finnish (Suomi) tribes inhabited the forests and lakeland of the Finnish interior; subsistence economy of fishing, hunting, and small-scale agriculture.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q351432",
+          "url": "https://www.wikidata.org/wiki/Q351432"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Suomi",
+          "url": "https://en.wikipedia.org/wiki/Suomi"
+        }
+      ]
+    },
+    {
+      "phase": "swedish_crusades",
+      "years": "1150-1300",
+      "description": "Swedish crusading expeditions (the 'Finnish Crusades') began incorporating Finnish tribes into the Swedish realm.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q351432",
+          "url": "https://www.wikidata.org/wiki/Q351432"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Suomi",
+          "url": "https://en.wikipedia.org/wiki/Suomi"
+        }
+      ]
+    },
+    {
+      "phase": "swedish_integration",
+      "years": "1300-1500",
+      "description": "Firmly integrated into the Swedish kingdom; Finnish became a subordinate vernacular while Swedish was the administrative language.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q351432",
+          "url": "https://www.wikidata.org/wiki/Q351432"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Suomi",
+          "url": "https://en.wikipedia.org/wiki/Suomi"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "resource_concentration",
+      "layer": "economic_commercial",
+      "description": "Finnish forests provided furs, tar, and timber that were high-value exports.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q351432",
+          "url": "https://www.wikidata.org/wiki/Q351432"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Suomi",
+          "url": "https://en.wikipedia.org/wiki/Suomi"
+        }
+      ],
+      "tag_prose": "forest_resources"
+    },
+    {
+      "tag": "lake_geography",
+      "layer": "geography_territory",
+      "description": "Complex lake and forest terrain delayed and complicated conquest.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q351432",
+          "url": "https://www.wikidata.org/wiki/Q351432"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Suomi",
+          "url": "https://en.wikipedia.org/wiki/Suomi"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "swedish_crusades",
+      "layer": "military_security",
+      "description": "Successive Swedish crusades (1150s, 1249, 1293) progressively incorporated Finnish territory into the Swedish sphere.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q351432",
+          "url": "https://www.wikidata.org/wiki/Q351432"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Suomi",
+          "url": "https://en.wikipedia.org/wiki/Suomi"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Lalli (legendary)",
+      "role": "peasant_hero",
+      "years": "1156–1156",
+      "year_start": 1156,
+      "year_end": 1156,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Lalli (legendary)",
+          "url": "https://en.wikipedia.org/wiki/Lalli_(legendary)"
+        }
+      ]
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "fishing",
+      "fur_trade",
+      "limited_trade"
+    ],
+    "wealth_level": "low",
+    "major_exports": [
+      "furs",
+      "fish",
+      "tar",
+      "timber"
+    ],
+    "major_trade_partners": [
+      "kingdom_of_sweden",
+      "novgorod",
+      "hanseatic_league"
+    ],
+    "revenue_sources": [
+      "fur_tribute_to_sweden",
+      "fishing_surplus"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q351432",
+        "url": "https://www.wikidata.org/wiki/Q351432"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Suomi",
+        "url": "https://en.wikipedia.org/wiki/Suomi"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q351432",
+    "matched_name": "Suomi",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Suomi"
+  },
+  "monogram": "SU"
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_kyiv_968",
+  "name": "Siege of Kyiv",
+  "year": 968,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    46.5,
+    30
+  ],
+  "entity": "pecheneg_confederation",
+  "summary": "Siege of Kyiv (968 CE), at Kyiv (part of Rus'-Pecheneg Wars). Source: Wikidata Q2503056.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "pecheneg_confederation"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

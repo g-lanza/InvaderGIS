@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_kingdom_of_galicia_1230_c01",
+  "statement": "The union of Castile and León in 1230 under Ferdinand III permanently incorporated Galicia as a province rather than a kingdom.",
+  "subject_ids": [
+    "kingdom_of_galicia"
+  ],
+  "period": {
+    "from": 1230,
+    "to": 1230
+  },
+  "derived_from": "kingdom_of_galicia_1230",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

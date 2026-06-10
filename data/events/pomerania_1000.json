@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "pomerania_1000",
+  "name": "Pomeranian Tribes Resist Polish Expansion",
+  "year": 1000,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    52.924,
+    15.369
+  ],
+  "entity": "pomerania",
+  "summary": "The Pomeranian Slavic tribes along the southern Baltic coast resisted both Polish and German attempts at conquest and Christianisation around 1000 CE. Their strategic position controlling Baltic trade routes made Pomerania a target for the expanding Christian kingdoms to east and west.",
+  "outcomes": [
+    "slavic_independence",
+    "christianisation_resisted",
+    "baltic_coast_contested"
+  ],
+  "_quarry": {
+    "participants": [
+      "pomerania",
+      "kingdom_of_poland_piast"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

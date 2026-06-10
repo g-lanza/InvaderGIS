@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "navarre_1076",
+  "name": "Navarre Partitioned Between Aragon and Castile",
+  "year": 1076,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.8333,
+    -1.7
+  ],
+  "entity": "kingdom_of_navarre",
+  "summary": "Following the murder of King Sancho IV in 1076, Navarre was temporarily partitioned between Aragon and Castile. Though the kingdom survived, this partition weakened Navarrese power and began a long period of vulnerability between its stronger neighbours.",
+  "outcomes": [
+    "navarre_weakened",
+    "aragon_gains_territory",
+    "pyrenean_balance_shifts"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_navarre",
+      "crown_of_aragon",
+      "kingdom_of_castile"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

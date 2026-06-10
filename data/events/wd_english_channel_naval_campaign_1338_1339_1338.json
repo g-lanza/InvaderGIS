@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_english_channel_naval_campaign_1338_1339_1338",
+  "name": "English Channel naval campaign, 1338-1339",
+  "year": 1338,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    50,
+    1.7333
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "English Channel naval campaign, 1338-1339 (1338 CE), at English Channel (part of Hundred Years' War). Source: Wikidata Q1484069.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "county_of_flanders",
+      "kingdom_of_england"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_malacky_1206",
+  "name": "Malacky",
+  "importance": "city",
+  "start_year": 1206,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q837464"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    17.0236,
+    48.4381
+  ]
+}

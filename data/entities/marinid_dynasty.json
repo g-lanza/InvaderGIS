@@ -1,0 +1,577 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "marinid_dynasty",
+  "name_primary": "Marinid Dynasty",
+  "name_variants": [
+    "Marinids",
+    "Banu Marin",
+    "Merinid Sultanate"
+  ],
+  "type": "sultanate",
+  "region": "north_africa",
+  "formed": 1244,
+  "dissolved": 1465,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    33.9,
+    -5.5
+  ],
+  "religion": "islam",
+  "population_estimates": [
+    {
+      "year": 1250,
+      "estimate": 3000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q582861",
+          "url": "https://www.wikidata.org/wiki/Q582861",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Marinid Dynasty",
+          "url": "https://en.wikipedia.org/wiki/Marinid_dynasty"
+        }
+      ]
+    },
+    {
+      "year": 1325,
+      "estimate": 4500000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q582861",
+          "url": "https://www.wikidata.org/wiki/Q582861",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Marinid Dynasty",
+          "url": "https://en.wikipedia.org/wiki/Marinid_dynasty"
+        }
+      ]
+    },
+    {
+      "year": 1400,
+      "estimate": 3000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q582861",
+          "url": "https://www.wikidata.org/wiki/Q582861",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Marinid Dynasty",
+          "url": "https://en.wikipedia.org/wiki/Marinid_dynasty"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "abun-nasr_a_1987",
+      "messier_the_2010"
+    ],
+    "confidence": "low"
+  },
+  "description": "Berber Marinid sultanate of Morocco (1244–1465) that succeeded the Almohads; controlled Morocco and periodically intervened in Iberia to support the Granada emirate against Castile; major patrons of Islamic architecture including the Bou Inania madrasas; weakened by internal succession conflicts and Iberian pressure.",
+  "temporal": {
+    "start_year": 1244,
+    "end_year": 1465,
+    "notes": "Founded by Abu Yahya ibn Abd al-Haqq; dominated Morocco through 14th century; last Marinid sultan deposed 1465 by Wattasids"
+  },
+  "geographic": {
+    "representation": "approximate",
+    "centroid": [
+      33.9,
+      -5.5
+    ],
+    "core_regions": [
+      "Morocco",
+      "Fez",
+      "Marrakesh",
+      "Ceuta",
+      "portions of Algeria"
+    ],
+    "polygon_simplified": [
+      [
+        [
+          27.5,
+          -6.5
+        ],
+        [
+          27.5,
+          -3.75
+        ],
+        [
+          27.5,
+          -1
+        ],
+        [
+          31.75,
+          -1
+        ],
+        [
+          36,
+          -1
+        ],
+        [
+          36,
+          -3.75
+        ],
+        [
+          36,
+          -6.5
+        ],
+        [
+          31.75,
+          -6.5
+        ],
+        [
+          27.5,
+          -6.5
+        ]
+      ]
+    ],
+    "capital": {
+      "name": "Fez",
+      "coords": [
+        34.04333,
+        -5.00333
+      ],
+      "source": "wikidata"
+    }
+  },
+  "internal_structure": {
+    "governance_type": "military_monarchy",
+    "legitimacy_basis": [
+      "military_conquest",
+      "religious_authority"
+    ],
+    "centralization": "centralized"
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "conquest_of_morocco",
+      "years": "1244–1269",
+      "description": "Marinids defeat the Almohads and seize Marrakesh (1269), establishing control over Morocco; tribal Zenata Berber warriors form the military core",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q582861",
+          "url": "https://www.wikidata.org/wiki/Q582861"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Marinid Dynasty",
+          "url": "https://en.wikipedia.org/wiki/Marinid_dynasty"
+        }
+      ]
+    },
+    {
+      "phase": "zenith_and_iberian_intervention",
+      "years": "1269–1358",
+      "description": "Abu Yusuf Ya'qub captures Fez (1248) and builds New Fez; repeatedly intervenes in al-Andalus to defend Granada; defeated at Rio Salado (1340) by combined Castilian-Portuguese forces; massive building program of madrasas, mosques, and city walls",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q582861",
+          "url": "https://www.wikidata.org/wiki/Q582861"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Marinid Dynasty",
+          "url": "https://en.wikipedia.org/wiki/Marinid_dynasty"
+        }
+      ]
+    },
+    {
+      "phase": "decline",
+      "years": "1358–1465",
+      "description": "Fragmentation into rival Marinid branches; Wattasid viziers gain effective power; final Marinid sultan overthrown 1465",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q582861",
+          "url": "https://www.wikidata.org/wiki/Q582861"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Marinid Dynasty",
+          "url": "https://en.wikipedia.org/wiki/Marinid_dynasty"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "almohad_collapse",
+      "layer": "external_political",
+      "description": "The Almohad Caliphate's military defeats in Iberia and internal religious schisms left Morocco ungoverned; the Marinids filled the vacuum with disciplined Zenata Berber cavalry",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q582861",
+          "url": "https://www.wikidata.org/wiki/Q582861"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Marinid Dynasty",
+          "url": "https://en.wikipedia.org/wiki/Marinid_dynasty"
+        }
+      ]
+    },
+    {
+      "tag": "trade_route_control",
+      "layer": "economic_commercial",
+      "description": "Morocco's position at the northern terminus of trans-Saharan gold and slave routes gave the Marinids revenues that funded their building program and military campaigns",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q582861",
+          "url": "https://www.wikidata.org/wiki/Q582861"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Marinid Dynasty",
+          "url": "https://en.wikipedia.org/wiki/Marinid_dynasty"
+        }
+      ],
+      "tag_prose": "saharan_trade_control"
+    },
+    {
+      "tag": "religious_legitimacy",
+      "layer": "ideology_religion",
+      "description": "Marinid sultans built madrasas at Fez, Salé, and Meknes, positioning themselves as champions of Sunni Maliki scholarship and attracting scholars from across the Islamic world including Ibn Khaldun",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q582861",
+          "url": "https://www.wikidata.org/wiki/Q582861"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Marinid Dynasty",
+          "url": "https://en.wikipedia.org/wiki/Marinid_dynasty"
+        }
+      ],
+      "tag_prose": "religious_patronage"
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "rio_salado_defeat",
+      "layer": "military_security",
+      "description": "The crushing defeat at Rio Salado (1340) ended Marinid ambitions in Iberia and undermined the sultans' prestige as defenders of Islam against the Reconquista",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q582861",
+          "url": "https://www.wikidata.org/wiki/Q582861"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Marinid Dynasty",
+          "url": "https://en.wikipedia.org/wiki/Marinid_dynasty"
+        }
+      ]
+    },
+    {
+      "tag": "succession_crisis",
+      "layer": "dynastic_legitimacy",
+      "description": "Repeated succession conflicts between Marinid princes depopulated cities, emptied treasuries, and allowed Wattasid viziers to dominate the sultanate",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q582861",
+          "url": "https://www.wikidata.org/wiki/Q582861"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Marinid Dynasty",
+          "url": "https://en.wikipedia.org/wiki/Marinid_dynasty"
+        }
+      ],
+      "tag_prose": "succession_wars"
+    },
+    {
+      "tag": "epidemic_demographic",
+      "layer": "population_environment",
+      "description": "The plague struck Morocco in the 1340s, described vividly by Ibn Khaldun; it killed large portions of the urban and military population on which Marinid power rested",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q582861",
+          "url": "https://www.wikidata.org/wiki/Q582861"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Marinid Dynasty",
+          "url": "https://en.wikipedia.org/wiki/Marinid_dynasty"
+        }
+      ],
+      "tag_prose": "black_death"
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Abu Yahya ibn Abd al-Haqq",
+      "role": "dynastic_founder",
+      "years": "?–1258",
+      "year_start": null,
+      "year_end": 1258,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Abu Yahya ibn Abd al-Haqq",
+          "url": "https://en.wikipedia.org/wiki/Abu_Yahya_ibn_Abd_al-Haqq"
+        }
+      ]
+    },
+    {
+      "name": "Abu Yusuf Ya'qub",
+      "role": "ruler",
+      "years": "1258–1286",
+      "year_start": 1258,
+      "year_end": 1286,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Abu Yusuf Ya'qub",
+          "url": "https://en.wikipedia.org/wiki/Abu_Yusuf"
+        }
+      ]
+    },
+    {
+      "name": "Abu al-Hasan Ali",
+      "role": "ruler",
+      "years": "1331–1351",
+      "year_start": 1331,
+      "year_end": 1351,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Abu al-Hasan Ali",
+          "url": "https://en.wikipedia.org/wiki/Abu_al-Hasan_Ali"
+        }
+      ]
+    },
+    {
+      "name": "Ibn Khaldun",
+      "role": "scholar",
+      "years": "1332–1406",
+      "year_start": 1332,
+      "year_end": 1406,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Ibn Khaldun",
+          "url": "https://en.wikipedia.org/wiki/Ibn_Khaldun"
+        }
+      ]
+    }
+  ],
+  "predecessor_entity_ids": [
+    "almohad_caliphate_iberia"
+  ],
+  "primary_ethnicity": "berber_north_african",
+  "ethnic_composition": [
+    {
+      "group": "berber_north_african",
+      "proportion": 0.72
+    },
+    {
+      "group": "arab",
+      "proportion": 0.2
+    },
+    {
+      "group": "iberian",
+      "proportion": 0.05
+    },
+    {
+      "group": "other",
+      "proportion": 0.03
+    }
+  ],
+  "religion_composition": [
+    {
+      "religion": "islam",
+      "proportion": 0.94
+    },
+    {
+      "religion": "jewish",
+      "proportion": 0.04
+    },
+    {
+      "religion": "catholic",
+      "proportion": 0.02
+    }
+  ],
+  "primary_language": "arabic",
+  "language_composition": [
+    {
+      "language": "arabic",
+      "proportion": 0.5,
+      "role": "administrative"
+    },
+    {
+      "language": "berber_lang",
+      "proportion": 0.42,
+      "role": "vernacular"
+    },
+    {
+      "language": "latin",
+      "proportion": 0.05,
+      "role": "regional"
+    },
+    {
+      "language": "ibero_romance",
+      "proportion": 0.03,
+      "role": "regional"
+    }
+  ],
+  "economic": {
+    "primary_base": "long_distance_trade",
+    "secondary_bases": [
+      "agriculture",
+      "tribute"
+    ],
+    "wealth_level": "high",
+    "major_exports": [
+      "gold",
+      "salt",
+      "slaves",
+      "leather",
+      "textiles"
+    ],
+    "major_trade_partners": [
+      "emirate_of_granada",
+      "caliphate_of_cordoba",
+      "hafsid_sultanate",
+      "republic_of_genoa"
+    ],
+    "revenue_sources": [
+      "customs_duties",
+      "land_tax",
+      "tribute"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q582861",
+        "url": "https://www.wikidata.org/wiki/Q582861"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Marinid Dynasty",
+        "url": "https://en.wikipedia.org/wiki/Marinid_dynasty"
+      }
+    ]
+  },
+  "social_structure": {
+    "ruling_ethnicity": "berber_north_african",
+    "subject_majority": "berber_north_african",
+    "military_ethnicity": "berber_north_african",
+    "administrative_language": "arabic",
+    "stratification_type": "dynastic_multiethnic"
+  },
+  "wikidata_enrichment": {
+    "qid": "Q582861",
+    "matched_name": "manual/marinid_dynasty",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Marinid_dynasty",
+    "capital": {
+      "name": "Fez",
+      "coords": [
+        34.04333,
+        -5.00333
+      ]
+    },
+    "rulers_from_wikidata": [
+      {
+        "name": "Alubebe, alguazil-mor do rei de Fez",
+        "qid": "Q106622405",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q106622405",
+            "url": "https://www.wikidata.org/wiki/Q106622405"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Alubebe, alguazil-mor do rei de Fez",
+            "url": "https://en.wikipedia.org/wiki/Alubebe,_alguazil-mor_do_rei_de_Fez"
+          }
+        ]
+      },
+      {
+        "name": "Cabeceira de Laaroz",
+        "qid": "Q106622612",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q106622612",
+            "url": "https://www.wikidata.org/wiki/Q106622612"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Cabeceira de Laaroz",
+            "url": "https://en.wikipedia.org/wiki/Cabeceira_de_Laaroz"
+          }
+        ]
+      },
+      {
+        "name": "Caçomebemcane",
+        "qid": "Q106582577",
+        "year_start": null,
+        "year_end": 1415,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q106582577",
+            "url": "https://www.wikidata.org/wiki/Q106582577"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Caçomebemcane",
+            "url": "https://en.wikipedia.org/wiki/Caçomebemcane"
+          }
+        ]
+      }
+    ],
+    "predecessors_from_wikidata": [
+      "Almohad Caliphate"
+    ]
+  },
+  "sources": [
+    {
+      "type": "book",
+      "author": "Abun-Nasr, Jamil",
+      "title": "A History of the Maghrib in the Islamic Period",
+      "publisher": "Cambridge University Press",
+      "year": 1987
+    },
+    {
+      "type": "book",
+      "author": "Messier, Ronald A.",
+      "title": "The Almoravids and the Meanings of Jihad",
+      "publisher": "Praeger",
+      "year": 2010
+    }
+  ],
+  "monogram": "MD"
+}

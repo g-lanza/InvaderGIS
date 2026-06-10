@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_university_of_vienna_1365_c02",
+  "statement": "Pope Urban V's confirmation of the University of Vienna followed in 1384.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1365,
+    "to": 1365
+  },
+  "derived_from": "university_of_vienna_1365",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "bartlett_making_of_europe_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

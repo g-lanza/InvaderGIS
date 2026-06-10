@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "principality_of_tver",
+  "name": "Tver",
+  "entity_id": "principality_of_tver",
+  "entity_name": "Principality of Tver",
+  "start_year": 1246,
+  "end_year": 1485,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q163268"
+    }
+  },
+  "coords": [
+    35.92193,
+    56.85783
+  ]
+}

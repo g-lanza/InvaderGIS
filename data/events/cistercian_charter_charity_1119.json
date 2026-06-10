@@ -1,0 +1,31 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "cistercian_charter_charity_1119",
+  "name": "Cistercian Charter of Charity",
+  "year": 1119,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    47.1273,
+    4.9786
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Stephen Harding, abbot of Cîteaux, drafts the Carta Caritatis (approved by Callixtus II in 1119), the constitutional document binding all Cistercian houses into a single legal order with annual general chapters, mutual visitation, and a uniform observance of the Rule of Benedict.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france"
+    ],
+    "structural_significance": "First medieval religious order with a centralised constitutional structure; the Cistercian model directly influences the constitutional design of the later Dominican and Franciscan orders.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lawrence_medieval_monasticism_2001",
+      "constable_reformation_twelfth_century_1996"
+    ],
+    "confidence": "low"
+  }
+}

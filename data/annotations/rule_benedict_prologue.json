@@ -1,0 +1,29 @@
+{
+  "id": "rule_benedict_prologue",
+  "kind": "annotation",
+  "dataset": "medieval",
+  "target_id": "rule_of_saint_benedict",
+  "target_kind": "text",
+  "anchor": {
+    "quote": "We are about to found a school for the Lord's service. In drawing up its regulations, we hope to set down nothing harsh, nothing burdensome.",
+    "locator": "Prologue"
+  },
+  "body": "The founding charter of Western cenobitic monasticism. The 'school for the Lord's service' framing shaped the rhythm of labour, prayer, and stability (the vow not to wander) across Latin Christendom for a thousand years.",
+  "links_to": [
+    "papal_states"
+  ],
+  "tags": [
+    "monasticism",
+    "religion",
+    "rule",
+    "labour"
+  ],
+  "provenance": {
+    "status": "draft",
+    "confidence": "high",
+    "attestation": "strong",
+    "sources_used": [
+      "rule_of_saint_benedict"
+    ]
+  }
+}

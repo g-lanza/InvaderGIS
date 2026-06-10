@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_council_nicaea_ii_787_c01",
+  "statement": "The Second Council of Nicaea in 787, convened by Empress Irene, resolved the First Iconoclast Controversy by defining the veneration of icons as legitimate.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 787,
+    "to": 787
+  },
+  "derived_from": "council_nicaea_ii_787",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

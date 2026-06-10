@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "liao_sixteen_prefectures_938",
+  "name": "Liao Receives the Sixteen Prefectures from Later Jin",
+  "year": 938,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    40.696,
+    121.971
+  ],
+  "entity": "liao",
+  "summary": "The Later Jin Dynasty ceded the Sixteen Prefectures (including Beijing) to the Liao in exchange for military support. This gave the Liao control over the Great Wall frontier zone and transformed them from steppe raiders to a major Chinese power.",
+  "outcomes": [
+    "northern_china_border",
+    "liao_china_access",
+    "strategic_control"
+  ],
+  "_quarry": {
+    "participants": [
+      "liao"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

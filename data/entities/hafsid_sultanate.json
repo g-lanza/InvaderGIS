@@ -1,0 +1,744 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "hafsid_sultanate",
+  "name_primary": "Hafsid Sultanate",
+  "name_variants": [
+    "Hafsid Caliphate",
+    "Banu Hafs",
+    "Kingdom of Tunis"
+  ],
+  "type": "sultanate",
+  "region": "north_africa",
+  "formed": 1229,
+  "dissolved": 1574,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    33.7743,
+    7.1075
+  ],
+  "religion": "islam",
+  "population_estimates": [
+    {
+      "year": 1250,
+      "estimate": 2000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q752662",
+          "url": "https://www.wikidata.org/wiki/Q752662",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Hafsid Sultanate",
+          "url": "https://en.wikipedia.org/wiki/Hafsid_dynasty"
+        }
+      ]
+    },
+    {
+      "year": 1330,
+      "estimate": 3000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q752662",
+          "url": "https://www.wikidata.org/wiki/Q752662",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Hafsid Sultanate",
+          "url": "https://en.wikipedia.org/wiki/Hafsid_dynasty"
+        }
+      ]
+    },
+    {
+      "year": 1450,
+      "estimate": 2000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q752662",
+          "url": "https://www.wikidata.org/wiki/Q752662",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Hafsid Sultanate",
+          "url": "https://en.wikipedia.org/wiki/Hafsid_dynasty"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "abun-nasr_a_1987",
+      "khaldun_the_1958"
+    ],
+    "confidence": "low"
+  },
+  "description": "Berber Hafsid sultanate of Tunisia and eastern Algeria (1229–1574) and successor to the Almohad Caliphate in North Africa; one of the major powers of the central Mediterranean; hosted Ibn Khaldun; dominated the trans-Saharan trade routes; ended by Ottoman conquest under Sinan Pasha (1574).",
+  "temporal": {
+    "start_year": 1229,
+    "end_year": 1574,
+    "notes": "Founded by Abu Zakariya Yahya as Almohad governor breaking away from Marrakesh; briefly claimed caliphal title 1229; Ottoman province after 1574"
+  },
+  "geographic": {
+    "centroid": [
+      33.7743,
+      7.1075
+    ],
+    "core_regions": [
+      "Tunisia",
+      "Eastern Algeria",
+      "Tripolitania",
+      "portions of Libya"
+    ],
+    "polygon_simplified": [
+      [
+        [
+          32.7326,
+          6.5029
+        ],
+        [
+          32.6687,
+          2.4531
+        ],
+        [
+          32.4272,
+          -1.8022
+        ],
+        [
+          33.2578,
+          -1.6811
+        ],
+        [
+          34.2051,
+          -1.664
+        ],
+        [
+          34.7,
+          -1.8233
+        ],
+        [
+          35.0542,
+          -2.193
+        ],
+        [
+          35.1188,
+          -1.7383
+        ],
+        [
+          35.4889,
+          -1.3291
+        ],
+        [
+          35.668,
+          -0.9175
+        ],
+        [
+          35.8601,
+          -0.4288
+        ],
+        [
+          35.7507,
+          -0.2037
+        ],
+        [
+          35.8037,
+          0.0153
+        ],
+        [
+          36.225,
+          0.4744
+        ],
+        [
+          36.4619,
+          1.0576
+        ],
+        [
+          36.5408,
+          2.2938
+        ],
+        [
+          36.7139,
+          2.8099
+        ],
+        [
+          36.6512,
+          3.3238
+        ],
+        [
+          36.8369,
+          3.7412
+        ],
+        [
+          36.8382,
+          4.3946
+        ],
+        [
+          36.7941,
+          4.6321
+        ],
+        [
+          36.6677,
+          5.1445
+        ],
+        [
+          36.7517,
+          5.7302
+        ],
+        [
+          37.0906,
+          6.3229
+        ],
+        [
+          36.8178,
+          6.923
+        ],
+        [
+          36.9905,
+          7.2049
+        ],
+        [
+          37.0421,
+          7.5449
+        ],
+        [
+          36.8324,
+          7.792
+        ],
+        [
+          36.8139,
+          8.145
+        ],
+        [
+          36.9684,
+          8.8655
+        ],
+        [
+          37.2754,
+          9.4161
+        ],
+        [
+          37.2001,
+          10.0214
+        ],
+        [
+          36.9965,
+          10.1589
+        ],
+        [
+          36.7166,
+          10.3928
+        ],
+        [
+          36.9915,
+          10.8433
+        ],
+        [
+          36.909,
+          11.0394
+        ],
+        [
+          36.424,
+          10.6334
+        ],
+        [
+          36.0862,
+          10.5115
+        ],
+        [
+          35.6793,
+          10.8308
+        ],
+        [
+          35.2406,
+          11.1251
+        ],
+        [
+          34.8012,
+          10.8394
+        ],
+        [
+          34.2342,
+          10.1164
+        ],
+        [
+          33.8784,
+          10.1487
+        ],
+        [
+          33.4982,
+          10.6502
+        ],
+        [
+          33.5751,
+          10.9565
+        ],
+        [
+          33.2515,
+          11.2089
+        ],
+        [
+          32.8785,
+          12.117
+        ],
+        [
+          32.7338,
+          12.7989
+        ],
+        [
+          32.7796,
+          13.4588
+        ],
+        [
+          32.4639,
+          14.4334
+        ],
+        [
+          32.3634,
+          15.0098
+        ],
+        [
+          32.1733,
+          15.2414
+        ],
+        [
+          31.5512,
+          15.5334
+        ],
+        [
+          31.2282,
+          16.0134
+        ],
+        [
+          31.1281,
+          16.7825
+        ],
+        [
+          30.996,
+          17.4216
+        ],
+        [
+          30.7684,
+          17.9572
+        ],
+        [
+          28.751,
+          17.002
+        ],
+        [
+          31.5713,
+          10.5432
+        ],
+        [
+          32.7326,
+          6.5029
+        ]
+      ]
+    ],
+    "capital": {
+      "name": "Tunis",
+      "coords": [
+        36.80083,
+        10.18
+      ],
+      "source": "wikidata"
+    }
+  },
+  "internal_structure": {
+    "governance_type": "military_monarchy",
+    "legitimacy_basis": [
+      "religious_authority",
+      "dynastic_lineage"
+    ],
+    "centralization": "centralized"
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "establishment",
+      "years": "1229–1277",
+      "description": "Abu Zakariya breaks from the Almohads; his son al-Mustansir briefly claims the title of caliph (1229) after the Almohad retreat; Hafsids establish Tunis as a major Mediterranean port and Islamic cultural center",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q752662",
+          "url": "https://www.wikidata.org/wiki/Q752662"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Hafsid Sultanate",
+          "url": "https://en.wikipedia.org/wiki/Hafsid_dynasty"
+        }
+      ]
+    },
+    {
+      "phase": "zenith",
+      "years": "1277–1370",
+      "description": "Height of Hafsid power; Tunis becomes a major Mediterranean trading city competing with Venice and Genoa; Ibn Khaldun serves as court historian; significant trans-Saharan gold trade; repels Aragonese crusading expeditions",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q752662",
+          "url": "https://www.wikidata.org/wiki/Q752662"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Hafsid Sultanate",
+          "url": "https://en.wikipedia.org/wiki/Hafsid_dynasty"
+        }
+      ]
+    },
+    {
+      "phase": "decline_and_ottoman_absorption",
+      "years": "1370–1574",
+      "description": "Marinid and internal succession pressures weaken the sultanate; Spanish Habsburg forces briefly occupy Tunis (1535); Ottoman naval power dominates the Mediterranean; Sinan Pasha conquers Tunisia 1574",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q752662",
+          "url": "https://www.wikidata.org/wiki/Q752662"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Hafsid Sultanate",
+          "url": "https://en.wikipedia.org/wiki/Hafsid_dynasty"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "almohad_succession",
+      "layer": "external_political",
+      "description": "As governors of Ifriqiya under the Almohads, the Hafsids inherited a functioning administrative apparatus, tax base, and military when Almohad central power collapsed",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q752662",
+          "url": "https://www.wikidata.org/wiki/Q752662"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Hafsid Sultanate",
+          "url": "https://en.wikipedia.org/wiki/Hafsid_dynasty"
+        }
+      ]
+    },
+    {
+      "tag": "trade_route_control",
+      "layer": "economic_commercial",
+      "description": "Tunisia's position as the natural crossroads of the central Mediterranean, equidistant from Sicily, Sardinia, and Egypt, made Tunis a major entrepôt for Italian, Spanish, and sub-Saharan merchants",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q752662",
+          "url": "https://www.wikidata.org/wiki/Q752662"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Hafsid Sultanate",
+          "url": "https://en.wikipedia.org/wiki/Hafsid_dynasty"
+        }
+      ],
+      "tag_prose": "tunisian_trade_position"
+    },
+    {
+      "tag": "caliphal_claim",
+      "layer": "ideology_religion",
+      "description": "After the Mongol destruction of Baghdad (1258), the Hafsids briefly claimed the caliphate, attracting scholars and giving them prestige across the Sunni world",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q752662",
+          "url": "https://www.wikidata.org/wiki/Q752662"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Hafsid Sultanate",
+          "url": "https://en.wikipedia.org/wiki/Hafsid_dynasty"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "iberian_pressure",
+      "layer": "military_security",
+      "description": "Spanish Habsburg forces under Charles V captured Tunis (1535), installing a Spanish client; though the Hafsids were nominally restored, the sultanate became dependent on external powers",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q752662",
+          "url": "https://www.wikidata.org/wiki/Q752662"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Hafsid Sultanate",
+          "url": "https://en.wikipedia.org/wiki/Hafsid_dynasty"
+        }
+      ]
+    },
+    {
+      "tag": "external_military_pressure",
+      "layer": "external_political",
+      "description": "Ottoman naval supremacy in the Mediterranean following Lepanto (1571) made North African states difficult to defend; the Ottomans incorporated Tunisia as a province rather than tolerating an independent sultanate",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q752662",
+          "url": "https://www.wikidata.org/wiki/Q752662"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Hafsid Sultanate",
+          "url": "https://en.wikipedia.org/wiki/Hafsid_dynasty"
+        }
+      ],
+      "tag_prose": "ottoman_expansion"
+    },
+    {
+      "tag": "succession_crisis",
+      "layer": "dynastic_legitimacy",
+      "description": "Repeated succession wars between Hafsid princes, often involving Aragonese or Marinid interference, prevented stable governance and weakened the dynasty over its final century",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q752662",
+          "url": "https://www.wikidata.org/wiki/Q752662"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Hafsid Sultanate",
+          "url": "https://en.wikipedia.org/wiki/Hafsid_dynasty"
+        }
+      ],
+      "tag_prose": "succession_conflicts"
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Abu Zakariya Yahya",
+      "role": "dynastic_founder",
+      "years": "?–1249",
+      "year_start": null,
+      "year_end": 1249,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Abu Zakariya Yahya",
+          "url": "https://en.wikipedia.org/wiki/Abu_Zakariya_Yahya"
+        }
+      ]
+    },
+    {
+      "name": "Abu Abdallah al-Mustansir",
+      "role": "ruler",
+      "years": "1249–1277",
+      "year_start": 1249,
+      "year_end": 1277,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Abu Abdallah al-Mustansir",
+          "url": "https://en.wikipedia.org/wiki/Abu_Abdallah_al-Mustansir"
+        }
+      ]
+    },
+    {
+      "name": "Ibn Khaldun",
+      "role": "scholar",
+      "years": "1332–1406",
+      "year_start": 1332,
+      "year_end": 1406,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Ibn Khaldun",
+          "url": "https://en.wikipedia.org/wiki/Ibn_Khaldun"
+        }
+      ]
+    },
+    {
+      "name": "Abu Faris Abdul Aziz",
+      "role": "ruler",
+      "years": "1394–1434",
+      "year_start": 1394,
+      "year_end": 1434,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Abu Faris Abdul Aziz",
+          "url": "https://en.wikipedia.org/wiki/Abu_Faris_Abd_al-Aziz_I"
+        }
+      ]
+    }
+  ],
+  "predecessor_entity_ids": [
+    "almohad_caliphate_iberia"
+  ],
+  "primary_ethnicity": "berber_north_african",
+  "ethnic_composition": [
+    {
+      "group": "berber_north_african",
+      "proportion": 0.68
+    },
+    {
+      "group": "arab",
+      "proportion": 0.24
+    },
+    {
+      "group": "italian_roman",
+      "proportion": 0.04
+    },
+    {
+      "group": "other",
+      "proportion": 0.04
+    }
+  ],
+  "religion_composition": [
+    {
+      "religion": "islam",
+      "proportion": 0.94
+    },
+    {
+      "religion": "jewish",
+      "proportion": 0.04
+    },
+    {
+      "religion": "catholic",
+      "proportion": 0.02
+    }
+  ],
+  "primary_language": "arabic",
+  "language_composition": [
+    {
+      "language": "arabic",
+      "proportion": 0.55,
+      "role": "administrative"
+    },
+    {
+      "language": "berber_lang",
+      "proportion": 0.36,
+      "role": "vernacular"
+    },
+    {
+      "language": "italian_lang",
+      "proportion": 0.05,
+      "role": "regional"
+    },
+    {
+      "language": "latin",
+      "proportion": 0.04,
+      "role": "regional"
+    }
+  ],
+  "economic": {
+    "primary_base": "long_distance_trade",
+    "secondary_bases": [
+      "agriculture",
+      "maritime_trade",
+      "tribute"
+    ],
+    "wealth_level": "high",
+    "major_exports": [
+      "gold",
+      "slaves",
+      "olive_oil",
+      "grain",
+      "leather",
+      "wool"
+    ],
+    "major_trade_partners": [
+      "republic_of_venice",
+      "republic_of_genoa",
+      "marinid_dynasty",
+      "mamluk_sultanate"
+    ],
+    "revenue_sources": [
+      "customs_duties",
+      "land_tax",
+      "tribute"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q752662",
+        "url": "https://www.wikidata.org/wiki/Q752662"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Hafsid Sultanate",
+        "url": "https://en.wikipedia.org/wiki/Hafsid_dynasty"
+      }
+    ]
+  },
+  "social_structure": {
+    "ruling_ethnicity": "berber_north_african",
+    "subject_majority": "berber_north_african",
+    "military_ethnicity": "berber_north_african",
+    "administrative_language": "arabic",
+    "stratification_type": "dynastic_multiethnic"
+  },
+  "wikidata_enrichment": {
+    "qid": "Q752662",
+    "matched_name": "manual/hafsid_sultanate",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hafsid_dynasty",
+    "capital": {
+      "name": "Tunis",
+      "coords": [
+        36.80083,
+        10.18
+      ]
+    },
+    "rulers_from_wikidata": [
+      {
+        "name": "Mulay Hassan",
+        "qid": "Q2822168",
+        "year_start": 1526,
+        "year_end": 1543,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2822168",
+            "url": "https://www.wikidata.org/wiki/Q2822168"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mulay Hassan",
+            "url": "https://en.wikipedia.org/wiki/Mulay_Hassan"
+          }
+        ]
+      }
+    ],
+    "predecessors_from_wikidata": [
+      "Almohad Caliphate"
+    ]
+  },
+  "sources": [
+    {
+      "type": "book",
+      "author": "Abun-Nasr, Jamil",
+      "title": "A History of the Maghrib in the Islamic Period",
+      "publisher": "Cambridge University Press",
+      "year": 1987
+    },
+    {
+      "type": "book",
+      "author": "Ibn Khaldun",
+      "title": "The Muqaddimah",
+      "publisher": "Princeton University Press",
+      "year": 1958
+    }
+  ],
+  "monogram": "HS"
+}

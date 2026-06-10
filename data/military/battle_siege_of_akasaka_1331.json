@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_siege_of_akasaka_1331",
+  "name": "Siege of Akasaka",
+  "subtype": "battle",
+  "start_year": 1331,
+  "end_year": 1331,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q7509791"
+    }
+  },
+  "description": "Battle during Genkō War (1331)",
+  "coords": [
+    135.6186,
+    34.4597
+  ]
+}

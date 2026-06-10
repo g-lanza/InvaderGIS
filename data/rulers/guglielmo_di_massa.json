@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "guglielmo_di_massa",
+  "name": "Guglielmo di Massa",
+  "polity": "judicate_of_cagliari",
+  "title": "ruler",
+  "reign_start": 1214,
+  "reign_end": null,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "judicate_of_cagliari",
+        "role": "ruler",
+        "start_year": 1214,
+        "end_year": null
+      }
+    ],
+    "key_actions": [],
+    "region": "italy",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

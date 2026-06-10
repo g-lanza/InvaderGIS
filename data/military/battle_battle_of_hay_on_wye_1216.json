@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_hay_on_wye_1216",
+  "name": "Battle of Hay on Wye",
+  "subtype": "battle",
+  "start_year": 1216,
+  "end_year": 1216,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q61078881"
+    }
+  },
+  "description": "Battle during Norman Invasion of Wales (1216)",
+  "coords": [
+    -3.1314,
+    52.0758
+  ]
+}

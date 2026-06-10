@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_lipnic_1470",
+  "name": "Battle of Lipnic",
+  "year": 1470,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    47.85,
+    36.25
+  ],
+  "entity": "golden_horde",
+  "summary": "Battle of Lipnic (1470 CE), at Lipnic (part of Moldavian–Horde Wars). Source: Wikidata Q838813.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "golden_horde",
+      "principality_of_moldavia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "allsen_mongol_1987"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

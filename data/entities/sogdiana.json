@@ -1,0 +1,270 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "sogdiana",
+  "name_primary": "Sogdiana",
+  "name_variants": [
+    "Sogd",
+    "Suγδ",
+    "Sogdian city-states"
+  ],
+  "type": "city_state_federation",
+  "region": "central_asia",
+  "formed": 500,
+  "dissolved": 850,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    39.65,
+    66.96
+  ],
+  "religion": "Zoroastrianism, with significant Buddhist, Manichaean, and Nestorian Christian minorities",
+  "population_estimates": [
+    {
+      "year": 700,
+      "estimate": 800000,
+      "confidence": "low",
+      "note": "Combined Sogdian cities at federation peak."
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Sogdiana was a federation of Iranian-speaking city-states across modern Uzbekistan and western Tajikistan, Samarkand, Bukhara, Panjikent, Varakhsha, whose merchants dominated the overland Silk Road from roughly the 5th through 8th centuries CE. Sogdian trading colonies stretched from Chang'an in Tang China to the Crimea and the Indus Valley, and the Sogdian language served as the lingua franca of long-distance Central Asian commerce. Sogdiana was never a unified empire; instead, principal cities operated as city-states under a paramount king (ikhshid) at Samarkand. The region was conquered by the Arab Umayyad armies under Qutayba ibn Muslim (706–715), and gradually Islamicized over the following century, though Sogdian merchants survived as Muslim-converted intermediaries serving the Tang, Uyghur, and later Samanid courts.",
+  "temporal": {
+    "start_year": 500,
+    "end_year": 850,
+    "end_year_within_scope": 850,
+    "start_event_id": null,
+    "end_event_id": null,
+    "notes": ""
+  },
+  "geographic": {
+    "representation": "schematic_approximation",
+    "centroid": [
+      39.65,
+      66.96
+    ],
+    "core_regions": [],
+    "polygon_simplified": [
+      [
+        42,
+        63
+      ],
+      [
+        42.5,
+        68
+      ],
+      [
+        42,
+        71
+      ],
+      [
+        40,
+        72
+      ],
+      [
+        38,
+        70
+      ],
+      [
+        37.5,
+        67
+      ],
+      [
+        37.5,
+        64
+      ],
+      [
+        39,
+        62.5
+      ],
+      [
+        40.5,
+        62.5
+      ],
+      [
+        42,
+        63
+      ]
+    ],
+    "capital": {
+      "name": "Samarkand",
+      "coords": [
+        39.65,
+        66.96
+      ],
+      "source": "curated"
+    }
+  },
+  "internal_structure": {
+    "centralization": "low",
+    "governance_type": "city_state_federation",
+    "legitimacy_basis": "merchant-aristocratic council (Dihqans) with paramount ikhshid at Samarkand",
+    "administrative_system": "each city autonomous under its own ruler; loose federation"
+  },
+  "lifecycle_phases": [
+    {
+      "start_year": 500,
+      "end_year": 706,
+      "description": "City-states under Samarkand's paramountcy dominate Silk Road brokerage.",
+      "phase": "federation_period"
+    },
+    {
+      "start_year": 706,
+      "end_year": 740,
+      "description": "Arab Umayyad armies subdue cities individually; Devashtich revolt fails.",
+      "phase": "conquest_resistance"
+    },
+    {
+      "start_year": 740,
+      "end_year": 850,
+      "description": "Conversion to Islam; merchants continue but as Samanid subjects.",
+      "phase": "absorption"
+    }
+  ],
+  "rise_factors": [
+    {
+      "layer": "economic_commercial",
+      "direction": "rise",
+      "tag": "trade_route_control",
+      "description": "Sogdian merchants brokered virtually all overland trade between Tang China and the Near East.",
+      "evidence_strength": "medium",
+      "sources": [],
+      "tag_prose": "silk_road_brokerage"
+    },
+    {
+      "layer": "ideology_religion",
+      "direction": "rise",
+      "tag": "cosmopolitan_tolerance",
+      "description": "Sogdian cities housed Zoroastrian, Buddhist, Manichaean, and Nestorian communities side by side.",
+      "evidence_strength": "medium",
+      "sources": []
+    },
+    {
+      "layer": "governance_institutional",
+      "direction": "rise",
+      "tag": "fragmented_resilience",
+      "description": "City-state independence let individual cities buy off invaders without empire-wide collapse.",
+      "evidence_strength": "medium",
+      "sources": []
+    }
+  ],
+  "decline_factors": [
+    {
+      "layer": "military_security",
+      "direction": "decline",
+      "tag": "external_military_pressure",
+      "description": "Qutayba ibn Muslim's 706–715 campaigns brought Sogdiana under Umayyad/Abbasid rule.",
+      "evidence_strength": "medium",
+      "sources": [],
+      "tag_prose": "arab_conquest"
+    },
+    {
+      "layer": "ideology_religion",
+      "direction": "decline",
+      "tag": "islamization",
+      "description": "Conversion of Sogdian merchant elites to Islam dissolved the network's distinctive identity by c.900.",
+      "evidence_strength": "medium",
+      "sources": []
+    },
+    {
+      "layer": "economic_commercial",
+      "direction": "decline",
+      "tag": "sea_route_competition",
+      "description": "Rise of Indian Ocean shipping under Abbasids diverted long-distance trade away from overland Silk Road.",
+      "evidence_strength": "medium",
+      "sources": []
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Devashtich",
+      "role": "King of Panjikent",
+      "start_year": 706,
+      "end_year": 722,
+      "notes": "Led the last major Sogdian revolt against Arab rule."
+    },
+    {
+      "name": "Ghurak",
+      "role": "King of Samarkand",
+      "start_year": 712,
+      "end_year": 738,
+      "notes": "Wavering Arab vassal."
+    }
+  ],
+  "primary_ethnicity": "",
+  "religion_composition": [
+    {
+      "label": "Zoroastrianism",
+      "percentage": 55,
+      "confidence": "low"
+    },
+    {
+      "label": "Buddhism",
+      "percentage": 20,
+      "confidence": "low"
+    },
+    {
+      "label": "Manichaeism",
+      "percentage": 15,
+      "confidence": "low"
+    },
+    {
+      "label": "Nestorian Christianity",
+      "percentage": 5,
+      "confidence": "low"
+    },
+    {
+      "label": "Other / local",
+      "percentage": 5,
+      "confidence": "low"
+    }
+  ],
+  "primary_language": "Sogdian (Eastern Middle Iranian)",
+  "language_composition": [
+    {
+      "language": "Sogdian (Eastern Middle Iranian)",
+      "share": "primary",
+      "use": "trade, literature, religious texts"
+    },
+    {
+      "language": "Bactrian",
+      "share": "secondary",
+      "use": "southern Sogdiana"
+    }
+  ],
+  "economic": {
+    "primary_base": "long-distance trade brokerage",
+    "secondary_bases": [
+      "irrigated oasis agriculture",
+      "metallurgy",
+      "textile production"
+    ],
+    "wealth_level": "very_high",
+    "major_exports": [
+      "silk (transshipped)",
+      "musk",
+      "lapis lazuli",
+      "horses",
+      "slaves"
+    ],
+    "major_trade_partners": [
+      "tang_dynasty",
+      "sasanian_empire",
+      "abbasid_caliphate",
+      "tibetan_empire"
+    ],
+    "revenue_sources": [
+      "caravan tolls",
+      "merchant taxes"
+    ]
+  },
+  "social_structure": "",
+  "wikidata_enrichment": {
+    "qid": "Q486244"
+  },
+  "monogram": "SO"
+}

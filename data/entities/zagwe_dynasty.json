@@ -1,0 +1,145 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "zagwe_dynasty",
+  "name_primary": "Zagwe Dynasty",
+  "name_variants": [
+    "Agaw dynasty"
+  ],
+  "type": "dynasty",
+  "region": "horn_of_africa",
+  "formed": 1137,
+  "dissolved": 1270,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    12.03,
+    39.05
+  ],
+  "population_estimates": [
+    {
+      "year": 1200,
+      "estimate": 3500000,
+      "confidence": "low",
+      "note": "Ethiopian highlands under Zagwe rule; medieval Ethiopian demography is poorly documented."
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Christian Ethiopian dynasty (1137–1270) of Agaw origin that ruled the northern Ethiopian highlands in the interval between the long Aksumite decline and the Solomonic restoration; the Zagwe shifted the political centre south from Aksum to Roha (renamed Lalibela after their most famous king), and during the reign of King Lalibela (c. 1181–1221) commissioned the rock-hewn churches of Lalibela that survive as the dynasty's defining monument and as one of the masterpieces of medieval Christian architecture; the dynasty's claims to descent from Moses's grandson Akizana were always contested, and in 1270 a member of the Solomonic line, Yekuno Amlak, overthrew the last Zagwe king Yetbarak, founding the Solomonic dynasty that would rule Ethiopia until 1974.",
+  "temporal": {
+    "start_year": 1137,
+    "end_year": 1270,
+    "notes": "Christian Ethiopian dynasty between the Aksumite empire's collapse and the Solomonic Ethiopian restoration; centred on Lalibela in the highland north."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      12.03,
+      39.05
+    ],
+    "core_regions": [
+      "horn_of_africa"
+    ],
+    "capital": {
+      "name": "Lalibela (Roha)",
+      "coords": [
+        12.0318,
+        39.0473
+      ],
+      "source": "wikidata"
+    }
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "foundation",
+      "years": "1137–1180",
+      "description": "Mara Takla Haymanot displaces the last Aksumite ruler; capital established at Roha in the central highlands; the dynasty consolidates control of the Christian north."
+    },
+    {
+      "phase": "imperial_apogee",
+      "years": "1181–1221",
+      "description": "Reign of King Lalibela; commissioning of the rock-hewn monolithic churches at Roha (renamed Lalibela in his honour); contact with the Crusader states and Coptic Patriarchate of Alexandria."
+    },
+    {
+      "phase": "dissolution",
+      "years": "1270",
+      "description": "Yekuno Amlak of the Solomonic line overthrows Yetbarak with the support of the monastic establishment; the Zagwe accept the new dynasty in exchange for retaining the Lasta region as a sub-kingdom."
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Mara Takla Haymanot",
+      "role": "king",
+      "years": "c. 1137–1172",
+      "year_start": 1137,
+      "year_end": 1172
+    },
+    {
+      "name": "Lalibela",
+      "role": "king",
+      "years": "c. 1181–1221",
+      "year_start": 1181,
+      "year_end": 1221
+    },
+    {
+      "name": "Yetbarak",
+      "role": "king",
+      "years": "c. 1262–1270",
+      "year_start": 1262,
+      "year_end": 1270
+    }
+  ],
+  "predecessor_entity_ids": [
+    "aksumite_empire"
+  ],
+  "successor_entity_ids": [
+    "solomonic_ethiopia"
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "long_distance_trade",
+      "manufacturing"
+    ],
+    "wealth_level": "moderate",
+    "major_exports": [
+      "gold",
+      "ivory",
+      "salt"
+    ],
+    "major_trade_partners": [
+      "fatimid_caliphate",
+      "ayyubid_sultanate",
+      "mamluk_sultanate"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "trade_customs"
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q140446",
+    "matched_name": "manual/zagwe_dynasty",
+    "enrichment_date": "2026-05-24",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Zagwe_dynasty",
+    "capital": {
+      "name": "Lalibela",
+      "coords": [
+        12.0318,
+        39.0473
+      ]
+    },
+    "predecessors_from_wikidata": [
+      "Aksumite Empire"
+    ],
+    "successors_from_wikidata": [
+      "Solomonic dynasty"
+    ]
+  },
+  "monogram": "ZD"
+}

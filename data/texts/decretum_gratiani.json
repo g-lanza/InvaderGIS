@@ -1,0 +1,26 @@
+{
+  "kind": "text",
+  "dataset": "medieval-europe-500-1500",
+  "id": "decretum_gratiani",
+  "name_primary": "Decretum Gratiani",
+  "author": "Gratian (Bolognese jurist)",
+  "language": "Latin",
+  "composed": {
+    "year": 1140
+  },
+  "_quarry": {
+    "kind": "legal",
+    "polities_referenced": [
+      "papal_states",
+      "holy_roman_empire"
+    ],
+    "description": "Comprehensive harmonisation of contradictory canons from earlier ecclesiastical law, completed at Bologna around 1140 and formally titled Concordia discordantium canonum. The Decretum became the first half of the medieval Corpus Juris Canonici and the working textbook of canon law for the entire Latin Church. Its publication coincided with the codification of papal monarchical authority that Morris traced through the eleventh and twelfth centuries."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morris_papal_monarchy_1989"
+    ],
+    "confidence": "low"
+  }
+}

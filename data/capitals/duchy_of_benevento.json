@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_benevento",
+  "name": "Benevento",
+  "entity_id": "duchy_of_benevento",
+  "entity_name": "Duchy of Benevento",
+  "start_year": 571,
+  "end_year": 1077,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q267816"
+    }
+  },
+  "coords": [
+    14.78333,
+    41.13333
+  ]
+}

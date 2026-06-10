@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "principality_of_wallachia",
+  "name": "Bucharest",
+  "entity_id": "principality_of_wallachia",
+  "entity_name": "Principality of Wallachia",
+  "start_year": 1330,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q389004"
+    }
+  },
+  "coords": [
+    26.09778,
+    44.41336
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_denmark_norway_battle_stiklestad_1030_c01",
+  "statement": "King Olaf II of Norway was killed at Stiklestad in 1030 fighting Danish-backed Norwegian rebels.",
+  "subject_ids": [
+    "kingdom_of_denmark"
+  ],
+  "period": {
+    "from": 1030,
+    "to": 1030
+  },
+  "derived_from": "denmark_norway_battle_stiklestad_1030",
+  "unresolved_sources": [
+    "roesdahl_the_1992"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_medieval_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

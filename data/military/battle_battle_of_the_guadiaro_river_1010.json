@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_the_guadiaro_river_1010",
+  "name": "Battle of the Guadiaro River",
+  "subtype": "battle",
+  "start_year": 1010,
+  "end_year": 1010,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q20875449"
+    }
+  },
+  "description": "Battle during Fitna of al-Andalus (1010)",
+  "coords": [
+    -5.2041,
+    36.7542
+  ]
+}

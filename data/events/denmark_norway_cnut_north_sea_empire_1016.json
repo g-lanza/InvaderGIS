@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "denmark_norway_cnut_north_sea_empire_1016",
+  "name": "Cnut Creates the North Sea Empire",
+  "year": 1016,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    56,
+    10
+  ],
+  "entity": "kingdom_of_denmark",
+  "summary": "Cnut the Great conquered England in 1016 and subsequently inherited Denmark and Norway, creating the North Sea Empire. At its peak this empire united England, Denmark, Norway, and parts of Sweden under a single king, the largest Viking achievement.",
+  "outcomes": [
+    "north_sea_empire_formed",
+    "england_conquered",
+    "viking_age_peak"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_denmark"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_medieval_1993",
+      "roesdahl_the_1992"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

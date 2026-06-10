@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "alwa_collapse_1504",
+  "name": "Fall of Alwa to Funj Sultanate",
+  "year": 1504,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    13.775,
+    32.626
+  ],
+  "entity": "alwa",
+  "summary": "The Funj Sultanate, allied with Arab nomadic groups, destroyed the last Nubian Christian kingdom of Alwa and sacked its capital Soba. This ended over a millennium of Christian civilisation in the Nile valley.",
+  "outcomes": [
+    "christian_nubia_ended",
+    "funj_sultanate",
+    "islam_triumphs_nubia"
+  ],
+  "_quarry": {
+    "participants": [
+      "alwa"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

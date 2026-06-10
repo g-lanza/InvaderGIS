@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_battle_poitiers_detail_1356_c02",
+  "statement": "The ransom of 3 million gold écus demanded for John II of France was so large that France could not pay it.",
+  "subject_ids": [
+    "kingdom_of_england"
+  ],
+  "period": {
+    "from": 1356,
+    "to": 1356
+  },
+  "derived_from": "battle_poitiers_detail_1356",
+  "unresolved_sources": [
+    "carpenter_the_2003"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

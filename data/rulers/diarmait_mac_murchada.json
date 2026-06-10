@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "diarmait_mac_murchada",
+  "name": "Diarmait Mac Murchada",
+  "polity": "kingdom_of_leinster",
+  "title": "ruler",
+  "reign_start": 1110,
+  "reign_end": 1171,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "kingdom_of_leinster",
+        "role": "ruler",
+        "start_year": 1110,
+        "end_year": 1171
+      }
+    ],
+    "key_actions": [],
+    "region": "british_isles",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

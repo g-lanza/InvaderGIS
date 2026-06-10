@@ -1,0 +1,35 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_kingdom_of_leinster_to_lordship_of_ireland_succession",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_leinster",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "lordship_of_ireland",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 1177,
+  "until": 1177,
+  "note": "Derived from predecessor/successor links recorded in the kingdom_of_leinster and lordship_of_ireland entity records. Transition anchored to lordship_of_ireland start_year.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Mechanical normalisation of curated predecessor/successor links into the relationships register."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

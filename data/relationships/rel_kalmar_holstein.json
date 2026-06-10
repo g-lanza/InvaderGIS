@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_kalmar_holstein",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kalmar_union",
+      "role": "principal"
+    },
+    {
+      "entity_id": "hanseatic_league",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 1397,
+  "until": 1500,
+  "note": "The Duchy of Holstein — a German-speaking territory held by the Danish crown as a fief of the Holy Roman Empire (since 1460 united with the Duchy of Schleswig under the Treaty of Ripen) — created a persistent constitutional entanglement between Denmark and the Empire. Danish kings ruled Holstein as German princes and Schleswig as Danish dukes, simultaneously holding membership in both the Danish crown and the imperial Diet. The Holstein connection brought German commercial interests and culture into the Danish crown, facilitating Hanseatic trade but also creating a German-Danish cultural borderland that persisted until the Second World War.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Holstein-Schleswig complex is the most constitutionally complex territorial entanglement in northern European history; Danish rule over a German imperial fief creates the constitutional anomaly that produces the Schleswig-Holstein question — described as so complex that only three people understood it (Palmerston, a German professor, and Prince Albert)"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "dollinger_the_1970",
+      "hammel-kiesow_die_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

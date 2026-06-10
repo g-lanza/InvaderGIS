@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_urso_col_genetiva_iulia_500",
+  "name": "Urso/Col. Genetiva Iulia",
+  "importance": "city",
+  "start_year": 500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "inferred",
+    "external_ids": {
+      "pleiades": "256503"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    -5.0993,
+    37.2466
+  ]
+}

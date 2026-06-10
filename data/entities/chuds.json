@@ -1,0 +1,347 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "chuds",
+  "name_primary": "Chuds",
+  "name_variants": [],
+  "type": "kingdom",
+  "region": "northern_europe",
+  "formed": 500,
+  "dissolved": 1220,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    60.481,
+    29.869
+  ],
+  "population_estimates": [
+    {
+      "year": 800,
+      "estimate": 100000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2367703",
+          "url": "https://www.wikidata.org/wiki/Q2367703",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chuds",
+          "url": "https://en.wikipedia.org/wiki/Finnic_peoples"
+        }
+      ]
+    },
+    {
+      "year": 900,
+      "estimate": 125000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2367703",
+          "url": "https://www.wikidata.org/wiki/Q2367703",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chuds",
+          "url": "https://en.wikipedia.org/wiki/Finnic_peoples"
+        }
+      ]
+    },
+    {
+      "year": 1000,
+      "estimate": 150000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2367703",
+          "url": "https://www.wikidata.org/wiki/Q2367703",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chuds",
+          "url": "https://en.wikipedia.org/wiki/Finnic_peoples"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Finno-Ugric peoples (medieval term used by Slavic chroniclers for eastern Finnic groups including Estonians, Veps, and related tribes) who inhabited the forest zone between the Baltic and the Urals; incorporated into Novgorodian commercial networks as fur tribute-payers, the Chuds resisted Christianisation longer than Baltic neighbors and appear in Russian chronicles as opponents of Novgorodian and Livonian expansion into the Baltic-Finnish forest zone.",
+  "temporal": {
+    "start_year": 500,
+    "end_year": 1220,
+    "notes": "Stub: dates from GeoJSON basemap years 900–1000"
+  },
+  "geographic": {
+    "centroid": [
+      60.481,
+      29.869
+    ],
+    "polygon_simplified": [
+      [
+        [
+          61.123,
+          30.0405
+        ],
+        [
+          61.1143,
+          30.0631
+        ],
+        [
+          61.0121,
+          30.249
+        ],
+        [
+          60.8787,
+          30.4368
+        ],
+        [
+          60.7644,
+          30.5251
+        ],
+        [
+          60.6968,
+          30.5172
+        ],
+        [
+          60.6691,
+          30.5139
+        ],
+        [
+          60.6108,
+          30.5508
+        ],
+        [
+          60.5894,
+          30.6356
+        ],
+        [
+          60.4837,
+          30.7484
+        ],
+        [
+          60.2936,
+          30.8892
+        ],
+        [
+          60.193,
+          30.9822
+        ],
+        [
+          60.187,
+          31.0066
+        ],
+        [
+          59.9416,
+          29.9954
+        ],
+        [
+          59.9856,
+          29.9529
+        ],
+        [
+          60.131,
+          29.6873
+        ],
+        [
+          60.1446,
+          29.5107
+        ],
+        [
+          60.1088,
+          28.969
+        ],
+        [
+          60.15,
+          28.6916
+        ],
+        [
+          60.1715,
+          28.6374
+        ],
+        [
+          60.1984,
+          28.5694
+        ],
+        [
+          60.3373,
+          28.4352
+        ],
+        [
+          60.5326,
+          28.5512
+        ],
+        [
+          60.5745,
+          28.5375
+        ],
+        [
+          61.123,
+          30.0405
+        ]
+      ]
+    ],
+    "no_central_capital": true,
+    "no_central_capital_reason": "Finnic tribal peoples; no centralised polity."
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "tribal_presence",
+      "years": "500-1000",
+      "description": "Finnic-speaking Chuds (proto-Estonians) inhabited the eastern Baltic and Ladoga region; semi-nomadic with fishing and fur-trade economy.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2367703",
+          "url": "https://www.wikidata.org/wiki/Q2367703"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chuds",
+          "url": "https://en.wikipedia.org/wiki/Finnic_peoples"
+        }
+      ]
+    },
+    {
+      "phase": "varangian_interaction",
+      "years": "800-1100",
+      "description": "Chuds featured in the Varangian origin story (Rurik's invitation); integrated into early Russian trade networks.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2367703",
+          "url": "https://www.wikidata.org/wiki/Q2367703"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chuds",
+          "url": "https://en.wikipedia.org/wiki/Finnic_peoples"
+        }
+      ]
+    },
+    {
+      "phase": "absorption",
+      "years": "1100-1400",
+      "description": "Gradually absorbed into Russian and German (Livonian) spheres; distinct Chud identity disappeared from historical sources.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2367703",
+          "url": "https://www.wikidata.org/wiki/Q2367703"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chuds",
+          "url": "https://en.wikipedia.org/wiki/Finnic_peoples"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "trade_route_control",
+      "layer": "economic_commercial",
+      "description": "Dense forests provided beaver and sable furs that were the most valued luxury goods of northern Eurasia.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2367703",
+          "url": "https://www.wikidata.org/wiki/Q2367703"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chuds",
+          "url": "https://en.wikipedia.org/wiki/Finnic_peoples"
+        }
+      ],
+      "tag_prose": "fur_trade_access"
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "russification_and_germanisation",
+      "layer": "external_political",
+      "description": "Expansion of Novgorod and then Livonian Order absorbed Chud communities into alien political structures.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2367703",
+          "url": "https://www.wikidata.org/wiki/Q2367703"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chuds",
+          "url": "https://en.wikipedia.org/wiki/Finnic_peoples"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Rurik",
+      "role": "varangian_invited",
+      "years": "862–879",
+      "year_start": 862,
+      "year_end": 879,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Rurik",
+          "url": "https://en.wikipedia.org/wiki/Rurik"
+        }
+      ]
+    }
+  ],
+  "economic": {
+    "primary_base": "fishing",
+    "secondary_bases": [
+      "fur_trade",
+      "limited_agriculture"
+    ],
+    "wealth_level": "very_low",
+    "major_exports": [
+      "furs",
+      "fish",
+      "amber",
+      "slaves"
+    ],
+    "major_trade_partners": [
+      "kievan_rus",
+      "kingdom_of_sweden",
+      "hanseatic_league"
+    ],
+    "revenue_sources": [
+      "fur_tribute",
+      "fishing_surplus"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q2367703",
+        "url": "https://www.wikidata.org/wiki/Q2367703"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Chuds",
+        "url": "https://en.wikipedia.org/wiki/Finnic_peoples"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q2367703",
+    "matched_name": "manual/chuds",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Finnic_peoples"
+  },
+  "monogram": "CH"
+}

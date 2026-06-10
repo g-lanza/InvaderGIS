@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_principality_of_moldavia_1352_1498",
+  "statement": "Principality of Moldavia — campaigns and battles spanned 1352–1498, from Moldavian–Horde Wars to Moldavian campaign in Poland.",
+  "subject_ids": [
+    "principality_of_moldavia"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_principality_of_moldavia_1352_1498",
+  "period": {
+    "from": 1352,
+    "to": 1498
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "treptow_a_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

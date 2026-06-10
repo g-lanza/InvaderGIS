@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "charlemagne_lombard_774",
+  "name": "Charlemagne conquers Lombards",
+  "year": 774,
+  "type": "war",
+  "category": "violence",
+  "coords": [
+    45.19,
+    9.16
+  ],
+  "entity": "carolingian_empire",
+  "summary": "Charlemagne besieges Pavia for six months (773–774), the Lombard capital, and deposes King Desiderius, his own father-in-law, after Desiderius threatened Rome and the papacy. Charlemagne takes the title 'King of the Franks and Lombards,' incorporates the Lombard kingdom into the Carolingian Empire, and confirms the Donation of Pippin to the papacy. The conquest brings all of Italy north of Rome under Carolingian control and creates the permanent connection between the papacy and the Franks that culminates in the imperial coronation of 800.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "carolingian_empire",
+      "lombard_kingdom"
+    ],
+    "structural_significance": "Incorporates northern Italy into the Carolingian Empire; confirms the Papal States; removes the last major independent Germanic kingdom in Western Europe; sets the stage for the imperial coronation of 800",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "mckitterick_charlemagne_2008",
+      "riché_the_1993",
+      "nelson_king_2019"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

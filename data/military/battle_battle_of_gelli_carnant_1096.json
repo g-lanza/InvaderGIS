@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_gelli_carnant_1096",
+  "name": "Battle of Gelli Carnant",
+  "subtype": "battle",
+  "start_year": 1096,
+  "end_year": 1096,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q13126305"
+    }
+  },
+  "description": "Battle during Norman Invasion of Wales (1096)",
+  "coords": [
+    -4.8422,
+    51.845
+  ]
+}

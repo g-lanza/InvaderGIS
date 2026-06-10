@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_iconoclasm_hieria_754_c01",
+  "statement": "In 754, Constantine V convened 338 bishops at the imperial palace of Hieria in the absence of all five patriarchs.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 754,
+    "to": 754
+  },
+  "derived_from": "iconoclasm_hieria_754",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "meyendorff_byzantium_and_rise_of_russia_1981",
+      "kazhdan_oxford_dictionary_byzantium_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

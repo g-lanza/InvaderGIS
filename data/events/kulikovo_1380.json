@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kulikovo_1380",
+  "name": "Battle of Kulikovo",
+  "year": 1380,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    53.65,
+    38.67
+  ],
+  "entity": "grand_principality_of_moscow",
+  "summary": "Dmitry Donskoy, Grand Prince of Moscow, leads a Russian coalition force against the Golden Horde's army under Mamai on the Kulikovo field (near the Don River) on September 8, 1380. The Russian forces win a bloody victory; Mamai's army is destroyed. Moscow is nevertheless sacked by Khan Tokhtamysh two years later (1382), and tribute payment resumes. But Kulikovo's symbolic importance is decisive: it establishes that Russian forces can defeat the Mongols in open battle and makes Moscow the champion of Russian independence.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "grand_principality_of_moscow",
+      "golden_horde"
+    ],
+    "structural_significance": "First major Russian military victory over the Mongols; establishes Moscow's role as the leader of Russian resistance; mythologized as the beginning of the end of the Mongol/Tatar yoke",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "fennell_the_1983",
+      "ostrowski_muscovy_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

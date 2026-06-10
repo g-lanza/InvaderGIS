@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "marco_polo_kublai_court_1275",
+  "name": "Marco Polo at the Court of Kublai Khan",
+  "year": 1275,
+  "type": "exploration",
+  "category": "discovery",
+  "coords": [
+    39.9,
+    116.4
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Marco Polo arrives at Kublai Khan's court at Khanbaliq (Beijing) after three and a half years traveling from Venice. He spends 17 years in Mongol service, traveling extensively across China and Southeast Asia. His Travels (dictated in prison in 1298) introduces Europeans to Chinese silk, paper money, coal, and the scope of Asian civilization.",
+  "outcomes": [
+    "china_documented",
+    "silk_road_described",
+    "european_curiosity_aroused"
+  ],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice"
+    ],
+    "structural_significance": "The Travels arouses European interest in Asia that motivates Columbus (who annotated his copy) and other explorers; provides the only detailed Western account of 13th-century China; the Pax Mongolica that enabled the journey also carries the plague west.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

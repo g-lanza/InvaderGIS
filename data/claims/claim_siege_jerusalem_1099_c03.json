@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_siege_jerusalem_1099_c03",
+  "statement": "After the 1099 capture, Godfrey of Bouillon became the first ruler of Jerusalem, taking the title 'Advocate of the Holy Sepulchre' rather than 'king'.",
+  "subject_ids": [
+    "kingdom_of_jerusalem"
+  ],
+  "period": {
+    "from": 1099,
+    "to": 1099
+  },
+  "derived_from": "siege_jerusalem_1099",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

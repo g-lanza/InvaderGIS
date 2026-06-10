@@ -1,0 +1,53 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "du_fu",
+  "name": "Du Fu",
+  "polity": "tang_dynasty",
+  "title": "court_poet",
+  "reign_start": 758,
+  "reign_end": 759,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 712,
+      "death_year": 770
+    },
+    "entity_associations": [
+      {
+        "entity_id": "tang_dynasty",
+        "role": "court_poet",
+        "start_year": 758,
+        "end_year": 759
+      }
+    ],
+    "key_actions": [
+      {
+        "year": 755,
+        "summary": "An Lushan rebellion breaks out; Du Fu spends the next four years separated from his family and unable to take up examination posts.",
+        "source_id": "twitchett_cambridge_history_china_v3_1979"
+      },
+      {
+        "year": 759,
+        "summary": "Settles in Chengdu at a thatched cottage where he composes a substantial portion of his surviving 1,500 poems.",
+        "source_id": "twitchett_cambridge_history_china_v3_1979"
+      },
+      {
+        "year": 770,
+        "summary": "Dies en route on the Yangtze. His poetic corpus is later collected by Tang and Song editors and elevated to canonical status by the 11th century.",
+        "source_id": "twitchett_cambridge_history_china_v3_1979"
+      }
+    ],
+    "region": "east_asia",
+    "name_variants": [
+      "Tu Fu",
+      "Zimei"
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "twitchett_cambridge_history_china_v3_1979"
+    ],
+    "confidence": "low"
+  }
+}

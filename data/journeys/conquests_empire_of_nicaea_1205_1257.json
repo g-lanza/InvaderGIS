@@ -1,0 +1,70 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_empire_of_nicaea_1205_1257",
+  "name": "Empire of Nicaea — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1205,
+  "year_end": 1257,
+  "waypoints": [
+    {
+      "year": 1205,
+      "place": "Battle of Adramyttium",
+      "coords": [
+        40.7,
+        29.3
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_adramyttium_1205"
+    },
+    {
+      "year": 1207,
+      "place": "Siege of Antalya",
+      "coords": [
+        39.45,
+        31.1
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_antalya_1207"
+    },
+    {
+      "year": 1211,
+      "place": "Battle of Antioch on the Meander",
+      "coords": [
+        39.45,
+        31.1
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_antioch_on_the_meander_1211"
+    },
+    {
+      "year": 1224,
+      "place": "Battle of Poimanenon",
+      "coords": [
+        40.7,
+        29.3
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_poimanenon_1224"
+    },
+    {
+      "year": 1257,
+      "place": "Rebellion of Arbanon",
+      "coords": [
+        40.05,
+        25.25
+      ],
+      "note": "military",
+      "event_id": "wd_rebellion_of_arbanon_1257"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

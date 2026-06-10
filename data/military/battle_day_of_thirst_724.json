@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_day_of_thirst_724",
+  "name": "Day of Thirst",
+  "subtype": "battle",
+  "start_year": 724,
+  "end_year": 724,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q5242954"
+    }
+  },
+  "description": "Battle during Muslim conquest of Transoxiana (724)",
+  "coords": [
+    69.6319,
+    40.2794
+  ]
+}

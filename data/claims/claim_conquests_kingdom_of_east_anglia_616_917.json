@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_kingdom_of_east_anglia_616_917",
+  "statement": "Kingdom of East Anglia — campaigns and battles spanned 616–917, from Battle of the River Idle to East Anglia Reconquered by Wessex.",
+  "subject_ids": [
+    "kingdom_of_east_anglia"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_kingdom_of_east_anglia_616_917",
+  "period": {
+    "from": 616,
+    "to": 917
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

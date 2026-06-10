@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "founding_of_cluny_910",
+  "name": "Foundation of Cluny Abbey",
+  "year": 910,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    46.4,
+    4.6
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Duke William I of Aquitaine founds Cluny Abbey in Burgundy and places it directly under papal authority, exempting it from local episcopal and secular control. Cluny becomes the center of the 10th–11th century monastic reform movement, eventually controlling over 1,000 dependent monasteries. Cluniac ideals of clerical celibacy and independence from secular lords transform the medieval church.",
+  "outcomes": [
+    "cluniac_reform_movement",
+    "papal_sovereignty_claim",
+    "monastic_renewal"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "duchy_of_aquitaine",
+      "papal_states"
+    ],
+    "structural_significance": "Cluny's reform movement generates the Gregorian Reform under Pope Gregory VII; the investiture controversy between popes and emperors over clerical appointments reshapes European political history.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

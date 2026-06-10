@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "portugal_aviz_1385",
+  "name": "Battle of Aljubarrota",
+  "year": 1385,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    39.54,
+    -8.81
+  ],
+  "entity": "kingdom_of_portugal",
+  "summary": "At the Battle of Aljubarrota (August 14, 1385), John I of Portugal, the illegitimate son of Peter I, championed by Portuguese merchants and commoners against the Castilian-backed nobility, defeats a substantially larger Castilian army under Juan I of Castile. The Portuguese position on a prepared ridge with ditches, combined with English longbowmen from the Lancaster alliance (João had married Philippa of Lancaster), repels Castilian cavalry charges in a pattern reminiscent of Crécy. Juan I escapes; the Castilian claim to Portugal is finished. The Aviz dynasty is secured; Portugal's independence is guaranteed for two centuries.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_portugal",
+      "crown_of_castile"
+    ],
+    "structural_significance": "Secures Portuguese independence from Castilian annexation; establishes the Aviz dynasty; the English alliance (formalized in the Treaty of Windsor 1386) provides the foundation for England's oldest alliance, still technically in force; Portugal's independence enables the age of exploration",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

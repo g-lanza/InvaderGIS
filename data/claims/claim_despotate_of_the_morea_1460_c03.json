@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_despotate_of_the_morea_1460_c03",
+  "statement": "The Peloponnese remained under Ottoman rule from 1460 until the Greek War of Independence in the 19th century.",
+  "subject_ids": [
+    "despotate_of_the_morea"
+  ],
+  "period": {
+    "from": 1460,
+    "to": 1460
+  },
+  "derived_from": "despotate_of_the_morea_1460",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

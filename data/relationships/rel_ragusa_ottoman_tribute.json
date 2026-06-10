@@ -1,0 +1,39 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_ragusa_ottoman_tribute",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "ottoman_empire",
+      "role": "hegemon"
+    },
+    {
+      "entity_id": "republic_of_ragusa",
+      "role": "tributary"
+    }
+  ],
+  "directed": true,
+  "type": "tributary",
+  "since": 1458,
+  "until": 1500,
+  "note": "Ragusa (Dubrovnik) began paying annual tribute to the Ottoman Empire (initially 1,500 ducats, rising to 12,500 ducats by the 16th century) in exchange for trading privileges throughout Ottoman-controlled territories. This arrangement — tribute in exchange for commercial access — was Ragusa's defining diplomatic achievement: paying Ottoman tribute while maintaining Christian sovereignty, Venetian and Papal recognition, and commercial networks that extended from Alexandria to London. The Republic maintained this position until French conquest (1808) by playing overlords against each other with extraordinary skill.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Ragusa's tribute relationship with the Ottomans is the foundational arrangement that enables its golden age; by paying tribute, Ragusa merchants gained access to Ottoman markets that were closed to Venice; the city-state model of small-state survival through trade and diplomacy becomes a template for later neutral states"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d",
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

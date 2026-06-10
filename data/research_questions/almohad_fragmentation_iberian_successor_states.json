@@ -1,0 +1,48 @@
+{
+  "id": "almohad_fragmentation_iberian_successor_states",
+  "question": "What drove the fragmentation of the Almohad caliphate into the Iberian and Maghrebi successor states, and how did it open al-Andalus to the Reconquista (1212–1269)?",
+  "description": "Examines the collapse of Almohad unitary rule across the western Mediterranean after the defeat at Las Navas de Tolosa (1212), and how the caliphate splintered into the Nasrid emirate of Granada, the Marinid dynasty in Morocco, and the Hafsid sultanate in Ifriqiya — the third taifa fragmentation of al-Andalus — accelerating Castilian and Aragonese conquest of the peninsula.",
+  "scope": {
+    "from": 1100,
+    "to": 1300,
+    "regions": ["iberia", "north_africa", "islamic_world_european_facing"]
+  },
+  "evidence": {
+    "entity_ids": [
+      "almohad_caliphate_iberia",
+      "almoravid_emirate_iberia",
+      "taifa_kingdoms",
+      "emirate_of_granada",
+      "marinid_dynasty",
+      "hafsid_sultanate",
+      "crown_of_castile",
+      "crown_of_aragon"
+    ],
+    "claim_ids": [
+      "claim_almohad_decline_1212_c01",
+      "claim_almohad_decline_1212_c02",
+      "claim_rel_almohad_to_taifa",
+      "claim_reconquista_cordoba_1236_c01"
+    ],
+    "source_ids": [
+      "o'callaghan_reconquest_2003",
+      "kennedy_muslim_1996",
+      "catlos_kingdoms_2018"
+    ],
+    "relationship_ids": [
+      "rel_almoravid_to_almohad",
+      "rel_almohad_to_taifa",
+      "rel_almohad_caliphate_iberia_to_emirate_of_granada_fragmentation",
+      "rel_almohad_caliphate_iberia_to_marinid_dynasty_fragmentation",
+      "rel_almohad_caliphate_iberia_to_hafsid_sultanate_fragmentation"
+    ]
+  },
+  "status": "open",
+  "findings": "The Almohad order, itself a Berber reform movement that had absorbed the Almoravids, lost its military and ideological cohesion after Las Navas de Tolosa in 1212; within a generation its territory fractured along regional lines into the Nasrid Granada, the Marinid Morocco, and the Hafsid Ifriqiya. This third Andalusi fragmentation removed any unifying Muslim power in the peninsula and exposed the taifa-like successor states to rapid Castilian advance, with Córdoba falling in 1236.",
+  "provenance": {
+    "status": "draft",
+    "sources_used": ["o'callaghan_reconquest_2003", "kennedy_muslim_1996", "catlos_kingdoms_2018"],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

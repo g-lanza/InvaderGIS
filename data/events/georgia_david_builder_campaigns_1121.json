@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "georgia_david_builder_campaigns_1121",
+  "name": "David IV the Builder's Military Campaigns",
+  "year": 1121,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41.72,
+    44.8
+  ],
+  "entity": "kingdom_of_georgia",
+  "summary": "David IV the Builder defeated a massive Seljuk-led coalition at the Battle of Didgori (1121), then captured Tbilisi from Muslim control. This began Georgia's Golden Age, it became the dominant regional power under David and Queen Tamar.",
+  "outcomes": [
+    "georgia_golden_age",
+    "seljuks_expelled",
+    "didgori_victory"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_georgia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

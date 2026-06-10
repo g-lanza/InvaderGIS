@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "genoa_genoin_gold_1252",
+  "name": "Genoa strikes the genovino d'oro",
+  "year": 1252,
+  "type": "economic",
+  "category": "economy",
+  "coords": [
+    44.4056,
+    8.9463
+  ],
+  "entity": "republic_of_genoa",
+  "summary": "In 1252 the Genoese and Florentine mints simultaneously began striking high-value gold coins, the genovino d'oro at Genoa and the fiorino at Florence, the first stable gold coinages in the Latin West for more than five centuries. The 3.5-gram coin was rapidly imitated by Venice's ducato (1284) and used as the high-denomination unit for trans-Mediterranean and Levantine trade.",
+  "outcomes": [
+    "high_value_gold_coinage_returned_to_latin_west",
+    "trans_mediterranean_credit_facilitated"
+  ],
+  "_quarry": {
+    "participants": [
+      "republic_of_genoa",
+      "republic_of_florence"
+    ],
+    "structural_significance": "Marks the point at which Latin-European mints had access to enough African and Asian gold via Mediterranean trade routes to support a bimetallic currency. Lopez treats the simultaneous Genoa/Florence strikings as a structural symptom of the thirteenth-century commercial revolution.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lopez_commercial_revolution_1971"
+    ],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_day_of_zamora_901",
+  "name": "Day of Zamora",
+  "subtype": "battle",
+  "start_year": 901,
+  "end_year": 901,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q5242957"
+    }
+  },
+  "description": "Battle during Reconquista (901)",
+  "coords": [
+    -5.7556,
+    41.5033
+  ]
+}

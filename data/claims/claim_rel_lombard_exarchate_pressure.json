@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_lombard_exarchate_pressure",
+  "statement": "The Lombard Kingdom's periodic campaigns to capture Ravenna — the Byzantine Exarchate's capital and the last major imperial center in northern Italy — define the political history of Italy from 568 to 751. King Aistulf finally captured Ravenna in 751, eliminating Byzantine administration in northern Italy and forcing the papacy to seek Frankish protection. The 183-year Lombard-Byzantine conflict over northern Italy created the political fragmentation that would persist: Byzantine enclaves (Rome, Naples, Venice, Sicily) vs. Lombard-controlled hinterlands, with the papacy caught between them.",
+  "subject_ids": [
+    "lombard_kingdom",
+    "exarchate_of_ravenna"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_lombard_exarchate_pressure",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "deacon_history_1907",
+      "christie_the_1995",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 584,
+    "to": 751
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_edward_i_wales_1283_c02",
+  "statement": "The Statute of Rhuddlan of 1284 imposed English law and administration on Wales, dividing it into shires on the English model.",
+  "subject_ids": [
+    "kingdom_of_england"
+  ],
+  "period": {
+    "from": 1283,
+    "to": 1283
+  },
+  "derived_from": "edward_i_wales_1283",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

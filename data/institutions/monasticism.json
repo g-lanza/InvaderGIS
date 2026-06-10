@@ -1,0 +1,57 @@
+{
+  "kind": "institution",
+  "dataset": "medieval-europe-500-1500",
+  "id": "monasticism",
+  "name_primary": "Christian Monasticism",
+  "domain": "religious_institution",
+  "formed": 500,
+  "dissolved": 1500,
+  "_quarry": {
+    "key_developments": [
+      {
+        "year": 530,
+        "event": "Benedict founds Monte Cassino; his Rule becomes the standard for Western monasticism."
+      },
+      {
+        "year": 910,
+        "event": "Cluny founded — exempted from local episcopal authority, becomes hub of monastic reform."
+      },
+      {
+        "year": 1098,
+        "event": "Cistercian Order founded at Cîteaux — austere, agricultural focus."
+      },
+      {
+        "year": 1115,
+        "event": "Bernard of Clairvaux joins Cîteaux; under him the order spreads to ~340 houses in 50 years."
+      },
+      {
+        "year": 1209,
+        "event": "Francis of Assisi receives papal approval — beginning of urban mendicant orders."
+      },
+      {
+        "year": 1216,
+        "event": "Dominic founds the Order of Preachers — intellectual / anti-heretical mission."
+      }
+    ],
+    "influences_entities": [
+      "kingdom_of_france",
+      "kingdom_of_england",
+      "holy_roman_empire",
+      "papal_states",
+      "kingdom_of_castile",
+      "kingdom_of_aragon",
+      "duchy_of_burgundy",
+      "republic_of_venice",
+      "lombard_kingdom"
+    ],
+    "description": "The institutional form of communal religious life that preserved literacy, agricultural innovation, and Christian tradition through the post-Roman west. Codified by Benedict of Nursia (c.530) in his Rule, expanded by the Cluniac reform (910+), then radicalised by Cistercian (1098), Carthusian (1084), Premonstratensian (1120), and Dominican / Franciscan (1209–1216) movements. Monasteries served simultaneously as scriptoria preserving classical texts, agricultural research centres developing crop rotations, banks providing credit to lay nobility, and political institutions whose abbots outranked many bishops."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lawrence_medieval_monasticism_2001",
+      "constable_reformation_twelfth_century_1996"
+    ],
+    "confidence": "low"
+  }
+}

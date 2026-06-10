@@ -1,0 +1,160 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_despotate_of_the_morea_1359_1460",
+  "name": "Despotate of the Morea — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1359,
+  "year_end": 1460,
+  "waypoints": [
+    {
+      "year": 1359,
+      "place": "Battle of Megara",
+      "coords": [
+        39.2875,
+        21.325
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_megara_1359"
+    },
+    {
+      "year": 1375,
+      "place": "Battle of Gardiki",
+      "coords": [
+        37.675,
+        22.4
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_gardiki_1375"
+    },
+    {
+      "year": 1388,
+      "place": "Argos and Nafplio War",
+      "coords": [
+        40.31,
+        19.4767
+      ],
+      "note": "military",
+      "event_id": "wd_argos_and_nafplio_war_1388"
+    },
+    {
+      "year": 1395,
+      "place": "Ottoman raids into the Despotate of the Morea",
+      "coords": [
+        39.275,
+        25.65
+      ],
+      "note": "military",
+      "event_id": "wd_ottoman_raids_into_the_despotate_of_the_morea_1395"
+    },
+    {
+      "year": 1421,
+      "place": "Byzantine–Ottoman War of 1421–1424",
+      "coords": [
+        39.85,
+        26.7333
+      ],
+      "note": "military",
+      "event_id": "wd_byzantine_ottoman_war_of_1421_1424_1421"
+    },
+    {
+      "year": 1423,
+      "place": "1423 Morea expedition",
+      "coords": [
+        39.275,
+        25.65
+      ],
+      "note": "military",
+      "event_id": "wd_1423_morea_expedition_1423"
+    },
+    {
+      "year": 1429,
+      "place": "Siege of Patras",
+      "coords": [
+        37.675,
+        22.4
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_patras_1429"
+    },
+    {
+      "year": 1446,
+      "place": "Siege of the Hexamilion Wall",
+      "coords": [
+        39.275,
+        25.65
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_the_hexamilion_wall_1446"
+    },
+    {
+      "year": 1453,
+      "place": "Morea revolt of 1453–1454",
+      "coords": [
+        39.275,
+        25.65
+      ],
+      "note": "military",
+      "event_id": "wd_morea_revolt_of_1453_1454_1453"
+    },
+    {
+      "year": 1458,
+      "place": "Battle of Corinth",
+      "coords": [
+        41.3167,
+        21.2
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_corinth_1458"
+    },
+    {
+      "year": 1458,
+      "place": "Siege of Corinth",
+      "coords": [
+        39.275,
+        25.65
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_corinth_1458"
+    },
+    {
+      "year": 1460,
+      "place": "Ottomans Conquer the Morea",
+      "coords": [
+        39.275,
+        25.65
+      ],
+      "note": "military",
+      "event_id": "despotate_of_the_morea_1460"
+    },
+    {
+      "year": 1460,
+      "place": "Siege of Gardiki-Arcadia",
+      "coords": [
+        41.3167,
+        21.2
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_gardiki_arcadia_1460"
+    },
+    {
+      "year": 1460,
+      "place": "Siege of Kastritza",
+      "coords": [
+        42.39,
+        17.06
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_kastritza_1460"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

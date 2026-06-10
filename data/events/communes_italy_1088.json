@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "communes_italy_1088",
+  "name": "University of Bologna Founded",
+  "year": 1088,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    44.5,
+    11.3
+  ],
+  "entity": "papal_states",
+  "summary": "The University of Bologna, traditionally dated to 1088, becomes the first European university, focusing on Roman law. The rediscovery of Justinian's Corpus Juris Civilis in the 11th century creates enormous demand for legal expertise; Bologna's law school trains the jurists who staff both papal and imperial administrations throughout the 12th century.",
+  "outcomes": [
+    "legal_scholarship",
+    "canon_law_revival",
+    "student_guilds"
+  ],
+  "_quarry": {
+    "participants": [
+      "papal_states",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "Bologna's model, a corporation of students who hire masters, becomes the model for European universities; the revival of Roman law provides intellectual tools for both the papacy's canon law system and secular royal governance.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "delhi_sultanate_ibn_battuta_1334",
+  "name": "Ibn Battuta's Account of the Delhi Sultanate",
+  "year": 1334,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    28.6,
+    77.2
+  ],
+  "entity": "delhi_sultanate",
+  "summary": "Moroccan traveller Ibn Battuta served at the court of Muhammad bin Tughluq (1334-1341), documenting the Delhi Sultanate as one of the greatest cities in the Islamic world. His Rihla provides the most detailed contemporary account of 14th century India.",
+  "outcomes": [
+    "delhi_described_world_city",
+    "multicultural_court",
+    "trade_connections"
+  ],
+  "_quarry": {
+    "participants": [
+      "delhi_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "jackson_the_1999",
+      "kumar_the_2007"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

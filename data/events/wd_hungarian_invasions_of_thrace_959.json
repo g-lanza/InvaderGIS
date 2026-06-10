@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_hungarian_invasions_of_thrace_959",
+  "name": "Hungarian invasions of Thrace",
+  "year": 959,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    44.0233,
+    24.479
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Hungarian invasions of Thrace (959 CE), at Thessaloniki (part of Hungarian invasions of Europe). Source: Wikidata Q139073817.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "bulgar_khanate",
+      "magyars"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

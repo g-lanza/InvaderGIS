@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_kumanovo_1094",
+  "name": "Kumanovo",
+  "importance": "city",
+  "start_year": 1094,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q54452"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    21.7144,
+    42.1322
+  ]
+}

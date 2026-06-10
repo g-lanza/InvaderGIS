@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "avignon_papacy_move_1309",
+  "name": "Papacy Moves to Avignon",
+  "year": 1309,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    43.949,
+    4.806
+  ],
+  "entity": "papal_states",
+  "summary": "Pope Clement V, a Frenchman elected under French pressure in 1305, established the papal court at Avignon in 1309 rather than returning to strife-torn Rome. Six subsequent popes, all French, resided at Avignon until Gregory XI returned to Rome in 1377. The period saw the papal administration become highly efficient and financially sophisticated, but critics across Europe decried it as French subjugation of the universal church.",
+  "outcomes": [
+    "Seven popes reside at Avignon 1309–1377",
+    "Papal curia reorganized and centralized",
+    "Critics call it the \"Babylonian Captivity\"",
+    "French influence over Church resented across Europe"
+  ],
+  "_quarry": {
+    "participants": [
+      "papal_states",
+      "kingdom_of_france"
+    ],
+    "structural_significance": "The Avignon papacy centralized and professionalized the papal curia but fatally damaged the papacy's claim to universal, supranational authority; the subsequent schism directly followed the return to Rome.",
+    "year_range": [
+      1309,
+      1377
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Mollat, The Popes at Avignon",
+      "Renouard, The Avignon Papacy"
+    ],
+    "confidence": "low"
+  }
+}

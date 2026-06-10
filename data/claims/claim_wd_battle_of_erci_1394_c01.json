@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_erci_1394_c01",
+  "statement": "Battle of Erciş (1394 CE), at Erciş (part of Timurid campaigns in Azerbaijan).",
+  "subject_ids": [
+    "timurid_empire"
+  ],
+  "period": {
+    "from": 1394,
+    "to": 1394
+  },
+  "derived_from": "wd_battle_of_erci_1394",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "manz_the_1989",
+      "lentz_timur_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

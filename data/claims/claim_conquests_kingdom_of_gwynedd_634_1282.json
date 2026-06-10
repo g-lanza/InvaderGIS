@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_kingdom_of_gwynedd_634_1282",
+  "statement": "Kingdom of Gwynedd — campaigns and battles spanned 634–1282, from Battle of Heavenfield to Llywelyn the Last Falls, Wales Conquered.",
+  "subject_ids": [
+    "kingdom_of_gwynedd"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_kingdom_of_gwynedd_634_1282",
+  "period": {
+    "from": 634,
+    "to": 1282
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

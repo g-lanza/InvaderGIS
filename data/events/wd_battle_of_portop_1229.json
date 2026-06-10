@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_portop_1229",
+  "name": "Battle of Portopí",
+  "year": 1229,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.35,
+    -1.75
+  ],
+  "entity": "almohad_caliphate_iberia",
+  "summary": "Battle of Portopí (1229 CE), at Serra de Na Burguesa (part of Conquest of Majorca). Source: Wikidata Q2792009.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "almohad_caliphate_iberia",
+      "crown_of_aragon"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_kingdoms_2018",
+      "o'callaghan_reconquest_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

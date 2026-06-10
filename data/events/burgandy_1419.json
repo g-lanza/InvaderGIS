@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "burgandy_1419",
+  "name": "Assassination of John the Fearless",
+  "year": 1419,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    46.9,
+    3.75
+  ],
+  "entity": "duchy_of_burgundy",
+  "summary": "The assassination of Duke John the Fearless of Burgundy at Montereau in 1419 drove his successor Philip the Good into alliance with England. This Burgundian-English alliance enabled Henry V's conquest of northern France and the Treaty of Troyes, prolonging the Hundred Years War by decades.",
+  "outcomes": [
+    "burgundy_allies_england",
+    "hundred_years_war_prolonged",
+    "franco_burgundian_split"
+  ],
+  "_quarry": {
+    "participants": [
+      "duchy_of_burgundy",
+      "kingdom_of_france"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

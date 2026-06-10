@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_treaty_of_paris_1259",
+  "name": "Treaty of Paris",
+  "year": 1259,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    49.5,
+    0.75
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Treaty of Paris (1259 CE), at Paris. Source: Wikidata Q394387.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "kingdom_of_england"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

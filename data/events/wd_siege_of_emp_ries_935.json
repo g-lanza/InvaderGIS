@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_emp_ries_935",
+  "name": "Siege of Empúries",
+  "year": 935,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    42.95,
+    -1.15
+  ],
+  "entity": "west_francia",
+  "summary": "Siege of Empúries (935 CE), at Empúries (part of Raid of 935). Source: Wikidata Q11949510.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "west_francia",
+      "caliphate_of_cordoba"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_brustem_1467_c01",
+  "statement": "The Battle of Brustem was fought in 1467 CE at Brustem.",
+  "subject_ids": [
+    "duchy_of_burgundy"
+  ],
+  "period": {
+    "from": 1467,
+    "to": 1467
+  },
+  "derived_from": "wd_battle_of_brustem_1467",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

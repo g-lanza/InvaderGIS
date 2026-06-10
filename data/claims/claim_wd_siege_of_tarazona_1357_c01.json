@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_tarazona_1357_c01",
+  "statement": "Siege of Tarazona (1357 CE), at Tarazona (part of War of the Two Peters).",
+  "subject_ids": [
+    "crown_of_aragon"
+  ],
+  "period": {
+    "from": 1357,
+    "to": 1357
+  },
+  "derived_from": "wd_siege_of_tarazona_1357",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

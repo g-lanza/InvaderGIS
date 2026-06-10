@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_saint_louis_crusade_1250_c03",
+  "statement": "The French crusader army was defeated by Mamluk forces at the Battle of Al Mansurah and Louis IX was captured in April 1250.",
+  "subject_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 1250,
+    "to": 1250
+  },
+  "derived_from": "saint_louis_crusade_1250",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

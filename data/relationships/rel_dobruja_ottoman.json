@@ -1,0 +1,40 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_dobruja_ottoman",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "despotate_of_dobruja",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "ottoman_empire",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 1419,
+  "until": 1419,
+  "note": "Dobruja (the region between the Danube delta and the Black Sea coast, modern northeastern Bulgaria and eastern Romania) fell to the Ottomans after the Battle of Nicopolis (1396) and the subsequent Ottoman consolidation of Bulgaria. The region had been ruled by the Dobrotitsa (Dobruja principality) — a semi-autonomous Bulgarian successor state — until Mircea the Elder of Wallachia briefly controlled it. Ottoman control of Dobruja gave them dominance of the lower Danube's northern bank, controlling the approaches to the Danube delta and Black Sea.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Ottoman control of Dobruja secures the lower Danube and the Black Sea approaches; the region's absorption eliminates the last semi-independent Bulgarian successor state and consolidates Ottoman presence north of the Balkan mountains"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

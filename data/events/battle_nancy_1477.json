@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_nancy_1477",
+  "name": "Battle of Nancy",
+  "year": 1477,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    48.69,
+    6.18
+  ],
+  "entity": "duchy_of_burgundy",
+  "summary": "Charles the Bold, Duke of Burgundy, is killed at the Battle of Nancy on January 5, 1477, fighting a coalition of Swiss Confederation forces and the army of René II of Lorraine. Charles's body is found three days after the battle, face-down in a frozen pond, disfigured by wolves. His death ends the Valois Burgundian state at its apparent zenith. His daughter Mary of Burgundy inherits the vast Burgundian territories; her marriage to Maximilian of Habsburg sets off the conflict that defines early modern European politics.",
+  "outcomes": [
+    "charles_the_bold_killed",
+    "burgundian_state_dissolved",
+    "french_crown_absorbs_duchy"
+  ],
+  "_quarry": {
+    "participants": [
+      "duchy_of_burgundy",
+      "swiss_confederation",
+      "duchy_of_lorraine"
+    ],
+    "structural_significance": "The end of the independent Duchy of Burgundy, the most powerful state between France and the Empire; France reabsorbs the duchy proper; the Burgundian Netherlands pass to the Habsburgs via Mary's marriage, creating the Habsburg inheritance that later becomes the Spanish Netherlands; demonstrates the limits of personal dynastic power without institutional continuity",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

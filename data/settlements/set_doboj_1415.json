@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_doboj_1415",
+  "name": "Doboj",
+  "importance": "city",
+  "start_year": 1415,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q169247"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    18.1333,
+    44.7333
+  ]
+}

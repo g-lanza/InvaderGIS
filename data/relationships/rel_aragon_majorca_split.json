@@ -1,0 +1,35 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_aragon_majorca_split",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "crown_of_aragon",
+      "role": "parent"
+    },
+    {
+      "entity_id": "kingdom_of_majorca",
+      "role": "fragment"
+    }
+  ],
+  "directed": true,
+  "type": "fragmentation",
+  "since": 1276,
+  "until": 1276,
+  "note": "James I of Aragon ('the Conqueror') divided his realm among his sons in his will (1262, taking effect 1276): his eldest son Peter inherited Aragon, Valencia, and Catalonia; his younger son James received Majorca, Roussillon, and Montpellier, creating the Kingdom of Majorca. The division reflected James's desire to provide for all his sons rather than maintaining unity. The Kingdom of Majorca proved diplomatically unstable — caught between France and Aragon — and was eventually reabsorbed by Peter IV of Aragon after the Battle of Llucmajor (1349). Roussillon remained contested between France and Aragon.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Majorcan split demonstrates the persistent tension between dynastic division tradition and the need for territorial consolidation; the Kingdom of Majorca's 73-year independent existence as a Catalan-speaking Mediterranean state demonstrates both the viability and fragility of small maritime kingdoms"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

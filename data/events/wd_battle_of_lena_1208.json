@@ -1,0 +1,31 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_lena_1208",
+  "name": "Battle of Lena",
+  "year": 1208,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    60,
+    15
+  ],
+  "entity": "kingdom_of_sweden",
+  "summary": "Battle of Lena (1208 CE), at Kungslena. Source: Wikidata Q367025.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_sweden"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_medieval_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

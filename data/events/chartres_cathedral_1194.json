@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "chartres_cathedral_1194",
+  "name": "Rebuilding of Chartres Cathedral",
+  "year": 1194,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    48.447,
+    1.489
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "After a fire destroyed most of the old cathedral in 1194, Chartres was rebuilt in the High Gothic style over 26 years. The new cathedral pioneered the systematic use of flying buttresses to transfer wall loads outward, permitting the construction of massive stained-glass windows. The north and south rose windows and the three western lancets are among the most complete surviving medieval stained-glass programs. Chartres became the model for Gothic cathedrals across Europe.",
+  "outcomes": [
+    "Gothic style monumentalized in stone",
+    "Flying buttresses allow vast windows",
+    "North and south rose windows installed",
+    "Model for subsequent Gothic cathedrals"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france"
+    ],
+    "structural_significance": "One of the supreme architectural achievements of the Middle Ages; established the High Gothic style that defined European cathedral building for centuries.",
+    "year_range": [
+      1194,
+      1220
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Adams, Mont-Saint-Michel and Chartres",
+      "James, The Contractors of Chartres"
+    ],
+    "confidence": "low"
+  }
+}

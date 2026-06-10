@@ -1,0 +1,42 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "abbasid_golden_age_830",
+  "name": "The Abbasid Golden Age, House of Wisdom",
+  "year": 830,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    33.33,
+    44.4
+  ],
+  "entity": "abbasid_caliphate",
+  "summary": "Caliph al-Mamun (r. 813-833) transforms Baghdad's Bayt al-Hikmah (House of Wisdom) into a systematic translation and research institution. Greek philosophical, scientific, and medical texts, Aristotle, Plato, Galen, Ptolemy, are translated into Arabic by Christian, Jewish, and Muslim scholars. Mathematicians like al-Khwarizmi develop algebra; astronomers refine the astrolabe; physicians expand Galenic medicine. The caliph invites scholars from across the Islamic world and beyond.",
+  "outcomes": [
+    "house_of_wisdom_founded",
+    "greek_texts_translated",
+    "mathematics_medicine_astronomy_advanced"
+  ],
+  "_quarry": {
+    "participants": [
+      "abbasid_caliphate"
+    ],
+    "structural_significance": "The Abbasid translation movement preserves classical knowledge that would otherwise be lost to Western Europe; the algebraic and astronomical works transmitted through Islamic scholars eventually reach Europe via al-Andalus and Sicily, fueling the 12th-century scientific renaissance; Abbasid intellectual prestige shapes Islamic civilization's self-understanding as the inheritor and improver of ancient knowledge",
+    "year_range": [
+      786,
+      861
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_the_2004",
+      "kennedy_when_2004",
+      "crone_gods_2004",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

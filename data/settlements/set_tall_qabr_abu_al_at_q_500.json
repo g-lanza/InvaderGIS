@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_tall_qabr_abu_al_at_q_500",
+  "name": "Tall Qabr Abu al-’Atīq",
+  "importance": "city",
+  "start_year": 500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "inferred",
+    "external_ids": {
+      "pleiades": "943360975"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    39.7854,
+    35.763
+  ]
+}

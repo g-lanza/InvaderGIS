@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_kingdom_of_mercia_642_910",
+  "statement": "Kingdom of Mercia — campaigns and battles spanned 642–910, from Battle of Maserfield to Battle of Tettenhall.",
+  "subject_ids": [
+    "kingdom_of_mercia"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_kingdom_of_mercia_642_910",
+  "period": {
+    "from": 642,
+    "to": 910
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_first_battle_of_st_albans_1455",
+  "name": "First Battle of St Albans",
+  "subtype": "battle",
+  "start_year": 1455,
+  "end_year": 1455,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q842796"
+    }
+  },
+  "description": "Battle during Wars of the Roses (1455)",
+  "coords": [
+    0.339,
+    51.7487
+  ]
+}

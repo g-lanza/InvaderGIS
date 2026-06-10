@@ -1,0 +1,36 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_chauhans_1191_1192",
+  "name": "Chauhans — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1191,
+  "year_end": 1192,
+  "waypoints": [
+    {
+      "year": 1191,
+      "place": "First Battle of Tarain",
+      "coords": [
+        27.718,
+        76.404
+      ],
+      "note": "military",
+      "event_id": "chauhans_1191"
+    },
+    {
+      "year": 1192,
+      "place": "Second Battle of Tarain — Chauhan Defeat",
+      "coords": [
+        27.718,
+        76.404
+      ],
+      "note": "military",
+      "event_id": "chauhans_1192"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

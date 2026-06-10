@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "olaf_tryggvason_norway_995",
+  "name": "Olaf Tryggvason and Norway's Christianization",
+  "year": 995,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    59.91,
+    10.75
+  ],
+  "entity": "kingdom_of_norway",
+  "summary": "Olaf Tryggvason seizes the Norwegian throne and undertakes a violent Christianization campaign, destroying pagan temples, executing holdout pagans, and sending missionaries to Iceland, Greenland, the Faroe Islands, and Orkney. His reign (995-1000) initiates the Christianization of Scandinavia. Though Olaf dies at the Battle of Svolder (1000), his successor Olaf Haraldsson (Saint Olaf) completes the process.",
+  "outcomes": [
+    "norway_forcibly_christianized",
+    "norse_paganism_suppressed",
+    "scandinavia_converts_to_christianity"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_norway"
+    ],
+    "structural_significance": "Norwegian Christianization ends the institutional Norse paganism that had sustained Viking Age culture; Christian conversion brings literacy (from the church), Roman legal concepts, and integration into the European diplomatic network; it also subordinates the Norse kingdoms to Rome's ecclesiastical authority, ending the ideological distinctiveness that had made the Vikings a uniquely disruptive external force",
+    "year_range": [
+      995,
+      1000
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_the_1997",
+      "helle_the_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

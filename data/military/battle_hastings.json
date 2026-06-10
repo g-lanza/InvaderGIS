@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_hastings",
+  "name": "Battle of Hastings",
+  "subtype": "battle",
+  "start_year": 1066,
+  "end_year": 1066,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "Norman conquest of England; William I defeats Harold II",
+  "coords": [
+    0.49,
+    50.912
+  ]
+}

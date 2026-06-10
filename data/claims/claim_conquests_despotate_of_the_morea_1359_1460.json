@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_despotate_of_the_morea_1359_1460",
+  "statement": "Despotate of the Morea — campaigns and battles spanned 1359–1460, from Battle of Megara to Siege of Kastritza.",
+  "subject_ids": [
+    "despotate_of_the_morea"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_despotate_of_the_morea_1359_1460",
+  "period": {
+    "from": 1359,
+    "to": 1460
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

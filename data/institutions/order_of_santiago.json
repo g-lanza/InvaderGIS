@@ -1,0 +1,47 @@
+{
+  "kind": "institution",
+  "dataset": "medieval-europe-500-1500",
+  "id": "order_of_santiago",
+  "name_primary": "Order of Santiago",
+  "domain": "military_order",
+  "formed": 1170,
+  "dissolved": 1500,
+  "_quarry": {
+    "key_developments": [
+      {
+        "year": 1170,
+        "event": "Foundation at Cáceres under Pedro Fernández de Fuentecalada."
+      },
+      {
+        "year": 1175,
+        "event": "Alexander III confirms the order (Benedictus Deus); rule allows married knights."
+      },
+      {
+        "year": 1212,
+        "event": "Order participates in Las Navas de Tolosa."
+      },
+      {
+        "year": 1248,
+        "event": "Conquest of Seville — order receives extensive Andalusian estates."
+      },
+      {
+        "year": 1493,
+        "event": "Ferdinand the Catholic assumes perpetual grand mastership."
+      }
+    ],
+    "influences_entities": [
+      "kingdom_of_leon",
+      "kingdom_of_castile",
+      "crown_of_castile",
+      "kingdom_of_portugal"
+    ],
+    "description": "A Castilian-Leonese military order founded in 1170 at Cáceres under the patronage of Ferdinand II of León, with the dual mission of defending pilgrims on the Camino de Santiago and waging Reconquista warfare. Confirmed by Alexander III's Benedictus Deus (1175). The order's rule allowed married knights — a departure from Templar and Calatrava practice — which made it attractive to the lay frontier nobility. Santiago became one of the largest landholders in León and Castile; like Calatrava, its grand mastership was annexed to the Castilian crown under the Catholic Monarchs in 1493."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley_smith_crusades_2005"
+    ],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "sassanid_capture_jerusalem_614",
+  "name": "Sassanid Capture of Jerusalem",
+  "year": 614,
+  "type": "conquest",
+  "category": "violence",
+  "coords": [
+    31.78,
+    35.22
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Sassanid Persian forces under Khosrow II, aided by Jewish allies, capture Jerusalem after a 21-day siege. The city is sacked, an estimated 57,000 Christians are killed, and the True Cross, the most sacred relic in Christendom, is carried off to Ctesiphon. The event traumatizes Byzantine religious identity and provokes Emperor Heraclius's extraordinary counter-offensive that eventually recovers the relic in 628.",
+  "outcomes": [
+    "true_cross_captured",
+    "byzantine_prestige_devastated",
+    "christian_population_massacred"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire"
+    ],
+    "structural_significance": "The loss of the True Cross is perceived as divine punishment and triggers massive religious reform; Heraclius's subsequent counterattack transforms the Byzantine military and fiscal system; the exhaustion of both Byzantine and Sassanid empires from these wars creates the power vacuum that allows the rapid Arab conquest of both empires within a generation",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

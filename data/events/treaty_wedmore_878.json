@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "treaty_wedmore_878",
+  "name": "Treaty of Wedmore",
+  "year": 878,
+  "type": "treaty",
+  "category": "diplomacy",
+  "coords": [
+    51.23,
+    -2.8
+  ],
+  "entity": "kingdom_of_wessex",
+  "summary": "Following Alfred the Great's victory at the Battle of Edington (May 878), the Danish Great Heathen Army under Guthrum sues for peace. The Treaty of Wedmore (or Peace of Chippenham) requires Guthrum and 30 of his leading men to accept Christian baptism, with Alfred himself as godfather. Guthrum takes the Christian name Æthelstan and withdraws his forces to East Anglia. The formal division of England into Wessex (Alfred's kingdom) and the Danelaw (Norse-ruled territory roughly north and east of Watling Street) follows in subsequent agreements. Alfred's victory and Guthrum's baptism transforms the dynamic from Viking conquest to coexistence.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_wessex",
+      "danelaw"
+    ],
+    "structural_significance": "Creates the Danelaw and the de facto division of England; Guthrum's baptism creates a Christian peace that buys Alfred time to rebuild Wessex; the Danelaw eventually becomes the territory reconquered by Alfred's successors, enabling English unification under Æthelstan",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

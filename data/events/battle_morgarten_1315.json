@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_morgarten_1315",
+  "name": "Battle of Morgarten",
+  "year": 1315,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    47.09,
+    8.77
+  ],
+  "entity": "swiss_confederation",
+  "summary": "Swiss forest canton fighters ambush Duke Leopold I of Austria's cavalry force on a mountain road by Lake Ägeri on November 15, 1315. The Swiss roll boulders and logs down the steep hillside onto the Habsburg column, trapped between the lake and cliffs, then attack with halberds and clubs. The heavily armored knights cannot maneuver; approximately 1,500 Austrians are killed against minimal Swiss losses. The battle forces the Confederation to renew and strengthen the original 1291 pact at Brunnen.",
+  "outcomes": [
+    "habsburg_army_annihilated",
+    "swiss_independence_proven",
+    "pact_brunnen_renewed"
+  ],
+  "_quarry": {
+    "participants": [
+      "swiss_confederation",
+      "duchy_of_austria"
+    ],
+    "structural_significance": "First major test of Swiss Confederation military capability; proves that disciplined infantry in terrain of their choosing can destroy feudal cavalry; establishes the Swiss military reputation that makes their mercenaries the most sought-after in Europe; the victory confirms Swiss autonomy from Habsburg direct rule",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "marchal_schweizer_2006",
+      "rippmann_die_2006"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

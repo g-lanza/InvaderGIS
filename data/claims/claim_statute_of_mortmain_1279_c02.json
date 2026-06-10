@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_statute_of_mortmain_1279_c02",
+  "statement": "The crown's concern behind the Statute of Mortmain was that land granted to perpetual religious bodies drained the king's tenurial and fiscal base.",
+  "subject_ids": [
+    "kingdom_of_england"
+  ],
+  "period": {
+    "from": 1279,
+    "to": 1279
+  },
+  "derived_from": "statute_of_mortmain_1279",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "bartlett_making_of_europe_1993",
+      "morris_papal_monarchy_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

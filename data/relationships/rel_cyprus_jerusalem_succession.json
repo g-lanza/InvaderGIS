@@ -1,0 +1,40 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_cyprus_jerusalem_succession",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_jerusalem",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "kingdom_of_cyprus",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 1192,
+  "until": 1192,
+  "note": "The Kingdom of Cyprus was established by Guy of Lusignan (1192), who received it from Richard I after Richard had seized it en route to the Third Crusade. When Guy died without heirs, Cyprus passed to his brother Aimery (1194), who also became King of Jerusalem (1197) by marrying the heiress Isabella I. The Lusignan dynasty subsequently controlled both kingdoms simultaneously for decades. When Jerusalem fell to Saladin (1187) and was not recovered, Cyprus became the primary Crusader base in the eastern Mediterranean and the refuge for the Palestinian nobility.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Cyprus's role as the successor to the Jerusalem kingdom's institutional continuity preserves Crusader state traditions and legal structures after the Palestinian losses; the Lusignan dynasty's dual rule demonstrates how Crusader dynasties adapted to territorial losses by pivoting to defensible island bases"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

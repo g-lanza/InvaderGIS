@@ -1,0 +1,150 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_khazar_khaganate_627_965",
+  "name": "Khazar Khaganate — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 627,
+  "year_end": 965,
+  "waypoints": [
+    {
+      "year": 627,
+      "place": "Khazar campaigns in Georgia",
+      "coords": [
+        37.9333,
+        42.5667
+      ],
+      "note": "military",
+      "event_id": "wd_khazar_campaigns_in_georgia_627"
+    },
+    {
+      "year": 642,
+      "place": "Arab conquest of Armenia",
+      "coords": [
+        40.5,
+        37.4
+      ],
+      "note": "military",
+      "event_id": "wd_arab_conquest_of_armenia_642"
+    },
+    {
+      "year": 642,
+      "place": "Arab–Khazar Wars",
+      "coords": [
+        37.9333,
+        42.5667
+      ],
+      "note": "military",
+      "event_id": "wd_arab_khazar_wars_642"
+    },
+    {
+      "year": 652,
+      "place": "Battle of Balanjar",
+      "coords": [
+        47,
+        47
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_balanjar_652"
+    },
+    {
+      "year": 722,
+      "place": "Battle of Derbent",
+      "coords": [
+        40.25,
+        41.65
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_derbent_722"
+    },
+    {
+      "year": 723,
+      "place": "Battle of Balanjar",
+      "coords": [
+        40.25,
+        41.65
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_balanjar_723"
+    },
+    {
+      "year": 730,
+      "place": "Battle of Bajarwan",
+      "coords": [
+        40.25,
+        41.65
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_bajarwan_730"
+    },
+    {
+      "year": 732,
+      "place": "Battle of Balanjar",
+      "coords": [
+        40.25,
+        41.65
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_balanjar_732"
+    },
+    {
+      "year": 737,
+      "place": "Battle of Volga River",
+      "coords": [
+        40.25,
+        41.65
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_volga_river_737"
+    },
+    {
+      "year": 800,
+      "place": "Campaign of the mud",
+      "coords": [
+        40.25,
+        41.65
+      ],
+      "note": "military",
+      "event_id": "wd_campaign_of_the_mud_800"
+    },
+    {
+      "year": 830,
+      "place": "Hungarian–Khazar war",
+      "coords": [
+        47,
+        47
+      ],
+      "note": "military",
+      "event_id": "wd_hungarian_khazar_war_830"
+    },
+    {
+      "year": 965,
+      "place": "Sviatoslav of Kiev Destroys Khazar Empire",
+      "coords": [
+        47,
+        47
+      ],
+      "note": "military",
+      "event_id": "khazars_sviatoslav_destroys_965"
+    },
+    {
+      "year": 965,
+      "place": "Sviatoslav I Destroys the Khazar Khaganate",
+      "coords": [
+        47.35,
+        42.97
+      ],
+      "note": "conquest",
+      "event_id": "sviatoslav_khazar_965"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "golden_khazar_1980",
+      "brook_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

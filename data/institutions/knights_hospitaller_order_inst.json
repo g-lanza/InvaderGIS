@@ -1,0 +1,64 @@
+{
+  "kind": "institution",
+  "dataset": "medieval-europe-500-1500",
+  "id": "knights_hospitaller_order_inst",
+  "name_primary": "Knights Hospitaller (Order of Saint John)",
+  "domain": "military_order",
+  "formed": 1099,
+  "dissolved": 1500,
+  "_quarry": {
+    "key_developments": [
+      {
+        "year": 1099,
+        "event": "Original hospice in Jerusalem continues operating after the First Crusade."
+      },
+      {
+        "year": 1113,
+        "event": "Bull Pie postulatio voluntatis recognises the Order; Gerard becomes first Grand Master."
+      },
+      {
+        "year": 1187,
+        "event": "Hattin destroys most Hospitaller field-strength alongside Templars."
+      },
+      {
+        "year": 1291,
+        "event": "Fall of Acre — relocation to Cyprus."
+      },
+      {
+        "year": 1310,
+        "event": "Capture of Rhodes from Byzantine rule — Order becomes sovereign island state."
+      },
+      {
+        "year": 1312,
+        "event": "Inherits most former Templar estates after the latter's suppression."
+      },
+      {
+        "year": 1444,
+        "event": "Successfully repels Mamluk siege of Rhodes."
+      },
+      {
+        "year": 1480,
+        "event": "First Ottoman siege of Rhodes repelled under Pierre d'Aubusson."
+      }
+    ],
+    "influences_entities": [
+      "kingdom_of_jerusalem",
+      "principality_of_antioch",
+      "county_of_tripoli",
+      "kingdom_of_cyprus",
+      "knights_hospitaller_rhodes",
+      "knights_hospitaller_order",
+      "kingdom_of_france",
+      "papal_states"
+    ],
+    "description": "Originally a Benedictine hospice for pilgrims in Jerusalem (founded c.1080), the Hospitallers were militarised after the First Crusade and given papal recognition in 1113. After Acre's fall (1291) they regrouped on Cyprus, then conquered Rhodes from the Byzantines (1310) and held it as a sovereign island state — combining monastic vows, hospital care, and the largest Christian navy in the eastern Mediterranean — until Suleiman the Magnificent took the island in 1522. The Order is unique among medieval institutions for its uninterrupted survival into the present (now the Sovereign Military Order of Malta)."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley_smith_knights_of_malta_2012",
+      "nicholson_knights_hospitaller_2003"
+    ],
+    "confidence": "low"
+  }
+}

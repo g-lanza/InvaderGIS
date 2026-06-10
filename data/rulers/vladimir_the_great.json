@@ -1,0 +1,43 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "vladimir_the_great",
+  "name": "Vladimir the Great",
+  "polity": "kievan_rus",
+  "title": "grand_prince",
+  "reign_start": 980,
+  "reign_end": 1015,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 958,
+      "death_year": 1015
+    },
+    "entity_associations": [
+      {
+        "entity_id": "kievan_rus",
+        "role": "grand_prince",
+        "start_year": 980,
+        "end_year": 1015
+      }
+    ],
+    "key_actions": [
+      {
+        "year": 988,
+        "event": "Mass baptism of Kiev — Orthodox Christianization of Rus'."
+      },
+      {
+        "year": 988,
+        "event": "Marries Anna Porphyrogenita, Basil II's sister."
+      }
+    ],
+    "region": "eastern_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "meyendorff_byzantium_and_rise_of_russia_1981"
+    ],
+    "confidence": "low"
+  }
+}

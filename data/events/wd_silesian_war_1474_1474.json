@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_silesian_war_1474_1474",
+  "name": "Silesian War (1474)",
+  "year": 1474,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    49.2,
+    14.6333
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Silesian War (1474) (1474 CE), at Silesia. Source: Wikidata Q133202478.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "kingdom_of_bohemia",
+      "kingdom_of_hungary"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "anselm_of_canterbury",
+  "name": "Anselm of Canterbury",
+  "polity": "duchy_of_normandy",
+  "title": "abbot",
+  "reign_start": 1078,
+  "reign_end": 1093,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 1033,
+      "death_year": 1109
+    },
+    "entity_associations": [
+      {
+        "entity_id": "duchy_of_normandy",
+        "role": "abbot",
+        "start_year": 1078,
+        "end_year": 1093
+      },
+      {
+        "entity_id": "kingdom_of_england",
+        "role": "archbishop",
+        "start_year": 1093,
+        "end_year": 1109
+      }
+    ],
+    "key_actions": [
+      {
+        "year": 1078,
+        "summary": "Elected abbot of Bec in Normandy, succeeding his teacher Lanfranc.",
+        "source_id": "marenbon_later_medieval_philosophy_1991"
+      },
+      {
+        "year": 1078,
+        "summary": "Composes the Proslogion, containing the 'ontological argument' for the existence of God — the most famous single piece of medieval Latin philosophical reasoning.",
+        "source_id": "marenbon_later_medieval_philosophy_1991"
+      },
+      {
+        "year": 1098,
+        "summary": "Completes Cur Deus Homo (Why God Became Man) in exile in Italy, offering the satisfaction-theory of atonement that becomes standard Latin Christian soteriology.",
+        "source_id": "marenbon_later_medieval_philosophy_1991"
+      }
+    ],
+    "region": "british_isles",
+    "name_variants": [
+      "Anselmo d'Aosta"
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "marenbon_later_medieval_philosophy_1991",
+      "pieper_scholasticism_1960"
+    ],
+    "confidence": "low"
+  }
+}

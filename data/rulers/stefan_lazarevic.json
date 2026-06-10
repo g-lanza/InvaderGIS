@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "stefan_lazarevic",
+  "name": "Stefan Lazarević",
+  "polity": "serbian_despotate",
+  "title": "ruler",
+  "reign_start": 1377,
+  "reign_end": 1427,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "serbian_despotate",
+        "role": "ruler",
+        "start_year": 1377,
+        "end_year": 1427
+      }
+    ],
+    "key_actions": [],
+    "region": "southeastern_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

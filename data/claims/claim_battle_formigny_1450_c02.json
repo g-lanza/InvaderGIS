@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_battle_formigny_1450_c02",
+  "statement": "After Formigny, Normandy surrendered within weeks and England lost its last major French territory outside Gascony.",
+  "subject_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 1450,
+    "to": 1450
+  },
+  "derived_from": "battle_formigny_1450",
+  "unresolved_sources": [
+    "jordan_france_2004"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

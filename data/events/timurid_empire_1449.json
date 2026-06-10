@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "timurid_empire_1449",
+  "name": "Timurid Cultural Renaissance in Herat",
+  "year": 1449,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    39.7,
+    66.9
+  ],
+  "entity": "timurid_empire",
+  "summary": "Sultan-Husayn Bayqara's rule from Herat (1469–1506) represented the cultural zenith of the Timurid dynasty. The court attracted the poet Jami (last of the great Persian classical poets) and the artist Bihzad, whose miniature paintings defined Persian visual art for centuries. The Timurid architectural legacy shaped later Mughal and Safavid art.",
+  "outcomes": [
+    "herat_cultural_centre",
+    "persian_poetry",
+    "miniature_painting"
+  ],
+  "_quarry": {
+    "participants": [
+      "timurid_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "manz_the_1989",
+      "lentz_timur_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_sal_1260",
+  "name": "Battle of Salé",
+  "subtype": "battle",
+  "start_year": 1260,
+  "end_year": 1260,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2388708"
+    }
+  },
+  "description": "Battle during Battle of the Strait (1260)",
+  "coords": [
+    -6.8167,
+    34.05
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_burgundian_civil_war_500_c01",
+  "statement": "Burgundian Civil War (500 CE), at Gallia Lugdunensis (part of Franco-Visigothic Wars).",
+  "subject_ids": [
+    "merovingian_kingdom"
+  ],
+  "period": {
+    "from": 500,
+    "to": 500
+  },
+  "derived_from": "wd_burgundian_civil_war_500",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wood_the_1994",
+      "geary_before_1988"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

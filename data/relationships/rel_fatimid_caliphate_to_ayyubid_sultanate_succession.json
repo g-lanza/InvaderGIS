@@ -1,0 +1,39 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_fatimid_caliphate_to_ayyubid_sultanate_succession",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "fatimid_caliphate",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "ayyubid_sultanate",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 1171,
+  "until": 1171,
+  "note": "Derived from predecessor/successor links recorded in the fatimid_caliphate and ayyubid_sultanate entity records. Transition anchored to ayyubid_sultanate start_year.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Mechanical normalisation of curated predecessor/successor links into the relationships register."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "brett_the_2001",
+      "daftary_the_1990",
+      "ims_fordham",
+      "ims_fordham_sbook1d",
+      "humphreys_from_1977",
+      "lyons_saladin_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

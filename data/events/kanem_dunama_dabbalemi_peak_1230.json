@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kanem_dunama_dabbalemi_peak_1230",
+  "name": "Dunama Dabbalemi Expands Kanem Empire",
+  "year": 1230,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    14.885,
+    16.163
+  ],
+  "entity": "kanem",
+  "summary": "Dunama Dabbalemi (r. 1210-1248) brought Kanem to its greatest territorial extent, controlling the central Saharan trade routes and conducting jihad to expand the empire's reach. He is credited with opening five new caravan routes across the Sahara.",
+  "outcomes": [
+    "kanem_greatest_extent",
+    "trans_saharan_trade_peak",
+    "multiple_capitals"
+  ],
+  "_quarry": {
+    "participants": [
+      "kanem"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

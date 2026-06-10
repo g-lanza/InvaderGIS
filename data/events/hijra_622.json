@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "hijra_622",
+  "name": "The Hijra: Muhammad's Migration to Medina",
+  "year": 622,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    24.5,
+    39.6
+  ],
+  "entity": "rashidun_caliphate",
+  "summary": "Muhammad and his followers migrate from Mecca to Medina (Yathrib), where he is invited to arbitrate tribal disputes. He creates the Constitution of Medina, a remarkable document establishing a multi-religious community under Islamic governance. The Islamic calendar begins from this date. Muhammad rapidly consolidates political and military authority over the Arabian peninsula.",
+  "outcomes": [
+    "umma_community_founded",
+    "islamic_calendar_begins",
+    "medina_constitution"
+  ],
+  "_quarry": {
+    "participants": [
+      "rashidun_caliphate"
+    ],
+    "structural_significance": "Transforms Islam from a spiritual movement to a political community; the Constitution of Medina creates the model of the Islamic state combining religious, military, and civil governance.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

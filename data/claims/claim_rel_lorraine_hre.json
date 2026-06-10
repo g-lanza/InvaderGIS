@@ -1,0 +1,31 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_lorraine_hre",
+  "statement": "Lorraine — the western portion of the old Middle Francia between France and Germany — became a persistent constitutional problem of the Holy Roman Empire. Divided into Upper and Lower Lorraine (959), it was repeatedly contested between France and Germany. The French crown encroached gradually on the western portions; the War of the Breton Succession and later Burgundian Wars saw French influence extend. The imperial side was defended by the German prince-bishops of Metz, Toul, and Verdun. The Three Bishoprics were eventually absorbed by France (Henry II, 1552) though the empire did not formally recognize this until the Peace of Westphalia (1648).",
+  "subject_ids": [
+    "holy_roman_empire",
+    "duchy_of_lorraine"
+  ],
+  "predicate": "vassalage",
+  "derived_from": "rel_lorraine_hre",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "duchy_of_lorraine"
+  ],
+  "period": {
+    "from": 962,
+    "to": 1500
+  }
+}

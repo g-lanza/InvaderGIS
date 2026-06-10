@@ -1,0 +1,31 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "hanseatic_kontor_bergen_1294",
+  "name": "Hanseatic Kontor established at Bergen",
+  "year": 1294,
+  "type": "economic",
+  "category": "economy",
+  "coords": [
+    60.397,
+    5.3242
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "German merchants from Lübeck and other Wendish-circle towns secure formal trading privileges at Bergen, establishing the Bryggen Kontor that gives the Hanseatic League a near-monopoly on Norwegian stockfish and grain trade for the next three centuries.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "kingdom_of_norway"
+    ],
+    "structural_significance": "Western anchor of the Hanseatic distribution system, paired with Bruges in the Low Countries; demonstrates the League's capacity to extract sovereign-style commercial privileges from northern monarchies.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "abu_lughod_before_european_hegemony_1989"
+    ],
+    "confidence": "low"
+  }
+}

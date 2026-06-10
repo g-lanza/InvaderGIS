@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_siege_of_bartenstein_1264",
+  "name": "Siege of Bartenstein",
+  "subtype": "battle",
+  "start_year": 1264,
+  "end_year": 1264,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q7509857"
+    }
+  },
+  "description": "Battle during Prussian uprisings (1264)",
+  "coords": [
+    20.8108,
+    54.2511
+  ]
+}

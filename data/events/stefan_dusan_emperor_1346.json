@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "stefan_dusan_emperor_1346",
+  "name": "Stefan Dušan Crowned Emperor of the Serbs and Greeks",
+  "year": 1346,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    42,
+    21.43
+  ],
+  "entity": "serbian_empire",
+  "summary": "Stefan Dušan, king of Serbia, is crowned 'Emperor of the Serbs and Greeks' at Skopje on Easter 1346, establishing a patriarchate for the Serbian Orthodox Church simultanuously. At its peak, his realm controls most of the Balkan peninsula except Constantinople and Thessaloniki: Albania, Epirus, Macedonia, Thessaly, and much of Greece. Dušan promulgates the Zakonik (Law Code, 1349), a comprehensive legal code modeled partly on Byzantine law that defines medieval Serbian governance. He dreams of conquering Constantinople itself.",
+  "outcomes": [
+    "dusan_proclaimed_emperor",
+    "serbian_empire_at_peak",
+    "byzantine_balkans_largely_conquered"
+  ],
+  "_quarry": {
+    "participants": [
+      "serbian_empire",
+      "byzantine_empire"
+    ],
+    "structural_significance": "The peak of Serbian imperial power; Dušan's sudden death in 1355 without a capable successor causes immediate fragmentation; the weakened Serbian state is unable to resist Ottoman expansion, leading to Kosovo (1389); Dušan's imperial title and legal code establish the juridical and symbolic vocabulary of Serbian national identity for centuries",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fine_the_1987"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

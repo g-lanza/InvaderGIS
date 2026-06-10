@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_battle_rio_salado_1340_c01",
+  "statement": "Alfonso XI of Castile and Afonso IV of Portugal defeated the Marinid sultan Abu al-Hasan and the Nasrid emir of Granada at Río Salado in 1340.",
+  "subject_ids": [
+    "crown_of_castile"
+  ],
+  "period": {
+    "from": 1340,
+    "to": 1340
+  },
+  "derived_from": "battle_rio_salado_1340",
+  "unresolved_sources": [
+    "o'callaghan_a_1975"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

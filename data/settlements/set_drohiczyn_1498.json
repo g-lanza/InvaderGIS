@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_drohiczyn_1498",
+  "name": "Drohiczyn",
+  "importance": "city",
+  "start_year": 1498,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q769631"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    22.65,
+    52.4
+  ]
+}

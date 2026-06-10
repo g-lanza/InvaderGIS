@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kotrag_volga_bulgaria",
+  "name": "Kotrag (legendary)",
+  "polity": "volga_bulgaria",
+  "title": "dynastic_founder",
+  "reign_start": 0,
+  "reign_end": null,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "volga_bulgaria",
+        "role": "dynastic_founder",
+        "start_year": null,
+        "end_year": null
+      }
+    ],
+    "key_actions": [],
+    "region": "eastern_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

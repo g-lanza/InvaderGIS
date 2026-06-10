@@ -1,0 +1,31 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_carolingian_to_middle_francia",
+  "statement": "Middle Francia — the central strip of the Carolingian Empire granted to Emperor Lothair I at Verdun (843) — was an artificial construct with no ethnic, geographic, or linguistic coherence. It stretched from the North Sea to central Italy, encompassing Lorraine, Burgundy, Provence, and the Italian peninsula. After Lothair I's death (855), Middle Francia was partitioned among his three sons: Italy, Provence, and Lorraine (Francia Media). The instability of this middle zone — contested between France and Germany — created the perpetually disputed territories of Lorraine, Burgundy, the Low Countries, and northern Italy.",
+  "subject_ids": [
+    "carolingian_empire",
+    "middle_francia"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_carolingian_to_middle_francia",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "mckitterick_charlemagne_2008",
+      "riché_the_1993",
+      "nelson_king_2019",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "middle_francia"
+  ],
+  "period": {
+    "from": 843,
+    "to": 843
+  }
+}

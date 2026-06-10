@@ -1,0 +1,31 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "medici_bank_founded_1397",
+  "name": "Medici Bank founded at Florence",
+  "year": 1397,
+  "type": "economic",
+  "category": "economy",
+  "coords": [
+    43.7696,
+    11.2558
+  ],
+  "entity": "republic_of_florence",
+  "summary": "Giovanni di Bicci de' Medici founds the Banco Medici in Florence on 1 October 1397, opening branches in Rome, Venice, and Geneva. The bank's holding-company structure of partially-independent branches becomes the template for early modern multinational banking.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_florence"
+    ],
+    "structural_significance": "Replaces the failed Bardi/Peruzzi 'super-companies' with a limited-liability partnership architecture; the Medici Bank's tight alliance with the papacy underpins the family's rise to political control of Florence.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lopez_commercial_revolution_1971",
+      "abulafia_great_sea_2011"
+    ],
+    "confidence": "low"
+  }
+}

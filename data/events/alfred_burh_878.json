@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "alfred_burh_878",
+  "name": "Alfred's burh system",
+  "year": 878,
+  "type": "expansion_milestone",
+  "category": "discovery",
+  "coords": [
+    51.06,
+    -1.31
+  ],
+  "entity": "kingdom_of_wessex",
+  "summary": "After Alfred the Great's victory at the Battle of Edington (878) and the Treaty of Wedmore that created the Danelaw, Alfred reorganizes Wessex's defense around a systematic network of fortified towns (burhs). Approximately 33 burhs are established, spaced so no point in Wessex is more than 20 miles from a fortification. Each burh requires a garrison proportional to its defensive perimeter. The Burghal Hidage (document c.919) records the system. Combined with a reformed naval force and the reconstituted fyrd, the burh system transforms Wessex from a reactive to a proactive defender against Danish raids.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_wessex"
+    ],
+    "structural_significance": "Creates the defensive infrastructure that enables the reconquest of the Danelaw; establishes urban centers that become the economic foundation of medieval England; models a new theory of territorial defense",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

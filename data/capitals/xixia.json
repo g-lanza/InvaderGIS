@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "xixia",
+  "name": "Yinchuan",
+  "entity_id": "xixia",
+  "entity_name": "Western Xia",
+  "start_year": 1038,
+  "end_year": 1227,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q7427"
+    }
+  },
+  "coords": [
+    106.225,
+    38.485
+  ]
+}

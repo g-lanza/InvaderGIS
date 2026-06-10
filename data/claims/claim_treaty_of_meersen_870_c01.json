@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_treaty_of_meersen_870_c01",
+  "statement": "On the death of Lothair II without legitimate heirs in 870, his uncles Louis the German and Charles the Bald divided his Middle-Frankish realm (Lotharingia) between them.",
+  "subject_ids": [
+    "east_francia"
+  ],
+  "period": {
+    "from": 870,
+    "to": 870
+  },
+  "derived_from": "treaty_of_meersen_870",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

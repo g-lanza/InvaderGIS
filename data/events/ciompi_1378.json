@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ciompi_1378",
+  "name": "Ciompi Revolt",
+  "year": 1378,
+  "type": "rebellion",
+  "category": "violence",
+  "coords": [
+    43.77,
+    11.25
+  ],
+  "entity": "republic_of_florence",
+  "summary": "In July 1378, the wool-workers (ciompi) of Florence, the lowest guild workers, excluded from political representation, revolt against the city's guild oligarchy. Led by a wool carder named Michele di Lando, they seize the Palazzo della Signoria and establish a brief worker-led government (July–September 1378). Three new guilds are created for previously unrepresented workers. The oligarchic guilds unite to suppress the rebellion; within three months the ciompi guilds are dissolved. The revolt is the most radical popular uprising in 14th-century Italy and directly influences political theory on popular sovereignty.",
+  "outcomes": [
+    "workshop_guilds_uprising"
+  ],
+  "_quarry": {
+    "participants": [
+      "republic_of_florence"
+    ],
+    "structural_significance": "First major artisan-class uprising in medieval European city politics; brief experiment in worker governance decades before equivalent European movements; stimulates debates about guild representation and popular sovereignty that influence later political thought",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "najemy_a_2006",
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

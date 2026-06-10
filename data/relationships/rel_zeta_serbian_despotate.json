@@ -1,0 +1,35 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_zeta_serbian_despotate",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "principality_of_zeta",
+      "role": "principal"
+    },
+    {
+      "entity_id": "serbian_despotate",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 1402,
+  "until": 1459,
+  "note": "Zeta (Montenegro) maintained a complex relationship with the Serbian Despotate (1402–1459) under the Lazarević and Branković dynasties. The Zeta lords (Balšić, then Crnojević) periodically acknowledged Serbian Despotat suzerainty while maintaining effective independence. After the fall of the Despotate (Smederevo, 1459), Zeta under the Crnojević family became the last organized Serbian Christian resistance to Ottoman conquest — a role it maintained through its mountain geography, Venetian coastal support, and distance from the main Ottoman axes of advance.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Zeta's survival after the Despotate's fall creates the continuity of Serbian Christian statehood in the mountains of Montenegro; the Crnojević lords' establishment of the printing press (1494) and the Prince-Bishop governance model creates the institutional foundation for Montenegrin distinctiveness"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

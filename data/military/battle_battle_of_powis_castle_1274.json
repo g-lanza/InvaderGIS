@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_powis_castle_1274",
+  "name": "Battle of Powis Castle",
+  "subtype": "battle",
+  "start_year": 1274,
+  "end_year": 1274,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q61314454"
+    }
+  },
+  "description": "Battle during Norman Invasion of Wales (1274)",
+  "coords": [
+    -3.1583,
+    52.6506
+  ]
+}

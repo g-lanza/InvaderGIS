@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "prussians_1283",
+  "name": "Prussians Finally Subdued",
+  "year": 1283,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    54.237,
+    20.227
+  ],
+  "entity": "prussians",
+  "summary": "By 1283 the Teutonic Order completed its conquest of the Baltic Prussian tribes, ending native Prussian independence after half a century of resistance. The Prussian language became extinct by the 18th century as German colonists replaced or assimilated the indigenous population, though the name 'Prussia' persisted to denominate the German state.",
+  "outcomes": [
+    "prussian_independence_ends",
+    "germanisation_begins",
+    "christianisation"
+  ],
+  "_quarry": {
+    "participants": [
+      "prussians",
+      "teutonic_order_state"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

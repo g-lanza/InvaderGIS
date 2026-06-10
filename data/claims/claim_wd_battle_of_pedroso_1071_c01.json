@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_pedroso_1071_c01",
+  "statement": "Battle of Pedroso (1071 CE), at Freguesia de Pedroso.",
+  "subject_ids": [
+    "kingdom_of_galicia"
+  ],
+  "period": {
+    "from": 1071,
+    "to": 1071
+  },
+  "derived_from": "wd_battle_of_pedroso_1071",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

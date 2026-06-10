@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_carolingian_renaissance_790_c01",
+  "statement": "Alcuin of York directed Charlemagne's palace school at Aachen and oversaw a systematic recovery of classical Latin learning.",
+  "subject_ids": [
+    "carolingian_empire"
+  ],
+  "period": {
+    "from": 790,
+    "to": 790
+  },
+  "derived_from": "carolingian_renaissance_790",
+  "unresolved_sources": [
+    "riché_the_1993"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "mckitterick_charlemagne_2008",
+      "nelson_king_2019"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

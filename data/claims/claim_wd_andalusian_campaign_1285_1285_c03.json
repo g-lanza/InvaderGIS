@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_andalusian_campaign_1285_1285_c03",
+  "statement": "The 1285 Andalusian campaign was part of the Battle of the Strait.",
+  "subject_ids": [
+    "crown_of_castile"
+  ],
+  "period": {
+    "from": 1285,
+    "to": 1285
+  },
+  "derived_from": "wd_andalusian_campaign_1285_1285",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "o'callaghan_a_1975",
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

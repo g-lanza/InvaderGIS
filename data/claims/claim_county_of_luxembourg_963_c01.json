@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_county_of_luxembourg_963_c01",
+  "statement": "Count Siegfried of the Ardennes received the castle of Lucilinburhuc in 963, founding the County of Luxembourg.",
+  "subject_ids": [
+    "county_of_luxembourg"
+  ],
+  "period": {
+    "from": 963,
+    "to": 963
+  },
+  "derived_from": "county_of_luxembourg_963",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

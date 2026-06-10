@@ -1,0 +1,30 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_castile_to_crown_castile",
+  "statement": "The 'Crown of Castile' as a formal constitutional entity emerged from the permanent union of Castile and León under Fernando III (1230) and the subsequent integration of Murcia (1243), Seville (1248), and Cádiz (1262). The Crown's institutions — the Castilian Cortes, the chancillería, the royal council — developed throughout the 13th–14th centuries into a sophisticated royal administration. The Crown passed through the Castilian Trastámara dynasty (from 1369) before reaching Isabel I (1474), whose marriage to Ferdinand of Aragon (1469) created the personal union that became Spain.",
+  "subject_ids": [
+    "kingdom_of_castile",
+    "crown_of_castile"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_castile_to_crown_castile",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "o'callaghan_a_1975",
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "crown_of_castile"
+  ],
+  "period": {
+    "from": 1230,
+    "to": 1230
+  }
+}

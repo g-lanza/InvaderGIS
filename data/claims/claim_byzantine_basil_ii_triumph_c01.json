@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_byzantine_basil_ii_triumph_c01",
+  "statement": "By 1018 Basil II had fully incorporated Bulgaria into the Byzantine Empire for the first time since 681.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 1018,
+    "to": 1018
+  },
+  "derived_from": "byzantine_basil_ii_triumph",
+  "unresolved_sources": [
+    "treadgold_a_1997",
+    "kazhdan_the_1991"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "haldon_byzantium_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

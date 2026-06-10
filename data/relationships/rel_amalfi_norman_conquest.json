@@ -1,0 +1,35 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_amalfi_norman_conquest",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "duchy_of_amalfi",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "kingdom_of_sicily_norman",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 1073,
+  "until": 1073,
+  "note": "Amalfi — one of the four Italian maritime republics (with Venice, Genoa, and Pisa) — was absorbed into the Norman Kingdom of Sicily after Robert Guiscard's conquest of southern Italy. Amalfi had been a nominally Byzantine city-state that built its commercial empire on trade between the Islamic world, Byzantium, and Western Europe; its merchants established trading posts throughout the Mediterranean and the Black Sea. Norman conquest (1073, formalized 1131) ended Amalfi's independent commercial role; Pisa's subsequent sack (1135) destroyed the city as a commercial power. Amalfi's practical contribution — the maritime code Tabula Amalfitana, the compass — outlasted the city-state.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Amalfi's absorption ends the southernmost Italian maritime republic; the Norman conquest demonstrates that small city-states dependent on trade cannot survive without military protection; the Tabula Amalfitana (maritime law code) becomes the foundation of Mediterranean maritime law"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

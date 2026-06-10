@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_jaworzno_1229",
+  "name": "Jaworzno",
+  "importance": "city",
+  "start_year": 1229,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q158006"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    19.275,
+    50.2
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "lombard_conversion_603",
+  "name": "Lombard Conversion to Catholicism",
+  "year": 603,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    45.47,
+    9.19
+  ],
+  "entity": "lombard_kingdom",
+  "summary": "The Lombard Queen Theodelinda, encouraged by Pope Gregory the Great, brings the Lombard kingdom toward Catholic Christianity from Arianism. Gregory's gifts and correspondence with the queen (preserved in his Epistulae) demonstrate pastoral diplomacy. The conversion is gradual, the Lombard nobility remains largely Arian for another generation, but it ends the religious division that had made coexistence with the Roman population impossible.",
+  "outcomes": [
+    "lombards_convert_catholicism",
+    "gregory_i_mission_success",
+    "italy_peace_possible"
+  ],
+  "_quarry": {
+    "participants": [
+      "lombard_kingdom",
+      "papal_states"
+    ],
+    "structural_significance": "The Lombard conversion is part of Gregory I's systematic program of converting Germanic peoples through political elites; this top-down conversion strategy (later used in Scandinavia, Poland, Hungary) is the model for medieval missionary activity; the conversion eventually enables the Norman-Lombard synthesis in southern Italy and the peaceful absorption of Lombard Italy into the Carolingian empire",
+    "year_range": [
+      590,
+      616
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "deacon_history_1907",
+      "christie_the_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

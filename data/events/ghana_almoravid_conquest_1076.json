@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ghana_almoravid_conquest_1076",
+  "name": "Almoravid Conquest of Ghana",
+  "year": 1076,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    16.104,
+    -8.96
+  ],
+  "entity": "ghana",
+  "summary": "Almoravid forces under Abu Bakr ibn Umar sacked Kumbi Saleh, the capital of the Ghana Empire. Although Ghana recovered briefly, the conquest destroyed its political foundations and accelerated the Islamisation of West African rulers.",
+  "outcomes": [
+    "ghana_sacked",
+    "ghana_weakened",
+    "islamisation_accelerated"
+  ],
+  "_quarry": {
+    "participants": [
+      "ghana"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "house_of_wisdom_baghdad_830",
+  "name": "The Abbasid translation movement at the House of Wisdom",
+  "year": 830,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    33.34,
+    44.4
+  ],
+  "entity": "abbasid_caliphate",
+  "summary": "Caliph al-Maʾmūn institutionalises the systematic translation of Greek philosophical, mathematical, medical, and astronomical texts into Arabic at Baghdad. Translators (Hunayn ibn Ishaq, Thabit ibn Qurra) work from Greek and Syriac sources; original research follows (Khwārizmī's algebra, Khwārizmī's astronomical tables).",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "abbasid_caliphate"
+    ],
+    "structural_significance": "Preserves most surviving classical Greek scientific writing, particularly Aristotle, Euclid, Ptolemy, Galen, and dramatically advances it. The Arabic corpus becomes the basis of the 12th-13th-century Latin translation movement (Toledo, Sicily) that drives the rise of European universities.",
+    "year_range": [
+      786,
+      870
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_the_2004",
+      "kennedy_when_2004",
+      "crone_gods_2004",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_lyskovo_1410",
+  "name": "Lyskovo",
+  "importance": "city",
+  "start_year": 1410,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q157764"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    45.0253,
+    56.0128
+  ]
+}

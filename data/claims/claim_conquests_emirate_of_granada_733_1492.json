@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_emirate_of_granada_733_1492",
+  "statement": "Emirate of Granada — campaigns and battles spanned 733–1492, from Reconquista to Fall of Granada.",
+  "subject_ids": [
+    "emirate_of_granada"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_emirate_of_granada_733_1492",
+  "period": {
+    "from": 733,
+    "to": 1492
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "harvey_islamic_1990",
+      "fernández-puertas_the_1997"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

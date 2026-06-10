@@ -1,0 +1,41 @@
+{
+  "kind": "technology",
+  "dataset": "medieval-europe-500-1500",
+  "id": "papermaking",
+  "name_primary": "Papermaking",
+  "domain": "writing",
+  "origin": {
+    "place": "Samarkand (via Battle of Talas captives from China)",
+    "year": 751
+  },
+  "materials": [
+    "hemp",
+    "linen rags",
+    "water",
+    "wooden frames",
+    "reed matting"
+  ],
+  "diffusion": [
+    "Samarkand",
+    "Baghdad",
+    "Abbasid Caliphate",
+    "Fatimid Egypt",
+    "Al-Andalus",
+    "Norman Sicily",
+    "Crown of Castile",
+    "Holy Roman Empire",
+    "Italian city-states"
+  ],
+  "_quarry": {
+    "description": "According to the 11th-century Persian historian al-Thaʿalabi, Chinese craftsmen captured at the Battle of Talas (751 CE) introduced papermaking to Samarkand; a Baghdad mill is first attested in 793 CE under Harun al-Rashid. From Iberia and Sicily the technology entered Latin Europe by the late 12th century, with the first European mill established at Xativa (Valencia) c. 1150. The shift from parchment to paper dramatically reduced the cost of written documents and enabled the later expansion of literacy and print."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "bloom_history_2001",
+      "britannica_papermaking"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

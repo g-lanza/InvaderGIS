@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "bartholomew_diaz_cape_1488",
+  "name": "Bartholomew Dias Rounds the Cape of Good Hope",
+  "year": 1488,
+  "type": "exploration",
+  "category": "discovery",
+  "coords": [
+    -34.4,
+    18.5
+  ],
+  "entity": "kingdom_of_portugal",
+  "summary": "Portuguese explorer Bartolomeu Dias rounds the southernmost tip of Africa, the Cape of Good Hope, proving that the Atlantic and Indian Oceans are connected and that a sea route to India exists. Dias named it \"Cape of Storms\"; King João II renamed it \"Cape of Good Hope\" for what it promised. The route enables Vasco da Gama's voyage of 1498.",
+  "outcomes": [
+    "africa_circumnavigated",
+    "india_route_opened",
+    "ottoman_trade_threatened"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_portugal"
+    ],
+    "structural_significance": "Proves the viability of the sea route to India; enables Portugal's domination of the Indian Ocean trade that begins with da Gama; the route bypasses the Ottoman-controlled eastern Mediterranean, redirecting global trade.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

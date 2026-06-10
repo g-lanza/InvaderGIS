@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "boniface_i_montferrat",
+  "name": "Boniface I of Montferrat",
+  "polity": "kingdom_of_thessalonica",
+  "title": "dynastic_founder",
+  "reign_start": 1150,
+  "reign_end": 1207,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "kingdom_of_thessalonica",
+        "role": "dynastic_founder",
+        "start_year": 1150,
+        "end_year": 1207
+      }
+    ],
+    "key_actions": [],
+    "region": "southeastern_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "golden_bull_hungary_1222",
+  "name": "Golden Bull of Hungary",
+  "year": 1222,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    47.19,
+    18.41
+  ],
+  "entity": "kingdom_of_hungary",
+  "summary": "Andrew II of Hungary issues the Golden Bull of 1222 under pressure from rebellious Hungarian nobles, codifying their rights and limiting royal authority. The document grants nobles exemption from taxation, prohibits their arbitrary arrest, restricts royal grants of land to foreigners, and crucially grants the right of resistance (ius resistendi), nobles may defy the king if he violates the charter without being guilty of treason. Often compared to Magna Carta (1215), the Golden Bull becomes the constitutional foundation of Hungarian noble privilege for centuries.",
+  "outcomes": [
+    "noble_rights_codified",
+    "royal_prerogative_limited",
+    "right_of_resistance_established"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_hungary"
+    ],
+    "structural_significance": "Constitutional milestone limiting Hungarian royal authority; the ius resistendi provision justifies later noble rebellions and confederations; confirmed and expanded in subsequent centuries, the Golden Bull remains theoretically in force until 1687; establishes Hungary's tradition of noble self-governance that shapes its later history",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "engel_the_2001",
+      "berend_at_2001"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

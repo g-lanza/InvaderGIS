@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_bolnisi_1228",
+  "name": "Battle of Bolnisi",
+  "year": 1228,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41.72,
+    44.8
+  ],
+  "entity": "kingdom_of_georgia",
+  "summary": "Battle of Bolnisi (1228 CE), at Bolnisi (part of Khwarazmian campaigns in Georgia). Source: Wikidata Q16366324.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_georgia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

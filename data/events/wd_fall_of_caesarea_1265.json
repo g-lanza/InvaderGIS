@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_fall_of_caesarea_1265",
+  "name": "Fall of Caesarea",
+  "year": 1265,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    30,
+    31.2
+  ],
+  "entity": "mamluk_sultanate",
+  "summary": "Fall of Caesarea (1265 CE), at Caesarea (part of Fall of Outremer). Source: Wikidata Q5432147.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "mamluk_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "irwin_the_1986",
+      "northrup_from_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

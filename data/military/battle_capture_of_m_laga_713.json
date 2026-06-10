@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_capture_of_m_laga_713",
+  "name": "Capture of Málaga",
+  "subtype": "battle",
+  "start_year": 713,
+  "end_year": 713,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q9088133"
+    }
+  },
+  "description": "Battle during Umayyad conquest of Hispania (713)",
+  "coords": [
+    -4.4167,
+    36.7167
+  ]
+}

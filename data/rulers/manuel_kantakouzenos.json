@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "manuel_kantakouzenos",
+  "name": "Manuel Kantakouzenos",
+  "polity": "despotate_of_the_morea",
+  "title": "ruler",
+  "reign_start": 1349,
+  "reign_end": 1380,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "despotate_of_the_morea",
+        "role": "ruler",
+        "start_year": 1349,
+        "end_year": 1380
+      }
+    ],
+    "key_actions": [],
+    "region": "southeastern_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

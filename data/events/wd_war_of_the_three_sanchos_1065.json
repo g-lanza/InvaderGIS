@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_war_of_the_three_sanchos_1065",
+  "name": "War of the Three Sanchos",
+  "year": 1065,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41.35,
+    -2.45
+  ],
+  "entity": "kingdom_of_castile",
+  "summary": "War of the Three Sanchos (1065 CE), at La Rioja. Source: Wikidata Q1218354.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_castile",
+      "kingdom_of_aragon"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

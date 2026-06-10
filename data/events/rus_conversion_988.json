@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rus_conversion_988",
+  "name": "Christianization of Rus'",
+  "year": 988,
+  "type": "religious_council",
+  "category": "religion",
+  "coords": [
+    50.45,
+    30.52
+  ],
+  "entity": "kievan_rus",
+  "summary": "Prince Vladimir I of Kievan Rus, after reportedly sending envoys to investigate Islam, Judaism, Western Christianity, and Byzantine Orthodoxy, accepts Byzantine Christianity and is baptized at Chersonesus (Kherson, Crimea). He marries Byzantine Princess Anna, the first such dynastic marriage between Rus and Byzantium, and returns to Kiev, where he orders the mass baptism of the population in the Dnieper River. The Baptism of Rus aligns the largest state in northern Eurasia with Byzantine civilization rather than Latin Europe.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kievan_rus",
+      "byzantine_empire"
+    ],
+    "structural_significance": "Aligns Kievan Rus with Byzantine Orthodox civilization; establishes the Orthodox Church as the central institution of Russian culture; creates the ecclesiastical link that eventually makes Moscow the 'Third Rome'",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "franklin_the_1996",
+      "riasanovsky_a_2000",
+      "martin_medieval_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_kingdom_of_deheubarth_to_principality_of_wales_fragmentation",
+  "statement": "Derived from predecessor/successor links recorded in the kingdom_of_deheubarth and principality_of_wales entity records. Transition anchored to principality_of_wales start_year.",
+  "subject_ids": [
+    "kingdom_of_deheubarth",
+    "principality_of_wales"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_kingdom_of_deheubarth_to_principality_of_wales_fragmentation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "principality_of_wales"
+  ],
+  "period": {
+    "from": 1216,
+    "to": 1216
+  }
+}

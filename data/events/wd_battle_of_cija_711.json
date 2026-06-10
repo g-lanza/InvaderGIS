@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_cija_711",
+  "name": "Battle of Écija",
+  "year": 711,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    36.95,
+    16.3
+  ],
+  "entity": "visigothic_kingdom",
+  "summary": "Battle of Écija (711 CE), at Écija (part of Umayyad conquest of Hispania). Source: Wikidata Q133799914.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "visigothic_kingdom",
+      "umayyad_caliphate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "collins_visigothic_2004",
+      "thompson_the_1969"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

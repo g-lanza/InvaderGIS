@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "templars_suppression_1307",
+  "name": "Suppression of the Knights Templar",
+  "year": 1307,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    48.853,
+    2.35
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Philip IV of France, heavily indebted to the Templars and coveting their wealth, pressured Pope Clement V to authorize mass arrests of Templars in France on 13 October 1307. Under torture, many confessed to heresy, apostasy, and obscene rituals. At the Council of Vienne in 1312 the Order was suppressed. Grand Master Jacques de Molay was burned at the stake in 1314, reportedly cursing the king and pope.",
+  "outcomes": [
+    "Templar leaders arrested on heresy charges",
+    "Order dissolved by Council of Vienne 1312",
+    "Templar assets transferred to Hospitallers",
+    "Jacques de Molay burned 1314"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "papal_states"
+    ],
+    "structural_significance": "Ended the most powerful military-banking institution of the Crusading era; demonstrated the capacity of the French monarchy to coerce the papacy.",
+    "year_range": [
+      1307,
+      1312
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Barber, The Trial of the Templars",
+      "Nicholson, The Knights Templar"
+    ],
+    "confidence": "low"
+  }
+}

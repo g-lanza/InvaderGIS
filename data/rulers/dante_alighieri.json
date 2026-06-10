@@ -1,0 +1,54 @@
+{
+ "kind": "ruler",
+ "dataset": "medieval-europe-500-1500",
+ "id": "dante_alighieri",
+ "name": "Dante Alighieri",
+ "polity": "republic_of_florence",
+ "title": "administrator",
+ "reign_start": 1300,
+ "reign_end": 1302,
+ "_quarry": {
+  "lifespan": {
+   "birth_year": 1265,
+   "death_year": 1321
+  },
+  "entity_associations": [
+   {
+    "entity_id": "republic_of_florence",
+    "role": "administrator",
+    "start_year": 1300,
+    "end_year": 1302
+   }
+  ],
+  "key_actions": [
+   {
+    "year": 1300,
+    "summary": "Serves as one of the six priors of Florence (June–August 1300); aligns with the White Guelphs.",
+    "source_id": "le_goff_medieval_civilization_1988"
+   },
+   {
+    "year": 1302,
+    "summary": "Condemned to exile in absentia by the Black Guelph faction; never returns to Florence.",
+    "source_id": "le_goff_medieval_civilization_1988"
+   },
+   {
+    "year": 1320,
+    "summary": "Completes the Paradiso, the third canticle of the Divine Comedy, in his Ravenna exile shortly before his death (September 1321).",
+    "source_id": "le_goff_medieval_civilization_1988"
+   }
+  ],
+  "region": "italy",
+  "name_variants": [
+   "Durante di Alighiero degli Alighieri"
+  ]
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "le_goff_medieval_civilization_1988",
+   "ims_fordham",
+   "ims_fordham_sbook1x"
+  ],
+  "confidence": "low"
+ }
+}

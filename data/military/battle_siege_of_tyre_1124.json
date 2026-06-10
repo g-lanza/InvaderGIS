@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_siege_of_tyre_1124",
+  "name": "Siege of Tyre",
+  "subtype": "battle",
+  "start_year": 1124,
+  "end_year": 1124,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q51933216"
+    }
+  },
+  "description": "Battle during Venetian Crusade (1124)",
+  "coords": [
+    35.2,
+    33.2667
+  ]
+}

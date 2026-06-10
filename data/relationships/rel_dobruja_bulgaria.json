@@ -1,0 +1,36 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_dobruja_bulgaria",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "second_bulgarian_empire",
+      "role": "parent"
+    },
+    {
+      "entity_id": "despotate_of_dobruja",
+      "role": "fragment"
+    }
+  ],
+  "directed": true,
+  "type": "fragmentation",
+  "since": 1356,
+  "until": 1356,
+  "note": "Dobruja (the territory between the Danube delta and the Black Sea, modern northeastern Bulgaria and eastern Romania) was a distinct sub-region of the Second Bulgarian Empire, sometimes ruled by semi-autonomous Dobrotiтsi (Dobrotitsa) princes. After the Bulgarian tsars' power declined in the early 14th century, Dobrotitsa (ruled c. 1347–1386) governed Dobruja effectively independently, allied with Genoa, issuing his own coinage and conducting foreign policy. His successor Ivanko submitted to Wallachia's Mircea the Elder before Ottoman conquest (1393–1396) absorbed the region.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Dobruja's semi-autonomous status within the declining Bulgarian Empire demonstrates the pattern of regional fragmentation that preceded Ottoman conquest; Dobrotitsa's alliance with Genoa shows the Black Sea commercial network's extension to the smallest political actors"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fine_the_1987",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

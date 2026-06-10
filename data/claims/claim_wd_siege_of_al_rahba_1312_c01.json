@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_al_rahba_1312_c01",
+  "statement": "Siege of Al-Rahba (1312 CE), (part of Mongol invasions of the Levant).",
+  "subject_ids": [
+    "ilkhanate"
+  ],
+  "period": {
+    "from": 1312,
+    "to": 1312
+  },
+  "derived_from": "wd_siege_of_al_rahba_1312",
+  "unresolved_sources": [
+    "jackson_the_2005"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "amitai-preiss_mongols_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

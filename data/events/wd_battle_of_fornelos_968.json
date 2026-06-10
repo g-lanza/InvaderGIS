@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_fornelos_968",
+  "name": "Battle of Fornelos",
+  "year": 968,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    42.88,
+    -8.55
+  ],
+  "entity": "kingdom_of_galicia",
+  "summary": "Battle of Fornelos (968 CE), (part of Vikings in Galicia). Source: Wikidata Q3328613.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_galicia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

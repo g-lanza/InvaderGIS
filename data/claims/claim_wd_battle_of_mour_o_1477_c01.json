@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_mour_o_1477_c01",
+  "statement": "Battle of Mourão (1477 CE), at Mourão (part of War of the Castilian Succession).",
+  "subject_ids": [
+    "kingdom_of_portugal"
+  ],
+  "period": {
+    "from": 1477,
+    "to": 1477
+  },
+  "derived_from": "wd_battle_of_mour_o_1477",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "krakow_university_1364",
+  "name": "Foundation of Kraków University",
+  "year": 1364,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    50.06,
+    19.94
+  ],
+  "entity": "kingdom_of_poland_piast",
+  "summary": "King Casimir III the Great founds the University of Kraków (1364), the second university in Central Europe after Prague's Charles University (1348). Though it lapes after Casimir's death, it is re-founded in 1400 by Queen Jadwiga (who donates her personal jewelry for its endowment). Nicholas Copernicus studies there (1491-1495), laying the foundation for his heliocentric theory.",
+  "outcomes": [
+    "university_founded",
+    "polish_learning_institutionalized",
+    "copernicus_later_studies_there"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_poland_piast"
+    ],
+    "structural_significance": "The Kraków university demonstrates the Piast dynasty's ambition to create institutional foundations for Polish statehood that survive individual rulers; the university's eventual revival under Jadwiga illustrates how royal patronage sustains institutional continuity; Copernicus's education at Kraków before his work in Italy shows how the Polish educational system was integrated into European humanist networks",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "davies_gods_1981",
+      "knoll_the_1972"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

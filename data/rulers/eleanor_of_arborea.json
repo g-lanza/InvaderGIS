@@ -1,0 +1,33 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "eleanor_of_arborea",
+  "name": "Eleanor of Arborea",
+  "polity": "judicate_of_arborea",
+  "title": "ruler",
+  "reign_start": 1347,
+  "reign_end": 1404,
+  "succeeds": "ugone_ii_arborea",
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "judicate_of_arborea",
+        "role": "ruler",
+        "start_year": 1347,
+        "end_year": 1404
+      }
+    ],
+    "key_actions": [],
+    "region": "italy",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

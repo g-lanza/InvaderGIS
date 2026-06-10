@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_legnica_1241",
+  "name": "Battle of Legnica",
+  "year": 1241,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    51.21,
+    16.17
+  ],
+  "entity": "mongol_empire",
+  "summary": "Batu Khan's western detachment under Baidar and Kadan defeats a combined Polish, German, and Teutonic Knight force under Henry II of Silesia at Legnica (Liegnitz) on April 9, 1241, the same day as the Mongol main force's victory at Mohi in Hungary. Henry II is killed and his head displayed on a lance. The Mongols then decline to press further west, turning south through Moravia and eventually withdrawing east after the death of Great Khan Ögedei. Medieval chroniclers credited the victory at Legnica with saving Western Europe from Mongol conquest.",
+  "outcomes": [
+    "polish_german_army_annihilated",
+    "henry_ii_silesia_killed",
+    "mongols_halt_advance"
+  ],
+  "_quarry": {
+    "participants": [
+      "mongol_empire",
+      "kingdom_of_poland_piast",
+      "holy_roman_empire",
+      "teutonic_order_state"
+    ],
+    "structural_significance": "Demonstrates the total military helplessness of European feudal armies against Mongol tactics; only Ögedei's death and the need to return east halts the invasion; confirms that no western European polity could individually stop a Mongol advance; accelerates construction of stone fortifications across Central Europe",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

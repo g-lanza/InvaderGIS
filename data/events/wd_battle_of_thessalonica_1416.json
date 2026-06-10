@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_thessalonica_1416",
+  "name": "Battle of Thessalonica",
+  "year": 1416,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    42.1333,
+    27.9667
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Battle of Thessalonica (1416 CE), at Thessaloniki. Source: Wikidata Q137393345.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "ottoman_empire",
+      "principality_of_wallachia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

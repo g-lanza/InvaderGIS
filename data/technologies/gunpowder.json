@@ -1,0 +1,39 @@
+{
+  "kind": "technology",
+  "dataset": "medieval-europe-500-1500",
+  "id": "gunpowder",
+  "name_primary": "Gunpowder",
+  "domain": "military",
+  "origin": {
+    "place": "Tang dynasty China",
+    "year": 850
+  },
+  "materials": [
+    "potassium nitrate (saltpetre)",
+    "charcoal",
+    "sulfur"
+  ],
+  "diffusion": [
+    "Tang China",
+    "Song China",
+    "Mongol Empire",
+    "Abbasid Caliphate",
+    "Mamluk Sultanate",
+    "Byzantine Empire",
+    "Crown of Aragon",
+    "Kingdom of England",
+    "Holy Roman Empire"
+  ],
+  "_quarry": {
+    "description": "The earliest known written formula for gunpowder appears in the Chinese Taoist text Zhenyuan miaodao yaolue, dated to approximately 850 CE, which warns against mixing sulfur, saltpetre, and charcoal due to fire risk. Formulas spread westward via Mongol conquests, appearing in the Arabic treatise of Hasan al-Rammah c. 1270 and in Roger Bacon's Opus Majus (1267) in Europe. Joseph Needham's monumental study in Science and Civilisation in China documents the full Chinese developmental sequence from incendiary mixtures to true explosive compositions."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "needham_gunpowder_1986",
+      "wiki_history_gunpowder"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

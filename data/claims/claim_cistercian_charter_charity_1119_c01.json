@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_cistercian_charter_charity_1119_c01",
+  "statement": "Stephen Harding drafted the Carta Caritatis, approved in 1119, binding all Cistercian houses into a single legal order with annual general chapters and mutual visitation.",
+  "subject_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 1119,
+    "to": 1119
+  },
+  "derived_from": "cistercian_charter_charity_1119",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lawrence_medieval_monasticism_2001",
+      "constable_reformation_twelfth_century_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

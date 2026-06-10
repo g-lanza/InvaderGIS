@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "frederick_ii_hre",
+  "name": "Frederick II Hohenstaufen",
+  "polity": "duchy_of_swabia",
+  "title": "ruler",
+  "reign_start": 1194,
+  "reign_end": 1250,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "duchy_of_swabia",
+        "role": "ruler",
+        "start_year": 1194,
+        "end_year": 1250
+      }
+    ],
+    "key_actions": [],
+    "region": "central_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

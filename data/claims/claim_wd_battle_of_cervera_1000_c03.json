@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_cervera_1000_c03",
+  "statement": "The Battle of Cervera was part of the Reconquista.",
+  "subject_ids": [
+    "caliphate_of_cordoba"
+  ],
+  "period": {
+    "from": 1000,
+    "to": 1000
+  },
+  "derived_from": "wd_battle_of_cervera_1000",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_muslim_1996",
+      "scales_the_1994"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

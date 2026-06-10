@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_doge_venice_enrico_dandolo_c03",
+  "statement": "Enrico Dandolo died in 1205, having secured Venice's commercial empire.",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1202,
+    "to": 1202
+  },
+  "derived_from": "doge_venice_enrico_dandolo",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

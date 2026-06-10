@@ -1,0 +1,29 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_cuman_kipchak_confederation_to_golden_horde_succession",
+  "statement": "Derived from predecessor/successor links recorded in the cuman_kipchak_confederation and golden_horde entity records. Transition anchored to golden_horde start_year.",
+  "subject_ids": [
+    "cuman_kipchak_confederation",
+    "golden_horde"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_cuman_kipchak_confederation_to_golden_horde_succession",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999",
+      "halperin_russia_1985",
+      "allsen_mongol_1987"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "golden_horde"
+  ],
+  "period": {
+    "from": 1240,
+    "to": 1240
+  }
+}

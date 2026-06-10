@@ -1,0 +1,36 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_croatia_hungary_union",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_croatia",
+      "role": "principal"
+    },
+    {
+      "entity_id": "kingdom_of_hungary",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "personal_union",
+  "since": 1102,
+  "until": 1102,
+  "note": "Pacta Conventa (1102) joined Croatia in personal union with Hungary; persisted through medieval period.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Pacta Conventa (1102) creating a personal union with Hungary while preserving Croatian autonomy established the template for composite kingship arrangements that defined central European constitutional development; Croatia's maintained Sabor assembly and ban office persisted as living evidence that medieval federalism could preserve constituent identity within larger political unions."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fine_the_1983",
+      "engel_the_2001",
+      "berend_at_2001"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

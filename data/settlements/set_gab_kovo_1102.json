@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_gab_kovo_1102",
+  "name": "Gabčíkovo",
+  "importance": "city",
+  "start_year": 1102,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q389397"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    17.5788,
+    47.8921
+  ]
+}

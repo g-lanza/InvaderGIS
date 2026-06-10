@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_third_fernandine_war_1381_c01",
+  "statement": "Third Fernandine War (1381 CE), at Atlantic Ocean (part of Fernandine Wars).",
+  "subject_ids": [
+    "kingdom_of_portugal"
+  ],
+  "period": {
+    "from": 1381,
+    "to": 1381
+  },
+  "derived_from": "wd_third_fernandine_war_1381",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

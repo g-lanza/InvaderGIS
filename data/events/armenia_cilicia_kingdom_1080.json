@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "armenia_cilicia_kingdom_1080",
+  "name": "Armenian Kingdom of Cilicia Established",
+  "year": 1080,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    39.436,
+    44.147
+  ],
+  "entity": "armenia",
+  "summary": "Ruben I founded the Armenian Principality of Cilicia in southeastern Anatolia, providing a refuge for Armenians displaced from the homeland by the Seljuks. This Armenian state allied closely with the Crusaders and provided crucial support for the First Crusade.",
+  "outcomes": [
+    "armenian_kingdom_cilicia_formed",
+    "crusader_alliance",
+    "armenian_survival"
+  ],
+  "_quarry": {
+    "participants": [
+      "armenia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

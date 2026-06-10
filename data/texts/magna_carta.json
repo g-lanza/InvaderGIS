@@ -1,0 +1,25 @@
+{
+  "kind": "text",
+  "dataset": "medieval-europe-500-1500",
+  "id": "magna_carta",
+  "name_primary": "Magna Carta",
+  "author": "Barons of King John, with Archbishop Stephen Langton",
+  "language": "Latin",
+  "composed": {
+    "year": 1215
+  },
+  "_quarry": {
+    "kind": "legal",
+    "polities_referenced": [
+      "kingdom_of_england"
+    ],
+    "description": "Charter of liberties sealed by King John at Runnymede in June 1215 under duress from his rebellious barons, restating customary limits on royal authority — protections of the church, restraints on arbitrary taxation, due-process safeguards for free men. Annulled almost immediately by Pope Innocent III, it was reissued repeatedly through the thirteenth century and entered English statute under Edward I in 1297, becoming a touchstone for later constitutional argument."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "bartlett_making_of_europe_1993"
+    ],
+    "confidence": "low"
+  }
+}

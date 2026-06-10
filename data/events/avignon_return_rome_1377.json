@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "avignon_return_rome_1377",
+  "name": "Gregory XI Returns to Rome, Avignon Papacy Ends",
+  "year": 1377,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.9,
+    12.51
+  ],
+  "entity": "papal_states",
+  "summary": "Pope Gregory XI, urged by Catherine of Siena (who writes insistently to him), returns the papal court from Avignon to Rome in January 1377, ending the 68-year Avignon residence. However, Rome's political environment is unstable; Gregory dies in 1378 and the disputed election of Urban VI (a reform-minded Italian opposed by French cardinals who then elect their own pope) immediately triggers the Western Schism.",
+  "outcomes": [
+    "papal_court_returns_rome",
+    "catherine_siena_influential",
+    "western_schism_imminent"
+  ],
+  "_quarry": {
+    "participants": [
+      "papal_states",
+      "kingdom_of_france"
+    ],
+    "structural_significance": "The Avignon return is irreversible, no subsequent pope returns to Avignon, but Gregory's death immediately triggers the catastrophe of the Western Schism; Catherine of Siena's influence on a pope demonstrates how powerful informal spiritual authority could be (she is later named Doctor of the Church); the schism that follows is directly caused by French cardinals' unwillingness to accept Italian papal leadership, a tension that the Avignon papacy's 68 years had created",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

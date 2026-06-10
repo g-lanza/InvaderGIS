@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "treaty_paris_1259",
+  "name": "Treaty of Paris (1259)",
+  "year": 1259,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    48.85,
+    2.35
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Henry III of England and Louis IX of France sign the Treaty of Paris, in which Henry formally renounces English claims to Normandy, Anjou, Maine, Touraine, and Poitou, lost by King John in 1204. In exchange, Louis recognizes English lordship over Gascony and compensates Henry with revenues from several French dioceses. Henry must perform liege homage to Louis as his feudal lord for the remaining territories. This creates the constitutional anomaly at the heart of Anglo-French relations: the King of England is simultaneously a peer of France, owing homage for his continental holdings.",
+  "outcomes": [
+    "henry_iii_renounces_normandy",
+    "gascony_recognized_english",
+    "homage_creates_constitutional_crisis"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "kingdom_of_france"
+    ],
+    "structural_significance": "Establishes the legal framework that generates the Hundred Years' War: future English kings who expand their power will face humiliating French homage demands; the homage obligation becomes the direct pretext for Edward III's claim to the French throne (1337); Louis IX's willingness to trade territory for permanent peace is prophetically misjudged",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

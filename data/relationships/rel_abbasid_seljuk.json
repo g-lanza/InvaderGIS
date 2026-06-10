@@ -1,0 +1,41 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_abbasid_seljuk",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "seljuk_sultanate",
+      "role": "hegemon"
+    },
+    {
+      "entity_id": "abbasid_caliphate",
+      "role": "vassal"
+    }
+  ],
+  "directed": true,
+  "type": "vassalage",
+  "since": 1055,
+  "until": 1194,
+  "note": "Seljuks capture Baghdad (1055) and become protectors of the Abbasid Caliph; the caliph retains religious legitimacy while Seljuk sultans hold all real power.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Seljuk sultanate's protection of the Abbasid caliph while stripping him of political power pioneered the sultan/caliph dual sovereignty model adopted by the Mamluks and later Ottomans; this arrangement allowed Islamic imperial governance to continue even when the caliphal family held only ceremonial authority."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "peacock_the_2015",
+      "bosworth_the_1963",
+      "cahen_preottoman_1968",
+      "kennedy_the_2004",
+      "kennedy_when_2004",
+      "crone_gods_2004",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

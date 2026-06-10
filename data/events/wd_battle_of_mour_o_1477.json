@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_mour_o_1477",
+  "name": "Battle of Mourão",
+  "year": 1477,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    40.25,
+    -6
+  ],
+  "entity": "kingdom_of_portugal",
+  "summary": "Battle of Mourão (1477 CE), at Mourão (part of War of the Castilian Succession). Source: Wikidata Q33934381.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_portugal",
+      "crown_of_castile"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "mongol_kurultai_1206",
+  "name": "Kurultai of 1206, Genghis Khan Proclaimed",
+  "year": 1206,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    48.5,
+    109
+  ],
+  "entity": "mongol_empire",
+  "summary": "A great kurultai (assembly) of Mongol tribes on the Onon River proclaims Temüjin the Chinggis (Genghis) Khan, Universal Ruler, of all the Mongolian peoples. Temüjin has spent 20 years unifying the fractious Mongolian steppe tribes through a combination of military genius, disciplined organization, and ruthless elimination of tribal aristocracies. He creates a new social order based on merit rather than birth and a military machine organized on decimal principles (arban, zuun, mingan, tümen).",
+  "outcomes": [
+    "temujin_becomes_genghis_khan",
+    "mongol_tribes_unified",
+    "world_conquest_begins"
+  ],
+  "_quarry": {
+    "participants": [
+      "mongol_empire"
+    ],
+    "structural_significance": "The 1206 kurultai launches the most rapid territorial expansion in human history; within 70 years, the Mongol Empire will encompass 24 million square kilometers, the largest contiguous land empire ever; the destruction of agricultural civilizations (Khwarezm, Jin China, Abbasid Baghdad) reshapes Eurasian demography; the Pax Mongolica that follows enables the trade connections that bring the Black Death and eventually make Marco Polo's journey possible",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

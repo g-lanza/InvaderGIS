@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_hungarian_ottoman_war_1389",
+  "name": "Hungarian–Ottoman War",
+  "year": 1389,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    45.0875,
+    18.2875
+  ],
+  "entity": "duchy_of_burgundy",
+  "summary": "Hungarian–Ottoman War (1389 CE), at Balkans (part of Ottoman–Hungarian Wars). Source: Wikidata Q124683279.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "duchy_of_burgundy",
+      "holy_roman_empire",
+      "ottoman_empire",
+      "kingdom_of_france",
+      "kingdom_of_poland_jagiellonian",
+      "knights_hospitaller_rhodes",
+      "principality_of_wallachia",
+      "second_bulgarian_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

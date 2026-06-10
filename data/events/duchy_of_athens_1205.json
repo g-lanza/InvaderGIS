@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_athens_1205",
+  "name": "Duchy of Athens Established",
+  "year": 1205,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    37.98,
+    23.73
+  ],
+  "entity": "duchy_of_athens",
+  "summary": "Otto de la Roche established the Duchy of Athens following the Fourth Crusade's partition of the Byzantine Empire. The Frankish duchy occupied the Acropolis and introduced Western feudalism to Greece, creating a unique fusion of Greek and French culture that produced the remarkable Gothic-Byzantine hybrid art of Latin Greece.",
+  "outcomes": [
+    "fourth_crusade_aftermath",
+    "frankish_athens",
+    "acropolis_occupied"
+  ],
+  "_quarry": {
+    "participants": [
+      "duchy_of_athens"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

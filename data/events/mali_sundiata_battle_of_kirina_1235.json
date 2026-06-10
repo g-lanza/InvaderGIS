@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "mali_sundiata_battle_of_kirina_1235",
+  "name": "Sundiata Defeats Sumanguru at Battle of Kirina",
+  "year": 1235,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    12.697,
+    -7.454
+  ],
+  "entity": "mali",
+  "summary": "Sundiata Keita defeated the Sosso king Sumanguru Kante at the Battle of Kirina, avenging the destruction of Ghana and establishing the Mali Empire. Sundiata's story is preserved in the Epic of Sundiata, the foundational oral epic of Mande civilisation.",
+  "outcomes": [
+    "mali_empire_founded",
+    "ghana_successor",
+    "sundiata_hero"
+  ],
+  "_quarry": {
+    "participants": [
+      "mali"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

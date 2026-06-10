@@ -1,0 +1,30 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_horde_pskov_indirect",
+  "statement": "Pskov, as a junior partner and later dependency of Novgorod, shared in Novgorod's indirect relationship with the Golden Horde — paying tribute through Novgorod's collection mechanism rather than directly. Pskov's position on the western frontier (adjacent to the Teutonic/Livonian Order and Lithuania) meant its military concerns were primarily western, while the Mongol fiscal relationship was mediated through Novgorod. When Moscow absorbed Novgorod (1478), Pskov's Mongol-tributary relationship ended; Pskov was then absorbed by Vasili III (1510) through the same administrative consolidation that had ended Novgorodian independence.",
+  "subject_ids": [
+    "golden_horde",
+    "principality_of_pskov"
+  ],
+  "predicate": "tributary",
+  "derived_from": "rel_horde_pskov_indirect",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "allsen_mongol_1987",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "principality_of_pskov"
+  ],
+  "period": {
+    "from": 1348,
+    "to": 1480
+  }
+}

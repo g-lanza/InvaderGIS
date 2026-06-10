@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "cyprus_mamluk_raid_1426",
+  "name": "Mamluk Egypt Sacks Limassol",
+  "year": 1426,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    35,
+    33
+  ],
+  "entity": "kingdom_of_cyprus",
+  "summary": "A Mamluk fleet under Tatar bey sacked Limassol and defeated the Cypriot army at Khirokitia. King Janus was captured and Cyprus was forced to pay annual tribute to Egypt, a humiliation that began the kingdom's terminal decline.",
+  "outcomes": [
+    "cyprus_tributary_to_mamluk",
+    "lusignan_king_captive",
+    "cyprus_weakened"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_cyprus"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

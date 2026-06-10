@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_pyatigorsk_war_1492",
+  "name": "Pyatigorsk War",
+  "year": 1492,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    44.95,
+    34.1
+  ],
+  "entity": "khanate_of_crimea",
+  "summary": "Pyatigorsk War (1492 CE), at Circassia. Source: Wikidata Q135557638.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "khanate_of_crimea"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fisher_the_1978",
+      "davies_warfare_2007"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

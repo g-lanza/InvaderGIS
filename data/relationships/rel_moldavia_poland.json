@@ -1,0 +1,36 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_moldavia_poland",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_poland_jagiellonian",
+      "role": "suzerain"
+    },
+    {
+      "entity_id": "principality_of_moldavia",
+      "role": "vassal"
+    }
+  ],
+  "directed": true,
+  "type": "vassalage",
+  "since": 1387,
+  "until": 1497,
+  "note": "Moldavia acknowledged Polish suzerainty periodically from the mid-14th century onward, with Moldavian princes sometimes paying homage to Polish kings. Stephen the Great (1457–1504) maintained the most complex multi-directional diplomacy: fighting the Ottomans (Vaslui, 1475), acknowledging Polish suzerainty (Treaty of Kolomea, 1485), and seeking Western crusade support simultaneously. Poland's protection was unreliable — it failed to prevent Ottoman tributary imposition — but Moldavian princes used the Polish connection as diplomatic leverage and occasionally as a source of military support against internal rivals.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Moldavia's Polish connection creates a western diplomatic option that limits Ottoman demands; Stephen the Great's famous victories against the Ottomans are partly enabled by Polish diplomatic backing; the Poland-Moldavia relationship models the 'dual suzerainty' arrangement that allows frontier principalities to maintain autonomy by playing great powers against each other"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "davies_gods_1981",
+      "lukowski_a_2001",
+      "treptow_a_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

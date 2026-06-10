@@ -1,0 +1,100 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_latin_empire_constantinople_1204_1242",
+  "name": "Latin Empire of Constantinople — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1204,
+  "year_end": 1242,
+  "waypoints": [
+    {
+      "year": 1204,
+      "place": "Sack of Constantinople (Fourth Crusade)",
+      "coords": [
+        41.01,
+        28.98
+      ],
+      "note": "crusade",
+      "event_id": "capture_constantinople_1204"
+    },
+    {
+      "year": 1205,
+      "place": "Battle of Adramyttium",
+      "coords": [
+        40.7,
+        29.3
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_adramyttium_1205"
+    },
+    {
+      "year": 1205,
+      "place": "Battle of Adrianople",
+      "coords": [
+        41,
+        28.9
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_adrianople_1205"
+    },
+    {
+      "year": 1205,
+      "place": "Battle of Serres",
+      "coords": [
+        42.05,
+        27.25
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_serres_1205"
+    },
+    {
+      "year": 1208,
+      "place": "Battle of Boruy",
+      "coords": [
+        42.05,
+        27.25
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_boruy_1208"
+    },
+    {
+      "year": 1218,
+      "place": "Siege of Damietta",
+      "coords": [
+        41.9625,
+        18.725
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_damietta_1218"
+    },
+    {
+      "year": 1224,
+      "place": "Battle of Poimanenon",
+      "coords": [
+        40.7,
+        29.3
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_poimanenon_1224"
+    },
+    {
+      "year": 1242,
+      "place": "Mongol invasion of the Latin Empire",
+      "coords": [
+        44.1,
+        65.85
+      ],
+      "note": "military",
+      "event_id": "wd_mongol_invasion_of_the_latin_empire_1242"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

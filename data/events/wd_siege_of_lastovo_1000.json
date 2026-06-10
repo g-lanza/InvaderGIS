@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_lastovo_1000",
+  "name": "Siege of Lastovo",
+  "year": 1000,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    44.95,
+    14.4
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Siege of Lastovo (1000 CE), at Lastovo (part of Croatian-Venetian Wars). Source: Wikidata Q27918505.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "kingdom_of_croatia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

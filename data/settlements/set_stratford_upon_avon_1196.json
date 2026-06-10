@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_stratford_upon_avon_1196",
+  "name": "Stratford-upon-Avon",
+  "importance": "city",
+  "start_year": 1196,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q189288"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    -1.7064,
+    52.1928
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "srivijaya_decline_1200",
+  "name": "Rise of Kediri and Srivijaya's Decline",
+  "year": 1200,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    0.13,
+    109.718
+  ],
+  "entity": "srivijaya_empire",
+  "summary": "By the early 13th century Srivijaya had lost control of most of its vassal ports to rival Javanese kingdoms (Kediri, later Singhasari). The empire's territory contracted to the Palembang region and it survived mainly as a commercial entrepot rather than an empire.",
+  "outcomes": [
+    "srivijaya_fragmented",
+    "kediri_rises",
+    "trade_routes_shifted"
+  ],
+  "_quarry": {
+    "participants": [
+      "srivijaya_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

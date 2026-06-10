@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_battle_mohács_1526_c02",
+  "statement": "Within three weeks of Mohács, Ottoman forces took Buda, and the Hungarian kingdom subsequently split into three parts.",
+  "subject_ids": [
+    "ottoman_empire"
+  ],
+  "period": {
+    "from": 1526,
+    "to": 1526
+  },
+  "derived_from": "battle_mohács_1526",
+  "unresolved_sources": [
+    "i̇nalcık_the_1973",
+    "finkel_osmans_2005",
+    "imber_the_2002"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

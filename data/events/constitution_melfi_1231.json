@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "constitution_melfi_1231",
+  "name": "Constitutions of Melfi",
+  "year": 1231,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    40.99,
+    15.65
+  ],
+  "entity": "kingdom_of_sicily_hohenstaufen",
+  "summary": "Frederick II promulgates the Liber Augustalis (Book of Augustus) at Melfi in August 1231, a comprehensive legal code for the Kingdom of Sicily. The 220 constitutions establish a centralized bureaucratic state with professional judges replacing feudal lords in dispute resolution, regulated taxation, free trade within the kingdom, and restrictions on the Church's jurisdiction in civil matters. Frederick's synthesis of Norman, Byzantine, Arab, and Roman legal traditions creates one of the most sophisticated administrative systems in medieval Europe.",
+  "outcomes": [
+    "royal_bureaucracy_centralized",
+    "feudal_autonomy_curtailed",
+    "sicilian_legal_code_established"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_sicily_hohenstaufen"
+    ],
+    "structural_significance": "The most sophisticated secular legal code of medieval Europe; establishes professional governance that bypasses feudal intermediaries; Frederick's Sicilian state becomes a model for later centralized monarchies; the tension between Frederick and the papacy over these reforms contributes to decades of Guelf-Ghibelline conflict",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

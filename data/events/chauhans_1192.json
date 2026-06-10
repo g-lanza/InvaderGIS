@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "chauhans_1192",
+  "name": "Second Battle of Tarain, Chauhan Defeat",
+  "year": 1192,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    27.718,
+    76.404
+  ],
+  "entity": "chauhans",
+  "summary": "Muhammad of Ghor defeated and killed Prithviraj III at the Second Battle of Tarain in 1192, ending the Chauhan kingdom and opening northern India to Muslim rule. The Delhi Sultanate emerged from this victory, fundamentally transforming the religious and political landscape of the Indian subcontinent.",
+  "outcomes": [
+    "prithviraj_killed",
+    "delhi_sultanate_established",
+    "rajput_era_ends"
+  ],
+  "_quarry": {
+    "participants": [
+      "chauhans"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

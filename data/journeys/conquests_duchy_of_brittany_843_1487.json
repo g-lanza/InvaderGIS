@@ -1,0 +1,170 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_duchy_of_brittany_843_1487",
+  "name": "Duchy of Brittany — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 843,
+  "year_end": 1487,
+  "waypoints": [
+    {
+      "year": 843,
+      "place": "Battle of Blain",
+      "coords": [
+        48,
+        -3
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_blain_843"
+    },
+    {
+      "year": 845,
+      "place": "Nominoe Defeats Franks, Establishes Breton Independence",
+      "coords": [
+        48,
+        -3
+      ],
+      "note": "military",
+      "event_id": "britany_nominoe_independence_845"
+    },
+    {
+      "year": 851,
+      "place": "Battle of Jengland",
+      "coords": [
+        48,
+        -3
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_jengland_851"
+    },
+    {
+      "year": 942,
+      "place": "Alan II Barbetorte Expels Vikings and Restores Brittany",
+      "coords": [
+        48,
+        -3
+      ],
+      "note": "military",
+      "event_id": "britany_alan_ii_restoration_942"
+    },
+    {
+      "year": 1064,
+      "place": "Breton-Norman War",
+      "coords": [
+        48,
+        -3
+      ],
+      "note": "military",
+      "event_id": "wd_breton_norman_war_1064"
+    },
+    {
+      "year": 1066,
+      "place": "Battle of Segré",
+      "coords": [
+        48,
+        -3
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_segr_1066"
+    },
+    {
+      "year": 1096,
+      "place": "First Crusade",
+      "coords": [
+        43.3,
+        11.2
+      ],
+      "note": "military",
+      "event_id": "wd_first_crusade_1096"
+    },
+    {
+      "year": 1202,
+      "place": "French invasion of Normandy",
+      "coords": [
+        49,
+        -0.5
+      ],
+      "note": "military",
+      "event_id": "wd_french_invasion_of_normandy_1202"
+    },
+    {
+      "year": 1337,
+      "place": "Edwardian War",
+      "coords": [
+        47.3691,
+        2.2482
+      ],
+      "note": "military",
+      "event_id": "wd_edwardian_war_1337"
+    },
+    {
+      "year": 1341,
+      "place": "War of Breton Succession",
+      "coords": [
+        49,
+        -0.5
+      ],
+      "note": "military",
+      "event_id": "duchy_of_brittany_1341"
+    },
+    {
+      "year": 1367,
+      "place": "Battle of Nájera",
+      "coords": [
+        45.13,
+        -0.0757
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_n_jera_1367"
+    },
+    {
+      "year": 1369,
+      "place": "Caroline War",
+      "coords": [
+        46.16,
+        -1.42
+      ],
+      "note": "military",
+      "event_id": "wd_caroline_war_1369"
+    },
+    {
+      "year": 1420,
+      "place": "Siege of Champtoceaux",
+      "coords": [
+        48,
+        -3
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_champtoceaux_1420"
+    },
+    {
+      "year": 1485,
+      "place": "Mad War",
+      "coords": [
+        47.73,
+        1.8933
+      ],
+      "note": "military",
+      "event_id": "wd_mad_war_1485"
+    },
+    {
+      "year": 1487,
+      "place": "French–Breton War",
+      "coords": [
+        47.6,
+        1
+      ],
+      "note": "military",
+      "event_id": "wd_french_breton_war_1487"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

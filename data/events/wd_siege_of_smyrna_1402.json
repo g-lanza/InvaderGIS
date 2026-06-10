@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_smyrna_1402",
+  "name": "Siege of Smyrna",
+  "year": 1402,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    38.05,
+    47.55
+  ],
+  "entity": "knights_hospitaller_rhodes",
+  "summary": "Siege of Smyrna (1402 CE), at Smyrna (part of Timurid conquests and invasions). Source: Wikidata Q6130091.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "knights_hospitaller_rhodes",
+      "timurid_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_hospitallers_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

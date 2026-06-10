@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_treaty_wedmore_878_c01",
+  "statement": "Following Alfred the Great's victory at the Battle of Edington in May 878, the Danish Great Heathen Army under Guthrum sued for peace.",
+  "subject_ids": [
+    "kingdom_of_wessex"
+  ],
+  "period": {
+    "from": 878,
+    "to": 878
+  },
+  "derived_from": "treaty_wedmore_878",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_margat_1285",
+  "name": "Siege of Margat",
+  "year": 1285,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    33.2,
+    29.7
+  ],
+  "entity": "knights_hospitaller_rhodes",
+  "summary": "Siege of Margat (1285 CE), at Margat (part of Fall of Outremer). Source: Wikidata Q124056308.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "knights_hospitaller_rhodes",
+      "mamluk_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_hospitallers_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

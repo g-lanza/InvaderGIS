@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_otto_i_papacy_961_c01",
+  "statement": "Pope John XII, threatened by Berengar II of Italy, appealed to Otto I of Germany for military assistance.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 961,
+    "to": 961
+  },
+  "derived_from": "otto_i_papacy_961",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

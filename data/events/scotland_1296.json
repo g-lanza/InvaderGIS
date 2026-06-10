@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "scotland_1296",
+  "name": "Wars of Scottish Independence Begin",
+  "year": 1296,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    54.5,
+    -2.5
+  ],
+  "entity": "kingdom_of_scotland",
+  "summary": "Edward I of England's invasion of Scotland in 1296 and his removal of the Stone of Destiny triggered the Wars of Scottish Independence. William Wallace's victory at Stirling Bridge the following year and the subsequent campaigns of Robert the Bruce would define Scottish nationhood for centuries.",
+  "outcomes": [
+    "scottish_nobility_submission",
+    "stone_of_destiny_seized",
+    "wallace_resistance_begins"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_scotland",
+      "kingdom_of_england"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "barrell_medieval_2000",
+      "brown_the_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

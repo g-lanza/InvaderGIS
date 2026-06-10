@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_duchy_of_styria_1180_c01",
+  "statement": "Styria was elevated to an independent duchy in 1180 CE, separated from Bavaria.",
+  "subject_ids": [
+    "duchy_of_styria"
+  ],
+  "period": {
+    "from": 1180,
+    "to": 1180
+  },
+  "derived_from": "duchy_of_styria_1180",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_franciscan_order_founded_1209_c02",
+  "statement": "The Franciscan and Dominican mendicant orders broke with the older monastic pattern of stable rural cloisters and embedded themselves in the growing towns.",
+  "subject_ids": [
+    "papal_states"
+  ],
+  "period": {
+    "from": 1209,
+    "to": 1209
+  },
+  "derived_from": "franciscan_order_founded_1209",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lawrence_medieval_monasticism_2001"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

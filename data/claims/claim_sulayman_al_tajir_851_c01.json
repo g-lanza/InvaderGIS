@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_sulayman_al_tajir_851_c01",
+  "statement": "Around 851, an Arab merchant known as Sulaymān al-Tājir wrote the earliest surviving Arabic eyewitness account of voyaging from Siraf and Basra to Khānfū (Guangzhou).",
+  "subject_ids": [
+    "abbasid_caliphate"
+  ],
+  "period": {
+    "from": 851,
+    "to": 851
+  },
+  "derived_from": "sulayman_al_tajir_851",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "hourani_arab_peoples_1991",
+      "hansen_silk_road_new_history_2012"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

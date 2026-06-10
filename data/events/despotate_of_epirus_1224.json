@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "despotate_of_epirus_1224",
+  "name": "Epirus Captures Thessaloniki",
+  "year": 1224,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    40.17,
+    21.875
+  ],
+  "entity": "despotate_of_epirus",
+  "summary": "Theodore Doukas of Epirus captured Thessaloniki from the Latin Kingdom in 1224 and proclaimed himself Emperor of the Romans, briefly making Epirus the leading Greek restoration state. However, his defeat at Klokotnitsa in 1230 by Bulgaria ended this bid for Byzantine restoration.",
+  "outcomes": [
+    "latin_kingdom_destroyed",
+    "epirus_power_peaks",
+    "greek_restoration_attempted"
+  ],
+  "_quarry": {
+    "participants": [
+      "despotate_of_epirus",
+      "kingdom_of_thessalonica"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

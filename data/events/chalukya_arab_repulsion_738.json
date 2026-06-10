@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "chalukya_arab_repulsion_738",
+  "name": "Chalukyas and Gurjaras Repel Arab Invasion",
+  "year": 738,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    17.38,
+    74.781
+  ],
+  "entity": "chalukya_empire",
+  "summary": "A Chalukya-Gurjara coalition defeated Arab Umayyad forces attempting to advance into the Deccan. This victory, alongside the Battle of Tours in the West, is cited as one of the decisive defeats limiting Arab expansion.",
+  "outcomes": [
+    "arab_expansion_halted",
+    "india_protected",
+    "battle_of_rajasthan"
+  ],
+  "_quarry": {
+    "participants": [
+      "chalukya_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

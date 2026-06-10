@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "teutonic_order_prussia_1226",
+  "name": "Teutonic Order Called to Prussia",
+  "year": 1226,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    53.5,
+    18.5
+  ],
+  "entity": "teutonic_order_state",
+  "summary": "Duke Conrad I of Masovia invites the Teutonic Knights to help subdue the pagan Prussian tribes raiding his territories. The Golden Bull of Rimini (1226) granted by Frederick II gives the Teutonic Order autonomous governance of Prussia as an imperial fief. Beginning in 1230, the Order wages a systematic crusade of conquest and colonization lasting 50 years, converting or exterminating the Baltic Prussian people and replacing them with German settlers. The state they create controls the Baltic coast from the Vistula to Finland.",
+  "outcomes": [
+    "prussia_conquest_begins",
+    "teutonic_state_founded",
+    "baltic_pagans_targeted"
+  ],
+  "_quarry": {
+    "participants": [
+      "teutonic_order_state",
+      "holy_roman_empire",
+      "kingdom_of_poland_piast"
+    ],
+    "structural_significance": "Creates the Teutonic Order State, a militarized monastic state controlling Baltic trade and converting pagans by sword; the Order's settlement policy shapes Prussian culture and language for centuries; the eventual defeat at Grunwald (1410) and Peace of Thorn (1466) reduces it, but the Prussian legacy persists through the Duchy and later Kingdom of Prussia",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "christiansen_the_1997",
+      "urban_the_1994",
+      "turnbull_crusader_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

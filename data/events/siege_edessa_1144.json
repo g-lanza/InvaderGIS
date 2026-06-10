@@ -1,0 +1,31 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "siege_edessa_1144",
+  "name": "Fall of Edessa",
+  "year": 1144,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    37.16,
+    38.79
+  ],
+  "entity": "county_of_edessa",
+  "summary": "Imad ad-Din Zengi, Atabeg of Mosul and Aleppo, besieges and captures Edessa (Urfa, modern Turkey) on December 24–25, 1144, the first Crusader state to fall. Edessa's count Joscelin II had led his army out of the city; Zengi's forces breached the walls in his absence. The fall of Edessa, the most ancient Christian city in the East and the first Crusader conquest (1098), shocks Western Christendom and triggers the Second Crusade (1147). The Crusade, led by Louis VII of France and Conrad III, fails catastrophically at the siege of Damascus (1148), achieving nothing.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "county_of_edessa"
+    ],
+    "structural_significance": "Fall of the first Crusader state; triggers the Second Crusade; Zengi's capture establishes him as the champion of Muslim jihad against the Crusaders; his son Nur ad-Din and then Saladin build on this foundation to eventually reconquer Jerusalem (1187)",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

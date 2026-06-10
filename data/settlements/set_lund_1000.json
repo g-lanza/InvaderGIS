@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_lund_1000",
+  "name": "Lund",
+  "importance": "city",
+  "start_year": 1000,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2167"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    13.1992,
+    55.7083
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_ottoman_morea_conquest",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "despotate_of_the_morea",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "ottoman_empire",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 1460,
+  "until": 1460,
+  "note": "The Byzantine Despotate of the Morea (the Peloponnese) — ruled by the brothers Demetrios and Thomas Palaiologos — fell to Mehmed II's invasion in 1460. The brothers had been fighting each other rather than organizing a defense; Demetrios surrendered and was given a pension; Thomas fled to Rome. The Peloponnese became an Ottoman province. Thomas Palaiologos carried the relic of St. Andrew's head and the claim of Byzantine imperial title to Rome, where his descendants maintained the nominal title of Byzantine emperors.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Eliminates the last Byzantine imperial territory on the Greek mainland; Thomas Palaiologos carries the Byzantine imperial claim to Rome, where it is eventually transferred to the Muscovite tsars through his daughter Sophia's marriage to Ivan III"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

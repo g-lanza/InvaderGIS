@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "korea_mongol_invasion_1231",
+  "name": "Mongol Invasions of Korea",
+  "year": 1231,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    37.646,
+    127.044
+  ],
+  "entity": "korea",
+  "summary": "Mongol forces under Ögedei Khan began six invasions of Korea (1231-1259). The royal court fled to Ganghwa Island while the mainland was devastated. Korea eventually submitted as a vassal state but preserved its dynasty.",
+  "outcomes": [
+    "korea_devastated",
+    "goryeo_vassal",
+    "celadon_production_disrupted"
+  ],
+  "_quarry": {
+    "participants": [
+      "korea"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

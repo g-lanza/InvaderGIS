@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_kingdom_of_georgia_1184_c03",
+  "statement": "Queen Tamar of Georgia sponsored the establishment of the Empire of Trebizond as a buffer state.",
+  "subject_ids": [
+    "kingdom_of_georgia"
+  ],
+  "period": {
+    "from": 1184,
+    "to": 1184
+  },
+  "derived_from": "kingdom_of_georgia_1184",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

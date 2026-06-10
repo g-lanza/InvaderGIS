@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_pionersky_1254",
+  "name": "Pionersky",
+  "importance": "city",
+  "start_year": 1254,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q179439"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    20.2167,
+    54.95
+  ]
+}

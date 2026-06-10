@@ -1,0 +1,40 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_hungary_ottoman",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_hungary",
+      "role": "principal"
+    },
+    {
+      "entity_id": "ottoman_empire",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 1453,
+  "until": 1500,
+  "note": "Hungary served as the primary barrier to Ottoman expansion into central Europe for 150 years. János Hunyadi (regent 1446–1453) won crucial victories at Belgrade (1456) and in the Long Campaign (1443–1444), but failed at Varna (1444) and Kosovo (1448). The Battle of Mohács (1526) — where King Louis II was killed and the Hungarian army annihilated — broke Hungary's defensive capacity. The country was subsequently partitioned among the Ottomans (central Hungary), the Habsburgs (western Hungary/Austria), and Transylvania (an Ottoman vassal). Hungary remained divided until 1699.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Hungary's role as the 'bulwark of Christendom' against Ottoman expansion shapes its entire 15th-century political history; Mohács (1526) ends medieval Hungarian statehood; the subsequent three-way partition creates the ethnic complexity that defines the Carpathian basin into the modern era"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "engel_the_2001",
+      "berend_at_2001",
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

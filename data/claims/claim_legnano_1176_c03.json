@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_legnano_1176_c03",
+  "statement": "The Battle of Legnano forced Barbarossa to negotiate the Peace of Constance in 1183.",
+  "subject_ids": [
+    "commune_of_milan"
+  ],
+  "period": {
+    "from": 1176,
+    "to": 1176
+  },
+  "derived_from": "legnano_1176",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

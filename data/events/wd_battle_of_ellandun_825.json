@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_ellandun_825",
+  "name": "Battle of Ellandun",
+  "year": 825,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    51.75,
+    -1.75
+  ],
+  "entity": "kingdom_of_mercia",
+  "summary": "Battle of Ellandun (825 CE), at Swindon. Source: Wikidata Q1939977.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_mercia",
+      "kingdom_of_wessex"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

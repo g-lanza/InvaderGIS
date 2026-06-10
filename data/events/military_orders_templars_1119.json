@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "military_orders_templars_1119",
+  "name": "Foundation of the Knights Templar",
+  "year": 1119,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    31.78,
+    35.23
+  ],
+  "entity": "kingdom_of_jerusalem",
+  "summary": "Hugues de Payens and eight knights found the Poor Fellow-Soldiers of Christ and of the Temple of Solomon (Knights Templar) in Jerusalem, taking monastic vows while serving as military escorts for pilgrims. Bernard of Clairvaux writes their Rule and argues for their legitimacy in De Laude Novae Militiae. The Council of Troyes (1129) gives them formal papal recognition. The Templars quickly accumulate donations of land across Europe, which they use to create the first international banking network.",
+  "outcomes": [
+    "military_monastic_order_founded",
+    "pilgrimage_routes_protected",
+    "international_banking_created"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_jerusalem",
+      "papal_states"
+    ],
+    "structural_significance": "The Templars' exemption from local taxation and their international credit network makes them the most sophisticated financial institution of the 12th century, pilgrims deposit money in a European preceptory and withdraw it in the Holy Land using a letter of credit; their banking innovations anticipate modern finance; their suppression (1307-1314) transfers their wealth to the Crown of France and the Hospitallers",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

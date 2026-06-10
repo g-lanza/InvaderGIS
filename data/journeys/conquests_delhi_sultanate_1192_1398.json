@@ -1,0 +1,110 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_delhi_sultanate_1192_1398",
+  "name": "Delhi Sultanate — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1192,
+  "year_end": 1398,
+  "waypoints": [
+    {
+      "year": 1192,
+      "place": "Rajput Defeat at Tarain Ends Era",
+      "coords": [
+        26.2295,
+        76.261
+      ],
+      "note": "military",
+      "event_id": "rajput_kingdoms_1192"
+    },
+    {
+      "year": 1203,
+      "place": "Bakhtiyar Khilji Conquers Bengal",
+      "coords": [
+        26.0055,
+        84.781
+      ],
+      "note": "military",
+      "event_id": "senas_1203"
+    },
+    {
+      "year": 1241,
+      "place": "Siege of Lahore",
+      "coords": [
+        37.9,
+        90
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_lahore_1241"
+    },
+    {
+      "year": 1291,
+      "place": "Battle of Jhain",
+      "coords": [
+        28.6,
+        77.2
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_jhain_1291"
+    },
+    {
+      "year": 1296,
+      "place": "Alauddin Khalji's Conquests",
+      "coords": [
+        28.6,
+        77.2
+      ],
+      "note": "military",
+      "event_id": "delhi_sultanate_alauddin_khalji_1296"
+    },
+    {
+      "year": 1297,
+      "place": "Mongol invasion of India",
+      "coords": [
+        34.95,
+        75.6
+      ],
+      "note": "military",
+      "event_id": "wd_mongol_invasion_of_india_1297"
+    },
+    {
+      "year": 1305,
+      "place": "Battle of Amroha",
+      "coords": [
+        37.9,
+        90
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_amroha_1305"
+    },
+    {
+      "year": 1361,
+      "place": "Firuz Shah Tughluq Raids Orissa",
+      "coords": [
+        22.8715,
+        79.358
+      ],
+      "note": "military",
+      "event_id": "orissa_1361"
+    },
+    {
+      "year": 1398,
+      "place": "Siege of Multan",
+      "coords": [
+        34.15,
+        72.05
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_multan_1398"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "jackson_the_1999",
+      "kumar_the_2007"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

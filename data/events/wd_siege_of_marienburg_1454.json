@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_marienburg_1454",
+  "name": "Siege of Marienburg",
+  "year": 1454,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    54,
+    20
+  ],
+  "entity": "teutonic_order_state",
+  "summary": "Siege of Marienburg (1454 CE), at Malbork (part of Thirteen Years' War). Source: Wikidata Q21187247.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "teutonic_order_state"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "christiansen_the_1997",
+      "urban_the_1994",
+      "turnbull_crusader_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

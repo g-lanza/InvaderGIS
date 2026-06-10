@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_strathclyde_to_scotland",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_strathclyde",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "kingdom_of_scotland",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 1018,
+  "until": 1018,
+  "note": "Brythonic Strathclyde absorbed into expanding Scottish realm over eleventh century; dates approximate.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The absorption of Strathclyde's Brittonic kingdom into Scotland extinguished the last continuous P-Celtic polity in mainland Britain; the linguistic displacement of Cumbric by Gaelic and later Scots represents the final stage in the replacement of Romano-British political culture by the Gaelic-influenced Scottish kingdom that defined medieval northern Britain."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "barrell_medieval_2000",
+      "brown_the_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

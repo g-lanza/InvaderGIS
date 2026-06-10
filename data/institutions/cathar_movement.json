@@ -1,0 +1,43 @@
+{
+  "kind": "institution",
+  "dataset": "medieval-europe-500-1500",
+  "id": "cathar_movement",
+  "name_primary": "Cathar Movement",
+  "domain": "religious_movement",
+  "formed": 1140,
+  "dissolved": 1330,
+  "_quarry": {
+    "key_developments": [
+      {
+        "year": 1167,
+        "event": "Council of Saint-Félix — Cathars formally organise dioceses in Languedoc."
+      },
+      {
+        "year": 1209,
+        "event": "Albigensian Crusade begins; sack of Béziers (Caedite eos)."
+      },
+      {
+        "year": 1229,
+        "event": "Treaty of Paris ends the crusade; territories pass to French crown."
+      },
+      {
+        "year": 1244,
+        "event": "Fall of Montségur — mass burning of 200+ parfaits."
+      },
+      {
+        "year": 1321,
+        "event": "Execution of Guillaume Bélibaste, the last known Cathar parfait."
+      }
+    ],
+    "influences_entities": [
+      "kingdom_of_france",
+      "crown_of_aragon"
+    ],
+    "description": "A dualist Christian movement, spreading from Bulgaria (Bogomils) through Italy and reaching its greatest density in Languedoc by the late 12th century. Cathars rejected the material world as evil and the Roman church as corrupt; their parfaits (perfected) practised extreme asceticism. Suppressed by the Albigensian Crusade (1209–1229) and the inquisitions that followed — the last Cathar parfait, Guillaume Bélibaste, was burned in 1321."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

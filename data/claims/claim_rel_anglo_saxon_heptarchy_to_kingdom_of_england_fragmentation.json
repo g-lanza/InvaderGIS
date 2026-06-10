@@ -1,0 +1,31 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_anglo_saxon_heptarchy_to_kingdom_of_england_fragmentation",
+  "statement": "Derived from predecessor/successor links recorded in the anglo_saxon_heptarchy and kingdom_of_england entity records. Transition anchored to kingdom_of_england start_year.",
+  "subject_ids": [
+    "anglo_saxon_heptarchy",
+    "kingdom_of_england"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_anglo_saxon_heptarchy_to_kingdom_of_england_fragmentation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999",
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "kingdom_of_england"
+  ],
+  "period": {
+    "from": 927,
+    "to": 927
+  }
+}

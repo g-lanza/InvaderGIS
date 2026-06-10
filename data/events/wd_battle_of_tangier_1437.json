@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_tangier_1437",
+  "name": "Battle of Tangier",
+  "year": 1437,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    36.7,
+    -6.75
+  ],
+  "entity": "kingdom_of_portugal",
+  "summary": "Battle of Tangier (1437 CE), at Tangier (part of Moroccan–Portuguese conflicts). Source: Wikidata Q4872500.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_portugal",
+      "marinid_dynasty"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

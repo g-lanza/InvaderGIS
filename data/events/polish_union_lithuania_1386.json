@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "polish_union_lithuania_1386",
+  "name": "Union of Poland and Lithuania",
+  "year": 1386,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    50.06,
+    19.94
+  ],
+  "entity": "kingdom_of_poland_jagiellonian",
+  "summary": "Grand Duke Jogaila of Lithuania marries Queen Jadwiga of Poland at Kraków Cathedral in February 1386, creating a personal union of the two states. Jogaila converts to Catholicism, is baptized as Władysław, and becomes King of Poland, founding the Jagiellonian dynasty. The Union of Krewo (1385) had formalized the arrangement. The combined Polish-Lithuanian state becomes the largest territorial entity in Europe, stretching from the Baltic to the Black Sea steppe. The union provides Poland-Lithuania with the military depth to challenge Teutonic Order supremacy in the Baltic.",
+  "outcomes": [
+    "jagiellonian_dynasty_founded",
+    "poland_lithuania_largest_european_state",
+    "teutonic_order_threatened"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_poland_jagiellonian",
+      "grand_duchy_of_lithuania"
+    ],
+    "structural_significance": "Creates the Polish-Lithuanian Commonwealth in embryo, the state that dominates Eastern Europe until the partitions of the 18th century; the combined power enables the Grunwald victory (1410) over the Teutonic Order; the Jagiellonian dynasty eventually controls Poland, Lithuania, Bohemia, and Hungary simultaneously; the union's complex constitutional balance between Polish-style parliamentarianism and Lithuanian executive power generates centuries of political evolution",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "davies_gods_1981",
+      "lukowski_a_2001"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

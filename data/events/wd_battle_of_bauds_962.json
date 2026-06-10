@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_bauds_962",
+  "name": "Battle of Bauds",
+  "year": 962,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    56.5,
+    -4
+  ],
+  "entity": "kingdom_of_alba",
+  "summary": "Battle of Bauds (962 CE), at Cullen. Source: Wikidata Q2086785.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_alba"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

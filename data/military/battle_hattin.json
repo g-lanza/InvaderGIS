@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_hattin",
+  "name": "Battle of Hattin",
+  "subtype": "battle",
+  "start_year": 1187,
+  "end_year": 1187,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "Saladin's decisive defeat of the Crusader army at the Horns of Hattin",
+  "coords": [
+    35.457,
+    32.788
+  ]
+}

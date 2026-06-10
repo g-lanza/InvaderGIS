@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_ager_sanguinis_1119",
+  "name": "Battle of Ager Sanguinis",
+  "year": 1119,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    36.2,
+    36.2
+  ],
+  "entity": "principality_of_antioch",
+  "summary": "Battle of Ager Sanguinis (1119 CE), at Sarmada (part of Crusader battles between 1101 and 1145). Source: Wikidata Q622184.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "principality_of_antioch"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "asbridge_the_2000",
+      "cahen_la_1940"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

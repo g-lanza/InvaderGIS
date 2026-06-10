@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_pictish_viking",
+  "statement": "The Pictish kingdoms of northeastern Scotland (Fortriu, Ce, Fidach, and others) suffered devastating Viking raids beginning in the late 8th century — the monasteries of Iona (raided 795, 802, 806) were the most famous targets but Pictish coastal settlements were also hit. The pressures from Norse settlement in Orkney and Shetland (from c. 800) and Norse-Irish raids on the western coast squeezed Pictish territories. Norse settlement in the northern isles fundamentally altered Pictish culture in those regions; the Norse place-name layer in Orkney and Shetland (nearly 100% Norse) reflects the completeness of the displacement.",
+  "subject_ids": [
+    "pictish_confederation",
+    "danish_viking_polity"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_pictish_viking",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 794,
+    "to": 850
+  }
+}

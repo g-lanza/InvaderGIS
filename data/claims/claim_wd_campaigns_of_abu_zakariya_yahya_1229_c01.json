@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_campaigns_of_abu_zakariya_yahya_1229_c01",
+  "statement": "Campaigns of Abu Zakariya Yahya (1229 CE), at Maghreb.",
+  "subject_ids": [
+    "almohad_caliphate_iberia"
+  ],
+  "period": {
+    "from": 1229,
+    "to": 1229
+  },
+  "derived_from": "wd_campaigns_of_abu_zakariya_yahya_1229",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_kingdoms_2018",
+      "o'callaghan_reconquest_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

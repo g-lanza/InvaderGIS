@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_galway_1124",
+  "name": "Galway",
+  "importance": "city",
+  "start_year": 1124,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q129610"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    -9.0488,
+    53.2719
+  ]
+}

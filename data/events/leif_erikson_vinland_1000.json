@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "leif_erikson_vinland_1000",
+  "name": "Leif Erikson's Voyage to Vinland",
+  "year": 1000,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    51.6,
+    -55.5
+  ],
+  "entity": "norse_greenland",
+  "summary": "Leif Erikson, son of Erik the Red, leads a Norse expedition from Greenland to the coast of North America, probably Newfoundland or the Labrador coast, establishing a brief settlement at L'Anse aux Meadows. The Norse call the territory Vinland, Markland, and Helluland based on its vegetation. Contact with indigenous peoples (called Skraelings by the Norse) leads to conflict, and the settlement is abandoned after two or three winters.",
+  "outcomes": [
+    "north_america_reached_500_years_before_columbus",
+    "vinland_briefly_settled",
+    "indigenous_resistance_ends_settlement"
+  ],
+  "_quarry": {
+    "participants": [
+      "norse_greenland"
+    ],
+    "structural_significance": "The Norse reach North America 492 years before Columbus, confirmed by L'Anse aux Meadows archaeological evidence (1960s). The failure to sustain the colony stems from the small Norse Greenland population (only ~500 colonists) and indigenous resistance; the episode demonstrates that European expansion into the Americas required the demographic pressure and institutional backing that only the 15th-century Atlantic states could provide",
+    "year_range": [
+      1000,
+      1003
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_jerusalem_1187",
+  "name": "Siege of Jerusalem",
+  "year": 1187,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    34.2,
+    33.0667
+  ],
+  "entity": "kingdom_of_jerusalem",
+  "summary": "Siege of Jerusalem (1187 CE), at Jerusalem (part of Crusader battles between 1149 and 1189). Source: Wikidata Q815161.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_jerusalem",
+      "knights_hospitaller_rhodes",
+      "county_of_tripoli"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

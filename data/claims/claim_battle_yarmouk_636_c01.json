@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_battle_yarmouk_636_c01",
+  "statement": "Khalid ibn al-Walid's Arab Muslim army defeated the larger Byzantine force under Vahan near the Yarmouk River in 636.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 636,
+    "to": 636
+  },
+  "derived_from": "battle_yarmouk_636",
+  "unresolved_sources": [
+    "treadgold_a_1997",
+    "kazhdan_the_1991"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "haldon_byzantium_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

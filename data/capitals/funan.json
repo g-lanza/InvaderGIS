@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "funan",
+  "name": "Vyadhapura (Angkor Borei)",
+  "entity_id": "funan",
+  "entity_name": "Funan",
+  "start_year": 50,
+  "end_year": 550,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1075076"
+    }
+  },
+  "coords": [
+    105.05,
+    11.21
+  ]
+}

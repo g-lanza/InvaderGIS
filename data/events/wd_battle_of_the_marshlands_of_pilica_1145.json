@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_the_marshlands_of_pilica_1145",
+  "name": "Battle of the marshlands of Pilica",
+  "year": 1145,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    52,
+    19
+  ],
+  "entity": "kingdom_of_poland_piast",
+  "summary": "Battle of the marshlands of Pilica (1145 CE), at Pilica. Source: Wikidata Q9172510.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_poland_piast"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "davies_gods_1981",
+      "knoll_the_1972"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "justinian_reconquest_533",
+  "name": "Belisarius reconquers Africa",
+  "year": 533,
+  "type": "war",
+  "category": "violence",
+  "coords": [
+    36.86,
+    10.33
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Emperor Justinian I launches the reconquest of the western Mediterranean, beginning with General Belisarius's campaign against the Vandal Kingdom in North Africa (533). The Vandals under King Gelimer are defeated at Ad Decimum and Tricamarum in remarkably rapid campaigns; the Vandal Kingdom ends within a year (534). Justinian then invades Italy (535), beginning the Gothic Wars (535–554), a 20-year struggle that devastates Italy's economy and population. Sicily, Sardinia, Corsica, North Africa, and Italy are reincorporated into the Roman Empire.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire"
+    ],
+    "structural_significance": "Temporarily reunites much of the Mediterranean under Roman rule; the Gothic Wars' devastation destroys Italy's classical urban civilization; creates the Byzantine Exarchate of Ravenna that shapes Italian history for centuries",
+    "year_range": [
+      533,
+      534
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_meath_high_kingship",
+  "statement": "The Kingdom of Meath occupied a unique position in Irish political geography as the seat of the High Kingship at Tara — the symbolic center of Irish kingship. Meath's kings were often nominal subordinates of the High King rather than independent rulers. In the 12th century, Meath was divided between Leinster (under Strongbow) and the Anglo-Norman barons after the English intervention (1169–1171), effectively ending Meath's distinct political existence as an Irish kingdom. The 'Lord of Meath' became an Anglo-Norman title under Walter de Lacy.",
+  "subject_ids": [
+    "kingdom_of_ireland_high",
+    "kingdom_of_meath"
+  ],
+  "predicate": "vassalage",
+  "derived_from": "rel_meath_high_kingship",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "kingdom_of_meath"
+  ],
+  "period": {
+    "from": 500,
+    "to": 1166
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_despotate_of_dobruja_1388_c01",
+  "statement": "The Ottoman Empire absorbed the Despotate of Dobruja around 1388 CE, eliminating one of the last independent successor states in the Black Sea region.",
+  "subject_ids": [
+    "despotate_of_dobruja"
+  ],
+  "period": {
+    "from": 1388,
+    "to": 1388
+  },
+  "derived_from": "despotate_of_dobruja_1388",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

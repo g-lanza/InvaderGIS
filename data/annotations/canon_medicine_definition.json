@@ -1,0 +1,29 @@
+{
+  "id": "canon_medicine_definition",
+  "kind": "annotation",
+  "dataset": "medieval",
+  "target_id": "canon_of_medicine",
+  "target_kind": "text",
+  "anchor": {
+    "quote": "Medicine is the science by which we learn the various states of the human body, when in health and when not in health, whereby health is conserved and whereby it is restored after being lost.",
+    "locator": "Book I, on the definition of medicine"
+  },
+  "body": "Avicenna's definition opens the Canon, the systematizing medical encyclopaedia that served as the standard teaching text in both Islamic and (in Latin translation) European medical schools into the 17th century.",
+  "links_to": [
+    "abbasid_caliphate"
+  ],
+  "tags": [
+    "medicine",
+    "science",
+    "encyclopaedia",
+    "transmission"
+  ],
+  "provenance": {
+    "status": "draft",
+    "confidence": "high",
+    "attestation": "strong",
+    "sources_used": [
+      "canon_of_medicine"
+    ]
+  }
+}

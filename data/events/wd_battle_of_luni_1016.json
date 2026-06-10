@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_luni_1016",
+  "name": "Battle of Luni",
+  "year": 1016,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    44.05,
+    9.65
+  ],
+  "entity": "republic_of_genoa",
+  "summary": "Battle of Luni (1016 CE), at Luna. Source: Wikidata Q110473300.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_genoa",
+      "republic_of_pisa"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

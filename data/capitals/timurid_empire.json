@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "timurid_empire",
+  "name": "Samarkand",
+  "entity_id": "timurid_empire",
+  "entity_name": "Timurid Empire",
+  "start_year": 1370,
+  "end_year": 1507,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q484195"
+    }
+  },
+  "coords": [
+    66.97583,
+    39.65472
+  ]
+}

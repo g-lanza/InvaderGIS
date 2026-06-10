@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_university_of_heidelberg_1386_c01",
+  "statement": "Ruprecht I of the Palatinate founded the University of Heidelberg under Pope Urban VI's bull of 23 October 1385, the first continuously surviving university on German territory of the Holy Roman Empire.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1386,
+    "to": 1386
+  },
+  "derived_from": "university_of_heidelberg_1386",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "bartlett_making_of_europe_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

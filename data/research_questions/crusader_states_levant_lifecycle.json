@@ -1,0 +1,58 @@
+{
+  "id": "crusader_states_levant_lifecycle",
+  "question": "What was the lifecycle of the Latin Crusader states in the Levant, from Manzikert to their absorption by the Mamluk sultanate (1071–1291)?",
+  "description": "Traces the opening created by the Seljuk victory at Manzikert (1071), the establishment of the Frankish principalities after the First Crusade, the fragile economy and politics that sustained them, the turning point at Hattin (1187), and their progressive conquest by the Ayyubids and then the Mamluks, who halted the Mongols at Ain Jalut and eliminated the last Latin holdings.",
+  "scope": {
+    "from": 1000,
+    "to": 1300,
+    "regions": ["near_east", "byzantine_world"]
+  },
+  "evidence": {
+    "entity_ids": [
+      "byzantine_empire",
+      "seljuk_empire",
+      "kingdom_of_jerusalem",
+      "principality_of_antioch",
+      "county_of_edessa",
+      "county_of_tripoli",
+      "ayyubid_sultanate",
+      "mamluk_sultanate"
+    ],
+    "claim_ids": [
+      "claim_battle_manzikert_1071_c01",
+      "claim_battle_manzikert_1071_c02",
+      "claim_first_crusade_1099_c01",
+      "claim_first_crusade_1099_c02",
+      "claim_crusader_states_economy_c01",
+      "claim_crusader_states_economy_c02"
+    ],
+    "source_ids": [
+      "asbridge_the_2010",
+      "riley_smith_crusades_2005",
+      "lev_saladin_1999",
+      "kennedy_the_2004"
+    ],
+    "relationship_ids": [
+      "rel_seljuk_byzantine_rivalry",
+      "rel_ayyubid_jerusalem_rivalry",
+      "rel_mamluk_jerusalem_conquest",
+      "rel_principality_of_antioch_to_mamluk_sultanate_succession",
+      "rel_county_of_tripoli_to_mamluk_sultanate_succession"
+    ],
+    "event_ids": [
+      "battle_manzikert_1071",
+      "first_crusade_1099",
+      "crusade_jerusalem_1099",
+      "battle_hattin_1187",
+      "ain_jalut_1260"
+    ]
+  },
+  "status": "open",
+  "findings": "The Seljuk defeat of Byzantium at Manzikert in 1071 destabilised Anatolia and the Levant and helped prompt the Western expedition that founded the Frankish states after 1099. Those states survived as a narrow, port-dependent polity reliant on Italian shipping and intermittent reinforcement; Saladin's victory at Hattin in 1187 broke their strategic position, and after the Mamluks stopped the Mongols at Ain Jalut in 1260 they systematically absorbed the remaining principalities, ending the Latin Levant by 1291.",
+  "provenance": {
+    "status": "open",
+    "sources_used": ["asbridge_the_2010", "riley_smith_crusades_2005", "lev_saladin_1999"],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

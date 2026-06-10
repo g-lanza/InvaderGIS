@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_siege_of_barcelona_800",
+  "name": "Siege of Barcelona",
+  "subtype": "battle",
+  "start_year": 800,
+  "end_year": 800,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q11915297"
+    }
+  },
+  "description": "Battle during Carolingian conquest of the Spanish March (800)",
+  "coords": [
+    2.1667,
+    41.4019
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_iberia_hre_low_countries",
+  "statement": "The dynastic connections that linked the Iberian crowns (Spain), the Holy Roman Empire, and the Low Countries were forged through a series of Habsburg marriages in the late 15th and early 16th centuries. Ferdinand and Isabella's daughter Juana ('the Mad') married Philip the Handsome, son of Emperor Maximilian I and Mary of Burgundy — connecting Castile to the Habsburg Netherlands and the imperial family. Their son Charles inherited Castile, Aragon, the Netherlands, and was elected Holy Roman Emperor (1519) as Charles V, creating the first empire 'on which the sun never set.'",
+  "subject_ids": [
+    "duchy_of_saxony",
+    "hanseatic_league"
+  ],
+  "predicate": "cultural_exchange",
+  "derived_from": "rel_iberia_hre_low_countries",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "dollinger_the_1970",
+      "hammel-kiesow_die_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1159,
+    "to": 1296
+  }
+}

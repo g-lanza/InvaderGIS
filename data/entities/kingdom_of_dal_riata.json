@@ -1,0 +1,982 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_dal_riata",
+  "name_primary": "Kingdom of Dál Riata",
+  "name_variants": [
+    "Dalriada"
+  ],
+  "type": "kingdom",
+  "region": "british_isles",
+  "formed": 500,
+  "dissolved": 839,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 600,
+      "label": "Kingdom of Dal Riata (approx.)",
+      "polygon": [
+        [
+          [
+            55.4,
+            -5.9
+          ],
+          [
+            55.65,
+            -5.5
+          ],
+          [
+            56.05,
+            -5.15
+          ],
+          [
+            56.5,
+            -5.1
+          ],
+          [
+            56.8,
+            -5.55
+          ],
+          [
+            56.8,
+            -6.4
+          ],
+          [
+            56.3,
+            -6.7
+          ],
+          [
+            55.85,
+            -6.3
+          ],
+          [
+            55.45,
+            -5.95
+          ],
+          [
+            55.4,
+            -5.9
+          ]
+        ],
+        [
+          [
+            54.9,
+            -6.35
+          ],
+          [
+            54.9,
+            -5.75
+          ],
+          [
+            55.25,
+            -5.65
+          ],
+          [
+            55.3,
+            -6.3
+          ],
+          [
+            54.9,
+            -6.35
+          ]
+        ]
+      ]
+    },
+    {
+      "year": 700,
+      "label": "Kingdom of Dal Riata (approx.)",
+      "polygon": [
+        [
+          [
+            55.4,
+            -5.9
+          ],
+          [
+            55.65,
+            -5.5
+          ],
+          [
+            56.05,
+            -5.15
+          ],
+          [
+            56.5,
+            -5.1
+          ],
+          [
+            56.8,
+            -5.55
+          ],
+          [
+            56.8,
+            -6.4
+          ],
+          [
+            56.3,
+            -6.7
+          ],
+          [
+            55.85,
+            -6.3
+          ],
+          [
+            55.45,
+            -5.95
+          ],
+          [
+            55.4,
+            -5.9
+          ]
+        ],
+        [
+          [
+            54.9,
+            -6.35
+          ],
+          [
+            54.9,
+            -5.75
+          ],
+          [
+            55.25,
+            -5.65
+          ],
+          [
+            55.3,
+            -6.3
+          ],
+          [
+            54.9,
+            -6.35
+          ]
+        ]
+      ]
+    },
+    {
+      "year": 800,
+      "label": "Kingdom of Dal Riata (approx.)",
+      "polygon": [
+        [
+          [
+            55.4,
+            -5.9
+          ],
+          [
+            55.65,
+            -5.5
+          ],
+          [
+            56.05,
+            -5.15
+          ],
+          [
+            56.5,
+            -5.1
+          ],
+          [
+            56.8,
+            -5.55
+          ],
+          [
+            56.8,
+            -6.4
+          ],
+          [
+            56.3,
+            -6.7
+          ],
+          [
+            55.85,
+            -6.3
+          ],
+          [
+            55.45,
+            -5.95
+          ],
+          [
+            55.4,
+            -5.9
+          ]
+        ],
+        [
+          [
+            54.9,
+            -6.35
+          ],
+          [
+            54.9,
+            -5.75
+          ],
+          [
+            55.25,
+            -5.65
+          ],
+          [
+            55.3,
+            -6.3
+          ],
+          [
+            54.9,
+            -6.35
+          ]
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    56,
+    -6
+  ],
+  "religion": "catholic",
+  "population_estimates": [
+    {
+      "year": 600,
+      "estimate": 30000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q17410",
+          "url": "https://www.wikidata.org/wiki/Q17410",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Dál Riata",
+          "url": "https://en.wikipedia.org/wiki/Zhou_Enlai"
+        }
+      ]
+    },
+    {
+      "year": 675,
+      "estimate": 35000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q17410",
+          "url": "https://www.wikidata.org/wiki/Q17410",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Dál Riata",
+          "url": "https://en.wikipedia.org/wiki/Zhou_Enlai"
+        }
+      ]
+    },
+    {
+      "year": 750,
+      "estimate": 40000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q17410",
+          "url": "https://www.wikidata.org/wiki/Q17410",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Dál Riata",
+          "url": "https://en.wikipedia.org/wiki/Zhou_Enlai"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low"
+  },
+  "description": "Gaelic kingdom straddling western Scotland and northeastern Ireland (c. 500–850) that served as the conduit for Irish Christianity's transmission to Scotland through Columba's Iona monastery; its cultural exports, insular manuscript art, Gaelic language, monastic organisation, shaped the religious and literary culture of the entire British Isles.",
+  "temporal": {
+    "start_year": 500,
+    "end_year": 839,
+    "end_year_within_scope": null,
+    "start_event_id": null,
+    "end_event_id": null,
+    "notes": "Gaelic maritime kingdom Argyll and Ulster; precursor to Alba/Scotland."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      56,
+      -6
+    ],
+    "core_regions": [
+      "Argyll",
+      "Antrim coast"
+    ],
+    "polygon_simplified": [
+      [
+        55.4,
+        -5.9
+      ],
+      [
+        55.65,
+        -5.5
+      ],
+      [
+        56.05,
+        -5.15
+      ],
+      [
+        56.5,
+        -5.1
+      ],
+      [
+        56.8,
+        -5.55
+      ],
+      [
+        56.8,
+        -6.4
+      ],
+      [
+        56.3,
+        -6.7
+      ],
+      [
+        55.85,
+        -6.3
+      ],
+      [
+        55.45,
+        -5.95
+      ],
+      [
+        55.4,
+        -5.9
+      ]
+    ],
+    "notes": "Centroid approximate; polygon pending schematic or OHM sourcing.",
+    "polygon_snapshots": [
+      {
+        "year": 600,
+        "label": "Kingdom of Dal Riata (approx.)",
+        "polygon": [
+          [
+            [
+              55.4,
+              -5.9
+            ],
+            [
+              55.65,
+              -5.5
+            ],
+            [
+              56.05,
+              -5.15
+            ],
+            [
+              56.5,
+              -5.1
+            ],
+            [
+              56.8,
+              -5.55
+            ],
+            [
+              56.8,
+              -6.4
+            ],
+            [
+              56.3,
+              -6.7
+            ],
+            [
+              55.85,
+              -6.3
+            ],
+            [
+              55.45,
+              -5.95
+            ],
+            [
+              55.4,
+              -5.9
+            ]
+          ],
+          [
+            [
+              54.9,
+              -6.35
+            ],
+            [
+              54.9,
+              -5.75
+            ],
+            [
+              55.25,
+              -5.65
+            ],
+            [
+              55.3,
+              -6.3
+            ],
+            [
+              54.9,
+              -6.35
+            ]
+          ]
+        ]
+      },
+      {
+        "year": 700,
+        "label": "Kingdom of Dal Riata (approx.)",
+        "polygon": [
+          [
+            [
+              55.4,
+              -5.9
+            ],
+            [
+              55.65,
+              -5.5
+            ],
+            [
+              56.05,
+              -5.15
+            ],
+            [
+              56.5,
+              -5.1
+            ],
+            [
+              56.8,
+              -5.55
+            ],
+            [
+              56.8,
+              -6.4
+            ],
+            [
+              56.3,
+              -6.7
+            ],
+            [
+              55.85,
+              -6.3
+            ],
+            [
+              55.45,
+              -5.95
+            ],
+            [
+              55.4,
+              -5.9
+            ]
+          ],
+          [
+            [
+              54.9,
+              -6.35
+            ],
+            [
+              54.9,
+              -5.75
+            ],
+            [
+              55.25,
+              -5.65
+            ],
+            [
+              55.3,
+              -6.3
+            ],
+            [
+              54.9,
+              -6.35
+            ]
+          ]
+        ]
+      },
+      {
+        "year": 800,
+        "label": "Kingdom of Dal Riata (approx.)",
+        "polygon": [
+          [
+            [
+              55.4,
+              -5.9
+            ],
+            [
+              55.65,
+              -5.5
+            ],
+            [
+              56.05,
+              -5.15
+            ],
+            [
+              56.5,
+              -5.1
+            ],
+            [
+              56.8,
+              -5.55
+            ],
+            [
+              56.8,
+              -6.4
+            ],
+            [
+              56.3,
+              -6.7
+            ],
+            [
+              55.85,
+              -6.3
+            ],
+            [
+              55.45,
+              -5.95
+            ],
+            [
+              55.4,
+              -5.9
+            ]
+          ],
+          [
+            [
+              54.9,
+              -6.35
+            ],
+            [
+              54.9,
+              -5.75
+            ],
+            [
+              55.25,
+              -5.65
+            ],
+            [
+              55.3,
+              -6.3
+            ],
+            [
+              54.9,
+              -6.35
+            ]
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "approximate",
+    "polygon_source": "hand_crafted",
+    "polygon_source_date": "2026-05-11",
+    "capital": {
+      "name": "Dunadd",
+      "coords": [
+        56.08,
+        -5.49
+      ],
+      "source": "curated"
+    }
+  },
+  "internal_structure": {
+    "centralization": "low_to_medium",
+    "centralization_trajectory": null,
+    "governance_type": "dynastic_feudal",
+    "legitimacy_basis": [
+      "inheritance"
+    ],
+    "administrative_system": ""
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "formation",
+      "years": "c.500–560",
+      "description": "Irish Scotti colonize Argyll; dual kingdom forms.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q17410",
+          "url": "https://www.wikidata.org/wiki/Q17410"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Dál Riata",
+          "url": "https://en.wikipedia.org/wiki/Zhou_Enlai"
+        }
+      ]
+    },
+    {
+      "phase": "peak",
+      "years": "560–720",
+      "description": "Áedán mac Gabráin expands power; Iona at height of influence.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q17410",
+          "url": "https://www.wikidata.org/wiki/Q17410"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Dál Riata",
+          "url": "https://en.wikipedia.org/wiki/Zhou_Enlai"
+        }
+      ]
+    },
+    {
+      "phase": "crisis",
+      "years": "720–843",
+      "description": "Viking raids; Pictish pressure; kingdom weakens.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q17410",
+          "url": "https://www.wikidata.org/wiki/Q17410"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Dál Riata",
+          "url": "https://en.wikipedia.org/wiki/Zhou_Enlai"
+        }
+      ]
+    },
+    {
+      "phase": "dissolution",
+      "years": "c.843",
+      "description": "Kenneth mac Alpin merges Dal Riata and Pictish kingdoms into Scotland.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q17410",
+          "url": "https://www.wikidata.org/wiki/Q17410"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Dál Riata",
+          "url": "https://en.wikipedia.org/wiki/Zhou_Enlai"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "mobility_advantage",
+      "layer": "military_security",
+      "description": "Sea-lanes between Argyll and Antrim allowed Dal Riata to maintain a dual-shore kingdom using curraghs and galleys.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q17410",
+          "url": "https://www.wikidata.org/wiki/Q17410"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Dál Riata",
+          "url": "https://en.wikipedia.org/wiki/Zhou_Enlai"
+        }
+      ]
+    },
+    {
+      "tag": "diaspora_network",
+      "layer": "population_environment",
+      "description": "Irish Scotti colonists established Argyll settlements, creating a cross-channel polity bridging Ireland and Scotland.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q17410",
+          "url": "https://www.wikidata.org/wiki/Q17410"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Dál Riata",
+          "url": "https://en.wikipedia.org/wiki/Zhou_Enlai"
+        }
+      ]
+    },
+    {
+      "tag": "ideological_unification",
+      "layer": "ideology_religion",
+      "description": "Iona monastery founded by Columba unified religious and political authority, giving the kingdom spiritual prestige across the British Isles.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q17410",
+          "url": "https://www.wikidata.org/wiki/Q17410"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Dál Riata",
+          "url": "https://en.wikipedia.org/wiki/Zhou_Enlai"
+        }
+      ]
+    },
+    {
+      "layer": "ideology_religion",
+      "tag": "gaelic_christianity",
+      "direction": "rise",
+      "description": "Dál Riata's monasteries, Iona above all, became the leading centers of Celtic Christianity and literacy, giving the kingdom enormous cultural influence over both Ireland and northern Britain.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q17410",
+          "url": "https://www.wikidata.org/wiki/Q17410"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Dál Riata",
+          "url": "https://en.wikipedia.org/wiki/Zhou_Enlai"
+        }
+      ]
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "dual_kingdom_model",
+      "direction": "rise",
+      "description": "Dál Riata straddled the North Channel with territories in both Antrim and Argyll, creating a maritime kingdom linked by oared galleys that gave it mobility and flexibility neither land-power could match.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q17410",
+          "url": "https://www.wikidata.org/wiki/Q17410"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Dál Riata",
+          "url": "https://en.wikipedia.org/wiki/Zhou_Enlai"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "external_military_pressure",
+      "layer": "military_security",
+      "description": "Viking raids on Iona (793, 795, 802, 806) devastated the religious infrastructure underpinning Dal Riata's authority.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q17410",
+          "url": "https://www.wikidata.org/wiki/Q17410"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Dál Riata",
+          "url": "https://en.wikipedia.org/wiki/Zhou_Enlai"
+        }
+      ]
+    },
+    {
+      "tag": "succession_crisis",
+      "layer": "dynastic_legitimacy",
+      "description": "Overlapping Irish and Scottish branches competed, weakening unified governance.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q17410",
+          "url": "https://www.wikidata.org/wiki/Q17410"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Dál Riata",
+          "url": "https://en.wikipedia.org/wiki/Zhou_Enlai"
+        }
+      ]
+    },
+    {
+      "tag": "external_displacement",
+      "layer": "external_political",
+      "description": "Pictish king Óengus mac Fergusa's campaigns and eventual merger under Kenneth mac Alpin c.843.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q17410",
+          "url": "https://www.wikidata.org/wiki/Q17410"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Dál Riata",
+          "url": "https://en.wikipedia.org/wiki/Zhou_Enlai"
+        }
+      ]
+    },
+    {
+      "layer": "military_security",
+      "tag": "external_military_pressure",
+      "direction": "decline",
+      "description": "Viking raids from the 790s onward devastated Iona three times, destroying the monastic network that had underpinned Dál Riatan cultural and political prestige, fragmenting the maritime kingdom.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q17410",
+          "url": "https://www.wikidata.org/wiki/Q17410"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Dál Riata",
+          "url": "https://en.wikipedia.org/wiki/Zhou_Enlai"
+        }
+      ],
+      "tag_prose": "viking_raids"
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "scots_merger",
+      "direction": "decline",
+      "description": "Cináed mac Ailpín (Kenneth MacAlpin) merged Dál Riata with the Pictish kingdom around 843, creating the Kingdom of Alba and absorbing Dál Riata's identity into a larger Scottish state.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q17410",
+          "url": "https://www.wikidata.org/wiki/Q17410"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Dál Riata",
+          "url": "https://en.wikipedia.org/wiki/Zhou_Enlai"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "person_id": "aedan_mac_gabrain",
+      "name": "Áedán mac Gabráin",
+      "role": "military_leader",
+      "years": "574–608",
+      "year_start": 574,
+      "year_end": 608,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Áedán mac Gabráin",
+          "url": "https://en.wikipedia.org/wiki/Áedán_mac_Gabráin"
+        }
+      ]
+    },
+    {
+      "person_id": "columba_iona",
+      "name": "Columba of Iona",
+      "role": "religious_authority",
+      "years": "521–597",
+      "year_start": 521,
+      "year_end": 597,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Columba of Iona",
+          "url": "https://en.wikipedia.org/wiki/Columba"
+        }
+      ]
+    }
+  ],
+  "successor_entity_ids": [
+    "kingdom_of_alba"
+  ],
+  "primary_ethnicity": "celtic",
+  "ethnic_composition": [
+    {
+      "group": "celtic",
+      "proportion": 0.78
+    },
+    {
+      "group": "english",
+      "proportion": 0.14
+    },
+    {
+      "group": "norse_scandinavian",
+      "proportion": 0.08
+    }
+  ],
+  "religion_composition": [
+    {
+      "religion": "catholic",
+      "proportion": 0.95
+    },
+    {
+      "religion": "pagan",
+      "proportion": 0.05
+    }
+  ],
+  "primary_language": "celtic_lang",
+  "language_composition": [
+    {
+      "language": "celtic_lang",
+      "proportion": 0.82,
+      "role": "vernacular"
+    },
+    {
+      "language": "old_english",
+      "proportion": 0.12,
+      "role": "regional"
+    },
+    {
+      "language": "latin",
+      "proportion": 0.06,
+      "role": "liturgical"
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "fishing",
+      "maritime_trade"
+    ],
+    "wealth_level": "subsistence",
+    "major_exports": [
+      "fish",
+      "cattle",
+      "wool",
+      "slaves"
+    ],
+    "major_trade_partners": [
+      "pictish_confederation",
+      "kingdom_of_ireland_high"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "tribute"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q17410",
+        "url": "https://www.wikidata.org/wiki/Q17410"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Kingdom of Dál Riata",
+        "url": "https://en.wikipedia.org/wiki/Zhou_Enlai"
+      }
+    ]
+  },
+  "social_structure": {
+    "ruling_ethnicity": "celtic",
+    "subject_majority": "celtic",
+    "military_ethnicity": "celtic",
+    "administrative_language": "celtic_lang",
+    "stratification_type": "homogeneous"
+  },
+  "wikidata_enrichment": {
+    "qid": "Q111471",
+    "matched_name": "manual/kingdom_of_dal_riata",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Zhou_Enlai"
+  },
+  "sources": [
+    {
+      "type": "book",
+      "author": "Wickham, Chris",
+      "title": "The Inheritance of Rome: A History of Europe from 400 to 1000",
+      "publisher": "Allen Lane",
+      "year": 2009
+    },
+    {
+      "type": "book",
+      "author": "Abulafia, David (ed.)",
+      "title": "The New Cambridge Medieval History, Vol. V: c. 1198 – c. 1300",
+      "publisher": "Cambridge University Press",
+      "year": 1999
+    }
+  ],
+  "monogram": "DR"
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_cyril_methodius_863_c01",
+  "statement": "Emperor Michael III sent the brothers Cyril and Methodius to Moravia around 863 at the request of Prince Rastislav.",
+  "subject_ids": [
+    "great_moravia"
+  ],
+  "period": {
+    "from": 863,
+    "to": 863
+  },
+  "derived_from": "cyril_methodius_863",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "havlík_kronika_1992",
+      "bowlus_franks_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

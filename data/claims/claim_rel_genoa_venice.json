@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_genoa_venice",
+  "statement": "The rivalry between Genoa and Venice — the two dominant maritime republics of the medieval Mediterranean — was fought through four major wars (1253–1299, 1350–1355, 1373–1381, and through proxy conflicts). Genoese and Venetian trading posts throughout the Mediterranean brought them into constant competition. Venice's decisive victory at the Battle of Chioggia (1380–1381), where a Genoese fleet besieging Venice in its lagoon was destroyed, permanently broke Genoese naval power. Venice thereafter dominated the eastern Mediterranean trade routes until the Ottoman expansion.",
+  "subject_ids": [
+    "republic_of_genoa",
+    "republic_of_venice"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_genoa_venice",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015",
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1099,
+    "to": 1381
+  }
+}

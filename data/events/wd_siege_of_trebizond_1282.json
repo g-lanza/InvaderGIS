@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_trebizond_1282",
+  "name": "Siege of Trebizond",
+  "year": 1282,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41,
+    39.7
+  ],
+  "entity": "empire_of_trebizond",
+  "summary": "Siege of Trebizond (1282 CE), at Trabzon (part of Byzantine–Georgian Wars). Source: Wikidata Q7510462.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "empire_of_trebizond"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "miller_trebizond_1926",
+      "eastmond_art_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

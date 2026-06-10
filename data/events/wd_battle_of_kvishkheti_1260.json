@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_kvishkheti_1260",
+  "name": "Battle of Kvishkheti",
+  "year": 1260,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    38.71,
+    48.1
+  ],
+  "entity": "kingdom_of_georgia",
+  "summary": "Battle of Kvishkheti (1260 CE), at Kvishkheti (part of Rebellion of David VII of Georgia). Source: Wikidata Q12870320.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_georgia",
+      "ilkhanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "black_death_1347",
+  "name": "Black Death arrives in Europe",
+  "year": 1347,
+  "type": "dissolution_event",
+  "category": "power",
+  "coords": [
+    38.19,
+    15.55
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Bubonic plague arrives in Europe via Genoese trading ships from Caffa (Crimea). The disease kills 30–60% of Europe's population within five years, perhaps 25 million people. Entire villages are depopulated; the Church loses credibility as prayer fails to stop the plague. Labor shortages empower surviving peasants to demand higher wages, weakening serfdom. The psychological trauma generates flagellant movements, pogroms against Jews, and macabre art traditions.",
+  "outcomes": [
+    "population_collapse",
+    "labor_shortage",
+    "peasant_empowerment"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "kingdom_of_england",
+      "crown_of_castile",
+      "holy_roman_empire",
+      "republic_of_venice",
+      "republic_of_genoa",
+      "papal_states",
+      "byzantine_empire",
+      "mamluk_sultanate"
+    ],
+    "structural_significance": "The most destructive pandemic in European history; accelerates the end of serfdom in Western Europe; reshapes political, economic, and religious structures across the continent; labor scarcity enables peasant resistance movements (Jacquerie 1358, Wat Tyler 1381)",
+    "year_range": [
+      1347,
+      1351
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

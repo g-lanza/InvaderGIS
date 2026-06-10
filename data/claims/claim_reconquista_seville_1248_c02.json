@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_reconquista_seville_1248_c02",
+  "statement": "After the fall of Seville in 1248 the emirate of Granada remained the only independent Muslim state in Iberia.",
+  "subject_ids": [
+    "crown_of_castile"
+  ],
+  "period": {
+    "from": 1248,
+    "to": 1248
+  },
+  "derived_from": "reconquista_seville_1248",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "o'callaghan_a_1975",
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,36 @@
+{
+ "kind": "event",
+ "dataset": "medieval-europe-500-1500",
+ "id": "council_constantinople_iv_869",
+ "name": "Fourth Council of Constantinople",
+ "year": 869,
+ "type": "religious_council",
+ "category": "religion",
+ "coords": [
+  41.0086,
+  28.9802
+ ],
+ "entity": "byzantine_empire",
+ "summary": "Council convoked by Basil I to depose Patriarch Photius and restore communion with Rome. Recognised in the Latin West as the Eighth Ecumenical Council but not in the Greek East, which later anathematises it under the restored Photius (879–880).",
+ "outcomes": [],
+ "_quarry": {
+  "participants": [
+   "byzantine_empire",
+   "papal_states"
+  ],
+  "structural_significance": "Last council both Greek and Latin churches initially called ecumenical; subsequent Eastern repudiation marks an early step toward distinct conciliar canons in East and West.",
+  "year_range": [
+   869,
+   870
+  ]
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "meyendorff_byzantium_and_rise_of_russia_1981",
+   "ims_fordham",
+   "ims_fordham_sbook2"
+  ],
+  "confidence": "low"
+ }
+}

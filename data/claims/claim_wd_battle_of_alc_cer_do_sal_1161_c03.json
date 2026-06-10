@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_alc_cer_do_sal_1161_c03",
+  "statement": "The Battle of Alcácer do Sal (1161 CE) was part of the Reconquista.",
+  "subject_ids": [
+    "kingdom_of_portugal"
+  ],
+  "period": {
+    "from": 1161,
+    "to": 1161
+  },
+  "derived_from": "wd_battle_of_alc_cer_do_sal_1161",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

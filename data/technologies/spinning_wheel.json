@@ -1,0 +1,39 @@
+{
+  "kind": "technology",
+  "dataset": "medieval-europe-500-1500",
+  "id": "spinning_wheel",
+  "name_primary": "Spinning Wheel",
+  "domain": "other",
+  "origin": {
+    "place": "India or China (debated)",
+    "year": 1000
+  },
+  "materials": [
+    "wood",
+    "wool or cotton fibre",
+    "spindle",
+    "leather drive band"
+  ],
+  "diffusion": [
+    "India",
+    "Song China",
+    "Abbasid Caliphate",
+    "Fatimid Egypt",
+    "Al-Andalus",
+    "Holy Roman Empire",
+    "Kingdom of France",
+    "Kingdom of England"
+  ],
+  "_quarry": {
+    "description": "The spinning wheel is first clearly illustrated in China around 1270 CE and independently attested in India (the charkha) between 500 and 1000 CE; both traditions are cited in scholarship as possible origins. Via Arab trade networks the device reached the Middle East by the late 12th century, and the first European textual attestation appears in a 1298 chronicle from Speyer. By increasing thread output by a factor of ten or more over the drop spindle, the spinning wheel transformed medieval textile industries across Eurasia."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "britannica_spinning_wheel",
+      "wiki_spinning_wheel"
+    ],
+    "confidence": "low",
+    "attestation": "weak"
+  }
+}

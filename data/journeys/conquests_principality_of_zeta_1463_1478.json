@@ -1,0 +1,50 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_principality_of_zeta_1463_1478",
+  "name": "Principality of Zeta — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1463,
+  "year_end": 1478,
+  "waypoints": [
+    {
+      "year": 1463,
+      "place": "First Ottoman–Venetian War",
+      "coords": [
+        42.92,
+        18.205
+      ],
+      "note": "military",
+      "event_id": "wd_first_ottoman_venetian_war_1463"
+    },
+    {
+      "year": 1474,
+      "place": "Siege of Shkodra",
+      "coords": [
+        43.06,
+        20.1067
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_shkodra_1474"
+    },
+    {
+      "year": 1478,
+      "place": "Siege of Shkodra",
+      "coords": [
+        43.06,
+        20.1067
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_shkodra_1478"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

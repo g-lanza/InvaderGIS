@@ -1,0 +1,33 @@
+{
+ "kind": "event",
+ "dataset": "medieval-europe-500-1500",
+ "id": "treaty_of_mersen_870",
+ "name": "Treaty of Meerssen",
+ "year": 870,
+ "type": "treaty_fragmentation",
+ "category": "diplomacy",
+ "coords": [
+  50.8819,
+  5.7494
+ ],
+ "entity": "west_francia",
+ "summary": "Charles the Bald and Louis the German partition the inheritance of their nephew Lothair II at Meerssen (8 August 870), dividing the Middle Francia of Treaty of Verdun (843) along the rivers Meuse, Saône, and Rhône. East Francia gains Frisia, the lower Rhineland, Alsace, and most of Burgundy.",
+ "outcomes": [],
+ "_quarry": {
+  "participants": [
+   "west_francia",
+   "east_francia"
+  ],
+  "structural_significance": "Second great post-Verdun partition of the Carolingian inheritance; sets the rough east-west political linguistic boundary that distinguishes Romance-speaking West Francia (future France) from German-speaking East Francia (future Holy Roman Empire).",
+  "year_range": null
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "wickham_inheritance_of_rome_2009",
+   "ims_fordham",
+   "ims_fordham_sbookmap"
+  ],
+  "confidence": "low"
+ }
+}

@@ -1,0 +1,43 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "mongol_invasion_rus_1237",
+  "name": "Mongol Invasion of Rus",
+  "year": 1237,
+  "type": "conquest",
+  "category": "violence",
+  "coords": [
+    54.6,
+    39.7
+  ],
+  "entity": "mongol_empire",
+  "summary": "Batu Khan's western army, guided by the brilliant strategist Subutai, invades the Rus principalities in winter 1237, choosing the frozen rivers as highways for their cavalry. Ryazan falls first, utterly destroyed; Vladimir-Suzdal, the wealthiest Rus principality, is burned in February 1238. The Battle of the Sit River (1238) destroys the Vladimir army; Grand Prince Yury II is killed. The Mongols conduct methodical city-by-city destruction. Only Novgorod in the far north escapes, apparently because spring thaw threatened to trap the Mongol cavalry in the swamps.",
+  "outcomes": [
+    "ryazan_sacked",
+    "vladimir_destroyed",
+    "most_rus_cities_burned"
+  ],
+  "_quarry": {
+    "participants": [
+      "mongol_empire",
+      "golden_horde",
+      "kievan_rus",
+      "principality_of_vladimir_suzdal"
+    ],
+    "structural_significance": "The invasion reshapes the demographic and political map of Eastern Europe; the destruction of Vladimir-Suzdal's economic base depresses Russian urbanization for generations; the subsequent 240-year Tatar Yoke fundamentally shapes Russian state formation, military organization, and political culture, including the centralized, autocratic model of governance that the Grand Duchy of Moscow inherits and magnifies",
+    "year_range": [
+      1237,
+      1242
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

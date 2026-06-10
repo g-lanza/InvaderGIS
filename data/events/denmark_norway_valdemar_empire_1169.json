@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "denmark_norway_valdemar_empire_1169",
+  "name": "Valdemar I Builds Baltic Empire",
+  "year": 1169,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    56,
+    10
+  ],
+  "entity": "kingdom_of_denmark",
+  "summary": "Valdemar I captured the pagan stronghold of Arkona on Rügen island, completing Danish conquest of the Baltic coast. Under Valdemar I and II, Denmark dominated the Baltic Sea and controlled lucrative herring fisheries.",
+  "outcomes": [
+    "rugen_conquered",
+    "baltic_expansion",
+    "danish_power_peak"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_denmark"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_medieval_1993",
+      "roesdahl_the_1992"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "avar_war_788",
+  "name": "Charlemagne's Avar campaigns",
+  "year": 788,
+  "type": "war",
+  "category": "violence",
+  "coords": [
+    47.5,
+    18
+  ],
+  "entity": "carolingian_empire",
+  "summary": "Charlemagne launches a decisive campaign against the Avar Khaganate (788–796), whose ring fortress (the 'Ring of the Avars') in the Danube basin had been the center of Avar power for two centuries. The Frankish army systematically reduces the Ring fortresses, capturing the Avar treasure, reportedly nine wagonloads of gold, that had accumulated from extorting Byzantine tribute for generations. The Avars rapidly disappear as a people; their territory (modern Hungary) is incorporated into the Carolingian Empire as the 'Eastern March' (Ostmark, precursor of Austria).",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "carolingian_empire",
+      "avar_khaganate"
+    ],
+    "structural_significance": "Eliminates the Avar Khaganate; creates the Eastern March (future Austria); the Avar treasure funds a generation of Carolingian patronage; opens the Danube basin to Carolingian and then Slavic settlement",
+    "year_range": [
+      788,
+      803
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "mckitterick_charlemagne_2008",
+      "riché_the_1993",
+      "nelson_king_2019"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

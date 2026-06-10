@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_dobin_1147_c01",
+  "statement": "Siege of Dobin (1147 CE), at Dobin am See (part of Wendish Crusade).",
+  "subject_ids": [
+    "duchy_of_saxony"
+  ],
+  "period": {
+    "from": 1147,
+    "to": 1147
+  },
+  "derived_from": "wd_siege_of_dobin_1147",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

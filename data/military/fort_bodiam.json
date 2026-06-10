@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "fort_bodiam",
+  "name": "Bodiam Castle",
+  "subtype": "fort",
+  "start_year": 1385,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "Late medieval moated castle in East Sussex",
+  "coords": [
+    0.383,
+    50.989
+  ]
+}

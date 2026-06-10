@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_treaty_st_clair_911_c03",
+  "statement": "The Treaty of Saint-Clair-sur-Epte (911) created the Duchy of Normandy, named for the 'Northmen'.",
+  "subject_ids": [
+    "west_francia"
+  ],
+  "period": {
+    "from": 911,
+    "to": 911
+  },
+  "derived_from": "treaty_st_clair_911",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

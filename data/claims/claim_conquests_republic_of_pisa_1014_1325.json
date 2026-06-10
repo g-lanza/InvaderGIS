@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_republic_of_pisa_1014_1325",
+  "statement": "Republic of Pisa — campaigns and battles spanned 1014–1325, from Mujahid's invasion of Sardinia to Naval Battle of Cagliari.",
+  "subject_ids": [
+    "republic_of_pisa"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_republic_of_pisa_1014_1325",
+  "period": {
+    "from": 1014,
+    "to": 1325
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

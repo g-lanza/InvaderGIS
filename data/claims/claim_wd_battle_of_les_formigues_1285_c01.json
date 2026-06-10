@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_les_formigues_1285_c01",
+  "statement": "Battle of Les Formigues (1285 CE), at Formigues Islands (part of Aragonese Crusade).",
+  "subject_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 1285,
+    "to": 1285
+  },
+  "derived_from": "wd_battle_of_les_formigues_1285",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

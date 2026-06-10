@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_venetian_arsenal_expansion_1320_c02",
+  "statement": "By 1450 the Venetian Arsenal employed approximately 16,000 workers.",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1320,
+    "to": 1320
+  },
+  "derived_from": "venetian_arsenal_expansion_1320",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_ceuta_1144",
+  "name": "Battle of Ceuta",
+  "year": 1144,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    37.3,
+    5
+  ],
+  "entity": "almoravid_emirate_iberia",
+  "summary": "Battle of Ceuta (1144 CE), at Ceuta. Source: Wikidata Q111207485.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "almoravid_emirate_iberia",
+      "kingdom_of_sicily_norman"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_the_2004",
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

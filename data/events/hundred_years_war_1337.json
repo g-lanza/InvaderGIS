@@ -1,0 +1,35 @@
+{
+ "kind": "event",
+ "dataset": "medieval-europe-500-1500",
+ "id": "hundred_years_war_1337",
+ "name": "Hundred Years' War begins",
+ "year": 1337,
+ "type": "war",
+ "category": "violence",
+ "coords": [
+  48.85,
+  2.35
+ ],
+ "entity": "kingdom_of_england",
+ "summary": "Edward III of England formally asserts his claim to the French throne through his mother Isabella (daughter of Philip IV of France), triggering the Hundred Years' War (1337–1453). The war begins with English naval victory at Sluys (1340) and land victories at Crécy (1346) and Poitiers (1356). The Treaty of Brétigny (1360) gives England vast French territories in exchange for dropping the royal claim. France recovers most territory under Charles V (1360s–1370s), only for Henry V's Agincourt (1415) and Treaty of Troyes (1420) to nearly destroy France before Joan of Arc's campaigns turn the tide.",
+ "outcomes": [],
+ "_quarry": {
+  "participants": [
+   "kingdom_of_england",
+   "kingdom_of_france"
+  ],
+  "structural_significance": "Defines Anglo-French relations for 116 years; creates English longbow dominance over French chivalry; ultimately strengthens both monarchies by eliminating the great feudal lords; establishes nationalism as a political force in France",
+  "year_range": [
+   1337,
+   1453
+  ]
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "ims_fordham",
+   "ims_fordham_sbook1n"
+  ],
+  "confidence": "low"
+ }
+}

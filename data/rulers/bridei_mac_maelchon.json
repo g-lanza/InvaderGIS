@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "bridei_mac_maelchon",
+  "name": "Bridei mac Maelchon",
+  "polity": "pictish_confederation",
+  "title": "ruler",
+  "reign_start": 586,
+  "reign_end": null,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "pictish_confederation",
+        "role": "ruler",
+        "start_year": 586,
+        "end_year": null
+      }
+    ],
+    "key_actions": [],
+    "region": "british_isles",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

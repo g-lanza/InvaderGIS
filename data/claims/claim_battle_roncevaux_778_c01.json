@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_battle_roncevaux_778_c01",
+  "statement": "Charlemagne's rearguard was ambushed and annihilated by Basque warriors in the pass of Roncesvalles in 778 while withdrawing from Spain.",
+  "subject_ids": [
+    "carolingian_empire"
+  ],
+  "period": {
+    "from": 778,
+    "to": 778
+  },
+  "derived_from": "battle_roncevaux_778",
+  "unresolved_sources": [
+    "riché_the_1993"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "mckitterick_charlemagne_2008",
+      "nelson_king_2019"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

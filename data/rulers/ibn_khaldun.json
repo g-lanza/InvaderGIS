@@ -1,0 +1,61 @@
+{
+ "kind": "ruler",
+ "dataset": "medieval-europe-500-1500",
+ "id": "ibn_khaldun",
+ "name": "Ibn Khaldūn",
+ "polity": "marinid_dynasty",
+ "title": "administrator",
+ "reign_start": 1354,
+ "reign_end": 1362,
+ "_quarry": {
+  "lifespan": {
+   "birth_year": 1332,
+   "death_year": 1406
+  },
+  "entity_associations": [
+   {
+    "entity_id": "marinid_dynasty",
+    "role": "administrator",
+    "start_year": 1354,
+    "end_year": 1362
+   },
+   {
+    "entity_id": "mamluk_sultanate",
+    "role": "qadi",
+    "start_year": 1384,
+    "end_year": 1406
+   }
+  ],
+  "key_actions": [
+   {
+    "year": 1377,
+    "summary": "Completes the Muqaddimah, the prolegomenon to his universal history, while in retreat at the castle of Qalʿat ibn Salāma (near Frenda, modern Algeria).",
+    "source_id": "hourani_arab_peoples_1991"
+   },
+   {
+    "year": 1384,
+    "summary": "Settles in Cairo under Mamluk patronage; appointed grand qadi of the Maliki school (1384, again 1399, 1401, 1402, 1404).",
+    "source_id": "hourani_arab_peoples_1991"
+   },
+   {
+    "year": 1401,
+    "summary": "Negotiates with Timur outside besieged Damascus; converses with the conqueror on universal-historical themes.",
+    "source_id": "hourani_arab_peoples_1991"
+   }
+  ],
+  "region": "north_africa",
+  "name_variants": [
+   "Abū Zayd ʿAbd ar-Raḥmān ibn Muḥammad ibn Khaldūn al-Ḥaḍramī"
+  ]
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "hourani_arab_peoples_1991",
+   "hodgson_venture_of_islam_1974",
+   "ims_fordham",
+   "ims_fordham_sbook1d"
+  ],
+  "confidence": "low"
+ }
+}

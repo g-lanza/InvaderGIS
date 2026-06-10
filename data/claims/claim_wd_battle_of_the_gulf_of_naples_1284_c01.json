@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_the_gulf_of_naples_1284_c01",
+  "statement": "Battle of the Gulf of Naples (1284 CE), at Gulf of Naples (part of War of the Sicilian Vespers).",
+  "subject_ids": [
+    "kingdom_of_naples"
+  ],
+  "period": {
+    "from": 1284,
+    "to": 1284
+  },
+  "derived_from": "wd_battle_of_the_gulf_of_naples_1284",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_karbala_680_c02",
+  "statement": "Husayn ibn Ali had refused to acknowledge the caliphate of Yazid I and was journeying toward Kufa when intercepted at Karbala.",
+  "subject_ids": [
+    "umayyad_caliphate"
+  ],
+  "period": {
+    "from": 680,
+    "to": 680
+  },
+  "derived_from": "karbala_680",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "hodgson_venture_of_islam_1974"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

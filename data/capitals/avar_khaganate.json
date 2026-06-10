@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "avar_khaganate",
+  "name": "Timișoara",
+  "entity_id": "avar_khaganate",
+  "entity_name": "Avar Khaganate",
+  "start_year": 567,
+  "end_year": 822,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q28411"
+    }
+  },
+  "coords": [
+    21.23,
+    45.75972
+  ]
+}

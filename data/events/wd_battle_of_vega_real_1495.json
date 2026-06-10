@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_vega_real_1495",
+  "name": "Battle of Vega Real",
+  "year": 1495,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41,
+    -4
+  ],
+  "entity": "crown_of_castile",
+  "summary": "Battle of Vega Real (1495 CE), at La Vega (part of Spanish colonization of the Americas). Source: Wikidata Q5723209.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "crown_of_castile"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "o'callaghan_a_1975",
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_br_x_1421",
+  "name": "Battle of Brüx",
+  "subtype": "battle",
+  "start_year": 1421,
+  "end_year": 1421,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q264911"
+    }
+  },
+  "description": "Battle during Hussite Wars (1421)",
+  "coords": [
+    13.6368,
+    50.5212
+  ]
+}

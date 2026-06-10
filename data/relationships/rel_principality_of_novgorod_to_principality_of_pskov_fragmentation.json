@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_principality_of_novgorod_to_principality_of_pskov_fragmentation",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "principality_of_novgorod",
+      "role": "parent"
+    },
+    {
+      "entity_id": "principality_of_pskov",
+      "role": "fragment"
+    }
+  ],
+  "directed": true,
+  "type": "fragmentation",
+  "since": 1348,
+  "until": 1348,
+  "note": "Derived from predecessor/successor links recorded in the principality_of_novgorod and principality_of_pskov entity records. Transition anchored to principality_of_pskov start_year.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Mechanical normalisation of curated predecessor/successor links into the relationships register."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "martin_treasure_1986",
+      "birnbaum_lord_1981",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

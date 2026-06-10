@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_siege_of_hennebont_1342",
+  "name": "Siege of Hennebont",
+  "subtype": "battle",
+  "start_year": 1342,
+  "end_year": 1342,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q3485824"
+    }
+  },
+  "description": "Battle during War of the Breton Succession (1342)",
+  "coords": [
+    -3.28,
+    47.8039
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_swiss_confederation_1315_1499",
+  "statement": "Swiss Confederation — campaigns and battles spanned 1315–1499, from Battle of Morgarten to Swabian War.",
+  "subject_ids": [
+    "swiss_confederation"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_swiss_confederation_1315_1499",
+  "period": {
+    "from": 1315,
+    "to": 1499
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "marchal_schweizer_2006",
+      "rippmann_die_2006"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "novgorod_republic_1136",
+  "name": "Novgorod Expels Its Prince, Republic Established",
+  "year": 1136,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    58.52,
+    31.27
+  ],
+  "entity": "principality_of_novgorod",
+  "summary": "The citizens of Novgorod expel Prince Vsevolod Mstislavich after a military defeat and establish an effective republic governed by the veche (popular assembly). Unlike other Rus principalities, Novgorod hires princes from outside as military commanders without allowing them to own land or govern the city; political authority rests with elected officials (posadnik, tysyatsky) accountable to the veche. The republic survives until Ivan III's annexation in 1478.",
+  "outcomes": [
+    "novgorod_becomes_republic",
+    "veche_assembly_governs",
+    "princes_hired_as_military_commanders_only"
+  ],
+  "_quarry": {
+    "participants": [
+      "principality_of_novgorod"
+    ],
+    "structural_significance": "Novgorod represents a unique political experiment in medieval Russia, a commercial republic structurally similar to Venice or Genoa; its Hanseatic trade connections and the Novgorodian charter granting rights to German merchants create a commercial city of exceptional wealth; its suppression by Moscow demonstrates the incompatibility of republican institutions with Muscovite autocracy",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "martin_treasure_1986",
+      "birnbaum_lord_1981"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

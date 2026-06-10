@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "alans_409",
+  "name": "Alans Cross into Iberia",
+  "year": 409,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    47.49,
+    28.309
+  ],
+  "entity": "alans",
+  "summary": "Alan groups crossed the Pyrenees into Iberia in 409 CE alongside the Vandals and Suebi, establishing temporary kingdoms. Their Iberian presence was brief, the Visigoths destroyed the Alan kingdom by around 418 CE, but the name 'Catalonia' may preserve a memory of the 'Land of the Goths and Alans' (Gotho-Alania).",
+  "outcomes": [
+    "iberian_settlement",
+    "vandal_alliance",
+    "short_lived_iberian_kingdom"
+  ],
+  "_quarry": {
+    "participants": [
+      "alans"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

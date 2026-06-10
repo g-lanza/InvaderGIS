@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "knights_hospitaller_order",
+  "name": "Jerusalem",
+  "entity_id": "knights_hospitaller_order",
+  "entity_name": "Knights Hospitaller",
+  "start_year": 1099,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q43419"
+    }
+  },
+  "coords": [
+    35.22,
+    31.78
+  ]
+}

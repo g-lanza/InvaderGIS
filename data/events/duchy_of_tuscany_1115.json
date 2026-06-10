@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_tuscany_1115",
+  "name": "Matilda of Tuscany Dies",
+  "year": 1115,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    45.4233,
+    11.42
+  ],
+  "entity": "duchy_of_tuscany",
+  "summary": "The death of Countess Matilda of Tuscany in 1115 ended one of the most powerful independent rulers in Italy. Her bequest of her lands to the Papacy was disputed by the Holy Roman Emperor, fuelling the Investiture Controversy's territorial dimension and destabilising central Italy for generations.",
+  "outcomes": [
+    "tuscany_contested",
+    "matildine_lands_disputed",
+    "papal_imperial_conflict_continues"
+  ],
+  "_quarry": {
+    "participants": [
+      "duchy_of_tuscany",
+      "holy_roman_empire",
+      "papal_states"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

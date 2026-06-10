@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_duchy_of_spoleto_570_c02",
+  "statement": "Spoleto's location in central Italy made it a constant flashpoint between Lombard, Byzantine, Frankish, and Papal interests throughout the early medieval period.",
+  "subject_ids": [
+    "duchy_of_spoleto"
+  ],
+  "period": {
+    "from": 570,
+    "to": 570
+  },
+  "derived_from": "duchy_of_spoleto_570",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

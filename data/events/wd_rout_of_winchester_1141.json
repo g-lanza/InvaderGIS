@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_rout_of_winchester_1141",
+  "name": "Rout of Winchester",
+  "year": 1141,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    52.5,
+    -1
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Rout of Winchester (1141 CE), at Winchester (part of The Anarchy). Source: Wikidata Q1473857.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

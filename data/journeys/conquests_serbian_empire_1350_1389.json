@@ -1,0 +1,49 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_serbian_empire_1350_1389",
+  "name": "Serbian Empire — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1350,
+  "year_end": 1389,
+  "waypoints": [
+    {
+      "year": 1350,
+      "place": "Bosnian–Serbian War",
+      "coords": [
+        42,
+        21.4
+      ],
+      "note": "military",
+      "event_id": "wd_bosnian_serbian_war_1350"
+    },
+    {
+      "year": 1352,
+      "place": "Battle of Demotika",
+      "coords": [
+        41.775,
+        26.2
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_demotika_1352"
+    },
+    {
+      "year": 1389,
+      "place": "Battle of Kosovo Polje",
+      "coords": [
+        42.64,
+        21.09
+      ],
+      "note": "battle",
+      "event_id": "ottoman_kosovo_1389"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fine_the_1987"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

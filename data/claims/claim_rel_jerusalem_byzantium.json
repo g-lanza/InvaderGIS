@@ -1,0 +1,32 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_jerusalem_byzantium",
+  "statement": "The Kingdom of Jerusalem maintained diplomatic contact with Constantinople throughout its existence, reflecting both the shared Christian interest in the Holy Land and the Byzantine imperial claim to protect Eastern Christians. Byzantine emperors provided financial subsidies and occasionally military aid to Jerusalem (notably Manuel I Komnenos's coordination with the Crusaders). The marriage alliance between Emperor John II Komnenos and the Latin kingdom was discussed but never completed. Byzantine hostility toward the Crusader states (especially Antioch) complicated cooperation with Jerusalem.",
+  "subject_ids": [
+    "kingdom_of_jerusalem",
+    "byzantine_empire"
+  ],
+  "predicate": "alliance",
+  "derived_from": "rel_jerusalem_byzantium",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k",
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1099,
+    "to": 1187
+  }
+}

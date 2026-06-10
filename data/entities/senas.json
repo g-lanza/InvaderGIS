@@ -1,0 +1,553 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "senas",
+  "name_primary": "Sena Dynasty",
+  "name_variants": [
+    "Senas"
+  ],
+  "type": "kingdom",
+  "region": "south_asia",
+  "formed": 1070,
+  "dissolved": 1230,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 1100,
+      "label": "Sena dynasty (approx.)",
+      "polygon": [
+        [
+          22,
+          88
+        ],
+        [
+          22,
+          90
+        ],
+        [
+          22,
+          92
+        ],
+        [
+          24,
+          92
+        ],
+        [
+          25,
+          92
+        ],
+        [
+          26,
+          91
+        ],
+        [
+          25,
+          88
+        ],
+        [
+          24,
+          86
+        ],
+        [
+          23,
+          87
+        ],
+        [
+          22,
+          88
+        ]
+      ]
+    },
+    {
+      "year": 1200,
+      "label": "Sena dynasty (approx.)",
+      "polygon": [
+        [
+          22,
+          88
+        ],
+        [
+          22,
+          90
+        ],
+        [
+          22,
+          92
+        ],
+        [
+          24,
+          92
+        ],
+        [
+          25,
+          92
+        ],
+        [
+          26,
+          91
+        ],
+        [
+          25,
+          88
+        ],
+        [
+          24,
+          86
+        ],
+        [
+          23,
+          87
+        ],
+        [
+          22,
+          88
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    23.7451,
+    89.5686
+  ],
+  "population_estimates": [
+    {
+      "year": 1100,
+      "estimate": 4000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2428714",
+          "url": "https://www.wikidata.org/wiki/Q2428714",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Senas",
+          "url": "https://en.wikipedia.org/wiki/Sena_dynasty"
+        }
+      ]
+    },
+    {
+      "year": 1140,
+      "estimate": 4500000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2428714",
+          "url": "https://www.wikidata.org/wiki/Q2428714",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Senas",
+          "url": "https://en.wikipedia.org/wiki/Sena_dynasty"
+        }
+      ]
+    },
+    {
+      "year": 1180,
+      "estimate": 5000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2428714",
+          "url": "https://www.wikidata.org/wiki/Q2428714",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Senas",
+          "url": "https://en.wikipedia.org/wiki/Sena_dynasty"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Sena dynasty of Bengal (1070–1230) that replaced the Pala Buddhist dynasty with a Hindu Brahmanical restoration; the Senas patronised Sanskrit scholarship and social conservatism while their military campaigns extended Bengal's control into Bihar and Odisha; Bakhtiyar Khilji's Turkish raid (1203) destroyed Nalanda and Vikramashila universities, ending organised Buddhism in India, while the dynasty itself quickly fragmented under Muslim pressure.",
+  "temporal": {
+    "start_year": 1070,
+    "end_year": 1230,
+    "notes": ""
+  },
+  "geographic": {
+    "centroid": [
+      23.7451,
+      89.5686
+    ],
+    "polygon_simplified": [
+      [
+        22,
+        88
+      ],
+      [
+        22,
+        90
+      ],
+      [
+        22,
+        92
+      ],
+      [
+        24,
+        92
+      ],
+      [
+        25,
+        92
+      ],
+      [
+        26,
+        91
+      ],
+      [
+        25,
+        88
+      ],
+      [
+        24,
+        86
+      ],
+      [
+        23,
+        87
+      ],
+      [
+        22,
+        88
+      ]
+    ],
+    "capital": {
+      "name": "Nabadwip",
+      "coords": [
+        23.40882,
+        88.36574
+      ],
+      "source": "wikidata"
+    },
+    "polygon_snapshots": [
+      {
+        "year": 1100,
+        "label": "Sena dynasty (approx.)",
+        "polygon": [
+          [
+            22,
+            88
+          ],
+          [
+            22,
+            90
+          ],
+          [
+            22,
+            92
+          ],
+          [
+            24,
+            92
+          ],
+          [
+            25,
+            92
+          ],
+          [
+            26,
+            91
+          ],
+          [
+            25,
+            88
+          ],
+          [
+            24,
+            86
+          ],
+          [
+            23,
+            87
+          ],
+          [
+            22,
+            88
+          ]
+        ]
+      },
+      {
+        "year": 1200,
+        "label": "Sena dynasty (approx.)",
+        "polygon": [
+          [
+            22,
+            88
+          ],
+          [
+            22,
+            90
+          ],
+          [
+            22,
+            92
+          ],
+          [
+            24,
+            92
+          ],
+          [
+            25,
+            92
+          ],
+          [
+            26,
+            91
+          ],
+          [
+            25,
+            88
+          ],
+          [
+            24,
+            86
+          ],
+          [
+            23,
+            87
+          ],
+          [
+            22,
+            88
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "approximate",
+    "polygon_source": "hand_crafted",
+    "polygon_source_date": "2026-05-11"
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "formation",
+      "years": "1070-1100",
+      "description": "Sena dynasty rose in Bengal, displacing the declining Palas; Brahmin patronage replaced Buddhist orientation.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2428714",
+          "url": "https://www.wikidata.org/wiki/Q2428714"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Senas",
+          "url": "https://en.wikipedia.org/wiki/Sena_dynasty"
+        }
+      ]
+    },
+    {
+      "phase": "peak",
+      "years": "1100-1175",
+      "description": "Vijayasena and Ballalasena consolidated control over Bengal and Bihar; major Hindu temple and legal codification.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2428714",
+          "url": "https://www.wikidata.org/wiki/Q2428714"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Senas",
+          "url": "https://en.wikipedia.org/wiki/Sena_dynasty"
+        }
+      ]
+    },
+    {
+      "phase": "decline",
+      "years": "1175-1230",
+      "description": "Muhammad Khilji's Ghurid raids devastated Bengal; last Sena kings fled east as Ghurid forces occupied the delta.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2428714",
+          "url": "https://www.wikidata.org/wiki/Q2428714"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Senas",
+          "url": "https://en.wikipedia.org/wiki/Sena_dynasty"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "hindu_restoration",
+      "layer": "ideology_religion",
+      "description": "Sena patronage of Brahmin learning and Hindu temples gave religious legitimacy against Buddhist rivals.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2428714",
+          "url": "https://www.wikidata.org/wiki/Q2428714"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Senas",
+          "url": "https://en.wikipedia.org/wiki/Sena_dynasty"
+        }
+      ]
+    },
+    {
+      "tag": "military_consolidation",
+      "layer": "military_security",
+      "description": "Strong army unified Bengal under a single dynasty after Pala fragmentation.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2428714",
+          "url": "https://www.wikidata.org/wiki/Q2428714"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Senas",
+          "url": "https://en.wikipedia.org/wiki/Sena_dynasty"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "external_military_pressure",
+      "layer": "military_security",
+      "description": "Muhammad Khilji's rapid conquest (1203) was so swift that Sena resistance barely materialised.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2428714",
+          "url": "https://www.wikidata.org/wiki/Q2428714"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Senas",
+          "url": "https://en.wikipedia.org/wiki/Sena_dynasty"
+        }
+      ],
+      "tag_prose": "ghurid_conquest"
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Hemantasena",
+      "role": "founder",
+      "years": "1070–1096",
+      "year_start": 1070,
+      "year_end": 1096,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Hemantasena",
+          "url": "https://en.wikipedia.org/wiki/Hemantasena"
+        }
+      ]
+    },
+    {
+      "name": "Vijayasena",
+      "role": "ruler",
+      "years": "1096–1159",
+      "year_start": 1096,
+      "year_end": 1159,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Vijayasena",
+          "url": "https://en.wikipedia.org/wiki/Vijayasena"
+        }
+      ]
+    },
+    {
+      "name": "Ballalasena",
+      "role": "ruler",
+      "years": "1159–1179",
+      "year_start": 1159,
+      "year_end": 1179,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Ballalasena",
+          "url": "https://en.wikipedia.org/wiki/Ballalasena"
+        }
+      ]
+    },
+    {
+      "name": "Lakshmansena",
+      "role": "ruler",
+      "years": "1179–1206",
+      "year_start": 1179,
+      "year_end": 1206,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Lakshmansena",
+          "url": "https://en.wikipedia.org/wiki/Lakshmansena"
+        }
+      ]
+    }
+  ],
+  "predecessor_entity_ids": [
+    "palas"
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "river_trade",
+      "limited_manufacturing"
+    ],
+    "wealth_level": "moderate",
+    "major_exports": [
+      "rice",
+      "jute",
+      "fish",
+      "textiles"
+    ],
+    "major_trade_partners": [
+      "palas",
+      "annam",
+      "srivijaya_empire"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "river_tolls",
+      "feudal_dues"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q2428714",
+        "url": "https://www.wikidata.org/wiki/Q2428714"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Senas",
+        "url": "https://en.wikipedia.org/wiki/Sena_dynasty"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q2428714",
+    "matched_name": "manual/senas",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sena_dynasty",
+    "capital": {
+      "name": "Nabadwip",
+      "coords": [
+        23.40882,
+        88.36574
+      ]
+    }
+  },
+  "monogram": "SD"
+}

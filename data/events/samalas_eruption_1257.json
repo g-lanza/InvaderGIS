@@ -1,0 +1,28 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "samalas_eruption_1257",
+  "name": "Samalas volcanic eruption",
+  "year": 1257,
+  "type": "earthquake",
+  "category": "hazard",
+  "coords": [
+    -8.409,
+    116.47
+  ],
+  "entity": "",
+  "summary": "A VEI-7 eruption of Mount Samalas on Lombok, Indonesia, ejects ~40 km³ of magma and injects sulphate aerosols into the stratosphere. Medieval European chroniclers record a sunless 'year without summer' in 1258; ice cores at both poles register the sulphate signal.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [],
+    "structural_significance": "Largest volcanic eruption of the medieval millennium and the proximate cause of the 1258 European famine; demonstrates the global teleconnection between tropical volcanism and medieval European harvest failures.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "campbell_great_transition_2016"
+    ],
+    "confidence": "low"
+  }
+}

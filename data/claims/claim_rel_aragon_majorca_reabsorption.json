@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_aragon_majorca_reabsorption",
+  "statement": "The Kingdom of Majorca was created by James I of Aragon, who divided his realm among his sons at death (1276), with the youngest son James receiving Majorca, Roussillon, and Montpellier. The separate kingdom was a controversial division that created a junior Aragonese kingdom caught between Aragon and France. Peter IV of Aragon invaded and defeated James III of Majorca at the Battle of Llucmajor (1349), killing him and absorbing the kingdom back into the Crown of Aragon. Roussillon remained a Catalan-speaking territory contested between France and Spain.",
+  "subject_ids": [
+    "kingdom_of_majorca",
+    "crown_of_aragon"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_aragon_majorca_reabsorption",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "crown_of_aragon"
+  ],
+  "period": {
+    "from": 1276,
+    "to": 1276
+  }
+}

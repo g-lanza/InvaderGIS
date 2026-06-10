@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "thibaut_ii",
+  "name": "Thibaut II the Great",
+  "polity": "county_of_champagne",
+  "title": "ruler",
+  "reign_start": 1125,
+  "reign_end": 1152,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "county_of_champagne",
+        "role": "ruler",
+        "start_year": 1125,
+        "end_year": 1152
+      }
+    ],
+    "key_actions": [],
+    "region": "western_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "siege_constantinople_626",
+  "name": "Avar-Persian siege of Constantinople",
+  "year": 626,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    41.01,
+    28.98
+  ],
+  "entity": "byzantine_empire",
+  "summary": "In June–August 626, while Emperor Heraclius campaigns in Persia, a combined Avar-Slav-Persian force besieges Constantinople from both the European and Asian sides. The Avars and Slavs attack the Theodosian Walls from the west with siege machinery; Persian forces under Shahrbaraz hold the Asian shore and coordinate by signal fire. The Byzantine navy prevents the Avars from ferrying Persian troops across the Bosphorus; a naval skirmish destroys the Slav boats attempting the crossing. The Avars raise the siege in August 626 after a final assault fails. The 'Akathistos Hymn' is sung in thanksgiving, still sung in Orthodox liturgy annually.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "avar_khaganate"
+    ],
+    "structural_significance": "The most serious threat to Constantinople before the Arab sieges; the failure of the combined Avar-Persian assault demonstrates the Theodosian Walls' near-impregnability; Heraclius's subsequent campaigns destroy the Sasanian Empire (627–628), only for both powers to fall to the Arab conquests a decade later",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

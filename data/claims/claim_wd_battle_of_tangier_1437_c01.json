@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_tangier_1437_c01",
+  "statement": "Battle of Tangier (1437 CE), at Tangier (part of Moroccan–Portuguese conflicts).",
+  "subject_ids": [
+    "kingdom_of_portugal"
+  ],
+  "period": {
+    "from": 1437,
+    "to": 1437
+  },
+  "derived_from": "wd_battle_of_tangier_1437",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

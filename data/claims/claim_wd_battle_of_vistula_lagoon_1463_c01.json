@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_vistula_lagoon_1463_c01",
+  "statement": "Battle of Vistula Lagoon (1463 CE), at Vistula Lagoon (part of Thirteen Years' War).",
+  "subject_ids": [
+    "teutonic_order_state"
+  ],
+  "period": {
+    "from": 1463,
+    "to": 1463
+  },
+  "derived_from": "wd_battle_of_vistula_lagoon_1463",
+  "unresolved_sources": [
+    "urban_the_1994"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "christiansen_the_1997",
+      "turnbull_crusader_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

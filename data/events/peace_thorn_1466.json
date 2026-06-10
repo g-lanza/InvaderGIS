@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "peace_thorn_1466",
+  "name": "Second Peace of Thorn",
+  "year": 1466,
+  "type": "treaty",
+  "category": "diplomacy",
+  "coords": [
+    53.01,
+    18.61
+  ],
+  "entity": "teutonic_order_state",
+  "summary": "The Second Peace of Thorn (October 19, 1466) ends the Thirteen Years' War (1454–1466) between Poland and the Teutonic Order. The Order cedes Royal Prussia (including Danzig/Gdańsk, Toruń, and the Vistula delta) to Poland and becomes a Polish vassal for the remaining Teutonic territory (Ducal Prussia). Poland gains Baltic access and the richest agricultural land in the region. The Order is permanently weakened; its Grand Master must now pay homage to the Polish king.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "teutonic_order_state",
+      "kingdom_of_poland_jagiellonian"
+    ],
+    "structural_significance": "Gives Poland Baltic access and dominance; permanently weakens the Teutonic Order as an independent political force; creates the conditions for the Prussian reformation (1525)",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "christiansen_the_1997",
+      "urban_the_1994",
+      "turnbull_crusader_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

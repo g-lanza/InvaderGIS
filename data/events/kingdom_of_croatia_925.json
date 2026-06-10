@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_croatia_925",
+  "name": "Tomislav Crowned First King",
+  "year": 925,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    44.5,
+    16.5
+  ],
+  "entity": "kingdom_of_croatia",
+  "summary": "Tomislav became the first King of Croatia around 925 CE, receiving recognition from Pope John X and defeating Hungarian and Bulgarian invasions. His kingdom briefly achieved significant power in the western Balkans, controlling territory from the Adriatic coast to the Sava river valley.",
+  "outcomes": [
+    "first_croatian_king",
+    "byzantine_alliance",
+    "papal_recognition"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_croatia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fine_the_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

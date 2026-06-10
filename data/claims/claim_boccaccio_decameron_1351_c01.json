@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_boccaccio_decameron_1351_c01",
+  "statement": "Giovanni Boccaccio wrote the Decameron between 1348 and 1353, a hundred novellas told by ten young people sheltering from the Black Death in a Florentine villa.",
+  "subject_ids": [
+    "republic_of_florence"
+  ],
+  "period": {
+    "from": 1351,
+    "to": 1351
+  },
+  "derived_from": "boccaccio_decameron_1351",
+  "unresolved_sources": [
+    "najemy_a_2006"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

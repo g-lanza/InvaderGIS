@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_novara_1500",
+  "name": "Battle of Novara",
+  "subtype": "battle",
+  "start_year": 1500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q4871919"
+    }
+  },
+  "description": "Battle during Italian Wars (1500)",
+  "coords": [
+    9.19,
+    45.4669
+  ]
+}

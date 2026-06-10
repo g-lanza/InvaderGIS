@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "donation_of_pepin_756",
+  "name": "Donation of Pepin",
+  "year": 756,
+  "type": "religious",
+  "category": "religion",
+  "coords": [
+    44.4173,
+    12.2035
+  ],
+  "entity": "carolingian_empire",
+  "summary": "Following his victory over the Lombard king Aistulf, the Frankish king Pepin the Short conveyed the formerly Byzantine Exarchate of Ravenna and adjacent central-Italian territories to Pope Stephen II, who had crossed the Alps to seek his protection. The deed formally constituted the territorial holding of the bishop of Rome that would be known as the Papal States.",
+  "outcomes": [
+    "papal_states_founded",
+    "lombard_kingdom_subordinated_to_franks"
+  ],
+  "_quarry": {
+    "participants": [
+      "carolingian_empire",
+      "papal_states",
+      "lombard_kingdom"
+    ],
+    "structural_significance": "Created the temporal sovereignty of the papacy and tied the Roman see's political fortunes to Frankish protection rather than the eastern emperor, a structural realignment that prepared the ground for Charlemagne's coronation in 800.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morris_papal_monarchy_1989",
+      "robinson_papacy_1990"
+    ],
+    "confidence": "low"
+  }
+}

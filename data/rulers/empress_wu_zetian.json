@@ -1,0 +1,60 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "empress_wu_zetian",
+  "name": "Wu Zetian",
+  "polity": "tang_dynasty",
+  "title": "empress_consort",
+  "reign_start": 655,
+  "reign_end": 683,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 624,
+      "death_year": 705
+    },
+    "entity_associations": [
+      {
+        "entity_id": "tang_dynasty",
+        "role": "empress_consort",
+        "start_year": 655,
+        "end_year": 683
+      },
+      {
+        "entity_id": "tang_dynasty",
+        "role": "empress_regnant",
+        "start_year": 690,
+        "end_year": 705
+      }
+    ],
+    "key_actions": [
+      {
+        "year": 655,
+        "summary": "Replaces Empress Wang as principal consort of Tang Gaozong; from then on dominates Tang governance.",
+        "source_id": "twitchett_cambridge_history_china_v3_1979"
+      },
+      {
+        "year": 690,
+        "summary": "Proclaims herself emperor — the only woman in Chinese imperial history to rule under her own dynastic name (the Zhou, 武周, 690–705).",
+        "source_id": "twitchett_cambridge_history_china_v3_1979"
+      },
+      {
+        "year": 705,
+        "summary": "Forced to abdicate in February 705 in a coup led by Tang loyalists; dies the same year. The Tang dynasty is formally restored.",
+        "source_id": "twitchett_cambridge_history_china_v3_1979"
+      }
+    ],
+    "region": "east_asia",
+    "name_variants": [
+      "Empress Wu",
+      "Wu Zhao",
+      "Wu Hou"
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "twitchett_cambridge_history_china_v3_1979"
+    ],
+    "confidence": "low"
+  }
+}

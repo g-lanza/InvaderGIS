@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_zayyanid_almohad_wars_1236_c01",
+  "statement": "Zayyanid–Almohad wars (1236 CE), at Al-Magreb al-Aqsa.",
+  "subject_ids": [
+    "almohad_caliphate_iberia"
+  ],
+  "period": {
+    "from": 1236,
+    "to": 1236
+  },
+  "derived_from": "wd_zayyanid_almohad_wars_1236",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_kingdoms_2018",
+      "o'callaghan_reconquest_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

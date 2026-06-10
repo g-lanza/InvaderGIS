@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_second_lateran_1139_c02",
+  "statement": "The Second Lateran Council of 1139 annulled the acts of Antipope Anacletus II and condemned contemporary heresies.",
+  "subject_ids": [
+    "papal_states"
+  ],
+  "period": {
+    "from": 1139,
+    "to": 1139
+  },
+  "derived_from": "second_lateran_1139",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morris_papal_monarchy_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

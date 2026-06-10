@@ -1,0 +1,49 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_cuman_kipchak_confederation_1157_1223",
+  "name": "Cuman-Kipchak Confederation — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1157,
+  "year_end": 1223,
+  "waypoints": [
+    {
+      "year": 1157,
+      "place": "Frederick I's expedition to Głogów",
+      "coords": [
+        50.7148,
+        19.8708
+      ],
+      "note": "military",
+      "event_id": "wd_frederick_i_s_expedition_to_g_og_w_1157"
+    },
+    {
+      "year": 1221,
+      "place": "Battle of Sudak",
+      "coords": [
+        44.225,
+        34.425
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_sudak_1221"
+    },
+    {
+      "year": 1223,
+      "place": "Battle of the Kalka River",
+      "coords": [
+        47.15,
+        37.05
+      ],
+      "note": "battle",
+      "event_id": "kalka_1223"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

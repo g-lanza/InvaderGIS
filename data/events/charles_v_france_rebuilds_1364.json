@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "charles_v_france_rebuilds_1364",
+  "name": "Charles V Rebuilds France",
+  "year": 1364,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    48.853,
+    2.35
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Charles V \"the Wise\" inherited a kingdom devastated by plague, the Black Death, the Jacquerie, and the military disasters of the Hundred Years War. Through administrative reform, sound taxation, and the military strategy of Bertrand du Guesclin, who avoided pitched battles and instead wore down English garrisons, Charles recovered most of the territory ceded at Brétigny by the time of his death in 1380.",
+  "outcomes": [
+    "Royal administration reformed",
+    "Tax system regularized",
+    "Military reorganized under du Guesclin",
+    "Most English territory recovered by 1380"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france"
+    ],
+    "structural_significance": "Demonstrated that patient institutional reform and guerrilla strategy could reverse military catastrophe; pioneered standing royal armies in France.",
+    "year_range": [
+      1364,
+      1380
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Autrand, Charles V",
+      "Sumption, The Hundred Years War Vol. II"
+    ],
+    "confidence": "low"
+  }
+}

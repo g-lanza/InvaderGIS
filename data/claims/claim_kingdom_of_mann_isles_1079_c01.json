@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_kingdom_of_mann_isles_1079_c01",
+  "statement": "Godred Crovan conquered the Isle of Man in 1079, establishing the Norse Kingdom of Mann and the Isles.",
+  "subject_ids": [
+    "kingdom_of_mann_isles"
+  ],
+  "period": {
+    "from": 1079,
+    "to": 1079
+  },
+  "derived_from": "kingdom_of_mann_isles_1079",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

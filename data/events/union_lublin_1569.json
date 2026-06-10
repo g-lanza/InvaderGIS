@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "union_lublin_1569",
+  "name": "Union of Lublin, Polish-Lithuanian Commonwealth",
+  "year": 1569,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    51.25,
+    22.57
+  ],
+  "entity": "kingdom_of_poland_jagiellonian",
+  "summary": "The Union of Lublin (1569) transforms the personal union of Poland and Lithuania into a real union, the Polish-Lithuanian Commonwealth, with a joint Diet, a single elected king, and a common foreign policy. Lithuania retains its own laws, army, and treasury. The resulting commonwealth is the largest state in Europe, stretching from the Baltic to the Black Sea. Its noble democracy (the szlachta elect the king) creates a unique constitutional experiment.",
+  "outcomes": [
+    "real_union_creates_commonwealth",
+    "largest_european_state",
+    "noble_republic_established"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_poland_jagiellonian",
+      "grand_duchy_of_lithuania"
+    ],
+    "structural_significance": "The Commonwealth's noble republic anticipates Enlightenment constitutional ideas while simultaneously creating institutional paralysis (the liberum veto); its multi-ethnic, multi-religious tolerance (relative to contemporaries) makes it a refuge for persecuted minorities; its eventual dissolution (partitioned 1772, 1793, 1795) demonstrates that noble democracy without strong executive power cannot defend against aggressive neighboring monarchies",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "davies_gods_1981",
+      "lukowski_a_2001"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

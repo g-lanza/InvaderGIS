@@ -1,0 +1,40 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_seljuk_byzantine_rivalry",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "seljuk_sultanate",
+      "role": "rival"
+    },
+    {
+      "entity_id": "byzantine_empire",
+      "role": "rival"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 1064,
+  "until": 1194,
+  "note": "Seljuk expansion into Armenia and Anatolia brought the sultanate into sustained conflict with Byzantium. Manzikert (1071) was the decisive moment: the capture of Emperor Romanos IV opened Anatolia to Turkic settlement. Byzantine Emperor Manuel I's defeat at Myriokephalon (1176) ended any prospect of reconquest.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Seljuk victory at Manzikert (1071) and subsequent Anatolian settlement stripped Byzantium of its main military recruiting ground and agricultural tax base in a single decade; the resulting imperial weakness forced Alexios I's appeal to Rome (1095), which directly launched the First Crusade—making the Seljuk-Byzantine rivalry the indirect cause of two centuries of crusading activity in the Levant."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "peacock_the_2015",
+      "bosworth_the_1963",
+      "cahen_preottoman_1968",
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

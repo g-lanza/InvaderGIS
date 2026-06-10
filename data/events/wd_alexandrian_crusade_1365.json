@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_alexandrian_crusade_1365",
+  "name": "Alexandrian Crusade",
+  "year": 1365,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    36.7,
+    26.175
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Alexandrian Crusade (1365 CE), at Alexandria (part of Crusades). Source: Wikidata Q1788506.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "knights_hospitaller_rhodes",
+      "kingdom_of_cyprus",
+      "mamluk_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

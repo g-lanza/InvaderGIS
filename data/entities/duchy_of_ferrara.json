@@ -1,0 +1,895 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_ferrara",
+  "name_primary": "Duchy of Ferrara",
+  "name_variants": [],
+  "type": "duchy",
+  "region": "italy",
+  "formed": 1264,
+  "dissolved": 1598,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 1300,
+      "label": "Duchy of Ferrara (approx.)",
+      "polygon": [
+        [
+          44.65,
+          10.85
+        ],
+        [
+          44.4,
+          11
+        ],
+        [
+          44.25,
+          11.45
+        ],
+        [
+          44.2,
+          11.9
+        ],
+        [
+          44.25,
+          12.3
+        ],
+        [
+          44.45,
+          12.55
+        ],
+        [
+          44.75,
+          12.6
+        ],
+        [
+          45,
+          12.25
+        ],
+        [
+          45.05,
+          11.85
+        ],
+        [
+          44.95,
+          11.3
+        ],
+        [
+          44.8,
+          10.95
+        ],
+        [
+          44.65,
+          10.85
+        ]
+      ]
+    },
+    {
+      "year": 1400,
+      "label": "Duchy of Ferrara (approx.)",
+      "polygon": [
+        [
+          44.65,
+          10.85
+        ],
+        [
+          44.4,
+          11
+        ],
+        [
+          44.25,
+          11.45
+        ],
+        [
+          44.2,
+          11.9
+        ],
+        [
+          44.25,
+          12.3
+        ],
+        [
+          44.45,
+          12.55
+        ],
+        [
+          44.75,
+          12.6
+        ],
+        [
+          45,
+          12.25
+        ],
+        [
+          45.05,
+          11.85
+        ],
+        [
+          44.95,
+          11.3
+        ],
+        [
+          44.8,
+          10.95
+        ],
+        [
+          44.65,
+          10.85
+        ]
+      ]
+    },
+    {
+      "year": 1500,
+      "label": "Duchy of Ferrara (approx.)",
+      "polygon": [
+        [
+          44.65,
+          10.85
+        ],
+        [
+          44.4,
+          11
+        ],
+        [
+          44.25,
+          11.45
+        ],
+        [
+          44.2,
+          11.9
+        ],
+        [
+          44.25,
+          12.3
+        ],
+        [
+          44.45,
+          12.55
+        ],
+        [
+          44.75,
+          12.6
+        ],
+        [
+          45,
+          12.25
+        ],
+        [
+          45.05,
+          11.85
+        ],
+        [
+          44.95,
+          11.3
+        ],
+        [
+          44.8,
+          10.95
+        ],
+        [
+          44.65,
+          10.85
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    44.84,
+    11.62
+  ],
+  "religion": "catholic",
+  "population_estimates": [
+    {
+      "year": 1250,
+      "estimate": 175000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q693570",
+          "url": "https://www.wikidata.org/wiki/Q693570",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Ferrara",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Ferrara"
+        }
+      ]
+    },
+    {
+      "year": 1400,
+      "estimate": 250000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q693570",
+          "url": "https://www.wikidata.org/wiki/Q693570",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Ferrara",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Ferrara"
+        }
+      ]
+    },
+    {
+      "year": 1500,
+      "estimate": 275000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q693570",
+          "url": "https://www.wikidata.org/wiki/Q693570",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Ferrara",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Ferrara"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low"
+  },
+  "description": "Este signoria in the Po delta (1240–1598) that became a leading Renaissance court under Leonello, Borso, and Ercole d'Este; patronage of Ariosto, Tasso, and Guarini made Ferrara a centre of chivalric romance literature, while its hydraulic engineering of the Po plain was among the most ambitious medieval land-reclamation projects in Europe.",
+  "temporal": {
+    "start_year": 1264,
+    "end_year": 1598,
+    "end_year_within_scope": null,
+    "start_event_id": null,
+    "end_event_id": null,
+    "notes": "Este signoria elevated to duchy; dataset end before 1598 absorption."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      44.84,
+      11.62
+    ],
+    "core_regions": [
+      "Ferrara",
+      "Po plain"
+    ],
+    "polygon_simplified": [
+      [
+        44.65,
+        10.85
+      ],
+      [
+        44.4,
+        11
+      ],
+      [
+        44.25,
+        11.45
+      ],
+      [
+        44.2,
+        11.9
+      ],
+      [
+        44.25,
+        12.3
+      ],
+      [
+        44.45,
+        12.55
+      ],
+      [
+        44.75,
+        12.6
+      ],
+      [
+        45,
+        12.25
+      ],
+      [
+        45.05,
+        11.85
+      ],
+      [
+        44.95,
+        11.3
+      ],
+      [
+        44.8,
+        10.95
+      ],
+      [
+        44.65,
+        10.85
+      ]
+    ],
+    "notes": "Centroid approximate; polygon pending schematic or OHM sourcing.",
+    "polygon_snapshots": [
+      {
+        "year": 1300,
+        "label": "Duchy of Ferrara (approx.)",
+        "polygon": [
+          [
+            44.65,
+            10.85
+          ],
+          [
+            44.4,
+            11
+          ],
+          [
+            44.25,
+            11.45
+          ],
+          [
+            44.2,
+            11.9
+          ],
+          [
+            44.25,
+            12.3
+          ],
+          [
+            44.45,
+            12.55
+          ],
+          [
+            44.75,
+            12.6
+          ],
+          [
+            45,
+            12.25
+          ],
+          [
+            45.05,
+            11.85
+          ],
+          [
+            44.95,
+            11.3
+          ],
+          [
+            44.8,
+            10.95
+          ],
+          [
+            44.65,
+            10.85
+          ]
+        ]
+      },
+      {
+        "year": 1400,
+        "label": "Duchy of Ferrara (approx.)",
+        "polygon": [
+          [
+            44.65,
+            10.85
+          ],
+          [
+            44.4,
+            11
+          ],
+          [
+            44.25,
+            11.45
+          ],
+          [
+            44.2,
+            11.9
+          ],
+          [
+            44.25,
+            12.3
+          ],
+          [
+            44.45,
+            12.55
+          ],
+          [
+            44.75,
+            12.6
+          ],
+          [
+            45,
+            12.25
+          ],
+          [
+            45.05,
+            11.85
+          ],
+          [
+            44.95,
+            11.3
+          ],
+          [
+            44.8,
+            10.95
+          ],
+          [
+            44.65,
+            10.85
+          ]
+        ]
+      },
+      {
+        "year": 1500,
+        "label": "Duchy of Ferrara (approx.)",
+        "polygon": [
+          [
+            44.65,
+            10.85
+          ],
+          [
+            44.4,
+            11
+          ],
+          [
+            44.25,
+            11.45
+          ],
+          [
+            44.2,
+            11.9
+          ],
+          [
+            44.25,
+            12.3
+          ],
+          [
+            44.45,
+            12.55
+          ],
+          [
+            44.75,
+            12.6
+          ],
+          [
+            45,
+            12.25
+          ],
+          [
+            45.05,
+            11.85
+          ],
+          [
+            44.95,
+            11.3
+          ],
+          [
+            44.8,
+            10.95
+          ],
+          [
+            44.65,
+            10.85
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "approximate",
+    "polygon_source": "hand_crafted",
+    "polygon_source_date": "2026-05-11",
+    "capital": {
+      "name": "Ferrara",
+      "coords": [
+        44.83917,
+        11.6175
+      ],
+      "source": "wikidata"
+    }
+  },
+  "internal_structure": {
+    "centralization": "low_to_medium",
+    "centralization_trajectory": null,
+    "governance_type": "dynastic_feudal",
+    "legitimacy_basis": [
+      "inheritance"
+    ],
+    "administrative_system": ""
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "formation",
+      "years": "c.1240–1270",
+      "description": "Obizzo d'Este II consolidates Este control over Ferrara.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q693570",
+          "url": "https://www.wikidata.org/wiki/Q693570"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Ferrara",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Ferrara"
+        }
+      ]
+    },
+    {
+      "phase": "expansion",
+      "years": "1270–1390",
+      "description": "Este acquire Modena and Reggio; regional power grows.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q693570",
+          "url": "https://www.wikidata.org/wiki/Q693570"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Ferrara",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Ferrara"
+        }
+      ]
+    },
+    {
+      "phase": "peak",
+      "years": "1390–1490",
+      "description": "Niccolò III and Leonello; Ferrara is a major Renaissance court.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q693570",
+          "url": "https://www.wikidata.org/wiki/Q693570"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Ferrara",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Ferrara"
+        }
+      ]
+    },
+    {
+      "phase": "crisis",
+      "years": "1490–1500",
+      "description": "Papal pressure and succession uncertainty begin.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q693570",
+          "url": "https://www.wikidata.org/wiki/Q693570"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Ferrara",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Ferrara"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "dynastic_consolidation",
+      "layer": "dynastic_legitimacy",
+      "description": "Este family unified Ferrara, Modena, and Reggio under single rule through patronage, marriage, and military prowess.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q693570",
+          "url": "https://www.wikidata.org/wiki/Q693570"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Ferrara",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Ferrara"
+        }
+      ]
+    },
+    {
+      "tag": "trade_route_control",
+      "layer": "economic_commercial",
+      "description": "Po River navigation and Ferrara's position between Venice and northern Italy made it a key commercial node.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q693570",
+          "url": "https://www.wikidata.org/wiki/Q693570"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Ferrara",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Ferrara"
+        }
+      ]
+    },
+    {
+      "tag": "administrative_innovation",
+      "layer": "governance_institutional",
+      "description": "Este court became a major Renaissance cultural and diplomatic center attracting scholars, poets, and artists.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q693570",
+          "url": "https://www.wikidata.org/wiki/Q693570"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Ferrara",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Ferrara"
+        }
+      ]
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "religious_legitimacy",
+      "direction": "rise",
+      "description": "The Este dynasty transformed Ferrara into a major Renaissance court, attracting humanists, poets including Ariosto and Tasso, and artists whose presence legitimized Este rule.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q693570",
+          "url": "https://www.wikidata.org/wiki/Q693570"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Ferrara",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Ferrara"
+        }
+      ],
+      "tag_prose": "este_patronage"
+    },
+    {
+      "layer": "economic_commercial",
+      "tag": "resource_concentration",
+      "direction": "rise",
+      "description": "Land reclamation projects in the Po Delta under Ercole I created new agricultural land, generating grain revenues that funded Este artistic and architectural projects.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q693570",
+          "url": "https://www.wikidata.org/wiki/Q693570"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Ferrara",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Ferrara"
+        }
+      ],
+      "tag_prose": "po_valley_agriculture"
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "succession_crisis",
+      "layer": "dynastic_legitimacy",
+      "description": "Alfonso II died without legitimate heirs 1597, triggering the devolution of Ferrara to the Papacy.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q693570",
+          "url": "https://www.wikidata.org/wiki/Q693570"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Ferrara",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Ferrara"
+        }
+      ]
+    },
+    {
+      "tag": "external_military_pressure",
+      "layer": "military_security",
+      "description": "Papal claims on Ferrara as an imperial fief constrained Este independence throughout the 15th century.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q693570",
+          "url": "https://www.wikidata.org/wiki/Q693570"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Ferrara",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Ferrara"
+        }
+      ]
+    },
+    {
+      "tag": "legitimacy_loss",
+      "layer": "dynastic_legitimacy",
+      "description": "Ferrara reverted to direct papal rule 1598; Este cadet lines moved to Modena.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q693570",
+          "url": "https://www.wikidata.org/wiki/Q693570"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Ferrara",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Ferrara"
+        }
+      ]
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "external_military_pressure",
+      "direction": "decline",
+      "description": "Pope Clement VIII claimed Ferrara as a papal fief in 1598 when Alfonso II died without legitimate heirs, invoking feudal law to annex the duchy to the Papal States.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q693570",
+          "url": "https://www.wikidata.org/wiki/Q693570"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Ferrara",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Ferrara"
+        }
+      ],
+      "tag_prose": "papal_absorption"
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "imperial_dependency",
+      "direction": "decline",
+      "description": "Ferrara's status as an imperial fief meant constant negotiation with both the Holy Roman Emperor and the papacy, leaving the Este with little room to build independent power.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q693570",
+          "url": "https://www.wikidata.org/wiki/Q693570"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Ferrara",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Ferrara"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "person_id": "obizzo_ii_este",
+      "name": "Obizzo d'Este II",
+      "role": "dynastic_founder",
+      "years": "1247–1293",
+      "year_start": 1247,
+      "year_end": 1293,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Obizzo d'Este II",
+          "url": "https://en.wikipedia.org/wiki/Obizzo_II_d'Este"
+        }
+      ]
+    },
+    {
+      "person_id": "niccolo_iii_este",
+      "name": "Niccolò III d'Este",
+      "role": "ruler",
+      "years": "1383–1441",
+      "year_start": 1383,
+      "year_end": 1441,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Niccolò III d'Este",
+          "url": "https://en.wikipedia.org/wiki/Niccolò_III_d'Este"
+        }
+      ]
+    }
+  ],
+  "successor_entity_ids": [
+    "papal_states"
+  ],
+  "primary_ethnicity": "italian_roman",
+  "ethnic_composition": [
+    {
+      "group": "italian_roman",
+      "proportion": 0.93
+    }
+  ],
+  "religion_composition": [
+    {
+      "religion": "catholic",
+      "proportion": 0.95
+    },
+    {
+      "religion": "pagan",
+      "proportion": 0.05
+    }
+  ],
+  "primary_language": "italian_lang",
+  "language_composition": [
+    {
+      "language": "italian_lang",
+      "proportion": 0.84,
+      "role": "vernacular"
+    },
+    {
+      "language": "latin",
+      "proportion": 0.12,
+      "role": "liturgical"
+    },
+    {
+      "language": "old_french",
+      "proportion": 0.04,
+      "role": "regional"
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "manufacturing",
+      "long_distance_trade"
+    ],
+    "wealth_level": "high",
+    "major_exports": [
+      "grain",
+      "silk",
+      "hemp",
+      "salt"
+    ],
+    "major_trade_partners": [
+      "republic_of_venice",
+      "papal_states",
+      "duchy_of_milan"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "commercial_taxes",
+      "customs_duties"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q693570",
+        "url": "https://www.wikidata.org/wiki/Q693570"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Duchy of Ferrara",
+        "url": "https://en.wikipedia.org/wiki/Duchy_of_Ferrara"
+      }
+    ]
+  },
+  "social_structure": {
+    "ruling_ethnicity": "italian_roman",
+    "subject_majority": "italian_roman",
+    "military_ethnicity": "italian_roman",
+    "administrative_language": "italian_lang",
+    "stratification_type": "homogeneous"
+  },
+  "wikidata_enrichment": {
+    "qid": "Q693570",
+    "matched_name": "Duchy of Ferrara",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Duchy_of_Ferrara",
+    "capital": {
+      "name": "Ferrara",
+      "coords": [
+        44.83917,
+        11.6175
+      ]
+    }
+  },
+  "sources": [
+    {
+      "type": "book",
+      "author": "Wickham, Chris",
+      "title": "The Inheritance of Rome: A History of Europe from 400 to 1000",
+      "publisher": "Allen Lane",
+      "year": 2009
+    },
+    {
+      "type": "book",
+      "author": "Abulafia, David (ed.)",
+      "title": "The New Cambridge Medieval History, Vol. V: c. 1198 – c. 1300",
+      "publisher": "Cambridge University Press",
+      "year": 1999
+    }
+  ],
+  "monogram": "FE"
+}

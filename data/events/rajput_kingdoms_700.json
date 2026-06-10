@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rajput_kingdoms_700",
+  "name": "Rajput Kingdoms Emerge",
+  "year": 700,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    23.859,
+    75.322
+  ],
+  "entity": "rajput_kingdoms",
+  "summary": "The Rajput clans emerged as the dominant warrior aristocracy of northern India from roughly the 7th century CE, filling the power vacuum left by the Gupta Empire's collapse. Claiming descent from the solar, lunar, and fire lineages, Rajput kingdoms developed a distinctive martial culture that became synonymous with honour and chivalry in Indian tradition.",
+  "outcomes": [
+    "rajput_identity",
+    "warrior_aristocracy",
+    "hindu_culture_guardians"
+  ],
+  "_quarry": {
+    "participants": [
+      "rajput_kingdoms"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

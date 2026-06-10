@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_arbedo_1422_c02",
+  "statement": "The Battle of Arbedo took place at Arbedo-Castione.",
+  "subject_ids": [
+    "duchy_of_milan"
+  ],
+  "period": {
+    "from": 1422,
+    "to": 1422
+  },
+  "derived_from": "wd_battle_of_arbedo_1422",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

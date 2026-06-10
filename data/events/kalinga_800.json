@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kalinga_800",
+  "name": "Eastern Ganga Dynasty Controls Kalinga",
+  "year": 800,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    17.143,
+    81.516
+  ],
+  "entity": "kalinga",
+  "summary": "The Eastern Ganga dynasty established control over Kalinga (coastal Orissa) from around 800 CE, beginning a dynasty that would produce remarkable temple architecture including the Konark Sun Temple (1250 CE). Kalinga maintained strong maritime trade connections with Southeast Asia, spreading Indian culture across the Indian Ocean.",
+  "outcomes": [
+    "ganga_dynasty",
+    "konark_temple",
+    "maritime_trade"
+  ],
+  "_quarry": {
+    "participants": [
+      "kalinga"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

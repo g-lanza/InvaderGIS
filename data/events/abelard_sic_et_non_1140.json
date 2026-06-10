@@ -1,0 +1,31 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "abelard_sic_et_non_1140",
+  "name": "Peter Abelard publishes Sic et Non",
+  "year": 1140,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    48.8566,
+    2.3522
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Peter Abelard's Sic et Non ('Yes and No') juxtaposes 158 contradictory patristic opinions on theological questions, inviting the reader to resolve the apparent contradictions by dialectical reasoning. The work becomes a paradigmatic model of the scholastic quaestio method.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france"
+    ],
+    "structural_significance": "Foundational text of the scholastic method that defines 12th and 13th-century university learning; the quaestio-disputata structure of Aquinas's Summa is its direct intellectual descendant.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "pieper_scholasticism_1960",
+      "marenbon_later_medieval_philosophy_1991"
+    ],
+    "confidence": "low"
+  }
+}

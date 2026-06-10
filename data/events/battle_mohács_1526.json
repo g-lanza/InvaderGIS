@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_mohács_1526",
+  "name": "Battle of Mohács, Ottoman Conquest of Hungary",
+  "year": 1526,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    46,
+    18.68
+  ],
+  "entity": "ottoman_empire",
+  "summary": "Suleiman the Magnificent defeats and kills King Louis II of Hungary at Mohács. The Hungarian army of 25,000 faces an Ottoman force of 70,000-100,000. Louis drowns fleeing the battle; the Hungarian nobility is decimated. Within three weeks, Ottoman forces take Buda. The Hungarian kingdom splits into three: Ottoman Hungary, the Habsburg Rump Kingdom (Royal Hungary), and the semi-autonomous Principality of Transylvania under Ottoman suzerainty.",
+  "outcomes": [
+    "hungarian_kingdom_destroyed",
+    "louis_ii_killed",
+    "habsburg_acquires_hungary"
+  ],
+  "_quarry": {
+    "participants": [
+      "ottoman_empire",
+      "kingdom_of_hungary"
+    ],
+    "structural_significance": "Mohács permanently shifts the European balance of power; the Ottoman advance to Vienna (1529) begins; Hungary's destruction removes the main buffer between the Ottomans and central Europe; the Habsburg acquisition of the Hungarian crown through Louis II's death triggers a century of Habsburg-Valois conflict; the battle's consequences reshape central European politics until the late 17th century",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_battle_meloria_1284_c02",
+  "statement": "After Meloria, Pisa never recovered its naval power, ending its commercial competition with Genoa in the western Mediterranean.",
+  "subject_ids": [
+    "republic_of_genoa"
+  ],
+  "period": {
+    "from": 1284,
+    "to": 1284
+  },
+  "derived_from": "battle_meloria_1284",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

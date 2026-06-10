@@ -1,0 +1,38 @@
+{
+  "kind": "technology",
+  "dataset": "medieval-europe-500-1500",
+  "id": "blast_furnace",
+  "name_primary": "Blast Furnace",
+  "domain": "metallurgy",
+  "origin": {
+    "place": "Bergslagen, Sweden (earliest confirmed European example)",
+    "year": 1150
+  },
+  "materials": [
+    "iron ore",
+    "charcoal",
+    "limestone flux",
+    "clay-lined stone shaft",
+    "bellows"
+  ],
+  "diffusion": [
+    "Kingdom of Sweden",
+    "Holy Roman Empire",
+    "Duchy of Burgundy",
+    "Kingdom of France",
+    "Kingdom of England",
+    "Low Countries"
+  ],
+  "_quarry": {
+    "description": "Archaeological excavations at Lapphyttan and Moshyttan in the Bergslagen region of central Sweden have identified blast furnace remains dated to between 1150 and 1350 CE, making these the earliest confirmed European examples. Unlike the bloomery, a blast furnace uses forced air (bellows) to achieve temperatures sufficient to fully melt iron, producing cast iron in large volumes. By the 15th century blast furnaces had spread across northern England, western France, Switzerland, and the Low Countries, supplying iron for armour, cannon, and tools at scale previously impossible."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sciencedirect_moshyttan_2015",
+      "colwell_iron_middleages"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

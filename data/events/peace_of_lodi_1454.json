@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "peace_of_lodi_1454",
+  "name": "Peace of Lodi",
+  "year": 1454,
+  "type": "treaty",
+  "category": "diplomacy",
+  "coords": [
+    45.31,
+    9.5
+  ],
+  "entity": "duchy_of_milan",
+  "summary": "After the long Lombard Wars, Milan, Venice, Florence, and Naples agree at Lodi to a 25-year non-aggression pact mediated by Pope Nicholas V. The treaty recognises Francesco Sforza as Duke of Milan, defines a permanent Milanese-Venetian boundary at the Adda, and establishes a quintuple Italian League.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "duchy_of_milan",
+      "republic_of_venice",
+      "republic_of_florence",
+      "papal_states"
+    ],
+    "structural_significance": "Inaugurates 40 years of relative peace (the 'Italian Peace') that fuels the Renaissance's mature phase. Introduces resident diplomats as a permanent institution; ends with the French invasion of 1494 and the Italian Wars.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

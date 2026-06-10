@@ -1,0 +1,36 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_hospitaller_cyprus",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "knights_hospitaller_rhodes",
+      "role": "principal"
+    },
+    {
+      "entity_id": "kingdom_of_cyprus",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "alliance",
+  "since": 1310,
+  "until": 1489,
+  "note": "After the fall of Acre (1291), the Knights Hospitaller retreated to Cyprus, which they used as a base for another 20 years before conquering Rhodes (1309). Cyprus provided the order's headquarters, naval facilities, and recruitment grounds during the critical transition from a land-based military order to a maritime one. The order's presence in Cyprus also entangled it in the complex dynastic politics of the Lusignan kingdom — a relationship that both aided and complicated the order's development of its new Mediterranean naval role.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Cyprus serves as the transitional base that enables the Hospitallers' transformation from a land-based crusading order to the dominant Christian naval power in the eastern Mediterranean; the Rhodes phase (1309–1522) makes the Hospitallers the primary barrier to Ottoman expansion into the central Mediterranean"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_hospitallers_1999",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

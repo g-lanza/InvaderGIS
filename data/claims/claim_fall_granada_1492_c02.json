@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_fall_granada_1492_c02",
+  "statement": "The final campaign against Granada from 1482 to 1492 used superior artillery to reduce Granada's mountain fortresses one by one.",
+  "subject_ids": [
+    "emirate_of_granada"
+  ],
+  "period": {
+    "from": 1492,
+    "to": 1492
+  },
+  "derived_from": "fall_granada_1492",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "harvey_islamic_1990",
+      "fernández-puertas_the_1997"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

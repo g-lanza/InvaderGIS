@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_meath",
+  "name": "Tara",
+  "entity_id": "kingdom_of_meath",
+  "entity_name": "Kingdom of Meath",
+  "start_year": 500,
+  "end_year": 1172,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2089487"
+    }
+  },
+  "coords": [
+    -6.61,
+    53.58
+  ]
+}

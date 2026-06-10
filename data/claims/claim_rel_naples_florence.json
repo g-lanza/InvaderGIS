@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_naples_florence",
+  "statement": "The Kingdom of Naples (the Angevin mainland kingdom of Sicily) and Florence maintained generally cooperative relations based on Florentine banking finance for Angevin military operations and Florence's dependence on Neapolitan grain. The Bardi and Peruzzi banking companies' massive loans to King Robert of Naples (1309–1343) — and their subsequent default when Robert's successor could not repay them — caused the greatest banking collapse in medieval Europe (1342–1343), temporarily destroying Florence's financial system. The later Aragonese Kingdom of Naples (from 1442) and the Medicis reached pragmatic accommodation within the Italian League (1455).",
+  "subject_ids": [
+    "kingdom_of_naples",
+    "republic_of_florence"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_naples_florence",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "najemy_a_2006",
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1300,
+    "to": 1494
+  }
+}

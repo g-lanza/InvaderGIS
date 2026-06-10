@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "black_death_france_1348",
+  "name": "Black Death across France",
+  "year": 1348,
+  "type": "epidemic",
+  "category": "hazard",
+  "coords": [
+    43.95,
+    4.81
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "The plague reaches Marseille in autumn 1347 and Avignon by January 1348, killing perhaps half the city's population. Pope Clement VI remains in his palace; his physician Guy de Chauliac documents the two clinical forms (bubonic, pneumonic). By summer 1349 the disease has covered France.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "papal_states"
+    ],
+    "structural_significance": "Loss of one-third to half the French population disrupts the Hundred Years' War for a decade; the 1351 Ordonnance attempts to fix wages and prices in vain; large-scale labour shortages permanently shift rural tenure terms in favour of peasants.",
+    "year_range": [
+      1348,
+      1350
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

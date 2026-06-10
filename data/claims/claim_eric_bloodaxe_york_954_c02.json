@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_eric_bloodaxe_york_954_c02",
+  "statement": "Eric Bloodaxe's death allowed King Edred of Wessex to reunify England and absorb the Danelaw region.",
+  "subject_ids": [
+    "kingdom_of_jorvik"
+  ],
+  "period": {
+    "from": 954,
+    "to": 954
+  },
+  "derived_from": "eric_bloodaxe_york_954",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

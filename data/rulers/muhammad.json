@@ -1,0 +1,52 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "muhammad",
+  "name": "Muhammad ibn Abdullah",
+  "polity": "rashidun_caliphate",
+  "title": "founder",
+  "reign_start": 622,
+  "reign_end": 632,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 570,
+      "death_year": 632
+    },
+    "entity_associations": [
+      {
+        "entity_id": "rashidun_caliphate",
+        "role": "founder",
+        "start_year": 622,
+        "end_year": 632
+      }
+    ],
+    "key_actions": [
+      {
+        "year": 610,
+        "event": "Reports first revelations in Hira cave outside Mecca."
+      },
+      {
+        "year": 622,
+        "event": "Hijra — migration to Medina; year 1 of Islamic calendar."
+      },
+      {
+        "year": 630,
+        "event": "Conquers Mecca; cleanses Kaaba of idols."
+      },
+      {
+        "year": 632,
+        "event": "Delivers Farewell Sermon; dies at Medina."
+      }
+    ],
+    "region": "arabia",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "hodgson_venture_of_islam_1974",
+      "hourani_arab_peoples_1991"
+    ],
+    "confidence": "low"
+  }
+}

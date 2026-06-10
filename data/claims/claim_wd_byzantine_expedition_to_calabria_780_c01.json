@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_byzantine_expedition_to_calabria_780_c01",
+  "statement": "Byzantine expedition to Calabria (780 CE), at Calabria.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 780,
+    "to": 780
+  },
+  "derived_from": "wd_byzantine_expedition_to_calabria_780",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

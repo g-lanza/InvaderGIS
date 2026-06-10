@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_maclodio_1427_c01",
+  "statement": "Battle of Maclodio (1427 CE), at Maclodio (part of Wars in Lombardy).",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1427,
+    "to": 1427
+  },
+  "derived_from": "wd_battle_of_maclodio_1427",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

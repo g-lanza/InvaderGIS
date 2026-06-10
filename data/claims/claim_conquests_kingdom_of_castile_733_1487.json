@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_kingdom_of_castile_733_1487",
+  "statement": "Kingdom of Castile — campaigns and battles spanned 733–1487, from Reconquista to French–Breton War.",
+  "subject_ids": [
+    "kingdom_of_castile"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_kingdom_of_castile_733_1487",
+  "period": {
+    "from": 733,
+    "to": 1487
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_tor_1006",
+  "name": "Battle of Torà",
+  "subtype": "battle",
+  "start_year": 1006,
+  "end_year": 1006,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2890236"
+    }
+  },
+  "description": "Battle during Reconquista (1006)",
+  "coords": [
+    -1.4039,
+    41.8114
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_genoa_byzantium",
+  "statement": "Genoa's relationship with Byzantium was built on the Treaty of Nymphaion (1261), in which Michael VIII Palaiologos granted Genoa exclusive trading rights in the Black Sea and the Galata quarter of Constantinople in exchange for naval support against Venice and the Latin Empire. Genoese merchants replaced Venetians as the dominant commercial presence in Constantinople. Genoese colonies at Caffa (Crimea), Trebizond, and Pera (opposite Constantinople) controlled the Black Sea luxury trade routes. The relationship declined after the Ottoman conquest (1453), when Mehmed II revoked most Genoese privileges.",
+  "subject_ids": [
+    "republic_of_genoa",
+    "byzantine_empire"
+  ],
+  "predicate": "cultural_exchange",
+  "derived_from": "rel_genoa_byzantium",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015",
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1155,
+    "to": 1453
+  }
+}

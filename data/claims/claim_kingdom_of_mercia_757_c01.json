@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_kingdom_of_mercia_757_c01",
+  "statement": "Offa seized the Mercian throne in 757 CE, beginning the period of Mercian supremacy in England.",
+  "subject_ids": [
+    "kingdom_of_mercia"
+  ],
+  "period": {
+    "from": 757,
+    "to": 757
+  },
+  "derived_from": "kingdom_of_mercia_757",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

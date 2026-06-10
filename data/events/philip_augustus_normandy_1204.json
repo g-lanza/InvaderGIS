@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "philip_augustus_normandy_1204",
+  "name": "Philip II conquers Normandy",
+  "year": 1204,
+  "type": "expansion_milestone",
+  "category": "discovery",
+  "coords": [
+    49.44,
+    1.1
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Philip II Augustus of France conquers Normandy from King John of England (1204), capitalizing on John's judicial condemnation by the French royal court and his failure to relieve Château Gaillard (built by Richard I to protect Normandy's border, which falls to a 6-month siege in March 1204). The conquest doubles the French royal domain. Philip takes Rouen in June 1204; within a year all of Normandy, Anjou, Maine, and Touraine, the heart of the Angevin Empire, are French. John is left with only Gascony of his continental possessions. The conquest transforms France into the dominant power in Western Europe.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "duchy_of_normandy",
+      "kingdom_of_england"
+    ],
+    "structural_significance": "Doubles the French royal domain; ends 138 years of Angevin control of Normandy; transforms France into the dominant Western European power; creates the national humiliation that leads to the Hundred Years' War a century later",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

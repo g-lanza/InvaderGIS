@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_edinburgh_601",
+  "name": "Edinburgh",
+  "importance": "city",
+  "start_year": 601,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q23436"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    -3.1892,
+    55.9533
+  ]
+}

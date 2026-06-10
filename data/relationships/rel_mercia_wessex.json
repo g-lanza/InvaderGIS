@@ -1,0 +1,35 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_mercia_wessex",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_mercia",
+      "role": "principal"
+    },
+    {
+      "entity_id": "kingdom_of_wessex",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 800,
+  "until": 918,
+  "note": "Mercia and Wessex contested hegemony over England south of the Humber from the 7th century through the Viking Age. Mercia dominated under Æthelbald (716–757) and Offa (757–796) — the latter building Offa's Dyke as a Welsh border and receiving papal recognition as a near-king. Wessex reasserted itself under Ecgberht (802–839). The Viking Great Army destroyed Mercia as an independent kingdom (877); Mercia was thereafter governed jointly by Alfred's son-in-law Æthelred and, after Æthelred's death, by Alfred's daughter Æthelflæd 'Lady of the Mercians,' who completed the Danelaw reconquest before her death (918).",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Mercian-Wessex rivalry shapes the emergence of English kingship; Mercia's destruction by the Vikings is the decisive event that makes Wessex the sole viable English kingdom; Æthelflæd's role as Lady of the Mercians is exceptional in medieval European governance"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

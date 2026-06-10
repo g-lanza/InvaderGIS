@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "britany_alan_ii_restoration_942",
+  "name": "Alan II Barbetorte Expels Vikings and Restores Brittany",
+  "year": 942,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    48,
+    -3
+  ],
+  "entity": "duchy_of_brittany",
+  "summary": "Alan II Barbetorte ('Twisted Beard'), raised in exile in England, returned to Brittany and drove out the Vikings who had occupied the duchy since 919. He restored Breton governance and rebuilt the duchy's institutions.",
+  "outcomes": [
+    "vikings_expelled",
+    "brittany_restored",
+    "alan_ii_hero"
+  ],
+  "_quarry": {
+    "participants": [
+      "duchy_of_brittany"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

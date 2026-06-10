@@ -1,0 +1,66 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_makkura_642_1287",
+  "name": "Makkura — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 642,
+  "year_end": 1287,
+  "waypoints": [
+    {
+      "year": 642,
+      "place": "First battle of Dongola",
+      "coords": [
+        20.656,
+        34.942
+      ],
+      "note": "military",
+      "event_id": "wd_first_battle_of_dongola_642"
+    },
+    {
+      "year": 652,
+      "place": "Second battle of Dongola",
+      "coords": [
+        20.656,
+        34.942
+      ],
+      "note": "military",
+      "event_id": "wd_second_battle_of_dongola_652"
+    },
+    {
+      "year": 1173,
+      "place": "Turan-Shah's Nubian campaign",
+      "coords": [
+        20.656,
+        34.942
+      ],
+      "note": "military",
+      "event_id": "wd_turan_shah_s_nubian_campaign_1173"
+    },
+    {
+      "year": 1276,
+      "place": "Battle of Dongola",
+      "coords": [
+        25.328,
+        33.071
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_dongola_1276"
+    },
+    {
+      "year": 1287,
+      "place": "Fourth battle of Dongola",
+      "coords": [
+        25.328,
+        33.071
+      ],
+      "note": "military",
+      "event_id": "wd_fourth_battle_of_dongola_1287"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

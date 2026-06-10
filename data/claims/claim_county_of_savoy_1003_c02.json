@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_county_of_savoy_1003_c02",
+  "statement": "Savoy's position commanding routes between France, Italy, and Germany let the small county exert influence exceeding its size.",
+  "subject_ids": [
+    "county_of_savoy"
+  ],
+  "period": {
+    "from": 1003,
+    "to": 1003
+  },
+  "derived_from": "county_of_savoy_1003",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

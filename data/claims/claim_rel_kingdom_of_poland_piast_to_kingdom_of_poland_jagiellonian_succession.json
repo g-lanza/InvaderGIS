@@ -1,0 +1,29 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_kingdom_of_poland_piast_to_kingdom_of_poland_jagiellonian_succession",
+  "statement": "Derived from predecessor/successor links recorded in the kingdom_of_poland_piast and kingdom_of_poland_jagiellonian entity records. Transition anchored to kingdom_of_poland_jagiellonian start_year.",
+  "subject_ids": [
+    "kingdom_of_poland_piast",
+    "kingdom_of_poland_jagiellonian"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_kingdom_of_poland_piast_to_kingdom_of_poland_jagiellonian_succession",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "davies_gods_1981",
+      "knoll_the_1972",
+      "lukowski_a_2001"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "kingdom_of_poland_jagiellonian"
+  ],
+  "period": {
+    "from": 1385,
+    "to": 1385
+  }
+}

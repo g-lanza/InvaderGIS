@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_kulaca_hisar_1285_c01",
+  "statement": "Siege of Kulaca Hisar (1285 CE), at Kulaca Hisar (part of Byzantine–Ottoman wars).",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 1285,
+    "to": 1285
+  },
+  "derived_from": "wd_siege_of_kulaca_hisar_1285",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_kingdom_of_majorca_1282_1367",
+  "statement": "Kingdom of Majorca — campaigns and battles spanned 1282–1367, from War of the Sicilian Vespers to Battle of Nájera.",
+  "subject_ids": [
+    "kingdom_of_majorca"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_kingdom_of_majorca_1282_1367",
+  "period": {
+    "from": 1282,
+    "to": 1367
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

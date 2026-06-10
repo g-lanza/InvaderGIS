@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "arran_1263",
+  "name": "Battle of Largs, Arran Passes to Scotland",
+  "year": 1263,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    48.4685,
+    21.552
+  ],
+  "entity": "arran",
+  "summary": "King Haakon IV of Norway's campaign of 1263 attempted to reassert Norwegian control over Arran and the Western Isles. The inconclusive Battle of Largs preceded Haakon's death during withdrawal. The subsequent Treaty of Perth (1266) transferred Arran and the Western Isles to Scottish sovereignty.",
+  "outcomes": [
+    "norwegian_campaign",
+    "arran_contested",
+    "treaty_of_perth"
+  ],
+  "_quarry": {
+    "participants": [
+      "arran",
+      "kingdom_of_scotland"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

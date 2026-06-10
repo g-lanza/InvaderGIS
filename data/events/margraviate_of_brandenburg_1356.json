@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "margraviate_of_brandenburg_1356",
+  "name": "Brandenburg Becomes Electoral Principality",
+  "year": 1356,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    51.26,
+    11.955
+  ],
+  "entity": "margraviate_of_brandenburg",
+  "summary": "The Golden Bull of 1356 confirmed Brandenburg's status as one of the seven electoral principalities of the Holy Roman Empire. This electoral vote gave Brandenburg disproportionate political influence in German affairs, a position the Hohenzollern dynasty would eventually exploit to build the Kingdom of Prussia.",
+  "outcomes": [
+    "golden_bull",
+    "hohenzollern_precursor",
+    "imperial_politics"
+  ],
+  "_quarry": {
+    "participants": [
+      "margraviate_of_brandenburg",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

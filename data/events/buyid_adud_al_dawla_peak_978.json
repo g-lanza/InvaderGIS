@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "buyid_adud_al_dawla_peak_978",
+  "name": "Adud al-Dawla Unifies Buyid Emirates",
+  "year": 978,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    30.406,
+    51.47
+  ],
+  "entity": "buwayhid_emirates",
+  "summary": "Adud al-Dawla unified the fractious Buyid territories and became the only Buyid ruler to adopt the title Shahanshah (King of Kings). He patronised Persian literature and founded great hospitals (bimaristans) in Baghdad and Shiraz.",
+  "outcomes": [
+    "buyid_unified",
+    "persian_renaissance",
+    "bimaristan_hospital"
+  ],
+  "_quarry": {
+    "participants": [
+      "buwayhid_emirates",
+      "buwayhid_emirates"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

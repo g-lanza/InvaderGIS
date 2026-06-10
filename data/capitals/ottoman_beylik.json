@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ottoman_beylik",
+  "name": "Istanbul",
+  "entity_id": "ottoman_beylik",
+  "entity_name": "Ottoman Beylik",
+  "start_year": 1299,
+  "end_year": 1453,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q4082018"
+    }
+  },
+  "coords": [
+    28.96028,
+    41.01
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "council_constance_911",
+  "name": "Conrad I elected",
+  "year": 911,
+  "type": "coronation",
+  "category": "power",
+  "coords": [
+    49.72,
+    11.07
+  ],
+  "entity": "east_francia",
+  "summary": "After the death of Ludwig the Child (911), the last Carolingian king of East Francia, the East Frankish nobles meet at Forchheim and elect Conrad I, Duke of Franconia, as king. This is a pivotal constitutional moment: for the first time, the East Frankish (German) nobility choose a king from among themselves rather than a Carolingian, establishing the elective principle that defines the Holy Roman Empire. Conrad I rules unsuccessfully, facing constant revolts from the great dukes (Saxony, Bavaria, Swabia, Lorraine); on his deathbed he recommends the Saxon Duke Henry as his successor. Henry I (the Fowler) founds the Ottonian dynasty.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "east_francia"
+    ],
+    "structural_significance": "First non-Carolingian king of East Francia; establishes the elective principle for German kingship that defines the Holy Roman Empire's constitutional character; the Ottonian dynasty that follows creates the foundations of medieval Germany",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

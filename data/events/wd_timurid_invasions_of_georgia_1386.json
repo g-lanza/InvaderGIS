@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_timurid_invasions_of_georgia_1386",
+  "name": "Timurid invasions of Georgia",
+  "year": 1386,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    40.71,
+    55.85
+  ],
+  "entity": "kingdom_of_georgia",
+  "summary": "Timurid invasions of Georgia (1386 CE), at Caucasus (part of Timurid conquests and invasions). Source: Wikidata Q2919552.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_georgia",
+      "timurid_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

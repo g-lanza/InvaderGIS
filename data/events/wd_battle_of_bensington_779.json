@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_bensington_779",
+  "name": "Battle of Bensington",
+  "year": 779,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    51.75,
+    -1.75
+  ],
+  "entity": "kingdom_of_mercia",
+  "summary": "Battle of Bensington (779 CE), at Benson. Source: Wikidata Q4870465.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_mercia",
+      "kingdom_of_wessex"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

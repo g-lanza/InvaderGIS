@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_sarai_1395",
+  "name": "Siege of Sarai",
+  "year": 1395,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    44.2,
+    55.7
+  ],
+  "entity": "golden_horde",
+  "summary": "Siege of Sarai (1395 CE), at Sarai (part of Timur's second expedition against Tokhtamysh). Source: Wikidata Q136702627.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "golden_horde",
+      "timurid_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "allsen_mongol_1987"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

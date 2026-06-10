@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "county_of_flanders",
+  "name": "Bruges",
+  "entity_id": "county_of_flanders",
+  "entity_name": "County of Flanders",
+  "start_year": 862,
+  "end_year": 1384,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q157070"
+    }
+  },
+  "coords": [
+    3.22417,
+    51.20889
+  ]
+}

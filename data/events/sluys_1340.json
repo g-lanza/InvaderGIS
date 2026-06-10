@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "sluys_1340",
+  "name": "Battle of Sluys",
+  "year": 1340,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    51.34,
+    3.35
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "At the Battle of Sluys (June 24, 1340), an English fleet under Edward III encounters the French fleet of approximately 200 ships in the harbor of Sluys (modern Sluis, Netherlands). The French, commanded by Quiéret and Béhuchet, chain their ships together in defensive lines, a fatal tactical error. The English archers devastate the packed French crews before English men-at-arms board and capture ship after ship. The French fleet is annihilated: Quiéret is killed; Béhuchet, a commoner, is hanged from a yardarm. Edward III wins uncontested control of the English Channel for years, enabling his later campaigns in France.",
+  "outcomes": [
+    "english_naval_victory"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "kingdom_of_france"
+    ],
+    "structural_significance": "Gives England naval supremacy in the English Channel; enables Edward III's subsequent land campaigns culminating in Crécy; demonstrates the decisive power of English longbowmen even at sea; marks the beginning of English naval power in the Channel",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

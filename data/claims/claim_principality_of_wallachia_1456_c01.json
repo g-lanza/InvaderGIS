@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_principality_of_wallachia_1456_c01",
+  "statement": "Vlad III the Impaler of Wallachia defied Ottoman overlordship during his second reign from 1456 to 1462.",
+  "subject_ids": [
+    "principality_of_wallachia"
+  ],
+  "period": {
+    "from": 1456,
+    "to": 1456
+  },
+  "derived_from": "principality_of_wallachia_1456",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "deletant_romania_1998",
+      "panaitescu_mircea_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

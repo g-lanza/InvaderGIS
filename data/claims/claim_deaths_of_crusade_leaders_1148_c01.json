@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_deaths_of_crusade_leaders_1148_c01",
+  "statement": "The Second Crusade, led by Louis VII of France and Conrad III of Germany, attacked Damascus in 1148 and failed after only four days of siege.",
+  "subject_ids": [
+    "kingdom_of_jerusalem"
+  ],
+  "period": {
+    "from": 1148,
+    "to": 1148
+  },
+  "derived_from": "deaths_of_crusade_leaders_1148",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

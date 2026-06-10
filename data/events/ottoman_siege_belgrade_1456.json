@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ottoman_siege_belgrade_1456",
+  "name": "Siege of Belgrade",
+  "year": 1456,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    44.82,
+    20.46
+  ],
+  "entity": "ottoman_empire",
+  "summary": "Sultan Mehmed II, fresh from conquering Constantinople (1453), besieges Belgrade with approximately 70,000 men and a powerful artillery train. John Hunyadi, Hungarian regent, organizes the defense with a mixed force of Hungarian soldiers and crusader volunteers raised by the Franciscan friar John of Capistrano. In July 1456, the Crusaders launch an unexpected counterattack across the Danube, causing panic in the Ottoman camp; Mehmed II himself is wounded and withdraws. Hunyadi dies of plague weeks later, but Belgrade remains Christian for another 65 years.",
+  "outcomes": [
+    "ottoman_siege_repelled",
+    "mehmed_ii_retreats",
+    "crusader_advance_halted"
+  ],
+  "_quarry": {
+    "participants": [
+      "ottoman_empire",
+      "kingdom_of_hungary",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "The most significant Christian military success of the 15th century after the fall of Constantinople; delays the Ottoman conquest of central Europe by decades; John of Capistrano's role inspires a massive popular crusade movement; the ringing of church bells at noon (still observed in Catholic and Lutheran churches) commemorates the victory as ordered by Pope Callixtus III",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

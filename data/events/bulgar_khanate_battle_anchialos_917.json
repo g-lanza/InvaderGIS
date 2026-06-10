@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "bulgar_khanate_battle_anchialos_917",
+  "name": "Battle of Anchialos",
+  "year": 917,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    43.475,
+    24.394
+  ],
+  "entity": "bulgar_khanate",
+  "summary": "Tsar Symeon I crushed the Byzantine army at Anchialos in the largest medieval Bulgarian victory. Symeon went on to besiege Constantinople itself and adopted the title Emperor of Bulgars and Romans, representing the peak of First Bulgarian Empire power.",
+  "outcomes": [
+    "byzantine_army_destroyed",
+    "bulgaria_dominant_balkans",
+    "tsar_symeon_peak"
+  ],
+  "_quarry": {
+    "participants": [
+      "bulgar_khanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

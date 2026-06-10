@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_battle_manzikert_context_c01",
+  "statement": "The aftermath of Manzikert saw civil war erupt in Constantinople as rival claimants fought for the throne.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 1071,
+    "to": 1071
+  },
+  "derived_from": "battle_manzikert_context",
+  "unresolved_sources": [
+    "treadgold_a_1997",
+    "kazhdan_the_1991"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "haldon_byzantium_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "visigoth_spain_589",
+  "name": "Third Council of Toledo, Visigoth Conversion",
+  "year": 589,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    40.4,
+    -3.7
+  ],
+  "entity": "visigothic_kingdom",
+  "summary": "King Reccared I of the Visigoths converts from Arianism to Nicene Christianity at the Third Council of Toledo, bringing the entire Visigothic nation into the Catholic fold. The conversion enables the fusion of the Visigothic warrior nobility with the Hispano-Roman church hierarchy, creating the administrative framework of medieval Iberia.",
+  "outcomes": [
+    "arianism_abandoned",
+    "nicene_christianity",
+    "roman_visigoth_fusion"
+  ],
+  "_quarry": {
+    "participants": [
+      "visigothic_kingdom"
+    ],
+    "structural_significance": "The Visigothic conversion enables church-state collaboration that shapes Iberian Christianity; the Council of Toledo becomes the model for Carolingian church councils; the Visigothic legal tradition (Liber Iudiciorum) influences Iberian law for centuries.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "collins_visigothic_2004",
+      "thompson_the_1969"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "benedikt_kotruljević",
+  "name": "Benedikt Kotruljević",
+  "polity": "republic_of_ragusa",
+  "title": "administrator",
+  "reign_start": 1416,
+  "reign_end": 1469,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "republic_of_ragusa",
+        "role": "administrator",
+        "start_year": 1416,
+        "end_year": 1469
+      }
+    ],
+    "key_actions": [],
+    "region": "southeastern_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

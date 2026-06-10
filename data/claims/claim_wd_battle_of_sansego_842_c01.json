@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_sansego_842_c01",
+  "statement": "Battle of Sansego (842 CE), at Susak (part of Arab–Byzantine Wars).",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 842,
+    "to": 842
+  },
+  "derived_from": "wd_battle_of_sansego_842",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

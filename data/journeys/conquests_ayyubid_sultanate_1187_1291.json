@@ -1,0 +1,162 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_ayyubid_sultanate_1187_1291",
+  "name": "Ayyubid Sultanate — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1187,
+  "year_end": 1291,
+  "waypoints": [
+    {
+      "year": 1187,
+      "place": "Battle of Hattin",
+      "coords": [
+        32.82,
+        35.47
+      ],
+      "note": "battle",
+      "event_id": "battle_hattin_1187"
+    },
+    {
+      "year": 1187,
+      "place": "Saladin Reconquers Jerusalem",
+      "coords": [
+        31.78,
+        35.22
+      ],
+      "note": "conquest",
+      "event_id": "saladin_reconquers_jerusalem_1187"
+    },
+    {
+      "year": 1190,
+      "place": "Richard I Departs on the Third Crusade",
+      "coords": [
+        32.08,
+        34.79
+      ],
+      "note": "battle",
+      "event_id": "richard_i_crusade_1190"
+    },
+    {
+      "year": 1191,
+      "place": "Richard I's Massacre at Acre",
+      "coords": [
+        32.92,
+        35.07
+      ],
+      "note": "battle",
+      "event_id": "massacre_acre_1191"
+    },
+    {
+      "year": 1217,
+      "place": "Fifth Crusade",
+      "coords": [
+        31.42,
+        31.82
+      ],
+      "note": "crusade",
+      "event_id": "fifth_crusade_1217"
+    },
+    {
+      "year": 1229,
+      "place": "Siege of Damascus",
+      "coords": [
+        30.2,
+        31.2
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_damascus_1229"
+    },
+    {
+      "year": 1244,
+      "place": "Battle of Forbie",
+      "coords": [
+        32.8,
+        31.5333
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_forbie_1244"
+    },
+    {
+      "year": 1248,
+      "place": "Seventh Crusade (Louis IX)",
+      "coords": [
+        31.42,
+        31.81
+      ],
+      "note": "crusade",
+      "event_id": "louis_ix_crusade_1248"
+    },
+    {
+      "year": 1250,
+      "place": "Capture of Louis IX — Egypt Crusade Disaster",
+      "coords": [
+        30.87,
+        31.39
+      ],
+      "note": "battle",
+      "event_id": "saint_louis_crusade_1250"
+    },
+    {
+      "year": 1251,
+      "place": "Battle of al-Kura",
+      "coords": [
+        30.1,
+        31.2
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_al_kura_1251"
+    },
+    {
+      "year": 1259,
+      "place": "Siege of Mayyāfāriqīn",
+      "coords": [
+        32.95,
+        41.3
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_mayy_f_riq_n_1259"
+    },
+    {
+      "year": 1260,
+      "place": "Capture of Damascus",
+      "coords": [
+        32.95,
+        41.3
+      ],
+      "note": "military",
+      "event_id": "wd_capture_of_damascus_1260"
+    },
+    {
+      "year": 1260,
+      "place": "Siege of Aleppo",
+      "coords": [
+        34.75,
+        38.675
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_aleppo_1260"
+    },
+    {
+      "year": 1291,
+      "place": "Siege of Acre",
+      "coords": [
+        32.1,
+        31.45
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_acre_1291"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "humphreys_from_1977",
+      "lyons_saladin_1982",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

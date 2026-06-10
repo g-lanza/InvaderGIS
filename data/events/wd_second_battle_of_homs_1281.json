@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_second_battle_of_homs_1281",
+  "name": "Second Battle of Homs",
+  "year": 1281,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    36.5367,
+    37.3333
+  ],
+  "entity": "kingdom_of_georgia",
+  "summary": "Second Battle of Homs (1281 CE), at Homs (part of Mongol invasions of the Levant). Source: Wikidata Q2726734.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_georgia",
+      "ilkhanate",
+      "knights_hospitaller_rhodes",
+      "mamluk_sultanate",
+      "armenian_kingdom_of_cilicia",
+      "sultanate_of_rum"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

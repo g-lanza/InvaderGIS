@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_earldom_of_orkney_1098_c02",
+  "statement": "Under the 1098 arrangement Norway retained Orkney, Shetland, and the Hebrides.",
+  "subject_ids": [
+    "earldom_of_orkney"
+  ],
+  "period": {
+    "from": 1098,
+    "to": 1098
+  },
+  "derived_from": "earldom_of_orkney_1098",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

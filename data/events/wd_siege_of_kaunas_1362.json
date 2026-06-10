@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_kaunas_1362",
+  "name": "Siege of Kaunas",
+  "year": 1362,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    55.85,
+    25.15
+  ],
+  "entity": "livonian_order_state",
+  "summary": "Siege of Kaunas (1362 CE), at Kaunas Castle (part of Lithuanian Crusade). Source: Wikidata Q12660036.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "livonian_order_state",
+      "grand_duchy_of_lithuania"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_hospitallers_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

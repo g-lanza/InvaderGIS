@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_conquests_of_inal_the_great_1414_c01",
+  "statement": "Conquests of Inal the Great (1414 CE), at Caucasus.",
+  "subject_ids": [
+    "golden_horde"
+  ],
+  "period": {
+    "from": 1414,
+    "to": 1414
+  },
+  "derived_from": "wd_conquests_of_inal_the_great_1414",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "allsen_mongol_1987"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

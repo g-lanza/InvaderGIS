@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "anatolia_earthquake_1268",
+  "name": "Anatolian earthquake of 1268 (Cilicia and Antioch)",
+  "year": 1268,
+  "type": "disaster",
+  "category": "hazard",
+  "coords": [
+    37.59,
+    36.93
+  ],
+  "entity": "armenian_kingdom_of_cilicia",
+  "summary": "A major earthquake centered in Cilicia destroys substantial portions of Sis, Adana, Mamistra, and Antioch in late autumn 1268. Tens of thousands killed; the Armenian kingdom's military capacity is severely degraded weeks before the Mamluk siege and capture of Antioch in May 1268.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "armenian_kingdom_of_cilicia",
+      "principality_of_antioch"
+    ],
+    "structural_significance": "Compounds the regional devastation that culminates in the fall of the Principality of Antioch, one of the original Crusader states, to Baybars. The Armenian kingdom never fully recovers and falls to the Mamluks in 1375.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "boase_the_1978",
+      "mutafian_le_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

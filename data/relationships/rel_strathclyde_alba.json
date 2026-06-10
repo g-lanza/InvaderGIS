@@ -1,0 +1,35 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_strathclyde_alba",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_strathclyde",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "kingdom_of_alba",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 1018,
+  "until": 1018,
+  "note": "The Kingdom of Strathclyde (Brythonic/Welsh-speaking kingdom of the Clyde Valley, centered on Dumbarton Rock) maintained a gradually subordinate relationship to the Kingdom of Alba (the emerging Gaelic-Pictish Scottish kingdom) throughout the 9th–10th centuries. After the Viking destruction of Dumbarton (870), Strathclyde came under increasing Alba influence. The kingdom passed to Constantine II of Alba's grandson (c. 890) and was effectively an appanage of the Scottish crown by the early 10th century, finally absorbed under Malcolm II (1018). Its absorption gave Scotland control of the Clyde Valley and the border with Northumbrian England.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Strathclyde's absorption into the Kingdom of Alba is one of the three mergers (with Pictland, 843, and Lothian, 1018) that create the medieval Scottish kingdom; the Kingdom of Alba's multi-ethnic foundation — Picts, Gaels, Britons, and later Angles and Norse — creates a medieval Scotland with remarkable cultural plurality"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

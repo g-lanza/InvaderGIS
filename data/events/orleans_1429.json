@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "orleans_1429",
+  "name": "Joan of Arc lifts siege of Orléans",
+  "year": 1429,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    47.9,
+    1.91
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Joan of Arc, a 17-year-old peasant girl from Domrémy claiming divine visions, arrives at the besieged city of Orléans (April 29, 1429) with a relief army. Within nine days, the English siege works, besieging the city since October 1428, are destroyed. Joan leads the assault on the fortress of Les Tourelles personally; the English siege is broken (May 8, 1429). The relief of Orléans reverses the momentum of the Hundred Years' War; Charles VII is crowned at Reims in July 1429. Joan is captured (1430) and burned at Rouen by the English-sponsored court (May 30, 1431).",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "kingdom_of_england"
+    ],
+    "structural_significance": "Turns the tide of the Hundred Years' War decisively; enables Charles VII's coronation; creates the most powerful symbol of French nationalism; demonstrates the power of charismatic religious motivation in warfare",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

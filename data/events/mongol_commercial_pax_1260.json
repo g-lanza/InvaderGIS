@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "mongol_commercial_pax_1260",
+  "name": "Pax Mongolica and the Silk Road",
+  "year": 1260,
+  "type": "economic",
+  "category": "economy",
+  "coords": [
+    50,
+    60
+  ],
+  "entity": "mongol_empire",
+  "summary": "After the conquests, the Mongol Empire enforced a 'Pax Mongolica' along the Silk Road, providing safe passage for merchants, diplomats, and missionaries from China to the Black Sea. This opened direct contact between Europe and the Far East for the first time in centuries, enabling Marco Polo's journey (1271–1295) and the travels of Franciscan missionaries. The same trade routes facilitated the westward spread of the Black Death in 1346–1347.",
+  "outcomes": [
+    "Overland trade from China to Europe restored",
+    "Marco Polo travels 1271–1295",
+    "Plague travels west along Mongol trade routes",
+    "Ibn Battuta traverses Mongol lands 1330s"
+  ],
+  "_quarry": {
+    "participants": [
+      "mongol_empire",
+      "golden_horde",
+      "ilkhanate"
+    ],
+    "structural_significance": "The Mongol peace temporarily unified Eurasia as a commercial zone; ironically, it also transmitted the plague that killed perhaps a third of Europe's population.",
+    "year_range": [
+      1250,
+      1350
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Abu-Lughod, Before European Hegemony",
+      "Allsen, Commodity and Exchange in the Mongol Empire"
+    ],
+    "confidence": "low"
+  }
+}

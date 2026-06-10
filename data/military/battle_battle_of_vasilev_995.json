@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_vasilev_995",
+  "name": "Battle of Vasilev",
+  "subtype": "battle",
+  "start_year": 995,
+  "end_year": 995,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q19692188"
+    }
+  },
+  "description": "Battle during Rus'-Pecheneg Wars (995)",
+  "coords": [
+    30.3217,
+    50.1775
+  ]
+}

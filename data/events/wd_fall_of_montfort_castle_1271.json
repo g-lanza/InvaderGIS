@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_fall_of_montfort_castle_1271",
+  "name": "Fall of Montfort Castle",
+  "year": 1271,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    30,
+    31.2
+  ],
+  "entity": "mamluk_sultanate",
+  "summary": "Fall of Montfort Castle (1271 CE), at Montfort Castle (part of Fall of Outremer). Source: Wikidata Q134238632.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "mamluk_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "irwin_the_1986",
+      "northrup_from_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

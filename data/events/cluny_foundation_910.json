@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "cluny_foundation_910",
+  "name": "Foundation of the Abbey of Cluny",
+  "year": 910,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    46.43,
+    4.66
+  ],
+  "entity": "kingdom_of_burgundy",
+  "summary": "Duke William I of Aquitaine founds the Abbey of Cluny in Burgundy, placing it directly under papal authority and explicitly exempting it from the control of local bishops and secular lords. This institutional independence allows Cluny to maintain strict observance of the Benedictine Rule. Under a series of long-lived, able abbots (Odo, Mayeul, Odilo, Hugh), the Cluniac congregation grows to over 1,000 dependent houses across Europe by the 11th century.",
+  "outcomes": [
+    "cluniac_reform_movement_begins",
+    "monastic_independence_from_secular_lords",
+    "gregorian_reform_precursor"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_burgundy",
+      "papal_states"
+    ],
+    "structural_significance": "Cluny creates the model for ecclesiastical independence from secular control that Gregory VII generalizes into the Investiture Controversy; its network of reformed monasteries creates a pan-European reform culture that challenges local bishops and nobles; Cluniac monks provide the literate administrators and ecclesiastical politicians who drive the 11th-century papal reform movement",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

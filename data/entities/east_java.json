@@ -1,0 +1,1000 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "east_java",
+  "name_primary": "Majapahit Empire",
+  "name_variants": [
+    "East Java"
+  ],
+  "type": "kingdom",
+  "region": "southeast_asia",
+  "formed": 1293,
+  "dissolved": 1527,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 1300,
+      "label": "Majapahit Empire (approx.)",
+      "polygon": [
+        [
+          -6,
+          105
+        ],
+        [
+          -6,
+          109
+        ],
+        [
+          -7,
+          112
+        ],
+        [
+          -7,
+          114
+        ],
+        [
+          -8,
+          116
+        ],
+        [
+          -9,
+          115
+        ],
+        [
+          -9,
+          113
+        ],
+        [
+          -8,
+          110
+        ],
+        [
+          -7,
+          107
+        ],
+        [
+          -6,
+          105
+        ]
+      ]
+    },
+    {
+      "year": 1400,
+      "label": "Majapahit Empire, peak (approx.)",
+      "polygon": [
+        [
+          -6,
+          105
+        ],
+        [
+          -6,
+          109
+        ],
+        [
+          -7,
+          112
+        ],
+        [
+          -7,
+          114
+        ],
+        [
+          -8,
+          116
+        ],
+        [
+          -9,
+          115
+        ],
+        [
+          -9,
+          113
+        ],
+        [
+          -8,
+          110
+        ],
+        [
+          -7,
+          107
+        ],
+        [
+          -6,
+          105
+        ]
+      ]
+    },
+    {
+      "year": 1500,
+      "label": "Majapahit Empire (approx.)",
+      "polygon": [
+        [
+          -6,
+          105
+        ],
+        [
+          -6,
+          109
+        ],
+        [
+          -7,
+          112
+        ],
+        [
+          -7,
+          114
+        ],
+        [
+          -8,
+          116
+        ],
+        [
+          -9,
+          115
+        ],
+        [
+          -9,
+          113
+        ],
+        [
+          -8,
+          110
+        ],
+        [
+          -7,
+          107
+        ],
+        [
+          -6,
+          105
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    -7.4444,
+    111.1444
+  ],
+  "population_estimates": [
+    {
+      "year": 1000,
+      "estimate": 2000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q3586",
+          "url": "https://www.wikidata.org/wiki/Q3586",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "East Java",
+          "url": "https://en.wikipedia.org/wiki/East_Java"
+        }
+      ]
+    },
+    {
+      "year": 1300,
+      "estimate": 5000000,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q3586",
+          "url": "https://www.wikidata.org/wiki/Q3586",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "East Java",
+          "url": "https://en.wikipedia.org/wiki/East_Java"
+        }
+      ]
+    },
+    {
+      "year": 1400,
+      "estimate": 6000000,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q3586",
+          "url": "https://www.wikidata.org/wiki/Q3586",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "East Java",
+          "url": "https://en.wikipedia.org/wiki/East_Java"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Eastern Javanese kingdom of Majapahit (1293–c.1527) that became the largest pre-colonial maritime empire in Southeast Asia; Gajah Mada's oath to unify the archipelago and the Nagarakretagama describing a realm stretching from Sumatra to New Guinea reflect Majapahit's commercial and political reach; its Hindu-Buddhist court culture produced the Kakawin literary tradition before Islamisation of coastal trading ports undermined Majapahit's authority.",
+  "temporal": {
+    "start_year": 1293,
+    "end_year": 1527,
+    "notes": "",
+    "end_year_within_scope": 1500
+  },
+  "geographic": {
+    "centroid": [
+      -7.4444,
+      111.1444
+    ],
+    "polygon_simplified": [
+      [
+        -6,
+        105
+      ],
+      [
+        -6,
+        109
+      ],
+      [
+        -7,
+        112
+      ],
+      [
+        -7,
+        114
+      ],
+      [
+        -8,
+        116
+      ],
+      [
+        -9,
+        115
+      ],
+      [
+        -9,
+        113
+      ],
+      [
+        -8,
+        110
+      ],
+      [
+        -7,
+        107
+      ],
+      [
+        -6,
+        105
+      ]
+    ],
+    "capital": {
+      "name": "Surabaya",
+      "coords": [
+        -7.24628,
+        112.73777
+      ],
+      "source": "wikidata"
+    },
+    "polygon_snapshots": [
+      {
+        "year": 1300,
+        "label": "Majapahit Empire (approx.)",
+        "polygon": [
+          [
+            -6,
+            105
+          ],
+          [
+            -6,
+            109
+          ],
+          [
+            -7,
+            112
+          ],
+          [
+            -7,
+            114
+          ],
+          [
+            -8,
+            116
+          ],
+          [
+            -9,
+            115
+          ],
+          [
+            -9,
+            113
+          ],
+          [
+            -8,
+            110
+          ],
+          [
+            -7,
+            107
+          ],
+          [
+            -6,
+            105
+          ]
+        ]
+      },
+      {
+        "year": 1400,
+        "label": "Majapahit Empire, peak (approx.)",
+        "polygon": [
+          [
+            -6,
+            105
+          ],
+          [
+            -6,
+            109
+          ],
+          [
+            -7,
+            112
+          ],
+          [
+            -7,
+            114
+          ],
+          [
+            -8,
+            116
+          ],
+          [
+            -9,
+            115
+          ],
+          [
+            -9,
+            113
+          ],
+          [
+            -8,
+            110
+          ],
+          [
+            -7,
+            107
+          ],
+          [
+            -6,
+            105
+          ]
+        ]
+      },
+      {
+        "year": 1500,
+        "label": "Majapahit Empire (approx.)",
+        "polygon": [
+          [
+            -6,
+            105
+          ],
+          [
+            -6,
+            109
+          ],
+          [
+            -7,
+            112
+          ],
+          [
+            -7,
+            114
+          ],
+          [
+            -8,
+            116
+          ],
+          [
+            -9,
+            115
+          ],
+          [
+            -9,
+            113
+          ],
+          [
+            -8,
+            110
+          ],
+          [
+            -7,
+            107
+          ],
+          [
+            -6,
+            105
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "approximate",
+    "polygon_source": "hand_crafted",
+    "polygon_source_date": "2026-05-11"
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "mataram_era",
+      "years": "750-929",
+      "description": "Central Java (later East Java) saw rise of Medang/Mataram kingdom; builders of Borobudur and Prambanan.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q3586",
+          "url": "https://www.wikidata.org/wiki/Q3586"
+        },
+        {
+          "type": "wikipedia",
+          "label": "East Java",
+          "url": "https://en.wikipedia.org/wiki/East_Java"
+        }
+      ]
+    },
+    {
+      "phase": "east_java_shift",
+      "years": "929-1222",
+      "description": "Political centre shifted to East Java under Mpu Sindok; Kediri and Singhasari kingdoms flourished.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q3586",
+          "url": "https://www.wikidata.org/wiki/Q3586"
+        },
+        {
+          "type": "wikipedia",
+          "label": "East Java",
+          "url": "https://en.wikipedia.org/wiki/East_Java"
+        }
+      ]
+    },
+    {
+      "phase": "majapahit_empire",
+      "years": "1293-1500",
+      "description": "Majapahit Empire made East Java the centre of the most powerful Austronesian state; claimed sovereignty over most of maritime SE Asia.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q3586",
+          "url": "https://www.wikidata.org/wiki/Q3586"
+        },
+        {
+          "type": "wikipedia",
+          "label": "East Java",
+          "url": "https://en.wikipedia.org/wiki/East_Java"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "trade_route_control",
+      "layer": "economic_commercial",
+      "description": "East Javanese ports controlled the spice trade between the Maluku islands and Indian Ocean merchants.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q3586",
+          "url": "https://www.wikidata.org/wiki/Q3586"
+        },
+        {
+          "type": "wikipedia",
+          "label": "East Java",
+          "url": "https://en.wikipedia.org/wiki/East_Java"
+        }
+      ],
+      "tag_prose": "spice_trade_control"
+    },
+    {
+      "tag": "rice_surplus",
+      "layer": "economic_commercial",
+      "description": "Volcanic soil of East Java produced exceptional rice yields supporting dense populations and large armies.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q3586",
+          "url": "https://www.wikidata.org/wiki/Q3586"
+        },
+        {
+          "type": "wikipedia",
+          "label": "East Java",
+          "url": "https://en.wikipedia.org/wiki/East_Java"
+        }
+      ]
+    },
+    {
+      "tag": "gajah_mada_statecraft",
+      "layer": "governance_institutional",
+      "description": "Prime Minister Gajah Mada (r. 1331-1364) systematically expanded Majapahit's maritime empire.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q3586",
+          "url": "https://www.wikidata.org/wiki/Q3586"
+        },
+        {
+          "type": "wikipedia",
+          "label": "East Java",
+          "url": "https://en.wikipedia.org/wiki/East_Java"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "succession_crisis",
+      "layer": "dynastic_legitimacy",
+      "description": "Majapahit was weakened by the Paregreg civil war (1404-1406) and subsequent succession disputes.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q3586",
+          "url": "https://www.wikidata.org/wiki/Q3586"
+        },
+        {
+          "type": "wikipedia",
+          "label": "East Java",
+          "url": "https://en.wikipedia.org/wiki/East_Java"
+        }
+      ],
+      "tag_prose": "succession_conflicts"
+    },
+    {
+      "tag": "islam_coastal_spread",
+      "layer": "ideology_religion",
+      "description": "Spread of Islam through coastal trading ports gradually eroded Hindu-Buddhist court culture.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q3586",
+          "url": "https://www.wikidata.org/wiki/Q3586"
+        },
+        {
+          "type": "wikipedia",
+          "label": "East Java",
+          "url": "https://en.wikipedia.org/wiki/East_Java"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Mpu Sindok",
+      "role": "ruler",
+      "years": "929–947",
+      "year_start": 929,
+      "year_end": 947,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Mpu Sindok",
+          "url": "https://en.wikipedia.org/wiki/Mpu_Sindok"
+        }
+      ]
+    },
+    {
+      "name": "Kertanegara",
+      "role": "ruler",
+      "years": "1268–1292",
+      "year_start": 1268,
+      "year_end": 1292,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Kertanegara",
+          "url": "https://en.wikipedia.org/wiki/Kertanagara"
+        }
+      ]
+    },
+    {
+      "name": "Raden Wijaya (Kertarajasa)",
+      "role": "founder_majapahit",
+      "years": "1293–1309",
+      "year_start": 1293,
+      "year_end": 1309,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Raden Wijaya (Kertarajasa)",
+          "url": "https://en.wikipedia.org/wiki/Raden_Wijaya_(Kertarajasa)"
+        }
+      ]
+    },
+    {
+      "name": "Hayam Wuruk",
+      "role": "ruler",
+      "years": "1350–1389",
+      "year_start": 1350,
+      "year_end": 1389,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Hayam Wuruk",
+          "url": "https://en.wikipedia.org/wiki/Hayam_Wuruk"
+        }
+      ]
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "spice_trade",
+      "maritime_trade",
+      "manufacturing"
+    ],
+    "wealth_level": "very_high",
+    "major_exports": [
+      "spices",
+      "rice",
+      "cotton",
+      "teak",
+      "tin"
+    ],
+    "major_trade_partners": [
+      "song_empire",
+      "champa",
+      "annam"
+    ],
+    "revenue_sources": [
+      "port_duties",
+      "tribute_from_islands",
+      "agricultural_taxes"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q3586",
+        "url": "https://www.wikidata.org/wiki/Q3586"
+      },
+      {
+        "type": "wikipedia",
+        "label": "East Java",
+        "url": "https://en.wikipedia.org/wiki/East_Java"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q3586",
+    "matched_name": "East Java",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/East_Java",
+    "capital": {
+      "name": "Surabaya",
+      "coords": [
+        -7.24628,
+        112.73777
+      ]
+    },
+    "rulers_from_wikidata": [
+      {
+        "name": "Basofi Sudirman",
+        "qid": "Q12474900",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q12474900",
+            "url": "https://www.wikidata.org/wiki/Q12474900"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Basofi Sudirman",
+            "url": "https://en.wikipedia.org/wiki/Basofi_Sudirman"
+          }
+        ]
+      },
+      {
+        "name": "Mochamad Wijono",
+        "qid": "Q12498703",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q12498703",
+            "url": "https://www.wikidata.org/wiki/Q12498703"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mochamad Wijono",
+            "url": "https://en.wikipedia.org/wiki/Mochamad_Wijono"
+          }
+        ]
+      },
+      {
+        "name": "Soelarso",
+        "qid": "Q12515758",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q12515758",
+            "url": "https://www.wikidata.org/wiki/Q12515758"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Soelarso",
+            "url": "https://en.wikipedia.org/wiki/Soelarso"
+          }
+        ]
+      },
+      {
+        "name": "Ario Soerjo",
+        "qid": "Q12515782",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q12515782",
+            "url": "https://www.wikidata.org/wiki/Q12515782"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ario Soerjo",
+            "url": "https://en.wikipedia.org/wiki/Ario_Soerjo"
+          }
+        ]
+      },
+      {
+        "name": "Wahono",
+        "qid": "Q19944501",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q19944501",
+            "url": "https://www.wikidata.org/wiki/Q19944501"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Wahono",
+            "url": "https://en.wikipedia.org/wiki/Wahono"
+          }
+        ]
+      },
+      {
+        "name": "Samadikoen",
+        "qid": "Q137613497",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q137613497",
+            "url": "https://www.wikidata.org/wiki/Q137613497"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Samadikoen",
+            "url": "https://en.wikipedia.org/wiki/Samadikoen"
+          }
+        ]
+      },
+      {
+        "name": "Harry Kuneman",
+        "qid": "Q328556",
+        "year_start": 1933,
+        "year_end": 1936,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q328556",
+            "url": "https://www.wikidata.org/wiki/Q328556"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Harry Kuneman",
+            "url": "https://en.wikipedia.org/wiki/Harry_Kuneman"
+          }
+        ]
+      },
+      {
+        "name": "Charles van der Plas",
+        "qid": "Q5084062",
+        "year_start": 1936,
+        "year_end": 1941,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q5084062",
+            "url": "https://www.wikidata.org/wiki/Q5084062"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Charles van der Plas",
+            "url": "https://en.wikipedia.org/wiki/Charles_van_der_Plas"
+          }
+        ]
+      },
+      {
+        "name": "Herman Cornelis Hartevelt",
+        "qid": "Q120220223",
+        "year_start": 1941,
+        "year_end": 1942,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q120220223",
+            "url": "https://www.wikidata.org/wiki/Q120220223"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Herman Cornelis Hartevelt",
+            "url": "https://en.wikipedia.org/wiki/Herman_Cornelis_Hartevelt"
+          }
+        ]
+      },
+      {
+        "name": "R. Soewondo Ranoewidjojo",
+        "qid": "Q19747434",
+        "year_start": 1959,
+        "year_end": 1963,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q19747434",
+            "url": "https://www.wikidata.org/wiki/Q19747434"
+          },
+          {
+            "type": "wikipedia",
+            "label": "R. Soewondo Ranoewidjojo",
+            "url": "https://en.wikipedia.org/wiki/R._Soewondo_Ranoewidjojo"
+          }
+        ]
+      },
+      {
+        "name": "Mohammad Noer",
+        "qid": "Q1951860",
+        "year_start": 1967,
+        "year_end": 1976,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1951860",
+            "url": "https://www.wikidata.org/wiki/Q1951860"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mohammad Noer",
+            "url": "https://en.wikipedia.org/wiki/Muhammad_Noer"
+          }
+        ]
+      },
+      {
+        "name": "Soenandar Prijosoedarmo",
+        "qid": "Q12515763",
+        "year_start": 1976,
+        "year_end": 1983,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q12515763",
+            "url": "https://www.wikidata.org/wiki/Q12515763"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Soenandar Prijosoedarmo",
+            "url": "https://en.wikipedia.org/wiki/Soenandar_Prijosoedarmo"
+          }
+        ]
+      },
+      {
+        "name": "Imam Utomo",
+        "qid": "Q6003122",
+        "year_start": 1998,
+        "year_end": 2008,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q6003122",
+            "url": "https://www.wikidata.org/wiki/Q6003122"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Imam Utomo",
+            "url": "https://en.wikipedia.org/wiki/Imam_Utomo"
+          }
+        ]
+      },
+      {
+        "name": "Setia Purwaka",
+        "qid": "Q12513936",
+        "year_start": 2008,
+        "year_end": 2009,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q12513936",
+            "url": "https://www.wikidata.org/wiki/Q12513936"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Setia Purwaka",
+            "url": "https://en.wikipedia.org/wiki/Setia_Purwaka"
+          }
+        ]
+      },
+      {
+        "name": "H. Soekarwo",
+        "qid": "Q7553490",
+        "year_start": 2009,
+        "year_end": 2019,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q7553490",
+            "url": "https://www.wikidata.org/wiki/Q7553490"
+          },
+          {
+            "type": "wikipedia",
+            "label": "H. Soekarwo",
+            "url": "https://en.wikipedia.org/wiki/H._Soekarwo"
+          }
+        ]
+      },
+      {
+        "name": "Khofifah Indar Parawansa",
+        "qid": "Q12491600",
+        "year_start": 2019,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q12491600",
+            "url": "https://www.wikidata.org/wiki/Q12491600"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Khofifah Indar Parawansa",
+            "url": "https://en.wikipedia.org/wiki/Khofifah_Indar_Parawansa"
+          }
+        ]
+      },
+      {
+        "name": "Adhy Karyono",
+        "qid": "Q124610108",
+        "year_start": 2024,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q124610108",
+            "url": "https://www.wikidata.org/wiki/Q124610108"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Adhy Karyono",
+            "url": "https://en.wikipedia.org/wiki/Adhy_Karyono"
+          }
+        ]
+      }
+    ],
+    "population_from_wikidata": [
+      {
+        "estimate": 41144067,
+        "confidence": "low",
+        "year": 2022
+      },
+      {
+        "estimate": 41814500,
+        "confidence": "low",
+        "year": 2024
+      }
+    ]
+  },
+  "monogram": "ME"
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "milan_visconti_rise_1277",
+  "name": "Visconti Seizure of Milan",
+  "year": 1277,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    45.464,
+    9.19
+  ],
+  "entity": "commune_of_milan",
+  "summary": "Archbishop Ottone Visconti defeated the della Torre family at the Battle of Desio in 1277, establishing Visconti dominance over Milan. The Visconti transformed Milan from a commune into a Signoria, rule by a single lord. Over the following century, the Visconti expanded Milanese power across Lombardy and Piedmont, making it one of the most powerful states in Italy.",
+  "outcomes": [
+    "Ottone Visconti defeats della Torre family",
+    "Signoria government replaces commune",
+    "Milan becomes leading north Italian power",
+    "Visconti dynasty rules until 1447"
+  ],
+  "_quarry": {
+    "participants": [
+      "commune_of_milan"
+    ],
+    "structural_significance": "Exemplified the broader Italian transition from communal self-government to Signoria; Milan became a model for the Italian principate.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Cognasso, I Visconti",
+      "Martines, Power and Imagination"
+    ],
+    "confidence": "low"
+  }
+}

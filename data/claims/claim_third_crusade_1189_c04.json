@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_third_crusade_1189_c04",
+  "statement": "The Treaty of Jaffa of 1192 gave Christians access to Jerusalem without sovereignty, leaving the Kingdom of Jerusalem surviving on the coast.",
+  "subject_ids": [
+    "kingdom_of_england"
+  ],
+  "period": {
+    "from": 1189,
+    "to": 1189
+  },
+  "derived_from": "third_crusade_1189",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

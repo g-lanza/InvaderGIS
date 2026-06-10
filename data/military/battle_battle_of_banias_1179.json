@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_banias_1179",
+  "name": "Battle of Banias",
+  "subtype": "battle",
+  "start_year": 1179,
+  "end_year": 1179,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q124570895"
+    }
+  },
+  "description": "Battle during Crusader battles between 1149 and 1189 (1179)",
+  "coords": [
+    35.6933,
+    33.2472
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_orbiel_river_793_c01",
+  "statement": "Battle of Orbiel River (793 CE), at Malves-en-Minervois (part of Carolingian conquest of the Spanish March).",
+  "subject_ids": [
+    "merovingian_kingdom"
+  ],
+  "period": {
+    "from": 793,
+    "to": 793
+  },
+  "derived_from": "wd_battle_of_orbiel_river_793",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wood_the_1994",
+      "geary_before_1988"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

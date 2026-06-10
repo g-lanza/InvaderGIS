@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_caerphilly_castle_1270",
+  "name": "Battle of Caerphilly Castle",
+  "subtype": "battle",
+  "start_year": 1270,
+  "end_year": 1270,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q61412377"
+    }
+  },
+  "description": "Battle during Norman Invasion of Wales (1270)",
+  "coords": [
+    -3.2203,
+    51.5761
+  ]
+}

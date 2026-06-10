@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_hundred_years_war_1337_c02",
+  "statement": "The Hundred Years' War began with an English naval victory at Sluys in 1340 and land victories at Crécy in 1346 and Poitiers in 1356.",
+  "subject_ids": [
+    "kingdom_of_england"
+  ],
+  "period": {
+    "from": 1337,
+    "to": 1337
+  },
+  "derived_from": "hundred_years_war_1337",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "ims_fordham",
+      "ims_fordham_sbook1n"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

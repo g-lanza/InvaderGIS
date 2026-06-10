@@ -1,0 +1,208 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "cahokia",
+  "name_primary": "Cahokia",
+  "name_variants": [
+    "Cahokia Mounds",
+    "Mississippian Cahokia"
+  ],
+  "type": "chiefdom",
+  "region": "north_america",
+  "formed": 1050,
+  "dissolved": 1350,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    38.66,
+    -90.06
+  ],
+  "religion": "Mississippian / Southern Ceremonial Complex (sun-related cosmology)",
+  "population_estimates": [
+    {
+      "year": 1100,
+      "estimate": 15000,
+      "confidence": "moderate",
+      "note": "Peak resident population, among largest North American settlements."
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Cahokia, located near modern St. Louis at the confluence of the Mississippi, Missouri, and Illinois rivers, was the largest pre-Columbian urban centre north of Mexico, peaking c.1100 with an estimated 10,000–20,000 inhabitants. The site centred on Monks Mound, a 30-metre-tall earthen pyramid that was the largest structure in North America until the late 19th century. Cahokia's Mississippian culture spread maize agriculture, shell-tempered ceramic technology, and the Southern Ceremonial Complex across the eastern woodlands. By c.1200 the site was already in decline; by c.1350 it was abandoned. Causes are debated: deforestation, Mississippi flooding, drought, political collapse, or some combination. Cahokia is the first Americas entity in this dataset.",
+  "temporal": {
+    "start_year": 1050,
+    "end_year": 1350,
+    "end_year_within_scope": 1350,
+    "start_event_id": null,
+    "end_event_id": null,
+    "notes": ""
+  },
+  "geographic": {
+    "representation": "schematic_approximation",
+    "centroid": [
+      38.66,
+      -90.06
+    ],
+    "core_regions": [],
+    "polygon_simplified": [
+      [
+        40,
+        -91.5
+      ],
+      [
+        40,
+        -88.5
+      ],
+      [
+        39,
+        -88
+      ],
+      [
+        38,
+        -88.5
+      ],
+      [
+        37,
+        -89.5
+      ],
+      [
+        37,
+        -91
+      ],
+      [
+        38,
+        -92
+      ],
+      [
+        39,
+        -92
+      ],
+      [
+        40,
+        -91.5
+      ]
+    ],
+    "capital": {
+      "name": "Cahokia (Monks Mound complex)",
+      "coords": [
+        38.66,
+        -90.06
+      ],
+      "source": "curated"
+    }
+  },
+  "internal_structure": {
+    "centralization": "moderate",
+    "governance_type": "complex_chiefdom",
+    "legitimacy_basis": "ceremonial authority of paramount chief; mound-builder cosmology",
+    "administrative_system": "paramount chief over subordinate village mound centres"
+  },
+  "lifecycle_phases": [
+    {
+      "start_year": 950,
+      "end_year": 1050,
+      "description": "Local Late Woodland populations consolidate around the future site.",
+      "phase": "emergence"
+    },
+    {
+      "start_year": 1050,
+      "end_year": 1200,
+      "description": "Monks Mound, Grand Plaza, Woodhenge built; population peaks.",
+      "phase": "monumental_construction"
+    },
+    {
+      "start_year": 1200,
+      "end_year": 1350,
+      "description": "Stockades erected, population drops by 80%, finally abandoned.",
+      "phase": "decline_and_dispersal"
+    }
+  ],
+  "rise_factors": [
+    {
+      "layer": "economic_commercial",
+      "direction": "rise",
+      "tag": "maize_intensification",
+      "description": "Adoption of intensive maize agriculture supported dense populations along Mississippi bottomlands.",
+      "evidence_strength": "medium",
+      "sources": []
+    },
+    {
+      "layer": "ideology_religion",
+      "direction": "rise",
+      "tag": "dynastic_consolidation",
+      "description": "The Southern Ceremonial Complex centred ritual authority on Cahokia, attracting pilgrims and tribute.",
+      "evidence_strength": "medium",
+      "sources": [],
+      "tag_prose": "ceremonial_centralization"
+    },
+    {
+      "layer": "geography_territory",
+      "direction": "rise",
+      "tag": "river_nexus",
+      "description": "Confluence of Mississippi, Missouri, and Illinois put Cahokia at the trade nexus of three river systems.",
+      "evidence_strength": "medium",
+      "sources": []
+    }
+  ],
+  "decline_factors": [
+    {
+      "layer": "population_environment",
+      "direction": "decline",
+      "tag": "deforestation",
+      "description": "Clearance of bottomland forests for fuel and construction may have caused soil erosion and flooding.",
+      "evidence_strength": "medium",
+      "sources": []
+    },
+    {
+      "layer": "population_environment",
+      "direction": "decline",
+      "tag": "climate_shock",
+      "description": "Mid-13th-century drought (tree-ring-confirmed) likely reduced maize yields below sustainable levels.",
+      "evidence_strength": "medium",
+      "sources": [],
+      "tag_prose": "drought"
+    },
+    {
+      "layer": "governance_institutional",
+      "direction": "decline",
+      "tag": "internal_fragmentation",
+      "description": "Stockade defenses dating to c.1175 suggest growing internal violence; population dispersed.",
+      "evidence_strength": "medium",
+      "sources": [],
+      "tag_prose": "internal_conflict"
+    }
+  ],
+  "primary_ethnicity": "",
+  "religion_composition": [
+    {
+      "label": "Mississippian ceremonial complex",
+      "percentage": 100,
+      "confidence": "high"
+    }
+  ],
+  "primary_language": "",
+  "economic": {
+    "primary_base": "intensive maize agriculture",
+    "secondary_bases": [
+      "riverine fishing",
+      "long-distance exchange of marine shell, copper, mica"
+    ],
+    "wealth_level": "high",
+    "major_exports": [
+      "shell beads",
+      "ceremonial goods"
+    ],
+    "major_trade_partners": [],
+    "revenue_sources": [
+      "tribute"
+    ]
+  },
+  "social_structure": "",
+  "wikidata_enrichment": {
+    "qid": "Q333661"
+  },
+  "monogram": "CA"
+}

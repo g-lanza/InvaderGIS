@@ -1,0 +1,25 @@
+{
+ "kind": "text",
+ "id": "florentine_chronicle_villani",
+ "name_primary": "Florentine Chronicle [1277-1348]",
+ "author": "Giovanni Villani",
+ "language": "Italian",
+ "composed": {
+  "place": "Florence",
+  "year": 1330
+ },
+ "tradition": "chronicle",
+ "provenance": {
+  "sources_used": [
+   "ims_fordham",
+   "ims_fordham_sbook1j",
+   "ims_fordham_sbook1q"
+  ],
+  "confidence": "high",
+  "attestation": "listed and linked",
+  "status": "draft"
+ },
+ "dataset": "medieval-europe-500-1500",
+ "_fordham_index": "sbook1j",
+ "from_sourcebook": true
+}

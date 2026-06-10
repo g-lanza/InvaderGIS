@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_albanian_epirote_war_of_1367_1370_1367_c01",
+  "statement": "The Albanian-Epirote War lasted from 1367 to 1370 CE.",
+  "subject_ids": [
+    "despotate_of_epirus"
+  ],
+  "period": {
+    "from": 1367,
+    "to": 1367
+  },
+  "derived_from": "wd_albanian_epirote_war_of_1367_1370_1367",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

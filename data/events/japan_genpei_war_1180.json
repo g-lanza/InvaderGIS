@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "japan_genpei_war_1180",
+  "name": "Genpei War Ends Heian Aristocratic Rule",
+  "year": 1185,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    32.296,
+    130.628
+  ],
+  "entity": "imperial_japan_fujiwara",
+  "summary": "The Genpei War between the Taira and Minamoto clans ended with the Battle of Dan-no-ura (1185) where the child Emperor Antoku drowned with the Taira fleet. Minamoto Yoritomo established the Kamakura Shogunate, Japan's first military government, ending court aristocratic dominance.",
+  "outcomes": [
+    "heian_era_ended",
+    "kamakura_shogunate",
+    "samurai_rise"
+  ],
+  "_quarry": {
+    "participants": [
+      "imperial_japan_fujiwara"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

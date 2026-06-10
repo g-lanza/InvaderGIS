@@ -1,0 +1,50 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "geoffrey_chaucer",
+  "name": "Geoffrey Chaucer",
+  "polity": "kingdom_of_england",
+  "title": "administrator",
+  "reign_start": 1374,
+  "reign_end": 1400,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 1343,
+      "death_year": 1400
+    },
+    "entity_associations": [
+      {
+        "entity_id": "kingdom_of_england",
+        "role": "administrator",
+        "start_year": 1374,
+        "end_year": 1400
+      }
+    ],
+    "key_actions": [
+      {
+        "year": 1374,
+        "summary": "Appointed Comptroller of Customs at the Port of London by Edward III, securing a stable income through the next twelve years.",
+        "source_id": "bartlett_making_of_europe_1993"
+      },
+      {
+        "year": 1380,
+        "summary": "Begins composing Troilus and Criseyde (~8,000 lines), drawn primarily from Boccaccio's Il Filostrato.",
+        "source_id": "bartlett_making_of_europe_1993"
+      },
+      {
+        "year": 1387,
+        "summary": "Begins the Canterbury Tales, a frame-narrative cycle that remains unfinished at his death in October 1400.",
+        "source_id": "bartlett_making_of_europe_1993"
+      }
+    ],
+    "region": "british_isles",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "bartlett_making_of_europe_1993"
+    ],
+    "confidence": "low"
+  }
+}

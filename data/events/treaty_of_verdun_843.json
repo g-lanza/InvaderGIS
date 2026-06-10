@@ -1,0 +1,37 @@
+{
+ "kind": "event",
+ "dataset": "medieval-europe-500-1500",
+ "id": "treaty_of_verdun_843",
+ "name": "Treaty of Verdun",
+ "year": 843,
+ "type": "treaty_fragmentation",
+ "category": "diplomacy",
+ "coords": [
+  49.16,
+  5.38
+ ],
+ "entity": "carolingian_empire",
+ "summary": "After three years of civil war following Louis the Pious's death, his three surviving sons sign the Treaty of Verdun, dividing the Carolingian Empire permanently: Louis the German receives East Francia (Germany), Charles the Bald receives West Francia (France), and Lothair I receives the middle strip (Lorraine, Burgundy, Italy) plus the imperial title. The treaty is the founding document of France and Germany as distinct political entities and creates the 'Middle Francia' corridor that becomes the most contested territory in European history.",
+ "outcomes": [
+  "partitioned_francia"
+ ],
+ "_quarry": {
+  "participants": [
+   "carolingian_empire"
+  ],
+  "structural_significance": "Creates the fundamental political geography of medieval Europe; establishes France and Germany as separate states; ends the Carolingian imperial unity permanently",
+  "year_range": null
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "mckitterick_charlemagne_2008",
+   "riché_the_1993",
+   "nelson_king_2019",
+   "ims_fordham",
+   "ims_fordham_sbookmap"
+  ],
+  "confidence": "low",
+  "attestation": "inferred"
+ }
+}

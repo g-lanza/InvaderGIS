@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_scotland_843_c02",
+  "statement": "Gaelic language and culture gradually supplanted Pictish traditions in the kingdom of Alba.",
+  "subject_ids": [
+    "kingdom_of_scotland"
+  ],
+  "period": {
+    "from": 843,
+    "to": 843
+  },
+  "derived_from": "scotland_843",
+  "unresolved_sources": [
+    "brown_the_2004"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "barrell_medieval_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

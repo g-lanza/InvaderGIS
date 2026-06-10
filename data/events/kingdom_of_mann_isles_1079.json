@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_mann_isles_1079",
+  "name": "Godred Crovan Conquers Mann",
+  "year": 1079,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    54.2,
+    -4.5
+  ],
+  "entity": "kingdom_of_mann_isles",
+  "summary": "Godred Crovan conquered the Isle of Man in 1079, establishing the Norse Kingdom of Mann and the Isles that would rule the Scottish islands for two centuries. The kingdom represented the westernmost extension of Scandinavian political culture and served as a conduit for Norse-Gaelic cultural synthesis.",
+  "outcomes": [
+    "norse_dynasty",
+    "hebrides_unified",
+    "godred_dynasty"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_mann_isles"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

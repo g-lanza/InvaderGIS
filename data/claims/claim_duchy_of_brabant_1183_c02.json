@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_duchy_of_brabant_1183_c02",
+  "statement": "At the crossroads of trade routes connecting the Rhine to the sea, Brabant became one of the wealthiest territories in Europe, with cities like Brussels, Louvain, and Antwerp growing into major commercial centres.",
+  "subject_ids": [
+    "duchy_of_brabant"
+  ],
+  "period": {
+    "from": 1183,
+    "to": 1183
+  },
+  "derived_from": "duchy_of_brabant_1183",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_leon_1230_c02",
+  "statement": "The 1230 consolidation of León and Castile accelerated the Reconquista, leading to the conquest of Córdoba (1236) and Seville (1248).",
+  "subject_ids": [
+    "kingdom_of_leon"
+  ],
+  "period": {
+    "from": 1230,
+    "to": 1230
+  },
+  "derived_from": "leon_1230",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

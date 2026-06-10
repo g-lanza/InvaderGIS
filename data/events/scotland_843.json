@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "scotland_843",
+  "name": "Kenneth MacAlpin Unites Picts and Scots",
+  "year": 843,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    56.5,
+    -4
+  ],
+  "entity": "kingdom_of_scotland",
+  "summary": "Kenneth MacAlpin's unification of the Pictish and Scottish kingdoms around 843 CE established Alba, the precursor of Scotland. Gaelic language and culture gradually supplanted Pictish traditions, forming the foundation of the medieval Scottish state.",
+  "outcomes": [
+    "picts_absorbed",
+    "kingdom_of_alba_formed",
+    "gaelic_culture_dominant"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_scotland",
+      "kingdom_of_alba"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "barrell_medieval_2000",
+      "brown_the_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

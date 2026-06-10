@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "fort_chateau_gaillard",
+  "name": "Château Gaillard",
+  "subtype": "fort",
+  "start_year": 1196,
+  "end_year": 1204,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "Richard I's 'saucy castle' on the Seine; considered impregnable, taken by Philip II in 1204",
+  "coords": [
+    1.413,
+    49.241
+  ]
+}

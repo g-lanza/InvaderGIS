@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_cuman_second_bulgar",
+  "statement": "The Second Bulgarian Empire (founded 1185) was established with Cuman (Kipchak) military support. The Asen brothers — Peter and Asen — who led the uprising against Byzantine taxation initially lacked sufficient military force; they recruited Cuman cavalry from across the Danube. The Cumans' mounted archer tactics were decisive against Byzantine armies. Kaloyan 'the Roman-Slayer' (r. 1197–1207) similarly used Cuman allies at Adrianople (1205) to defeat and capture Latin Emperor Baldwin I. The Asen dynasty's maternal Cuman connections (Queen Maria was reportedly of Cuman origin) integrated the Cumans into Bulgarian court culture.",
+  "subject_ids": [
+    "cuman_kipchak_confederation",
+    "second_bulgarian_empire"
+  ],
+  "predicate": "alliance",
+  "derived_from": "rel_cuman_second_bulgar",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999",
+      "fine_the_1987"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1185,
+    "to": 1241
+  }
+}

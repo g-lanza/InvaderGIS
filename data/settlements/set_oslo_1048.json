@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_oslo_1048",
+  "name": "Oslo",
+  "importance": "city",
+  "start_year": 1048,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q585"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    10.7389,
+    59.9133
+  ]
+}

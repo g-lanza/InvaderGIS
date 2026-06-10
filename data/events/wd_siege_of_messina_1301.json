@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_messina_1301",
+  "name": "Siege of Messina",
+  "year": 1301,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.2,
+    14.15
+  ],
+  "entity": "kingdom_of_naples",
+  "summary": "Siege of Messina (1301 CE), at Messina (part of Angevin invasion of Sicily). Source: Wikidata Q134978563.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_naples",
+      "kingdom_of_sicily_norman"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

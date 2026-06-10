@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_coimbra_878_c01",
+  "statement": "Siege of Coimbra (878 CE), at Coimbra (part of Reconquista).",
+  "subject_ids": [
+    "kingdom_of_asturias"
+  ],
+  "period": {
+    "from": 878,
+    "to": 878
+  },
+  "derived_from": "wd_siege_of_coimbra_878",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

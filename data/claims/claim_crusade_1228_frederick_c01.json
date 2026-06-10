@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_crusade_1228_frederick_c01",
+  "statement": "The excommunicated Emperor Frederick II negotiated the Treaty of Jaffa in 1229, returning Jerusalem to Christian control for ten years without fighting.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1229,
+    "to": 1229
+  },
+  "derived_from": "crusade_1228_frederick",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

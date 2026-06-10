@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_fatimid_caliphate_629_1171",
+  "statement": "Fatimid Caliphate — campaigns and battles spanned 629–1171, from Arab–Byzantine Wars to Siege of Ayla.",
+  "subject_ids": [
+    "fatimid_caliphate"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_fatimid_caliphate_629_1171",
+  "period": {
+    "from": 629,
+    "to": 1171
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "brett_the_2001",
+      "daftary_the_1990",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

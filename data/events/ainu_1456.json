@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ainu_1456",
+  "name": "Ainu Uprising Under Koshamain",
+  "year": 1456,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    43.017,
+    142.11
+  ],
+  "entity": "ainu",
+  "summary": "The Ainu chieftain Koshamain led a major uprising against Japanese settlements in southern Hokkaido in 1456 CE, destroying all but two of the Japanese fortified posts. The rebellion demonstrated Ainu resistance to the encroachment of the Wajin (Japanese) settlers onto traditional Ainu territories in Ezogashima (Hokkaido).",
+  "outcomes": [
+    "japanese_forts_attacked",
+    "ainu_resistance",
+    "temporary_victory"
+  ],
+  "_quarry": {
+    "participants": [
+      "ainu"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

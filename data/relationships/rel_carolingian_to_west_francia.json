@@ -1,0 +1,38 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_carolingian_to_west_francia",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "carolingian_empire",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "west_francia",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 843,
+  "until": 843,
+  "note": "West Francia — Charles the Bald's share of the Carolingian Empire at Verdun (843) — was the core of the future French state. Charles the Bald maintained Carolingian institutional traditions but struggled against Viking raids (the siege of Paris, 885–886) and great nobles who used the crises to assert autonomy. The last West Frankish Carolingian, Louis V, died in 987; the nobles elected Hugh Capet (founder of the Capetian dynasty) rather than another Carolingian. The Capetian success in transforming West Francia into France — expanding royal demesne, building royal administration — took three centuries of patient work.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "West Francia is the political foundation of France; the Carolingian-Capetian transition (987) is accomplished without civil war, establishing Capetian continuity; the Capetian dynasty's extraordinary success — 14 generations of direct male heirs — provides the stability that enables French royal consolidation"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "mckitterick_charlemagne_2008",
+      "riché_the_1993",
+      "nelson_king_2019",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

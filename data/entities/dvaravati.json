@@ -1,0 +1,784 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "dvaravati",
+  "name_primary": "Dvaravati",
+  "name_variants": [],
+  "type": "kingdom",
+  "region": "southeast_asia",
+  "formed": 500,
+  "dissolved": 1100,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 600,
+      "label": "Dvaravati",
+      "polygon": [
+        [
+          13.47,
+          100.59
+        ],
+        [
+          13.49,
+          100.24
+        ],
+        [
+          13.26,
+          99.93
+        ],
+        [
+          12.08,
+          99.9
+        ],
+        [
+          9.9,
+          99.07
+        ],
+        [
+          9.24,
+          99.2
+        ],
+        [
+          9.23,
+          99.84
+        ],
+        [
+          8.71,
+          99.87
+        ],
+        [
+          8.53,
+          100.13
+        ],
+        [
+          7.89,
+          100.3
+        ],
+        [
+          7.64,
+          99.12
+        ],
+        [
+          8.02,
+          98.89
+        ],
+        [
+          8.33,
+          98.2
+        ],
+        [
+          10.1,
+          98.63
+        ],
+        [
+          10.2,
+          98.43
+        ],
+        [
+          10.56,
+          98.4
+        ],
+        [
+          11.65,
+          98.87
+        ],
+        [
+          11.7,
+          98.59
+        ],
+        [
+          12.74,
+          98.6
+        ],
+        [
+          13.66,
+          98.19
+        ],
+        [
+          15.32,
+          101.61
+        ],
+        [
+          14.67,
+          102.63
+        ],
+        [
+          13.93,
+          102.16
+        ],
+        [
+          13.47,
+          100.59
+        ]
+      ]
+    },
+    {
+      "year": 800,
+      "label": "Dvaravati",
+      "polygon": [
+        [
+          14.24,
+          97.98
+        ],
+        [
+          14.99,
+          99.78
+        ],
+        [
+          14.99,
+          100.58
+        ],
+        [
+          14.41,
+          101.27
+        ],
+        [
+          13.45,
+          100.91
+        ],
+        [
+          13.39,
+          100.04
+        ],
+        [
+          12.84,
+          99.98
+        ],
+        [
+          12.24,
+          98.65
+        ],
+        [
+          14.24,
+          97.98
+        ]
+      ]
+    },
+    {
+      "year": 1000,
+      "label": "Dvaravati",
+      "polygon": [
+        [
+          12.99,
+          100.02
+        ],
+        [
+          12.52,
+          99.83
+        ],
+        [
+          12.08,
+          99.9
+        ],
+        [
+          9.9,
+          99.07
+        ],
+        [
+          9.24,
+          99.2
+        ],
+        [
+          9.23,
+          99.84
+        ],
+        [
+          8.79,
+          99.88
+        ],
+        [
+          8.74,
+          98.8
+        ],
+        [
+          8.33,
+          98.2
+        ],
+        [
+          9.39,
+          98.4
+        ],
+        [
+          9.69,
+          98.81
+        ],
+        [
+          11.33,
+          99.22
+        ],
+        [
+          12.94,
+          99.17
+        ],
+        [
+          14.47,
+          98.69
+        ],
+        [
+          15.48,
+          101.36
+        ],
+        [
+          14.08,
+          100.89
+        ],
+        [
+          13.45,
+          100.91
+        ],
+        [
+          13.39,
+          100.04
+        ],
+        [
+          12.99,
+          100.02
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    13.82,
+    99.5533
+  ],
+  "population_estimates": [
+    {
+      "year": 700,
+      "estimate": 500000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1268307",
+          "url": "https://www.wikidata.org/wiki/Q1268307",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Dvaravati",
+          "url": "https://en.wikipedia.org/wiki/Dvaravati"
+        }
+      ]
+    },
+    {
+      "year": 800,
+      "estimate": 650000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1268307",
+          "url": "https://www.wikidata.org/wiki/Q1268307",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Dvaravati",
+          "url": "https://en.wikipedia.org/wiki/Dvaravati"
+        }
+      ]
+    },
+    {
+      "year": 900,
+      "estimate": 800000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1268307",
+          "url": "https://www.wikidata.org/wiki/Q1268307",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Dvaravati",
+          "url": "https://en.wikipedia.org/wiki/Dvaravati"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Mon Buddhist kingdom (6th–11th c.) in the Chao Phraya basin of Thailand; Dvaravati was the first Buddhist kingdom of mainland Southeast Asia, spreading Theravada Buddhism and Sanskrit learning across the region through a network of walled cities including Nakhon Pathom; the kingdom's artistic tradition, distinctive Mon-style dharmachakra (wheel of law) sculptures, influenced all subsequent mainland Southeast Asian Buddhist art.",
+  "temporal": {
+    "start_year": 500,
+    "end_year": 1100,
+    "notes": ""
+  },
+  "geographic": {
+    "centroid": [
+      13.82,
+      99.5533
+    ],
+    "polygon_simplified": [
+      [
+        14.24,
+        97.98
+      ],
+      [
+        14.99,
+        99.78
+      ],
+      [
+        14.99,
+        100.58
+      ],
+      [
+        14.41,
+        101.27
+      ],
+      [
+        13.45,
+        100.91
+      ],
+      [
+        13.39,
+        100.04
+      ],
+      [
+        12.84,
+        99.98
+      ],
+      [
+        12.24,
+        98.65
+      ],
+      [
+        14.24,
+        97.98
+      ]
+    ],
+    "capital": {
+      "name": "Nakhon Pathom",
+      "coords": [
+        13.82,
+        100.06
+      ],
+      "source": "curated"
+    },
+    "polygon_snapshots": [
+      {
+        "year": 600,
+        "label": "Dvaravati",
+        "polygon": [
+          [
+            13.47,
+            100.59
+          ],
+          [
+            13.49,
+            100.24
+          ],
+          [
+            13.26,
+            99.93
+          ],
+          [
+            12.08,
+            99.9
+          ],
+          [
+            9.9,
+            99.07
+          ],
+          [
+            9.24,
+            99.2
+          ],
+          [
+            9.23,
+            99.84
+          ],
+          [
+            8.71,
+            99.87
+          ],
+          [
+            8.53,
+            100.13
+          ],
+          [
+            7.89,
+            100.3
+          ],
+          [
+            7.64,
+            99.12
+          ],
+          [
+            8.02,
+            98.89
+          ],
+          [
+            8.33,
+            98.2
+          ],
+          [
+            10.1,
+            98.63
+          ],
+          [
+            10.2,
+            98.43
+          ],
+          [
+            10.56,
+            98.4
+          ],
+          [
+            11.65,
+            98.87
+          ],
+          [
+            11.7,
+            98.59
+          ],
+          [
+            12.74,
+            98.6
+          ],
+          [
+            13.66,
+            98.19
+          ],
+          [
+            15.32,
+            101.61
+          ],
+          [
+            14.67,
+            102.63
+          ],
+          [
+            13.93,
+            102.16
+          ],
+          [
+            13.47,
+            100.59
+          ]
+        ]
+      },
+      {
+        "year": 800,
+        "label": "Dvaravati",
+        "polygon": [
+          [
+            14.24,
+            97.98
+          ],
+          [
+            14.99,
+            99.78
+          ],
+          [
+            14.99,
+            100.58
+          ],
+          [
+            14.41,
+            101.27
+          ],
+          [
+            13.45,
+            100.91
+          ],
+          [
+            13.39,
+            100.04
+          ],
+          [
+            12.84,
+            99.98
+          ],
+          [
+            12.24,
+            98.65
+          ],
+          [
+            14.24,
+            97.98
+          ]
+        ]
+      },
+      {
+        "year": 1000,
+        "label": "Dvaravati",
+        "polygon": [
+          [
+            12.99,
+            100.02
+          ],
+          [
+            12.52,
+            99.83
+          ],
+          [
+            12.08,
+            99.9
+          ],
+          [
+            9.9,
+            99.07
+          ],
+          [
+            9.24,
+            99.2
+          ],
+          [
+            9.23,
+            99.84
+          ],
+          [
+            8.79,
+            99.88
+          ],
+          [
+            8.74,
+            98.8
+          ],
+          [
+            8.33,
+            98.2
+          ],
+          [
+            9.39,
+            98.4
+          ],
+          [
+            9.69,
+            98.81
+          ],
+          [
+            11.33,
+            99.22
+          ],
+          [
+            12.94,
+            99.17
+          ],
+          [
+            14.47,
+            98.69
+          ],
+          [
+            15.48,
+            101.36
+          ],
+          [
+            14.08,
+            100.89
+          ],
+          [
+            13.45,
+            100.91
+          ],
+          [
+            13.39,
+            100.04
+          ],
+          [
+            12.99,
+            100.02
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "real_historical_boundary",
+    "polygon_source": "aourednik/historical-basemaps",
+    "polygon_source_date": "2026-05-09"
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "formation",
+      "years": "550-700",
+      "description": "Mon-speaking Buddhist kingdom emerged in the Chao Phraya basin; capital at Nakhon Pathom.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1268307",
+          "url": "https://www.wikidata.org/wiki/Q1268307"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Dvaravati",
+          "url": "https://en.wikipedia.org/wiki/Dvaravati"
+        }
+      ]
+    },
+    {
+      "phase": "peak",
+      "years": "700-900",
+      "description": "Dvaravati reached greatest extent; major centre of Theravada Buddhism spreading throughout mainland SE Asia.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1268307",
+          "url": "https://www.wikidata.org/wiki/Q1268307"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Dvaravati",
+          "url": "https://en.wikipedia.org/wiki/Dvaravati"
+        }
+      ]
+    },
+    {
+      "phase": "khmer_absorption",
+      "years": "900-1100",
+      "description": "Gradually absorbed by expanding Khmer Empire; Mon culture persisted but political independence ended.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1268307",
+          "url": "https://www.wikidata.org/wiki/Q1268307"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Dvaravati",
+          "url": "https://en.wikipedia.org/wiki/Dvaravati"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "buddhist_networks",
+      "layer": "ideology_religion",
+      "description": "Theravada Buddhism linked Dvaravati to Sri Lanka and created a literate administrative class.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1268307",
+          "url": "https://www.wikidata.org/wiki/Q1268307"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Dvaravati",
+          "url": "https://en.wikipedia.org/wiki/Dvaravati"
+        }
+      ]
+    },
+    {
+      "tag": "resource_concentration",
+      "layer": "economic_commercial",
+      "description": "Fertile Chao Phraya delta supported large agricultural populations.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1268307",
+          "url": "https://www.wikidata.org/wiki/Q1268307"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Dvaravati",
+          "url": "https://en.wikipedia.org/wiki/Dvaravati"
+        }
+      ],
+      "tag_prose": "rice_agriculture"
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "khmer_expansion",
+      "layer": "military_security",
+      "description": "Khmer Empire's westward expansion under Yasovarman I absorbed Dvaravati territories.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1268307",
+          "url": "https://www.wikidata.org/wiki/Q1268307"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Dvaravati",
+          "url": "https://en.wikipedia.org/wiki/Dvaravati"
+        }
+      ]
+    },
+    {
+      "tag": "internal_fragmentation",
+      "layer": "governance_institutional",
+      "description": "Dvaravati was a loose confederation that lacked the centralised institutions to resist Khmer pressure.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1268307",
+          "url": "https://www.wikidata.org/wiki/Q1268307"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Dvaravati",
+          "url": "https://en.wikipedia.org/wiki/Dvaravati"
+        }
+      ],
+      "tag_prose": "political_fragmentation"
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Phraya Khaek (legendary)",
+      "role": "founder",
+      "years": "600–650",
+      "year_start": 600,
+      "year_end": 650,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Phraya Khaek (legendary)",
+          "url": "https://en.wikipedia.org/wiki/Phraya_Khaek_(legendary)"
+        }
+      ]
+    }
+  ],
+  "successor_entity_ids": [
+    "khmer_empire"
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "long_distance_trade",
+      "buddhist_pilgrimage"
+    ],
+    "wealth_level": "moderate",
+    "major_exports": [
+      "rice",
+      "cotton",
+      "elephants",
+      "forest_products"
+    ],
+    "major_trade_partners": [
+      "india_general",
+      "srivijaya_empire",
+      "khmer_empire"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "trade_duties",
+      "temple_donations"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q1268307",
+        "url": "https://www.wikidata.org/wiki/Q1268307"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Dvaravati",
+        "url": "https://en.wikipedia.org/wiki/Dvaravati"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q1268307",
+    "matched_name": "manual/dvaravati",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Dvaravati"
+  },
+  "monogram": "DV"
+}

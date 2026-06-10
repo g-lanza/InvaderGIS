@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_roncevaux_778",
+  "name": "Battle of Roncevaux Pass",
+  "year": 778,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    43,
+    -1.32
+  ],
+  "entity": "carolingian_empire",
+  "summary": "Charlemagne's army, withdrawing from its inconclusive Spanish campaign, is ambushed in the Pyrenean mountain pass of Roncesvalles by Basque warriors. The Frankish rearguard, including the seneschal Eggihard, the count of the palace Anselm, and Roland, Prefect of the Breton March, is annihilated. Though a minor tactical reverse, the event is transformed over centuries into the epic Chanson de Roland (c. 1100), in which Saracens replace Basques as the enemy and Roland becomes the archetypal Christian knight dying heroically rather than sounding his horn for help.",
+  "outcomes": [
+    "frankish_rearguard_destroyed",
+    "roland_killed",
+    "chanson_de_roland_inspired"
+  ],
+  "_quarry": {
+    "participants": [
+      "carolingian_empire",
+      "kingdom_of_navarre"
+    ],
+    "structural_significance": "A minor military setback elevated by epic poetry into a foundational text of French national identity; the Chanson de Roland is among the earliest and most influential works of Old French literature; the idealized Roland shapes medieval ideals of chivalry, loyalty, and Christian martyrdom in battle; the song is reportedly sung at the Battle of Hastings (1066) to inspire Norman troops",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "mckitterick_charlemagne_2008",
+      "riché_the_1993",
+      "nelson_king_2019"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

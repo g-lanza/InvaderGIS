@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_gu_nes_1352",
+  "name": "Siege of Guînes",
+  "year": 1352,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    49.5,
+    0.75
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Siege of Guînes (1352 CE), at Guînes (part of Hundred Years' War). Source: Wikidata Q105085851.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "kingdom_of_england"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

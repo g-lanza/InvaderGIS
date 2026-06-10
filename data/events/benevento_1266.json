@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "benevento_1266",
+  "name": "Battle of Benevento",
+  "year": 1266,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    41.13,
+    14.78
+  ],
+  "entity": "kingdom_of_sicily_hohenstaufen",
+  "summary": "At the Battle of Benevento (February 26, 1266), Charles of Anjou, supported by Pope Clement IV and French royal backing, defeats and kills Manfred, the illegitimate Hohenstaufen king of Sicily. Manfred's cavalry initially breaks the Angevin center, but his German cavalry pursues too far; the Angevin infantry holds and the Provençal cavalry outflanks the Sicilians. Manfred is killed in the rout; his body is buried under a cairn of stones by the roadside since he died excommunicate. Charles of Anjou becomes King of Sicily and southern Italy, establishing Angevin dominance of the western Mediterranean.",
+  "outcomes": [
+    "staufen_heir_defeated"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_sicily_hohenstaufen",
+      "kingdom_of_naples"
+    ],
+    "structural_significance": "Destroys the last Hohenstaufen power in Italy; establishes the Angevin Kingdom of Sicily; begins the Angevin-Aragonese conflict over Sicily; creates the conditions for the Sicilian Vespers (1282) and the permanent division of the kingdom",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

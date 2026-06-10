@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "black_death_florence_1348",
+  "name": "Black Death in Florence and Italy",
+  "year": 1348,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    43.769,
+    11.256
+  ],
+  "entity": "republic_of_florence",
+  "summary": "The Black Death reached Italian ports from the Crimea in late 1347 and spread through the peninsula with devastating speed. Florence lost roughly 50,000–60,000 of its pre-plague population of perhaps 100,000 in 1348. Giovanni Boccaccio, an eyewitness, opened the Decameron with a vivid account of the city's collapse. The catastrophe fundamentally altered the Italian economy, art, and collective psychology.",
+  "outcomes": [
+    "Florence loses roughly half its population",
+    "Boccaccio witnesses and records the disaster",
+    "Labor shortages empower surviving peasants and artisans",
+    "Flagellant movements sweep through cities"
+  ],
+  "_quarry": {
+    "participants": [
+      "republic_of_florence",
+      "republic_of_venice",
+      "duchy_of_milan"
+    ],
+    "structural_significance": "Italy's unique position as a densely urbanized, trade-connected region made it one of the worst-affected areas; the social and economic disruption accelerated the shifts that produced the Renaissance.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Cohn, The Black Death Transformed",
+      "Herlihy, The Black Death and the Transformation of the West"
+    ],
+    "confidence": "low"
+  }
+}

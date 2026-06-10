@@ -1,0 +1,622 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "chalukya_empire",
+  "name_primary": "Chalukya Dynasty",
+  "name_variants": [
+    "Chalukya Empire"
+  ],
+  "type": "empire",
+  "region": "south_asia",
+  "formed": 543,
+  "dissolved": 753,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 600,
+      "label": "Chalukya Dynasty (approx.)",
+      "polygon": [
+        [
+          13,
+          74
+        ],
+        [
+          13,
+          78
+        ],
+        [
+          15,
+          80
+        ],
+        [
+          18,
+          81
+        ],
+        [
+          20,
+          80
+        ],
+        [
+          21,
+          77
+        ],
+        [
+          21,
+          74
+        ],
+        [
+          19,
+          73
+        ],
+        [
+          16,
+          73
+        ],
+        [
+          14,
+          74
+        ],
+        [
+          13,
+          74
+        ]
+      ]
+    },
+    {
+      "year": 700,
+      "label": "Chalukya Dynasty, peak (approx.)",
+      "polygon": [
+        [
+          13,
+          74
+        ],
+        [
+          13,
+          78
+        ],
+        [
+          15,
+          80
+        ],
+        [
+          18,
+          81
+        ],
+        [
+          20,
+          80
+        ],
+        [
+          21,
+          77
+        ],
+        [
+          21,
+          74
+        ],
+        [
+          19,
+          73
+        ],
+        [
+          16,
+          73
+        ],
+        [
+          14,
+          74
+        ],
+        [
+          13,
+          74
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    17.1026,
+    76.6827
+  ],
+  "population_estimates": [
+    {
+      "year": 630,
+      "estimate": 5000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1395011",
+          "url": "https://www.wikidata.org/wiki/Q1395011",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chalukya Empire",
+          "url": "https://en.wikipedia.org/wiki/Chalukya_dynasty"
+        }
+      ]
+    },
+    {
+      "year": 865,
+      "estimate": 6500000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1395011",
+          "url": "https://www.wikidata.org/wiki/Q1395011",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chalukya Empire",
+          "url": "https://en.wikipedia.org/wiki/Chalukya_dynasty"
+        }
+      ]
+    },
+    {
+      "year": 1100,
+      "estimate": 8000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1395011",
+          "url": "https://www.wikidata.org/wiki/Q1395011",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chalukya Empire",
+          "url": "https://en.wikipedia.org/wiki/Chalukya_dynasty"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Deccan-based dynasty (543–753 CE, Western Chalukyas) that dominated the Indian peninsula from the Narmada to the Kaveri; the Badami Chalukyas checked northward Harsha expansion and southward Pallava pressure, pioneering the Vesara architectural style in cave temples and structural monuments at Aihole, Badami, and Pattadakal that influenced all subsequent Deccan temple architecture.",
+  "temporal": {
+    "start_year": 543,
+    "end_year": 753,
+    "notes": ""
+  },
+  "geographic": {
+    "centroid": [
+      17.1026,
+      76.6827
+    ],
+    "polygon_simplified": [
+      [
+        13,
+        74
+      ],
+      [
+        13,
+        78
+      ],
+      [
+        15,
+        80
+      ],
+      [
+        18,
+        81
+      ],
+      [
+        20,
+        80
+      ],
+      [
+        21,
+        77
+      ],
+      [
+        21,
+        74
+      ],
+      [
+        19,
+        73
+      ],
+      [
+        16,
+        73
+      ],
+      [
+        14,
+        74
+      ],
+      [
+        13,
+        74
+      ]
+    ],
+    "capital": {
+      "name": "Manyakheta",
+      "coords": [
+        17.195,
+        77.16083
+      ],
+      "source": "wikidata"
+    },
+    "polygon_snapshots": [
+      {
+        "year": 600,
+        "label": "Chalukya Dynasty (approx.)",
+        "polygon": [
+          [
+            13,
+            74
+          ],
+          [
+            13,
+            78
+          ],
+          [
+            15,
+            80
+          ],
+          [
+            18,
+            81
+          ],
+          [
+            20,
+            80
+          ],
+          [
+            21,
+            77
+          ],
+          [
+            21,
+            74
+          ],
+          [
+            19,
+            73
+          ],
+          [
+            16,
+            73
+          ],
+          [
+            14,
+            74
+          ],
+          [
+            13,
+            74
+          ]
+        ]
+      },
+      {
+        "year": 700,
+        "label": "Chalukya Dynasty, peak (approx.)",
+        "polygon": [
+          [
+            13,
+            74
+          ],
+          [
+            13,
+            78
+          ],
+          [
+            15,
+            80
+          ],
+          [
+            18,
+            81
+          ],
+          [
+            20,
+            80
+          ],
+          [
+            21,
+            77
+          ],
+          [
+            21,
+            74
+          ],
+          [
+            19,
+            73
+          ],
+          [
+            16,
+            73
+          ],
+          [
+            14,
+            74
+          ],
+          [
+            13,
+            74
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "approximate",
+    "polygon_source": "hand_crafted",
+    "polygon_source_date": "2026-05-11"
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "early_chalukyas",
+      "years": "543-642",
+      "description": "Chalukya kingdom emerged in the Deccan under Pulakesi I; expanded to dominate the central peninsula.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1395011",
+          "url": "https://www.wikidata.org/wiki/Q1395011"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chalukya Empire",
+          "url": "https://en.wikipedia.org/wiki/Chalukya_dynasty"
+        }
+      ]
+    },
+    {
+      "phase": "peak_pulakesi",
+      "years": "609-642",
+      "description": "Pulakesi II repelled Harsha's invasion from the north and established Chalukya supremacy; defeated by Pallavas in 642.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1395011",
+          "url": "https://www.wikidata.org/wiki/Q1395011"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chalukya Empire",
+          "url": "https://en.wikipedia.org/wiki/Chalukya_dynasty"
+        }
+      ]
+    },
+    {
+      "phase": "recovery_and_fragmentation",
+      "years": "655-753",
+      "description": "Dynasty recovered under Vikramaditya I but never regained full power; overthrown by the Rashtrakutas in 753.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1395011",
+          "url": "https://www.wikidata.org/wiki/Q1395011"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chalukya Empire",
+          "url": "https://en.wikipedia.org/wiki/Chalukya_dynasty"
+        }
+      ]
+    },
+    {
+      "phase": "western_chalukyas",
+      "years": "973-1189",
+      "description": "Western Chalukya branch (Chalukyas of Kalyani) restored Deccan power after Rashtrakuta decline.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1395011",
+          "url": "https://www.wikidata.org/wiki/Q1395011"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chalukya Empire",
+          "url": "https://en.wikipedia.org/wiki/Chalukya_dynasty"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "military_organizational_advantage",
+      "layer": "military_security",
+      "description": "Chalukya war elephants and integrated cavalry-infantry formations made them formidable against northern armies.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1395011",
+          "url": "https://www.wikidata.org/wiki/Q1395011"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chalukya Empire",
+          "url": "https://en.wikipedia.org/wiki/Chalukya_dynasty"
+        }
+      ]
+    },
+    {
+      "tag": "deccan_geography",
+      "layer": "geography_territory",
+      "description": "The Deccan plateau provided a defensible base from which to project power north and south.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1395011",
+          "url": "https://www.wikidata.org/wiki/Q1395011"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chalukya Empire",
+          "url": "https://en.wikipedia.org/wiki/Chalukya_dynasty"
+        }
+      ]
+    },
+    {
+      "tag": "religious_legitimacy",
+      "layer": "ideology_religion",
+      "description": "Patronage of Hindu and Jain temples built religious legitimacy and artisan networks.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1395011",
+          "url": "https://www.wikidata.org/wiki/Q1395011"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chalukya Empire",
+          "url": "https://en.wikipedia.org/wiki/Chalukya_dynasty"
+        }
+      ],
+      "tag_prose": "religious_patronage"
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "pallava_wars",
+      "layer": "military_security",
+      "description": "Repeated costly wars with Pallava dynasty drained military resources.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1395011",
+          "url": "https://www.wikidata.org/wiki/Q1395011"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chalukya Empire",
+          "url": "https://en.wikipedia.org/wiki/Chalukya_dynasty"
+        }
+      ]
+    },
+    {
+      "tag": "rashtrakuta_overthrow",
+      "layer": "military_security",
+      "description": "Internal revolt by Dantidurga established the Rashtrakuta dynasty in place of the Chalukyas (753).",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1395011",
+          "url": "https://www.wikidata.org/wiki/Q1395011"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chalukya Empire",
+          "url": "https://en.wikipedia.org/wiki/Chalukya_dynasty"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Pulakesi I",
+      "role": "ruler",
+      "years": "543–566",
+      "year_start": 543,
+      "year_end": 566,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Pulakesi I",
+          "url": "https://en.wikipedia.org/wiki/Pulakeshin_I"
+        }
+      ]
+    },
+    {
+      "name": "Pulakesi II",
+      "role": "ruler",
+      "years": "609–642",
+      "year_start": 609,
+      "year_end": 642,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Pulakesi II",
+          "url": "https://en.wikipedia.org/wiki/Pulakeshin_II"
+        }
+      ]
+    },
+    {
+      "name": "Vikramaditya II",
+      "role": "ruler",
+      "years": "733–746",
+      "year_start": 733,
+      "year_end": 746,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Vikramaditya II",
+          "url": "https://en.wikipedia.org/wiki/Vikramaditya_II"
+        }
+      ]
+    },
+    {
+      "name": "Vikramaditya VI",
+      "role": "ruler",
+      "years": "1076–1126",
+      "year_start": 1076,
+      "year_end": 1126,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Vikramaditya VI",
+          "url": "https://en.wikipedia.org/wiki/Vikramaditya_VI"
+        }
+      ]
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "long_distance_trade",
+      "cotton_textile",
+      "temple_economy"
+    ],
+    "wealth_level": "high",
+    "major_exports": [
+      "cotton",
+      "spices",
+      "gold",
+      "diamonds"
+    ],
+    "major_trade_partners": [
+      "chola_state",
+      "pallava",
+      "rashtrakuta"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "tribute_from_vassals",
+      "trade_duties"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q1395011",
+        "url": "https://www.wikidata.org/wiki/Q1395011"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Chalukya Empire",
+        "url": "https://en.wikipedia.org/wiki/Chalukya_dynasty"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q1395011",
+    "matched_name": "manual/chalukya_empire",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Chalukya_dynasty",
+    "capital": {
+      "name": "Manyakheta",
+      "coords": [
+        17.195,
+        77.16083
+      ]
+    }
+  },
+  "monogram": "CD"
+}

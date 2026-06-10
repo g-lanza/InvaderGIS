@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_kingdom_of_deheubarth_1067_1136",
+  "statement": "Kingdom of Deheubarth — campaigns and battles spanned 1067–1136, from Norman invasion of Wales to Deheubarth Resists Norman Conquest.",
+  "subject_ids": [
+    "kingdom_of_deheubarth"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_kingdom_of_deheubarth_1067_1136",
+  "period": {
+    "from": 1067,
+    "to": 1136
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

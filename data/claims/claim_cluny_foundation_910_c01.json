@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_cluny_foundation_910_c01",
+  "statement": "Duke William I of Aquitaine founded the Abbey of Cluny in Burgundy in 910, placing it directly under papal authority and exempting it from local bishops and lords.",
+  "subject_ids": [
+    "kingdom_of_burgundy"
+  ],
+  "period": {
+    "from": 910,
+    "to": 910
+  },
+  "derived_from": "cluny_foundation_910",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

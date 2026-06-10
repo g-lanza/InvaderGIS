@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_talas_751",
+  "name": "Battle of Talas",
+  "year": 751,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    42.5,
+    72.2
+  ],
+  "entity": "abbasid_caliphate",
+  "summary": "Arab Abbasid forces under Ziyad ibn Salih defeat the Chinese Tang Dynasty army under Gao Xianzhi in a battle on the Talas River (modern Kyrgyzstan/Kazakhstan) in July 751. It is the only major military clash between the Arab Islamic world and Tang China. Among the Chinese prisoners captured are paper-makers; within decades, paper manufacturing spreads to Samarkand, Baghdad, and eventually to Europe, replacing papyrus and parchment in much of the Islamic world. The battle also effectively fixes the western limit of Chinese imperial power in Central Asia.",
+  "outcomes": [
+    "arab_tang_chinese_clash",
+    "paper_making_spreads_west",
+    "islamic_central_asia_consolidated"
+  ],
+  "_quarry": {
+    "participants": [
+      "abbasid_caliphate",
+      "umayyad_caliphate"
+    ],
+    "structural_significance": "Though militarily unremarkable, the battle has enormous civilizational consequence: paper technology captured from Chinese prisoners transforms Islamic (and eventually European) information culture; the Islamic world's paper literacy drives the translation movement and library culture of the Islamic Golden Age; the limit of Chinese westward expansion confirmed at Talas shapes Silk Road politics for centuries",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_the_2004",
+      "kennedy_when_2004",
+      "crone_gods_2004",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

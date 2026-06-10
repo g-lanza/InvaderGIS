@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "buwayhid_emirates",
+  "name": "Baghdad",
+  "entity_id": "buwayhid_emirates",
+  "entity_name": "Buwayhid Emirates",
+  "start_year": 1000,
+  "end_year": 1200,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q273874"
+    }
+  },
+  "coords": [
+    44.36611,
+    33.31528
+  ]
+}

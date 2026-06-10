@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "annam",
+  "name": "Cổ Loa",
+  "entity_id": "annam",
+  "entity_name": "Annam",
+  "start_year": 939,
+  "end_year": 1407,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1155895"
+    }
+  },
+  "coords": [
+    105.88,
+    21.13
+  ]
+}

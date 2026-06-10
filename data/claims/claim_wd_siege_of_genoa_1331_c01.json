@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_genoa_1331_c01",
+  "statement": "Siege of Genoa (1331 CE), at Genoa (part of Catalan–Genoese War).",
+  "subject_ids": [
+    "republic_of_genoa"
+  ],
+  "period": {
+    "from": 1331,
+    "to": 1331
+  },
+  "derived_from": "wd_siege_of_genoa_1331",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

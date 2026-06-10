@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "venetian_jewish_ghetto_1516",
+  "name": "Venice Creates First Jewish Ghetto",
+  "year": 1516,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    45.44,
+    12.33
+  ],
+  "entity": "republic_of_venice",
+  "summary": "The Venetian Senate orders Jews to live on the Ghetto Nuovo (a former foundry island), the first use of 'ghetto' as a concept. Jews are locked in at night, must wear distinctive badges, and cannot own property outside the ghetto. However, they may practice their faith, maintain synagogues, and engage in commerce (particularly moneylending and trading in second-hand goods). The Venetian model spreads to other Italian and European cities.",
+  "outcomes": [
+    "ghetto_established",
+    "jewish_population_segregated",
+    "ghetto_model_spreads"
+  ],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice"
+    ],
+    "structural_significance": "The Venetian ghetto represents a compromise between the desire to use Jewish commercial services and the social pressure for separation; the ghetto is simultaneously a space of oppression and relative safety, within its walls, Jewish community institutions flourish; the word 'ghetto' enters European languages from this origin; the model demonstrates how economic utility can modify but not eliminate religious discrimination",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

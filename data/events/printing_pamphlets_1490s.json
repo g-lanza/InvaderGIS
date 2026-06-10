@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "printing_pamphlets_1490s",
+  "name": "Print Culture and Political Pamphlets, Information Age Begins",
+  "year": 1494,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    50,
+    8.27
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "By the 1490s, printing presses in Mainz, Venice, Cologne, Paris, and London are producing thousands of political pamphlets, satires, and theological tracts. Sebastian Brant's Ship of Fools (1494) sells tens of thousands of copies; Erasmus's In Praise of Folly (1511) is reprinted 36 times in his lifetime. The print infrastructure that makes Luther's Reformation possible is created in this decade.",
+  "outcomes": [
+    "printing_enables_rapid_dissemination",
+    "political_pamphlets_multiply",
+    "public_opinion_created"
+  ],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "kingdom_of_france"
+    ],
+    "structural_significance": "The 1490s represent the inflection point where print moves from an elite medium to a mass medium; the speed of information distribution (Luther's 95 Theses reach every corner of Germany within weeks in 1517) is qualitatively different from manuscript distribution; print creates 'public opinion' as a political force, a constituency that rulers must manage rather than ignore; this fundamental change in information technology is the ultimate cause of the Reformation's success where earlier reform movements (Waldensians, Hussites) had failed",
+    "year_range": [
+      1490,
+      1517
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

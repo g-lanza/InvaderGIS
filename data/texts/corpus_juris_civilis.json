@@ -1,0 +1,25 @@
+{
+  "kind": "text",
+  "dataset": "medieval-europe-500-1500",
+  "id": "corpus_juris_civilis",
+  "name_primary": "Corpus Juris Civilis",
+  "author": "Tribonian (compiler) under Justinian I",
+  "language": "Latin",
+  "composed": {
+    "year": 534
+  },
+  "_quarry": {
+    "kind": "legal",
+    "polities_referenced": [
+      "byzantine_empire"
+    ],
+    "description": "The Justinianic codification of Roman law in four parts — the Code, the Digest, the Institutes, and the Novels — promulgated in stages between 529 and 534. Forgotten in the Latin West for centuries, the Digest was rediscovered at Bologna around 1070 and became the foundation of the scholastic study of Roman law that shaped European legal traditions through the early modern period."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "stein_roman_law_in_european_history_1999"
+    ],
+    "confidence": "low"
+  }
+}

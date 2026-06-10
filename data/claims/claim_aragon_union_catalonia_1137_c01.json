@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_aragon_union_catalonia_1137_c01",
+  "statement": "The marriage of Ramon Berenguer IV of Barcelona to Petronilla of Aragon in 1137 created the Crown of Aragon, uniting the kingdom of Aragon with the County of Barcelona.",
+  "subject_ids": [
+    "crown_of_aragon"
+  ],
+  "period": {
+    "from": 1137,
+    "to": 1137
+  },
+  "derived_from": "aragon_union_catalonia_1137",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

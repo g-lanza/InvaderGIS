@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_barcelona_512",
+  "name": "Battle of Barcelona",
+  "year": 512,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41.9,
+    12.5
+  ],
+  "entity": "ostrogothic_kingdom",
+  "summary": "Battle of Barcelona (512 CE), at Barcelona (part of list of Visigothic Kings). Source: Wikidata Q20640741.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "ostrogothic_kingdom"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "amory_people_1997",
+      "heather_the_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

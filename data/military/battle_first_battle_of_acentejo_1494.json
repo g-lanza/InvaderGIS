@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_first_battle_of_acentejo_1494",
+  "name": "First Battle of Acentejo",
+  "subtype": "battle",
+  "start_year": 1494,
+  "end_year": 1494,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q5452496"
+    }
+  },
+  "description": "Battle during Conquest of Tenerife (1494)",
+  "coords": [
+    -16.4617,
+    28.4389
+  ]
+}

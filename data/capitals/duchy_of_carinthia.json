@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_carinthia",
+  "name": "Klagenfurt am Wörthersee",
+  "entity_id": "duchy_of_carinthia",
+  "entity_name": "Duchy of Carinthia",
+  "start_year": 976,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q702224"
+    }
+  },
+  "coords": [
+    14.3,
+    46.61667
+  ]
+}

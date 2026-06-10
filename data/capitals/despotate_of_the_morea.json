@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "despotate_of_the_morea",
+  "name": "Mystras",
+  "entity_id": "despotate_of_the_morea",
+  "entity_name": "Despotate of the Morea",
+  "start_year": 1349,
+  "end_year": 1460,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q604593"
+    }
+  },
+  "coords": [
+    22.3673,
+    37.074
+  ]
+}

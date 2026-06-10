@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_venice_cyprus_takeover",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_cyprus",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "republic_of_venice",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 1489,
+  "until": 1489,
+  "note": "Venice acquired Cyprus (1489) when Queen Catherine Cornaro — a Venetian noblewoman who had married the last Lusignan king James II — abdicated under Venetian pressure after her husband and infant son died. Venice's acquisition of Cyprus gave it the most strategically located island in the eastern Mediterranean, directly on the sea routes from Alexandria to Venice. Cyprus served as Venice's main eastern naval base and commercial entrepôt for over 80 years until Selim II's Ottoman invasion (1570–1571) — the campaign that preceded the Battle of Lepanto.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Venice's acquisition of Cyprus through Catherine Cornaro's engineered abdication demonstrates Venetian commercial imperialism at its most sophisticated; Cyprus as an eastern Mediterranean base extends Venetian commercial reach; the Ottoman conquest of Cyprus (1571) triggers the Holy League and the Battle of Lepanto — the last great Mediterranean galley battle"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_st_clears_1403",
+  "name": "Battle of St Clears",
+  "subtype": "battle",
+  "start_year": 1403,
+  "end_year": 1403,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q61410261"
+    }
+  },
+  "description": "Battle during Glyndŵr rebellion (1403)",
+  "coords": [
+    -4.5042,
+    51.8204
+  ]
+}

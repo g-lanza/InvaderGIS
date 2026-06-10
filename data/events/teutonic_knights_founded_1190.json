@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "teutonic_knights_founded_1190",
+  "name": "Founding of the Teutonic Knights",
+  "year": 1190,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    32.9,
+    35.1
+  ],
+  "entity": "teutonic_order_state",
+  "summary": "German crusaders from Lübeck and Bremen found a field hospital at the Siege of Acre that becomes the Teutonic Order in 1198. Invited to defend Hungary's southeastern frontier, then redirected to the Baltic in 1226, the Teutonic Knights conquer and Christianize Prussia and Latvia, creating a military state that rules until 1525 and shapes the ethnic landscape of northeastern Europe.",
+  "outcomes": [
+    "military_order_founded",
+    "prussian_crusade",
+    "baltic_colonization"
+  ],
+  "_quarry": {
+    "participants": [
+      "teutonic_order_state"
+    ],
+    "structural_significance": "The Teutonic Order's state is the most successful medieval military-religious state; its colonization of Prussia creates German-speaking populations whose presence drives 20th-century conflicts; the Grunwald defeat (1410) ends its expansion.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "christiansen_the_1997",
+      "urban_the_1994",
+      "turnbull_crusader_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

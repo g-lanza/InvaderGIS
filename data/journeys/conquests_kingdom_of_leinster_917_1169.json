@@ -1,0 +1,50 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_kingdom_of_leinster_917_1169",
+  "name": "Kingdom of Leinster — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 917,
+  "year_end": 1169,
+  "waypoints": [
+    {
+      "year": 917,
+      "place": "Battle of Confey",
+      "coords": [
+        53.1,
+        -6.355
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_confey_917"
+    },
+    {
+      "year": 1068,
+      "place": "Battle of Northam",
+      "coords": [
+        52.85,
+        -6.45
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_northam_1068"
+    },
+    {
+      "year": 1169,
+      "place": "Strongbow Invades Ireland — Beginning of English Involvement",
+      "coords": [
+        52.14,
+        -8.45
+      ],
+      "note": "conquest",
+      "event_id": "ireland_norman_1169"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

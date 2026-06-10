@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_dante_writes_comedy_1308_c02",
+  "statement": "The Commedia synthesizes medieval theology, classical learning, contemporary politics, and vernacular Italian, creating the Italian literary language.",
+  "subject_ids": [
+    "republic_of_florence"
+  ],
+  "period": {
+    "from": 1308,
+    "to": 1308
+  },
+  "derived_from": "dante_writes_comedy_1308",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "najemy_a_2006",
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_umayyad_campaigns_in_qiqan_661_c01",
+  "statement": "Umayyad campaigns in Qiqan (661 CE), at Sindh (part of Umayyad campaigns in India).",
+  "subject_ids": [
+    "umayyad_caliphate"
+  ],
+  "period": {
+    "from": 661,
+    "to": 661
+  },
+  "derived_from": "wd_umayyad_campaigns_in_qiqan_661",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_the_2004",
+      "hawting_the_2000",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

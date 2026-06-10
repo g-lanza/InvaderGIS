@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_manzikert_1071",
+  "name": "Battle of Manzikert",
+  "year": 1071,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    39.15,
+    42.54
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Alp Arslan's Seljuk army defeats and captures Emperor Romanos IV Diogenes at Manzikert (modern Malazgirt). The battle does not immediately destroy Byzantine power, but the subsequent political crisis allows Turkic nomads to settle across Anatolia, fundamentally transforming the region's demographic character and setting the stage for the Sultanate of Rum.",
+  "outcomes": [
+    "byzantine_emperor_captured",
+    "anatolia_opened_to_turkic_settlement"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "seljuk_sultanate"
+    ],
+    "structural_significance": "Most consequential Byzantine military defeat; opens Anatolia to permanent Turkic settlement, stripping Byzantium of its main recruiting ground and tax base; the political crisis following Romanos IV's capture triggers the decade of civil wars (1071-1081) that accelerates Anatolian loss more than the battle itself; Byzantine weakness after Manzikert is the direct cause of Alexios I's appeal to Rome that launches the First Crusade (1095)",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

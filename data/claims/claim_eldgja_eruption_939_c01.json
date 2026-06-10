@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_eldgja_eruption_939_c01",
+  "statement": "A large basaltic fissure eruption occurred at Eldgjá in southern Iceland around 939 CE, among the largest effusive eruptions of the past 1,500 years.",
+  "subject_ids": [
+    "iceland_commonwealth"
+  ],
+  "period": {
+    "from": 939,
+    "to": 939
+  },
+  "derived_from": "eldgja_eruption_939",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "campbell_great_transition_2016"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

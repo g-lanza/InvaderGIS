@@ -1,0 +1,40 @@
+{
+ "kind": "event",
+ "dataset": "medieval-europe-500-1500",
+ "id": "battle_adrianople_378",
+ "name": "Battle of Adrianople",
+ "year": 378,
+ "type": "battle",
+ "category": "violence",
+ "coords": [
+  41.68,
+  26.56
+ ],
+ "entity": "byzantine_empire",
+ "summary": "Emperor Valens leads the Eastern Roman army to catastrophic defeat against the Visigoths at Adrianople (modern Edirne) on August 9, 378. Valens, declining to wait for the Western Emperor Gratian's forces, attacks while Gothic cavalry is absent foraging. When the Visigoth horsemen return, they crush the Roman flanks; Valens is killed (reportedly burned in a farmhouse while hiding) and perhaps two-thirds of the Eastern army perishes. It is the worst Roman military defeat since the Battle of Cannae (216 BC) and inaugurates the era of barbarian settlement within the Empire.",
+ "outcomes": [
+  "emperor_valens_killed",
+  "roman_eastern_army_destroyed",
+  "goths_settled_within_empire"
+ ],
+ "_quarry": {
+  "participants": [
+   "byzantine_empire"
+  ],
+  "structural_significance": "The beginning of the end of the unified Roman Empire's ability to control its own territory; the Gothic settlement within the Balkans as foederati (allied warriors, not subjects) establishes the precedent that breaks the Empire's recruitment and taxation system; Theodosius I's subsequent accommodation of the Goths becomes the template for later barbarian settlements that dissolve the Western Empire",
+  "year_range": null
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "herrin_byzantium_2007",
+   "treadgold_a_1997",
+   "haldon_byzantium_2000",
+   "kazhdan_the_1991",
+   "ims_fordham",
+   "ims_fordham_sbook1b"
+  ],
+  "confidence": "low",
+  "attestation": "inferred"
+ }
+}

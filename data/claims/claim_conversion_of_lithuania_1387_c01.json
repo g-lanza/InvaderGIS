@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conversion_of_lithuania_1387_c01",
+  "statement": "Grand Duke Jogaila of Lithuania accepted Catholic baptism around 1387 and converted his domains to Christianity, making Lithuania the last pagan state in Europe to convert.",
+  "subject_ids": [
+    "grand_duchy_of_lithuania"
+  ],
+  "period": {
+    "from": 1387,
+    "to": 1387
+  },
+  "derived_from": "conversion_of_lithuania_1387",
+  "unresolved_sources": [
+    "christiansen_the_1997"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "rowell_lithuania_1994"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

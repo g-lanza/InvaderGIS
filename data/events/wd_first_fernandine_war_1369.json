@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_first_fernandine_war_1369",
+  "name": "First Fernandine War",
+  "year": 1369,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.85,
+    -3.775
+  ],
+  "entity": "kingdom_of_portugal",
+  "summary": "First Fernandine War (1369 CE), at Iberian Peninsula (part of Fernandine Wars). Source: Wikidata Q136483867.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_portugal",
+      "crown_of_aragon",
+      "crown_of_castile",
+      "emirate_of_granada"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

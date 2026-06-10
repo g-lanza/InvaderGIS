@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_alba",
+  "name": "Scone",
+  "entity_id": "kingdom_of_alba",
+  "entity_name": "Kingdom of Alba",
+  "start_year": 843,
+  "end_year": 1286,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1991742"
+    }
+  },
+  "coords": [
+    -3.4,
+    56.42
+  ]
+}

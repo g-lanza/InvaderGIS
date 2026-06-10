@@ -1,0 +1,144 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "vijayanagara_empire",
+  "name_primary": "Vijayanagara Empire",
+  "name_variants": [
+    "Karnata Empire",
+    "Karnataka Empire"
+  ],
+  "type": "empire",
+  "region": "south_asia",
+  "formed": 1336,
+  "dissolved": 1565,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    15.3,
+    76.5
+  ],
+  "population_estimates": [
+    {
+      "year": 1400,
+      "estimate": 18000000,
+      "confidence": "low",
+      "note": "Peninsular India under Vijayanagara hegemony; estimates from Subbarayalu and Stein."
+    },
+    {
+      "year": 1500,
+      "estimate": 25000000,
+      "confidence": "low",
+      "note": "Pre-Talikota population; Hampi alone reported at 500,000 by Portuguese traveller Domingo Paes."
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "South Indian Hindu empire (1336–1565) founded by Harihara I and Bukka Raya of the Sangama dynasty in the Deccan, in part as a defensive response to the Delhi Sultanate's southward expansion under the Tughluqs; from its capital at Vijayanagara on the Tungabhadra River (modern Hampi) the empire dominated peninsular India south of the Krishna for two-and-a-quarter centuries, controlling the trans-peninsular trade routes between the Coromandel and Malabar coasts, the maritime gold and gem trades through Mangalore and the Tamil ports, and the largest standing army on the subcontinent; the empire fought repeated wars with the Bahmani Sultanate and its Deccan successor states, sponsored a Sanskrit and Telugu literary revival, and reached its territorial and cultural peak under Krishnadevaraya (1509–1529) before being shattered at the Battle of Talikota (1565) by a coalition of Deccan sultanates that sacked Hampi.",
+  "temporal": {
+    "start_year": 1336,
+    "end_year": 1565,
+    "end_year_within_scope": 1500,
+    "notes": "Founded by the Sangama brothers under Harihara I and Bukka Raya; capital Vijayanagara (Hampi). Fell at Talikota 1565; beyond atlas's 1500 horizon."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      15.3,
+      76.5
+    ],
+    "core_regions": [
+      "south_asia"
+    ],
+    "capital": {
+      "name": "Vijayanagara (Hampi)",
+      "coords": [
+        15.335,
+        76.462
+      ],
+      "source": "wikidata"
+    }
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "foundation",
+      "years": "1336–1377",
+      "description": "Sangama dynasty founded by Harihara I and Bukka Raya; capital established at Vijayanagara on the Tungabhadra; first wars with Bahmani Sultanate; consolidation of the Deccan plateau south of the Krishna."
+    },
+    {
+      "phase": "consolidation",
+      "years": "1377–1485",
+      "description": "Sangama and Saluva dynasties extend imperial control to the Tamil country and Kerala coast; tributary relations with Sri Lanka; literary patronage of Sanskrit and Telugu courts."
+    },
+    {
+      "phase": "imperial_apogee",
+      "years": "1509–1529",
+      "description": "Krishnadevaraya of the Tuluva dynasty defeats the Gajapatis of Odisha, captures Raichur (1520) from the Bijapur Sultanate, and presides over the empire's territorial maximum; Hampi flowers as one of the largest cities in the world."
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Harihara I",
+      "role": "emperor",
+      "years": "1336–1356",
+      "year_start": 1336,
+      "year_end": 1356
+    },
+    {
+      "name": "Bukka Raya I",
+      "role": "emperor",
+      "years": "1356–1377",
+      "year_start": 1356,
+      "year_end": 1377
+    },
+    {
+      "name": "Krishnadevaraya",
+      "role": "emperor",
+      "years": "1509–1529",
+      "year_start": 1509,
+      "year_end": 1529
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "maritime_trade",
+      "textiles",
+      "manufacturing"
+    ],
+    "wealth_level": "very_high",
+    "major_exports": [
+      "cotton_textiles",
+      "diamonds",
+      "spices",
+      "rice"
+    ],
+    "major_trade_partners": [
+      "bahmani_sultanate",
+      "delhi_sultanate",
+      "ming_dynasty"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "trade_customs",
+      "tribute"
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q167639",
+    "matched_name": "manual/vijayanagara_empire",
+    "enrichment_date": "2026-05-24",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Vijayanagara_Empire",
+    "capital": {
+      "name": "Vijayanagara",
+      "coords": [
+        15.335,
+        76.462
+      ]
+    }
+  },
+  "monogram": "VE"
+}

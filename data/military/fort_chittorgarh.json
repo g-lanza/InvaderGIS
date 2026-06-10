@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "fort_chittorgarh",
+  "name": "Chittorgarh Fort",
+  "subtype": "fort",
+  "start_year": 734,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "Greatest Rajput fortress in India; withstood multiple sieges by Delhi Sultans and later Mughals",
+  "coords": [
+    74.644,
+    24.889
+  ]
+}

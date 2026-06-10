@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "saladin_jerusalem_1187",
+  "name": "Saladin captures Jerusalem",
+  "year": 1187,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    31.78,
+    35.23
+  ],
+  "entity": "kingdom_of_jerusalem",
+  "summary": "Following his annihilation of the Kingdom of Jerusalem's army at the Horns of Hattin (July 4, 1187), Saladin methodically captures the undefended cities of the kingdom. Jerusalem itself surrenders on October 2, 1187 after a two-week siege; Saladin's terms are unexpectedly generous, unlike the First Crusade's massacre, citizens are ransomed (though the poor are enslaved). Saladin explicitly contrasts his conduct with the 1099 massacre. The news of Jerusalem's fall reaches Pope Gregory VIII on October 20; he issues the bull Audita tremendi calling the Third Crusade, blaming Christianity's sins for the disaster.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_jerusalem"
+    ],
+    "structural_significance": "Recapture of Jerusalem triggers the Third Crusade; Saladin's magnanimity becomes the model for Muslim conduct compared to the 1099 massacre; the loss of Jerusalem destroys Western Christendom's confidence and reshapes its religious culture for a generation",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

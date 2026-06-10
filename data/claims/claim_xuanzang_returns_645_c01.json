@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_xuanzang_returns_645_c01",
+  "statement": "After sixteen years in Central Asia and India, including extended study at Nalanda monastery, Xuanzang returns with 657 Sanskrit manuscripts and Buddha relics.",
+  "subject_ids": [
+    "tang_dynasty"
+  ],
+  "period": {
+    "from": 645,
+    "to": 645
+  },
+  "derived_from": "xuanzang_returns_645",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "twitchett_cambridge_history_china_v3_1979"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

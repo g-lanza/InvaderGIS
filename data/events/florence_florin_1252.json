@@ -1,0 +1,31 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "florence_florin_1252",
+  "name": "Florence mints the gold florin",
+  "year": 1252,
+  "type": "economic",
+  "category": "economy",
+  "coords": [
+    43.7696,
+    11.2558
+  ],
+  "entity": "republic_of_florence",
+  "summary": "The commune of Florence issues its first gold coin, the fiorino d'oro, 3.5 g of pure gold bearing the lily of Florence and the standing John the Baptist. The florin is the first widely circulating gold coinage struck in Western Europe since Carolingian times.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_florence"
+    ],
+    "structural_significance": "Re-introduces a stable European gold standard after six centuries; the florin and the Venetian ducat (1284) become the reserve currencies of Mediterranean trade and the late-medieval European banking system.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lopez_commercial_revolution_1971",
+      "abu_lughod_before_european_hegemony_1989"
+    ],
+    "confidence": "low"
+  }
+}

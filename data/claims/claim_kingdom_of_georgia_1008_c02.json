@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_kingdom_of_georgia_1008_c02",
+  "statement": "The military campaigns of David IV expelled the Seljuk Turks from Georgian territory, inaugurating the Georgian Golden Age.",
+  "subject_ids": [
+    "kingdom_of_georgia"
+  ],
+  "period": {
+    "from": 1008,
+    "to": 1008
+  },
+  "derived_from": "kingdom_of_georgia_1008",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "mansa_musa",
+  "name": "Mansa Musa",
+  "polity": "mali",
+  "title": "mansa",
+  "reign_start": 1312,
+  "reign_end": 1337,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 1280,
+      "death_year": 1337
+    },
+    "entity_associations": [
+      {
+        "entity_id": "mali",
+        "role": "mansa",
+        "start_year": 1312,
+        "end_year": 1337
+      }
+    ],
+    "key_actions": [
+      {
+        "year": 1324,
+        "event": "Hajj to Mecca with caravan that destabilises Egyptian gold market for a decade."
+      },
+      {
+        "year": 1325,
+        "event": "Returns with Andalusi architect al-Sahili — builds Djinguereber mosque at Timbuktu."
+      }
+    ],
+    "region": "west_africa",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "conrad_empires_medieval_west_africa_2010"
+    ],
+    "confidence": "low"
+  }
+}

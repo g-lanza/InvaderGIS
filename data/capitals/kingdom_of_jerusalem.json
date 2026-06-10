@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_jerusalem",
+  "name": "Jerusalem",
+  "entity_id": "kingdom_of_jerusalem",
+  "entity_name": "Kingdom of Jerusalem",
+  "start_year": 1099,
+  "end_year": 1291,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q55502"
+    }
+  },
+  "coords": [
+    35.23416,
+    31.77668
+  ]
+}

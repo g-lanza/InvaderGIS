@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_sack_of_erbil_1236",
+  "name": "Sack of Erbil",
+  "year": 1236,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    40.25,
+    73.6
+  ],
+  "entity": "abbasid_caliphate",
+  "summary": "Sack of Erbil (1236 CE), at Erbil (part of Mongol invasion of Persia and Mesopotamia). Source: Wikidata Q129450776.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "abbasid_caliphate",
+      "mongol_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_the_2004",
+      "kennedy_when_2004",
+      "crone_gods_2004",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

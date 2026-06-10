@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_hanseatic_league_1360_1469",
+  "statement": "Hanseatic League — campaigns and battles spanned 1360–1469, from Siege of Nykøbing to Anglo-Hanseatic War.",
+  "subject_ids": [
+    "hanseatic_league"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_hanseatic_league_1360_1469",
+  "period": {
+    "from": 1360,
+    "to": 1469
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dollinger_the_1970",
+      "hammel-kiesow_die_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

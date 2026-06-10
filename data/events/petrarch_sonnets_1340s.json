@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "petrarch_sonnets_1340s",
+  "name": "Petrarch, First Modern Individual",
+  "year": 1341,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    43.77,
+    11.25
+  ],
+  "entity": "republic_of_florence",
+  "summary": "Francesco Petrarch, crowned with laurel on the Capitoline Hill in Rome (1341), articulates a new relationship with classical antiquity and a new emphasis on individual self-expression. His Italian sonnets (the Canzoniere) establish the Petrarchan sonnet form; his Latin correspondence recreates classical epistolary style; his classification of medieval history as 'dark ages' between Rome and the Renaissance creates the periodization that shapes all subsequent European historiography.",
+  "outcomes": [
+    "latin_revival",
+    "individual_self_expression",
+    "renaissance_humanism_founded"
+  ],
+  "_quarry": {
+    "participants": [
+      "republic_of_florence"
+    ],
+    "structural_significance": "Petrarch is often called the 'first Renaissance man', not because he was born different from medieval men but because he expressed a distinctive historical consciousness: the sense that classical antiquity was a separate, superior civilization that could be consciously recovered; this periodization (antiquity - dark ages - modern recovery) is the master narrative of Western cultural history; Petrarch's individual self-expression in the vernacular and Latin inaugurates the Renaissance literary program",
+    "year_range": [
+      1304,
+      1374
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "najemy_a_2006",
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

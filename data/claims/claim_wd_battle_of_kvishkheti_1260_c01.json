@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_kvishkheti_1260_c01",
+  "statement": "Battle of Kvishkheti (1260 CE), at Kvishkheti (part of Rebellion of David VII of Georgia).",
+  "subject_ids": [
+    "kingdom_of_georgia"
+  ],
+  "period": {
+    "from": 1260,
+    "to": 1260
+  },
+  "derived_from": "wd_battle_of_kvishkheti_1260",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

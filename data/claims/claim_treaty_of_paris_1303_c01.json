@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_treaty_of_paris_1303_c01",
+  "statement": "Philip IV of France signed the Treaty of Paris with Count Robert III of Flanders in 1303, partially resolving the conflict that began with the Battle of the Golden Spurs (1302).",
+  "subject_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 1303,
+    "to": 1303
+  },
+  "derived_from": "treaty_of_paris_1303",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_horde_vladimir",
+  "statement": "Vladimir-Suzdal and the other northeastern Russian principalities fell to the Mongol invasion of 1237–1238, with Grand Prince Yuri II killed at the Battle of the Sit River (1238). The surviving princes — most prominently Alexander Nevsky — negotiated a tributary relationship with the Golden Horde, paying annual tribute in exchange for recognition of their rule and Mongol military protection against rivals. Alexander Nevsky's policy of accommodation (combined with military resistance to Swedes and Teutonic Knights) preserved the principality and established Moscow's Danilovich dynasty as the eventual heirs.",
+  "subject_ids": [
+    "golden_horde",
+    "principality_of_vladimir_suzdal"
+  ],
+  "predicate": "tributary",
+  "derived_from": "rel_horde_vladimir",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "allsen_mongol_1987",
+      "franklin_the_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "principality_of_vladimir_suzdal"
+  ],
+  "period": {
+    "from": 1240,
+    "to": 1331
+  }
+}

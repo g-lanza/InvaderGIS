@@ -1,0 +1,1143 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_croatia",
+  "name_primary": "Kingdom of Croatia",
+  "name_variants": [
+    "Regnum Croatiae",
+    "Croatia"
+  ],
+  "type": "kingdom",
+  "region": "southeastern_europe",
+  "formed": 925,
+  "dissolved": 1102,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 1000,
+      "label": "Croatia",
+      "polygon": [
+        [
+          45.32,
+          14.35
+        ],
+        [
+          45.78,
+          14.53
+        ],
+        [
+          45.86,
+          14.8
+        ],
+        [
+          45.48,
+          14.88
+        ],
+        [
+          45.43,
+          15.42
+        ],
+        [
+          45.73,
+          15.47
+        ],
+        [
+          45.63,
+          15.91
+        ],
+        [
+          44.94,
+          16.81
+        ],
+        [
+          44.24,
+          16.87
+        ],
+        [
+          43.39,
+          16.64
+        ],
+        [
+          43.43,
+          16.06
+        ],
+        [
+          43.93,
+          15.41
+        ],
+        [
+          44.24,
+          15.15
+        ],
+        [
+          44.23,
+          15.55
+        ],
+        [
+          44.54,
+          14.99
+        ],
+        [
+          44.93,
+          14.95
+        ],
+        [
+          45.32,
+          14.35
+        ]
+      ]
+    },
+    {
+      "year": 1100,
+      "label": "Croatia",
+      "polygon": [
+        [
+          45.78,
+          14.53
+        ],
+        [
+          45.86,
+          14.8
+        ],
+        [
+          45.48,
+          14.88
+        ],
+        [
+          45.43,
+          15.42
+        ],
+        [
+          45.73,
+          15.47
+        ],
+        [
+          45.63,
+          15.91
+        ],
+        [
+          44.94,
+          16.81
+        ],
+        [
+          44.24,
+          16.87
+        ],
+        [
+          43.39,
+          16.64
+        ],
+        [
+          43.43,
+          16.06
+        ],
+        [
+          43.93,
+          15.41
+        ],
+        [
+          44.24,
+          15.15
+        ],
+        [
+          44.23,
+          15.55
+        ],
+        [
+          44.54,
+          14.99
+        ],
+        [
+          44.93,
+          14.95
+        ],
+        [
+          45.32,
+          14.35
+        ],
+        [
+          45.78,
+          14.53
+        ]
+      ]
+    },
+    {
+      "year": 1200,
+      "label": "Croatia",
+      "polygon": [
+        [
+          45.32,
+          14.35
+        ],
+        [
+          45.78,
+          14.53
+        ],
+        [
+          45.86,
+          14.8
+        ],
+        [
+          45.48,
+          14.88
+        ],
+        [
+          45.43,
+          15.42
+        ],
+        [
+          45.73,
+          15.47
+        ],
+        [
+          45.63,
+          15.91
+        ],
+        [
+          44.94,
+          16.81
+        ],
+        [
+          44.24,
+          16.87
+        ],
+        [
+          43.39,
+          16.64
+        ],
+        [
+          43.43,
+          16.06
+        ],
+        [
+          43.93,
+          15.41
+        ],
+        [
+          44.24,
+          15.15
+        ],
+        [
+          44.23,
+          15.55
+        ],
+        [
+          44.54,
+          14.99
+        ],
+        [
+          44.93,
+          14.95
+        ],
+        [
+          45.32,
+          14.35
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    44.5,
+    16.5
+  ],
+  "religion": "catholic",
+  "population_estimates": [
+    {
+      "year": 850,
+      "estimate": 280000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q858841",
+          "url": "https://www.wikidata.org/wiki/Q858841",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Croatia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Croatia_(925%E2%80%931102)"
+        }
+      ]
+    },
+    {
+      "year": 1000,
+      "estimate": 400000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q858841",
+          "url": "https://www.wikidata.org/wiki/Q858841",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Croatia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Croatia_(925%E2%80%931102)"
+        }
+      ]
+    },
+    {
+      "year": 1150,
+      "estimate": 440000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q858841",
+          "url": "https://www.wikidata.org/wiki/Q858841",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Croatia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Croatia_(925%E2%80%931102)"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fine_the_1983"
+    ],
+    "confidence": "low"
+  },
+  "description": "South Slavic kingdom (c. 925–1102) whose monarchy linked Croatian coastal towns with inland Slavic territories; its personal union with Hungary in 1102 through the Pacta Conventa gave Croatia a measure of institutional autonomy within the Hungarian crown while permanently orienting it toward central European Catholic civilisation rather than Byzantine influence.",
+  "temporal": {
+    "start_year": 925,
+    "end_year": 1102,
+    "end_year_within_scope": null,
+    "start_event_id": null,
+    "end_event_id": null,
+    "notes": "Independent kingdom; personal union with Hungary 1102"
+  },
+  "geographic": {
+    "representation": "schematic_approximation",
+    "centroid": [
+      44.5,
+      16.5
+    ],
+    "core_regions": [
+      "Croatia"
+    ],
+    "polygon_simplified": [
+      [
+        45.78,
+        14.53
+      ],
+      [
+        45.86,
+        14.8
+      ],
+      [
+        45.48,
+        14.88
+      ],
+      [
+        45.43,
+        15.42
+      ],
+      [
+        45.73,
+        15.47
+      ],
+      [
+        45.63,
+        15.91
+      ],
+      [
+        44.94,
+        16.81
+      ],
+      [
+        44.24,
+        16.87
+      ],
+      [
+        43.39,
+        16.64
+      ],
+      [
+        43.43,
+        16.06
+      ],
+      [
+        43.93,
+        15.41
+      ],
+      [
+        44.24,
+        15.15
+      ],
+      [
+        44.23,
+        15.55
+      ],
+      [
+        44.54,
+        14.99
+      ],
+      [
+        44.93,
+        14.95
+      ],
+      [
+        45.32,
+        14.35
+      ],
+      [
+        45.78,
+        14.53
+      ]
+    ],
+    "notes": "",
+    "polygon_status": "real_historical_boundary",
+    "polygon_representative_year": 1014,
+    "polygon_source": "aourednik/historical-basemaps",
+    "polygon_source_date": "2026-05-09",
+    "polygon_snapshots": [
+      {
+        "year": 1000,
+        "label": "Croatia",
+        "polygon": [
+          [
+            45.32,
+            14.35
+          ],
+          [
+            45.78,
+            14.53
+          ],
+          [
+            45.86,
+            14.8
+          ],
+          [
+            45.48,
+            14.88
+          ],
+          [
+            45.43,
+            15.42
+          ],
+          [
+            45.73,
+            15.47
+          ],
+          [
+            45.63,
+            15.91
+          ],
+          [
+            44.94,
+            16.81
+          ],
+          [
+            44.24,
+            16.87
+          ],
+          [
+            43.39,
+            16.64
+          ],
+          [
+            43.43,
+            16.06
+          ],
+          [
+            43.93,
+            15.41
+          ],
+          [
+            44.24,
+            15.15
+          ],
+          [
+            44.23,
+            15.55
+          ],
+          [
+            44.54,
+            14.99
+          ],
+          [
+            44.93,
+            14.95
+          ],
+          [
+            45.32,
+            14.35
+          ]
+        ]
+      },
+      {
+        "year": 1100,
+        "label": "Croatia",
+        "polygon": [
+          [
+            45.78,
+            14.53
+          ],
+          [
+            45.86,
+            14.8
+          ],
+          [
+            45.48,
+            14.88
+          ],
+          [
+            45.43,
+            15.42
+          ],
+          [
+            45.73,
+            15.47
+          ],
+          [
+            45.63,
+            15.91
+          ],
+          [
+            44.94,
+            16.81
+          ],
+          [
+            44.24,
+            16.87
+          ],
+          [
+            43.39,
+            16.64
+          ],
+          [
+            43.43,
+            16.06
+          ],
+          [
+            43.93,
+            15.41
+          ],
+          [
+            44.24,
+            15.15
+          ],
+          [
+            44.23,
+            15.55
+          ],
+          [
+            44.54,
+            14.99
+          ],
+          [
+            44.93,
+            14.95
+          ],
+          [
+            45.32,
+            14.35
+          ],
+          [
+            45.78,
+            14.53
+          ]
+        ]
+      },
+      {
+        "year": 1200,
+        "label": "Croatia",
+        "polygon": [
+          [
+            45.32,
+            14.35
+          ],
+          [
+            45.78,
+            14.53
+          ],
+          [
+            45.86,
+            14.8
+          ],
+          [
+            45.48,
+            14.88
+          ],
+          [
+            45.43,
+            15.42
+          ],
+          [
+            45.73,
+            15.47
+          ],
+          [
+            45.63,
+            15.91
+          ],
+          [
+            44.94,
+            16.81
+          ],
+          [
+            44.24,
+            16.87
+          ],
+          [
+            43.39,
+            16.64
+          ],
+          [
+            43.43,
+            16.06
+          ],
+          [
+            43.93,
+            15.41
+          ],
+          [
+            44.24,
+            15.15
+          ],
+          [
+            44.23,
+            15.55
+          ],
+          [
+            44.54,
+            14.99
+          ],
+          [
+            44.93,
+            14.95
+          ],
+          [
+            45.32,
+            14.35
+          ]
+        ]
+      }
+    ],
+    "capital": {
+      "name": "Šibenik",
+      "coords": [
+        43.73389,
+        15.89556
+      ],
+      "source": "wikidata"
+    }
+  },
+  "internal_structure": {
+    "centralization": null,
+    "centralization_trajectory": null,
+    "governance_type": "dynastic",
+    "legitimacy_basis": [
+      "inheritance"
+    ],
+    "administrative_system": ""
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "emergence",
+      "years": "925–1091",
+      "description": "Tomislav (925) is recognized as the first King of Croatia by the papacy, unifying the Pannonian and Dalmatian Croatian states. Croatia reaches its greatest extent under Petar Krešimir IV (1058–1074) who controls most of the Dalmatian coast. His successor Dmitar Zvonimir (1076–1089) receives his crown from the papacy and aligns Croatia with the Gregorian Reform movement. His death without heirs in disputed circumstances ends the Trpimirović dynasty.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q858841",
+          "url": "https://www.wikidata.org/wiki/Q858841"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Croatia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Croatia_(925%E2%80%931102)"
+        }
+      ]
+    },
+    {
+      "phase": "personal_union_with_hungary",
+      "years": "1091–1102",
+      "description": "Hungarian King Ladislaus I occupies Croatia (1091) following a disputed succession; the Pacta Conventa (1102), though its historical authenticity is disputed, is said to formalize a personal union between Croatia and Hungary. Croatia retains its Sabor (parliament), Ban (governor), and laws while sharing a king with Hungary. This union persists until 1918.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q858841",
+          "url": "https://www.wikidata.org/wiki/Q858841"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Croatia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Croatia_(925%E2%80%931102)"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "geographic_advantage",
+      "layer": "geography_territory",
+      "description": "Croatia's Dalmatian coast provided access to Mediterranean trade and the economic and cultural wealth of the Italian city-states; the Dinaric Alps provided natural defense on the landward side",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q858841",
+          "url": "https://www.wikidata.org/wiki/Q858841"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Croatia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Croatia_(925%E2%80%931102)"
+        }
+      ]
+    },
+    {
+      "tag": "religious_legitimacy",
+      "layer": "ideology_religion",
+      "description": "Croatia's early conversion to Latin Christianity and alignment with the papacy gave it recognition as a legitimate Christian kingdom; Zvonimir's papal crown (1076) placed Croatia firmly in the Roman orbit against Byzantine and Orthodox influence",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q858841",
+          "url": "https://www.wikidata.org/wiki/Q858841"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Croatia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Croatia_(925%E2%80%931102)"
+        }
+      ]
+    },
+    {
+      "tag": "dalmatian_coast_control",
+      "layer": "economic_commercial",
+      "description": "Croatian rulers controlling the Dalmatian coast gained customs revenue from Adriatic trade and could interfere with Venetian and Byzantine commerce; coastal fortresses gave Croatian kings leverage in negotiations with maritime powers far beyond their inland military capacity",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q858841",
+          "url": "https://www.wikidata.org/wiki/Q858841"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Croatia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Croatia_(925%E2%80%931102)"
+        }
+      ]
+    },
+    {
+      "tag": "church_alliance_rome",
+      "layer": "ideology_religion",
+      "description": "Croatian kings received a royal crown from Pope Alexander II (or possibly Gregory VII) in the late 11th century; Roman recognition gave Croatian royalty a legitimacy independent of Byzantine or Hungarian claims, supporting the kingdom's autonomous identity",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q858841",
+          "url": "https://www.wikidata.org/wiki/Q858841"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Croatia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Croatia_(925%E2%80%931102)"
+        }
+      ]
+    },
+    {
+      "tag": "zwonimir_military_consolidation",
+      "layer": "military_security",
+      "description": "Dmitar Zvonimir (r. 1075–1089) consolidated the Croatian realm and received a royal crown from the pope; his reign represented the high point of independent Croatia, with the Dalmatian coasts, Slavonia, and Bosnia under unified Croatian rule",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q858841",
+          "url": "https://www.wikidata.org/wiki/Q858841"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Croatia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Croatia_(925%E2%80%931102)"
+        }
+      ]
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "tomislav_royal_title",
+      "direction": "rise",
+      "description": "Tomislav of Croatia received recognition as king from Pope John X around 925, unifying Croatian Pannonia and Dalmatia under a single crown and creating the first independent Croatian state with Roman papal backing.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q858841",
+          "url": "https://www.wikidata.org/wiki/Q858841"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Croatia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Croatia_(925%E2%80%931102)"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "succession_instability",
+      "layer": "dynastic_legitimacy",
+      "description": "The end of the Trpimirović dynasty without a clear male heir (1091) allowed Hungarian intervention; the disputed succession provided Ladislaus I of Hungary with the legal pretext to claim Croatia",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q858841",
+          "url": "https://www.wikidata.org/wiki/Q858841"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Croatia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Croatia_(925%E2%80%931102)"
+        }
+      ]
+    },
+    {
+      "tag": "hungarian_succession_union_1102",
+      "layer": "military_security",
+      "description": "The extinction of the Croatian Trpimirović dynasty led to the Pacta Conventa (1102), by which Croatian nobles accepted Coloman of Hungary as king; though Croatia retained its institutions, Hungarian political priorities dominated, and Croatian nobles became a subordinate class within the larger Kingdom",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q858841",
+          "url": "https://www.wikidata.org/wiki/Q858841"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Croatia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Croatia_(925%E2%80%931102)"
+        }
+      ]
+    },
+    {
+      "tag": "venetian_dalmatian_pressure",
+      "layer": "military_security",
+      "description": "Venice systematically purchased, pressured, or captured Dalmatian cities; by 1420 Venice controlled most of the Dalmatian coast, cutting Croatia off from maritime trade and the Mediterranean economy that had enriched earlier Croatian rulers",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q858841",
+          "url": "https://www.wikidata.org/wiki/Q858841"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Croatia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Croatia_(925%E2%80%931102)"
+        }
+      ]
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "hungarian_personal_union",
+      "direction": "decline",
+      "description": "The Pacta Conventa agreement (1102) united Croatia with Hungary in a personal union under King Coloman, preserving Croatian noble privileges but ending full independence and orienting Croatia toward Central European politics.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q858841",
+          "url": "https://www.wikidata.org/wiki/Q858841"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Croatia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Croatia_(925%E2%80%931102)"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Tomislav",
+      "role": "dynastic_founder",
+      "years": "910–928",
+      "year_start": 910,
+      "year_end": 928,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Tomislav",
+          "url": "https://en.wikipedia.org/wiki/Tomislav"
+        }
+      ]
+    },
+    {
+      "name": "Petar Krešimir IV",
+      "role": "ruler",
+      "years": "1050–1074",
+      "year_start": 1050,
+      "year_end": 1074,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Petar Krešimir IV",
+          "url": "https://en.wikipedia.org/wiki/Peter_Kre%C5%A1imir_IV"
+        }
+      ]
+    },
+    {
+      "name": "Dmitar Zvonimir",
+      "role": "ruler",
+      "years": "1075–1089",
+      "year_start": 1075,
+      "year_end": 1089,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Dmitar Zvonimir",
+          "url": "https://en.wikipedia.org/wiki/Demetrius_Zvonimir"
+        }
+      ]
+    }
+  ],
+  "successor_entity_ids": [
+    "kingdom_of_hungary"
+  ],
+  "primary_ethnicity": "slavic",
+  "ethnic_composition": [
+    {
+      "group": "slavic",
+      "proportion": 0.88
+    }
+  ],
+  "religion_composition": [
+    {
+      "religion": "catholic",
+      "proportion": 0.91
+    },
+    {
+      "religion": "pagan",
+      "proportion": 0.05
+    },
+    {
+      "religion": "orthodox",
+      "proportion": 0.04
+    }
+  ],
+  "primary_language": "church_slavonic",
+  "language_composition": [
+    {
+      "language": "church_slavonic",
+      "proportion": 0.78,
+      "role": "vernacular"
+    },
+    {
+      "language": "latin",
+      "proportion": 0.12,
+      "role": "liturgical"
+    },
+    {
+      "language": "italian_lang",
+      "proportion": 0.06,
+      "role": "regional"
+    },
+    {
+      "language": "german",
+      "proportion": 0.04,
+      "role": "regional"
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "maritime_trade",
+      "tribute"
+    ],
+    "wealth_level": "moderate",
+    "major_exports": [
+      "grain",
+      "cattle",
+      "salt",
+      "timber"
+    ],
+    "major_trade_partners": [
+      "republic_of_venice",
+      "kingdom_of_hungary",
+      "byzantine_empire"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "customs_duties",
+      "tribute"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q858841",
+        "url": "https://www.wikidata.org/wiki/Q858841"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Kingdom of Croatia",
+        "url": "https://en.wikipedia.org/wiki/Kingdom_of_Croatia_(925%E2%80%931102)"
+      }
+    ]
+  },
+  "social_structure": {
+    "ruling_ethnicity": "slavic",
+    "subject_majority": "slavic",
+    "military_ethnicity": "slavic",
+    "administrative_language": "church_slavonic",
+    "stratification_type": "homogeneous"
+  },
+  "wikidata_enrichment": {
+    "qid": "Q858841",
+    "matched_name": "Kingdom of Croatia",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Kingdom_of_Croatia_(925%E2%80%931102)",
+    "capital": {
+      "name": "Šibenik",
+      "coords": [
+        43.73389,
+        15.89556
+      ]
+    },
+    "rulers_from_wikidata": [
+      {
+        "name": "Petar Snačić",
+        "qid": "Q741354",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q741354",
+            "url": "https://www.wikidata.org/wiki/Q741354"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Petar Snačić",
+            "url": "https://en.wikipedia.org/wiki/Petar_Snačić"
+          }
+        ]
+      },
+      {
+        "name": "Peter Krešimir IV of Croatia",
+        "qid": "Q281316",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q281316",
+            "url": "https://www.wikidata.org/wiki/Q281316"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Peter Krešimir IV of Croatia",
+            "url": "https://en.wikipedia.org/wiki/Peter_Kre%C5%A1imir_IV"
+          }
+        ]
+      },
+      {
+        "name": "Demetrius Zvonimir of Croatia",
+        "qid": "Q470647",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q470647",
+            "url": "https://www.wikidata.org/wiki/Q470647"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Demetrius Zvonimir of Croatia",
+            "url": "https://en.wikipedia.org/wiki/Demetrius_Zvonimir"
+          }
+        ]
+      },
+      {
+        "name": "Stephen II of Croatia",
+        "qid": "Q1060057",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1060057",
+            "url": "https://www.wikidata.org/wiki/Q1060057"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Stephen II of Croatia",
+            "url": "https://en.wikipedia.org/wiki/Stephen_II_of_Croatia"
+          }
+        ]
+      },
+      {
+        "name": "Tomislav of Croatia",
+        "qid": "Q319638",
+        "year_start": 925,
+        "year_end": 928,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q319638",
+            "url": "https://www.wikidata.org/wiki/Q319638"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Tomislav of Croatia",
+            "url": "https://en.wikipedia.org/wiki/Tomislav,_King_of_Croatia"
+          }
+        ]
+      },
+      {
+        "name": "Coloman",
+        "qid": "Q83066",
+        "year_start": 1102,
+        "year_end": 1116,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q83066",
+            "url": "https://www.wikidata.org/wiki/Q83066"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Coloman",
+            "url": "https://en.wikipedia.org/wiki/Coloman"
+          }
+        ]
+      },
+      {
+        "name": "Louis II of Hungary",
+        "qid": "Q157092",
+        "year_start": 1516,
+        "year_end": 1526,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q157092",
+            "url": "https://www.wikidata.org/wiki/Q157092"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Louis II of Hungary",
+            "url": "https://en.wikipedia.org/wiki/Louis_II_of_Hungary"
+          }
+        ]
+      }
+    ],
+    "successors_from_wikidata": [
+      "Croatia in personal union with Hungary"
+    ]
+  },
+  "sources": [
+    {
+      "type": "book",
+      "author": "Fine, John V.A., Jr.",
+      "title": "The Early Medieval Balkans: A Critical Survey from the Sixth to the Late Twelfth Century",
+      "publisher": "University of Michigan Press",
+      "year": 1983
+    }
+  ],
+  "monogram": "CR"
+}

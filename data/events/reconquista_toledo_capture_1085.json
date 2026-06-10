@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "reconquista_toledo_capture_1085",
+  "name": "Alfonso VI Captures Toledo",
+  "year": 1085,
+  "type": "conflict",
+  "category": "violence",
+  "coords": [
+    39.857,
+    -4.025
+  ],
+  "entity": "kingdom_of_castile",
+  "summary": "Alfonso VI of León-Castile captured Toledo in 1085, the ancient Visigothic capital that had been under Muslim rule for 373 years. The fall shocked the taifa kingdoms of al-Andalus, who collectively invited the Almoravid dynasty from Morocco to intervene. Toledo's fall was also culturally transformative: its libraries made Arabic philosophical and scientific texts accessible to Latin scholars, sparking the 12th-century translation movement.",
+  "outcomes": [
+    "Ancient Visigothic capital recovered for Christianity",
+    "Muslim taifa kings in panic",
+    "Almoravid intervention invited from North Africa",
+    "Toledo becomes center of translation movement"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_castile",
+      "crown_of_castile"
+    ],
+    "structural_significance": "The most symbolically significant victory of the Reconquista before Granada; Toledo's capture and its intellectual legacy reshaped both the political and cultural map of medieval Iberia.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Reilly, The Kingdom of León-Castilla under King Alfonso VI",
+      "Burnett, The Introduction of Arabic Learning into England"
+    ],
+    "confidence": "low"
+  }
+}

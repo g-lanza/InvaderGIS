@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_synod_whitby_664_detail_c01",
+  "statement": "King Oswiu of Northumbria convened the Synod of Whitby in 664 to resolve the conflict between Celtic Christianity and Roman Christianity over the dating of Easter and tonsure styles.",
+  "subject_ids": [
+    "kingdom_of_northumbria"
+  ],
+  "period": {
+    "from": 664,
+    "to": 664
+  },
+  "derived_from": "synod_whitby_664_detail",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

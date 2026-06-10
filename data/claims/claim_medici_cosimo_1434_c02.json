@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_medici_cosimo_1434_c02",
+  "statement": "Cosimo de' Medici's power rested on his banking fortune, patronage, and control of the electoral bags rather than formal office.",
+  "subject_ids": [
+    "republic_of_florence"
+  ],
+  "period": {
+    "from": 1434,
+    "to": 1434
+  },
+  "derived_from": "medici_cosimo_1434",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "najemy_a_2006",
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

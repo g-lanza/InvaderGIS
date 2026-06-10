@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_diana_veteranorum_500",
+  "name": "Diana Veteranorum",
+  "importance": "city",
+  "start_year": 500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "inferred",
+    "external_ids": {
+      "pleiades": "334536"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    6.0775,
+    35.7798
+  ]
+}

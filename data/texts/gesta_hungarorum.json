@@ -1,0 +1,24 @@
+{
+ "kind": "text",
+ "id": "gesta_hungarorum",
+ "name_primary": "The Gesta Hungarorum",
+ "author": "Anonymous Notary of King Bela",
+ "language": "Latin",
+ "composed": {
+  "place": "Hungary",
+  "year": 1200
+ },
+ "tradition": "chronicle",
+ "provenance": {
+  "sources_used": [
+   "ims_fordham",
+   "ims_fordham_sbook1qq"
+  ],
+  "confidence": "high",
+  "attestation": "full text PDF translation by Martyn Rady hosted, oldest extant Hungarian chronicle",
+  "status": "draft"
+ },
+ "dataset": "medieval-europe-500-1500",
+ "_fordham_index": "sbook1qq",
+ "from_sourcebook": true
+}

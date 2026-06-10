@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_georgia_1184",
+  "name": "Queen Tamar's Reign Begins",
+  "year": 1184,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.72,
+    44.8
+  ],
+  "entity": "kingdom_of_georgia",
+  "summary": "Queen Tamar's reign (1184–1213) represented the zenith of medieval Georgia. Under her rule Georgia expanded to its greatest territorial extent, the Knight in the Panther's Skin was composed, and Georgian art and architecture flourished. Tamar sponsored the establishment of the Empire of Trebizond as a buffer state.",
+  "outcomes": [
+    "female_ruler",
+    "cultural_golden_age",
+    "empire_of_trebizond_created"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_georgia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

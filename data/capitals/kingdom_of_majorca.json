@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_majorca",
+  "name": "Perpignan",
+  "entity_id": "kingdom_of_majorca",
+  "entity_name": "Kingdom of Majorca",
+  "start_year": 1276,
+  "end_year": 1344,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q836676"
+    }
+  },
+  "coords": [
+    2.89472,
+    42.6975
+  ]
+}

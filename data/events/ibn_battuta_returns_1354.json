@@ -1,0 +1,31 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ibn_battuta_returns_1354",
+  "name": "Ibn Battuta returns to Morocco",
+  "year": 1354,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    34.0181,
+    -5.0078
+  ],
+  "entity": "marinid_dynasty",
+  "summary": "Muhammad ibn Battuta ends his 29-year, ~117,000-km journey across North Africa, the Middle East, Central Asia, India, Southeast Asia, and China, returning to Fez at the Marinid court. His travelogue, dictated to Ibn Juzayy as the Rihla, is the most extensive eyewitness account of the 14th-century Islamic world.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "marinid_dynasty"
+    ],
+    "structural_significance": "Definitive medieval Islamic travelogue; sole eyewitness source for much of the 14th-century Indian Ocean and Sahelian Islamic world.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "hourani_arab_peoples_1991",
+      "abu_lughod_before_european_hegemony_1989"
+    ],
+    "confidence": "low"
+  }
+}

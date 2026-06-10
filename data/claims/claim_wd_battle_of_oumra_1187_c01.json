@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_oumra_1187_c01",
+  "statement": "Battle of Oumra (1187 CE), at Chott el Djerid (part of Almoravid–Almohad Wars).",
+  "subject_ids": [
+    "almohad_caliphate_iberia"
+  ],
+  "period": {
+    "from": 1187,
+    "to": 1187
+  },
+  "derived_from": "wd_battle_of_oumra_1187",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_kingdoms_2018",
+      "o'callaghan_reconquest_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "serbia_stefan_dusan_empire_1346",
+  "name": "Stefan Dušan Proclaims Serbian Empire",
+  "year": 1346,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    42.91,
+    18.098
+  ],
+  "entity": "serbia",
+  "summary": "Stefan Dušan was crowned Emperor of the Serbs and Greeks at a grand ceremony in Skopje. His empire included most of the Balkans except Constantinople, and he issued the famous Dušan's Code, the most comprehensive medieval Serbian legal compilation.",
+  "outcomes": [
+    "serbian_empire_peak",
+    "balkans_dominated",
+    "dusan_law_code"
+  ],
+  "_quarry": {
+    "participants": [
+      "serbia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

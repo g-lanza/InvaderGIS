@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "champa_battle_vijaya_1044",
+  "name": "Battle of Vijaya, Cham-Vietnamese War",
+  "year": 1044,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    13.098,
+    108.085
+  ],
+  "entity": "champa",
+  "summary": "Emperor Ly Thai Tong of Dai Viet (Annam) invaded Champa and sacked the capital Vijaya, killing King Jaya Simhavarman III. The defeat marked the beginning of systematic Vietnamese pressure that would eventually absorb all of Champa.",
+  "outcomes": [
+    "vijaya_sacked",
+    "champa_weakened",
+    "vietnamese_expansion"
+  ],
+  "_quarry": {
+    "participants": [
+      "champa"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

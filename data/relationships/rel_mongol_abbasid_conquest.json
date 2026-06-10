@@ -1,0 +1,41 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_mongol_abbasid_conquest",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "mongol_empire",
+      "role": "aggressor"
+    },
+    {
+      "entity_id": "abbasid_caliphate",
+      "role": "defender"
+    }
+  ],
+  "directed": true,
+  "type": "rivalry",
+  "since": 1258,
+  "until": 1258,
+  "note": "Hulagu Khan sacks Baghdad (February 1258), executing the last Abbasid Caliph al-Musta'sim; the 500-year Abbasid Caliphate ends. The event is considered one of the most devastating in Islamic history; the House of Wisdom is destroyed and the irrigation systems of Mesopotamia irreparably damaged.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Hülegü's destruction of Baghdad (1258) and execution of the last Abbasid caliph eliminated the symbolic centre of Sunni Islamic authority that had provided legitimacy for Islamic governance for five centuries; the psychological and political trauma reshaped Islamic political theory, while the Mamluk sultan's installation of a puppet Abbasid caliph in Cairo demonstrated both the caliphate's reduced importance and its continued ideological utility."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009",
+      "kennedy_the_2004",
+      "kennedy_when_2004",
+      "crone_gods_2004",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

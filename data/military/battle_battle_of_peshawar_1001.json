@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_peshawar_1001",
+  "name": "Battle of Peshawar",
+  "subtype": "battle",
+  "start_year": 1001,
+  "end_year": 1001,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q4872019"
+    }
+  },
+  "description": "Battle during Ghaznavid campaigns in India (1001)",
+  "coords": [
+    71.5675,
+    34.0144
+  ]
+}

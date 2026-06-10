@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_plano_carpini_karakorum_1247_c02",
+  "statement": "Giovanni da Pian del Carpine attended the enthronement of Güyük Khan at Karakorum in August 1246.",
+  "subject_ids": [
+    "papal_states"
+  ],
+  "period": {
+    "from": 1247,
+    "to": 1247
+  },
+  "derived_from": "plano_carpini_karakorum_1247",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_mongols_2007"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

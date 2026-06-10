@@ -1,0 +1,31 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_songhai_kanem_trade",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "songhai_empire",
+      "role": "partner"
+    },
+    {
+      "entity_id": "kanem",
+      "role": "partner"
+    }
+  ],
+  "directed": false,
+  "type": "cultural_exchange",
+  "since": 1400,
+  "until": 1591,
+  "note": "Songhai (western Sahel) and Kanem-Bornu (Lake Chad basin) shared the southern terminus of the trans-Saharan trade network and exchanged scholars, manuscripts, and slaves.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": ""
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

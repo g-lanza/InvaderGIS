@@ -1,0 +1,49 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "otto_i_the_great",
+  "name": "Otto I the Great",
+  "polity": "duchy_of_saxony",
+  "title": "duke",
+  "reign_start": 936,
+  "reign_end": 961,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 912,
+      "death_year": 973
+    },
+    "entity_associations": [
+      {
+        "entity_id": "duchy_of_saxony",
+        "role": "duke",
+        "start_year": 936,
+        "end_year": 961
+      },
+      {
+        "entity_id": "holy_roman_empire",
+        "role": "emperor",
+        "start_year": 962,
+        "end_year": 973
+      }
+    ],
+    "key_actions": [
+      {
+        "year": 955,
+        "event": "Defeats Magyar invasion at Lechfeld — ends 60 years of raids."
+      },
+      {
+        "year": 962,
+        "event": "Crowned emperor by John XII in Rome — re-foundation of Western imperial title."
+      }
+    ],
+    "region": "central_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "bartlett_making_of_europe_1993"
+    ],
+    "confidence": "low"
+  }
+}

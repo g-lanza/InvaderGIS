@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_burning_of_peralada_1285",
+  "name": "Burning of Peralada",
+  "year": 1285,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    44.1,
+    1.5
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Burning of Peralada (1285 CE), at Peralada (part of Aragonese Crusade). Source: Wikidata Q18005571.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "crown_of_aragon"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

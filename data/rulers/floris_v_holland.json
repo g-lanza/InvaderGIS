@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "floris_v_holland",
+  "name": "Floris V",
+  "polity": "county_of_holland",
+  "title": "ruler",
+  "reign_start": 1256,
+  "reign_end": 1296,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "county_of_holland",
+        "role": "ruler",
+        "start_year": 1256,
+        "end_year": 1296
+      }
+    ],
+    "key_actions": [],
+    "region": "western_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_siege_of_meaux_1421",
+  "name": "Siege of Meaux",
+  "subtype": "battle",
+  "start_year": 1421,
+  "end_year": 1421,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q815173"
+    }
+  },
+  "description": "Battle during Hundred Years' War (1421)",
+  "coords": [
+    2.8878,
+    48.9594
+  ]
+}

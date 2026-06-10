@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_amor_n_1287",
+  "name": "Šamorín",
+  "importance": "city",
+  "start_year": 1287,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q391068"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    17.3117,
+    48.0267
+  ]
+}

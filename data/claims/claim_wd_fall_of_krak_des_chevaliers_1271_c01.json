@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_fall_of_krak_des_chevaliers_1271_c01",
+  "statement": "Fall of Krak des Chevaliers (1271 CE), at Krak des Chevaliers (part of Fall of Outremer).",
+  "subject_ids": [
+    "knights_hospitaller_rhodes"
+  ],
+  "period": {
+    "from": 1271,
+    "to": 1271
+  },
+  "derived_from": "wd_fall_of_krak_des_chevaliers_1271",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_hospitallers_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

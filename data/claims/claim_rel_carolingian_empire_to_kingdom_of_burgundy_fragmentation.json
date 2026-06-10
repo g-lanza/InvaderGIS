@@ -1,0 +1,31 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_carolingian_empire_to_kingdom_of_burgundy_fragmentation",
+  "statement": "Derived from predecessor/successor links recorded in the carolingian_empire and kingdom_of_burgundy entity records. Transition anchored to kingdom_of_burgundy start_year.",
+  "subject_ids": [
+    "carolingian_empire",
+    "kingdom_of_burgundy"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_carolingian_empire_to_kingdom_of_burgundy_fragmentation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "mckitterick_charlemagne_2008",
+      "riché_the_1993",
+      "nelson_king_2019",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "kingdom_of_burgundy"
+  ],
+  "period": {
+    "from": 888,
+    "to": 888
+  }
+}

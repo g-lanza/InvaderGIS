@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "black_death_german_lands_1349",
+  "name": "Black Death across the German lands",
+  "year": 1349,
+  "type": "epidemic",
+  "category": "hazard",
+  "coords": [
+    50.11,
+    8.68
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Plague enters from Italy via the Alpine passes and from France down the Rhine. Mass pogroms against Jewish communities, accused of poisoning wells, erupt in Strasbourg (Feb 1349), Mainz, Cologne, and dozens of smaller cities, often before the disease arrives. The Hanseatic ports see successive waves through the 1350s.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "hanseatic_league",
+      "teutonic_order_state"
+    ],
+    "structural_significance": "Roughly 60% of European Jewish communities are destroyed or displaced during 1348–1351, the largest demographic catastrophe for Ashkenazi Jewry before the 20th century. Eastward migration to Poland and Lithuania accelerates.",
+    "year_range": [
+      1349,
+      1352
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

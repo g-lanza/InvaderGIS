@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "reconquest_italy_justinian_535",
+  "name": "Justinian's Gothic War in Italy",
+  "year": 535,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    41.9,
+    12.5
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Justinian's Gothic War (535–554) destroys the Ostrogothic kingdom after 20 years of fighting that devastates Italy. General Belisarius's initial brilliant campaigns capture Rome and Ravenna; the Ostrogothic resurgence under Totila recaptures most of Italy; Narses finally destroys the Goths at the Battle of Busta Gallorum (552).",
+  "outcomes": [
+    "ravenna_retaken",
+    "ostrogoths_destroyed",
+    "italy_devastated"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "ostrogothic_kingdom"
+    ],
+    "structural_significance": "The war kills more Italians than the original barbarian invasions; the destruction of the senatorial aristocracy ends Roman urban culture; Italy is so weakened that the Lombards conquer it within 14 years.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

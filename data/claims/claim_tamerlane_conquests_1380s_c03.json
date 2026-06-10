@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_tamerlane_conquests_1380s_c03",
+  "statement": "Timur's empire collapsed on his death in 1405.",
+  "subject_ids": [
+    "ilkhanate"
+  ],
+  "period": {
+    "from": 1380,
+    "to": 1380
+  },
+  "derived_from": "tamerlane_conquests_1380s",
+  "unresolved_sources": [
+    "jackson_the_2005"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "amitai-preiss_mongols_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

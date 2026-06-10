@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_pavia_773",
+  "name": "Siege of Pavia",
+  "year": 773,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    47.25,
+    6.35
+  ],
+  "entity": "merovingian_kingdom",
+  "summary": "Siege of Pavia (773 CE), at Pavia (part of Franco–Lombard War of 773–774). Source: Wikidata Q114717.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "merovingian_kingdom",
+      "lombard_kingdom"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wood_the_1994",
+      "geary_before_1988"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

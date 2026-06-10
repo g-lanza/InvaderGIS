@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_po_nad_s_zavou_1420",
+  "name": "Battle of Poříčí nad Sázavou",
+  "subtype": "battle",
+  "start_year": 1420,
+  "end_year": 1420,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q11156164"
+    }
+  },
+  "description": "Battle during Hussite Wars (1420)",
+  "coords": [
+    14.684,
+    49.8432
+  ]
+}

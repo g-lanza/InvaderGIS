@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_alc_cer_do_sal_1217_c01",
+  "statement": "Siege of Alcácer do Sal (1217 CE), at Alcácer do Sal (part of Fifth Crusade).",
+  "subject_ids": [
+    "kingdom_of_portugal"
+  ],
+  "period": {
+    "from": 1217,
+    "to": 1217
+  },
+  "derived_from": "wd_siege_of_alc_cer_do_sal_1217",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,53 @@
+{
+ "kind": "ruler",
+ "dataset": "medieval-europe-500-1500",
+ "id": "frederick_i_barbarossa",
+ "name": "Frederick I Barbarossa",
+ "polity": "holy_roman_empire",
+ "title": "emperor",
+ "reign_start": 1155,
+ "reign_end": 1190,
+ "_quarry": {
+  "lifespan": {
+   "birth_year": 1122,
+   "death_year": 1190
+  },
+  "entity_associations": [
+   {
+    "entity_id": "holy_roman_empire",
+    "role": "emperor",
+    "start_year": 1155,
+    "end_year": 1190
+   }
+  ],
+  "key_actions": [
+   {
+    "year": 1158,
+    "event": "Diet of Roncaglia — claims absolute imperial authority in northern Italy."
+   },
+   {
+    "year": 1167,
+    "event": "Italian League routs imperial army; Lombard cities effectively independent."
+   },
+   {
+    "year": 1183,
+    "event": "Treaty of Constance recognizes Lombard city-state autonomy."
+   },
+   {
+    "year": 1190,
+    "event": "Drowns in Saleph river en route to Third Crusade."
+   }
+  ],
+  "region": "central_europe",
+  "name_variants": []
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "bartlett_making_of_europe_1993",
+   "ims_fordham",
+   "ims_fordham_sbook1l"
+  ],
+  "confidence": "low"
+ }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_bede_writes_history_731_c02",
+  "statement": "Bede's careful use of sources and chronological precision established the conventions of medieval historiography.",
+  "subject_ids": [
+    "kingdom_of_northumbria"
+  ],
+  "period": {
+    "from": 731,
+    "to": 731
+  },
+  "derived_from": "bede_writes_history_731",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

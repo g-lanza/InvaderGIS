@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "magyars",
+  "name": "Székesfehérvár",
+  "entity_id": "magyars",
+  "entity_name": "Magyars",
+  "start_year": 700,
+  "end_year": 1000,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2899771"
+    }
+  },
+  "coords": [
+    18.41081,
+    47.19102
+  ]
+}

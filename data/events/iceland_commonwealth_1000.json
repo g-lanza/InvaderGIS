@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "iceland_commonwealth_1000",
+  "name": "Iceland Adopts Christianity",
+  "year": 1000,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    64,
+    -19
+  ],
+  "entity": "iceland_commonwealth",
+  "summary": "The Althing voted to adopt Christianity as the official religion of Iceland in 1000 CE, a decision attributed to the lawspeaker Þorgeir Ljósvetningagoði. The pragmatic compromise allowed private pagan practice to continue, reflecting the Icelandic tradition of consensus and legal flexibility.",
+  "outcomes": [
+    "christianity_adopted",
+    "pagan_practices_tolerated",
+    "norwegian_pressure_resolved"
+  ],
+  "_quarry": {
+    "participants": [
+      "iceland_commonwealth"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

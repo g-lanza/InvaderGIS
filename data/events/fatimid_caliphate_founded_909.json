@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "fatimid_caliphate_founded_909",
+  "name": "Founding of the Fatimid Caliphate",
+  "year": 909,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    36.8,
+    10.18
+  ],
+  "entity": "fatimid_caliphate",
+  "summary": "Ubayd Allah al-Mahdi Billah, claiming descent from the Prophet Muhammad through his daughter Fatima and the imams, leads the Kutama Berber army to conquer the Aghlabid emirate of Tunisia, proclaiming himself caliph and founding the Fatimid dynasty. The Fatimids represent a direct Ismaili Shia challenge to Sunni Abbasid legitimacy, presenting themselves as the true heirs of Islamic leadership. From their Tunisian base, they subsequently conquer Egypt (969), founding Cairo (al-Qahira, 'the Victorious') and the Al-Azhar mosque and university.",
+  "outcomes": [
+    "shi_a_caliphate_established",
+    "north_africa_conquered",
+    "rival_caliphate_challenges_abbasids"
+  ],
+  "_quarry": {
+    "participants": [
+      "fatimid_caliphate",
+      "abbasid_caliphate"
+    ],
+    "structural_significance": "Creates the most powerful Shia dynasty in Islamic history; the split of the Muslim world between Abbasid Baghdad and Fatimid Cairo (and Umayyad Córdoba) represents a three-way fracture in the caliphate ideal; Fatimid Egypt becomes a center of Ismaili culture and learning; the Fatimids' trade networks connect the Mediterranean to India and the East African coast",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "brett_the_2001",
+      "daftary_the_1990",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

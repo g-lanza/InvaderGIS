@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_fraga_1134",
+  "name": "Battle of Fraga",
+  "year": 1134,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.35,
+    -2.45
+  ],
+  "entity": "almoravid_emirate_iberia",
+  "summary": "Battle of Fraga (1134 CE), at Fraga (part of Almoravid conquest of al-Andalus). Source: Wikidata Q1369629.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "almoravid_emirate_iberia",
+      "kingdom_of_aragon"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_the_2004",
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

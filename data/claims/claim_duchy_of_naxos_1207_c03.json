@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_duchy_of_naxos_1207_c03",
+  "statement": "The Duchy of Naxos maintained Venetian trade interests and Latin culture in the Greek islands.",
+  "subject_ids": [
+    "duchy_of_naxos"
+  ],
+  "period": {
+    "from": 1207,
+    "to": 1207
+  },
+  "derived_from": "duchy_of_naxos_1207",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

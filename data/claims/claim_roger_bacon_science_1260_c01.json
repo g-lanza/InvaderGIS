@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_roger_bacon_science_1260_c01",
+  "statement": "Roger Bacon was a Franciscan friar active at Oxford and Paris who advocated systematic empirical observation, mathematics, and experimentation.",
+  "subject_ids": [
+    "kingdom_of_england"
+  ],
+  "period": {
+    "from": 1268,
+    "to": 1268
+  },
+  "derived_from": "roger_bacon_science_1260",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

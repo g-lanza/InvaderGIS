@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ottoman_battle_manzikert_successor_1396",
+  "name": "Battle of Nicopolis",
+  "year": 1396,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    43.7,
+    24.9
+  ],
+  "entity": "ottoman_empire",
+  "summary": "Sultan Bayezid I destroys a massive crusading army of Hungarian, French, English, and Burgundian knights at the Battle of Nicopolis. The defeat ends serious Western European hopes of reversing Ottoman gains in the Balkans. Sigismund of Hungary barely escapes; thousands of prisoners are executed. The victory accelerates Ottoman expansion and the fall of Constantinople becomes a matter of time.",
+  "outcomes": [
+    "crusade_destroyed",
+    "sigismund_flees",
+    "ottoman_balkans_secured"
+  ],
+  "_quarry": {
+    "participants": [
+      "ottoman_empire"
+    ],
+    "structural_significance": "Ends the last major crusading effort against the Ottomans; Bayezid's own defeat by Timur at Ankara (1402) temporarily delays Constantinople's fall; demonstrates that European heavy cavalry cannot defeat Ottoman combined arms.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

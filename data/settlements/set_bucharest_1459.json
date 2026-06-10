@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_bucharest_1459",
+  "name": "Bucharest",
+  "importance": "city",
+  "start_year": 1459,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q19660"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    26.0978,
+    44.4134
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conversion_of_lithuania_1387",
+  "name": "Baptism of Lithuania",
+  "year": 1387,
+  "type": "religious",
+  "category": "religion",
+  "coords": [
+    54.68,
+    25.27
+  ],
+  "entity": "grand_duchy_of_lithuania",
+  "summary": "Grand Duke Jogaila of Lithuania, upon marrying Queen Jadwiga of Poland (creating the Polish-Lithuanian union of Krewo 1385), accepts Catholic baptism and converts his domains to Christianity. Lithuania becomes the last pagan kingdom in Europe to convert, three centuries after Poland, Russia, and Hungary. Jogaila, baptized Władysław II, oversees the mass baptism of Lithuanian nobles and commoners, replacing Baltic polytheism with Christianity. The Teutonic Order, whose crusading raison d'être was the conversion of pagan Lithuania, loses its justification.",
+  "outcomes": [
+    "last_pagan_kingdom_converts",
+    "jagiellonian_dynasty_legitimized",
+    "teutonic_order_mission_ended"
+  ],
+  "_quarry": {
+    "participants": [
+      "grand_duchy_of_lithuania",
+      "kingdom_of_poland_jagiellonian",
+      "papal_states"
+    ],
+    "structural_significance": "Ends the last pagan state in Europe; the Polish-Lithuanian union created by this conversion becomes a major geopolitical force; deprives the Teutonic Order of its crusading mission, accelerating its political decline; leads directly to the Battle of Grunwald (1410) where the united Polish-Lithuanian army defeats the Teutonic Knights",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "rowell_lithuania_1994",
+      "christiansen_the_1997"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

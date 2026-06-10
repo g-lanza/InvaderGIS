@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "chalukya_pulakesi_defeats_harsha_641",
+  "name": "Pulakesi II Defeats Emperor Harsha",
+  "year": 641,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    17.38,
+    74.781
+  ],
+  "entity": "chalukya_empire",
+  "summary": "Pulakesi II of the Chalukya dynasty halted the expansion of Emperor Harsha of Kanauj at the Narmada River, preventing unification of all India. The Chinese pilgrim Xuanzang documented the event, noting Pulakesi's fame throughout Asia.",
+  "outcomes": [
+    "harsha_stopped",
+    "deccan_independent",
+    "chalukya_prestige_peak"
+  ],
+  "_quarry": {
+    "participants": [
+      "chalukya_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_varangian_rus_founded_862_c01",
+  "statement": "According to the Primary Chronicle, Slavic and Finnish tribes invited the Varangian leader Rurik to rule Novgorod in 862.",
+  "subject_ids": [
+    "kievan_rus"
+  ],
+  "period": {
+    "from": 862,
+    "to": 862
+  },
+  "derived_from": "varangian_rus_founded_862",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "franklin_the_1996",
+      "riasanovsky_a_2000",
+      "martin_medieval_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_the_meander_1147_c01",
+  "statement": "Battle of the Meander (1147 CE), at Great Menderes River (part of Second Crusade).",
+  "subject_ids": [
+    "sultanate_of_rum"
+  ],
+  "period": {
+    "from": 1147,
+    "to": 1147
+  },
+  "derived_from": "wd_battle_of_the_meander_1147",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

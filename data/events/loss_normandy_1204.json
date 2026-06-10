@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "loss_normandy_1204",
+  "name": "Loss of Normandy",
+  "year": 1204,
+  "type": "conquest",
+  "category": "violence",
+  "coords": [
+    49.44,
+    1.1
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Philip II of France exploits King John's legal difficulties (John has murdered his nephew Arthur of Brittany) to declare John's French fiefs forfeit and systematically conquers them. Normandy, Anjou, Maine, and Touraine fall in a rapid campaign; Rouen, the duchy's capital, surrenders in June 1204. John retreats to England. The duchy that William the Conqueror brought to England in 1066 is lost after 138 years. The Norman aristocracy, forced to choose between their English and French lands, largely becomes French; the two realms begin diverging culturally and linguistically.",
+  "outcomes": [
+    "john_loses_normandy",
+    "rouen_falls_to_france",
+    "angevin_continental_empire_collapses"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "kingdom_of_france",
+      "duchy_of_normandy"
+    ],
+    "structural_significance": "Removes the primary driver of Anglo-French conflict for a century; transforms England from an Anglo-Norman realm into a more distinctly English one; accelerates the development of English national identity and the decline of French as England's prestige language; creates the conditions for the Hundred Years' War when England attempts to recover these lost territories",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

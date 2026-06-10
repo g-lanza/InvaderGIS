@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "synod_pavia_1160",
+  "name": "Synod of Pavia 1160",
+  "year": 1160,
+  "type": "religious_council",
+  "category": "religion",
+  "coords": [
+    45.19,
+    9.16
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "The Synod of Pavia (February 1160), convened by Holy Roman Emperor Frederick Barbarossa, is packed with Italian and German bishops to settle the disputed papal election of 1159: Alexander III (supported by France, England, and most of Christendom) versus Victor IV (Barbarossa's candidate, supported by the empire). The synod declares Victor IV legitimate. Alexander III excommunicates both Victor IV and Barbarossa. The resulting schism lasts 18 years (1159–1177) with four successive imperial antipopes; it ends at the Peace of Venice (1177) when Barbarossa publicly submits to Alexander III after his defeat at Legnano (1176).",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "papal_states"
+    ],
+    "structural_significance": "Opens the 18-year papal schism between Alexander III and Barbarossa's antipopes; the schism aligns the Lombard communes with Alexander against Barbarossa; Alexander III's ultimate victory at the Peace of Venice (1177) and Lateran III (1179) represents the high point of papal authority over the Empire",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

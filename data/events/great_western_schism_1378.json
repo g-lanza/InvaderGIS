@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "great_western_schism_1378",
+  "name": "Great Western Schism",
+  "year": 1378,
+  "type": "religious",
+  "category": "religion",
+  "coords": [
+    41.9,
+    12.45
+  ],
+  "entity": "papal_states",
+  "summary": "Disputed election produces two rival popes, Urban VI in Rome and Clement VII in Avignon, each backed by competing royal courts. A third claimant emerges from the Council of Pisa in 1409. The Council of Constance ends the schism in 1417 with the election of Martin V.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "papal_states",
+      "holy_roman_empire",
+      "kingdom_of_france",
+      "kingdom_of_england"
+    ],
+    "structural_significance": "Permanently undermines the late-medieval doctrine of papal mon-archy; the conciliarist movement gains ground; Bohemian (Hussite) and English (Lollard) reformers exploit the discredit.",
+    "year_range": [
+      1378,
+      1417
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

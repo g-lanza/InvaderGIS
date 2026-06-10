@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "lollard_movement_1382",
+  "name": "Wycliffe's Bible and the Lollard Movement",
+  "year": 1382,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    51.5,
+    -0.12
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "John Wycliffe oversees the first complete English translation of the Bible (completed c. 1382-1395) and proposes radical theological reforms: the Bible alone as religious authority, rejection of transubstantiation, and disendowment of the wealthy Church. His followers (called Lollards) spread his ideas through preaching and manuscript distribution. The Lollard movement survives underground despite persecution and directly influences Jan Hus in Bohemia.",
+  "outcomes": [
+    "first_english_bible_translation",
+    "lollard_heresy_condemned",
+    "lay_bible_reading_demanded"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "papal_states"
+    ],
+    "structural_significance": "Wycliffe's program is a rehearsal for the Protestant Reformation, sola scriptura, lay reading, anti-clerical criticism of Church wealth; the English Bible's creation makes scripture accessible without clerical mediation; the Lollard movement's survival demonstrates that popular religious dissent could not be entirely suppressed; Wycliffe's theological influence reaches Hus through the Czech students who study at Oxford, creating the direct connection between English and Bohemian reform",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

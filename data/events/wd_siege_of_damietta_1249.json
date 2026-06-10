@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_damietta_1249",
+  "name": "Siege of Damietta",
+  "year": 1249,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41.45,
+    15.35
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Siege of Damietta (1249 CE), at Damietta (part of Seventh Crusade). Source: Wikidata Q1876031.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "knights_hospitaller_rhodes"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

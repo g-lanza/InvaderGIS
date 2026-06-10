@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_ilkhanate_mamluk_rivalry",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "ilkhanate",
+      "role": "rival"
+    },
+    {
+      "entity_id": "mamluk_sultanate",
+      "role": "rival"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 1260,
+  "until": 1335,
+  "note": "The Mamluks' victory at Ain Jalut (1260) halted the Mongol advance into Africa; intermittent warfare continued for decades, with the Ilkhanate repeatedly attempting to break through the Mamluk defensive line in Syria. The Ilkhans briefly allied with Crusaders and the Armenians against the Mamluks.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The sustained Ilkhanate-Mamluk frontier conflict (1260–1323) prevented Mongol reunification of the Islamic heartlands and protected the Mamluk agricultural base in Egypt and Syria from the steppe military model that had destroyed every other opposing army; Ain Jalut proved replicable, and the Mamluk defensive system became the template for containing nomadic military power."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "jackson_the_2005",
+      "amitai-preiss_mongols_1995",
+      "irwin_the_1986",
+      "northrup_from_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

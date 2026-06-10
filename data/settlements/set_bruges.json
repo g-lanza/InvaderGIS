@@ -1,0 +1,22 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_bruges",
+  "name": "Bruges",
+  "importance": "city",
+  "start_year": 1000,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "end_confidence": "low",
+  "coords": [
+    3.224,
+    51.209
+  ]
+}

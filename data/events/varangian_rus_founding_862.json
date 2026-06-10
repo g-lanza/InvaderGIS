@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "varangian_rus_founding_862",
+  "name": "Founding of Kievan Rus",
+  "year": 862,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    58.5,
+    31.3
+  ],
+  "entity": "kievan_rus",
+  "summary": "According to the Primary Chronicle, the Slavic and Finnic tribes of Novgorod invite the Varangian chieftain Rurik to rule them, establishing the Rurikid dynasty. Whether this represents historical fact or origin myth, Norse-Slavic integration in the 9th century creates the political structure that becomes Kievan Rus under Oleg, who captures Kiev around 882.",
+  "outcomes": [
+    "rurik_dynasty_founded",
+    "novgorod_established",
+    "norse_slavic_synthesis"
+  ],
+  "_quarry": {
+    "participants": [
+      "kievan_rus"
+    ],
+    "structural_significance": "Creates the Rurikid dynasty that rules Rus until 1598; the Norse-Slavic synthesis produces a unique civilization that becomes the ancestor of Russia, Ukraine, and Belarus; the trade route from Scandinavia to Byzantium (Varangian route) drives early development.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "franklin_the_1996",
+      "riasanovsky_a_2000",
+      "martin_medieval_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

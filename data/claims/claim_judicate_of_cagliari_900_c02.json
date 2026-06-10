@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_judicate_of_cagliari_900_c02",
+  "statement": "The Judicate of Cagliari controlled the most fertile agricultural land of Sardinia and maintained trade relations with Pisa and Genoa.",
+  "subject_ids": [
+    "judicate_of_cagliari"
+  ],
+  "period": {
+    "from": 900,
+    "to": 900
+  },
+  "derived_from": "judicate_of_cagliari_900",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "despotate_of_dobruja_1388",
+  "name": "Dobruja Falls to Ottomans",
+  "year": 1388,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    42.285,
+    28.685
+  ],
+  "entity": "despotate_of_dobruja",
+  "summary": "The Ottoman Empire absorbed the Despotate of Dobruja around 1388 CE, eliminating one of the last independent successor states in the Black Sea region. The conquest gave the Ottomans control of the Danube delta and prepared the ground for their later campaigns against Bulgaria, Wallachia, and eventually Constantinople.",
+  "outcomes": [
+    "ottoman_expansion",
+    "black_sea_coast_secured",
+    "bulgar_buffer_eliminated"
+  ],
+  "_quarry": {
+    "participants": [
+      "despotate_of_dobruja",
+      "ottoman_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

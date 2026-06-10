@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_al_atharib_1130",
+  "name": "Battle of al-Atharib",
+  "year": 1130,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    34,
+    35.7
+  ],
+  "entity": "kingdom_of_jerusalem",
+  "summary": "Battle of al-Atharib (1130 CE), at Atarib (part of Crusader battles between 1101 and 1145). Source: Wikidata Q113549056.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_jerusalem",
+      "principality_of_antioch"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

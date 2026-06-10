@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_castillon_1453",
+  "name": "Battle of Castillon",
+  "year": 1453,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    44.85,
+    -0.03
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "The last major engagement of the Hundred Years' War, fought on July 17, 1453 near Castillon-la-Bataille in Gascony. John Talbot, Earl of Shrewsbury, leads an English relief force to lift the French siege. Despite advice to wait, the 80-year-old Talbot charges the French fortified camp defended by artillery under Jean Bureau. The French guns devastate the English cavalry; Talbot is killed when his horse is shot under him. The English lose Bordeaux weeks later, ending 300 years of Plantagenet rule in Aquitaine. Only Calais remains of the vast English territories in France.",
+  "outcomes": [
+    "english_army_annihilated",
+    "talbot_killed",
+    "hundred_years_war_effectively_ended"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "kingdom_of_england"
+    ],
+    "structural_significance": "Effectively ends the Hundred Years' War; English control of France reduced to Calais (lost 1558); demonstrates the supremacy of gunpowder artillery over medieval cavalry; the fall of Bordeaux creates the English national sense of humiliation that contributes to the Wars of the Roses beginning the same year",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

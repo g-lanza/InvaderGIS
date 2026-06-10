@@ -1,0 +1,341 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kimek_kipchak_khaganate",
+  "name_primary": "Kimek-Kipchak khaganate",
+  "name_variants": [],
+  "type": "kingdom",
+  "region": "central_asia",
+  "formed": 750,
+  "dissolved": 1220,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    51.3709,
+    77.2288
+  ],
+  "population_estimates": [
+    {
+      "year": 950,
+      "estimate": 700000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2477776",
+          "url": "https://www.wikidata.org/wiki/Q2477776",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kimek-Kipchak khaganate",
+          "url": "https://en.wikipedia.org/wiki/Kimek%E2%80%93Kipchak_confederation"
+        }
+      ]
+    },
+    {
+      "year": 1025,
+      "estimate": 850000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2477776",
+          "url": "https://www.wikidata.org/wiki/Q2477776",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kimek-Kipchak khaganate",
+          "url": "https://en.wikipedia.org/wiki/Kimek%E2%80%93Kipchak_confederation"
+        }
+      ]
+    },
+    {
+      "year": 1100,
+      "estimate": 1000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2477776",
+          "url": "https://www.wikidata.org/wiki/Q2477776",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kimek-Kipchak khaganate",
+          "url": "https://en.wikipedia.org/wiki/Kimek%E2%80%93Kipchak_confederation"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Turkic confederation (9th–11th c.) controlling the western steppe from the Irtish to the Ural; the Kimek khaganate's breakup produced the Kipchak/Cuman confederacy that dominated the Pontic steppe until Mongol conquest (1237), while Kipchak warrior elites were recruited as slave soldiers by the Abbasids, Ayyubids, and eventually became the Mamluk sultanate that defeated the Mongols at Ain Jalut.",
+  "temporal": {
+    "start_year": 750,
+    "end_year": 1220,
+    "notes": "Turkic confederation of the western steppe (9th-11th c.) preceding the Cuman-Kipchak phase; collapsed under Cuman pressure."
+  },
+  "geographic": {
+    "centroid": [
+      51.3709,
+      77.2288
+    ],
+    "polygon_simplified": [
+      [
+        [
+          48.6089,
+          99.8687
+        ],
+        [
+          46.6498,
+          79.1337
+        ],
+        [
+          46.3889,
+          74.8379
+        ],
+        [
+          45.8635,
+          73.5744
+        ],
+        [
+          42.7916,
+          69.6576
+        ],
+        [
+          47.209,
+          61.6342
+        ],
+        [
+          48.8814,
+          61.9593
+        ],
+        [
+          51.0842,
+          55.7543
+        ],
+        [
+          51.1498,
+          55.0619
+        ],
+        [
+          57.1977,
+          55.7091
+        ],
+        [
+          57.137,
+          55.9774
+        ],
+        [
+          56.4318,
+          59.0943
+        ],
+        [
+          56.4102,
+          59.19
+        ],
+        [
+          55.0466,
+          65.3116
+        ],
+        [
+          56.4102,
+          78.3622
+        ],
+        [
+          56.4846,
+          93.7
+        ],
+        [
+          55.5188,
+          98.3845
+        ],
+        [
+          48.6089,
+          99.8687
+        ]
+      ]
+    ]
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "formation",
+      "years": "743-850",
+      "description": "Kimek confederation emerged on the Irtysh River after the collapse of the Western Turkic Khaganate.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2477776",
+          "url": "https://www.wikidata.org/wiki/Q2477776"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kimek-Kipchak khaganate",
+          "url": "https://en.wikipedia.org/wiki/Kimek%E2%80%93Kipchak_confederation"
+        }
+      ]
+    },
+    {
+      "phase": "peak",
+      "years": "850-1100",
+      "description": "Kimek-Kipchak federation dominated the western steppes from Siberia to the Aral Sea.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2477776",
+          "url": "https://www.wikidata.org/wiki/Q2477776"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kimek-Kipchak khaganate",
+          "url": "https://en.wikipedia.org/wiki/Kimek%E2%80%93Kipchak_confederation"
+        }
+      ]
+    },
+    {
+      "phase": "fragmentation",
+      "years": "1100-1204",
+      "description": "Federation fragmented under Cuman pressure from the west and Mongol pressure from the east; absorbed into Mongol Empire.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2477776",
+          "url": "https://www.wikidata.org/wiki/Q2477776"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kimek-Kipchak khaganate",
+          "url": "https://en.wikipedia.org/wiki/Kimek%E2%80%93Kipchak_confederation"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "mobility_advantage",
+      "layer": "military_security",
+      "description": "Nomadic horse archers gave the Kimek military advantages over sedentary neighbours.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2477776",
+          "url": "https://www.wikidata.org/wiki/Q2477776"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kimek-Kipchak khaganate",
+          "url": "https://en.wikipedia.org/wiki/Kimek%E2%80%93Kipchak_confederation"
+        }
+      ],
+      "tag_prose": "steppe_cavalry"
+    },
+    {
+      "tag": "trade_route_control",
+      "layer": "economic_commercial",
+      "description": "Northern steppe and taiga access provided valuable fur exports to Islamic markets.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2477776",
+          "url": "https://www.wikidata.org/wiki/Q2477776"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kimek-Kipchak khaganate",
+          "url": "https://en.wikipedia.org/wiki/Kimek%E2%80%93Kipchak_confederation"
+        }
+      ],
+      "tag_prose": "fur_trade"
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "external_military_pressure",
+      "layer": "military_security",
+      "description": "Mongol expansion under Genghis Khan's campaigns absorbed the Kipchak confederation completely.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2477776",
+          "url": "https://www.wikidata.org/wiki/Q2477776"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kimek-Kipchak khaganate",
+          "url": "https://en.wikipedia.org/wiki/Kimek%E2%80%93Kipchak_confederation"
+        }
+      ],
+      "tag_prose": "mongol_conquest"
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Imak",
+      "role": "legendary_founder",
+      "years": "743–800",
+      "year_start": 743,
+      "year_end": 800,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Imak",
+          "url": "https://en.wikipedia.org/wiki/North_East_Independent_School_District"
+        }
+      ]
+    }
+  ],
+  "economic": {
+    "primary_base": "pastoralism",
+    "secondary_bases": [
+      "fur_trade",
+      "horse_breeding",
+      "raiding"
+    ],
+    "wealth_level": "moderate",
+    "major_exports": [
+      "furs",
+      "horses",
+      "cattle",
+      "slaves"
+    ],
+    "major_trade_partners": [
+      "abbasid_caliphate",
+      "kievan_rus",
+      "khazar_khaganate"
+    ],
+    "revenue_sources": [
+      "trade_fees",
+      "tribute_from_subject_tribes",
+      "pastoral_surplus"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q2477776",
+        "url": "https://www.wikidata.org/wiki/Q2477776"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Kimek-Kipchak khaganate",
+        "url": "https://en.wikipedia.org/wiki/Kimek%E2%80%93Kipchak_confederation"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q2477776",
+    "matched_name": "manual/kimek_kipchak_khaganate",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Kimek%E2%80%93Kipchak_confederation",
+    "capital": {
+      "name": "Imakia"
+    }
+  },
+  "monogram": "KK"
+}

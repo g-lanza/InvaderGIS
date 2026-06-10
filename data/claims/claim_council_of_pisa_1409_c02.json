@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_council_of_pisa_1409_c02",
+  "statement": "After the Council of Pisa the Western Schism had three rival papal claimants until the Council of Constance.",
+  "subject_ids": [
+    "papal_states"
+  ],
+  "period": {
+    "from": 1409,
+    "to": 1409
+  },
+  "derived_from": "council_of_pisa_1409",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morris_papal_monarchy_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

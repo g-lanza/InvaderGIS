@@ -1,0 +1,22 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_cambridge",
+  "name": "Cambridge",
+  "importance": "town",
+  "start_year": 1209,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "end_confidence": "low",
+  "coords": [
+    0.121,
+    52.205
+  ]
+}

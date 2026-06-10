@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_kent_597",
+  "name": "Augustine's Mission to Kent",
+  "year": 597,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    51.28,
+    0.52
+  ],
+  "entity": "kingdom_of_kent",
+  "summary": "Pope Gregory I's missionary Augustine landed in Kent in 597 CE and was received by King Æthelberht, who converted to Christianity. The establishment of Canterbury as the primacy of the English Church made Kent central to English religious history, a position it retains as the seat of the Archbishop of Canterbury.",
+  "outcomes": [
+    "english_christianity_begins",
+    "canterbury_established",
+    "papal_connection"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_kent"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

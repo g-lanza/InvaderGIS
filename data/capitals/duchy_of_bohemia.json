@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_bohemia",
+  "name": "Prague",
+  "entity_id": "duchy_of_bohemia",
+  "entity_name": "Duchy of Bohemia",
+  "start_year": 870,
+  "end_year": 1198,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2162698"
+    }
+  },
+  "coords": [
+    14.42139,
+    50.0875
+  ]
+}

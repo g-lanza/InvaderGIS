@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_st_lucias_flood_1287_c02",
+  "statement": "The 1287 flood enlarged the Zuiderzee, drowned the Lauwers, and reshaped the coastline of what becomes the Netherlands.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1287,
+    "to": 1287
+  },
+  "derived_from": "st_lucias_flood_1287",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "campbell_great_transition_2016"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

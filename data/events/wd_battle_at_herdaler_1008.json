@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_at_herdaler_1008",
+  "name": "Battle at Herdaler",
+  "year": 1008,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    60.5,
+    8.5
+  ],
+  "entity": "kingdom_of_norway",
+  "summary": "Battle at Herdaler (1008 CE), at Ingå. Source: Wikidata Q4870135.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_norway"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_the_1997",
+      "helle_the_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

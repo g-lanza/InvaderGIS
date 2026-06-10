@@ -1,0 +1,76 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_alans_370_1306",
+  "name": "Alans — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 370,
+  "year_end": 1306,
+  "waypoints": [
+    {
+      "year": 370,
+      "place": "Alans Defeated by Huns",
+      "coords": [
+        47.49,
+        28.309
+      ],
+      "note": "military",
+      "event_id": "alans_370"
+    },
+    {
+      "year": 409,
+      "place": "Alans Cross into Iberia",
+      "coords": [
+        47.49,
+        28.309
+      ],
+      "note": "military",
+      "event_id": "alans_409"
+    },
+    {
+      "year": 550,
+      "place": "Battle of the Hippus",
+      "coords": [
+        44.245,
+        28.6045
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_the_hippus_550"
+    },
+    {
+      "year": 1303,
+      "place": "Battle of the Cyzicus",
+      "coords": [
+        44.245,
+        28.6045
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_the_cyzicus_1303"
+    },
+    {
+      "year": 1304,
+      "place": "Battle of Aulax",
+      "coords": [
+        44.245,
+        28.6045
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_aulax_1304"
+    },
+    {
+      "year": 1306,
+      "place": "Battle of Mont Hemus",
+      "coords": [
+        47.49,
+        28.309
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_mont_hemus_1306"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,21 @@
+{
+ "kind": "text",
+ "id": "book_of_common_prayer",
+ "name_primary": "The Book of Common Prayer",
+ "author": "Church of England",
+ "language": "English",
+ "composed": {
+  "place": "England",
+  "year": 1549
+ },
+ "tradition": "legal_code",
+ "provenance": {
+  "sources_used": [
+   "fordham:sbook1y"
+  ],
+  "confidence": "high",
+  "attestation": "linked texts from 1549, 1552, and 1662 editions"
+ },
+ "dataset": "fordham-medieval-sourcebook",
+ "_fordham_index": "sbook1y"
+}

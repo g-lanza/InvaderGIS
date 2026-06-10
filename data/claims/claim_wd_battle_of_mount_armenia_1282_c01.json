@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_mount_armenia_1282_c01",
+  "statement": "Battle of Mount Armenia (1282 CE), at Hamzabey (part of Byzantine–Ottoman wars).",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 1282,
+    "to": 1282
+  },
+  "derived_from": "wd_battle_of_mount_armenia_1282",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

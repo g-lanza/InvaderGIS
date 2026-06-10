@@ -1,0 +1,24 @@
+{
+ "kind": "text",
+ "id": "law_hywel",
+ "name_primary": "The Law of Hywel",
+ "author": "Hywel ap Cadell",
+ "language": "Welsh",
+ "composed": {
+  "place": "Wales",
+  "year": 950
+ },
+ "tradition": "legal_code",
+ "provenance": {
+  "sources_used": [
+   "ims_fordham",
+   "ims_fordham_sbook1g"
+  ],
+  "confidence": "high",
+  "attestation": "web resource linked; prevailed in Wales until 1536",
+  "status": "draft"
+ },
+ "dataset": "medieval-europe-500-1500",
+ "_fordham_index": "sbook1g",
+ "from_sourcebook": true
+}

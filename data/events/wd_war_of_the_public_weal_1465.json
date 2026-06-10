@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_war_of_the_public_weal_1465",
+  "name": "War of the Public Weal",
+  "year": 1465,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    46.5,
+    2.5
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "War of the Public Weal (1465 CE). Source: Wikidata Q112762735.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

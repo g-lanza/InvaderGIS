@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "siege_jerusalem_1099",
+  "name": "Siege of Jerusalem",
+  "year": 1099,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    31.78,
+    35.23
+  ],
+  "entity": "kingdom_of_jerusalem",
+  "summary": "After crossing the Egyptian-controlled desert and spending a month without water supplies, the First Crusade assaults Jerusalem (July 15, 1099). The city is captured in a single day's fighting; the subsequent massacre of the Muslim and Jewish population shocks even contemporaries. Godfrey of Bouillon becomes the first ruler of Jerusalem, taking the title 'Advocate of the Holy Sepulchre' rather than 'king' out of deference. The capture fulfills Pope Urban II's call at Clermont (1095) and creates the Kingdom of Jerusalem.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_jerusalem"
+    ],
+    "structural_significance": "Fulfills the First Crusade's objective; creates the Kingdom of Jerusalem; the massacre damages relations between the Crusader states and their neighbors; establishes the template for Crusader state governance",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

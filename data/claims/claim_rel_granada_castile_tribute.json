@@ -1,0 +1,30 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_granada_castile_tribute",
+  "statement": "The Nasrid Emirate of Granada paid tribute (parias) to Castilian kings periodically throughout the 14th and 15th centuries, a tributary relationship that was interrupted by periods of conflict. Muhammad I, founder of the Nasrid dynasty (1232), had allied with Ferdinand III of Castile against the Almohads, accepting vassal status in exchange for survival. The tributary relationship allowed Granada to survive as a Muslim enclave for 260 years, providing Castile with revenue without the cost of outright conquest. The tribute payments ended when the Catholic Monarchs launched the Granada War (1482).",
+  "subject_ids": [
+    "crown_of_castile",
+    "emirate_of_granada"
+  ],
+  "predicate": "tributary",
+  "derived_from": "rel_granada_castile_tribute",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "o'callaghan_a_1975",
+      "catlos_kingdoms_2018",
+      "harvey_islamic_1990",
+      "fernández-puertas_the_1997"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "emirate_of_granada"
+  ],
+  "period": {
+    "from": 1240,
+    "to": 1492
+  }
+}

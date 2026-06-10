@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_cartagena_1296_c01",
+  "statement": "Siege of Cartagena (1296 CE), at Cartagena (part of Aragonese conquest of the Kingdom of Murcia).",
+  "subject_ids": [
+    "crown_of_aragon"
+  ],
+  "period": {
+    "from": 1296,
+    "to": 1296
+  },
+  "derived_from": "wd_siege_of_cartagena_1296",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_battle_covadonga_722_c02",
+  "statement": "Pelayo became the first king of Asturias, and Covadonga was later proclaimed the beginning of the Reconquista.",
+  "subject_ids": [
+    "kingdom_of_asturias"
+  ],
+  "period": {
+    "from": 722,
+    "to": 722
+  },
+  "derived_from": "battle_covadonga_722",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

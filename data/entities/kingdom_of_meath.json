@@ -1,0 +1,884 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_meath",
+  "name_primary": "Kingdom of Meath",
+  "name_variants": [
+    "Mide"
+  ],
+  "type": "kingdom",
+  "region": "british_isles",
+  "formed": 500,
+  "dissolved": 1172,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 600,
+      "label": "Kingdom of Meath (approx.)",
+      "polygon": [
+        [
+          53.97,
+          -6.11
+        ],
+        [
+          54.07,
+          -5.9
+        ],
+        [
+          54.06,
+          -6
+        ],
+        [
+          54.05,
+          -7
+        ],
+        [
+          54.04,
+          -8
+        ],
+        [
+          53.42,
+          -7.93
+        ],
+        [
+          53,
+          -8.1
+        ],
+        [
+          53.1,
+          -7.5
+        ],
+        [
+          53.3,
+          -7
+        ],
+        [
+          53.4,
+          -6.15
+        ],
+        [
+          53.97,
+          -6.11
+        ]
+      ]
+    },
+    {
+      "year": 800,
+      "label": "Kingdom of Meath (approx.)",
+      "polygon": [
+        [
+          53.97,
+          -6.11
+        ],
+        [
+          54.07,
+          -5.9
+        ],
+        [
+          54.06,
+          -6
+        ],
+        [
+          54.05,
+          -7
+        ],
+        [
+          54.04,
+          -8
+        ],
+        [
+          53.42,
+          -7.93
+        ],
+        [
+          53,
+          -8.1
+        ],
+        [
+          53.1,
+          -7.5
+        ],
+        [
+          53.3,
+          -7
+        ],
+        [
+          53.4,
+          -6.15
+        ],
+        [
+          53.97,
+          -6.11
+        ]
+      ]
+    },
+    {
+      "year": 1000,
+      "label": "Kingdom of Meath (approx.)",
+      "polygon": [
+        [
+          53.97,
+          -6.11
+        ],
+        [
+          54.07,
+          -5.9
+        ],
+        [
+          54.06,
+          -6
+        ],
+        [
+          54.05,
+          -7
+        ],
+        [
+          54.04,
+          -8
+        ],
+        [
+          53.42,
+          -7.93
+        ],
+        [
+          53,
+          -8.1
+        ],
+        [
+          53.1,
+          -7.5
+        ],
+        [
+          53.3,
+          -7
+        ],
+        [
+          53.4,
+          -6.15
+        ],
+        [
+          53.97,
+          -6.11
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    53.65,
+    -6.7
+  ],
+  "religion": "catholic",
+  "population_estimates": [
+    {
+      "year": 750,
+      "estimate": 62999,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2089487",
+          "url": "https://www.wikidata.org/wiki/Q2089487",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Meath",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Meath"
+        }
+      ]
+    },
+    {
+      "year": 900,
+      "estimate": 90000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2089487",
+          "url": "https://www.wikidata.org/wiki/Q2089487",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Meath",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Meath"
+        }
+      ]
+    },
+    {
+      "year": 1050,
+      "estimate": 99000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2089487",
+          "url": "https://www.wikidata.org/wiki/Q2089487",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Meath",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Meath"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low"
+  },
+  "description": "Central Irish kingdom (c. 400–1172) traditionally the seat of the High King at Tara; its sacred geography made it symbolically central to Irish political identity while its flat midland position made it militarily vulnerable, and it was absorbed by the Anglo-Norman lord Hugh de Lacy after Strongbow's intervention.",
+  "temporal": {
+    "start_year": 500,
+    "end_year": 1172,
+    "end_year_within_scope": null,
+    "start_event_id": null,
+    "end_event_id": null,
+    "notes": "Irish fifth province; overlaps High Kingship of Ireland narrative."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      53.65,
+      -6.7
+    ],
+    "core_regions": [
+      "Meath",
+      "Midlands Ireland"
+    ],
+    "polygon_simplified": [
+      [
+        53.97,
+        -6.11
+      ],
+      [
+        54.07,
+        -5.9
+      ],
+      [
+        54.06,
+        -6
+      ],
+      [
+        54.05,
+        -7
+      ],
+      [
+        54.04,
+        -8
+      ],
+      [
+        53.42,
+        -7.93
+      ],
+      [
+        53,
+        -8.1
+      ],
+      [
+        53.1,
+        -7.5
+      ],
+      [
+        53.3,
+        -7
+      ],
+      [
+        53.4,
+        -6.15
+      ],
+      [
+        53.97,
+        -6.11
+      ]
+    ],
+    "notes": "Centroid approximate; polygon pending schematic or OHM sourcing.",
+    "polygon_snapshots": [
+      {
+        "year": 600,
+        "label": "Kingdom of Meath (approx.)",
+        "polygon": [
+          [
+            53.97,
+            -6.11
+          ],
+          [
+            54.07,
+            -5.9
+          ],
+          [
+            54.06,
+            -6
+          ],
+          [
+            54.05,
+            -7
+          ],
+          [
+            54.04,
+            -8
+          ],
+          [
+            53.42,
+            -7.93
+          ],
+          [
+            53,
+            -8.1
+          ],
+          [
+            53.1,
+            -7.5
+          ],
+          [
+            53.3,
+            -7
+          ],
+          [
+            53.4,
+            -6.15
+          ],
+          [
+            53.97,
+            -6.11
+          ]
+        ]
+      },
+      {
+        "year": 800,
+        "label": "Kingdom of Meath (approx.)",
+        "polygon": [
+          [
+            53.97,
+            -6.11
+          ],
+          [
+            54.07,
+            -5.9
+          ],
+          [
+            54.06,
+            -6
+          ],
+          [
+            54.05,
+            -7
+          ],
+          [
+            54.04,
+            -8
+          ],
+          [
+            53.42,
+            -7.93
+          ],
+          [
+            53,
+            -8.1
+          ],
+          [
+            53.1,
+            -7.5
+          ],
+          [
+            53.3,
+            -7
+          ],
+          [
+            53.4,
+            -6.15
+          ],
+          [
+            53.97,
+            -6.11
+          ]
+        ]
+      },
+      {
+        "year": 1000,
+        "label": "Kingdom of Meath (approx.)",
+        "polygon": [
+          [
+            53.97,
+            -6.11
+          ],
+          [
+            54.07,
+            -5.9
+          ],
+          [
+            54.06,
+            -6
+          ],
+          [
+            54.05,
+            -7
+          ],
+          [
+            54.04,
+            -8
+          ],
+          [
+            53.42,
+            -7.93
+          ],
+          [
+            53,
+            -8.1
+          ],
+          [
+            53.1,
+            -7.5
+          ],
+          [
+            53.3,
+            -7
+          ],
+          [
+            53.4,
+            -6.15
+          ],
+          [
+            53.97,
+            -6.11
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "approximate",
+    "polygon_source": "hand_crafted",
+    "polygon_source_date": "2026-05-11",
+    "capital": {
+      "name": "Tara",
+      "coords": [
+        53.58,
+        -6.61
+      ],
+      "source": "curated"
+    }
+  },
+  "internal_structure": {
+    "centralization": "low_to_medium",
+    "centralization_trajectory": null,
+    "governance_type": "dynastic_feudal",
+    "legitimacy_basis": [
+      "inheritance"
+    ],
+    "administrative_system": ""
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "formation",
+      "years": "c.450–700",
+      "description": "Clann Cholmáin establish Meath as a major Irish kingdom.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2089487",
+          "url": "https://www.wikidata.org/wiki/Q2089487"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Meath",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Meath"
+        }
+      ]
+    },
+    {
+      "phase": "peak",
+      "years": "700–1022",
+      "description": "Máel Sechnaill II competes for high-kingship; Meath at maximum influence.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2089487",
+          "url": "https://www.wikidata.org/wiki/Q2089487"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Meath",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Meath"
+        }
+      ]
+    },
+    {
+      "phase": "decline",
+      "years": "1022–1172",
+      "description": "Provincial kingdom; Anglo-Norman conquest.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2089487",
+          "url": "https://www.wikidata.org/wiki/Q2089487"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Meath",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Meath"
+        }
+      ]
+    },
+    {
+      "phase": "dissolution",
+      "years": "1172",
+      "description": "Hugh de Lacy's lordship replaces Meath kingdom.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2089487",
+          "url": "https://www.wikidata.org/wiki/Q2089487"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Meath",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Meath"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "geographic_defensibility",
+      "layer": "geography_territory",
+      "description": "Hill of Tara's symbolic importance as the traditional seat of Irish high kings gave Meath exceptional political prestige.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2089487",
+          "url": "https://www.wikidata.org/wiki/Q2089487"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Meath",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Meath"
+        }
+      ]
+    },
+    {
+      "tag": "resource_concentration",
+      "layer": "economic_commercial",
+      "description": "Meath's fertile central plain was the most agriculturally productive region of Ireland.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2089487",
+          "url": "https://www.wikidata.org/wiki/Q2089487"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Meath",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Meath"
+        }
+      ]
+    },
+    {
+      "tag": "succession_stability",
+      "layer": "dynastic_legitimacy",
+      "description": "Clann Cholmáin maintained Meath kingship for centuries through the Southern Uí Néill.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2089487",
+          "url": "https://www.wikidata.org/wiki/Q2089487"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Meath",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Meath"
+        }
+      ]
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "high_king_seat",
+      "direction": "rise",
+      "description": "Meath contained the Hill of Tara, the traditional inauguration site of the High Kings of Ireland, giving its rulers unique symbolic authority over all of Ireland's lesser kings.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2089487",
+          "url": "https://www.wikidata.org/wiki/Q2089487"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Meath",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Meath"
+        }
+      ]
+    },
+    {
+      "layer": "economic_commercial",
+      "tag": "boyne_valley_fertility",
+      "direction": "rise",
+      "description": "The Boyne Valley's exceptionally fertile soils produced agricultural surpluses that supported a dense population and substantial tribute extraction, funding the elaborate royal site at Tara.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2089487",
+          "url": "https://www.wikidata.org/wiki/Q2089487"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Meath",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Meath"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "internal_fragmentation",
+      "layer": "governance_institutional",
+      "description": "Meath was progressively divided between East and West Meath; Breifne expansion into northern Meath reduced the core territory.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2089487",
+          "url": "https://www.wikidata.org/wiki/Q2089487"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Meath",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Meath"
+        }
+      ]
+    },
+    {
+      "tag": "external_military_pressure",
+      "layer": "military_security",
+      "description": "Anglo-Norman conquest 1172 distributed Meath's lands among Hugh de Lacy and Norman settlers.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2089487",
+          "url": "https://www.wikidata.org/wiki/Q2089487"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Meath",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Meath"
+        }
+      ]
+    },
+    {
+      "tag": "succession_crisis",
+      "layer": "dynastic_legitimacy",
+      "description": "Máel Sechnaill II's death in 1022 ended Meath's national ambitions; later kings were provincial rulers.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2089487",
+          "url": "https://www.wikidata.org/wiki/Q2089487"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Meath",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Meath"
+        }
+      ]
+    },
+    {
+      "layer": "military_security",
+      "tag": "external_military_pressure",
+      "direction": "decline",
+      "description": "Viking raids along the Boyne and Liffey from the 790s repeatedly disrupted Meath's agricultural economy and monastic infrastructure, weakening royal revenues and prestige.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2089487",
+          "url": "https://www.wikidata.org/wiki/Q2089487"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Meath",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Meath"
+        }
+      ],
+      "tag_prose": "viking_raids"
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "uí_néill_decline",
+      "direction": "decline",
+      "description": "The weakening of the Southern Uí Néill dynasty under Brian Boru's pressure and subsequent fragmentation left Meath unable to maintain its traditional dominant position among the provincial kingdoms.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2089487",
+          "url": "https://www.wikidata.org/wiki/Q2089487"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Meath",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Meath"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "person_id": "mael_sechnaill_i",
+      "name": "Máel Sechnaill I",
+      "role": "ruler",
+      "years": "846–862",
+      "year_start": 846,
+      "year_end": 862,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Máel Sechnaill I",
+          "url": "https://en.wikipedia.org/wiki/M%C3%A1el_Sechnaill_mac_M%C3%A1ele_Ruanaid"
+        }
+      ]
+    },
+    {
+      "person_id": "mael_sechnaill_ii",
+      "name": "Máel Sechnaill II",
+      "role": "ruler",
+      "years": "980–1022",
+      "year_start": 980,
+      "year_end": 1022,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Máel Sechnaill II",
+          "url": "https://en.wikipedia.org/wiki/M%C3%A1el_Sechnaill_mac_Domnaill"
+        }
+      ]
+    }
+  ],
+  "predecessor_entity_ids": [
+    "kingdom_of_ireland_high"
+  ],
+  "successor_entity_ids": [
+    "lordship_of_ireland"
+  ],
+  "primary_ethnicity": "celtic",
+  "ethnic_composition": [
+    {
+      "group": "celtic",
+      "proportion": 0.92
+    }
+  ],
+  "religion_composition": [
+    {
+      "religion": "catholic",
+      "proportion": 0.95
+    },
+    {
+      "religion": "pagan",
+      "proportion": 0.05
+    }
+  ],
+  "primary_language": "celtic_lang",
+  "language_composition": [
+    {
+      "language": "celtic_lang",
+      "proportion": 0.88,
+      "role": "vernacular"
+    },
+    {
+      "language": "norse",
+      "proportion": 0.06,
+      "role": "regional"
+    },
+    {
+      "language": "latin",
+      "proportion": 0.06,
+      "role": "liturgical"
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "pastoralism",
+      "tribute"
+    ],
+    "wealth_level": "subsistence",
+    "major_exports": [
+      "cattle",
+      "wool",
+      "grain"
+    ],
+    "major_trade_partners": [
+      "kingdom_of_ireland_high",
+      "kingdom_of_leinster"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "tribute",
+      "tithes"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q2089487",
+        "url": "https://www.wikidata.org/wiki/Q2089487"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Kingdom of Meath",
+        "url": "https://en.wikipedia.org/wiki/Kingdom_of_Meath"
+      }
+    ]
+  },
+  "social_structure": {
+    "ruling_ethnicity": "celtic",
+    "subject_majority": "celtic",
+    "military_ethnicity": "celtic",
+    "administrative_language": "celtic_lang",
+    "stratification_type": "homogeneous"
+  },
+  "wikidata_enrichment": {
+    "qid": "Q2089487",
+    "matched_name": "Kingdom of Meath",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Kingdom_of_Meath",
+    "rulers_from_wikidata": [
+      {
+        "name": "list of Kings of Mide",
+        "qid": "Q659226",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q659226",
+            "url": "https://www.wikidata.org/wiki/Q659226"
+          },
+          {
+            "type": "wikipedia",
+            "label": "list of Kings of Mide",
+            "url": "https://en.wikipedia.org/wiki/List_of_kings_of_Meath"
+          }
+        ]
+      }
+    ],
+    "successors_from_wikidata": [
+      "Lordship of Meath"
+    ]
+  },
+  "sources": [
+    {
+      "type": "book",
+      "author": "Wickham, Chris",
+      "title": "The Inheritance of Rome: A History of Europe from 400 to 1000",
+      "publisher": "Allen Lane",
+      "year": 2009
+    },
+    {
+      "type": "book",
+      "author": "Abulafia, David (ed.)",
+      "title": "The New Cambridge Medieval History, Vol. V: c. 1198 – c. 1300",
+      "publisher": "Cambridge University Press",
+      "year": 1999
+    }
+  ],
+  "monogram": "ME"
+}

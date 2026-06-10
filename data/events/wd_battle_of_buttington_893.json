@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_buttington_893",
+  "name": "Battle of Buttington",
+  "year": 893,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    51.75,
+    -1.75
+  ],
+  "entity": "kingdom_of_mercia",
+  "summary": "Battle of Buttington (893 CE), at Buttington (part of Viking activity in the British Isles). Source: Wikidata Q16822586.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_mercia",
+      "kingdom_of_wessex"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_duchy_of_swabia_1268_c01",
+  "statement": "The death of Conradin, last of the Hohenstaufen, in 1268 ended the Duchy of Swabia as a political unit.",
+  "subject_ids": [
+    "duchy_of_swabia"
+  ],
+  "period": {
+    "from": 1268,
+    "to": 1268
+  },
+  "derived_from": "duchy_of_swabia_1268",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

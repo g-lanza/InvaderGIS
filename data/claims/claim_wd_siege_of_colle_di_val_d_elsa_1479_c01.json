@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_colle_di_val_d_elsa_1479_c01",
+  "statement": "Siege of Colle di Val d'Elsa (1479 CE), at Colle di Val d'Elsa (part of Pazzi War).",
+  "subject_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 1479,
+    "to": 1479
+  },
+  "derived_from": "wd_siege_of_colle_di_val_d_elsa_1479",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

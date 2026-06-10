@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "peace_paris_1229",
+  "name": "Treaty of Paris 1229",
+  "year": 1229,
+  "type": "treaty",
+  "category": "diplomacy",
+  "coords": [
+    48.85,
+    2.35
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "The Treaty of Paris (April 12, 1229), also called the Treaty of Meaux-Paris, ends the Albigensian Crusade. Count Raymond VII of Toulouse surrenders much of his territory directly to the French crown (to be administered by Raymond's daughter's future husband), agrees to actively persecute heretics, demolishes his castles, and pays enormous indemnities. The Inquisition is formally established in Languedoc (1233) to root out remaining Cathars. The treaty integrates Languedoc into the French royal domain; the last Cathar stronghold, Montségur, falls in 1244. Occitanian culture and language are permanently marginalized.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "county_of_toulouse"
+    ],
+    "structural_significance": "Completes the integration of Languedoc into France; establishes the Inquisition as a permanent institution; destroys the Cathar network through systematic persecution; suppresses the brilliant Occitanian troubadour culture that had been the most sophisticated in 12th-century Europe",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "muawiyah_first_caliph_661",
+  "name": "Muawiyah I Founds the Umayyad Caliphate",
+  "year": 661,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    33.5,
+    36.3
+  ],
+  "entity": "umayyad_caliphate",
+  "summary": "After the assassination of Ali ibn Abi Talib, Muawiyah I of the Umayyad family becomes caliph, founding the first hereditary Islamic dynasty and moving the capital from Medina to Damascus. His secular-style governance and bureaucratic efficiency expand Islamic rule but alienate the pious who see the caliphate as departing from prophetic precedent.",
+  "outcomes": [
+    "umayyad_dynasty_begins",
+    "damascus_capital",
+    "caliphate_hereditary"
+  ],
+  "_quarry": {
+    "participants": [
+      "umayyad_caliphate"
+    ],
+    "structural_significance": "The Umayyad caliphate transforms Islam from a tribal confederation into a multi-ethnic empire; Damascus's location accelerates the adoption of Byzantine administrative techniques; the hereditary succession creates the Sunni-Shia split over legitimacy.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_the_2004",
+      "hawting_the_2000",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

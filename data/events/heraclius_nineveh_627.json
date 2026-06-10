@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "heraclius_nineveh_627",
+  "name": "Battle of Nineveh and Byzantine Recovery",
+  "year": 627,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    36.35,
+    43.15
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Emperor Heraclius defeats the Sassanid army at Nineveh in December 627, driving deep into Mesopotamia. Khosrow II is overthrown and murdered by his son, and the Sassanid court sues for peace. Heraclius recovers the True Cross in 628 and enters Jerusalem in triumph, the greatest Byzantine military achievement in centuries. However, the decade of devastating war has exhausted both empires.",
+  "outcomes": [
+    "sassanid_empire_collapses",
+    "true_cross_recovered",
+    "byzantine_triumph_short_lived"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire"
+    ],
+    "structural_significance": "The Byzantine-Sassanid War of 602-628 is the last great war of antiquity; both empires emerge so weakened that they cannot resist the Muslim Arab armies that erupt from Arabia within four years; the True Cross's return briefly restores Byzantine prestige but cannot reverse the structural damage done to the Anatolian tax base",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

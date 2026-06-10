@@ -1,0 +1,35 @@
+{
+ "kind": "event",
+ "dataset": "medieval-europe-500-1500",
+ "id": "domesday_book_1086",
+ "name": "Domesday Book Survey",
+ "year": 1086,
+ "type": "political",
+ "category": "power",
+ "coords": [
+  51.5,
+  -1.3
+ ],
+ "entity": "kingdom_of_england",
+ "summary": "William I orders the most comprehensive administrative survey of any medieval kingdom, completed in a single year. Royal commissioners crisscross every county, interrogating local juries about landholders, their tenants, livestock, and taxable value, first at the time of Edward the Confessor (1066), then at William's accession, and finally in 1086. The resulting two-volume Great Survey (called 'Domesday' by contemporaries because there was no appeal against it, as there will be none on Judgment Day) records roughly 13,000 English place-names and the landholdings of over 1,400 tenants-in-chief.",
+ "outcomes": [
+  "comprehensive_land_survey_completed",
+  "feudal_obligations_codified",
+  "royal_fiscal_control_established"
+ ],
+ "_quarry": {
+  "participants": [
+   "kingdom_of_england"
+  ],
+  "structural_significance": "The definitive instrument of Norman administrative centralization; provides the Crown unprecedented fiscal visibility; establishes the feudal tenure system in legal writing; the Domesday Book remains in active use as a legal document for centuries and survives as the world's most detailed medieval administrative record",
+  "year_range": null
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "ims_fordham",
+   "ims_fordham_sbook1n"
+  ],
+  "confidence": "low"
+ }
+}

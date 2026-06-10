@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "pecheneg_confederation_1091",
+  "name": "Pechenegs Destroyed at Battle of Levounion",
+  "year": 1091,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    43.75,
+    29.45
+  ],
+  "entity": "pecheneg_confederation",
+  "summary": "The Byzantine Emperor Alexios I Komnenos allied with the Cumans to destroy the Pecheneg army at the Battle of Levounion in 1091 CE. Contemporary accounts describe the Pecheneg people being effectively annihilated as a military force in a single day. The Cumans replaced the Pechenegs as the dominant steppe power north of the Black Sea.",
+  "outcomes": [
+    "pechenegs_annihilated",
+    "byzantine_relief",
+    "cumans_replace"
+  ],
+  "_quarry": {
+    "participants": [
+      "pecheneg_confederation",
+      "byzantine_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

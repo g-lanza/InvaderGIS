@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_tudela_1087_c01",
+  "statement": "Siege of Tudela (1087 CE), at Tudela (part of Reconquista).",
+  "subject_ids": [
+    "duchy_of_burgundy"
+  ],
+  "period": {
+    "from": 1087,
+    "to": 1087
+  },
+  "derived_from": "wd_siege_of_tudela_1087",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

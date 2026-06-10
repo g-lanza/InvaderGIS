@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_sack_of_rome_546",
+  "name": "Sack of Rome",
+  "subtype": "battle",
+  "start_year": 546,
+  "end_year": 546,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2628454"
+    }
+  },
+  "description": "Battle during Gothic War of 535–554 (546)",
+  "coords": [
+    12.5,
+    41.9
+  ]
+}

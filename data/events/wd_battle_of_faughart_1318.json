@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_faughart_1318",
+  "name": "Battle of Faughart",
+  "year": 1318,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    54,
+    -4.3333
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Battle of Faughart (1318 CE), at Faughart (part of Bruce campaign in Ireland). Source: Wikidata Q2011697.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "kingdom_of_scotland",
+      "lordship_of_ireland"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

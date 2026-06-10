@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_pisa_sardinia",
+  "statement": "Pisa developed commercial and political interests in Sardinia beginning in the 11th century, competing with Genoa for influence over the four indigenous giudicati. Pisa's influence was strongest in Cagliari and Gallura (southeastern Sardinia) through dynastic marriages with the giudici families. The commercial concessions Pisa extracted — reduced port duties, trading posts — gave Pisan merchants privileged access to Sardinian silver and agricultural exports. After the Battle of Meloria (1284) broke Pisan naval power, Pisan influence in Sardinia waned rapidly; Genoese pressure and eventual Aragonese conquest (1323) ended Pisan commercial presence.",
+  "subject_ids": [
+    "republic_of_pisa",
+    "judicate_of_cagliari"
+  ],
+  "predicate": "contested_influence",
+  "derived_from": "rel_pisa_sardinia",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1100,
+    "to": 1258
+  }
+}

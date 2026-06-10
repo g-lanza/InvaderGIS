@@ -1,0 +1,31 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_tang_silla_tributary",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "tang_dynasty",
+      "role": "suzerain"
+    },
+    {
+      "entity_id": "korea",
+      "role": "tributary"
+    }
+  ],
+  "directed": true,
+  "type": "tributary",
+  "since": 668,
+  "until": 907,
+  "note": "Following the Tang-Silla alliance that destroyed Goguryeo and Baekje in 668, Silla (and later Goryeo) acknowledged Tang and successor Chinese suzerainty via tributary missions while remaining domestically autonomous.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Established the Sinic tributary system as the dominant East Asian diplomatic framework."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

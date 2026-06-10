@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_banja_luka_1494",
+  "name": "Banja Luka",
+  "importance": "city",
+  "start_year": 1494,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q131127"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    17.1925,
+    44.7725
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_war_of_the_lombards_1228_c01",
+  "statement": "War of the Lombards (1228 CE), at Kingdom of Jerusalem (part of Crusader states).",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1228,
+    "to": 1228
+  },
+  "derived_from": "wd_war_of_the_lombards_1228",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

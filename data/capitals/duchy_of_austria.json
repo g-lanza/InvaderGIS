@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_austria",
+  "name": "Vienna",
+  "entity_id": "duchy_of_austria",
+  "entity_name": "Duchy of Austria",
+  "start_year": 1156,
+  "end_year": 1453,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q3624335"
+    }
+  },
+  "coords": [
+    16.3725,
+    48.20833
+  ]
+}

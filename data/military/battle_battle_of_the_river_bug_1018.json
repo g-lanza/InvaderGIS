@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_the_river_bug_1018",
+  "name": "Battle of the River Bug",
+  "subtype": "battle",
+  "start_year": 1018,
+  "end_year": 1018,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2663351"
+    }
+  },
+  "description": "Battle during Boleslaw I's intervention in the Kievan succession crisis (1018)",
+  "coords": [
+    21.0841,
+    52.5081
+  ]
+}

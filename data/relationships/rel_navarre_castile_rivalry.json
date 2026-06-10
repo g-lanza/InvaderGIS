@@ -1,0 +1,35 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_navarre_castile_rivalry",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_navarre",
+      "role": "principal"
+    },
+    {
+      "entity_id": "kingdom_of_castile",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 1076,
+  "until": 1230,
+  "note": "Navarre and Castile competed along the upper Ebro/Rioja frontier from the 10th through 13th centuries, with control of the Rioja wine-producing region and the Basque provinces (Álava, Guipúzcoa, Vizcaya) periodically contested. Navarrese kings of the Jiménez dynasty (including Sancho III 'the Great,' 1004–1035, who briefly united most of Christian Iberia) gave way to Castilian dominance after Navarrese-Castilian wars in the 1060s–70s. Navarre lost the Rioja to Alfonso VI of Castile (1076) and subsequently oriented northward toward France; Navarre's French dynastic connections from 1234 onward aligned it with France rather than Castile.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Navarre-Castile rivalry shapes the upper Iberian frontier; Navarre's loss of the Rioja and Basque provinces to Castile is definitive; Navarre's subsequent French orientation creates a permanent Pyrenean bridge between France and Iberia that Ferdinand of Aragon finally closes by conquest (1512)"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

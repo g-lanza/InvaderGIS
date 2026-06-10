@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_cape_st_vincent_1337",
+  "name": "Battle of Cape St. Vincent",
+  "year": 1337,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    40.25,
+    -6
+  ],
+  "entity": "kingdom_of_portugal",
+  "summary": "Battle of Cape St. Vincent (1337 CE), at Cape St. Vincent (part of Luso-Castilian War of 1336–1339). Source: Wikidata Q4870646.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_portugal",
+      "crown_of_castile"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "prussians_1233",
+  "name": "Teutonic Order Begins Prussian Crusade",
+  "year": 1233,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    54.237,
+    20.227
+  ],
+  "entity": "prussians",
+  "summary": "The Teutonic Order began its systematic conquest of the Baltic Prussian tribes in 1233 following Grand Master Hermann von Salza's agreement with the Polish Duke Conrad of Masovia. The conquest took over 50 years of brutal warfare against the fiercely resistant Prussian tribes.",
+  "outcomes": [
+    "northern_crusade",
+    "prussian_resistance",
+    "christianisation_forced"
+  ],
+  "_quarry": {
+    "participants": [
+      "prussians",
+      "teutonic_order_state"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

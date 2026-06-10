@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_sychyovka_1488",
+  "name": "Sychyovka",
+  "importance": "city",
+  "start_year": 1488,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q196533"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    34.2736,
+    55.8253
+  ]
+}

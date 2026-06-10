@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ottokar_ii_bohemia",
+  "name": "Přemysl Ottokar II of Bohemia",
+  "polity": "duchy_of_styria",
+  "title": "military_leader",
+  "reign_start": 1233,
+  "reign_end": 1278,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "duchy_of_styria",
+        "role": "military_leader",
+        "start_year": 1233,
+        "end_year": 1278
+      }
+    ],
+    "key_actions": [],
+    "region": "central_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,24 @@
+{
+ "kind": "text",
+ "id": "genoese_annals_ottobuono_scriba",
+ "name_primary": "The Genoese Annals of Ottobuono Scriba",
+ "author": "Ottobuono Scriba",
+ "language": "Latin",
+ "composed": {
+  "place": "Genoa",
+  "year": 1192
+ },
+ "tradition": "annals",
+ "provenance": {
+  "sources_used": [
+   "ims_fordham",
+   "ims_fordham_sbook1q"
+  ],
+  "confidence": "high",
+  "attestation": "PDF translation by G.A. Loud hosted at Leeds",
+  "status": "draft"
+ },
+ "dataset": "medieval-europe-500-1500",
+ "_fordham_index": "sbook1q",
+ "from_sourcebook": true
+}

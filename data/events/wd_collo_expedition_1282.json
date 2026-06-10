@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_collo_expedition_1282",
+  "name": "Collo Expedition",
+  "year": 1282,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.8333,
+    13.2
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Collo Expedition (1282 CE), at Collo (part of Crusades). Source: Wikidata Q137384530.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "crown_of_aragon",
+      "hafsid_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

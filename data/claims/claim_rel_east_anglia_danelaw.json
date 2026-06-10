@@ -1,0 +1,29 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_east_anglia_danelaw",
+  "statement": "East Anglia was settled by Danish Vikings of the Great Heathen Army after their defeat of King Edmund (killed 869) and the establishment of the Danelaw. The Danish settlement was dense — East Anglia has the highest concentration of Norse place names (Thorpe, Thwaite, -by endings) in England outside Yorkshire. The Danish ruling class quickly intermarried with the Anglo-Saxon population; the East Anglian Danelaw was among the first territories reconquered by Edward the Elder (913–920) using Alfred's burh system. The density of Scandinavian genetic heritage in modern East Anglian populations reflects this 50-year settlement.",
+  "subject_ids": [
+    "kingdom_of_east_anglia",
+    "danelaw"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_east_anglia_danelaw",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "reuter_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "danelaw"
+  ],
+  "period": {
+    "from": 878,
+    "to": 878
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_egham_666",
+  "name": "Egham",
+  "importance": "city",
+  "start_year": 666,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q746681"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    -0.5479,
+    51.4289
+  ]
+}

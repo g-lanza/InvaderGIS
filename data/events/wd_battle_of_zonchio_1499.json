@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_zonchio_1499",
+  "name": "Battle of Zonchio",
+  "year": 1499,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    43.2,
+    20.6
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Battle of Zonchio (1499 CE), at Pylos (part of Second Ottoman–Venetian War). Source: Wikidata Q2351714.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "ottoman_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_old_domen_1095",
+  "name": "Battle of Old Domen",
+  "subtype": "battle",
+  "start_year": 1095,
+  "end_year": 1095,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q61268413"
+    }
+  },
+  "description": "Battle during Norman Invasion of Wales (1095)",
+  "coords": [
+    -3.1614,
+    52.5744
+  ]
+}

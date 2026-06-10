@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "delhi_sultanate",
+  "name": "Delhi",
+  "entity_id": "delhi_sultanate",
+  "entity_name": "Delhi Sultanate",
+  "start_year": 1206,
+  "end_year": 1526,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q229411"
+    }
+  },
+  "coords": [
+    77.21667,
+    28.66667
+  ]
+}

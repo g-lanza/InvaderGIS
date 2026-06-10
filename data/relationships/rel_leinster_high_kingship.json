@@ -1,0 +1,35 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_leinster_high_kingship",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_ireland_high",
+      "role": "suzerain"
+    },
+    {
+      "entity_id": "kingdom_of_leinster",
+      "role": "vassal"
+    }
+  ],
+  "directed": true,
+  "type": "vassalage",
+  "since": 500,
+  "until": 1166,
+  "note": "Leinster, the southeastern Irish province, was the kingdom that initiated the Anglo-Norman conquest by inviting Strongbow's intervention. King Diarmait Mac Murchada, expelled by High King Ruaidrí Ua Conchobair and his Uí Néill allies, recruited Anglo-Norman barons from Wales (led by Richard de Clare 'Strongbow') and returned to reconquer his kingdom (1169–1170). Strongbow married Diarmait's daughter Aoife and inherited Leinster on Diarmait's death (1171). Henry II then arrived to bring the Anglo-Norman barons under royal control, effectively beginning the English Lordship of Ireland.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Leinster's invitation of Anglo-Norman intervention is the proximate cause of English involvement in Ireland; Diarmait Mac Murchada's political maneuver — inviting external intervention to solve a domestic political problem — is the classic example of how great-power intervention begins; the consequences of this invitation shape Ireland's relationship with England for 800 years"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

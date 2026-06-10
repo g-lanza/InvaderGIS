@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "lyons_1274",
+  "name": "Second Council of Lyon",
+  "year": 1274,
+  "type": "religious_council",
+  "category": "religion",
+  "coords": [
+    45.76,
+    4.83
+  ],
+  "entity": "papal_states",
+  "summary": "The Second Council of Lyon (1274), convened by Pope Gregory X, achieves two dramatic results: it negotiates the short-lived Union of the Eastern and Western Churches (ratified by Byzantine Emperor Michael VIII Palaiologos as a political move to deter Charles of Anjou from attacking Constantinople) and reforms papal election procedure by introducing the Conclave (cardinals locked in with progressively reduced food until they agree). The union collapses when Michael VIII dies (1282) and his successor repudiates it. But the conclave system, devised after the 3-year vacancy (1268–1271) that had elected Gregory X, has governed papal elections since.",
+  "outcomes": [
+    "union_decree_attempted"
+  ],
+  "_quarry": {
+    "participants": [
+      "papal_states",
+      "byzantine_empire"
+    ],
+    "structural_significance": "Invents the conclave system for papal elections, still in use today; achieves a short-lived East-West church union used by Michael VIII as a diplomatic tool; the conclave was the direct response to the 3-year election deadlock of 1268–1271",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "courtrai_1302",
+  "name": "Battle of Courtrai",
+  "year": 1302,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    50.83,
+    3.27
+  ],
+  "entity": "county_of_flanders",
+  "summary": "At the Battle of Courtrai (Kortrijk, July 11, 1302), known as the 'Battle of the Golden Spurs' from the 500 golden spurs collected from dead French knights, a Flemish infantry militia of weavers and craftsmen defeats a French army under Robert of Artois. The Flemish Goedendag (a spiked club-staff hybrid) and the canal-and-ditch terrain nullify French cavalry charges; Robert of Artois and 1,000 knights are killed. Courtrai is one of the pivotal battles of medieval warfare: a well-trained, motivated infantry force defeats the flower of French chivalry on a prepared field.",
+  "outcomes": [
+    "flemish_militia_victory"
+  ],
+  "_quarry": {
+    "participants": [
+      "county_of_flanders",
+      "kingdom_of_france"
+    ],
+    "structural_significance": "Second major demonstration (after Legnano, 1176) that infantry can defeat feudal cavalry; influences Swiss and Flemish military development; temporarily secures Flemish independence; the golden spurs become the symbol of Flemish national pride",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

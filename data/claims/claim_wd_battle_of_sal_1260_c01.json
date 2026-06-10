@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_sal_1260_c01",
+  "statement": "Battle of Salé (1260 CE), at Salé (part of Battle of the Strait).",
+  "subject_ids": [
+    "crown_of_castile"
+  ],
+  "period": {
+    "from": 1260,
+    "to": 1260
+  },
+  "derived_from": "wd_battle_of_sal_1260",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "o'callaghan_a_1975",
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "kind": "institution",
+  "dataset": "medieval-europe-500-1500",
+  "id": "university_of_cambridge",
+  "name_primary": "University of Cambridge",
+  "domain": "university",
+  "formed": 1209,
+  "dissolved": 1500,
+  "_quarry": {
+    "key_developments": [
+      {
+        "year": 1209,
+        "event": "Oxford masters relocate to Cambridge after Oxford town-and-gown dispute."
+      },
+      {
+        "year": 1231,
+        "event": "Henry III's writ De studentibus extends royal protection."
+      },
+      {
+        "year": 1284,
+        "event": "Peterhouse founded by Bishop Hugh of Balsham — first college."
+      },
+      {
+        "year": 1318,
+        "event": "John XXII's Inter singula confirms Studium Generale status."
+      },
+      {
+        "year": 1441,
+        "event": "Henry VI founds King's College."
+      }
+    ],
+    "influences_entities": [
+      "kingdom_of_england"
+    ],
+    "description": "Founded in 1209 by scholars who fled Oxford after the town-and-gown dispute of that year. Henry III granted royal protection in 1231; John XXII issued the papal bull Inter singula confirming Studium Generale status in 1318. Cambridge developed strong traditions in mathematics, natural philosophy, and theology — Robert Grosseteste's intellectual heirs and the Mertonian school cross-pollinated with Oxford. By 1500 the university comprised the colleges founded by royal and episcopal benefactors (Peterhouse 1284, King's Hall 1317, Clare 1326, Pembroke 1347, Gonville 1348, King's 1441, Queens' 1448)."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "marenbon_later_medieval_philosophy_1991"
+    ],
+    "confidence": "low"
+  }
+}

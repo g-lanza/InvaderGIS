@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_edington_878",
+  "name": "Battle of Edington",
+  "year": 878,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    51,
+    -2
+  ],
+  "entity": "kingdom_of_wessex",
+  "summary": "Battle of Edington (878 CE), at Edington (part of Viking activity in the British Isles). Source: Wikidata Q2305651.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_wessex"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

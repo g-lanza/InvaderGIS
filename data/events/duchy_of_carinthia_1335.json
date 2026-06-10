@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_carinthia_1335",
+  "name": "Carinthia Passes to Habsburgs",
+  "year": 1335,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    46.62,
+    14.31
+  ],
+  "entity": "duchy_of_carinthia",
+  "summary": "The inheritance of Carinthia by the Habsburg dynasty in 1335 began the consolidation of the Austrian Alpine lands under a single ruling house. Combined with Austria, Styria, and later Tyrol, Carinthia formed the core of Habsburg territorial power in the German-speaking world.",
+  "outcomes": [
+    "Habsburg_acquisition",
+    "austrian_consolidation",
+    "alpine_bloc_forms"
+  ],
+  "_quarry": {
+    "participants": [
+      "duchy_of_carinthia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_casalecchio_1402",
+  "name": "Battle of Casalecchio",
+  "year": 1402,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    44.65,
+    10.2
+  ],
+  "entity": "republic_of_florence",
+  "summary": "Battle of Casalecchio (1402 CE), at Casalecchio di Reno (part of Florentine–Milanese Wars). Source: Wikidata Q2248041.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_florence",
+      "duchy_of_milan"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "najemy_a_2006",
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

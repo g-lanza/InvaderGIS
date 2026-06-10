@@ -1,0 +1,35 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_epirus_nicaea",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "despotate_of_epirus",
+      "role": "principal"
+    },
+    {
+      "entity_id": "empire_of_nicaea",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 1205,
+  "until": 1261,
+  "note": "The Despotate of Epirus and the Empire of Nicaea were the two main claimants to Byzantine imperial legitimacy after the Fourth Crusade (1204). Theodore Komnenos Doukas of Epirus captured Thessalonica (1224) and proclaimed himself Emperor — directly challenging Nicaea's Theodore I Laskaris. The rivalry between the two 'Byzantine' claimants, sometimes violent, weakened both against the Latin Empire and later against the Bulgarians (Theodore was captured by Tsar Ivan Asen II at Klokotnitsa, 1230). Nicaea eventually prevailed, retaking Constantinople in 1261.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Epirus-Nicaea rivalry is the central political contest among the Byzantine successor states; Epirus's defeat at Klokotnitsa (1230) decisively ends its imperial claim; Nicaea's victory over Epirus and eventual recapture of Constantinople demonstrates superior administrative and diplomatic capacity"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

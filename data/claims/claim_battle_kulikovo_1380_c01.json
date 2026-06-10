@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_battle_kulikovo_1380_c01",
+  "statement": "Dmitri Donskoi of Moscow defeated the Golden Horde general Mamai at Kulikovo Field in 1380, the first major Russian military victory over the Mongols.",
+  "subject_ids": [
+    "grand_principality_of_moscow"
+  ],
+  "period": {
+    "from": 1380,
+    "to": 1380
+  },
+  "derived_from": "battle_kulikovo_1380",
+  "unresolved_sources": [
+    "fennell_the_1983"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "ostrowski_muscovy_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

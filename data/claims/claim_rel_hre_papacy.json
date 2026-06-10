@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_hre_papacy",
+  "statement": "The relationship between the Holy Roman Empire and the papacy was the defining tension of medieval European politics, oscillating between cooperation (the Ottonian-Gregorian partnership of the 10th century), conflict (the Investiture Controversy, 1076–1122), renewed cooperation (the Crusades), and catastrophic conflict (Frederick II vs. Innocent IV, 1239–1250). The fundamental question — who held ultimate authority in Christendom, the pope or the emperor — was never definitively resolved. The papacy's greatest victories (deposing Henry IV in 1076, deposing Frederick II in 1245) were matched by the empire's resilience and eventual institutional independence.",
+  "subject_ids": [
+    "holy_roman_empire",
+    "papal_states"
+  ],
+  "predicate": "contested_influence",
+  "derived_from": "rel_hre_papacy",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986",
+      "partner_the_1972",
+      "morris_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1075,
+    "to": 1122
+  }
+}

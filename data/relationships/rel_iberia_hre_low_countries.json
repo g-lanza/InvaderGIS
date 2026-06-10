@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_iberia_hre_low_countries",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "duchy_of_saxony",
+      "role": "principal"
+    },
+    {
+      "entity_id": "hanseatic_league",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "cultural_exchange",
+  "since": 1159,
+  "until": 1296,
+  "note": "The dynastic connections that linked the Iberian crowns (Spain), the Holy Roman Empire, and the Low Countries were forged through a series of Habsburg marriages in the late 15th and early 16th centuries. Ferdinand and Isabella's daughter Juana ('the Mad') married Philip the Handsome, son of Emperor Maximilian I and Mary of Burgundy — connecting Castile to the Habsburg Netherlands and the imperial family. Their son Charles inherited Castile, Aragon, the Netherlands, and was elected Holy Roman Emperor (1519) as Charles V, creating the first empire 'on which the sun never set.'",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Iberian-Habsburg-Burgundian dynastic nexus creates the largest political entity in post-Roman European history; the inheritance routes that produced Charles V's empire were largely the result of accidents of death (Philip of Castile died young, etc.); the resulting empire is too large to govern effectively"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "dollinger_the_1970",
+      "hammel-kiesow_die_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

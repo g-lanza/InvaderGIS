@@ -1,0 +1,1090 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_ulster",
+  "name_primary": "Kingdom of Ulster",
+  "name_variants": [
+    "Ulaid"
+  ],
+  "type": "kingdom",
+  "region": "british_isles",
+  "formed": 500,
+  "dissolved": 1241,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 600,
+      "label": "Kingdom of Ulster (approx.)",
+      "polygon": [
+        [
+          54.07,
+          -5.9
+        ],
+        [
+          54.37,
+          -5.56
+        ],
+        [
+          54.65,
+          -5.7
+        ],
+        [
+          55,
+          -5.9
+        ],
+        [
+          55.19,
+          -6.51
+        ],
+        [
+          55.25,
+          -7
+        ],
+        [
+          55.38,
+          -7.37
+        ],
+        [
+          55.2,
+          -7.9
+        ],
+        [
+          55.09,
+          -8.21
+        ],
+        [
+          54.9,
+          -8.45
+        ],
+        [
+          54.64,
+          -8.7
+        ],
+        [
+          54.04,
+          -8
+        ],
+        [
+          54.05,
+          -7
+        ],
+        [
+          54.06,
+          -6
+        ],
+        [
+          54.07,
+          -5.9
+        ]
+      ]
+    },
+    {
+      "year": 800,
+      "label": "Kingdom of Ulster (approx.)",
+      "polygon": [
+        [
+          54.07,
+          -5.9
+        ],
+        [
+          54.37,
+          -5.56
+        ],
+        [
+          54.65,
+          -5.7
+        ],
+        [
+          55,
+          -5.9
+        ],
+        [
+          55.19,
+          -6.51
+        ],
+        [
+          55.25,
+          -7
+        ],
+        [
+          55.38,
+          -7.37
+        ],
+        [
+          55.2,
+          -7.9
+        ],
+        [
+          55.09,
+          -8.21
+        ],
+        [
+          54.9,
+          -8.45
+        ],
+        [
+          54.64,
+          -8.7
+        ],
+        [
+          54.04,
+          -8
+        ],
+        [
+          54.05,
+          -7
+        ],
+        [
+          54.06,
+          -6
+        ],
+        [
+          54.07,
+          -5.9
+        ]
+      ]
+    },
+    {
+      "year": 1000,
+      "label": "Kingdom of Ulster (approx.)",
+      "polygon": [
+        [
+          54.07,
+          -5.9
+        ],
+        [
+          54.37,
+          -5.56
+        ],
+        [
+          54.65,
+          -5.7
+        ],
+        [
+          55,
+          -5.9
+        ],
+        [
+          55.19,
+          -6.51
+        ],
+        [
+          55.25,
+          -7
+        ],
+        [
+          55.38,
+          -7.37
+        ],
+        [
+          55.2,
+          -7.9
+        ],
+        [
+          55.09,
+          -8.21
+        ],
+        [
+          54.9,
+          -8.45
+        ],
+        [
+          54.64,
+          -8.7
+        ],
+        [
+          54.04,
+          -8
+        ],
+        [
+          54.05,
+          -7
+        ],
+        [
+          54.06,
+          -6
+        ],
+        [
+          54.07,
+          -5.9
+        ]
+      ]
+    },
+    {
+      "year": 1200,
+      "label": "Kingdom of Ulster (approx.)",
+      "polygon": [
+        [
+          54.07,
+          -5.9
+        ],
+        [
+          54.37,
+          -5.56
+        ],
+        [
+          54.65,
+          -5.7
+        ],
+        [
+          55,
+          -5.9
+        ],
+        [
+          55.19,
+          -6.51
+        ],
+        [
+          55.25,
+          -7
+        ],
+        [
+          55.38,
+          -7.37
+        ],
+        [
+          55.2,
+          -7.9
+        ],
+        [
+          55.09,
+          -8.21
+        ],
+        [
+          54.9,
+          -8.45
+        ],
+        [
+          54.64,
+          -8.7
+        ],
+        [
+          54.04,
+          -8
+        ],
+        [
+          54.05,
+          -7
+        ],
+        [
+          54.06,
+          -6
+        ],
+        [
+          54.07,
+          -5.9
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    54.6,
+    -6.65
+  ],
+  "religion": "catholic",
+  "population_estimates": [
+    {
+      "year": 750,
+      "estimate": 70000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1991460",
+          "url": "https://www.wikidata.org/wiki/Q1991460",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Ulster",
+          "url": "https://en.wikipedia.org/wiki/Ulaid"
+        }
+      ]
+    },
+    {
+      "year": 900,
+      "estimate": 100000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1991460",
+          "url": "https://www.wikidata.org/wiki/Q1991460",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Ulster",
+          "url": "https://en.wikipedia.org/wiki/Ulaid"
+        }
+      ]
+    },
+    {
+      "year": 1050,
+      "estimate": 110000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1991460",
+          "url": "https://www.wikidata.org/wiki/Q1991460",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Ulster",
+          "url": "https://en.wikipedia.org/wiki/Ulaid"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low"
+  },
+  "description": "Northern Irish kingdom (c. 400–1241) centred in modern Ulster whose Cenél nEógain and later Uí Néill branches contested the high kingship of Ireland; its eventual fragmentation under de Burgh Norman pressure and the O'Neill dynasty's resistance formed the basis for Ulster's distinctive political identity in both medieval and later history.",
+  "temporal": {
+    "start_year": 500,
+    "end_year": 1241,
+    "end_year_within_scope": null,
+    "start_event_id": null,
+    "end_event_id": null,
+    "notes": "Northern Irish province; Uí Néill factions."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      54.6,
+      -6.65
+    ],
+    "core_regions": [
+      "Ulster"
+    ],
+    "polygon_simplified": [
+      [
+        54.07,
+        -5.9
+      ],
+      [
+        54.37,
+        -5.56
+      ],
+      [
+        54.65,
+        -5.7
+      ],
+      [
+        55,
+        -5.9
+      ],
+      [
+        55.19,
+        -6.51
+      ],
+      [
+        55.25,
+        -7
+      ],
+      [
+        55.38,
+        -7.37
+      ],
+      [
+        55.2,
+        -7.9
+      ],
+      [
+        55.09,
+        -8.21
+      ],
+      [
+        54.9,
+        -8.45
+      ],
+      [
+        54.64,
+        -8.7
+      ],
+      [
+        54.04,
+        -8
+      ],
+      [
+        54.05,
+        -7
+      ],
+      [
+        54.06,
+        -6
+      ],
+      [
+        54.07,
+        -5.9
+      ]
+    ],
+    "notes": "Centroid approximate; polygon pending schematic or OHM sourcing.",
+    "polygon_snapshots": [
+      {
+        "year": 600,
+        "label": "Kingdom of Ulster (approx.)",
+        "polygon": [
+          [
+            54.07,
+            -5.9
+          ],
+          [
+            54.37,
+            -5.56
+          ],
+          [
+            54.65,
+            -5.7
+          ],
+          [
+            55,
+            -5.9
+          ],
+          [
+            55.19,
+            -6.51
+          ],
+          [
+            55.25,
+            -7
+          ],
+          [
+            55.38,
+            -7.37
+          ],
+          [
+            55.2,
+            -7.9
+          ],
+          [
+            55.09,
+            -8.21
+          ],
+          [
+            54.9,
+            -8.45
+          ],
+          [
+            54.64,
+            -8.7
+          ],
+          [
+            54.04,
+            -8
+          ],
+          [
+            54.05,
+            -7
+          ],
+          [
+            54.06,
+            -6
+          ],
+          [
+            54.07,
+            -5.9
+          ]
+        ]
+      },
+      {
+        "year": 800,
+        "label": "Kingdom of Ulster (approx.)",
+        "polygon": [
+          [
+            54.07,
+            -5.9
+          ],
+          [
+            54.37,
+            -5.56
+          ],
+          [
+            54.65,
+            -5.7
+          ],
+          [
+            55,
+            -5.9
+          ],
+          [
+            55.19,
+            -6.51
+          ],
+          [
+            55.25,
+            -7
+          ],
+          [
+            55.38,
+            -7.37
+          ],
+          [
+            55.2,
+            -7.9
+          ],
+          [
+            55.09,
+            -8.21
+          ],
+          [
+            54.9,
+            -8.45
+          ],
+          [
+            54.64,
+            -8.7
+          ],
+          [
+            54.04,
+            -8
+          ],
+          [
+            54.05,
+            -7
+          ],
+          [
+            54.06,
+            -6
+          ],
+          [
+            54.07,
+            -5.9
+          ]
+        ]
+      },
+      {
+        "year": 1000,
+        "label": "Kingdom of Ulster (approx.)",
+        "polygon": [
+          [
+            54.07,
+            -5.9
+          ],
+          [
+            54.37,
+            -5.56
+          ],
+          [
+            54.65,
+            -5.7
+          ],
+          [
+            55,
+            -5.9
+          ],
+          [
+            55.19,
+            -6.51
+          ],
+          [
+            55.25,
+            -7
+          ],
+          [
+            55.38,
+            -7.37
+          ],
+          [
+            55.2,
+            -7.9
+          ],
+          [
+            55.09,
+            -8.21
+          ],
+          [
+            54.9,
+            -8.45
+          ],
+          [
+            54.64,
+            -8.7
+          ],
+          [
+            54.04,
+            -8
+          ],
+          [
+            54.05,
+            -7
+          ],
+          [
+            54.06,
+            -6
+          ],
+          [
+            54.07,
+            -5.9
+          ]
+        ]
+      },
+      {
+        "year": 1200,
+        "label": "Kingdom of Ulster (approx.)",
+        "polygon": [
+          [
+            54.07,
+            -5.9
+          ],
+          [
+            54.37,
+            -5.56
+          ],
+          [
+            54.65,
+            -5.7
+          ],
+          [
+            55,
+            -5.9
+          ],
+          [
+            55.19,
+            -6.51
+          ],
+          [
+            55.25,
+            -7
+          ],
+          [
+            55.38,
+            -7.37
+          ],
+          [
+            55.2,
+            -7.9
+          ],
+          [
+            55.09,
+            -8.21
+          ],
+          [
+            54.9,
+            -8.45
+          ],
+          [
+            54.64,
+            -8.7
+          ],
+          [
+            54.04,
+            -8
+          ],
+          [
+            54.05,
+            -7
+          ],
+          [
+            54.06,
+            -6
+          ],
+          [
+            54.07,
+            -5.9
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "approximate",
+    "polygon_source": "hand_crafted",
+    "polygon_source_date": "2026-05-11",
+    "capital": {
+      "name": "Armagh",
+      "coords": [
+        54.35,
+        -6.65
+      ],
+      "source": "curated"
+    }
+  },
+  "internal_structure": {
+    "centralization": "low_to_medium",
+    "centralization_trajectory": null,
+    "governance_type": "dynastic_feudal",
+    "legitimacy_basis": [
+      "inheritance"
+    ],
+    "administrative_system": ""
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "formation",
+      "years": "c.450–600",
+      "description": "Dál Fiatach and Uí Néill dynasties contest Ulster.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1991460",
+          "url": "https://www.wikidata.org/wiki/Q1991460"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Ulster",
+          "url": "https://en.wikipedia.org/wiki/Ulaid"
+        }
+      ]
+    },
+    {
+      "phase": "peak",
+      "years": "600–1100",
+      "description": "Ulster as one of the five major Irish kingdoms.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1991460",
+          "url": "https://www.wikidata.org/wiki/Q1991460"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Ulster",
+          "url": "https://en.wikipedia.org/wiki/Ulaid"
+        }
+      ]
+    },
+    {
+      "phase": "crisis",
+      "years": "1100–1177",
+      "description": "Anglo-Norman pressure begins; fragmented governance.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1991460",
+          "url": "https://www.wikidata.org/wiki/Q1991460"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Ulster",
+          "url": "https://en.wikipedia.org/wiki/Ulaid"
+        }
+      ]
+    },
+    {
+      "phase": "dissolution",
+      "years": "1177",
+      "description": "John de Courcy's conquest transforms eastern Ulster into a Norman earldom.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1991460",
+          "url": "https://www.wikidata.org/wiki/Q1991460"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Ulster",
+          "url": "https://en.wikipedia.org/wiki/Ulaid"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "geographic_defensibility",
+      "layer": "geography_territory",
+      "description": "Ulster's northern position with Mourne Mountains and drumlin belt made sustained conquest difficult.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1991460",
+          "url": "https://www.wikidata.org/wiki/Q1991460"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Ulster",
+          "url": "https://en.wikipedia.org/wiki/Ulaid"
+        }
+      ]
+    },
+    {
+      "tag": "succession_stability",
+      "layer": "dynastic_legitimacy",
+      "description": "Dál Fiatach and Cenél nEógain maintained consistent royal lines through centuries of competition.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1991460",
+          "url": "https://www.wikidata.org/wiki/Q1991460"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Ulster",
+          "url": "https://en.wikipedia.org/wiki/Ulaid"
+        }
+      ]
+    },
+    {
+      "tag": "military_organizational_advantage",
+      "layer": "military_security",
+      "description": "Ulster warriors maintained strong martial traditions in the cattle-raiding economy.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1991460",
+          "url": "https://www.wikidata.org/wiki/Q1991460"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Ulster",
+          "url": "https://en.wikipedia.org/wiki/Ulaid"
+        }
+      ]
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "uí_néill_rivalry",
+      "direction": "rise",
+      "description": "Ulster's kings competed with the Uí Néill of Meath for the High Kingship of Ireland, maintaining a tradition of powerful provincial kingship that resisted national unification under any single dynasty.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1991460",
+          "url": "https://www.wikidata.org/wiki/Q1991460"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Ulster",
+          "url": "https://en.wikipedia.org/wiki/Ulaid"
+        }
+      ]
+    },
+    {
+      "layer": "geography_territory",
+      "tag": "ulster_geography",
+      "direction": "rise",
+      "description": "Drumlins, bogs, and the Erne-Bann lake system formed natural barriers protecting Ulster from southern invasion, giving its kings defensive advantages that preserved provincial autonomy for centuries.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1991460",
+          "url": "https://www.wikidata.org/wiki/Q1991460"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Ulster",
+          "url": "https://en.wikipedia.org/wiki/Ulaid"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "internal_fragmentation",
+      "layer": "governance_institutional",
+      "description": "Ulster politics divided among Cenél nEógain (O'Neill), Cenél Conaill (O'Donnell), and Dál Fiatach, creating endemic rivalry.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1991460",
+          "url": "https://www.wikidata.org/wiki/Q1991460"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Ulster",
+          "url": "https://en.wikipedia.org/wiki/Ulaid"
+        }
+      ]
+    },
+    {
+      "tag": "external_military_pressure",
+      "layer": "military_security",
+      "description": "Anglo-Norman invasion from 1177 under John de Courcy transformed eastern Ulster.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1991460",
+          "url": "https://www.wikidata.org/wiki/Q1991460"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Ulster",
+          "url": "https://en.wikipedia.org/wiki/Ulaid"
+        }
+      ]
+    },
+    {
+      "tag": "succession_crisis",
+      "layer": "dynastic_legitimacy",
+      "description": "Repeated conflicts among Ulster royal branches prevented effective unified governance.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1991460",
+          "url": "https://www.wikidata.org/wiki/Q1991460"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Ulster",
+          "url": "https://en.wikipedia.org/wiki/Ulaid"
+        }
+      ]
+    },
+    {
+      "layer": "military_security",
+      "tag": "battle_of_the_boyne_1260",
+      "direction": "decline",
+      "description": "The Anglo-Norman victory at the Battle of Down (1260) over Áed Méith mac Domnaill broke Ulster's military resistance and enabled Norman colonization of eastern Ulster.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1991460",
+          "url": "https://www.wikidata.org/wiki/Q1991460"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Ulster",
+          "url": "https://en.wikipedia.org/wiki/Ulaid"
+        }
+      ]
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "external_displacement",
+      "direction": "decline",
+      "description": "The Flight of the Earls in 1607 removed the last Gaelic Ulster chieftains, enabling the Plantation of Ulster that permanently transformed the region's political and demographic character.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1991460",
+          "url": "https://www.wikidata.org/wiki/Q1991460"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Ulster",
+          "url": "https://en.wikipedia.org/wiki/Ulaid"
+        }
+      ],
+      "tag_prose": "plantation_displacement"
+    }
+  ],
+  "key_figures": [
+    {
+      "person_id": "niall_glundub",
+      "name": "Niall Glúndub",
+      "role": "ruler",
+      "years": "d.919",
+      "year_start": 919,
+      "year_end": null,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Niall Glúndub",
+          "url": "https://en.wikipedia.org/wiki/Niall_Glúndub"
+        }
+      ]
+    }
+  ],
+  "predecessor_entity_ids": [
+    "kingdom_of_ireland_high"
+  ],
+  "successor_entity_ids": [
+    "lordship_of_ireland"
+  ],
+  "primary_ethnicity": "celtic",
+  "ethnic_composition": [
+    {
+      "group": "celtic",
+      "proportion": 0.92
+    }
+  ],
+  "religion_composition": [
+    {
+      "religion": "catholic",
+      "proportion": 0.95
+    },
+    {
+      "religion": "pagan",
+      "proportion": 0.05
+    }
+  ],
+  "primary_language": "celtic_lang",
+  "language_composition": [
+    {
+      "language": "celtic_lang",
+      "proportion": 0.88,
+      "role": "vernacular"
+    },
+    {
+      "language": "norse",
+      "proportion": 0.06,
+      "role": "regional"
+    },
+    {
+      "language": "latin",
+      "proportion": 0.06,
+      "role": "liturgical"
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "pastoralism",
+      "fishing"
+    ],
+    "wealth_level": "low",
+    "major_exports": [
+      "cattle",
+      "wool",
+      "fish",
+      "linen"
+    ],
+    "major_trade_partners": [
+      "kingdom_of_ireland_high",
+      "kingdom_of_scotland"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "tribute",
+      "tithes"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q1991460",
+        "url": "https://www.wikidata.org/wiki/Q1991460"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Kingdom of Ulster",
+        "url": "https://en.wikipedia.org/wiki/Ulaid"
+      }
+    ]
+  },
+  "social_structure": {
+    "ruling_ethnicity": "celtic",
+    "subject_majority": "celtic",
+    "military_ethnicity": "celtic",
+    "administrative_language": "celtic_lang",
+    "stratification_type": "homogeneous"
+  },
+  "wikidata_enrichment": {
+    "qid": "Q1991460",
+    "matched_name": "Ulaid",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ulaid"
+  },
+  "sources": [
+    {
+      "type": "book",
+      "author": "Wickham, Chris",
+      "title": "The Inheritance of Rome: A History of Europe from 400 to 1000",
+      "publisher": "Allen Lane",
+      "year": 2009
+    },
+    {
+      "type": "book",
+      "author": "Abulafia, David (ed.)",
+      "title": "The New Cambridge Medieval History, Vol. V: c. 1198 – c. 1300",
+      "publisher": "Cambridge University Press",
+      "year": 1999
+    }
+  ],
+  "monogram": "UL"
+}

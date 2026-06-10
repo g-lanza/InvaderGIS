@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_wrze_nia_1256",
+  "name": "Września",
+  "importance": "city",
+  "start_year": 1256,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q52902"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    17.565,
+    52.325
+  ]
+}

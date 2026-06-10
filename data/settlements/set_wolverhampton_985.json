@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_wolverhampton_985",
+  "name": "Wolverhampton",
+  "importance": "city",
+  "start_year": 985,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q126269"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    -2.1253,
+    52.5842
+  ]
+}

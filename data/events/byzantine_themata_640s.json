@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "byzantine_themata_640s",
+  "name": "Byzantine Thematic System Created",
+  "year": 640,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.01,
+    28.97
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Emperor Heraclius and his successors reorganize Byzantine provincial administration into themes (themata), large military districts commanded by strategos (generals) who combine civil and military authority. Soldiers receive hereditary land grants (stratiotika) in exchange for military service. The system transforms the Byzantine army from paid professionals to landed soldier-farmers and proves highly effective at maintaining permanent local defense.",
+  "outcomes": [
+    "provincial_defense_reorganized",
+    "soldiers_given_land",
+    "feudal_like_system_emerges"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire"
+    ],
+    "structural_significance": "The thematic system is Byzantium's most successful administrative innovation; it replaces the late Roman separation of civil and military authority with integrated regional command; the strategos's combination of powers makes the themes effectively independent in emergencies (as during Arab sieges) but also creates powerful regional commanders who periodically usurp the throne; the system's decay in the 11th century is a major cause of Manzikert's catastrophic consequences",
+    "year_range": [
+      630,
+      660
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

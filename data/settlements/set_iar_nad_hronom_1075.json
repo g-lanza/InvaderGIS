@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_iar_nad_hronom_1075",
+  "name": "Žiar nad Hronom",
+  "importance": "city",
+  "start_year": 1075,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q393925"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    18.8533,
+    48.5919
+  ]
+}

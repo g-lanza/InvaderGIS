@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "despotate_of_the_morea_1349",
+  "name": "Peloponnese Becomes Byzantine Despotate",
+  "year": 1349,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    39.275,
+    25.65
+  ],
+  "entity": "despotate_of_the_morea",
+  "summary": "John VI Kantakouzenos established the Despotate of the Morea in 1349, creating a semi-autonomous Byzantine province in the Peloponnese. Under the Palaiologos family, the Morea became a centre of late Byzantine cultural flourishing, producing remarkable art, philosophy, and scholarship.",
+  "outcomes": [
+    "peloponnese_recovered",
+    "byzantine_renaissance",
+    "last_greek_stronghold"
+  ],
+  "_quarry": {
+    "participants": [
+      "despotate_of_the_morea",
+      "byzantine_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

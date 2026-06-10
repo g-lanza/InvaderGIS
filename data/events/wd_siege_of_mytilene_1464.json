@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_mytilene_1464",
+  "name": "Siege of Mytilene",
+  "year": 1464,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    43.2,
+    20.6
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Siege of Mytilene (1464 CE), at Mytilene (part of First Ottoman–Venetian War). Source: Wikidata Q137400000.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "ottoman_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

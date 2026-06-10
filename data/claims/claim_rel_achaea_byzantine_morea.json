@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_achaea_byzantine_morea",
+  "statement": "The Principality of Achaea (the Crusader state in the Peloponnese, established after the Fourth Crusade) was gradually encircled and reduced by the Byzantine Despotate of the Morea. The Treaty of Viterbo (1267) had theoretically restored Byzantine suzerainty over Achaea in exchange for the release of the captured Prince William II of Villehardouin; William later repudiated the terms. Byzantine Emperor Michael VIII established the Despotate of the Morea (1261) as a base for reconquering the Peloponnese; his successors steadily reduced the Latin principality over a century of patient pressure until Achaea was fully absorbed by the Despotate in 1432.",
+  "subject_ids": [
+    "principality_of_achaea",
+    "despotate_of_the_morea"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_achaea_byzantine_morea",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1349,
+    "to": 1432
+  }
+}

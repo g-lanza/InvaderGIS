@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_ghar_el_kebir_settlement_500",
+  "name": "Ghar El Kebir settlement",
+  "importance": "city",
+  "start_year": 500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "inferred",
+    "external_ids": {
+      "pleiades": "315062"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    10.9967,
+    37.0587
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_kingdom_of_france_845_1500",
+  "statement": "Kingdom of France — campaigns and battles spanned 845–1500, from Viking Sack of Paris — Ragnar's Raid to Siege of the Castle of Saint George.",
+  "subject_ids": [
+    "kingdom_of_france"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_kingdom_of_france_845_1500",
+  "period": {
+    "from": 845,
+    "to": 1500
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

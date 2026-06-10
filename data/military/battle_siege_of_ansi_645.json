@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_siege_of_ansi_645",
+  "name": "Siege of Ansi",
+  "subtype": "battle",
+  "start_year": 645,
+  "end_year": 645,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q12605729"
+    }
+  },
+  "description": "Battle during First campaign in the Goguryeo–Tang War (645)",
+  "coords": [
+    122.7783,
+    40.7811
+  ]
+}

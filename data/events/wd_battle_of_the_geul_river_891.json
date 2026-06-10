@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_the_geul_river_891",
+  "name": "Battle of the Geul River",
+  "year": 891,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    50.5,
+    9.5
+  ],
+  "entity": "east_francia",
+  "summary": "Battle of the Geul River (891 CE), at Geul (part of viking expansion). Source: Wikidata Q4438363.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "east_francia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

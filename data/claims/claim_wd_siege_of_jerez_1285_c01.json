@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_jerez_1285_c01",
+  "statement": "Siege of Jerez (1285 CE), at Jerez de la Frontera (part of Battle of the Strait).",
+  "subject_ids": [
+    "crown_of_castile"
+  ],
+  "period": {
+    "from": 1285,
+    "to": 1285
+  },
+  "derived_from": "wd_siege_of_jerez_1285",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "o'callaghan_a_1975",
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

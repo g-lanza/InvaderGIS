@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "mali_empire_mansa_musa_1324",
+  "name": "Mansa Musa's Pilgrimage to Mecca",
+  "year": 1324,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    12.36,
+    -8.5
+  ],
+  "entity": "abbasid_caliphate",
+  "summary": "Mansa Musa, ruler of the Mali Empire (the world's largest gold producer), makes his hajj to Mecca with a caravan of 60,000 men and 80-100 camels laden with gold. Distributing gold lavishly in Cairo, he single-handedly depresses gold prices in Egypt for over a decade. European cartographers (the Catalan Atlas, 1375) subsequently depict him on their maps, making West African wealth visible to Mediterranean audiences.",
+  "outcomes": [
+    "mali_gold_floods_egypt",
+    "mansa_musa_display_wealth",
+    "sub_saharan_africa_known_europe"
+  ],
+  "_quarry": {
+    "participants": [
+      "abbasid_caliphate"
+    ],
+    "structural_significance": "Mansa Musa's pilgrimage demonstrates that major civilizations existed outside the European-Mediterranean axis that European cartographers were beginning to map; his gold distribution has measurable economic effects on Egyptian currency; the Mali Empire's wealth is the commercial prize that later motivates Portuguese exploration of the West African coast (1415-1488); this single pilgrimage puts Mali on the medieval world map literally and figuratively",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_the_2004",
+      "kennedy_when_2004",
+      "crone_gods_2004",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

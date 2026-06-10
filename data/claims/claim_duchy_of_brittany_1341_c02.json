@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_duchy_of_brittany_1341_c02",
+  "statement": "The War of the Breton Succession became a theatre of the Hundred Years War and devastated the Duchy of Brittany.",
+  "subject_ids": [
+    "duchy_of_brittany"
+  ],
+  "period": {
+    "from": 1341,
+    "to": 1341
+  },
+  "derived_from": "duchy_of_brittany_1341",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

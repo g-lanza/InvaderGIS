@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "burgandy_1477",
+  "name": "Duchy of Burgundy Absorbed by France",
+  "year": 1477,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    46.9,
+    3.75
+  ],
+  "entity": "duchy_of_burgundy",
+  "summary": "Charles the Bold's death at the Battle of Nancy in 1477 ended independent Burgundian ambitions. Louis XI of France seized the duchy, while Charles's daughter Mary married Maximilian of Habsburg, transferring the wealthy Low Countries to the Habsburg dynasty and reshaping European politics.",
+  "outcomes": [
+    "charles_bold_killed",
+    "burgundy_incorporated",
+    "habsburg_inherits_low_countries"
+  ],
+  "_quarry": {
+    "participants": [
+      "duchy_of_burgundy",
+      "kingdom_of_france"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_hanse_denmark",
+  "statement": "The Hanseatic League's relationship with Denmark was defined by control of the Sound (Øresund) — the narrow strait through which all Baltic trade passed and where Denmark collected tolls. The Hanse repeatedly clashed with Danish attempts to control or restrict Baltic trade: the War of 1361–1370 (after Valdemar IV seized Visby and Scania) ended with the Peace of Stralsund (1370), which gave the Hanse effective veto power over Danish royal succession. The relationship eventually shifted as Danish power recovered and the Hanse's member cities prioritized their individual interests over collective action.",
+  "subject_ids": [
+    "hanseatic_league",
+    "kingdom_of_denmark"
+  ],
+  "predicate": "cultural_exchange",
+  "derived_from": "rel_hanse_denmark",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dollinger_the_1970",
+      "hammel-kiesow_die_2000",
+      "sawyer_medieval_1993",
+      "roesdahl_the_1992"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1159,
+    "to": 1500
+  }
+}

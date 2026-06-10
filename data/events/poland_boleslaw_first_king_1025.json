@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "poland_boleslaw_first_king_1025",
+  "name": "Bolesław I Crowned First King of Poland",
+  "year": 1025,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    52.433,
+    18.017
+  ],
+  "entity": "poland",
+  "summary": "Bolesław I the Brave was crowned the first King of Poland, legitimating the Piast dynasty as equal to other European monarchs. He had previously received the right to a Church province at the Congress of Gniezno (1000).",
+  "outcomes": [
+    "poland_kingdom_formed",
+    "gniezno_archdiocese",
+    "territory_expanded"
+  ],
+  "_quarry": {
+    "participants": [
+      "poland"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

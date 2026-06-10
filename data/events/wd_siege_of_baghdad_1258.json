@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_baghdad_1258",
+  "name": "Siege of Baghdad",
+  "year": 1258,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    36.905,
+    44.125
+  ],
+  "entity": "armenian_kingdom_of_cilicia",
+  "summary": "Siege of Baghdad (1258 CE), at Baghdad (part of Mongol invasion of Persia and Mesopotamia). Source: Wikidata Q369560.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "armenian_kingdom_of_cilicia",
+      "abbasid_caliphate",
+      "kingdom_of_georgia",
+      "ilkhanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "boase_the_1978",
+      "mutafian_le_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

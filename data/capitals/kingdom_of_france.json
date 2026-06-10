@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_france",
+  "name": "Paris",
+  "entity_id": "kingdom_of_france",
+  "entity_name": "Kingdom of France",
+  "start_year": 987,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q70972"
+    }
+  },
+  "coords": [
+    2.35222,
+    48.85667
+  ]
+}

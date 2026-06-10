@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_al_sannabra_1113",
+  "name": "Battle of Al-Sannabra",
+  "subtype": "battle",
+  "start_year": 1113,
+  "end_year": 1113,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q4525673"
+    }
+  },
+  "description": "Battle during Crusader battles between 1101 and 1145 (1113)",
+  "coords": [
+    35.5719,
+    32.718
+  ]
+}

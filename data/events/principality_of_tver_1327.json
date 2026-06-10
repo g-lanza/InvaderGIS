@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "principality_of_tver_1327",
+  "name": "Tver Revolt Against Mongols Crushed",
+  "year": 1327,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    52.78,
+    40.21
+  ],
+  "entity": "principality_of_tver",
+  "summary": "A popular uprising in Tver against Mongol tax collectors in 1327 was brutally suppressed when Ivan I of Moscow guided a Mongol punitive expedition against the city. This destroyed Tver's chances of leading the Russian recovery and allowed Moscow to emerge as the primary Russian principality.",
+  "outcomes": [
+    "revolt_crushed",
+    "moscow_collaboration",
+    "tver_decline"
+  ],
+  "_quarry": {
+    "participants": [
+      "principality_of_tver",
+      "golden_horde"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

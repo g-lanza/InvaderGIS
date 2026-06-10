@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_on_the_elster_1080_c01",
+  "statement": "Battle on the Elster (1080 CE), at Hohenmölsen (part of Saxon revolt of 1077–1088).",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1080,
+    "to": 1080
+  },
+  "derived_from": "wd_battle_on_the_elster_1080",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

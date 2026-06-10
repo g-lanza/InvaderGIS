@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_munster_978",
+  "name": "Brian Boru Becomes King of Munster",
+  "year": 978,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    52.35,
+    -8.85
+  ],
+  "entity": "kingdom_of_munster",
+  "summary": "Brian Boru of the Dál Cais dynasty became King of Munster in 978 CE, beginning his campaign to become High King of all Ireland. His ability to forge alliances with Norse settlers and use Munster's resources to project power across Ireland transformed the political landscape of early medieval Ireland.",
+  "outcomes": [
+    "dal_cais_dynasty",
+    "viking_alliances",
+    "high_king_ambitions"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_munster"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

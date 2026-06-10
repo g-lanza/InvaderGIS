@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_duchy_of_carinthia_1335_c02",
+  "statement": "Combined with Austria, Styria, and later Tyrol, Carinthia formed the core of Habsburg territorial power in the German-speaking world.",
+  "subject_ids": [
+    "duchy_of_carinthia"
+  ],
+  "period": {
+    "from": 1335,
+    "to": 1335
+  },
+  "derived_from": "duchy_of_carinthia_1335",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

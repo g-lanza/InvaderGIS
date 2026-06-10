@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_siege_of_minerve_1210",
+  "name": "Siege of Minerve",
+  "subtype": "battle",
+  "start_year": 1210,
+  "end_year": 1210,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q587163"
+    }
+  },
+  "description": "Battle during Albigensian Crusade (1210)",
+  "coords": [
+    2.7353,
+    43.35
+  ]
+}

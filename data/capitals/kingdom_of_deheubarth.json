@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_deheubarth",
+  "name": "Dinefwr",
+  "entity_id": "kingdom_of_deheubarth",
+  "entity_name": "Kingdom of Deheubarth",
+  "start_year": 920,
+  "end_year": 1283,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q837136"
+    }
+  },
+  "coords": [
+    -4.013,
+    51.883
+  ]
+}

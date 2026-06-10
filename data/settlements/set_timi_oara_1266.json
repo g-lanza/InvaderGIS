@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_timi_oara_1266",
+  "name": "Timișoara",
+  "importance": "city",
+  "start_year": 1266,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q83404"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    21.23,
+    45.7597
+  ]
+}

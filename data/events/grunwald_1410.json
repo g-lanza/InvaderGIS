@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "grunwald_1410",
+  "name": "Battle of Grunwald",
+  "year": 1410,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    53.49,
+    20.12
+  ],
+  "entity": "teutonic_order_state",
+  "summary": "On July 15, 1410, the combined Polish-Lithuanian army under Władysław II Jagiełło (Poland) and Vytautas (Lithuania) confronts the Teutonic Order's army under Grand Master Ulrich von Jungingen at Grunwald (Tannenberg). The 50,000+ Polish-Lithuanian force faces 27,000 Teutonic knights. The Grand Master and most senior officers are killed; the Teutonic Order's military power is permanently broken. The battle is the largest pitched battle in medieval European history to that point and establishes Poland-Lithuania as the dominant power in central-eastern Europe.",
+  "outcomes": [
+    "teutonic_order_defeated"
+  ],
+  "_quarry": {
+    "participants": [
+      "teutonic_order_state",
+      "kingdom_of_poland_jagiellonian",
+      "grand_duchy_of_lithuania"
+    ],
+    "structural_significance": "Permanently ends Teutonic Order offensive military capability; establishes Polish-Lithuanian supremacy in the Baltic region; demonstrates that combined-arms professional armies could defeat the most formidable crusading military order",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "christiansen_the_1997",
+      "urban_the_1994",
+      "turnbull_crusader_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

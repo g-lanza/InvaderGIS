@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_pals_935_c01",
+  "statement": "Siege of Pals (935 CE), at Pals (part of Raid of 935).",
+  "subject_ids": [
+    "west_francia"
+  ],
+  "period": {
+    "from": 935,
+    "to": 935
+  },
+  "derived_from": "wd_siege_of_pals_935",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

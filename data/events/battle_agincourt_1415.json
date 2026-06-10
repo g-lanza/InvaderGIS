@@ -1,0 +1,23 @@
+{
+ "kind": "event",
+ "id": "battle_agincourt_1415",
+ "name": "Battle of Agincourt",
+ "year": 1415,
+ "type": "military",
+ "coords": [
+  50.8866,
+  2.1406
+ ],
+ "summary": "English victory over French forces in the Hundred Years War.",
+ "provenance": {
+  "sources_used": [
+   "ims_fordham",
+   "ims_fordham_sbook1m"
+  ],
+  "confidence": "high",
+  "status": "draft"
+ },
+ "dataset": "medieval-europe-500-1500",
+ "_fordham_index": "sbook1m",
+ "from_sourcebook": true
+}

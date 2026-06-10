@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_fall_of_krak_des_chevaliers_1271",
+  "name": "Fall of Krak des Chevaliers",
+  "year": 1271,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    33.2,
+    29.7
+  ],
+  "entity": "knights_hospitaller_rhodes",
+  "summary": "Fall of Krak des Chevaliers (1271 CE), at Krak des Chevaliers (part of Fall of Outremer). Source: Wikidata Q264915.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "knights_hospitaller_rhodes",
+      "mamluk_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_hospitallers_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "siege_nicea_1097",
+  "name": "Siege of Nicaea, First Crusade's Opening Campaign",
+  "year": 1097,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    40.43,
+    29.72
+  ],
+  "entity": "byzantine_empire",
+  "summary": "The First Crusade's combined Byzantine-Crusader force besieges Nicaea (the Seljuk Sultanate of Rum's capital) from May-June 1097. Emperor Alexios I arranges for the city to surrender directly to the Byzantines rather than the Crusaders, preventing a sack. The Crusaders are indignant at being denied plunder but are paid compensation by Alexios. The siege establishes both the Crusader military's effectiveness and the fundamental tension between Byzantine and Crusader goals.",
+  "outcomes": [
+    "nicaea_surrendered_to_byzantines",
+    "seljuk_sultanate_rum_weakened",
+    "crusade_cooperation_with_byzantium"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "seljuk_sultanate"
+    ],
+    "structural_significance": "Nicaea's Byzantine recovery demonstrates that the Crusade can serve Byzantine strategic interests even when Crusader and Byzantine aims diverge; the tension at Nicaea foreshadows the Fourth Crusade's sack of Constantinople (1204); the Sultanate of Rum is pushed back into central Anatolia, creating the buffer zone that protects Byzantium for decades",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

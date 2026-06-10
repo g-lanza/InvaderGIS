@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_grunwald_context_1410",
+  "name": "Battle of Mons-en-Pévèle",
+  "year": 1304,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    50.64,
+    3.37
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Philip IV of France avenges the humiliation of Courtrai (1302) at the Battle of Mons-en-Pévèle on August 18, 1304. The Flemish infantry, which had destroyed the French knights at Courtrai, is this time outmaneuvered; the French cavalry finds terrain suitable for mounted attack and breaks the Flemish lines. The Treaty of Athis-sur-Orge (1305) imposes heavy reparations on Flanders and partial French control. The battle demonstrates that Courtrai was not a universal tactical revolution, infantry could still be defeated by determined and well-led cavalry.",
+  "outcomes": [
+    "french_victory_over_flemish",
+    "courtrai_revenge",
+    "flanders_submits"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "county_of_flanders"
+    ],
+    "structural_significance": "Restores French prestige after Courtrai; the peace terms reimpose French overlordship on Flanders; the Flemish towns' wealth and strategic position make them a perpetual source of Anglo-French conflict, Edward III's alliance with Flanders (1337) is a direct trigger of the Hundred Years' War; the wool trade between England and Flemish weavers creates the economic interdependency that complicates the war",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

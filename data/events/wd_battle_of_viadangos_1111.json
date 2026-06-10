@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_viadangos_1111",
+  "name": "Battle of Viadangos",
+  "year": 1111,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    42.15,
+    -3.25
+  ],
+  "entity": "kingdom_of_leon",
+  "summary": "Battle of Viadangos (1111 CE), at Villadangos del Páramo. Source: Wikidata Q4872663.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_leon",
+      "kingdom_of_aragon"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_buyid_dynasty_945_c02",
+  "statement": "The Shia Buyids kept the Sunni Abbasid caliphate as a source of symbolic legitimacy while exercising real political power until the Seljuk conquest of Baghdad in 1055.",
+  "subject_ids": [
+    "abbasid_caliphate"
+  ],
+  "period": {
+    "from": 945,
+    "to": 945
+  },
+  "derived_from": "buyid_dynasty_945",
+  "unresolved_sources": [
+    "kennedy_the_2004",
+    "kennedy_when_2004",
+    "crone_gods_2004"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

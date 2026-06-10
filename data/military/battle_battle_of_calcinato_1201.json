@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_calcinato_1201",
+  "name": "Battle of Calcinato",
+  "subtype": "battle",
+  "start_year": 1201,
+  "end_year": 1201,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q55830967"
+    }
+  },
+  "description": "Battle during Guelphs and Ghibellines (1201)",
+  "coords": [
+    10.4139,
+    45.4833
+  ]
+}

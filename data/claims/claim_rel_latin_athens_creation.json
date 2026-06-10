@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_latin_athens_creation",
+  "statement": "The Duchy of Athens was created after the Fourth Crusade (1204) when the Crusader division of Byzantine territory granted Attica and Boeotia to Othon de la Roche, a Burgundian lord who took the title 'Megaskyr' (Great Lord) rather than duke. Athens became an important secondary Crusader state, held by the de la Roche family until 1308, then by the Brienne family (1308–1311). The Catalan Company — mercenaries who had fought for Byzantium — seized Athens (1311) after defeating the French knights at the Battle of the Kephissos; the Catalans held Athens until 1388, when it passed to the Florentine Acciaiuoli.",
+  "subject_ids": [
+    "latin_empire_constantinople",
+    "duchy_of_athens"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_latin_athens_creation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "duchy_of_athens"
+  ],
+  "period": {
+    "from": 1205,
+    "to": 1205
+  }
+}

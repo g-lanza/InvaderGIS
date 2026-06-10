@@ -1,0 +1,39 @@
+{
+  "kind": "institution",
+  "dataset": "medieval-europe-500-1500",
+  "id": "university_of_bologna",
+  "name_primary": "University of Bologna",
+  "domain": "university",
+  "formed": 1088,
+  "dissolved": 1500,
+  "_quarry": {
+    "key_developments": [
+      {
+        "year": 1088,
+        "event": "Traditional founding date; Irnerius teaches Roman law."
+      },
+      {
+        "year": 1140,
+        "event": "Gratian compiles the Decretum at Bologna."
+      },
+      {
+        "year": 1158,
+        "event": "Frederick I grants the Authentica Habita — imperial protection of scholars."
+      },
+      {
+        "year": 1219,
+        "event": "Honorius III's Super speculam regulates licentia docendi."
+      }
+    ],
+    "influences_entities": [
+      "holy_roman_empire",
+      "papal_states"
+    ],
+    "description": "The oldest continuously operating university in Europe, traditionally dated to 1088 when Irnerius began teaching Roman law from rediscovered Justinianic texts. Bologna pioneered the student-governed (rather than master-governed) model and made canon and civil law its specialty, drawing students from across Latin Europe. Gratian's Decretum (c. 1140) — the foundation of medieval canon law — was compiled there."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

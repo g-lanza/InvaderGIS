@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_kairouan_1348",
+  "name": "Battle of Kairouan",
+  "year": 1348,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    35.35,
+    2.35
+  ],
+  "entity": "marinid_dynasty",
+  "summary": "Battle of Kairouan (1348 CE), at Kairouan (part of Marinid–Zayyanid Wars). Source: Wikidata Q2888875.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "marinid_dynasty",
+      "hafsid_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "abun-nasr_a_1987",
+      "messier_the_2010"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

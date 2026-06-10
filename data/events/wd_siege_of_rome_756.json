@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_rome_756",
+  "name": "Siege of Rome",
+  "year": 756,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    44,
+    10.85
+  ],
+  "entity": "papal_states",
+  "summary": "Siege of Rome (756 CE), at Rome. Source: Wikidata Q136657006.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "papal_states",
+      "lombard_kingdom"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "yuan_dynasty",
+  "name": "Dadu",
+  "entity_id": "yuan_dynasty",
+  "entity_name": "Yuan Dynasty",
+  "start_year": 1271,
+  "end_year": 1368,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "coords": [
+    116.4074,
+    39.9042
+  ]
+}

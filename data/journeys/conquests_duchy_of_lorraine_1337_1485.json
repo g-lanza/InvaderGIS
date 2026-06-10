@@ -1,0 +1,60 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_duchy_of_lorraine_1337_1485",
+  "name": "Duchy of Lorraine — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1337,
+  "year_end": 1485,
+  "waypoints": [
+    {
+      "year": 1337,
+      "place": "Edwardian War",
+      "coords": [
+        47.3691,
+        2.2482
+      ],
+      "note": "military",
+      "event_id": "wd_edwardian_war_1337"
+    },
+    {
+      "year": 1476,
+      "place": "Battle of Nancy",
+      "coords": [
+        47.6467,
+        6.47
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_nancy_1476"
+    },
+    {
+      "year": 1477,
+      "place": "Battle of Nancy",
+      "coords": [
+        48.69,
+        6.18
+      ],
+      "note": "battle",
+      "event_id": "battle_nancy_1477"
+    },
+    {
+      "year": 1485,
+      "place": "Mad War",
+      "coords": [
+        47.73,
+        1.8933
+      ],
+      "note": "military",
+      "event_id": "wd_mad_war_1485"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

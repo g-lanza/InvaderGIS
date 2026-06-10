@@ -1,0 +1,38 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_hre_austria",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "holy_roman_empire",
+      "role": "suzerain"
+    },
+    {
+      "entity_id": "duchy_of_austria",
+      "role": "vassal"
+    }
+  ],
+  "directed": true,
+  "type": "vassalage",
+  "since": 1156,
+  "until": 1453,
+  "note": "Austria (the Ostarrichi/Ostmark) emerged as a separate march from Bavaria in 976 when Emperor Otto II granted it to Leopold of Babenberg. Elevated to a duchy (1156) by Frederick Barbarossa with the unique 'Privilegium Minus' (giving Austria exceptional rights including female succession), Austria became the primary Habsburg family domain when Rudolf of Habsburg was elected emperor (1273) and secured Austria by inheritance (1282). The Habsburgs used Austria as the base for their dynasty's continuous hold on the imperial title (1438–1806, with one brief interruption).",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Austria's elevation to a duchy with exceptional rights (female succession, independence from Bavarian courts) enables the Habsburg dynastic model; the Privilegium Minus creates the constitutional framework that allows Austria to serve as the foundation of Europe's longest-lasting dynasty"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

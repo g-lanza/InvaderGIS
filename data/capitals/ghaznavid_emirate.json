@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ghaznavid_emirate",
+  "name": "Ghazni",
+  "entity_id": "ghaznavid_emirate",
+  "entity_name": "Ghaznavid Emirate",
+  "start_year": 1000,
+  "end_year": 1200,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q249578"
+    }
+  },
+  "coords": [
+    68.42333,
+    33.54917
+  ]
+}

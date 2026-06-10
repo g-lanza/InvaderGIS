@@ -1,0 +1,32 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_beylik_to_ottoman_empire",
+  "statement": "The Ottoman Empire expanded by absorbing the other Anatolian Turkish beyliks (principalities) — either through conquest or dynastic marriage. Osman I established the beylik in northwestern Anatolia (c. 1300); his successors methodically absorbed neighboring beyliks: Karesi (1345), Germiyan (1390), Hamid (1381), Saruhan (1410). Timur's invasion (1402) temporarily restored some beyliks as Ottoman vassals fled, but Mehmed I reconquered them after the Ottoman civil war (1402–1413). By 1450, the Ottoman state controlled virtually all of Anatolia, with only Karaman holding out until 1468.",
+  "subject_ids": [
+    "ottoman_beylik",
+    "ottoman_empire"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_beylik_to_ottoman_empire",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999",
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "ottoman_empire"
+  ],
+  "period": {
+    "from": 1453,
+    "to": 1453
+  }
+}

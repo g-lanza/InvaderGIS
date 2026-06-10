@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_kingdom_of_deheubarth_1136_c01",
+  "statement": "The Welsh victory at the Battle of Crug Mawr in 1136 temporarily halted Norman expansion into south Wales.",
+  "subject_ids": [
+    "kingdom_of_deheubarth"
+  ],
+  "period": {
+    "from": 1136,
+    "to": 1136
+  },
+  "derived_from": "kingdom_of_deheubarth_1136",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

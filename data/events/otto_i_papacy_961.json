@@ -1,0 +1,42 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "otto_i_papacy_961",
+  "name": "Otto I Saves the Pope, Second Carolingian Empire",
+  "year": 961,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.9,
+    12.51
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Pope John XII, threatened by Berengar II of Italy, appeals to Otto I of Germany for military assistance. Otto crosses the Alps, defeats Berengar, and is crowned Emperor of the Romans by John XII on February 2, 962, the act that formally creates the Holy Roman Empire. He then deposes John XII (who had conspired against him) and installs his own pope, demonstrating the emperor's power over the papacy.",
+  "outcomes": [
+    "lombards_defeated",
+    "pope_rescued",
+    "imperial_coronation_follows"
+  ],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "papal_states",
+      "lombard_kingdom"
+    ],
+    "structural_significance": "Otto's coronation establishes the constitutional framework of the Holy Roman Empire that lasts until 1806; his deposition of a pope establishes the problematic precedent of imperial control over papal elections that the Investiture Controversy later contests; the Ottonian church-state partnership (emperor controls bishops; pope provides imperial legitimation) is the central tension of medieval politics",
+    "year_range": [
+      960,
+      962
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

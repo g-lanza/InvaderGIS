@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_malta_1283_c01",
+  "statement": "Battle of Malta (1283 CE), at Grand Harbour (part of War of the Sicilian Vespers).",
+  "subject_ids": [
+    "kingdom_of_naples"
+  ],
+  "period": {
+    "from": 1283,
+    "to": 1283
+  },
+  "derived_from": "wd_battle_of_malta_1283",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

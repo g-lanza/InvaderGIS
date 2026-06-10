@@ -1,0 +1,29 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_serbian_empire_to_despotate",
+  "statement": "Stefan Dušan's Serbian Empire (1346–1355) disintegrated rapidly after his death, fragmenting into regional lords — the most important being the Mrnjavčević brothers (controlling Macedonia), the Dejanović family, and eventually the Lazarević family's Serbian Despotate centered on Belgrade. Prince Lazar Hrebeljanović reassembled much of Serbia into a functioning state, only to die at Kosovo (1389). His son Stefan Lazarević became a Serbian Despot (1402) under Byzantine suzerainty — also serving as an Ottoman vassal. The Despotate's capital Smederevo fell in 1459, ending Serbian statehood for 360 years.",
+  "subject_ids": [
+    "serbian_empire",
+    "serbian_despotate"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_serbian_empire_to_despotate",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fine_the_1987",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "serbian_despotate"
+  ],
+  "period": {
+    "from": 1402,
+    "to": 1402
+  }
+}

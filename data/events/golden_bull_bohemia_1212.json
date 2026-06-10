@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "golden_bull_bohemia_1212",
+  "name": "Golden Bull of Sicily, Bohemia's Charter of Independence",
+  "year": 1212,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    50.08,
+    14.43
+  ],
+  "entity": "kingdom_of_bohemia",
+  "summary": "Emperor Frederick II issues the Golden Bull of Sicily confirming Bohemia as a hereditary kingdom, recognizing Přemyslid succession, and exempting Bohemia from obligations to participate in imperial expeditions beyond Bohemia's borders. The document is the Bohemian Magna Carta, formalizing the kingdom's special status within the Empire and giving the Přemyslid dynasty security to build internal institutions without imperial interference.",
+  "outcomes": [
+    "hereditary_kingdom_recognized",
+    "bohemian_autonomy_confirmed",
+    "imperial_elections_excluded"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_bohemia",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "The Golden Bull of Sicily creates the legal foundation for Bohemian statehood within the Empire; its recognition of hereditary succession prevents the succession crises that plague other principalities; the Bohemian kingdom's special status within the Empire, holder of one of the seven electoral votes, gives it a formal role in imperial politics that its population and wealth justify; the document's provisions are invoked by Bohemian nobles in every subsequent conflict with imperial authority",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

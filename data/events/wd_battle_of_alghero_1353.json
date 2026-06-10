@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_alghero_1353",
+  "name": "Battle of Alghero",
+  "year": 1353,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    44.9,
+    10.6
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Battle of Alghero (1353 CE). Source: Wikidata Q21821464.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "republic_of_genoa"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

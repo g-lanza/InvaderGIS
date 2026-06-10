@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_second_battle_of_st_albans_1461",
+  "name": "Second Battle of St Albans",
+  "subtype": "battle",
+  "start_year": 1461,
+  "end_year": 1461,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q233416"
+    }
+  },
+  "description": "Battle during Wars of the Roses (1461)",
+  "coords": [
+    -0.3361,
+    51.755
+  ]
+}

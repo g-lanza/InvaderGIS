@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_lithuania_moscow_rivalry",
+  "statement": "The Grand Duchy of Lithuania and the Grand Principality of Moscow competed for control of the Orthodox Ruthenian principalities — the former lands of Kievan Rus — throughout the 14th and 15th centuries. Lithuania under Algirdas expanded aggressively eastward, defeating the Golden Horde at Blue Waters (1362) and pushing Lithuanian control to within 50 miles of Moscow. Moscow under Ivan III reversed this, annexing Novgorod (1478) and Tver (1485) and scoring a diplomatic victory at the Battle of the Vedrosha (1500). The competition shaped which Slavic peoples would align with Latin (Polish-Lithuanian) versus Orthodox (Muscovite) civilization.",
+  "subject_ids": [
+    "grand_duchy_of_lithuania",
+    "grand_principality_of_moscow"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_lithuania_moscow_rivalry",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "rowell_lithuania_1994",
+      "christiansen_the_1997",
+      "halperin_russia_1985",
+      "fennell_the_1983",
+      "ostrowski_muscovy_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1368,
+    "to": 1500
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_belvoir_castle_1187",
+  "name": "Siege of Belvoir Castle",
+  "year": 1187,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    36.4,
+    28.2
+  ],
+  "entity": "knights_hospitaller_rhodes",
+  "summary": "Siege of Belvoir Castle (1187 CE), at Belvoir Fortress (part of Crusader battles between 1149 and 1189). Source: Wikidata Q121237537.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "knights_hospitaller_rhodes"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_hospitallers_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

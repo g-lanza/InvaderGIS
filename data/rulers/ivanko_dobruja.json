@@ -1,0 +1,33 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ivanko_dobruja",
+  "name": "Ivanko",
+  "polity": "despotate_of_dobruja",
+  "title": "ruler",
+  "reign_start": 1385,
+  "reign_end": 1394,
+  "succeeds": "dobrotitsa",
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "despotate_of_dobruja",
+        "role": "ruler",
+        "start_year": 1385,
+        "end_year": 1394
+      }
+    ],
+    "key_actions": [],
+    "region": "southeastern_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

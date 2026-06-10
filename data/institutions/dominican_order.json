@@ -1,0 +1,45 @@
+{
+  "kind": "institution",
+  "dataset": "medieval-europe-500-1500",
+  "id": "dominican_order",
+  "name_primary": "Order of Preachers (Dominicans)",
+  "domain": "mendicant_order",
+  "formed": 1216,
+  "dissolved": 1500,
+  "_quarry": {
+    "key_developments": [
+      {
+        "year": 1206,
+        "event": "Dominic begins preaching in Languedoc against Cathar heresy."
+      },
+      {
+        "year": 1216,
+        "event": "Order formally approved by Honorius III."
+      },
+      {
+        "year": 1221,
+        "event": "Death of Dominic; order numbers 60+ houses."
+      },
+      {
+        "year": 1232,
+        "event": "Gregory IX assigns inquisitorial duties to Dominicans."
+      },
+      {
+        "year": 1274,
+        "event": "Death of Thomas Aquinas at the Council of Lyon."
+      }
+    ],
+    "influences_entities": [
+      "papal_states",
+      "kingdom_of_france",
+      "crown_of_castile",
+      "crown_of_aragon"
+    ],
+    "description": "Founded by Dominic of Caleruega and approved by Pope Honorius III in 1216 specifically to preach against Catharism in southern France. The Dominicans combined the mendicant ideal (no fixed property, support by alms) with intense scholarly training; they were active from the start in the universities (Albertus Magnus, Thomas Aquinas were Dominican) and provided most papal inquisitors after 1232."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

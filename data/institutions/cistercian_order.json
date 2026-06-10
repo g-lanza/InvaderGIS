@@ -1,0 +1,44 @@
+{
+  "kind": "institution",
+  "dataset": "medieval-europe-500-1500",
+  "id": "cistercian_order",
+  "name_primary": "Cistercian Order",
+  "domain": "monastic_movement",
+  "formed": 1098,
+  "dissolved": 1500,
+  "_quarry": {
+    "key_developments": [
+      {
+        "year": 1098,
+        "event": "Robert of Molesme founds Cîteaux Abbey."
+      },
+      {
+        "year": 1112,
+        "event": "Bernard of Clairvaux enters Cîteaux with 30 companions."
+      },
+      {
+        "year": 1115,
+        "event": "Bernard founds Clairvaux; rapid daughter-house expansion follows."
+      },
+      {
+        "year": 1147,
+        "event": "Bernard preaches the Second Crusade at Vézelay."
+      },
+      {
+        "year": 1153,
+        "event": "Death of Bernard; order has grown to ~340 abbeys."
+      }
+    ],
+    "influences_entities": [
+      "kingdom_of_france",
+      "holy_roman_empire",
+      "kingdom_of_england"
+    ],
+    "description": "A reformed Benedictine order founded at Cîteaux in 1098, rejecting Cluniac elaboration in favour of austerity, manual labour, and remote rural settlement. Under Bernard of Clairvaux (entered 1112) the order expanded explosively — by 1153 there were ~340 houses across Europe. Cistercians pioneered medieval agricultural improvement (water mills, sheep husbandry, viticulture) and shaped Gothic architecture through their plain, geometric church plans."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

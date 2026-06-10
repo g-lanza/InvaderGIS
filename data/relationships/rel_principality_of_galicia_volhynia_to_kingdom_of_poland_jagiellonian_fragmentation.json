@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_principality_of_galicia_volhynia_to_kingdom_of_poland_jagiellonian_fragmentation",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "principality_of_galicia_volhynia",
+      "role": "parent"
+    },
+    {
+      "entity_id": "kingdom_of_poland_jagiellonian",
+      "role": "fragment"
+    }
+  ],
+  "directed": true,
+  "type": "fragmentation",
+  "since": 1385,
+  "until": 1385,
+  "note": "Derived from predecessor/successor links recorded in the principality_of_galicia_volhynia and kingdom_of_poland_jagiellonian entity records. Transition anchored to kingdom_of_poland_jagiellonian start_year.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Mechanical normalisation of curated predecessor/successor links into the relationships register."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dimnik_the_1994",
+      "magocsi_a_2010",
+      "davies_gods_1981",
+      "lukowski_a_2001"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

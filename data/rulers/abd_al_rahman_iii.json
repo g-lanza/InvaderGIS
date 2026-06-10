@@ -1,0 +1,43 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "abd_al_rahman_iii",
+  "name": "Abd al-Rahman III",
+  "polity": "caliphate_of_cordoba",
+  "title": "caliph",
+  "reign_start": 929,
+  "reign_end": 961,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 891,
+      "death_year": 961
+    },
+    "entity_associations": [
+      {
+        "entity_id": "caliphate_of_cordoba",
+        "role": "caliph",
+        "start_year": 929,
+        "end_year": 961
+      }
+    ],
+    "key_actions": [
+      {
+        "year": 929,
+        "event": "Declares himself caliph — break from Abbasid suzerainty."
+      },
+      {
+        "year": 936,
+        "event": "Begins palace city Madinat al-Zahra outside Córdoba."
+      }
+    ],
+    "region": "iberia",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "hourani_arab_peoples_1991"
+    ],
+    "confidence": "low"
+  }
+}

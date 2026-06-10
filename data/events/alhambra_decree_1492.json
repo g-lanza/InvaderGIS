@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "alhambra_decree_1492",
+  "name": "Alhambra Decree",
+  "year": 1492,
+  "type": "rebellion",
+  "category": "violence",
+  "coords": [
+    37.17,
+    -3.59
+  ],
+  "entity": "crown_of_castile",
+  "summary": "On March 31, 1492, two months after the fall of Granada, Ferdinand and Isabella issue the Alhambra Decree (Edict of Expulsion), ordering all Jews in Spain who refuse baptism to leave within four months. Approximately 40,000–100,000 Jews (estimates vary widely) choose exile, dispersing to Portugal (many re-expelled in 1497), the Ottoman Empire, North Africa, and the Netherlands. Those who convert (Conversos) remain; the Inquisition monitors them for relapse. The expulsion removes a community that had been crucial to Iberian commerce, medicine, and administration for over a millennium.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "crown_of_castile"
+    ],
+    "structural_significance": "Ends 1,500+ years of Jewish presence in Iberia; the Sephardic diaspora carries Iberian Jewish culture to the Ottoman Empire, where it flourishes; Spain loses a significant portion of its skilled professional class; the Inquisition intensifies scrutiny of Converso communities for 'judaizing'",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "o'callaghan_a_1975",
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_hagia_sophia_rebuild_537_c02",
+  "statement": "The Hagia Sophia's 31-metre central dome on pendentives was the largest enclosed interior space in the world for nearly a thousand years.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 537,
+    "to": 537
+  },
+  "derived_from": "hagia_sophia_rebuild_537",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kazhdan_oxford_dictionary_byzantium_1991",
+      "kaldellis_streams_of_gold_2017"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

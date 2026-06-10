@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "nan_chao",
+  "name": "Dali",
+  "entity_id": "nan_chao",
+  "entity_name": "Nanzhao Kingdom",
+  "start_year": 738,
+  "end_year": 902,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1045322"
+    }
+  },
+  "coords": [
+    100.30028,
+    25.68111
+  ]
+}

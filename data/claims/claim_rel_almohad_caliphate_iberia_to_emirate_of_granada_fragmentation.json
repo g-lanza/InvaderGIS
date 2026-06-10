@@ -1,0 +1,30 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_almohad_caliphate_iberia_to_emirate_of_granada_fragmentation",
+  "statement": "Derived from predecessor/successor links recorded in the almohad_caliphate_iberia and emirate_of_granada entity records. Transition anchored to emirate_of_granada start_year.",
+  "subject_ids": [
+    "almohad_caliphate_iberia",
+    "emirate_of_granada"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_almohad_caliphate_iberia_to_emirate_of_granada_fragmentation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_kingdoms_2018",
+      "o'callaghan_reconquest_2003",
+      "harvey_islamic_1990",
+      "fernández-puertas_the_1997"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "emirate_of_granada"
+  ],
+  "period": {
+    "from": 1230,
+    "to": 1230
+  }
+}

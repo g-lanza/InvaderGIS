@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_the_nal_n_river_795",
+  "name": "Battle of the Nalón River",
+  "year": 795,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    40.65,
+    -5.3
+  ],
+  "entity": "kingdom_of_asturias",
+  "summary": "Battle of the Nalón River (795 CE), at Nalón (part of Reconquista). Source: Wikidata Q55664279.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_asturias",
+      "umayyad_emirate_cordoba"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

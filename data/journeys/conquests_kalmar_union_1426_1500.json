@@ -1,0 +1,60 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_kalmar_union_1426_1500",
+  "name": "Kalmar Union — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1426,
+  "year_end": 1500,
+  "waypoints": [
+    {
+      "year": 1426,
+      "place": "Dano-Hanseatic War of 1426–1435",
+      "coords": [
+        55.75,
+        11
+      ],
+      "note": "military",
+      "event_id": "wd_dano_hanseatic_war_of_1426_1435_1426"
+    },
+    {
+      "year": 1427,
+      "place": "Battle of Copenhagen (1427)",
+      "coords": [
+        55.75,
+        11
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_copenhagen_1427_1427"
+    },
+    {
+      "year": 1428,
+      "place": "Bombardment of Copenhagen",
+      "coords": [
+        55.75,
+        11
+      ],
+      "note": "military",
+      "event_id": "wd_bombardment_of_copenhagen_1428"
+    },
+    {
+      "year": 1500,
+      "place": "Battle of Hemmingstedt",
+      "coords": [
+        58,
+        12
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_hemmingstedt_1500"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

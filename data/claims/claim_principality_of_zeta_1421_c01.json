@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_principality_of_zeta_1421_c01",
+  "statement": "Zeta accepted Venetian protection of its coastal territories in 1421 as Ottoman pressure on the Balkans increased.",
+  "subject_ids": [
+    "principality_of_zeta"
+  ],
+  "period": {
+    "from": 1421,
+    "to": 1421
+  },
+  "derived_from": "principality_of_zeta_1421",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

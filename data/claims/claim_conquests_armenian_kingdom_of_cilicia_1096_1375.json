@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_armenian_kingdom_of_cilicia_1096_1375",
+  "statement": "Armenian Kingdom of Cilicia — campaigns and battles spanned 1096–1375, from First Crusade to Mamluk Conquest Ends Cilician Armenia.",
+  "subject_ids": [
+    "armenian_kingdom_of_cilicia"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_armenian_kingdom_of_cilicia_1096_1375",
+  "period": {
+    "from": 1096,
+    "to": 1375
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "boase_the_1978",
+      "mutafian_le_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

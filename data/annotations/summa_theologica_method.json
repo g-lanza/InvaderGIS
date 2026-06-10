@@ -1,0 +1,29 @@
+{
+  "id": "summa_theologica_method",
+  "kind": "annotation",
+  "dataset": "medieval",
+  "target_id": "summa_theologica",
+  "target_kind": "text",
+  "anchor": {
+    "quote": "Because the doctor of Catholic truth ought not only to teach the proficient, but also to instruct beginners... we purpose in this book to treat of whatever belongs to the Christian religion, in such a way as may tend to the instruction of beginners.",
+    "locator": "Prologue"
+  },
+  "body": "Aquinas's stated pedagogical aim frames the Summa's quaestio method — objections, sed contra, response, replies — the high-scholastic engine of the medieval universities.",
+  "links_to": [
+    "papal_states"
+  ],
+  "tags": [
+    "scholasticism",
+    "theology",
+    "universities",
+    "method"
+  ],
+  "provenance": {
+    "status": "draft",
+    "confidence": "high",
+    "attestation": "strong",
+    "sources_used": [
+      "summa_theologica"
+    ]
+  }
+}

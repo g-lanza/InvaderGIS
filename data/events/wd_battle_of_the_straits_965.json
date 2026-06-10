@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_the_straits_965",
+  "name": "Battle of the Straits",
+  "year": 965,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    35.5,
+    30.05
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Battle of the Straits (965 CE), at Strait of Messina (part of Arab–Byzantine Wars). Source: Wikidata Q87402517.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "fatimid_caliphate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

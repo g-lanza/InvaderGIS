@@ -1,0 +1,31 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "grote_mandrenke_1362",
+  "name": "Grote Mandrenke",
+  "year": 1362,
+  "type": "disaster",
+  "category": "hazard",
+  "coords": [
+    54.5736,
+    8.78
+  ],
+  "entity": "kingdom_of_denmark",
+  "summary": "A catastrophic North Sea storm surge on 15–16 January 1362, the 'Great Drowning of Men', kills ~25,000 people, permanently submerges the trading port of Rungholt on Strand, and reshapes the Frisian coastline. Combined with the preceding Black Death waves, the flood depopulates large stretches of the Wadden coast.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_denmark",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "Mid-14th-century climatic disaster compounding the demographic shock of the Black Death; accelerates the Hanseatic shift in regional trade as Frisian coastal towns lose population.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "campbell_great_transition_2016"
+    ],
+    "confidence": "low"
+  }
+}

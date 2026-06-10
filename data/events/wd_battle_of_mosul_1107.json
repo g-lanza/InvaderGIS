@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_mosul_1107",
+  "name": "Battle of Mosul",
+  "year": 1107,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    38.5,
+    32.5
+  ],
+  "entity": "sultanate_of_rum",
+  "summary": "Battle of Mosul (1107 CE), at Mosul. Source: Wikidata Q30072963.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "sultanate_of_rum"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

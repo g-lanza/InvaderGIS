@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "becket_murder_1170",
+  "name": "Murder of Thomas Becket",
+  "year": 1170,
+  "type": "rebellion",
+  "category": "violence",
+  "coords": [
+    51.28,
+    1.08
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Four knights, acting on Henry II of England's angry outburst ('Will no one rid me of this turbulent priest?'), murder Archbishop Thomas Becket in Canterbury Cathedral on December 29, 1170. Henry and Becket had been locked in a conflict over the Constitutions of Clarendon (1164), Henry's attempt to limit Church courts' jurisdiction over clergy. Becket's murder in the holiest place in England creates an immediate martyr; Pope Alexander III excommunicates the knights and forces Henry's public penance at Becket's tomb. Canterbury becomes the premier pilgrimage site in England.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "papal_states"
+    ],
+    "structural_significance": "Creates the Canterbury pilgrimage; establishes limits on English royal power over the Church; Henry's public penance demonstrates papal authority over even the most powerful secular rulers",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

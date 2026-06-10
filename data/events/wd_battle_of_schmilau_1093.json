@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_schmilau_1093",
+  "name": "Battle of Schmilau",
+  "year": 1093,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    52,
+    11
+  ],
+  "entity": "duchy_of_saxony",
+  "summary": "Battle of Schmilau (1093 CE), at Schmilau (part of Slavic rebellion of 1066). Source: Wikidata Q2237103.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "duchy_of_saxony"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

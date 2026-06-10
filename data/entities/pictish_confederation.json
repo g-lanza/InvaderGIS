@@ -1,0 +1,927 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "pictish_confederation",
+  "name_primary": "Pictish Confederation",
+  "name_variants": [
+    "Pictland"
+  ],
+  "type": "tribal_confederation",
+  "region": "british_isles",
+  "formed": 500,
+  "dissolved": 843,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 800,
+      "label": "Picts",
+      "polygon": [
+        [
+          55.98,
+          -3.89
+        ],
+        [
+          56.05,
+          -4.15
+        ],
+        [
+          57.71,
+          -5.23
+        ],
+        [
+          57.75,
+          -5.06
+        ],
+        [
+          58.09,
+          -5.35
+        ],
+        [
+          58.17,
+          -4.91
+        ],
+        [
+          58.39,
+          -5.11
+        ],
+        [
+          58.57,
+          -4.93
+        ],
+        [
+          58.4,
+          -4.51
+        ],
+        [
+          58.53,
+          -3.44
+        ],
+        [
+          58.41,
+          -3.03
+        ],
+        [
+          57.83,
+          -4.15
+        ],
+        [
+          57.55,
+          -4.15
+        ],
+        [
+          57.57,
+          -2.15
+        ],
+        [
+          57.4,
+          -1.94
+        ],
+        [
+          56.47,
+          -2.67
+        ],
+        [
+          56.34,
+          -3.15
+        ],
+        [
+          56.18,
+          -2.72
+        ],
+        [
+          55.98,
+          -3.89
+        ]
+      ]
+    },
+    {
+      "year": 900,
+      "label": "Picts",
+      "polygon": [
+        [
+          55.98,
+          -3.89
+        ],
+        [
+          56.05,
+          -4.15
+        ],
+        [
+          57.71,
+          -5.23
+        ],
+        [
+          57.75,
+          -5.06
+        ],
+        [
+          58.09,
+          -5.35
+        ],
+        [
+          58.17,
+          -4.91
+        ],
+        [
+          58.39,
+          -5.11
+        ],
+        [
+          58.57,
+          -4.93
+        ],
+        [
+          58.4,
+          -4.51
+        ],
+        [
+          58.53,
+          -3.44
+        ],
+        [
+          58.41,
+          -3.03
+        ],
+        [
+          57.83,
+          -4.15
+        ],
+        [
+          57.55,
+          -4.15
+        ],
+        [
+          57.57,
+          -2.15
+        ],
+        [
+          57.4,
+          -1.94
+        ],
+        [
+          56.47,
+          -2.67
+        ],
+        [
+          56.34,
+          -3.15
+        ],
+        [
+          56.18,
+          -2.72
+        ],
+        [
+          55.98,
+          -3.89
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    57,
+    -4
+  ],
+  "religion": "catholic",
+  "population_estimates": [
+    {
+      "year": 550,
+      "estimate": 140000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q78255",
+          "url": "https://www.wikidata.org/wiki/Q78255",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Pictish Confederation",
+          "url": "https://en.wikipedia.org/wiki/Oskar_H%C3%B6cker"
+        }
+      ]
+    },
+    {
+      "year": 700,
+      "estimate": 200000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q78255",
+          "url": "https://www.wikidata.org/wiki/Q78255",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Pictish Confederation",
+          "url": "https://en.wikipedia.org/wiki/Oskar_H%C3%B6cker"
+        }
+      ]
+    },
+    {
+      "year": 850,
+      "estimate": 220000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q78255",
+          "url": "https://www.wikidata.org/wiki/Q78255",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Pictish Confederation",
+          "url": "https://en.wikipedia.org/wiki/Oskar_H%C3%B6cker"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999"
+    ],
+    "confidence": "low"
+  },
+  "description": "Confederation of Pictish kingdoms in northern and eastern Scotland (c. 300–843) whose distinctive symbol stones and unique matrilineal kingship practices distinguished them from neighbouring Gaelic and Brittonic polities; their fusion with the Dál Riata Scots under Kenneth MacAlpin produced the kingdom of Scotland, though the precise mechanics of this union remain historically contested.",
+  "temporal": {
+    "start_year": 500,
+    "end_year": 843,
+    "end_year_within_scope": null,
+    "start_event_id": null,
+    "end_event_id": null,
+    "notes": "Pre-Alba northern Britain; Kenneth MacAlpin union 843."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      57,
+      -4
+    ],
+    "core_regions": [
+      "Pictland",
+      "Fortriu"
+    ],
+    "polygon_simplified": [
+      [
+        55.98,
+        -3.89
+      ],
+      [
+        56.05,
+        -4.15
+      ],
+      [
+        57.71,
+        -5.23
+      ],
+      [
+        57.75,
+        -5.06
+      ],
+      [
+        58.09,
+        -5.35
+      ],
+      [
+        58.17,
+        -4.91
+      ],
+      [
+        58.39,
+        -5.11
+      ],
+      [
+        58.57,
+        -4.93
+      ],
+      [
+        58.4,
+        -4.51
+      ],
+      [
+        58.53,
+        -3.44
+      ],
+      [
+        58.41,
+        -3.03
+      ],
+      [
+        57.83,
+        -4.15
+      ],
+      [
+        57.55,
+        -4.15
+      ],
+      [
+        57.57,
+        -2.15
+      ],
+      [
+        57.4,
+        -1.94
+      ],
+      [
+        56.47,
+        -2.67
+      ],
+      [
+        56.34,
+        -3.15
+      ],
+      [
+        56.18,
+        -2.72
+      ],
+      [
+        55.98,
+        -3.89
+      ]
+    ],
+    "notes": "Centroid approximate; polygon pending schematic or OHM sourcing.",
+    "polygon_snapshots": [
+      {
+        "year": 800,
+        "label": "Picts",
+        "polygon": [
+          [
+            55.98,
+            -3.89
+          ],
+          [
+            56.05,
+            -4.15
+          ],
+          [
+            57.71,
+            -5.23
+          ],
+          [
+            57.75,
+            -5.06
+          ],
+          [
+            58.09,
+            -5.35
+          ],
+          [
+            58.17,
+            -4.91
+          ],
+          [
+            58.39,
+            -5.11
+          ],
+          [
+            58.57,
+            -4.93
+          ],
+          [
+            58.4,
+            -4.51
+          ],
+          [
+            58.53,
+            -3.44
+          ],
+          [
+            58.41,
+            -3.03
+          ],
+          [
+            57.83,
+            -4.15
+          ],
+          [
+            57.55,
+            -4.15
+          ],
+          [
+            57.57,
+            -2.15
+          ],
+          [
+            57.4,
+            -1.94
+          ],
+          [
+            56.47,
+            -2.67
+          ],
+          [
+            56.34,
+            -3.15
+          ],
+          [
+            56.18,
+            -2.72
+          ],
+          [
+            55.98,
+            -3.89
+          ]
+        ]
+      },
+      {
+        "year": 900,
+        "label": "Picts",
+        "polygon": [
+          [
+            55.98,
+            -3.89
+          ],
+          [
+            56.05,
+            -4.15
+          ],
+          [
+            57.71,
+            -5.23
+          ],
+          [
+            57.75,
+            -5.06
+          ],
+          [
+            58.09,
+            -5.35
+          ],
+          [
+            58.17,
+            -4.91
+          ],
+          [
+            58.39,
+            -5.11
+          ],
+          [
+            58.57,
+            -4.93
+          ],
+          [
+            58.4,
+            -4.51
+          ],
+          [
+            58.53,
+            -3.44
+          ],
+          [
+            58.41,
+            -3.03
+          ],
+          [
+            57.83,
+            -4.15
+          ],
+          [
+            57.55,
+            -4.15
+          ],
+          [
+            57.57,
+            -2.15
+          ],
+          [
+            57.4,
+            -1.94
+          ],
+          [
+            56.47,
+            -2.67
+          ],
+          [
+            56.34,
+            -3.15
+          ],
+          [
+            56.18,
+            -2.72
+          ],
+          [
+            55.98,
+            -3.89
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "real_historical_boundary",
+    "polygon_source": "aourednik/historical-basemaps",
+    "polygon_source_date": "2026-05-09",
+    "no_central_capital": true,
+    "no_central_capital_reason": "Decentralised Pictish kingdoms; royal seat moved with rulers."
+  },
+  "internal_structure": {
+    "centralization": "low_to_medium",
+    "centralization_trajectory": null,
+    "governance_type": "dynastic",
+    "legitimacy_basis": [
+      "inheritance",
+      "warband_loyalty"
+    ],
+    "administrative_system": ""
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "formation",
+      "years": "c.300–400",
+      "description": "Pictish tribal groupings coalesce north of the Forth-Clyde line.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q78255",
+          "url": "https://www.wikidata.org/wiki/Q78255"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Pictish Confederation",
+          "url": "https://en.wikipedia.org/wiki/Oskar_H%C3%B6cker"
+        }
+      ]
+    },
+    {
+      "phase": "consolidation",
+      "years": "400–550",
+      "description": "Bridei mac Maelchon unifies Pictish confederacy.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q78255",
+          "url": "https://www.wikidata.org/wiki/Q78255"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Pictish Confederation",
+          "url": "https://en.wikipedia.org/wiki/Oskar_H%C3%B6cker"
+        }
+      ]
+    },
+    {
+      "phase": "peak",
+      "years": "550–750",
+      "description": "Óengus mac Fergusa; maximum Pictish power and territorial extent.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q78255",
+          "url": "https://www.wikidata.org/wiki/Q78255"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Pictish Confederation",
+          "url": "https://en.wikipedia.org/wiki/Oskar_H%C3%B6cker"
+        }
+      ]
+    },
+    {
+      "phase": "crisis",
+      "years": "750–843",
+      "description": "Viking raids; Dal Riata pressure; internal succession disputes.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q78255",
+          "url": "https://www.wikidata.org/wiki/Q78255"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Pictish Confederation",
+          "url": "https://en.wikipedia.org/wiki/Oskar_H%C3%B6cker"
+        }
+      ]
+    },
+    {
+      "phase": "dissolution",
+      "years": "c.843",
+      "description": "Kenneth mac Alpin merges kingdoms; Pictish identity absorbed.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q78255",
+          "url": "https://www.wikidata.org/wiki/Q78255"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Pictish Confederation",
+          "url": "https://en.wikipedia.org/wiki/Oskar_H%C3%B6cker"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "geographic_defensibility",
+      "layer": "geography_territory",
+      "description": "Scottish Highlands, lochs, and northern terrain constituted the most defensible territory in Britain; Hadrian's Wall marked the limit of Roman reach.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q78255",
+          "url": "https://www.wikidata.org/wiki/Q78255"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Pictish Confederation",
+          "url": "https://en.wikipedia.org/wiki/Oskar_H%C3%B6cker"
+        }
+      ]
+    },
+    {
+      "tag": "military_organizational_advantage",
+      "layer": "military_security",
+      "description": "Picts repeatedly repelled Roman and later Anglian incursions; Dunnichen 685 was a decisive defensive victory.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q78255",
+          "url": "https://www.wikidata.org/wiki/Q78255"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Pictish Confederation",
+          "url": "https://en.wikipedia.org/wiki/Oskar_H%C3%B6cker"
+        }
+      ]
+    },
+    {
+      "tag": "ideological_unification",
+      "layer": "ideology_religion",
+      "description": "Pictish symbols, unique artistic culture, and distinct identity created a coherent ethnic-political confederation.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q78255",
+          "url": "https://www.wikidata.org/wiki/Q78255"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Pictish Confederation",
+          "url": "https://en.wikipedia.org/wiki/Oskar_H%C3%B6cker"
+        }
+      ]
+    },
+    {
+      "layer": "military_security",
+      "tag": "roman_resistance",
+      "direction": "rise",
+      "description": "The Picts halted Roman penetration north of the Antonine Wall, winning major victories like Mons Graupius (84 CE) and raiding deep into Roman Britain, establishing a formidable military reputation.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q78255",
+          "url": "https://www.wikidata.org/wiki/Q78255"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Pictish Confederation",
+          "url": "https://en.wikipedia.org/wiki/Oskar_H%C3%B6cker"
+        }
+      ]
+    },
+    {
+      "layer": "ideology_religion",
+      "tag": "symbol_stones",
+      "direction": "rise",
+      "description": "Pictish symbol stones represent a sophisticated visual communication system unique in the ancient world, demonstrating a complex social and political organization capable of coordinating territorial claims.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q78255",
+          "url": "https://www.wikidata.org/wiki/Q78255"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Pictish Confederation",
+          "url": "https://en.wikipedia.org/wiki/Oskar_H%C3%B6cker"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "succession_crisis",
+      "layer": "dynastic_legitimacy",
+      "description": "Matrilineal succession through the female line caused political disruption when male claimants contested through different mothers.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q78255",
+          "url": "https://www.wikidata.org/wiki/Q78255"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Pictish Confederation",
+          "url": "https://en.wikipedia.org/wiki/Oskar_H%C3%B6cker"
+        }
+      ]
+    },
+    {
+      "tag": "external_displacement",
+      "layer": "external_political",
+      "description": "Dal Riata-Pictish merger under Kenneth mac Alpin c.843 absorbed Pictish identity into a new Scottish kingdom.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q78255",
+          "url": "https://www.wikidata.org/wiki/Q78255"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Pictish Confederation",
+          "url": "https://en.wikipedia.org/wiki/Oskar_H%C3%B6cker"
+        }
+      ]
+    },
+    {
+      "tag": "internal_fragmentation",
+      "layer": "governance_institutional",
+      "description": "Regional Pictish kingdoms (Fortriu, Fib, Circinn) maintained distinct identities that resisted full confederation.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q78255",
+          "url": "https://www.wikidata.org/wiki/Q78255"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Pictish Confederation",
+          "url": "https://en.wikipedia.org/wiki/Oskar_H%C3%B6cker"
+        }
+      ]
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "dalriadic_merger",
+      "direction": "decline",
+      "description": "The Pictish kingdom merged with Dál Riata under Kenneth MacAlpin around 843, with the Pictish political and cultural identity subsequently absorbed into the new Kingdom of Alba dominated by Gaelic-speaking rulers.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q78255",
+          "url": "https://www.wikidata.org/wiki/Q78255"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Pictish Confederation",
+          "url": "https://en.wikipedia.org/wiki/Oskar_H%C3%B6cker"
+        }
+      ]
+    },
+    {
+      "layer": "population_environment",
+      "tag": "external_military_pressure",
+      "direction": "decline",
+      "description": "Norse raids and settlement on the northern and western coasts disrupted the Pictish social network, cutting off northern Pictland from the southern heartland and weakening the confederation's cohesion.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q78255",
+          "url": "https://www.wikidata.org/wiki/Q78255"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Pictish Confederation",
+          "url": "https://en.wikipedia.org/wiki/Oskar_H%C3%B6cker"
+        }
+      ],
+      "tag_prose": "viking_disruption"
+    }
+  ],
+  "key_figures": [
+    {
+      "person_id": "bridei_mac_maelchon",
+      "name": "Bridei mac Maelchon",
+      "role": "ruler",
+      "years": "d.586",
+      "year_start": 586,
+      "year_end": null,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Bridei mac Maelchon",
+          "url": "https://en.wikipedia.org/wiki/Bridei_I"
+        }
+      ]
+    },
+    {
+      "person_id": "oengus_mac_fergusa",
+      "name": "Óengus mac Fergusa",
+      "role": "ruler",
+      "years": "729–761",
+      "year_start": 729,
+      "year_end": 761,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Óengus mac Fergusa",
+          "url": "https://en.wikipedia.org/wiki/Óengus_mac_Fergusa"
+        }
+      ]
+    }
+  ],
+  "successor_entity_ids": [
+    "kingdom_of_alba"
+  ],
+  "primary_ethnicity": "celtic",
+  "ethnic_composition": [
+    {
+      "group": "celtic",
+      "proportion": 0.92
+    }
+  ],
+  "religion_composition": [
+    {
+      "religion": "catholic",
+      "proportion": 0.95
+    },
+    {
+      "religion": "pagan",
+      "proportion": 0.05
+    }
+  ],
+  "primary_language": "celtic_lang",
+  "language_composition": [
+    {
+      "language": "celtic_lang",
+      "proportion": 0.8,
+      "role": "vernacular"
+    },
+    {
+      "language": "old_english",
+      "proportion": 0.12,
+      "role": "regional"
+    },
+    {
+      "language": "norse",
+      "proportion": 0.05,
+      "role": "regional"
+    },
+    {
+      "language": "latin",
+      "proportion": 0.03,
+      "role": "liturgical"
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "pastoralism",
+      "fishing"
+    ],
+    "wealth_level": "subsistence",
+    "major_exports": [
+      "cattle",
+      "wool",
+      "fish",
+      "iron"
+    ],
+    "major_trade_partners": [
+      "kingdom_of_northumbria",
+      "kingdom_of_dal_riata"
+    ],
+    "revenue_sources": [
+      "tribute",
+      "land_tax"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q78255",
+        "url": "https://www.wikidata.org/wiki/Q78255"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Pictish Confederation",
+        "url": "https://en.wikipedia.org/wiki/Oskar_H%C3%B6cker"
+      }
+    ]
+  },
+  "social_structure": {
+    "ruling_ethnicity": "celtic",
+    "subject_majority": "celtic",
+    "military_ethnicity": "celtic",
+    "administrative_language": "celtic_lang",
+    "stratification_type": "tribal_confederation"
+  },
+  "wikidata_enrichment": {
+    "qid": "Q102891",
+    "matched_name": "manual/pictish_confederation",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Oskar_H%C3%B6cker"
+  },
+  "sources": [
+    {
+      "type": "book",
+      "author": "Reuter, Timothy (ed.)",
+      "title": "The New Cambridge Medieval History, Vol. III: c. 900 – c. 1024",
+      "publisher": "Cambridge University Press",
+      "year": 1999
+    }
+  ],
+  "monogram": "PC"
+}

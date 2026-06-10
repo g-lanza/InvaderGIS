@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_duchy_of_carinthia_976_c02",
+  "statement": "As an Alpine duchy controlling key passes between Germany and Italy, Carinthia held lasting strategic importance in imperial politics.",
+  "subject_ids": [
+    "duchy_of_carinthia"
+  ],
+  "period": {
+    "from": 976,
+    "to": 976
+  },
+  "derived_from": "duchy_of_carinthia_976",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

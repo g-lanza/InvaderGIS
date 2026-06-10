@@ -1,0 +1,31 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_saxony_hre_stem",
+  "statement": "Saxony was the most powerful of the five German stem duchies, its territory extending from the Rhineland to the Elbe, with the Saxon dukes directing the Christian mission into Slavic lands to the east. The Ottonian dynasty (Henry I, Otto I, Otto II, Otto III, Henry II) was Saxon, making Saxony the origin of the medieval German kingdom and the Holy Roman Empire. Henry the Lion's downfall (1180) — stripped of both Saxony and Bavaria by Frederick Barbarossa — split the duchy; the eastern half became the new Duchy of Saxony (Wittenberg branch); the western half remained with local counts. The Wettin dynasty eventually acquired the eastern Saxon title.",
+  "subject_ids": [
+    "holy_roman_empire",
+    "duchy_of_saxony"
+  ],
+  "predicate": "vassalage",
+  "derived_from": "rel_saxony_hre_stem",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "duchy_of_saxony"
+  ],
+  "period": {
+    "from": 962,
+    "to": 1180
+  }
+}

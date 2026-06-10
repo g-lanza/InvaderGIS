@@ -1,0 +1,697 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_saxony",
+  "name_primary": "Duchy of Saxony",
+  "name_variants": [
+    "Ducatus Saxoniae"
+  ],
+  "type": "duchy",
+  "region": "central_europe",
+  "formed": 804,
+  "dissolved": 1296,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 600,
+      "label": "Saxons",
+      "polygon": [
+        [
+          53.49,
+          8.22
+        ],
+        [
+          53.45,
+          8.5
+        ],
+        [
+          53.8,
+          8.54
+        ],
+        [
+          53.79,
+          9.13
+        ],
+        [
+          53.87,
+          8.86
+        ],
+        [
+          53.29,
+          11.09
+        ],
+        [
+          51.63,
+          12.27
+        ],
+        [
+          50.98,
+          10.45
+        ],
+        [
+          52.45,
+          8.24
+        ],
+        [
+          53.49,
+          8.22
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    52,
+    11
+  ],
+  "religion": "catholic",
+  "population_estimates": [
+    {
+      "year": 800,
+      "estimate": 840000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q164092",
+          "url": "https://www.wikidata.org/wiki/Q164092",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Saxony",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Saxony"
+        }
+      ]
+    },
+    {
+      "year": 950,
+      "estimate": 1200000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q164092",
+          "url": "https://www.wikidata.org/wiki/Q164092",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Saxony",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Saxony"
+        }
+      ]
+    },
+    {
+      "year": 1100,
+      "estimate": 1320000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q164092",
+          "url": "https://www.wikidata.org/wiki/Q164092",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Saxony",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Saxony"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low"
+  },
+  "description": "Major stem duchy of the Holy Roman Empire (c. 804–1296) whose Ottonian dynasty supplied three emperors and whose eastward expansion pushed German settlement into Slavic lands; the duchy's fragmentation by Frederick Barbarossa after the Welf exile (1180) dispersed power to lesser princes and restructured the constitutional balance of the Empire.",
+  "temporal": {
+    "start_year": 804,
+    "end_year": 1296,
+    "end_year_within_scope": null,
+    "start_event_id": null,
+    "end_event_id": null,
+    "notes": "Stem duchy; partitioned 1180 after fall of Henry the Lion"
+  },
+  "geographic": {
+    "representation": "schematic_approximation",
+    "centroid": [
+      52,
+      11
+    ],
+    "core_regions": [
+      "Saxony"
+    ],
+    "polygon_simplified": [
+      [
+        53.49,
+        8.22
+      ],
+      [
+        53.45,
+        8.5
+      ],
+      [
+        53.8,
+        8.54
+      ],
+      [
+        53.79,
+        9.13
+      ],
+      [
+        53.87,
+        8.86
+      ],
+      [
+        53.29,
+        11.09
+      ],
+      [
+        51.63,
+        12.27
+      ],
+      [
+        50.98,
+        10.45
+      ],
+      [
+        52.45,
+        8.24
+      ],
+      [
+        53.49,
+        8.22
+      ]
+    ],
+    "notes": "",
+    "polygon_status": "real_historical_boundary",
+    "polygon_representative_year": 1050,
+    "polygon_source": "aourednik/historical-basemaps",
+    "polygon_source_date": "2026-05-09",
+    "polygon_snapshots": [
+      {
+        "year": 600,
+        "label": "Saxons",
+        "polygon": [
+          [
+            53.49,
+            8.22
+          ],
+          [
+            53.45,
+            8.5
+          ],
+          [
+            53.8,
+            8.54
+          ],
+          [
+            53.79,
+            9.13
+          ],
+          [
+            53.87,
+            8.86
+          ],
+          [
+            53.29,
+            11.09
+          ],
+          [
+            51.63,
+            12.27
+          ],
+          [
+            50.98,
+            10.45
+          ],
+          [
+            52.45,
+            8.24
+          ],
+          [
+            53.49,
+            8.22
+          ]
+        ]
+      }
+    ],
+    "capital": {
+      "name": "Magdeburg",
+      "coords": [
+        52.13,
+        11.63
+      ],
+      "source": "curated"
+    }
+  },
+  "internal_structure": {
+    "centralization": null,
+    "centralization_trajectory": null,
+    "governance_type": "dynastic_feudal",
+    "legitimacy_basis": [
+      "feudal_oath",
+      "inheritance"
+    ],
+    "administrative_system": ""
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "ottonian_foundation",
+      "years": "804–962",
+      "description": "Saxony is incorporated into the Carolingian Empire after Charlemagne's brutal conquest of the Saxons (772–804), forced conversion, and the transplanting of thousands of Saxons. The Saxon duchy emerges under the Liudolfing dynasty. Henry the Fowler (912–936) defeats the Magyars and establishes East Frankish hegemony. His son Otto I defeats the Magyars at Lechfeld (955) and is crowned Holy Roman Emperor (962).",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q164092",
+          "url": "https://www.wikidata.org/wiki/Q164092"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Saxony",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Saxony"
+        }
+      ]
+    },
+    {
+      "phase": "high_medieval",
+      "years": "962–1180",
+      "description": "The Saxon duchy is the core of the Ottonian and Salian dynasties' power. Henry the Lion (Welf, 1142–1180) controls both Saxony and Bavaria, making him nearly as powerful as the emperor. His refusal to support Frederick Barbarossa in Italy leads to his downfall: he is tried, convicted, and exiled (1180); Saxony is dismembered and never reconstituted as a unified duchy.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q164092",
+          "url": "https://www.wikidata.org/wiki/Q164092"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Saxony",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Saxony"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "military_organizational_advantage",
+      "layer": "military_security",
+      "description": "Saxon heavy cavalry, developed under Henry the Fowler's military reforms, was the most effective force in 10th-century Europe; the defeat of the Magyars at Lechfeld (955) established Saxon military superiority and made Otto I the dominant ruler of Europe",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q164092",
+          "url": "https://www.wikidata.org/wiki/Q164092"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Saxony",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Saxony"
+        }
+      ]
+    },
+    {
+      "tag": "resource_concentration",
+      "layer": "economic_commercial",
+      "description": "The Harz mountains' silver mines (discovered c.968) provided the Ottonian dynasty with an independent silver supply that funded the imperial military and administration without dependence on feudal tribute",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q164092",
+          "url": "https://www.wikidata.org/wiki/Q164092"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Saxony",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Saxony"
+        }
+      ]
+    },
+    {
+      "tag": "ottonian_dynasty_origin",
+      "layer": "military_security",
+      "description": "The dukes of Saxony became the Ottonian dynasty; Henry the Fowler and Otto I transformed Saxony from a regional duchy into the core of the Holy Roman Empire, bringing imperial resources back to enrich the ducal homeland",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q164092",
+          "url": "https://www.wikidata.org/wiki/Q164092"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Saxony",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Saxony"
+        }
+      ]
+    },
+    {
+      "tag": "eastern_frontier_expansion",
+      "layer": "military_security",
+      "description": "Saxon military expansion eastward into Slavic territories, the Northern and Eastern Marches, created new tributary lands and the foundation of later German territorial states in Brandenburg and Meissen",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q164092",
+          "url": "https://www.wikidata.org/wiki/Q164092"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Saxony",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Saxony"
+        }
+      ]
+    },
+    {
+      "tag": "resource_concentration",
+      "layer": "economic_commercial",
+      "description": "The Harz Mountain silver mines, developed intensively from the 10th century, made Saxony the wealthiest duchy in Germany; the Goslar palatial complex sat atop this silver wealth and was the preferred seat of the Ottonian and Salian emperors",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q164092",
+          "url": "https://www.wikidata.org/wiki/Q164092"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Saxony",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Saxony"
+        }
+      ],
+      "tag_prose": "silver_mines_harz"
+    },
+    {
+      "layer": "economic_commercial",
+      "tag": "resource_concentration",
+      "direction": "rise",
+      "description": "The Rammelsberg silver mines in the Harz mountains gave Saxon dukes a continuous revenue stream independent of royal grants, funding the Ottonian dynasty's military campaigns and church construction.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q164092",
+          "url": "https://www.wikidata.org/wiki/Q164092"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Saxony",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Saxony"
+        }
+      ],
+      "tag_prose": "harz_silver_mines"
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "aristocratic_revolt",
+      "layer": "governance_institutional",
+      "description": "Henry the Lion's refusal to support Frederick Barbarossa in Italy (1176) allowed the emperor to convene a tribunal that convicted him of breach of feudal duty; the subsequent dismemberment of Saxony ended it as a unified duchy",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q164092",
+          "url": "https://www.wikidata.org/wiki/Q164092"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Saxony",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Saxony"
+        }
+      ]
+    },
+    {
+      "tag": "henry_the_lion_fall_1180",
+      "layer": "military_security",
+      "description": "Frederick Barbarossa's condemnation of Henry the Lion in 1180 broke up the great Saxon duchy; it was divided into Westphalia and a diminished \"Saxony\" for the Ascanian duke, permanently ending Saxon primacy in Germany",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q164092",
+          "url": "https://www.wikidata.org/wiki/Q164092"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Saxony",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Saxony"
+        }
+      ]
+    },
+    {
+      "tag": "welf_hohenstaufen_feud",
+      "layer": "military_security",
+      "description": "The Welf-Hohenstaufen dynastic conflict drew Saxony into generations of imperial civil war; every Saxon duke had to choose sides, and the losing side invariably had ducal lands redistributed to enemies",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q164092",
+          "url": "https://www.wikidata.org/wiki/Q164092"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Saxony",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Saxony"
+        }
+      ]
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "internal_fragmentation",
+      "direction": "decline",
+      "description": "When Henry the Lion was deposed in 1180, Saxony was dismembered among the Archbishop of Cologne, the Bishop of Hildesheim, and the Duchy of Brunswick-Lüneburg, ending Saxon territorial unity.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q164092",
+          "url": "https://www.wikidata.org/wiki/Q164092"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Saxony",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Saxony"
+        }
+      ],
+      "tag_prose": "henry_the_lion_partition"
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Henry the Fowler",
+      "role": "dynastic_founder",
+      "years": "876–936",
+      "year_start": 876,
+      "year_end": 936,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Henry the Fowler",
+          "url": "https://en.wikipedia.org/wiki/Henry_the_Fowler"
+        }
+      ]
+    },
+    {
+      "name": "Henry the Lion",
+      "role": "ruler",
+      "years": "1129–1195",
+      "year_start": 1129,
+      "year_end": 1195,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Henry the Lion",
+          "url": "https://en.wikipedia.org/wiki/Henry_the_Lion"
+        }
+      ]
+    }
+  ],
+  "predecessor_entity_ids": [
+    "east_francia"
+  ],
+  "successor_entity_ids": [
+    "holy_roman_empire",
+    "margraviate_of_brandenburg"
+  ],
+  "primary_ethnicity": "germanic",
+  "ethnic_composition": [
+    {
+      "group": "germanic",
+      "proportion": 0.9
+    }
+  ],
+  "religion_composition": [
+    {
+      "religion": "catholic",
+      "proportion": 0.95
+    },
+    {
+      "religion": "pagan",
+      "proportion": 0.05
+    }
+  ],
+  "primary_language": "german",
+  "language_composition": [
+    {
+      "language": "german",
+      "proportion": 0.88,
+      "role": "vernacular"
+    },
+    {
+      "language": "latin",
+      "proportion": 0.08,
+      "role": "liturgical"
+    },
+    {
+      "language": "church_slavonic",
+      "proportion": 0.04,
+      "role": "regional"
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "mining",
+      "long_distance_trade"
+    ],
+    "wealth_level": "high",
+    "major_exports": [
+      "silver",
+      "grain",
+      "cloth",
+      "horses"
+    ],
+    "major_trade_partners": [
+      "holy_roman_empire",
+      "hanseatic_league",
+      "kingdom_of_denmark"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "mining_rights",
+      "tithes"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q164092",
+        "url": "https://www.wikidata.org/wiki/Q164092"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Duchy of Saxony",
+        "url": "https://en.wikipedia.org/wiki/Duchy_of_Saxony"
+      }
+    ]
+  },
+  "social_structure": {
+    "ruling_ethnicity": "germanic",
+    "subject_majority": "germanic",
+    "military_ethnicity": "germanic",
+    "administrative_language": "german",
+    "stratification_type": "homogeneous"
+  },
+  "wikidata_enrichment": {
+    "qid": "Q164092",
+    "matched_name": "Duchy of Saxony",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Duchy_of_Saxony",
+    "rulers_from_wikidata": [
+      {
+        "name": "Maria Anna of Bavaria",
+        "qid": "Q57943",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q57943",
+            "url": "https://www.wikidata.org/wiki/Q57943"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Maria Anna of Bavaria",
+            "url": "https://en.wikipedia.org/wiki/Maria_Anna_of_Bavaria"
+          }
+        ]
+      },
+      {
+        "name": "Carola of Vasa",
+        "qid": "Q60380",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q60380",
+            "url": "https://www.wikidata.org/wiki/Q60380"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Carola of Vasa",
+            "url": "https://en.wikipedia.org/wiki/Carola_of_Vasa"
+          }
+        ]
+      },
+      {
+        "name": "Maria Josepha of Austria",
+        "qid": "Q84276",
+        "year_start": 1733,
+        "year_end": 1757,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q84276",
+            "url": "https://www.wikidata.org/wiki/Q84276"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Maria Josepha of Austria",
+            "url": "https://en.wikipedia.org/wiki/Maria_Josepha_of_Austria"
+          }
+        ]
+      },
+      {
+        "name": "Amalie Auguste of Bavaria",
+        "qid": "Q61221",
+        "year_start": 1854,
+        "year_end": 1873,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q61221",
+            "url": "https://www.wikidata.org/wiki/Q61221"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Amalie Auguste of Bavaria",
+            "url": "https://en.wikipedia.org/wiki/Amalie_Auguste_of_Bavaria"
+          }
+        ]
+      }
+    ],
+    "successors_from_wikidata": [
+      "County of Oldenburg",
+      "Saxe-Lauenburg",
+      "Prince-Bishopric of Lübeck",
+      "Duchy of Saxe-Wittenberg"
+    ]
+  },
+  "sources": [
+    {
+      "type": "book",
+      "author": "Wickham, Chris",
+      "title": "The Inheritance of Rome: A History of Europe from 400 to 1000",
+      "publisher": "Allen Lane",
+      "year": 2009
+    },
+    {
+      "type": "book",
+      "author": "Abulafia, David (ed.)",
+      "title": "The New Cambridge Medieval History, Vol. V: c. 1198 – c. 1300",
+      "publisher": "Cambridge University Press",
+      "year": 1999
+    }
+  ],
+  "monogram": "SA"
+}

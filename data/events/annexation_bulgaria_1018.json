@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "annexation_bulgaria_1018",
+  "name": "Byzantine annexation of Bulgaria",
+  "year": 1018,
+  "type": "dissolution_event",
+  "category": "power",
+  "coords": [
+    41.11,
+    20.8
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Byzantine Emperor Basil II 'the Bulgar-Slayer' completes the systematic conquest of the First Bulgarian Empire in a campaign culminating in 1018. His famous atrocity at the Battle of Kleidion (1014): 15,000 Bulgarian prisoners are blinded, with one eye left to every hundredth man to lead the rest home. When Tsar Samuel sees the blinded army returning, he dies of shock (according to Byzantine sources). Basil's methodical campaigns over 40 years eliminate Bulgaria as an independent state; it becomes a Byzantine theme for the next 167 years.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "first_bulgarian_empire"
+    ],
+    "structural_significance": "Ends the First Bulgarian Empire; achieves Byzantine maximum territorial extent; establishes Basil II's reputation as the most militarily effective Byzantine emperor",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

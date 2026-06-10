@@ -1,0 +1,22 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_bukhara",
+  "name": "Bukhara",
+  "importance": "capital",
+  "start_year": 500,
+  "end_year": 1220,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "high",
+    "attestation": "inferred"
+  },
+  "end_confidence": "high",
+  "coords": [
+    64.421,
+    39.768
+  ]
+}

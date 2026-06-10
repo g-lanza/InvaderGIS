@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_siege_of_maymun_diz_1256",
+  "name": "Siege of Maymun-Diz",
+  "subtype": "battle",
+  "start_year": 1256,
+  "end_year": 1256,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q98906430"
+    }
+  },
+  "description": "Battle during Mongol campaign against the Nizaris (1256)",
+  "coords": [
+    50.607,
+    36.4762
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "askia_muhammad_i",
+  "name": "Askia Muhammad I",
+  "polity": "songhai_empire",
+  "title": "emperor",
+  "reign_start": 1493,
+  "reign_end": 1528,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 1443,
+      "death_year": 1538
+    },
+    "entity_associations": [
+      {
+        "entity_id": "songhai_empire",
+        "role": "emperor",
+        "start_year": 1493,
+        "end_year": 1528
+      }
+    ],
+    "key_actions": [
+      {
+        "year": 1493,
+        "event": "Overthrows Sonni Baru and takes power."
+      },
+      {
+        "year": 1497,
+        "event": "Hajj to Mecca; receives caliphal investiture as 'Caliph of Sudan'."
+      },
+      {
+        "year": 1502,
+        "event": "Codifies Songhai administration on Islamic-jurisprudence model."
+      }
+    ],
+    "region": "west_africa",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "conrad_empires_medieval_west_africa_2010"
+    ],
+    "confidence": "low"
+  }
+}

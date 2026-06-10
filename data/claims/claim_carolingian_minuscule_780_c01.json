@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_carolingian_minuscule_780_c01",
+  "statement": "Carolingian minuscule, a standardized legible script, spread across Frankish scriptoria during the cultural program of Charlemagne and Alcuin.",
+  "subject_ids": [
+    "carolingian_empire"
+  ],
+  "period": {
+    "from": 780,
+    "to": 780
+  },
+  "derived_from": "carolingian_minuscule_780",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_inheritance_of_rome_2009",
+      "le_goff_medieval_civilization_1988"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

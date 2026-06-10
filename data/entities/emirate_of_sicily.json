@@ -1,0 +1,800 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "emirate_of_sicily",
+  "name_primary": "Emirate of Sicily",
+  "name_variants": [],
+  "type": "sultanate",
+  "region": "italy",
+  "formed": 900,
+  "dissolved": 1000,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 900,
+      "label": "Emirate of Sicily",
+      "polygon": [
+        [
+          37.92,
+          12.52
+        ],
+        [
+          38.22,
+          13.32
+        ],
+        [
+          37.97,
+          13.81
+        ],
+        [
+          38.11,
+          15.47
+        ],
+        [
+          37.46,
+          15.11
+        ],
+        [
+          37.06,
+          15.3
+        ],
+        [
+          36.74,
+          14.94
+        ],
+        [
+          37.58,
+          12.64
+        ],
+        [
+          37.92,
+          12.52
+        ]
+      ]
+    },
+    {
+      "year": 1000,
+      "label": "Emirate of Sicily",
+      "polygon": [
+        [
+          37.92,
+          12.52
+        ],
+        [
+          38.22,
+          13.32
+        ],
+        [
+          37.97,
+          13.81
+        ],
+        [
+          38.11,
+          15.47
+        ],
+        [
+          37.46,
+          15.11
+        ],
+        [
+          37.06,
+          15.3
+        ],
+        [
+          36.74,
+          14.94
+        ],
+        [
+          37.58,
+          12.64
+        ],
+        [
+          37.92,
+          12.52
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    37.655,
+    14.078
+  ],
+  "population_estimates": [
+    {
+      "year": 900,
+      "estimate": 700000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q118780154",
+          "url": "https://www.wikidata.org/wiki/Q118780154",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Emirate of Sicily",
+          "url": "https://en.wikipedia.org/wiki/Muslim_Sicily"
+        }
+      ]
+    },
+    {
+      "year": 950,
+      "estimate": 850000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q118780154",
+          "url": "https://www.wikidata.org/wiki/Q118780154",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Emirate of Sicily",
+          "url": "https://en.wikipedia.org/wiki/Muslim_Sicily"
+        }
+      ]
+    },
+    {
+      "year": 1000,
+      "estimate": 1000000,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q118780154",
+          "url": "https://www.wikidata.org/wiki/Q118780154",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Emirate of Sicily",
+          "url": "https://en.wikipedia.org/wiki/Muslim_Sicily"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Arab emirate in Sicily (831–1072) that made Palermo one of the most sophisticated cities in Europe; Aghlabid and later Kalbid amirs sponsored a multicultural court where Arab, Greek, and Jewish scholars worked alongside one another, while Sicilian agriculture introduced sugarcane, cotton, and citrus to European cultivation; the Norman conquest (1072) absorbed rather than destroyed this culture, creating the exceptional multicultural Norman-Sicilian kingdom.",
+  "temporal": {
+    "start_year": 900,
+    "end_year": 1000,
+    "notes": "Stub: dates from GeoJSON basemap years 900–1000"
+  },
+  "geographic": {
+    "centroid": [
+      37.655,
+      14.078
+    ],
+    "polygon_simplified": [
+      [
+        37.92,
+        12.52
+      ],
+      [
+        38.22,
+        13.32
+      ],
+      [
+        37.97,
+        13.81
+      ],
+      [
+        38.11,
+        15.47
+      ],
+      [
+        37.46,
+        15.11
+      ],
+      [
+        37.06,
+        15.3
+      ],
+      [
+        36.74,
+        14.94
+      ],
+      [
+        37.58,
+        12.64
+      ],
+      [
+        37.92,
+        12.52
+      ]
+    ],
+    "capital": {
+      "name": "Palermo",
+      "coords": [
+        38.11566,
+        13.36126
+      ],
+      "source": "wikidata"
+    },
+    "polygon_snapshots": [
+      {
+        "year": 900,
+        "label": "Emirate of Sicily",
+        "polygon": [
+          [
+            37.92,
+            12.52
+          ],
+          [
+            38.22,
+            13.32
+          ],
+          [
+            37.97,
+            13.81
+          ],
+          [
+            38.11,
+            15.47
+          ],
+          [
+            37.46,
+            15.11
+          ],
+          [
+            37.06,
+            15.3
+          ],
+          [
+            36.74,
+            14.94
+          ],
+          [
+            37.58,
+            12.64
+          ],
+          [
+            37.92,
+            12.52
+          ]
+        ]
+      },
+      {
+        "year": 1000,
+        "label": "Emirate of Sicily",
+        "polygon": [
+          [
+            37.92,
+            12.52
+          ],
+          [
+            38.22,
+            13.32
+          ],
+          [
+            37.97,
+            13.81
+          ],
+          [
+            38.11,
+            15.47
+          ],
+          [
+            37.46,
+            15.11
+          ],
+          [
+            37.06,
+            15.3
+          ],
+          [
+            36.74,
+            14.94
+          ],
+          [
+            37.58,
+            12.64
+          ],
+          [
+            37.92,
+            12.52
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "real_historical_boundary",
+    "polygon_source": "aourednik/historical-basemaps",
+    "polygon_source_date": "2026-05-09"
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "arab_conquest",
+      "years": "827-902",
+      "description": "Aghlabid Arabs began conquest of Byzantine Sicily in 827; Palermo fell 831, Syracuse fell 878, Taormina 902.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q118780154",
+          "url": "https://www.wikidata.org/wiki/Q118780154"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Emirate of Sicily",
+          "url": "https://en.wikipedia.org/wiki/Muslim_Sicily"
+        }
+      ]
+    },
+    {
+      "phase": "kalbid_emirate",
+      "years": "948-1072",
+      "description": "Kalbid dynasty ruled Sicily as an emirate; Palermo became one of the largest cities in Europe.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q118780154",
+          "url": "https://www.wikidata.org/wiki/Q118780154"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Emirate of Sicily",
+          "url": "https://en.wikipedia.org/wiki/Muslim_Sicily"
+        }
+      ]
+    },
+    {
+      "phase": "norman_conquest",
+      "years": "1061-1072",
+      "description": "Roger I of Hauteville conquered Sicily over 30 years; last Muslim stronghold fell 1072.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q118780154",
+          "url": "https://www.wikidata.org/wiki/Q118780154"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Emirate of Sicily",
+          "url": "https://en.wikipedia.org/wiki/Muslim_Sicily"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "aghlabid_military",
+      "layer": "military_security",
+      "description": "Aghlabid naval power made the Arab conquest of Byzantine Sicily achievable over decades.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q118780154",
+          "url": "https://www.wikidata.org/wiki/Q118780154"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Emirate of Sicily",
+          "url": "https://en.wikipedia.org/wiki/Muslim_Sicily"
+        }
+      ]
+    },
+    {
+      "tag": "resource_concentration",
+      "layer": "economic_commercial",
+      "description": "Arab colonists introduced citrus, sugar cane, and advanced irrigation transforming Sicilian agriculture.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q118780154",
+          "url": "https://www.wikidata.org/wiki/Q118780154"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Emirate of Sicily",
+          "url": "https://en.wikipedia.org/wiki/Muslim_Sicily"
+        }
+      ],
+      "tag_prose": "agricultural_innovation"
+    },
+    {
+      "tag": "multicultural_administration",
+      "layer": "governance_institutional",
+      "description": "Kalbid emirs accommodated Greek and Jewish communities, creating a cosmopolitan and productive society.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q118780154",
+          "url": "https://www.wikidata.org/wiki/Q118780154"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Emirate of Sicily",
+          "url": "https://en.wikipedia.org/wiki/Muslim_Sicily"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "kalbid_instability",
+      "layer": "dynastic_legitimacy",
+      "description": "Kalbid dynastic conflicts invited Norman intervention and eroded military cohesion.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q118780154",
+          "url": "https://www.wikidata.org/wiki/Q118780154"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Emirate of Sicily",
+          "url": "https://en.wikipedia.org/wiki/Muslim_Sicily"
+        }
+      ]
+    },
+    {
+      "tag": "norman_military_superiority",
+      "layer": "military_security",
+      "description": "Norman heavy cavalry and siege expertise systematically reduced Muslim strongholds.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q118780154",
+          "url": "https://www.wikidata.org/wiki/Q118780154"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Emirate of Sicily",
+          "url": "https://en.wikipedia.org/wiki/Muslim_Sicily"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Asad ibn al-Furat",
+      "role": "invasion_commander",
+      "years": "827–827",
+      "year_start": 827,
+      "year_end": 827,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Asad ibn al-Furat",
+          "url": "https://en.wikipedia.org/wiki/Asad_ibn_al-Furat"
+        }
+      ]
+    },
+    {
+      "name": "Ibrahim II of Aghlabid",
+      "role": "emir_at_siege",
+      "years": "902–902",
+      "year_start": 902,
+      "year_end": 902,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Ibrahim II of Aghlabid",
+          "url": "https://en.wikipedia.org/wiki/Ibrahim_II_of_Aghlabid"
+        }
+      ]
+    },
+    {
+      "name": "Al-Hasan ibn Ali al-Kalbi",
+      "role": "emir",
+      "years": "948–964",
+      "year_start": 948,
+      "year_end": 964,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Al-Hasan ibn Ali al-Kalbi",
+          "url": "https://en.wikipedia.org/wiki/Al-Hasan_ibn_Ali_al-Kalbi"
+        }
+      ]
+    },
+    {
+      "name": "Yusuf ibn Abd Allah",
+      "role": "last_emir",
+      "years": "1053–1072",
+      "year_start": 1053,
+      "year_end": 1072,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Yusuf ibn Abd Allah",
+          "url": "https://en.wikipedia.org/wiki/Yusuf_ibn_Abd_Allah"
+        }
+      ]
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "maritime_trade",
+      "sugar_production",
+      "silk"
+    ],
+    "wealth_level": "high",
+    "major_exports": [
+      "grain",
+      "silk",
+      "citrus",
+      "sugar",
+      "olive_oil"
+    ],
+    "major_trade_partners": [
+      "fatimid_caliphate",
+      "byzantine_empire",
+      "north_africa"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "port_duties",
+      "agricultural_taxes"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q118780154",
+        "url": "https://www.wikidata.org/wiki/Q118780154"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Emirate of Sicily",
+        "url": "https://en.wikipedia.org/wiki/Muslim_Sicily"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q118780154",
+    "matched_name": "Emirate of Sicily",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Muslim_Sicily",
+    "capital": {
+      "name": "Palermo",
+      "coords": [
+        38.11566,
+        13.36126
+      ]
+    },
+    "rulers_from_wikidata": [
+      {
+        "name": "Jawhar al-Siqilli",
+        "qid": "Q559554",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q559554",
+            "url": "https://www.wikidata.org/wiki/Q559554"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Jawhar al-Siqilli",
+            "url": "https://en.wikipedia.org/wiki/Jawhar_(general)"
+          }
+        ]
+      },
+      {
+        "name": "Abdallah ibn Abbas ibn al-Fadl",
+        "qid": "Q111537720",
+        "year_start": 862,
+        "year_end": 862,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q111537720",
+            "url": "https://www.wikidata.org/wiki/Q111537720"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Abdallah ibn Abbas ibn al-Fadl",
+            "url": "https://en.wikipedia.org/wiki/Abdallah_ibn_Abbas_ibn_al-Fadl"
+          }
+        ]
+      },
+      {
+        "name": "Al-Hasan ibn Ali al-Kalbi",
+        "qid": "Q367767",
+        "year_start": 948,
+        "year_end": 953,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q367767",
+            "url": "https://www.wikidata.org/wiki/Q367767"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Al-Hasan ibn Ali al-Kalbi",
+            "url": "https://en.wikipedia.org/wiki/Al-Hasan_ibn_Ali_al-Kalbi"
+          }
+        ]
+      },
+      {
+        "name": "Ahmad ibn al-Hasan al-Muizziyya",
+        "qid": "Q51954480",
+        "year_start": 953,
+        "year_end": 969,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q51954480",
+            "url": "https://www.wikidata.org/wiki/Q51954480"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ahmad ibn al-Hasan al-Muizziyya",
+            "url": "https://en.wikipedia.org/wiki/Ahmad_ibn_al-Hasan_al-Muizziyya"
+          }
+        ]
+      },
+      {
+        "name": "Ahmad ibn al-Hasan al-Kalbi",
+        "qid": "Q78494975",
+        "year_start": 954,
+        "year_end": 969,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q78494975",
+            "url": "https://www.wikidata.org/wiki/Q78494975"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ahmad ibn al-Hasan al-Kalbi",
+            "url": "https://en.wikipedia.org/wiki/Ahmad_ibn_al-Hasan_al-Kalbi"
+          }
+        ]
+      },
+      {
+        "name": "Ya'is",
+        "qid": "Q51954530",
+        "year_start": 969,
+        "year_end": 969,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q51954530",
+            "url": "https://www.wikidata.org/wiki/Q51954530"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ya'is",
+            "url": "https://en.wikipedia.org/wiki/Ya'is"
+          }
+        ]
+      },
+      {
+        "name": "Abu al-Qasim",
+        "qid": "Q335628",
+        "year_start": 970,
+        "year_end": 982,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q335628",
+            "url": "https://www.wikidata.org/wiki/Q335628"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Abu al-Qasim",
+            "url": "https://en.wikipedia.org/wiki/Abu_al-Qasim"
+          }
+        ]
+      },
+      {
+        "name": "Jabir ibn 'Ali",
+        "qid": "Q13196445",
+        "year_start": 982,
+        "year_end": 983,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q13196445",
+            "url": "https://www.wikidata.org/wiki/Q13196445"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Jabir ibn 'Ali",
+            "url": "https://en.wikipedia.org/wiki/Jabir_ibn_'Ali"
+          }
+        ]
+      },
+      {
+        "name": "Jaʿfar al-Kalbī",
+        "qid": "Q20605472",
+        "year_start": 983,
+        "year_end": 985,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q20605472",
+            "url": "https://www.wikidata.org/wiki/Q20605472"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Jaʿfar al-Kalbī",
+            "url": "https://en.wikipedia.org/wiki/Jaʿfar_al-Kalbī"
+          }
+        ]
+      },
+      {
+        "name": "Ja'far ibn Muhammad",
+        "qid": "Q51954616",
+        "year_start": 983,
+        "year_end": 986,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q51954616",
+            "url": "https://www.wikidata.org/wiki/Q51954616"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ja'far ibn Muhammad",
+            "url": "https://en.wikipedia.org/wiki/Ja'far_ibn_Muhammad"
+          }
+        ]
+      },
+      {
+        "name": "Abd Allah ibn Muhammad",
+        "qid": "Q13195326",
+        "year_start": 985,
+        "year_end": 989,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q13195326",
+            "url": "https://www.wikidata.org/wiki/Q13195326"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Abd Allah ibn Muhammad",
+            "url": "https://en.wikipedia.org/wiki/Abd_Allah_ibn_Muhammad"
+          }
+        ]
+      },
+      {
+        "name": "Yusuf al-Kalbi",
+        "qid": "Q13195336",
+        "year_start": 986,
+        "year_end": 998,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q13195336",
+            "url": "https://www.wikidata.org/wiki/Q13195336"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Yusuf al-Kalbi",
+            "url": "https://en.wikipedia.org/wiki/Thiqat_al-Dawla"
+          }
+        ]
+      },
+      {
+        "name": "Jaʿfar II al-Kalbī",
+        "qid": "Q15109151",
+        "year_start": 998,
+        "year_end": 1019,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q15109151",
+            "url": "https://www.wikidata.org/wiki/Q15109151"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Jaʿfar II al-Kalbī",
+            "url": "https://en.wikipedia.org/wiki/Jaʿfar_II_al-Kalbī"
+          }
+        ]
+      }
+    ]
+  },
+  "monogram": "SI"
+}

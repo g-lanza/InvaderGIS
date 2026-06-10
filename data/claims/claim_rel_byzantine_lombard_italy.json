@@ -1,0 +1,29 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_byzantine_lombard_italy",
+  "statement": "Byzantine control of Italy was contested throughout the 6th–8th centuries: Justinian's reconquest (535–554) restored imperial rule, but the Gothic Wars' devastation left Italy economically prostrated. The Lombard invasion (568) fragmented imperial control to coastal enclaves (Ravenna, Rome, Naples, Sicily). The Exarchate of Ravenna — the Byzantine administrative center — was conquered by the Lombards (751), prompting the papacy to invite Frankish intervention. The Frankish-papal alliance effectively ended Byzantine political relevance in central and northern Italy, though Byzantine cultural influence persisted through the Norman period.",
+  "subject_ids": [
+    "byzantine_empire",
+    "lombard_kingdom"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_byzantine_lombard_italy",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991",
+      "deacon_history_1907",
+      "christie_the_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 568,
+    "to": 774
+  }
+}

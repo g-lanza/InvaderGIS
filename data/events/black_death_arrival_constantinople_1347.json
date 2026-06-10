@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "black_death_arrival_constantinople_1347",
+  "name": "Black Death enters Constantinople",
+  "year": 1347,
+  "type": "epidemic",
+  "category": "hazard",
+  "coords": [
+    41.005,
+    28.978
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Genoese galleys arriving from the besieged Crimean port of Caffa carry Yersinia pestis into the Byzantine capital. Emperor John VI Kantakouzenos loses his own son to the disease. From Constantinople the plague enters the Aegean and Adriatic shipping lanes within months.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "republic_of_genoa"
+    ],
+    "structural_significance": "Constantinople is the principal gateway for the Black Death's westward spread; the city loses perhaps half its population, deepening the structural decay that the late Palaiologos dynasty could no longer reverse.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

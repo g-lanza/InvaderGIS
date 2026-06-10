@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_anchialus_708",
+  "name": "Battle of Anchialus",
+  "year": 708,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    42.2375,
+    26.647
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Battle of Anchialus (708 CE), at Pomorie (part of Byzantine–Bulgarian Wars). Source: Wikidata Q602880.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "bulgar_khanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

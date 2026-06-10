@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "mongol_china_conquest_1279",
+  "name": "Kublai Khan Completes Conquest of China",
+  "year": 1279,
+  "type": "conquest",
+  "category": "violence",
+  "coords": [
+    30.57,
+    114.29
+  ],
+  "entity": "mongol_empire",
+  "summary": "Kublai Khan defeats the last Song dynasty naval forces at the Battle of Yamen (1279), completing the Mongol conquest of China. The fall of the Southern Song ends the most sophisticated civilization of the 13th century, Song China had invented gunpowder weapons, printing, paper money, and porcelain at an industrial scale. Kublai establishes the Yuan dynasty, ruling China from a new capital at Beijing (Khanbaliq).",
+  "outcomes": [
+    "song_china_conquered",
+    "yuan_dynasty_founded",
+    "china_part_of_mongol_empire"
+  ],
+  "_quarry": {
+    "participants": [
+      "mongol_empire"
+    ],
+    "structural_significance": "The Song conquest brings China fully into the Pax Mongolica, enabling Marco Polo's journey (1271-1295) and connecting Chinese technical achievements with European and Islamic markets; the Yuan dynasty's administration introduces paper money to China on a massive scale (causing inflation that contributes to the dynasty's collapse); the conquest demonstrates the Mongol capacity to destroy the most advanced civilization of the age",
+    "year_range": [
+      1271,
+      1279
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

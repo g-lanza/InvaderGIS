@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_fr_teval_1194",
+  "name": "Battle of Fréteval",
+  "year": 1194,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    48.9175,
+    0.3125
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Battle of Fréteval (1194 CE), at Fréteval (part of Anglo-French War of 1194–1199). Source: Wikidata Q30742731.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "kingdom_of_england",
+      "duchy_of_normandy",
+      "county_of_anjou"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

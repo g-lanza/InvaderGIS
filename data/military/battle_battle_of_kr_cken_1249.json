@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_kr_cken_1249",
+  "name": "Battle of Krücken",
+  "subtype": "battle",
+  "start_year": 1249,
+  "end_year": 1249,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q3303638"
+    }
+  },
+  "description": "Battle during Prussian Crusade (1249)",
+  "coords": [
+    20.4495,
+    54.4476
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_tyrolean_venetian_war_1487",
+  "name": "Tyrolean-Venetian War",
+  "year": 1487,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    45.4,
+    12.3
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Tyrolean-Venetian War (1487 CE), at Trentino. Source: Wikidata Q18435211.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

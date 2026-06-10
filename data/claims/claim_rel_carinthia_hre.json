@@ -1,0 +1,31 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_carinthia_hre",
+  "statement": "Carinthia was separated from Bavaria as an independent stem duchy in 976 by Emperor Otto II, who granted it to Henry of Carinthia (of the Luitpolding family). The duchy controlled the critical passes through the Karawanken Alps connecting Bavaria with northern Italy. Carinthia passed through several dynasties — Luitpoldings, Eppensteiners, Sponheims — before the Habsburgs acquired it in 1335, adding it to their growing Alpine domain. Combined with Austria (acquired 1282) and Styria (acquired 1282), Carinthia formed the nucleus of the 'Inner Austrian' lands that remained Habsburg until 1918.",
+  "subject_ids": [
+    "holy_roman_empire",
+    "duchy_of_carinthia"
+  ],
+  "predicate": "vassalage",
+  "derived_from": "rel_carinthia_hre",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "duchy_of_carinthia"
+  ],
+  "period": {
+    "from": 976,
+    "to": 1500
+  }
+}

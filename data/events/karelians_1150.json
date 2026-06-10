@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "karelians_1150",
+  "name": "Karelian Traders Active in Novgorod",
+  "year": 1150,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    60.4235,
+    30.311
+  ],
+  "entity": "karelians",
+  "summary": "Karelian traders played a significant role in Novgorod's fur trade from the 12th century, supplying beaver, squirrel, and sable pelts from the vast forests of the Karelian isthmus. The Karelians adopted Orthodox Christianity under Novgorodian influence while maintaining their distinct Finnic culture.",
+  "outcomes": [
+    "fur_trade",
+    "orthodox_influence",
+    "novgorodian_ally"
+  ],
+  "_quarry": {
+    "participants": [
+      "karelians",
+      "principality_of_novgorod"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

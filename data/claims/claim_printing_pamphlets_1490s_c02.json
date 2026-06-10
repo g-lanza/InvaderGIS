@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_printing_pamphlets_1490s_c02",
+  "statement": "Sebastian Brant's Ship of Fools, published in 1494, sold tens of thousands of copies.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1494,
+    "to": 1494
+  },
+  "derived_from": "printing_pamphlets_1490s",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

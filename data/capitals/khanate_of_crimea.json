@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "khanate_of_crimea",
+  "name": "Bakhchysarai",
+  "entity_id": "khanate_of_crimea",
+  "entity_name": "Crimean Khanate",
+  "start_year": 1441,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q160440"
+    }
+  },
+  "coords": [
+    33.86083,
+    44.75278
+  ]
+}

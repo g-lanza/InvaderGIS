@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_third_crusade_1189_c03",
+  "statement": "Richard I reconquered the coastal cities and defeated Saladin at Arsuf and Jaffa.",
+  "subject_ids": [
+    "kingdom_of_england"
+  ],
+  "period": {
+    "from": 1189,
+    "to": 1189
+  },
+  "derived_from": "third_crusade_1189",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

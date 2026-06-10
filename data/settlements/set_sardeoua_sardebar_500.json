@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_sardeoua_sardebar_500",
+  "name": "Sardeoua/‘Sardebar’",
+  "importance": "city",
+  "start_year": 500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "inferred",
+    "external_ids": {
+      "pleiades": "874681"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    40.499,
+    37.6086
+  ]
+}

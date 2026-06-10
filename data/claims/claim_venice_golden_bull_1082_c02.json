@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_venice_golden_bull_1082_c02",
+  "statement": "The 1082 Golden Bull was granted in exchange for Venetian naval assistance against Robert Guiscard's Norman invasion of the Balkans.",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1082,
+    "to": 1082
+  },
+  "derived_from": "venice_golden_bull_1082",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

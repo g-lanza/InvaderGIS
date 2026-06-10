@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_campston_hill_1404",
+  "name": "Battle of Campston Hill",
+  "year": 1404,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    52.5,
+    -2.4
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Battle of Campston Hill (1404 CE), at Church of St Cadoc, Llangattock Lingoed (part of Glyndŵr rebellion). Source: Wikidata Q13126306.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "principality_of_wales"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

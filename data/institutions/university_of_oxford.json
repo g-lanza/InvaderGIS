@@ -1,0 +1,38 @@
+{
+  "kind": "institution",
+  "dataset": "medieval-europe-500-1500",
+  "id": "university_of_oxford",
+  "name_primary": "University of Oxford",
+  "domain": "university",
+  "formed": 1167,
+  "dissolved": 1500,
+  "_quarry": {
+    "key_developments": [
+      {
+        "year": 1167,
+        "event": "Early teaching activity; informal university begins."
+      },
+      {
+        "year": 1209,
+        "event": "Town-and-gown dispute; some scholars decamp and found Cambridge."
+      },
+      {
+        "year": 1214,
+        "event": "Papal legate's award restores Oxford and grants chancellor jurisdiction."
+      },
+      {
+        "year": 1382,
+        "event": "Wycliffe's teachings condemned at the Blackfriars Council."
+      }
+    ],
+    "influences_entities": [
+      "kingdom_of_england"
+    ],
+    "description": "Founded as a community of scholars around 1167, possibly accelerated by Henry II's recall of English students from Paris after a dispute with the French crown. The 1209 town-and-gown riot drove some masters to Cambridge, founding the second English university. Oxford developed strong traditions in logic, natural philosophy, and theology (Roger Bacon, Duns Scotus, Wycliffe)."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

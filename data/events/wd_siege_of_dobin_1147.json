@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_dobin_1147",
+  "name": "Siege of Dobin",
+  "year": 1147,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    52,
+    11
+  ],
+  "entity": "duchy_of_saxony",
+  "summary": "Siege of Dobin (1147 CE), at Dobin am See (part of Wendish Crusade). Source: Wikidata Q138027703.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "duchy_of_saxony"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

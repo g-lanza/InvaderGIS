@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_tamerlane_conquests_1380s_c02",
+  "statement": "Timur destroyed the Golden Horde in 1395-1396, sacked Delhi in 1398, defeated the Mamluks in Syria in 1400-1401, and destroyed the Ottoman army at Ankara in 1402.",
+  "subject_ids": [
+    "ilkhanate"
+  ],
+  "period": {
+    "from": 1380,
+    "to": 1380
+  },
+  "derived_from": "tamerlane_conquests_1380s",
+  "unresolved_sources": [
+    "jackson_the_2005"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "amitai-preiss_mongols_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_magna_carta_1215_c01",
+  "statement": "On June 15, 1215, King John of England sealed Magna Carta at Runnymede under pressure from a baronial coalition.",
+  "subject_ids": [
+    "kingdom_of_england"
+  ],
+  "period": {
+    "from": 1215,
+    "to": 1215
+  },
+  "derived_from": "magna_carta_1215",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "ims_fordham",
+      "ims_fordham_sbook1n"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

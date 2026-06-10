@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_alashkert_1421_c02",
+  "statement": "The Battle of Alashkert took place at Eleşkirt.",
+  "subject_ids": [
+    "timurid_empire"
+  ],
+  "period": {
+    "from": 1421,
+    "to": 1421
+  },
+  "derived_from": "wd_battle_of_alashkert_1421",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "manz_the_1989",
+      "lentz_timur_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

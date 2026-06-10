@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "knights_hospitaller_rhodes",
+  "name": "Rhodes",
+  "entity_id": "knights_hospitaller_rhodes",
+  "entity_name": "Knights Hospitaller (Rhodes)",
+  "start_year": 1099,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q187549"
+    }
+  },
+  "coords": [
+    28.22,
+    36.43
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wycliffe_condemned_1382_c01",
+  "statement": "An English synod at Blackfriars in London condemns twenty-four propositions drawn from the writings of John Wycliffe, including his rejection of transubstantiation and the temporal endowment of the Church.",
+  "subject_ids": [
+    "kingdom_of_england"
+  ],
+  "period": {
+    "from": 1382,
+    "to": 1382
+  },
+  "derived_from": "wycliffe_condemned_1382",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "bartlett_making_of_europe_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "hussite_tabor_1420",
+  "name": "Battle of Vítkov, Hussite Military Revolution",
+  "year": 1420,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    50.06,
+    14.44
+  ],
+  "entity": "kingdom_of_bohemia",
+  "summary": "Jan Žižka leads a Hussite force to victory over the Emperor Sigismund's crusading army at Vítkov Hill (near Prague). Žižka's tactical innovation, the Wagenburg (wagon fortress), combines improvised mobile fortifications with crossbow, flail, and handgun-armed infantry. The Hussites repel all five papal crusades (1420-1431) against them, demonstrating that motivated infantry using firearms and field fortifications could defeat conventional feudal armies.",
+  "outcomes": [
+    "first_crusade_against_hussites_repelled",
+    "zizka_wagon_fortress_tactic",
+    "hussite_revolution_survives"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_bohemia",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "The Hussite wars are the first major conflict where firearms (handguns) are systematically deployed in large numbers; Žižka's Wagenburg anticipates both the Swiss pike square and early modern firearm tactics; the Hussite military revolution demonstrates that religious motivation combined with tactical innovation can overcome conventional military superiority; the Hussites' survival forces the Council of Basel to negotiate rather than simply impose orthodoxy",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

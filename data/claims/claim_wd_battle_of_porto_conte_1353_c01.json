@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_porto_conte_1353_c01",
+  "statement": "Battle of Porto Conte (1353 CE), at Porto Conte (part of Venetian–Genoese Wars).",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1353,
+    "to": 1353
+  },
+  "derived_from": "wd_battle_of_porto_conte_1353",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

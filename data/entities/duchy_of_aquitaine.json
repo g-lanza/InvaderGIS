@@ -1,0 +1,2507 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_aquitaine",
+  "name_primary": "Duchy of Aquitaine",
+  "name_variants": [
+    "Ducatus Aquitaniae"
+  ],
+  "type": "duchy",
+  "region": "western_europe",
+  "formed": 781,
+  "dissolved": 1453,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 990,
+      "label": "Duchy of Aquitaine",
+      "polygon": [
+        [
+          46.35,
+          3.98
+        ],
+        [
+          46.41,
+          4.23
+        ],
+        [
+          46.68,
+          4.05
+        ],
+        [
+          46.81,
+          3.06
+        ],
+        [
+          47.01,
+          2.8
+        ],
+        [
+          47.2,
+          2.79
+        ],
+        [
+          47.07,
+          1.32
+        ],
+        [
+          46.87,
+          1.33
+        ],
+        [
+          46.81,
+          1.17
+        ],
+        [
+          47.07,
+          0.58
+        ],
+        [
+          47.01,
+          0.58
+        ],
+        [
+          47.01,
+          0.34
+        ],
+        [
+          46.94,
+          0.34
+        ],
+        [
+          46.87,
+          -1.05
+        ],
+        [
+          47.01,
+          -1.39
+        ],
+        [
+          47.01,
+          -2.21
+        ],
+        [
+          46.81,
+          -2.19
+        ],
+        [
+          46.35,
+          -1.67
+        ],
+        [
+          46.28,
+          -1.25
+        ],
+        [
+          45.89,
+          -1.22
+        ],
+        [
+          45.89,
+          -1.14
+        ],
+        [
+          45.76,
+          -1.21
+        ],
+        [
+          45.5,
+          -0.87
+        ],
+        [
+          45.24,
+          -0.77
+        ],
+        [
+          45.17,
+          -0.11
+        ],
+        [
+          44.91,
+          -0.1
+        ],
+        [
+          44.91,
+          -0.18
+        ],
+        [
+          44.65,
+          -0.24
+        ],
+        [
+          44.45,
+          0.34
+        ],
+        [
+          44.52,
+          0.58
+        ],
+        [
+          44.32,
+          0.91
+        ],
+        [
+          44.39,
+          1.07
+        ],
+        [
+          44.52,
+          1.06
+        ],
+        [
+          44.65,
+          1.38
+        ],
+        [
+          44.84,
+          1.45
+        ],
+        [
+          44.78,
+          2.1
+        ],
+        [
+          44.52,
+          2.2
+        ],
+        [
+          44.58,
+          2.52
+        ],
+        [
+          44.84,
+          2.58
+        ],
+        [
+          44.84,
+          2.75
+        ],
+        [
+          44.58,
+          3.08
+        ],
+        [
+          44.19,
+          3.34
+        ],
+        [
+          44.19,
+          3.59
+        ],
+        [
+          44.32,
+          3.58
+        ],
+        [
+          44.52,
+          3.81
+        ],
+        [
+          44.52,
+          4.06
+        ],
+        [
+          44.91,
+          3.96
+        ],
+        [
+          44.91,
+          4.12
+        ],
+        [
+          45.1,
+          4.36
+        ],
+        [
+          45.3,
+          4.35
+        ],
+        [
+          45.37,
+          3.94
+        ],
+        [
+          45.63,
+          4.01
+        ],
+        [
+          45.63,
+          3.93
+        ],
+        [
+          45.96,
+          3.92
+        ],
+        [
+          46.02,
+          4.08
+        ],
+        [
+          46.35,
+          3.98
+        ]
+      ]
+    },
+    {
+      "year": 1010,
+      "label": "Duchy of Aquitaine",
+      "polygon": [
+        [
+          46.68,
+          4.05
+        ],
+        [
+          46.68,
+          3.8
+        ],
+        [
+          46.55,
+          3.73
+        ],
+        [
+          46.61,
+          3.07
+        ],
+        [
+          47.01,
+          2.8
+        ],
+        [
+          47.2,
+          2.79
+        ],
+        [
+          47.07,
+          1.32
+        ],
+        [
+          46.87,
+          1.33
+        ],
+        [
+          46.81,
+          1.17
+        ],
+        [
+          47.07,
+          0.58
+        ],
+        [
+          47.01,
+          0.58
+        ],
+        [
+          47.01,
+          0.34
+        ],
+        [
+          46.94,
+          0.34
+        ],
+        [
+          46.87,
+          -1.05
+        ],
+        [
+          47.01,
+          -1.39
+        ],
+        [
+          47.01,
+          -2.21
+        ],
+        [
+          46.81,
+          -2.19
+        ],
+        [
+          46.35,
+          -1.67
+        ],
+        [
+          46.28,
+          -1.25
+        ],
+        [
+          45.89,
+          -1.22
+        ],
+        [
+          45.89,
+          -1.14
+        ],
+        [
+          45.76,
+          -1.21
+        ],
+        [
+          45.5,
+          -0.87
+        ],
+        [
+          45.24,
+          -0.77
+        ],
+        [
+          45.17,
+          -0.11
+        ],
+        [
+          44.91,
+          -0.1
+        ],
+        [
+          44.91,
+          -0.18
+        ],
+        [
+          44.65,
+          -0.24
+        ],
+        [
+          44.45,
+          0.34
+        ],
+        [
+          44.52,
+          0.58
+        ],
+        [
+          44.32,
+          0.91
+        ],
+        [
+          44.39,
+          1.07
+        ],
+        [
+          44.52,
+          1.06
+        ],
+        [
+          44.65,
+          1.38
+        ],
+        [
+          44.84,
+          1.45
+        ],
+        [
+          44.78,
+          2.1
+        ],
+        [
+          44.52,
+          2.2
+        ],
+        [
+          44.58,
+          2.52
+        ],
+        [
+          44.84,
+          2.58
+        ],
+        [
+          44.84,
+          2.75
+        ],
+        [
+          44.58,
+          3.08
+        ],
+        [
+          44.19,
+          3.34
+        ],
+        [
+          44.19,
+          3.59
+        ],
+        [
+          44.32,
+          3.58
+        ],
+        [
+          44.52,
+          3.81
+        ],
+        [
+          44.52,
+          4.06
+        ],
+        [
+          44.91,
+          3.96
+        ],
+        [
+          44.91,
+          4.12
+        ],
+        [
+          45.1,
+          4.36
+        ],
+        [
+          45.3,
+          4.35
+        ],
+        [
+          45.37,
+          3.94
+        ],
+        [
+          45.63,
+          4.01
+        ],
+        [
+          45.63,
+          3.93
+        ],
+        [
+          45.96,
+          3.92
+        ],
+        [
+          46.02,
+          4.08
+        ],
+        [
+          46.35,
+          3.98
+        ],
+        [
+          46.41,
+          4.23
+        ],
+        [
+          46.68,
+          4.05
+        ]
+      ]
+    },
+    {
+      "year": 1046,
+      "label": "Duchy of Aquitaine",
+      "polygon": [
+        [
+          46.41,
+          4.23
+        ],
+        [
+          46.68,
+          4.05
+        ],
+        [
+          46.68,
+          3.8
+        ],
+        [
+          46.55,
+          3.73
+        ],
+        [
+          46.61,
+          3.07
+        ],
+        [
+          47.01,
+          2.8
+        ],
+        [
+          47.2,
+          2.79
+        ],
+        [
+          47.14,
+          1.32
+        ],
+        [
+          46.87,
+          1.33
+        ],
+        [
+          46.81,
+          1.17
+        ],
+        [
+          47.07,
+          0.74
+        ],
+        [
+          46.87,
+          -0.15
+        ],
+        [
+          46.87,
+          -1.05
+        ],
+        [
+          47.01,
+          -1.39
+        ],
+        [
+          47.01,
+          -2.21
+        ],
+        [
+          46.81,
+          -2.19
+        ],
+        [
+          46.35,
+          -1.67
+        ],
+        [
+          46.28,
+          -1.25
+        ],
+        [
+          45.89,
+          -1.22
+        ],
+        [
+          45.89,
+          -1.14
+        ],
+        [
+          45.76,
+          -1.21
+        ],
+        [
+          45.5,
+          -0.87
+        ],
+        [
+          45.24,
+          -0.77
+        ],
+        [
+          45.17,
+          -0.11
+        ],
+        [
+          44.91,
+          -0.1
+        ],
+        [
+          44.91,
+          -0.18
+        ],
+        [
+          44.65,
+          -0.24
+        ],
+        [
+          44.45,
+          0.34
+        ],
+        [
+          44.52,
+          0.58
+        ],
+        [
+          44.32,
+          0.91
+        ],
+        [
+          44.39,
+          1.07
+        ],
+        [
+          44.52,
+          1.06
+        ],
+        [
+          44.65,
+          1.38
+        ],
+        [
+          44.84,
+          1.45
+        ],
+        [
+          44.78,
+          2.1
+        ],
+        [
+          44.52,
+          2.2
+        ],
+        [
+          44.58,
+          2.52
+        ],
+        [
+          44.84,
+          2.58
+        ],
+        [
+          44.84,
+          2.75
+        ],
+        [
+          44.58,
+          3.08
+        ],
+        [
+          44.19,
+          3.34
+        ],
+        [
+          44.19,
+          3.59
+        ],
+        [
+          44.32,
+          3.58
+        ],
+        [
+          44.52,
+          3.81
+        ],
+        [
+          44.52,
+          4.06
+        ],
+        [
+          44.91,
+          3.96
+        ],
+        [
+          44.91,
+          4.12
+        ],
+        [
+          45.1,
+          4.36
+        ],
+        [
+          45.3,
+          4.35
+        ],
+        [
+          45.37,
+          3.94
+        ],
+        [
+          45.63,
+          4.01
+        ],
+        [
+          45.63,
+          3.93
+        ],
+        [
+          45.96,
+          3.92
+        ],
+        [
+          46.02,
+          4.08
+        ],
+        [
+          46.35,
+          3.98
+        ],
+        [
+          46.41,
+          4.23
+        ]
+      ]
+    },
+    {
+      "year": 1206,
+      "label": "Duchy of Aquitaine",
+      "polygon": [
+        [
+          44.78,
+          1.86
+        ],
+        [
+          44.78,
+          2.1
+        ],
+        [
+          45.04,
+          2.17
+        ],
+        [
+          45.24,
+          2.4
+        ],
+        [
+          45.56,
+          2.3
+        ],
+        [
+          45.82,
+          0.9
+        ],
+        [
+          45.69,
+          0.91
+        ],
+        [
+          45.43,
+          0.68
+        ],
+        [
+          45.24,
+          1.1
+        ],
+        [
+          44.97,
+          1.2
+        ],
+        [
+          44.84,
+          1.45
+        ],
+        [
+          44.78,
+          1.86
+        ]
+      ]
+    },
+    {
+      "year": 1250,
+      "label": "Duchy of Aquitaine",
+      "polygon": [
+        [
+          44.97,
+          1.2
+        ],
+        [
+          45.24,
+          1.1
+        ],
+        [
+          45.43,
+          0.68
+        ],
+        [
+          45.69,
+          0.91
+        ],
+        [
+          45.82,
+          0.9
+        ],
+        [
+          45.56,
+          2.3
+        ],
+        [
+          45.24,
+          2.4
+        ],
+        [
+          45.04,
+          2.17
+        ],
+        [
+          44.78,
+          2.1
+        ],
+        [
+          44.84,
+          1.45
+        ],
+        [
+          44.97,
+          1.2
+        ]
+      ]
+    },
+    {
+      "year": 1333,
+      "label": "Duchy of Aquitaine",
+      "polygon": [
+        [
+          44.84,
+          1.45
+        ],
+        [
+          44.97,
+          1.2
+        ],
+        [
+          45.24,
+          1.1
+        ],
+        [
+          45.43,
+          0.68
+        ],
+        [
+          45.69,
+          0.91
+        ],
+        [
+          45.82,
+          0.9
+        ],
+        [
+          45.56,
+          2.3
+        ],
+        [
+          45.24,
+          2.4
+        ],
+        [
+          45.04,
+          2.17
+        ],
+        [
+          44.78,
+          2.1
+        ],
+        [
+          44.84,
+          1.45
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    45.3049,
+    1.5975
+  ],
+  "religion": "catholic",
+  "population_estimates": [
+    {
+      "year": 950,
+      "estimate": 1400000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q7703611",
+          "url": "https://www.wikidata.org/wiki/Q7703611",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Aquitaine",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Aquitaine"
+        }
+      ]
+    },
+    {
+      "year": 1100,
+      "estimate": 2000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q7703611",
+          "url": "https://www.wikidata.org/wiki/Q7703611",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Aquitaine",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Aquitaine"
+        }
+      ]
+    },
+    {
+      "year": 1250,
+      "estimate": 2200000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q7703611",
+          "url": "https://www.wikidata.org/wiki/Q7703611",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Aquitaine",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Aquitaine"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low"
+  },
+  "description": "Large duchy in southwestern France (c. 602–1204) whose autonomous culture, troubadour poetry, Romanesque architecture, urban prosperity, distinguished it from northern France; Eleanor of Aquitaine's marriages first to Louis VII then Henry II Plantagenet transferred this wealthy territory into the Anglo-French inheritance dispute that dominated twelfth-century politics.",
+  "temporal": {
+    "start_year": 781,
+    "end_year": 1453,
+    "end_year_within_scope": null,
+    "start_event_id": null,
+    "end_event_id": null,
+    "notes": "Carolingian grant; Angevin-era core; Hundred Years' War cockpit."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      45.3049,
+      1.5975
+    ],
+    "core_regions": [
+      "Aquitaine",
+      "Gascony"
+    ],
+    "polygon_simplified": [
+      [
+        44.78,
+        1.86
+      ],
+      [
+        44.78,
+        2.1
+      ],
+      [
+        45.04,
+        2.17
+      ],
+      [
+        45.24,
+        2.4
+      ],
+      [
+        45.56,
+        2.3
+      ],
+      [
+        45.82,
+        0.9
+      ],
+      [
+        45.69,
+        0.91
+      ],
+      [
+        45.43,
+        0.68
+      ],
+      [
+        45.24,
+        1.1
+      ],
+      [
+        44.97,
+        1.2
+      ],
+      [
+        44.84,
+        1.45
+      ],
+      [
+        44.78,
+        1.86
+      ]
+    ],
+    "notes": "Centroid approximate; polygon pending schematic or OHM sourcing.",
+    "polygon_snapshots": [
+      {
+        "year": 990,
+        "label": "Duchy of Aquitaine",
+        "polygon": [
+          [
+            46.35,
+            3.98
+          ],
+          [
+            46.41,
+            4.23
+          ],
+          [
+            46.68,
+            4.05
+          ],
+          [
+            46.81,
+            3.06
+          ],
+          [
+            47.01,
+            2.8
+          ],
+          [
+            47.2,
+            2.79
+          ],
+          [
+            47.07,
+            1.32
+          ],
+          [
+            46.87,
+            1.33
+          ],
+          [
+            46.81,
+            1.17
+          ],
+          [
+            47.07,
+            0.58
+          ],
+          [
+            47.01,
+            0.58
+          ],
+          [
+            47.01,
+            0.34
+          ],
+          [
+            46.94,
+            0.34
+          ],
+          [
+            46.87,
+            -1.05
+          ],
+          [
+            47.01,
+            -1.39
+          ],
+          [
+            47.01,
+            -2.21
+          ],
+          [
+            46.81,
+            -2.19
+          ],
+          [
+            46.35,
+            -1.67
+          ],
+          [
+            46.28,
+            -1.25
+          ],
+          [
+            45.89,
+            -1.22
+          ],
+          [
+            45.89,
+            -1.14
+          ],
+          [
+            45.76,
+            -1.21
+          ],
+          [
+            45.5,
+            -0.87
+          ],
+          [
+            45.24,
+            -0.77
+          ],
+          [
+            45.17,
+            -0.11
+          ],
+          [
+            44.91,
+            -0.1
+          ],
+          [
+            44.91,
+            -0.18
+          ],
+          [
+            44.65,
+            -0.24
+          ],
+          [
+            44.45,
+            0.34
+          ],
+          [
+            44.52,
+            0.58
+          ],
+          [
+            44.32,
+            0.91
+          ],
+          [
+            44.39,
+            1.07
+          ],
+          [
+            44.52,
+            1.06
+          ],
+          [
+            44.65,
+            1.38
+          ],
+          [
+            44.84,
+            1.45
+          ],
+          [
+            44.78,
+            2.1
+          ],
+          [
+            44.52,
+            2.2
+          ],
+          [
+            44.58,
+            2.52
+          ],
+          [
+            44.84,
+            2.58
+          ],
+          [
+            44.84,
+            2.75
+          ],
+          [
+            44.58,
+            3.08
+          ],
+          [
+            44.19,
+            3.34
+          ],
+          [
+            44.19,
+            3.59
+          ],
+          [
+            44.32,
+            3.58
+          ],
+          [
+            44.52,
+            3.81
+          ],
+          [
+            44.52,
+            4.06
+          ],
+          [
+            44.91,
+            3.96
+          ],
+          [
+            44.91,
+            4.12
+          ],
+          [
+            45.1,
+            4.36
+          ],
+          [
+            45.3,
+            4.35
+          ],
+          [
+            45.37,
+            3.94
+          ],
+          [
+            45.63,
+            4.01
+          ],
+          [
+            45.63,
+            3.93
+          ],
+          [
+            45.96,
+            3.92
+          ],
+          [
+            46.02,
+            4.08
+          ],
+          [
+            46.35,
+            3.98
+          ]
+        ]
+      },
+      {
+        "year": 1010,
+        "label": "Duchy of Aquitaine",
+        "polygon": [
+          [
+            46.68,
+            4.05
+          ],
+          [
+            46.68,
+            3.8
+          ],
+          [
+            46.55,
+            3.73
+          ],
+          [
+            46.61,
+            3.07
+          ],
+          [
+            47.01,
+            2.8
+          ],
+          [
+            47.2,
+            2.79
+          ],
+          [
+            47.07,
+            1.32
+          ],
+          [
+            46.87,
+            1.33
+          ],
+          [
+            46.81,
+            1.17
+          ],
+          [
+            47.07,
+            0.58
+          ],
+          [
+            47.01,
+            0.58
+          ],
+          [
+            47.01,
+            0.34
+          ],
+          [
+            46.94,
+            0.34
+          ],
+          [
+            46.87,
+            -1.05
+          ],
+          [
+            47.01,
+            -1.39
+          ],
+          [
+            47.01,
+            -2.21
+          ],
+          [
+            46.81,
+            -2.19
+          ],
+          [
+            46.35,
+            -1.67
+          ],
+          [
+            46.28,
+            -1.25
+          ],
+          [
+            45.89,
+            -1.22
+          ],
+          [
+            45.89,
+            -1.14
+          ],
+          [
+            45.76,
+            -1.21
+          ],
+          [
+            45.5,
+            -0.87
+          ],
+          [
+            45.24,
+            -0.77
+          ],
+          [
+            45.17,
+            -0.11
+          ],
+          [
+            44.91,
+            -0.1
+          ],
+          [
+            44.91,
+            -0.18
+          ],
+          [
+            44.65,
+            -0.24
+          ],
+          [
+            44.45,
+            0.34
+          ],
+          [
+            44.52,
+            0.58
+          ],
+          [
+            44.32,
+            0.91
+          ],
+          [
+            44.39,
+            1.07
+          ],
+          [
+            44.52,
+            1.06
+          ],
+          [
+            44.65,
+            1.38
+          ],
+          [
+            44.84,
+            1.45
+          ],
+          [
+            44.78,
+            2.1
+          ],
+          [
+            44.52,
+            2.2
+          ],
+          [
+            44.58,
+            2.52
+          ],
+          [
+            44.84,
+            2.58
+          ],
+          [
+            44.84,
+            2.75
+          ],
+          [
+            44.58,
+            3.08
+          ],
+          [
+            44.19,
+            3.34
+          ],
+          [
+            44.19,
+            3.59
+          ],
+          [
+            44.32,
+            3.58
+          ],
+          [
+            44.52,
+            3.81
+          ],
+          [
+            44.52,
+            4.06
+          ],
+          [
+            44.91,
+            3.96
+          ],
+          [
+            44.91,
+            4.12
+          ],
+          [
+            45.1,
+            4.36
+          ],
+          [
+            45.3,
+            4.35
+          ],
+          [
+            45.37,
+            3.94
+          ],
+          [
+            45.63,
+            4.01
+          ],
+          [
+            45.63,
+            3.93
+          ],
+          [
+            45.96,
+            3.92
+          ],
+          [
+            46.02,
+            4.08
+          ],
+          [
+            46.35,
+            3.98
+          ],
+          [
+            46.41,
+            4.23
+          ],
+          [
+            46.68,
+            4.05
+          ]
+        ]
+      },
+      {
+        "year": 1046,
+        "label": "Duchy of Aquitaine",
+        "polygon": [
+          [
+            46.41,
+            4.23
+          ],
+          [
+            46.68,
+            4.05
+          ],
+          [
+            46.68,
+            3.8
+          ],
+          [
+            46.55,
+            3.73
+          ],
+          [
+            46.61,
+            3.07
+          ],
+          [
+            47.01,
+            2.8
+          ],
+          [
+            47.2,
+            2.79
+          ],
+          [
+            47.14,
+            1.32
+          ],
+          [
+            46.87,
+            1.33
+          ],
+          [
+            46.81,
+            1.17
+          ],
+          [
+            47.07,
+            0.74
+          ],
+          [
+            46.87,
+            -0.15
+          ],
+          [
+            46.87,
+            -1.05
+          ],
+          [
+            47.01,
+            -1.39
+          ],
+          [
+            47.01,
+            -2.21
+          ],
+          [
+            46.81,
+            -2.19
+          ],
+          [
+            46.35,
+            -1.67
+          ],
+          [
+            46.28,
+            -1.25
+          ],
+          [
+            45.89,
+            -1.22
+          ],
+          [
+            45.89,
+            -1.14
+          ],
+          [
+            45.76,
+            -1.21
+          ],
+          [
+            45.5,
+            -0.87
+          ],
+          [
+            45.24,
+            -0.77
+          ],
+          [
+            45.17,
+            -0.11
+          ],
+          [
+            44.91,
+            -0.1
+          ],
+          [
+            44.91,
+            -0.18
+          ],
+          [
+            44.65,
+            -0.24
+          ],
+          [
+            44.45,
+            0.34
+          ],
+          [
+            44.52,
+            0.58
+          ],
+          [
+            44.32,
+            0.91
+          ],
+          [
+            44.39,
+            1.07
+          ],
+          [
+            44.52,
+            1.06
+          ],
+          [
+            44.65,
+            1.38
+          ],
+          [
+            44.84,
+            1.45
+          ],
+          [
+            44.78,
+            2.1
+          ],
+          [
+            44.52,
+            2.2
+          ],
+          [
+            44.58,
+            2.52
+          ],
+          [
+            44.84,
+            2.58
+          ],
+          [
+            44.84,
+            2.75
+          ],
+          [
+            44.58,
+            3.08
+          ],
+          [
+            44.19,
+            3.34
+          ],
+          [
+            44.19,
+            3.59
+          ],
+          [
+            44.32,
+            3.58
+          ],
+          [
+            44.52,
+            3.81
+          ],
+          [
+            44.52,
+            4.06
+          ],
+          [
+            44.91,
+            3.96
+          ],
+          [
+            44.91,
+            4.12
+          ],
+          [
+            45.1,
+            4.36
+          ],
+          [
+            45.3,
+            4.35
+          ],
+          [
+            45.37,
+            3.94
+          ],
+          [
+            45.63,
+            4.01
+          ],
+          [
+            45.63,
+            3.93
+          ],
+          [
+            45.96,
+            3.92
+          ],
+          [
+            46.02,
+            4.08
+          ],
+          [
+            46.35,
+            3.98
+          ],
+          [
+            46.41,
+            4.23
+          ]
+        ]
+      },
+      {
+        "year": 1206,
+        "label": "Duchy of Aquitaine",
+        "polygon": [
+          [
+            44.78,
+            1.86
+          ],
+          [
+            44.78,
+            2.1
+          ],
+          [
+            45.04,
+            2.17
+          ],
+          [
+            45.24,
+            2.4
+          ],
+          [
+            45.56,
+            2.3
+          ],
+          [
+            45.82,
+            0.9
+          ],
+          [
+            45.69,
+            0.91
+          ],
+          [
+            45.43,
+            0.68
+          ],
+          [
+            45.24,
+            1.1
+          ],
+          [
+            44.97,
+            1.2
+          ],
+          [
+            44.84,
+            1.45
+          ],
+          [
+            44.78,
+            1.86
+          ]
+        ]
+      },
+      {
+        "year": 1250,
+        "label": "Duchy of Aquitaine",
+        "polygon": [
+          [
+            44.97,
+            1.2
+          ],
+          [
+            45.24,
+            1.1
+          ],
+          [
+            45.43,
+            0.68
+          ],
+          [
+            45.69,
+            0.91
+          ],
+          [
+            45.82,
+            0.9
+          ],
+          [
+            45.56,
+            2.3
+          ],
+          [
+            45.24,
+            2.4
+          ],
+          [
+            45.04,
+            2.17
+          ],
+          [
+            44.78,
+            2.1
+          ],
+          [
+            44.84,
+            1.45
+          ],
+          [
+            44.97,
+            1.2
+          ]
+        ]
+      },
+      {
+        "year": 1333,
+        "label": "Duchy of Aquitaine",
+        "polygon": [
+          [
+            44.84,
+            1.45
+          ],
+          [
+            44.97,
+            1.2
+          ],
+          [
+            45.24,
+            1.1
+          ],
+          [
+            45.43,
+            0.68
+          ],
+          [
+            45.69,
+            0.91
+          ],
+          [
+            45.82,
+            0.9
+          ],
+          [
+            45.56,
+            2.3
+          ],
+          [
+            45.24,
+            2.4
+          ],
+          [
+            45.04,
+            2.17
+          ],
+          [
+            44.78,
+            2.1
+          ],
+          [
+            44.84,
+            1.45
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "real_historical_boundary",
+    "polygon_source": "Seshat-Global-History-Databank/cliopatria",
+    "polygon_source_date": "2026-05-10",
+    "capital": {
+      "name": "Toulouse",
+      "coords": [
+        43.60444,
+        1.44333
+      ],
+      "source": "wikidata"
+    }
+  },
+  "internal_structure": {
+    "centralization": "low_to_medium",
+    "centralization_trajectory": null,
+    "governance_type": "dynastic_feudal",
+    "legitimacy_basis": [
+      "inheritance",
+      "feudal_oath"
+    ],
+    "administrative_system": ""
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "formation",
+      "years": "c.824–870",
+      "description": "Carolingian sub-kingdom of Aquitaine established.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q7703611",
+          "url": "https://www.wikidata.org/wiki/Q7703611"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Aquitaine",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Aquitaine"
+        }
+      ]
+    },
+    {
+      "phase": "consolidation",
+      "years": "870–970",
+      "description": "Comital dynasties consolidate; Gascon integration.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q7703611",
+          "url": "https://www.wikidata.org/wiki/Q7703611"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Aquitaine",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Aquitaine"
+        }
+      ]
+    },
+    {
+      "phase": "peak",
+      "years": "970–1137",
+      "description": "William V the Great and successors; duchy at maximum coherence.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q7703611",
+          "url": "https://www.wikidata.org/wiki/Q7703611"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Aquitaine",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Aquitaine"
+        }
+      ]
+    },
+    {
+      "phase": "dissolution",
+      "years": "1137",
+      "description": "Eleanor's marriage to Louis VII transfers the duchy to the French crown, beginning its absorption.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q7703611",
+          "url": "https://www.wikidata.org/wiki/Q7703611"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Aquitaine",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Aquitaine"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "resource_concentration",
+      "layer": "economic_commercial",
+      "description": "Wine trade from the Bordeaux region, diverse agricultural surplus, and Atlantic salt production made Aquitaine one of the wealthiest French duchies.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q7703611",
+          "url": "https://www.wikidata.org/wiki/Q7703611"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Aquitaine",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Aquitaine"
+        }
+      ]
+    },
+    {
+      "tag": "geographic_defensibility",
+      "layer": "geography_territory",
+      "description": "Pyrenees to Loire natural boundaries and an extensive Atlantic coastline defined a coherent defensive perimeter.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q7703611",
+          "url": "https://www.wikidata.org/wiki/Q7703611"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Aquitaine",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Aquitaine"
+        }
+      ]
+    },
+    {
+      "tag": "dynastic_consolidation",
+      "layer": "dynastic_legitimacy",
+      "description": "William V the Great accumulated Gascony and extended influence into Berry and Auvergne.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q7703611",
+          "url": "https://www.wikidata.org/wiki/Q7703611"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Aquitaine",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Aquitaine"
+        }
+      ]
+    },
+    {
+      "layer": "economic_commercial",
+      "tag": "trade_route_control",
+      "direction": "rise",
+      "description": "Aquitaine's vineyards produced wine for the Anglo-Norman market, generating substantial revenues that funded ducal administration and military capacity throughout the 12th century.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q7703611",
+          "url": "https://www.wikidata.org/wiki/Q7703611"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Aquitaine",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Aquitaine"
+        }
+      ],
+      "tag_prose": "wine_trade"
+    },
+    {
+      "layer": "ideology_religion",
+      "tag": "troubadour_culture",
+      "direction": "rise",
+      "description": "Aquitaine under William IX and Eleanor was the origin of troubadour poetry, creating a cultural prestige that attracted scholars, artists, and clerics and legitimized ducal authority.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q7703611",
+          "url": "https://www.wikidata.org/wiki/Q7703611"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Aquitaine",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Aquitaine"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "succession_crisis",
+      "layer": "dynastic_legitimacy",
+      "description": "Eleanor of Aquitaine's inheritance passed the duchy through two marriages, to Louis VII then Henry II, removing it from independent status.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q7703611",
+          "url": "https://www.wikidata.org/wiki/Q7703611"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Aquitaine",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Aquitaine"
+        }
+      ]
+    },
+    {
+      "tag": "external_displacement",
+      "layer": "external_political",
+      "description": "English Plantagenet absorption restructured Aquitaine as an English continental possession.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q7703611",
+          "url": "https://www.wikidata.org/wiki/Q7703611"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Aquitaine",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Aquitaine"
+        }
+      ]
+    },
+    {
+      "tag": "internal_fragmentation",
+      "layer": "governance_institutional",
+      "description": "Gascon nobles maintained strong autonomy that persisted under English rule, preventing effective central governance.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q7703611",
+          "url": "https://www.wikidata.org/wiki/Q7703611"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Aquitaine",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Aquitaine"
+        }
+      ]
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "english_french_conflict",
+      "direction": "decline",
+      "description": "Aquitaine became the central prize of the Hundred Years War, with French and English forces repeatedly devastating the duchy and its administrative structures between 1337 and 1453.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q7703611",
+          "url": "https://www.wikidata.org/wiki/Q7703611"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Aquitaine",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Aquitaine"
+        }
+      ]
+    },
+    {
+      "layer": "military_security",
+      "tag": "battle_of_castillon",
+      "direction": "decline",
+      "description": "The English defeat at Castillon in 1453 ended three centuries of Plantagenet rule over Aquitaine, incorporating the duchy permanently into the French crown.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q7703611",
+          "url": "https://www.wikidata.org/wiki/Q7703611"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Aquitaine",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Aquitaine"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "person_id": "william_v_aquitaine",
+      "name": "William V the Great",
+      "role": "ruler",
+      "years": "969–1030",
+      "year_start": 969,
+      "year_end": 1030,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "William V the Great",
+          "url": "https://en.wikipedia.org/wiki/William_V,_Duke_of_Aquitaine"
+        }
+      ]
+    },
+    {
+      "person_id": "eleanor_of_aquitaine",
+      "name": "Eleanor of Aquitaine",
+      "role": "ruler",
+      "years": "1122–1204",
+      "year_start": 1122,
+      "year_end": 1204,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Eleanor of Aquitaine",
+          "url": "https://en.wikipedia.org/wiki/Eleanor_of_Aquitaine"
+        }
+      ]
+    }
+  ],
+  "predecessor_entity_ids": [
+    "merovingian_kingdom"
+  ],
+  "successor_entity_ids": [
+    "kingdom_of_england",
+    "kingdom_of_france"
+  ],
+  "primary_ethnicity": "iberian",
+  "ethnic_composition": [
+    {
+      "group": "iberian",
+      "proportion": 0.55
+    },
+    {
+      "group": "latin_frankish",
+      "proportion": 0.4
+    }
+  ],
+  "religion_composition": [
+    {
+      "religion": "catholic",
+      "proportion": 0.95
+    },
+    {
+      "religion": "pagan",
+      "proportion": 0.05
+    }
+  ],
+  "primary_language": "occitan",
+  "language_composition": [
+    {
+      "language": "occitan",
+      "proportion": 0.62,
+      "role": "vernacular"
+    },
+    {
+      "language": "old_french",
+      "proportion": 0.25,
+      "role": "regional"
+    },
+    {
+      "language": "latin",
+      "proportion": 0.1,
+      "role": "liturgical"
+    },
+    {
+      "language": "celtic_lang",
+      "proportion": 0.03,
+      "role": "regional"
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "long_distance_trade",
+      "manufacturing"
+    ],
+    "wealth_level": "high",
+    "major_exports": [
+      "wine",
+      "salt",
+      "grain",
+      "wool"
+    ],
+    "major_trade_partners": [
+      "kingdom_of_england",
+      "kingdom_of_france",
+      "county_of_champagne"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "customs_duties",
+      "tithes"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q7703611",
+        "url": "https://www.wikidata.org/wiki/Q7703611"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Duchy of Aquitaine",
+        "url": "https://en.wikipedia.org/wiki/Duchy_of_Aquitaine"
+      }
+    ]
+  },
+  "social_structure": {
+    "ruling_ethnicity": "iberian",
+    "subject_majority": "iberian",
+    "military_ethnicity": "iberian",
+    "administrative_language": "occitan",
+    "stratification_type": "homogeneous"
+  },
+  "wikidata_enrichment": {
+    "qid": "Q7703611",
+    "matched_name": "Duchy of Aquitaine",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Duchy_of_Aquitaine",
+    "capital": {
+      "name": "Toulouse",
+      "coords": [
+        43.60444,
+        1.44333
+      ]
+    },
+    "rulers_from_wikidata": [
+      {
+        "name": "Henry II of England",
+        "qid": "Q102140",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q102140",
+            "url": "https://www.wikidata.org/wiki/Q102140"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Henry II of England",
+            "url": "https://en.wikipedia.org/wiki/Henry_II_of_England"
+          }
+        ]
+      },
+      {
+        "name": "Louis VII of France",
+        "qid": "Q134259",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q134259",
+            "url": "https://www.wikidata.org/wiki/Q134259"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Louis VII of France",
+            "url": "https://en.wikipedia.org/wiki/Louis_VII_of_France"
+          }
+        ]
+      },
+      {
+        "name": "Henry VI of England",
+        "qid": "Q160337",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q160337",
+            "url": "https://www.wikidata.org/wiki/Q160337"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Henry VI of England",
+            "url": "https://en.wikipedia.org/wiki/Henry_VI_of_England"
+          }
+        ]
+      },
+      {
+        "name": "Richard I of England",
+        "qid": "Q42305",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q42305",
+            "url": "https://www.wikidata.org/wiki/Q42305"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Richard I of England",
+            "url": "https://en.wikipedia.org/wiki/Richard_I_of_England"
+          }
+        ]
+      },
+      {
+        "name": "Felix of Aquitaine",
+        "qid": "Q2530994",
+        "year_start": 660,
+        "year_end": 670,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2530994",
+            "url": "https://www.wikidata.org/wiki/Q2530994"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Felix of Aquitaine",
+            "url": "https://en.wikipedia.org/wiki/Felix_of_Aquitaine"
+          }
+        ]
+      },
+      {
+        "name": "Lupus I of Aquitaine",
+        "qid": "Q983527",
+        "year_start": 670,
+        "year_end": 688,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q983527",
+            "url": "https://www.wikidata.org/wiki/Q983527"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Lupus I of Aquitaine",
+            "url": "https://en.wikipedia.org/wiki/Lupus_I_of_Aquitaine"
+          }
+        ]
+      },
+      {
+        "name": "Odo the Great",
+        "qid": "Q269536",
+        "year_start": 688,
+        "year_end": 735,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q269536",
+            "url": "https://www.wikidata.org/wiki/Q269536"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Odo the Great",
+            "url": "https://en.wikipedia.org/wiki/Odo_the_Great"
+          }
+        ]
+      },
+      {
+        "name": "Hunald of Aquitaine",
+        "qid": "Q965437",
+        "year_start": 735,
+        "year_end": 744,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q965437",
+            "url": "https://www.wikidata.org/wiki/Q965437"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Hunald of Aquitaine",
+            "url": "https://en.wikipedia.org/wiki/Hunald"
+          }
+        ]
+      },
+      {
+        "name": "Waifer of Aquitaine",
+        "qid": "Q728283",
+        "year_start": 745,
+        "year_end": 768,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q728283",
+            "url": "https://www.wikidata.org/wiki/Q728283"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Waifer of Aquitaine",
+            "url": "https://en.wikipedia.org/wiki/Waiofar"
+          }
+        ]
+      },
+      {
+        "name": "Hunold II of Aquitaine",
+        "qid": "Q3143287",
+        "year_start": 768,
+        "year_end": 769,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3143287",
+            "url": "https://www.wikidata.org/wiki/Q3143287"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Hunold II of Aquitaine",
+            "url": "https://en.wikipedia.org/wiki/Hunold_II_of_Aquitaine"
+          }
+        ]
+      },
+      {
+        "name": "Odo of Gascony",
+        "qid": "Q264821",
+        "year_start": 1038,
+        "year_end": 1039,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q264821",
+            "url": "https://www.wikidata.org/wiki/Q264821"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Odo of Gascony",
+            "url": "https://en.wikipedia.org/wiki/Odo_of_Gascony"
+          }
+        ]
+      },
+      {
+        "name": "Eleanor of Aquitaine",
+        "qid": "Q178525",
+        "year_start": 1137,
+        "year_end": 1204,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q178525",
+            "url": "https://www.wikidata.org/wiki/Q178525"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Eleanor of Aquitaine",
+            "url": "https://en.wikipedia.org/wiki/Eleanor_of_Aquitaine"
+          }
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "type": "book",
+      "author": "Wickham, Chris",
+      "title": "The Inheritance of Rome: A History of Europe from 400 to 1000",
+      "publisher": "Allen Lane",
+      "year": 2009
+    },
+    {
+      "type": "book",
+      "author": "Abulafia, David (ed.)",
+      "title": "The New Cambridge Medieval History, Vol. V: c. 1198 – c. 1300",
+      "publisher": "Cambridge University Press",
+      "year": 1999
+    }
+  ],
+  "monogram": "AQ"
+}

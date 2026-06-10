@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_teutonic_livonian",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "teutonic_order_state",
+      "role": "principal"
+    },
+    {
+      "entity_id": "livonian_order_state",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "alliance",
+  "since": 1230,
+  "until": 1410,
+  "note": "The Livonian Order (the Livonian Brothers of the Sword, founded 1202, absorbed into the Teutonic Order 1237) controlled Livonia and Estonia — the northeastern Baltic crusading territory — as a nominally subordinate branch of the Teutonic Order. In practice, the Livonian master operated with considerable independence, as the geographic separation from Prussia made direct control difficult. The Livonian Order suffered a catastrophic defeat at the Battle of the Ice (Lake Peipus, 1242) against Alexander Nevsky's Novgorodian forces, permanently halting expansion eastward. The Order dissolved with the Livonian Confederation's collapse (1561).",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Livonian-Teutonic relationship demonstrates the limits of military order administration across geographic separation; the Battle of the Ice defines the eastern boundary of the Latin Christian crusading expansion; the Livonian Order's dissolution (1561) under Russian pressure creates the Protestant Baltic duchies of Courland and Estonia"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "christiansen_the_1997",
+      "urban_the_1994",
+      "turnbull_crusader_2003",
+      "riley-smith_hospitallers_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

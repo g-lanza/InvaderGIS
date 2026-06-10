@@ -1,0 +1,24 @@
+{
+ "kind": "text",
+ "id": "six_old_english_chronicles",
+ "name_primary": "Six Old English Chronicles",
+ "author": "multiple",
+ "language": "English",
+ "composed": {
+  "place": "London",
+  "year": 1848
+ },
+ "tradition": "chronicle",
+ "provenance": {
+  "sources_used": [
+   "ims_fordham",
+   "ims_fordham_sbook1g"
+  ],
+  "confidence": "medium",
+  "attestation": "PDF of 1848 edition linked; includes Ethelwerd, Asser, Geoffrey of Monmouth, Gildas, Nennius",
+  "status": "draft"
+ },
+ "dataset": "medieval-europe-500-1500",
+ "_fordham_index": "sbook1g",
+ "from_sourcebook": true
+}

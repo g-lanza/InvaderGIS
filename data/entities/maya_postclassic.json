@@ -1,0 +1,49 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "maya_postclassic",
+  "name_primary": "Postclassic Maya",
+  "name_variants": [
+    "Postclassic Period Maya",
+    "Northern Maya Lowlands"
+  ],
+  "type": "city_state_federation",
+  "region": "mesoamerica",
+  "formed": 900,
+  "dissolved": 1500,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    20.6,
+    -88.6
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Successor polities to the Classic Maya collapse, centred on the northern Yucatán (Chichén Itzá, Mayapán, Uxmal) and the Guatemalan highlands (K'iche', Kaqchikel). The Postclassic was politically more fragmented than the Classic but maintained extensive long-distance trade networks reaching central Mexico and lower Central America. Mayapán's fall around 1441 left a constellation of small contending kingdoms encountered by Spanish expeditions after 1517.",
+  "temporal": {
+    "start_year": 900,
+    "end_year": 1500,
+    "end_year_within_scope": 1500,
+    "notes": "Postclassic Maya polities succeeded the Classic collapse in the northern Yucatán and Guatemalan highlands; ran to Spanish contact (1517 onward, beyond atlas scope)."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      20.6,
+      -88.6
+    ],
+    "core_regions": [
+      "yucatan_peninsula",
+      "guatemala_highlands",
+      "petén"
+    ],
+    "notes": "Centroid near Chichén Itzá; later capitals included Mayapán (~1220–1440) and the K'iche' centre Q'umarkaj in the highlands."
+  },
+  "predecessor_entity_ids": [
+    "maya_classic"
+  ],
+  "monogram": "PM"
+}

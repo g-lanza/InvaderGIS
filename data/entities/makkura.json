@@ -1,0 +1,946 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "makkura",
+  "name_primary": "Makkura",
+  "name_variants": [],
+  "type": "kingdom",
+  "region": "nile_valley",
+  "formed": 500,
+  "dissolved": 1312,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 600,
+      "label": "Makuria (approx.)",
+      "polygon": [
+        [
+          16,
+          30
+        ],
+        [
+          16,
+          33
+        ],
+        [
+          18,
+          34
+        ],
+        [
+          20,
+          33
+        ],
+        [
+          22,
+          32
+        ],
+        [
+          22,
+          30
+        ],
+        [
+          20,
+          29
+        ],
+        [
+          18,
+          29
+        ],
+        [
+          16,
+          30
+        ]
+      ]
+    },
+    {
+      "year": 800,
+      "label": "Makuria (approx.)",
+      "polygon": [
+        [
+          16,
+          30
+        ],
+        [
+          16,
+          33
+        ],
+        [
+          18,
+          34
+        ],
+        [
+          20,
+          33
+        ],
+        [
+          22,
+          32
+        ],
+        [
+          22,
+          30
+        ],
+        [
+          20,
+          29
+        ],
+        [
+          18,
+          29
+        ],
+        [
+          16,
+          30
+        ]
+      ]
+    },
+    {
+      "year": 1000,
+      "label": "Makuria (approx.)",
+      "polygon": [
+        [
+          16,
+          30
+        ],
+        [
+          16,
+          33
+        ],
+        [
+          18,
+          34
+        ],
+        [
+          20,
+          33
+        ],
+        [
+          22,
+          32
+        ],
+        [
+          22,
+          30
+        ],
+        [
+          20,
+          29
+        ],
+        [
+          18,
+          29
+        ],
+        [
+          16,
+          30
+        ]
+      ]
+    },
+    {
+      "year": 1200,
+      "label": "Makuria (approx.)",
+      "polygon": [
+        [
+          16,
+          30
+        ],
+        [
+          16,
+          33
+        ],
+        [
+          18,
+          34
+        ],
+        [
+          20,
+          33
+        ],
+        [
+          22,
+          32
+        ],
+        [
+          22,
+          30
+        ],
+        [
+          20,
+          29
+        ],
+        [
+          18,
+          29
+        ],
+        [
+          16,
+          30
+        ]
+      ]
+    },
+    {
+      "year": 1300,
+      "label": "Makuria (approx.)",
+      "polygon": [
+        [
+          16,
+          30
+        ],
+        [
+          16,
+          33
+        ],
+        [
+          18,
+          34
+        ],
+        [
+          20,
+          33
+        ],
+        [
+          22,
+          32
+        ],
+        [
+          22,
+          30
+        ],
+        [
+          20,
+          29
+        ],
+        [
+          18,
+          29
+        ],
+        [
+          16,
+          30
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    18.8116,
+    31.2754
+  ],
+  "population_estimates": [
+    {
+      "year": 800,
+      "estimate": 400000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q829356",
+          "url": "https://www.wikidata.org/wiki/Q829356",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Makkura",
+          "url": "https://en.wikipedia.org/wiki/Makuria"
+        }
+      ]
+    },
+    {
+      "year": 1000,
+      "estimate": 600000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q829356",
+          "url": "https://www.wikidata.org/wiki/Q829356",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Makkura",
+          "url": "https://en.wikipedia.org/wiki/Makuria"
+        }
+      ]
+    },
+    {
+      "year": 1200,
+      "estimate": 500000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q829356",
+          "url": "https://www.wikidata.org/wiki/Q829356",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Makkura",
+          "url": "https://en.wikipedia.org/wiki/Makuria"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Nubian Christian kingdom of Makuria (c. 4th–14th c.) centred on Old Dongola that successfully resisted Arab expansion through the Baqt treaty (652), which kept Egypt's Muslim rulers from conquering Nubia for six centuries; Makuria's Coptic-influenced monastic church-building programme and diplomatic skill in mediating between Egypt and sub-Saharan Africa maintained Christian culture in the Nile valley long after Egypt's Islamisation.",
+  "temporal": {
+    "start_year": 500,
+    "end_year": 1312,
+    "notes": ""
+  },
+  "geographic": {
+    "centroid": [
+      18.8116,
+      31.2754
+    ],
+    "polygon_simplified": [
+      [
+        16,
+        30
+      ],
+      [
+        16,
+        33
+      ],
+      [
+        18,
+        34
+      ],
+      [
+        20,
+        33
+      ],
+      [
+        22,
+        32
+      ],
+      [
+        22,
+        30
+      ],
+      [
+        20,
+        29
+      ],
+      [
+        18,
+        29
+      ],
+      [
+        16,
+        30
+      ]
+    ],
+    "capital": {
+      "name": "Old Dongola",
+      "coords": [
+        18.22306,
+        30.74389
+      ],
+      "source": "wikidata"
+    },
+    "polygon_snapshots": [
+      {
+        "year": 600,
+        "label": "Makuria (approx.)",
+        "polygon": [
+          [
+            16,
+            30
+          ],
+          [
+            16,
+            33
+          ],
+          [
+            18,
+            34
+          ],
+          [
+            20,
+            33
+          ],
+          [
+            22,
+            32
+          ],
+          [
+            22,
+            30
+          ],
+          [
+            20,
+            29
+          ],
+          [
+            18,
+            29
+          ],
+          [
+            16,
+            30
+          ]
+        ]
+      },
+      {
+        "year": 800,
+        "label": "Makuria (approx.)",
+        "polygon": [
+          [
+            16,
+            30
+          ],
+          [
+            16,
+            33
+          ],
+          [
+            18,
+            34
+          ],
+          [
+            20,
+            33
+          ],
+          [
+            22,
+            32
+          ],
+          [
+            22,
+            30
+          ],
+          [
+            20,
+            29
+          ],
+          [
+            18,
+            29
+          ],
+          [
+            16,
+            30
+          ]
+        ]
+      },
+      {
+        "year": 1000,
+        "label": "Makuria (approx.)",
+        "polygon": [
+          [
+            16,
+            30
+          ],
+          [
+            16,
+            33
+          ],
+          [
+            18,
+            34
+          ],
+          [
+            20,
+            33
+          ],
+          [
+            22,
+            32
+          ],
+          [
+            22,
+            30
+          ],
+          [
+            20,
+            29
+          ],
+          [
+            18,
+            29
+          ],
+          [
+            16,
+            30
+          ]
+        ]
+      },
+      {
+        "year": 1200,
+        "label": "Makuria (approx.)",
+        "polygon": [
+          [
+            16,
+            30
+          ],
+          [
+            16,
+            33
+          ],
+          [
+            18,
+            34
+          ],
+          [
+            20,
+            33
+          ],
+          [
+            22,
+            32
+          ],
+          [
+            22,
+            30
+          ],
+          [
+            20,
+            29
+          ],
+          [
+            18,
+            29
+          ],
+          [
+            16,
+            30
+          ]
+        ]
+      },
+      {
+        "year": 1300,
+        "label": "Makuria (approx.)",
+        "polygon": [
+          [
+            16,
+            30
+          ],
+          [
+            16,
+            33
+          ],
+          [
+            18,
+            34
+          ],
+          [
+            20,
+            33
+          ],
+          [
+            22,
+            32
+          ],
+          [
+            22,
+            30
+          ],
+          [
+            20,
+            29
+          ],
+          [
+            18,
+            29
+          ],
+          [
+            16,
+            30
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "approximate",
+    "polygon_source": "hand_crafted",
+    "polygon_source_date": "2026-05-11"
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "nubian_christian_state",
+      "years": "350-700",
+      "description": "Makuria emerged as a Nubian Christian kingdom on the middle Nile; formed from the ancient Meroitic tradition.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q829356",
+          "url": "https://www.wikidata.org/wiki/Q829356"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Makkura",
+          "url": "https://en.wikipedia.org/wiki/Makuria"
+        }
+      ]
+    },
+    {
+      "phase": "peak_of_power",
+      "years": "700-1000",
+      "description": "Makurian King Mercurios defeated an Arab invasion and signed the Baqt treaty with Egypt (651); flourished as a Christian buffer state.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q829356",
+          "url": "https://www.wikidata.org/wiki/Q829356"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Makkura",
+          "url": "https://en.wikipedia.org/wiki/Makuria"
+        }
+      ]
+    },
+    {
+      "phase": "slow_decline",
+      "years": "1000-1317",
+      "description": "Gradual Arabisation and Islamisation of northern Sudan; Mamluk Egypt intervened increasingly in Makurian succession.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q829356",
+          "url": "https://www.wikidata.org/wiki/Q829356"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Makkura",
+          "url": "https://en.wikipedia.org/wiki/Makuria"
+        }
+      ]
+    },
+    {
+      "phase": "collapse",
+      "years": "1317-1330",
+      "description": "Last Christian Makurian king replaced by a Muslim ruler under Mamluk pressure; kingdom dissolved.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q829356",
+          "url": "https://www.wikidata.org/wiki/Q829356"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Makkura",
+          "url": "https://en.wikipedia.org/wiki/Makuria"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "baqt_treaty",
+      "layer": "external_political",
+      "description": "The Baqt agreement with Arab Egypt provided stable borders and trade for three centuries.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q829356",
+          "url": "https://www.wikidata.org/wiki/Q829356"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Makkura",
+          "url": "https://en.wikipedia.org/wiki/Makuria"
+        }
+      ]
+    },
+    {
+      "tag": "christian_identity",
+      "layer": "ideology_religion",
+      "description": "Coptic Christianity connected Makuria to Egypt's intellectual and material resources.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q829356",
+          "url": "https://www.wikidata.org/wiki/Q829356"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Makkura",
+          "url": "https://en.wikipedia.org/wiki/Makuria"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "islamisation",
+      "layer": "ideology_religion",
+      "description": "Arab migration into northern Sudan and conversion of nobility eroded the Christian ruling class.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q829356",
+          "url": "https://www.wikidata.org/wiki/Q829356"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Makkura",
+          "url": "https://en.wikipedia.org/wiki/Makuria"
+        }
+      ]
+    },
+    {
+      "tag": "mamluk_interference",
+      "layer": "external_political",
+      "description": "Mamluks installed Muslim kings and progressively subordinated Makuria to Egyptian interests.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q829356",
+          "url": "https://www.wikidata.org/wiki/Q829356"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Makkura",
+          "url": "https://en.wikipedia.org/wiki/Makuria"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Mercurios",
+      "role": "ruler",
+      "years": "697–722",
+      "year_start": 697,
+      "year_end": 722,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Mercurios",
+          "url": "https://en.wikipedia.org/wiki/Mercurios"
+        }
+      ]
+    },
+    {
+      "name": "Kyriakos",
+      "role": "ruler",
+      "years": "860–890",
+      "year_start": 860,
+      "year_end": 890,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Kyriakos",
+          "url": "https://en.wikipedia.org/wiki/Cyriacus"
+        }
+      ]
+    },
+    {
+      "name": "Semamun",
+      "role": "ruler",
+      "years": "969–999",
+      "year_start": 969,
+      "year_end": 999,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Semamun",
+          "url": "https://en.wikipedia.org/wiki/Semamun"
+        }
+      ]
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "long_distance_trade",
+      "gold",
+      "slaves"
+    ],
+    "wealth_level": "moderate",
+    "major_exports": [
+      "gold",
+      "ivory",
+      "slaves",
+      "cattle"
+    ],
+    "major_trade_partners": [
+      "egypt_abbasid",
+      "axum",
+      "hadramaut"
+    ],
+    "revenue_sources": [
+      "baqt_treaty_goods",
+      "trade_duties",
+      "agricultural_taxes"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q829356",
+        "url": "https://www.wikidata.org/wiki/Q829356"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Makkura",
+        "url": "https://en.wikipedia.org/wiki/Makuria"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q829356",
+    "matched_name": "manual/makkura",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Makuria",
+    "capital": {
+      "name": "Old Dongola",
+      "coords": [
+        18.22306,
+        30.74389
+      ]
+    },
+    "rulers_from_wikidata": [
+      {
+        "name": "Kyriakos of Makuria",
+        "qid": "Q1148493",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1148493",
+            "url": "https://www.wikidata.org/wiki/Q1148493"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Kyriakos of Makuria",
+            "url": "https://en.wikipedia.org/wiki/Kyriakos_of_Makuria"
+          }
+        ]
+      },
+      {
+        "name": "Mikael of Makuria",
+        "qid": "Q14957166",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q14957166",
+            "url": "https://www.wikidata.org/wiki/Q14957166"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mikael of Makuria",
+            "url": "https://en.wikipedia.org/wiki/Mikael_of_Makuria"
+          }
+        ]
+      },
+      {
+        "name": "Johannes of Makuria",
+        "qid": "Q14957168",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q14957168",
+            "url": "https://www.wikidata.org/wiki/Q14957168"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Johannes of Makuria",
+            "url": "https://en.wikipedia.org/wiki/Johannes_of_Makuria"
+          }
+        ]
+      },
+      {
+        "name": "Abraham of Makuria",
+        "qid": "Q4669289",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4669289",
+            "url": "https://www.wikidata.org/wiki/Q4669289"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Abraham of Makuria",
+            "url": "https://en.wikipedia.org/wiki/Abraham_of_Makuria"
+          }
+        ]
+      },
+      {
+        "name": "Markos of Makuria",
+        "qid": "Q6771310",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q6771310",
+            "url": "https://www.wikidata.org/wiki/Q6771310"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Markos of Makuria",
+            "url": "https://en.wikipedia.org/wiki/Markos_of_Makuria"
+          }
+        ]
+      },
+      {
+        "name": "Simon of Makuria",
+        "qid": "Q7520151",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q7520151",
+            "url": "https://www.wikidata.org/wiki/Q7520151"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Simon of Makuria",
+            "url": "https://en.wikipedia.org/wiki/Simon_of_Makuria"
+          }
+        ]
+      },
+      {
+        "name": "Merkurios",
+        "qid": "Q888741",
+        "year_start": 697,
+        "year_end": 722,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q888741",
+            "url": "https://www.wikidata.org/wiki/Q888741"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Merkurios",
+            "url": "https://en.wikipedia.org/wiki/Merkurios_of_Makuria"
+          }
+        ]
+      },
+      {
+        "name": "Zacharias of Makuria",
+        "qid": "Q8063915",
+        "year_start": 710,
+        "year_end": 722,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q8063915",
+            "url": "https://www.wikidata.org/wiki/Q8063915"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Zacharias of Makuria",
+            "url": "https://en.wikipedia.org/wiki/Zacharias_I_of_Makuria"
+          }
+        ]
+      }
+    ]
+  },
+  "monogram": "MA"
+}

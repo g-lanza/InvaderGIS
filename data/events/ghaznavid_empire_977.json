@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ghaznavid_empire_977",
+  "name": "Rise of the Ghaznavid Empire",
+  "year": 977,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    33.55,
+    68.42
+  ],
+  "entity": "seljuk_sultanate",
+  "summary": "Sebüktigin, a Turkish slave general, seizes control of Ghazni (modern Afghanistan) from his Samanid masters and founds the Ghaznavid dynasty. His son Mahmud of Ghazni (r. 998–1030) expands the empire to its greatest extent: he conducts 17 raids into northern India, sacking the great temple of Somnath (1025) and bringing enormous wealth back to Ghazni. Mahmud's campaigns expose the subcontinent to Turkish military power and establish a model of Central Asian Muslim rulers raiding and eventually governing India that persists for centuries.",
+  "outcomes": [
+    "ghaznavids_independent_sultanate",
+    "india_invaded",
+    "khorasan_controlled"
+  ],
+  "_quarry": {
+    "participants": [
+      "seljuk_sultanate",
+      "abbasid_caliphate"
+    ],
+    "structural_significance": "The Ghaznavid state is the first major Turkic sultanate to seriously penetrate India; Mahmud's patronage creates a brilliant literary culture at Ghazni (Firdausi's Shahnameh is composed at his court); the Ghaznavids' defeat by the Seljuks at Dandanaqan (1040) ends their western empire but they continue in India, establishing a precedent for subsequent Muslim dynasties of Indian rulers",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "peacock_the_2015",
+      "bosworth_the_1963",
+      "cahen_preottoman_1968"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

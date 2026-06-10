@@ -1,0 +1,160 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_kingdom_of_wessex_556_910",
+  "name": "Kingdom of Wessex — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 556,
+  "year_end": 910,
+  "waypoints": [
+    {
+      "year": 556,
+      "place": "Battle of Beran Byrig",
+      "coords": [
+        51,
+        -2
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_beran_byrig_556"
+    },
+    {
+      "year": 577,
+      "place": "Battle of Deorham",
+      "coords": [
+        51,
+        -2
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_deorham_577"
+    },
+    {
+      "year": 660,
+      "place": "Battle of Peonnum",
+      "coords": [
+        51,
+        -2
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_peonnum_660"
+    },
+    {
+      "year": 779,
+      "place": "Battle of Bensington",
+      "coords": [
+        51.75,
+        -1.75
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_bensington_779"
+    },
+    {
+      "year": 825,
+      "place": "Battle of Ellandun",
+      "coords": [
+        51.75,
+        -1.75
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_ellandun_825"
+    },
+    {
+      "year": 851,
+      "place": "Battle of Aclea",
+      "coords": [
+        51,
+        -2
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_aclea_851"
+    },
+    {
+      "year": 871,
+      "place": "Battle of Ashdown",
+      "coords": [
+        51,
+        -2
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_ashdown_871"
+    },
+    {
+      "year": 871,
+      "place": "Battle of Basing",
+      "coords": [
+        52.25,
+        -1.25
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_basing_871"
+    },
+    {
+      "year": 878,
+      "place": "Alfred's burh system",
+      "coords": [
+        51.06,
+        -1.31
+      ],
+      "note": "expansion_milestone",
+      "event_id": "alfred_burh_878"
+    },
+    {
+      "year": 878,
+      "place": "Battle of Chippenham",
+      "coords": [
+        51,
+        -2
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_chippenham_878"
+    },
+    {
+      "year": 893,
+      "place": "Battle of Buttington",
+      "coords": [
+        51.75,
+        -1.75
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_buttington_893"
+    },
+    {
+      "year": 894,
+      "place": "Battle of Benfleet",
+      "coords": [
+        51,
+        -2
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_benfleet_894"
+    },
+    {
+      "year": 899,
+      "place": "Æthelwold's Revolt",
+      "coords": [
+        51.75,
+        -1.75
+      ],
+      "note": "military",
+      "event_id": "wd_thelwold_s_revolt_899"
+    },
+    {
+      "year": 910,
+      "place": "Battle of Tettenhall",
+      "coords": [
+        51.75,
+        -1.75
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_tettenhall_910"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

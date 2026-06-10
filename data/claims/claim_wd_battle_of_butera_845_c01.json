@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_butera_845_c01",
+  "statement": "The Battle of Butera was fought in 845 CE at Butera.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 845,
+    "to": 845
+  },
+  "derived_from": "wd_battle_of_butera_845",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

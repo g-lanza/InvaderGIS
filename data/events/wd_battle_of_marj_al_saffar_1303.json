@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_marj_al_saffar_1303",
+  "name": "Battle of Marj al-Saffar",
+  "year": 1303,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    34.2,
+    39.5
+  ],
+  "entity": "ilkhanate",
+  "summary": "Battle of Marj al-Saffar (1303 CE), at Ghabaghib (part of Mongol invasions of the Levant). Source: Wikidata Q2732255.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "ilkhanate",
+      "mamluk_sultanate",
+      "armenian_kingdom_of_cilicia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "jackson_the_2005",
+      "amitai-preiss_mongols_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_spoleto_papal_lombard",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "lombard_kingdom",
+      "role": "suzerain"
+    },
+    {
+      "entity_id": "duchy_of_spoleto",
+      "role": "vassal"
+    }
+  ],
+  "directed": true,
+  "type": "vassalage",
+  "since": 570,
+  "until": 774,
+  "note": "The Duchy of Spoleto — a Lombard duchy in central Italy that survived the Carolingian conquest of the main Lombard kingdom (774) — maintained a complex, often hostile relationship with the papacy and a gradually evolving one with the Carolingian/imperial overlords. Situated between Rome and northern Italy, Spoleto periodically threatened the papacy, served as a buffer against other Lombard principalities, and was granted to various imperial supporters. Pope Innocent III incorporated Spoleto into the Papal States (1198) through a combination of political maneuvering and imperial weakness during the Staufen succession crisis.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Spoleto's incorporation into the Papal States by Innocent III represents the high point of papal territorial expansion; the duchy's absorption eliminates the last autonomous Lombard territorial entity in central Italy and completes the Papal States' geographic coherence"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "deacon_history_1907",
+      "christie_the_1995",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

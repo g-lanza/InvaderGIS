@@ -1,0 +1,35 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_jorvik_northumbria",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_jorvik",
+      "role": "principal"
+    },
+    {
+      "entity_id": "kingdom_of_northumbria",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "contested_influence",
+  "since": 866,
+  "until": 954,
+  "note": "The Viking Kingdom of Jorvik was created within the former Kingdom of Northumbria when Halfdan Ragnarsson settled his forces there (876) after the Great Heathen Army's conquest. Jorvik controlled the southern portion of Northumbria (roughly Yorkshire), while the northern portion (Bernicia, modern Northumberland) was governed by a native English aristocracy under Danish suzerainty. The two parts of Northumbria had different experiences: Jorvik became the most Scandinavian-influenced urban center in England; Bernicia's Anglo-Saxon aristocracy maintained more of their culture. When Eadred expelled Eric Bloodaxe (954), the reunited Northumbria was reintegrated into the English kingdom.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Jorvik's 88-year existence creates the most Scandinavian-influenced region in England; the split between Norse-ruled Jorvik and Anglo-Saxon Bernicia creates the North-South cultural divide within Northumbria; York's continuing importance as a northern English city (second after London) reflects its Jorvik commercial heritage"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

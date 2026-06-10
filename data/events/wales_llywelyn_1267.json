@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wales_llywelyn_1267",
+  "name": "Treaty of Montgomery, Llywelyn as Prince of Wales",
+  "year": 1267,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    52.4,
+    -3.5
+  ],
+  "entity": "principality_of_wales",
+  "summary": "Henry III of England recognizes Llywelyn ap Gruffudd as Prince of Wales under the Treaty of Montgomery, the first and only time England officially acknowledges a native Welsh prince with this title. Llywelyn controls most of Wales after exploiting English baronial conflicts (Second Barons' War, 1264–67). The Welsh prince maintains suzerainty over other Welsh lords while giving homage to Henry III. The settlement represents the highest point of Welsh political autonomy since the Norman Conquest, but proves short-lived: Edward I's conquest (1277–83) extinguishes independent Welsh princeship forever.",
+  "outcomes": [
+    "llywelyn_recognized_as_prince_of_wales",
+    "welsh_autonomy_peak",
+    "homage_to_english_king"
+  ],
+  "_quarry": {
+    "participants": [
+      "principality_of_wales",
+      "kingdom_of_england"
+    ],
+    "structural_significance": "The high-water mark of Welsh political autonomy; Edward I's conquest (1277–1283) following Llywelyn's death makes his son the first native Prince of Wales (created as an English title); the Statute of Rhuddlan (1284) incorporates Wales under English law; the long resistance and ultimate conquest creates the Welsh national memory of loss that shapes identity for centuries",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

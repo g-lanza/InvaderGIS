@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_reading_871",
+  "name": "Reading",
+  "importance": "city",
+  "start_year": 871,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q161491"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    -0.9731,
+    51.4542
+  ]
+}

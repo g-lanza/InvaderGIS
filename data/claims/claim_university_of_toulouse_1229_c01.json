@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_university_of_toulouse_1229_c01",
+  "statement": "The Treaty of Paris of 12 April 1229 ended the Albigensian Crusade and obliged Raymond VII of Toulouse to found and endow a university.",
+  "subject_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 1229,
+    "to": 1229
+  },
+  "derived_from": "university_of_toulouse_1229",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "bartlett_making_of_europe_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

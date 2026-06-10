@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_g_lnas_1425",
+  "name": "Battle of Gülnas",
+  "subtype": "battle",
+  "start_year": 1425,
+  "end_year": 1425,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q109392680"
+    }
+  },
+  "description": "Battle during Ottoman conquest of the Beylik of Aydin (1425)",
+  "coords": [
+    27.8402,
+    38.9241
+  ]
+}

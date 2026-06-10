@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_battle_onin_1142_c01",
+  "statement": "Holy Roman Emperor Conrad III defeated the supporters of Welf Duke Henry the Proud at the Battle of Weinsberg around 1140.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1140,
+    "to": 1140
+  },
+  "derived_from": "battle_onin_1142",
+  "unresolved_sources": [
+    "scales_the_2012"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

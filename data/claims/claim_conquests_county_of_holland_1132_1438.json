@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_county_of_holland_1132_1438",
+  "statement": "County of Holland — campaigns and battles spanned 1132–1438, from West-Frisian Wars to Dutch–Hanseatic War.",
+  "subject_ids": [
+    "county_of_holland"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_county_of_holland_1132_1438",
+  "period": {
+    "from": 1132,
+    "to": 1438
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

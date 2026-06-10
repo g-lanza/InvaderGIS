@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_shaizar_1157",
+  "name": "Siege of Shaizar",
+  "year": 1157,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    38.35,
+    27.725
+  ],
+  "entity": "kingdom_of_jerusalem",
+  "summary": "Siege of Shaizar (1157 CE), at Shaizar (part of Crusader battles between 1149 and 1189). Source: Wikidata Q135584150.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_jerusalem",
+      "county_of_flanders",
+      "principality_of_antioch",
+      "county_of_tripoli"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,21 @@
+{
+ "kind": "polity",
+ "id": "italian_city_states",
+ "name": "Italian City-States",
+ "type": "city_state",
+ "formed": 1000,
+ "dissolved": 1861,
+ "provenance": {
+  "sources_used": [
+   "ims_fordham",
+   "ims_fordham_sbookmap"
+  ],
+  "confidence": "medium",
+  "attestation": "maps of Italy in 11th-13th centuries showing multiple political divisions",
+  "status": "draft"
+ },
+ "dataset": "medieval-europe-500-1500",
+ "_fordham_index": "sbookmap",
+ "from_sourcebook": true,
+ "name_primary": "Italian City-States"
+}

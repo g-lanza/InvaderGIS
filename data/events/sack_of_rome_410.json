@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "sack_of_rome_410",
+  "name": "Sack of Rome by the Visigoths",
+  "year": 410,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    41.9,
+    12.5
+  ],
+  "entity": "visigothic_kingdom",
+  "summary": "Alaric I's Visigoths sack Rome for three days in August 410, the first time the city had fallen to foreign enemies in 800 years. Though materially limited, the psychological shock reverberates across the Empire. Augustine writes The City of God partly in response. The event accelerates Roman accommodation of barbarian federates and signals the irreversible fragmentation of the Western Empire.",
+  "outcomes": [
+    "rome_sacked",
+    "western_roman_empire_weakened"
+  ],
+  "_quarry": {
+    "participants": [
+      "visigothic_kingdom"
+    ],
+    "structural_significance": "Destroys the myth of Roman invincibility; accelerates barbarian settlement as federate troops within Roman territory; triggers a rethinking of Christian providence that shapes medieval political theology.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "collins_visigothic_2004",
+      "thompson_the_1969"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

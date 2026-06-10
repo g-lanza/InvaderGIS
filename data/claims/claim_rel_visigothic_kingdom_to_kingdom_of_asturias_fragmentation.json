@@ -1,0 +1,30 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_visigothic_kingdom_to_kingdom_of_asturias_fragmentation",
+  "statement": "Derived from predecessor/successor links recorded in the visigothic_kingdom and kingdom_of_asturias entity records. Transition anchored to kingdom_of_asturias start_year.",
+  "subject_ids": [
+    "visigothic_kingdom",
+    "kingdom_of_asturias"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_visigothic_kingdom_to_kingdom_of_asturias_fragmentation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "collins_visigothic_2004",
+      "thompson_the_1969",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "kingdom_of_asturias"
+  ],
+  "period": {
+    "from": 718,
+    "to": 718
+  }
+}

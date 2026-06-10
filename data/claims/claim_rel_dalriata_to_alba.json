@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_dalriata_to_alba",
+  "statement": "Gaelic Dál Riata merged into broader Picto-Gaelic kingdom of Alba in ninth century; exact chronology debated.",
+  "subject_ids": [
+    "kingdom_of_dal_riata",
+    "kingdom_of_alba"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_dalriata_to_alba",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "kingdom_of_alba"
+  ],
+  "period": {
+    "from": 839,
+    "to": 843
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_saladin_career_1169_c02",
+  "statement": "Saladin ended the Fatimid dynasty on the death of the last Fatimid caliph in 1171.",
+  "subject_ids": [
+    "ayyubid_sultanate"
+  ],
+  "period": {
+    "from": 1169,
+    "to": 1169
+  },
+  "derived_from": "saladin_career_1169",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "humphreys_from_1977",
+      "lyons_saladin_1982",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

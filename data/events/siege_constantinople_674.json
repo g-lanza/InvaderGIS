@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "siege_constantinople_674",
+  "name": "First Arab siege of Constantinople",
+  "year": 674,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    41.01,
+    28.98
+  ],
+  "entity": "byzantine_empire",
+  "summary": "The Umayyad Caliphate launches its first major assault on Constantinople (674–678), establishing a naval base at Cyzicus (Asia Minor) and launching annual summer attacks on the city's sea walls. Byzantine Greek fire, a combustible incendiary projected by ships' siphons, destroys the Arab fleet in a pivotal engagement. The Byzantines use Greek fire again to destroy the Arab fleet as it retreats through the Aegean. The failure forces the Umayyad Caliph Muawiyah to sue for peace and pay annual tribute to Byzantium.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire"
+    ],
+    "structural_significance": "First use of Greek fire in a major battle; demonstrates Constantinople's defensive strength; the Arab failure secures Byzantium's survival for another 800 years; first major strategic reversal for the Umayyad expansion",
+    "year_range": [
+      674,
+      678
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

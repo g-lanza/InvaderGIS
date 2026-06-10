@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_bosnia_1463",
+  "name": "Ottomans Conquer Bosnia",
+  "year": 1463,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    42.585,
+    23.345
+  ],
+  "entity": "kingdom_of_bosnia",
+  "summary": "The Ottoman conquest of Bosnia in 1463 was swift and decisive. The last Bosnian king Stjepan Tomašević was captured and executed. The Bosnian Church, a distinctive local religious tradition, was extinguished. Bosnia became an Ottoman province, and significant portions of the population eventually converted to Islam.",
+  "outcomes": [
+    "last_king_killed",
+    "ottoman_annexation",
+    "bosnian_church_extinguished"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_bosnia",
+      "ottoman_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fine_the_1987",
+      "imamović_historija_1997"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "kind": "institution",
+  "dataset": "medieval-europe-500-1500",
+  "id": "roman_law_tradition",
+  "name_primary": "Roman Law Tradition",
+  "domain": "legal_tradition",
+  "formed": 500,
+  "dissolved": 1500,
+  "_quarry": {
+    "key_developments": [
+      {
+        "year": 534,
+        "event": "Justinian completes Corpus Juris Civilis at Constantinople."
+      },
+      {
+        "year": 1070,
+        "event": "Manuscript of the Digest discovered at Pisa; transferred to Florence as Littera Florentina."
+      },
+      {
+        "year": 1088,
+        "event": "Bologna law school founded; Irnerius begins glossing the Corpus."
+      },
+      {
+        "year": 1140,
+        "event": "Gratian's Decretum systematises canon law using Roman juristic method."
+      },
+      {
+        "year": 1220,
+        "event": "Accursius completes the Glossa Ordinaria — the standard medieval gloss on Justinian."
+      },
+      {
+        "year": 1356,
+        "event": "Bartolus's commentaries on Roman law become authoritative across European courts."
+      }
+    ],
+    "influences_entities": [
+      "byzantine_empire",
+      "holy_roman_empire",
+      "papal_states",
+      "republic_of_venice",
+      "republic_of_genoa",
+      "republic_of_florence",
+      "republic_of_pisa",
+      "kingdom_of_sicily_norman",
+      "kingdom_of_castile",
+      "crown_of_aragon",
+      "duchy_of_milan"
+    ],
+    "description": "The continuous influence of Roman jurisprudential method on medieval governance, transmitted through Justinian's 529–534 Corpus Juris Civilis and revived at Bologna from c.1080 onward. After the rediscovery of the Digest at Bologna, the 'glossators' (Irnerius, Accursius) and later 'commentators' (Bartolus, Baldus) trained generations of jurists for service in royal and imperial courts. Roman law shaped canon law's procedural rigour, gave Holy Roman Emperors a vocabulary of absolute imperial sovereignty, underpinned the commercial law of Italian city-states, and provided the conceptual scaffolding for the Common European Legal Tradition that survived into modern civil-law codes."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "stein_roman_law_in_european_history_1999",
+      "kantorowicz_kings_two_bodies_1957"
+    ],
+    "confidence": "low"
+  }
+}

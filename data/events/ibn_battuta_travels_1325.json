@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ibn_battuta_travels_1325",
+  "name": "Ibn Battuta begins his Rihla",
+  "year": 1325,
+  "type": "exploration",
+  "category": "discovery",
+  "coords": [
+    35.78,
+    -5.81
+  ],
+  "entity": "marinid_dynasty",
+  "summary": "The 21-year-old Moroccan scholar Ibn Battuta departs Tangier on hajj and continues travelling for 29 years across North Africa, the Levant, Mecca, East Africa, the Black Sea, Central Asia, India (where he serves as a Delhi Sultanate qadi for 8 years), China, and the Maldives, an estimated 117,000 km.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "marinid_dynasty"
+    ],
+    "structural_significance": "The Rihla, dictated to Ibn Juzayy after Battuta's return in 1354, is the most detailed surviving description of the 14th-century Islamic world and its commercial / scholarly networks. Provides ground-level evidence for the integration of the Indian Ocean world from Sofala to Quanzhou.",
+    "year_range": [
+      1325,
+      1354
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "abun-nasr_a_1987",
+      "messier_the_2010"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

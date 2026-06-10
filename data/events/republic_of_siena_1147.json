@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "republic_of_siena_1147",
+  "name": "Siena Establishes Commune",
+  "year": 1147,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    43.32,
+    11.33
+  ],
+  "entity": "republic_of_siena",
+  "summary": "The Commune of Siena established self-governance in 1147, creating a merchant-dominated republic that would become one of the great banking centres of medieval Europe. Sienese banking families financed popes and kings across Europe, with their firms among the first to develop sophisticated letters of credit.",
+  "outcomes": [
+    "urban_self_governance",
+    "merchant_oligarchy",
+    "banking_begins"
+  ],
+  "_quarry": {
+    "participants": [
+      "republic_of_siena"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "treaty_alcacovas_1479",
+  "name": "Treaty of Alcáçovas",
+  "year": 1479,
+  "type": "treaty",
+  "category": "diplomacy",
+  "coords": [
+    38.4,
+    -8.39
+  ],
+  "entity": "crown_of_castile",
+  "summary": "The Treaty of Alcáçovas (September 4, 1479) ends the War of Castilian Succession (1475–1479) between Portugal (backing Juana 'La Beltraneja') and the Catholic Monarchs Ferdinand and Isabella. Portugal recognizes Isabella as rightful Queen of Castile; in exchange, Spain recognizes Portuguese sovereignty over the Azores, Madeira, the Cape Verde Islands, and exclusive rights to trade and explore along the African coast south of the Canaries. Spain receives the Canary Islands. The treaty is the first formal division of Atlantic colonial spheres and the direct predecessor to the Treaty of Tordesillas (1494).",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "crown_of_castile",
+      "kingdom_of_portugal"
+    ],
+    "structural_significance": "First international agreement dividing Atlantic colonial spheres; Portugal's exclusive rights to the African coast south of the Canaries enable the eventual sea route to India (Vasco da Gama, 1498); the treaty framework is superseded after Columbus's first voyage (1492) by the Treaty of Tordesillas",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "o'callaghan_a_1975",
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

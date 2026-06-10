@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_gasr_el_ariga_el_arigia_500",
+  "name": "Gasr el-Ariga/el-Arigia",
+  "importance": "city",
+  "start_year": 500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "inferred",
+    "external_ids": {
+      "pleiades": "375252"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    21.7677,
+    32.5264
+  ]
+}

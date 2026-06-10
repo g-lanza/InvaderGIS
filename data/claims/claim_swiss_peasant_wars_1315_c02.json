@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_swiss_peasant_wars_1315_c02",
+  "statement": "Following Morgarten, the three forest cantons of Uri, Schwyz, and Unterwalden renewed their Eternal League in 1315.",
+  "subject_ids": [
+    "swiss_confederation"
+  ],
+  "period": {
+    "from": 1315,
+    "to": 1315
+  },
+  "derived_from": "swiss_peasant_wars_1315",
+  "unresolved_sources": [
+    "rippmann_die_2006"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "marchal_schweizer_2006"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

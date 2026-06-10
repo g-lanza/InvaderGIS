@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_the_gulf_of_naples_1284",
+  "name": "Battle of the Gulf of Naples",
+  "year": 1284,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41.25,
+    7.4
+  ],
+  "entity": "kingdom_of_naples",
+  "summary": "Battle of the Gulf of Naples (1284 CE), at Gulf of Naples (part of War of the Sicilian Vespers). Source: Wikidata Q4872926.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_naples",
+      "crown_of_aragon"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

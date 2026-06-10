@@ -1,0 +1,1120 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "exarchate_of_ravenna",
+  "name_primary": "Exarchate of Ravenna",
+  "name_variants": [],
+  "type": "duchy",
+  "region": "italy",
+  "formed": 584,
+  "dissolved": 751,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 600,
+      "label": "Exarchate of Ravenna (approx.)",
+      "polygon": [
+        [
+          44.1,
+          11.55
+        ],
+        [
+          44,
+          11.8
+        ],
+        [
+          43.7,
+          12.6
+        ],
+        [
+          43.3,
+          13.7
+        ],
+        [
+          43.6,
+          13.9
+        ],
+        [
+          44.05,
+          13.85
+        ],
+        [
+          44.6,
+          13.4
+        ],
+        [
+          44.9,
+          12.9
+        ],
+        [
+          44.8,
+          12.1
+        ],
+        [
+          44.4,
+          11.6
+        ],
+        [
+          44.1,
+          11.55
+        ]
+      ]
+    },
+    {
+      "year": 700,
+      "label": "Exarchate of Ravenna (approx.)",
+      "polygon": [
+        [
+          44.1,
+          11.55
+        ],
+        [
+          44,
+          11.8
+        ],
+        [
+          43.7,
+          12.6
+        ],
+        [
+          43.3,
+          13.7
+        ],
+        [
+          43.6,
+          13.9
+        ],
+        [
+          44.05,
+          13.85
+        ],
+        [
+          44.6,
+          13.4
+        ],
+        [
+          44.9,
+          12.9
+        ],
+        [
+          44.8,
+          12.1
+        ],
+        [
+          44.4,
+          11.6
+        ],
+        [
+          44.1,
+          11.55
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    44.42,
+    12.2
+  ],
+  "religion": "catholic",
+  "population_estimates": [
+    {
+      "year": 600,
+      "estimate": 300000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q694740",
+          "url": "https://www.wikidata.org/wiki/Q694740",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Exarchate of Ravenna",
+          "url": "https://en.wikipedia.org/wiki/Exarchate_of_Ravenna"
+        }
+      ]
+    },
+    {
+      "year": 650,
+      "estimate": 275000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q694740",
+          "url": "https://www.wikidata.org/wiki/Q694740",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Exarchate of Ravenna",
+          "url": "https://en.wikipedia.org/wiki/Exarchate_of_Ravenna"
+        }
+      ]
+    },
+    {
+      "year": 700,
+      "estimate": 250000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q694740",
+          "url": "https://www.wikidata.org/wiki/Q694740",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Exarchate of Ravenna",
+          "url": "https://en.wikipedia.org/wiki/Exarchate_of_Ravenna"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low"
+  },
+  "description": "Byzantine provincial administration in northern Italy (584–751) that maintained imperial presence after the Lombard invasions; Ravenna's mosaics preserved the highest surviving examples of early Byzantine court art, and the exarchate's collapse to Lombard conquest directly prompted the papacy's Carolingian alliance and the Donation of Pepin that created the Papal States.",
+  "temporal": {
+    "start_year": 584,
+    "end_year": 751,
+    "end_year_within_scope": null,
+    "start_event_id": null,
+    "end_event_id": null,
+    "notes": "Byzantine exarchate modeled as duchy-rank territorial administration."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      44.42,
+      12.2
+    ],
+    "core_regions": [
+      "Ravenna",
+      "Romagna"
+    ],
+    "polygon_simplified": [
+      [
+        44.1,
+        11.55
+      ],
+      [
+        44,
+        11.8
+      ],
+      [
+        43.7,
+        12.6
+      ],
+      [
+        43.3,
+        13.7
+      ],
+      [
+        43.6,
+        13.9
+      ],
+      [
+        44.05,
+        13.85
+      ],
+      [
+        44.6,
+        13.4
+      ],
+      [
+        44.9,
+        12.9
+      ],
+      [
+        44.8,
+        12.1
+      ],
+      [
+        44.4,
+        11.6
+      ],
+      [
+        44.1,
+        11.55
+      ]
+    ],
+    "notes": "Centroid approximate; polygon pending schematic or OHM sourcing.",
+    "polygon_snapshots": [
+      {
+        "year": 600,
+        "label": "Exarchate of Ravenna (approx.)",
+        "polygon": [
+          [
+            44.1,
+            11.55
+          ],
+          [
+            44,
+            11.8
+          ],
+          [
+            43.7,
+            12.6
+          ],
+          [
+            43.3,
+            13.7
+          ],
+          [
+            43.6,
+            13.9
+          ],
+          [
+            44.05,
+            13.85
+          ],
+          [
+            44.6,
+            13.4
+          ],
+          [
+            44.9,
+            12.9
+          ],
+          [
+            44.8,
+            12.1
+          ],
+          [
+            44.4,
+            11.6
+          ],
+          [
+            44.1,
+            11.55
+          ]
+        ]
+      },
+      {
+        "year": 700,
+        "label": "Exarchate of Ravenna (approx.)",
+        "polygon": [
+          [
+            44.1,
+            11.55
+          ],
+          [
+            44,
+            11.8
+          ],
+          [
+            43.7,
+            12.6
+          ],
+          [
+            43.3,
+            13.7
+          ],
+          [
+            43.6,
+            13.9
+          ],
+          [
+            44.05,
+            13.85
+          ],
+          [
+            44.6,
+            13.4
+          ],
+          [
+            44.9,
+            12.9
+          ],
+          [
+            44.8,
+            12.1
+          ],
+          [
+            44.4,
+            11.6
+          ],
+          [
+            44.1,
+            11.55
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "approximate",
+    "polygon_source": "hand_crafted",
+    "polygon_source_date": "2026-05-11"
+  },
+  "internal_structure": {
+    "centralization": "low_to_medium",
+    "centralization_trajectory": null,
+    "governance_type": "imperial_bureaucratic",
+    "legitimacy_basis": [
+      "imperial_title",
+      "religious_consecration"
+    ],
+    "administrative_system": ""
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "formation",
+      "years": "c.584–620",
+      "description": "Exarchate established as Byzantine response to Lombard invasion.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q694740",
+          "url": "https://www.wikidata.org/wiki/Q694740"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Exarchate of Ravenna",
+          "url": "https://en.wikipedia.org/wiki/Exarchate_of_Ravenna"
+        }
+      ]
+    },
+    {
+      "phase": "consolidation",
+      "years": "620–680",
+      "description": "Exarchs govern Byzantine Italy; Ravenna as military and administrative hub.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q694740",
+          "url": "https://www.wikidata.org/wiki/Q694740"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Exarchate of Ravenna",
+          "url": "https://en.wikipedia.org/wiki/Exarchate_of_Ravenna"
+        }
+      ]
+    },
+    {
+      "phase": "crisis",
+      "years": "680–751",
+      "description": "Lombard pressure intensifies; iconoclasm strains papal alliance.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q694740",
+          "url": "https://www.wikidata.org/wiki/Q694740"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Exarchate of Ravenna",
+          "url": "https://en.wikipedia.org/wiki/Exarchate_of_Ravenna"
+        }
+      ]
+    },
+    {
+      "phase": "dissolution",
+      "years": "751",
+      "description": "Lombard conquest; Donation of Pepin (756) gives lands to papacy.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q694740",
+          "url": "https://www.wikidata.org/wiki/Q694740"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Exarchate of Ravenna",
+          "url": "https://en.wikipedia.org/wiki/Exarchate_of_Ravenna"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "geographic_defensibility",
+      "layer": "geography_territory",
+      "description": "Po delta marshes made Ravenna nearly impregnable to land attack; Lombards never took it directly.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q694740",
+          "url": "https://www.wikidata.org/wiki/Q694740"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Exarchate of Ravenna",
+          "url": "https://en.wikipedia.org/wiki/Exarchate_of_Ravenna"
+        }
+      ]
+    },
+    {
+      "tag": "administrative_innovation",
+      "layer": "governance_institutional",
+      "description": "Ravenna was the administrative hub of Byzantine Italy; exarchs governed using a sophisticated late-Roman bureaucratic structure.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q694740",
+          "url": "https://www.wikidata.org/wiki/Q694740"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Exarchate of Ravenna",
+          "url": "https://en.wikipedia.org/wiki/Exarchate_of_Ravenna"
+        }
+      ]
+    },
+    {
+      "tag": "external_alliance",
+      "layer": "external_political",
+      "description": "Papal alliance against the Lombards gave the Exarchate a powerful local partner and moral backing.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q694740",
+          "url": "https://www.wikidata.org/wiki/Q694740"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Exarchate of Ravenna",
+          "url": "https://en.wikipedia.org/wiki/Exarchate_of_Ravenna"
+        }
+      ]
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "administrative_innovation",
+      "direction": "rise",
+      "description": "Ravenna served as the administrative capital of Byzantine Italy, concentrating military, fiscal, and ecclesiastical authority that sustained Byzantine presence in the peninsula against Lombard pressure.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q694740",
+          "url": "https://www.wikidata.org/wiki/Q694740"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Exarchate of Ravenna",
+          "url": "https://en.wikipedia.org/wiki/Exarchate_of_Ravenna"
+        }
+      ],
+      "tag_prose": "byzantine_administrative_center"
+    },
+    {
+      "layer": "ideology_religion",
+      "tag": "mosaic_art_center",
+      "direction": "rise",
+      "description": "Ravenna produced the finest early Christian mosaics in the western world under Theoderic and the Byzantine exarchs, accumulating a cultural prestige that attracted patronage and ecclesiastical support.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q694740",
+          "url": "https://www.wikidata.org/wiki/Q694740"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Exarchate of Ravenna",
+          "url": "https://en.wikipedia.org/wiki/Exarchate_of_Ravenna"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "external_military_pressure",
+      "layer": "military_security",
+      "description": "Lombards under Aistulf finally captured Ravenna 751, ending Byzantine governance in northern Italy.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q694740",
+          "url": "https://www.wikidata.org/wiki/Q694740"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Exarchate of Ravenna",
+          "url": "https://en.wikipedia.org/wiki/Exarchate_of_Ravenna"
+        }
+      ]
+    },
+    {
+      "tag": "legitimacy_loss",
+      "layer": "dynastic_legitimacy",
+      "description": "Constantinople could not consistently fund or reinforce the Exarchate; garrison morale eroded.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q694740",
+          "url": "https://www.wikidata.org/wiki/Q694740"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Exarchate of Ravenna",
+          "url": "https://en.wikipedia.org/wiki/Exarchate_of_Ravenna"
+        }
+      ]
+    },
+    {
+      "tag": "administrative_decay",
+      "layer": "governance_institutional",
+      "description": "Recurring exarchal mutinies and distance from Constantinople undermined institutional cohesion.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q694740",
+          "url": "https://www.wikidata.org/wiki/Q694740"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Exarchate of Ravenna",
+          "url": "https://en.wikipedia.org/wiki/Exarchate_of_Ravenna"
+        }
+      ]
+    },
+    {
+      "layer": "military_security",
+      "tag": "external_military_pressure",
+      "direction": "decline",
+      "description": "The Lombard King Aistulf captured Ravenna in 751, ending Byzantine administrative control of central Italy and terminating the exarchate after nearly two centuries of functioning government.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q694740",
+          "url": "https://www.wikidata.org/wiki/Q694740"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Exarchate of Ravenna",
+          "url": "https://en.wikipedia.org/wiki/Exarchate_of_Ravenna"
+        }
+      ],
+      "tag_prose": "lombard_conquest"
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "papal_donation",
+      "direction": "decline",
+      "description": "Pepin the Short drove out the Lombards and donated the exarchate's territories to the papacy rather than restoring them to Byzantium, transferring the region permanently to papal control.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q694740",
+          "url": "https://www.wikidata.org/wiki/Q694740"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Exarchate of Ravenna",
+          "url": "https://en.wikipedia.org/wiki/Exarchate_of_Ravenna"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "person_id": "smaragdus_ravenna",
+      "name": "Smaragdus",
+      "role": "administrator",
+      "years": "c.603–611",
+      "year_start": 603,
+      "year_end": 611,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Smaragdus",
+          "url": "https://en.wikipedia.org/wiki/Smaragdus"
+        }
+      ]
+    },
+    {
+      "person_id": "eutychius_ravenna",
+      "name": "Eutychius",
+      "role": "ruler",
+      "years": "727–751",
+      "year_start": 727,
+      "year_end": 751,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Eutychius",
+          "url": "https://en.wikipedia.org/wiki/Eutychius"
+        }
+      ]
+    }
+  ],
+  "predecessor_entity_ids": [
+    "byzantine_empire"
+  ],
+  "successor_entity_ids": [
+    "papal_states",
+    "lombard_kingdom"
+  ],
+  "primary_ethnicity": "italian_roman",
+  "ethnic_composition": [
+    {
+      "group": "italian_roman",
+      "proportion": 0.52
+    },
+    {
+      "group": "greek_byzantine",
+      "proportion": 0.28
+    },
+    {
+      "group": "germanic",
+      "proportion": 0.18
+    },
+    {
+      "group": "latin_frankish",
+      "proportion": 0.02
+    }
+  ],
+  "religion_composition": [
+    {
+      "religion": "catholic",
+      "proportion": 0.95
+    },
+    {
+      "religion": "pagan",
+      "proportion": 0.05
+    }
+  ],
+  "primary_language": "greek",
+  "language_composition": [
+    {
+      "language": "italian_lang",
+      "proportion": 0.38,
+      "role": "vernacular"
+    },
+    {
+      "language": "greek",
+      "proportion": 0.3,
+      "role": "administrative"
+    },
+    {
+      "language": "latin",
+      "proportion": 0.18,
+      "role": "liturgical"
+    },
+    {
+      "language": "german",
+      "proportion": 0.14,
+      "role": "regional"
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "maritime_trade",
+      "manufacturing"
+    ],
+    "wealth_level": "moderate",
+    "major_exports": [
+      "grain",
+      "salt",
+      "glass",
+      "fish"
+    ],
+    "major_trade_partners": [
+      "byzantine_empire",
+      "papal_states",
+      "lombard_kingdom"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "customs_duties",
+      "tribute"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q694740",
+        "url": "https://www.wikidata.org/wiki/Q694740"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Exarchate of Ravenna",
+        "url": "https://en.wikipedia.org/wiki/Exarchate_of_Ravenna"
+      }
+    ]
+  },
+  "social_structure": {
+    "ruling_ethnicity": "italian_roman",
+    "subject_majority": "italian_roman",
+    "military_ethnicity": "italian_roman",
+    "administrative_language": "greek",
+    "stratification_type": "homogeneous"
+  },
+  "wikidata_enrichment": {
+    "qid": "Q694740",
+    "matched_name": "Exarchate of Ravenna",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Exarchate_of_Ravenna",
+    "capital": {
+      "name": "Byzantine Ravenna"
+    },
+    "rulers_from_wikidata": [
+      {
+        "name": "Theodore I Calliopas",
+        "qid": "Q1111163",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1111163",
+            "url": "https://www.wikidata.org/wiki/Q1111163"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Theodore I Calliopas",
+            "url": "https://en.wikipedia.org/wiki/Theodore_I_Calliopas"
+          }
+        ]
+      },
+      {
+        "name": "Isaac the Armenian",
+        "qid": "Q1377276",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1377276",
+            "url": "https://www.wikidata.org/wiki/Q1377276"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Isaac the Armenian",
+            "url": "https://en.wikipedia.org/wiki/Isaac_the_Armenian"
+          }
+        ]
+      },
+      {
+        "name": "John III Rizocopus",
+        "qid": "Q1377959",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1377959",
+            "url": "https://www.wikidata.org/wiki/Q1377959"
+          },
+          {
+            "type": "wikipedia",
+            "label": "John III Rizocopus",
+            "url": "https://en.wikipedia.org/wiki/John_III_Rizocopus"
+          }
+        ]
+      },
+      {
+        "name": "John I Lemigius",
+        "qid": "Q1378043",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1378043",
+            "url": "https://www.wikidata.org/wiki/Q1378043"
+          },
+          {
+            "type": "wikipedia",
+            "label": "John I Lemigius",
+            "url": "https://en.wikipedia.org/wiki/John_I_(exarch)"
+          }
+        ]
+      },
+      {
+        "name": "John II Platinus",
+        "qid": "Q1378069",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1378069",
+            "url": "https://www.wikidata.org/wiki/Q1378069"
+          },
+          {
+            "type": "wikipedia",
+            "label": "John II Platinus",
+            "url": "https://en.wikipedia.org/wiki/John_II_Platyn"
+          }
+        ]
+      },
+      {
+        "name": "Paul",
+        "qid": "Q1516582",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1516582",
+            "url": "https://www.wikidata.org/wiki/Q1516582"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Paul",
+            "url": "https://en.wikipedia.org/wiki/Paul"
+          }
+        ]
+      },
+      {
+        "name": "Plato",
+        "qid": "Q2035656",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2035656",
+            "url": "https://www.wikidata.org/wiki/Q2035656"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Plato",
+            "url": "https://en.wikipedia.org/wiki/Plato"
+          }
+        ]
+      },
+      {
+        "name": "Gregory",
+        "qid": "Q2504888",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2504888",
+            "url": "https://www.wikidata.org/wiki/Q2504888"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Gregory",
+            "url": "https://en.wikipedia.org/wiki/Gregory"
+          }
+        ]
+      },
+      {
+        "name": "Photius",
+        "qid": "Q25535347",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q25535347",
+            "url": "https://www.wikidata.org/wiki/Q25535347"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Photius",
+            "url": "https://en.wikipedia.org/wiki/Photios_I_of_Constantinople"
+          }
+        ]
+      },
+      {
+        "name": "Theodore II",
+        "qid": "Q2659440",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2659440",
+            "url": "https://www.wikidata.org/wiki/Q2659440"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Theodore II",
+            "url": "https://en.wikipedia.org/wiki/Theodore_II"
+          }
+        ]
+      },
+      {
+        "name": "Decius",
+        "qid": "Q3704516",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3704516",
+            "url": "https://www.wikidata.org/wiki/Q3704516"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Decius",
+            "url": "https://en.wikipedia.org/wiki/Decius"
+          }
+        ]
+      },
+      {
+        "name": "Scholasticus",
+        "qid": "Q719886",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q719886",
+            "url": "https://www.wikidata.org/wiki/Q719886"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Scholasticus",
+            "url": "https://en.wikipedia.org/wiki/Scholasticus"
+          }
+        ]
+      },
+      {
+        "name": "Olympius",
+        "qid": "Q887349",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q887349",
+            "url": "https://www.wikidata.org/wiki/Q887349"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Olympius",
+            "url": "https://en.wikipedia.org/wiki/Olympius"
+          }
+        ]
+      },
+      {
+        "name": "Eleutherius",
+        "qid": "Q887372",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q887372",
+            "url": "https://www.wikidata.org/wiki/Q887372"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Eleutherius",
+            "url": "https://en.wikipedia.org/wiki/Eleutherius"
+          }
+        ]
+      },
+      {
+        "name": "Theophylactus",
+        "qid": "Q926177",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q926177",
+            "url": "https://www.wikidata.org/wiki/Q926177"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Theophylactus",
+            "url": "https://en.wikipedia.org/wiki/Theophylact"
+          }
+        ]
+      },
+      {
+        "name": "Smaragdus",
+        "qid": "Q1340553",
+        "year_start": 585,
+        "year_end": 589,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1340553",
+            "url": "https://www.wikidata.org/wiki/Q1340553"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Smaragdus",
+            "url": "https://en.wikipedia.org/wiki/Smaragdus"
+          }
+        ]
+      },
+      {
+        "name": "Romanus",
+        "qid": "Q2006846",
+        "year_start": 590,
+        "year_end": 596,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2006846",
+            "url": "https://www.wikidata.org/wiki/Q2006846"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Romanus",
+            "url": "https://en.wikipedia.org/wiki/Romanus"
+          }
+        ]
+      },
+      {
+        "name": "Callinicus",
+        "qid": "Q609578",
+        "year_start": 596,
+        "year_end": 602,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q609578",
+            "url": "https://www.wikidata.org/wiki/Q609578"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Callinicus",
+            "url": "https://en.wikipedia.org/wiki/Callinicus"
+          }
+        ]
+      },
+      {
+        "name": "Eutychius",
+        "qid": "Q1376802",
+        "year_start": 728,
+        "year_end": 752,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1376802",
+            "url": "https://www.wikidata.org/wiki/Q1376802"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Eutychius",
+            "url": "https://en.wikipedia.org/wiki/Eutychius"
+          }
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "type": "book",
+      "author": "Wickham, Chris",
+      "title": "The Inheritance of Rome: A History of Europe from 400 to 1000",
+      "publisher": "Allen Lane",
+      "year": 2009
+    },
+    {
+      "type": "book",
+      "author": "Abulafia, David (ed.)",
+      "title": "The New Cambridge Medieval History, Vol. V: c. 1198 – c. 1300",
+      "publisher": "Cambridge University Press",
+      "year": 1999
+    }
+  ],
+  "monogram": "ER"
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_franco_gothic_war_507",
+  "name": "Franco-Gothic War",
+  "year": 507,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    43.075,
+    10.3
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Franco-Gothic War (507 CE), at Gallia Narbonensis (part of Franco-Visigothic Wars). Source: Wikidata Q131585304.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "visigothic_kingdom",
+      "merovingian_kingdom",
+      "ostrogothic_kingdom"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

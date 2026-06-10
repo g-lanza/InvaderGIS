@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_brittany_845",
+  "name": "Brittany Defeats Frankish Army",
+  "year": 845,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    48,
+    -3
+  ],
+  "entity": "duchy_of_brittany",
+  "summary": "Nominoë, the first Duke of Brittany, defeated a Frankish army at the Battle of Ballon in 845 CE, establishing Breton independence from the Carolingian Empire. He subsequently expelled the Frankish bishops and replaced them with Breton clergy, cementing cultural and ecclesiastical autonomy.",
+  "outcomes": [
+    "frankish_invasion_repulsed",
+    "breton_independence_asserted",
+    "nominoë_victorious"
+  ],
+  "_quarry": {
+    "participants": [
+      "duchy_of_brittany"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_capture_of_dmanisi_1123_c01",
+  "statement": "Capture of Dmanisi (1123 CE), at Dmanisi (part of Georgian–Seljuk wars).",
+  "subject_ids": [
+    "kingdom_of_georgia"
+  ],
+  "period": {
+    "from": 1123,
+    "to": 1123
+  },
+  "derived_from": "wd_capture_of_dmanisi_1123",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

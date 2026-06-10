@@ -1,0 +1,42 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ottoman_mehmed_organization_1453",
+  "name": "Mehmed II Reorganizes the Ottoman State",
+  "year": 1453,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.01,
+    28.97
+  ],
+  "entity": "ottoman_empire",
+  "summary": "Following Constantinople's conquest, Mehmed II undertakes comprehensive state reorganization: the Palace School trains the elite devshirme administrators who run the empire; the Grand Vizier (replacing the earlier system of royal family administration) coordinates government; the Kanunname codifies administrative and criminal law; Mehmed populates the capital by requiring resettlement from conquered peoples.",
+  "outcomes": [
+    "palace_school_expanded",
+    "grand_vizier_system",
+    "devshirme_peak"
+  ],
+  "_quarry": {
+    "participants": [
+      "ottoman_empire"
+    ],
+    "structural_significance": "Mehmed's post-conquest reorganization creates the Ottoman administrative system that survives into the 19th century; the devshirme meritocracy, talented men of slave origin rising to be Grand Viziers, is the Ottoman solution to the problem of noble hereditary power blocking royal authority; the system produces extraordinary administrators but also creates a state where the sultan's personal rule is mediated entirely through slaves, removing traditional checks on royal tyranny",
+    "year_range": [
+      1453,
+      1481
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

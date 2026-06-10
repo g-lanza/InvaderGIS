@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_massacre_acre_1191_c01",
+  "statement": "Richard I of England ordered the execution of approximately 2,700 Muslim prisoners at Acre in 1191 when Saladin delayed the agreed ransom payment.",
+  "subject_ids": [
+    "kingdom_of_jerusalem"
+  ],
+  "period": {
+    "from": 1191,
+    "to": 1191
+  },
+  "derived_from": "massacre_acre_1191",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

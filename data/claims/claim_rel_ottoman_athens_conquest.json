@@ -1,0 +1,33 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_ottoman_athens_conquest",
+  "statement": "The Florentine Acciaiuoli family had ruled Athens as a duchy since 1388. Mehmed II's army besieged Athens in 1456; the Acropolis fell in June 1458. Athens became an Ottoman provincial town; the Parthenon was converted to a mosque. The last Latin duke of Athens, Franco Acciaiuoli, was executed. Mehmed II visited Athens and reportedly admired its ancient monuments. The city's population had dwindled to a few thousand by this point, a shadow of its ancient and Byzantine greatness.",
+  "subject_ids": [
+    "duchy_of_athens",
+    "ottoman_empire"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_ottoman_athens_conquest",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "ottoman_empire"
+  ],
+  "period": {
+    "from": 1458,
+    "to": 1458
+  }
+}

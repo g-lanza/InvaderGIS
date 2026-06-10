@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "notre_dame_paris_begun_1163",
+  "name": "Construction of Notre-Dame de Paris begins",
+  "year": 1163,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    48.853,
+    2.349
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Bishop Maurice de Sully lays the foundation stone of Notre-Dame on the Île de la Cité in the presence of Pope Alexander III. Construction continues nearly two centuries; the great rose windows are completed under Louis IX in the 1250s.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france"
+    ],
+    "structural_significance": "Defining monument of mature Gothic architecture; pioneers the flying buttress as a load-bearing element. Becomes both the ecclesiastical heart of the medieval French monarchy and a model for Gothic cathedrals from Reims to Cologne.",
+    "year_range": [
+      1163,
+      1345
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

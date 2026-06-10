@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "county_of_champagne",
+  "name": "Troyes",
+  "entity_id": "county_of_champagne",
+  "entity_name": "County of Champagne",
+  "start_year": 950,
+  "end_year": 1284,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q546266"
+    }
+  },
+  "coords": [
+    4.07806,
+    48.29889
+  ]
+}

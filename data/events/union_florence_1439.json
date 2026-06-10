@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "union_florence_1439",
+  "name": "Council of Florence Union",
+  "year": 1439,
+  "type": "religious_council",
+  "category": "religion",
+  "coords": [
+    43.77,
+    11.25
+  ],
+  "entity": "papal_states",
+  "summary": "The Council of Florence (originally Basel-Ferrara-Florence, 1431–1449) achieves a short-lived union of the Eastern and Western Churches. Byzantine Emperor John VIII Palaiologos attends personally with 700 delegates, seeking Western military aid against the Ottomans. The decree Laetentur Caeli (July 6, 1439) proclaims reunion, with Byzantine acceptance of papal supremacy, the filioque clause (the Spirit proceeds from the Father and the Son), and purgatory. The union is immediately rejected by most Orthodox clergy and laity back in Constantinople as a betrayal; the Metropolitan of Ephesus, Mark Eugenikos, refuses to sign. The military aid never materializes; Constantinople falls in 1453.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "papal_states",
+      "byzantine_empire"
+    ],
+    "structural_significance": "The last serious attempt to reunite Eastern and Western Christianity before the fall of Constantinople; the union's rejection in Constantinople demonstrates that theological reunion required genuine consensus, not imperial decree; the failure confirms the East-West schism as permanent",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

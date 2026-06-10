@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_trebizond_1222",
+  "name": "Siege of Trebizond",
+  "year": 1222,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41,
+    39.7
+  ],
+  "entity": "empire_of_trebizond",
+  "summary": "Siege of Trebizond (1222 CE), at Trabzon. Source: Wikidata Q7510460.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "empire_of_trebizond"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "miller_trebizond_1926",
+      "eastmond_art_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

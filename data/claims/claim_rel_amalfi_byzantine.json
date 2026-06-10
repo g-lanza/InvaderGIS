@@ -1,0 +1,32 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_amalfi_byzantine",
+  "statement": "Amalfi's commercial golden age (9th–11th centuries) was built on its position as the primary Western intermediary in Byzantine-Islamic trade. The city held Byzantine administrative recognition as a semi-autonomous duchy (the Duke of Amalfi answering nominally to the Byzantine governor of Southern Italy), which gave Amalfi merchants privileged access to Constantinople and Byzantine ports throughout the Mediterranean. Amalfitan merchants established the Hospital of St. John in Jerusalem (c. 1048–1050) — the forerunner of the Knights Hospitaller. The city's dual orientation toward Byzantium and Islam made it uniquely positioned as a commercial and cultural bridge.",
+  "subject_ids": [
+    "byzantine_empire",
+    "duchy_of_amalfi"
+  ],
+  "predicate": "vassalage",
+  "derived_from": "rel_amalfi_byzantine",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "duchy_of_amalfi"
+  ],
+  "period": {
+    "from": 958,
+    "to": 1073
+  }
+}

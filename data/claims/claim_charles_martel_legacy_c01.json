@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_charles_martel_legacy_c01",
+  "statement": "Charles Martel served as Mayor of the Palace, effectively ruling Frankland, from 714 to 741.",
+  "subject_ids": [
+    "merovingian_kingdom"
+  ],
+  "period": {
+    "from": 737,
+    "to": 737
+  },
+  "derived_from": "charles_martel_legacy",
+  "unresolved_sources": [
+    "wood_the_1994"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "geary_before_1988"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

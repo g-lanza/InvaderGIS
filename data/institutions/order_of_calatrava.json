@@ -1,0 +1,48 @@
+{
+  "kind": "institution",
+  "dataset": "medieval-europe-500-1500",
+  "id": "order_of_calatrava",
+  "name_primary": "Order of Calatrava",
+  "domain": "military_order",
+  "formed": 1158,
+  "dissolved": 1500,
+  "_quarry": {
+    "key_developments": [
+      {
+        "year": 1158,
+        "event": "Sancho III of Castile entrusts Calatrava castle to Raimundo of Fitero and Diego Velázquez."
+      },
+      {
+        "year": 1164,
+        "event": "Alexander III's Quanta et qualia confirms the order; affiliated with Cistercian observance."
+      },
+      {
+        "year": 1195,
+        "event": "Battle of Alarcos — order's army destroyed by Almohads; Calatrava lost."
+      },
+      {
+        "year": 1212,
+        "event": "Las Navas de Tolosa — order participates in decisive Reconquista victory."
+      },
+      {
+        "year": 1487,
+        "event": "Ferdinand the Catholic granted perpetual administration of the order's grand mastership."
+      }
+    ],
+    "influences_entities": [
+      "kingdom_of_castile",
+      "crown_of_castile",
+      "kingdom_of_leon",
+      "kingdom_of_portugal",
+      "almohad_caliphate_iberia"
+    ],
+    "description": "The first Iberian military order, founded in 1158 by Raimundo, abbot of the Cistercian abbey of Fitero, and the knight Diego Velázquez, to defend the recently-reconquered fortress of Calatrava on the Castilian frontier after the Templars judged the position indefensible. Confirmed by Alexander III's Quanta et qualia (1164) and brought under Cistercian observance. Calatrava played a central role in the 12th- and 13th-century Reconquista — notably at Las Navas de Tolosa (1212) — and its grand mastership eventually became a royal prerogative under the Catholic Monarchs in 1487."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley_smith_crusades_2005"
+    ],
+    "confidence": "low"
+  }
+}

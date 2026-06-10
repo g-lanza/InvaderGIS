@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_despotate_of_dobruja_1346_c01",
+  "statement": "The Despotate of Dobruja emerged around 1346 CE as a successor state in the Black Sea coastal region between the declining Bulgarian Empire and the Byzantine sphere.",
+  "subject_ids": [
+    "despotate_of_dobruja"
+  ],
+  "period": {
+    "from": 1346,
+    "to": 1346
+  },
+  "derived_from": "despotate_of_dobruja_1346",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

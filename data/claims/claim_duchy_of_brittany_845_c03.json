@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_duchy_of_brittany_845_c03",
+  "statement": "Nominoë expelled the Frankish bishops in Brittany and replaced them with Breton clergy, cementing ecclesiastical autonomy.",
+  "subject_ids": [
+    "duchy_of_brittany"
+  ],
+  "period": {
+    "from": 845,
+    "to": 845
+  },
+  "derived_from": "duchy_of_brittany_845",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

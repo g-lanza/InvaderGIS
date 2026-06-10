@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "capture_constantinople_1204",
+  "name": "Sack of Constantinople (Fourth Crusade)",
+  "year": 1204,
+  "type": "crusade",
+  "category": "violence",
+  "coords": [
+    41.01,
+    28.98
+  ],
+  "entity": "latin_empire_constantinople",
+  "summary": "The Fourth Crusade, diverted by Venetian commercial interests and Alexios Angelos's promise of Byzantine support, storms Constantinople on April 12–13, 1204. The city falls for the first time in 874 years of Roman continuity. Three days of looting follow: Byzantine art, relics, and manuscripts are dispersed across Western Europe. The Crusaders establish the Latin Empire of Constantinople; Venice takes the most strategically valuable islands and ports. The Byzantine Empire splinters into the successor states of Nicaea, Trebizond, and Epirus. The sack permanently poisons Greek-Latin Christian relations.",
+  "outcomes": [
+    "latin_empire_established"
+  ],
+  "_quarry": {
+    "participants": [
+      "latin_empire_constantinople",
+      "byzantine_empire"
+    ],
+    "structural_significance": "Destroys the Byzantine Empire's territorial integrity; creates the Latin Empire and Byzantine successor states; disperses Byzantine cultural heritage to Western Europe; poisons Orthodox-Catholic relations for centuries, the wound remains in Eastern Christian memory to this day",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

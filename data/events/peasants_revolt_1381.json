@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "peasants_revolt_1381",
+  "name": "Wat Tyler's Rebellion, English Peasants' Revolt",
+  "year": 1381,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    51.3,
+    0.52
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "The imposition of a poll tax to fund the Hundred Years' War provokes the first mass popular uprising in English history. Led by Wat Tyler and encouraged by the radical priest John Ball, tens of thousands of Essex and Kent peasants march on London, storming the Tower and killing the Archbishop of Canterbury. The 14-year-old Richard II meets the rebels at Smithfield, where Tyler is killed; Richard uses promises of reform to disperse the crowd, then revokes them.",
+  "outcomes": [
+    "poll_tax_withdrawn",
+    "wat_tyler_killed",
+    "serfdom_de_facto_ended"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england"
+    ],
+    "structural_significance": "Though the revolt is crushed, the poll tax is never levied again and serfdom rapidly declines in England after 1381, not through legislation but because lords can no longer enforce servile obligations on a labor-scarce population with options; John Ball's sermon ('When Adam delved and Eve span, who was then the gentleman?') articulates an egalitarian theology that anticipates Protestant radicalism; the revolt demonstrates the emerging power of commons opinion in English governance",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_kulikovo_1380",
+  "name": "Battle of Kulikovo, Russia Defies the Mongols",
+  "year": 1380,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    53.67,
+    38.67
+  ],
+  "entity": "grand_principality_of_moscow",
+  "summary": "Dmitri Donskoi of Moscow defeats the Golden Horde's general Mamai at Kulikovo Field on the Don River, the first major Russian military victory over the Mongols. The battle has enormous psychological significance: it demonstrates that Russian forces could defeat Mongol armies, though the Mongols sack Moscow two years later (1382). The victory makes Dmitri a national hero and establishes Muscovite military prestige.",
+  "outcomes": [
+    "moscow_defeats_golden_horde",
+    "russian_confidence_restored",
+    "mongol_yoke_eventually_ends"
+  ],
+  "_quarry": {
+    "participants": [
+      "grand_principality_of_moscow",
+      "golden_horde"
+    ],
+    "structural_significance": "Kulikovo is less militarily significant (the Mongols recover and sack Moscow in 1382) than symbolically: it proves Russian forces can defeat Mongol armies in open field battle; this psychological shift is crucial for the eventual assertion of Russian independence (1480, the Great Stand on the Ugra River); the battle establishes Moscow's claim to leadership of Russian resistance and accelerates the consolidation of Russian principalities under Muscovite direction",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "fennell_the_1983",
+      "ostrowski_muscovy_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

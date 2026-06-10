@@ -1,0 +1,864 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_styria",
+  "name_primary": "Duchy of Styria",
+  "name_variants": [],
+  "type": "duchy",
+  "region": "central_europe",
+  "formed": 1180,
+  "dissolved": 1500,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 1260,
+      "label": "Duchy of Styria",
+      "polygon": [
+        [
+          46.61,
+          12.83
+        ],
+        [
+          46.68,
+          11.84
+        ],
+        [
+          46.61,
+          11.52
+        ],
+        [
+          46.41,
+          11.27
+        ],
+        [
+          46.41,
+          11.11
+        ],
+        [
+          46.61,
+          11.19
+        ],
+        [
+          46.55,
+          10.45
+        ],
+        [
+          46.94,
+          10.45
+        ],
+        [
+          46.94,
+          10.12
+        ],
+        [
+          47.27,
+          10.2
+        ],
+        [
+          47.33,
+          10.37
+        ],
+        [
+          47.6,
+          10.45
+        ],
+        [
+          47.53,
+          10.94
+        ],
+        [
+          47.4,
+          11.02
+        ],
+        [
+          47.47,
+          11.44
+        ],
+        [
+          47.33,
+          11.44
+        ],
+        [
+          47.27,
+          11.6
+        ],
+        [
+          47.27,
+          11.85
+        ],
+        [
+          47.53,
+          12.01
+        ],
+        [
+          47.53,
+          12.26
+        ],
+        [
+          47.33,
+          12.34
+        ],
+        [
+          47.27,
+          12.18
+        ],
+        [
+          47.07,
+          12.18
+        ],
+        [
+          47.14,
+          12.75
+        ],
+        [
+          46.87,
+          12.83
+        ],
+        [
+          46.87,
+          12.91
+        ],
+        [
+          46.61,
+          12.91
+        ],
+        [
+          46.61,
+          12.83
+        ]
+      ]
+    },
+    {
+      "year": 1272,
+      "label": "Duchy of Styria",
+      "polygon": [
+        [
+          46.02,
+          13.56
+        ],
+        [
+          46.15,
+          13.48
+        ],
+        [
+          46.15,
+          13.31
+        ],
+        [
+          45.96,
+          13.31
+        ],
+        [
+          46.02,
+          13.56
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    47.07,
+    15.44
+  ],
+  "religion": "catholic",
+  "population_estimates": [
+    {
+      "year": 1050,
+      "estimate": 350000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q580447",
+          "url": "https://www.wikidata.org/wiki/Q580447",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Styria",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Styria"
+        }
+      ]
+    },
+    {
+      "year": 1200,
+      "estimate": 500000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q580447",
+          "url": "https://www.wikidata.org/wiki/Q580447",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Styria",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Styria"
+        }
+      ]
+    },
+    {
+      "year": 1350,
+      "estimate": 550000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q580447",
+          "url": "https://www.wikidata.org/wiki/Q580447",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Styria",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Styria"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low"
+  },
+  "description": "Alpine march elevated to duchy (1180) in the southeastern Empire; its iron-ore deposits made it economically valuable, and its position between Hungary and Austria made it strategically critical; Habsburg acquisition in 1282 completed their southeastern block and began the composite dynasty's gradual absorption of the Alpine lands.",
+  "temporal": {
+    "start_year": 1180,
+    "end_year": 1500,
+    "end_year_within_scope": 1500,
+    "start_event_id": null,
+    "end_event_id": null,
+    "notes": "Elevated from margraviate; Habsburg core territory; medieval focus to dataset cutoff."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      47.07,
+      15.44
+    ],
+    "core_regions": [
+      "Styria"
+    ],
+    "polygon_simplified": [
+      [
+        46.02,
+        13.56
+      ],
+      [
+        46.15,
+        13.48
+      ],
+      [
+        46.15,
+        13.31
+      ],
+      [
+        45.96,
+        13.31
+      ],
+      [
+        46.02,
+        13.56
+      ]
+    ],
+    "notes": "Centroid approximate; polygon pending schematic or OHM sourcing.",
+    "polygon_snapshots": [
+      {
+        "year": 1260,
+        "label": "Duchy of Styria",
+        "polygon": [
+          [
+            46.61,
+            12.83
+          ],
+          [
+            46.68,
+            11.84
+          ],
+          [
+            46.61,
+            11.52
+          ],
+          [
+            46.41,
+            11.27
+          ],
+          [
+            46.41,
+            11.11
+          ],
+          [
+            46.61,
+            11.19
+          ],
+          [
+            46.55,
+            10.45
+          ],
+          [
+            46.94,
+            10.45
+          ],
+          [
+            46.94,
+            10.12
+          ],
+          [
+            47.27,
+            10.2
+          ],
+          [
+            47.33,
+            10.37
+          ],
+          [
+            47.6,
+            10.45
+          ],
+          [
+            47.53,
+            10.94
+          ],
+          [
+            47.4,
+            11.02
+          ],
+          [
+            47.47,
+            11.44
+          ],
+          [
+            47.33,
+            11.44
+          ],
+          [
+            47.27,
+            11.6
+          ],
+          [
+            47.27,
+            11.85
+          ],
+          [
+            47.53,
+            12.01
+          ],
+          [
+            47.53,
+            12.26
+          ],
+          [
+            47.33,
+            12.34
+          ],
+          [
+            47.27,
+            12.18
+          ],
+          [
+            47.07,
+            12.18
+          ],
+          [
+            47.14,
+            12.75
+          ],
+          [
+            46.87,
+            12.83
+          ],
+          [
+            46.87,
+            12.91
+          ],
+          [
+            46.61,
+            12.91
+          ],
+          [
+            46.61,
+            12.83
+          ]
+        ]
+      },
+      {
+        "year": 1272,
+        "label": "Duchy of Styria",
+        "polygon": [
+          [
+            46.02,
+            13.56
+          ],
+          [
+            46.15,
+            13.48
+          ],
+          [
+            46.15,
+            13.31
+          ],
+          [
+            45.96,
+            13.31
+          ],
+          [
+            46.02,
+            13.56
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "real_historical_boundary",
+    "polygon_source": "Seshat-Global-History-Databank/cliopatria",
+    "polygon_source_date": "2026-05-10",
+    "capital": {
+      "name": "Graz",
+      "coords": [
+        47.07083,
+        15.43861
+      ],
+      "source": "wikidata"
+    }
+  },
+  "internal_structure": {
+    "centralization": "low_to_medium",
+    "centralization_trajectory": null,
+    "governance_type": "dynastic_feudal",
+    "legitimacy_basis": [
+      "inheritance",
+      "feudal_oath"
+    ],
+    "administrative_system": ""
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "formation",
+      "years": "c.1180–1200",
+      "description": "Styria elevated to duchy under the Babenbergs.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q580447",
+          "url": "https://www.wikidata.org/wiki/Q580447"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Styria",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Styria"
+        }
+      ]
+    },
+    {
+      "phase": "peak",
+      "years": "1192–1246",
+      "description": "Babenberg rule; iron economy flourishes.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q580447",
+          "url": "https://www.wikidata.org/wiki/Q580447"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Styria",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Styria"
+        }
+      ]
+    },
+    {
+      "phase": "crisis",
+      "years": "1246–1278",
+      "description": "Contested between Bohemia and Habsburg after last Babenberg dies.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q580447",
+          "url": "https://www.wikidata.org/wiki/Q580447"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Styria",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Styria"
+        }
+      ]
+    },
+    {
+      "phase": "dissolution",
+      "years": "1278",
+      "description": "Habsburg victory at Marchfeld; Styria absorbed permanently.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q580447",
+          "url": "https://www.wikidata.org/wiki/Q580447"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Styria",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Styria"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "resource_concentration",
+      "layer": "economic_commercial",
+      "description": "The Erzberg iron ore deposits made Styria the premier iron-producing region of Central Europe.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q580447",
+          "url": "https://www.wikidata.org/wiki/Q580447"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Styria",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Styria"
+        }
+      ]
+    },
+    {
+      "tag": "dynastic_consolidation",
+      "layer": "dynastic_legitimacy",
+      "description": "Babenberg acquisition of Styria 1192 integrated it into a stronger Austrian administrative system.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q580447",
+          "url": "https://www.wikidata.org/wiki/Q580447"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Styria",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Styria"
+        }
+      ]
+    },
+    {
+      "tag": "geographic_defensibility",
+      "layer": "geography_territory",
+      "description": "Mur and Mürz valleys channeled access through Alpine passes, giving defensible natural boundaries.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q580447",
+          "url": "https://www.wikidata.org/wiki/Q580447"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Styria",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Styria"
+        }
+      ]
+    },
+    {
+      "layer": "economic_commercial",
+      "tag": "resource_concentration",
+      "direction": "rise",
+      "description": "The Erzberg iron deposit in Styria was one of medieval Europe's richest iron sources, generating continuous export revenues and supporting weapons manufacturing for Central European markets.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q580447",
+          "url": "https://www.wikidata.org/wiki/Q580447"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Styria",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Styria"
+        }
+      ],
+      "tag_prose": "iron_mining"
+    },
+    {
+      "layer": "military_security",
+      "tag": "march_against_magyars",
+      "direction": "rise",
+      "description": "Created as a frontier march to defend the Danube basin against Magyar raids, Styria received imperial colonization incentives and military resources that built up its Germanic population and administrative structures.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q580447",
+          "url": "https://www.wikidata.org/wiki/Q580447"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Styria",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Styria"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "succession_crisis",
+      "layer": "dynastic_legitimacy",
+      "description": "Conflict between Přemysl Ottokar II of Bohemia and Rudolf of Habsburg over Austrian inheritance drew Styria into war.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q580447",
+          "url": "https://www.wikidata.org/wiki/Q580447"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Styria",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Styria"
+        }
+      ]
+    },
+    {
+      "tag": "external_military_pressure",
+      "layer": "military_security",
+      "description": "Bohemian occupation 1251–1276 then Habsburg absorption after the Battle of Marchfeld 1278.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q580447",
+          "url": "https://www.wikidata.org/wiki/Q580447"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Styria",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Styria"
+        }
+      ]
+    },
+    {
+      "tag": "external_displacement",
+      "layer": "external_political",
+      "description": "Habsburg incorporation eliminated Styria as an independent political unit.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q580447",
+          "url": "https://www.wikidata.org/wiki/Q580447"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Styria",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Styria"
+        }
+      ]
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "external_military_pressure",
+      "direction": "decline",
+      "description": "Styria passed to the Habsburgs through the Treaty of Georgenberg in 1186 and permanently after 1282, becoming an integral part of the Inner Austrian lands and losing separate ducal identity.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q580447",
+          "url": "https://www.wikidata.org/wiki/Q580447"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Styria",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Styria"
+        }
+      ],
+      "tag_prose": "habsburg_inheritance"
+    },
+    {
+      "layer": "population_environment",
+      "tag": "ottoman_raids",
+      "direction": "decline",
+      "description": "Repeated Ottoman raiding incursions into Styria from the 1470s onward depopulated border regions, disrupted agricultural production, and created chronic security instability.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q580447",
+          "url": "https://www.wikidata.org/wiki/Q580447"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Styria",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Styria"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "person_id": "ottokar_iv_styria",
+      "name": "Ottokar IV of Styria",
+      "role": "ruler",
+      "years": "1163–1192",
+      "year_start": 1163,
+      "year_end": 1192,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Ottokar IV of Styria",
+          "url": "https://en.wikipedia.org/wiki/Ottokar_IV,_Duke_of_Styria"
+        }
+      ]
+    },
+    {
+      "person_id": "ottokar_ii_bohemia",
+      "name": "Přemysl Ottokar II of Bohemia",
+      "role": "military_leader",
+      "years": "1233–1278",
+      "year_start": 1233,
+      "year_end": 1278,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Přemysl Ottokar II of Bohemia",
+          "url": "https://en.wikipedia.org/wiki/Přemysl_Ottokar_II_of_Bohemia"
+        }
+      ]
+    }
+  ],
+  "predecessor_entity_ids": [
+    "duchy_of_carinthia"
+  ],
+  "successor_entity_ids": [
+    "duchy_of_austria"
+  ],
+  "primary_ethnicity": "germanic",
+  "ethnic_composition": [
+    {
+      "group": "germanic",
+      "proportion": 0.75
+    },
+    {
+      "group": "slavic",
+      "proportion": 0.2
+    }
+  ],
+  "religion_composition": [
+    {
+      "religion": "catholic",
+      "proportion": 0.95
+    },
+    {
+      "religion": "pagan",
+      "proportion": 0.05
+    }
+  ],
+  "primary_language": "german",
+  "language_composition": [
+    {
+      "language": "german",
+      "proportion": 0.78,
+      "role": "vernacular"
+    },
+    {
+      "language": "church_slavonic",
+      "proportion": 0.12,
+      "role": "regional"
+    },
+    {
+      "language": "latin",
+      "proportion": 0.1,
+      "role": "liturgical"
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "mining",
+      "long_distance_trade"
+    ],
+    "wealth_level": "moderate",
+    "major_exports": [
+      "iron",
+      "salt",
+      "grain",
+      "cattle"
+    ],
+    "major_trade_partners": [
+      "duchy_of_austria",
+      "duchy_of_carinthia",
+      "republic_of_venice"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "mining_rights",
+      "customs_duties"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q580447",
+        "url": "https://www.wikidata.org/wiki/Q580447"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Duchy of Styria",
+        "url": "https://en.wikipedia.org/wiki/Duchy_of_Styria"
+      }
+    ]
+  },
+  "social_structure": {
+    "ruling_ethnicity": "germanic",
+    "subject_majority": "germanic",
+    "military_ethnicity": "germanic",
+    "administrative_language": "german",
+    "stratification_type": "homogeneous"
+  },
+  "wikidata_enrichment": {
+    "qid": "Q580447",
+    "matched_name": "Duchy of Styria",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Duchy_of_Styria",
+    "capital": {
+      "name": "Graz",
+      "coords": [
+        47.07083,
+        15.43861
+      ]
+    },
+    "rulers_from_wikidata": [
+      {
+        "name": "Ottokar IV, Duke of Styria",
+        "qid": "Q701617",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q701617",
+            "url": "https://www.wikidata.org/wiki/Q701617"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ottokar IV, Duke of Styria",
+            "url": "https://en.wikipedia.org/wiki/Ottokar_IV,_Duke_of_Styria"
+          }
+        ]
+      }
+    ],
+    "population_from_wikidata": [
+      {
+        "estimate": 1444157,
+        "confidence": "low",
+        "year": 1910
+      }
+    ]
+  },
+  "sources": [
+    {
+      "type": "book",
+      "author": "Wickham, Chris",
+      "title": "The Inheritance of Rome: A History of Europe from 400 to 1000",
+      "publisher": "Allen Lane",
+      "year": 2009
+    },
+    {
+      "type": "book",
+      "author": "Abulafia, David (ed.)",
+      "title": "The New Cambridge Medieval History, Vol. V: c. 1198 – c. 1300",
+      "publisher": "Cambridge University Press",
+      "year": 1999
+    }
+  ],
+  "monogram": "ST"
+}

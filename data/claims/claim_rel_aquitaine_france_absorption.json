@@ -1,0 +1,31 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_aquitaine_france_absorption",
+  "statement": "Aquitaine — one of the great fiefs of medieval France, held by the English crown as a remnant of the Angevin Empire — was gradually absorbed into France through the Hundred Years' War. English Gascony (the southern portion of Aquitaine) was the prize that sustained English involvement in France; it provided Bordeaux's wine trade revenues, which funded English military operations. The Battle of Castillon (1453) ended the last English attempt to hold Gascony; Bordeaux surrendered in October 1453. The absorption ended 300 years of English continental presence and transferred France's richest wine-producing region to direct royal control.",
+  "subject_ids": [
+    "duchy_of_aquitaine",
+    "kingdom_of_france"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_aquitaine_france_absorption",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 1453,
+    "to": 1453
+  }
+}

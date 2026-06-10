@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_saladin_reconquers_jerusalem_1187_c03",
+  "statement": "Saladin allowed Jerusalem's Christian population to ransom themselves and depart in peace after the 1187 surrender.",
+  "subject_ids": [
+    "ayyubid_sultanate"
+  ],
+  "period": {
+    "from": 1187,
+    "to": 1187
+  },
+  "derived_from": "saladin_reconquers_jerusalem_1187",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "humphreys_from_1977",
+      "lyons_saladin_1982",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_council_of_basel_1431_c01",
+  "statement": "The Council of Basel, convoked in 1431, asserted the supremacy of general councils over popes.",
+  "subject_ids": [
+    "papal_states"
+  ],
+  "period": {
+    "from": 1431,
+    "to": 1431
+  },
+  "derived_from": "council_of_basel_1431",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morris_papal_monarchy_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

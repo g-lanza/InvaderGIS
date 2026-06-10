@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_britany_alan_ii_restoration_942_c01",
+  "statement": "Alan II Barbetorte returned from exile in England around 942 and drove out the Vikings who had occupied Brittany since 919.",
+  "subject_ids": [
+    "duchy_of_brittany"
+  ],
+  "period": {
+    "from": 942,
+    "to": 942
+  },
+  "derived_from": "britany_alan_ii_restoration_942",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

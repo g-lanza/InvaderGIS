@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "varangian_rus_founded_862",
+  "name": "Founding of the Rus State at Novgorod",
+  "year": 862,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    58.52,
+    31.27
+  ],
+  "entity": "kievan_rus",
+  "summary": "According to the Primary Chronicle (written c. 1113), Slavic and Finnish tribes invite the Varangian (Viking) leader Rurik to rule Novgorod in 862 to end internal strife, 'our land is great and rich, but there is no order in it.' Whether historical or legendary, the year 862 marks the founding of the Rus state. Rurik's successors extend their rule down the Dnieper River trade route ('the road from the Varangians to the Greeks'), founding Kyiv as capital. The dynasty Rurik founds rules Russia for over 700 years until 1598.",
+  "outcomes": [
+    "rurik_establishes_rule",
+    "varangian_rus_state_begins",
+    "trade_route_novgorod_to_byzantium"
+  ],
+  "_quarry": {
+    "participants": [
+      "kievan_rus",
+      "principality_of_novgorod"
+    ],
+    "structural_significance": "The foundational myth of the Russian and Ukrainian state; the Rurik dynasty connects Scandinavian origin to Byzantine Christian civilization through trade and diplomacy; the conversion of Vladimir I (988) transforms the Rus from a trading polity into a Christian kingdom that sees itself as the successor to Byzantium; the historiographical debate over the 'Normanist' origins of Rus identity remains politically charged in Russian-Ukrainian relations",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "franklin_the_1996",
+      "riasanovsky_a_2000",
+      "martin_medieval_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

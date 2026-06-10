@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_martos_1275_c01",
+  "statement": "Battle of Martos (1275 CE), at Torredonjimeno (part of Battle of the Strait).",
+  "subject_ids": [
+    "crown_of_castile"
+  ],
+  "period": {
+    "from": 1275,
+    "to": 1275
+  },
+  "derived_from": "wd_battle_of_martos_1275",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "o'callaghan_a_1975",
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

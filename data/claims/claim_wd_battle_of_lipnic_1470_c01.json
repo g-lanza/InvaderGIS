@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_lipnic_1470_c01",
+  "statement": "Battle of Lipnic (1470 CE), at Lipnic (part of Moldavian–Horde Wars).",
+  "subject_ids": [
+    "golden_horde"
+  ],
+  "period": {
+    "from": 1470,
+    "to": 1470
+  },
+  "derived_from": "wd_battle_of_lipnic_1470",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "allsen_mongol_1987"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

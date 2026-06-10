@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "investiture_controversy_1076",
+  "name": "Pope Gregory VII Excommunicates Henry IV",
+  "year": 1076,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    44.45,
+    10.35
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Pope Gregory VII excommunicates and deposes Emperor Henry IV in February 1076 after Henry attempts to depose Gregory at the Synod of Worms. The unprecedented papal action releases Henry's vassals from their oaths of loyalty and triggers a cascade of noble defections. To save his throne, Henry undertakes his famous penitential journey to Canossa (January 1077), standing barefoot in the snow for three days until Gregory lifts the excommunication.",
+  "outcomes": [
+    "emperor_excommunicated",
+    "walk_to_canossa_follows",
+    "church_state_conflict_defined"
+  ],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "papal_states"
+    ],
+    "structural_significance": "The 1076 excommunication establishes that the papacy could depose emperors, a claim of supreme papal authority that reshapes medieval political theory; the Investiture Controversy (1076-1122) ultimately produces the Concordat of Worms, which separates spiritual and temporal investiture; the controversy permanently weakens imperial authority in Germany by legitimizing noble resistance to the emperor",
+    "year_range": [
+      1076,
+      1122
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

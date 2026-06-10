@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_antioch_earthquake_526_c01",
+  "statement": "An earthquake on 20 May 526 destroyed most of Antioch on the Orontes.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 526,
+    "to": 526
+  },
+  "derived_from": "antioch_earthquake_526",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kaldellis_streams_of_gold_2017"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

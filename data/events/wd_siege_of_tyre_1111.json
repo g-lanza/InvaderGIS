@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_tyre_1111",
+  "name": "Siege of Tyre",
+  "year": 1111,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    34.2667,
+    31.7667
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Siege of Tyre (1111 CE), at Tyre (part of Crusader battles between 1101 and 1145). Source: Wikidata Q130343176.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "kingdom_of_jerusalem",
+      "fatimid_caliphate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

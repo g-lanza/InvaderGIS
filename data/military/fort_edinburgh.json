@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "fort_edinburgh",
+  "name": "Edinburgh Castle",
+  "subtype": "fort",
+  "start_year": 1100,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "Fortress on Castle Rock dominating Edinburgh",
+  "coords": [
+    -3.199,
+    55.948
+  ]
+}

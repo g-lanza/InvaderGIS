@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_apamea_998_c02",
+  "statement": "The Battle of Apamea (998 CE) took place at Apamea.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 998,
+    "to": 998
+  },
+  "derived_from": "wd_battle_of_apamea_998",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

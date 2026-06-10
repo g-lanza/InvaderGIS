@@ -1,0 +1,35 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_northumbria_jorvik_succession",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_northumbria",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "kingdom_of_jorvik",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 866,
+  "until": 866,
+  "note": "The Viking Kingdom of Jorvik (York) emerged within the former Kingdom of Northumbria when the Great Heathen Army captured York (866) and established a Norse kingdom there. Northumbria's native English aristocracy was largely killed or displaced; subsequent Jorvik kings alternated between Norse (Halfdan Ragnarsson, Sigurd, Eric Bloodaxe) and Anglo-Danish rulers. The kingdom's instability — six kings in 20 years during the 940s-950s — reflected the competition between Viking factions and the Wessex reconquest campaign. Eric Bloodaxe's death (954) ended Jorvik and merged Northumbria into the English kingdom.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Jorvik's 88-year existence as a Viking kingdom creates the Norse cultural layer in Yorkshire that persists in place names and dialect to the present; the kingdom's instability demonstrates how the Danelaw's political fragmentation prevented coordinated resistance to the Wessex reconquest"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

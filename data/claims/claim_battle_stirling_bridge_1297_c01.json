@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_battle_stirling_bridge_1297_c01",
+  "statement": "William Wallace and Andrew de Moray ambushed and defeated an English army crossing Stirling Bridge on 11 September 1297.",
+  "subject_ids": [
+    "kingdom_of_scotland"
+  ],
+  "period": {
+    "from": 1297,
+    "to": 1297
+  },
+  "derived_from": "battle_stirling_bridge_1297",
+  "unresolved_sources": [
+    "brown_the_2004"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "barrell_medieval_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

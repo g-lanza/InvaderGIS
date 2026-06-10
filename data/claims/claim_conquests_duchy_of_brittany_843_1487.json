@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_duchy_of_brittany_843_1487",
+  "statement": "Duchy of Brittany — campaigns and battles spanned 843–1487, from Battle of Blain to French–Breton War.",
+  "subject_ids": [
+    "duchy_of_brittany"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_duchy_of_brittany_843_1487",
+  "period": {
+    "from": 843,
+    "to": 1487
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

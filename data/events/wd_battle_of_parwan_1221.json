@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_parwan_1221",
+  "name": "Battle of Parwan",
+  "year": 1221,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    47.2,
+    102.8
+  ],
+  "entity": "mongol_empire",
+  "summary": "Battle of Parwan (1221 CE), at Parwan Province (part of Mongol invasion of Khwarazmian Empire and Eastern Iran). Source: Wikidata Q3269746.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "mongol_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

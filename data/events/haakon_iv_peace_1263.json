@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "haakon_iv_peace_1263",
+  "name": "Battle of Largs and Haakon IV's Death, Norwegian Decline",
+  "year": 1263,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    55.79,
+    -4.87
+  ],
+  "entity": "kingdom_of_norway",
+  "summary": "King Haakon IV of Norway sails to Scotland to reassert Norwegian control over the Hebrides. The expedition ends indecisively at the Battle of Largs (inconclusive skirmish) and Haakon dies at Orkney on his return voyage. His son Magnus VI subsequently sells the Hebrides and Man to Scotland by the Treaty of Perth (1266) for 4,000 marks. The episode marks the end of Norway's western oceanic empire.",
+  "outcomes": [
+    "scotland_asserts_hebrides_claim",
+    "norway_weakened",
+    "treaty_of_perth_follows"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_norway",
+      "kingdom_of_scotland"
+    ],
+    "structural_significance": "Norway's retreat from the Hebrides ends its Atlantic island empire built over three centuries; Scotland's acquisition of the Hebrides and later Orkney (1468) completes the absorption of the Norse Atlantic periphery; the retrenchment reflects Norway's fundamental weakness, too small a population to maintain colonies across the North Atlantic while fighting domestic challenges",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_the_1997",
+      "helle_the_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

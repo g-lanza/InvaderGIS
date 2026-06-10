@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_sidon_1110_c01",
+  "statement": "Siege of Sidon (1110 CE), at Sidon (part of Norwegian Crusade).",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1110,
+    "to": 1110
+  },
+  "derived_from": "wd_siege_of_sidon_1110",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

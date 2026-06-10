@@ -1,0 +1,29 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_byzantine_ostrogoth_war",
+  "statement": "The Byzantine-Ostrogothic conflict (535–554) — Justinian I's reconquest of Italy from the Ostrogothic Kingdom — was the most destructive war in Italian history. General Belisarius captured Sicily (535), Naples (536), and Rome (536) in a rapid advance, then General Narses completed the conquest after the Gothic King Totila's recovery and recapture of Rome (546, 550). The war lasted 20 years, killing or displacing perhaps a third of Italy's population, destroying the senatorial aristocracy, and collapsing urban life throughout the peninsula. The Lombard invasion followed 14 years after the war ended, exploiting Byzantine exhaustion.",
+  "subject_ids": [
+    "byzantine_empire",
+    "ostrogothic_kingdom"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_byzantine_ostrogoth_war",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991",
+      "amory_people_1997",
+      "heather_the_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 535,
+    "to": 553
+  }
+}

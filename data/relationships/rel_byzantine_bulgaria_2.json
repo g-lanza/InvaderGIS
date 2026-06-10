@@ -1,0 +1,38 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_byzantine_bulgaria_2",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "byzantine_empire",
+      "role": "principal"
+    },
+    {
+      "entity_id": "second_bulgarian_empire",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 1185,
+  "until": 1396,
+  "note": "The Second Bulgarian Empire (founded 1185 by the Asen brothers' revolt against Byzantine taxation) maintained a fierce rivalry with the restored Byzantine Empire, particularly after 1261. Bulgarian Tsar Kaloyan defeated and captured Latin Emperor Baldwin I at Adrianople (1205); Tsar Ivan Asen II achieved the Bulgarian Empire's maximum extent (1230), controlling most of the Balkans. The Second Bulgarian Empire collapsed into internal fragmentation after Ivan Asen II's death (1241), weakened by Mongol raids and internal dynastic disputes, leaving it unable to resist Ottoman absorption.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Second Bulgarian Empire at its height (Ivan Asen II, 1218–1241) is the most powerful Balkan state; its rapid decline after Ivan Asen II demonstrates the fragility of personal empires; the Mongol raids (1242) accelerate Bulgarian fragmentation and create the conditions for Ottoman absorption"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991",
+      "fine_the_1987"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_cypriot_genoese_war_1373",
+  "name": "Cypriot-Genoese War",
+  "year": 1373,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.7,
+    20.95
+  ],
+  "entity": "republic_of_genoa",
+  "summary": "Cypriot-Genoese War (1373 CE), at Cyprus. Source: Wikidata Q16663506.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_genoa",
+      "kingdom_of_cyprus"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

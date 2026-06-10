@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "khazars_sviatoslav_destroys_965",
+  "name": "Sviatoslav of Kiev Destroys Khazar Empire",
+  "year": 965,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    47,
+    47
+  ],
+  "entity": "khazar_khaganate",
+  "summary": "Prince Sviatoslav I of Kiev destroyed the Khazar capital Atil and the major fortresses of Sarkel and Semender. The Khazar Khaganate disintegrated rapidly after these blows, eliminating the great buffer state that had protected Europe from steppe nomads.",
+  "outcomes": [
+    "atil_destroyed",
+    "khazar_empire_ended",
+    "rus_steppe_power"
+  ],
+  "_quarry": {
+    "participants": [
+      "khazar_khaganate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "golden_khazar_1980",
+      "brook_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

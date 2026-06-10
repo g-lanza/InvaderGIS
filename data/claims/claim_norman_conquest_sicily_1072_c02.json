@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_norman_conquest_sicily_1072_c02",
+  "statement": "Sicily had been under Arab Muslim rule since 827, with a mixed population of Muslims, Greek Christians, and Latin Christians.",
+  "subject_ids": [
+    "kingdom_of_sicily_norman"
+  ],
+  "period": {
+    "from": 1072,
+    "to": 1072
+  },
+  "derived_from": "norman_conquest_sicily_1072",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

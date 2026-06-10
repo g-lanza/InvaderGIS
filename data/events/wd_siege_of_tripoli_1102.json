@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_tripoli_1102",
+  "name": "Siege of Tripoli",
+  "year": 1102,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    37.2,
+    25.2833
+  ],
+  "entity": "kingdom_of_jerusalem",
+  "summary": "Siege of Tripoli (1102 CE), at Tripoli (part of Crusader battles between 1101 and 1145). Source: Wikidata Q1723525.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_jerusalem",
+      "fatimid_caliphate",
+      "republic_of_genoa",
+      "county_of_edessa",
+      "principality_of_antioch",
+      "county_of_toulouse"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

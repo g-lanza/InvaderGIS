@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_boruy_1208",
+  "name": "Battle of Boruy",
+  "year": 1208,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    42.05,
+    27.25
+  ],
+  "entity": "latin_empire_constantinople",
+  "summary": "Battle of Boruy (1208 CE), at Stara Zagora (part of Bulgarian–Latin Wars). Source: Wikidata Q3656971.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "latin_empire_constantinople",
+      "second_bulgarian_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "crusade_1228_frederick",
+  "name": "Frederick II's Crusade, Jerusalem by Diplomacy",
+  "year": 1229,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    31.78,
+    35.23
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "The excommunicated Emperor Frederick II, speaking Arabic and corresponding directly with Sultan al-Kamil of Egypt, negotiates the Treaty of Jaffa (1229) that returns Jerusalem to Christian control for 10 years without fighting. The agreement scandalizes crusading Europe, the patriarch of Jerusalem imposes an interdict on the city when Frederick enters. Muslims retain the Temple Mount (al-Aqsa Mosque and Dome of the Rock).",
+  "outcomes": [
+    "jerusalem_recovered_by_treaty",
+    "emperor_excommunicated_during_crusade",
+    "christian_right_of_access_10_years"
+  ],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "ayyubid_sultanate",
+      "kingdom_of_jerusalem"
+    ],
+    "structural_significance": "Frederick's diplomatic crusade is the most intellectually sophisticated medieval example of realpolitik overriding crusading ideology; the treaty works better for Christians than any military crusade since 1099 (giving access to Jerusalem without bloodshed) yet is condemned by both the pope and Jerusalem's defenders; it demonstrates that pragmatic negotiation with Islamic rulers was possible but politically impossible within crusading ideology",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

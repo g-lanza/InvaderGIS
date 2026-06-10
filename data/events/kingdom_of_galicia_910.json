@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_galicia_910",
+  "name": "Galicia Separated from Asturias",
+  "year": 910,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    42.88,
+    -8.55
+  ],
+  "entity": "kingdom_of_galicia",
+  "summary": "Galicia emerged as a distinct kingdom when Alfonso III of Asturias partitioned his realm among his sons in 910 CE. As the home of the shrine of Saint James at Santiago de Compostela, Galicia held unique spiritual prestige in medieval Christendom, attracting pilgrims from across Europe.",
+  "outcomes": [
+    "asturian_partition",
+    "atlantic_kingdom",
+    "compostellan_pilgrimage_grows"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_galicia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_corpus_iuris_civilis_534_c01",
+  "statement": "The jurist Tribonian completed the Corpus Iuris Civilis under Emperor Justinian I around 534, comprising the Codex, Digest, Institutes, and Novellae.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 534,
+    "to": 534
+  },
+  "derived_from": "corpus_iuris_civilis_534",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

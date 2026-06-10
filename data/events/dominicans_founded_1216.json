@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "dominicans_founded_1216",
+  "name": "Approval of the Dominican Order",
+  "year": 1216,
+  "type": "religious",
+  "category": "religion",
+  "coords": [
+    43.06,
+    12.62
+  ],
+  "entity": "papal_states",
+  "summary": "Honorius III formally approves the Order of Preachers founded by Dominic de Guzmán, dedicated to combatting Albigensian heresy in southern France through learned preaching. Within a generation the Dominicans dominate university theology at Paris and Bologna.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "papal_states",
+      "crown_of_castile"
+    ],
+    "structural_significance": "Becomes the intellectual engine of 13th-century scholasticism (Albertus Magnus, Thomas Aquinas) and the operational arm of papal inquisitions in Languedoc and Aragon.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

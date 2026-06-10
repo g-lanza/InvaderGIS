@@ -1,0 +1,31 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_bavaria_hre_stem",
+  "statement": "Bavaria was one of the five original stem duchies of the East Frankish/German kingdom, its dukes consistently the most powerful regional rulers in southeastern Germany. Henry 'the Lion' of Bavaria (also Duke of Saxony) was the most powerful prince in Germany until Frederick Barbarossa stripped him of his duchies (1180) for failure to provide military support in Italy. The duchy was divided after Henry's fall: the eastern marches became the Duchy of Austria; the remaining Bavaria was given to the Wittelsbachs (1180), who retained it until 1918 — the longest dynastic continuity in German history.",
+  "subject_ids": [
+    "holy_roman_empire",
+    "duchy_of_bavaria"
+  ],
+  "predicate": "vassalage",
+  "derived_from": "rel_bavaria_hre_stem",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "duchy_of_bavaria"
+  ],
+  "period": {
+    "from": 962,
+    "to": 1500
+  }
+}

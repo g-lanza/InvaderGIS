@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_siege_of_exeter_630",
+  "name": "Siege of Exeter",
+  "subtype": "battle",
+  "start_year": 630,
+  "end_year": 630,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q15277676"
+    }
+  },
+  "description": "Battle of 630",
+  "coords": [
+    -3.5269,
+    50.7256
+  ]
+}

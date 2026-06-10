@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_pazzi_war_1478",
+  "name": "Pazzi War",
+  "year": 1478,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    43.9743,
+    10.4757
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Pazzi War (1478 CE), at Tuscany. Source: Wikidata Q130515269.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "kingdom_of_france",
+      "republic_of_florence",
+      "duchy_of_milan",
+      "papal_states",
+      "kingdom_of_naples",
+      "republic_of_siena"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

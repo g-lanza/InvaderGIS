@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "gundobad_burgundy",
+  "name": "Gundobad",
+  "polity": "kingdom_of_burgundy",
+  "title": "dynastic_founder",
+  "reign_start": 480,
+  "reign_end": 516,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "kingdom_of_burgundy",
+        "role": "dynastic_founder",
+        "start_year": 480,
+        "end_year": 516
+      }
+    ],
+    "key_actions": [],
+    "region": "western_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

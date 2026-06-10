@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_burgandy_1419_c02",
+  "statement": "The Burgundian-English alliance enabled Henry V's conquest of northern France and the Treaty of Troyes.",
+  "subject_ids": [
+    "duchy_of_burgundy"
+  ],
+  "period": {
+    "from": 1419,
+    "to": 1419
+  },
+  "derived_from": "burgandy_1419",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

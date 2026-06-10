@@ -1,0 +1,55 @@
+{
+ "kind": "ruler",
+ "dataset": "medieval-europe-500-1500",
+ "id": "kublai_khan",
+ "name": "Kublai Khan",
+ "polity": "mongol_empire",
+ "title": "great_khan",
+ "reign_start": 1260,
+ "reign_end": 1294,
+ "_quarry": {
+  "lifespan": {
+   "birth_year": 1215,
+   "death_year": 1294
+  },
+  "entity_associations": [
+   {
+    "entity_id": "mongol_empire",
+    "role": "great_khan",
+    "start_year": 1260,
+    "end_year": 1294
+   },
+   {
+    "entity_id": "yuan_dynasty",
+    "role": "founder_emperor",
+    "start_year": 1271,
+    "end_year": 1294
+   }
+  ],
+  "key_actions": [
+   {
+    "year": 1271,
+    "event": "Proclaims Yuan Dynasty — Mongol rule of China."
+   },
+   {
+    "year": 1279,
+    "event": "Defeats last Southern Song forces at Yamen; reunifies China."
+   },
+   {
+    "year": 1281,
+    "event": "Second Mongol invasion of Japan defeated by typhoon (kamikaze)."
+   }
+  ],
+  "region": "east_asia",
+  "name_variants": []
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "abu_lughod_before_european_hegemony_1989",
+   "ims_fordham",
+   "ims_fordham_sbookmap"
+  ],
+  "confidence": "low"
+ }
+}

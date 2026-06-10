@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_ireland_norman_1169_c03",
+  "statement": "In 1171, Henry II of England led an expedition to Ireland, accepted the submission of Irish kings, and established the Lordship of Ireland.",
+  "subject_ids": [
+    "lordship_of_ireland"
+  ],
+  "period": {
+    "from": 1169,
+    "to": 1169
+  },
+  "derived_from": "ireland_norman_1169",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

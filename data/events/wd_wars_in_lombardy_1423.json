@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_wars_in_lombardy_1423",
+  "name": "Wars in Lombardy",
+  "year": 1423,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    44.775,
+    10.4
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Wars in Lombardy (1423 CE), at Lombardy. Source: Wikidata Q2506432.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "republic_of_florence",
+      "duchy_of_milan",
+      "republic_of_genoa"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

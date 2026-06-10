@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_battle_flodden_1513_c01",
+  "statement": "The English army under the Earl of Surrey defeated the Scots at Flodden Field in 1513.",
+  "subject_ids": [
+    "kingdom_of_england"
+  ],
+  "period": {
+    "from": 1513,
+    "to": 1513
+  },
+  "derived_from": "battle_flodden_1513",
+  "unresolved_sources": [
+    "carpenter_the_2003"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "foundation_venice_976",
+  "name": "Burning and Rebuilding of Venice",
+  "year": 976,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    45.44,
+    12.33
+  ],
+  "entity": "republic_of_venice",
+  "summary": "A popular uprising in 976 burns the ducal palace and kills Doge Pietro IV Candiano and his family; the fire destroys much of the early city. The uprising demonstrates Venetian opposition to the doge attempting to build a personal dynastic power base with Carolingian connections. The city is rebuilt, and the Republic's constitutional practice of constraining ducal power through councils and committees becomes more firmly established. Venice's unique republican institutions, the Great Council, the Council of Ten, the Senate, evolve over subsequent centuries into the most sophisticated oligarchic government in medieval Europe.",
+  "outcomes": [
+    "doge_candiano_iv_killed",
+    "venice_rebuilt_independent",
+    "venetian_republic_consolidated"
+  ],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "byzantine_empire"
+    ],
+    "structural_significance": "The 976 crisis marks a turning point in Venetian constitutional development; the city's maritime trading empire, Byzantine commercial privileges (Golden Bull of 1082), and control of the Adriatic make Venice the wealthiest city in medieval Europe; Venice's institutional stability, the same republic from 697 to 1797, is unparalleled in the medieval and early modern world",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

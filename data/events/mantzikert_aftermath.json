@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "mantzikert_aftermath",
+  "name": "Byzantine recovery attempts",
+  "year": 1074,
+  "type": "war",
+  "category": "violence",
+  "coords": [
+    41.01,
+    28.98
+  ],
+  "entity": "byzantine_empire",
+  "summary": "After the catastrophic defeat at Manzikert (1071), the Byzantine Empire enters a decade of civil war between competing claimants for the throne, Romanos IV Diogenes (captured by the Seljuks then released), Michael VII Doukas, Nikephoros III Botaneiates, and finally Alexios I Komnenos (1081). While Byzantine factions fight each other, the Seljuk Turks colonize virtually all of Anatolia, the agricultural and military heartland that had supplied the empire with three-quarters of its tax revenue and most of its soldiers. By 1081, the empire's Anatolian frontier has collapsed from the Euphrates to within 50 miles of Constantinople.",
+  "outcomes": [
+    "internal_civil_war"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire"
+    ],
+    "structural_significance": "The decade of civil war following Manzikert is more damaging than the battle itself; the permanent loss of Anatolia transforms Byzantium from a great empire into a rump state dependent on western mercenaries; it is the direct cause of Alexios I's appeal to Rome that launches the First Crusade",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

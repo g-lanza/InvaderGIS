@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_peonnum_660",
+  "name": "Battle of Peonnum",
+  "year": 660,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    51,
+    -2
+  ],
+  "entity": "kingdom_of_wessex",
+  "summary": "Battle of Peonnum (660 CE), at Somerset. Source: Wikidata Q4087456.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_wessex"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

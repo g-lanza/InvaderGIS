@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_marienburg_1410",
+  "name": "Siege of Marienburg",
+  "year": 1410,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    51.9,
+    24.4333
+  ],
+  "entity": "grand_duchy_of_lithuania",
+  "summary": "Siege of Marienburg (1410 CE), at Malbork Castle (part of Polish-Lithuanian-Teutonic War). Source: Wikidata Q653582.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "grand_duchy_of_lithuania",
+      "teutonic_order_state",
+      "principality_of_moldavia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "rowell_lithuania_1994",
+      "christiansen_the_1997"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

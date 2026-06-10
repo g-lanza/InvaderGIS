@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_troubadour_culture_1100s_c03",
+  "statement": "The troubadour tradition spread to northern France (trouvères), Germany (Minnesingers), and Iberia.",
+  "subject_ids": [
+    "duchy_of_aquitaine"
+  ],
+  "period": {
+    "from": 1100,
+    "to": 1100
+  },
+  "derived_from": "troubadour_culture_1100s",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

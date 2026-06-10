@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "armenia_ani_seljuk_1064",
+  "name": "Seljuk Capture of Ani",
+  "year": 1064,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.436,
+    44.147
+  ],
+  "entity": "armenia",
+  "summary": "Seljuk Sultan Alp Arslan captured and sacked Ani, the magnificent Bagratid capital, massacring much of the population. This date marks the effective end of Armenian statehood in the historic homeland for centuries.",
+  "outcomes": [
+    "ani_destroyed",
+    "armenia_homeland_lost",
+    "armenian_diaspora"
+  ],
+  "_quarry": {
+    "participants": [
+      "armenia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

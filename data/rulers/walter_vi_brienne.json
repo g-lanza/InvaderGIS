@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "walter_vi_brienne",
+  "name": "Walter VI de Brienne",
+  "polity": "duchy_of_athens",
+  "title": "military_leader",
+  "reign_start": 1356,
+  "reign_end": null,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "duchy_of_athens",
+        "role": "military_leader",
+        "start_year": 1356,
+        "end_year": null
+      }
+    ],
+    "key_actions": [],
+    "region": "southeastern_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

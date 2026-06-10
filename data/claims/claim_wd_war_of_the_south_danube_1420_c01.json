@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_war_of_the_south_danube_1420_c01",
+  "statement": "War of the South Danube (1420 CE), at Danube (part of Ottoman–Hungarian Wars).",
+  "subject_ids": [
+    "ottoman_empire"
+  ],
+  "period": {
+    "from": 1420,
+    "to": 1420
+  },
+  "derived_from": "wd_war_of_the_south_danube_1420",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

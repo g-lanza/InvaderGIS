@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "margraviate_of_brandenburg",
+  "name": "Berlin",
+  "entity_id": "margraviate_of_brandenburg",
+  "entity_name": "Margraviate of Brandenburg",
+  "start_year": 1157,
+  "end_year": 1618,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q148499"
+    }
+  },
+  "coords": [
+    13.38333,
+    52.51667
+  ]
+}

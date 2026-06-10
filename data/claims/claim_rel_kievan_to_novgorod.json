@@ -1,0 +1,31 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_kievan_to_novgorod",
+  "statement": "Novgorod maintained a distinct political trajectory from Kiev and later Moscow, governed by a boyar oligarchy through a veche (popular assembly) with elected posadniki (mayors) and invited military princes with strictly limited powers. Novgorod's commercial empire extended to the Arctic and connected with the Hanseatic League's eastern trade network. It survived the Mongol invasions (1237–1240) undamaged. Ivan III's absorption of Novgorod (1478) — accompanied by the deportation of the boyar families and the abolition of the veche — eliminated the most democratic polity in medieval Russia.",
+  "subject_ids": [
+    "kievan_rus",
+    "principality_of_novgorod"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_kievan_to_novgorod",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "franklin_the_1996",
+      "riasanovsky_a_2000",
+      "martin_medieval_1995",
+      "martin_treasure_1986",
+      "birnbaum_lord_1981"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "principality_of_novgorod"
+  ],
+  "period": {
+    "from": 1136,
+    "to": 1136
+  }
+}

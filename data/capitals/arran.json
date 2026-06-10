@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "arran",
+  "name": "Barda",
+  "entity_id": "arran",
+  "entity_name": "Arran",
+  "start_year": 1000,
+  "end_year": 1100,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q437103"
+    }
+  },
+  "coords": [
+    47.13,
+    40.38
+  ]
+}

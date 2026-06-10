@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "gregorian_mission_597",
+  "name": "Gregorian mission to England",
+  "year": 597,
+  "type": "religious_council",
+  "category": "religion",
+  "coords": [
+    51.28,
+    1.08
+  ],
+  "entity": "anglo_saxon_heptarchy",
+  "summary": "Pope Gregory the Great sends the monk Augustine with 40 companions to England (597) to convert the Anglo-Saxon kingdoms. Augustine arrives in Kent and is welcomed by King Æthelberht, who has a Frankish Christian wife (Bertha). Æthelberht is baptized, and Augustine establishes the See of Canterbury as the primary English bishopric. The Synod of Whitby (664) later resolves the conflict between Celtic and Roman Christianity in favor of Rome, integrating England into the Western Church.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "anglo_saxon_heptarchy",
+      "papal_states"
+    ],
+    "structural_significance": "Begins the Christianization of England; establishes Canterbury as the primary English see; begins the Roman Church's dominance over the Celtic tradition; contributes to the Northumbrian scholarly renaissance",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

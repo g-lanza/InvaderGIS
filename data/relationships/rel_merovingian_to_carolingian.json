@@ -1,0 +1,38 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_merovingian_to_carolingian",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "merovingian_kingdom",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "carolingian_empire",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 751,
+  "until": 751,
+  "note": "The Carolingian family (Major-domos/Mayors of the Palace) gradually displaced the Merovingian dynasty from effective power, beginning with Pepin II's victory at the Battle of Tertry (687). Charles Martel governed as the real power under nominal Merovingian kings, famously refusing to have himself crowned king. His son Pippin III (751) deposed the last Merovingian king Childeric III with papal approval, had himself anointed king by the papacy, and founded the Carolingian dynasty. The transition was careful to maintain legitimacy: Pippin obtained papal sanction, and Childeric was merely tonsured and sent to a monastery rather than executed.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Carolingian-Merovingian transition models how dynastic change could be managed through papal sanction rather than naked force; the papacy's role in legitimizing Pippin establishes the precedent of papal investiture of secular rulers; the Donation of Pippin (754) directly follows from this arrangement"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wood_the_1994",
+      "geary_before_1988",
+      "mckitterick_charlemagne_2008",
+      "riché_the_1993",
+      "nelson_king_2019"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

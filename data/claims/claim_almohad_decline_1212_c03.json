@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_almohad_decline_1212_c03",
+  "statement": "Within three decades of Las Navas de Tolosa, Castile took Córdoba (1236), Valencia (1238), and Seville (1248).",
+  "subject_ids": [
+    "almohad_caliphate_iberia"
+  ],
+  "period": {
+    "from": 1212,
+    "to": 1212
+  },
+  "derived_from": "almohad_decline_1212",
+  "unresolved_sources": [
+    "o'callaghan_reconquest_2003"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

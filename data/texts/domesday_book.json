@@ -1,0 +1,27 @@
+{
+  "kind": "text",
+  "dataset": "medieval-europe-500-1500",
+  "id": "domesday_book",
+  "name_primary": "Domesday Book",
+  "author": "anonymous",
+  "language": "Latin",
+  "composed": {
+    "place": "Winchester, England",
+    "year": 1086
+  },
+  "tradition": "historical",
+  "influence": [
+    "English administrative record-keeping",
+    "feudal land tenure documentation",
+    "Norman governance",
+    "historical demography"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "roffe_domesday_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_giglio_1241",
+  "name": "Battle of Giglio",
+  "year": 1241,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41.9,
+    11.1
+  ],
+  "entity": "republic_of_genoa",
+  "summary": "Battle of Giglio (1241 CE), at Giglio (part of Guelphs and Ghibellines). Source: Wikidata Q481552.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_genoa",
+      "kingdom_of_sicily_norman",
+      "republic_of_pisa"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "georgia_queen_tamar_1184",
+  "name": "Queen Tamar's Reign, Height of Georgian Empire",
+  "year": 1184,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.72,
+    44.8
+  ],
+  "entity": "kingdom_of_georgia",
+  "summary": "Queen Tamar (r. 1184-1213) presided over Georgia's greatest territorial expansion, controlling much of the Caucasus and Anatolia. She sponsored founding of the Empire of Trebizond (1204) and patronized poets including Shota Rustaveli (The Knight in the Panther's Skin).",
+  "outcomes": [
+    "georgia_empire_peak",
+    "empire_of_trebizond_founded",
+    "cultural_renaissance"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_georgia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_aragon_barcelona",
+  "statement": "The Crown of Aragon was created by the marriage of Petronilla of Aragon to Ramon Berenguer IV, Count of Barcelona (1137), uniting the kingdom of Aragon with the Catalan counties under a single ruler. While technically united, the two components retained separate laws, institutions, and fiscal systems. The Crown's subsequent expansion — Valencia (1238), Sicily (1282), Sardinia (1324), Naples (1443) — was driven primarily by Catalan commercial interests and Mediterranean trade networks rather than Aragonese landlocked interests. The Crown of Aragon became the dominant maritime power in the western Mediterranean.",
+  "subject_ids": [
+    "kingdom_of_aragon",
+    "county_of_barcelona"
+  ],
+  "predicate": "dynastic_union",
+  "derived_from": "rel_aragon_barcelona",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1162,
+    "to": 1162
+  }
+}

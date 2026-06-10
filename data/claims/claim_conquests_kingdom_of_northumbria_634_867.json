@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_kingdom_of_northumbria_634_867",
+  "statement": "Kingdom of Northumbria — campaigns and battles spanned 634–867, from Battle of Heavenfield to Battle of York.",
+  "subject_ids": [
+    "kingdom_of_northumbria"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_kingdom_of_northumbria_634_867",
+  "period": {
+    "from": 634,
+    "to": 867
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

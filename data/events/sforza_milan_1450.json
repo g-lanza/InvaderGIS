@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "sforza_milan_1450",
+  "name": "Francesco Sforza Seizes Milan, End of Ambrosian Republic",
+  "year": 1450,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    45.47,
+    9.19
+  ],
+  "entity": "duchy_of_milan",
+  "summary": "Francesco Sforza, condottiere (mercenary captain) who had married the illegitimate daughter of the last Visconti duke, seizes Milan in 1450 after three years of the failed Ambrosian Republic. Sforza's Milan becomes one of Italy's most stable and prosperous states; he commissions the Ospedale Maggiore (one of the first hospitals organized on state lines), courts Leonardo da Vinci to his court, and balances the Italian powers through the Italian League.",
+  "outcomes": [
+    "ambrosian_republic_ends",
+    "sforza_dynasty_begins",
+    "milan_stabilized"
+  ],
+  "_quarry": {
+    "participants": [
+      "duchy_of_milan",
+      "republic_of_venice",
+      "republic_of_florence"
+    ],
+    "structural_significance": "Sforza's career illustrates the condottiere's path to political power, mercenary expertise converts to territorial control; the Ambrosian Republic's failure shows that republican institutions without the traditions and oligarchic balance of Venice or Florence cannot survive in the Italian competitive environment; the Sforza court's cultural patronage (Leonardo, Bramante) makes Milan the center of the High Renaissance in northern Italy",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

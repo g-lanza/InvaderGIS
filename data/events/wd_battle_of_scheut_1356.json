@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_scheut_1356",
+  "name": "Battle of Scheut",
+  "year": 1356,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    50.925,
+    4.025
+  ],
+  "entity": "county_of_flanders",
+  "summary": "Battle of Scheut (1356 CE), at Scheut. Source: Wikidata Q2028927.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "county_of_flanders",
+      "duchy_of_brabant"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

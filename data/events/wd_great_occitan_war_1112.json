@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_great_occitan_war_1112",
+  "name": "Great Occitan War",
+  "year": 1112,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    42.5,
+    1.8
+  ],
+  "entity": "county_of_barcelona",
+  "summary": "Great Occitan War (1112 CE), at Provence. Source: Wikidata Q47036889.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "county_of_barcelona",
+      "county_of_toulouse"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

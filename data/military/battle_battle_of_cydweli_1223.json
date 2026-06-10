@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_cydweli_1223",
+  "name": "Battle of Cydweli",
+  "subtype": "battle",
+  "start_year": 1223,
+  "end_year": 1223,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q61410664"
+    }
+  },
+  "description": "Battle during Norman Invasion of Wales (1223)",
+  "coords": [
+    -4.307,
+    51.736
+  ]
+}

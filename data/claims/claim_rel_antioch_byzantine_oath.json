@@ -1,0 +1,32 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_antioch_byzantine_oath",
+  "statement": "The Treaty of Devol (1108) nominally made Bohemund I of Antioch a Byzantine vassal, requiring him to rule Antioch as a fief of the empire. The treaty was imposed after Alexios I Komnenos's successful military pressure on Bohemund's invasion of the Balkans. Emperor John II Komnenos enforced Byzantine suzerainty in 1138–1143 by marching an army to Antioch and receiving homage from Prince Raymond of Poitiers — though he did not attempt to take direct control. Subsequent Byzantine emperors periodically extracted nominal homage from Antiochene princes, but the practical relationship varied with military circumstances.",
+  "subject_ids": [
+    "byzantine_empire",
+    "principality_of_antioch"
+  ],
+  "predicate": "vassalage",
+  "derived_from": "rel_antioch_byzantine_oath",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991",
+      "asbridge_the_2000",
+      "cahen_la_1940"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "principality_of_antioch"
+  ],
+  "period": {
+    "from": 1108,
+    "to": 1180
+  }
+}

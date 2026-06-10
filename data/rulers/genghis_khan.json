@@ -1,0 +1,49 @@
+{
+ "kind": "ruler",
+ "dataset": "medieval-europe-500-1500",
+ "id": "genghis_khan",
+ "name": "Genghis Khan (Temüjin)",
+ "polity": "mongol_empire",
+ "title": "founder_khan",
+ "reign_start": 1206,
+ "reign_end": 1227,
+ "_quarry": {
+  "lifespan": {
+   "birth_year": 1162,
+   "death_year": 1227
+  },
+  "entity_associations": [
+   {
+    "entity_id": "mongol_empire",
+    "role": "founder_khan",
+    "start_year": 1206,
+    "end_year": 1227
+   }
+  ],
+  "key_actions": [
+   {
+    "year": 1206,
+    "event": "Proclaimed Genghis Khan at kurultai on Onon River."
+   },
+   {
+    "year": 1215,
+    "event": "Sacks Beijing — Jin dynasty driven southward."
+   },
+   {
+    "year": 1220,
+    "event": "Destroys Khwarezmian Empire; sacks Samarkand and Merv."
+   }
+  ],
+  "region": "central_asian",
+  "name_variants": []
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "abu_lughod_before_european_hegemony_1989",
+   "ims_fordham",
+   "ims_fordham_sbookmap"
+  ],
+  "confidence": "low"
+ }
+}

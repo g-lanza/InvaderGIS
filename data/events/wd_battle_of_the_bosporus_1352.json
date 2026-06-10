@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_the_bosporus_1352",
+  "name": "Battle of the Bosporus",
+  "year": 1352,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    43.125,
+    12.65
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Battle of the Bosporus (1352 CE), at Bosporus Strait (part of War of the Straits). Source: Wikidata Q11908797.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "byzantine_empire",
+      "republic_of_genoa",
+      "crown_of_aragon"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

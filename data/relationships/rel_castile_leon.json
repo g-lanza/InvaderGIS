@@ -1,0 +1,35 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_castile_leon",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_castile",
+      "role": "principal"
+    },
+    {
+      "entity_id": "kingdom_of_leon",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "dynastic_union",
+  "since": 1065,
+  "until": 1230,
+  "note": "Castile and León were united and separated repeatedly through inheritance accidents and dynastic politics. Ferdinand I united them (1037–1065), then his will separated them; Fernando III united them permanently (1230). The union created the most powerful Iberian kingdom: Castile's military frontier culture combined with León's institutional depth and Roman Catholic tradition. The unified kingdom's resources enabled the conquest of Seville (1248), Murcia (1243), and Cádiz (1262), reducing the Muslim presence to the Kingdom of Granada — which survived as a tributary state until 1492.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The permanent union of Castile and León (1230) creates the dominant Iberian kingdom; Fernando III's combined resources enable the most dramatic expansion of the Reconquista since the fall of Toledo (1085); the unified crown becomes the foundation of the Spanish empire"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

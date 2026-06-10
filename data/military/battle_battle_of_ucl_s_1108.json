@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_ucl_s_1108",
+  "name": "Battle of Uclés",
+  "subtype": "battle",
+  "start_year": 1108,
+  "end_year": 1108,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2459925"
+    }
+  },
+  "description": "Battle during Almoravid conquest of al-Andalus (1108)",
+  "coords": [
+    -2.85,
+    39.9833
+  ]
+}

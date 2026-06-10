@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_the_neva_1240",
+  "name": "Battle of the Neva",
+  "year": 1240,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    60.2823,
+    25.2073
+  ],
+  "entity": "kingdom_of_sweden",
+  "summary": "Battle of the Neva (1240 CE), at Neva (part of Swedish–Novgorodian Wars). Source: Wikidata Q521799.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_sweden",
+      "principality_of_novgorod",
+      "karelians"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_medieval_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_chmielnik_1241",
+  "name": "Battle of Chmielnik",
+  "year": 1241,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    47.2,
+    102.8
+  ],
+  "entity": "mongol_empire",
+  "summary": "Battle of Chmielnik (1241 CE), at Chmielnik (part of Mongol invasion of Poland). Source: Wikidata Q2615532.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "mongol_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "cistercian_order_1098",
+  "name": "Founding of the Cistercian Order",
+  "year": 1098,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    47.1,
+    4.92
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Robert of Molesme founded a new monastery at Cîteaux in Burgundy in 1098, seeking to follow the Rule of St. Benedict literally and avoid the wealth of Cluny. The order transformed when Bernard of Clairvaux joined in 1113, bringing charismatic leadership and austere spirituality. By 1200 the Cistercians had over 500 abbeys across Europe, clearing forests, draining marshes, and revolutionizing European agriculture. Their churches, stripped of ornamentation, defined Romanesque austerity.",
+  "outcomes": [
+    "Cîteaux Abbey founded by Robert of Molesme",
+    "Bernard of Clairvaux joins 1113; transforms the order",
+    "Over 500 abbeys by 1200",
+    "Agricultural and architectural achievements across Europe"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "papal_states"
+    ],
+    "structural_significance": "One of the great institutional innovations of the 12th century; the Cistercian network of abbeys was the most effective agricultural enterprise of medieval Europe.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lekai_cistercians_1977",
+      "Auberger, L'unanimité cistercienne primitive"
+    ],
+    "confidence": "low"
+  }
+}

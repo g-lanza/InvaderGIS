@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_hanseatic_kontor_bergen_1294_c01",
+  "statement": "In 1294, German merchants from Lübeck and other Wendish towns secured formal trading privileges at Bergen.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1294,
+    "to": 1294
+  },
+  "derived_from": "hanseatic_kontor_bergen_1294",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "abu_lughod_before_european_hegemony_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_siege_of_kyiv_1036",
+  "name": "Siege of Kyiv",
+  "subtype": "battle",
+  "start_year": 1036,
+  "end_year": 1036,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q19772473"
+    }
+  },
+  "description": "Battle of 1036",
+  "coords": [
+    30.5236,
+    50.45
+  ]
+}

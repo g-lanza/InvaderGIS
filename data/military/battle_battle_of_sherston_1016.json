@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_sherston_1016",
+  "name": "Battle of Sherston",
+  "subtype": "battle",
+  "start_year": 1016,
+  "end_year": 1016,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q130386271"
+    }
+  },
+  "description": "Battle during Cnut the Great's invasion of England (1016)",
+  "coords": [
+    -2.2121,
+    51.5727
+  ]
+}

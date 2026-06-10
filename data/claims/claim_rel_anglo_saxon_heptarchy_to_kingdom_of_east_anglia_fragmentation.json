@@ -1,0 +1,29 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_anglo_saxon_heptarchy_to_kingdom_of_east_anglia_fragmentation",
+  "statement": "Derived from predecessor/successor links recorded in the anglo_saxon_heptarchy and kingdom_of_east_anglia entity records. Transition anchored to kingdom_of_east_anglia start_year.",
+  "subject_ids": [
+    "anglo_saxon_heptarchy",
+    "kingdom_of_east_anglia"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_anglo_saxon_heptarchy_to_kingdom_of_east_anglia_fragmentation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "kingdom_of_east_anglia"
+  ],
+  "period": {
+    "from": 520,
+    "to": 520
+  }
+}

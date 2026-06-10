@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_guadalhorce_1326_c01",
+  "statement": "Battle of Guadalhorce (1326 CE), at Guadalhorce (part of Reconquista).",
+  "subject_ids": [
+    "crown_of_castile"
+  ],
+  "period": {
+    "from": 1326,
+    "to": 1326
+  },
+  "derived_from": "wd_battle_of_guadalhorce_1326",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "o'callaghan_a_1975",
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

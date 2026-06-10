@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_capture_of_berwick_1318",
+  "name": "Capture of Berwick",
+  "year": 1318,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    54.5,
+    -2.5
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Capture of Berwick (1318 CE), at Berwick-upon-Tweed (part of First War of Scottish Independence). Source: Wikidata Q5036988.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "kingdom_of_scotland"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

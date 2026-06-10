@@ -1,0 +1,32 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_moldavia_ottoman",
+  "statement": "Moldavia became an Ottoman tributary after Stephen the Great's reign (ruled 1457–1504), despite his earlier resistance — he defeated Ottoman armies at Vaslui (1475) and Racova (1476), receiving the title 'Athlete of Christ' from Pope Sixtus IV. After Stephen's death, Moldavia accepted Ottoman suzerainty while maintaining internal self-governance. Moldavian princes paid annual tribute (haraç) and provided military contingents but retained their Orthodox Church, their legal system, and the right to elect (subject to Ottoman approval) their own rulers. This 'autonomous tributary' model preserved Moldavian culture through 300+ years of Ottoman suzerainty.",
+  "subject_ids": [
+    "ottoman_empire",
+    "principality_of_moldavia"
+  ],
+  "predicate": "tributary",
+  "derived_from": "rel_moldavia_ottoman",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d",
+      "treptow_a_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "principality_of_moldavia"
+  ],
+  "period": {
+    "from": 1455,
+    "to": 1500
+  }
+}

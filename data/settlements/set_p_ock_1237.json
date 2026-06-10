@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_p_ock_1237",
+  "name": "Płock",
+  "importance": "city",
+  "start_year": 1237,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q104725"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    19.7,
+    52.55
+  ]
+}

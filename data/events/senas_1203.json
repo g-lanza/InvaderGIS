@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "senas_1203",
+  "name": "Bakhtiyar Khilji Conquers Bengal",
+  "year": 1203,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    26.0055,
+    84.781
+  ],
+  "entity": "senas",
+  "summary": "Bakhtiyar Khilji's rapid conquest of Bengal in 1203 CE ended the Sena dynasty and brought the region under Sultanate control. Nalanda University, the greatest centre of Buddhist learning in the world, was sacked and its monks killed or expelled in this campaign, effectively ending organised Buddhism in India.",
+  "outcomes": [
+    "sena_power_ends",
+    "nalanda_destroyed",
+    "bengal_islamicised"
+  ],
+  "_quarry": {
+    "participants": [
+      "senas",
+      "delhi_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

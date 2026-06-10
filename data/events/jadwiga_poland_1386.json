@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "jadwiga_poland_1386",
+  "name": "Jadwiga and Jagiello, Christian Poland-Lithuania Union",
+  "year": 1386,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    50.06,
+    19.94
+  ],
+  "entity": "kingdom_of_poland_piast",
+  "summary": "Jadwiga of Poland (barely 12 years old) marries the pagan Grand Duke Władysław II Jagiełło of Lithuania, completing the baptism of Lithuania, the last pagan state in Europe. The marriage creates the Polish-Lithuanian union that will eventually become the largest state in Europe. Jadwiga dies in 1399; she is canonized in 1997. The Jagiellonian dynasty founded by this marriage rules Poland, Lithuania, Bohemia, and Hungary.",
+  "outcomes": [
+    "poland_lithuania_united",
+    "jagiellonian_dynasty_founded",
+    "last_pagan_kingdom_converts"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_poland_piast",
+      "grand_duchy_of_lithuania"
+    ],
+    "structural_significance": "The Jadwiga-Jagiełło marriage is among the most consequential dynastic unions in medieval Europe; Lithuania's baptism (1387) ends Europe's last organized paganism and removes the Teutonic Order's crusading rationale; the Polish-Lithuanian military cooperation defeats the Teutonic Order at Grunwald (1410); the Jagiellonian dynasty's multi-kingdom rule creates the largest Catholic political unit in 15th-century Europe",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "davies_gods_1981",
+      "knoll_the_1972"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

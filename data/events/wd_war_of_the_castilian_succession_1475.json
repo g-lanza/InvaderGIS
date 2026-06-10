@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_war_of_the_castilian_succession_1475",
+  "name": "War of the Castilian Succession",
+  "year": 1475,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    42.175,
+    -2.25
+  ],
+  "entity": "kingdom_of_portugal",
+  "summary": "War of the Castilian Succession (1475 CE), at Atlantic Ocean (part of Conflict over the succession of Henry IV of Castile). Source: Wikidata Q282135.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_portugal",
+      "kingdom_of_france",
+      "crown_of_aragon",
+      "crown_of_castile"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

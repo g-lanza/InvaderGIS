@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_mi_akowo_1315",
+  "name": "Miłakowo",
+  "importance": "city",
+  "start_year": 1315,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1006813"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    20.0692,
+    54.0091
+  ]
+}

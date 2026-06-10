@@ -1,0 +1,36 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_livonian_order_state_to_grand_duchy_of_lithuania_fragmentation",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "livonian_order_state",
+      "role": "parent"
+    },
+    {
+      "entity_id": "grand_duchy_of_lithuania",
+      "role": "fragment"
+    }
+  ],
+  "directed": true,
+  "type": "fragmentation",
+  "since": 1236,
+  "until": 1236,
+  "note": "Derived from predecessor/successor links recorded in the livonian_order_state and grand_duchy_of_lithuania entity records. Transition anchored to grand_duchy_of_lithuania start_year.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Mechanical normalisation of curated predecessor/successor links into the relationships register."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_hospitallers_1999",
+      "rowell_lithuania_1994",
+      "christiansen_the_1997"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

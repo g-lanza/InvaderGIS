@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wycliffe_reform_1380",
+  "name": "Wycliffe's Bible and the Lollard Movement",
+  "year": 1380,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    51.8,
+    -1.3
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "John Wycliffe, Oxford theologian, advocates translating the Bible into English so ordinary people can read it directly, and attacks clerical wealth and papal supremacy. His followers (Lollards) produce English Bible translations. Wycliffe's ideas directly inspire Jan Hus in Bohemia and, through Hus, Martin Luther, making him a crucial Protestant precursor.",
+  "outcomes": [
+    "english_bible",
+    "lollard_heresy",
+    "protestant_precursor"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england"
+    ],
+    "structural_significance": "Wycliffe's arguments for scripture's primacy over papal tradition and individual Bible reading are foundational to the Reformation; his condemnation and the suppression of Lollardy only delay, not prevent, the break with Rome.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

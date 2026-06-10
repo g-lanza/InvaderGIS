@@ -1,0 +1,36 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_ragusa_venice",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "republic_of_venice",
+      "role": "suzerain"
+    },
+    {
+      "entity_id": "republic_of_ragusa",
+      "role": "vassal"
+    }
+  ],
+  "directed": true,
+  "type": "vassalage",
+  "since": 1358,
+  "until": 1358,
+  "note": "Venice acquired Ragusa under the Treaty of Zadar (1205) following the Fourth Crusade, maintaining overlordship until 1358 when the Treaty of Zadar (1358) transferred Ragusa to the Kingdom of Hungary-Croatia. Venetian rule gave Ragusa its commercial infrastructure (the Fondaco system, standardized weights and measures) but also subjected it to unfavorable trade restrictions. Ragusa's eventual break from Venice — achieved through Hungarian overlordship — gave it the greater commercial freedom that enabled its 15th-century golden age.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Venetian overlordship shapes Ragusa's commercial infrastructure but restricts its autonomy; the shift to Hungarian overlordship (1358) gives Ragusa the freedom to develop its own merchant fleet and diplomatic network — the foundation of its later golden age"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982",
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

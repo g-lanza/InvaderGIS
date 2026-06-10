@@ -1,0 +1,44 @@
+{
+  "kind": "institution",
+  "dataset": "medieval-europe-500-1500",
+  "id": "premonstratensian_order",
+  "name_primary": "Premonstratensian Order",
+  "domain": "monastic_movement",
+  "formed": 1120,
+  "dissolved": 1500,
+  "_quarry": {
+    "key_developments": [
+      {
+        "year": 1120,
+        "event": "Norbert of Xanten founds Prémontré in the diocese of Laon."
+      },
+      {
+        "year": 1126,
+        "event": "Honorius II confirms the order; Norbert becomes Archbishop of Magdeburg."
+      },
+      {
+        "year": 1147,
+        "event": "Premonstratensians prominent in the Wendish Crusade missions east of the Elbe."
+      },
+      {
+        "year": 1245,
+        "event": "Innocent IV reaffirms the order's privileges and exempt status."
+      }
+    ],
+    "influences_entities": [
+      "holy_roman_empire",
+      "kingdom_of_france",
+      "kingdom_of_bohemia",
+      "kingdom_of_poland_piast"
+    ],
+    "description": "The Norbertines, a reformed order of canons regular following the Rule of Saint Augustine, were founded by Norbert of Xanten at Prémontré in Picardy in 1120. Unlike the Cistercians' lay-monastic model, the Premonstratensians combined the active pastoral work of canons (preaching, parish ministry, missions to recently-converted lands) with monastic discipline. The order expanded rapidly across the Empire and into Slavic missionary territories; by 1250 there were roughly 600 houses, many active in the Wendish missions of the 12th century."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "constable_reformation_twelfth_century_1996",
+      "lawrence_medieval_monasticism_2001"
+    ],
+    "confidence": "low"
+  }
+}

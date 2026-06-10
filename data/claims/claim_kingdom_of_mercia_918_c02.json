@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_kingdom_of_mercia_918_c02",
+  "statement": "Æthelflæd led Mercian military campaigns against the Danes during her rule.",
+  "subject_ids": [
+    "kingdom_of_mercia"
+  ],
+  "period": {
+    "from": 918,
+    "to": 918
+  },
+  "derived_from": "kingdom_of_mercia_918",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

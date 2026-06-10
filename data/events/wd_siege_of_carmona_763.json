@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_carmona_763",
+  "name": "Siege of Carmona",
+  "year": 763,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    35.6,
+    19.8
+  ],
+  "entity": "abbasid_caliphate",
+  "summary": "Siege of Carmona (763 CE), at Carmona. Source: Wikidata Q125045173.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "abbasid_caliphate",
+      "umayyad_emirate_cordoba"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_the_2004",
+      "kennedy_when_2004",
+      "crone_gods_2004",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

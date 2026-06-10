@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "magna_carta_charter_of_forest_1217",
+  "name": "Charter of the Forest 1217",
+  "year": 1217,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    51.507,
+    -0.128
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Issued alongside the reissue of Magna Carta in 1217, the Charter of the Forest addressed one of the most pressing grievances of ordinary people: the expansion of royal forests under the Normans, which subjected vast areas to harsh forest law criminalizing peasant use of woodland resources. The charter restored the rights of freemen to use royal forests for grazing, gathering wood, and hunting small game.",
+  "outcomes": [
+    "Royal forest restrictions on common people eased",
+    "Freemen gain rights to use royal forest",
+    "Companion document to Magna Carta",
+    "Remained statute law until 1971"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england"
+    ],
+    "structural_significance": "Complemented Magna Carta by protecting the rights of commoners rather than just barons; remained in force as statute law for over 750 years.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Young, The Royal Forests of Medieval England",
+      "turner_magna_2003"
+    ],
+    "confidence": "low"
+  }
+}

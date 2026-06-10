@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_grote_mandrenke_1362_c01",
+  "statement": "A catastrophic North Sea storm surge on 15–16 January 1362, known as the 'Great Drowning of Men', killed about 25,000 people.",
+  "subject_ids": [
+    "kingdom_of_denmark"
+  ],
+  "period": {
+    "from": 1362,
+    "to": 1362
+  },
+  "derived_from": "grote_mandrenke_1362",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "campbell_great_transition_2016"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

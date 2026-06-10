@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "judicate_of_cagliari_1258",
+  "name": "Judicate of Cagliari Extinguished",
+  "year": 1258,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.81,
+    9.005
+  ],
+  "entity": "judicate_of_cagliari",
+  "summary": "The Judicate of Cagliari was extinguished in 1258 following dynastic conflicts and Genoese intervention. Its territory was absorbed by rival Sardinian powers and eventually by Pisan and Genoese commercial interests, marking the end of independent southern Sardinian political structures.",
+  "outcomes": [
+    "judicate_dissolved",
+    "genoese_control",
+    "sardinian_fragmentation"
+  ],
+  "_quarry": {
+    "participants": [
+      "judicate_of_cagliari",
+      "republic_of_genoa"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

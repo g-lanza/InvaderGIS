@@ -1,0 +1,53 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "lakhmid_kingdom",
+  "name_primary": "Lakhmid Kingdom",
+  "name_variants": [
+    "Banu Lakhm",
+    "Kingdom of al-Hira",
+    "Naṣrid"
+  ],
+  "type": "kingdom",
+  "region": "arabia",
+  "formed": 300,
+  "dissolved": 602,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    31.9,
+    44.45
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "hourani_arab_peoples_1991",
+      "kennedy_caliphate_2004"
+    ],
+    "confidence": "low"
+  },
+  "description": "Arab kingdom of the Banu Lakhm, ruling from the city of al-Hira on the lower Euphrates as a client of the Sasanian Persian empire. The Lakhmids fielded auxiliary cavalry on the Persian side of the long Roman-Persian wars and competed with the Byzantine-aligned Ghassanids across the Syrian Desert. Their deposition by Khusrau II in 602 deprived the Sasanians of an Arab buffer state and is sometimes cited as a contributing factor to the early Islamic conquest of Mesopotamia a generation later.",
+  "temporal": {
+    "start_year": 300,
+    "end_year": 602,
+    "end_year_within_scope": 602,
+    "notes": "Arab client kingdom of the Sasanian Persians centred on al-Hira on the lower Euphrates; deposed by the Sasanian king Khusrau II in 602, after which the Sasanians administered the frontier directly."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      31.9,
+      44.45
+    ],
+    "core_regions": [
+      "lower_euphrates",
+      "northern_arabia"
+    ],
+    "notes": "Capital al-Hira on the lower Euphrates south of Kufa; the polity controlled tribal-bedouin frontiers between Sasanian Mesopotamia and inland Arabia."
+  },
+  "sources": [
+    "hourani_arab_peoples_1991",
+    "kennedy_caliphate_2004"
+  ],
+  "monogram": "LK"
+}

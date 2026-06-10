@@ -1,0 +1,471 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "hadramaut",
+  "name_primary": "Hadramaut",
+  "name_variants": [],
+  "type": "kingdom",
+  "region": "arabia",
+  "formed": 500,
+  "dissolved": 1500,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    16.931,
+    51.8813
+  ],
+  "population_estimates": [
+    {
+      "year": 900,
+      "estimate": 200000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q11274",
+          "url": "https://www.wikidata.org/wiki/Q11274",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Hadramaut",
+          "url": "https://en.wikipedia.org/wiki/Chrysler_Building"
+        }
+      ]
+    },
+    {
+      "year": 1100,
+      "estimate": 250000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q11274",
+          "url": "https://www.wikidata.org/wiki/Q11274",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Hadramaut",
+          "url": "https://en.wikipedia.org/wiki/Chrysler_Building"
+        }
+      ]
+    },
+    {
+      "year": 1300,
+      "estimate": 300000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q11274",
+          "url": "https://www.wikidata.org/wiki/Q11274",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Hadramaut",
+          "url": "https://en.wikipedia.org/wiki/Chrysler_Building"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Region of coastal southern Arabia (modern Yemen) whose merchant diaspora spread Islam and commercial networks across the Indian Ocean world from East Africa to Southeast Asia; Hadhrami traders and Islamic scholars established trading colonies and religious communities in Malabar, Gujarat, Malacca, and Java, making this relatively remote region one of the most influential sources of Islamic proselytisation in the early modern period.",
+  "temporal": {
+    "start_year": 500,
+    "end_year": 1500,
+    "notes": ""
+  },
+  "geographic": {
+    "centroid": [
+      16.931,
+      51.8813
+    ],
+    "polygon_simplified": [
+      [
+        [
+          15.7482,
+          47.0639
+        ],
+        [
+          16.4217,
+          47.8376
+        ],
+        [
+          17.1467,
+          50.5111
+        ],
+        [
+          18.1249,
+          51.8154
+        ],
+        [
+          19.1546,
+          53.9385
+        ],
+        [
+          19.1546,
+          56.7256
+        ],
+        [
+          18.9381,
+          57.1862
+        ],
+        [
+          18.8168,
+          56.9043
+        ],
+        [
+          18.6894,
+          56.7389
+        ],
+        [
+          18.4667,
+          56.6086
+        ],
+        [
+          18.2188,
+          56.5494
+        ],
+        [
+          18.0916,
+          56.4576
+        ],
+        [
+          17.9768,
+          56.2576
+        ],
+        [
+          17.9318,
+          56.0128
+        ],
+        [
+          17.9315,
+          55.8815
+        ],
+        [
+          17.9502,
+          55.7081
+        ],
+        [
+          17.9372,
+          55.5611
+        ],
+        [
+          17.8097,
+          55.3895
+        ],
+        [
+          17.6761,
+          55.2904
+        ],
+        [
+          17.4473,
+          55.2344
+        ],
+        [
+          17.2884,
+          55.2356
+        ],
+        [
+          17.1486,
+          55.1948
+        ],
+        [
+          16.9701,
+          54.9106
+        ],
+        [
+          16.9507,
+          54.7561
+        ],
+        [
+          17.0452,
+          54.4069
+        ],
+        [
+          17.0191,
+          54.0843
+        ],
+        [
+          16.8975,
+          53.6813
+        ],
+        [
+          16.7634,
+          53.3357
+        ],
+        [
+          16.7186,
+          53.2085
+        ],
+        [
+          16.6538,
+          53.0209
+        ],
+        [
+          16.61,
+          52.8943
+        ],
+        [
+          16.4887,
+          52.6522
+        ],
+        [
+          16.2339,
+          52.3566
+        ],
+        [
+          16.1003,
+          52.2376
+        ],
+        [
+          15.8714,
+          52.1629
+        ],
+        [
+          15.6871,
+          52.1352
+        ],
+        [
+          15.5405,
+          51.9504
+        ],
+        [
+          15.3788,
+          51.599
+        ],
+        [
+          15.2469,
+          51.3126
+        ],
+        [
+          14.9588,
+          50.2911
+        ],
+        [
+          14.7733,
+          49.7129
+        ],
+        [
+          14.6327,
+          49.3338
+        ],
+        [
+          14.4989,
+          49.1732
+        ],
+        [
+          14.2189,
+          48.9604
+        ],
+        [
+          14.1687,
+          48.8793
+        ],
+        [
+          15.7482,
+          47.0639
+        ]
+      ]
+    ],
+    "capital": {
+      "name": "Shibam",
+      "coords": [
+        15.93,
+        48.62
+      ],
+      "source": "curated"
+    }
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "ancient_incense_trade",
+      "years": "pre-500 to 600",
+      "description": "Hadhramaut region was part of the ancient South Arabian incense trade route; participated in pre-Islamic Arabian kingdoms.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q11274",
+          "url": "https://www.wikidata.org/wiki/Q11274"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Hadramaut",
+          "url": "https://en.wikipedia.org/wiki/Chrysler_Building"
+        }
+      ]
+    },
+    {
+      "phase": "islamic_integration",
+      "years": "630-1100",
+      "description": "Rapid Islamisation after the Prophet's death; Hadhramaut became an important source of Islamic scholars and long-distance traders.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q11274",
+          "url": "https://www.wikidata.org/wiki/Q11274"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Hadramaut",
+          "url": "https://en.wikipedia.org/wiki/Chrysler_Building"
+        }
+      ]
+    },
+    {
+      "phase": "hadhrami_diaspora",
+      "years": "1100-1500",
+      "description": "Hadhrami merchants and Sufi missionaries spread across the Indian Ocean world, establishing communities in East Africa, India, and SE Asia.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q11274",
+          "url": "https://www.wikidata.org/wiki/Q11274"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Hadramaut",
+          "url": "https://en.wikipedia.org/wiki/Chrysler_Building"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "trade_route_control",
+      "layer": "economic_commercial",
+      "description": "Hadhramaut was a primary source of frankincense and myrrh, the most valuable commodities of the ancient world.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q11274",
+          "url": "https://www.wikidata.org/wiki/Q11274"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Hadramaut",
+          "url": "https://en.wikipedia.org/wiki/Chrysler_Building"
+        }
+      ],
+      "tag_prose": "frankincense_trade"
+    },
+    {
+      "tag": "ideological_unification",
+      "layer": "ideology_religion",
+      "description": "Concentration of Sufi brotherhoods and Islamic scholars made Hadhramaut a centre of religious influence across the Indian Ocean.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q11274",
+          "url": "https://www.wikidata.org/wiki/Q11274"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Hadramaut",
+          "url": "https://en.wikipedia.org/wiki/Chrysler_Building"
+        }
+      ],
+      "tag_prose": "islamic_scholarship"
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "ottoman_periphery",
+      "layer": "external_political",
+      "description": "Ottoman incorporation made Hadhramaut a remote province rather than an independent trading polity.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q11274",
+          "url": "https://www.wikidata.org/wiki/Q11274"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Hadramaut",
+          "url": "https://en.wikipedia.org/wiki/Chrysler_Building"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "War Jabi",
+      "role": "king_of_takrur_ally",
+      "years": "1035–1040",
+      "year_start": 1035,
+      "year_end": 1040,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "War Jabi",
+          "url": "https://en.wikipedia.org/wiki/War_Jabi"
+        }
+      ]
+    },
+    {
+      "name": "Omar al-Muhdhar",
+      "role": "sufi_scholar",
+      "years": "1373–1414",
+      "year_start": 1373,
+      "year_end": 1414,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Omar al-Muhdhar",
+          "url": "https://en.wikipedia.org/wiki/Omar_al-Muhdhar"
+        }
+      ]
+    }
+  ],
+  "economic": {
+    "primary_base": "long_distance_trade",
+    "secondary_bases": [
+      "frankincense_trade",
+      "fishing",
+      "date_farming"
+    ],
+    "wealth_level": "moderate",
+    "major_exports": [
+      "frankincense",
+      "myrrh",
+      "fish",
+      "dates"
+    ],
+    "major_trade_partners": [
+      "abbasid_caliphate",
+      "fatimid_caliphate",
+      "india_general"
+    ],
+    "revenue_sources": [
+      "trade_duties",
+      "frankincense_export",
+      "fishing_tax"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q11274",
+        "url": "https://www.wikidata.org/wiki/Q11274"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Hadramaut",
+        "url": "https://en.wikipedia.org/wiki/Chrysler_Building"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q1517159",
+    "matched_name": "manual/hadramaut",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Chrysler_Building"
+  },
+  "monogram": "HA"
+}

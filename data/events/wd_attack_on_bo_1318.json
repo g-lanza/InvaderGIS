@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_attack_on_bo_1318",
+  "name": "Attack on Åbo",
+  "year": 1318,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    59.25,
+    23.15
+  ],
+  "entity": "kingdom_of_sweden",
+  "summary": "Attack on Åbo (1318 CE), at Turku (part of Swedish–Novgorodian Wars). Source: Wikidata Q125585748.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_sweden",
+      "principality_of_novgorod"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_medieval_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

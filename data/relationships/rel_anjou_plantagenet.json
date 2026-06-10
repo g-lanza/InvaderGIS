@@ -1,0 +1,39 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_anjou_plantagenet",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_england",
+      "role": "suzerain"
+    },
+    {
+      "entity_id": "county_of_anjou",
+      "role": "vassal"
+    }
+  ],
+  "directed": true,
+  "type": "vassalage",
+  "since": 1154,
+  "until": 1204,
+  "note": "The County of Anjou — the Plantagenet dynasty's ancestral domain — was held by the Plantagenet kings of England as part of the Angevin Empire until its conquest by Philip II Augustus of France (1204). Geoffrey V of Anjou's marriage to Empress Matilda of England (daughter of Henry I) created the Plantagenet dynasty when their son became Henry II. Anjou provided the dynasty's military culture and administrative traditions; the term 'Angevin' (from Anjou) describes both the French comital and the English royal family. The loss of Anjou in 1204 severed the dynastic-territorial connection that defined the Plantagenet identity.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Anjou as the Plantagenet dynastic homeland gives the dynasty its administrative culture (the Angevin legal system, which becomes English common law) and its claim to the French heartland; the loss of Anjou in 1204 transforms the Plantagenets from a Franco-English dynasty into a primarily English one — a reorientation that shapes English national identity"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

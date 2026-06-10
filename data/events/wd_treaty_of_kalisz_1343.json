@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_treaty_of_kalisz_1343",
+  "name": "Treaty of Kalisz",
+  "year": 1343,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    52,
+    19.5
+  ],
+  "entity": "kingdom_of_poland_jagiellonian",
+  "summary": "Treaty of Kalisz (1343 CE), at Kalisz. Source: Wikidata Q573380.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_poland_jagiellonian"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "davies_gods_1981",
+      "lukowski_a_2001"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

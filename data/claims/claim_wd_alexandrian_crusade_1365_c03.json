@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_alexandrian_crusade_1365_c03",
+  "statement": "The 1365 Alexandrian Crusade was part of the Crusades.",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1365,
+    "to": 1365
+  },
+  "derived_from": "wd_alexandrian_crusade_1365",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

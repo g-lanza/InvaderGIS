@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_castilian_aragonese_war_1296",
+  "name": "Castilian-Aragonese War",
+  "year": 1296,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41.35,
+    -1.75
+  ],
+  "entity": "crown_of_aragon",
+  "summary": "Castilian-Aragonese War (1296 CE). Source: Wikidata Q111586714.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "crown_of_aragon",
+      "crown_of_castile"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

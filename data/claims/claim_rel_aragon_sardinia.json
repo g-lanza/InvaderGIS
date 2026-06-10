@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_aragon_sardinia",
+  "statement": "The Crown of Aragon received Sardinia from Pope Boniface VIII (1297) as a papal fief — in exchange for Aragonese relinquishment of Sicily, which the papacy hoped to recover for the Angevins. Aragon's actual conquest of Sardinia required wars against the indigenous Giudicato of Arborea (1323–1420) and the Genoese colonists. The island was fully pacified only after the defeat of Eleonora d'Arborea's successors in 1420. Sardinia became the Crown of Aragon's poorest but strategically important possession, providing a central Mediterranean base and grain supplies. It remained Spanish then Savoyard until Italian unification.",
+  "subject_ids": [
+    "crown_of_aragon",
+    "judicate_of_arborea"
+  ],
+  "predicate": "vassalage",
+  "derived_from": "rel_aragon_sardinia",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "judicate_of_arborea"
+  ],
+  "period": {
+    "from": 1324,
+    "to": 1420
+  }
+}

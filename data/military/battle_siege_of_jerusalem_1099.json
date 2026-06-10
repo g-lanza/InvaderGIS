@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_siege_of_jerusalem_1099",
+  "name": "Siege of Jerusalem",
+  "subtype": "battle",
+  "start_year": 1099,
+  "end_year": 1099,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q456993"
+    }
+  },
+  "description": "Battle during First Crusade (1099)",
+  "coords": [
+    35.2167,
+    31.7833
+  ]
+}

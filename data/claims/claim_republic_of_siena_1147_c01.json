@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_republic_of_siena_1147_c01",
+  "statement": "The Commune of Siena established self-governance in 1147 as a merchant-dominated republic.",
+  "subject_ids": [
+    "republic_of_siena"
+  ],
+  "period": {
+    "from": 1147,
+    "to": 1147
+  },
+  "derived_from": "republic_of_siena_1147",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

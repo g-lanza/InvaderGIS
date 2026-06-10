@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "sack_of_kiev_1240",
+  "name": "Mongol Sack of Kiev",
+  "year": 1240,
+  "type": "conquest",
+  "category": "violence",
+  "coords": [
+    50.45,
+    30.52
+  ],
+  "entity": "mongol_empire",
+  "summary": "Batu Khan's western Mongol army, guided by Subutai, storms Kiev after a brief siege in December 1240. Contemporary accounts describe the city reduced to rubble; a Franciscan friar passing through in 1246 found only a few hundred houses standing and skulls piled in fields. The metropolitan see flees north to Vladimir and eventually Moscow. The Kievan political system, a loose confederation of Rus' principalities, ceases to exist as an independent entity.",
+  "outcomes": [
+    "kiev_destroyed",
+    "kievan_rus_political_fragmentation",
+    "russian_principalities_subjugated"
+  ],
+  "_quarry": {
+    "participants": [
+      "mongol_empire",
+      "golden_horde",
+      "kievan_rus",
+      "principality_of_galicia_volhynia"
+    ],
+    "structural_significance": "Ends Kievan Rus as a political entity and shifts the center of Russian civilization northward to Vladimir-Suzdal and eventually Moscow; the Golden Horde's 'Tatar Yoke' subjects Russian princes to tribute payments for 240 years; the population and economic collapse retards Russian development relative to Western Europe",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

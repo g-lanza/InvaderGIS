@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_dutchy_of_benevento_571_c02",
+  "statement": "While the northern Lombard kingdom fell to Charlemagne in 774, Benevento maintained independence until the Norman conquests of the 11th century.",
+  "subject_ids": [
+    "duchy_of_benevento"
+  ],
+  "period": {
+    "from": 571,
+    "to": 571
+  },
+  "derived_from": "dutchy_of_benevento_571",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

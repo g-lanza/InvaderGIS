@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_war_of_the_armanyaguesos_1389_c01",
+  "statement": "War of the Armanyaguesos (1389 CE), at Crown of Aragon.",
+  "subject_ids": [
+    "crown_of_aragon"
+  ],
+  "period": {
+    "from": 1389,
+    "to": 1389
+  },
+  "derived_from": "wd_war_of_the_armanyaguesos_1389",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

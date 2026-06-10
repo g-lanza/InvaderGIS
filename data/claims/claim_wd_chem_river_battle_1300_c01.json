@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_chem_river_battle_1300_c01",
+  "statement": "Chem River Battle (1300 CE), at Emba River (part of Mongol invasion of Central Asia).",
+  "subject_ids": [
+    "mongol_empire"
+  ],
+  "period": {
+    "from": 1300,
+    "to": 1300
+  },
+  "derived_from": "wd_chem_river_battle_1300",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

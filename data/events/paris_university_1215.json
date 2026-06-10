@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "paris_university_1215",
+  "name": "University of Paris Charter, Foundation of Western Academia",
+  "year": 1215,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    48.85,
+    2.35
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Pope Innocent III's legate Robert de Courçon issues a charter for the University of Paris in 1215, formalizing an institution that had developed from cathedral schools over the preceding decades. The university's four faculties (arts, theology, medicine, law) and its corporate self-governance (choosing its own chancellor, setting its own curriculum) establish the model for European universities. Thomas Aquinas and Albertus Magnus teach there; their Scholastic synthesis of Aristotle and Christianity shapes Western theology.",
+  "outcomes": [
+    "university_chartered",
+    "scholastic_method_institutionalized",
+    "european_academic_model_established"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "papal_states"
+    ],
+    "structural_significance": "Paris establishes the institutional template for the Western university, faculty governance, degree-granting authority, academic freedom from local episcopal control, that persists to the present; the university's theology faculty is the highest intellectual authority in Latin Christendom; its disputation method (quaestio and responsio) creates the argumentative culture of Western intellectual life",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

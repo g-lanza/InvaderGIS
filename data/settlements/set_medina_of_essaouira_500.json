@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_medina_of_essaouira_500",
+  "name": "Medina of Essaouira",
+  "importance": "city",
+  "start_year": 500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "inferred",
+    "external_ids": {
+      "pleiades": "769855252"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    -9.7699,
+    31.5128
+  ]
+}

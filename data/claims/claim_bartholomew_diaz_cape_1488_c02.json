@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_bartholomew_diaz_cape_1488_c02",
+  "statement": "Dias's rounding of the Cape enabled Vasco da Gama's voyage to India in 1498.",
+  "subject_ids": [
+    "kingdom_of_portugal"
+  ],
+  "period": {
+    "from": 1488,
+    "to": 1488
+  },
+  "derived_from": "bartholomew_diaz_cape_1488",
+  "unresolved_sources": [
+    "livermore_a_1966"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

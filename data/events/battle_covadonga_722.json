@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_covadonga_722",
+  "name": "Battle of Covadonga, Beginning of the Reconquista",
+  "year": 722,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    43.3,
+    -5.06
+  ],
+  "entity": "kingdom_of_asturias",
+  "summary": "Pelayo, a Visigothic nobleman, defeats a Muslim punitive force at Covadonga in the Cantabrian mountains, the first significant Christian military victory over Muslim Iberia. The battle's actual scale was probably small, but its symbolic importance is immense. Pelayo becomes the first king of Asturias and the Covadonga victory is proclaimed the beginning of the Reconquista. The sanctuary of the Virgin of Covadonga becomes a national shrine.",
+  "outcomes": [
+    "pelayo_defeats_muslim_force",
+    "asturian_kingdom_founded",
+    "christian_resistance_myth_created"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_asturias",
+      "umayyad_emirate_cordoba"
+    ],
+    "structural_significance": "Covadonga establishes the founding myth of Christian Iberia's resistance and eventual reconquest; Asturian kings present themselves as heirs of the Visigothic kingdom and their campaigns as divinely mandated restoration; the myth shapes Spanish national identity from the medieval period through the Franco era; the actual significance lies in demonstrating that mountain terrain made northern Iberia defensible",
+    "year_range": [
+      718,
+      722
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

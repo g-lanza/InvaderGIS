@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_treaty_of_arras_1435_c02",
+  "statement": "By the Treaty of Arras (1435), Charles VII granted Philip the Good the towns of the Somme and exemption from feudal homage during Philip's lifetime.",
+  "subject_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 1435,
+    "to": 1435
+  },
+  "derived_from": "treaty_of_arras_1435",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

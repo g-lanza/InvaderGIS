@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_milford_haven_1405",
+  "name": "Battle of Milford Haven",
+  "subtype": "battle",
+  "start_year": 1405,
+  "end_year": 1405,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q135274038"
+    }
+  },
+  "description": "Battle during Glyndŵr rebellion (1405)",
+  "coords": [
+    -5.0427,
+    51.7142
+  ]
+}

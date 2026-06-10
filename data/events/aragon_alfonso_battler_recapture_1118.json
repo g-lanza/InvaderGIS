@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "aragon_alfonso_battler_recapture_1118",
+  "name": "Alfonso the Battler Captures Zaragoza",
+  "year": 1118,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41.7,
+    0.5
+  ],
+  "entity": "crown_of_aragon",
+  "summary": "Alfonso I of Aragon captured Zaragoza, the largest Taifa city, after a prolonged siege. This was the greatest territorial acquisition of medieval Aragon, doubling the kingdom's size and opening the Ebro valley.",
+  "outcomes": [
+    "zaragoza_conquered",
+    "aragon_major_expansion",
+    "taifa_reduced"
+  ],
+  "_quarry": {
+    "participants": [
+      "crown_of_aragon"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

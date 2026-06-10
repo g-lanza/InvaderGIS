@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "cyprus_lusignan_kingdom_1192",
+  "name": "Lusignan Kingdom of Cyprus Established",
+  "year": 1192,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    35,
+    33
+  ],
+  "entity": "kingdom_of_cyprus",
+  "summary": "Guy of Lusignan established the Kingdom of Cyprus as a feudal Latin Christian state. Cyprus became a major logistics hub and sugar producer for the Crusader states, attracting Frankish, Greek, Syrian, and Armenian communities.",
+  "outcomes": [
+    "crusader_kingdom_cyprus",
+    "latin_church_imposed",
+    "sugar_economy"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_cyprus"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_ulster_1177",
+  "name": "Normans Invade Ulster",
+  "year": 1177,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    54.6,
+    -6.65
+  ],
+  "entity": "kingdom_of_ulster",
+  "summary": "The Anglo-Norman adventurer John de Courcy invaded Ulster in 1177, beginning the long struggle between Gaelic Ulster and Norman colonial power. Though he was eventually expelled by Hugh de Lacy, the Earldom of Ulster was established, creating a permanent English foothold in the province.",
+  "outcomes": [
+    "john_de_courcy_invasion",
+    "earldom_of_ulster",
+    "gaelic_resistance"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_ulster"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

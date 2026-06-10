@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "statute_of_mortmain_1279",
+  "name": "English Statute of Mortmain",
+  "year": 1279,
+  "type": "economic",
+  "category": "economy",
+  "coords": [
+    51.5074,
+    -0.1278
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Statute issued by Edward I in November 1279 forbidding the alienation of land to ecclesiastical corporations without royal licence. The crown's concern was that grants of land to perpetual religious bodies, which neither died nor performed feudal service, quietly drained the king's tenurial and fiscal base. Subsequent statutes through 1290 tightened the licensing regime.",
+  "outcomes": [
+    "land_transfers_to_clergy_restricted",
+    "royal_fiscal_base_protected"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "papal_states"
+    ],
+    "structural_significance": "Landmark in the long process by which the English crown asserted authority over the church's accumulation of landed wealth, a structural counterweight to the papal monarchy that Morris traces from the eleventh century forward.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "bartlett_making_of_europe_1993",
+      "morris_papal_monarchy_1989"
+    ],
+    "confidence": "low"
+  }
+}

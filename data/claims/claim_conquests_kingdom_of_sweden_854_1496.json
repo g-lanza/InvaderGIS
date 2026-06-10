@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_kingdom_of_sweden_854_1496",
+  "statement": "Kingdom of Sweden — campaigns and battles spanned 854–1496, from Swedish expedition to Courland to Assault on Ivangorod.",
+  "subject_ids": [
+    "kingdom_of_sweden"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_kingdom_of_sweden_854_1496",
+  "period": {
+    "from": 854,
+    "to": 1496
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_medieval_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

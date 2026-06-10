@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_badon_500",
+  "name": "Battle of Badon",
+  "subtype": "battle",
+  "start_year": 500,
+  "end_year": 500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q595320"
+    }
+  },
+  "description": "Battle during Anglo-Saxon settlement of England (500)",
+  "coords": [
+    -2.36,
+    51.38
+  ]
+}

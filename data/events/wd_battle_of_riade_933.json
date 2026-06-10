@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_riade_933",
+  "name": "Battle of Riade",
+  "year": 933,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    49.0475,
+    14.8215
+  ],
+  "entity": "east_francia",
+  "summary": "Battle of Riade (933 CE), at Central Germany (part of Hungarian invasions of Europe). Source: Wikidata Q164697.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "east_francia",
+      "magyars"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

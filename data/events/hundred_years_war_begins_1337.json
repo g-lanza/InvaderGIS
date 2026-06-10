@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "hundred_years_war_begins_1337",
+  "name": "Outbreak of the Hundred Years War",
+  "year": 1337,
+  "type": "conflict",
+  "category": "violence",
+  "coords": [
+    49.443,
+    1.099
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "The Hundred Years War began in 1337 when Philip VI of France confiscated the English Duchy of Gascony and Edward III of England responded by claiming the French throne (through his mother Isabella). The war grew from a feudal dispute over Gascony into a contest over French sovereignty itself. Over 116 years it transformed both kingdoms: France developed a professional army and national identity; England's defeat produced the Wars of the Roses.",
+  "outcomes": [
+    "Edward III claims French throne",
+    "Philip VI confiscates Gascony",
+    "French succession dispute becomes full war",
+    "England and France at war intermittently until 1453"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "kingdom_of_france"
+    ],
+    "structural_significance": "The defining conflict of late medieval Western Europe; it created the conditions for French national monarchy and contributed to the political instability that produced the Tudor and Valois dynasties.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sumption_hundred_1990",
+      "Allmand, The Hundred Years War"
+    ],
+    "confidence": "low"
+  }
+}

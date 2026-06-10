@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_dutchy_of_benevento_1053_c01",
+  "statement": "At the Battle of Civitate in 1053, Norman adventurers defeated a coalition including Pope Leo IX, marking the decisive turning point for Norman power in southern Italy.",
+  "subject_ids": [
+    "duchy_of_benevento"
+  ],
+  "period": {
+    "from": 1053,
+    "to": 1053
+  },
+  "derived_from": "dutchy_of_benevento_1053",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

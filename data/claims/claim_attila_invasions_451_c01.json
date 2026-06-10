@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_attila_invasions_451_c01",
+  "statement": "Attila the Hun's invasion of Gaul was halted at the Battle of the Catalaunian Fields in 451 by a Roman-Visigoth coalition under Aetius.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 451,
+    "to": 451
+  },
+  "derived_from": "attila_invasions_451",
+  "unresolved_sources": [
+    "treadgold_a_1997",
+    "kazhdan_the_1991"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "haldon_byzantium_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

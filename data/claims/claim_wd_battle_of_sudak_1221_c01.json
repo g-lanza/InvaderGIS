@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_sudak_1221_c01",
+  "statement": "Battle of Sudak (1221 CE), at Sudak (part of Byzantine–Seljuq Wars).",
+  "subject_ids": [
+    "empire_of_trebizond"
+  ],
+  "period": {
+    "from": 1221,
+    "to": 1221
+  },
+  "derived_from": "wd_battle_of_sudak_1221",
+  "unresolved_sources": [
+    "eastmond_art_2004"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "miller_trebizond_1926"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

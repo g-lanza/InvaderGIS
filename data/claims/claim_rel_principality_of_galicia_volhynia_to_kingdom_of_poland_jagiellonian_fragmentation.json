@@ -1,0 +1,30 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_principality_of_galicia_volhynia_to_kingdom_of_poland_jagiellonian_fragmentation",
+  "statement": "Derived from predecessor/successor links recorded in the principality_of_galicia_volhynia and kingdom_of_poland_jagiellonian entity records. Transition anchored to kingdom_of_poland_jagiellonian start_year.",
+  "subject_ids": [
+    "principality_of_galicia_volhynia",
+    "kingdom_of_poland_jagiellonian"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_principality_of_galicia_volhynia_to_kingdom_of_poland_jagiellonian_fragmentation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dimnik_the_1994",
+      "magocsi_a_2010",
+      "davies_gods_1981",
+      "lukowski_a_2001"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "kingdom_of_poland_jagiellonian"
+  ],
+  "period": {
+    "from": 1385,
+    "to": 1385
+  }
+}

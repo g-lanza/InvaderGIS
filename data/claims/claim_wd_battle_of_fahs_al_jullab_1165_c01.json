@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_fahs_al_jullab_1165_c01",
+  "statement": "Battle of Fahs al-Jullab (1165 CE), at Alhama de Murcia (part of Almohad wars in the Iberian Peninsula).",
+  "subject_ids": [
+    "almohad_caliphate_iberia"
+  ],
+  "period": {
+    "from": 1165,
+    "to": 1165
+  },
+  "derived_from": "wd_battle_of_fahs_al_jullab_1165",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_kingdoms_2018",
+      "o'callaghan_reconquest_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

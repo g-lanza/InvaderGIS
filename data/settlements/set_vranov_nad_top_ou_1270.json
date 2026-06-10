@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_vranov_nad_top_ou_1270",
+  "name": "Vranov nad Topľou",
+  "importance": "city",
+  "start_year": 1270,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q842005"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    21.6731,
+    48.8806
+  ]
+}

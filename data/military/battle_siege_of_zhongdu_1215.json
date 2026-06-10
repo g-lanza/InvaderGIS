@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_siege_of_zhongdu_1215",
+  "name": "Siege of Zhongdu",
+  "subtype": "battle",
+  "start_year": 1215,
+  "end_year": 1215,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q954923"
+    }
+  },
+  "description": "Battle during Mongol conquest of the Jin dynasty (1215)",
+  "coords": [
+    116.3914,
+    39.905
+  ]
+}

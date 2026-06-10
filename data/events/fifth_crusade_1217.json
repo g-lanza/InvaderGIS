@@ -1,0 +1,46 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "fifth_crusade_1217",
+  "name": "Fifth Crusade",
+  "year": 1217,
+  "type": "crusade",
+  "category": "violence",
+  "coords": [
+    31.42,
+    31.82
+  ],
+  "entity": "kingdom_of_jerusalem",
+  "summary": "Pope Honorius III's crusade adopts a new strategic logic: capture Egypt rather than attack Jerusalem directly, cutting off the Ayyubid heartland. Crusaders under the papal legate Pelagius and Andrew II of Hungary besiege and capture the port of Damietta in 1219 after a prolonged siege. Sultan al-Kamil offers to exchange Damietta for Jerusalem, but Pelagius refuses in expectation of promised Hohenstaufen reinforcements (which never arrive). The crusading army then marches toward Cairo in the Nile flood season, becomes trapped between the river and the Ayyubid army, and negotiates a humiliating withdrawal.",
+  "outcomes": [
+    "damietta_captured",
+    "crusade_fails_to_advance",
+    "egypt_strategy_abandoned"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_jerusalem",
+      "kingdom_of_hungary",
+      "kingdom_of_cyprus",
+      "papal_states",
+      "ayyubid_sultanate"
+    ],
+    "structural_significance": "Establishes the Egypt-first strategic doctrine that defines subsequent crusades; al-Kamil's peace offer, Jerusalem for Damietta, represents the closest the Crusaders come to reacquiring Jerusalem by negotiation; Francis of Assisi's famous meeting with al-Kamil during the siege marks a moment of cross-cultural dialogue; Frederick II's later peaceful acquisition of Jerusalem (1229) follows the same diplomatic logic",
+    "year_range": [
+      1217,
+      1221
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

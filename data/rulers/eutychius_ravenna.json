@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "eutychius_ravenna",
+  "name": "Eutychius",
+  "polity": "exarchate_of_ravenna",
+  "title": "ruler",
+  "reign_start": 727,
+  "reign_end": 751,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "exarchate_of_ravenna",
+        "role": "ruler",
+        "start_year": 727,
+        "end_year": 751
+      }
+    ],
+    "key_actions": [],
+    "region": "italy",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

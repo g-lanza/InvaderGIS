@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_kingdom_of_connacht_1014_c02",
+  "statement": "The death of High King Brian Boru at Clontarf in 1014 prevented any single king from dominating Ireland again.",
+  "subject_ids": [
+    "kingdom_of_connacht"
+  ],
+  "period": {
+    "from": 1014,
+    "to": 1014
+  },
+  "derived_from": "kingdom_of_connacht_1014",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

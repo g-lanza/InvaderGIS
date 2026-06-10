@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_aragon_castile",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "crown_of_aragon",
+      "role": "principal"
+    },
+    {
+      "entity_id": "crown_of_castile",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "personal_union",
+  "since": 1469,
+  "until": 1500,
+  "note": "The marriage of Ferdinand of Aragon and Isabella of Castile (October 19, 1469) created the personal union that became the basis of the Spanish monarchy. The union preserved the separate institutions of each kingdom — separate Cortes, separate laws, separate currencies — while presenting a united front in foreign policy and the Reconquista. The complementarity was crucial: Castile provided the military manpower and Meseta resources; Aragon the Mediterranean naval experience and Italian connections. Together they conquered Granada (1492), commissioned Columbus's voyages, and established the Spanish overseas empire.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Ferdinand-Isabella union creates the Spanish monarchy that becomes the first global empire; the institutional duality of Castile and Aragon within the union — preserved even after 1492 — shapes Spanish governance for two centuries; the Reconquista's completion and Columbus's voyage occur within the same year as direct consequences of the unified crown"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "o'callaghan_a_1975",
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

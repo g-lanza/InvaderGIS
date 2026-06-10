@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_partitio_terrarum_imperii_romaniae_1204_c01",
+  "statement": "Partitio terrarum imperii Romaniae (1204 CE), at Constantinople.",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1204,
+    "to": 1204
+  },
+  "derived_from": "wd_partitio_terrarum_imperii_romaniae_1204",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_una_1483_c01",
+  "statement": "Battle of Una (1483 CE), at Novi Grad (part of Ottoman Wars in Europe).",
+  "subject_ids": [
+    "ottoman_empire"
+  ],
+  "period": {
+    "from": 1483,
+    "to": 1483
+  },
+  "derived_from": "wd_battle_of_una_1483",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

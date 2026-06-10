@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_c_rdoba_1146",
+  "name": "Siege of Córdoba",
+  "year": 1146,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.8,
+    -4.8
+  ],
+  "entity": "almoravid_emirate_iberia",
+  "summary": "Siege of Córdoba (1146 CE), at Córdoba (part of Andalusi revolt against the Almoravids). Source: Wikidata Q131459792.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "almoravid_emirate_iberia",
+      "kingdom_of_leon"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_the_2004",
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

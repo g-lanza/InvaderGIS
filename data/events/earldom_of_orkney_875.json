@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "earldom_of_orkney_875",
+  "name": "Norse Settlement of Orkney",
+  "year": 875,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    59,
+    -3
+  ],
+  "entity": "earldom_of_orkney",
+  "summary": "Norwegian Norse settlers, led by Rognvald Eysteinsson, established control over Orkney around 875 CE during Harald Fairhair's unification of Norway. The Pictish population was displaced or absorbed, and Orkney became a Norse earldom that served as a base for raids and settlement across the British Isles.",
+  "outcomes": [
+    "norse_colonisation",
+    "pictish_displacement",
+    "norsemen_established"
+  ],
+  "_quarry": {
+    "participants": [
+      "earldom_of_orkney"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_dera_ghazi_khan_1474",
+  "name": "Dera Ghazi Khan",
+  "importance": "city",
+  "start_year": 1474,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q999076"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    70.6333,
+    30.05
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_almod_var_del_r_o_1091_c02",
+  "statement": "The Battle of Almodóvar del Río took place at Almodóvar del Río.",
+  "subject_ids": [
+    "almoravid_emirate_iberia"
+  ],
+  "period": {
+    "from": 1091,
+    "to": 1091
+  },
+  "derived_from": "wd_battle_of_almod_var_del_r_o_1091",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_the_2004",
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

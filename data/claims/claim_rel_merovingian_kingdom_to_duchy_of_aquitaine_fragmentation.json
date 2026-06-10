@@ -1,0 +1,30 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_merovingian_kingdom_to_duchy_of_aquitaine_fragmentation",
+  "statement": "Derived from predecessor/successor links recorded in the merovingian_kingdom and duchy_of_aquitaine entity records. Transition anchored to duchy_of_aquitaine start_year.",
+  "subject_ids": [
+    "merovingian_kingdom",
+    "duchy_of_aquitaine"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_merovingian_kingdom_to_duchy_of_aquitaine_fragmentation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wood_the_1994",
+      "geary_before_1988",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "duchy_of_aquitaine"
+  ],
+  "period": {
+    "from": 781,
+    "to": 781
+  }
+}

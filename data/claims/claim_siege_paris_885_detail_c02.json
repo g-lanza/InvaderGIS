@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_siege_paris_885_detail_c02",
+  "statement": "Count Odo of Paris organized a defense that held the two stone bridges, blocking the Viking advance up the Seine.",
+  "subject_ids": [
+    "west_francia"
+  ],
+  "period": {
+    "from": 885,
+    "to": 885
+  },
+  "derived_from": "siege_paris_885_detail",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

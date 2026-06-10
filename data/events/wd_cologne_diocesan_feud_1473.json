@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_cologne_diocesan_feud_1473",
+  "name": "Cologne Diocesan Feud",
+  "year": 1473,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    48.65,
+    7.75
+  ],
+  "entity": "duchy_of_burgundy",
+  "summary": "Cologne Diocesan Feud (1473 CE). Source: Wikidata Q727922.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "duchy_of_burgundy",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

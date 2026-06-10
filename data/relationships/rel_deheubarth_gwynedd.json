@@ -1,0 +1,35 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_deheubarth_gwynedd",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_deheubarth",
+      "role": "principal"
+    },
+    {
+      "entity_id": "kingdom_of_gwynedd",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 920,
+  "until": 1216,
+  "note": "Deheubarth (southwest Wales) and Gwynedd (northwest Wales) competed and cooperated as the two most powerful Welsh kingdoms throughout the 10th–13th centuries. The most successful ruler of both — Llywelyn Fawr (Llywelyn the Great, 1195–1240) — united nearly all of Wales under Gwynedd's leadership, forcing English recognition in the Treaty of Worcester (1218). His grandson Llywelyn ap Gruffudd (Llywelyn the Last) achieved formal English recognition as Prince of Wales (1267), only to lose it after Edward I's conquest (1282–1283). The Deheubarth-Gwynedd rivalry was thus absorbed into the Welsh resistance to English conquest.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Gwynedd-Deheubarth political competition creates the framework for Welsh political consolidation; Llywelyn Fawr's unification under Gwynedd achieves the most effective Welsh resistance to English pressure; the failure of Llywelyn ap Gruffudd's principality demonstrates that the resources of England and Wales are too asymmetric for sustained Welsh independence"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

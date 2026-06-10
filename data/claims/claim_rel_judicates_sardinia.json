@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_judicates_sardinia",
+  "statement": "Medieval Sardinia was divided into four indigenous 'giudicati' (judgeships) — Cagliari, Arborea, Torres (Logudoro), and Gallura — autonomous states that developed after the breakdown of Byzantine control (9th–10th centuries). The giudicati maintained their independence through shifting alliances with Genoa, Pisa, and the papacy while resisting outside absorption. The Church played a crucial role through the 'regnum Sardiniae et Corsicae' papal grant (1297 to Aragon); the Giudicato of Arborea — the last native Sardinian state — resisted Aragonese conquest until 1420, led by the remarkable Eleonora d'Arborea, who codified Sardinian law in the Carta de Logu (c. 1395).",
+  "subject_ids": [
+    "judicate_of_arborea",
+    "judicate_of_cagliari"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_judicates_sardinia",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1000,
+    "to": 1258
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "frederick_barbarossa_italy_1158",
+  "name": "Frederick Barbarossa and the Italian Cities",
+  "year": 1158,
+  "type": "conflict",
+  "category": "violence",
+  "coords": [
+    45.464,
+    9.19
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Frederick I Barbarossa made six Italian campaigns to reassert imperial control over the prosperous Lombard cities. His Diet of Roncaglia (1158) claimed all regalia, rights of taxation, coinage, and appointment, for the crown. The cities responded by forming the Lombard League. Defeated at Legnano in 1176, Barbarossa negotiated the Peace of Constance (1183), granting the cities effective self-governance in exchange for nominal imperial overlordship.",
+  "outcomes": [
+    "Diet of Roncaglia 1158 asserts imperial sovereignty",
+    "Lombard League formed 1167",
+    "Battle of Legnano 1176 defeats Barbarossa",
+    "Peace of Constance 1183 grants city autonomy"
+  ],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "commune_of_milan"
+    ],
+    "structural_significance": "The conflict permanently established the independence of the Italian communes; demonstrated that collective urban resistance could defeat imperial military power.",
+    "year_range": [
+      1154,
+      1183
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Munz, Frederick Barbarossa",
+      "Jones, The Italian City-State"
+    ],
+    "confidence": "low"
+  }
+}

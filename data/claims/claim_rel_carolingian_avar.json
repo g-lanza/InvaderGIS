@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_carolingian_avar",
+  "statement": "Charlemagne's Avar Wars (788–796) eliminated the Avar Khaganate, which had dominated the Pannonian Plain (modern Hungary) for 200 years and had repeatedly devastated the Balkans and extorted tribute from Byzantium. The destruction of the Avar 'Ring' fortresses and the capture of the enormous Avar treasure (accumulated Byzantine tribute — reportedly nine wagonloads of gold) was the richest single windfall of the Carolingian era. The Avar population disappeared rapidly; their territory was organized as the Eastern March (Ostmark), precursor to Austria. Slavic populations moved into the Avar's former territory.",
+  "subject_ids": [
+    "carolingian_empire",
+    "avar_khaganate"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_carolingian_avar",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "mckitterick_charlemagne_2008",
+      "riché_the_1993",
+      "nelson_king_2019",
+      "morgan_the_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 788,
+    "to": 803
+  }
+}

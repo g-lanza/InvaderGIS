@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_isly_1250",
+  "name": "Battle of Isly",
+  "year": 1250,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    33.9,
+    -5.5
+  ],
+  "entity": "marinid_dynasty",
+  "summary": "Battle of Isly (1250 CE), (part of Marinid–Zayyanid Wars). Source: Wikidata Q111207483.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "marinid_dynasty"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "abun-nasr_a_1987",
+      "messier_the_2010"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

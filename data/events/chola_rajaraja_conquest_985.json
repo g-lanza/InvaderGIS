@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "chola_rajaraja_conquest_985",
+  "name": "Rajaraja I, Chola Imperial Expansion",
+  "year": 1000,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    7.781,
+    80.564
+  ],
+  "entity": "chola_state",
+  "summary": "Rajaraja I (r. 985-1014) conquered Sri Lanka, the Maldives, and parts of the Kerala coast, creating the greatest Chola empire. He commissioned the magnificent Brihadeeswarar Temple at Thanjavur (1010), the largest temple of its era.",
+  "outcomes": [
+    "sri_lanka_conquered",
+    "chola_maritime_dominance",
+    "brihadeeswarar_temple"
+  ],
+  "_quarry": {
+    "participants": [
+      "chola_state"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

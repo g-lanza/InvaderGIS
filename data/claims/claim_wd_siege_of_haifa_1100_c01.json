@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_haifa_1100_c01",
+  "statement": "Siege of Haifa (1100 CE), at Haifa (part of Venetian expedition to the Levant).",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1100,
+    "to": 1100
+  },
+  "derived_from": "wd_siege_of_haifa_1100",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

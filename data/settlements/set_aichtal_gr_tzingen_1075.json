@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_aichtal_gr_tzingen_1075",
+  "name": "Aichtal-Grötzingen",
+  "importance": "city",
+  "start_year": 1075,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q112195533"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    9.265,
+    48.626
+  ]
+}

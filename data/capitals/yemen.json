@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "yemen",
+  "name": "Sanaa",
+  "entity_id": "yemen",
+  "entity_name": "Yemen",
+  "start_year": 819,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q805"
+    }
+  },
+  "coords": [
+    44.2,
+    15.35
+  ]
+}

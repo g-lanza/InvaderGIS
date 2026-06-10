@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "takrur_war_jabi_islamisation_1040",
+  "name": "War Jabi Converts Takrur to Islam",
+  "year": 1040,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    15.302,
+    -15.044
+  ],
+  "entity": "takrur",
+  "summary": "War Jabi became the first West African king to adopt Islam as state religion and impose it on his subjects. He allied with the Almoravids and participated in their campaigns, making Takrur the first Islamic state in sub-Saharan Africa.",
+  "outcomes": [
+    "first_west_african_kingdom_islam",
+    "almoravid_alliance",
+    "jihad_expansion"
+  ],
+  "_quarry": {
+    "participants": [
+      "takrur"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

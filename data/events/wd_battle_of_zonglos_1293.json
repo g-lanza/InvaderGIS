@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_zonglos_1293",
+  "name": "Battle of Zonglos",
+  "year": 1293,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.75,
+    11.45
+  ],
+  "entity": "crown_of_aragon",
+  "summary": "Battle of Zonglos (1293 CE), at Pylos. Source: Wikidata Q16331909.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "crown_of_aragon",
+      "principality_of_achaea"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

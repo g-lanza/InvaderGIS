@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_levounion_1091",
+  "name": "Battle of Levounion",
+  "year": 1091,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    43.75,
+    29.45
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Battle of Levounion (1091 CE), at Enez (part of Komnenian restoration). Source: Wikidata Q952260.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "pecheneg_confederation"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

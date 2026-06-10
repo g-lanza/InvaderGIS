@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_serbian_empire_1350_1389",
+  "statement": "Serbian Empire — campaigns and battles spanned 1350–1389, from Bosnian–Serbian War to Battle of Kosovo Polje.",
+  "subject_ids": [
+    "serbian_empire"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_serbian_empire_1350_1389",
+  "period": {
+    "from": 1350,
+    "to": 1389
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fine_the_1987"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_cuman_byzantine",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "cuman_kipchak_confederation",
+      "role": "principal"
+    },
+    {
+      "entity_id": "byzantine_empire",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "alliance",
+  "since": 1100,
+  "until": 1241,
+  "note": "The Cumans (Kipchaks) maintained a complex relationship with Byzantium from the 11th century onward: sometimes raiding Byzantine Thrace, sometimes serving as Byzantine mercenaries, sometimes allied with Bulgarian enemies. Emperor Alexios I Komnenos allied with the Cumans against the Pechenegs at the Battle of Levounion (1091), using Cuman cavalry to destroy the Pecheneg threat. Subsequent Byzantine emperors employed Cuman mercenaries in their armies. The Bulgarian Asen dynasty used Cuman military support to establish the Second Bulgarian Empire (1185); Cuman marriage alliances with the Bulgarian tsars integrated them into Balkan elite culture.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Cuman military service to Byzantium demonstrates the recurrent Byzantine strategy of employing steppe nomads against other steppe nomads; the Cumans' integration into Bulgarian court culture through marriage alliances shows how steppe peoples could be absorbed into sedentary political structures; the Mongol conquest eliminates the Cumans as an independent force after 1241"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999",
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

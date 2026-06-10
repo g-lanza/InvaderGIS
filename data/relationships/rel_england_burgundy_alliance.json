@@ -1,0 +1,39 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_england_burgundy_alliance",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_england",
+      "role": "principal"
+    },
+    {
+      "entity_id": "duchy_of_burgundy",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "alliance",
+  "since": 1419,
+  "until": 1435,
+  "note": "England and Burgundy maintained a close alliance during the critical phase of the Hundred Years' War (1419–1435), following the Burgundian-English Treaty of Troyes (1420) that made Henry V heir to France. Philip the Good's alliance with England after the murder of his father John the Fearless (allegedly organized by the Dauphin, future Charles VII) at Montereau (1419) gave England the crucial French partnership that produced the Treaty of Troyes. The alliance held as long as Philip's personal grievance motivated it; the Congress of Arras (1435) reconciled Burgundy and France, decisively undermining the English position and beginning the final phase of French recovery.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Burgundian-English alliance is the decisive factor in Henry V's near-conquest of France; without Burgundian cooperation, the Treaty of Troyes would have been impossible; the reconciliation at Arras (1435) is the turning point that makes French recovery under Charles VII possible; Philip the Good's choice of French over English alliance ultimately determines the outcome of the Hundred Years' War"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

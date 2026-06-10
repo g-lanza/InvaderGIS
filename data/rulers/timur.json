@@ -1,0 +1,56 @@
+{
+ "kind": "ruler",
+ "dataset": "medieval-europe-500-1500",
+ "id": "timur",
+ "name": "Tīmūr",
+ "polity": "timurid_empire",
+ "title": "emir",
+ "reign_start": 1370,
+ "reign_end": 1405,
+ "_quarry": {
+  "lifespan": {
+   "birth_year": 1336,
+   "death_year": 1405
+  },
+  "entity_associations": [
+   {
+    "entity_id": "timurid_empire",
+    "role": "emir",
+    "start_year": 1370,
+    "end_year": 1405
+   }
+  ],
+  "key_actions": [
+   {
+    "year": 1370,
+    "summary": "Takes Balkh and is proclaimed Emir at Samarkand, claiming legitimacy through marriage to a Chinggisid princess (the source of his title gurkan, 'son-in-law').",
+    "source_id": "morgan_mongols_2007"
+   },
+   {
+    "year": 1398,
+    "summary": "Sacks Delhi after defeating the Tughluq sultan Mahmud II at the Battle of Delhi.",
+    "source_id": "morgan_mongols_2007"
+   },
+   {
+    "year": 1402,
+    "summary": "Defeats the Ottoman sultan Bayezid I at the Battle of Ankara (28 July), capturing Bayezid himself and arresting Ottoman expansion for half a century.",
+    "source_id": "morgan_mongols_2007"
+   }
+  ],
+  "region": "central_asia",
+  "name_variants": [
+   "Tamerlane",
+   "Timur-i Lang",
+   "Timur the Lame"
+  ]
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "morgan_mongols_2007",
+   "ims_fordham",
+   "ims_fordham_sbook1d"
+  ],
+  "confidence": "low"
+ }
+}

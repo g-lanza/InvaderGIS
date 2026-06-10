@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_galicia_1230",
+  "name": "Galicia Absorbed into Castile-León",
+  "year": 1230,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    42.74,
+    -7.075
+  ],
+  "entity": "kingdom_of_galicia",
+  "summary": "The union of Castile and León in 1230 under Ferdinand III permanently incorporated Galicia as a province rather than a kingdom. Though Santiago de Compostela retained its ecclesiastical importance, Galicia's political distinctiveness was subordinated to the broader Castilian-Leonese state.",
+  "outcomes": [
+    "separate_kingdom_ends",
+    "compostellan_independence_lost",
+    "iberian_consolidation"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_galicia",
+      "kingdom_of_leon"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

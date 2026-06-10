@@ -1,0 +1,41 @@
+{
+  "kind": "institution",
+  "dataset": "medieval-europe-500-1500",
+  "id": "madrasa_system",
+  "name_primary": "Madrasa System",
+  "domain": "educational_institution",
+  "formed": 1065,
+  "dissolved": 1500,
+  "_quarry": {
+    "key_developments": [
+      {
+        "year": 1065,
+        "event": "Nizamiyya of Baghdad founded by Nizam al-Mulk."
+      },
+      {
+        "year": 1234,
+        "event": "Mustansiriyya Madrasa in Baghdad — first to combine all four Sunni law schools."
+      },
+      {
+        "year": 1295,
+        "event": "Ghazan Khan establishes major madrasas in Mongol Iran."
+      },
+      {
+        "year": 1356,
+        "event": "Sultan Hasan's vast madrasa-mosque complex completed in Cairo."
+      }
+    ],
+    "influences_entities": [
+      "abbasid_caliphate",
+      "seljuk_sultanate",
+      "ayyubid_sultanate",
+      "fatimid_caliphate"
+    ],
+    "description": "Endowed Islamic colleges of higher learning, distinct from informal mosque-school teaching circles, formalised under Seljuk vizier Nizam al-Mulk with the Nizamiyya at Baghdad (1065). Madrasas systematised the curriculum of fiqh (Islamic jurisprudence), Qur'anic sciences, theology, and Arabic grammar. They spread rapidly through the central Islamic lands and became the institutional backbone of Sunni religious scholarship through the Mamluk and Ottoman periods."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

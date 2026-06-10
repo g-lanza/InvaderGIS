@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "hafsid_sultanate_1270",
+  "name": "Louis IX Dies at Tunis",
+  "year": 1270,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    36.8,
+    10.2
+  ],
+  "entity": "hafsid_sultanate",
+  "summary": "The Eighth Crusade, led by Louis IX of France, was directed against the Hafsid sultanate in 1270. Louis died of disease at Tunis before significant military operations, ending the crusade. The Hafsids emerged with their prestige enhanced and secured favourable trade agreements with European powers.",
+  "outcomes": [
+    "eighth_crusade",
+    "crusade_repulsed",
+    "hafsid_legitimacy"
+  ],
+  "_quarry": {
+    "participants": [
+      "hafsid_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "abun-nasr_a_1987",
+      "khaldun_the_1958"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

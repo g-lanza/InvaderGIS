@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_black_death_1347_c01",
+  "statement": "Bubonic plague arrived in Europe in 1347 via Genoese trading ships from Caffa in the Crimea.",
+  "subject_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 1347,
+    "to": 1347
+  },
+  "derived_from": "black_death_1347",
+  "unresolved_sources": [
+    "jordan_france_2004"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

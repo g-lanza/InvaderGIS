@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "karbala_680",
+  "name": "Battle and martyrdom at Karbala",
+  "year": 680,
+  "type": "religious",
+  "category": "religion",
+  "coords": [
+    32.6149,
+    44.0249
+  ],
+  "entity": "umayyad_caliphate",
+  "summary": "On 10 Muharram 61 AH (10 October 680) the Umayyad caliph Yazid I's forces under Umar ibn Sa'd surrounded and killed Husayn ibn Ali, grandson of the Prophet Muhammad, together with his small armed party on the plain of Karbala in southern Iraq. Husayn had refused to acknowledge Yazid's caliphate and was journeying toward Kufa when intercepted.",
+  "outcomes": [
+    "husayn_killed",
+    "shia_identity_consolidated"
+  ],
+  "_quarry": {
+    "participants": [
+      "umayyad_caliphate"
+    ],
+    "structural_significance": "Became the central commemorative event of Shi'i Islam, the day of Ashura, and the historical kernel around which Shi'i communal identity and the early Imami genealogical claims were articulated, hardening the political-religious schism that had opened at Siffin a generation earlier.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "hodgson_venture_of_islam_1974"
+    ],
+    "confidence": "low"
+  }
+}

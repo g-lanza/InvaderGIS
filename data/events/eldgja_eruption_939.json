@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "eldgja_eruption_939",
+  "name": "Eldgjá fissure eruption",
+  "year": 939,
+  "type": "earthquake",
+  "category": "hazard",
+  "coords": [
+    63.967,
+    -18.6
+  ],
+  "entity": "iceland_commonwealth",
+  "summary": "A VEI-6 basaltic fissure eruption at Eldgjá in southern Iceland, the largest effusive eruption of the past 1,500 years, releases ~219 megatonnes of SO₂. Chronicle reports of darkened skies and cold winters across Europe and the Mediterranean coincide with the eruption window.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "iceland_commonwealth"
+    ],
+    "structural_significance": "Documented climatic forcing event coinciding with reported famine and political crisis in mid-10th-century Europe; appears to have prompted Christianisation pressure on still-pagan Iceland.",
+    "year_range": [
+      939,
+      940
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "campbell_great_transition_2016"
+    ],
+    "confidence": "low"
+  }
+}

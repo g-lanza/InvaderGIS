@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_livonian_order_state_1198_1443",
+  "statement": "Livonian Confederation — campaigns and battles spanned 1198–1443, from Livonian Crusade to Novgorod-Livonian War.",
+  "subject_ids": [
+    "livonian_order_state"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_livonian_order_state_1198_1443",
+  "period": {
+    "from": 1198,
+    "to": 1443
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_hospitallers_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

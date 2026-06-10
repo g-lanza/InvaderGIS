@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_kaidu_kublai_war_1268_c01",
+  "statement": "Kaidu–Kublai War (1268 CE), at People's Republic of China (part of division of the Mongol Empire).",
+  "subject_ids": [
+    "golden_horde"
+  ],
+  "period": {
+    "from": 1268,
+    "to": 1268
+  },
+  "derived_from": "wd_kaidu_kublai_war_1268",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "allsen_mongol_1987"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

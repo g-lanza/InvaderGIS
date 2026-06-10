@@ -1,0 +1,557 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "nan_chao",
+  "name_primary": "Nanzhao Kingdom",
+  "name_variants": [
+    "Nan Chao"
+  ],
+  "type": "kingdom",
+  "region": "east_asia",
+  "formed": 738,
+  "dissolved": 902,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 800,
+      "label": "Nanzhao",
+      "polygon": [
+        [
+          24.89,
+          102.42
+        ],
+        [
+          26.38,
+          104.04
+        ],
+        [
+          26.04,
+          104.84
+        ],
+        [
+          26.04,
+          105.3
+        ],
+        [
+          26.61,
+          106.22
+        ],
+        [
+          26.15,
+          108.75
+        ],
+        [
+          24.31,
+          108.29
+        ],
+        [
+          23.85,
+          108.52
+        ],
+        [
+          23.16,
+          108.41
+        ],
+        [
+          21.9,
+          105.76
+        ],
+        [
+          20.28,
+          104.61
+        ],
+        [
+          19.48,
+          104.37
+        ],
+        [
+          19.82,
+          102.08
+        ],
+        [
+          19.48,
+          100.7
+        ],
+        [
+          20.17,
+          100.12
+        ],
+        [
+          20.74,
+          100.35
+        ],
+        [
+          22.59,
+          101.96
+        ],
+        [
+          24.89,
+          102.42
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    23.1642,
+    104.5818
+  ],
+  "population_estimates": [
+    {
+      "year": 800,
+      "estimate": 1500000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1045322",
+          "url": "https://www.wikidata.org/wiki/Q1045322",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Nan Chao",
+          "url": "https://en.wikipedia.org/wiki/Nanzhao"
+        }
+      ]
+    },
+    {
+      "year": 850,
+      "estimate": 1750000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1045322",
+          "url": "https://www.wikidata.org/wiki/Q1045322",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Nan Chao",
+          "url": "https://en.wikipedia.org/wiki/Nanzhao"
+        }
+      ]
+    },
+    {
+      "year": 900,
+      "estimate": 2000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1045322",
+          "url": "https://www.wikidata.org/wiki/Q1045322",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Nan Chao",
+          "url": "https://en.wikipedia.org/wiki/Nanzhao"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Kingdom of Nanzhao (738–902) in present-day Yunnan, founded by Piluoge who unified six southern Zhao kingdoms; positioned between Tang China and Tibet, Nanzhao alternately allied with each while maintaining independence, defeating Tang armies at the Battle of Tali (754) and absorbing Buddhist and Tang cultural influences; it was replaced by the Kingdom of Dali which maintained similar independence until Mongol conquest (1253).",
+  "temporal": {
+    "start_year": 738,
+    "end_year": 902,
+    "notes": ""
+  },
+  "geographic": {
+    "centroid": [
+      23.1642,
+      104.5818
+    ],
+    "polygon_simplified": [
+      [
+        24.89,
+        102.42
+      ],
+      [
+        26.38,
+        104.04
+      ],
+      [
+        26.04,
+        104.84
+      ],
+      [
+        26.04,
+        105.3
+      ],
+      [
+        26.61,
+        106.22
+      ],
+      [
+        26.15,
+        108.75
+      ],
+      [
+        24.31,
+        108.29
+      ],
+      [
+        23.85,
+        108.52
+      ],
+      [
+        23.16,
+        108.41
+      ],
+      [
+        21.9,
+        105.76
+      ],
+      [
+        20.28,
+        104.61
+      ],
+      [
+        19.48,
+        104.37
+      ],
+      [
+        19.82,
+        102.08
+      ],
+      [
+        19.48,
+        100.7
+      ],
+      [
+        20.17,
+        100.12
+      ],
+      [
+        20.74,
+        100.35
+      ],
+      [
+        22.59,
+        101.96
+      ],
+      [
+        24.89,
+        102.42
+      ]
+    ],
+    "capital": {
+      "name": "Dali",
+      "coords": [
+        25.68111,
+        100.30028
+      ],
+      "source": "wikidata"
+    },
+    "polygon_snapshots": [
+      {
+        "year": 800,
+        "label": "Nanzhao",
+        "polygon": [
+          [
+            24.89,
+            102.42
+          ],
+          [
+            26.38,
+            104.04
+          ],
+          [
+            26.04,
+            104.84
+          ],
+          [
+            26.04,
+            105.3
+          ],
+          [
+            26.61,
+            106.22
+          ],
+          [
+            26.15,
+            108.75
+          ],
+          [
+            24.31,
+            108.29
+          ],
+          [
+            23.85,
+            108.52
+          ],
+          [
+            23.16,
+            108.41
+          ],
+          [
+            21.9,
+            105.76
+          ],
+          [
+            20.28,
+            104.61
+          ],
+          [
+            19.48,
+            104.37
+          ],
+          [
+            19.82,
+            102.08
+          ],
+          [
+            19.48,
+            100.7
+          ],
+          [
+            20.17,
+            100.12
+          ],
+          [
+            20.74,
+            100.35
+          ],
+          [
+            22.59,
+            101.96
+          ],
+          [
+            24.89,
+            102.42
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "real_historical_boundary",
+    "polygon_source": "aourednik/historical-basemaps",
+    "polygon_source_date": "2026-05-09"
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "formation",
+      "years": "738–754",
+      "description": "Piluoge unifies six southern Zhao kingdoms with Tang support; Nanzhao kingdom established at Taihe",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1045322",
+          "url": "https://www.wikidata.org/wiki/Q1045322"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Nan Chao",
+          "url": "https://en.wikipedia.org/wiki/Nanzhao"
+        }
+      ]
+    },
+    {
+      "phase": "peak",
+      "years": "754–870",
+      "description": "Defeats Tang punitive expeditions (754, 763); independent diplomacy between Tang and Tibet; Buddhist culture from both directions adopted",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1045322",
+          "url": "https://www.wikidata.org/wiki/Q1045322"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Nan Chao",
+          "url": "https://en.wikipedia.org/wiki/Nanzhao"
+        }
+      ]
+    },
+    {
+      "phase": "decline",
+      "years": "870–902",
+      "description": "Dali succeeding kingdom weakens before absorption; Tang collapse removes the enemy that gave Nanzhao geopolitical relevance",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1045322",
+          "url": "https://www.wikidata.org/wiki/Q1045322"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Nan Chao",
+          "url": "https://en.wikipedia.org/wiki/Nanzhao"
+        }
+      ]
+    },
+    {
+      "phase": "dissolution",
+      "years": "902–937",
+      "description": "Nanzhao replaced by Great Changhe then Dali Kingdom, which continues its cultural tradition until Mongol conquest in 1253",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1045322",
+          "url": "https://www.wikidata.org/wiki/Q1045322"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Nan Chao",
+          "url": "https://en.wikipedia.org/wiki/Nanzhao"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "geographic_advantage",
+      "layer": "geography_territory",
+      "description": "Yunnan plateau position between Tang China and Tibet allowed Nanzhao to play both powers against each other while controlling the Yunnan trade route to Southeast Asia",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1045322",
+          "url": "https://www.wikidata.org/wiki/Q1045322"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Nan Chao",
+          "url": "https://en.wikipedia.org/wiki/Nanzhao"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "succession_instability",
+      "layer": "dynastic_legitimacy",
+      "description": "Internal coup replaced founding Mengshe dynasty with the Zheng family, weakening legitimacy and ultimately dissolving Nanzhao into its Dali successor state",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1045322",
+          "url": "https://www.wikidata.org/wiki/Q1045322"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Nan Chao",
+          "url": "https://en.wikipedia.org/wiki/Nanzhao"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Piluoge",
+      "role": "ruler",
+      "years": "728–748",
+      "year_start": 728,
+      "year_end": 748,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Piluoge",
+          "url": "https://en.wikipedia.org/wiki/Piluoge"
+        }
+      ]
+    },
+    {
+      "name": "Geluofeng",
+      "role": "ruler",
+      "years": "748–779",
+      "year_start": 748,
+      "year_end": 779,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Geluofeng",
+          "url": "https://en.wikipedia.org/wiki/Geluofeng"
+        }
+      ]
+    },
+    {
+      "name": "Yimouxun",
+      "role": "ruler",
+      "years": "779–809",
+      "year_start": 779,
+      "year_end": 809,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Yimouxun",
+          "url": "https://en.wikipedia.org/wiki/Yimouxun"
+        }
+      ]
+    },
+    {
+      "name": "Shijiayi",
+      "role": "ruler",
+      "years": "902–937",
+      "year_start": 902,
+      "year_end": 937,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Shijiayi",
+          "url": "https://en.wikipedia.org/wiki/Shijiayi"
+        }
+      ]
+    }
+  ],
+  "successor_entity_ids": [
+    "dali_kingdom"
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "long_distance_trade",
+      "silver_mining",
+      "horse_trade"
+    ],
+    "wealth_level": "moderate",
+    "major_exports": [
+      "horses",
+      "silver",
+      "cotton",
+      "salt"
+    ],
+    "major_trade_partners": [
+      "tang_empire",
+      "tibet",
+      "annam"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "trade_fees",
+      "tribute_from_vassals"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q1045322",
+        "url": "https://www.wikidata.org/wiki/Q1045322"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Nan Chao",
+        "url": "https://en.wikipedia.org/wiki/Nanzhao"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q1045322",
+    "matched_name": "manual/nan_chao",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Nanzhao",
+    "capital": {
+      "name": "Dali",
+      "coords": [
+        25.68111,
+        100.30028
+      ]
+    }
+  },
+  "monogram": "NK"
+}

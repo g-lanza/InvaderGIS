@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_siege_of_saint_jean_d_ang_ly_1351",
+  "name": "Siege of Saint-Jean-d'Angély",
+  "subtype": "battle",
+  "start_year": 1351,
+  "end_year": 1351,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q3486017"
+    }
+  },
+  "description": "Battle during Hundred Years' War (1351)",
+  "coords": [
+    -0.5211,
+    45.9442
+  ]
+}

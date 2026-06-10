@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_treaty_of_mersen_870_c02",
+  "statement": "By the Treaty of Meerssen (870), East Francia gained Frisia, the lower Rhineland, Alsace, and most of Burgundy.",
+  "subject_ids": [
+    "west_francia"
+  ],
+  "period": {
+    "from": 870,
+    "to": 870
+  },
+  "derived_from": "treaty_of_mersen_870",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_inheritance_of_rome_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

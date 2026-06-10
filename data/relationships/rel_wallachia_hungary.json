@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_wallachia_hungary",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_hungary",
+      "role": "suzerain"
+    },
+    {
+      "entity_id": "principality_of_wallachia",
+      "role": "vassal"
+    }
+  ],
+  "directed": true,
+  "type": "vassalage",
+  "since": 1330,
+  "until": 1500,
+  "note": "Wallachia maintained a complex relationship with the Kingdom of Hungary as a nominal vassal that frequently asserted effective independence. Hungarian kings claimed suzerainty over Wallachia as a buffer against Tatar and later Ottoman pressure; Wallachian voivodes paid tribute and provided military service intermittently. The Battle of Posada (1330) — in which Wallachian Prince Basarab I defeated Charles I of Hungary's invasion force in a mountain ambush — established Wallachian de facto independence. Mircea the Elder maintained a more cooperative relationship with Hungary as a counterbalance to Ottoman pressure, but never accepted permanent Hungarian control.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Battle of Posada (1330) is the founding event of Wallachian independence; the Hungarian-Wallachian relationship models the 'frontier buffer state' dynamic — Hungary needs Wallachia as a defensive zone; Wallachia exploits this need for autonomy while paying nominal tribute"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "engel_the_2001",
+      "berend_at_2001",
+      "deletant_romania_1998",
+      "panaitescu_mircea_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

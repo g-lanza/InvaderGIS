@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_kingdom_of_bosnia_1377_c01",
+  "statement": "Tvrtko I was crowned King of Bosnia in 1377, elevating the territory from a banate to a kingdom.",
+  "subject_ids": [
+    "kingdom_of_bosnia"
+  ],
+  "period": {
+    "from": 1377,
+    "to": 1377
+  },
+  "derived_from": "kingdom_of_bosnia_1377",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fine_the_1987",
+      "imamović_historija_1997"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

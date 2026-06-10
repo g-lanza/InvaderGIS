@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_al_masudi_travels_947_c01",
+  "statement": "The polymath ʿAlī al-Masʿūdī completed Murūj al-Dhahab ('The Meadows of Gold and Mines of Gems'), an encyclopedic universal history and geography in 30 books, around 947.",
+  "subject_ids": [
+    "abbasid_caliphate"
+  ],
+  "period": {
+    "from": 947,
+    "to": 947
+  },
+  "derived_from": "al_masudi_travels_947",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "hourani_arab_peoples_1991",
+      "hodgson_venture_of_islam_1974"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

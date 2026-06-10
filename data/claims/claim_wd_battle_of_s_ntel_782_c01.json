@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_s_ntel_782_c01",
+  "statement": "Battle of Süntel (782 CE), at Süntel (part of Saxon Wars).",
+  "subject_ids": [
+    "merovingian_kingdom"
+  ],
+  "period": {
+    "from": 782,
+    "to": 782
+  },
+  "derived_from": "wd_battle_of_s_ntel_782",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wood_the_1994",
+      "geary_before_1988"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

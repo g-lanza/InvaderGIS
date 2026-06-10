@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "scots_declaration_arbroath_1320",
+  "name": "Declaration of Arbroath, Scottish National Identity",
+  "year": 1320,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    56.36,
+    -2.6
+  ],
+  "entity": "kingdom_of_scotland",
+  "summary": "The Scottish nobility writes the Declaration of Arbroath to Pope John XXII, arguing for Scottish independence and recognition of Robert Bruce as king. The declaration contains the famous statement that even if Bruce himself agreed to English rule, the Scots would choose another king to defend their freedom, 'for it is not for glory, nor riches, nor honours that we fight, but for freedom alone.' The declaration articulates proto-national sentiment in constitutional terms.",
+  "outcomes": [
+    "papal_recognition_sought",
+    "independence_articulated",
+    "national_identity_text"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_scotland",
+      "papal_states"
+    ],
+    "structural_significance": "The Declaration of Arbroath is the earliest clear articulation in Western Europe of popular sovereignty, the idea that a king's legitimacy depends on defending his people's freedom; American revolutionaries and the framers of the US Declaration of Independence are familiar with its arguments; it demonstrates that medieval political thought was not exclusively royalist but could articulate collective rights against monarchy",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "barrell_medieval_2000",
+      "brown_the_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

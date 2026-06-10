@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ibrahim_kazan",
+  "name": "Ibrahim Khan",
+  "polity": "khanate_of_kazan",
+  "title": "ruler",
+  "reign_start": 1467,
+  "reign_end": 1479,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "khanate_of_kazan",
+        "role": "ruler",
+        "start_year": 1467,
+        "end_year": 1479
+      }
+    ],
+    "key_actions": [],
+    "region": "eastern_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

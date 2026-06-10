@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_first_hammadid_expedition_against_the_almoravids_1081_c01",
+  "statement": "First Hammadid expedition against the Almoravids (1081 CE).",
+  "subject_ids": [
+    "almoravid_emirate_iberia"
+  ],
+  "period": {
+    "from": 1081,
+    "to": 1081
+  },
+  "derived_from": "wd_first_hammadid_expedition_against_the_almoravids_1081",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_the_2004",
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

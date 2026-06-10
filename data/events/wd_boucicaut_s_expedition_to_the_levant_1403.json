@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_boucicaut_s_expedition_to_the_levant_1403",
+  "name": "Boucicaut's expedition to the Levant",
+  "year": 1403,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.325,
+    17.7
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Boucicaut's expedition to the Levant (1403 CE), at Levant (part of Crusades). Source: Wikidata Q134238629.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "republic_of_genoa",
+      "knights_hospitaller_rhodes",
+      "mamluk_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

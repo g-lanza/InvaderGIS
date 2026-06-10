@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_ulster_637",
+  "name": "Battle of Moira",
+  "year": 637,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    54.6,
+    -6.65
+  ],
+  "entity": "kingdom_of_ulster",
+  "summary": "The Battle of Moira in 637 CE was one of the largest battles in early medieval Irish history, in which the Uí Néill High King Domnall mac Áedo defeated the Dál Fiatach king of Ulster and his British allies. The battle marked the definitive decline of Ulster as the dominant Irish kingdom.",
+  "outcomes": [
+    "ulster_defeated",
+    "dal_fiatach_weakened",
+    "irish_power_shifts"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_ulster"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "mongol_destruction_khwarezm_1219",
+  "name": "Mongol Destruction of the Khwarazmian Empire",
+  "year": 1219,
+  "type": "conquest",
+  "category": "violence",
+  "coords": [
+    39.65,
+    66.94
+  ],
+  "entity": "mongol_empire",
+  "summary": "Genghis Khan launches a devastating campaign against the Khwarazmian Empire after Shah Muhammad II executes Mongol trade envoys. The cities of Samarkand, Bukhara, Merv, Nishapur, and Urgench are systematically destroyed; populations are massacred or enslaved. Merv, possibly the largest city in the world at the time, is destroyed so thoroughly that it never recovers its former size. The campaign kills an estimated 1-3 million people across Central Asia.",
+  "outcomes": [
+    "khwarezm_destroyed",
+    "central_asia_depopulated",
+    "refugees_push_turkic_peoples_west"
+  ],
+  "_quarry": {
+    "participants": [
+      "mongol_empire"
+    ],
+    "structural_significance": "The Khwarezm campaign's destruction of Central Asian urban civilization redirects the Silk Road trade and permanently reduces the population of modern Uzbekistan and Turkmenistan; the refugees fleeing Mongol pressure include the Turkic Khwarazmian mercenaries who sack Jerusalem (1244) and end the Crusader states' security; the campaign establishes the Mongol principle that resistance means total destruction while submission means relative mercy",
+    "year_range": [
+      1219,
+      1221
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "othon_de_la_roche",
+  "name": "Othon de la Roche",
+  "polity": "duchy_of_athens",
+  "title": "dynastic_founder",
+  "reign_start": 1205,
+  "reign_end": 1225,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "duchy_of_athens",
+        "role": "dynastic_founder",
+        "start_year": 1205,
+        "end_year": 1225
+      }
+    ],
+    "key_actions": [],
+    "region": "southeastern_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

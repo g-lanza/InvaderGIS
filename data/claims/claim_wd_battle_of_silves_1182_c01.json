@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_silves_1182_c01",
+  "statement": "Battle of Silves (1182 CE), at Silves (part of Spanish Christian–Muslim War of 1172–1212).",
+  "subject_ids": [
+    "kingdom_of_portugal"
+  ],
+  "period": {
+    "from": 1182,
+    "to": 1182
+  },
+  "derived_from": "wd_battle_of_silves_1182",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

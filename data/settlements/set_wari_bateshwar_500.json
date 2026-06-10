@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_wari_bateshwar_500",
+  "name": "Wari-Bateshwar",
+  "importance": "city",
+  "start_year": 500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "inferred",
+    "external_ids": {
+      "pleiades": "933888363"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    90.7153,
+    23.9197
+  ]
+}

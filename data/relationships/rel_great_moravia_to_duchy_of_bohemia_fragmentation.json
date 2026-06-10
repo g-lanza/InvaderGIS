@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_great_moravia_to_duchy_of_bohemia_fragmentation",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "great_moravia",
+      "role": "parent"
+    },
+    {
+      "entity_id": "duchy_of_bohemia",
+      "role": "fragment"
+    }
+  ],
+  "directed": true,
+  "type": "fragmentation",
+  "since": 870,
+  "until": 870,
+  "note": "Derived from predecessor/successor links recorded in the great_moravia and duchy_of_bohemia entity records. Transition anchored to duchy_of_bohemia start_year.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Mechanical normalisation of curated predecessor/successor links into the relationships register."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "havlík_kronika_1992",
+      "bowlus_franks_1995",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

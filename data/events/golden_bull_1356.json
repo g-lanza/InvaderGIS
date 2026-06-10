@@ -1,0 +1,37 @@
+{
+ "kind": "event",
+ "dataset": "medieval-europe-500-1500",
+ "id": "golden_bull_1356",
+ "name": "Golden Bull of 1356",
+ "year": 1356,
+ "type": "treaty",
+ "category": "diplomacy",
+ "coords": [
+  49.45,
+  11.08
+ ],
+ "entity": "holy_roman_empire",
+ "summary": "The Golden Bull of 1356, issued by Holy Roman Emperor Charles IV, is the constitutional framework of the Holy Roman Empire for the next 400 years. It confirms that the empire is elected by seven princes (three ecclesiastical, Mainz, Cologne, Trier; four secular, Bohemia, Brandenburg, Palatinate, Saxony) with majority vote, no papal approval required. Bohemia, Charles IV's hereditary domain, is given precedence as first among the electors. The Bull also grants electors near-sovereign rights in their territories.",
+ "outcomes": [
+  "electorate_rules_codified"
+ ],
+ "_quarry": {
+  "participants": [
+   "holy_roman_empire"
+  ],
+  "structural_significance": "Codifies the constitutional structure of the Holy Roman Empire; eliminates papal authority in imperial elections; establishes electoral princes as near-sovereign rulers; gives Bohemia a unique constitutional position",
+  "year_range": null
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "arnold_medieval_1997",
+   "scales_the_2012",
+   "fuhrmann_germany_1986",
+   "ims_fordham",
+   "ims_fordham_sbook1w"
+  ],
+  "confidence": "low",
+  "attestation": "inferred"
+ }
+}

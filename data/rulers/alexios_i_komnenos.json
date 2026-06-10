@@ -1,0 +1,47 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "alexios_i_komnenos",
+  "name": "Alexios I Komnenos",
+  "polity": "byzantine_empire",
+  "title": "emperor",
+  "reign_start": 1081,
+  "reign_end": 1118,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 1056,
+      "death_year": 1118
+    },
+    "entity_associations": [
+      {
+        "entity_id": "byzantine_empire",
+        "role": "emperor",
+        "start_year": 1081,
+        "end_year": 1118
+      }
+    ],
+    "key_actions": [
+      {
+        "year": 1082,
+        "event": "Grants Venice unprecedented trading privileges in exchange for naval help against Normans."
+      },
+      {
+        "year": 1091,
+        "event": "Defeats Pecheneg invasion at Levounion with Cuman aid."
+      },
+      {
+        "year": 1095,
+        "event": "Letter to Urban II requesting western mercenaries triggers the First Crusade."
+      }
+    ],
+    "region": "byzantine_world",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kazhdan_oxford_dictionary_byzantium_1991"
+    ],
+    "confidence": "low"
+  }
+}

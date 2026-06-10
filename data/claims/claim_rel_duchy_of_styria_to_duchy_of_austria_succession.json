@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_duchy_of_styria_to_duchy_of_austria_succession",
+  "statement": "Derived from predecessor/successor links recorded in the duchy_of_styria and duchy_of_austria entity records. Transition anchored to duchy_of_austria start_year.",
+  "subject_ids": [
+    "duchy_of_styria",
+    "duchy_of_austria"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_duchy_of_styria_to_duchy_of_austria_succession",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "duchy_of_austria"
+  ],
+  "period": {
+    "from": 1156,
+    "to": 1156
+  }
+}

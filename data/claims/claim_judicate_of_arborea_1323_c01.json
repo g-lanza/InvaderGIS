@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_judicate_of_arborea_1323_c01",
+  "statement": "When Aragonese forces invaded Sardinia in 1323, the Judicate of Arborea initially cooperated with Aragon.",
+  "subject_ids": [
+    "judicate_of_arborea"
+  ],
+  "period": {
+    "from": 1323,
+    "to": 1323
+  },
+  "derived_from": "judicate_of_arborea_1323",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

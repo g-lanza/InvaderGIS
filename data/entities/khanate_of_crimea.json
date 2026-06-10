@@ -1,0 +1,1089 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "khanate_of_crimea",
+  "name_primary": "Crimean Khanate",
+  "name_variants": [],
+  "type": "khanate",
+  "region": "eastern_europe",
+  "formed": 1441,
+  "dissolved": 1783,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 1500,
+      "label": "Crimean Khanate",
+      "polygon": [
+        [
+          46.84,
+          31.99
+        ],
+        [
+          47.9,
+          36.07
+        ],
+        [
+          48.44,
+          37.5
+        ],
+        [
+          48.93,
+          37.7
+        ],
+        [
+          49.08,
+          40.03
+        ],
+        [
+          50.91,
+          42.59
+        ],
+        [
+          50.86,
+          43.67
+        ],
+        [
+          49.43,
+          44.36
+        ],
+        [
+          47.05,
+          42.52
+        ],
+        [
+          43.02,
+          41.12
+        ],
+        [
+          43.27,
+          40.25
+        ],
+        [
+          44.72,
+          37.88
+        ],
+        [
+          44.69,
+          37.47
+        ],
+        [
+          45.23,
+          36.96
+        ],
+        [
+          45.35,
+          37.66
+        ],
+        [
+          46.01,
+          37.99
+        ],
+        [
+          46.08,
+          38.46
+        ],
+        [
+          46.6,
+          37.76
+        ],
+        [
+          47.07,
+          39.28
+        ],
+        [
+          47.27,
+          39.16
+        ],
+        [
+          47.08,
+          37.42
+        ],
+        [
+          46.52,
+          35.62
+        ],
+        [
+          46.49,
+          35.42
+        ],
+        [
+          46.69,
+          35.31
+        ],
+        [
+          46.34,
+          35.34
+        ],
+        [
+          46.19,
+          33.84
+        ],
+        [
+          45.61,
+          35.01
+        ],
+        [
+          45.34,
+          35.06
+        ],
+        [
+          45.39,
+          36.52
+        ],
+        [
+          45.1,
+          36.26
+        ],
+        [
+          45.08,
+          35.39
+        ],
+        [
+          44.37,
+          33.78
+        ],
+        [
+          44.6,
+          33.4
+        ],
+        [
+          44.94,
+          33.56
+        ],
+        [
+          45.25,
+          33.4
+        ],
+        [
+          45.45,
+          32.5
+        ],
+        [
+          45.93,
+          33.64
+        ],
+        [
+          46.13,
+          33.53
+        ],
+        [
+          46.17,
+          32.2
+        ],
+        [
+          46.5,
+          31.59
+        ],
+        [
+          46.47,
+          32.26
+        ],
+        [
+          46.84,
+          31.99
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    47.0095,
+    39.2616
+  ],
+  "religion": "islam",
+  "population_estimates": [
+    {
+      "year": 1450,
+      "estimate": 500000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q160440",
+          "url": "https://www.wikidata.org/wiki/Q160440",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Crimean Khanate",
+          "url": "https://en.wikipedia.org/wiki/Crimean_Khanate"
+        }
+      ]
+    },
+    {
+      "year": 1475,
+      "estimate": 600000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q160440",
+          "url": "https://www.wikidata.org/wiki/Q160440",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Crimean Khanate",
+          "url": "https://en.wikipedia.org/wiki/Crimean_Khanate"
+        }
+      ]
+    },
+    {
+      "year": 1500,
+      "estimate": 700000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q160440",
+          "url": "https://www.wikidata.org/wiki/Q160440",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Crimean Khanate",
+          "url": "https://en.wikipedia.org/wiki/Crimean_Khanate"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fisher_the_1978",
+      "davies_warfare_2007"
+    ],
+    "confidence": "low"
+  },
+  "description": "Giray dynasty successor state to the Golden Horde (1441–1783) controlling the Crimean peninsula and adjacent steppe; a major Ottoman vassal and slave-raiding power whose annual raids into Poland, Russia, and Lithuania supplied tens of thousands of captives to Ottoman markets, reshaping the demography of the Pontic steppe until Russian conquest in 1783.",
+  "temporal": {
+    "start_year": 1441,
+    "end_year": 1783,
+    "end_year_within_scope": 1500,
+    "start_event_id": null,
+    "end_event_id": null,
+    "notes": "Long-lived successor khanate; end beyond dataset, see end_year."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      47.0095,
+      39.2616
+    ],
+    "core_regions": [
+      "Crimea",
+      "Pontic steppe"
+    ],
+    "polygon_simplified": [
+      [
+        46.84,
+        31.99
+      ],
+      [
+        47.9,
+        36.07
+      ],
+      [
+        48.44,
+        37.5
+      ],
+      [
+        48.93,
+        37.7
+      ],
+      [
+        49.08,
+        40.03
+      ],
+      [
+        50.91,
+        42.59
+      ],
+      [
+        50.86,
+        43.67
+      ],
+      [
+        49.43,
+        44.36
+      ],
+      [
+        47.05,
+        42.52
+      ],
+      [
+        43.02,
+        41.12
+      ],
+      [
+        43.27,
+        40.25
+      ],
+      [
+        44.72,
+        37.88
+      ],
+      [
+        44.69,
+        37.47
+      ],
+      [
+        45.23,
+        36.96
+      ],
+      [
+        45.35,
+        37.66
+      ],
+      [
+        46.01,
+        37.99
+      ],
+      [
+        46.08,
+        38.46
+      ],
+      [
+        46.6,
+        37.76
+      ],
+      [
+        47.07,
+        39.28
+      ],
+      [
+        47.27,
+        39.16
+      ],
+      [
+        47.08,
+        37.42
+      ],
+      [
+        46.52,
+        35.62
+      ],
+      [
+        46.49,
+        35.42
+      ],
+      [
+        46.69,
+        35.31
+      ],
+      [
+        46.34,
+        35.34
+      ],
+      [
+        46.19,
+        33.84
+      ],
+      [
+        45.61,
+        35.01
+      ],
+      [
+        45.34,
+        35.06
+      ],
+      [
+        45.39,
+        36.52
+      ],
+      [
+        45.1,
+        36.26
+      ],
+      [
+        45.08,
+        35.39
+      ],
+      [
+        44.37,
+        33.78
+      ],
+      [
+        44.6,
+        33.4
+      ],
+      [
+        44.94,
+        33.56
+      ],
+      [
+        45.25,
+        33.4
+      ],
+      [
+        45.45,
+        32.5
+      ],
+      [
+        45.93,
+        33.64
+      ],
+      [
+        46.13,
+        33.53
+      ],
+      [
+        46.17,
+        32.2
+      ],
+      [
+        46.5,
+        31.59
+      ],
+      [
+        46.47,
+        32.26
+      ],
+      [
+        46.84,
+        31.99
+      ]
+    ],
+    "notes": "Centroid approximate; polygon pending schematic or OHM sourcing.",
+    "polygon_snapshots": [
+      {
+        "year": 1500,
+        "label": "Crimean Khanate",
+        "polygon": [
+          [
+            46.84,
+            31.99
+          ],
+          [
+            47.9,
+            36.07
+          ],
+          [
+            48.44,
+            37.5
+          ],
+          [
+            48.93,
+            37.7
+          ],
+          [
+            49.08,
+            40.03
+          ],
+          [
+            50.91,
+            42.59
+          ],
+          [
+            50.86,
+            43.67
+          ],
+          [
+            49.43,
+            44.36
+          ],
+          [
+            47.05,
+            42.52
+          ],
+          [
+            43.02,
+            41.12
+          ],
+          [
+            43.27,
+            40.25
+          ],
+          [
+            44.72,
+            37.88
+          ],
+          [
+            44.69,
+            37.47
+          ],
+          [
+            45.23,
+            36.96
+          ],
+          [
+            45.35,
+            37.66
+          ],
+          [
+            46.01,
+            37.99
+          ],
+          [
+            46.08,
+            38.46
+          ],
+          [
+            46.6,
+            37.76
+          ],
+          [
+            47.07,
+            39.28
+          ],
+          [
+            47.27,
+            39.16
+          ],
+          [
+            47.08,
+            37.42
+          ],
+          [
+            46.52,
+            35.62
+          ],
+          [
+            46.49,
+            35.42
+          ],
+          [
+            46.69,
+            35.31
+          ],
+          [
+            46.34,
+            35.34
+          ],
+          [
+            46.19,
+            33.84
+          ],
+          [
+            45.61,
+            35.01
+          ],
+          [
+            45.34,
+            35.06
+          ],
+          [
+            45.39,
+            36.52
+          ],
+          [
+            45.1,
+            36.26
+          ],
+          [
+            45.08,
+            35.39
+          ],
+          [
+            44.37,
+            33.78
+          ],
+          [
+            44.6,
+            33.4
+          ],
+          [
+            44.94,
+            33.56
+          ],
+          [
+            45.25,
+            33.4
+          ],
+          [
+            45.45,
+            32.5
+          ],
+          [
+            45.93,
+            33.64
+          ],
+          [
+            46.13,
+            33.53
+          ],
+          [
+            46.17,
+            32.2
+          ],
+          [
+            46.5,
+            31.59
+          ],
+          [
+            46.47,
+            32.26
+          ],
+          [
+            46.84,
+            31.99
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "real_historical_boundary",
+    "polygon_source": "aourednik/historical-basemaps",
+    "polygon_source_date": "2026-05-09",
+    "capital": {
+      "name": "Bakhchysarai",
+      "coords": [
+        44.75278,
+        33.86083
+      ],
+      "source": "wikidata"
+    }
+  },
+  "internal_structure": {
+    "centralization": "low_to_medium",
+    "centralization_trajectory": null,
+    "governance_type": "dynastic",
+    "legitimacy_basis": [
+      "inheritance",
+      "sacral_kingship"
+    ],
+    "administrative_system": ""
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "formation",
+      "years": "c.1441–1466",
+      "description": "Haci I Giray establishes independent khanate from Golden Horde remnants.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q160440",
+          "url": "https://www.wikidata.org/wiki/Q160440"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Crimean Khanate",
+          "url": "https://en.wikipedia.org/wiki/Crimean_Khanate"
+        }
+      ]
+    },
+    {
+      "phase": "consolidation",
+      "years": "1466–1500",
+      "description": "Ottoman suzerainty secured; Crimea becomes major regional power.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q160440",
+          "url": "https://www.wikidata.org/wiki/Q160440"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Crimean Khanate",
+          "url": "https://en.wikipedia.org/wiki/Crimean_Khanate"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "rival_fragmentation",
+      "layer": "external_political",
+      "description": "Fragmentation of the Golden Horde created a power vacuum in Crimea that the Giray dynasty filled.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q160440",
+          "url": "https://www.wikidata.org/wiki/Q160440"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Crimean Khanate",
+          "url": "https://en.wikipedia.org/wiki/Crimean_Khanate"
+        }
+      ]
+    },
+    {
+      "tag": "mobility_advantage",
+      "layer": "military_security",
+      "description": "Crimean Tatar cavalry maintained high military effectiveness for raiding and steppe warfare.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q160440",
+          "url": "https://www.wikidata.org/wiki/Q160440"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Crimean Khanate",
+          "url": "https://en.wikipedia.org/wiki/Crimean_Khanate"
+        }
+      ]
+    },
+    {
+      "tag": "external_alliance",
+      "layer": "external_political",
+      "description": "Ottoman suzerainty from 1475 provided naval and diplomatic backing against competing Tatar khanates.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q160440",
+          "url": "https://www.wikidata.org/wiki/Q160440"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Crimean Khanate",
+          "url": "https://en.wikipedia.org/wiki/Crimean_Khanate"
+        }
+      ]
+    },
+    {
+      "layer": "economic_commercial",
+      "tag": "trade_route_control",
+      "direction": "rise",
+      "description": "Crimean Tatar slave raids into Poland, Lithuania, Russia, and the Caucasus captured an estimated 2-3 million people over two centuries. The sale of captives in Ottoman markets (especially in Kaffa/Caffa) generated the primary revenue of the khanate's economy.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q160440",
+          "url": "https://www.wikidata.org/wiki/Q160440"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Crimean Khanate",
+          "url": "https://en.wikipedia.org/wiki/Crimean_Khanate"
+        }
+      ],
+      "tag_prose": "slave_trade_revenues"
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "ottoman_vassal_protection",
+      "direction": "rise",
+      "description": "Ottoman suzerainty (from 1475) provided military protection while the khanate retained internal autonomy. This arrangement gave Crimea security against Muscovite and Polish-Lithuanian military pressure without the costs of full Ottoman administrative integration.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q160440",
+          "url": "https://www.wikidata.org/wiki/Q160440"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Crimean Khanate",
+          "url": "https://en.wikipedia.org/wiki/Crimean_Khanate"
+        }
+      ]
+    },
+    {
+      "layer": "geography_territory",
+      "tag": "mobility_advantage",
+      "direction": "rise",
+      "description": "Crimean Tatar horsemen exploited steppe geography for lightning raids: light cavalry could cover 100 miles per day, devastating settlements before defenders could concentrate. The northern steppe highways enabled rapid power projection across a vast area.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q160440",
+          "url": "https://www.wikidata.org/wiki/Q160440"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Crimean Khanate",
+          "url": "https://en.wikipedia.org/wiki/Crimean_Khanate"
+        }
+      ],
+      "tag_prose": "steppe_nomad_mobility"
+    },
+    {
+      "layer": "economic_commercial",
+      "tag": "trade_route_control",
+      "direction": "rise",
+      "description": "Caffa (Feodosiya) under Genoese and then Crimean control was the Black Sea's primary slave market, with Crimean Tatar raids into Poland, Russia, and Ukraine delivering hundreds of thousands of captives for sale to Ottoman buyers annually.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q160440",
+          "url": "https://www.wikidata.org/wiki/Q160440"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Crimean Khanate",
+          "url": "https://en.wikipedia.org/wiki/Crimean_Khanate"
+        }
+      ],
+      "tag_prose": "slave_trade_kaffa"
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "succession_crisis",
+      "layer": "dynastic_legitimacy",
+      "description": "Giray dynasty factionalism produced frequent khan depositions by the Ottoman sultan.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q160440",
+          "url": "https://www.wikidata.org/wiki/Q160440"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Crimean Khanate",
+          "url": "https://en.wikipedia.org/wiki/Crimean_Khanate"
+        }
+      ]
+    },
+    {
+      "tag": "external_military_pressure",
+      "layer": "military_security",
+      "description": "Russian expansion under Ivan III began pressing on northern steppe frontiers by the 1480s.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q160440",
+          "url": "https://www.wikidata.org/wiki/Q160440"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Crimean Khanate",
+          "url": "https://en.wikipedia.org/wiki/Crimean_Khanate"
+        }
+      ]
+    },
+    {
+      "layer": "military_security",
+      "tag": "muscovite_expansion_pressure",
+      "direction": "decline",
+      "description": "The expansion of the Russian state progressively closed the steppe frontier: the construction of defensive lines (zasechnaya cherta) restricted Tatar raiding, and Ivan the Terrible's capture of Kazan (1552) and Astrakhan (1556) isolated Crimea from eastern Tatar allies.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q160440",
+          "url": "https://www.wikidata.org/wiki/Q160440"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Crimean Khanate",
+          "url": "https://en.wikipedia.org/wiki/Crimean_Khanate"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "person_id": "haci_i_giray",
+      "name": "Haci I Giray",
+      "role": "dynastic_founder",
+      "years": "c.1441–1466",
+      "year_start": 1441,
+      "year_end": 1466,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Haci I Giray",
+          "url": "https://en.wikipedia.org/wiki/Hac%C4%B1_I_Giray"
+        }
+      ]
+    },
+    {
+      "person_id": "mengli_i_giray",
+      "name": "Mengli I Giray",
+      "role": "ruler",
+      "years": "1475–1514",
+      "year_start": 1475,
+      "year_end": 1514,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Mengli I Giray",
+          "url": "https://en.wikipedia.org/wiki/Me%C3%B1li_I_Giray"
+        }
+      ]
+    }
+  ],
+  "predecessor_entity_ids": [
+    "golden_horde"
+  ],
+  "successor_entity_ids": [
+    "ottoman_empire"
+  ],
+  "primary_ethnicity": "turkic",
+  "ethnic_composition": [
+    {
+      "group": "cuman_kipchak",
+      "proportion": 0.55
+    },
+    {
+      "group": "turkic",
+      "proportion": 0.1
+    },
+    {
+      "group": "greek_byzantine",
+      "proportion": 0.18
+    },
+    {
+      "group": "slavic",
+      "proportion": 0.12
+    },
+    {
+      "group": "italian_roman",
+      "proportion": 0.05
+    }
+  ],
+  "religion_composition": [
+    {
+      "religion": "islam",
+      "proportion": 0.65
+    },
+    {
+      "religion": "orthodox",
+      "proportion": 0.25
+    },
+    {
+      "religion": "jewish",
+      "proportion": 0.07
+    },
+    {
+      "religion": "catholic",
+      "proportion": 0.03
+    }
+  ],
+  "primary_language": "turkic_lang",
+  "language_composition": [
+    {
+      "language": "turkic_lang",
+      "proportion": 0.62,
+      "role": "vernacular"
+    },
+    {
+      "language": "greek",
+      "proportion": 0.14,
+      "role": "regional"
+    },
+    {
+      "language": "church_slavonic",
+      "proportion": 0.12,
+      "role": "regional"
+    },
+    {
+      "language": "italian_lang",
+      "proportion": 0.08,
+      "role": "regional"
+    },
+    {
+      "language": "latin",
+      "proportion": 0.04,
+      "role": "liturgical"
+    }
+  ],
+  "economic": {
+    "primary_base": "long_distance_trade",
+    "secondary_bases": [
+      "tribute",
+      "slave_trade"
+    ],
+    "wealth_level": "moderate",
+    "major_exports": [
+      "slaves",
+      "grain",
+      "furs",
+      "wax"
+    ],
+    "major_trade_partners": [
+      "republic_of_genoa",
+      "republic_of_venice",
+      "ottoman_empire",
+      "golden_horde"
+    ],
+    "revenue_sources": [
+      "customs_duties",
+      "slave_trade",
+      "tribute"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q160440",
+        "url": "https://www.wikidata.org/wiki/Q160440"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Crimean Khanate",
+        "url": "https://en.wikipedia.org/wiki/Crimean_Khanate"
+      }
+    ]
+  },
+  "social_structure": {
+    "ruling_ethnicity": "cuman_kipchak",
+    "subject_majority": "cuman_kipchak",
+    "military_ethnicity": "cuman_kipchak",
+    "administrative_language": "turkic_lang",
+    "stratification_type": "homogeneous"
+  },
+  "wikidata_enrichment": {
+    "qid": "Q160440",
+    "matched_name": "Crimean Khanate",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Crimean_Khanate",
+    "capital": {
+      "name": "Bakhchysarai",
+      "coords": [
+        44.75278,
+        33.86083
+      ]
+    },
+    "rulers_from_wikidata": [
+      {
+        "name": "İslâm I Giray",
+        "qid": "Q2623643",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2623643",
+            "url": "https://www.wikidata.org/wiki/Q2623643"
+          },
+          {
+            "type": "wikipedia",
+            "label": "İslâm I Giray",
+            "url": "https://en.wikipedia.org/wiki/İslâm_I_Giray"
+          }
+        ]
+      },
+      {
+        "name": "Şahin Giray",
+        "qid": "Q2947626",
+        "year_start": 1777,
+        "year_end": 1782,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2947626",
+            "url": "https://www.wikidata.org/wiki/Q2947626"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Şahin Giray",
+            "url": "https://en.wikipedia.org/wiki/Şahin_Giray"
+          }
+        ]
+      }
+    ],
+    "population_from_wikidata": [
+      {
+        "estimate": 1500000,
+        "confidence": "low"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "type": "book",
+      "author": "Fisher, Alan",
+      "title": "The Crimean Tatars",
+      "publisher": "Hoover Institution Press",
+      "year": 1978
+    },
+    {
+      "type": "book",
+      "author": "Brian L. Davies",
+      "title": "Warfare, State and Society on the Black Sea Steppe, 1500–1700",
+      "publisher": "Routledge",
+      "year": 2007
+    }
+  ],
+  "monogram": "CK"
+}

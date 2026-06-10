@@ -1,0 +1,40 @@
+{
+  "kind": "technology",
+  "dataset": "medieval-europe-500-1500",
+  "id": "trebuchet",
+  "name_primary": "Trebuchet (Counterweight)",
+  "domain": "military",
+  "origin": {
+    "place": "Eastern Mediterranean / Levant (counterweight variant)",
+    "year": 1187
+  },
+  "materials": [
+    "timber frame",
+    "iron-shod counterweight box",
+    "stone projectiles",
+    "rope sling",
+    "iron fittings"
+  ],
+  "diffusion": [
+    "Ayyubid Sultanate",
+    "Crusader States",
+    "Byzantine Empire",
+    "Kingdom of France",
+    "Kingdom of England",
+    "Holy Roman Empire",
+    "Mongol Empire",
+    "Song China"
+  ],
+  "_quarry": {
+    "description": "Traction trebuchets (human-powered) originated in China by the 4th century BCE and spread westward via the Avars to Byzantium and the Arab caliphates by the 6th–7th centuries. The decisive counterweight variant — far more powerful, able to hurl stones of 100–300 kg — is first described and illustrated in Mardi ibn Ali al-Tarsusi's 1187 Arabic treatise on the campaigns of Saladin. The counterweight trebuchet appeared across Christian and Muslim Mediterranean lands in the 12th century, and was carried back into China by Mongol armies in the 13th century. It remained the dominant heavy siege weapon of the medieval world until superseded by gunpowder cannon in the 15th century."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "britannica_trebuchet",
+      "wiki_trebuchet"
+    ],
+    "confidence": "low",
+    "attestation": "weak"
+  }
+}

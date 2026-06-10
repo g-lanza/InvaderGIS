@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_acre_1258",
+  "name": "Battle of Acre",
+  "year": 1258,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    44.9,
+    10.6
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Battle of Acre (1258 CE), at Acre (part of War of Saint Sabas). Source: Wikidata Q11688119.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "republic_of_genoa"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

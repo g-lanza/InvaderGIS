@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_cardiff_1081",
+  "name": "Cardiff",
+  "importance": "city",
+  "start_year": 1081,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q10690"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    -3.1792,
+    51.4817
+  ]
+}

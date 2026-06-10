@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "godfrey_iii_brabant",
+  "name": "Godfrey III",
+  "polity": "duchy_of_brabant",
+  "title": "dynastic_founder",
+  "reign_start": 1142,
+  "reign_end": 1190,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "duchy_of_brabant",
+        "role": "dynastic_founder",
+        "start_year": 1142,
+        "end_year": 1190
+      }
+    ],
+    "key_actions": [],
+    "region": "western_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

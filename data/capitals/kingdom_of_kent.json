@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_kent",
+  "name": "Canterbury",
+  "entity_id": "kingdom_of_kent",
+  "entity_name": "Kingdom of Kent",
+  "start_year": 455,
+  "end_year": 825,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q328818"
+    }
+  },
+  "coords": [
+    1.0775,
+    51.27833
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "mongol_invasion_persia_1220",
+  "name": "Mongol Conquest of Persia",
+  "year": 1220,
+  "type": "conquest",
+  "category": "violence",
+  "coords": [
+    39.65,
+    66.97
+  ],
+  "entity": "mongol_empire",
+  "summary": "Genghis Khan's invasion of the Khwarazmian Shah's empire begins in 1219 after the Shah massacres a Mongol trade caravan and diplomatic mission. The Mongols employ their standard strategy of offering submission terms to cities that open their gates, and obliterating those that resist. Samarkand (150,000 population) is sacked; Merv and Nishapur are virtually depopulated. Contemporary accounts describe pyramids of skulls; modern archaeological evidence confirms massive destruction. The Khwarazmian Shah flees to an Caspian island where he dies; his son Jalal ad-Din fights on but is eventually defeated at the Indus (1221).",
+  "outcomes": [
+    "khwarazmian_empire_destroyed",
+    "samarkand_sacked",
+    "persian_urban_culture_devastated"
+  ],
+  "_quarry": {
+    "participants": [
+      "mongol_empire",
+      "ilkhanate"
+    ],
+    "structural_significance": "The Khwarazmian conquest unleashes the Mongol military machine on the Islamic world; the demographic collapse in Khurasan and Central Asia takes centuries to recover; the invasion sends the Mongol reconnaissance force that eventually defeats Russia at the Kalka River (1223); Genghis Khan's personal command demonstrates the systematic nature of Mongol conquest, trade and diplomacy first, total destruction if refused",
+    "year_range": [
+      1219,
+      1223
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

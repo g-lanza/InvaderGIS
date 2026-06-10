@@ -1,0 +1,33 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_ottoman_bosnia",
+  "statement": "Bosnia was conquered by Mehmed II in 1463 in a rapid 8-day campaign. King Stephen Tomašević — who had just refused to pay tribute — was captured and beheaded. The speed of the conquest shocked European observers; Bosnia had briefly appealed for Western help that never arrived. Many Bosnian nobility converted to Islam to retain their estates — creating the Bosnian Muslim community that persists to the present day. Herzegovina (under Stjepan Vukčić Kosača) held out until 1482.",
+  "subject_ids": [
+    "kingdom_of_bosnia",
+    "ottoman_empire"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_ottoman_bosnia",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fine_the_1987",
+      "imamović_historija_1997",
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "ottoman_empire"
+  ],
+  "period": {
+    "from": 1463,
+    "to": 1463
+  }
+}

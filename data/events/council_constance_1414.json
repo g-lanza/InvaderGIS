@@ -1,0 +1,38 @@
+{
+ "kind": "event",
+ "dataset": "medieval-europe-500-1500",
+ "id": "council_constance_1414",
+ "name": "Council of Constance",
+ "year": 1414,
+ "type": "religious_council",
+ "category": "religion",
+ "coords": [
+  47.66,
+  9.18
+ ],
+ "entity": "papal_states",
+ "summary": "The Council of Constance (1414–1418) resolves three crises simultaneously: the Western Schism (three competing popes), ecclesiastical reform, and Hussite heresy. The council deposes or obtains resignation of all three papal claimants (Gregory XII, Benedict XIII, John XXIII) and elects Martin V (1417), ending the Schism. It condemns Jan Hus despite a safe-conduct promise and burns him (1415), igniting the Hussite Wars. It issues the decree Haec Sancta (1415) asserting conciliar authority over the pope, the high point of Conciliarism. Martin V subsequently suppresses Conciliarism, leaving the reform agenda unresolved until Luther.",
+ "outcomes": [],
+ "_quarry": {
+  "participants": [
+   "papal_states",
+   "holy_roman_empire"
+  ],
+  "structural_significance": "Ends the 39-year Western Schism; burns Jan Hus, triggering the Hussite Wars; establishes (temporarily) the principle that church councils outrank popes (Conciliarism); its failure to reform the Church creates the conditions for the Protestant Reformation a century later",
+  "year_range": [
+   1414,
+   1418
+  ]
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "partner_the_1972",
+   "morris_the_1989",
+   "ims_fordham",
+   "ims_fordham_sbook2"
+  ],
+  "confidence": "low",
+  "attestation": "inferred"
+ }
+}

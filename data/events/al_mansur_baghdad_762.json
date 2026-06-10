@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "al_mansur_baghdad_762",
+  "name": "Al-Mansur Founds Baghdad, Abbasid Golden City",
+  "year": 762,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    33.33,
+    44.4
+  ],
+  "entity": "abbasid_caliphate",
+  "summary": "Caliph al-Mansur founds the 'City of Peace' (Madinat al-Salam) at Baghdad in 762, a perfectly circular planned city with four gates aligned to the cardinal directions. Within a generation it is the world's largest city (population estimates range from 500,000 to 1,000,000). The Round City's design, palace and mosque at the center, administrative districts in concentric rings, is a physical embodiment of Abbasid claims to universal caliphate.",
+  "outcomes": [
+    "baghdad_founded",
+    "round_city_design",
+    "world_largest_city_soon"
+  ],
+  "_quarry": {
+    "participants": [
+      "abbasid_caliphate"
+    ],
+    "structural_significance": "Baghdad's foundation moves the center of the Islamic world from Syria (Umayyad Damascus) to Iraq (near ancient Babylon and Ctesiphon), signaling the Abbasid break from Arab tribalism toward Persian-influenced cosmopolitan empire; the city's size and wealth make it the most important cultural center of the medieval world for 300 years; its destruction by the Mongols (1258) is the single greatest cultural catastrophe of the medieval period",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_the_2004",
+      "kennedy_when_2004",
+      "crone_gods_2004",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

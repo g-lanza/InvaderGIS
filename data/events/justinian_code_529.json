@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "justinian_code_529",
+  "name": "Justinian's Corpus Juris Civilis, Roman Law Codified",
+  "year": 529,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.01,
+    28.97
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Emperor Justinian I commissions the legal scholar Tribonian to compile and codify all Roman law. The resulting Corpus Juris Civilis (529-534) consists of the Code (imperial rescripts), the Digest (jurists' opinions), the Institutes (student textbook), and the Novels (new laws). It systematizes 1,000 years of Roman legal development into a coherent framework.",
+  "outcomes": [
+    "roman_law_codified",
+    "twelve_tables_to_justinian_compiled",
+    "european_civil_law_basis"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire"
+    ],
+    "structural_significance": "The Corpus Juris Civilis is one of the most influential documents in Western history; rediscovered in Italy (11th century) and taught at Bologna from the 12th century, it becomes the foundation of continental European civil law tradition (France, Germany, Spain, Italy, Louisiana); the distinction between Justinian civil law and English common law tradition is a fundamental division in modern legal systems",
+    "year_range": [
+      529,
+      534
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_papal_ottonian_alliance",
+  "statement": "The Ottonian emperors (Otto I, II, III, Henry II) and the papacy developed a cooperative model in which the emperor protected and reformed the papacy while the pope consecrated the emperor and supported imperial ecclesiastical policy. Otto I deposed corrupt popes (John XII, Leo VIII) and appointed replacements; Pope Sylvester II (Gerbert of Aurillac, elected with Otto III's support) was the most intellectually distinguished pope of the 10th century. The system worked because both sides benefited from cooperation; it broke down under the reforming popes of the mid-11th century who rejected imperial control of papal appointments.",
+  "subject_ids": [
+    "papal_states",
+    "holy_roman_empire"
+  ],
+  "predicate": "alliance",
+  "derived_from": "rel_papal_ottonian_alliance",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989",
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 962,
+    "to": 1054
+  }
+}

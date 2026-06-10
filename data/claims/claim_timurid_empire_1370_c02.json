@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_timurid_empire_1370_c02",
+  "statement": "Timur was a lavish patron of art and architecture, and Samarkand under him became one of the finest cities in the world.",
+  "subject_ids": [
+    "timurid_empire"
+  ],
+  "period": {
+    "from": 1370,
+    "to": 1370
+  },
+  "derived_from": "timurid_empire_1370",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "manz_the_1989",
+      "lentz_timur_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_mongol_invasion_of_poland_1240",
+  "name": "Mongol invasion of Poland",
+  "year": 1240,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    49.7333,
+    44.1
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Mongol invasion of Poland (1240 CE), at Poland (part of Mongol invasion of Europe). Source: Wikidata Q2667645.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "mongol_empire",
+      "kingdom_of_poland_piast"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

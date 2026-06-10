@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "japan_fujiwara_regency_858",
+  "name": "Fujiwara Regency Established",
+  "year": 858,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    32.296,
+    130.628
+  ],
+  "entity": "imperial_japan_fujiwara",
+  "summary": "Fujiwara no Yoshifusa became regent for a child emperor, the first non-imperial person to hold this office, establishing the Fujiwara regency system. The Heian period that followed was a golden age of Japanese court culture: the Tale of Genji, poetry, and aesthetic refinement.",
+  "outcomes": [
+    "fujiwara_regent",
+    "court_culture",
+    "tale_of_genji_era"
+  ],
+  "_quarry": {
+    "participants": [
+      "imperial_japan_fujiwara"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

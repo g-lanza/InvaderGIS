@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "carolingian_minuscule_780",
+  "name": "Carolingian minuscule established",
+  "year": 780,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    50.7766,
+    6.0834
+  ],
+  "entity": "carolingian_empire",
+  "summary": "A standardised, highly legible script, Carolingian minuscule, spreads across Frankish scriptoria during the cultural programme of Charlemagne and Alcuin of York. The script makes spaces between words and consistent letter forms the new norm.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "carolingian_empire"
+    ],
+    "structural_significance": "Direct ancestor of modern Latin lowercase letters and the humanist scripts revived in the 15th century; the prerequisite for the massive Carolingian copying of classical texts that preserves most surviving Latin literature.",
+    "year_range": [
+      780,
+      800
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_inheritance_of_rome_2009",
+      "le_goff_medieval_civilization_1988"
+    ],
+    "confidence": "low"
+  }
+}

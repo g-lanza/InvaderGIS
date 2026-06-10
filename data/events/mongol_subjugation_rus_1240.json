@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "mongol_subjugation_rus_1240",
+  "name": "Mongol Yoke, Russian Princes Submit to Batu Khan",
+  "year": 1240,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    50.45,
+    30.52
+  ],
+  "entity": "kievan_rus",
+  "summary": "Batu Khan's winter campaign (1237-1238) destroys Vladimir, Ryazan, and other major Rus cities; the 1240 campaign destroys Kiev. Russian princes who survive submit to Batu at Sarai, receiving yarlyk patents confirming their rule in exchange for tribute payment and military service. Alexander Nevsky of Novgorod (who had defeated the Swedish at the Neva in 1240 and the Teutonic Knights at Lake Peipus in 1242) chooses submission to the Mongols over resistance.",
+  "outcomes": [
+    "rus_under_mongol_suzerainty",
+    "tribute_collection_begins",
+    "alexander_nevsky_submits"
+  ],
+  "_quarry": {
+    "participants": [
+      "kievan_rus",
+      "golden_horde"
+    ],
+    "structural_significance": "Alexander Nevsky's choice, resisting western Catholic enemies (Swedes, Teutonic Knights) while submitting to eastern Mongol pagans, shapes Russian historical consciousness; it reflects the pragmatic calculation that Mongol suzerainty allows Russian cultural and ecclesiastical autonomy while Western Catholic conquest would mean forced conversion and cultural destruction; the 'Mongol Yoke' debate (did it retard Russian development?) continues among historians",
+    "year_range": [
+      1237,
+      1242
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "franklin_the_1996",
+      "riasanovsky_a_2000",
+      "martin_medieval_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

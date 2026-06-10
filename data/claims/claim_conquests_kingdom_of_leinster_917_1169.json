@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_kingdom_of_leinster_917_1169",
+  "statement": "Kingdom of Leinster — campaigns and battles spanned 917–1169, from Battle of Confey to Strongbow Invades Ireland — Beginning of English Involvement.",
+  "subject_ids": [
+    "kingdom_of_leinster"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_kingdom_of_leinster_917_1169",
+  "period": {
+    "from": 917,
+    "to": 1169
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_battle_bouvines_1214_c01",
+  "statement": "Philip II Augustus of France defeated a coalition of Otto IV, King John of England, and the counts of Flanders and Boulogne at Bouvines in 1214.",
+  "subject_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 1214,
+    "to": 1214
+  },
+  "derived_from": "battle_bouvines_1214",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "ims_fordham",
+      "ims_fordham_sbook1m"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

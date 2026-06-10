@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_burgundy_charles_bold_1467_c01",
+  "statement": "Charles the Bold, Duke of Burgundy from 1467, sought to transform Burgundy from a French duchy into an independent kingdom.",
+  "subject_ids": [
+    "duchy_of_burgundy"
+  ],
+  "period": {
+    "from": 1467,
+    "to": 1467
+  },
+  "derived_from": "burgundy_charles_bold_1467",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

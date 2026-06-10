@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "bardi_peruzzi_collapse_1345",
+  "name": "Collapse of the Bardi and Peruzzi banks",
+  "year": 1345,
+  "type": "economic",
+  "category": "economy",
+  "coords": [
+    43.77,
+    11.26
+  ],
+  "entity": "republic_of_florence",
+  "summary": "Florence's two largest banking houses, the Bardi and the Peruzzi, fail after Edward III of England repudiates loans estimated at 1.5 million florins, taken to finance the early Hundred Years' War. Cascade failures bankrupt smaller Florentine houses and destabilise Florentine politics.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_florence",
+      "kingdom_of_england"
+    ],
+    "structural_significance": "First international sovereign-debt default in medieval banking history. Drives a generation of caution in Italian banking until the Medici (founded 1397) rebuild trans-European credit with diversified branch structure and tighter sovereign exposure limits.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "najemy_a_2006",
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

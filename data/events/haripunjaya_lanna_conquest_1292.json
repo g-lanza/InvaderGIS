@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "haripunjaya_lanna_conquest_1292",
+  "name": "Mangrai Conquers Haripunjaya",
+  "year": 1292,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    17.462,
+    99.357
+  ],
+  "entity": "haripunjaya",
+  "summary": "King Mangrai of Lanna conquered the Mon kingdom of Haripunjaya after a prolonged siege. The following year he founded Chiang Mai as his new capital, incorporating Mon Buddhist culture into the new Lanna kingdom.",
+  "outcomes": [
+    "haripunjaya_absorbed",
+    "lanna_kingdom",
+    "chiang_mai_founded"
+  ],
+  "_quarry": {
+    "participants": [
+      "haripunjaya"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

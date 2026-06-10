@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_battle_masts_655_c02",
+  "statement": "Emperor Constans II escaped the Battle of the Masts in disguise by swapping clothes with a sailor.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 655,
+    "to": 655
+  },
+  "derived_from": "battle_masts_655",
+  "unresolved_sources": [
+    "treadgold_a_1997",
+    "kazhdan_the_1991"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "haldon_byzantium_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

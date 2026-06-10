@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "sviatoslav_khazar_965",
+  "name": "Sviatoslav I Destroys the Khazar Khaganate",
+  "year": 965,
+  "type": "conquest",
+  "category": "violence",
+  "coords": [
+    47.35,
+    42.97
+  ],
+  "entity": "kievan_rus",
+  "summary": "Prince Sviatoslav I of Kiev campaigns systematically against the Khazar Khaganate, destroying its fortresses along the Don and Volga rivers. In 965 he sacks the Khazar capital Sarkel; by 969 he destroys Itil (the main Khazar city on the Volga delta). The Khazar state, which had protected Rus trade routes and served as a buffer against steppe nomads, collapses, allowing the Pechenegs and later the Cumans to fill the steppe vacuum.",
+  "outcomes": [
+    "khazar_khaganate_destroyed",
+    "volga_trade_route_disrupted",
+    "cuman_kipchak_fill_steppe_vacuum"
+  ],
+  "_quarry": {
+    "participants": [
+      "kievan_rus",
+      "khazar_khaganate"
+    ],
+    "structural_significance": "The Khazar destruction is one of Sviatoslav's greatest military achievements but has disastrous long-term consequences for Kiev: the Khazars had served as a buffer against Pechenegs and Cumans; their removal exposes the Rus steppe frontier to nomadic raids that drain Kiev's military resources; the disruption of the Volga trade route pushes Rus commerce toward the Dnieper-Constantinople axis",
+    "year_range": [
+      964,
+      969
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "franklin_the_1996",
+      "riasanovsky_a_2000",
+      "martin_medieval_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

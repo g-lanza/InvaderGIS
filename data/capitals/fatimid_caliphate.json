@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "fatimid_caliphate",
+  "name": "Cairo",
+  "entity_id": "fatimid_caliphate",
+  "entity_name": "Fatimid Caliphate",
+  "start_year": 909,
+  "end_year": 1171,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q160307"
+    }
+  },
+  "coords": [
+    31.23583,
+    30.04444
+  ]
+}

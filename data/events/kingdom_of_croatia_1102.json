@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_croatia_1102",
+  "name": "Croatia Enters Personal Union with Hungary",
+  "year": 1102,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    46,
+    17.75
+  ],
+  "entity": "kingdom_of_croatia",
+  "summary": "The Pacta Conventa of 1102 CE established a personal union between Croatia and Hungary under King Coloman. Croatia maintained its own laws, institutions, and ban (viceroy) while sharing a king with Hungary. This arrangement persisted for eight centuries until 1918.",
+  "outcomes": [
+    "pacta_conventa",
+    "hungarian_union",
+    "croatian_nobility_rights"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_croatia",
+      "kingdom_of_hungary"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fine_the_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_brittany_1341",
+  "name": "War of Breton Succession",
+  "year": 1341,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    49,
+    -0.5
+  ],
+  "entity": "duchy_of_brittany",
+  "summary": "The War of the Breton Succession (1341–1364) pitted two claimants supported by England and France respectively. The conflict became a theatre of the Hundred Years War, devastating the duchy before John IV of Montfort's victory established his line as the ruling house of an autonomous Brittany.",
+  "outcomes": [
+    "civil_war_decades",
+    "french_english_proxy_war",
+    "montfort_wins"
+  ],
+  "_quarry": {
+    "participants": [
+      "duchy_of_brittany",
+      "kingdom_of_france",
+      "kingdom_of_england"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_umayyad_invasion_of_georgia_735_c01",
+  "statement": "Umayyad invasion of Georgia (735 CE), at Caucasus (part of Muslim conquests).",
+  "subject_ids": [
+    "umayyad_caliphate"
+  ],
+  "period": {
+    "from": 735,
+    "to": 735
+  },
+  "derived_from": "wd_umayyad_invasion_of_georgia_735",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_the_2004",
+      "hawting_the_2000",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

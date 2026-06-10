@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "great_schism_1054",
+  "name": "Great Schism Between Rome and Constantinople",
+  "year": 1054,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41,
+    29
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Cardinal Humbert of Silva Candida places a bull of excommunication on the altar of Hagia Sophia, excommunicating Patriarch Michael I Cerularius of Constantinople. Cerularius excommunicates the papal legates. The mutual excommunications formalize centuries of theological and political divergence over papal supremacy, the Filioque clause, celibacy, and liturgical differences.",
+  "outcomes": [
+    "catholic_orthodox_split",
+    "papal_cardinal_legates",
+    "anathemas_exchanged"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire"
+    ],
+    "structural_significance": "Creates the permanent split between Roman Catholic and Eastern Orthodox Christianity; shapes the political and cultural divide between Western and Eastern Europe; not formally lifted until 1965 when Paul VI and Athenagoras I revoked the mutual excommunications.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

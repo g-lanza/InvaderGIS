@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_qaqun_1271",
+  "name": "Battle of Qaqun",
+  "year": 1271,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    37.14,
+    25.32
+  ],
+  "entity": "kingdom_of_jerusalem",
+  "summary": "Battle of Qaqun (1271 CE), at Caco (part of Ninth Crusade). Source: Wikidata Q134311525.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_jerusalem",
+      "kingdom_of_england",
+      "knights_hospitaller_rhodes",
+      "kingdom_of_cyprus",
+      "mamluk_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

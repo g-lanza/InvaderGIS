@@ -1,0 +1,39 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_khazar_byzantine_alliance",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "khazar_khaganate",
+      "role": "principal"
+    },
+    {
+      "entity_id": "byzantine_empire",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "alliance",
+  "since": 650,
+  "until": 965,
+  "note": "The Byzantine Empire and the Khazar Khaganate maintained a consistent alliance against their shared enemies: the Islamic Umayyad and Abbasid Caliphates and, later, the Bulgars. Byzantine emperors cemented the alliance through dynastic marriages: Constantine V married a Khazar princess (Tzitzak, baptized Eirene), making his son Leo IV 'the Khazar.' The Khazars' conversion to Judaism (traditionally dated c. 740) did not disrupt the alliance; Byzantium valued the Khazars as a buffer on the northern Black Sea steppe. The Khazars' eventual destruction by Sviatoslav I of Kiev (965) removed the Byzantine steppe buffer and directly contributed to the Pecheneg pressure on Byzantium.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Byzantine-Khazar alliance demonstrates Byzantine grand strategy of maintaining buffer states on every frontier through diplomacy and dynastic marriage; the destruction of the Khazar buffer by Kiev is a strategic disaster for Byzantium — the Pechenegs and Cumans who replace the Khazars are far more threatening and less diplomatically manageable"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "golden_khazar_1980",
+      "brook_the_1999",
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

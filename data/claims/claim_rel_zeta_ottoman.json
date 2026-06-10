@@ -1,0 +1,30 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_zeta_ottoman",
+  "statement": "Zeta (modern Montenegro) maintained resistance to Ottoman conquest after the fall of Serbia (1459) under the Crnojević lords, who used the mountainous terrain and Venetian coastal support to hold out until 1499. Lord Ivan Crnojević established the first printing press in the South Slavic world (1494) at Cetinje, producing liturgical books in Cyrillic. After the Crnojević submission (1499), Zeta's mountains provided natural fortress conditions that prevented effective Ottoman administration; the region maintained effective autonomy under the Prince-Bishops of Montenegro through the Ottoman period.",
+  "subject_ids": [
+    "principality_of_zeta",
+    "ottoman_empire"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_zeta_ottoman",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1453,
+    "to": 1499
+  }
+}

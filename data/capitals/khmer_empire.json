@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "khmer_empire",
+  "name": "Yasodharapura",
+  "entity_id": "khmer_empire",
+  "entity_name": "Khmer Empire",
+  "start_year": 802,
+  "end_year": 1431,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q201705"
+    }
+  },
+  "coords": [
+    103.86667,
+    13.4125
+  ]
+}

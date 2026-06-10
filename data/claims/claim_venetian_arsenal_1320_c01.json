@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_venetian_arsenal_1320_c01",
+  "statement": "Venice's Arsenal employed around 2,000 workers operating an assembly-line production system.",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1320,
+    "to": 1320
+  },
+  "derived_from": "venetian_arsenal_1320",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

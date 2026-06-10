@@ -1,0 +1,42 @@
+{
+ "kind": "institution",
+ "dataset": "medieval-europe-500-1500",
+ "id": "university_of_paris",
+ "name_primary": "University of Paris",
+ "domain": "university",
+ "formed": 1150,
+ "dissolved": 1500,
+ "_quarry": {
+  "key_developments": [
+   {
+    "year": 1170,
+    "event": "Earliest evidence of a guild of masters."
+   },
+   {
+    "year": 1200,
+    "event": "Privilege of Philip II Augustus — royal protection of scholars."
+   },
+   {
+    "year": 1215,
+    "event": "Statutes of Robert of Courson; formal university constitution."
+   },
+   {
+    "year": 1257,
+    "event": "Foundation of the Collège de Sorbonne by Robert de Sorbon."
+   }
+  ],
+  "influences_entities": [
+   "kingdom_of_france",
+   "papal_states"
+  ],
+  "description": "Crystallised from the cathedral school of Notre-Dame around 1150–1170, the University of Paris became the medieval centre of theology and scholastic philosophy. Master-governed (in contrast to Bologna). Royal and papal charters in the early 13th century established its corporate autonomy. Aquinas, Albertus Magnus, Duns Scotus, and Ockham all taught or studied there; the four nations system organised students by origin."
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "ims_fordham",
+   "ims_fordham_sbook1r"
+  ],
+  "confidence": "low"
+ }
+}

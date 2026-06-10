@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_siege_of_carcassonne_1209",
+  "name": "Siege of Carcassonne",
+  "subtype": "battle",
+  "start_year": 1209,
+  "end_year": 1209,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q3485852"
+    }
+  },
+  "description": "Battle during Albigensian Crusade (1209)",
+  "coords": [
+    2.3519,
+    43.2131
+  ]
+}

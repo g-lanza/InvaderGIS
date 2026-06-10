@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_tuscan_war_1273",
+  "name": "Tuscan War",
+  "year": 1273,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41.25,
+    11.05
+  ],
+  "entity": "republic_of_florence",
+  "summary": "Tuscan War (1273 CE), at Tuscany (part of Guelphs and Ghibellines). Source: Wikidata Q97163647.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_florence",
+      "kingdom_of_sicily_norman",
+      "judicate_of_arborea",
+      "republic_of_pisa"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "najemy_a_2006",
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

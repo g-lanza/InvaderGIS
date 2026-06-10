@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "basil_ii_bulgar_1014",
+  "name": "Basil II's Bulgar campaign ends",
+  "year": 1014,
+  "type": "war",
+  "category": "violence",
+  "coords": [
+    41.6,
+    23.1
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Byzantine Emperor Basil II 'the Bulgar-Slayer' defeats the First Bulgarian Empire under Tsar Samuel at the Battle of Kleidion (July 29, 1014) in a mountain pass in Macedonia. Basil captures approximately 15,000 Bulgarian prisoners. He blinds 99 out of every 100 prisoners, leaving one eye to one man in each hundred to lead the blinded captives home. When Tsar Samuel sees the mutilated army returning, he is struck by apoplexy and dies four days later. The act of systematic mass blinding, unprecedented in its scale, becomes Basil II's defining act. The First Bulgarian Empire survives only 4 more years before final Byzantine annexation (1018).",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "first_bulgarian_empire"
+    ],
+    "structural_significance": "Effectively ends the First Bulgarian Empire; establishes Basil II as the most militarily effective Byzantine emperor; the mass blinding becomes the defining image of Byzantine ruthlessness in warfare; Bulgarian territory becomes a Byzantine theme for the next 167 years",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

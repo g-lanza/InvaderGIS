@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "jan_hus_execution_1415",
+  "name": "Execution of Jan Hus at Constance",
+  "year": 1415,
+  "type": "conflict",
+  "category": "violence",
+  "coords": [
+    47.66,
+    9.18
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Jan Hus, Bohemian theologian and reformer who challenged the sale of indulgences and advocated for communion in both kinds for the laity, traveled to the Council of Constance under imperial safe-conduct. Despite the guarantee, he was arrested, tried for heresy, and burned at the stake on 6 July 1415. His execution triggered the Hussite Wars in Bohemia, which the crusading armies of the Holy Roman Empire repeatedly failed to suppress.",
+  "outcomes": [
+    "Hus burned at the stake despite safe-conduct promise",
+    "Council of Constance condemns Wycliffite and Hussite doctrines",
+    "Hussite Wars begin in Bohemia 1419",
+    "Czech religious identity forged"
+  ],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "papal_states",
+      "kingdom_of_bohemia"
+    ],
+    "structural_significance": "The first mass heretical movement that successfully resisted crusader suppression; direct precursor to the Protestant Reformation a century later.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fudge_magnificent_1998",
+      "spinka_john_1968"
+    ],
+    "confidence": "low"
+  }
+}

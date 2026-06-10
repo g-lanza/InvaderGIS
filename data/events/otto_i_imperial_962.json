@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "otto_i_imperial_962",
+  "name": "Otto I crowned emperor",
+  "year": 962,
+  "type": "coronation",
+  "category": "power",
+  "coords": [
+    41.9,
+    12.45
+  ],
+  "entity": "east_francia",
+  "summary": "Pope John XII crowns Otto I, King of East Francia, as Holy Roman Emperor in St. Peter's Basilica (February 2, 962). Otto had already defeated the Magyars at Lechfeld (955), establishing himself as the defender of Latin Christendom. His coronation transforms East Francia into the Holy Roman Empire and restores the western imperial title vacant since 924. The Ottonianum (privilegium) grants the papacy temporal sovereignty and police protection. The coronation creates a 'partnership' between papacy and empire that will generate centuries of conflict over who exercises ultimate sovereignty.",
+  "outcomes": [
+    "ottonian_restoration"
+  ],
+  "_quarry": {
+    "participants": [
+      "east_francia",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "Founds the Holy Roman Empire of the German Nation; establishes the Ottonian-Salian dynasty's imperial claims; creates the constitutional framework of the Empire that persists until 1806",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

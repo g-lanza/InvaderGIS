@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "norman_kingdom_sicily_1130",
+  "name": "Roger II and the Kingdom of Sicily",
+  "year": 1130,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    38.115,
+    13.362
+  ],
+  "entity": "kingdom_of_sicily_norman",
+  "summary": "Roger II was crowned King of Sicily by the antipope Anacletus II in 1130, unifying Norman Sicily, Calabria, and Apulia under one crown. His court at Palermo was uniquely multicultural: Arab administrators, Greek bureaucrats, and Norman knights served side by side; royal decrees were issued in Arabic, Greek, and Latin. The geographer Al-Idrisi produced his famous world map there in 1154, and Roger's court attracted scholars from across the Mediterranean.",
+  "outcomes": [
+    "Roger II crowned King of Sicily 1130",
+    "Multicultural court Arabic-Latin-Greek administration",
+    "Al-Idrisi produces world map 1154",
+    "Most sophisticated monarchy in 12th-century Europe"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_sicily_norman"
+    ],
+    "structural_significance": "The Norman Kingdom of Sicily was medieval Europe's most cosmopolitan monarchy; its synthesis of Arab, Byzantine, and Latin cultures produced unique artistic and administrative achievements.",
+    "year_range": [
+      1130,
+      1189
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Metcalfe, The Muslims of Medieval Italy",
+      "Loud, The Age of Robert Guiscard"
+    ],
+    "confidence": "low"
+  }
+}

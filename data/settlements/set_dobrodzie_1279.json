@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_dobrodzie_1279",
+  "name": "Dobrodzień",
+  "importance": "city",
+  "start_year": 1279,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1780345"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    18.4444,
+    50.7278
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "sufism_flowering_1200",
+  "name": "Flowering of organised Sufism",
+  "year": 1200,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    37.87,
+    32.49
+  ],
+  "entity": "seljuk_sultanate",
+  "summary": "Sufi tariqas (brotherhoods) organise around founding masters: the Qadiriyya (Abdul Qadir Gilani d.1166), the Rifa'iyya (1183), Suhrawardiyya, Chishtiyya (carried to India), and the Mevlevi order founded around Jalal al-Din Rumi at Konya (1273). Hospices (khanqahs), poetry, and dhikr ritual spread across the Islamic world.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "seljuk_sultanate",
+      "ayyubid_sultanate",
+      "abbasid_caliphate"
+    ],
+    "structural_significance": "Sufi networks become the principal vehicle for Islamic expansion into South Asia, Anatolia, the Balkans, and sub-Saharan Africa over the next four centuries, preceding and outlasting military conquest. Ibn al-Arabi's metaphysical synthesis (d.1240) shapes Islamic mystical philosophy permanently.",
+    "year_range": [
+      1150,
+      1300
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "peacock_the_2015",
+      "bosworth_the_1963",
+      "cahen_preottoman_1968"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

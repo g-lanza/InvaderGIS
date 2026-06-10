@@ -1,0 +1,33 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_wallachia_ottoman",
+  "statement": "Wallachia became an Ottoman tributary in stages following the Battle of Nicopolis (1396), though Mircea the Elder had already acknowledged Ottoman suzerainty earlier (1393). The arrangement — paying haraç (tribute) and providing military contingents while maintaining internal self-governance — was periodically disrupted by resistance. Vlad III 'the Impaler' (Dracula) famously broke from Ottoman suzerainty and impaled Ottoman envoys (1459), triggering a massive Ottoman invasion. Wallachia's mountain passes and forest terrain, combined with diplomatic maneuver between the Ottomans and Hungary, allowed it to maintain autonomy through the tribute system.",
+  "subject_ids": [
+    "ottoman_empire",
+    "principality_of_wallachia"
+  ],
+  "predicate": "tributary",
+  "derived_from": "rel_wallachia_ottoman",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d",
+      "deletant_romania_1998",
+      "panaitescu_mircea_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "principality_of_wallachia"
+  ],
+  "period": {
+    "from": 1453,
+    "to": 1500
+  }
+}

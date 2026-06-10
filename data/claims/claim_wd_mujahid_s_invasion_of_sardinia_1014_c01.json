@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_mujahid_s_invasion_of_sardinia_1014_c01",
+  "statement": "Mujahid's invasion of Sardinia (1014 CE), at Sardinia.",
+  "subject_ids": [
+    "republic_of_genoa"
+  ],
+  "period": {
+    "from": 1014,
+    "to": 1014
+  },
+  "derived_from": "wd_mujahid_s_invasion_of_sardinia_1014",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

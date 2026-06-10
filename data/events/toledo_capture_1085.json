@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "toledo_capture_1085",
+  "name": "Christian capture of Toledo",
+  "year": 1085,
+  "type": "expansion_milestone",
+  "category": "discovery",
+  "coords": [
+    39.86,
+    -4.03
+  ],
+  "entity": "kingdom_of_leon",
+  "summary": "Alfonso VI of León-Castile captures Toledo (May 25, 1085), the ancient Visigothic capital and the largest city of the Iberian Peninsula, from the Taifa of Toledo. Toledo falls after negotiation rather than assault; Alfonso offers religious toleration to its Muslim and Jewish populations. The conquest doubles Alfonso's kingdom and gives him access to Toledo's extraordinary library of Arabic scholarly manuscripts. The translation movement that transmits Arabic (and through it, Greek) science and philosophy to Western Europe flows from Toledo's scholars over the next century and a half.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_leon",
+      "taifa_kingdoms"
+    ],
+    "structural_significance": "The most symbolically important capture of the Reconquista before Granada (1492); Toledo's library enables the 12th-century Translation Movement that transmits Aristotle, Euclid, and Arabic science to Latin Europe; the conquest triggers the Almoravid intervention (1086) that temporarily reverses Reconquista gains",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_empire_of_nicaea_1205_1257",
+  "statement": "Empire of Nicaea — campaigns and battles spanned 1205–1257, from Battle of Adramyttium to Rebellion of Arbanon.",
+  "subject_ids": [
+    "empire_of_nicaea"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_empire_of_nicaea_1205_1257",
+  "period": {
+    "from": 1205,
+    "to": 1257
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

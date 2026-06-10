@@ -1,0 +1,35 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_judicates_sardinia",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "judicate_of_arborea",
+      "role": "principal"
+    },
+    {
+      "entity_id": "judicate_of_cagliari",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 1000,
+  "until": 1258,
+  "note": "Medieval Sardinia was divided into four indigenous 'giudicati' (judgeships) — Cagliari, Arborea, Torres (Logudoro), and Gallura — autonomous states that developed after the breakdown of Byzantine control (9th–10th centuries). The giudicati maintained their independence through shifting alliances with Genoa, Pisa, and the papacy while resisting outside absorption. The Church played a crucial role through the 'regnum Sardiniae et Corsicae' papal grant (1297 to Aragon); the Giudicato of Arborea — the last native Sardinian state — resisted Aragonese conquest until 1420, led by the remarkable Eleonora d'Arborea, who codified Sardinian law in the Carta de Logu (c. 1395).",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Sardinia's four-giudicati system represents a unique form of indigenous political organization that resisted absorption for four centuries; Eleonora d'Arborea's Carta de Logu is one of the most sophisticated legal codes in medieval Europe; the giudicati's eventual Aragonese absorption follows a model of legal accommodation (Carta retained) rather than simple conquest"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

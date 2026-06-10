@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_asturias_to_leon",
+  "statement": "The Kingdom of Asturias, founded by Pelayo after the Visigothic collapse (718), gradually shifted its political center southward as the Reconquista reclaimed territory from the Umayyads. When Alfonso III reconquered the Leonese plateau (late 9th century), his son Garcia I moved the royal capital from Oviedo to León (910), renaming the kingdom. The shift from Asturias to León reflects both the military southward advance and the symbolic claim to succeed the Visigothic kingdom based at Toledo. León subsequently united with Castile (1230) under Fernando III, completing the largest Reconquista realignment.",
+  "subject_ids": [
+    "kingdom_of_asturias",
+    "kingdom_of_leon"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_asturias_to_leon",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "kingdom_of_leon"
+  ],
+  "period": {
+    "from": 910,
+    "to": 910
+  }
+}

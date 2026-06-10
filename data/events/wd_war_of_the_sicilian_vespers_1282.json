@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_war_of_the_sicilian_vespers_1282",
+  "name": "War of the Sicilian Vespers",
+  "year": 1282,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41.195,
+    10.475
+  ],
+  "entity": "byzantine_empire",
+  "summary": "War of the Sicilian Vespers (1282 CE), at South Italy (part of Sicilian Vespers). Source: Wikidata Q2599340.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "kingdom_of_france",
+      "kingdom_of_naples",
+      "kingdom_of_sicily_norman",
+      "crown_of_aragon",
+      "kingdom_of_majorca"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

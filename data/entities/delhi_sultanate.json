@@ -1,0 +1,1109 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "delhi_sultanate",
+  "name_primary": "Delhi Sultanate",
+  "name_variants": [
+    "Sultanate of Delhi",
+    "Mamluk Sultanate of Delhi",
+    "Khalji Sultanate",
+    "Tughluq Sultanate"
+  ],
+  "type": "sultanate",
+  "region": "south_asia",
+  "formed": 1206,
+  "dissolved": 1526,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    27.5537,
+    81.0837
+  ],
+  "religion": "islam",
+  "population_estimates": [
+    {
+      "year": 1210,
+      "estimate": 25000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q229411",
+          "url": "https://www.wikidata.org/wiki/Q229411",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Delhi Sultanate",
+          "url": "https://en.wikipedia.org/wiki/Delhi_Sultanate"
+        }
+      ]
+    },
+    {
+      "year": 1300,
+      "estimate": 40000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q229411",
+          "url": "https://www.wikidata.org/wiki/Q229411",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Delhi Sultanate",
+          "url": "https://en.wikipedia.org/wiki/Delhi_Sultanate"
+        }
+      ]
+    },
+    {
+      "year": 1398,
+      "estimate": 25000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q229411",
+          "url": "https://www.wikidata.org/wiki/Q229411",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Delhi Sultanate",
+          "url": "https://en.wikipedia.org/wiki/Delhi_Sultanate"
+        }
+      ]
+    },
+    {
+      "year": 1500,
+      "estimate": 30000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q229411",
+          "url": "https://www.wikidata.org/wiki/Q229411",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Delhi Sultanate",
+          "url": "https://en.wikipedia.org/wiki/Delhi_Sultanate"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "jackson_the_1999",
+      "kumar_the_2007"
+    ],
+    "confidence": "low"
+  },
+  "description": "First major Islamic state in South Asia (1206–1526); encompassed five successive dynasties (Mamluk, Khalji, Tughluq, Sayyid, Lodi) ruling from Delhi over northern India; repelled repeated Mongol invasions; initiated the spread of Islam in the subcontinent; ended by Babur's invasion at the First Battle of Panipat (1526).",
+  "temporal": {
+    "start_year": 1206,
+    "end_year": 1526,
+    "notes": "Founded by Qutb ud-Din Aibak after Muhammad of Ghor's conquests; five dynasties; conquered by Babur at Panipat 1526"
+  },
+  "geographic": {
+    "centroid": [
+      27.5537,
+      81.0837
+    ],
+    "core_regions": [
+      "Delhi",
+      "Punjab",
+      "Gangetic Plain",
+      "Rajputana",
+      "Deccan (under Khalji and Tughluq)"
+    ],
+    "polygon_simplified": [
+      [
+        [
+          32.5322,
+          71.4038
+        ],
+        [
+          33.3721,
+          72.2104
+        ],
+        [
+          33.1817,
+          76.8123
+        ],
+        [
+          33.0578,
+          79.8076
+        ],
+        [
+          31.8835,
+          80.0785
+        ],
+        [
+          31.1609,
+          79.8076
+        ],
+        [
+          30.7092,
+          79.8076
+        ],
+        [
+          30.2166,
+          79.9744
+        ],
+        [
+          29.9815,
+          80.054
+        ],
+        [
+          29.6829,
+          80.6735
+        ],
+        [
+          29.0152,
+          80.103
+        ],
+        [
+          27.2772,
+          83.0791
+        ],
+        [
+          27.3116,
+          84.5092
+        ],
+        [
+          27.6921,
+          85.088
+        ],
+        [
+          27.3297,
+          86.4093
+        ],
+        [
+          27.2988,
+          89.5749
+        ],
+        [
+          24.7683,
+          93.6224
+        ],
+        [
+          24.7646,
+          93.6205
+        ],
+        [
+          22.7208,
+          91.4102
+        ],
+        [
+          22.5613,
+          91.0814
+        ],
+        [
+          22.561,
+          90
+        ],
+        [
+          22.3254,
+          90
+        ],
+        [
+          22.2309,
+          90
+        ],
+        [
+          22.4928,
+          88.9657
+        ],
+        [
+          24.4689,
+          82.2228
+        ],
+        [
+          23.9534,
+          81.4464
+        ],
+        [
+          25.1708,
+          79.4633
+        ],
+        [
+          25.777,
+          76.9942
+        ],
+        [
+          26.4251,
+          74.9655
+        ],
+        [
+          25.859,
+          74.0502
+        ],
+        [
+          25.7455,
+          71.9069
+        ],
+        [
+          27.4365,
+          71.9069
+        ],
+        [
+          27.6713,
+          72.4117
+        ],
+        [
+          29.097,
+          75.4756
+        ],
+        [
+          31.2903,
+          71.3196
+        ],
+        [
+          32.5322,
+          71.4038
+        ]
+      ]
+    ],
+    "capital": {
+      "name": "Delhi",
+      "coords": [
+        28.66667,
+        77.21667
+      ],
+      "source": "wikidata"
+    }
+  },
+  "internal_structure": {
+    "governance_type": "military_monarchy",
+    "legitimacy_basis": [
+      "religious_authority",
+      "military_conquest"
+    ],
+    "centralization": "centralized"
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "mamluk_dynasty",
+      "years": "1206–1290",
+      "description": "Slave generals (Mamluks) from Ghurid Afghanistan establish the sultanate; Iltutmish consolidates power and gains Abbasid recognition; repels early Mongol raids; Razia Sultana (1236–1240) first female ruler of a Muslim state in South Asia",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q229411",
+          "url": "https://www.wikidata.org/wiki/Q229411"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Delhi Sultanate",
+          "url": "https://en.wikipedia.org/wiki/Delhi_Sultanate"
+        }
+      ]
+    },
+    {
+      "phase": "khalji_expansion",
+      "years": "1290–1320",
+      "description": "Alauddin Khalji conquers most of India including Gujarat, Rajputana, and reaches south India; introduces price controls and market reforms; defeats multiple Mongol invasions including at Amroha (1305); empire reaches greatest territorial extent",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q229411",
+          "url": "https://www.wikidata.org/wiki/Q229411"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Delhi Sultanate",
+          "url": "https://en.wikipedia.org/wiki/Delhi_Sultanate"
+        }
+      ]
+    },
+    {
+      "phase": "tughluq_zenith_and_collapse",
+      "years": "1320–1414",
+      "description": "Muhammad bin Tughluq's ill-fated capital transfer to Daulatabad and currency reforms cause chaos; Ibn Battuta visits (1333–1342); Timur's devastating sack of Delhi (1398) ends Tughluq power; Sultanate shrinks to rump state",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q229411",
+          "url": "https://www.wikidata.org/wiki/Q229411"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Delhi Sultanate",
+          "url": "https://en.wikipedia.org/wiki/Delhi_Sultanate"
+        }
+      ]
+    },
+    {
+      "phase": "terminal_decline",
+      "years": "1414–1526",
+      "description": "Sayyid and Lodi dynasties rule a reduced Delhi Sultanate; Afghan Lodi dynasty briefly revives strength but Babur's Mughal army with artillery defeats Ibrahim Lodi at First Panipat (1526)",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q229411",
+          "url": "https://www.wikidata.org/wiki/Q229411"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Delhi Sultanate",
+          "url": "https://en.wikipedia.org/wiki/Delhi_Sultanate"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "military_organizational_advantage",
+      "layer": "military_security",
+      "description": "Turkic horse archers and mounted heavy cavalry from Central Asia had decisive advantages over Indian infantry-based armies and war elephants; systematic fortification of Delhi",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q229411",
+          "url": "https://www.wikidata.org/wiki/Q229411"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Delhi Sultanate",
+          "url": "https://en.wikipedia.org/wiki/Delhi_Sultanate"
+        }
+      ],
+      "tag_prose": "turkish_military_dominance"
+    },
+    {
+      "tag": "dynastic_consolidation",
+      "layer": "external_political",
+      "description": "The Delhi Sultanate inherited the Ghurid administrative apparatus including experienced Persian scribes, Arab traders, and Afghan soldiers who had already pacified northern India",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q229411",
+          "url": "https://www.wikidata.org/wiki/Q229411"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Delhi Sultanate",
+          "url": "https://en.wikipedia.org/wiki/Delhi_Sultanate"
+        }
+      ],
+      "tag_prose": "ghurid_inheritance"
+    },
+    {
+      "tag": "mongol_repulsion",
+      "layer": "military_security",
+      "description": "Unlike Persia and Central Asia, the Delhi Sultanate successfully repelled repeated Mongol invasions (1241–1306), positioning itself as the shield of Islam in South Asia and attracting Muslim refugees from Mongol-devastated lands",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q229411",
+          "url": "https://www.wikidata.org/wiki/Q229411"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Delhi Sultanate",
+          "url": "https://en.wikipedia.org/wiki/Delhi_Sultanate"
+        }
+      ]
+    },
+    {
+      "tag": "resource_concentration",
+      "layer": "economic_commercial",
+      "description": "Control of the fertile Gangetic Plain provided the agricultural surplus and population base that funded the sultanate's military campaigns and building program",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q229411",
+          "url": "https://www.wikidata.org/wiki/Q229411"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Delhi Sultanate",
+          "url": "https://en.wikipedia.org/wiki/Delhi_Sultanate"
+        }
+      ],
+      "tag_prose": "ganges_plain_agriculture"
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "external_military_pressure",
+      "layer": "military_security",
+      "description": "Timur's sack of Delhi (1398) killed an estimated 100,000 people in a single day; the survivors fled and the city was depopulated for years; the Tughluq dynasty never recovered",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q229411",
+          "url": "https://www.wikidata.org/wiki/Q229411"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Delhi Sultanate",
+          "url": "https://en.wikipedia.org/wiki/Delhi_Sultanate"
+        }
+      ],
+      "tag_prose": "timur_invasion"
+    },
+    {
+      "tag": "tughluq_policy_failures",
+      "layer": "economic_commercial",
+      "description": "Muhammad bin Tughluq's forced transfer of the capital to Daulatabad caused mass deaths; his experimental token currency collapsed, wiping out merchants' savings; these disasters triggered province-by-province revolts",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q229411",
+          "url": "https://www.wikidata.org/wiki/Q229411"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Delhi Sultanate",
+          "url": "https://en.wikipedia.org/wiki/Delhi_Sultanate"
+        }
+      ]
+    },
+    {
+      "tag": "regional_revolts",
+      "layer": "governance_institutional",
+      "description": "Bengal, Gujarat, the Deccan, Jaunpur, Malwa, and Punjab all broke away as independent sultanates during the 14th–15th centuries, reducing Delhi to one of many regional powers",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q229411",
+          "url": "https://www.wikidata.org/wiki/Q229411"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Delhi Sultanate",
+          "url": "https://en.wikipedia.org/wiki/Delhi_Sultanate"
+        }
+      ]
+    },
+    {
+      "tag": "artillery_disadvantage",
+      "layer": "military_security",
+      "description": "The Lodi Sultanate lacked the gunpowder artillery that Babur brought from Central Asia; the First Battle of Panipat (1526) demonstrated a decisive technology gap",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q229411",
+          "url": "https://www.wikidata.org/wiki/Q229411"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Delhi Sultanate",
+          "url": "https://en.wikipedia.org/wiki/Delhi_Sultanate"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Qutb ud-Din Aibak",
+      "role": "dynastic_founder",
+      "years": "?–1210",
+      "year_start": null,
+      "year_end": 1210,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Qutb ud-Din Aibak",
+          "url": "https://en.wikipedia.org/wiki/Qutb_ud-Din_Aibak"
+        }
+      ]
+    },
+    {
+      "name": "Iltutmish",
+      "role": "ruler",
+      "years": "1211–1236",
+      "year_start": 1211,
+      "year_end": 1236,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Iltutmish",
+          "url": "https://en.wikipedia.org/wiki/Iltutmish"
+        }
+      ]
+    },
+    {
+      "name": "Razia Sultana",
+      "role": "ruler",
+      "years": "1236–1240",
+      "year_start": 1236,
+      "year_end": 1240,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Razia Sultana",
+          "url": "https://en.wikipedia.org/wiki/Razia_Sultan"
+        }
+      ]
+    },
+    {
+      "name": "Alauddin Khalji",
+      "role": "ruler",
+      "years": "1296–1316",
+      "year_start": 1296,
+      "year_end": 1316,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Alauddin Khalji",
+          "url": "https://en.wikipedia.org/wiki/Alauddin_Khalji"
+        }
+      ]
+    },
+    {
+      "name": "Muhammad bin Tughluq",
+      "role": "ruler",
+      "years": "1324–1351",
+      "year_start": 1324,
+      "year_end": 1351,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Muhammad bin Tughluq",
+          "url": "https://en.wikipedia.org/wiki/Muhammad_bin_Tughluq"
+        }
+      ]
+    },
+    {
+      "name": "Firuz Shah Tughluq",
+      "role": "ruler",
+      "years": "1351–1388",
+      "year_start": 1351,
+      "year_end": 1388,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Firuz Shah Tughluq",
+          "url": "https://en.wikipedia.org/wiki/Firuz_Shah_Tughlaq"
+        }
+      ]
+    },
+    {
+      "name": "Ibrahim Lodi",
+      "role": "ruler",
+      "years": "1517–1526",
+      "year_start": 1517,
+      "year_end": 1526,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Ibrahim Lodi",
+          "url": "https://en.wikipedia.org/wiki/Ibrahim_Khan_Lodi"
+        }
+      ]
+    }
+  ],
+  "successor_entity_ids": [
+    "bahmani_sultanate"
+  ],
+  "primary_ethnicity": "arab",
+  "ethnic_composition": [
+    {
+      "group": "arab",
+      "proportion": 0.68
+    },
+    {
+      "group": "persian_iranian",
+      "proportion": 0.15
+    },
+    {
+      "group": "turkic",
+      "proportion": 0.1
+    },
+    {
+      "group": "mongol",
+      "proportion": 0.04
+    },
+    {
+      "group": "other",
+      "proportion": 0.03
+    }
+  ],
+  "religion_composition": [
+    {
+      "religion": "islam",
+      "proportion": 0.12
+    },
+    {
+      "religion": "pagan",
+      "proportion": 0.82
+    },
+    {
+      "religion": "other",
+      "proportion": 0.06
+    }
+  ],
+  "primary_language": "persian",
+  "language_composition": [
+    {
+      "language": "persian",
+      "proportion": 0.4,
+      "role": "administrative"
+    },
+    {
+      "language": "arabic",
+      "proportion": 0.12,
+      "role": "liturgical"
+    },
+    {
+      "language": "turkic_lang",
+      "proportion": 0.08,
+      "role": "military"
+    },
+    {
+      "language": "church_slavonic",
+      "proportion": 0.4,
+      "role": "vernacular"
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "long_distance_trade",
+      "tribute",
+      "manufacturing"
+    ],
+    "wealth_level": "very_high",
+    "major_exports": [
+      "cotton",
+      "textiles",
+      "spices",
+      "indigo",
+      "sugar",
+      "horses"
+    ],
+    "major_trade_partners": [
+      "mamluk_sultanate",
+      "chagatai_khanate",
+      "republic_of_venice",
+      "golden_horde"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "tribute",
+      "customs_duties",
+      "jizya"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q229411",
+        "url": "https://www.wikidata.org/wiki/Q229411"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Delhi Sultanate",
+        "url": "https://en.wikipedia.org/wiki/Delhi_Sultanate"
+      }
+    ]
+  },
+  "social_structure": {
+    "ruling_ethnicity": "turkic",
+    "subject_majority": "arab",
+    "military_ethnicity": "turkic",
+    "administrative_language": "persian",
+    "stratification_type": "conquest_colonial"
+  },
+  "wikidata_enrichment": {
+    "qid": "Q229411",
+    "matched_name": "Delhi Sultanate",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Delhi_Sultanate",
+    "capital": {
+      "name": "Delhi",
+      "coords": [
+        28.66667,
+        77.21667
+      ]
+    },
+    "rulers_from_wikidata": [
+      {
+        "name": "Aram Shah",
+        "qid": "Q2349158",
+        "year_start": 1210,
+        "year_end": 1211,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2349158",
+            "url": "https://www.wikidata.org/wiki/Q2349158"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Aram Shah",
+            "url": "https://en.wikipedia.org/wiki/Aram_Shah"
+          }
+        ]
+      },
+      {
+        "name": "Iltutmish",
+        "qid": "Q336312",
+        "year_start": 1211,
+        "year_end": 1236,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q336312",
+            "url": "https://www.wikidata.org/wiki/Q336312"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Iltutmish",
+            "url": "https://en.wikipedia.org/wiki/Iltutmish"
+          }
+        ]
+      },
+      {
+        "name": "Rukn ud din Firuz",
+        "qid": "Q2360374",
+        "year_start": 1236,
+        "year_end": 1236,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2360374",
+            "url": "https://www.wikidata.org/wiki/Q2360374"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Rukn ud din Firuz",
+            "url": "https://en.wikipedia.org/wiki/Ruknuddin_Firuz"
+          }
+        ]
+      },
+      {
+        "name": "Razia Sultana",
+        "qid": "Q465076",
+        "year_start": 1236,
+        "year_end": 1240,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q465076",
+            "url": "https://www.wikidata.org/wiki/Q465076"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Razia Sultana",
+            "url": "https://en.wikipedia.org/wiki/Razia_Sultan"
+          }
+        ]
+      },
+      {
+        "name": "Muiz ud din Bahram",
+        "qid": "Q337442",
+        "year_start": 1240,
+        "year_end": 1242,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q337442",
+            "url": "https://www.wikidata.org/wiki/Q337442"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Muiz ud din Bahram",
+            "url": "https://en.wikipedia.org/wiki/Muiz_ud_din_Bahram"
+          }
+        ]
+      },
+      {
+        "name": "Ala-ud-Din Masud Shah",
+        "qid": "Q3826620",
+        "year_start": 1242,
+        "year_end": 1245,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3826620",
+            "url": "https://www.wikidata.org/wiki/Q3826620"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ala-ud-Din Masud Shah",
+            "url": "https://en.wikipedia.org/wiki/Masud_Shah"
+          }
+        ]
+      },
+      {
+        "name": "Nasir ud din Mahmud",
+        "qid": "Q2410810",
+        "year_start": 1245,
+        "year_end": 1266,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2410810",
+            "url": "https://www.wikidata.org/wiki/Q2410810"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Nasir ud din Mahmud",
+            "url": "https://en.wikipedia.org/wiki/Nasir_ud_din_Mahmud"
+          }
+        ]
+      },
+      {
+        "name": "Ghiyas ud din Balban",
+        "qid": "Q374288",
+        "year_start": 1266,
+        "year_end": 1287,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q374288",
+            "url": "https://www.wikidata.org/wiki/Q374288"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ghiyas ud din Balban",
+            "url": "https://en.wikipedia.org/wiki/Balban"
+          }
+        ]
+      },
+      {
+        "name": "Muiz ud din Qaiqabad",
+        "qid": "Q2168115",
+        "year_start": 1287,
+        "year_end": 1290,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2168115",
+            "url": "https://www.wikidata.org/wiki/Q2168115"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Muiz ud din Qaiqabad",
+            "url": "https://en.wikipedia.org/wiki/Muiz_ud_din_Qaiqabad"
+          }
+        ]
+      },
+      {
+        "name": "Kayumars of Delhi",
+        "qid": "Q3695807",
+        "year_start": 1290,
+        "year_end": 1290,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3695807",
+            "url": "https://www.wikidata.org/wiki/Q3695807"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Kayumars of Delhi",
+            "url": "https://en.wikipedia.org/wiki/Shamsuddin_Kayumars"
+          }
+        ]
+      },
+      {
+        "name": "Jalal ud din Firuz Khalji",
+        "qid": "Q2691885",
+        "year_start": 1290,
+        "year_end": 1296,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2691885",
+            "url": "https://www.wikidata.org/wiki/Q2691885"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Jalal ud din Firuz Khalji",
+            "url": "https://en.wikipedia.org/wiki/Jalal-ud-Din_Khalji"
+          }
+        ]
+      },
+      {
+        "name": "Nasir ud din Muhammad Shah III",
+        "qid": "Q3028975",
+        "year_start": 1389,
+        "year_end": 1394,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3028975",
+            "url": "https://www.wikidata.org/wiki/Q3028975"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Nasir ud din Muhammad Shah III",
+            "url": "https://en.wikipedia.org/wiki/Muhammad_Shah_III"
+          }
+        ]
+      },
+      {
+        "name": "Nàssir-ad-Din Mahmud Xah Tughluq",
+        "qid": "Q3277857",
+        "year_start": 1394,
+        "year_end": 1413,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3277857",
+            "url": "https://www.wikidata.org/wiki/Q3277857"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Nàssir-ad-Din Mahmud Xah Tughluq",
+            "url": "https://en.wikipedia.org/wiki/Nàssir-ad-Din_Mahmud_Xah_Tughluq"
+          }
+        ]
+      },
+      {
+        "name": "Sikandar-Xah Tughluq",
+        "qid": "Q3483768",
+        "year_start": 1394,
+        "year_end": 1394,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3483768",
+            "url": "https://www.wikidata.org/wiki/Q3483768"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Sikandar-Xah Tughluq",
+            "url": "https://en.wikipedia.org/wiki/Sikandar-Xah_Tughluq"
+          }
+        ]
+      },
+      {
+        "name": "Mubarak Shah",
+        "qid": "Q28036606",
+        "year_start": 1421,
+        "year_end": 1434,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q28036606",
+            "url": "https://www.wikidata.org/wiki/Q28036606"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mubarak Shah",
+            "url": "https://en.wikipedia.org/wiki/Mubarak_Shah"
+          }
+        ]
+      },
+      {
+        "name": "Muhammad Shah",
+        "qid": "Q11947897",
+        "year_start": 1434,
+        "year_end": 1446,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q11947897",
+            "url": "https://www.wikidata.org/wiki/Q11947897"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Muhammad Shah",
+            "url": "https://en.wikipedia.org/wiki/Muhammad_Shah"
+          }
+        ]
+      },
+      {
+        "name": "Alauddin Shah",
+        "qid": "Q28036622",
+        "year_start": 1445,
+        "year_end": 1451,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q28036622",
+            "url": "https://www.wikidata.org/wiki/Q28036622"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Alauddin Shah",
+            "url": "https://en.wikipedia.org/wiki/Alauddin_Shah"
+          }
+        ]
+      },
+      {
+        "name": "Bahlul Khan Lodi",
+        "qid": "Q2747189",
+        "year_start": 1451,
+        "year_end": 1489,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2747189",
+            "url": "https://www.wikidata.org/wiki/Q2747189"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Bahlul Khan Lodi",
+            "url": "https://en.wikipedia.org/wiki/Bahlul_Khan_Lodi"
+          }
+        ]
+      },
+      {
+        "name": "Sikandar Khan Lodi",
+        "qid": "Q2597227",
+        "year_start": 1489,
+        "year_end": 1517,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2597227",
+            "url": "https://www.wikidata.org/wiki/Q2597227"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Sikandar Khan Lodi",
+            "url": "https://en.wikipedia.org/wiki/Sikandar_Khan_Lodi"
+          }
+        ]
+      },
+      {
+        "name": "Ibrahim Khan Lodi",
+        "qid": "Q381754",
+        "year_start": 1517,
+        "year_end": 1526,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q381754",
+            "url": "https://www.wikidata.org/wiki/Q381754"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ibrahim Khan Lodi",
+            "url": "https://en.wikipedia.org/wiki/Ibrahim_Khan_Lodi"
+          }
+        ]
+      }
+    ],
+    "successors_from_wikidata": [
+      "Mughal Empire"
+    ]
+  },
+  "sources": [
+    {
+      "type": "book",
+      "author": "Jackson, Peter",
+      "title": "The Delhi Sultanate: A Political and Military History",
+      "publisher": "Cambridge University Press",
+      "year": 1999
+    },
+    {
+      "type": "book",
+      "author": "Kumar, Sunil",
+      "title": "The Emergence of the Delhi Sultanate",
+      "publisher": "Permanent Black",
+      "year": 2007
+    }
+  ],
+  "monogram": "DS"
+}

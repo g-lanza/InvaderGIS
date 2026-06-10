@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_the_burbia_river_791",
+  "name": "Battle of the Burbia River",
+  "year": 791,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    40.65,
+    -5.3
+  ],
+  "entity": "kingdom_of_asturias",
+  "summary": "Battle of the Burbia River (791 CE), at Villafranca del Bierzo (part of Reconquista). Source: Wikidata Q2888222.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_asturias",
+      "umayyad_emirate_cordoba"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_teutonic_knights_founded_1190_c01",
+  "statement": "German crusaders from Lübeck and Bremen founded a field hospital at the Siege of Acre around 1190 that became the Teutonic Order in 1198.",
+  "subject_ids": [
+    "teutonic_order_state"
+  ],
+  "period": {
+    "from": 1190,
+    "to": 1190
+  },
+  "derived_from": "teutonic_knights_founded_1190",
+  "unresolved_sources": [
+    "urban_the_1994"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "christiansen_the_1997",
+      "turnbull_crusader_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

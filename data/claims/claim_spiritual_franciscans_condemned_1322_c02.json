@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_spiritual_franciscans_condemned_1322_c02",
+  "statement": "Several Spiritual Franciscans, including Michael of Cesena and William of Ockham, fled to Bavaria under Louis IV's protection after the condemnation.",
+  "subject_ids": [
+    "papal_states"
+  ],
+  "period": {
+    "from": 1322,
+    "to": 1322
+  },
+  "derived_from": "spiritual_franciscans_condemned_1322",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lawrence_medieval_monasticism_2001"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_alinja_1399",
+  "name": "Battle of Alinja",
+  "year": 1399,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    40.71,
+    55.85
+  ],
+  "entity": "kingdom_of_georgia",
+  "summary": "Battle of Alinja (1399 CE), at Alinja Tower (part of Siege of Alinja). Source: Wikidata Q126936039.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_georgia",
+      "timurid_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

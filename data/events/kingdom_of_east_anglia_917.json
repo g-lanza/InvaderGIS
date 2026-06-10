@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_east_anglia_917",
+  "name": "East Anglia Reconquered by Wessex",
+  "year": 917,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    52.475,
+    0
+  ],
+  "entity": "kingdom_of_east_anglia",
+  "summary": "Edward the Elder of Wessex systematically reconquered East Anglia from Danish control in 917 CE, completing the incorporation of the former kingdom into the emerging unified English state. The reconquest demonstrated Wessex's growing military and administrative capability.",
+  "outcomes": [
+    "danish_power_ends",
+    "wessex_expansion",
+    "england_unification"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_east_anglia",
+      "kingdom_of_england"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

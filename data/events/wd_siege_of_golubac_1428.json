@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_golubac_1428",
+  "name": "Siege of Golubac",
+  "year": 1428,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    46.7,
+    26.7667
+  ],
+  "entity": "ottoman_empire",
+  "summary": "Siege of Golubac (1428 CE), at Golubac (part of War of the South Danube). Source: Wikidata Q1007513.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "ottoman_empire",
+      "grand_duchy_of_lithuania",
+      "principality_of_wallachia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

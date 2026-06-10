@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "alexander_iii_pope_1159",
+  "name": "Pope Alexander III vs. Frederick Barbarossa",
+  "year": 1159,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.89,
+    12.49
+  ],
+  "entity": "papal_states",
+  "summary": "The disputed papal election of 1159 produced Alexander III (recognized by most of Europe) and Victor IV (supported by Barbarossa). For 18 years Alexander fought Barbarossa through excommunication, diplomacy, and alliance with the Lombard cities. After Legnano (1176) Barbarossa submitted at Venice, kneeling before Alexander in a dramatic reconciliation. The episode established papal authority over imperial interference in elections.",
+  "outcomes": [
+    "Eighteen-year schism over papal election",
+    "Alexander condemned by Barbarossa; four antipopes",
+    "Lombard League supports Alexander",
+    "Peace of Venice 1177, Barbarossa submits to Alexander"
+  ],
+  "_quarry": {
+    "participants": [
+      "papal_states",
+      "holy_roman_empire",
+      "commune_of_milan"
+    ],
+    "structural_significance": "One of the defining contests between papacy and empire; Alexander's victory reaffirmed clerical independence from imperial control.",
+    "year_range": [
+      1159,
+      1177
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Marshall, Warfare in the Latin East",
+      "Robinson, The Papacy 1073–1198"
+    ],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "matilda_tuscany",
+  "name": "Matilda of Tuscany",
+  "polity": "duchy_of_tuscany",
+  "title": "ruler",
+  "reign_start": 1046,
+  "reign_end": 1115,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "duchy_of_tuscany",
+        "role": "ruler",
+        "start_year": 1046,
+        "end_year": 1115
+      }
+    ],
+    "key_actions": [],
+    "region": "italy",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

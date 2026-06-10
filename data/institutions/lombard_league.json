@@ -1,0 +1,41 @@
+{
+  "kind": "institution",
+  "dataset": "medieval-europe-500-1500",
+  "id": "lombard_league",
+  "name_primary": "Lombard League",
+  "domain": "political_league",
+  "formed": 1167,
+  "dissolved": 1250,
+  "_quarry": {
+    "key_developments": [
+      {
+        "year": 1167,
+        "event": "League founded at Pontida."
+      },
+      {
+        "year": 1176,
+        "event": "Battle of Legnano — Lombard infantry defeats Barbarossa's cavalry."
+      },
+      {
+        "year": 1183,
+        "event": "Peace of Constance — Empire recognises communal autonomy."
+      },
+      {
+        "year": 1226,
+        "event": "Second Lombard League reformed against Frederick II."
+      }
+    ],
+    "influences_entities": [
+      "holy_roman_empire",
+      "commune_of_milan",
+      "republic_of_pisa",
+      "republic_of_florence"
+    ],
+    "description": "An alliance of north Italian communes — Milan, Verona, Padua, Vicenza, Cremona, Bologna and others — formed in 1167 to resist the Italian campaigns of Frederick I Barbarossa. The League's victory at Legnano (1176) and the subsequent Peace of Constance (1183) confirmed substantial communal autonomy within the Holy Roman Empire, a milestone in the political development of the Italian city-states."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

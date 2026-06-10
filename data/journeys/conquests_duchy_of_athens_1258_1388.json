@@ -1,0 +1,50 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_duchy_of_athens_1258_1388",
+  "name": "Duchy of Athens — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1258,
+  "year_end": 1388,
+  "waypoints": [
+    {
+      "year": 1258,
+      "place": "Battle of Karydi",
+      "coords": [
+        37.89,
+        23.065
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_karydi_1258"
+    },
+    {
+      "year": 1311,
+      "place": "Catalan Company Conquers Athens",
+      "coords": [
+        37.98,
+        23.73
+      ],
+      "note": "military",
+      "event_id": "duchy_of_athens_1311"
+    },
+    {
+      "year": 1388,
+      "place": "Argos and Nafplio War",
+      "coords": [
+        40.31,
+        19.4767
+      ],
+      "note": "military",
+      "event_id": "wd_argos_and_nafplio_war_1388"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

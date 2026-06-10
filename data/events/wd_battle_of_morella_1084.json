@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_morella_1084",
+  "name": "Battle of Morella",
+  "year": 1084,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41.7,
+    -0.9
+  ],
+  "entity": "kingdom_of_aragon",
+  "summary": "Battle of Morella (1084 CE), at Tortosa (part of Reconquista). Source: Wikidata Q2878470.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_aragon"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

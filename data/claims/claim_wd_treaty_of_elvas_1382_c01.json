@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_treaty_of_elvas_1382_c01",
+  "statement": "Treaty of Elvas (1382 CE), (part of Third Fernandine War).",
+  "subject_ids": [
+    "kingdom_of_portugal"
+  ],
+  "period": {
+    "from": 1382,
+    "to": 1382
+  },
+  "derived_from": "wd_treaty_of_elvas_1382",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

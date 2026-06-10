@@ -1,0 +1,31 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_amorgos_1312",
+  "name": "Battle of Amorgos",
+  "year": 1312,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    36.4,
+    28.2
+  ],
+  "entity": "knights_hospitaller_rhodes",
+  "summary": "Battle of Amorgos (1312 CE), at Amorgos (part of Crusades). Source: Wikidata Q28555185.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "knights_hospitaller_rhodes"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_hospitallers_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

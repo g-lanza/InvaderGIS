@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_turkistan_401",
+  "name": "Turkistan",
+  "importance": "city",
+  "start_year": 401,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q848638"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    68.2692,
+    43.3019
+  ]
+}

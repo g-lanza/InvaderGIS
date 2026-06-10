@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_mongol_china_conquest_1279_c02",
+  "statement": "The fall of the Southern Song in 1279 ended a civilization that had developed gunpowder weapons, printing, paper money, and large-scale porcelain production.",
+  "subject_ids": [
+    "mongol_empire"
+  ],
+  "period": {
+    "from": 1279,
+    "to": 1279
+  },
+  "derived_from": "mongol_china_conquest_1279",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

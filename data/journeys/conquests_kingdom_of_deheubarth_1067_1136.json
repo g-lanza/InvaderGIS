@@ -1,0 +1,50 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_kingdom_of_deheubarth_1067_1136",
+  "name": "Kingdom of Deheubarth — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1067,
+  "year_end": 1136,
+  "waypoints": [
+    {
+      "year": 1067,
+      "place": "Norman invasion of Wales",
+      "coords": [
+        52.4975,
+        -3.32
+      ],
+      "note": "military",
+      "event_id": "wd_norman_invasion_of_wales_1067"
+    },
+    {
+      "year": 1093,
+      "place": "Battle of Brecon",
+      "coords": [
+        52.22,
+        -2.6
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_brecon_1093"
+    },
+    {
+      "year": 1136,
+      "place": "Deheubarth Resists Norman Conquest",
+      "coords": [
+        51.94,
+        -4.2
+      ],
+      "note": "military",
+      "event_id": "kingdom_of_deheubarth_1136"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_hussite_tabor_1420_c03",
+  "statement": "The Hussites repelled all five papal crusades against them between 1420 and 1431.",
+  "subject_ids": [
+    "kingdom_of_bohemia"
+  ],
+  "period": {
+    "from": 1420,
+    "to": 1420
+  },
+  "derived_from": "hussite_tabor_1420",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

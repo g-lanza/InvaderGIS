@@ -1,0 +1,29 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_avar_khaganate_to_great_moravia_fragmentation",
+  "statement": "Derived from predecessor/successor links recorded in the avar_khaganate and great_moravia entity records. Transition anchored to great_moravia start_year.",
+  "subject_ids": [
+    "avar_khaganate",
+    "great_moravia"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_avar_khaganate_to_great_moravia_fragmentation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "havlík_kronika_1992",
+      "bowlus_franks_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "great_moravia"
+  ],
+  "period": {
+    "from": 833,
+    "to": 833
+  }
+}

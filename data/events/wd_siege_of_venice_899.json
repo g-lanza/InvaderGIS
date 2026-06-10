@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_venice_899",
+  "name": "Siege of Venice",
+  "year": 899,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    46.4975,
+    16.2215
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Siege of Venice (899 CE), at Venice (part of Hungarian invasions of Europe). Source: Wikidata Q136670379.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "magyars"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,823 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ghaznavid_emirate",
+  "name_primary": "Ghaznavid Emirate",
+  "name_variants": [],
+  "type": "sultanate",
+  "region": "central_asia",
+  "formed": 1000,
+  "dissolved": 1200,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 1000,
+      "label": "Ghaznavid Empire (approx.)",
+      "polygon": [
+        [
+          28,
+          60
+        ],
+        [
+          29,
+          65
+        ],
+        [
+          30,
+          70
+        ],
+        [
+          32,
+          73
+        ],
+        [
+          35,
+          72
+        ],
+        [
+          37,
+          70
+        ],
+        [
+          37,
+          65
+        ],
+        [
+          37,
+          60
+        ],
+        [
+          35,
+          58
+        ],
+        [
+          31,
+          58
+        ],
+        [
+          28,
+          60
+        ]
+      ]
+    },
+    {
+      "year": 1100,
+      "label": "Ghaznavid Empire (approx.)",
+      "polygon": [
+        [
+          28,
+          60
+        ],
+        [
+          29,
+          65
+        ],
+        [
+          30,
+          70
+        ],
+        [
+          32,
+          73
+        ],
+        [
+          35,
+          72
+        ],
+        [
+          37,
+          70
+        ],
+        [
+          37,
+          65
+        ],
+        [
+          37,
+          60
+        ],
+        [
+          35,
+          58
+        ],
+        [
+          31,
+          58
+        ],
+        [
+          28,
+          60
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    32.981,
+    64.842
+  ],
+  "population_estimates": [
+    {
+      "year": 1000,
+      "estimate": 3000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q249578",
+          "url": "https://www.wikidata.org/wiki/Q249578",
+          "statement": "P1082"
+        }
+      ]
+    },
+    {
+      "year": 1012,
+      "estimate": 4000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q249578",
+          "url": "https://www.wikidata.org/wiki/Q249578",
+          "statement": "P1082"
+        }
+      ]
+    },
+    {
+      "year": 1025,
+      "estimate": 5000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q249578",
+          "url": "https://www.wikidata.org/wiki/Q249578",
+          "statement": "P1082"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Turkic empire (977–1186) founded by Sebuktigin from the Ghazni base in Afghanistan; Mahmud of Ghazni's seventeen raids into the Indian subcontinent dismantled the Shahi kingdoms, looted temple wealth, and introduced Islam to the Punjabi plains, while Ghaznavid patronage of Persian literature, Ferdowsi's Shahnameh commissioned under Mahmud, established Persian as the prestige language of Islamic courts from Anatolia to Bengal.",
+  "temporal": {
+    "start_year": 1000,
+    "end_year": 1200,
+    "notes": "Stub: dates from GeoJSON basemap years 1000–1200"
+  },
+  "geographic": {
+    "centroid": [
+      32.981,
+      64.842
+    ],
+    "polygon_simplified": [
+      [
+        28,
+        60
+      ],
+      [
+        29,
+        65
+      ],
+      [
+        30,
+        70
+      ],
+      [
+        32,
+        73
+      ],
+      [
+        35,
+        72
+      ],
+      [
+        37,
+        70
+      ],
+      [
+        37,
+        65
+      ],
+      [
+        37,
+        60
+      ],
+      [
+        35,
+        58
+      ],
+      [
+        31,
+        58
+      ],
+      [
+        28,
+        60
+      ]
+    ],
+    "capital": {
+      "name": "Ghazni",
+      "coords": [
+        33.54917,
+        68.42333
+      ],
+      "source": "wikidata"
+    },
+    "polygon_snapshots": [
+      {
+        "year": 1000,
+        "label": "Ghaznavid Empire (approx.)",
+        "polygon": [
+          [
+            28,
+            60
+          ],
+          [
+            29,
+            65
+          ],
+          [
+            30,
+            70
+          ],
+          [
+            32,
+            73
+          ],
+          [
+            35,
+            72
+          ],
+          [
+            37,
+            70
+          ],
+          [
+            37,
+            65
+          ],
+          [
+            37,
+            60
+          ],
+          [
+            35,
+            58
+          ],
+          [
+            31,
+            58
+          ],
+          [
+            28,
+            60
+          ]
+        ]
+      },
+      {
+        "year": 1100,
+        "label": "Ghaznavid Empire (approx.)",
+        "polygon": [
+          [
+            28,
+            60
+          ],
+          [
+            29,
+            65
+          ],
+          [
+            30,
+            70
+          ],
+          [
+            32,
+            73
+          ],
+          [
+            35,
+            72
+          ],
+          [
+            37,
+            70
+          ],
+          [
+            37,
+            65
+          ],
+          [
+            37,
+            60
+          ],
+          [
+            35,
+            58
+          ],
+          [
+            31,
+            58
+          ],
+          [
+            28,
+            60
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "approximate",
+    "polygon_source": "hand_crafted",
+    "polygon_source_date": "2026-05-11"
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "formation",
+      "years": "977–998",
+      "description": "Sebuktigin founds Ghaznavid emirate from Samanid slave-soldier origins; Ghazni becomes capital; Afghan highlands secured",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q249578",
+          "url": "https://www.wikidata.org/wiki/Q249578"
+        }
+      ]
+    },
+    {
+      "phase": "peak",
+      "years": "998–1030",
+      "description": "Mahmud of Ghazni: 17 raids into India; Somnath temple looted (1025); Ferdowsi's Shahnameh; Khurasan and Khorasan incorporated",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q249578",
+          "url": "https://www.wikidata.org/wiki/Q249578"
+        }
+      ]
+    },
+    {
+      "phase": "decline",
+      "years": "1030–1098",
+      "description": "Seljuk Turks defeat Ghaznavids at Dandanaqan (1040); Ghaznavids lose Central Asian territories; retreat to Punjab base",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q249578",
+          "url": "https://www.wikidata.org/wiki/Q249578"
+        }
+      ]
+    },
+    {
+      "phase": "dissolution",
+      "years": "1098–1186",
+      "description": "Ghurid dynasty displaces Ghaznavids from Afghanistan; Ghaznavids cling to Punjab until Ghurid Muhammad Ghori's final conquest",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q249578",
+          "url": "https://www.wikidata.org/wiki/Q249578"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "military_organizational_advantage",
+      "layer": "military_security",
+      "description": "Ghaznavid elephant corps and Turkish cavalry gave them overwhelming military superiority against Indian Hindu kingdoms not prepared for Central Asian warfare",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q249578",
+          "url": "https://www.wikidata.org/wiki/Q249578"
+        }
+      ]
+    },
+    {
+      "tag": "resource_concentration",
+      "layer": "economic_commercial",
+      "description": "Indian temple looting, particularly Somnath, provided extraordinary one-time resource transfers that funded Ghaznavid military campaigns and court patronage",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q249578",
+          "url": "https://www.wikidata.org/wiki/Q249578"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "rival_fragmentation",
+      "layer": "external_political",
+      "description": "Seljuk Turks' superior cavalry mobility at Dandanaqan (1040) cost Ghaznavids their Central Asian territories and confined them to a Punjab rump state",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q249578",
+          "url": "https://www.wikidata.org/wiki/Q249578"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Sebuktigin",
+      "role": "ruler",
+      "years": "977–997",
+      "year_start": 977,
+      "year_end": 997,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Sebuktigin",
+          "url": "https://en.wikipedia.org/wiki/Sabuktigin"
+        }
+      ]
+    },
+    {
+      "name": "Mahmud of Ghazni",
+      "role": "ruler",
+      "years": "998–1030",
+      "year_start": 998,
+      "year_end": 1030,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Mahmud of Ghazni",
+          "url": "https://en.wikipedia.org/wiki/Mahmud_of_Ghazni"
+        }
+      ]
+    },
+    {
+      "name": "Masud I",
+      "role": "ruler",
+      "years": "1030–1041",
+      "year_start": 1030,
+      "year_end": 1041,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Masud I",
+          "url": "https://en.wikipedia.org/wiki/Masud_I"
+        }
+      ]
+    }
+  ],
+  "economic": {
+    "primary_base": "tribute",
+    "secondary_bases": [
+      "agriculture",
+      "long_distance_trade",
+      "military_plunder"
+    ],
+    "wealth_level": "high",
+    "major_exports": [
+      "silver",
+      "gold",
+      "horses",
+      "cotton"
+    ],
+    "major_trade_partners": [
+      "abbasid_caliphate",
+      "palas",
+      "seljuk_sultanate"
+    ],
+    "revenue_sources": [
+      "plunder_from_india",
+      "khorasan_tax",
+      "trade_duties"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q249578",
+        "url": "https://www.wikidata.org/wiki/Q249578"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q249578",
+    "matched_name": "manual/ghaznavid_emirate",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "capital": {
+      "name": "Ghazni",
+      "coords": [
+        33.54917,
+        68.42333
+      ]
+    },
+    "rulers_from_wikidata": [
+      {
+        "name": "Ghaznavids",
+        "qid": "Q12844800",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q12844800",
+            "url": "https://www.wikidata.org/wiki/Q12844800"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ghaznavids",
+            "url": "https://en.wikipedia.org/wiki/Ghaznavid_Empire"
+          }
+        ]
+      },
+      {
+        "name": "Ismail of Ghazni",
+        "qid": "Q32617",
+        "year_start": 997,
+        "year_end": 998,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q32617",
+            "url": "https://www.wikidata.org/wiki/Q32617"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ismail of Ghazni",
+            "url": "https://en.wikipedia.org/wiki/Ismail_of_Ghazni"
+          }
+        ]
+      },
+      {
+        "name": "Mohammad Ghaznavi",
+        "qid": "Q32627",
+        "year_start": 1030,
+        "year_end": 1041,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q32627",
+            "url": "https://www.wikidata.org/wiki/Q32627"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mohammad Ghaznavi",
+            "url": "https://en.wikipedia.org/wiki/Muhammad_of_Ghazni"
+          }
+        ]
+      },
+      {
+        "name": "Mas'ud I",
+        "qid": "Q936594",
+        "year_start": 1030,
+        "year_end": 1041,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q936594",
+            "url": "https://www.wikidata.org/wiki/Q936594"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mas'ud I",
+            "url": "https://en.wikipedia.org/wiki/Mas%CA%BDud_I"
+          }
+        ]
+      },
+      {
+        "name": "Maw'dud Ghaznavi",
+        "qid": "Q32625",
+        "year_start": 1041,
+        "year_end": 1048,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q32625",
+            "url": "https://www.wikidata.org/wiki/Q32625"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Maw'dud Ghaznavi",
+            "url": "https://en.wikipedia.org/wiki/Mawdud_of_Ghazni"
+          }
+        ]
+      },
+      {
+        "name": "Masud II",
+        "qid": "Q32596",
+        "year_start": 1048,
+        "year_end": 1048,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q32596",
+            "url": "https://www.wikidata.org/wiki/Q32596"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Masud II",
+            "url": "https://en.wikipedia.org/wiki/Mesud_II"
+          }
+        ]
+      },
+      {
+        "name": "Ali bin Masud",
+        "qid": "Q32603",
+        "year_start": 1048,
+        "year_end": 1049,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q32603",
+            "url": "https://www.wikidata.org/wiki/Q32603"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ali bin Masud",
+            "url": "https://en.wikipedia.org/wiki/Ali_bin_Masud"
+          }
+        ]
+      },
+      {
+        "name": "Abd al-Rashid ben Mahmud",
+        "qid": "Q479569",
+        "year_start": 1049,
+        "year_end": 1052,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q479569",
+            "url": "https://www.wikidata.org/wiki/Q479569"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Abd al-Rashid ben Mahmud",
+            "url": "https://en.wikipedia.org/wiki/Abd_al-Rashid_ben_Mahmud"
+          }
+        ]
+      },
+      {
+        "name": "Toghrul of Ghazna",
+        "qid": "Q6058699",
+        "year_start": 1052,
+        "year_end": 1053,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q6058699",
+            "url": "https://www.wikidata.org/wiki/Q6058699"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Toghrul of Ghazna",
+            "url": "https://en.wikipedia.org/wiki/Toghrul_of_Ghazna"
+          }
+        ]
+      },
+      {
+        "name": "Farrukh-Zad of Ghazna",
+        "qid": "Q141049",
+        "year_start": 1053,
+        "year_end": 1059,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q141049",
+            "url": "https://www.wikidata.org/wiki/Q141049"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Farrukh-Zad of Ghazna",
+            "url": "https://en.wikipedia.org/wiki/Farrukh-Zad_of_Ghazna"
+          }
+        ]
+      },
+      {
+        "name": "Ibrahim of Ghazna",
+        "qid": "Q141055",
+        "year_start": 1059,
+        "year_end": 1099,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q141055",
+            "url": "https://www.wikidata.org/wiki/Q141055"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ibrahim of Ghazna",
+            "url": "https://en.wikipedia.org/wiki/Ibrahim_of_Ghazna"
+          }
+        ]
+      },
+      {
+        "name": "Mas'ud III of Ghazna",
+        "qid": "Q140966",
+        "year_start": 1099,
+        "year_end": 1115,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q140966",
+            "url": "https://www.wikidata.org/wiki/Q140966"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mas'ud III of Ghazna",
+            "url": "https://en.wikipedia.org/wiki/Mas'ud_III_of_Ghazna"
+          }
+        ]
+      },
+      {
+        "name": "Arslan-Shah of Ghazna",
+        "qid": "Q141105",
+        "year_start": 1114,
+        "year_end": 1117,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q141105",
+            "url": "https://www.wikidata.org/wiki/Q141105"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Arslan-Shah of Ghazna",
+            "url": "https://en.wikipedia.org/wiki/Arslan-Shah_of_Ghazna"
+          }
+        ]
+      },
+      {
+        "name": "Shir-Zad of Ghazna",
+        "qid": "Q140984",
+        "year_start": 1115,
+        "year_end": 1116,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q140984",
+            "url": "https://www.wikidata.org/wiki/Q140984"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Shir-Zad of Ghazna",
+            "url": "https://en.wikipedia.org/wiki/Shir-Zad_of_Ghazna"
+          }
+        ]
+      },
+      {
+        "name": "Bahram-Shah of Ghazna",
+        "qid": "Q141094",
+        "year_start": 1117,
+        "year_end": 1152,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q141094",
+            "url": "https://www.wikidata.org/wiki/Q141094"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Bahram-Shah of Ghazna",
+            "url": "https://en.wikipedia.org/wiki/Bahram-Shah_of_Ghazna"
+          }
+        ]
+      },
+      {
+        "name": "Khosro of Ghazni",
+        "qid": "Q12210505",
+        "year_start": 1152,
+        "year_end": 1160,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q12210505",
+            "url": "https://www.wikidata.org/wiki/Q12210505"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Khosro of Ghazni",
+            "url": "https://en.wikipedia.org/wiki/Khusrau_Shah_of_Ghazna"
+          }
+        ]
+      },
+      {
+        "name": "Khusrau Malik",
+        "qid": "Q140973",
+        "year_start": 1160,
+        "year_end": 1186,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q140973",
+            "url": "https://www.wikidata.org/wiki/Q140973"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Khusrau Malik",
+            "url": "https://en.wikipedia.org/wiki/Khusrau_Malik"
+          }
+        ]
+      }
+    ]
+  },
+  "monogram": "GE"
+}

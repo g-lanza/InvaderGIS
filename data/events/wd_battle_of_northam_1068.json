@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_northam_1068",
+  "name": "Battle of Northam",
+  "year": 1068,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    52.85,
+    -6.45
+  ],
+  "entity": "kingdom_of_leinster",
+  "summary": "Battle of Northam (1068 CE), at Northam (part of Norman conquest of England). Source: Wikidata Q105616523.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_leinster"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

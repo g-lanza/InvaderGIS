@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conciliarism_constance",
+  "name": "Conciliarism, Council vs Pope",
+  "year": 1418,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.9,
+    12.51
+  ],
+  "entity": "papal_states",
+  "summary": "The conciliarist movement, culminating at Constance and Basel, argues that general councils of the Church have authority superior to the pope. Jean Gerson and Pierre d'Ailly develop sophisticated theological arguments for this position. Pope Pius II's bull Execrabilis (1460) condemns appeals to councils as heretical. The papacy wins the immediate constitutional argument but at the cost of losing the institutional reform that conciliarism might have provided.",
+  "outcomes": [
+    "councils_claim_superiority",
+    "execrabilis_condemns_it",
+    "papal_monarchy_survives"
+  ],
+  "_quarry": {
+    "participants": [
+      "papal_states",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "Conciliarism's failure to reform the Church from within makes the Protestant Reformation more likely; if Constance and Basel had established council supremacy and used it to reform clerical corruption and theological confusion, Luther's challenge might have been accommodated within the Church; the papal victory over conciliarism thus has the paradoxical effect of making the 16th-century schism more likely and more permanent",
+    "year_range": [
+      1409,
+      1460
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

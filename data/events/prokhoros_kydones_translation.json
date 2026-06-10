@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "prokhoros_kydones_translation",
+  "name": "Byzantine Contact with Western Scholasticism",
+  "year": 1355,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.01,
+    28.97
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Prochoros Kydones translates Thomas Aquinas's Summa Theologiae into Greek, introducing Western Scholastic theology to Byzantine readers for the first time. His work sparks heated controversy between Palamists (who prefer the Eastern mystical theology of Gregory Palamas) and Latinophiles. The exchange marks the beginning of intensive Byzantine-Western theological contact that culminates in the Council of Florence (1439).",
+  "outcomes": [
+    "thomas_aquinas_translated_greek",
+    "byzantine_humanism_revives",
+    "council_florence_preconditions"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire"
+    ],
+    "structural_significance": "The translation controversy reflects Byzantium's desperate search for western political and military support against the Ottomans; the Palamite-Latinophile dispute paralyzes Byzantine intellectual and political life at the worst possible moment (mid-14th century); the Council of Florence's Union, promoted by Latinophiles, is rejected by popular Orthodox opinion, denying Byzantium the western military aid that might have saved Constantinople",
+    "year_range": [
+      1340,
+      1400
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

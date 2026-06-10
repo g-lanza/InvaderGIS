@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_georgia",
+  "name": "Tbilisi",
+  "entity_id": "kingdom_of_georgia",
+  "entity_name": "Kingdom of Georgia",
+  "start_year": 888,
+  "end_year": 1490,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q154667"
+    }
+  },
+  "coords": [
+    44.7925,
+    41.7225
+  ]
+}

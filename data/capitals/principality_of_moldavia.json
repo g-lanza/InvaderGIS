@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "principality_of_moldavia",
+  "name": "Suceava",
+  "entity_id": "principality_of_moldavia",
+  "entity_name": "Principality of Moldavia",
+  "start_year": 1346,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q10957559"
+    }
+  },
+  "coords": [
+    26.25556,
+    47.65139
+  ]
+}

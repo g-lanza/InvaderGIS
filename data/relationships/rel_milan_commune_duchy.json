@@ -1,0 +1,35 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_milan_commune_duchy",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "commune_of_milan",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "duchy_of_milan",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 1395,
+  "until": 1395,
+  "note": "Milan evolved from a self-governing commune (from the late 11th century) to a Signoria under the Visconti family (from 1277), then to a formal duchy when Emperor Wenceslaus granted Gian Galeazzo Visconti the ducal title (1395). The commune's institutions — consuls, the podestà system — were gradually replaced by Visconti autocracy. After Filippo Maria Visconti's death (1447), a brief Ambrosian Republic (1447–1450) tried to restore communal government; Francesco Sforza's conquest (1450) created the Sforza duchy that dominated Lombardy until 1499.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Milan's evolution from commune to duchy models the pattern of signorial consolidation across northern Italy; the Sforza duchy becomes the most sophisticated Renaissance court after Florence; its conquest by Louis XII (1499) opens the Italian Wars"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

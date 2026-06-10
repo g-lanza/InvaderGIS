@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_reims_campaign_1359",
+  "name": "Reims Campaign",
+  "year": 1359,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    52.5,
+    -1
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Reims Campaign (1359 CE), (part of Hundred Years' War). Source: Wikidata Q19947612.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

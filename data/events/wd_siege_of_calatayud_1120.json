@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_calatayud_1120",
+  "name": "Siege of Calatayud",
+  "year": 1120,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41.18,
+    -1.8267
+  ],
+  "entity": "almoravid_emirate_iberia",
+  "summary": "Siege of Calatayud (1120 CE), at Calatayud (part of Almoravid conquest of al-Andalus). Source: Wikidata Q132175295.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "almoravid_emirate_iberia",
+      "kingdom_of_aragon",
+      "duchy_of_aquitaine"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_the_2004",
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

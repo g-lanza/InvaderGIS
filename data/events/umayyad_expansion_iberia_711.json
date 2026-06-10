@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "umayyad_expansion_iberia_711",
+  "name": "Tariq ibn Ziyad Crosses the Strait of Gibraltar",
+  "year": 711,
+  "type": "conquest",
+  "category": "violence",
+  "coords": [
+    36.14,
+    -5.35
+  ],
+  "entity": "visigothic_kingdom",
+  "summary": "Berber Muslim general Tariq ibn Ziyad crosses from North Africa to Iberia with 7,000 troops in April 711, landing at the rock that bears his name (Gibraltar, from Jabal Tariq). At the Battle of Guadalete (July 711), the Visigothic King Roderic is killed and his army destroyed. Within five years, Arab and Berber forces conquer most of the Iberian Peninsula. Only the Asturian mountains in the far northwest resist conquest.",
+  "outcomes": [
+    "visigothic_kingdom_destroyed",
+    "iberia_becomes_al_andalus",
+    "reconquista_begins_immediately"
+  ],
+  "_quarry": {
+    "participants": [
+      "visigothic_kingdom",
+      "umayyad_caliphate",
+      "umayyad_emirate_cordoba"
+    ],
+    "structural_significance": "The Muslim conquest of Iberia reshapes Mediterranean civilization; al-Andalus becomes the most sophisticated culture in western Europe, preserving and translating classical texts while the Frankish kingdoms remain largely illiterate; the Christian remnant kingdoms launch the Reconquista immediately, it takes 781 years (711-1492) to complete; the conquest determines that Spain will be a synthesis of Islamic, Christian, and Jewish cultures",
+    "year_range": [
+      711,
+      716
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "collins_visigothic_2004",
+      "thompson_the_1969"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

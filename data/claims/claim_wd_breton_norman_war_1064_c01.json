@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_breton_norman_war_1064_c01",
+  "statement": "Breton-Norman War (1064 CE), at Château de Dinan (part of Middle Ages).",
+  "subject_ids": [
+    "duchy_of_brittany"
+  ],
+  "period": {
+    "from": 1064,
+    "to": 1064
+  },
+  "derived_from": "wd_breton_norman_war_1064",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

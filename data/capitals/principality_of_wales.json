@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "principality_of_wales",
+  "name": "Aberffraw",
+  "entity_id": "principality_of_wales",
+  "entity_name": "Principality of Wales",
+  "start_year": 1216,
+  "end_year": 1542,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1483510"
+    }
+  },
+  "coords": [
+    -4.46,
+    53.2
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_serbian_kingdom_to_empire",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "serbian_kingdom_nemanjic",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "serbian_empire",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 1346,
+  "until": 1346,
+  "note": "Stefan Dušan — the most powerful Serbian ruler — transformed the Serbian Kingdom into an empire through rapid military conquests of Byzantine Macedonia, Albania, and Epirus (1334–1345). He crowned himself 'Emperor and Autocrat of the Serbs and Greeks' at Skopje on Easter 1346, establishing a Serbian patriarchate (previously subordinate to Constantinople) at the same ceremony. Dušan's law code (Zakonik, 1349) codified Serbian customary law on Byzantine models. His empire — the largest state in the Balkans — collapsed within a decade of his death (1355) as regional magnates asserted independence against his weaker successors.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Dušan's empire represents the maximum extent of medieval Serbian power; his claim to imperial title — including 'of the Greeks' — represents the most explicit Serbian challenge to Byzantine imperial legitimacy; the empire's rapid collapse after his death demonstrates how personal empire without institutional consolidation cannot outlast its creator"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fine_the_1987",
+      "ćirković_the_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

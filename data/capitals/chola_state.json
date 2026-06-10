@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "chola_state",
+  "name": "Puhar",
+  "entity_id": "chola_state",
+  "entity_name": "Chola Empire",
+  "start_year": 850,
+  "end_year": 1279,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q151148"
+    }
+  },
+  "coords": [
+    79.855,
+    11.144
+  ]
+}

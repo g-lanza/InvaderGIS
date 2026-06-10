@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_bayezid_i_s_anatolian_campaigns_1390",
+  "name": "Bayezid I's Anatolian campaigns",
+  "year": 1390,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    37.3333,
+    29.6667
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Bayezid I's Anatolian campaigns (1390 CE), at Anatolia (part of Ottoman Wars in Asia). Source: Wikidata Q137739800.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "ottoman_empire",
+      "mamluk_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

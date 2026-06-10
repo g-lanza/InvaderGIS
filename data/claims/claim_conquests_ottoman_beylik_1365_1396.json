@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_ottoman_beylik_1365_1396",
+  "statement": "Ottoman Beylik — campaigns and battles spanned 1365–1396, from Ottoman raid on Vienna region to Battle of Nicopolis.",
+  "subject_ids": [
+    "ottoman_beylik"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_ottoman_beylik_1365_1396",
+  "period": {
+    "from": 1365,
+    "to": 1396
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

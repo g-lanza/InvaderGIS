@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_conquest_of_girona_785",
+  "name": "Conquest of Girona",
+  "subtype": "battle",
+  "start_year": 785,
+  "end_year": 785,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q11915296"
+    }
+  },
+  "description": "Battle during Carolingian conquest of the Spanish March (785)",
+  "coords": [
+    2.8167,
+    41.9833
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_second_war_of_konavle_1451",
+  "name": "Second War of Konavle",
+  "year": 1451,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    43.41,
+    17.94
+  ],
+  "entity": "republic_of_ragusa",
+  "summary": "Second War of Konavle (1451 CE), at Konavle. Source: Wikidata Q85993960.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_ragusa",
+      "kingdom_of_bosnia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

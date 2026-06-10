@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_antioch_1268",
+  "name": "Siege of Antioch",
+  "year": 1268,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    33.1,
+    33.7
+  ],
+  "entity": "principality_of_antioch",
+  "summary": "Siege of Antioch (1268 CE), at Antioch (part of Fall of Outremer). Source: Wikidata Q815112.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "principality_of_antioch",
+      "mamluk_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "asbridge_the_2000",
+      "cahen_la_1940"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

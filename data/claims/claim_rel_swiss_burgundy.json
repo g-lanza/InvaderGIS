@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_swiss_burgundy",
+  "statement": "Charles the Bold of Burgundy's attempt to build a coherent territorial state between France and the Empire brought him into conflict with the Swiss Confederation, which saw Burgundian expansion as an existential threat. The Wars of Burgundy (1474–1477) produced three decisive battles — Grandson, Murten, and Nancy — in which Swiss pike formations annihilated Burgundian cavalry and artillery. Charles the Bold was killed at Nancy (January 5, 1477), his body found frozen in a ditch. Louis XI of France seized the Duchy of Burgundy; Charles's daughter Mary married Maximilian of Habsburg, giving the Habsburgs the Low Countries.",
+  "subject_ids": [
+    "swiss_confederation",
+    "duchy_of_burgundy"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_swiss_burgundy",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "marchal_schweizer_2006",
+      "rippmann_die_2006",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1474,
+    "to": 1477
+  }
+}

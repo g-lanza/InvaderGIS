@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "hainan",
+  "name": "Haikou",
+  "entity_id": "hainan",
+  "entity_name": "Hainan",
+  "start_year": 500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q42200"
+    }
+  },
+  "coords": [
+    110.32,
+    20.02
+  ]
+}

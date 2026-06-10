@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "mansone_i_amalfi",
+  "name": "Mansone I",
+  "polity": "duchy_of_amalfi",
+  "title": "ruler",
+  "reign_start": 966,
+  "reign_end": 1004,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "duchy_of_amalfi",
+        "role": "ruler",
+        "start_year": 966,
+        "end_year": 1004
+      }
+    ],
+    "key_actions": [],
+    "region": "italy",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

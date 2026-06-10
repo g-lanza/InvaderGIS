@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_beirut_1383",
+  "name": "Battle of Beirut",
+  "year": 1383,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    37.2,
+    20.05
+  ],
+  "entity": "republic_of_genoa",
+  "summary": "Battle of Beirut (1383 CE), at Beirut. Source: Wikidata Q134238627.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_genoa",
+      "mamluk_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

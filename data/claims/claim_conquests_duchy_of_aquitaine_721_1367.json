@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_duchy_of_aquitaine_721_1367",
+  "statement": "Duchy of Aquitaine — campaigns and battles spanned 721–1367, from Battle of Toulouse to Battle of Nájera.",
+  "subject_ids": [
+    "duchy_of_aquitaine"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_duchy_of_aquitaine_721_1367",
+  "period": {
+    "from": 721,
+    "to": 1367
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

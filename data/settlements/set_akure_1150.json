@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_akure_1150",
+  "name": "Akure",
+  "importance": "city",
+  "start_year": 1150,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q423831"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    5.195,
+    7.25
+  ]
+}

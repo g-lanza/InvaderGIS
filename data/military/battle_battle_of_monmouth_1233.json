@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_monmouth_1233",
+  "name": "Battle of Monmouth",
+  "subtype": "battle",
+  "start_year": 1233,
+  "end_year": 1233,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q281013"
+    }
+  },
+  "description": "Battle during Norman Invasion of Wales (1233)",
+  "coords": [
+    -2.725,
+    51.813
+  ]
+}

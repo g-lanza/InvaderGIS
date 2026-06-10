@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "marinid_dynasty_1340",
+  "name": "Battle of the Salado",
+  "year": 1340,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    35.9,
+    -5.15
+  ],
+  "entity": "marinid_dynasty",
+  "summary": "The Battle of the Salado (Rio Salado) in 1340 saw a combined Castilian-Portuguese force defeat a Marinid army attempting to relieve Algeciras and restore Marinid influence in Iberia. This defeat ended Marinid military ambitions in Spain, though the dynasty maintained Morocco for another century.",
+  "outcomes": [
+    "christian_victory",
+    "iberian_ambitions_ended",
+    "marinid_decline_begins"
+  ],
+  "_quarry": {
+    "participants": [
+      "marinid_dynasty",
+      "caliphate_of_cordoba"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "abun-nasr_a_1987",
+      "messier_the_2010"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

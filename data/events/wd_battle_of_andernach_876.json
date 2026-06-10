@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_andernach_876",
+  "name": "Battle of Andernach",
+  "year": 876,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    49.25,
+    6
+  ],
+  "entity": "west_francia",
+  "summary": "Battle of Andernach (876 CE), at Andernach. Source: Wikidata Q908101.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "west_francia",
+      "east_francia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "tiwanaku",
+  "name_primary": "Tiwanaku",
+  "name_variants": [
+    "Tiahuanaco"
+  ],
+  "type": "polity",
+  "region": "andean",
+  "formed": 300,
+  "dissolved": 1100,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    -16.55,
+    -68.67
+  ],
+  "religion": "Tiwanaku staff-god religion",
+  "population_estimates": [
+    {
+      "year": 800,
+      "estimate": 30000,
+      "confidence": "low",
+      "note": "Tiwanaku resident-population estimate; total polity reach much larger."
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "daltroy_incas_2014"
+    ],
+    "confidence": "low"
+  },
+  "description": "Pre-Columbian Andean state centred on the monumental ceremonial city of Tiwanaku on the southern shore of Lake Titicaca, at over 3,800 m altitude. The polity exercised influence across the southern Altiplano, the eastern slopes of the Andes, and northern Chile through colonial enclaves and exchange networks. Its collapse around 1100 is contemporary with that of Wari to the north and is widely attributed to a sustained drying of the Altiplano climate.",
+  "temporal": {
+    "start_year": 300,
+    "end_year": 1100,
+    "end_year_within_scope": 1100,
+    "notes": "Andean civilisation centred on the ceremonial city of Tiwanaku south of Lake Titicaca; collapse around 1100 is widely associated with sustained drought in the southern Altiplano."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      -16.55,
+      -68.67
+    ],
+    "core_regions": [
+      "lake_titicaca_basin",
+      "southern_altiplano"
+    ],
+    "notes": "Centroid set at the ceremonial centre of Tiwanaku."
+  },
+  "lifecycle_phases": [
+    {
+      "start_year": 500,
+      "end_year": 700,
+      "description": "Tiwanaku grows from ceremonial centre into a regional polity controlling colony enclaves.",
+      "phase": "expansion"
+    },
+    {
+      "start_year": 700,
+      "end_year": 950,
+      "description": "Peak monumental construction (Pumapunku, Kalasasaya); colonies in Moquegua, Cochabamba, San Pedro de Atacama.",
+      "phase": "peak"
+    },
+    {
+      "start_year": 950,
+      "end_year": 1000,
+      "description": "Sustained drought; Tiwanaku abandoned by c. 1000.",
+      "phase": "decline"
+    }
+  ],
+  "rise_factors": [
+    {
+      "layer": "geography_territory",
+      "direction": "rise",
+      "tag": "geographic_advantage",
+      "description": "Lakeside agriculture using raised-field (suka kollu) systems supported high population densities at 3,800 m altitude.",
+      "sources": [
+        "daltroy_incas_2014"
+      ]
+    },
+    {
+      "layer": "ideology_religion",
+      "direction": "rise",
+      "tag": "religious_legitimacy",
+      "description": "Staff-god iconography on the Gateway of the Sun and exported pottery propagated Tiwanaku's religious authority across the altiplano.",
+      "sources": [
+        "daltroy_incas_2014"
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "layer": "population_environment",
+      "direction": "decline",
+      "tag": "climate_shock",
+      "description": "Multi-decade drought after c. 1000 CE undermined the raised-field agriculture that fed the urban core.",
+      "sources": [
+        "daltroy_incas_2014"
+      ]
+    }
+  ],
+  "economic": {
+    "primary_base": "altiplano raised-field agriculture",
+    "secondary_bases": [
+      "camelid pastoralism",
+      "long-distance enclave trade"
+    ],
+    "wealth_level": "high",
+    "sources": [
+      "daltroy_incas_2014"
+    ]
+  },
+  "sources": [
+    {
+      "type": "book",
+      "author": "D'Altroy, Terence N.",
+      "title": "The Incas",
+      "publisher": "Wiley-Blackwell",
+      "year": 2014
+    }
+  ],
+  "monogram": "TI"
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "cyril_methodius_863",
+  "name": "Cyril and Methodius mission",
+  "year": 863,
+  "type": "religious_council",
+  "category": "religion",
+  "coords": [
+    49.1,
+    17.4
+  ],
+  "entity": "great_moravia",
+  "summary": "Byzantine Emperor Michael III sends the brothers Cyril (Constantine) and Methodius from Thessaloniki to Moravia (863) at the request of Prince Rastislav, who wanted missionaries who spoke Slavic languages. Cyril creates the Glagolitic alphabet, the first Slavic writing system, to transcribe a Slavic liturgy. Their mission creates a Slavic Christian culture independent of both the Latin and Greek traditions. After Cyril's death in Rome (869), Methodius continues work in Moravia; his disciples spread the mission to Bulgaria, Serbia, and eventually Russia.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "great_moravia",
+      "byzantine_empire"
+    ],
+    "structural_significance": "Creates the Cyrillic writing system (through the Glagolitic predecessor); establishes Slavic liturgy; enables literacy in Slavic languages; shapes the cultural trajectory of all Slavic Orthodox peoples",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "havlík_kronika_1992",
+      "bowlus_franks_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

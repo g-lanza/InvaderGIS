@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_carinthia_976",
+  "name": "Carinthia Becomes Separate Duchy",
+  "year": 976,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    48.31,
+    12.405
+  ],
+  "entity": "duchy_of_carinthia",
+  "summary": "Carinthia was separated from Bavaria as a distinct duchy in 976 CE under Emperor Otto II. As an Alpine duchy controlling key passes between Germany and Italy, Carinthia's strategic position gave it lasting importance in imperial politics and prefigured the later Habsburg domains.",
+  "outcomes": [
+    "alpine_duchy_established",
+    "bavarian_partition",
+    "Habsburg_precursor"
+  ],
+  "_quarry": {
+    "participants": [
+      "duchy_of_carinthia",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

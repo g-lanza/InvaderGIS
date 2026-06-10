@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_adramyttium_1205",
+  "name": "Battle of Adramyttium",
+  "year": 1205,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    40.7,
+    29.3
+  ],
+  "entity": "latin_empire_constantinople",
+  "summary": "Battle of Adramyttium (1205 CE), at Adramyttion (part of Nicaean–Latin wars). Source: Wikidata Q4087407.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "latin_empire_constantinople",
+      "empire_of_nicaea"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wari",
+  "name_primary": "Wari",
+  "name_variants": [
+    "Huari Empire"
+  ],
+  "type": "empire",
+  "region": "andean",
+  "formed": 500,
+  "dissolved": 1100,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    -13.05,
+    -74.22
+  ],
+  "religion": "Andean polytheism (staff-god lineage shared with Tiwanaku)",
+  "population_estimates": [
+    {
+      "year": 800,
+      "estimate": 40000,
+      "confidence": "low",
+      "note": "Wari resident-population estimate; total polity reach much larger."
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "daltroy_incas_2014"
+    ],
+    "confidence": "low"
+  },
+  "description": "Highland Andean state centred on the planned city of Wari in the Ayacucho basin, contemporary with Tiwanaku to the south and exercising influence across the central and northern Peruvian highlands and coast. Wari's hallmark provincial administrative centres at Pikillaqta, Viracochapampa, and elsewhere foreshadow the administrative infrastructure later developed by the Inca. Its collapse around 1100 fragmented Andean political space until the late Late-Intermediate Period emergence of Chimor and the contending Andean polities the Inca would absorb.",
+  "temporal": {
+    "start_year": 500,
+    "end_year": 1100,
+    "end_year_within_scope": 1100,
+    "notes": "Andean state centred on the highland city of Wari near modern Ayacucho; collapsed around 1100, broadly contemporary with the contraction of Tiwanaku to the south."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      -13.05,
+      -74.22
+    ],
+    "core_regions": [
+      "peruvian_highlands",
+      "central_coast",
+      "north_coast"
+    ],
+    "notes": "Centroid set at the urban centre of Wari near Ayacucho."
+  },
+  "lifecycle_phases": [
+    {
+      "start_year": 600,
+      "end_year": 800,
+      "description": "Wari city grows and projects administrative centres into central Peru.",
+      "phase": "expansion"
+    },
+    {
+      "start_year": 800,
+      "end_year": 1000,
+      "description": "Peak, provincial centres at Pikillaqta, Cerro Baúl, Viracochapampa active.",
+      "phase": "peak"
+    },
+    {
+      "start_year": 1000,
+      "end_year": 1100,
+      "description": "Administrative centres abandoned; Wari city declines.",
+      "phase": "decline"
+    }
+  ],
+  "rise_factors": [
+    {
+      "layer": "governance_institutional",
+      "direction": "rise",
+      "tag": "administrative_innovation",
+      "description": "Rectangular orthogonal administrative compounds at strategic provincial nodes prefigure Inca state design by five hundred years.",
+      "sources": [
+        "daltroy_incas_2014"
+      ]
+    },
+    {
+      "layer": "geography_territory",
+      "direction": "rise",
+      "tag": "geographic_advantage",
+      "description": "Upper Mantaro basin commanded routes between the Pacific coast and the Amazonian foothills.",
+      "sources": [
+        "daltroy_incas_2014"
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "layer": "population_environment",
+      "direction": "decline",
+      "tag": "climate_shock",
+      "description": "Late-first-millennium drought (paleoclimate proxies) likely contributed to the abandonment of administrative centres.",
+      "sources": [
+        "daltroy_incas_2014"
+      ]
+    }
+  ],
+  "successor_entity_ids": [
+    "chimor"
+  ],
+  "economic": {
+    "primary_base": "terraced highland agriculture",
+    "secondary_bases": [
+      "camelid herding",
+      "administered long-distance trade"
+    ],
+    "wealth_level": "high",
+    "sources": [
+      "daltroy_incas_2014"
+    ]
+  },
+  "sources": [
+    {
+      "type": "book",
+      "author": "D'Altroy, Terence N.",
+      "title": "The Incas",
+      "publisher": "Wiley-Blackwell",
+      "year": 2014
+    }
+  ],
+  "monogram": "WA"
+}

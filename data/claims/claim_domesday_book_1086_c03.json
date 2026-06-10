@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_domesday_book_1086_c03",
+  "statement": "The resulting Great Survey, called 'Domesday' by contemporaries, recorded roughly 13,000 English place-names and the landholdings of over 1,400 tenants-in-chief.",
+  "subject_ids": [
+    "kingdom_of_england"
+  ],
+  "period": {
+    "from": 1086,
+    "to": 1086
+  },
+  "derived_from": "domesday_book_1086",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "ims_fordham",
+      "ims_fordham_sbook1n"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

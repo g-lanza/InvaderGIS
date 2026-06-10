@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_duchy_of_saxony_929_1226",
+  "statement": "Duchy of Saxony — campaigns and battles spanned 929–1226, from Battle of Lenzen to Dano–German War.",
+  "subject_ids": [
+    "duchy_of_saxony"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_duchy_of_saxony_929_1226",
+  "period": {
+    "from": 929,
+    "to": 1226
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

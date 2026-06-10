@@ -1,0 +1,38 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_papacy_hre",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "papal_states",
+      "role": "religious_authority"
+    },
+    {
+      "entity_id": "holy_roman_empire",
+      "role": "principal"
+    }
+  ],
+  "directed": true,
+  "type": "religious_jurisdiction",
+  "since": 962,
+  "until": 1500,
+  "note": "The relationship between the papacy and the Holy Roman Empire oscillated between the cooperative model (Ottonian era: the emperor protects the papacy, the papacy legitimizes the emperor), the catastrophic conflict of the Investiture Controversy (1076–1122), a renewed but unstable cooperation (Crusades), and the existential pope-emperor conflict under Frederick II (1239–1250). The fundamental tension — who holds ultimate authority in Latin Christendom — was never resolved: the papacy's greatest victories (Walk to Canossa 1077, deposition of Frederick II 1245) were matched by imperial resilience; the empire's greatest victories (Synod of Worms 1076, antipopes) were checked by papal ingenuity.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The pope-emperor conflict generates medieval Europe's most sophisticated political theory (John of Salisbury, Marsilio of Padua, Thomas Aquinas on secular authority); neither side wins definitively; the conflict's 400-year duration shapes the institutional development of both the papacy and the empire in ways that neither power could have anticipated"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989",
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

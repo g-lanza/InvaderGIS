@@ -1,0 +1,22 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_great_zimbabwe",
+  "name": "Great Zimbabwe",
+  "importance": "capital",
+  "start_year": 1200,
+  "end_year": 1450,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "end_confidence": "medium",
+  "coords": [
+    30.933,
+    -20.267
+  ]
+}

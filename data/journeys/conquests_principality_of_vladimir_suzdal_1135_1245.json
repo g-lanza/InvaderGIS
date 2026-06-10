@@ -1,0 +1,59 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_principality_of_vladimir_suzdal_1135_1245",
+  "name": "Principality of Vladimir-Suzdal — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1135,
+  "year_end": 1245,
+  "waypoints": [
+    {
+      "year": 1135,
+      "place": "Battle at Zhdanaya Mountain",
+      "coords": [
+        56.1,
+        40.4
+      ],
+      "note": "military",
+      "event_id": "wd_battle_at_zhdanaya_mountain_1135"
+    },
+    {
+      "year": 1237,
+      "place": "Mongol Invasion of Rus",
+      "coords": [
+        54.6,
+        39.7
+      ],
+      "note": "conquest",
+      "event_id": "mongol_invasion_rus_1237"
+    },
+    {
+      "year": 1240,
+      "place": "1240 Izborsk and Pskov campaign",
+      "coords": [
+        57.2,
+        32.2333
+      ],
+      "note": "military",
+      "event_id": "wd_1240_izborsk_and_pskov_campaign_1240"
+    },
+    {
+      "year": 1245,
+      "place": "Alexander Nevsky's Lithuanian campaign",
+      "coords": [
+        56.4333,
+        32.3333
+      ],
+      "note": "military",
+      "event_id": "wd_alexander_nevsky_s_lithuanian_campaign_1245"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "franklin_the_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

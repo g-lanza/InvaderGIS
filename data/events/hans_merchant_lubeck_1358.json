@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "hans_merchant_lubeck_1358",
+  "name": "Hanseatic League Diet of Lübeck, League Formalized",
+  "year": 1358,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    53.87,
+    10.69
+  ],
+  "entity": "hanseatic_league",
+  "summary": "The Hanseatic League diet of 1358 formalizes the Hansa as an organized confederation of merchant cities under Lübeck's leadership. The league negotiates trade monopolies with Denmark, England (the Steelyard), Novgorod (the Peterhof), and Bruges (the Kontor), creating exclusive German merchant enclaves in major trading centers. The Hansa's war with Denmark (1361-1370) ends with the Treaty of Stralsund (1370), which gives the League veto power over Danish royal succession.",
+  "outcomes": [
+    "hansa_formally_organized",
+    "lübeck_leads_confederation",
+    "exclusive_trading_privileges_enforced"
+  ],
+  "_quarry": {
+    "participants": [
+      "hanseatic_league"
+    ],
+    "structural_significance": "The Hanseatic League's Treaty of Stralsund represents a commercial confederation exercising political control over a sovereign kingdom, the most powerful moment of merchant-republic diplomacy in medieval Europe; the League's exclusive privileges and enforcement capacity create a pan-Baltic trading system that integrates Scandinavian raw materials with Flemish manufacturing and Mediterranean luxury goods",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dollinger_the_1970",
+      "hammel-kiesow_die_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

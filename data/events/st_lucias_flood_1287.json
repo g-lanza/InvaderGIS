@@ -1,0 +1,30 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "st_lucias_flood_1287",
+  "name": "St Lucia's Flood",
+  "year": 1287,
+  "type": "disaster",
+  "category": "hazard",
+  "coords": [
+    53.45,
+    5.7
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "A North Sea storm surge on the night of 14 December 1287 breaches the coastal defences of the Frisian coast, killing an estimated 50,000–80,000 people. The flood enlarges the Zuiderzee, drowns the Lauwers, and reshapes the coastline of what becomes the Netherlands.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire"
+    ],
+    "structural_significance": "Largest medieval natural disaster in northern Europe by death toll; catalyses the systematic dike-building and polder-construction that defines later Dutch landscape engineering.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "campbell_great_transition_2016"
+    ],
+    "confidence": "low"
+  }
+}

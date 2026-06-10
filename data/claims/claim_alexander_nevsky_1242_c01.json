@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_alexander_nevsky_1242_c01",
+  "statement": "Prince Alexander Nevsky of Novgorod led a combined Novgorodian-Suzdal force that defeated the Livonian Order on the frozen surface of Lake Peipus on 5 April 1242.",
+  "subject_ids": [
+    "principality_of_novgorod"
+  ],
+  "period": {
+    "from": 1242,
+    "to": 1242
+  },
+  "derived_from": "alexander_nevsky_1242",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "martin_treasure_1986",
+      "birnbaum_lord_1981"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

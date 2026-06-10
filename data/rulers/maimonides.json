@@ -1,0 +1,54 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "maimonides",
+  "name": "Moses Maimonides",
+  "polity": "ayyubid_sultanate",
+  "title": "court_physician",
+  "reign_start": 1185,
+  "reign_end": 1204,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 1138,
+      "death_year": 1204
+    },
+    "entity_associations": [
+      {
+        "entity_id": "ayyubid_sultanate",
+        "role": "court_physician",
+        "start_year": 1185,
+        "end_year": 1204
+      }
+    ],
+    "key_actions": [
+      {
+        "year": 1148,
+        "summary": "Maimonides's family flees Cordoba after the Almohad conquest forces conversion or exile on the Andalusi Jewish community.",
+        "source_id": "hodgson_venture_of_islam_1974"
+      },
+      {
+        "year": 1180,
+        "summary": "Completes Mishneh Torah, a 14-volume systematic codification of rabbinic law in Hebrew.",
+        "source_id": "hodgson_venture_of_islam_1974"
+      },
+      {
+        "year": 1190,
+        "summary": "Completes Dalālat al-Ḥāʾirīn (Guide for the Perplexed) in Judeo-Arabic in Cairo, reconciling Aristotelian philosophy with rabbinic Judaism.",
+        "source_id": "hodgson_venture_of_islam_1974"
+      }
+    ],
+    "region": "iberia",
+    "name_variants": [
+      "Rambam",
+      "Mūsā ibn Maymūn",
+      "Moshe ben Maimon"
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "hodgson_venture_of_islam_1974"
+    ],
+    "confidence": "low"
+  }
+}

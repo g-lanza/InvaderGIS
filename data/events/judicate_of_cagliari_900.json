@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "judicate_of_cagliari_900",
+  "name": "Judicate of Cagliari Flourishes",
+  "year": 900,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    39.22,
+    9.11
+  ],
+  "entity": "judicate_of_cagliari",
+  "summary": "The Judicate of Cagliari in southern Sardinia developed as one of four independent Sardinian giudicati following Byzantine withdrawal. Controlling the most fertile agricultural land of the island, Cagliari maintained trade relations with Pisa and Genoa while preserving a distinctive Sardinian legal and cultural tradition.",
+  "outcomes": [
+    "sardinian_autonomy",
+    "byzantine_heritage",
+    "pisano_trade_links"
+  ],
+  "_quarry": {
+    "participants": [
+      "judicate_of_cagliari"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

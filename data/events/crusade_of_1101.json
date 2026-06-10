@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "crusade_of_1101",
+  "name": "Crusade of 1101, The Second Wave Destroyed",
+  "year": 1101,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    40.15,
+    37.55
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Three large armies following the First Crusade to the Holy Land are destroyed in Anatolia by Seljuk Turkish forces in 1101. The Lombard army is annihilated at Mersivan; the Franco-Burgundian force is destroyed at Heracleia; the third force suffers similar fate. The crushing defeats demonstrate that the route through Anatolia is no longer safe without Byzantine military support and reinforce the strategic isolation of the newly established Crusader states.",
+  "outcomes": [
+    "three_crusading_armies_destroyed",
+    "anatolia_impassable_demonstrated",
+    "crusader_states_isolated"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "seljuk_sultanate"
+    ],
+    "structural_significance": "The Crusade of 1101's failure shows that the First Crusade's success was not easily repeatable; the destroyed armies included many of the most powerful European nobles and their retinues, weakening the military capacity of the Crusader states' potential reinforcements; the defeats establish the pattern of subsequent crusades' diminishing returns",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

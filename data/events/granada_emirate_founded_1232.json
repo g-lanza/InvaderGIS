@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "granada_emirate_founded_1232",
+  "name": "Founding of the Emirate of Granada",
+  "year": 1232,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    37.18,
+    -3.6
+  ],
+  "entity": "emirate_of_granada",
+  "summary": "Muhammad ibn Yusuf ibn Nasr (Muhammad I, the Founder) establishes the Emirate of Granada as an independent Muslim state in southern Iberia after the Almohad collapse. The Nasrid dynasty he founds will rule Granada for 260 years as the last Muslim polity in Iberia, surviving partly by paying tribute to and occasionally allying with Castile against shared enemies. The emirate becomes a cultural refuge: the Alhambra palace complex (begun c. 1238) is the finest example of Nasrid architecture and one of the world's great buildings. Artists, scholars, and craftsmen expelled from fallen Muslim cities flood into Granada.",
+  "outcomes": [
+    "nasrid_dynasty_founded",
+    "last_muslim_iberian_state",
+    "vassal_of_castile"
+  ],
+  "_quarry": {
+    "participants": [
+      "emirate_of_granada",
+      "crown_of_castile",
+      "almohad_caliphate_iberia"
+    ],
+    "structural_significance": "The Emirate of Granada represents the last flowering of Andalusian Islamic culture; its long survival demonstrates that tributary status can provide political longevity even in an era of Reconquista; the Alhambra becomes the benchmark of medieval Islamic architecture; the emirate's fall in 1492 completes the Reconquista but triggers the expulsion of Muslims and Jews, changing Spanish and European demographics permanently",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "harvey_islamic_1990",
+      "fernández-puertas_the_1997"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

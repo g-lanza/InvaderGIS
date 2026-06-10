@@ -1,0 +1,54 @@
+{
+  "id": "mongol_empire_succession_khanates",
+  "question": "How did the unified Mongol empire fragment into its four successor khanates, and what became of each by 1400?",
+  "description": "Examines the devolution of a single conquest empire into the Yuan in China, the Ilkhanate in Persia, the Chagatai khanate in Central Asia, and the Golden Horde on the western steppe — the divergent paths of Islamisation, sinicisation, and dissolution each took, and how the Timurid resurgence and the Ming restoration replaced two of them by the close of the fourteenth century.",
+  "scope": {
+    "from": 1200,
+    "to": 1400,
+    "regions": ["central_asia", "east_asia", "near_east", "eastern_europe"]
+  },
+  "evidence": {
+    "entity_ids": [
+      "mongol_empire",
+      "yuan_dynasty",
+      "ilkhanate",
+      "chagatai_khanate",
+      "golden_horde",
+      "timurid_empire",
+      "ming_dynasty"
+    ],
+    "claim_ids": [
+      "claim_golden_horde_fragmentation_1360_c01",
+      "claim_golden_horde_fragmentation_1360_c02",
+      "claim_ilkhanate_christianity_1258_c01",
+      "claim_mongol_china_conquest_1279_c02"
+    ],
+    "source_ids": [
+      "morgan_mongols_2007",
+      "morgan_the_mongols",
+      "may_the_2012"
+    ],
+    "relationship_ids": [
+      "rel_mongol_empire_to_golden_horde_fragmentation",
+      "rel_mongol_empire_to_ilkhanate_fragmentation",
+      "rel_mongol_empire_to_chagatai_khanate_fragmentation",
+      "rel_ilkhanate_to_timurid_empire_succession",
+      "rel_chagatai_khanate_to_timurid_empire_succession",
+      "rel_yuan_dynasty_to_ming_dynasty_succession"
+    ],
+    "event_ids": [
+      "mongol_invasion_persia_1220",
+      "mongol_invasion_europe_1241",
+      "mongol_china_conquest_1279",
+      "battle_kulikovo_1380"
+    ]
+  },
+  "status": "open",
+  "findings": "Within two generations of Chinggis Khan's death the empire devolved into four functionally independent khanates that diverged sharply: the Yuan sinicised before being expelled by the Ming in 1368; the Ilkhanate Islamised and then disintegrated after 1335; the Chagatai realm splintered and became the seedbed of Timur's empire; and the Golden Horde, weakened by internal succession wars from the 1360s and the Rus' victory at Kulikovo in 1380, entered a long decline. By 1400 the Timurid resurgence and the Ming restoration had overwritten much of the original Mongol order.",
+  "provenance": {
+    "status": "open",
+    "sources_used": ["morgan_mongols_2007", "may_the_2012"],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_jerez_1231",
+  "name": "Battle of Jerez",
+  "subtype": "battle",
+  "start_year": 1231,
+  "end_year": 1231,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2888869"
+    }
+  },
+  "description": "Battle during Reconquista (1231)",
+  "coords": [
+    -6.1378,
+    36.6817
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_erzurum_1242_c01",
+  "statement": "Siege of Erzurum (1242 CE), at Erzurum (part of Mongol conquest of Anatolia).",
+  "subject_ids": [
+    "mongol_empire"
+  ],
+  "period": {
+    "from": 1242,
+    "to": 1242
+  },
+  "derived_from": "wd_siege_of_erzurum_1242",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

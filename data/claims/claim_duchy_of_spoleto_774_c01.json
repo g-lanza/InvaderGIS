@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_duchy_of_spoleto_774_c01",
+  "statement": "Following Charlemagne's conquest of the Lombard kingdom in 774 CE, the Duchy of Spoleto accepted Frankish suzerainty.",
+  "subject_ids": [
+    "duchy_of_spoleto"
+  ],
+  "period": {
+    "from": 774,
+    "to": 774
+  },
+  "derived_from": "duchy_of_spoleto_774",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

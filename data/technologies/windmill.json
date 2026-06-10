@@ -1,0 +1,39 @@
+{
+  "kind": "technology",
+  "dataset": "medieval-europe-500-1500",
+  "id": "windmill",
+  "name_primary": "Windmill",
+  "domain": "agricultural",
+  "origin": {
+    "place": "Khorasan (eastern Persia / modern Afghanistan-Iran border region)",
+    "year": 900
+  },
+  "materials": [
+    "timber",
+    "reed matting or cloth sails",
+    "millstones",
+    "wooden gearing"
+  ],
+  "diffusion": [
+    "Khorasan",
+    "Transoxiana",
+    "Abbasid Caliphate",
+    "Kingdom of England",
+    "Duchy of Normandy",
+    "County of Flanders",
+    "Holy Roman Empire",
+    "County of Holland"
+  ],
+  "_quarry": {
+    "description": "The Persian geographer al-Istakhri documented vertical-axis windmills in Khorasan by the 10th century; the panemone design used six to twelve cloth or reed sails rotating around a vertical shaft to grind grain. The first documented European windmill was recorded at Weedley, Yorkshire, in 1185, followed rapidly by mills in Normandy and Flanders. European horizontal-axis post mills differ structurally from Persian designs, and scholars debate whether this represents independent invention or knowledge transmitted via returning Crusaders."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wiki_windmill",
+      "britannica_windmill"
+    ],
+    "confidence": "low",
+    "attestation": "weak"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "franciscan_order_1209",
+  "name": "Francis of Assisi and the Franciscan Movement",
+  "year": 1209,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    43.07,
+    12.61
+  ],
+  "entity": "papal_states",
+  "summary": "Francis of Assisi receives oral approval from Pope Innocent III for his small brotherhood's Rule in 1209, founding the Order of Friars Minor (Franciscans). Francis's embrace of absolute poverty and his preaching to ordinary people represents a radical evangelical reform channeled within orthodoxy. After Francis's death (1226), the order divides between the 'Spirituals' (demanding absolute poverty) and 'Conventuals' (accepting institutional property), a controversy that embroils the papacy for decades.",
+  "outcomes": [
+    "poverty_movement_chartered",
+    "evangelical_reform_channeled",
+    "franciscan_controversies_begin"
+  ],
+  "_quarry": {
+    "participants": [
+      "papal_states",
+      "holy_roman_empire",
+      "kingdom_of_france"
+    ],
+    "structural_significance": "The Franciscan movement channels the same religious energy that produces heretical movements (Waldensians, Cathars) into an approved institutional form; Francis's legacy is extraordinarily complex, he is both the most beloved figure in medieval Christianity and the founder of an order constantly on the edge of heresy over property; Roger Bacon's scientific work and Duns Scotus's philosophy emerge from Franciscan intellectual culture",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

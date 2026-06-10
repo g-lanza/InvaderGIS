@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "teutonic_order_state",
+  "name": "Malbork Castle",
+  "entity_id": "teutonic_order_state",
+  "entity_name": "State of the Teutonic Order",
+  "start_year": 1230,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q156020"
+    }
+  },
+  "coords": [
+    19.02778,
+    54.03972
+  ]
+}

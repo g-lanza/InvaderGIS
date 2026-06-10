@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_cuman_hungary_asylum",
+  "statement": "Kotyan Khan led approximately 40,000 Cuman families across the Carpathians into Hungary (1239) as refugees from the Mongol advance, accepting Hungarian suzerainty in exchange for settlement and military service. King Béla IV welcomed the Cumans as military manpower. When the Mongols invaded Hungary (1241), the Hungarian nobility accused the Cumans of treachery and massacred Kotyan Khan's encampment; the enraged Cumans withdrew to Bulgaria, leaving Hungary to face the Mongols alone. The Cumans later returned and settled permanently in the Hungarian Plain (the Kunság), where their descendants preserved their identity into the modern era.",
+  "subject_ids": [
+    "cuman_kipchak_confederation",
+    "kingdom_of_hungary"
+  ],
+  "predicate": "alliance",
+  "derived_from": "rel_cuman_hungary_asylum",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999",
+      "engel_the_2001",
+      "berend_at_2001"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1239,
+    "to": 1241
+  }
+}

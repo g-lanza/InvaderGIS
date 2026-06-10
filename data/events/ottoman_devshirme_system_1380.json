@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ottoman_devshirme_system_1380",
+  "name": "Ottoman Devshirme System",
+  "year": 1380,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.01,
+    28.97
+  ],
+  "entity": "ottoman_empire",
+  "summary": "The Ottoman devshirme (\"collection\") system, formalized in the late 14th century, required Christian families in the Balkans to surrender boys who were then converted to Islam and trained either as Janissary soldiers or palace officials. These slave-soldiers, having no family ties or private property, were considered supremely loyal to the sultan. The devshirme produced many of the Ottoman Empire's greatest grand viziers and commanders.",
+  "outcomes": [
+    "Christian boys levied and converted to Islam",
+    "Janissary corps expanded as slave-soldier elite",
+    "Administrative class recruited from devsirme",
+    "Non-Muslim elites integrated into Ottoman government"
+  ],
+  "_quarry": {
+    "participants": [
+      "ottoman_empire"
+    ],
+    "structural_significance": "The Janissary-devshirme system was the Ottoman state's most distinctive administrative innovation; a professional slave-soldier force gave the Ottomans military superiority over feudal Christian armies.",
+    "year_range": [
+      1380,
+      1500
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "inalck_ottoman_1973",
+      "Ágoston, Guns for the Sultan"
+    ],
+    "confidence": "low"
+  }
+}

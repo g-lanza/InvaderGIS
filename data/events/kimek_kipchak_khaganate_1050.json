@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kimek_kipchak_khaganate_1050",
+  "name": "Kimek-Kipchak Expands West",
+  "year": 1050,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    51.548,
+    72.06
+  ],
+  "entity": "kimek_kipchak_khaganate",
+  "summary": "By the mid-11th century the Kipchak branch of the Kimek confederation had expanded westward to dominate the Pontic steppe (the western Cumans/Polovtsy). This expansion brought them into conflict with Kyivan Rus, Byzantium, Hungary, and the Crusader states, making them a major factor in the politics of the region.",
+  "outcomes": [
+    "kipchak_dominance",
+    "cumans_western_branch",
+    "pontic_steppe_control"
+  ],
+  "_quarry": {
+    "participants": [
+      "kimek_kipchak_khaganate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

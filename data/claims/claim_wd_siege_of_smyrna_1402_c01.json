@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_smyrna_1402_c01",
+  "statement": "Siege of Smyrna (1402 CE), at Smyrna (part of Timurid conquests and invasions).",
+  "subject_ids": [
+    "knights_hospitaller_rhodes"
+  ],
+  "period": {
+    "from": 1402,
+    "to": 1402
+  },
+  "derived_from": "wd_siege_of_smyrna_1402",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_hospitallers_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

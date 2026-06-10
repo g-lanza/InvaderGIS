@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_viking_west_francia",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "west_francia",
+      "role": "principal"
+    },
+    {
+      "entity_id": "kingdom_of_denmark",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 965,
+  "until": 965,
+  "note": "Viking raids on West Francia, including Paris (845, 885), led to Treaty of Saint-Clair-sur-Epte and Normandy.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Viking Seine and Loire raids (840s–880s) systematically destroyed the Carolingian administrative infrastructure in western Francia—burning monasteries, eliminating record-keeping, disrupting fiscal networks—accelerating the fragmentation of royal authority and the militarisation of local power into counts and bishops who managed their own defences; this structural consequence, not the raids themselves, was the mechanism transforming West Francia into feudal France."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "sawyer_medieval_1993",
+      "roesdahl_the_1992"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

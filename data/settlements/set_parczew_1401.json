@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_parczew_1401",
+  "name": "Parczew",
+  "importance": "city",
+  "start_year": 1401,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2343396"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    22.8667,
+    51.6333
+  ]
+}

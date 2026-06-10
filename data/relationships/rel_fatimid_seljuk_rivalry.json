@@ -1,0 +1,40 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_fatimid_seljuk_rivalry",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "fatimid_caliphate",
+      "role": "rival"
+    },
+    {
+      "entity_id": "seljuk_sultanate",
+      "role": "rival"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 1055,
+  "until": 1171,
+  "note": "Seljuk Sunni expansion into Syria and Palestine directly challenged Fatimid Shia power; the Crusaders' arrival in 1099 was partly enabled by this Seljuk-Fatimid rivalry, as the two powers failed to coordinate a defense of Jerusalem.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Fatimid-Seljuk contest for Palestine and Syria in the decade before the First Crusade ensured that neither Islamic power could present a united front to the Crusaders in 1099; the Fatimid loss of Jerusalem to the Seljuks just before the Crusader arrival meant the Crusaders faced a recently defeated garrison rather than a consolidated Islamic defence."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "brett_the_2001",
+      "daftary_the_1990",
+      "ims_fordham",
+      "ims_fordham_sbook1d",
+      "peacock_the_2015",
+      "bosworth_the_1963",
+      "cahen_preottoman_1968"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

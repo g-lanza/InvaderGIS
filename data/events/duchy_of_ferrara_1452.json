@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_ferrara_1452",
+  "name": "Ferrara Elevated to Duchy",
+  "year": 1452,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    47.42,
+    11.06
+  ],
+  "entity": "duchy_of_ferrara",
+  "summary": "Emperor Frederick III elevated Ferrara to a duchy in 1452, confirming the Este family's status among the major Italian powers. The Este court at its height was one of the most brilliant in Europe, attracting artists, scholars, and composers from across Italy and beyond.",
+  "outcomes": [
+    "ducal_title_granted",
+    "este_prestige_peaks",
+    "renaissance_court_flourishes"
+  ],
+  "_quarry": {
+    "participants": [
+      "duchy_of_ferrara",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,1025 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "sultanate_of_rum",
+  "name_primary": "Sultanate of Rum",
+  "name_variants": [
+    "Seljuk Sultanate of Rum",
+    "Rum Sultanate",
+    "Seljuks of Anatolia"
+  ],
+  "type": "empire",
+  "region": "near_east",
+  "formed": 1077,
+  "dissolved": 1307,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    38.5,
+    32.5
+  ],
+  "religion": "islam",
+  "population_estimates": [
+    {
+      "year": 1100,
+      "estimate": 2000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q975405",
+          "url": "https://www.wikidata.org/wiki/Q975405",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Sultanate of Rum",
+          "url": "https://en.wikipedia.org/wiki/Sultanate_of_Rum"
+        }
+      ]
+    },
+    {
+      "year": 1200,
+      "estimate": 3000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q975405",
+          "url": "https://www.wikidata.org/wiki/Q975405",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Sultanate of Rum",
+          "url": "https://en.wikipedia.org/wiki/Sultanate_of_Rum"
+        }
+      ]
+    },
+    {
+      "year": 1280,
+      "estimate": 2500000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q975405",
+          "url": "https://www.wikidata.org/wiki/Q975405",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Sultanate of Rum",
+          "url": "https://en.wikipedia.org/wiki/Sultanate_of_Rum"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low"
+  },
+  "description": "Seljuk successor state in Anatolia (1077–1307) centred on Konya; its control of Anatolian trade routes and patronage of Persian-influenced Sufi culture, Rumi's Mevlevi order founded at Konya, made it a significant cultural force, while its eventual fragmentation into Mongol-tributary Turkish beyliks created the political conditions for Ottoman emergence.",
+  "temporal": {
+    "start_year": 1077,
+    "end_year": 1307,
+    "notes": "Seljuk successor state in Anatolia; 'Rum' means 'Roman' (Byzantine); capital at Nicaea then Konya; became Mongol vassal after Köse Dağ (1243); dissolved into Mongol-controlled beyliks"
+  },
+  "geographic": {
+    "representation": "approximate",
+    "centroid": [
+      38.5,
+      32.5
+    ],
+    "core_regions": [
+      "Anatolia",
+      "Cappadocia",
+      "Cilicia"
+    ],
+    "polygon_simplified": [
+      [
+        [
+          37,
+          28
+        ],
+        [
+          37,
+          35
+        ],
+        [
+          37,
+          42
+        ],
+        [
+          39.5,
+          42
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          42,
+          35
+        ],
+        [
+          42,
+          28
+        ],
+        [
+          39.5,
+          28
+        ],
+        [
+          37,
+          28
+        ]
+      ]
+    ],
+    "capital": {
+      "name": "Konya",
+      "coords": [
+        37.84705,
+        32.5161
+      ],
+      "source": "wikidata"
+    }
+  },
+  "internal_structure": {
+    "governance_type": "military_monarchy",
+    "legitimacy_basis": [
+      "religious_authority",
+      "dynastic",
+      "military_conquest"
+    ],
+    "centralization": "centralized"
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "establishment",
+      "years": "1077–1176",
+      "description": "Suleiman ibn Qutulmish founds the sultanate after Manzikert (1071) opens Anatolia to Turkic settlement; capital at Nicaea; expelled from Nicaea by First Crusade (1096) and Byzantine recovery; moves capital to Konya (Iconium)",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q975405",
+          "url": "https://www.wikidata.org/wiki/Q975405"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Sultanate of Rum",
+          "url": "https://en.wikipedia.org/wiki/Sultanate_of_Rum"
+        }
+      ]
+    },
+    {
+      "phase": "zenith",
+      "years": "1176–1243",
+      "description": "Defeats Byzantine Emperor Manuel I at Myriokephalon (1176), ending Byzantine hopes of reconquering Anatolia; Kilij Arslan II and successors build a prosperous commercial state; Konya becomes a major Silk Road hub and center of Persian Sufi culture (Rumi/Mevlana)",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q975405",
+          "url": "https://www.wikidata.org/wiki/Q975405"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Sultanate of Rum",
+          "url": "https://en.wikipedia.org/wiki/Sultanate_of_Rum"
+        }
+      ]
+    },
+    {
+      "phase": "mongol_vassalage",
+      "years": "1243–1307",
+      "description": "Mongol Ilkhanate crushes the sultanate at Battle of Köse Dağ (1243); sultans become Mongol vassals; authority fragments among competing princes and Mongol-backed governors; Turkic beys establish independent principalities (beyliks) as central control collapses",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q975405",
+          "url": "https://www.wikidata.org/wiki/Q975405"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Sultanate of Rum",
+          "url": "https://en.wikipedia.org/wiki/Sultanate_of_Rum"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "geographic_advantage",
+      "layer": "geography_territory",
+      "description": "Control of central Anatolian plateau gave command of overland trade routes between Europe and Asia; Konya's position made it a major commercial hub generating substantial transit revenues",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q975405",
+          "url": "https://www.wikidata.org/wiki/Q975405"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Sultanate of Rum",
+          "url": "https://en.wikipedia.org/wiki/Sultanate_of_Rum"
+        }
+      ]
+    },
+    {
+      "tag": "rival_fragmentation",
+      "layer": "external_political",
+      "description": "Byzantine Empire weakened by internal conflicts and the shock of Manzikert could not mount sustained reconquest; Crusader states and other Seljuk successor states provided buffer zones",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q975405",
+          "url": "https://www.wikidata.org/wiki/Q975405"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Sultanate of Rum",
+          "url": "https://en.wikipedia.org/wiki/Sultanate_of_Rum"
+        }
+      ]
+    },
+    {
+      "layer": "economic_commercial",
+      "tag": "trade_route_control",
+      "direction": "rise",
+      "description": "The Sultanate controlled the main Anatolian caravan routes between Central Asia and Mediterranean ports. The sultans built caravanserai networks (still visible today) every 30km across Anatolia, supporting and taxing commerce.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q975405",
+          "url": "https://www.wikidata.org/wiki/Q975405"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Sultanate of Rum",
+          "url": "https://en.wikipedia.org/wiki/Sultanate_of_Rum"
+        }
+      ],
+      "tag_prose": "anatolian_trade_routes"
+    },
+    {
+      "layer": "ideology_religion",
+      "tag": "konya_cosmopolitan_center",
+      "direction": "rise",
+      "description": "Konya (Iconium) under Alaeddin Kayqubad I became a major cultural center. The mystical poet Rumi (1207–1273) based his Mevlevi Sufi order here; the city attracted scholars and craftsmen from across the Islamic world.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q975405",
+          "url": "https://www.wikidata.org/wiki/Q975405"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Sultanate of Rum",
+          "url": "https://en.wikipedia.org/wiki/Sultanate_of_Rum"
+        }
+      ]
+    },
+    {
+      "layer": "military_security",
+      "tag": "military_organizational_advantage",
+      "direction": "rise",
+      "description": "The Battle of Myriokephalon (1176), Seljuk defeat of Byzantine Emperor Manuel I's invasion, permanently ended Byzantine attempts to reconquer Anatolia. This strategic victory secured Seljuk permanence in the heartland of the former Roman Empire.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q975405",
+          "url": "https://www.wikidata.org/wiki/Q975405"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Sultanate of Rum",
+          "url": "https://en.wikipedia.org/wiki/Sultanate_of_Rum"
+        }
+      ],
+      "tag_prose": "myriokephalon_victory_1176"
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "alaeddin_kayqubad_hegemony",
+      "direction": "rise",
+      "description": "Alaeddin Kayqubad I (r.1220–37) was the sultanate's high point: expanding to the Black Sea coast, building Alanya, patronizing major architectural projects, and administering a cosmopolitan multi-ethnic state with unusual competence.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q975405",
+          "url": "https://www.wikidata.org/wiki/Q975405"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Sultanate of Rum",
+          "url": "https://en.wikipedia.org/wiki/Sultanate_of_Rum"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "military_technological_advantage",
+      "layer": "military_security",
+      "description": "Mongol army's overwhelming numerical and tactical superiority at Köse Dağ (1243) left the sultanate unable to resist; the sultan fled the battlefield, permanently destroying Rum's military credibility",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q975405",
+          "url": "https://www.wikidata.org/wiki/Q975405"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Sultanate of Rum",
+          "url": "https://en.wikipedia.org/wiki/Sultanate_of_Rum"
+        }
+      ]
+    },
+    {
+      "tag": "succession_instability",
+      "layer": "dynastic_legitimacy",
+      "description": "Mongol overlords manipulated Seljuk succession to keep the sultanate weak; rival princes backed by different Mongol factions fought civil wars that accelerated fragmentation into beyliks",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q975405",
+          "url": "https://www.wikidata.org/wiki/Q975405"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Sultanate of Rum",
+          "url": "https://en.wikipedia.org/wiki/Sultanate_of_Rum"
+        }
+      ]
+    },
+    {
+      "layer": "military_security",
+      "tag": "mongol_kosedag_defeat",
+      "direction": "decline",
+      "description": "The Battle of Köse Dağ (1243), in which Mongol forces destroyed the Seljuk army, made the sultanate a Mongol vassal overnight. The subsequent Mongol tax burden, combined with loss of independent military command, hollowed out the sultanate permanently.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q975405",
+          "url": "https://www.wikidata.org/wiki/Q975405"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Sultanate of Rum",
+          "url": "https://en.wikipedia.org/wiki/Sultanate_of_Rum"
+        }
+      ]
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "mongol_ilkhanate_subordination",
+      "direction": "decline",
+      "description": "After Köse Dağ, Seljuk sultans required Ilkhanate confirmation of their throne. Mongol overseers (shahnas) controlled revenues and military appointments. The sultanate became a fiscal extraction mechanism for the Ilkhanate rather than an independent polity.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q975405",
+          "url": "https://www.wikidata.org/wiki/Q975405"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Sultanate of Rum",
+          "url": "https://en.wikipedia.org/wiki/Sultanate_of_Rum"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Kilij Arslan II",
+      "role": "ruler",
+      "years": "1130–1192",
+      "year_start": 1130,
+      "year_end": 1192,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Kilij Arslan II",
+          "url": "https://en.wikipedia.org/wiki/Kilij_Arslan_II"
+        }
+      ]
+    },
+    {
+      "name": "Kaykhusraw I",
+      "role": "ruler",
+      "years": "1169–1211",
+      "year_start": 1169,
+      "year_end": 1211,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Kaykhusraw I",
+          "url": "https://en.wikipedia.org/wiki/Kaykhusraw_I"
+        }
+      ]
+    },
+    {
+      "name": "Kayqubad I (Alaeddin)",
+      "role": "ruler",
+      "years": "1190–1237",
+      "year_start": 1190,
+      "year_end": 1237,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Kayqubad I (Alaeddin)",
+          "url": "https://en.wikipedia.org/wiki/Kayqubad_I_(Alaeddin)"
+        }
+      ]
+    }
+  ],
+  "predecessor_entity_ids": [
+    "seljuk_sultanate"
+  ],
+  "successor_entity_ids": [
+    "ottoman_beylik"
+  ],
+  "primary_ethnicity": "turkic",
+  "ethnic_composition": [
+    {
+      "group": "turkic",
+      "proportion": 0.45
+    },
+    {
+      "group": "greek_byzantine",
+      "proportion": 0.3
+    },
+    {
+      "group": "armenian",
+      "proportion": 0.15
+    },
+    {
+      "group": "persian_iranian",
+      "proportion": 0.07
+    },
+    {
+      "group": "arab",
+      "proportion": 0.03
+    }
+  ],
+  "religion_composition": [
+    {
+      "religion": "islam",
+      "proportion": 0.55
+    },
+    {
+      "religion": "orthodox",
+      "proportion": 0.28
+    },
+    {
+      "religion": "armenian",
+      "proportion": 0.12
+    },
+    {
+      "religion": "jewish",
+      "proportion": 0.05
+    }
+  ],
+  "primary_language": "turkic_lang",
+  "language_composition": [
+    {
+      "language": "turkic_lang",
+      "proportion": 0.44,
+      "role": "vernacular"
+    },
+    {
+      "language": "greek",
+      "proportion": 0.34,
+      "role": "regional"
+    },
+    {
+      "language": "armenian_lang",
+      "proportion": 0.12,
+      "role": "regional"
+    },
+    {
+      "language": "persian",
+      "proportion": 0.06,
+      "role": "administrative"
+    },
+    {
+      "language": "arabic",
+      "proportion": 0.04,
+      "role": "liturgical"
+    }
+  ],
+  "economic": {
+    "primary_base": "long_distance_trade",
+    "secondary_bases": [
+      "agriculture",
+      "manufacturing"
+    ],
+    "wealth_level": "high",
+    "major_exports": [
+      "silk",
+      "cotton",
+      "alum",
+      "copper",
+      "horses"
+    ],
+    "major_trade_partners": [
+      "byzantine_empire",
+      "armenian_kingdom_of_cilicia",
+      "republic_of_genoa",
+      "ilkhanate"
+    ],
+    "revenue_sources": [
+      "customs_duties",
+      "land_tax",
+      "tribute"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q975405",
+        "url": "https://www.wikidata.org/wiki/Q975405"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Sultanate of Rum",
+        "url": "https://en.wikipedia.org/wiki/Sultanate_of_Rum"
+      }
+    ]
+  },
+  "social_structure": {
+    "ruling_ethnicity": "turkic",
+    "subject_majority": "greek_byzantine",
+    "military_ethnicity": "turkic",
+    "administrative_language": "persian",
+    "stratification_type": "conquest_colonial"
+  },
+  "wikidata_enrichment": {
+    "qid": "Q975405",
+    "matched_name": "Sultanate of Rum",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sultanate_of_Rum",
+    "capital": {
+      "name": "Konya",
+      "coords": [
+        37.84705,
+        32.5161
+      ]
+    },
+    "rulers_from_wikidata": [
+      {
+        "name": "Kaykubad III",
+        "qid": "Q11929711",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q11929711",
+            "url": "https://www.wikidata.org/wiki/Q11929711"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Kaykubad III",
+            "url": "https://en.wikipedia.org/wiki/Kaykubad_III"
+          }
+        ]
+      },
+      {
+        "name": "Malik Xah II ibn Kilidj Arslan II",
+        "qid": "Q11934731",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q11934731",
+            "url": "https://www.wikidata.org/wiki/Q11934731"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Malik Xah II ibn Kilidj Arslan II",
+            "url": "https://en.wikipedia.org/wiki/Malik_Xah_II_ibn_Kilidj_Arslan_II"
+          }
+        ]
+      },
+      {
+        "name": "Gürcü Hatun",
+        "qid": "Q2915023",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2915023",
+            "url": "https://www.wikidata.org/wiki/Q2915023"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Gürcü Hatun",
+            "url": "https://en.wikipedia.org/wiki/Tamar_Gurju_Khatun"
+          }
+        ]
+      },
+      {
+        "name": "Abu'l Qasim",
+        "qid": "Q4055153",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4055153",
+            "url": "https://www.wikidata.org/wiki/Q4055153"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Abu'l Qasim",
+            "url": "https://en.wikipedia.org/wiki/Abu_al-Qasim"
+          }
+        ]
+      },
+      {
+        "name": "Kilij Arslan V",
+        "qid": "Q47016571",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q47016571",
+            "url": "https://www.wikidata.org/wiki/Q47016571"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Kilij Arslan V",
+            "url": "https://en.wikipedia.org/wiki/Kilij_Arslan_V"
+          }
+        ]
+      },
+      {
+        "name": "Suleiman ibn Qutulmish",
+        "qid": "Q730338",
+        "year_start": 1074,
+        "year_end": 1086,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q730338",
+            "url": "https://www.wikidata.org/wiki/Q730338"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Suleiman ibn Qutulmish",
+            "url": "https://en.wikipedia.org/wiki/Suleiman_ibn_Qutalmish"
+          }
+        ]
+      },
+      {
+        "name": "Kilij Arslan I",
+        "qid": "Q345544",
+        "year_start": 1092,
+        "year_end": 1107,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q345544",
+            "url": "https://www.wikidata.org/wiki/Q345544"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Kilij Arslan I",
+            "url": "https://en.wikipedia.org/wiki/Kilij_Arslan_I"
+          }
+        ]
+      },
+      {
+        "name": "Malik Shah",
+        "qid": "Q1378373",
+        "year_start": 1107,
+        "year_end": 1116,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1378373",
+            "url": "https://www.wikidata.org/wiki/Q1378373"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Malik Shah",
+            "url": "https://en.wikipedia.org/wiki/Malik_Shah"
+          }
+        ]
+      },
+      {
+        "name": "Mesud",
+        "qid": "Q58810",
+        "year_start": 1116,
+        "year_end": 1156,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q58810",
+            "url": "https://www.wikidata.org/wiki/Q58810"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mesud",
+            "url": "https://en.wikipedia.org/wiki/Mesud"
+          }
+        ]
+      },
+      {
+        "name": "Kilij Arslan II",
+        "qid": "Q58982",
+        "year_start": 1156,
+        "year_end": 1192,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q58982",
+            "url": "https://www.wikidata.org/wiki/Q58982"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Kilij Arslan II",
+            "url": "https://en.wikipedia.org/wiki/Kilij_Arslan_II"
+          }
+        ]
+      },
+      {
+        "name": "Kaykhusraw I",
+        "qid": "Q61591",
+        "year_start": 1192,
+        "year_end": 1196,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q61591",
+            "url": "https://www.wikidata.org/wiki/Q61591"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Kaykhusraw I",
+            "url": "https://en.wikipedia.org/wiki/Kaykhusraw_I"
+          }
+        ]
+      },
+      {
+        "name": "Suleiman II",
+        "qid": "Q61595",
+        "year_start": 1196,
+        "year_end": 1204,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q61595",
+            "url": "https://www.wikidata.org/wiki/Q61595"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Suleiman II",
+            "url": "https://en.wikipedia.org/wiki/Suleiman_II"
+          }
+        ]
+      },
+      {
+        "name": "Tughril ibn Kılıç Arslan II",
+        "qid": "Q125217105",
+        "year_start": 1202,
+        "year_end": 1225,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q125217105",
+            "url": "https://www.wikidata.org/wiki/Q125217105"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Tughril ibn Kılıç Arslan II",
+            "url": "https://en.wikipedia.org/wiki/Tughril_ibn_Kılıç_Arslan_II"
+          }
+        ]
+      },
+      {
+        "name": "Kilij Arslan III",
+        "qid": "Q61596",
+        "year_start": 1204,
+        "year_end": 1205,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q61596",
+            "url": "https://www.wikidata.org/wiki/Q61596"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Kilij Arslan III",
+            "url": "https://en.wikipedia.org/wiki/Kilij_Arslan_III"
+          }
+        ]
+      },
+      {
+        "name": "Kaykaus I",
+        "qid": "Q61593",
+        "year_start": 1211,
+        "year_end": 1220,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q61593",
+            "url": "https://www.wikidata.org/wiki/Q61593"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Kaykaus I",
+            "url": "https://en.wikipedia.org/wiki/Kaykaus_I"
+          }
+        ]
+      },
+      {
+        "name": "Kayqubad baraa I",
+        "qid": "Q61964",
+        "year_start": 1220,
+        "year_end": 1237,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q61964",
+            "url": "https://www.wikidata.org/wiki/Q61964"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Kayqubad baraa I",
+            "url": "https://en.wikipedia.org/wiki/Kayqubad_baraa_I"
+          }
+        ]
+      },
+      {
+        "name": "Kaykhusraw II",
+        "qid": "Q467001",
+        "year_start": 1237,
+        "year_end": 1246,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q467001",
+            "url": "https://www.wikidata.org/wiki/Q467001"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Kaykhusraw II",
+            "url": "https://en.wikipedia.org/wiki/Kaykhusraw_II"
+          }
+        ]
+      },
+      {
+        "name": "Kaykaus II",
+        "qid": "Q1385575",
+        "year_start": 1246,
+        "year_end": 1262,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1385575",
+            "url": "https://www.wikidata.org/wiki/Q1385575"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Kaykaus II",
+            "url": "https://en.wikipedia.org/wiki/Kaykaus_II"
+          }
+        ]
+      },
+      {
+        "name": "Kayqubad II",
+        "qid": "Q1378313",
+        "year_start": 1249,
+        "year_end": 1257,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1378313",
+            "url": "https://www.wikidata.org/wiki/Q1378313"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Kayqubad II",
+            "url": "https://en.wikipedia.org/wiki/Kayqubad_II"
+          }
+        ]
+      },
+      {
+        "name": "Kilij Arslan IV",
+        "qid": "Q770205",
+        "year_start": 1249,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q770205",
+            "url": "https://www.wikidata.org/wiki/Q770205"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Kilij Arslan IV",
+            "url": "https://en.wikipedia.org/wiki/Kilij_Arslan_IV"
+          }
+        ]
+      },
+      {
+        "name": "Kaykhusraw III",
+        "qid": "Q1378714",
+        "year_start": 1266,
+        "year_end": 1284,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1378714",
+            "url": "https://www.wikidata.org/wiki/Q1378714"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Kaykhusraw III",
+            "url": "https://en.wikipedia.org/wiki/Kaykhusraw_III"
+          }
+        ]
+      },
+      {
+        "name": "Mesud II",
+        "qid": "Q370032",
+        "year_start": 1284,
+        "year_end": 1297,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q370032",
+            "url": "https://www.wikidata.org/wiki/Q370032"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mesud II",
+            "url": "https://en.wikipedia.org/wiki/Mesud_II"
+          }
+        ]
+      },
+      {
+        "name": "Kayqubad III",
+        "qid": "Q1378353",
+        "year_start": 1297,
+        "year_end": 1303,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1378353",
+            "url": "https://www.wikidata.org/wiki/Q1378353"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Kayqubad III",
+            "url": "https://en.wikipedia.org/wiki/Kayqubad_III"
+          }
+        ]
+      },
+      {
+        "name": "Mesud III",
+        "qid": "Q47015928",
+        "year_start": 1306,
+        "year_end": 1307,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q47015928",
+            "url": "https://www.wikidata.org/wiki/Q47015928"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mesud III",
+            "url": "https://en.wikipedia.org/wiki/Mesud_III"
+          }
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "type": "book",
+      "author": "Wickham, Chris",
+      "title": "The Inheritance of Rome: A History of Europe from 400 to 1000",
+      "publisher": "Allen Lane",
+      "year": 2009
+    },
+    {
+      "type": "book",
+      "author": "Abulafia, David (ed.)",
+      "title": "The New Cambridge Medieval History, Vol. V: c. 1198 – c. 1300",
+      "publisher": "Cambridge University Press",
+      "year": 1999
+    }
+  ],
+  "monogram": "RU"
+}

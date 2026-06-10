@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_peace_of_god_charroux_989_c01",
+  "statement": "A synod was convened at Charroux Abbey around 989, traditionally regarded as the inaugural council of the Peace of God movement.",
+  "subject_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 989,
+    "to": 989
+  },
+  "derived_from": "peace_of_god_charroux_989",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "constable_reformation_twelfth_century_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

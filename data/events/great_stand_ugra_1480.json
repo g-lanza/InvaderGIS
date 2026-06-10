@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "great_stand_ugra_1480",
+  "name": "Great Stand on the Ugra, End of Mongol Suzerainty",
+  "year": 1480,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    54.79,
+    35.93
+  ],
+  "entity": "grand_principality_of_moscow",
+  "summary": "Ivan III of Moscow refuses to pay tribute to the Golden Horde and faces down Khan Akhmat's army at the Ugra River without battle. Akhmat withdraws after his Crimean ally fails to support him, and the Golden Horde dissolves shortly after. The 'Great Stand', two armies facing each other without fighting, marks the end of the Mongol Yoke that had dominated Russia for 240 years.",
+  "outcomes": [
+    "mongol_tribute_ends",
+    "russian_independence_restored",
+    "golden_horde_breaks_apart"
+  ],
+  "_quarry": {
+    "participants": [
+      "grand_principality_of_moscow",
+      "golden_horde"
+    ],
+    "structural_significance": "The Great Stand is the formal end of Mongol suzerainty over Russia; Ivan III's successful defiance culminates the century-long Muscovite project of consolidating Russian principalities and building military capacity; freed from Mongol tribute, Russia can focus on western expansion and its self-presentation as the Third Rome (after Rome and Constantinople fell to barbarians and infidels); the event marks Russia's re-entry into European politics as an independent power",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "fennell_the_1983",
+      "ostrowski_muscovy_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

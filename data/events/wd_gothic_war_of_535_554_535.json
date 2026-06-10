@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_gothic_war_of_535_554_535",
+  "name": "Gothic War of 535–554",
+  "year": 535,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    43.075,
+    10.3
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Gothic War of 535–554 (535 CE), at Italian Peninsula (part of Restauratio Imperii). Source: Wikidata Q477973.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "visigothic_kingdom",
+      "merovingian_kingdom",
+      "ostrogothic_kingdom"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

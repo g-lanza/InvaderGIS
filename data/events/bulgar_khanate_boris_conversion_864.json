@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "bulgar_khanate_boris_conversion_864",
+  "name": "Boris I Converts Bulgaria to Christianity",
+  "year": 864,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    43.475,
+    24.394
+  ],
+  "entity": "bulgar_khanate",
+  "summary": "Khan Boris I converted Bulgaria to Christianity, navigating between Rome and Constantinople before ultimately accepting Eastern Orthodox Christianity. He subsequently invited Saints Cyril and Methodius's disciples who created the Cyrillic alphabet and brought Slavonic literacy to Bulgaria.",
+  "outcomes": [
+    "bulgaria_christianised",
+    "cyrillic_alphabet",
+    "orthodox_church_bulgarian"
+  ],
+  "_quarry": {
+    "participants": [
+      "bulgar_khanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

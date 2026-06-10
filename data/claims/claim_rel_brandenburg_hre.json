@@ -1,0 +1,31 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_brandenburg_hre",
+  "statement": "Brandenburg emerged as a frontier march (Nordmark) of the Holy Roman Empire in the 10th century, established to defend against Slavic peoples east of the Elbe. Albert the Bear (Albrecht der Bär) of the Ascanian dynasty formalized the Margraviate of Brandenburg in 1157 after acquiring the Hevelli lands. The Golden Bull of 1356 made the Margrave of Brandenburg one of the seven imperial electors, giving this frontier territory extraordinary constitutional significance. The Hohenzollern family inherited Brandenburg in 1415, using their electoral status as the foundation for building the Brandenburg-Prussian state that eventually created Germany.",
+  "subject_ids": [
+    "holy_roman_empire",
+    "margraviate_of_brandenburg"
+  ],
+  "predicate": "vassalage",
+  "derived_from": "rel_brandenburg_hre",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "margraviate_of_brandenburg"
+  ],
+  "period": {
+    "from": 1157,
+    "to": 1500
+  }
+}

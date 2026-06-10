@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_medina_azahara_500",
+  "name": "Medina Azahara",
+  "importance": "city",
+  "start_year": 500,
+  "end_year": 1010,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "high",
+    "attestation": "inferred",
+    "external_ids": {
+      "pleiades": "410216618"
+    }
+  },
+  "end_confidence": "high",
+  "coords": [
+    -4.8674,
+    37.8862
+  ]
+}

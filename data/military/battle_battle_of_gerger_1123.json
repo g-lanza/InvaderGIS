@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_gerger_1123",
+  "name": "Battle of Gerger",
+  "subtype": "battle",
+  "start_year": 1123,
+  "end_year": 1123,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q135903029"
+    }
+  },
+  "description": "Battle during Crusader battles between 1101 and 1145 (1123)",
+  "coords": [
+    39.0328,
+    38.0286
+  ]
+}

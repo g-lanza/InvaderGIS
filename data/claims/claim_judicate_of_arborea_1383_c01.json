@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_judicate_of_arborea_1383_c01",
+  "statement": "Judge Eleonora of Arborea promulgated the Carta de Logu in 1383, an advanced legal code governing criminal and civil law, property rights, and environmental protection.",
+  "subject_ids": [
+    "judicate_of_arborea"
+  ],
+  "period": {
+    "from": 1383,
+    "to": 1383
+  },
+  "derived_from": "judicate_of_arborea_1383",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_jerusalemite_civil_war_1152",
+  "name": "Jerusalemite Civil War",
+  "year": 1152,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    31.8,
+    35.2
+  ],
+  "entity": "kingdom_of_jerusalem",
+  "summary": "Jerusalemite Civil War (1152 CE), (part of Crusader battles between 1149 and 1189). Source: Wikidata Q51930478.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_jerusalem"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

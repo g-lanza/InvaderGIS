@@ -1,0 +1,35 @@
+{
+ "kind": "event",
+ "dataset": "medieval-europe-500-1500",
+ "id": "battle_of_tours_732",
+ "name": "Battle of Tours (Poitiers)",
+ "year": 732,
+ "type": "battle",
+ "category": "violence",
+ "coords": [
+  46.8,
+  0.6
+ ],
+ "entity": "merovingian_kingdom",
+ "summary": "Charles Martel's Frankish army defeats the Umayyad governor Abd al-Rahman al-Ghafiqi at the Battle of Tours/Poitiers, halting further Islamic expansion into western Europe. The battle's strategic significance is disputed by historians, but it legitimizes Charles Martel and the Carolingian family as protectors of Christendom, setting up Pepin's seizure of the Frankish throne.",
+ "outcomes": [
+  "arab_expansion_halted",
+  "charles_martel_legitimized",
+  "frankish_church_reward"
+ ],
+ "_quarry": {
+  "participants": [
+   "merovingian_kingdom"
+  ],
+  "structural_significance": "Establishes the Carolingians as leaders of Christian Europe; may have limited Islamic expansion, though the Umayyad caliphate was already overextended; creates the ideological basis for Charlemagne's Christian empire.",
+  "year_range": null
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "ims_fordham",
+   "ims_fordham_sbook1h"
+  ],
+  "confidence": "low"
+ }
+}

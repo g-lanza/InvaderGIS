@@ -1,0 +1,742 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "swiss_confederation",
+  "name_primary": "Swiss Confederation",
+  "name_variants": [
+    "Old Swiss Confederacy"
+  ],
+  "type": "league",
+  "region": "western_europe",
+  "formed": 1291,
+  "dissolved": 1499,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 1500,
+      "label": "Swiss Confederation",
+      "polygon": [
+        [
+          47.48,
+          7.47
+        ],
+        [
+          47.6,
+          8.51
+        ],
+        [
+          47.81,
+          8.53
+        ],
+        [
+          47.44,
+          9.68
+        ],
+        [
+          47.18,
+          9.48
+        ],
+        [
+          46.79,
+          9.5
+        ],
+        [
+          46.58,
+          8.82
+        ],
+        [
+          46.31,
+          9
+        ],
+        [
+          46.53,
+          8.66
+        ],
+        [
+          46.29,
+          8.08
+        ],
+        [
+          46.15,
+          8.14
+        ],
+        [
+          45.93,
+          7.82
+        ],
+        [
+          45.92,
+          7.44
+        ],
+        [
+          46.64,
+          7.01
+        ],
+        [
+          47.12,
+          7.21
+        ],
+        [
+          46.88,
+          6.73
+        ],
+        [
+          46.96,
+          6.55
+        ],
+        [
+          47.48,
+          7.47
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    46.95,
+    8.23
+  ],
+  "religion": "catholic",
+  "population_estimates": [
+    {
+      "year": 1200,
+      "estimate": 420000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q435583",
+          "url": "https://www.wikidata.org/wiki/Q435583",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Swiss Confederation",
+          "url": "https://en.wikipedia.org/wiki/Old_Swiss_Confederacy"
+        }
+      ]
+    },
+    {
+      "year": 1350,
+      "estimate": 600000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q435583",
+          "url": "https://www.wikidata.org/wiki/Q435583",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Swiss Confederation",
+          "url": "https://en.wikipedia.org/wiki/Old_Swiss_Confederacy"
+        }
+      ]
+    },
+    {
+      "year": 1500,
+      "estimate": 660000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q435583",
+          "url": "https://www.wikidata.org/wiki/Q435583",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Swiss Confederation",
+          "url": "https://en.wikipedia.org/wiki/Old_Swiss_Confederacy"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "marchal_schweizer_2006",
+      "rippmann_die_2006"
+    ],
+    "confidence": "low"
+  },
+  "description": "Alpine defensive league (1291–1848) whose federal structure grew from the three forest cantons' perpetual charter; the Confederation's pikemen demonstrated at Morgarten (1315) and Sempach (1386) that disciplined infantry could defeat armoured cavalry, while the Swabian War victory (1499) established effective independence from the Holy Roman Empire and created the template for Swiss neutrality.",
+  "temporal": {
+    "start_year": 1291,
+    "end_year": 1499,
+    "end_year_within_scope": null,
+    "start_event_id": null,
+    "end_event_id": null,
+    "notes": "Federal Charter 1291; Burgundian wars; Basel 1499."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      46.95,
+      8.23
+    ],
+    "core_regions": [
+      "Uri",
+      "Schwyz",
+      "Unterwalden"
+    ],
+    "polygon_simplified": [
+      [
+        47.48,
+        7.47
+      ],
+      [
+        47.6,
+        8.51
+      ],
+      [
+        47.81,
+        8.53
+      ],
+      [
+        47.44,
+        9.68
+      ],
+      [
+        47.18,
+        9.48
+      ],
+      [
+        46.79,
+        9.5
+      ],
+      [
+        46.58,
+        8.82
+      ],
+      [
+        46.31,
+        9
+      ],
+      [
+        46.53,
+        8.66
+      ],
+      [
+        46.29,
+        8.08
+      ],
+      [
+        46.15,
+        8.14
+      ],
+      [
+        45.93,
+        7.82
+      ],
+      [
+        45.92,
+        7.44
+      ],
+      [
+        46.64,
+        7.01
+      ],
+      [
+        47.12,
+        7.21
+      ],
+      [
+        46.88,
+        6.73
+      ],
+      [
+        46.96,
+        6.55
+      ],
+      [
+        47.48,
+        7.47
+      ]
+    ],
+    "notes": "Centroid approximate; polygon pending schematic or OHM sourcing.",
+    "polygon_snapshots": [
+      {
+        "year": 1500,
+        "label": "Swiss Confederation",
+        "polygon": [
+          [
+            47.48,
+            7.47
+          ],
+          [
+            47.6,
+            8.51
+          ],
+          [
+            47.81,
+            8.53
+          ],
+          [
+            47.44,
+            9.68
+          ],
+          [
+            47.18,
+            9.48
+          ],
+          [
+            46.79,
+            9.5
+          ],
+          [
+            46.58,
+            8.82
+          ],
+          [
+            46.31,
+            9
+          ],
+          [
+            46.53,
+            8.66
+          ],
+          [
+            46.29,
+            8.08
+          ],
+          [
+            46.15,
+            8.14
+          ],
+          [
+            45.93,
+            7.82
+          ],
+          [
+            45.92,
+            7.44
+          ],
+          [
+            46.64,
+            7.01
+          ],
+          [
+            47.12,
+            7.21
+          ],
+          [
+            46.88,
+            6.73
+          ],
+          [
+            46.96,
+            6.55
+          ],
+          [
+            47.48,
+            7.47
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "real_historical_boundary",
+    "polygon_source": "aourednik/historical-basemaps",
+    "polygon_source_date": "2026-05-09",
+    "capital": {
+      "name": "Bern",
+      "coords": [
+        46.95,
+        7.45
+      ],
+      "source": "curated"
+    }
+  },
+  "internal_structure": {
+    "centralization": "low_to_medium",
+    "centralization_trajectory": null,
+    "governance_type": "commercial_league",
+    "legitimacy_basis": [
+      "commercial_charter",
+      "mutual_treaty"
+    ],
+    "administrative_system": ""
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "formation",
+      "years": "1291–1315",
+      "description": "Everlasting League of Uri, Schwyz, and Unterwalden.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q435583",
+          "url": "https://www.wikidata.org/wiki/Q435583"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Swiss Confederation",
+          "url": "https://en.wikipedia.org/wiki/Old_Swiss_Confederacy"
+        }
+      ]
+    },
+    {
+      "phase": "consolidation",
+      "years": "1315–1386",
+      "description": "Morgarten victory; expansion of confederation to eight cantons.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q435583",
+          "url": "https://www.wikidata.org/wiki/Q435583"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Swiss Confederation",
+          "url": "https://en.wikipedia.org/wiki/Old_Swiss_Confederacy"
+        }
+      ]
+    },
+    {
+      "phase": "expansion",
+      "years": "1386–1460",
+      "description": "Sempach; Burgundian wars; confederation proven against major powers.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q435583",
+          "url": "https://www.wikidata.org/wiki/Q435583"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Swiss Confederation",
+          "url": "https://en.wikipedia.org/wiki/Old_Swiss_Confederacy"
+        }
+      ]
+    },
+    {
+      "phase": "peak",
+      "years": "1460–1500",
+      "description": "Dominant military force; Burgundian War victory; expansion continues.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q435583",
+          "url": "https://www.wikidata.org/wiki/Q435583"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Swiss Confederation",
+          "url": "https://en.wikipedia.org/wiki/Old_Swiss_Confederacy"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "geographic_defensibility",
+      "layer": "geography_territory",
+      "description": "Alpine terrain gave Swiss cantons decisive tactical advantage; pike-armed infantry in mountain passes could defeat mounted knights.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q435583",
+          "url": "https://www.wikidata.org/wiki/Q435583"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Swiss Confederation",
+          "url": "https://en.wikipedia.org/wiki/Old_Swiss_Confederacy"
+        }
+      ]
+    },
+    {
+      "tag": "military_organizational_advantage",
+      "layer": "military_security",
+      "description": "Swiss pike squares at Morgarten (1315), Sempach (1386), and Grandson (1476) proved the most effective infantry system in Europe.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q435583",
+          "url": "https://www.wikidata.org/wiki/Q435583"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Swiss Confederation",
+          "url": "https://en.wikipedia.org/wiki/Old_Swiss_Confederacy"
+        }
+      ]
+    },
+    {
+      "tag": "ideological_unification",
+      "layer": "ideology_religion",
+      "description": "Everlasting League oath-based confederation built genuine solidarity among cantons against Habsburg centralization.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q435583",
+          "url": "https://www.wikidata.org/wiki/Q435583"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Swiss Confederation",
+          "url": "https://en.wikipedia.org/wiki/Old_Swiss_Confederacy"
+        }
+      ]
+    },
+    {
+      "layer": "military_security",
+      "tag": "pike_formation_innovation",
+      "direction": "rise",
+      "description": "Swiss infantry pike squares (Gevierthaufen) proved devastating against feudal cavalry. At Morgarten (1315), Laupen (1339), Sempach (1386), and Näfels (1388), Swiss pikemen destroyed Habsburg and Burgundian cavalry armies, making Swiss military service the most valued in Europe.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q435583",
+          "url": "https://www.wikidata.org/wiki/Q435583"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Swiss Confederation",
+          "url": "https://en.wikipedia.org/wiki/Old_Swiss_Confederacy"
+        }
+      ]
+    },
+    {
+      "layer": "geography_territory",
+      "tag": "geographic_defensibility",
+      "direction": "rise",
+      "description": "The Gotthard Pass (opened c.1230) became the primary trans-Alpine route for Italian-German trade. Swiss cantons controlling the pass collected tolls and denied passage to enemies, generating both revenue and strategic leverage.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q435583",
+          "url": "https://www.wikidata.org/wiki/Q435583"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Swiss Confederation",
+          "url": "https://en.wikipedia.org/wiki/Old_Swiss_Confederacy"
+        }
+      ],
+      "tag_prose": "alpine_pass_control"
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "federal_oath_covenant",
+      "direction": "rise",
+      "description": "The Eternal Alliance (Ewiger Bund, 1291) established a mutual defense compact between Uri, Schwyz, and Unterwalden. This covenant model, extended to subsequent cantons, created a confederation that preserved local autonomy while enabling collective defense.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q435583",
+          "url": "https://www.wikidata.org/wiki/Q435583"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Swiss Confederation",
+          "url": "https://en.wikipedia.org/wiki/Old_Swiss_Confederacy"
+        }
+      ]
+    },
+    {
+      "layer": "economic_commercial",
+      "tag": "trade_route_control",
+      "direction": "rise",
+      "description": "Swiss military reputation generated enormous mercenary income. From the mid-15th century, Swiss cantons negotiated collective mercenary treaties (Reisläuferei) with France, the papacy, and Italian states, bringing silver into an otherwise resource-poor mountain economy.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q435583",
+          "url": "https://www.wikidata.org/wiki/Q435583"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Swiss Confederation",
+          "url": "https://en.wikipedia.org/wiki/Old_Swiss_Confederacy"
+        }
+      ],
+      "tag_prose": "mercenary_service_revenues"
+    },
+    {
+      "layer": "military_security",
+      "tag": "military_organizational_advantage",
+      "direction": "rise",
+      "description": "Swiss peasant infantry at Morgarten (1315) defeated Habsburg heavy cavalry by exploiting the narrow mountain pass, demonstrating that organized communal foot soldiers could defeat mounted nobility, a lesson that transformed European warfare.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q435583",
+          "url": "https://www.wikidata.org/wiki/Q435583"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Swiss Confederation",
+          "url": "https://en.wikipedia.org/wiki/Old_Swiss_Confederacy"
+        }
+      ],
+      "tag_prose": "battle_of_morgarten"
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "internal_fragmentation",
+      "layer": "governance_institutional",
+      "description": "Internal cantonal disputes over expansion direction created periodic tensions between urban and forest cantons.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q435583",
+          "url": "https://www.wikidata.org/wiki/Q435583"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Swiss Confederation",
+          "url": "https://en.wikipedia.org/wiki/Old_Swiss_Confederacy"
+        }
+      ]
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "internal_fragmentation",
+      "direction": "decline",
+      "description": "Urban cantons (Zurich, Bern) and rural cantons (Uri, Schwyz) had irreconcilable political cultures. The Old Zurich War (1440–46) nearly dissolved the confederation; only shared military interests prevented permanent fragmentation.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q435583",
+          "url": "https://www.wikidata.org/wiki/Q435583"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Swiss Confederation",
+          "url": "https://en.wikipedia.org/wiki/Old_Swiss_Confederacy"
+        }
+      ],
+      "tag_prose": "cantonal_independence_tensions"
+    }
+  ],
+  "key_figures": [
+    {
+      "person_id": "arnold_von_winkelried",
+      "name": "Arnold von Winkelried",
+      "role": "military_leader",
+      "years": "Battle of Sempach 1386",
+      "year_start": 1386,
+      "year_end": null,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Arnold von Winkelried",
+          "url": "https://en.wikipedia.org/wiki/Arnold_von_Winkelried"
+        }
+      ]
+    }
+  ],
+  "predecessor_entity_ids": [
+    "duchy_of_swabia",
+    "holy_roman_empire"
+  ],
+  "primary_ethnicity": "germanic",
+  "ethnic_composition": [
+    {
+      "group": "germanic",
+      "proportion": 0.88
+    }
+  ],
+  "religion_composition": [
+    {
+      "religion": "catholic",
+      "proportion": 0.95
+    },
+    {
+      "religion": "pagan",
+      "proportion": 0.05
+    }
+  ],
+  "primary_language": "german",
+  "language_composition": [
+    {
+      "language": "german",
+      "proportion": 0.76,
+      "role": "vernacular"
+    },
+    {
+      "language": "italian_lang",
+      "proportion": 0.12,
+      "role": "regional"
+    },
+    {
+      "language": "old_french",
+      "proportion": 0.08,
+      "role": "regional"
+    },
+    {
+      "language": "latin",
+      "proportion": 0.04,
+      "role": "liturgical"
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "long_distance_trade",
+      "mercenary_service"
+    ],
+    "wealth_level": "moderate",
+    "major_exports": [
+      "cattle",
+      "cheese",
+      "linen",
+      "mercenaries"
+    ],
+    "major_trade_partners": [
+      "holy_roman_empire",
+      "duchy_of_milan",
+      "duchy_of_burgundy"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "commercial_taxes",
+      "mercenary_fees"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q435583",
+        "url": "https://www.wikidata.org/wiki/Q435583"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Swiss Confederation",
+        "url": "https://en.wikipedia.org/wiki/Old_Swiss_Confederacy"
+      }
+    ]
+  },
+  "social_structure": {
+    "ruling_ethnicity": "germanic",
+    "subject_majority": "germanic",
+    "military_ethnicity": "germanic",
+    "administrative_language": "german",
+    "stratification_type": "merchant_oligarchy"
+  },
+  "wikidata_enrichment": {
+    "qid": "Q435583",
+    "matched_name": "manual/swiss_confederation",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Old_Swiss_Confederacy"
+  },
+  "sources": [
+    {
+      "type": "book",
+      "author": "Marchal, Guy P.",
+      "title": "Schweizer Gebrauchsgeschichte: Geschichtsbilder, Mythenbildung und nationale Identität",
+      "publisher": "Schwabe",
+      "year": 2006
+    },
+    {
+      "type": "book",
+      "author": "Rippmann, Dorothee",
+      "title": "Die Eidgenossenschaft im späten Mittelalter",
+      "publisher": "Chronos Verlag",
+      "year": 2006
+    }
+  ],
+  "monogram": "SC"
+}

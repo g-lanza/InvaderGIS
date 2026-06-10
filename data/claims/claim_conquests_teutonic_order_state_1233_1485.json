@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_teutonic_order_state_1233_1485",
+  "statement": "State of the Teutonic Order — campaigns and battles spanned 1233–1485, from Teutonic Order Begins Prussian Crusade to Polish-Ottoman War of 1485–1503.",
+  "subject_ids": [
+    "teutonic_order_state"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_teutonic_order_state_1233_1485",
+  "period": {
+    "from": 1233,
+    "to": 1485
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "christiansen_the_1997",
+      "urban_the_1994",
+      "turnbull_crusader_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_genoa_genoin_gold_1252_c02",
+  "statement": "The genovino was rapidly imitated by Venice's ducato in 1284 and used for trans-Mediterranean and Levantine trade.",
+  "subject_ids": [
+    "republic_of_genoa"
+  ],
+  "period": {
+    "from": 1252,
+    "to": 1252
+  },
+  "derived_from": "genoa_genoin_gold_1252",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lopez_commercial_revolution_1971"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

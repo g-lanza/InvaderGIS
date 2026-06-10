@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_orbiel_river_793",
+  "name": "Battle of Orbiel River",
+  "year": 793,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    43.45,
+    -0.65
+  ],
+  "entity": "merovingian_kingdom",
+  "summary": "Battle of Orbiel River (793 CE), at Malves-en-Minervois (part of Carolingian conquest of the Spanish March). Source: Wikidata Q9172538.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "merovingian_kingdom",
+      "umayyad_emirate_cordoba"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wood_the_1994",
+      "geary_before_1988"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

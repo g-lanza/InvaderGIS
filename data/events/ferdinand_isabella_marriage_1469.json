@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ferdinand_isabella_marriage_1469",
+  "name": "Marriage of Ferdinand and Isabella",
+  "year": 1469,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.652,
+    -4.724
+  ],
+  "entity": "crown_of_aragon",
+  "summary": "The secret marriage of Ferdinand of Aragon and Isabella of Castile in Valladolid on 19 October 1469 united the two largest Iberian kingdoms. Though each retained separate institutions, laws, and Cortes, the union created a formidable joint monarchy. Together they completed the Reconquista, funded Columbus, expelled the Jews, established the Spanish Inquisition, and launched Spain's global empire.",
+  "outcomes": [
+    "Personal union of Aragon and Castile",
+    "Foundation of unified Spanish monarchy",
+    "Shared foreign policy and resources",
+    "Stage set for global empire"
+  ],
+  "_quarry": {
+    "participants": [
+      "crown_of_aragon",
+      "crown_of_castile"
+    ],
+    "structural_significance": "Created the dynastic foundation of the Spanish empire; the union of Castile and Aragon made Spain the dominant European power of the early modern period.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Fernández-Armesto, Ferdinand and Isabella",
+      "Edwards, The Spain of the Catholic Monarchs"
+    ],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_the_gulf_1244",
+  "name": "Battle of the Gulf",
+  "subtype": "battle",
+  "start_year": 1244,
+  "end_year": 1244,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q3031201"
+    }
+  },
+  "description": "Battle during Age of the Sturlungs (1244)",
+  "coords": [
+    -20.8333,
+    65.8333
+  ]
+}

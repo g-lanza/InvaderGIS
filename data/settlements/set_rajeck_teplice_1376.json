@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_rajeck_teplice_1376",
+  "name": "Rajecké Teplice",
+  "importance": "city",
+  "start_year": 1376,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q135655"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    18.6833,
+    49.1333
+  ]
+}

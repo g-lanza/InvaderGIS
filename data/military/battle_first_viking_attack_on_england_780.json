@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_first_viking_attack_on_england_780",
+  "name": "First Viking attack on England",
+  "subtype": "battle",
+  "start_year": 780,
+  "end_year": 780,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q10468638"
+    }
+  },
+  "description": "Battle during Viking activity in the British Isles (780)",
+  "coords": [
+    -1,
+    53
+  ]
+}

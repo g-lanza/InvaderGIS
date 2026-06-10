@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ghaznavid_mahmud_india_raids_1000",
+  "name": "Mahmud of Ghazni's Raids into India",
+  "year": 1001,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    34.769,
+    63.982
+  ],
+  "entity": "ghaznavid_emirate",
+  "summary": "Mahmud of Ghazni launched seventeen raids into the Indian subcontinent between 1001 and 1027, sacking the immensely wealthy Somnath Temple (1025) and establishing Muslim control over the Punjab. The raids brought enormous plunder to Ghazni and are a contested legacy in South Asian history.",
+  "outcomes": [
+    "punjab_conquered",
+    "somnath_sacked",
+    "ghaznavid_wealth",
+    "islam_in_india"
+  ],
+  "_quarry": {
+    "participants": [
+      "ghaznavid_emirate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_aragon",
+  "name": "Huesca",
+  "entity_id": "kingdom_of_aragon",
+  "entity_name": "Kingdom of Aragon",
+  "start_year": 1035,
+  "end_year": 1162,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q199442"
+    }
+  },
+  "coords": [
+    -0.41107,
+    42.14093
+  ]
+}

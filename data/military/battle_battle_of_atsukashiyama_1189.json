@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_atsukashiyama_1189",
+  "name": "Battle of Atsukashiyama",
+  "subtype": "battle",
+  "start_year": 1189,
+  "end_year": 1189,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q11657579"
+    }
+  },
+  "description": "Battle during Battle of Ōshū (1189)",
+  "coords": [
+    140.5658,
+    37.8881
+  ]
+}

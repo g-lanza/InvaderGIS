@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_ceuta_1341",
+  "name": "Battle of Ceuta",
+  "year": 1341,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.6167,
+    -1.95
+  ],
+  "entity": "kingdom_of_portugal",
+  "summary": "Battle of Ceuta (1341 CE), at Ceuta (part of Battle of the Strait). Source: Wikidata Q138020358.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_portugal",
+      "republic_of_genoa",
+      "crown_of_aragon",
+      "crown_of_castile",
+      "emirate_of_granada",
+      "marinid_dynasty"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

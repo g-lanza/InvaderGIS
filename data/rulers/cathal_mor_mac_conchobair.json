@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "cathal_mor_mac_conchobair",
+  "name": "Cathal Mór mac Conchobair",
+  "polity": "kingdom_of_connacht",
+  "title": "ruler",
+  "reign_start": 1189,
+  "reign_end": 1224,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "kingdom_of_connacht",
+        "role": "ruler",
+        "start_year": 1189,
+        "end_year": 1224
+      }
+    ],
+    "key_actions": [],
+    "region": "british_isles",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

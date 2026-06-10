@@ -1,0 +1,39 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_aquitaine_england",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_england",
+      "role": "suzerain"
+    },
+    {
+      "entity_id": "duchy_of_aquitaine",
+      "role": "vassal"
+    }
+  ],
+  "directed": true,
+  "type": "vassalage",
+  "since": 1154,
+  "until": 1453,
+  "note": "Aquitaine held by English crown after Eleanor's marriage to Henry II until end of Hundred Years' War.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Eleanor of Aquitaine's inheritance transformed England's continental strategy from a narrow Norman foothold into a cross-Channel empire encompassing half of France; the resulting Plantagenet-Capetian rivalry dominated European politics for two centuries and the eventual loss of Aquitaine (1453) reshaped both England's continental identity and France's territorial consolidation."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

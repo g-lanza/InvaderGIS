@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_alba_1034",
+  "name": "Alba Becomes Scotland",
+  "year": 1034,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    56.5,
+    -4
+  ],
+  "entity": "kingdom_of_alba",
+  "summary": "Under Duncan I (reigned 1034–1040), the Kingdom of Alba extended its authority to include Strathclyde and parts of Northumbria, transforming into the Kingdom of Scotland. Duncan's murder by Macbeth and the subsequent civil war (dramatised by Shakespeare) reflected the instability of this formative period.",
+  "outcomes": [
+    "kingdom_of_scotland_emerges",
+    "southern_expansion",
+    "malcolm_consolidates"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_alba",
+      "kingdom_of_scotland"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

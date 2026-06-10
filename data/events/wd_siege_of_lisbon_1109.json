@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_lisbon_1109",
+  "name": "Siege of Lisbon",
+  "year": 1109,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    48.75,
+    2.25
+  ],
+  "entity": "almoravid_emirate_iberia",
+  "summary": "Siege of Lisbon (1109 CE), at Lisbon (part of Norwegian Crusade). Source: Wikidata Q126372137.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "almoravid_emirate_iberia",
+      "kingdom_of_norway"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_the_2004",
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

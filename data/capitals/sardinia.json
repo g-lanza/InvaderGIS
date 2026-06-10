@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "sardinia",
+  "name": "Cagliari",
+  "entity_id": "sardinia",
+  "entity_name": "Sardinia",
+  "start_year": 1000,
+  "end_year": 1400,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1462"
+    }
+  },
+  "coords": [
+    9.10952,
+    39.21489
+  ]
+}

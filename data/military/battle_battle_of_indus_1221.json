@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_indus_1221",
+  "name": "Battle of Indus",
+  "subtype": "battle",
+  "start_year": 1221,
+  "end_year": 1221,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q3269760"
+    }
+  },
+  "description": "Battle during Mongol invasion of Khwarazmian Empire and Eastern Iran (1221)",
+  "coords": [
+    72.18,
+    33.77
+  ]
+}

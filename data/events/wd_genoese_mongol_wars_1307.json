@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_genoese_mongol_wars_1307",
+  "name": "Genoese–Mongol Wars",
+  "year": 1307,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    45.25,
+    43.84
+  ],
+  "entity": "mongol_empire",
+  "summary": "Genoese–Mongol Wars (1307 CE). Source: Wikidata Q110612753.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "mongol_empire",
+      "ottoman_empire",
+      "golden_horde",
+      "golden_horde",
+      "republic_of_genoa"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

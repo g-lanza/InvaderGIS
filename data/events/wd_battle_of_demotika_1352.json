@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_demotika_1352",
+  "name": "Battle of Demotika",
+  "year": 1352,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41.775,
+    26.2
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Battle of Demotika (1352 CE), at Didymoteicho (part of Byzantine Civil War of 1352–1357). Source: Wikidata Q3655510.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "ottoman_empire",
+      "second_bulgarian_empire",
+      "serbian_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

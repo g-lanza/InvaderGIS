@@ -1,0 +1,29 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_antioch_byzantium",
+  "statement": "The Principality of Antioch maintained a fraught relationship with the Byzantine Empire throughout the Crusader period. Antioch had been part of the Byzantine Empire until 1085; Alexios I expected it returned when the First Crusade captured it (1098). Bohemund I refused, arguing he held it by conquest. The Treaty of Devol (1108) theoretically made Antioch a Byzantine vassal, but Bohemund's nephew Tancred refused to honor it. Byzantine emperors (especially John II Komnenos, 1138–1143, and Manuel I) periodically forced Antiochene princes to perform homage, with varying degrees of compliance.",
+  "subject_ids": [
+    "principality_of_antioch",
+    "byzantine_empire"
+  ],
+  "predicate": "contested_influence",
+  "derived_from": "rel_antioch_byzantium",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "asbridge_the_2000",
+      "cahen_la_1940",
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1098,
+    "to": 1268
+  }
+}

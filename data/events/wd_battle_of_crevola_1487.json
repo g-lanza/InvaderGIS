@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_crevola_1487",
+  "name": "Battle of Crevola",
+  "year": 1487,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    46.225,
+    8.715
+  ],
+  "entity": "duchy_of_milan",
+  "summary": "Battle of Crevola (1487 CE), at Crevoladossola (part of Transalpine campaigns of the Old Swiss Confederacy). Source: Wikidata Q670094.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "duchy_of_milan",
+      "swiss_confederation"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

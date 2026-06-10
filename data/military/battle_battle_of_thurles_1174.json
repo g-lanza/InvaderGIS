@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_thurles_1174",
+  "name": "Battle of Thurles",
+  "subtype": "battle",
+  "start_year": 1174,
+  "end_year": 1174,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q47005395"
+    }
+  },
+  "description": "Battle during Norman invasion of Ireland (1174)",
+  "coords": [
+    -7.8144,
+    52.6789
+  ]
+}

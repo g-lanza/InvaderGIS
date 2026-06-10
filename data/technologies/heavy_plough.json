@@ -1,0 +1,33 @@
+{
+  "kind": "technology",
+  "dataset": "medieval-europe-500-1500",
+  "id": "heavy_plough",
+  "name_primary": "Heavy mouldboard plough",
+  "domain": "agricultural",
+  "origin": {
+    "place": "northern_europe",
+    "year": 750
+  },
+  "diffusion": [
+    "carolingian_empire",
+    "kingdom_of_france",
+    "holy_roman_empire",
+    "kingdom_of_england"
+  ],
+  "_quarry": {
+    "polities_adopted": [
+      "carolingian_empire",
+      "kingdom_of_france",
+      "holy_roman_empire",
+      "kingdom_of_england"
+    ],
+    "description": "Wheeled plough with a coulter, iron share, and mouldboard that turned the dense, wet soils of northern Europe in a way the Mediterranean scratch-plough could not. Adoption was slow and uneven through the eighth and ninth centuries but was widespread by the year 1000. With the three-field rotation and the horse collar it underpinned the agricultural surplus that fed the eleventh- and twelfth-century European expansion."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "duby_rural_economy_country_life_1968"
+    ],
+    "confidence": "low"
+  }
+}

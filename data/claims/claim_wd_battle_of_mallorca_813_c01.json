@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_mallorca_813_c01",
+  "statement": "Battle of Mallorca (813 CE), at Mallorca (part of Balearic Islands–Carolingian Empire relations).",
+  "subject_ids": [
+    "carolingian_empire"
+  ],
+  "period": {
+    "from": 813,
+    "to": 813
+  },
+  "derived_from": "wd_battle_of_mallorca_813",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "mckitterick_charlemagne_2008",
+      "riché_the_1993",
+      "nelson_king_2019"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

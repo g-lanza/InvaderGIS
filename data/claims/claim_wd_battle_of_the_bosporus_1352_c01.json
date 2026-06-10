@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_the_bosporus_1352_c01",
+  "statement": "Battle of the Bosporus (1352 CE), at Bosporus Strait (part of War of the Straits).",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1352,
+    "to": 1352
+  },
+  "derived_from": "wd_battle_of_the_bosporus_1352",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

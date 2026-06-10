@@ -1,0 +1,31 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_gupta_funan_trade",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "gupta_empire",
+      "role": "partner"
+    },
+    {
+      "entity_id": "funan",
+      "role": "partner"
+    }
+  ],
+  "directed": false,
+  "type": "cultural_exchange",
+  "since": 320,
+  "until": 550,
+  "note": "Gupta-era India transmitted Sanskrit, Hindu and Buddhist religious texts, and Indic political theory to Funan via maritime trade and brahmin migration; Funan reciprocated with luxury goods (gold, aromatics) for the Gupta court.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Foundational vector for the Indianisation of mainland Southeast Asia."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

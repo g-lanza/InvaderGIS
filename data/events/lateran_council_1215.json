@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "lateran_council_1215",
+  "name": "Fourth Lateran Council, Peak of Papal Power",
+  "year": 1215,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.9,
+    12.51
+  ],
+  "entity": "papal_states",
+  "summary": "Pope Innocent III convenes the Fourth Lateran Council (November 1215), attended by 412 bishops, 800 abbots, and representatives of most European rulers. The council defines transubstantiation, requires annual confession and communion for all Catholics, organizes the Fifth Crusade, requires Jews and Muslims to wear identifying marks, and prohibits priests from participating in ordeals (effectively ending trial by ordeal throughout Europe).",
+  "outcomes": [
+    "annual_confession_mandatory",
+    "transubstantiation_defined",
+    "jewish_distinguishing_marks",
+    "crusade_organized"
+  ],
+  "_quarry": {
+    "participants": [
+      "papal_states",
+      "holy_roman_empire",
+      "kingdom_of_france"
+    ],
+    "structural_significance": "The Fourth Lateran Council is the legislative summit of papal authority; its canons reshape daily religious life for every Catholic across Europe; the prohibition of priestly ordeal participation forces secular courts to develop other means of proof (confession, witness testimony, eventually rational evidence), transforming European legal procedure; the Jewish/Muslim distinguishing marks requirement is an early step toward the social marginalization that culminates in expulsion",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

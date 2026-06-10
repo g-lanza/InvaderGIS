@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_castilian_aragonese_war_of_1429_1430_1429_c01",
+  "statement": "Castilian-Aragonese War of 1429-1430 (1429 CE), at Crown of Castile (part of War of the Infantes of Aragon).",
+  "subject_ids": [
+    "kingdom_of_navarre"
+  ],
+  "period": {
+    "from": 1429,
+    "to": 1429
+  },
+  "derived_from": "wd_castilian_aragonese_war_of_1429_1430_1429",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

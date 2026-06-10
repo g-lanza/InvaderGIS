@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_grunwald_1410",
+  "name": "Battle of Grunwald",
+  "subtype": "battle",
+  "start_year": 1410,
+  "end_year": 1410,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q33570"
+    }
+  },
+  "description": "Battle during Polish-Lithuanian-Teutonic War (1410)",
+  "coords": [
+    20.1247,
+    53.4861
+  ]
+}

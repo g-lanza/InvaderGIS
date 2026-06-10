@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "song_mongol_conquest_1279",
+  "name": "Mongol Conquest of Southern Song",
+  "year": 1279,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    28.49,
+    115.988
+  ],
+  "entity": "song_empire",
+  "summary": "Kublai Khan completed the conquest of China with the naval Battle of Yamen, where the last Song loyalists perished. The final Song loyalist jumped into the sea with the young Emperor Bing, ending the dynasty after 319 years.",
+  "outcomes": [
+    "china_under_mongols",
+    "yuan_dynasty",
+    "last_song_fleet_sunk"
+  ],
+  "_quarry": {
+    "participants": [
+      "song_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

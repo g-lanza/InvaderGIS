@@ -1,0 +1,515 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kalinga",
+  "name_primary": "Kalinga",
+  "name_variants": [
+    "Orissa"
+  ],
+  "type": "kingdom",
+  "region": "south_asia",
+  "formed": 500,
+  "dissolved": 1434,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 1000,
+      "label": "Kalinga",
+      "polygon": [
+        [
+          20.67,
+          82.91
+        ],
+        [
+          18.08,
+          83.69
+        ],
+        [
+          17.71,
+          83.38
+        ],
+        [
+          17.09,
+          82.35
+        ],
+        [
+          16.46,
+          82.08
+        ],
+        [
+          16.35,
+          81.37
+        ],
+        [
+          15.72,
+          80.96
+        ],
+        [
+          15.77,
+          80.46
+        ],
+        [
+          14.81,
+          78.2
+        ],
+        [
+          14.33,
+          77.72
+        ],
+        [
+          16.5,
+          77.65
+        ],
+        [
+          17.83,
+          78.74
+        ],
+        [
+          19.48,
+          81.37
+        ],
+        [
+          19.83,
+          81.27
+        ],
+        [
+          20.67,
+          82.91
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    17.143,
+    81.516
+  ],
+  "population_estimates": [
+    {
+      "year": 1100,
+      "estimate": 3000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1150706",
+          "url": "https://www.wikidata.org/wiki/Q1150706",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kalinga",
+          "url": "https://en.wikipedia.org/wiki/Kalinga_(region)"
+        }
+      ]
+    },
+    {
+      "year": 1175,
+      "estimate": 3500000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1150706",
+          "url": "https://www.wikidata.org/wiki/Q1150706",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kalinga",
+          "url": "https://en.wikipedia.org/wiki/Kalinga_(region)"
+        }
+      ]
+    },
+    {
+      "year": 1250,
+      "estimate": 4000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1150706",
+          "url": "https://www.wikidata.org/wiki/Q1150706",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kalinga",
+          "url": "https://en.wikipedia.org/wiki/Kalinga_(region)"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Ancient and medieval Indian kingdom (c. 3rd c. BCE – medieval period) on the eastern coast of India (modern Odisha); Ashoka's conquest of Kalinga (c. 261 BCE) and the mass death it entailed catalysed his Buddhist conversion and non-violence edicts; medieval Kalinga under the Ganga dynasty produced the Konark Sun Temple and Jagannath Temple at Puri, establishing Orissan temple architecture as one of the most distinctive regional traditions in India.",
+  "temporal": {
+    "start_year": 500,
+    "end_year": 1434,
+    "notes": ""
+  },
+  "geographic": {
+    "centroid": [
+      17.143,
+      81.516
+    ],
+    "polygon_simplified": [
+      [
+        20.67,
+        82.91
+      ],
+      [
+        18.08,
+        83.69
+      ],
+      [
+        17.71,
+        83.38
+      ],
+      [
+        17.09,
+        82.35
+      ],
+      [
+        16.46,
+        82.08
+      ],
+      [
+        16.35,
+        81.37
+      ],
+      [
+        15.72,
+        80.96
+      ],
+      [
+        15.77,
+        80.46
+      ],
+      [
+        14.81,
+        78.2
+      ],
+      [
+        14.33,
+        77.72
+      ],
+      [
+        16.5,
+        77.65
+      ],
+      [
+        17.83,
+        78.74
+      ],
+      [
+        19.48,
+        81.37
+      ],
+      [
+        19.83,
+        81.27
+      ],
+      [
+        20.67,
+        82.91
+      ]
+    ],
+    "capital": {
+      "name": "Cuttack",
+      "coords": [
+        20.46,
+        85.89
+      ],
+      "source": "curated"
+    },
+    "polygon_snapshots": [
+      {
+        "year": 1000,
+        "label": "Kalinga",
+        "polygon": [
+          [
+            20.67,
+            82.91
+          ],
+          [
+            18.08,
+            83.69
+          ],
+          [
+            17.71,
+            83.38
+          ],
+          [
+            17.09,
+            82.35
+          ],
+          [
+            16.46,
+            82.08
+          ],
+          [
+            16.35,
+            81.37
+          ],
+          [
+            15.72,
+            80.96
+          ],
+          [
+            15.77,
+            80.46
+          ],
+          [
+            14.81,
+            78.2
+          ],
+          [
+            14.33,
+            77.72
+          ],
+          [
+            16.5,
+            77.65
+          ],
+          [
+            17.83,
+            78.74
+          ],
+          [
+            19.48,
+            81.37
+          ],
+          [
+            19.83,
+            81.27
+          ],
+          [
+            20.67,
+            82.91
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "real_historical_boundary",
+    "polygon_source": "aourednik/historical-basemaps",
+    "polygon_source_date": "2026-05-09"
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "pre_ashoka_kingdom",
+      "years": "300-265 BCE",
+      "description": "Ancient Kalinga (Orissa) was a powerful maritime kingdom; its conquest by Ashoka (261 BCE) triggered his Buddhist conversion.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1150706",
+          "url": "https://www.wikidata.org/wiki/Q1150706"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kalinga",
+          "url": "https://en.wikipedia.org/wiki/Kalinga_(region)"
+        }
+      ]
+    },
+    {
+      "phase": "early_medieval_kingdoms",
+      "years": "500-800",
+      "description": "Multiple ruling dynasties (Shailodbhavas, Bhauma-Karas) controlled Orissa; centre of Hindu temple building.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1150706",
+          "url": "https://www.wikidata.org/wiki/Q1150706"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kalinga",
+          "url": "https://en.wikipedia.org/wiki/Kalinga_(region)"
+        }
+      ]
+    },
+    {
+      "phase": "ganga_kingdom",
+      "years": "1000-1434",
+      "description": "Eastern Ganga dynasty (Anantavarman Chodaganga) unified Orissa; Puri's Jagannath Temple became a major pilgrimage site.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1150706",
+          "url": "https://www.wikidata.org/wiki/Q1150706"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kalinga",
+          "url": "https://en.wikipedia.org/wiki/Kalinga_(region)"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "trade_route_control",
+      "layer": "economic_commercial",
+      "description": "Orissa's Bay of Bengal coast enabled extensive trade with SE Asia; Orissan merchant communities reached Java and Sumatra.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1150706",
+          "url": "https://www.wikidata.org/wiki/Q1150706"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kalinga",
+          "url": "https://en.wikipedia.org/wiki/Kalinga_(region)"
+        }
+      ],
+      "tag_prose": "maritime_trade"
+    },
+    {
+      "tag": "religious_centres",
+      "layer": "ideology_religion",
+      "description": "Puri Jagannath and Bhubaneswar temples drew pilgrims and created prestige economies.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1150706",
+          "url": "https://www.wikidata.org/wiki/Q1150706"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kalinga",
+          "url": "https://en.wikipedia.org/wiki/Kalinga_(region)"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "delhi_sultanate_raids",
+      "layer": "military_security",
+      "description": "Repeated Delhi Sultanate raids in the 13th-14th centuries weakened Orissan dynasties.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1150706",
+          "url": "https://www.wikidata.org/wiki/Q1150706"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kalinga",
+          "url": "https://en.wikipedia.org/wiki/Kalinga_(region)"
+        }
+      ]
+    },
+    {
+      "tag": "vijayanagara_competition",
+      "layer": "military_security",
+      "description": "Competition with the Vijayanagara Empire in the south and Bahmani Sultanate in the west eroded resources.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1150706",
+          "url": "https://www.wikidata.org/wiki/Q1150706"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kalinga",
+          "url": "https://en.wikipedia.org/wiki/Kalinga_(region)"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Anantavarman Chodaganga",
+      "role": "ruler",
+      "years": "1078–1147",
+      "year_start": 1078,
+      "year_end": 1147,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Anantavarman Chodaganga",
+          "url": "https://en.wikipedia.org/wiki/Anantavarman_Chodaganga"
+        }
+      ]
+    },
+    {
+      "name": "Narasimhadeva I",
+      "role": "ruler",
+      "years": "1238–1264",
+      "year_start": 1238,
+      "year_end": 1264,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Narasimhadeva I",
+          "url": "https://en.wikipedia.org/wiki/Narasingha_Deva_I"
+        }
+      ]
+    },
+    {
+      "name": "Bhanudeva I",
+      "role": "ruler",
+      "years": "1264–1279",
+      "year_start": 1264,
+      "year_end": 1279,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Bhanudeva I",
+          "url": "https://en.wikipedia.org/wiki/Bhanudeva_I"
+        }
+      ]
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "maritime_trade",
+      "temple_economy",
+      "diamond_mining"
+    ],
+    "wealth_level": "high",
+    "major_exports": [
+      "textiles",
+      "diamonds",
+      "rice",
+      "iron"
+    ],
+    "major_trade_partners": [
+      "chola_state",
+      "srivijaya_empire",
+      "song_empire"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "port_duties",
+      "pilgrimage_revenues"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q1150706",
+        "url": "https://www.wikidata.org/wiki/Q1150706"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Kalinga",
+        "url": "https://en.wikipedia.org/wiki/Kalinga_(region)"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q1150706",
+    "matched_name": "Kalinga",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Kalinga_(region)"
+  },
+  "monogram": "KA"
+}

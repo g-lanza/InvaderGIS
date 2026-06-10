@@ -1,0 +1,56 @@
+{
+ "kind": "ruler",
+ "dataset": "medieval-europe-500-1500",
+ "id": "ibn_rushd",
+ "name": "Ibn Rushd (Averroes)",
+ "polity": "almohad_caliphate_iberia",
+ "title": "qadi",
+ "reign_start": 1169,
+ "reign_end": 1184,
+ "_quarry": {
+  "lifespan": {
+   "birth_year": 1126,
+   "death_year": 1198
+  },
+  "entity_associations": [
+   {
+    "entity_id": "almohad_caliphate_iberia",
+    "role": "qadi",
+    "start_year": 1169,
+    "end_year": 1184
+   }
+  ],
+  "key_actions": [
+   {
+    "year": 1169,
+    "summary": "Appointed qadi of Seville, then chief qadi of Cordoba in 1182, by Almohad caliph Abu Yaqub Yusuf.",
+    "source_id": "hodgson_venture_of_islam_1974"
+   },
+   {
+    "year": 1180,
+    "summary": "Completes Tahāfut al-tahāfut (Incoherence of the Incoherence), defending Aristotelian rationalism against al-Ghazali.",
+    "source_id": "hodgson_venture_of_islam_1974"
+   },
+   {
+    "year": 1195,
+    "summary": "Briefly exiled by caliph al-Mansur under pressure from Maliki jurists; pardoned before his death in Marrakesh (1198).",
+    "source_id": "hodgson_venture_of_islam_1974"
+   }
+  ],
+  "region": "iberia",
+  "name_variants": [
+   "Averroes",
+   "Abū al-Walīd Muḥammad ibn Aḥmad ibn Rushd"
+  ]
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "hodgson_venture_of_islam_1974",
+   "marenbon_later_medieval_philosophy_1991",
+   "ims_fordham",
+   "ims_fordham_sbook1d"
+  ],
+  "confidence": "low"
+ }
+}

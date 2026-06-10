@@ -1,0 +1,38 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_edessa_jerusalem_link",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "county_of_edessa",
+      "role": "principal"
+    },
+    {
+      "entity_id": "kingdom_of_jerusalem",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "alliance",
+  "since": 1099,
+  "until": 1144,
+  "note": "Crusader states cooperated against Muslim neighbors; Baldwin of Boulogne moved from Edessa to Jerusalem.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Edessa's function as the northernmost Crusader buffer state protected Jerusalem from direct Zengid-Ayyubid pressure for forty-six years; its fall in 1144 was the catalysing crisis for the Second Crusade and demonstrated that the entire Crusader state system depended on the integrity of its most exposed frontier component—loss of one state threatened all."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

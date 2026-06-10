@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_skanderbeg_s_rebellion_1443_c01",
+  "statement": "Skanderbeg's rebellion (1443 CE), at Ohri sanjak (part of Albanian uprisings in the Ottoman Empire).",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1443,
+    "to": 1443
+  },
+  "derived_from": "wd_skanderbeg_s_rebellion_1443",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

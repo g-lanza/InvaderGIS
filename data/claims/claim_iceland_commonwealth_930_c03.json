@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_iceland_commonwealth_930_c03",
+  "statement": "The Icelandic Althing established in 930 lasted until 1262.",
+  "subject_ids": [
+    "iceland_commonwealth"
+  ],
+  "period": {
+    "from": 930,
+    "to": 930
+  },
+  "derived_from": "iceland_commonwealth_930",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

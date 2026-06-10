@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "korea_goryeo_founded_918",
+  "name": "Wang Geon Founds Goryeo Dynasty",
+  "year": 918,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    37.646,
+    127.044
+  ],
+  "entity": "korea",
+  "summary": "Wang Geon (Taejo) founded the Goryeo Dynasty after overthrowing the Later Three Kingdoms period. The Goryeo dynasty produced the Tripitaka Koreana, the world's most complete and accurate collection of Buddhist scriptures, carved on 81,000 wooden printing blocks.",
+  "outcomes": [
+    "korea_unified",
+    "buddhism_state_religion",
+    "woodblock_printing"
+  ],
+  "_quarry": {
+    "participants": [
+      "korea"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

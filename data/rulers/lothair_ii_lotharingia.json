@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "lothair_ii_lotharingia",
+  "name": "Lothair II of Lotharingia",
+  "polity": "duchy_of_lorraine",
+  "title": "dynastic_founder",
+  "reign_start": 835,
+  "reign_end": 869,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "duchy_of_lorraine",
+        "role": "dynastic_founder",
+        "start_year": 835,
+        "end_year": 869
+      }
+    ],
+    "key_actions": [],
+    "region": "western_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

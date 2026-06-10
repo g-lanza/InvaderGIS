@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_cremona_1427",
+  "name": "Battle of Cremona",
+  "year": 1427,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    44.9,
+    10.9
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Battle of Cremona (1427 CE), (part of Wars in Lombardy). Source: Wikidata Q85859798.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "republic_of_florence",
+      "duchy_of_milan"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

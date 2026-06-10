@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_black_death_origin_1347_c01",
+  "statement": "During the Golden Horde's siege of Caffa, Jani Beg reportedly catapulted plague-infected corpses over the walls, possibly the first recorded instance of biological warfare.",
+  "subject_ids": [
+    "golden_horde"
+  ],
+  "period": {
+    "from": 1347,
+    "to": 1347
+  },
+  "derived_from": "black_death_origin_1347",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "allsen_mongol_1987"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_triumph_of_orthodoxy_843_c01",
+  "statement": "In 843, Empress regent Theodora restored the veneration of icons at a synod presided over by Patriarch Methodius.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 843,
+    "to": 843
+  },
+  "derived_from": "triumph_of_orthodoxy_843",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "meyendorff_byzantium_and_rise_of_russia_1981",
+      "kazhdan_oxford_dictionary_byzantium_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

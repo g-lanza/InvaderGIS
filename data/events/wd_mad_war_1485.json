@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_mad_war_1485",
+  "name": "Mad War",
+  "year": 1485,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    47.73,
+    1.8933
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Mad War (1485 CE), at Kingdom of France. Source: Wikidata Q777345.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "duchy_of_brittany",
+      "duchy_of_lorraine"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

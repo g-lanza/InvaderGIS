@@ -1,0 +1,29 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_byzantine_visigoth_spania",
+  "statement": "The Byzantine Empire established a foothold in southern Iberia — the province of Spania — from 552 (when Emperor Justinian I exploited a Visigothic succession dispute) until 624 (when Visigothic King Suinthila expelled the last Byzantine garrison). Byzantine Spania controlled the coastal strip from Cartagena to the Strait of Gibraltar, including Malaga and Córdoba at its greatest extent. The Byzantine presence transmitted late Roman administrative culture, law, and artistic traditions to Iberia; the region's cities (Cartagena, Malaga) maintained their urban commercial character through the Byzantine period.",
+  "subject_ids": [
+    "byzantine_empire",
+    "visigothic_kingdom"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_byzantine_visigoth_spania",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991",
+      "collins_visigothic_2004",
+      "thompson_the_1969"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 552,
+    "to": 624
+  }
+}

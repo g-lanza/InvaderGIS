@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "armenian_kingdom_of_cilicia",
+  "name": "Tarsus",
+  "entity_id": "armenian_kingdom_of_cilicia",
+  "entity_name": "Armenian Kingdom of Cilicia",
+  "start_year": 1080,
+  "end_year": 1375,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q335088"
+    }
+  },
+  "coords": [
+    34.9,
+    36.91667
+  ]
+}

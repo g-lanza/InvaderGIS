@@ -1,0 +1,21 @@
+{
+  "kind": "polity",
+  "id": "england_norman",
+  "name": "Norman England",
+  "type": "kingdom",
+  "formed": 1066,
+  "dissolved": 1154,
+  "provenance": {
+    "sources_used": [
+      "ims_fordham",
+      "ims_fordham_sbook1n"
+    ],
+    "confidence": "high",
+    "status": "draft"
+  },
+  "dataset": "medieval-europe-500-1500",
+  "_fordham_index": "sbook1n",
+  "from_sourcebook": true,
+  "name_primary": "Norman England",
+  "monogram": "NE"
+}

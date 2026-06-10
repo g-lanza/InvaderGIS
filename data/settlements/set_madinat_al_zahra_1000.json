@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_madinat_al_zahra_1000",
+  "name": "Madinat Al-Zahra",
+  "importance": "city",
+  "start_year": 1000,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q211252"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    -4.8678,
+    37.8861
+  ]
+}

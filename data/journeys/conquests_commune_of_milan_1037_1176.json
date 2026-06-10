@@ -1,0 +1,70 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_commune_of_milan_1037_1176",
+  "name": "Commune of Milan — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1037,
+  "year_end": 1176,
+  "waypoints": [
+    {
+      "year": 1037,
+      "place": "Siege of Milan",
+      "coords": [
+        47.75,
+        9.85
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_milan_1037"
+    },
+    {
+      "year": 1042,
+      "place": "Siege of Milan",
+      "coords": [
+        45.5,
+        9.2
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_milan_1042"
+    },
+    {
+      "year": 1118,
+      "place": "Milan Como War",
+      "coords": [
+        45.5,
+        9.2
+      ],
+      "note": "military",
+      "event_id": "wd_milan_como_war_1118"
+    },
+    {
+      "year": 1176,
+      "place": "Battle of Legnano",
+      "coords": [
+        45.6,
+        8.92
+      ],
+      "note": "battle",
+      "event_id": "legnano_1176"
+    },
+    {
+      "year": 1176,
+      "place": "Battle of Legnano",
+      "coords": [
+        45.59,
+        8.92
+      ],
+      "note": "battle",
+      "event_id": "legnano_1176"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_irghiz_river_skirmish_1209_c01",
+  "statement": "Irghiz River skirmish (1209 CE), at Irgiz River (part of Mongol invasion of Khwarazmian Empire and Eastern Iran).",
+  "subject_ids": [
+    "mongol_empire"
+  ],
+  "period": {
+    "from": 1209,
+    "to": 1209
+  },
+  "derived_from": "wd_irghiz_river_skirmish_1209",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

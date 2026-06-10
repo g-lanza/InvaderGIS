@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_benevento_1266_c01",
+  "statement": "Charles of Anjou defeated and killed Manfred, the Hohenstaufen king of Sicily, at the Battle of Benevento on 26 February 1266.",
+  "subject_ids": [
+    "kingdom_of_sicily_hohenstaufen"
+  ],
+  "period": {
+    "from": 1266,
+    "to": 1266
+  },
+  "derived_from": "benevento_1266",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

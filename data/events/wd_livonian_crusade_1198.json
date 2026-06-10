@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_livonian_crusade_1198",
+  "name": "Livonian Crusade",
+  "year": 1198,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    58.5,
+    20
+  ],
+  "entity": "kingdom_of_sweden",
+  "summary": "Livonian Crusade (1198 CE), at Estonia (part of Northern Crusades). Source: Wikidata Q196409.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_sweden",
+      "livonian_order_state"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_medieval_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_acre_1291",
+  "name": "Siege of Acre",
+  "year": 1291,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    32.1,
+    31.45
+  ],
+  "entity": "kingdom_of_jerusalem",
+  "summary": "Siege of Acre (1291 CE), at Acre (part of Fall of Outremer). Source: Wikidata Q325985.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_jerusalem",
+      "ayyubid_sultanate",
+      "knights_hospitaller_rhodes",
+      "mamluk_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

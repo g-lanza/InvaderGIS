@@ -1,0 +1,924 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "alwa",
+  "name_primary": "Alwa",
+  "name_variants": [],
+  "type": "kingdom",
+  "region": "nile_valley",
+  "formed": 500,
+  "dissolved": 1504,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 600,
+      "label": "Alodia",
+      "polygon": [
+        [
+          12.66,
+          34.7
+        ],
+        [
+          12.52,
+          31.8
+        ],
+        [
+          14.09,
+          30.53
+        ],
+        [
+          15.82,
+          30.53
+        ],
+        [
+          16.39,
+          35.27
+        ],
+        [
+          14.28,
+          35.47
+        ],
+        [
+          13.05,
+          35.15
+        ],
+        [
+          12.66,
+          34.7
+        ]
+      ]
+    },
+    {
+      "year": 800,
+      "label": "Alodia",
+      "polygon": [
+        [
+          15.5,
+          30.79
+        ],
+        [
+          16.22,
+          31.19
+        ],
+        [
+          16.62,
+          31.67
+        ],
+        [
+          16.78,
+          33.82
+        ],
+        [
+          16.46,
+          34.45
+        ],
+        [
+          15.42,
+          35.33
+        ],
+        [
+          12.8,
+          35.65
+        ],
+        [
+          11.28,
+          35.41
+        ],
+        [
+          10.25,
+          34.45
+        ],
+        [
+          10.01,
+          33.58
+        ],
+        [
+          10.25,
+          31.75
+        ],
+        [
+          11.2,
+          30.79
+        ],
+        [
+          13.51,
+          30.47
+        ],
+        [
+          14.31,
+          30.47
+        ],
+        [
+          15.5,
+          30.79
+        ]
+      ]
+    },
+    {
+      "year": 1000,
+      "label": "Alodia",
+      "polygon": [
+        [
+          16.22,
+          31.19
+        ],
+        [
+          16.62,
+          31.67
+        ],
+        [
+          16.78,
+          33.82
+        ],
+        [
+          16.46,
+          34.45
+        ],
+        [
+          15.42,
+          35.33
+        ],
+        [
+          12.8,
+          35.65
+        ],
+        [
+          11.28,
+          35.41
+        ],
+        [
+          10.25,
+          34.45
+        ],
+        [
+          10.01,
+          33.58
+        ],
+        [
+          10.25,
+          31.75
+        ],
+        [
+          11.2,
+          30.79
+        ],
+        [
+          14.31,
+          30.47
+        ],
+        [
+          15.5,
+          30.79
+        ],
+        [
+          16.22,
+          31.19
+        ]
+      ]
+    },
+    {
+      "year": 1200,
+      "label": "Alodia",
+      "polygon": [
+        [
+          16.22,
+          31.19
+        ],
+        [
+          16.62,
+          31.67
+        ],
+        [
+          16.78,
+          33.82
+        ],
+        [
+          16.46,
+          34.45
+        ],
+        [
+          15.42,
+          35.33
+        ],
+        [
+          12.8,
+          35.65
+        ],
+        [
+          11.28,
+          35.41
+        ],
+        [
+          10.25,
+          34.45
+        ],
+        [
+          10.01,
+          33.58
+        ],
+        [
+          10.25,
+          31.75
+        ],
+        [
+          11.2,
+          30.79
+        ],
+        [
+          14.31,
+          30.47
+        ],
+        [
+          15.5,
+          30.79
+        ],
+        [
+          16.22,
+          31.19
+        ]
+      ]
+    },
+    {
+      "year": 1400,
+      "label": "Alodia",
+      "polygon": [
+        [
+          15.62,
+          30.98
+        ],
+        [
+          15.29,
+          32.78
+        ],
+        [
+          15.51,
+          35.16
+        ],
+        [
+          12.01,
+          33.91
+        ],
+        [
+          11.45,
+          33.24
+        ],
+        [
+          11.79,
+          31.2
+        ],
+        [
+          12.35,
+          30.75
+        ],
+        [
+          15.62,
+          30.98
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    13.775,
+    32.626
+  ],
+  "population_estimates": [
+    {
+      "year": 800,
+      "estimate": 300000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q449615",
+          "url": "https://www.wikidata.org/wiki/Q449615",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Alwa",
+          "url": "https://en.wikipedia.org/wiki/Alwa"
+        }
+      ]
+    },
+    {
+      "year": 950,
+      "estimate": 400000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q449615",
+          "url": "https://www.wikidata.org/wiki/Q449615",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Alwa",
+          "url": "https://en.wikipedia.org/wiki/Alwa"
+        }
+      ]
+    },
+    {
+      "year": 1100,
+      "estimate": 500000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q449615",
+          "url": "https://www.wikidata.org/wiki/Q449615",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Alwa",
+          "url": "https://en.wikipedia.org/wiki/Alwa"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Nubian Christian kingdom (c. 5th–16th c.) south of Makuria centred on Soba on the Blue Nile; the southernmost of the Nubian Christian kingdoms, Alwa maintained diplomatic relations with Ethiopia and the Horn of Africa while preserving Meroitic cultural elements; its later conversion to Islam and eventual absorption into the Funj Sultanate (c. 1504) ended sub-Saharan Christian Nubian political identity.",
+  "temporal": {
+    "start_year": 500,
+    "end_year": 1504,
+    "notes": "",
+    "end_year_within_scope": 1500
+  },
+  "geographic": {
+    "centroid": [
+      13.775,
+      32.626
+    ],
+    "polygon_simplified": [
+      [
+        16.22,
+        31.19
+      ],
+      [
+        16.62,
+        31.67
+      ],
+      [
+        16.78,
+        33.82
+      ],
+      [
+        16.46,
+        34.45
+      ],
+      [
+        15.42,
+        35.33
+      ],
+      [
+        12.8,
+        35.65
+      ],
+      [
+        11.28,
+        35.41
+      ],
+      [
+        10.25,
+        34.45
+      ],
+      [
+        10.01,
+        33.58
+      ],
+      [
+        10.25,
+        31.75
+      ],
+      [
+        11.2,
+        30.79
+      ],
+      [
+        14.31,
+        30.47
+      ],
+      [
+        15.5,
+        30.79
+      ],
+      [
+        16.22,
+        31.19
+      ]
+    ],
+    "no_central_capital": true,
+    "no_central_capital_reason": "Capital location uncertain; possibly Soba but no centralised polity.",
+    "polygon_snapshots": [
+      {
+        "year": 600,
+        "label": "Alodia",
+        "polygon": [
+          [
+            12.66,
+            34.7
+          ],
+          [
+            12.52,
+            31.8
+          ],
+          [
+            14.09,
+            30.53
+          ],
+          [
+            15.82,
+            30.53
+          ],
+          [
+            16.39,
+            35.27
+          ],
+          [
+            14.28,
+            35.47
+          ],
+          [
+            13.05,
+            35.15
+          ],
+          [
+            12.66,
+            34.7
+          ]
+        ]
+      },
+      {
+        "year": 800,
+        "label": "Alodia",
+        "polygon": [
+          [
+            15.5,
+            30.79
+          ],
+          [
+            16.22,
+            31.19
+          ],
+          [
+            16.62,
+            31.67
+          ],
+          [
+            16.78,
+            33.82
+          ],
+          [
+            16.46,
+            34.45
+          ],
+          [
+            15.42,
+            35.33
+          ],
+          [
+            12.8,
+            35.65
+          ],
+          [
+            11.28,
+            35.41
+          ],
+          [
+            10.25,
+            34.45
+          ],
+          [
+            10.01,
+            33.58
+          ],
+          [
+            10.25,
+            31.75
+          ],
+          [
+            11.2,
+            30.79
+          ],
+          [
+            13.51,
+            30.47
+          ],
+          [
+            14.31,
+            30.47
+          ],
+          [
+            15.5,
+            30.79
+          ]
+        ]
+      },
+      {
+        "year": 1000,
+        "label": "Alodia",
+        "polygon": [
+          [
+            16.22,
+            31.19
+          ],
+          [
+            16.62,
+            31.67
+          ],
+          [
+            16.78,
+            33.82
+          ],
+          [
+            16.46,
+            34.45
+          ],
+          [
+            15.42,
+            35.33
+          ],
+          [
+            12.8,
+            35.65
+          ],
+          [
+            11.28,
+            35.41
+          ],
+          [
+            10.25,
+            34.45
+          ],
+          [
+            10.01,
+            33.58
+          ],
+          [
+            10.25,
+            31.75
+          ],
+          [
+            11.2,
+            30.79
+          ],
+          [
+            14.31,
+            30.47
+          ],
+          [
+            15.5,
+            30.79
+          ],
+          [
+            16.22,
+            31.19
+          ]
+        ]
+      },
+      {
+        "year": 1200,
+        "label": "Alodia",
+        "polygon": [
+          [
+            16.22,
+            31.19
+          ],
+          [
+            16.62,
+            31.67
+          ],
+          [
+            16.78,
+            33.82
+          ],
+          [
+            16.46,
+            34.45
+          ],
+          [
+            15.42,
+            35.33
+          ],
+          [
+            12.8,
+            35.65
+          ],
+          [
+            11.28,
+            35.41
+          ],
+          [
+            10.25,
+            34.45
+          ],
+          [
+            10.01,
+            33.58
+          ],
+          [
+            10.25,
+            31.75
+          ],
+          [
+            11.2,
+            30.79
+          ],
+          [
+            14.31,
+            30.47
+          ],
+          [
+            15.5,
+            30.79
+          ],
+          [
+            16.22,
+            31.19
+          ]
+        ]
+      },
+      {
+        "year": 1400,
+        "label": "Alodia",
+        "polygon": [
+          [
+            15.62,
+            30.98
+          ],
+          [
+            15.29,
+            32.78
+          ],
+          [
+            15.51,
+            35.16
+          ],
+          [
+            12.01,
+            33.91
+          ],
+          [
+            11.45,
+            33.24
+          ],
+          [
+            11.79,
+            31.2
+          ],
+          [
+            12.35,
+            30.75
+          ],
+          [
+            15.62,
+            30.98
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "real_historical_boundary",
+    "polygon_source": "aourednik/historical-basemaps",
+    "polygon_source_date": "2026-05-09"
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "christian_formation",
+      "years": "500-700",
+      "description": "Alodia/Alwa emerged as a Nubian Christian kingdom along the Blue Nile confluence; received Coptic Christianity via Axum and Egypt.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q449615",
+          "url": "https://www.wikidata.org/wiki/Q449615"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Alwa",
+          "url": "https://en.wikipedia.org/wiki/Alwa"
+        }
+      ]
+    },
+    {
+      "phase": "peak_prosperity",
+      "years": "700-1000",
+      "description": "Peak period of church construction and trans-Saharan trade; capital Soba was a major city with large stone churches.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q449615",
+          "url": "https://www.wikidata.org/wiki/Q449615"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Alwa",
+          "url": "https://en.wikipedia.org/wiki/Alwa"
+        }
+      ]
+    },
+    {
+      "phase": "slow_decline",
+      "years": "1000-1400",
+      "description": "Arab migration into Nubia increased pressure; Islamisation of trade networks marginalised the Christian kingdom.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q449615",
+          "url": "https://www.wikidata.org/wiki/Q449615"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Alwa",
+          "url": "https://en.wikipedia.org/wiki/Alwa"
+        }
+      ]
+    },
+    {
+      "phase": "collapse",
+      "years": "1400-1504",
+      "description": "Final collapse under pressure from Funj Sultanate and Arab nomadic incursions; Soba was destroyed c. 1504.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q449615",
+          "url": "https://www.wikidata.org/wiki/Q449615"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Alwa",
+          "url": "https://en.wikipedia.org/wiki/Alwa"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "religious_legitimacy",
+      "layer": "ideology_religion",
+      "description": "Coptic Christianity provided administrative cohesion and literary culture connecting Alwa to Byzantium and Axum.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q449615",
+          "url": "https://www.wikidata.org/wiki/Q449615"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Alwa",
+          "url": "https://en.wikipedia.org/wiki/Alwa"
+        }
+      ]
+    },
+    {
+      "tag": "trade_route_control",
+      "layer": "economic_commercial",
+      "description": "Position at Blue Nile confluence enabled taxation of trade between sub-Saharan Africa and Egypt.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q449615",
+          "url": "https://www.wikidata.org/wiki/Q449615"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Alwa",
+          "url": "https://en.wikipedia.org/wiki/Alwa"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "islamisation_of_trade",
+      "layer": "economic_commercial",
+      "description": "Shift of trans-Saharan commerce toward Muslim-dominated networks excluded Christian Nubia.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q449615",
+          "url": "https://www.wikidata.org/wiki/Q449615"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Alwa",
+          "url": "https://en.wikipedia.org/wiki/Alwa"
+        }
+      ]
+    },
+    {
+      "tag": "nomadic_pressure",
+      "layer": "military_security",
+      "description": "Arab nomadic incursions eroded agricultural base and border security.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q449615",
+          "url": "https://www.wikidata.org/wiki/Q449615"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Alwa",
+          "url": "https://en.wikipedia.org/wiki/Alwa"
+        }
+      ]
+    },
+    {
+      "tag": "succession_instability",
+      "layer": "dynastic_legitimacy",
+      "description": "Succession crises weakened central authority in the final century.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q449615",
+          "url": "https://www.wikidata.org/wiki/Q449615"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Alwa",
+          "url": "https://en.wikipedia.org/wiki/Alwa"
+        }
+      ],
+      "tag_prose": "dynastic_instability"
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Merkurios",
+      "role": "ruler",
+      "years": "697–710",
+      "year_start": 697,
+      "year_end": 710,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Merkurios",
+          "url": "https://en.wikipedia.org/wiki/Merkurios_of_Makuria"
+        }
+      ]
+    },
+    {
+      "name": "David",
+      "role": "ruler",
+      "years": "1150–1175",
+      "year_start": 1150,
+      "year_end": 1175,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "David",
+          "url": "https://en.wikipedia.org/wiki/David"
+        }
+      ]
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "long_distance_trade",
+      "gold_mining",
+      "ivory"
+    ],
+    "wealth_level": "moderate",
+    "major_exports": [
+      "ivory",
+      "gold",
+      "slaves",
+      "cattle"
+    ],
+    "major_trade_partners": [
+      "egypt_byzantine",
+      "axum",
+      "egypt_fatimid"
+    ],
+    "revenue_sources": [
+      "trade_duties",
+      "tribute",
+      "agricultural_taxes"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q449615",
+        "url": "https://www.wikidata.org/wiki/Q449615"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Alwa",
+        "url": "https://en.wikipedia.org/wiki/Alwa"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q449615",
+    "matched_name": "Alwa",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Alwa"
+  },
+  "monogram": "AL"
+}

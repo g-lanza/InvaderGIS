@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_charles_iv_coronation_1355_c02",
+  "statement": "Charles IV promulgated the Golden Bull of 1356, codifying imperial election procedure.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1355,
+    "to": 1355
+  },
+  "derived_from": "charles_iv_coronation_1355",
+  "unresolved_sources": [
+    "scales_the_2012"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

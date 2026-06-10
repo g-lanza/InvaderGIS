@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_chef_de_caux_1415",
+  "name": "Battle of Chef-de-Caux",
+  "year": 1415,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    47.08,
+    2.02
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Battle of Chef-de-Caux (1415 CE), at Seine (part of Hundred Years' War). Source: Wikidata Q48760695.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "county_of_flanders",
+      "republic_of_genoa",
+      "kingdom_of_england",
+      "crown_of_castile"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

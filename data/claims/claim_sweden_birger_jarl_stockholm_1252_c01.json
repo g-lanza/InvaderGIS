@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_sweden_birger_jarl_stockholm_1252_c01",
+  "statement": "Around 1252 Birger Jarl founded Stockholm as a fortified town controlling trade between Lake Mälaren and the Baltic Sea.",
+  "subject_ids": [
+    "kingdom_of_sweden"
+  ],
+  "period": {
+    "from": 1252,
+    "to": 1252
+  },
+  "derived_from": "sweden_birger_jarl_stockholm_1252",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_medieval_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_assandun_1016",
+  "name": "Battle of Assandun",
+  "year": 1016,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    52.5,
+    -1
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Battle of Assandun (1016 CE), at Essex (part of Viking activity in the British Isles). Source: Wikidata Q1704268.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

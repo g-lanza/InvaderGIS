@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_treaty_of_verdun_843_c03",
+  "statement": "The Treaty of Verdun (843) created the 'Middle Francia' corridor between East and West Francia.",
+  "subject_ids": [
+    "carolingian_empire"
+  ],
+  "period": {
+    "from": 843,
+    "to": 843
+  },
+  "derived_from": "treaty_of_verdun_843",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "mckitterick_charlemagne_2008",
+      "riché_the_1993",
+      "nelson_king_2019"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

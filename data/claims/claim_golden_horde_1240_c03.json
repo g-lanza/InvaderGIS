@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_golden_horde_1240_c03",
+  "statement": "The conquest of Kiev completed the subjugation of Kievan Rus.",
+  "subject_ids": [
+    "golden_horde"
+  ],
+  "period": {
+    "from": 1240,
+    "to": 1240
+  },
+  "derived_from": "golden_horde_1240",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "allsen_mongol_1987"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

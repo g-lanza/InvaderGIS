@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_closos_de_ca_n_gai_500",
+  "name": "Closos de Ca'n Gaià",
+  "importance": "city",
+  "start_year": 500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "inferred",
+    "external_ids": {
+      "pleiades": "712997240"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    3.244,
+    39.4194
+  ]
+}

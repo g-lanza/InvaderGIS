@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_papal_states_756_1497",
+  "statement": "Papal States — campaigns and battles spanned 756–1497, from Siege of Rome to Battle of Soriano.",
+  "subject_ids": [
+    "papal_states"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_papal_states_756_1497",
+  "period": {
+    "from": 756,
+    "to": 1497
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

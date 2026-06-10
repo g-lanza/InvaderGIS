@@ -1,0 +1,31 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "university_of_prague_1348",
+  "name": "University of Prague founded",
+  "year": 1348,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    50.0875,
+    14.4214
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Charles IV's foundation charter of 7 April 1348 establishes the first university east of the Rhine and north of the Alps. Clement VI's bull of 26 January 1347 had granted prior papal approval. Faculties of theology, law, medicine, and arts open the following years.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "kingdom_of_bohemia"
+    ],
+    "structural_significance": "First Central European university and a major engine of late-medieval Czech identity; Jan Hus's tenure as rector (1409) makes Prague the crucible of the Hussite movement.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "bartlett_making_of_europe_1993"
+    ],
+    "confidence": "low"
+  }
+}

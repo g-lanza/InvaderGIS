@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_serbia_bulgaria",
+  "statement": "Serbia and Bulgaria competed as rival Orthodox Christian empires in the Balkans throughout the 12th–14th centuries, both claiming succession to Byzantine imperial prestige. The competition was partly military (Bulgarian Tsar Kaloyan captured a Latin emperor; Serbian Tsar Stefan Dušan proclaimed himself 'Tsar of the Serbs and Greeks') and partly cultural (competing patriarchates, competing styles of Byzantine court culture). Stefan Dušan's rapid conquest of Bulgaria's western territories (1330s) and his claim to the imperial title (1346) represented Serbia's peak; Bulgaria's simultaneous fragmentation into rival tsardoms left neither state able to resist the Ottomans.",
+  "subject_ids": [
+    "serbian_empire",
+    "second_bulgarian_empire"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_serbia_bulgaria",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fine_the_1987"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1346,
+    "to": 1371
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_avignon_1398",
+  "name": "Siege of Avignon",
+  "year": 1398,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    44.1,
+    1.5
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Siege of Avignon (1398 CE), at Avignon (part of Western Schism). Source: Wikidata Q20985004.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "crown_of_aragon"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

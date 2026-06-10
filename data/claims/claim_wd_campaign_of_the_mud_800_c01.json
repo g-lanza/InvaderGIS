@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_campaign_of_the_mud_800_c01",
+  "statement": "Campaign of the mud (800 CE), at South Caucasus (part of Arab–Khazar Wars).",
+  "subject_ids": [
+    "khazar_khaganate"
+  ],
+  "period": {
+    "from": 800,
+    "to": 800
+  },
+  "derived_from": "wd_campaign_of_the_mud_800",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "golden_khazar_1980",
+      "brook_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

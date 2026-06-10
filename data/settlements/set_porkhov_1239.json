@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_porkhov_1239",
+  "name": "Porkhov",
+  "importance": "city",
+  "start_year": 1239,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q183106"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    29.55,
+    57.7667
+  ]
+}

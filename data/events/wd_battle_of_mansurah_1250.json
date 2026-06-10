@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_mansurah_1250",
+  "name": "Battle of Mansurah",
+  "year": 1250,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    45.1333,
+    9.9
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Battle of Mansurah (1250 CE), at Mansoura (part of Seventh Crusade). Source: Wikidata Q2528398.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "kingdom_of_england",
+      "knights_hospitaller_rhodes"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

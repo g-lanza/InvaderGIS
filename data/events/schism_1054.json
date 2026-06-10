@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "schism_1054",
+  "name": "East–West Schism",
+  "year": 1054,
+  "type": "religious_council",
+  "category": "religion",
+  "coords": [
+    41.01,
+    28.98
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Cardinal Humbert and Patriarch Michael Cerularius exchange excommunications in the Hagia Sophia, formalizing the split between the Roman Catholic and Eastern Orthodox churches. The immediate cause is dispute over authority and theological differences (filioque controversy, clerical celibacy). The schism hardens with the Fourth Crusade's sack of Constantinople (1204).",
+  "outcomes": [
+    "catholic_orthodox_split",
+    "papal_authority_challenged"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "papal_states"
+    ],
+    "structural_significance": "Permanently divides Christendom into Catholic West and Orthodox East; shapes the political fault lines of Eastern Europe for centuries; provides doctrinal justification for Crusaders sacking Constantinople in 1204",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

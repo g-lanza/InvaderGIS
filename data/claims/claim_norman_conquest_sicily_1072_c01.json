@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_norman_conquest_sicily_1072_c01",
+  "statement": "Roger I of Hauteville captured Palermo in January 1072 and became Count of Sicily.",
+  "subject_ids": [
+    "kingdom_of_sicily_norman"
+  ],
+  "period": {
+    "from": 1072,
+    "to": 1072
+  },
+  "derived_from": "norman_conquest_sicily_1072",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "serbian_empire",
+  "name": "Skopje",
+  "entity_id": "serbian_empire",
+  "entity_name": "Serbian Empire",
+  "start_year": 1346,
+  "end_year": 1371,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1406298"
+    }
+  },
+  "coords": [
+    21.43167,
+    41.99611
+  ]
+}

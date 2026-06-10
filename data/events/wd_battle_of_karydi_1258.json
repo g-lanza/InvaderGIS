@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_karydi_1258",
+  "name": "Battle of Karydi",
+  "year": 1258,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    37.89,
+    23.065
+  ],
+  "entity": "principality_of_achaea",
+  "summary": "Battle of Karydi (1258 CE), at Athens (part of War of the Euboeote Succession). Source: Wikidata Q9125620.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "principality_of_achaea",
+      "duchy_of_athens"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_styria_1180",
+  "name": "Styria Becomes Independent Duchy",
+  "year": 1180,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    48.535,
+    12.97
+  ],
+  "entity": "duchy_of_styria",
+  "summary": "Styria was elevated to an independent duchy in 1180 CE, separated from Bavaria. Rich in iron ore and controlling Alpine trade routes, Styria was a strategically and economically valuable territory that later became one of the core Habsburg hereditary lands.",
+  "outcomes": [
+    "bavarian_partition",
+    "alpine_duchy_established",
+    "habsburg_precursor_region"
+  ],
+  "_quarry": {
+    "participants": [
+      "duchy_of_styria",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

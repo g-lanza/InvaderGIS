@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_sagrajas_1086",
+  "name": "Battle of Sagrajas/Zallaqa",
+  "year": 1086,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    38.88,
+    -6.97
+  ],
+  "entity": "almoravid_emirate_iberia",
+  "summary": "Almoravid Sultan Yusuf ibn Tashfin leads a Berber army from Morocco to assist the embattled taifa kings of al-Andalus against Alfonso VI of Castile-León, who had captured Toledo (1085). At Sagrajas (Zallaqa) near Badajoz, the Almoravids inflict a catastrophic defeat on Alfonso; it is the worst Christian defeat in the Reconquista for a generation. The Almoravids subsequently absorb the taifa kingdoms rather than withdrawing, transforming al-Andalus into an Almoravid province.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "almoravid_emirate_iberia",
+      "kingdom_of_leon"
+    ],
+    "structural_significance": "Reverses the Reconquista's momentum for a generation; enables Almoravid absorption of al-Andalus; demonstrates the danger of inviting a more powerful outside force to resolve local military imbalances",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_the_2004",
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

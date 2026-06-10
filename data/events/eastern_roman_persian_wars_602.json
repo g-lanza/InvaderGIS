@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "eastern_roman_persian_wars_602",
+  "name": "Final Roman-Sassanid War",
+  "year": 602,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    38,
+    38
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Sassanid Emperor Khosrow II exploits a Byzantine civil war to launch the most destructive Roman-Persian conflict: Persian forces capture Antioch, Damascus, Jerusalem (614), and Egypt (619). Emperor Heraclius counterattacks brilliantly, defeating Persia by 628 and recovering all lost territory. But both empires are financially and militarily exhausted precisely when Islam emerges.",
+  "outcomes": [
+    "persia_conquers_egypt_syria",
+    "heraclius_counterattack",
+    "both_empires_exhausted"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire"
+    ],
+    "structural_significance": "The mutual exhaustion of Byzantium and Persia creates the strategic opportunity for Islamic expansion; Persian occupation alienates the Monophysite populations of Syria and Egypt from Byzantine rule.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

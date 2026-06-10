@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "council_clermont_1095",
+  "name": "Council of Clermont",
+  "year": 1095,
+  "type": "religious_council",
+  "category": "religion",
+  "coords": [
+    45.78,
+    3.09
+  ],
+  "entity": "papal_states",
+  "summary": "Pope Urban II addresses a crowd of thousands at Clermont, France, calling for an armed expedition to recover Jerusalem from Seljuk Turkish control. His speech ends with the crowd shouting 'Deus le volt!' (God wills it). The Council's proclamation launches the First Crusade, offering spiritual indulgences (remission of sins) to participants. Urban's announcement transforms a Byzantine request for mercenary help into a mass religious movement that reshapes the medieval world.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "papal_states"
+    ],
+    "structural_significance": "Launches the Crusading movement; establishes the concept of armed pilgrimage as a form of penance; creates the ideological framework that justifies Christian warfare as service to God",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

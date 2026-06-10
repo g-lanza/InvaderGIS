@@ -1,0 +1,35 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_sicily_norman_to_staufen",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_sicily_norman",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "kingdom_of_sicily_hohenstaufen",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 1198,
+  "until": 1198,
+  "note": "The Kingdom of Sicily passed from the Norman Hauteville dynasty to the Hohenstaufen (Staufen) when Constance — the posthumous daughter of Roger II of Sicily and heiress of the Norman kingdom — married Henry VI of Germany (1186). Henry VI conquered Sicily (1194) despite resistance; their son Frederick II was raised in Sicily and became Emperor Frederick II — simultaneously Holy Roman Emperor and King of Sicily/Naples. The union of imperial and Sicilian power was the papacy's greatest nightmare: encirclement of the Papal States. It drove the catastrophic pope-emperor conflict (1239–1250).",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Norman-Staufen inheritance is the central geopolitical event of 13th-century European politics; the combination of imperial and Sicilian power in Frederick II encircles the Papal States and drives Innocent IV to radical measures (imperial deposition, 1245); the subsequent Angevin takeover reshapes the western Mediterranean"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_charlemagne_lombard_774_c01",
+  "statement": "Charlemagne besieged Pavia and deposed the Lombard king Desiderius in 774.",
+  "subject_ids": [
+    "carolingian_empire"
+  ],
+  "period": {
+    "from": 774,
+    "to": 774
+  },
+  "derived_from": "charlemagne_lombard_774",
+  "unresolved_sources": [
+    "riché_the_1993"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "mckitterick_charlemagne_2008",
+      "nelson_king_2019"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

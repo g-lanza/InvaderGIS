@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_manzikert_context",
+  "name": "Battle of Manzikert, Consequences for Anatolia",
+  "year": 1071,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    38.96,
+    42.52
+  ],
+  "entity": "byzantine_empire",
+  "summary": "The Seljuk victory at Manzikert (1071) is less important for the battle itself, which involved only a portion of Byzantine forces, than for its aftermath. Emperor Romanos IV Diogenes is captured but released; civil war erupts in Constantinople as rival claimants fight for the throne; the theme system of provincial defense collapses as military commanders defect to whichever faction pays them. Turkish nomads flood into Anatolia unopposed.",
+  "outcomes": [
+    "anatolia_lost_to_turks",
+    "roman_diogenes_captured",
+    "byzantine_military_system_collapses"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "seljuk_sultanate"
+    ],
+    "structural_significance": "Manzikert's true significance is administrative, not military: the civil wars that follow prevent organized resistance, and by 1080 the Seljuks control almost all of Anatolia, the Byzantine heartland and primary recruiting ground; the loss of Anatolia forces Byzantium to rely on mercenaries and Crusader allies, both unreliable; it is this desperate situation that drives Alexios I Komnenos to request western mercenaries, triggering the First Crusade",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

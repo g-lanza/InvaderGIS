@@ -1,0 +1,47 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "harun_al_rashid",
+  "name": "Harun al-Rashid",
+  "polity": "abbasid_caliphate",
+  "title": "caliph",
+  "reign_start": 786,
+  "reign_end": 809,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 763,
+      "death_year": 809
+    },
+    "entity_associations": [
+      {
+        "entity_id": "abbasid_caliphate",
+        "role": "caliph",
+        "start_year": 786,
+        "end_year": 809
+      }
+    ],
+    "key_actions": [
+      {
+        "year": 791,
+        "event": "Exchanges embassies with Charlemagne; gifts include a white elephant."
+      },
+      {
+        "year": 800,
+        "event": "Founds Bayt al-Hikma (House of Wisdom) in Baghdad."
+      },
+      {
+        "year": 805,
+        "event": "Sacks Heraclea; forces Byzantine tribute."
+      }
+    ],
+    "region": "near_east",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_caliphate_2004"
+    ],
+    "confidence": "low"
+  }
+}

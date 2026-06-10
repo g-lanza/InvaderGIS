@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_tudela_1284",
+  "name": "Siege of Tudela",
+  "year": 1284,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41.3567,
+    0.5167
+  ],
+  "entity": "kingdom_of_navarre",
+  "summary": "Siege of Tudela (1284 CE), at Tudela (part of Aragonese Crusade). Source: Wikidata Q11907076.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_navarre",
+      "crown_of_aragon",
+      "kingdom_of_majorca"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

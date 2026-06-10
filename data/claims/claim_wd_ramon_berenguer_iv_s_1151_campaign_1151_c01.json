@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_ramon_berenguer_iv_s_1151_campaign_1151_c01",
+  "statement": "Ramon Berenguer IV's 1151 campaign (1151 CE), at Navarre.",
+  "subject_ids": [
+    "kingdom_of_aragon"
+  ],
+  "period": {
+    "from": 1151,
+    "to": 1151
+  },
+  "derived_from": "wd_ramon_berenguer_iv_s_1151_campaign_1151",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

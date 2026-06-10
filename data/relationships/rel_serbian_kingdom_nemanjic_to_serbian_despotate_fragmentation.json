@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_serbian_kingdom_nemanjic_to_serbian_despotate_fragmentation",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "serbian_kingdom_nemanjic",
+      "role": "parent"
+    },
+    {
+      "entity_id": "serbian_despotate",
+      "role": "fragment"
+    }
+  ],
+  "directed": true,
+  "type": "fragmentation",
+  "since": 1402,
+  "until": 1402,
+  "note": "Derived from predecessor/successor links recorded in the serbian_kingdom_nemanjic and serbian_despotate entity records. Transition anchored to serbian_despotate start_year.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Mechanical normalisation of curated predecessor/successor links into the relationships register."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fine_the_1987",
+      "ćirković_the_2004",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

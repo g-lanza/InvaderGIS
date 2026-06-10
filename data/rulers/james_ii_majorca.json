@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "james_ii_majorca",
+  "name": "James II of Majorca",
+  "polity": "kingdom_of_majorca",
+  "title": "ruler",
+  "reign_start": 1243,
+  "reign_end": 1311,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "kingdom_of_majorca",
+        "role": "ruler",
+        "start_year": 1243,
+        "end_year": 1311
+      }
+    ],
+    "key_actions": [],
+    "region": "iberia",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

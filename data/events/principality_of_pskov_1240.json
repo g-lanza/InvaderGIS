@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "principality_of_pskov_1240",
+  "name": "Alexander Nevsky Defeats Teutonic Knights",
+  "year": 1242,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    57.405,
+    26.665
+  ],
+  "entity": "principality_of_novgorod",
+  "summary": "Alexander Nevsky's victory on the ice of Lake Peipus in 1242 CE stopped the Teutonic Order's advance into Pskov and Novgorod. The Battle on the Ice (immortalised by Eisenstein's film) preserved Orthodox Russian culture from Catholic German expansion in the northwest.",
+  "outcomes": [
+    "teutonic_knights_defeated",
+    "novgorod_independence",
+    "orthodox_identity"
+  ],
+  "_quarry": {
+    "participants": [
+      "principality_of_novgorod",
+      "livonian_order_state"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "martin_treasure_1986",
+      "birnbaum_lord_1981"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

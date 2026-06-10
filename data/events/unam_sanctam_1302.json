@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "unam_sanctam_1302",
+  "name": "Unam Sanctam",
+  "year": 1302,
+  "type": "religious",
+  "category": "religion",
+  "coords": [
+    41.9028,
+    12.4534
+  ],
+  "entity": "papal_states",
+  "summary": "Pope Boniface VIII's bull Unam Sanctam asserts that submission to the Roman pontiff is necessary for salvation, articulating the doctrine of papal plenitude of power against Philip IV of France.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "papal_states",
+      "kingdom_of_france"
+    ],
+    "structural_significance": "Maximal claim of medieval papal sovereignty; the immediate French reaction (Anagni outrage 1303, transfer of the curia to Avignon 1309) marks the political defeat of the universalist papal monarchy.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morris_papal_monarchy_1989",
+      "kelly_oxford_dictionary_popes_1986"
+    ],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_urrexola_garai_1400",
+  "name": "Battle of Urrexola-Garai",
+  "subtype": "battle",
+  "start_year": 1400,
+  "end_year": 1400,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q110560826"
+    }
+  },
+  "description": "Battle during War of the Bands (1400)",
+  "coords": [
+    -2.4117,
+    43.0328
+  ]
+}

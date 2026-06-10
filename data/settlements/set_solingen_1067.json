@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_solingen_1067",
+  "name": "Solingen",
+  "importance": "city",
+  "start_year": 1067,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2942"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    7.0847,
+    51.1719
+  ]
+}

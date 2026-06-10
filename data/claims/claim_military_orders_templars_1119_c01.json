@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_military_orders_templars_1119_c01",
+  "statement": "In 1119, Hugues de Payens and eight knights founded the Knights Templar in Jerusalem, taking monastic vows while escorting pilgrims.",
+  "subject_ids": [
+    "kingdom_of_jerusalem"
+  ],
+  "period": {
+    "from": 1119,
+    "to": 1119
+  },
+  "derived_from": "military_orders_templars_1119",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

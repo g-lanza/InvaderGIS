@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_principality_of_wallachia_1330_1479",
+  "statement": "Principality of Wallachia — campaigns and battles spanned 1330–1479, from Battle of Posada to Battle of Breadfield.",
+  "subject_ids": [
+    "principality_of_wallachia"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_principality_of_wallachia_1330_1479",
+  "period": {
+    "from": 1330,
+    "to": 1479
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "deletant_romania_1998",
+      "panaitescu_mircea_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

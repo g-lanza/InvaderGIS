@@ -1,0 +1,30 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_papacy_jerusalem_recognition",
+  "statement": "Pope Urban II's call at Clermont (1095) and the subsequent success of the First Crusade created the Kingdom of Jerusalem as a papal project, with successive popes claiming overlordship. Jerusalem's kings held their crown as vassals of the Pope, a claim the papacy consistently maintained even when the crusader kings ignored it. Pope Innocent III's insistence on controlling the Fourth Crusade (which he failed to do) and the Fifth Crusade (which he tried to micromanage) demonstrates the papacy's sense of proprietary interest in the crusader enterprise. The papacy recognized Jerusalem's succession rules and intervened in disputed elections.",
+  "subject_ids": [
+    "papal_states",
+    "kingdom_of_jerusalem"
+  ],
+  "predicate": "religious_jurisdiction",
+  "derived_from": "rel_papacy_jerusalem_recognition",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989",
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1099,
+    "to": 1291
+  }
+}

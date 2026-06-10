@@ -1,0 +1,54 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "empress_irene",
+  "name": "Irene of Athens",
+  "polity": "byzantine_empire",
+  "title": "empress_regnant",
+  "reign_start": 780,
+  "reign_end": 802,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 752,
+      "death_year": 803
+    },
+    "entity_associations": [
+      {
+        "entity_id": "byzantine_empire",
+        "role": "empress_regnant",
+        "start_year": 780,
+        "end_year": 802
+      }
+    ],
+    "key_actions": [
+      {
+        "year": 780,
+        "summary": "Becomes regent for her ten-year-old son Constantine VI on the death of her husband Leo IV.",
+        "source_id": "kazhdan_oxford_dictionary_byzantium_1991"
+      },
+      {
+        "year": 787,
+        "summary": "Convenes the Second Council of Nicaea, which restores the veneration of icons after sixty years of iconoclast imperial policy.",
+        "source_id": "meyendorff_byzantium_and_rise_of_russia_1981"
+      },
+      {
+        "year": 797,
+        "summary": "Deposes and blinds her son Constantine VI (15 August), reigning as sole emperor (basilissa) until her own deposition by the finance minister Nikephoros in 802.",
+        "source_id": "kazhdan_oxford_dictionary_byzantium_1991"
+      }
+    ],
+    "region": "byzantine_world",
+    "name_variants": [
+      "Eirene",
+      "Irene the Athenian"
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kazhdan_oxford_dictionary_byzantium_1991",
+      "meyendorff_byzantium_and_rise_of_russia_1981"
+    ],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_rhodes_1320",
+  "name": "Battle of Rhodes",
+  "year": 1320,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    40.4,
+    18.55
+  ],
+  "entity": "republic_of_genoa",
+  "summary": "Battle of Rhodes (1320 CE), at Rhodes. Source: Wikidata Q117032108.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_genoa",
+      "knights_hospitaller_rhodes"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

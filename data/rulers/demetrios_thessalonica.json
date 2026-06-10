@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "demetrios_thessalonica",
+  "name": "Demetrios of Thessalonica",
+  "polity": "kingdom_of_thessalonica",
+  "title": "ruler",
+  "reign_start": 1207,
+  "reign_end": 1224,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "kingdom_of_thessalonica",
+        "role": "ruler",
+        "start_year": 1207,
+        "end_year": 1224
+      }
+    ],
+    "key_actions": [],
+    "region": "southeastern_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

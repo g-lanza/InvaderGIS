@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "iceland_commonwealth_1262",
+  "name": "Iceland Submits to Norwegian Crown",
+  "year": 1262,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    64,
+    -19
+  ],
+  "entity": "iceland_commonwealth",
+  "summary": "After decades of violent civil conflict between competing chieftain clans (the Sturlung Age), the Icelandic Althing agreed to submit to the Norwegian crown through the Old Covenant of 1262. This ended 330 years of Icelandic independence and began four centuries of Norwegian and Danish rule.",
+  "outcomes": [
+    "independence_ends",
+    "old_covenant",
+    "norwegian_rule_begins"
+  ],
+  "_quarry": {
+    "participants": [
+      "iceland_commonwealth"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

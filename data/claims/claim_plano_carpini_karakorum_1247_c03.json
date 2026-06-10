@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_plano_carpini_karakorum_1247_c03",
+  "statement": "Giovanni da Pian del Carpine returned via Russia and Kiev in 1247, delivering Güyük's response to the papal embassy.",
+  "subject_ids": [
+    "papal_states"
+  ],
+  "period": {
+    "from": 1247,
+    "to": 1247
+  },
+  "derived_from": "plano_carpini_karakorum_1247",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_mongols_2007"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

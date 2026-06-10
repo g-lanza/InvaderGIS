@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_dysert_o_dea_1318",
+  "name": "Battle of Dysert O'Dea",
+  "subtype": "battle",
+  "start_year": 1318,
+  "end_year": 1318,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q4870943"
+    }
+  },
+  "description": "Battle during Bruce campaign in Ireland (1318)",
+  "coords": [
+    -9.0664,
+    52.9114
+  ]
+}

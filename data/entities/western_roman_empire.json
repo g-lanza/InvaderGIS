@@ -1,0 +1,20 @@
+{
+ "kind": "polity",
+ "id": "western_roman_empire",
+ "name": "Western Roman Empire",
+ "type": "empire",
+ "formed": 285,
+ "dissolved": 476,
+ "provenance": {
+  "sources_used": [
+   "ims_fordham",
+   "ims_fordham_sbookmap"
+  ],
+  "confidence": "high",
+  "status": "draft"
+ },
+ "dataset": "medieval-europe-500-1500",
+ "_fordham_index": "sbookmap",
+ "from_sourcebook": true,
+ "name_primary": "Western Roman Empire"
+}

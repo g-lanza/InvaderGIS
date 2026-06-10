@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_jabani_1500",
+  "name": "Battle of Jabani",
+  "subtype": "battle",
+  "start_year": 1500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q131148319"
+    }
+  },
+  "description": "Battle during Safavid conquest of Shirvan (1500)",
+  "coords": [
+    48.6981,
+    40.6631
+  ]
+}

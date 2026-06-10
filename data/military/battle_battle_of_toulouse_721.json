@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_toulouse_721",
+  "name": "Battle of Toulouse",
+  "subtype": "battle",
+  "start_year": 721,
+  "end_year": 721,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q652320"
+    }
+  },
+  "description": "Battle during Umayyad invasion of Gaul (721)",
+  "coords": [
+    1.45,
+    43.6
+  ]
+}

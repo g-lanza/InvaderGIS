@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_bosworth_field_1485",
+  "name": "Battle of Bosworth Field",
+  "subtype": "battle",
+  "start_year": 1485,
+  "end_year": 1485,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q222013"
+    }
+  },
+  "description": "Battle during Wars of the Roses (1485)",
+  "coords": [
+    -1.4103,
+    52.5911
+  ]
+}

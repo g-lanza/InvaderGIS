@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_clovis_baptism_496_c02",
+  "statement": "Clovis's conversion to Catholicism gave him the support of the Gallo-Roman clergy and population.",
+  "subject_ids": [
+    "merovingian_kingdom"
+  ],
+  "period": {
+    "from": 496,
+    "to": 496
+  },
+  "derived_from": "clovis_baptism_496",
+  "unresolved_sources": [
+    "wood_the_1994"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "geary_before_1988"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

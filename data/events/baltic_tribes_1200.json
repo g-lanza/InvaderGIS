@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "baltic_tribes_1200",
+  "name": "Baltic Tribes Face Northern Crusades",
+  "year": 1200,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    58.139,
+    24.783
+  ],
+  "entity": "baltic_tribes",
+  "summary": "The early 13th century saw the Baltic pagan tribes (Latvians, Lithuanians, Prussians, Curonians, and Estonians) face the organised military pressure of the Northern Crusades. While the Prussians and Latvians were conquered, the Lithuanians successfully resisted and forged the only major pagan state in medieval Europe to survive into the 14th century.",
+  "outcomes": [
+    "pagan_resistance",
+    "crusader_pressure",
+    "latvian_lithuanian_emerge"
+  ],
+  "_quarry": {
+    "participants": [
+      "baltic_tribes"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

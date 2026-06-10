@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_war_of_succession_to_the_patriarchate_of_aquileia_1381_c01",
+  "statement": "War of Succession to the Patriarchate of Aquileia (1381 CE), at Patria del Friuli.",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1381,
+    "to": 1381
+  },
+  "derived_from": "wd_war_of_succession_to_the_patriarchate_of_aquileia_1381",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

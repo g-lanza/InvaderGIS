@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_alhambra_decree_1492_c02",
+  "statement": "Between roughly 40,000 and 100,000 Jews chose exile rather than conversion following the Alhambra Decree, dispersing to Portugal, the Ottoman Empire, North Africa, and the Netherlands.",
+  "subject_ids": [
+    "crown_of_castile"
+  ],
+  "period": {
+    "from": 1492,
+    "to": 1492
+  },
+  "derived_from": "alhambra_decree_1492",
+  "unresolved_sources": [
+    "o'callaghan_a_1975"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

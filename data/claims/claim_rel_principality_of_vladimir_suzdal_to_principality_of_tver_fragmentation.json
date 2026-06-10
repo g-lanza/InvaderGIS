@@ -1,0 +1,29 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_principality_of_vladimir_suzdal_to_principality_of_tver_fragmentation",
+  "statement": "Derived from predecessor/successor links recorded in the principality_of_vladimir_suzdal and principality_of_tver entity records. Transition anchored to principality_of_tver start_year.",
+  "subject_ids": [
+    "principality_of_vladimir_suzdal",
+    "principality_of_tver"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_principality_of_vladimir_suzdal_to_principality_of_tver_fragmentation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "franklin_the_1996",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "principality_of_tver"
+  ],
+  "period": {
+    "from": 1246,
+    "to": 1246
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_second_goryeo_mongol_war_1232",
+  "name": "Second Goryeo-Mongol War",
+  "year": 1232,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    42.423,
+    114.922
+  ],
+  "entity": "mongol_empire",
+  "summary": "Second Goryeo-Mongol War (1232 CE). Source: Wikidata Q21060233.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "mongol_empire",
+      "korea"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

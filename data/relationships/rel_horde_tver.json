@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_horde_tver",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "golden_horde",
+      "role": "hegemon"
+    },
+    {
+      "entity_id": "principality_of_tver",
+      "role": "tributary"
+    }
+  ],
+  "directed": true,
+  "type": "tributary",
+  "since": 1246,
+  "until": 1485,
+  "note": "Tver was the most persistent rival to Moscow for leadership of northeastern Russia in the 14th century, its princes competing for the Golden Horde's patent (yarlyk) to collect tribute from other Russian principalities. The Horde often played Moscow against Tver: Prince Mikhail of Tver was executed in the Horde (1318) after a dispute with Moscow's Yuri Danilovich; Tver briefly recovered the Horde's favor but lost it again when Ivan I 'Moneybag' of Moscow outmaneuvered the Tver princes diplomatically. Tver's final attempt at independence — its 1327 anti-Mongol uprising — was suppressed by a joint Mongol-Muscovite punitive expedition.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Moscow-Tver competition for Horde favor demonstrates how the Mongol tributary system paradoxically enabled Muscovite expansion; whoever held the Horde's patent to collect tribute could use the Mongol military to punish rivals; the 1327 Tver uprising's suppression by Moscow ends the competition decisively"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "allsen_mongol_1987",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

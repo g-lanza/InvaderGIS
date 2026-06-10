@@ -1,0 +1,191 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "mexica_aztec",
+  "name_primary": "Mexica Triple Alliance",
+  "name_variants": [
+    "Aztec Empire",
+    "Triple Alliance",
+    "Ēxcān Tlahtōlōyān"
+  ],
+  "type": "empire",
+  "region": "mesoamerica",
+  "formed": 1325,
+  "dissolved": 1521,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    19.4326,
+    -99.1332
+  ],
+  "religion": "Mexica state cult (Huitzilopochtli / Tlaloc)",
+  "population_estimates": [
+    {
+      "year": 1500,
+      "estimate": 5000000,
+      "confidence": "moderate",
+      "note": "Triple Alliance tributary population at peak; Tenochtitlan resident population ~200,000."
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "smith_aztecs_2012"
+    ],
+    "confidence": "low"
+  },
+  "description": "Triple Alliance of the Mexica (Tenochtitlan), Acolhua (Texcoco), and Tepanec (Tlacopan), ascendant in the Valley of Mexico after the 1428 victory over Azcapotzalco and expanded under successive tlatoani, Itzcoatl, Moctezuma I, Axayacatl, Tizoc, Ahuitzotl, Moctezuma II, to a tributary hegemony across much of central and southern Mexico. The empire collected tribute through a network of conquered city-states rather than direct administration, and ran on a calendar of recurrent military campaigns tied to ritual sacrifice.",
+  "temporal": {
+    "start_year": 1325,
+    "end_year": 1521,
+    "end_year_within_scope": 1500,
+    "notes": "Founding of Tenochtitlan traditionally dated 1325; the Triple Alliance with Texcoco and Tlacopan formed in 1428. The polity fell to the Spanish-Tlaxcalan siege in 1521; within atlas scope to 1500."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      19.4326,
+      -99.1332
+    ],
+    "core_regions": [
+      "central_mexico",
+      "valley_of_mexico"
+    ],
+    "notes": "Capital Tenochtitlan on the island in Lake Texcoco, the site of modern Mexico City."
+  },
+  "lifecycle_phases": [
+    {
+      "start_year": 1325,
+      "end_year": 1428,
+      "description": "Mexica found Tenochtitlan on Lake Texcoco; vassals of Azcapotzalco until 1428.",
+      "phase": "formation"
+    },
+    {
+      "start_year": 1428,
+      "end_year": 1440,
+      "description": "Itzcoatl and Tlacaelel forge the Triple Alliance after the defeat of Azcapotzalco.",
+      "phase": "consolidation"
+    },
+    {
+      "start_year": 1440,
+      "end_year": 1469,
+      "description": "Moctezuma I extends tribute reach into Veracruz and the Mixteca; Flower Wars institutionalised.",
+      "phase": "expansion"
+    },
+    {
+      "start_year": 1469,
+      "end_year": 1502,
+      "description": "Axayacatl, Tizoc, and Ahuitzotl extend reach to the Pacific and into Oaxaca; Templo Mayor rebuilt.",
+      "phase": "peak"
+    },
+    {
+      "start_year": 1502,
+      "end_year": 1521,
+      "description": "Moctezuma II accedes (1502); centralising reforms tighten Mexica primacy over the other two capitals. Spanish-Tlaxcalan siege ends the polity in 1521.",
+      "phase": "imperial_apogee"
+    }
+  ],
+  "rise_factors": [
+    {
+      "layer": "military_security",
+      "direction": "rise",
+      "tag": "military_organizational_advantage",
+      "description": "Cuachic warrior orders and tributary-province military service produced a standing army deployable in mass campaigns.",
+      "sources": [
+        "smith_aztecs_2012"
+      ]
+    },
+    {
+      "layer": "economic_commercial",
+      "direction": "rise",
+      "tag": "tribute_extraction",
+      "description": "Standardised tribute lists from ~38 provinces underwrote monumental construction and elite consumption.",
+      "sources": [
+        "smith_aztecs_2012"
+      ]
+    },
+    {
+      "layer": "ideology_religion",
+      "direction": "rise",
+      "tag": "religious_legitimacy",
+      "description": "State theology centred on Huitzilopochtli and the cosmic necessity of human sacrifice tied military victory to the survival of the world.",
+      "sources": [
+        "smith_aztecs_2012"
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "layer": "external_political",
+      "direction": "decline",
+      "tag": "external_military_pressure",
+      "description": "Cortés's 1519 expedition + Tlaxcalan alliance + smallpox introduced 1520 culminated in the siege of Tenochtitlan and the polity's destruction.",
+      "sources": [
+        "smith_aztecs_2012"
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Itzcoatl",
+      "role": "tlatoani",
+      "year_start": 1427,
+      "year_end": 1440,
+      "sources": [
+        "smith_aztecs_2012"
+      ]
+    },
+    {
+      "name": "Moctezuma I",
+      "role": "tlatoani",
+      "year_start": 1440,
+      "year_end": 1469,
+      "sources": [
+        "smith_aztecs_2012"
+      ]
+    },
+    {
+      "name": "Ahuitzotl",
+      "role": "tlatoani",
+      "year_start": 1486,
+      "year_end": 1502,
+      "sources": [
+        "smith_aztecs_2012"
+      ]
+    },
+    {
+      "name": "Moctezuma II",
+      "role": "tlatoani",
+      "year_start": 1502,
+      "year_end": 1520,
+      "sources": [
+        "smith_aztecs_2012"
+      ]
+    }
+  ],
+  "economic": {
+    "primary_base": "intensive chinampa agriculture",
+    "secondary_bases": [
+      "tribute extraction from provinces",
+      "Tlatelolco market exchange"
+    ],
+    "wealth_level": "very_high",
+    "revenue_sources": [
+      "tribute",
+      "market_taxation"
+    ],
+    "sources": [
+      "smith_aztecs_2012"
+    ]
+  },
+  "sources": [
+    {
+      "type": "book",
+      "author": "Smith, Michael E.",
+      "title": "The Aztecs",
+      "publisher": "Wiley-Blackwell",
+      "year": 2012
+    }
+  ],
+  "monogram": "MT"
+}

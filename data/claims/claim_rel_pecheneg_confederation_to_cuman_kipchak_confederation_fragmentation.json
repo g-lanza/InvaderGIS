@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_pecheneg_confederation_to_cuman_kipchak_confederation_fragmentation",
+  "statement": "Derived from predecessor/successor links recorded in the pecheneg_confederation and cuman_kipchak_confederation entity records. Transition anchored to cuman_kipchak_confederation start_year.",
+  "subject_ids": [
+    "pecheneg_confederation",
+    "cuman_kipchak_confederation"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_pecheneg_confederation_to_cuman_kipchak_confederation_fragmentation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "cuman_kipchak_confederation"
+  ],
+  "period": {
+    "from": 900,
+    "to": 900
+  }
+}

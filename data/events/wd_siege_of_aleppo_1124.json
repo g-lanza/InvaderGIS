@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_aleppo_1124",
+  "name": "Siege of Aleppo",
+  "year": 1124,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    34.5,
+    37
+  ],
+  "entity": "kingdom_of_jerusalem",
+  "summary": "Siege of Aleppo (1124 CE), at Aleppo (part of Crusader battles between 1101 and 1145). Source: Wikidata Q60791275.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_jerusalem",
+      "county_of_edessa"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

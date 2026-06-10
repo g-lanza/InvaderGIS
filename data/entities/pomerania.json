@@ -1,0 +1,963 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "pomerania",
+  "name_primary": "Pomerania",
+  "name_variants": [],
+  "type": "kingdom",
+  "region": "central_europe",
+  "formed": 1000,
+  "dissolved": 1637,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 1000,
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              52.316,
+              13.6071
+            ],
+            [
+              52.3516,
+              11.7571
+            ],
+            [
+              52.6406,
+              11.5516
+            ],
+            [
+              52.8425,
+              11.7535
+            ],
+            [
+              52.9104,
+              11.3599
+            ],
+            [
+              53.29,
+              11.09
+            ],
+            [
+              53.4898,
+              10.322
+            ],
+            [
+              53.6984,
+              10.2046
+            ],
+            [
+              54.3368,
+              10.1417
+            ],
+            [
+              54.3719,
+              10.2129
+            ],
+            [
+              54.3623,
+              10.3402
+            ],
+            [
+              54.292,
+              10.446
+            ],
+            [
+              54.259,
+              10.6486
+            ],
+            [
+              54.3133,
+              11.0386
+            ],
+            [
+              54.2196,
+              11.073
+            ],
+            [
+              54.0967,
+              11.0159
+            ],
+            [
+              53.9639,
+              10.7167
+            ],
+            [
+              53.8772,
+              10.8589
+            ],
+            [
+              53.9384,
+              11.1514
+            ],
+            [
+              53.8568,
+              11.2025
+            ],
+            [
+              53.8593,
+              11.4078
+            ],
+            [
+              54.0354,
+              11.565
+            ],
+            [
+              54.0967,
+              12.0411
+            ],
+            [
+              54.3214,
+              12.6525
+            ],
+            [
+              54.2703,
+              12.7648
+            ],
+            [
+              54.347,
+              12.9431
+            ],
+            [
+              54.1937,
+              13.0638
+            ],
+            [
+              54.0311,
+              13.4347
+            ],
+            [
+              53.2203,
+              13.5696
+            ],
+            [
+              52.316,
+              13.6071
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "year": 1001,
+      "polygon": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              54.0311,
+              13.4347
+            ],
+            [
+              53.2203,
+              13.5696
+            ],
+            [
+              52.316,
+              13.6071
+            ],
+            [
+              52.3534,
+              11.6719
+            ],
+            [
+              52.6387,
+              11.5497
+            ],
+            [
+              52.8425,
+              11.7535
+            ],
+            [
+              53.0463,
+              10.5714
+            ],
+            [
+              53.6984,
+              10.2046
+            ],
+            [
+              54.3368,
+              10.1417
+            ],
+            [
+              54.3719,
+              10.2129
+            ],
+            [
+              54.3623,
+              10.3402
+            ],
+            [
+              54.292,
+              10.446
+            ],
+            [
+              54.259,
+              10.6486
+            ],
+            [
+              54.3133,
+              11.0386
+            ],
+            [
+              54.2196,
+              11.073
+            ],
+            [
+              54.0967,
+              11.0159
+            ],
+            [
+              53.9639,
+              10.7167
+            ],
+            [
+              53.8772,
+              10.8589
+            ],
+            [
+              53.9384,
+              11.1514
+            ],
+            [
+              53.8568,
+              11.2025
+            ],
+            [
+              53.8593,
+              11.4078
+            ],
+            [
+              54.0354,
+              11.565
+            ],
+            [
+              54.0967,
+              12.0411
+            ],
+            [
+              54.3214,
+              12.6525
+            ],
+            [
+              54.2703,
+              12.7648
+            ],
+            [
+              54.347,
+              12.9431
+            ],
+            [
+              54.1937,
+              13.0638
+            ],
+            [
+              54.0311,
+              13.4347
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "centroid": [
+    53.848,
+    11.738
+  ],
+  "population_estimates": [
+    {
+      "year": 1000,
+      "estimate": 200000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q104520",
+          "url": "https://www.wikidata.org/wiki/Q104520",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Pomerania",
+          "url": "https://en.wikipedia.org/wiki/Pomerania"
+        }
+      ]
+    },
+    {
+      "year": 1150,
+      "estimate": 350000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q104520",
+          "url": "https://www.wikidata.org/wiki/Q104520",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Pomerania",
+          "url": "https://en.wikipedia.org/wiki/Pomerania"
+        }
+      ]
+    },
+    {
+      "year": 1300,
+      "estimate": 500000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q104520",
+          "url": "https://www.wikidata.org/wiki/Q104520",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Pomerania",
+          "url": "https://en.wikipedia.org/wiki/Pomerania"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Germanic and Slavic territory on the southern Baltic coast (medieval period) gradually colonised by German settlers under the Ostsiedlung movement; its indigenous Pomeranian Slavs were Christianised and eventually germanised while Pomeranian dukes balanced between German imperial, Polish, and Danish overlordship; Hanseatic cities like Stettin and Stralsund dominated Baltic commerce while the rural hinterland remained the base of Junker landed aristocracy.",
+  "temporal": {
+    "start_year": 1000,
+    "end_year": 1637,
+    "notes": "Slavic and Germanic Pomerania as a distinct cultural-political area through the Middle Ages; gradually incorporated into Holy Roman Empire and Polish realms."
+  },
+  "geographic": {
+    "centroid": [
+      53.848,
+      11.738
+    ],
+    "polygon_simplified": [
+      [
+        [
+          54.0311,
+          13.4347
+        ],
+        [
+          53.2203,
+          13.5696
+        ],
+        [
+          52.316,
+          13.6071
+        ],
+        [
+          52.3126,
+          13.5877
+        ],
+        [
+          52.3534,
+          11.6719
+        ],
+        [
+          52.6387,
+          11.5497
+        ],
+        [
+          52.8425,
+          11.7535
+        ],
+        [
+          53.0463,
+          10.5714
+        ],
+        [
+          53.6984,
+          10.2046
+        ],
+        [
+          54.3368,
+          10.1417
+        ],
+        [
+          54.3719,
+          10.2129
+        ],
+        [
+          54.3623,
+          10.3402
+        ],
+        [
+          54.292,
+          10.446
+        ],
+        [
+          54.259,
+          10.6486
+        ],
+        [
+          54.3133,
+          11.0386
+        ],
+        [
+          54.2196,
+          11.073
+        ],
+        [
+          54.1527,
+          11.0414
+        ],
+        [
+          54.0967,
+          11.0159
+        ],
+        [
+          53.9639,
+          10.7167
+        ],
+        [
+          53.9309,
+          10.7709
+        ],
+        [
+          53.8772,
+          10.8589
+        ],
+        [
+          53.8824,
+          10.8837
+        ],
+        [
+          53.8844,
+          10.8935
+        ],
+        [
+          53.8984,
+          10.9604
+        ],
+        [
+          53.9384,
+          11.1514
+        ],
+        [
+          53.8568,
+          11.2025
+        ],
+        [
+          53.8593,
+          11.4078
+        ],
+        [
+          54.0354,
+          11.565
+        ],
+        [
+          54.0967,
+          12.0411
+        ],
+        [
+          54.2019,
+          12.3119
+        ],
+        [
+          54.2548,
+          12.4625
+        ],
+        [
+          54.3214,
+          12.6525
+        ],
+        [
+          54.2703,
+          12.7648
+        ],
+        [
+          54.347,
+          12.9431
+        ],
+        [
+          54.2652,
+          13.0258
+        ],
+        [
+          54.1937,
+          13.0638
+        ],
+        [
+          54.0635,
+          13.3492
+        ],
+        [
+          54.0302,
+          13.431
+        ],
+        [
+          54.0311,
+          13.4347
+        ]
+      ]
+    ],
+    "capital": {
+      "name": "Szczecin",
+      "coords": [
+        53.43,
+        14.55
+      ],
+      "source": "curated"
+    },
+    "polygon_snapshots": [
+      {
+        "year": 1000,
+        "polygon": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                52.316,
+                13.6071
+              ],
+              [
+                52.3516,
+                11.7571
+              ],
+              [
+                52.6406,
+                11.5516
+              ],
+              [
+                52.8425,
+                11.7535
+              ],
+              [
+                52.9104,
+                11.3599
+              ],
+              [
+                53.29,
+                11.09
+              ],
+              [
+                53.4898,
+                10.322
+              ],
+              [
+                53.6984,
+                10.2046
+              ],
+              [
+                54.3368,
+                10.1417
+              ],
+              [
+                54.3719,
+                10.2129
+              ],
+              [
+                54.3623,
+                10.3402
+              ],
+              [
+                54.292,
+                10.446
+              ],
+              [
+                54.259,
+                10.6486
+              ],
+              [
+                54.3133,
+                11.0386
+              ],
+              [
+                54.2196,
+                11.073
+              ],
+              [
+                54.0967,
+                11.0159
+              ],
+              [
+                53.9639,
+                10.7167
+              ],
+              [
+                53.8772,
+                10.8589
+              ],
+              [
+                53.9384,
+                11.1514
+              ],
+              [
+                53.8568,
+                11.2025
+              ],
+              [
+                53.8593,
+                11.4078
+              ],
+              [
+                54.0354,
+                11.565
+              ],
+              [
+                54.0967,
+                12.0411
+              ],
+              [
+                54.3214,
+                12.6525
+              ],
+              [
+                54.2703,
+                12.7648
+              ],
+              [
+                54.347,
+                12.9431
+              ],
+              [
+                54.1937,
+                13.0638
+              ],
+              [
+                54.0311,
+                13.4347
+              ],
+              [
+                53.2203,
+                13.5696
+              ],
+              [
+                52.316,
+                13.6071
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "year": 1001,
+        "polygon": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                54.0311,
+                13.4347
+              ],
+              [
+                53.2203,
+                13.5696
+              ],
+              [
+                52.316,
+                13.6071
+              ],
+              [
+                52.3534,
+                11.6719
+              ],
+              [
+                52.6387,
+                11.5497
+              ],
+              [
+                52.8425,
+                11.7535
+              ],
+              [
+                53.0463,
+                10.5714
+              ],
+              [
+                53.6984,
+                10.2046
+              ],
+              [
+                54.3368,
+                10.1417
+              ],
+              [
+                54.3719,
+                10.2129
+              ],
+              [
+                54.3623,
+                10.3402
+              ],
+              [
+                54.292,
+                10.446
+              ],
+              [
+                54.259,
+                10.6486
+              ],
+              [
+                54.3133,
+                11.0386
+              ],
+              [
+                54.2196,
+                11.073
+              ],
+              [
+                54.0967,
+                11.0159
+              ],
+              [
+                53.9639,
+                10.7167
+              ],
+              [
+                53.8772,
+                10.8589
+              ],
+              [
+                53.9384,
+                11.1514
+              ],
+              [
+                53.8568,
+                11.2025
+              ],
+              [
+                53.8593,
+                11.4078
+              ],
+              [
+                54.0354,
+                11.565
+              ],
+              [
+                54.0967,
+                12.0411
+              ],
+              [
+                54.3214,
+                12.6525
+              ],
+              [
+                54.2703,
+                12.7648
+              ],
+              [
+                54.347,
+                12.9431
+              ],
+              [
+                54.1937,
+                13.0638
+              ],
+              [
+                54.0311,
+                13.4347
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "slavic_tribal_phase",
+      "years": "500-1000",
+      "description": "West Slavic Pomeranians (Pomorzanie) inhabited the Baltic coast; agricultural and fishing economy with amber trade.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q104520",
+          "url": "https://www.wikidata.org/wiki/Q104520"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Pomerania",
+          "url": "https://en.wikipedia.org/wiki/Pomerania"
+        }
+      ]
+    },
+    {
+      "phase": "duchy_formation",
+      "years": "1000-1181",
+      "description": "Duchy of Pomerania formed under Piast and then independent Pomeranian dukes; converted to Christianity under Boleslaw III.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q104520",
+          "url": "https://www.wikidata.org/wiki/Q104520"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Pomerania",
+          "url": "https://en.wikipedia.org/wiki/Pomerania"
+        }
+      ]
+    },
+    {
+      "phase": "fragmentation_and_german_pressure",
+      "years": "1181-1478",
+      "description": "Duchy fragmented among heirs; German colonisation (Ostsiedlung) transformed the population and culture.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q104520",
+          "url": "https://www.wikidata.org/wiki/Q104520"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Pomerania",
+          "url": "https://en.wikipedia.org/wiki/Pomerania"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "amber_coast",
+      "layer": "economic_commercial",
+      "description": "Baltic amber coast generated trade wealth and connected Pomerania to long-distance commerce.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q104520",
+          "url": "https://www.wikidata.org/wiki/Q104520"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Pomerania",
+          "url": "https://en.wikipedia.org/wiki/Pomerania"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "german_colonisation",
+      "layer": "external_political",
+      "description": "German settlers, invited by Pomeranian dukes for economic development, gradually replaced Slavic population and culture.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q104520",
+          "url": "https://www.wikidata.org/wiki/Q104520"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Pomerania",
+          "url": "https://en.wikipedia.org/wiki/Pomerania"
+        }
+      ]
+    },
+    {
+      "tag": "dynastic_division",
+      "layer": "dynastic_legitimacy",
+      "description": "Repeated partition among ducal heirs prevented the formation of a strong centralised state.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q104520",
+          "url": "https://www.wikidata.org/wiki/Q104520"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Pomerania",
+          "url": "https://en.wikipedia.org/wiki/Pomerania"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Wartislaw I",
+      "role": "duke",
+      "years": "1107–1135",
+      "year_start": 1107,
+      "year_end": 1135,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Wartislaw I",
+          "url": "https://en.wikipedia.org/wiki/Wartislaw_I"
+        }
+      ]
+    },
+    {
+      "name": "Bogislaw I",
+      "role": "duke",
+      "years": "1177–1187",
+      "year_start": 1177,
+      "year_end": 1187,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Bogislaw I",
+          "url": "https://en.wikipedia.org/wiki/Bogus%C5%82aw_I,_Duke_of_Pomerania"
+        }
+      ]
+    },
+    {
+      "name": "Barnim I",
+      "role": "duke",
+      "years": "1220–1278",
+      "year_start": 1220,
+      "year_end": 1278,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Barnim I",
+          "url": "https://en.wikipedia.org/wiki/Barnim_I"
+        }
+      ]
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "fishing",
+      "timber",
+      "amber_trade"
+    ],
+    "wealth_level": "moderate",
+    "major_exports": [
+      "grain",
+      "fish",
+      "timber",
+      "amber",
+      "salt"
+    ],
+    "major_trade_partners": [
+      "hanseatic_league",
+      "holy_roman_empire",
+      "kingdom_of_denmark"
+    ],
+    "revenue_sources": [
+      "feudal_dues",
+      "port_tolls",
+      "amber_trade"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q104520",
+        "url": "https://www.wikidata.org/wiki/Q104520"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Pomerania",
+        "url": "https://en.wikipedia.org/wiki/Pomerania"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q104520",
+    "matched_name": "Pomerania",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pomerania"
+  },
+  "monogram": "PO"
+}

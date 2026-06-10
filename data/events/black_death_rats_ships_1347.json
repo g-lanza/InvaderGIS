@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "black_death_rats_ships_1347",
+  "name": "Arrival of Plague Ships at Messina",
+  "year": 1347,
+  "type": "disaster",
+  "category": "hazard",
+  "coords": [
+    38.19,
+    15.56
+  ],
+  "entity": "kingdom_of_sicily_aragonese",
+  "summary": "In October 1347, 12 Genoese merchant ships dock at the port of Messina, Sicily. Most of the sailors aboard are dead or dying; those alive are covered in black boils oozing blood and pus. The Messina port authorities order the ships out of harbor, but the disease is already ashore. Within weeks, plague spreads through Messina; by January 1348 it is in Catania, by February in Trapani, and by spring it reaches mainland Italy.",
+  "outcomes": [
+    "plague_arrives_europe",
+    "messina_port_authorities_act_too_late",
+    "quarantine_concept_develops"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_sicily_aragonese",
+      "republic_of_genoa"
+    ],
+    "structural_significance": "Messina is ground zero for the European Black Death; the port authorities' response, ordering the ships out, is the first recorded quarantine action in Western history, a precursor to the more systematic Venetian quarantine (quarantina, 1377) that gives us the word 'quarantine'; the plague's Mediterranean spread via shipping routes demonstrates how global trade networks accelerate pandemic transmission, a pattern repeated in subsequent centuries and in the COVID-19 pandemic",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

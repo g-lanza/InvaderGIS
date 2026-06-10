@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "byzantine_empire",
+  "name": "Constantinople",
+  "entity_id": "byzantine_empire",
+  "entity_name": "Byzantine Empire",
+  "start_year": 330,
+  "end_year": 1453,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q12544"
+    }
+  },
+  "coords": [
+    28.97602,
+    41.01224
+  ]
+}

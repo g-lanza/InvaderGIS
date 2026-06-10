@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_viking_west_francia",
+  "statement": "Viking raids on West Francia, including Paris (845, 885), led to Treaty of Saint-Clair-sur-Epte and Normandy.",
+  "subject_ids": [
+    "west_francia",
+    "kingdom_of_denmark"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_viking_west_francia",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "sawyer_medieval_1993",
+      "roesdahl_the_1992"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 965,
+    "to": 965
+  }
+}

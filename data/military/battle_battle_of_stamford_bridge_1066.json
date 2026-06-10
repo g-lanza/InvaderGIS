@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_stamford_bridge_1066",
+  "name": "Battle of Stamford Bridge",
+  "subtype": "battle",
+  "start_year": 1066,
+  "end_year": 1066,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q203225"
+    }
+  },
+  "description": "Battle during Viking activity in the British Isles (1066)",
+  "coords": [
+    -0.9125,
+    53.9925
+  ]
+}

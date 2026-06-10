@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_gallipoli_1305",
+  "name": "Battle of Gallipoli",
+  "subtype": "battle",
+  "start_year": 1305,
+  "end_year": 1305,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q11908736"
+    }
+  },
+  "description": "Battle during Catalan Revenge (1305)",
+  "coords": [
+    26.6711,
+    40.4133
+  ]
+}

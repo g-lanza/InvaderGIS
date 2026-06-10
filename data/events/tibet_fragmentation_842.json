@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "tibet_fragmentation_842",
+  "name": "Collapse of Tibetan Empire",
+  "year": 842,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    32.08,
+    92.019
+  ],
+  "entity": "tibet",
+  "summary": "The assassination of the anti-Buddhist King Langdarma triggered civil war and the fragmentation of the Tibetan Empire into competing principalities. The collapse ushered in a 'dark age' of political fragmentation that lasted until the Mongol period.",
+  "outcomes": [
+    "tibet_fragmented",
+    "buddhism_persecuted",
+    "princelings_era"
+  ],
+  "_quarry": {
+    "participants": [
+      "tibet"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

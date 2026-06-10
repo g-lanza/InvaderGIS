@@ -1,0 +1,314 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "gupta_empire",
+  "name_primary": "Gupta Empire",
+  "name_variants": [
+    "गुप्त साम्राज्य",
+    "Gupta dynasty"
+  ],
+  "type": "empire",
+  "region": "south_asia",
+  "formed": 320,
+  "dissolved": 550,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    26.9377,
+    79.5382
+  ],
+  "religion": "Hindu (Vaishnava and Shaiva) with strong Buddhist and Jain patronage",
+  "population_estimates": [
+    {
+      "year": 400,
+      "estimate": 30000000,
+      "confidence": "low",
+      "note": "Subcontinental peak under Chandragupta II."
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "The Gupta Empire (c.320–550 CE) is conventionally described as the classical 'golden age' of northern India. From Pataliputra (modern Patna), the dynasty unified the Gangetic plain and projected power across most of the Indian subcontinent. Gupta-era achievements include the codification of Sanskrit literature (Kalidasa), early mathematics (Aryabhata's heliocentric speculation and zero-place notation), and the iconography that became canonical Hindu art. Religious patronage was eclectic, Vaishnavism, Shaivism, Buddhism, and Jainism coexisted under imperial sponsorship. The empire fractured under sustained pressure from the Hephthalite (White Hun) invasions of the late 5th and early 6th centuries, splintering into smaller successor kingdoms by c.550.",
+  "temporal": {
+    "start_year": 320,
+    "end_year": 550,
+    "end_year_within_scope": 550,
+    "start_event_id": null,
+    "end_event_id": null,
+    "notes": ""
+  },
+  "geographic": {
+    "representation": "schematic_approximation",
+    "centroid": [
+      26.9377,
+      79.5382
+    ],
+    "core_regions": [],
+    "polygon_simplified": [
+      [
+        33,
+        70
+      ],
+      [
+        33,
+        78
+      ],
+      [
+        33,
+        88
+      ],
+      [
+        31,
+        91
+      ],
+      [
+        27,
+        92
+      ],
+      [
+        22,
+        88
+      ],
+      [
+        20,
+        80
+      ],
+      [
+        20,
+        73
+      ],
+      [
+        22,
+        70
+      ],
+      [
+        27,
+        68
+      ],
+      [
+        31,
+        69
+      ],
+      [
+        33,
+        70
+      ]
+    ],
+    "capital": {
+      "name": "Pataliputra",
+      "coords": [
+        25.61,
+        85.14
+      ],
+      "source": "curated"
+    }
+  },
+  "internal_structure": {
+    "centralization": "moderate",
+    "governance_type": "imperial_monarchy_with_feudatories",
+    "legitimacy_basis": "Vedic sacrificial kingship, ashvamedha rite",
+    "administrative_system": "core provinces (bhuktis) directly administered; periphery via tributary kings (samantas)"
+  },
+  "lifecycle_phases": [
+    {
+      "start_year": 320,
+      "end_year": 335,
+      "description": "Chandragupta I unifies the Magadha core.",
+      "phase": "foundation"
+    },
+    {
+      "start_year": 335,
+      "end_year": 415,
+      "description": "Samudragupta and Chandragupta II conquer the Indo-Gangetic plain.",
+      "phase": "imperial_expansion"
+    },
+    {
+      "start_year": 415,
+      "end_year": 470,
+      "description": "Kumaragupta I; cultural flourishing under stable peace.",
+      "phase": "classical_apogee"
+    },
+    {
+      "start_year": 470,
+      "end_year": 550,
+      "description": "Hephthalite invasions and dynastic infighting fragment the empire.",
+      "phase": "hun_collapse"
+    }
+  ],
+  "rise_factors": [
+    {
+      "layer": "governance_institutional",
+      "direction": "rise",
+      "tag": "external_alliance",
+      "description": "Chandragupta I's marriage to a Licchavi princess legitimized expansion across the Gangetic plain.",
+      "evidence_strength": "medium",
+      "sources": [],
+      "tag_prose": "matrimonial_alliance"
+    },
+    {
+      "layer": "military_security",
+      "direction": "rise",
+      "tag": "conquest_campaigns",
+      "description": "Samudragupta's Allahabad pillar inscription records subjugation of dozens of rival kingdoms.",
+      "evidence_strength": "medium",
+      "sources": []
+    },
+    {
+      "layer": "ideology_religion",
+      "direction": "rise",
+      "tag": "patronage",
+      "description": "Royal patronage of Sanskrit scholarship, drama, and mathematics attracted intellectuals to the court.",
+      "evidence_strength": "medium",
+      "sources": []
+    },
+    {
+      "layer": "economic_commercial",
+      "direction": "rise",
+      "tag": "trade_revival",
+      "description": "Indian Ocean and overland trade with Rome/Byzantium and Southeast Asia generated bullion inflows.",
+      "evidence_strength": "medium",
+      "sources": []
+    }
+  ],
+  "decline_factors": [
+    {
+      "layer": "military_security",
+      "direction": "decline",
+      "tag": "external_military_pressure",
+      "description": "Hephthalite/White Hun invasions from c.470 onward devastated the western provinces.",
+      "evidence_strength": "medium",
+      "sources": [],
+      "tag_prose": "hun_invasions"
+    },
+    {
+      "layer": "economic_commercial",
+      "direction": "decline",
+      "tag": "trade_route_disruption",
+      "description": "Decline of Indian Ocean trade with the late Roman world reduced the bullion supply.",
+      "evidence_strength": "medium",
+      "sources": [],
+      "tag_prose": "trade_disruption"
+    },
+    {
+      "layer": "governance_institutional",
+      "direction": "decline",
+      "tag": "succession_crisis",
+      "description": "Late-period succession struggles weakened central control over feudatories.",
+      "evidence_strength": "medium",
+      "sources": [],
+      "tag_prose": "succession_disputes"
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Chandragupta I",
+      "role": "Maharajadhiraja",
+      "start_year": 320,
+      "end_year": 335,
+      "notes": "Founder."
+    },
+    {
+      "name": "Samudragupta",
+      "role": "Maharajadhiraja",
+      "start_year": 335,
+      "end_year": 380,
+      "notes": "Greatest conqueror, Allahabad pillar inscription."
+    },
+    {
+      "name": "Chandragupta II (Vikramaditya)",
+      "role": "Maharajadhiraja",
+      "start_year": 380,
+      "end_year": 415,
+      "notes": "Cultural apex; Faxian visited."
+    },
+    {
+      "name": "Kumaragupta I",
+      "role": "Maharajadhiraja",
+      "start_year": 415,
+      "end_year": 455,
+      "notes": "Founder of Nalanda University."
+    },
+    {
+      "name": "Skandagupta",
+      "role": "Maharajadhiraja",
+      "start_year": 455,
+      "end_year": 467,
+      "notes": "Repulsed first Hun incursion."
+    }
+  ],
+  "primary_ethnicity": "",
+  "religion_composition": [
+    {
+      "label": "Hindu (Vaishnava)",
+      "percentage": 50,
+      "confidence": "low"
+    },
+    {
+      "label": "Hindu (Shaiva)",
+      "percentage": 25,
+      "confidence": "low"
+    },
+    {
+      "label": "Buddhism",
+      "percentage": 15,
+      "confidence": "low"
+    },
+    {
+      "label": "Jainism",
+      "percentage": 8,
+      "confidence": "low"
+    },
+    {
+      "label": "Other",
+      "percentage": 2,
+      "confidence": "low"
+    }
+  ],
+  "primary_language": "Classical Sanskrit",
+  "language_composition": [
+    {
+      "language": "Classical Sanskrit",
+      "share": "court / literature",
+      "use": "court ritual, drama, scripture"
+    },
+    {
+      "language": "Prakrits",
+      "share": "vernacular",
+      "use": "everyday speech across the empire"
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture (rice in Bengal, wheat/barley in north)",
+    "secondary_bases": [
+      "long-distance maritime trade",
+      "textile production",
+      "iron metallurgy"
+    ],
+    "wealth_level": "very_high",
+    "major_exports": [
+      "cotton textiles",
+      "spices",
+      "gemstones",
+      "iron and steel"
+    ],
+    "major_trade_partners": [
+      "sasanian_empire",
+      "byzantine_empire",
+      "funan",
+      "srivijaya_empire"
+    ],
+    "revenue_sources": [
+      "land tax (bhaga)",
+      "trade tolls",
+      "tribute from feudatories"
+    ]
+  },
+  "social_structure": "",
+  "wikidata_enrichment": {
+    "qid": "Q11774"
+  },
+  "monogram": "GE"
+}

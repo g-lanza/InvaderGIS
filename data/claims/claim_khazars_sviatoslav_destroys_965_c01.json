@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_khazars_sviatoslav_destroys_965_c01",
+  "statement": "In 965, Prince Sviatoslav I of Kiev destroyed the Khazar capital Atil and the fortresses of Sarkel and Semender.",
+  "subject_ids": [
+    "khazar_khaganate"
+  ],
+  "period": {
+    "from": 965,
+    "to": 965
+  },
+  "derived_from": "khazars_sviatoslav_destroys_965",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "golden_khazar_1980",
+      "brook_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

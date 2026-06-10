@@ -1,0 +1,39 @@
+{
+  "kind": "institution",
+  "dataset": "medieval-europe-500-1500",
+  "id": "sufi_orders",
+  "name_primary": "Sufi Tariqa Orders",
+  "domain": "religious_movement",
+  "formed": 800,
+  "dissolved": 1500,
+  "_quarry": {
+    "key_developments": [
+      {
+        "year": 922,
+        "event": "Execution of al-Hallaj — Sufi mystic, in Baghdad."
+      },
+      {
+        "year": 1166,
+        "event": "Death of Abd al-Qadir al-Jilani; Qadiriyya order forms around his teachings."
+      },
+      {
+        "year": 1273,
+        "event": "Death of Rumi; Mevlevi (whirling dervish) order founded."
+      },
+      {
+        "year": 1389,
+        "event": "Death of Baha-ud-Din Naqshband; Naqshbandi order spreads through Central Asia."
+      }
+    ],
+    "influences_entities": [
+      "abbasid_caliphate",
+      "seljuk_sultanate"
+    ],
+    "description": "The institutional development of Sufi (Islamic mystical) brotherhoods, beginning with informal master-disciple chains in the 9th and 10th centuries and crystallising into named tariqas from the 12th century onward — Qadiriyya (Baghdad, 1166), Suhrawardiyya (1234), Shadhiliyya (1196), Mevleviyya (1273), Naqshbandiyya (14th c). Sufism became a major vehicle for Islamic conversion across South Asia, West Africa, and Anatolia."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

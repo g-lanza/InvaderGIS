@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_venetian_expedition_to_the_levant_1099",
+  "name": "Venetian expedition to the Levant",
+  "year": 1099,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    37.725,
+    22.275
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Venetian expedition to the Levant (1099 CE), (part of First Crusade). Source: Wikidata Q131583805.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "kingdom_of_jerusalem",
+      "fatimid_caliphate",
+      "republic_of_pisa"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

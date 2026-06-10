@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_br_vellier_800",
+  "name": "Battle of Brávellier",
+  "subtype": "battle",
+  "start_year": 800,
+  "end_year": 800,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q939211"
+    }
+  },
+  "description": "Battle of 800",
+  "coords": [
+    16.5,
+    58.6417
+  ]
+}

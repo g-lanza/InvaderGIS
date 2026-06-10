@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "amadeus_vi_savoy",
+  "name": "Amadeus VI the Green Count",
+  "polity": "county_of_savoy",
+  "title": "ruler",
+  "reign_start": 1334,
+  "reign_end": 1383,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "county_of_savoy",
+        "role": "ruler",
+        "start_year": 1334,
+        "end_year": 1383
+      }
+    ],
+    "key_actions": [],
+    "region": "western_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

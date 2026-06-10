@@ -1,0 +1,36 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_chagatai_khanate_to_timurid_empire_succession",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "chagatai_khanate",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "timurid_empire",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 1370,
+  "until": 1370,
+  "note": "Derived from predecessor/successor links recorded in the chagatai_khanate and timurid_empire entity records. Transition anchored to timurid_empire start_year.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Mechanical normalisation of curated predecessor/successor links into the relationships register."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "biran_chinggis_2007",
+      "manz_the_1989",
+      "lentz_timur_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

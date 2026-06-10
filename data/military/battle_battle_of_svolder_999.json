@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_svolder_999",
+  "name": "Battle of Svolder",
+  "subtype": "battle",
+  "start_year": 999,
+  "end_year": 999,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1163186"
+    }
+  },
+  "description": "Battle during Viking Age Norway (999)",
+  "coords": [
+    12.75,
+    55.75
+  ]
+}

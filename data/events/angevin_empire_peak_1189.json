@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "angevin_empire_peak_1189",
+  "name": "Death of Henry II and Peak of Angevin Power",
+  "year": 1189,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    47.17,
+    0.24
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Henry II dies on July 6, 1189 at Chinon Castle, reportedly saying 'Shame, shame on a conquered king' upon learning that his youngest son John had joined his rebellious elder sons and Philip II of France against him. At his death, the Angevin 'empire', England, Normandy, Brittany, Anjou, Maine, Touraine, and Aquitaine, represents the largest personal lordship in Western Europe. Henry's reign has transformed English law through the Common Law reforms (Assize of Clarendon, 1166), but his family struggles and the Becket affair have defined his legacy.",
+  "outcomes": [
+    "henry_ii_dies",
+    "richard_i_succeeds",
+    "angevin_realm_at_maximum_extent"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "duchy_of_normandy",
+      "duchy_of_aquitaine"
+    ],
+    "structural_significance": "The Angevin Empire's greatest territorial extent; within 15 years, King John loses virtually all French territories; Henry II's legal reforms are his enduring legacy, the Common Law system he creates becomes the foundation of English and American law; the Angevin struggle with France determines the shape of medieval Anglo-French relations and the Hundred Years' War",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_swiss_confederation_1315_1499",
+  "name": "Swiss Confederation — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1315,
+  "year_end": 1499,
+  "waypoints": [
+    {
+      "year": 1315,
+      "place": "Battle of Morgarten",
+      "coords": [
+        47.09,
+        8.77
+      ],
+      "note": "battle",
+      "event_id": "battle_morgarten_1315"
+    },
+    {
+      "year": 1388,
+      "place": "Battle of Näfels",
+      "coords": [
+        46.95,
+        8.23
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_n_fels_1388"
+    },
+    {
+      "year": 1422,
+      "place": "Battle of Arbedo",
+      "coords": [
+        46.225,
+        8.715
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_arbedo_1422"
+    },
+    {
+      "year": 1476,
+      "place": "Battle of Grandson — Swiss Destroy Burgundian Army",
+      "coords": [
+        46.91,
+        6.65
+      ],
+      "note": "battle",
+      "event_id": "battle_granson_1476"
+    },
+    {
+      "year": 1476,
+      "place": "Battle of Nancy",
+      "coords": [
+        47.6467,
+        6.47
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_nancy_1476"
+    },
+    {
+      "year": 1477,
+      "place": "Battle of Nancy",
+      "coords": [
+        48.69,
+        6.18
+      ],
+      "note": "battle",
+      "event_id": "battle_nancy_1477"
+    },
+    {
+      "year": 1487,
+      "place": "Battle of Crevola",
+      "coords": [
+        46.225,
+        8.715
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_crevola_1487"
+    },
+    {
+      "year": 1499,
+      "place": "Swabian War",
+      "coords": [
+        47.56,
+        7.59
+      ],
+      "note": "war",
+      "event_id": "swabian_war_1499"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "marchal_schweizer_2006",
+      "rippmann_die_2006"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

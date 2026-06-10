@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "massacre_acre_1191",
+  "name": "Richard I's Massacre at Acre",
+  "year": 1191,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    32.92,
+    35.07
+  ],
+  "entity": "kingdom_of_jerusalem",
+  "summary": "Richard I of England orders the execution of approximately 2,700 Muslim prisoners at Acre when Saladin delays the ransom payment agreed upon at the city's surrender. The massacre, witnessed by Saladin's forces from the hillsides, shocks the Islamic world. Saladin retaliates by executing his own Christian prisoners. Richard then resumes his march south toward Jerusalem, using Acre as his supply base.",
+  "outcomes": [
+    "2700_prisoners_executed",
+    "saladin_retaliates_christian_prisoners",
+    "third_crusade_strategic_shift"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_jerusalem",
+      "ayyubid_sultanate"
+    ],
+    "structural_significance": "The Acre massacre illustrates the brutal pragmatism of crusading warfare, Richard could not march with 2,700 prisoners requiring guards and provisions; it also demonstrates the limits of chivalric ideology in strategic decision-making; the episode hardens Islamic determination not to surrender cities to crusaders, contributing to the eventual failure to retake Jerusalem",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

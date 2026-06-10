@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_english_invasion_of_scotland_1400",
+  "name": "English invasion of Scotland",
+  "year": 1400,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    54.5,
+    -2.5
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "English invasion of Scotland (1400 CE), at Lothian. Source: Wikidata Q27957870.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "kingdom_of_scotland"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

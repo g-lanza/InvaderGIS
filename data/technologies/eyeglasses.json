@@ -1,0 +1,37 @@
+{
+  "kind": "technology",
+  "dataset": "medieval-europe-500-1500",
+  "id": "eyeglasses",
+  "name_primary": "Eyeglasses (Spectacles)",
+  "domain": "other",
+  "origin": {
+    "place": "Northern Italy (Pisa or Venice)",
+    "year": 1286
+  },
+  "materials": [
+    "ground glass or rock crystal lenses",
+    "wood",
+    "bone",
+    "metal rivet frames"
+  ],
+  "diffusion": [
+    "Italian city-states",
+    "Republic of Venice",
+    "Kingdom of France",
+    "Holy Roman Empire",
+    "Crown of Castile",
+    "Kingdom of England"
+  ],
+  "_quarry": {
+    "description": "The earliest reliable evidence for eyeglasses comes from a sermon by Fra Giordano da Pisa (1306), who stated that it was 'not yet twenty years' since the art of making spectacles had been found and that he had met the inventor around 1286. Friar Alessandro della Spina subsequently learned the technique and disseminated it publicly. The first spectacles used convex lenses mounted in riveted frames of wood, bone, or metal to correct presbyopia, primarily serving monastic scholars and manuscript copyists. Venice became a major production centre by the early 14th century, establishing a glassmakers' guild regulation for spectacles by 1301."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "medievalists_eyeglasses_2016",
+      "wiki_eyeglasses"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

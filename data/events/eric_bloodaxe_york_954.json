@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "eric_bloodaxe_york_954",
+  "name": "Eric Bloodaxe Killed, Last Viking King of Jorvik",
+  "year": 954,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    54,
+    -2.2
+  ],
+  "entity": "kingdom_of_jorvik",
+  "summary": "Eric Bloodaxe, the last independent Viking king of York, is killed at the Battle of Stainmore in 954, ending the Viking kingdom of Jorvik. His death allows King Edred of Wessex to reunify England. The Danelaw region is absorbed into the English kingdom, though the Norse cultural influence persists in place names (by, thorpe, thwaite) across Yorkshire and the East Midlands.",
+  "outcomes": [
+    "last_viking_york_king_dies",
+    "england_reunified",
+    "danelaw_absorbed"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_jorvik",
+      "kingdom_of_england"
+    ],
+    "structural_significance": "Jorvik's absorption completes the Wessex project of English unification; the Norse cultural substrate in the Danelaw creates a distinct northern English identity; the economic and administrative sophistication of Viking York (a major European trading city) transfers to the unified English kingdom",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

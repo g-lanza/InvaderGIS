@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_kingdom_of_portugal_733_1510",
+  "statement": "Kingdom of Portugal — campaigns and battles spanned 733–1510, from Reconquista to Portuguese Conquest of Goa.",
+  "subject_ids": [
+    "kingdom_of_portugal"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_kingdom_of_portugal_733_1510",
+  "period": {
+    "from": 733,
+    "to": 1510
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

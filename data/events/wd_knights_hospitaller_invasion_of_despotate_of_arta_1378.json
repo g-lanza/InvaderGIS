@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_knights_hospitaller_invasion_of_despotate_of_arta_1378",
+  "name": "Knights Hospitaller invasion of Despotate of Arta",
+  "year": 1378,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    37.1,
+    25.3
+  ],
+  "entity": "knights_hospitaller_rhodes",
+  "summary": "Knights Hospitaller invasion of Despotate of Arta (1378 CE), at Despotate of Arta. Source: Wikidata Q130974196.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "knights_hospitaller_rhodes",
+      "principality_of_achaea"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_hospitallers_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

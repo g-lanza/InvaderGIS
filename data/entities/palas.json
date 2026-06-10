@@ -1,0 +1,864 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "palas",
+  "name_primary": "Pala Empire",
+  "name_variants": [
+    "Palas"
+  ],
+  "type": "kingdom",
+  "region": "south_asia",
+  "formed": 750,
+  "dissolved": 1174,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 800,
+      "label": "Pala Empire (approx.)",
+      "polygon": [
+        [
+          22,
+          87
+        ],
+        [
+          22,
+          88
+        ],
+        [
+          22,
+          90
+        ],
+        [
+          22,
+          92
+        ],
+        [
+          24,
+          92
+        ],
+        [
+          25,
+          91
+        ],
+        [
+          26,
+          90
+        ],
+        [
+          26,
+          87
+        ],
+        [
+          25,
+          86
+        ],
+        [
+          24,
+          85
+        ],
+        [
+          23,
+          85
+        ],
+        [
+          22,
+          87
+        ]
+      ]
+    },
+    {
+      "year": 900,
+      "label": "Pala Empire (approx.)",
+      "polygon": [
+        [
+          22,
+          87
+        ],
+        [
+          22,
+          88
+        ],
+        [
+          22,
+          90
+        ],
+        [
+          22,
+          92
+        ],
+        [
+          24,
+          92
+        ],
+        [
+          25,
+          91
+        ],
+        [
+          26,
+          90
+        ],
+        [
+          26,
+          87
+        ],
+        [
+          25,
+          86
+        ],
+        [
+          24,
+          85
+        ],
+        [
+          23,
+          85
+        ],
+        [
+          22,
+          87
+        ]
+      ]
+    },
+    {
+      "year": 1000,
+      "label": "Pala Empire (approx.)",
+      "polygon": [
+        [
+          22,
+          87
+        ],
+        [
+          22,
+          88
+        ],
+        [
+          22,
+          90
+        ],
+        [
+          22,
+          92
+        ],
+        [
+          24,
+          92
+        ],
+        [
+          25,
+          91
+        ],
+        [
+          26,
+          90
+        ],
+        [
+          26,
+          87
+        ],
+        [
+          25,
+          86
+        ],
+        [
+          24,
+          85
+        ],
+        [
+          23,
+          85
+        ],
+        [
+          22,
+          87
+        ]
+      ]
+    },
+    {
+      "year": 1100,
+      "label": "Pala Empire (approx.)",
+      "polygon": [
+        [
+          22,
+          87
+        ],
+        [
+          22,
+          88
+        ],
+        [
+          22,
+          90
+        ],
+        [
+          22,
+          92
+        ],
+        [
+          24,
+          92
+        ],
+        [
+          25,
+          91
+        ],
+        [
+          26,
+          90
+        ],
+        [
+          26,
+          87
+        ],
+        [
+          25,
+          86
+        ],
+        [
+          24,
+          85
+        ],
+        [
+          23,
+          85
+        ],
+        [
+          22,
+          87
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    23.8963,
+    87.966
+  ],
+  "population_estimates": [
+    {
+      "year": 800,
+      "estimate": 5000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q668412",
+          "url": "https://www.wikidata.org/wiki/Q668412",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Palas",
+          "url": "https://en.wikipedia.org/wiki/Pala_Empire"
+        }
+      ]
+    },
+    {
+      "year": 900,
+      "estimate": 7000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q668412",
+          "url": "https://www.wikidata.org/wiki/Q668412",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Palas",
+          "url": "https://en.wikipedia.org/wiki/Pala_Empire"
+        }
+      ]
+    },
+    {
+      "year": 1050,
+      "estimate": 5000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q668412",
+          "url": "https://www.wikidata.org/wiki/Q668412",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Palas",
+          "url": "https://en.wikipedia.org/wiki/Pala_Empire"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Pala dynasty of Bengal and Bihar (750–1174) that were the last great Indian Buddhist empire; the Palas built Vikramashila and Nalanda universities, the greatest Buddhist monastic institutions in the world, attracting scholars from Tibet, China, and Southeast Asia; Pala metalwork and manuscript illumination defined the international Buddhist artistic style that spread across Asia; Sena dynasty conquest and later Turkish invasion ended both Pala power and organised Buddhism in its Indian homeland.",
+  "temporal": {
+    "start_year": 750,
+    "end_year": 1174,
+    "notes": ""
+  },
+  "geographic": {
+    "centroid": [
+      23.8963,
+      87.966
+    ],
+    "polygon_simplified": [
+      [
+        22,
+        87
+      ],
+      [
+        22,
+        88
+      ],
+      [
+        22,
+        90
+      ],
+      [
+        22,
+        92
+      ],
+      [
+        24,
+        92
+      ],
+      [
+        25,
+        91
+      ],
+      [
+        26,
+        90
+      ],
+      [
+        26,
+        87
+      ],
+      [
+        25,
+        86
+      ],
+      [
+        24,
+        85
+      ],
+      [
+        23,
+        85
+      ],
+      [
+        22,
+        87
+      ]
+    ],
+    "capital": {
+      "name": "Pataliputra",
+      "coords": [
+        25.611,
+        85.144
+      ],
+      "source": "wikidata"
+    },
+    "polygon_snapshots": [
+      {
+        "year": 800,
+        "label": "Pala Empire (approx.)",
+        "polygon": [
+          [
+            22,
+            87
+          ],
+          [
+            22,
+            88
+          ],
+          [
+            22,
+            90
+          ],
+          [
+            22,
+            92
+          ],
+          [
+            24,
+            92
+          ],
+          [
+            25,
+            91
+          ],
+          [
+            26,
+            90
+          ],
+          [
+            26,
+            87
+          ],
+          [
+            25,
+            86
+          ],
+          [
+            24,
+            85
+          ],
+          [
+            23,
+            85
+          ],
+          [
+            22,
+            87
+          ]
+        ]
+      },
+      {
+        "year": 900,
+        "label": "Pala Empire (approx.)",
+        "polygon": [
+          [
+            22,
+            87
+          ],
+          [
+            22,
+            88
+          ],
+          [
+            22,
+            90
+          ],
+          [
+            22,
+            92
+          ],
+          [
+            24,
+            92
+          ],
+          [
+            25,
+            91
+          ],
+          [
+            26,
+            90
+          ],
+          [
+            26,
+            87
+          ],
+          [
+            25,
+            86
+          ],
+          [
+            24,
+            85
+          ],
+          [
+            23,
+            85
+          ],
+          [
+            22,
+            87
+          ]
+        ]
+      },
+      {
+        "year": 1000,
+        "label": "Pala Empire (approx.)",
+        "polygon": [
+          [
+            22,
+            87
+          ],
+          [
+            22,
+            88
+          ],
+          [
+            22,
+            90
+          ],
+          [
+            22,
+            92
+          ],
+          [
+            24,
+            92
+          ],
+          [
+            25,
+            91
+          ],
+          [
+            26,
+            90
+          ],
+          [
+            26,
+            87
+          ],
+          [
+            25,
+            86
+          ],
+          [
+            24,
+            85
+          ],
+          [
+            23,
+            85
+          ],
+          [
+            22,
+            87
+          ]
+        ]
+      },
+      {
+        "year": 1100,
+        "label": "Pala Empire (approx.)",
+        "polygon": [
+          [
+            22,
+            87
+          ],
+          [
+            22,
+            88
+          ],
+          [
+            22,
+            90
+          ],
+          [
+            22,
+            92
+          ],
+          [
+            24,
+            92
+          ],
+          [
+            25,
+            91
+          ],
+          [
+            26,
+            90
+          ],
+          [
+            26,
+            87
+          ],
+          [
+            25,
+            86
+          ],
+          [
+            24,
+            85
+          ],
+          [
+            23,
+            85
+          ],
+          [
+            22,
+            87
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "approximate",
+    "polygon_source": "hand_crafted",
+    "polygon_source_date": "2026-05-11"
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "formation",
+      "years": "750-800",
+      "description": "Pala dynasty founded by Gopala in Bengal after a period of 'matsyanyaya' (anarchy); first Buddhist royal dynasty of Bengal.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q668412",
+          "url": "https://www.wikidata.org/wiki/Q668412"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Palas",
+          "url": "https://en.wikipedia.org/wiki/Pala_Empire"
+        }
+      ]
+    },
+    {
+      "phase": "peak",
+      "years": "770-988",
+      "description": "Dharmapala and Devapala extended Pala power across Bengal, Bihar, and parts of the north; Nalanda and Vikramasila universities flourished.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q668412",
+          "url": "https://www.wikidata.org/wiki/Q668412"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Palas",
+          "url": "https://en.wikipedia.org/wiki/Pala_Empire"
+        }
+      ]
+    },
+    {
+      "phase": "decline",
+      "years": "988-1174",
+      "description": "Chola raids, Gurjara-Pratihara competition, and Sena dynasty rise progressively eroded Pala power.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q668412",
+          "url": "https://www.wikidata.org/wiki/Q668412"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Palas",
+          "url": "https://en.wikipedia.org/wiki/Pala_Empire"
+        }
+      ]
+    },
+    {
+      "phase": "dissolution",
+      "years": "1174",
+      "description": "Last Pala king Govindapala was defeated by the Sena dynasty; Nalanda sacked by Muhammad Khilji (1193).",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q668412",
+          "url": "https://www.wikidata.org/wiki/Q668412"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Palas",
+          "url": "https://en.wikipedia.org/wiki/Pala_Empire"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "religious_legitimacy",
+      "layer": "ideology_religion",
+      "description": "Massive patronage of Nalanda and Vikramasila made Pala Bengal the global centre of Mahayana Buddhism.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q668412",
+          "url": "https://www.wikidata.org/wiki/Q668412"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Palas",
+          "url": "https://en.wikipedia.org/wiki/Pala_Empire"
+        }
+      ],
+      "tag_prose": "buddhist_patronage"
+    },
+    {
+      "tag": "ganges_delta_wealth",
+      "layer": "economic_commercial",
+      "description": "Rich Bengal delta agriculture supported large armies and court patronage.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q668412",
+          "url": "https://www.wikidata.org/wiki/Q668412"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Palas",
+          "url": "https://en.wikipedia.org/wiki/Pala_Empire"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "sena_replacement",
+      "layer": "military_security",
+      "description": "Hindu Sena dynasty overthrew the last Pala rulers and reversed Buddhist patronage.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q668412",
+          "url": "https://www.wikidata.org/wiki/Q668412"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Palas",
+          "url": "https://en.wikipedia.org/wiki/Pala_Empire"
+        }
+      ]
+    },
+    {
+      "tag": "ghurid_raids",
+      "layer": "military_security",
+      "description": "Muhammad Khilji's campaigns (1203) destroyed Nalanda and Bihar's Buddhist monasteries, ending the cultural foundation.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q668412",
+          "url": "https://www.wikidata.org/wiki/Q668412"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Palas",
+          "url": "https://en.wikipedia.org/wiki/Pala_Empire"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Gopala",
+      "role": "founder",
+      "years": "750–770",
+      "year_start": 750,
+      "year_end": 770,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Gopala",
+          "url": "https://en.wikipedia.org/wiki/Gopala_I"
+        }
+      ]
+    },
+    {
+      "name": "Dharmapala",
+      "role": "ruler",
+      "years": "770–810",
+      "year_start": 770,
+      "year_end": 810,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Dharmapala",
+          "url": "https://en.wikipedia.org/wiki/Dharmapala"
+        }
+      ]
+    },
+    {
+      "name": "Devapala",
+      "role": "ruler",
+      "years": "810–850",
+      "year_start": 810,
+      "year_end": 850,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Devapala",
+          "url": "https://en.wikipedia.org/wiki/Devapala"
+        }
+      ]
+    },
+    {
+      "name": "Mahipala I",
+      "role": "ruler",
+      "years": "988–1038",
+      "year_start": 988,
+      "year_end": 1038,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Mahipala I",
+          "url": "https://en.wikipedia.org/wiki/Mahipala_I"
+        }
+      ]
+    }
+  ],
+  "successor_entity_ids": [
+    "senas"
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "long_distance_trade",
+      "silk_production",
+      "temple_economy"
+    ],
+    "wealth_level": "high",
+    "major_exports": [
+      "silk",
+      "cotton",
+      "grain",
+      "ivory"
+    ],
+    "major_trade_partners": [
+      "srivijaya_empire",
+      "tibet",
+      "arab_merchants"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "port_duties",
+      "monastic_donations"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q668412",
+        "url": "https://www.wikidata.org/wiki/Q668412"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Palas",
+        "url": "https://en.wikipedia.org/wiki/Pala_Empire"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q668412",
+    "matched_name": "manual/palas",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pala_Empire",
+    "capital": {
+      "name": "Pataliputra",
+      "coords": [
+        25.611,
+        85.144
+      ]
+    },
+    "rulers_from_wikidata": [
+      {
+        "name": "Gopala",
+        "qid": "Q3352284",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3352284",
+            "url": "https://www.wikidata.org/wiki/Q3352284"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Gopala",
+            "url": "https://en.wikipedia.org/wiki/Gopala_I"
+          }
+        ]
+      }
+    ]
+  },
+  "monogram": "PE"
+}

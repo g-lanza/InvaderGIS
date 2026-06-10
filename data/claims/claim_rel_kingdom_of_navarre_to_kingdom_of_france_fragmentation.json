@@ -1,0 +1,31 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_kingdom_of_navarre_to_kingdom_of_france_fragmentation",
+  "statement": "Derived from predecessor/successor links recorded in the kingdom_of_navarre and kingdom_of_france entity records. Transition anchored to kingdom_of_france start_year.",
+  "subject_ids": [
+    "kingdom_of_navarre",
+    "kingdom_of_france"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_kingdom_of_navarre_to_kingdom_of_france_fragmentation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 987,
+    "to": 987
+  }
+}

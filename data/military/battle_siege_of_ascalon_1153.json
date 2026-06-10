@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_siege_of_ascalon_1153",
+  "name": "Siege of Ascalon",
+  "subtype": "battle",
+  "start_year": 1153,
+  "end_year": 1153,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q677982"
+    }
+  },
+  "description": "Battle during Crusader battles between 1149 and 1189 (1153)",
+  "coords": [
+    34.5481,
+    31.6671
+  ]
+}

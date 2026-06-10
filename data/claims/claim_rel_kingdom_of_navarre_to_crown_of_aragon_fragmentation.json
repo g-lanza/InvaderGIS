@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_kingdom_of_navarre_to_crown_of_aragon_fragmentation",
+  "statement": "Derived from predecessor/successor links recorded in the kingdom_of_navarre and crown_of_aragon entity records. Transition anchored to crown_of_aragon start_year.",
+  "subject_ids": [
+    "kingdom_of_navarre",
+    "crown_of_aragon"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_kingdom_of_navarre_to_crown_of_aragon_fragmentation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "crown_of_aragon"
+  ],
+  "period": {
+    "from": 1162,
+    "to": 1162
+  }
+}

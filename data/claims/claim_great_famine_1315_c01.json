@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_great_famine_1315_c01",
+  "statement": "Beginning in 1315, seven years of catastrophic harvest failures struck Northern Europe, associated with the start of the Little Ice Age.",
+  "subject_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 1315,
+    "to": 1315
+  },
+  "derived_from": "great_famine_1315",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

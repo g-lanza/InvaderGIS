@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_university_of_salamanca_1218_c02",
+  "statement": "Alfonso X of Castile-León confirmed and expanded the Salamanca statutes in 1254, and Alexander IV granted the ius ubique docendi in 1255.",
+  "subject_ids": [
+    "kingdom_of_leon"
+  ],
+  "period": {
+    "from": 1218,
+    "to": 1218
+  },
+  "derived_from": "university_of_salamanca_1218",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "bartlett_making_of_europe_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

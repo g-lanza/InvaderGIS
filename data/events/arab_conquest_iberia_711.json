@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "arab_conquest_iberia_711",
+  "name": "Arab Conquest of Iberia",
+  "year": 711,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    36.1,
+    -5.3
+  ],
+  "entity": "visigothic_kingdom",
+  "summary": "Tariq ibn Ziyad crosses the Strait of Gibraltar with a Berber-Arab army, defeats Visigothic King Roderic at the Battle of Guadalete, and sweeps through Iberia within three years. Only the mountainous north resists. The Muslim-Berber conquest creates al-Andalus, which becomes one of medieval Europe's most sophisticated civilizations.",
+  "outcomes": [
+    "visigothic_kingdom_destroyed",
+    "al_andalus_established",
+    "reconquista_begins"
+  ],
+  "_quarry": {
+    "participants": [
+      "visigothic_kingdom"
+    ],
+    "structural_significance": "Removes the Visigothic kingdom and creates al-Andalus; the Christian remnants in Asturias launch the Reconquista that lasts 781 years; the cultural interaction of Islam, Christianity, and Judaism in Iberia produces exceptional intellectual achievements.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "collins_visigothic_2004",
+      "thompson_the_1969"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

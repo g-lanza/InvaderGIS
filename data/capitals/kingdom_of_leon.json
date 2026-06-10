@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_leon",
+  "name": "León",
+  "entity_id": "kingdom_of_leon",
+  "entity_name": "Kingdom of León",
+  "start_year": 910,
+  "end_year": 1230,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q175276"
+    }
+  },
+  "coords": [
+    -5.56694,
+    42.59889
+  ]
+}

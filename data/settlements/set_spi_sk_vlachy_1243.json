@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_spi_sk_vlachy_1243",
+  "name": "Spišské Vlachy",
+  "importance": "city",
+  "start_year": 1243,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q524405"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    20.7972,
+    48.9497
+  ]
+}

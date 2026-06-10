@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_strathclyde_870",
+  "name": "Vikings Sack Dumbarton",
+  "year": 870,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    55.45,
+    -3.6
+  ],
+  "entity": "kingdom_of_strathclyde",
+  "summary": "Norse and Dublin Viking forces besieged and sacked Dumbarton Rock, the capital of Strathclyde, in 870 CE after a four-month siege. The enslavement of the captured population was one of the largest single slave-taking events in British history, severely weakening Strathclyde.",
+  "outcomes": [
+    "capital_sacked",
+    "population_enslaved",
+    "kingdom_weakened"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_strathclyde"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

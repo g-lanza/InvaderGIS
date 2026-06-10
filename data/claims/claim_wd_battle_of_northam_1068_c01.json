@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_northam_1068_c01",
+  "statement": "Battle of Northam (1068 CE), at Northam (part of Norman conquest of England).",
+  "subject_ids": [
+    "kingdom_of_leinster"
+  ],
+  "period": {
+    "from": 1068,
+    "to": 1068
+  },
+  "derived_from": "wd_battle_of_northam_1068",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

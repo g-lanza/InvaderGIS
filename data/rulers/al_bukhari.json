@@ -1,0 +1,52 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "al_bukhari",
+  "name": "Muḥammad ibn Ismāʿīl al-Bukhārī",
+  "polity": "abbasid_caliphate",
+  "title": "scholar",
+  "reign_start": 826,
+  "reign_end": 870,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 810,
+      "death_year": 870
+    },
+    "entity_associations": [
+      {
+        "entity_id": "abbasid_caliphate",
+        "role": "scholar",
+        "start_year": 826,
+        "end_year": 870
+      }
+    ],
+    "key_actions": [
+      {
+        "year": 826,
+        "summary": "Begins his hadith-collection journeys at age sixteen, ultimately interviewing reported transmitters across Khurasan, Iraq, Hijaz, Syria, and Egypt over sixteen years.",
+        "source_id": "hodgson_venture_of_islam_1974"
+      },
+      {
+        "year": 850,
+        "summary": "Completes the Ṣaḥīḥ — ~7,275 hadith reports (with repetitions) selected from over 600,000 inspected by isnād criticism.",
+        "source_id": "hodgson_venture_of_islam_1974"
+      },
+      {
+        "year": 870,
+        "summary": "Dies at Khartank near Samarkand after expulsion from Nishapur by the local governor over a doctrinal dispute.",
+        "source_id": "hodgson_venture_of_islam_1974"
+      }
+    ],
+    "region": "central_asia",
+    "name_variants": [
+      "Imam Bukhari"
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "hodgson_venture_of_islam_1974"
+    ],
+    "confidence": "low"
+  }
+}

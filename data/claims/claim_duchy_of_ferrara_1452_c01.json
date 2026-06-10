@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_duchy_of_ferrara_1452_c01",
+  "statement": "Emperor Frederick III elevated Ferrara to a duchy in 1452.",
+  "subject_ids": [
+    "duchy_of_ferrara"
+  ],
+  "period": {
+    "from": 1452,
+    "to": 1452
+  },
+  "derived_from": "duchy_of_ferrara_1452",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

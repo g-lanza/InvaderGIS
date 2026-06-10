@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_second_battle_of_cellorigo_883_c01",
+  "statement": "Second Battle of Cellorigo (883 CE), at Cellorigo (part of Reconquista).",
+  "subject_ids": [
+    "kingdom_of_asturias"
+  ],
+  "period": {
+    "from": 883,
+    "to": 883
+  },
+  "derived_from": "wd_second_battle_of_cellorigo_883",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

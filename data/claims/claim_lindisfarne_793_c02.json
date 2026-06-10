@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_lindisfarne_793_c02",
+  "statement": "During the 793 Viking raid on Lindisfarne, the monks were killed or enslaved and the monastery's treasures looted.",
+  "subject_ids": [
+    "kingdom_of_northumbria"
+  ],
+  "period": {
+    "from": 793,
+    "to": 793
+  },
+  "derived_from": "lindisfarne_793",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_principality_of_pskov_1348_c01",
+  "statement": "The Treaty of Bolotovo in 1348 recognised Pskov as an independent republic, separating it from Novgorodian overlordship.",
+  "subject_ids": [
+    "principality_of_pskov"
+  ],
+  "period": {
+    "from": 1348,
+    "to": 1348
+  },
+  "derived_from": "principality_of_pskov_1348",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_byzantine_to_ottoman",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "byzantine_empire",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "ottoman_empire",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 1453,
+  "until": 1453,
+  "note": "The Ottoman Empire's absorption of Byzantine territories occurred over a century-long process (1354–1453): Gallipoli fell (1354), Adrianople became the Ottoman capital (1365), Constantinople was surrounded on all sides after the 1390s, surviving through Timur's intervention (1402) and careful diplomacy. The final siege (1453) lasted 53 days; massive Hungarian-cast bombards breached the Theodosian Walls. Emperor Constantine XI died fighting on the walls. Mehmed II entered the city, prayed in Hagia Sophia, and proclaimed himself 'Caesar of Rome.' The fall shocked Western Christendom and ended 1,123 years of Roman imperial continuity.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Ottoman absorption of Byzantium is the single most consequential political event of the 15th century; the fall disperses Greek scholars westward (contributing to the Renaissance), seals Ottoman control of the Bosphorus, and begins the Ottoman phase of Mediterranean supremacy that lasts until Lepanto (1571)"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991",
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

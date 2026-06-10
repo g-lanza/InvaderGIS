@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_golubac_1428_c01",
+  "statement": "Siege of Golubac (1428 CE), at Golubac (part of War of the South Danube).",
+  "subject_ids": [
+    "ottoman_empire"
+  ],
+  "period": {
+    "from": 1428,
+    "to": 1428
+  },
+  "derived_from": "wd_siege_of_golubac_1428",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

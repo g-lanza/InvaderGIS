@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_duchy_of_tuscany_1115_c01",
+  "statement": "The death of Countess Matilda of Tuscany in 1115 ended one of the most powerful independent rulers in Italy.",
+  "subject_ids": [
+    "duchy_of_tuscany"
+  ],
+  "period": {
+    "from": 1115,
+    "to": 1115
+  },
+  "derived_from": "duchy_of_tuscany_1115",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

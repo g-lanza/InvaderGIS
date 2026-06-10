@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "llywelyn_last_1282",
+  "name": "Llywelyn ap Gruffudd, Last Prince of Wales",
+  "year": 1282,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    52.4,
+    -3.49
+  ],
+  "entity": "principality_of_wales",
+  "summary": "Llywelyn ap Gruffudd, recognized by the Treaty of Montgomery (1267) as Prince of Wales with authority over all other Welsh lords, is killed in a minor skirmish at Orewin Bridge in December 1282, apparently not recognizing the ambush until it was too late. His death immediately collapses Welsh resistance; his brother Dafydd is captured and executed in 1283. Edward I completes the conquest.",
+  "outcomes": [
+    "llywelyn_killed",
+    "welsh_rebellion_ends",
+    "wales_conquest_completed"
+  ],
+  "_quarry": {
+    "participants": [
+      "principality_of_wales",
+      "kingdom_of_england"
+    ],
+    "structural_significance": "Llywelyn's death transforms Wales from an autonomous principality into an English-administered territory; the execution of the male Gwynedd line eliminates potential future centers of resistance; the cultural significance is enormous, the Welsh bards commemorate Llywelyn's death as the end of Welsh political sovereignty that would not be restored until the 20th-century devolution; the Statute of Rhuddlan (1284) imposes English legal and administrative structures",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

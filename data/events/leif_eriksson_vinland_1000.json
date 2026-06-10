@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "leif_eriksson_vinland_1000",
+  "name": "Leif Eriksson's Vinland Expedition",
+  "year": 1000,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    51.598,
+    -55.522
+  ],
+  "entity": "norse_greenland",
+  "summary": "Around 1000 CE, Leif Eriksson sailed west from Greenland to explore lands reported by Bjarni Herjólfsson. He established a camp at a place called Vínland, identified with L'Anse aux Meadows in Newfoundland through archaeological excavation in 1960. Further expeditions under Þorfinnr Karlsefni attempted permanent settlement but were driven off by indigenous peoples (Skraelings). The Norse discovery of America predates Columbus by nearly five centuries.",
+  "outcomes": [
+    "Norse settlement at L'Anse aux Meadows (Newfoundland)",
+    "First known European contact with Americas",
+    "Settlement abandoned after indigenous resistance",
+    "Known only from Icelandic sagas until 1960 archaeology"
+  ],
+  "_quarry": {
+    "participants": [
+      "norse_greenland",
+      "kingdom_of_norway"
+    ],
+    "structural_significance": "The first documented European landfall in the Americas; though it left no lasting impact, it demonstrates the remarkable range of Viking maritime exploration.",
+    "year_range": [
+      1000,
+      1020
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Jones, The Norse Atlantic Saga",
+      "Wallace, Vinland Revisited"
+    ],
+    "confidence": "low"
+  }
+}

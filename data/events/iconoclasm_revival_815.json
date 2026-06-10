@@ -1,0 +1,31 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "iconoclasm_revival_815",
+  "name": "Second Iconoclasm (Leo V)",
+  "year": 815,
+  "type": "religious_council",
+  "category": "religion",
+  "coords": [
+    41.0086,
+    28.9802
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Emperor Leo V the Armenian summons a synod at the Hagia Sophia that reverses the decisions of the Seventh Ecumenical Council (787) and reinstates iconoclasm. The patriarch Nikephoros is deposed; Theodore the Studite leads the iconodule resistance.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire"
+    ],
+    "structural_significance": "Second iconoclast period (815–843) renews internal Byzantine religious conflict; the resistance of figures like Theodore the Studite shapes the long-term tradition of monastic opposition to imperial doctrinal innovation.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "meyendorff_byzantium_and_rise_of_russia_1981",
+      "kazhdan_oxford_dictionary_byzantium_1991"
+    ],
+    "confidence": "low"
+  }
+}

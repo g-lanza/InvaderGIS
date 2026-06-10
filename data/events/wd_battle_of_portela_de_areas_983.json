@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_portela_de_areas_983",
+  "name": "Battle of Portela de Areas",
+  "year": 983,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    42.74,
+    -7.075
+  ],
+  "entity": "kingdom_of_leon",
+  "summary": "Battle of Portela de Areas (983 CE), at Monterroso. Source: Wikidata Q123118024.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_leon",
+      "kingdom_of_galicia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

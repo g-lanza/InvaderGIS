@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_the_river_idle_616",
+  "name": "Battle of the River Idle",
+  "year": 616,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    52.45,
+    1
+  ],
+  "entity": "kingdom_of_east_anglia",
+  "summary": "Battle of the River Idle (616 CE), at River Idle. Source: Wikidata Q9172529.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_east_anglia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

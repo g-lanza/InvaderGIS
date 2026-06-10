@@ -1,0 +1,31 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_brabant_hre",
+  "statement": "The Duchy of Brabant — encompassing modern Belgium and southern Netherlands — emerged as a major imperial duchy in the late 12th century, elevated from county to duchy (1183). Brabant controlled the strategic crossroads between the Rhine, Scheldt, and Meuse river systems, making it the commercial hub of the Low Countries. The duchy attracted textile workers, merchants, and bankers to cities like Brussels, Leuven, and Antwerp. Burgundian acquisition of Brabant (1430) integrated it into the Burgundian state that eventually passed to the Habsburgs, making Antwerp the center of the 16th-century northern European commercial revolution.",
+  "subject_ids": [
+    "holy_roman_empire",
+    "duchy_of_brabant"
+  ],
+  "predicate": "vassalage",
+  "derived_from": "rel_brabant_hre",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "duchy_of_brabant"
+  ],
+  "period": {
+    "from": 1183,
+    "to": 1430
+  }
+}

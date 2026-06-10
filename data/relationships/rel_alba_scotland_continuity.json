@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_alba_scotland_continuity",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_alba",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "kingdom_of_scotland",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 1100,
+  "until": 1100,
+  "note": "The Kingdom of Alba (the Gaelic-Pictish kingdom that emerged after Kenneth MacAlpin united the Picts and Scots c. 843) gradually became the Kingdom of Scotland through territorial expansion and anglicization under David I (1124–1153). David I introduced Norman feudal institutions, Anglo-Norman settlers, and Benedictine monasteries; his court spoke Latin and French alongside Gaelic. The name 'Scotland' (from 'Scoti,' the Latin for the Irish/Gaelic people) replaced 'Alba' in international usage by the 11th–12th century, reflecting both the Gaelic origin and the subsequent cultural transformation.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Alba's transformation into Scotland through the gradual Normanization of its institutions under David I creates the medieval Scottish state that resists English conquest; David's import of feudal institutions gives Scotland the administrative capacity to function as a European kingdom rather than a tribal confederation"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "barrell_medieval_2000",
+      "brown_the_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

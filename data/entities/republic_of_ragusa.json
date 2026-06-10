@@ -1,0 +1,2309 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "republic_of_ragusa",
+  "name_primary": "Republic of Ragusa",
+  "name_variants": [
+    "Dubrovnik"
+  ],
+  "type": "republic",
+  "region": "southeastern_europe",
+  "formed": 1358,
+  "dissolved": 1808,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 1385,
+      "label": "Republic of Ragusa",
+      "polygon": [
+        [
+          42.82,
+          18.15
+        ],
+        [
+          42.89,
+          18.23
+        ],
+        [
+          43.02,
+          18.08
+        ],
+        [
+          43.02,
+          17.84
+        ],
+        [
+          42.89,
+          17.83
+        ],
+        [
+          42.89,
+          17.91
+        ],
+        [
+          42.82,
+          17.91
+        ],
+        [
+          42.82,
+          18.15
+        ]
+      ]
+    },
+    {
+      "year": 1402,
+      "label": "Republic of Ragusa",
+      "polygon": [
+        [
+          [
+            42.82,
+            18.15
+          ],
+          [
+            42.76,
+            18.15
+          ],
+          [
+            42.76,
+            17.99
+          ],
+          [
+            42.89,
+            17.83
+          ],
+          [
+            42.89,
+            17.51
+          ],
+          [
+            42.95,
+            17.52
+          ],
+          [
+            43.02,
+            18.08
+          ],
+          [
+            42.82,
+            18.23
+          ],
+          [
+            42.82,
+            18.15
+          ]
+        ],
+        [
+          [
+            42.76,
+            17.75
+          ],
+          [
+            42.69,
+            17.67
+          ],
+          [
+            42.76,
+            17.75
+          ]
+        ]
+      ]
+    },
+    {
+      "year": 1415,
+      "label": "Republic of Ragusa",
+      "polygon": [
+        [
+          42.82,
+          18.15
+        ],
+        [
+          42.76,
+          18.15
+        ],
+        [
+          42.76,
+          17.99
+        ],
+        [
+          42.89,
+          17.83
+        ],
+        [
+          42.82,
+          17.51
+        ],
+        [
+          43.02,
+          17.52
+        ],
+        [
+          43.02,
+          18.08
+        ],
+        [
+          42.82,
+          18.23
+        ],
+        [
+          42.82,
+          18.15
+        ]
+      ]
+    },
+    {
+      "year": 1429,
+      "label": "Republic of Ragusa",
+      "polygon": [
+        [
+          42.89,
+          17.83
+        ],
+        [
+          42.82,
+          17.51
+        ],
+        [
+          43.02,
+          17.52
+        ],
+        [
+          43.02,
+          18.08
+        ],
+        [
+          42.63,
+          18.3
+        ],
+        [
+          42.63,
+          18.14
+        ],
+        [
+          42.89,
+          17.83
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    42.9124,
+    17.8661
+  ],
+  "religion": "catholic",
+  "population_estimates": [
+    {
+      "year": 1200,
+      "estimate": 21000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q208169",
+          "url": "https://www.wikidata.org/wiki/Q208169",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Republic of Ragusa",
+          "url": "https://en.wikipedia.org/wiki/Republic_of_Ragusa"
+        }
+      ]
+    },
+    {
+      "year": 1350,
+      "estimate": 30000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q208169",
+          "url": "https://www.wikidata.org/wiki/Q208169",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Republic of Ragusa",
+          "url": "https://en.wikipedia.org/wiki/Republic_of_Ragusa"
+        }
+      ]
+    },
+    {
+      "year": 1500,
+      "estimate": 33000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q208169",
+          "url": "https://www.wikidata.org/wiki/Q208169",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Republic of Ragusa",
+          "url": "https://en.wikipedia.org/wiki/Republic_of_Ragusa"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low"
+  },
+  "description": "Adriatic city-republic (1358–1806) centred on Dubrovnik that maintained remarkable independence through skilful diplomacy and commercial neutrality; its elaborately codified maritime law, early abolition of the slave trade (1416), and network of trade agents from Spain to Persia made it the most commercially sophisticated small state of the medieval and early modern Mediterranean.",
+  "temporal": {
+    "start_year": 1358,
+    "end_year": 1808,
+    "end_year_within_scope": null,
+    "start_event_id": null,
+    "end_event_id": null,
+    "notes": "Maritime republic; survives to Napoleonic era."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      42.9124,
+      17.8661
+    ],
+    "core_regions": [
+      "Dalmatia",
+      "Ragusa"
+    ],
+    "polygon_simplified": [
+      [
+        42.82,
+        18.15
+      ],
+      [
+        42.76,
+        18.15
+      ],
+      [
+        42.76,
+        17.99
+      ],
+      [
+        42.89,
+        17.83
+      ],
+      [
+        42.82,
+        17.51
+      ],
+      [
+        43.02,
+        17.52
+      ],
+      [
+        43.02,
+        18.08
+      ],
+      [
+        42.82,
+        18.23
+      ],
+      [
+        42.82,
+        18.15
+      ]
+    ],
+    "notes": "Centroid approximate; polygon pending schematic or OHM sourcing.",
+    "polygon_snapshots": [
+      {
+        "year": 1385,
+        "label": "Republic of Ragusa",
+        "polygon": [
+          [
+            42.82,
+            18.15
+          ],
+          [
+            42.89,
+            18.23
+          ],
+          [
+            43.02,
+            18.08
+          ],
+          [
+            43.02,
+            17.84
+          ],
+          [
+            42.89,
+            17.83
+          ],
+          [
+            42.89,
+            17.91
+          ],
+          [
+            42.82,
+            17.91
+          ],
+          [
+            42.82,
+            18.15
+          ]
+        ]
+      },
+      {
+        "year": 1402,
+        "label": "Republic of Ragusa",
+        "polygon": [
+          [
+            [
+              42.82,
+              18.15
+            ],
+            [
+              42.76,
+              18.15
+            ],
+            [
+              42.76,
+              17.99
+            ],
+            [
+              42.89,
+              17.83
+            ],
+            [
+              42.89,
+              17.51
+            ],
+            [
+              42.95,
+              17.52
+            ],
+            [
+              43.02,
+              18.08
+            ],
+            [
+              42.82,
+              18.23
+            ],
+            [
+              42.82,
+              18.15
+            ]
+          ],
+          [
+            [
+              42.76,
+              17.75
+            ],
+            [
+              42.69,
+              17.67
+            ],
+            [
+              42.76,
+              17.75
+            ]
+          ]
+        ]
+      },
+      {
+        "year": 1415,
+        "label": "Republic of Ragusa",
+        "polygon": [
+          [
+            42.82,
+            18.15
+          ],
+          [
+            42.76,
+            18.15
+          ],
+          [
+            42.76,
+            17.99
+          ],
+          [
+            42.89,
+            17.83
+          ],
+          [
+            42.82,
+            17.51
+          ],
+          [
+            43.02,
+            17.52
+          ],
+          [
+            43.02,
+            18.08
+          ],
+          [
+            42.82,
+            18.23
+          ],
+          [
+            42.82,
+            18.15
+          ]
+        ]
+      },
+      {
+        "year": 1429,
+        "label": "Republic of Ragusa",
+        "polygon": [
+          [
+            42.89,
+            17.83
+          ],
+          [
+            42.82,
+            17.51
+          ],
+          [
+            43.02,
+            17.52
+          ],
+          [
+            43.02,
+            18.08
+          ],
+          [
+            42.63,
+            18.3
+          ],
+          [
+            42.63,
+            18.14
+          ],
+          [
+            42.89,
+            17.83
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "real_historical_boundary",
+    "polygon_source": "Seshat-Global-History-Databank/cliopatria",
+    "polygon_source_date": "2026-05-10",
+    "capital": {
+      "name": "Dubrovnik",
+      "coords": [
+        42.64028,
+        18.10833
+      ],
+      "source": "wikidata"
+    }
+  },
+  "internal_structure": {
+    "centralization": "low_to_medium",
+    "centralization_trajectory": null,
+    "governance_type": "republican",
+    "legitimacy_basis": [
+      "elective_office",
+      "commercial_charter"
+    ],
+    "administrative_system": ""
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "formation",
+      "years": "c.1358–1385",
+      "description": "Ragusa gains independence from Venice under the Treaty of Zadar.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q208169",
+          "url": "https://www.wikidata.org/wiki/Q208169"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Republic of Ragusa",
+          "url": "https://en.wikipedia.org/wiki/Republic_of_Ragusa"
+        }
+      ]
+    },
+    {
+      "phase": "consolidation",
+      "years": "1385–1430",
+      "description": "Republic stabilizes; Balkan trade networks develop.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q208169",
+          "url": "https://www.wikidata.org/wiki/Q208169"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Republic of Ragusa",
+          "url": "https://en.wikipedia.org/wiki/Republic_of_Ragusa"
+        }
+      ]
+    },
+    {
+      "phase": "expansion",
+      "years": "1430–1500",
+      "description": "Height of Ragusan commercial reach; Ottoman diplomatic relations managed skillfully.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q208169",
+          "url": "https://www.wikidata.org/wiki/Q208169"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Republic of Ragusa",
+          "url": "https://en.wikipedia.org/wiki/Republic_of_Ragusa"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "trade_route_control",
+      "layer": "economic_commercial",
+      "description": "Ragusa commanded Adriatic sea lanes and served as the key entrepôt between the Balkans and Mediterranean merchants.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q208169",
+          "url": "https://www.wikidata.org/wiki/Q208169"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Republic of Ragusa",
+          "url": "https://en.wikipedia.org/wiki/Republic_of_Ragusa"
+        }
+      ]
+    },
+    {
+      "tag": "administrative_innovation",
+      "layer": "governance_institutional",
+      "description": "Ragusan republican governance, Rector, Senate, Grand Council, was a sophisticated mercantile oligarchy managing complex foreign policy.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q208169",
+          "url": "https://www.wikidata.org/wiki/Q208169"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Republic of Ragusa",
+          "url": "https://en.wikipedia.org/wiki/Republic_of_Ragusa"
+        }
+      ]
+    },
+    {
+      "tag": "geographic_defensibility",
+      "layer": "geography_territory",
+      "description": "Island-peninsula position with exceptionally strong walls; Ragusa never fell to military assault in its independent history.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q208169",
+          "url": "https://www.wikidata.org/wiki/Q208169"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Republic of Ragusa",
+          "url": "https://en.wikipedia.org/wiki/Republic_of_Ragusa"
+        }
+      ]
+    },
+    {
+      "layer": "external_political",
+      "tag": "strategic_neutrality",
+      "direction": "rise",
+      "description": "Ragusa (Dubrovnik) maintained commercial relations with Venice, the Ottoman Empire, Hungary, and the papacy simultaneously through careful neutrality and tribute payments. Its survival depended entirely on diplomatic skill rather than military power.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q208169",
+          "url": "https://www.wikidata.org/wiki/Q208169"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Republic of Ragusa",
+          "url": "https://en.wikipedia.org/wiki/Republic_of_Ragusa"
+        }
+      ]
+    },
+    {
+      "layer": "economic_commercial",
+      "tag": "trade_route_control",
+      "direction": "rise",
+      "description": "Ragusan merchants operated commercial networks across the Balkans, entering Ottoman territory as the empire's preferred Christian trading partners. Ragusan trading colonies (in Sarajevo, Novi Pazar, and Belgrade) channeled Balkan goods to western European markets.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q208169",
+          "url": "https://www.wikidata.org/wiki/Q208169"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Republic of Ragusa",
+          "url": "https://en.wikipedia.org/wiki/Republic_of_Ragusa"
+        }
+      ],
+      "tag_prose": "adriatic_trade_entrepôt"
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "patrician_council_governance",
+      "direction": "rise",
+      "description": "The Rector of Ragusa served one-month terms, preventing personal power accumulation. This rotating oligarchic system, unusual among medieval states, maintained political stability while preventing the aristocratic coups that destroyed other Italian city-states.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q208169",
+          "url": "https://www.wikidata.org/wiki/Q208169"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Republic of Ragusa",
+          "url": "https://en.wikipedia.org/wiki/Republic_of_Ragusa"
+        }
+      ]
+    },
+    {
+      "layer": "external_political",
+      "tag": "tribute_neutrality",
+      "direction": "rise",
+      "description": "Ragusa paid annual tribute to both the Ottoman Empire and later Austria, maintaining formal neutrality that protected its merchant fleet and trading privileges in every major Mediterranean market simultaneously.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q208169",
+          "url": "https://www.wikidata.org/wiki/Q208169"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Republic of Ragusa",
+          "url": "https://en.wikipedia.org/wiki/Republic_of_Ragusa"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "economic_disruption",
+      "layer": "economic_commercial",
+      "description": "Ottoman competition with Venetian and Ragusan trade routes created friction from the late 15th century.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q208169",
+          "url": "https://www.wikidata.org/wiki/Q208169"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Republic of Ragusa",
+          "url": "https://en.wikipedia.org/wiki/Republic_of_Ragusa"
+        }
+      ]
+    },
+    {
+      "tag": "external_military_pressure",
+      "layer": "military_security",
+      "description": "Ottoman suzerainty required annual tribute but preserved Ragusan commercial independence through skilled diplomacy.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q208169",
+          "url": "https://www.wikidata.org/wiki/Q208169"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Republic of Ragusa",
+          "url": "https://en.wikipedia.org/wiki/Republic_of_Ragusa"
+        }
+      ]
+    },
+    {
+      "layer": "economic_commercial",
+      "tag": "ottoman_competition",
+      "direction": "decline",
+      "description": "As the Ottoman Empire expanded, it established its own commercial networks that progressively bypassed Ragusan intermediaries. Ragusa remained prosperous but its unique position as the preferred Balkan trade partner was increasingly challenged by Ottoman state merchants.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q208169",
+          "url": "https://www.wikidata.org/wiki/Q208169"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Republic of Ragusa",
+          "url": "https://en.wikipedia.org/wiki/Republic_of_Ragusa"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "person_id": "benedikt_kotruljević",
+      "name": "Benedikt Kotruljević",
+      "role": "administrator",
+      "years": "c.1416–1469",
+      "year_start": 1416,
+      "year_end": 1469,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Benedikt Kotruljević",
+          "url": "https://en.wikipedia.org/wiki/Benedetto_Cotrugli"
+        }
+      ]
+    }
+  ],
+  "predecessor_entity_ids": [
+    "byzantine_empire"
+  ],
+  "primary_ethnicity": "italian_roman",
+  "ethnic_composition": [
+    {
+      "group": "italian_roman",
+      "proportion": 0.55
+    },
+    {
+      "group": "slavic",
+      "proportion": 0.4
+    }
+  ],
+  "religion_composition": [
+    {
+      "religion": "catholic",
+      "proportion": 0.91
+    },
+    {
+      "religion": "pagan",
+      "proportion": 0.05
+    },
+    {
+      "religion": "orthodox",
+      "proportion": 0.04
+    }
+  ],
+  "primary_language": "italian_lang",
+  "language_composition": [
+    {
+      "language": "italian_lang",
+      "proportion": 0.52,
+      "role": "administrative"
+    },
+    {
+      "language": "church_slavonic",
+      "proportion": 0.38,
+      "role": "vernacular"
+    },
+    {
+      "language": "latin",
+      "proportion": 0.08,
+      "role": "liturgical"
+    },
+    {
+      "language": "greek",
+      "proportion": 0.02,
+      "role": "regional"
+    }
+  ],
+  "economic": {
+    "primary_base": "maritime_trade",
+    "secondary_bases": [
+      "long_distance_trade",
+      "manufacturing"
+    ],
+    "wealth_level": "high",
+    "major_exports": [
+      "silver",
+      "lead",
+      "salt",
+      "cloth",
+      "grain"
+    ],
+    "major_trade_partners": [
+      "ottoman_empire",
+      "kingdom_of_naples",
+      "mamluk_sultanate"
+    ],
+    "revenue_sources": [
+      "customs_duties",
+      "commercial_taxes",
+      "land_tax"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q208169",
+        "url": "https://www.wikidata.org/wiki/Q208169"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Republic of Ragusa",
+        "url": "https://en.wikipedia.org/wiki/Republic_of_Ragusa"
+      }
+    ]
+  },
+  "social_structure": {
+    "ruling_ethnicity": "italian_roman",
+    "subject_majority": "slavic",
+    "military_ethnicity": "italian_roman",
+    "administrative_language": "italian_lang",
+    "stratification_type": "merchant_oligarchy"
+  },
+  "wikidata_enrichment": {
+    "qid": "Q208169",
+    "matched_name": "Republic of Ragusa",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Republic_of_Ragusa",
+    "capital": {
+      "name": "Dubrovnik",
+      "coords": [
+        42.64028,
+        18.10833
+      ]
+    },
+    "rulers_from_wikidata": [
+      {
+        "name": "Nikola Vitov Gučetić",
+        "qid": "Q1764051",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1764051",
+            "url": "https://www.wikidata.org/wiki/Q1764051"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Nikola Vitov Gučetić",
+            "url": "https://en.wikipedia.org/wiki/Nikola_Vitov_Gučetić"
+          }
+        ]
+      },
+      {
+        "name": "Marco Mauroceno",
+        "qid": "Q90267158",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90267158",
+            "url": "https://www.wikidata.org/wiki/Q90267158"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Marco Mauroceno",
+            "url": "https://en.wikipedia.org/wiki/Marco_Mauroceno"
+          }
+        ]
+      },
+      {
+        "name": "Matteo Francesco de Bobali",
+        "qid": "Q90274154",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274154",
+            "url": "https://www.wikidata.org/wiki/Q90274154"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Matteo Francesco de Bobali",
+            "url": "https://en.wikipedia.org/wiki/Matteo_Francesco_de_Bobali"
+          }
+        ]
+      },
+      {
+        "name": "Luca de Gozze",
+        "qid": "Q90274488",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274488",
+            "url": "https://www.wikidata.org/wiki/Q90274488"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Luca de Gozze",
+            "url": "https://en.wikipedia.org/wiki/Luca_de_Gozze"
+          }
+        ]
+      },
+      {
+        "name": "Pasquale Francesco de Cerva",
+        "qid": "Q90275668",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90275668",
+            "url": "https://www.wikidata.org/wiki/Q90275668"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Pasquale Francesco de Cerva",
+            "url": "https://en.wikipedia.org/wiki/Pasquale_Francesco_de_Cerva"
+          }
+        ]
+      },
+      {
+        "name": "Matteo de Gondola",
+        "qid": "Q90274212",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274212",
+            "url": "https://www.wikidata.org/wiki/Q90274212"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Matteo de Gondola",
+            "url": "https://en.wikipedia.org/wiki/Matteo_de_Gondola"
+          }
+        ]
+      },
+      {
+        "name": "Francesco de Gondola",
+        "qid": "Q90275683",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90275683",
+            "url": "https://www.wikidata.org/wiki/Q90275683"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Francesco de Gondola",
+            "url": "https://en.wikipedia.org/wiki/Francesco_de_Gondola"
+          }
+        ]
+      },
+      {
+        "name": "Marco de Bobali",
+        "qid": "Q90274251",
+        "year_start": 1390,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274251",
+            "url": "https://www.wikidata.org/wiki/Q90274251"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Marco de Bobali",
+            "url": "https://en.wikipedia.org/wiki/Marco_de_Bobali"
+          }
+        ]
+      },
+      {
+        "name": "Vittorio de Bobali",
+        "qid": "Q90274026",
+        "year_start": 1417,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274026",
+            "url": "https://www.wikidata.org/wiki/Q90274026"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Vittorio de Bobali",
+            "url": "https://en.wikipedia.org/wiki/Vittorio_de_Bobali"
+          }
+        ]
+      },
+      {
+        "name": "Giunio Andrea de Bobali",
+        "qid": "Q90274030",
+        "year_start": 1501,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274030",
+            "url": "https://www.wikidata.org/wiki/Q90274030"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Giunio Andrea de Bobali",
+            "url": "https://en.wikipedia.org/wiki/Giunio_Andrea_de_Bobali"
+          }
+        ]
+      },
+      {
+        "name": "Simone de Benessa",
+        "qid": "Q90274252",
+        "year_start": 1504,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274252",
+            "url": "https://www.wikidata.org/wiki/Q90274252"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Simone de Benessa",
+            "url": "https://en.wikipedia.org/wiki/Simone_de_Benessa"
+          }
+        ]
+      },
+      {
+        "name": "Luca de Bona",
+        "qid": "Q90274263",
+        "year_start": 1510,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274263",
+            "url": "https://www.wikidata.org/wiki/Q90274263"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Luca de Bona",
+            "url": "https://en.wikipedia.org/wiki/Luca_de_Bona"
+          }
+        ]
+      },
+      {
+        "name": "Antonio de Bona",
+        "qid": "Q90274040",
+        "year_start": 1512,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274040",
+            "url": "https://www.wikidata.org/wiki/Q90274040"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Antonio de Bona",
+            "url": "https://en.wikipedia.org/wiki/Antonio_de_Bona"
+          }
+        ]
+      },
+      {
+        "name": "Giacomo de Bona",
+        "qid": "Q90274047",
+        "year_start": 1522,
+        "year_end": 1522,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274047",
+            "url": "https://www.wikidata.org/wiki/Q90274047"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Giacomo de Bona",
+            "url": "https://en.wikipedia.org/wiki/Giacomo_de_Bona"
+          }
+        ]
+      },
+      {
+        "name": "Bartolo de Bona",
+        "qid": "Q90274053",
+        "year_start": 1523,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274053",
+            "url": "https://www.wikidata.org/wiki/Q90274053"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Bartolo de Bona",
+            "url": "https://en.wikipedia.org/wiki/Bartolo_de_Bona"
+          }
+        ]
+      },
+      {
+        "name": "Luiggi de Bona",
+        "qid": "Q90274151",
+        "year_start": 1530,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274151",
+            "url": "https://www.wikidata.org/wiki/Q90274151"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Luiggi de Bona",
+            "url": "https://en.wikipedia.org/wiki/Luiggi_de_Bona"
+          }
+        ]
+      },
+      {
+        "name": "Michele Giunio de Bobali",
+        "qid": "Q90274328",
+        "year_start": 1531,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274328",
+            "url": "https://www.wikidata.org/wiki/Q90274328"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Michele Giunio de Bobali",
+            "url": "https://en.wikipedia.org/wiki/Michele_Giunio_de_Bobali"
+          }
+        ]
+      },
+      {
+        "name": "Damjan Beneša",
+        "qid": "Q31198595",
+        "year_start": 1532,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q31198595",
+            "url": "https://www.wikidata.org/wiki/Q31198595"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Damjan Beneša",
+            "url": "https://en.wikipedia.org/wiki/Damjan_Beneša"
+          }
+        ]
+      },
+      {
+        "name": "Francesco de Bona",
+        "qid": "Q90274075",
+        "year_start": 1532,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274075",
+            "url": "https://www.wikidata.org/wiki/Q90274075"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Francesco de Bona",
+            "url": "https://en.wikipedia.org/wiki/Francesco_de_Bona"
+          }
+        ]
+      },
+      {
+        "name": "Michele Simone de Bobali",
+        "qid": "Q90274351",
+        "year_start": 1537,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274351",
+            "url": "https://www.wikidata.org/wiki/Q90274351"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Michele Simone de Bobali",
+            "url": "https://en.wikipedia.org/wiki/Michele_Simone_de_Bobali"
+          }
+        ]
+      },
+      {
+        "name": "Zuppano de Bona",
+        "qid": "Q90274159",
+        "year_start": 1548,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274159",
+            "url": "https://www.wikidata.org/wiki/Q90274159"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Zuppano de Bona",
+            "url": "https://en.wikipedia.org/wiki/Zuppano_de_Bona"
+          }
+        ]
+      },
+      {
+        "name": "Giunio Michele de Bobali",
+        "qid": "Q90274167",
+        "year_start": 1559,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274167",
+            "url": "https://www.wikidata.org/wiki/Q90274167"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Giunio Michele de Bobali",
+            "url": "https://en.wikipedia.org/wiki/Giunio_Michele_de_Bobali"
+          }
+        ]
+      },
+      {
+        "name": "Geronimo Sigismondo de Bobali",
+        "qid": "Q90274391",
+        "year_start": 1559,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274391",
+            "url": "https://www.wikidata.org/wiki/Q90274391"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Geronimo Sigismondo de Bobali",
+            "url": "https://en.wikipedia.org/wiki/Geronimo_Sigismondo_de_Bobali"
+          }
+        ]
+      },
+      {
+        "name": "Luciano de Bona",
+        "qid": "Q90274164",
+        "year_start": 1560,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274164",
+            "url": "https://www.wikidata.org/wiki/Q90274164"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Luciano de Bona",
+            "url": "https://en.wikipedia.org/wiki/Luciano_de_Bona"
+          }
+        ]
+      },
+      {
+        "name": "Simone de Bobali",
+        "qid": "Q90274170",
+        "year_start": 1563,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274170",
+            "url": "https://www.wikidata.org/wiki/Q90274170"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Simone de Bobali",
+            "url": "https://en.wikipedia.org/wiki/Simone_de_Bobali"
+          }
+        ]
+      },
+      {
+        "name": "Lorenzo Michele de Bobali",
+        "qid": "Q90274177",
+        "year_start": 1565,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274177",
+            "url": "https://www.wikidata.org/wiki/Q90274177"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Lorenzo Michele de Bobali",
+            "url": "https://en.wikipedia.org/wiki/Lorenzo_Michele_de_Bobali"
+          }
+        ]
+      },
+      {
+        "name": "Nicolò Vito di Gozze",
+        "qid": "Q90274415",
+        "year_start": 1568,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274415",
+            "url": "https://www.wikidata.org/wiki/Q90274415"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Nicolò Vito di Gozze",
+            "url": "https://en.wikipedia.org/wiki/Nikola_Vitov_Gu%C4%8Deti%C4%87"
+          }
+        ]
+      },
+      {
+        "name": "Jacopo Antonio de Benessa",
+        "qid": "Q90274179",
+        "year_start": 1571,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274179",
+            "url": "https://www.wikidata.org/wiki/Q90274179"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Jacopo Antonio de Benessa",
+            "url": "https://en.wikipedia.org/wiki/Jacopo_Antonio_de_Benessa"
+          }
+        ]
+      },
+      {
+        "name": "Giorgio de Menze",
+        "qid": "Q90274448",
+        "year_start": 1576,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274448",
+            "url": "https://www.wikidata.org/wiki/Q90274448"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Giorgio de Menze",
+            "url": "https://en.wikipedia.org/wiki/Giorgio_de_Menze"
+          }
+        ]
+      },
+      {
+        "name": "Natalis de Proculo",
+        "qid": "Q90274184",
+        "year_start": 1578,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274184",
+            "url": "https://www.wikidata.org/wiki/Q90274184"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Natalis de Proculo",
+            "url": "https://en.wikipedia.org/wiki/Natalis_de_Proculo"
+          }
+        ]
+      },
+      {
+        "name": "Giovanni de Binciola",
+        "qid": "Q90274190",
+        "year_start": 1588,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274190",
+            "url": "https://www.wikidata.org/wiki/Q90274190"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Giovanni de Binciola",
+            "url": "https://en.wikipedia.org/wiki/Giovanni_de_Binciola"
+          }
+        ]
+      },
+      {
+        "name": "Matteo de Benessa",
+        "qid": "Q90274191",
+        "year_start": 1589,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274191",
+            "url": "https://www.wikidata.org/wiki/Q90274191"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Matteo de Benessa",
+            "url": "https://en.wikipedia.org/wiki/Matteo_de_Benessa"
+          }
+        ]
+      },
+      {
+        "name": "Geronimo de Buchia",
+        "qid": "Q90274192",
+        "year_start": 1591,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274192",
+            "url": "https://www.wikidata.org/wiki/Q90274192"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Geronimo de Buchia",
+            "url": "https://en.wikipedia.org/wiki/Geronimo_de_Buchia"
+          }
+        ]
+      },
+      {
+        "name": "Aloysius de Saraca",
+        "qid": "Q90274193",
+        "year_start": 1592,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274193",
+            "url": "https://www.wikidata.org/wiki/Q90274193"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Aloysius de Saraca",
+            "url": "https://en.wikipedia.org/wiki/Aloysius_de_Saraca"
+          }
+        ]
+      },
+      {
+        "name": "Francesco de Caboga",
+        "qid": "Q90274194",
+        "year_start": 1611,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274194",
+            "url": "https://www.wikidata.org/wiki/Q90274194"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Francesco de Caboga",
+            "url": "https://en.wikipedia.org/wiki/Francesco_de_Caboga"
+          }
+        ]
+      },
+      {
+        "name": "Biagio de Gondola",
+        "qid": "Q90274462",
+        "year_start": 1612,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274462",
+            "url": "https://www.wikidata.org/wiki/Q90274462"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Biagio de Gondola",
+            "url": "https://en.wikipedia.org/wiki/Biagio_de_Gondola"
+          }
+        ]
+      },
+      {
+        "name": "Luciano de Caboga",
+        "qid": "Q90274195",
+        "year_start": 1651,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274195",
+            "url": "https://www.wikidata.org/wiki/Q90274195"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Luciano de Caboga",
+            "url": "https://en.wikipedia.org/wiki/Luciano_de_Caboga"
+          }
+        ]
+      },
+      {
+        "name": "Luca de Sorgo",
+        "qid": "Q90274467",
+        "year_start": 1652,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274467",
+            "url": "https://www.wikidata.org/wiki/Q90274467"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Luca de Sorgo",
+            "url": "https://en.wikipedia.org/wiki/Luca_de_Sorgo"
+          }
+        ]
+      },
+      {
+        "name": "Francesco de Ghetaldi",
+        "qid": "Q90274197",
+        "year_start": 1654,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274197",
+            "url": "https://www.wikidata.org/wiki/Q90274197"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Francesco de Ghetaldi",
+            "url": "https://en.wikipedia.org/wiki/Francesco_de_Ghetaldi"
+          }
+        ]
+      },
+      {
+        "name": "Marino de Proculo",
+        "qid": "Q90274199",
+        "year_start": 1655,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274199",
+            "url": "https://www.wikidata.org/wiki/Q90274199"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Marino de Proculo",
+            "url": "https://en.wikipedia.org/wiki/Marino_de_Proculo"
+          }
+        ]
+      },
+      {
+        "name": "Ivan Bunić Vučić",
+        "qid": "Q1637923",
+        "year_start": 1658,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1637923",
+            "url": "https://www.wikidata.org/wiki/Q1637923"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ivan Bunić Vučić",
+            "url": "https://en.wikipedia.org/wiki/Ivan_Bunić_Vučić"
+          }
+        ]
+      },
+      {
+        "name": "Francesco Sigismondo de Sorgo",
+        "qid": "Q90274496",
+        "year_start": 1662,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274496",
+            "url": "https://www.wikidata.org/wiki/Q90274496"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Francesco Sigismondo de Sorgo",
+            "url": "https://en.wikipedia.org/wiki/Francesco_Sigismondo_de_Sorgo"
+          }
+        ]
+      },
+      {
+        "name": "Simone de Menze",
+        "qid": "Q90274503",
+        "year_start": 1664,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274503",
+            "url": "https://www.wikidata.org/wiki/Q90274503"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Simone de Menze",
+            "url": "https://en.wikipedia.org/wiki/Simone_de_Menze"
+          }
+        ]
+      },
+      {
+        "name": "Luca de Resti",
+        "qid": "Q90274200",
+        "year_start": 1665,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274200",
+            "url": "https://www.wikidata.org/wiki/Q90274200"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Luca de Resti",
+            "url": "https://en.wikipedia.org/wiki/Luca_de_Resti"
+          }
+        ]
+      },
+      {
+        "name": "Michele de Menze",
+        "qid": "Q90274201",
+        "year_start": 1667,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274201",
+            "url": "https://www.wikidata.org/wiki/Q90274201"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Michele de Menze",
+            "url": "https://en.wikipedia.org/wiki/Michele_de_Menze"
+          }
+        ]
+      },
+      {
+        "name": "Marino de Sorgo",
+        "qid": "Q90274203",
+        "year_start": 1670,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274203",
+            "url": "https://www.wikidata.org/wiki/Q90274203"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Marino de Sorgo",
+            "url": "https://en.wikipedia.org/wiki/Marino_de_Sorgo"
+          }
+        ]
+      },
+      {
+        "name": "Giovanni Matteo de Ghetaldi",
+        "qid": "Q90274205",
+        "year_start": 1671,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274205",
+            "url": "https://www.wikidata.org/wiki/Q90274205"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Giovanni Matteo de Ghetaldi",
+            "url": "https://en.wikipedia.org/wiki/Giovanni_Matteo_de_Ghetaldi"
+          }
+        ]
+      },
+      {
+        "name": "Geronimo de Menze",
+        "qid": "Q90275696",
+        "year_start": 1672,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90275696",
+            "url": "https://www.wikidata.org/wiki/Q90275696"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Geronimo de Menze",
+            "url": "https://en.wikipedia.org/wiki/Geronimo_de_Menze"
+          }
+        ]
+      },
+      {
+        "name": "Clemente de Menze",
+        "qid": "Q90274206",
+        "year_start": 1680,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274206",
+            "url": "https://www.wikidata.org/wiki/Q90274206"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Clemente de Menze",
+            "url": "https://en.wikipedia.org/wiki/Clemente_de_Menze"
+          }
+        ]
+      },
+      {
+        "name": "Matteo de Bona",
+        "qid": "Q90274207",
+        "year_start": 1681,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274207",
+            "url": "https://www.wikidata.org/wiki/Q90274207"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Matteo de Bona",
+            "url": "https://en.wikipedia.org/wiki/Matteo_de_Bona"
+          }
+        ]
+      },
+      {
+        "name": "Niccolò de Binciola",
+        "qid": "Q90274208",
+        "year_start": 1682,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274208",
+            "url": "https://www.wikidata.org/wiki/Q90274208"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Niccolò de Binciola",
+            "url": "https://en.wikipedia.org/wiki/Niccolò_de_Binciola"
+          }
+        ]
+      },
+      {
+        "name": "Sigismondo de Gondola",
+        "qid": "Q90274210",
+        "year_start": 1684,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274210",
+            "url": "https://www.wikidata.org/wiki/Q90274210"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Sigismondo de Gondola",
+            "url": "https://en.wikipedia.org/wiki/Sigismondo_de_Gondola"
+          }
+        ]
+      },
+      {
+        "name": "Giovanni Sigismondo de Gondola",
+        "qid": "Q90274213",
+        "year_start": 1700,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274213",
+            "url": "https://www.wikidata.org/wiki/Q90274213"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Giovanni Sigismondo de Gondola",
+            "url": "https://en.wikipedia.org/wiki/Giovanni_Sigismondo_de_Gondola"
+          }
+        ]
+      },
+      {
+        "name": "Giunio de Gozze",
+        "qid": "Q90274522",
+        "year_start": 1703,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274522",
+            "url": "https://www.wikidata.org/wiki/Q90274522"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Giunio de Gozze",
+            "url": "https://en.wikipedia.org/wiki/Giunio_de_Gozze"
+          }
+        ]
+      },
+      {
+        "name": "Giovanni de Menze",
+        "qid": "Q90274531",
+        "year_start": 1706,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274531",
+            "url": "https://www.wikidata.org/wiki/Q90274531"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Giovanni de Menze",
+            "url": "https://en.wikipedia.org/wiki/Giovanni_de_Menze"
+          }
+        ]
+      },
+      {
+        "name": "Francesco de Tudisi",
+        "qid": "Q90274537",
+        "year_start": 1707,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274537",
+            "url": "https://www.wikidata.org/wiki/Q90274537"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Francesco de Tudisi",
+            "url": "https://en.wikipedia.org/wiki/Francesco_de_Tudisi"
+          }
+        ]
+      },
+      {
+        "name": "Gunio de Gozze",
+        "qid": "Q90274214",
+        "year_start": 1708,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274214",
+            "url": "https://www.wikidata.org/wiki/Q90274214"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Gunio de Gozze",
+            "url": "https://en.wikipedia.org/wiki/Gunio_de_Gozze"
+          }
+        ]
+      },
+      {
+        "name": "Luca Marino de Sorgo",
+        "qid": "Q90274215",
+        "year_start": 1710,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274215",
+            "url": "https://www.wikidata.org/wiki/Q90274215"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Luca Marino de Sorgo",
+            "url": "https://en.wikipedia.org/wiki/Luca_Marino_de_Sorgo"
+          }
+        ]
+      },
+      {
+        "name": "Giovanni de Gozze",
+        "qid": "Q90274547",
+        "year_start": 1726,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274547",
+            "url": "https://www.wikidata.org/wiki/Q90274547"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Giovanni de Gozze",
+            "url": "https://en.wikipedia.org/wiki/Giovanni_de_Gozze"
+          }
+        ]
+      },
+      {
+        "name": "Giovanni de Basilio",
+        "qid": "Q90274218",
+        "year_start": 1727,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274218",
+            "url": "https://www.wikidata.org/wiki/Q90274218"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Giovanni de Basilio",
+            "url": "https://en.wikipedia.org/wiki/Giovanni_de_Basilio"
+          }
+        ]
+      },
+      {
+        "name": "Vladislavo de Sorgo",
+        "qid": "Q90274220",
+        "year_start": 1728,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274220",
+            "url": "https://www.wikidata.org/wiki/Q90274220"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Vladislavo de Sorgo",
+            "url": "https://en.wikipedia.org/wiki/Vladislavo_de_Sorgo"
+          }
+        ]
+      },
+      {
+        "name": "Giunio Resti",
+        "qid": "Q23889301",
+        "year_start": 1730,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q23889301",
+            "url": "https://www.wikidata.org/wiki/Q23889301"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Giunio Resti",
+            "url": "https://en.wikipedia.org/wiki/Giunio_Resti"
+          }
+        ]
+      },
+      {
+        "name": "Giovanni de Sorgo",
+        "qid": "Q90274224",
+        "year_start": 1761,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274224",
+            "url": "https://www.wikidata.org/wiki/Q90274224"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Giovanni de Sorgo",
+            "url": "https://en.wikipedia.org/wiki/Giovanni_de_Sorgo"
+          }
+        ]
+      },
+      {
+        "name": "Matteo de Zamagna",
+        "qid": "Q90274225",
+        "year_start": 1762,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274225",
+            "url": "https://www.wikidata.org/wiki/Q90274225"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Matteo de Zamagna",
+            "url": "https://en.wikipedia.org/wiki/Matteo_de_Zamagna"
+          }
+        ]
+      },
+      {
+        "name": "Balthazaro de Gozze",
+        "qid": "Q90274226",
+        "year_start": 1763,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274226",
+            "url": "https://www.wikidata.org/wiki/Q90274226"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Balthazaro de Gozze",
+            "url": "https://en.wikipedia.org/wiki/Balthazaro_de_Gozze"
+          }
+        ]
+      },
+      {
+        "name": "Niccolò de Proculo",
+        "qid": "Q90274227",
+        "year_start": 1764,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274227",
+            "url": "https://www.wikidata.org/wiki/Q90274227"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Niccolò de Proculo",
+            "url": "https://en.wikipedia.org/wiki/Niccolò_de_Proculo"
+          }
+        ]
+      },
+      {
+        "name": "Luca de Giorgi",
+        "qid": "Q90274228",
+        "year_start": 1765,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274228",
+            "url": "https://www.wikidata.org/wiki/Q90274228"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Luca de Giorgi",
+            "url": "https://en.wikipedia.org/wiki/Luca_de_Giorgi"
+          }
+        ]
+      },
+      {
+        "name": "Antonio de Resti",
+        "qid": "Q90274229",
+        "year_start": 1767,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274229",
+            "url": "https://www.wikidata.org/wiki/Q90274229"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Antonio de Resti",
+            "url": "https://en.wikipedia.org/wiki/Antonio_de_Resti"
+          }
+        ]
+      },
+      {
+        "name": "Savino de Giorgi",
+        "qid": "Q90274230",
+        "year_start": 1768,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274230",
+            "url": "https://www.wikidata.org/wiki/Q90274230"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Savino de Giorgi",
+            "url": "https://en.wikipedia.org/wiki/Savino_de_Giorgi"
+          }
+        ]
+      },
+      {
+        "name": "Marino de Natali",
+        "qid": "Q90275720",
+        "year_start": 1770,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90275720",
+            "url": "https://www.wikidata.org/wiki/Q90275720"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Marino de Natali",
+            "url": "https://en.wikipedia.org/wiki/Marino_de_Natali"
+          }
+        ]
+      },
+      {
+        "name": "Giovanni Raffaele de Gozze",
+        "qid": "Q90274231",
+        "year_start": 1770,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274231",
+            "url": "https://www.wikidata.org/wiki/Q90274231"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Giovanni Raffaele de Gozze",
+            "url": "https://en.wikipedia.org/wiki/Giovanni_Raffaele_de_Gozze"
+          }
+        ]
+      },
+      {
+        "name": "Martoliza de Bosdari",
+        "qid": "Q90274233",
+        "year_start": 1775,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274233",
+            "url": "https://www.wikidata.org/wiki/Q90274233"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Martoliza de Bosdari",
+            "url": "https://en.wikipedia.org/wiki/Martoliza_de_Bosdari"
+          }
+        ]
+      },
+      {
+        "name": "Luca de Zamagna",
+        "qid": "Q90274236",
+        "year_start": 1776,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274236",
+            "url": "https://www.wikidata.org/wiki/Q90274236"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Luca de Zamagna",
+            "url": "https://en.wikipedia.org/wiki/Luca_de_Zamagna"
+          }
+        ]
+      },
+      {
+        "name": "Marino de Giorgi",
+        "qid": "Q90274241",
+        "year_start": 1797,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274241",
+            "url": "https://www.wikidata.org/wiki/Q90274241"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Marino de Giorgi",
+            "url": "https://en.wikipedia.org/wiki/Marino_de_Giorgi"
+          }
+        ]
+      },
+      {
+        "name": "Marino de Bona",
+        "qid": "Q90274247",
+        "year_start": 1800,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274247",
+            "url": "https://www.wikidata.org/wiki/Q90274247"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Marino de Bona",
+            "url": "https://en.wikipedia.org/wiki/Marino_de_Bona"
+          }
+        ]
+      },
+      {
+        "name": "Francesco de Gozze",
+        "qid": "Q90274582",
+        "year_start": 1801,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274582",
+            "url": "https://www.wikidata.org/wiki/Q90274582"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Francesco de Gozze",
+            "url": "https://en.wikipedia.org/wiki/Francesco_de_Gozze"
+          }
+        ]
+      },
+      {
+        "name": "Antonio Marino de Caboga",
+        "qid": "Q90274604",
+        "year_start": 1802,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274604",
+            "url": "https://www.wikidata.org/wiki/Q90274604"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Antonio Marino de Caboga",
+            "url": "https://en.wikipedia.org/wiki/Antonio_Marino_de_Caboga"
+          }
+        ]
+      },
+      {
+        "name": "Matteo de Ghetaldi",
+        "qid": "Q90274248",
+        "year_start": 1802,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274248",
+            "url": "https://www.wikidata.org/wiki/Q90274248"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Matteo de Ghetaldi",
+            "url": "https://en.wikipedia.org/wiki/Matteo_de_Ghetaldi"
+          }
+        ]
+      },
+      {
+        "name": "Simone de Giorgi",
+        "qid": "Q90274592",
+        "year_start": 1808,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q90274592",
+            "url": "https://www.wikidata.org/wiki/Q90274592"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Simone de Giorgi",
+            "url": "https://en.wikipedia.org/wiki/Simone_de_Giorgi"
+          }
+        ]
+      }
+    ],
+    "population_from_wikidata": [
+      {
+        "estimate": 30000,
+        "confidence": "low"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "type": "book",
+      "author": "Wickham, Chris",
+      "title": "Sleepwalking into a New World: The Emergence of Italian City Communes in the Twelfth Century",
+      "publisher": "Princeton University Press",
+      "year": 2015
+    }
+  ],
+  "monogram": "RA"
+}

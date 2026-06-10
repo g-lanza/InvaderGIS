@@ -1,0 +1,29 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_republic_of_pisa_to_republic_of_florence_succession",
+  "statement": "Derived from predecessor/successor links recorded in the republic_of_pisa and republic_of_florence entity records. Transition anchored to republic_of_florence start_year.",
+  "subject_ids": [
+    "republic_of_pisa",
+    "republic_of_florence"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_republic_of_pisa_to_republic_of_florence_succession",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015",
+      "najemy_a_2006",
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "republic_of_florence"
+  ],
+  "period": {
+    "from": 1115,
+    "to": 1115
+  }
+}

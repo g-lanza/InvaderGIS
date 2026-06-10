@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_tombs_of_the_kings_500",
+  "name": "Tombs of the Kings",
+  "importance": "city",
+  "start_year": 500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "inferred",
+    "external_ids": {
+      "pleiades": "848646653"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    32.4055,
+    34.7755
+  ]
+}

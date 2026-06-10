@@ -1,0 +1,34 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_pecheneg_confederation_to_cuman_kipchak_confederation_fragmentation",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "pecheneg_confederation",
+      "role": "parent"
+    },
+    {
+      "entity_id": "cuman_kipchak_confederation",
+      "role": "fragment"
+    }
+  ],
+  "directed": true,
+  "type": "fragmentation",
+  "since": 900,
+  "until": 900,
+  "note": "Derived from predecessor/successor links recorded in the pecheneg_confederation and cuman_kipchak_confederation entity records. Transition anchored to cuman_kipchak_confederation start_year.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Mechanical normalisation of curated predecessor/successor links into the relationships register."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

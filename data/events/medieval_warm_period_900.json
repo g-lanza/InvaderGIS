@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "medieval_warm_period_900",
+  "name": "The Medieval Warm Period",
+  "year": 900,
+  "type": "climate",
+  "category": "hazard",
+  "coords": [
+    52,
+    10
+  ],
+  "entity": "",
+  "summary": "From roughly 900 to 1300, Europe and the North Atlantic experienced a period of generally warmer temperatures than the preceding or following centuries. The Medieval Warm Period enabled agricultural expansion in marginal zones, supported population growth from perhaps 35 million to 80 million in Europe, allowed Norse settlement of Greenland and Vinland, and facilitated the clearing of forests for farmland. The subsequent Little Ice Age (from ~1300) reversed many of these gains.",
+  "outcomes": [
+    "Northern European agriculture expands",
+    "Vineyards in England and Germany advance northward",
+    "Population growth enabled",
+    "Norse settlement of Greenland and Vinland possible"
+  ],
+  "_quarry": {
+    "participants": [],
+    "structural_significance": "Climate conditions profoundly shaped medieval demographic and economic growth; the reversal into the Little Ice Age contributed to the 14th-century crises of famine, plague, and warfare.",
+    "year_range": [
+      900,
+      1300
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Lamb, Climate, History and the Modern World",
+      "campbell_great_transition_2016"
+    ],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_st_marcellus_flood_1219_c02",
+  "statement": "The 1219 storm surge permanently reshaped the coastline of what is now the German Bight, obliterating several villages and forming new tidal bays.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1219,
+    "to": 1219
+  },
+  "derived_from": "st_marcellus_flood_1219",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

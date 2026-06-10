@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "mengli_i_giray",
+  "name": "Mengli I Giray",
+  "polity": "khanate_of_crimea",
+  "title": "ruler",
+  "reign_start": 1475,
+  "reign_end": 1514,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "khanate_of_crimea",
+        "role": "ruler",
+        "start_year": 1475,
+        "end_year": 1514
+      }
+    ],
+    "key_actions": [],
+    "region": "eastern_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

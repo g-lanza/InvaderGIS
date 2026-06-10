@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_mann_isles_1266",
+  "name": "Mann Ceded to Scotland",
+  "year": 1266,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    55.35,
+    -4.25
+  ],
+  "entity": "kingdom_of_mann_isles",
+  "summary": "The Treaty of Perth in 1266 transferred the Kingdom of Mann and the Western Isles from Norwegian to Scottish sovereignty. Norway retained Orkney and Shetland. This ended Scandinavian political dominance in the Scottish islands that had lasted since the Viking Age.",
+  "outcomes": [
+    "norwegian_rule_ends",
+    "scottish_sovereignty",
+    "treaty_of_perth"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_mann_isles",
+      "kingdom_of_scotland"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

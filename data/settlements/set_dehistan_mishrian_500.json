@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_dehistan_mishrian_500",
+  "name": "Dehistan/Mishrian",
+  "importance": "city",
+  "start_year": 500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "inferred",
+    "external_ids": {
+      "pleiades": "673092243"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    54.6245,
+    38.2704
+  ]
+}

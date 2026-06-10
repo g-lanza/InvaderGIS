@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "fort_wartburg",
+  "name": "Wartburg Castle",
+  "subtype": "fort",
+  "start_year": 1067,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "Thuringian castle; seat of the Ludowingian landgraves",
+  "coords": [
+    10.306,
+    50.966
+  ]
+}

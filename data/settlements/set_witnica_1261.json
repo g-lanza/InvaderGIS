@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_witnica_1261",
+  "name": "Witnica",
+  "importance": "city",
+  "start_year": 1261,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q988636"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    14.8914,
+    52.6778
+  ]
+}

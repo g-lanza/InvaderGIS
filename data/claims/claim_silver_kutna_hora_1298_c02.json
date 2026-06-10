@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_silver_kutna_hora_1298_c02",
+  "statement": "King Wenceslas II's 1300 mining ordinance, the Ius regale montanorum, codified royal control and stable coinage in the new Prague groschen.",
+  "subject_ids": [
+    "duchy_of_bohemia"
+  ],
+  "period": {
+    "from": 1298,
+    "to": 1298
+  },
+  "derived_from": "silver_kutna_hora_1298",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

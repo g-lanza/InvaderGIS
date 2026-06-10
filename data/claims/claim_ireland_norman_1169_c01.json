@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_ireland_norman_1169_c01",
+  "statement": "In 1170, Richard de Clare ('Strongbow'), invited by the exiled king of Leinster Diarmait Mac Murchada, landed in Ireland and captured Waterford and Dublin.",
+  "subject_ids": [
+    "lordship_of_ireland"
+  ],
+  "period": {
+    "from": 1169,
+    "to": 1169
+  },
+  "derived_from": "ireland_norman_1169",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

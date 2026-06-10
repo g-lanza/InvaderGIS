@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_war_of_chioggia_1378",
+  "name": "War of Chioggia",
+  "year": 1378,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    44.9,
+    10.6
+  ],
+  "entity": "republic_of_venice",
+  "summary": "War of Chioggia (1378 CE), at Mediterranean Sea (part of Venetian–Genoese Wars). Source: Wikidata Q1074467.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "republic_of_genoa"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

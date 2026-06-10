@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ottoman_kosovo_1389",
+  "name": "Battle of Kosovo Polje",
+  "year": 1389,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    42.64,
+    21.09
+  ],
+  "entity": "serbian_empire",
+  "summary": "At the Battle of Kosovo Polje (June 28, 1389, St. Vitus Day), Ottoman Sultan Murad I confronts a coalition of Serbs, Bosnians, Albanians, and Wallachians under Prince Lazar Hrebeljanović. Both commanders die: Murad I is assassinated by the Serbian nobleman Miloš Obilić (who pretended to defect), and Prince Lazar is captured and beheaded after the battle. The Ottomans win a tactical victory; the Serbian principality becomes an Ottoman vassal. Kosovo is mythologized in Serbian epic poetry as the defining moment of national sacrifice, 'the heavenly kingdom over the earthly,' Prince Lazar choosing martyrdom over accommodation.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "serbian_empire",
+      "ottoman_empire"
+    ],
+    "structural_significance": "Establishes Ottoman dominance over Serbia and the central Balkans; creates the Serbian national epic tradition around Kosovo and Lazar's martyrdom; opens the road to further Ottoman advance into Hungary and central Europe",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fine_the_1987"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

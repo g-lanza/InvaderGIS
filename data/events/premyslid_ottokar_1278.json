@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "premyslid_ottokar_1278",
+  "name": "Battle of Marchfeld, Habsburg Defeats Bohemia",
+  "year": 1278,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    48.39,
+    16.91
+  ],
+  "entity": "duchy_of_austria",
+  "summary": "Rudolf of Habsburg defeats and kills Ottokar II of Bohemia at the Battle of Marchfeld (Dürnkrut), the largest cavalry battle of the 13th century. Ottokar had built a central European empire stretching from Silesia to the Adriatic; his death allows Rudolf to grant Austria, Styria, and Carinthia to his sons, establishing the Habsburg territorial base. Rudolf's victory also demonstrates that imperial authority could check over-mighty princes.",
+  "outcomes": [
+    "ottokar_killed",
+    "austria_becomes_habsburg",
+    "bohemia_weakened"
+  ],
+  "_quarry": {
+    "participants": [
+      "duchy_of_austria",
+      "kingdom_of_bohemia",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "Marchfeld is the foundation moment of Habsburg power, the territorial base acquired here supports Habsburg imperial ambitions for centuries; Ottokar's empire, had it survived, might have created a Bohemian-Austrian power that could have resisted both Hungarians and Ottomans; the battle's outcome shapes central European political geography by establishing Habsburgs in Austria rather than the more historically natural Bohemian-Premyslid control",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

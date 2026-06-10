@@ -1,0 +1,21 @@
+{
+ "kind": "polity",
+ "id": "kingdom_of_wales",
+ "name": "Kingdom of Wales",
+ "type": "kingdom",
+ "formed": 500,
+ "dissolved": 1282,
+ "provenance": {
+  "sources_used": [
+   "ims_fordham",
+   "ims_fordham_sbookmap"
+  ],
+  "confidence": "medium",
+  "attestation": "map titled 'Wales in the 13th Century [Col]'",
+  "status": "draft"
+ },
+ "dataset": "medieval-europe-500-1500",
+ "_fordham_index": "sbookmap",
+ "from_sourcebook": true,
+ "name_primary": "Kingdom of Wales"
+}

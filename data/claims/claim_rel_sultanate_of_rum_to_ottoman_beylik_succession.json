@@ -1,0 +1,29 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_sultanate_of_rum_to_ottoman_beylik_succession",
+  "statement": "Derived from predecessor/successor links recorded in the sultanate_of_rum and ottoman_beylik entity records. Transition anchored to ottoman_beylik start_year.",
+  "subject_ids": [
+    "sultanate_of_rum",
+    "ottoman_beylik"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_sultanate_of_rum_to_ottoman_beylik_succession",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "reuter_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "ottoman_beylik"
+  ],
+  "period": {
+    "from": 1299,
+    "to": 1299
+  }
+}

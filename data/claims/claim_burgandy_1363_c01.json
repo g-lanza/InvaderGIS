@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_burgandy_1363_c01",
+  "statement": "Philip the Bold received Burgundy as an appanage in 1363, founding the Valois Duchy of Burgundy.",
+  "subject_ids": [
+    "duchy_of_burgundy"
+  ],
+  "period": {
+    "from": 1363,
+    "to": 1363
+  },
+  "derived_from": "burgandy_1363",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

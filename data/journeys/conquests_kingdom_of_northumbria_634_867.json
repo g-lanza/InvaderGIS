@@ -1,0 +1,60 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_kingdom_of_northumbria_634_867",
+  "name": "Kingdom of Northumbria — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 634,
+  "year_end": 867,
+  "waypoints": [
+    {
+      "year": 634,
+      "place": "Battle of Heavenfield",
+      "coords": [
+        53.775,
+        -2.89
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_heavenfield_634"
+    },
+    {
+      "year": 685,
+      "place": "Battle of Dun Nechtain",
+      "coords": [
+        54.5,
+        -1.5
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_dun_nechtain_685"
+    },
+    {
+      "year": 793,
+      "place": "Sack of Lindisfarne",
+      "coords": [
+        55.68,
+        -1.8
+      ],
+      "note": "battle",
+      "event_id": "lindisfarne_793"
+    },
+    {
+      "year": 867,
+      "place": "Battle of York",
+      "coords": [
+        54.5,
+        -1.5
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_york_867"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

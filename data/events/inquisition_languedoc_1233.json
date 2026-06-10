@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "inquisition_languedoc_1233",
+  "name": "Papal Inquisition Established in Languedoc",
+  "year": 1233,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    43.64,
+    1.44
+  ],
+  "entity": "papal_states",
+  "summary": "Following the Albigensian Crusade (1209–1229), Pope Gregory IX in 1233 appointed Dominican friars as permanent inquisitors in Languedoc to investigate surviving Catharism. The Papal Inquisition developed systematic procedures: denunciation, interrogation, use of torture (authorized 1252), and graduated penalties from penance to burning. The fall of Montségur in 1244, where 200 Cathars were burned, effectively ended organized Catharism.",
+  "outcomes": [
+    "Pope Gregory IX appoints Dominican inquisitors",
+    "Systematic investigation of Cathar heresy",
+    "Inquisitorial procedure codified",
+    "Montségur falls 1244; Catharism effectively destroyed"
+  ],
+  "_quarry": {
+    "participants": [
+      "papal_states",
+      "kingdom_of_france"
+    ],
+    "structural_significance": "Established the institutional inquisition as a permanent instrument of the church; its procedures, particularly the use of torture and anonymous denunciation, became the template for later inquisitions.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Given, Inquisition and Medieval Society",
+      "Hamilton, The Medieval Inquisition"
+    ],
+    "confidence": "low"
+  }
+}

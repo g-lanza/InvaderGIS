@@ -1,0 +1,66 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_kingdom_of_pagan_1044_1287",
+  "name": "Kingdom of Pagan — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1044,
+  "year_end": 1287,
+  "waypoints": [
+    {
+      "year": 1044,
+      "place": "Anawrahta Unifies Burma",
+      "coords": [
+        15.644,
+        96.765
+      ],
+      "note": "military",
+      "event_id": "pagan_anawrahta_unification_1044"
+    },
+    {
+      "year": 1165,
+      "place": "Polonnaruwa–Pagan War",
+      "coords": [
+        15.644,
+        96.765
+      ],
+      "note": "military",
+      "event_id": "wd_polonnaruwa_pagan_war_1165"
+    },
+    {
+      "year": 1277,
+      "place": "First Mongol invasion of Burma",
+      "coords": [
+        15.644,
+        96.765
+      ],
+      "note": "military",
+      "event_id": "wd_first_mongol_invasion_of_burma_1277"
+    },
+    {
+      "year": 1283,
+      "place": "Battle of Bhamo",
+      "coords": [
+        15.644,
+        96.765
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_bhamo_1283"
+    },
+    {
+      "year": 1287,
+      "place": "Mongol Conquest of Pagan Empire",
+      "coords": [
+        15.644,
+        96.765
+      ],
+      "note": "military",
+      "event_id": "pagan_mongol_conquest_1287"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

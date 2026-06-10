@@ -1,0 +1,35 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_northumbria_dal_riata",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_northumbria",
+      "role": "principal"
+    },
+    {
+      "entity_id": "kingdom_of_dal_riata",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 654,
+  "until": 750,
+  "note": "The Kingdom of Dál Riata (a Gaelic kingdom straddling the Irish Sea between northeastern Ireland and western Scotland) competed and occasionally cooperated with Northumbria, the dominant Anglo-Saxon kingdom of northern Britain. The pivotal moment was the Battle of Mag Roth (637, Ireland) and the subsequent Battle of Strathcarron (642), which effectively divided Dál Riata's Irish and Scottish parts. Northumbrian expansion under Oswald and Oswiu brought Anglian political influence to the Firth of Forth; the Synod of Whitby (664) resolved the Celtic-Roman Christian tension that had defined the Northumbrian-Dál Riatan cultural intersection.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Northumbrian-Dál Riatan interaction creates the cultural borderland that eventually becomes Scotland; the Synod of Whitby resolves the Celtic-Roman Christian tension in favor of Rome, integrating Northumbria into the continental church; Dál Riata's eventual absorption into the Pictish-Gaelic kingdom (Kingdom of Alba) creates proto-Scotland"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "nizam_al_mulk",
+  "name": "Niẓām al-Mulk",
+  "polity": "seljuk_sultanate",
+  "title": "vizier",
+  "reign_start": 1064,
+  "reign_end": 1092,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 1018,
+      "death_year": 1092
+    },
+    "entity_associations": [
+      {
+        "entity_id": "seljuk_sultanate",
+        "role": "vizier",
+        "start_year": 1064,
+        "end_year": 1092
+      }
+    ],
+    "key_actions": [
+      {
+        "year": 1065,
+        "summary": "Founds the Nizamiyya college in Baghdad, the first major endowed Islamic college and template for the wider madrasa system.",
+        "source_id": "hodgson_venture_of_islam_1974"
+      },
+      {
+        "year": 1086,
+        "summary": "Completes the Siyāsatnāma (Book of Government), a mirror-for-princes treatise written for Sultan Malik-Shah I.",
+        "source_id": "hodgson_venture_of_islam_1974"
+      },
+      {
+        "year": 1092,
+        "summary": "Assassinated in October 1092 near Nahavand, almost certainly by Nizari Ismaili agents acting on Hasan-i Sabbah's orders.",
+        "source_id": "hodgson_venture_of_islam_1974"
+      }
+    ],
+    "region": "central_asia",
+    "name_variants": [
+      "Abu Ali Hasan ibn Ali Tusi",
+      "Nizam-al-Molk Tusi"
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "hodgson_venture_of_islam_1974"
+    ],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_zirid_expedition_to_central_italy_1020",
+  "name": "Zirid expedition to Central Italy",
+  "year": 1020,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    43.0333,
+    16.0667
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Zirid expedition to Central Italy (1020 CE), at Central Italy. Source: Wikidata Q111207703.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "republic_of_genoa",
+      "republic_of_pisa"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

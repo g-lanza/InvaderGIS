@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "pictish_confederation_843",
+  "name": "Picts Merged with Scots",
+  "year": 843,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    56.75,
+    -4
+  ],
+  "entity": "pictish_confederation",
+  "summary": "The merging of the Pictish and Scottish kingdoms under Kenneth MacAlpin around 843 CE resulted in the disappearance of distinct Pictish political and cultural identity. The Pictish language went extinct, replaced by Gaelic. The unique Pictish sculptural tradition (their elaborate symbol stones) was the primary cultural legacy to survive.",
+  "outcomes": [
+    "pictish_identity_disappears",
+    "gaelic_culture_dominant",
+    "alba_formed"
+  ],
+  "_quarry": {
+    "participants": [
+      "pictish_confederation",
+      "kingdom_of_alba"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

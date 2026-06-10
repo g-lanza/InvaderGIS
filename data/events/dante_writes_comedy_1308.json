@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "dante_writes_comedy_1308",
+  "name": "Dante Writes the Divine Comedy",
+  "year": 1308,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    43.8,
+    11.2
+  ],
+  "entity": "republic_of_florence",
+  "summary": "Dante Alighieri, exiled from Florence, writes the Commedia (later \"Divine\") between c. 1308 and 1321. The poem synthesizes medieval theology, classical learning, contemporary politics, and vernacular Italian, creating the Italian literary language. It places contemporary popes in hell and imagines a universe ordered by Thomistic theology and Aristotelian cosmology.",
+  "outcomes": [
+    "italian_vernacular_literature",
+    "scholastic_synthesis",
+    "florentine_politics"
+  ],
+  "_quarry": {
+    "participants": [
+      "republic_of_florence",
+      "papal_states",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "Creates the foundation of Italian literary language; synthesizes the entire medieval intellectual tradition; influences every subsequent European writer; Beatrice as guide represents the integration of courtly love and theology.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "najemy_a_2006",
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

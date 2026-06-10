@@ -1,0 +1,31 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_moscow_tver_annexation",
+  "statement": "Tver — Moscow's chief rival for supremacy over northeastern Russia throughout the 14th and early 15th centuries — was finally annexed by Ivan III in 1485 after a military expedition supported by the defection of Tver's own boyars. The last Tver prince, Michael Borisovich, fled to Lithuania. With Novgorod (1478) and Tver (1485) both absorbed, Moscow controlled virtually all of northeastern Russia. Ivan III's title shifted to 'Sovereign of All Russia' — a claim that defined Russian territorial ambitions for the next century.",
+  "subject_ids": [
+    "principality_of_tver",
+    "grand_principality_of_moscow"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_moscow_tver_annexation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "halperin_russia_1985",
+      "fennell_the_1983",
+      "ostrowski_muscovy_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "grand_principality_of_moscow"
+  ],
+  "period": {
+    "from": 1485,
+    "to": 1485
+  }
+}

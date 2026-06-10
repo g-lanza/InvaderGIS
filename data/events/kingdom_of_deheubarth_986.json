@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_deheubarth_986",
+  "name": "Maredudd ap Owain Unites South Wales",
+  "year": 986,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    51.94,
+    -4.2
+  ],
+  "entity": "kingdom_of_deheubarth",
+  "summary": "Maredudd ap Owain of Deheubarth briefly united much of Wales under his rule in the late 10th century, repelling Viking raids and asserting Welsh power. His reign represented the high point of Deheubarth's influence before the fragmentation that preceded the Norman conquest of Wales.",
+  "outcomes": [
+    "gwynedd_absorbed",
+    "southern_wales_unified",
+    "viking_raids_repelled"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_deheubarth"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

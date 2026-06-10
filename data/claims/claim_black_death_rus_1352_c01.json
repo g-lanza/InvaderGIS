@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_black_death_rus_1352_c01",
+  "statement": "Plague arrived at Pskov via the Hanseatic Baltic route in 1352 and spread through Novgorod, Smolensk, Tver, and Moscow over the next two years.",
+  "subject_ids": [
+    "principality_of_novgorod"
+  ],
+  "period": {
+    "from": 1352,
+    "to": 1352
+  },
+  "derived_from": "black_death_rus_1352",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "martin_treasure_1986",
+      "birnbaum_lord_1981"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

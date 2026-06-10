@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_the_river_garonne_732",
+  "name": "Battle of the River Garonne",
+  "subtype": "battle",
+  "start_year": 732,
+  "end_year": 732,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2524627"
+    }
+  },
+  "description": "Battle during Umayyad invasion of Gaul (732)",
+  "coords": [
+    -0.6067,
+    45.0414
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_perevitsk_1385",
+  "name": "Battle of Perevitsk",
+  "year": 1385,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    55.8,
+    37.6
+  ],
+  "entity": "grand_principality_of_moscow",
+  "summary": "Battle of Perevitsk (1385 CE), at Perevitsk hillfort. Source: Wikidata Q108955626.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "grand_principality_of_moscow"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "fennell_the_1983",
+      "ostrowski_muscovy_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

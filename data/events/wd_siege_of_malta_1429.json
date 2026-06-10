@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_malta_1429",
+  "name": "Siege of Malta",
+  "year": 1429,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    37.2,
+    12.1
+  ],
+  "entity": "kingdom_of_sicily_norman",
+  "summary": "Siege of Malta (1429 CE), at Mdina. Source: Wikidata Q20706642.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_sicily_norman",
+      "hafsid_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_william_of_occam_1320_c01",
+  "statement": "William of Ockham, English Franciscan philosopher, develops Nominalism (only individual things are real; 'universals' are just names) against the Realist-Scholastic tradition, and writes political tracts attacking Pope John XXII's authority over secular rulers.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1324,
+    "to": 1324
+  },
+  "derived_from": "william_of_occam_1320",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

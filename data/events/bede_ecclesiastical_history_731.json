@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "bede_ecclesiastical_history_731",
+  "name": "Bede's Ecclesiastical History, English Historical Memory",
+  "year": 731,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    54.97,
+    -1.48
+  ],
+  "entity": "kingdom_of_northumbria",
+  "summary": "Bede, monk at Jarrow (Northumbria), completes his Ecclesiastical History of the English People (731), the most important historical work written in early medieval Europe. Bede uses Anno Domini dating (from the Incarnation), making the system standard throughout Latin Christendom. His history preserves records of Anglo-Saxon kingdoms, papal missions, and ecclesiastical controversies that would otherwise be lost.",
+  "outcomes": [
+    "english_history_recorded",
+    "anno_domini_dating_spreads",
+    "northumbrian_golden_age"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_northumbria"
+    ],
+    "structural_significance": "Bede's Ecclesiastical History creates the narrative framework for English historical consciousness that persists to the present; his use of AD dating standardizes Christian chronology and implicitly defines 'Western civilization' around the Christian era; his synthesis of oral traditions, documentary sources, and ecclesiastical records models historical method; Northumbria's 'Golden Age' of learning (Bede, Alcuin, Lindisfarne Gospels) demonstrates that peripheral regions can produce transformative cultural achievements",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

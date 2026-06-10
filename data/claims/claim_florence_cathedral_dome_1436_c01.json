@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_florence_cathedral_dome_1436_c01",
+  "statement": "Filippo Brunelleschi completed the dome of Florence Cathedral, 42 meters in diameter, built without external buttresses or wooden centering using a double-shell herringbone brick technique.",
+  "subject_ids": [
+    "republic_of_florence"
+  ],
+  "period": {
+    "from": 1436,
+    "to": 1436
+  },
+  "derived_from": "florence_cathedral_dome_1436",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "najemy_a_2006",
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

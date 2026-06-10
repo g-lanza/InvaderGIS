@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_spoleto_774",
+  "name": "Spoleto Under Frankish Suzerainty",
+  "year": 774,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    46.375,
+    9.365
+  ],
+  "entity": "duchy_of_spoleto",
+  "summary": "Following Charlemagne's conquest of the Lombard kingdom in 774 CE, the Duchy of Spoleto accepted Frankish suzerainty. The duchy remained semi-autonomous under its own dukes but became integrated into the Carolingian political structure, serving as a buffer zone protecting the Papacy.",
+  "outcomes": [
+    "Charlemagne_overlordship",
+    "lombard_independence_ends",
+    "papal_alliance_secured"
+  ],
+  "_quarry": {
+    "participants": [
+      "duchy_of_spoleto",
+      "carolingian_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

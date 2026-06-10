@@ -1,0 +1,490 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "prussians",
+  "name_primary": "Prussians",
+  "name_variants": [],
+  "type": "kingdom",
+  "region": "northern_europe",
+  "formed": 1000,
+  "dissolved": 1283,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    54.474,
+    20.454
+  ],
+  "population_estimates": [
+    {
+      "year": 1000,
+      "estimate": 150000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q109073",
+          "url": "https://www.wikidata.org/wiki/Q109073",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Prussians",
+          "url": "https://en.wikipedia.org/wiki/Old_Prussians"
+        }
+      ]
+    },
+    {
+      "year": 1100,
+      "estimate": 175000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q109073",
+          "url": "https://www.wikidata.org/wiki/Q109073",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Prussians",
+          "url": "https://en.wikipedia.org/wiki/Old_Prussians"
+        }
+      ]
+    },
+    {
+      "year": 1200,
+      "estimate": 200000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q109073",
+          "url": "https://www.wikidata.org/wiki/Q109073",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Prussians",
+          "url": "https://en.wikipedia.org/wiki/Old_Prussians"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Old Prussians, Baltic-speaking indigenous people of the southeastern Baltic coast (modern Kaliningrad region and northeastern Poland) who resisted Christianisation until Teutonic Order conquest (1230–1283); the Old Prussian language became extinct by the 18th century through German colonist displacement, leaving the Baltic Prussian cultural heritage preserved only in vocabulary lists and place-names while the geopolitical 'Prussia' name was appropriated by the German-speaking Hohenzollern state.",
+  "temporal": {
+    "start_year": 1000,
+    "end_year": 1283,
+    "notes": "Stub: dates from GeoJSON basemap years 1000–1100"
+  },
+  "geographic": {
+    "centroid": [
+      54.474,
+      20.454
+    ],
+    "polygon_simplified": [
+      [
+        [
+          55.6143,
+          21.0319
+        ],
+        [
+          54.8311,
+          25.1976
+        ],
+        [
+          54.2802,
+          24.1694
+        ],
+        [
+          53.8191,
+          21.4643
+        ],
+        [
+          53.8191,
+          21.1049
+        ],
+        [
+          53.6376,
+          20.8098
+        ],
+        [
+          53.7581,
+          20.7094
+        ],
+        [
+          53.7781,
+          20.4282
+        ],
+        [
+          53.5111,
+          20.3863
+        ],
+        [
+          53.5111,
+          20.0783
+        ],
+        [
+          53.6651,
+          20.0783
+        ],
+        [
+          53.4598,
+          19.565
+        ],
+        [
+          53.3834,
+          19.4314
+        ],
+        [
+          54.2537,
+          19.1178
+        ],
+        [
+          54.2772,
+          19.255
+        ],
+        [
+          54.4612,
+          19.7336
+        ],
+        [
+          54.4592,
+          19.7577
+        ],
+        [
+          54.2717,
+          19.3176
+        ],
+        [
+          54.2221,
+          19.2321
+        ],
+        [
+          54.167,
+          19.2303
+        ],
+        [
+          54.1615,
+          19.3281
+        ],
+        [
+          54.2166,
+          19.4568
+        ],
+        [
+          54.2551,
+          19.5704
+        ],
+        [
+          54.3103,
+          19.7331
+        ],
+        [
+          54.3947,
+          19.9146
+        ],
+        [
+          54.4239,
+          19.9775
+        ],
+        [
+          54.522,
+          20.1886
+        ],
+        [
+          54.564,
+          20.3267
+        ],
+        [
+          54.575,
+          20.1942
+        ],
+        [
+          54.5475,
+          20.0057
+        ],
+        [
+          54.6082,
+          19.9381
+        ],
+        [
+          54.5254,
+          19.8818
+        ],
+        [
+          54.5309,
+          19.8332
+        ],
+        [
+          54.7517,
+          19.8632
+        ],
+        [
+          54.8499,
+          19.9426
+        ],
+        [
+          54.8456,
+          20.1271
+        ],
+        [
+          54.818,
+          20.7972
+        ],
+        [
+          54.8116,
+          20.9852
+        ],
+        [
+          54.8455,
+          21.1373
+        ],
+        [
+          54.9596,
+          21.1919
+        ],
+        [
+          55.0892,
+          21.1133
+        ],
+        [
+          55.1114,
+          21.2239
+        ],
+        [
+          55.1664,
+          21.1931
+        ],
+        [
+          55.2214,
+          21.1623
+        ],
+        [
+          55.2558,
+          21.143
+        ],
+        [
+          55.2614,
+          21.2009
+        ],
+        [
+          55.3437,
+          21.2163
+        ],
+        [
+          55.6143,
+          21.0319
+        ]
+      ]
+    ],
+    "no_central_capital": true,
+    "no_central_capital_reason": "Pre-Christian Baltic tribal confederation."
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "baltic_tribal_phase",
+      "years": "500-1226",
+      "description": "Old Prussians were Baltic-speaking pagans inhabiting the south-eastern Baltic coast; organised in clan-based tribal groups.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q109073",
+          "url": "https://www.wikidata.org/wiki/Q109073"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Prussians",
+          "url": "https://en.wikipedia.org/wiki/Old_Prussians"
+        }
+      ]
+    },
+    {
+      "phase": "teutonic_conquest",
+      "years": "1226-1283",
+      "description": "Teutonic Knights began systematic conquest of Prussia; decades of brutal warfare and deportation.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q109073",
+          "url": "https://www.wikidata.org/wiki/Q109073"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Prussians",
+          "url": "https://en.wikipedia.org/wiki/Old_Prussians"
+        }
+      ]
+    },
+    {
+      "phase": "assimilation",
+      "years": "1283-1500",
+      "description": "Old Prussian language and identity gradually disappeared under German settler pressure; last Old Prussian speakers recorded 17th century.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q109073",
+          "url": "https://www.wikidata.org/wiki/Q109073"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Prussians",
+          "url": "https://en.wikipedia.org/wiki/Old_Prussians"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "trade_route_control",
+      "layer": "economic_commercial",
+      "description": "Baltic amber from Prussian coasts was among Europe's most valued natural commodities.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q109073",
+          "url": "https://www.wikidata.org/wiki/Q109073"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Prussians",
+          "url": "https://en.wikipedia.org/wiki/Old_Prussians"
+        }
+      ],
+      "tag_prose": "amber_trade"
+    },
+    {
+      "tag": "forest_refuge",
+      "layer": "geography_territory",
+      "description": "Dense Baltic forests made initial conquest logistically difficult.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q109073",
+          "url": "https://www.wikidata.org/wiki/Q109073"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Prussians",
+          "url": "https://en.wikipedia.org/wiki/Old_Prussians"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "external_military_pressure",
+      "layer": "military_security",
+      "description": "Teutonic Knights employed castle-building strategy to consolidate territory after each advance.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q109073",
+          "url": "https://www.wikidata.org/wiki/Q109073"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Prussians",
+          "url": "https://en.wikipedia.org/wiki/Old_Prussians"
+        }
+      ],
+      "tag_prose": "teutonic_conquest"
+    },
+    {
+      "tag": "settler_colonisation",
+      "layer": "external_political",
+      "description": "Massive German colonisation after conquest replaced Prussian population within generations.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q109073",
+          "url": "https://www.wikidata.org/wiki/Q109073"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Prussians",
+          "url": "https://en.wikipedia.org/wiki/Old_Prussians"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Pipin (Pipino)",
+      "role": "chieftain",
+      "years": "1200–1220",
+      "year_start": 1200,
+      "year_end": 1220,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Pipin (Pipino)",
+          "url": "https://en.wikipedia.org/wiki/Pipin_(Pipino)"
+        }
+      ]
+    },
+    {
+      "name": "Swantopolk II of Pomerania (ally)",
+      "role": "duke",
+      "years": "1220–1266",
+      "year_start": 1220,
+      "year_end": 1266,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Swantopolk II of Pomerania (ally)",
+          "url": "https://en.wikipedia.org/wiki/Swantopolk_II_of_Pomerania_(ally)"
+        }
+      ]
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "amber_trade",
+      "fishing",
+      "fur_trade"
+    ],
+    "wealth_level": "low",
+    "major_exports": [
+      "amber",
+      "furs",
+      "fish",
+      "timber"
+    ],
+    "major_trade_partners": [
+      "hanseatic_league",
+      "kingdom_of_poland_piast",
+      "kievan_rus"
+    ],
+    "revenue_sources": [
+      "amber_trade",
+      "fishing",
+      "tribute"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q109073",
+        "url": "https://www.wikidata.org/wiki/Q109073"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Prussians",
+        "url": "https://en.wikipedia.org/wiki/Old_Prussians"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q109073",
+    "matched_name": "manual/prussians",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Old_Prussians"
+  },
+  "monogram": "PR"
+}

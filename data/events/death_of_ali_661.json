@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "death_of_ali_661",
+  "name": "Assassination of Ali and Founding of the Umayyad Caliphate",
+  "year": 661,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    32,
+    44.4
+  ],
+  "entity": "umayyad_caliphate",
+  "summary": "Ali ibn Abi Talib, cousin and son-in-law of Muhammad and fourth Rightly Guided Caliph, is assassinated by a Kharijite extremist at Kufa (Iraq) in January 661. His rival Muawiya I, governor of Syria, is already effectively in control of much of the empire. With Ali's death and his son Hasan's subsequent abdication, Muawiya founds the Umayyad Caliphate, making the caliphate hereditary rather than elected. Those who believe caliphal succession should remain with the Prophet's family become the Shia ('partisans of Ali'); those who accept Umayyad legitimacy become Sunnis.",
+  "outcomes": [
+    "ali_assassinated",
+    "muawiya_becomes_caliph",
+    "sunni_shia_split_institutionalized"
+  ],
+  "_quarry": {
+    "participants": [
+      "umayyad_caliphate",
+      "abbasid_caliphate"
+    ],
+    "structural_significance": "The definitive institutionalization of the Sunni-Shia split that shapes Islamic civilization to the present; the Umayyad dynasty rules the largest empire yet seen, stretching from Spain to the Indus; the martyrdom of Ali's son Husayn at Karbala (680) deepens the Shia identity of sacrifice and resistance that remains central to Shia Islam",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_the_2004",
+      "hawting_the_2000",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

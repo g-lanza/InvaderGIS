@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_ibn_fadlan_volga_922_c02",
+  "statement": "Ibn Faḍlān's Risāla contains the earliest detailed first-hand Arabic description of the Rus' on the Volga, including a report of a Rus' ship-burial.",
+  "subject_ids": [
+    "abbasid_caliphate"
+  ],
+  "period": {
+    "from": 922,
+    "to": 922
+  },
+  "derived_from": "ibn_fadlan_volga_922",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "hourani_arab_peoples_1991",
+      "hodgson_venture_of_islam_1974"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ainu_satsumon_transition_1100",
+  "name": "Emergence of Ainu Culture from Satsumon",
+  "year": 1100,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    43.017,
+    142.11
+  ],
+  "entity": "ainu",
+  "summary": "Across the 11th–12th centuries the late Satsumon archaeological horizon in Hokkaido and northern Tōhoku transitions into the early historic Ainu culture. Distinctive markers include the appearance of chashi (stockaded earthwork forts), the abandonment of pit-house dwellings in favour of surface structures, expanded reliance on iron tools obtained through trade with Wajin (ethnic Japanese) intermediaries, and a shift in subsistence toward salmon, deer hunting, and inter-regional exchange. The transition is gradual rather than punctuated, there is no founding event, but by the late 12th century the people of Ezogashima are recognisably the ancestors of the historic Ainu.",
+  "outcomes": [
+    "satsumon_to_ainu_transition",
+    "chashi_fortifications_appear",
+    "intensified_iron_trade_with_honshu"
+  ],
+  "_quarry": {
+    "participants": [
+      "ainu"
+    ],
+    "structural_significance": "Establishes the Ainu as a distinct ethnic group with autonomous political units. The chashi network defines the basic unit of Ainu political geography for the next several centuries, and the trade dependency on Honshu iron sets the economic structure that drives later interactions with the Wajin settlements at Tosaminato and Matsumae.",
+    "year_range": [
+      1000,
+      1200
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

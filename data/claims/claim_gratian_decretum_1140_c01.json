@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_gratian_decretum_1140_c01",
+  "statement": "Around 1140, the monk Gratian, teaching at Bologna, compiled the Concordia Discordantium Canonum, known as the Decretum, a systematic harmonisation of canon law.",
+  "subject_ids": [
+    "papal_states"
+  ],
+  "period": {
+    "from": 1140,
+    "to": 1140
+  },
+  "derived_from": "gratian_decretum_1140",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "stein_roman_law_in_european_history_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

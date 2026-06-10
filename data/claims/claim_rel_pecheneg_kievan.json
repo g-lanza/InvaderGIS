@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_pecheneg_kievan",
+  "statement": "The Pechenegs — Turkic nomads who occupied the Pontic steppe after the Khazar Khaganate's collapse — were Kiev's most dangerous steppe neighbors in the late 10th century. They besieged Kiev in 968 (forcing Sviatoslav I to return from his Balkan campaigns); they killed Sviatoslav himself at the Dnieper rapids (972) during his return from Bulgaria. Prince Vladimir I (980–1015) built a defensive line of fortresses along the Steppe border. His son Yaroslav 'the Wise' decisively defeated the Pechenegs in 1036, after which they largely dissolved as a political force, replaced by the Cumans.",
+  "subject_ids": [
+    "pecheneg_confederation",
+    "kievan_rus"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_pecheneg_kievan",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999",
+      "franklin_the_1996",
+      "riasanovsky_a_2000",
+      "martin_medieval_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 915,
+    "to": 1036
+  }
+}

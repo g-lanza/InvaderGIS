@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "bosworth_1485",
+  "name": "Battle of Bosworth Field",
+  "year": 1485,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    52.6,
+    -1.39
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "At the Battle of Bosworth Field (August 22, 1485), Henry Tudor, with a force that had landed in Wales two weeks earlier, confronts King Richard III's larger army. Lord Thomas Stanley's forces, positioned between the armies, switch sides at a critical moment; Richard III charges directly at Henry Tudor but is surrounded and killed. Richard is the last English king to die in battle. Henry Tudor becomes Henry VII, founding the Tudor dynasty. The battle ends the Wars of the Roses (1455–1485) and inaugurates Tudor England, a centralized monarchy that eliminates the great magnate families who had destabilized England for thirty years.",
+  "outcomes": [
+    "tudor_accession_context"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england"
+    ],
+    "structural_significance": "Ends the Plantagenet dynasty; founds the Tudor monarchy; ends the Wars of the Roses; Henry VII's subsequent elimination of magnate power and promotion of royal administration creates the template for the early modern English state",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

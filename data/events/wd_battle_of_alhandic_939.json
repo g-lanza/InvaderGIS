@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_alhandic_939",
+  "name": "Battle of Alhandic",
+  "year": 939,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    40.25,
+    -5.2
+  ],
+  "entity": "caliphate_of_cordoba",
+  "summary": "Battle of Alhandic (939 CE), at Zamora (part of Reconquista). Source: Wikidata Q4870264.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "caliphate_of_cordoba",
+      "kingdom_of_leon"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_muslim_1996",
+      "scales_the_1994"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

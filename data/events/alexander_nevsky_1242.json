@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "alexander_nevsky_1242",
+  "name": "Battle on the Ice",
+  "year": 1242,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    58.55,
+    27.55
+  ],
+  "entity": "principality_of_novgorod",
+  "summary": "Prince Alexander Nevsky of Novgorod leads a combined Novgorodian-Suzdal force that defeats the Livonian Order's army on the frozen surface of Lake Peipus (April 5, 1242). The 'Battle on the Ice', so named in later chronicles, routs the German knights; those who flee onto thin ice reportedly drown as it breaks. Alexander Nevsky became a Russian national hero, canonized by the Orthodox Church. The battle permanently halted the Teutonic/Livonian Order's eastern expansion and preserved Orthodox Christian Russia from Latin Catholic penetration.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "principality_of_novgorod",
+      "livonian_order_state"
+    ],
+    "structural_significance": "Halts Teutonic/Livonian Order's eastward expansion permanently; establishes Alexander Nevsky as the defender of Orthodox Russia; demonstrates limits of crusading ideology in Slavic territory",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "martin_treasure_1986",
+      "birnbaum_lord_1981"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

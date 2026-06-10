@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_konin_1283",
+  "name": "Konin",
+  "importance": "city",
+  "start_year": 1283,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q52845"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    18.2614,
+    52.2275
+  ]
+}

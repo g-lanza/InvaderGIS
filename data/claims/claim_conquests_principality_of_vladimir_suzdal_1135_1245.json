@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_principality_of_vladimir_suzdal_1135_1245",
+  "statement": "Principality of Vladimir-Suzdal — campaigns and battles spanned 1135–1245, from Battle at Zhdanaya Mountain to Alexander Nevsky's Lithuanian campaign.",
+  "subject_ids": [
+    "principality_of_vladimir_suzdal"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_principality_of_vladimir_suzdal_1135_1245",
+  "period": {
+    "from": 1135,
+    "to": 1245
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "franklin_the_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_first_bulgarian_empire_to_second_bulgarian_empire_succession",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "first_bulgarian_empire",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "second_bulgarian_empire",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 1185,
+  "until": 1185,
+  "note": "Derived from predecessor/successor links recorded in the first_bulgarian_empire and second_bulgarian_empire entity records. Transition anchored to second_bulgarian_empire start_year.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Mechanical normalisation of curated predecessor/successor links into the relationships register."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fine_the_1987"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

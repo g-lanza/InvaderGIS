@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_danish_black_death_1349_c01",
+  "statement": "The Black Death reached Scandinavia via Bergen and Malmö in 1349, killing 40-60% of Norway's population.",
+  "subject_ids": [
+    "kingdom_of_denmark"
+  ],
+  "period": {
+    "from": 1349,
+    "to": 1349
+  },
+  "derived_from": "danish_black_death_1349",
+  "unresolved_sources": [
+    "roesdahl_the_1992"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_medieval_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

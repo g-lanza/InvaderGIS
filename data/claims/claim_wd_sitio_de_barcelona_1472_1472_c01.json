@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_sitio_de_barcelona_1472_1472_c01",
+  "statement": "Sitio de Barcelona (1472) (1472 CE), at Barcelona (part of Catalan Civil War).",
+  "subject_ids": [
+    "crown_of_aragon"
+  ],
+  "period": {
+    "from": 1472,
+    "to": 1472
+  },
+  "derived_from": "wd_sitio_de_barcelona_1472_1472",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

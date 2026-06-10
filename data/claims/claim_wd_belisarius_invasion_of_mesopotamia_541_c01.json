@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_belisarius_invasion_of_mesopotamia_541_c01",
+  "statement": "Belisarius' invasion of Mesopotamia (541 CE), at Mesopotamia (part of Lazic War).",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 541,
+    "to": 541
+  },
+  "derived_from": "wd_belisarius_invasion_of_mesopotamia_541",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

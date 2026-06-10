@@ -1,0 +1,613 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "knights_hospitaller_order",
+  "name_primary": "Knights Hospitaller",
+  "name_variants": [
+    "Order of Saint John",
+    "Hospitallers"
+  ],
+  "type": "military_order_state",
+  "region": "levant",
+  "formed": 1099,
+  "dissolved": 1500,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 1150,
+      "label": "Knights Hospitaller (Acre / Levantine HQ)",
+      "polygon": [
+        [
+          [
+            32.9,
+            35.05
+          ],
+          [
+            32.95,
+            35.18
+          ],
+          [
+            32.92,
+            35.3
+          ],
+          [
+            32.8,
+            35.32
+          ],
+          [
+            32.72,
+            35.2
+          ],
+          [
+            32.78,
+            35.05
+          ]
+        ],
+        [
+          [
+            36.45,
+            27.75
+          ],
+          [
+            36.45,
+            28.05
+          ],
+          [
+            36.3,
+            28.25
+          ],
+          [
+            36.05,
+            28.3
+          ],
+          [
+            35.85,
+            28.15
+          ],
+          [
+            35.85,
+            27.85
+          ],
+          [
+            36,
+            27.7
+          ],
+          [
+            36.25,
+            27.65
+          ]
+        ]
+      ]
+    },
+    {
+      "year": 1250,
+      "label": "Knights Hospitaller (Acre / Levantine HQ)",
+      "polygon": [
+        [
+          [
+            32.9,
+            35.05
+          ],
+          [
+            32.95,
+            35.18
+          ],
+          [
+            32.92,
+            35.3
+          ],
+          [
+            32.8,
+            35.32
+          ],
+          [
+            32.72,
+            35.2
+          ],
+          [
+            32.78,
+            35.05
+          ]
+        ],
+        [
+          [
+            36.45,
+            27.75
+          ],
+          [
+            36.45,
+            28.05
+          ],
+          [
+            36.3,
+            28.25
+          ],
+          [
+            36.05,
+            28.3
+          ],
+          [
+            35.85,
+            28.15
+          ],
+          [
+            35.85,
+            27.85
+          ],
+          [
+            36,
+            27.7
+          ],
+          [
+            36.25,
+            27.65
+          ]
+        ]
+      ]
+    },
+    {
+      "year": 1350,
+      "label": "Knights Hospitaller (Rhodes HQ)",
+      "polygon": [
+        [
+          [
+            32.9,
+            35.05
+          ],
+          [
+            32.95,
+            35.18
+          ],
+          [
+            32.92,
+            35.3
+          ],
+          [
+            32.8,
+            35.32
+          ],
+          [
+            32.72,
+            35.2
+          ],
+          [
+            32.78,
+            35.05
+          ]
+        ],
+        [
+          [
+            36.45,
+            27.75
+          ],
+          [
+            36.45,
+            28.05
+          ],
+          [
+            36.3,
+            28.25
+          ],
+          [
+            36.05,
+            28.3
+          ],
+          [
+            35.85,
+            28.15
+          ],
+          [
+            35.85,
+            27.85
+          ],
+          [
+            36,
+            27.7
+          ],
+          [
+            36.25,
+            27.65
+          ]
+        ]
+      ]
+    },
+    {
+      "year": 1450,
+      "label": "Knights Hospitaller (Rhodes HQ)",
+      "polygon": [
+        [
+          [
+            32.9,
+            35.05
+          ],
+          [
+            32.95,
+            35.18
+          ],
+          [
+            32.92,
+            35.3
+          ],
+          [
+            32.8,
+            35.32
+          ],
+          [
+            32.72,
+            35.2
+          ],
+          [
+            32.78,
+            35.05
+          ]
+        ],
+        [
+          [
+            36.45,
+            27.75
+          ],
+          [
+            36.45,
+            28.05
+          ],
+          [
+            36.3,
+            28.25
+          ],
+          [
+            36.05,
+            28.3
+          ],
+          [
+            35.85,
+            28.15
+          ],
+          [
+            35.85,
+            27.85
+          ],
+          [
+            36,
+            27.7
+          ],
+          [
+            36.25,
+            27.65
+          ]
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    32.84,
+    35.182
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "temporal": {
+    "start_year": 1099,
+    "end_year": 1500,
+    "notes": "Stub: founded after the First Crusade (1099), relocated from Jerusalem to Rhodes (1310). End-year is the dataset cap; the order continued well beyond 1500."
+  },
+  "geographic": {
+    "representation": "approximate",
+    "centroid": [
+      32.84,
+      35.182
+    ],
+    "capital": {
+      "name": "Jerusalem",
+      "coords": [
+        31.78,
+        35.22
+      ],
+      "source": "curated"
+    },
+    "polygon_snapshots": [
+      {
+        "year": 1150,
+        "label": "Knights Hospitaller (Acre / Levantine HQ)",
+        "polygon": [
+          [
+            [
+              32.9,
+              35.05
+            ],
+            [
+              32.95,
+              35.18
+            ],
+            [
+              32.92,
+              35.3
+            ],
+            [
+              32.8,
+              35.32
+            ],
+            [
+              32.72,
+              35.2
+            ],
+            [
+              32.78,
+              35.05
+            ]
+          ],
+          [
+            [
+              36.45,
+              27.75
+            ],
+            [
+              36.45,
+              28.05
+            ],
+            [
+              36.3,
+              28.25
+            ],
+            [
+              36.05,
+              28.3
+            ],
+            [
+              35.85,
+              28.15
+            ],
+            [
+              35.85,
+              27.85
+            ],
+            [
+              36,
+              27.7
+            ],
+            [
+              36.25,
+              27.65
+            ]
+          ]
+        ]
+      },
+      {
+        "year": 1250,
+        "label": "Knights Hospitaller (Acre / Levantine HQ)",
+        "polygon": [
+          [
+            [
+              32.9,
+              35.05
+            ],
+            [
+              32.95,
+              35.18
+            ],
+            [
+              32.92,
+              35.3
+            ],
+            [
+              32.8,
+              35.32
+            ],
+            [
+              32.72,
+              35.2
+            ],
+            [
+              32.78,
+              35.05
+            ]
+          ],
+          [
+            [
+              36.45,
+              27.75
+            ],
+            [
+              36.45,
+              28.05
+            ],
+            [
+              36.3,
+              28.25
+            ],
+            [
+              36.05,
+              28.3
+            ],
+            [
+              35.85,
+              28.15
+            ],
+            [
+              35.85,
+              27.85
+            ],
+            [
+              36,
+              27.7
+            ],
+            [
+              36.25,
+              27.65
+            ]
+          ]
+        ]
+      },
+      {
+        "year": 1350,
+        "label": "Knights Hospitaller (Rhodes HQ)",
+        "polygon": [
+          [
+            [
+              32.9,
+              35.05
+            ],
+            [
+              32.95,
+              35.18
+            ],
+            [
+              32.92,
+              35.3
+            ],
+            [
+              32.8,
+              35.32
+            ],
+            [
+              32.72,
+              35.2
+            ],
+            [
+              32.78,
+              35.05
+            ]
+          ],
+          [
+            [
+              36.45,
+              27.75
+            ],
+            [
+              36.45,
+              28.05
+            ],
+            [
+              36.3,
+              28.25
+            ],
+            [
+              36.05,
+              28.3
+            ],
+            [
+              35.85,
+              28.15
+            ],
+            [
+              35.85,
+              27.85
+            ],
+            [
+              36,
+              27.7
+            ],
+            [
+              36.25,
+              27.65
+            ]
+          ]
+        ]
+      },
+      {
+        "year": 1450,
+        "label": "Knights Hospitaller (Rhodes HQ)",
+        "polygon": [
+          [
+            [
+              32.9,
+              35.05
+            ],
+            [
+              32.95,
+              35.18
+            ],
+            [
+              32.92,
+              35.3
+            ],
+            [
+              32.8,
+              35.32
+            ],
+            [
+              32.72,
+              35.2
+            ],
+            [
+              32.78,
+              35.05
+            ]
+          ],
+          [
+            [
+              36.45,
+              27.75
+            ],
+            [
+              36.45,
+              28.05
+            ],
+            [
+              36.3,
+              28.25
+            ],
+            [
+              36.05,
+              28.3
+            ],
+            [
+              35.85,
+              28.15
+            ],
+            [
+              35.85,
+              27.85
+            ],
+            [
+              36,
+              27.7
+            ],
+            [
+              36.25,
+              27.65
+            ]
+          ]
+        ]
+      }
+    ],
+    "polygon_simplified": [
+      [
+        32.9,
+        35.05
+      ],
+      [
+        32.95,
+        35.18
+      ],
+      [
+        32.92,
+        35.3
+      ],
+      [
+        32.8,
+        35.32
+      ],
+      [
+        32.72,
+        35.2
+      ],
+      [
+        32.78,
+        35.05
+      ]
+    ],
+    "polygon_status": "approximate",
+    "polygon_source": "hand_crafted",
+    "polygon_source_date": "2026-05-11"
+  },
+  "wikidata_enrichment": {
+    "found": true,
+    "qid": "Q187549",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Knights_Hospitaller",
+    "extraction_date": "2026-05-20",
+    "extraction_note": "Manually seeded, the Wikidata-import pipeline missed this entity in the original sweep. Q43419 covers the Order from its 11th-century foundation through the present-day Sovereign Military Order of Malta."
+  },
+  "monogram": "KH"
+}

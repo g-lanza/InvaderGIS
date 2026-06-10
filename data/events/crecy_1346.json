@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "crecy_1346",
+  "name": "Battle of Crécy",
+  "year": 1346,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    50.26,
+    1.89
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "At Crécy (August 26, 1346), Edward III's English army of approximately 14,000 defeats a French force three times its size under Philip VI. The English longbowmen fire at an estimated rate of 10–12 arrows per minute, annihilating successive charges of French and Genoese crossbowmen. The French lose 1,500 knights and countless footsoldiers; the blind King John of Bohemia is killed, his crest of three ostrich feathers adopted by Edward the Black Prince (becoming the Prince of Wales's crest). Crécy demonstrates the decisive power of massed archery against armored cavalry.",
+  "outcomes": [
+    "english_field_victory"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "kingdom_of_england"
+    ],
+    "structural_significance": "Demonstrates longbow superiority over chivalric cavalry; marks the beginning of the end of knightly dominance in warfare; first use of English cannon in battle; enables the siege of Calais",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

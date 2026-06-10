@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_battle_dorylaeum_1097_c01",
+  "statement": "The First Crusade's vanguard under Bohemond of Taranto was ambushed by a large Seljuk force at Dorylaeum in July 1097.",
+  "subject_ids": [
+    "kingdom_of_jerusalem"
+  ],
+  "period": {
+    "from": 1097,
+    "to": 1097
+  },
+  "derived_from": "battle_dorylaeum_1097",
+  "unresolved_sources": [
+    "riley-smith_the_2005",
+    "prawer_the_1972",
+    "asbridge_the_2010"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

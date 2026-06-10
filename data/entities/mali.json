@@ -1,0 +1,2729 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "mali",
+  "name_primary": "Mali Empire",
+  "name_variants": [
+    "Mali"
+  ],
+  "type": "kingdom",
+  "region": "west_africa",
+  "formed": 1235,
+  "dissolved": 1500,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 1300,
+      "label": "Mali Empire",
+      "polygon": [
+        [
+          11.93,
+          -15.33
+        ],
+        [
+          11.84,
+          -15.81
+        ],
+        [
+          12.41,
+          -16.7
+        ],
+        [
+          13.36,
+          -16.77
+        ],
+        [
+          13.47,
+          -16.49
+        ],
+        [
+          13.72,
+          -16.47
+        ],
+        [
+          14.59,
+          -17.05
+        ],
+        [
+          14.81,
+          -17.43
+        ],
+        [
+          15.75,
+          -16.6
+        ],
+        [
+          17.67,
+          -16.04
+        ],
+        [
+          17.88,
+          -7.71
+        ],
+        [
+          18.76,
+          -0.48
+        ],
+        [
+          18.76,
+          0.76
+        ],
+        [
+          18.05,
+          4.29
+        ],
+        [
+          17.17,
+          5.34
+        ],
+        [
+          15.05,
+          5.17
+        ],
+        [
+          13.99,
+          4.29
+        ],
+        [
+          10.82,
+          -1.36
+        ],
+        [
+          10.29,
+          -3.48
+        ],
+        [
+          10.11,
+          -6.83
+        ],
+        [
+          11.93,
+          -15.33
+        ]
+      ]
+    },
+    {
+      "year": 1400,
+      "label": "Mali Empire",
+      "polygon": [
+        [
+          13.24,
+          2.94
+        ],
+        [
+          13.58,
+          -2.58
+        ],
+        [
+          10.15,
+          -6.07
+        ],
+        [
+          10.11,
+          -6.83
+        ],
+        [
+          11.93,
+          -15.33
+        ],
+        [
+          11.84,
+          -15.81
+        ],
+        [
+          12.41,
+          -16.7
+        ],
+        [
+          13.36,
+          -16.77
+        ],
+        [
+          13.47,
+          -16.49
+        ],
+        [
+          13.72,
+          -16.47
+        ],
+        [
+          14.59,
+          -17.05
+        ],
+        [
+          14.81,
+          -17.43
+        ],
+        [
+          15.75,
+          -16.6
+        ],
+        [
+          17.67,
+          -16.04
+        ],
+        [
+          17.88,
+          -7.71
+        ],
+        [
+          18.76,
+          -0.48
+        ],
+        [
+          18.76,
+          0.76
+        ],
+        [
+          18.05,
+          4.29
+        ],
+        [
+          17.17,
+          5.34
+        ],
+        [
+          15.05,
+          5.17
+        ],
+        [
+          13.99,
+          4.29
+        ],
+        [
+          13.24,
+          2.94
+        ]
+      ]
+    },
+    {
+      "year": 1500,
+      "label": "Mali Empire",
+      "polygon": [
+        [
+          14.59,
+          -17.05
+        ],
+        [
+          14.81,
+          -17.43
+        ],
+        [
+          15.3,
+          -16.86
+        ],
+        [
+          16.12,
+          -16.45
+        ],
+        [
+          17.67,
+          -16.04
+        ],
+        [
+          18.67,
+          -16.06
+        ],
+        [
+          18.43,
+          -12.04
+        ],
+        [
+          18.65,
+          -9.09
+        ],
+        [
+          18.43,
+          -7.1
+        ],
+        [
+          17.79,
+          -5.9
+        ],
+        [
+          15.18,
+          -8.21
+        ],
+        [
+          13.93,
+          -8.95
+        ],
+        [
+          12.23,
+          -9.39
+        ],
+        [
+          11.43,
+          -10.95
+        ],
+        [
+          11.42,
+          -11.75
+        ],
+        [
+          12.01,
+          -12.71
+        ],
+        [
+          13.49,
+          -14.25
+        ],
+        [
+          13.72,
+          -16.47
+        ],
+        [
+          14.59,
+          -17.05
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    14.9621,
+    -6.407
+  ],
+  "religion": "",
+  "population_estimates": [
+    {
+      "year": 1250,
+      "estimate": 5000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q912",
+          "url": "https://www.wikidata.org/wiki/Q912",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Mali",
+          "url": "https://en.wikipedia.org/wiki/Mali"
+        }
+      ]
+    },
+    {
+      "year": 1330,
+      "estimate": 10000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q912",
+          "url": "https://www.wikidata.org/wiki/Q912",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Mali",
+          "url": "https://en.wikipedia.org/wiki/Mali"
+        }
+      ]
+    },
+    {
+      "year": 1400,
+      "estimate": 7000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q912",
+          "url": "https://www.wikidata.org/wiki/Q912",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Mali",
+          "url": "https://en.wikipedia.org/wiki/Mali"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "West African empire (c. 1235–1600) founded by Sundiata Keita after the Battle of Kirina; controlling the gold and salt trade across the Sahara, Mali's rulers including Mansa Musa (famous 1324 pilgrimage) accumulated legendary wealth, sponsored Islamic scholarship at Timbuktu and Djenné, and governed a multi-ethnic empire stretching from the Atlantic to the Niger Bend through a sophisticated provincial administration.",
+  "temporal": {
+    "start_year": 1235,
+    "end_year": 1500,
+    "notes": ""
+  },
+  "geographic": {
+    "centroid": [
+      14.9621,
+      -6.407
+    ],
+    "polygon_simplified": [
+      [
+        13.24,
+        2.94
+      ],
+      [
+        13.58,
+        -2.58
+      ],
+      [
+        10.15,
+        -6.07
+      ],
+      [
+        10.11,
+        -6.83
+      ],
+      [
+        11.93,
+        -15.33
+      ],
+      [
+        11.84,
+        -15.81
+      ],
+      [
+        12.41,
+        -16.7
+      ],
+      [
+        13.36,
+        -16.77
+      ],
+      [
+        13.47,
+        -16.49
+      ],
+      [
+        13.72,
+        -16.47
+      ],
+      [
+        14.59,
+        -17.05
+      ],
+      [
+        14.81,
+        -17.43
+      ],
+      [
+        15.75,
+        -16.6
+      ],
+      [
+        17.67,
+        -16.04
+      ],
+      [
+        17.88,
+        -7.71
+      ],
+      [
+        18.76,
+        -0.48
+      ],
+      [
+        18.76,
+        0.76
+      ],
+      [
+        18.05,
+        4.29
+      ],
+      [
+        17.17,
+        5.34
+      ],
+      [
+        15.05,
+        5.17
+      ],
+      [
+        13.99,
+        4.29
+      ],
+      [
+        13.24,
+        2.94
+      ]
+    ],
+    "capital": {
+      "name": "Bamako",
+      "coords": [
+        12.64583,
+        -7.99222
+      ],
+      "source": "wikidata"
+    },
+    "polygon_snapshots": [
+      {
+        "year": 1300,
+        "label": "Mali Empire",
+        "polygon": [
+          [
+            11.93,
+            -15.33
+          ],
+          [
+            11.84,
+            -15.81
+          ],
+          [
+            12.41,
+            -16.7
+          ],
+          [
+            13.36,
+            -16.77
+          ],
+          [
+            13.47,
+            -16.49
+          ],
+          [
+            13.72,
+            -16.47
+          ],
+          [
+            14.59,
+            -17.05
+          ],
+          [
+            14.81,
+            -17.43
+          ],
+          [
+            15.75,
+            -16.6
+          ],
+          [
+            17.67,
+            -16.04
+          ],
+          [
+            17.88,
+            -7.71
+          ],
+          [
+            18.76,
+            -0.48
+          ],
+          [
+            18.76,
+            0.76
+          ],
+          [
+            18.05,
+            4.29
+          ],
+          [
+            17.17,
+            5.34
+          ],
+          [
+            15.05,
+            5.17
+          ],
+          [
+            13.99,
+            4.29
+          ],
+          [
+            10.82,
+            -1.36
+          ],
+          [
+            10.29,
+            -3.48
+          ],
+          [
+            10.11,
+            -6.83
+          ],
+          [
+            11.93,
+            -15.33
+          ]
+        ]
+      },
+      {
+        "year": 1400,
+        "label": "Mali Empire",
+        "polygon": [
+          [
+            13.24,
+            2.94
+          ],
+          [
+            13.58,
+            -2.58
+          ],
+          [
+            10.15,
+            -6.07
+          ],
+          [
+            10.11,
+            -6.83
+          ],
+          [
+            11.93,
+            -15.33
+          ],
+          [
+            11.84,
+            -15.81
+          ],
+          [
+            12.41,
+            -16.7
+          ],
+          [
+            13.36,
+            -16.77
+          ],
+          [
+            13.47,
+            -16.49
+          ],
+          [
+            13.72,
+            -16.47
+          ],
+          [
+            14.59,
+            -17.05
+          ],
+          [
+            14.81,
+            -17.43
+          ],
+          [
+            15.75,
+            -16.6
+          ],
+          [
+            17.67,
+            -16.04
+          ],
+          [
+            17.88,
+            -7.71
+          ],
+          [
+            18.76,
+            -0.48
+          ],
+          [
+            18.76,
+            0.76
+          ],
+          [
+            18.05,
+            4.29
+          ],
+          [
+            17.17,
+            5.34
+          ],
+          [
+            15.05,
+            5.17
+          ],
+          [
+            13.99,
+            4.29
+          ],
+          [
+            13.24,
+            2.94
+          ]
+        ]
+      },
+      {
+        "year": 1500,
+        "label": "Mali Empire",
+        "polygon": [
+          [
+            14.59,
+            -17.05
+          ],
+          [
+            14.81,
+            -17.43
+          ],
+          [
+            15.3,
+            -16.86
+          ],
+          [
+            16.12,
+            -16.45
+          ],
+          [
+            17.67,
+            -16.04
+          ],
+          [
+            18.67,
+            -16.06
+          ],
+          [
+            18.43,
+            -12.04
+          ],
+          [
+            18.65,
+            -9.09
+          ],
+          [
+            18.43,
+            -7.1
+          ],
+          [
+            17.79,
+            -5.9
+          ],
+          [
+            15.18,
+            -8.21
+          ],
+          [
+            13.93,
+            -8.95
+          ],
+          [
+            12.23,
+            -9.39
+          ],
+          [
+            11.43,
+            -10.95
+          ],
+          [
+            11.42,
+            -11.75
+          ],
+          [
+            12.01,
+            -12.71
+          ],
+          [
+            13.49,
+            -14.25
+          ],
+          [
+            13.72,
+            -16.47
+          ],
+          [
+            14.59,
+            -17.05
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "real_historical_boundary",
+    "polygon_source": "aourednik/historical-basemaps",
+    "polygon_source_date": "2026-05-09"
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "formation",
+      "years": "1235–1270",
+      "description": "Sundiata Keita defeats Ghana at Kirina; consolidates Manding chieftaincies into centralised empire controlling upper Niger",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q912",
+          "url": "https://www.wikidata.org/wiki/Q912"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Mali",
+          "url": "https://en.wikipedia.org/wiki/Mali"
+        }
+      ]
+    },
+    {
+      "phase": "peak",
+      "years": "1270–1360",
+      "description": "Mansa Musa's reign (1312–1337), pilgrimage to Mecca publicises Malian wealth; Timbuktu and Djenné become Islamic scholarly centres; territorial maximum",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q912",
+          "url": "https://www.wikidata.org/wiki/Q912"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Mali",
+          "url": "https://en.wikipedia.org/wiki/Mali"
+        }
+      ]
+    },
+    {
+      "phase": "decline",
+      "years": "1360–1430",
+      "description": "Succession conflicts weaken central authority; Tuareg raids from north; Mossi raids from south erode borderlands",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q912",
+          "url": "https://www.wikidata.org/wiki/Q912"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Mali",
+          "url": "https://en.wikipedia.org/wiki/Mali"
+        }
+      ]
+    },
+    {
+      "phase": "fragmentation",
+      "years": "1430–1600",
+      "description": "Songhay (Songhai) Empire absorbs Timbuktu and the Niger Bend; Mali retreats to its Manding heartland around Niani",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q912",
+          "url": "https://www.wikidata.org/wiki/Q912"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Mali",
+          "url": "https://en.wikipedia.org/wiki/Mali"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "trade_route_control",
+      "layer": "economic_commercial",
+      "description": "Mali controlled the trans-Saharan gold-salt exchange at its source, monopolising gold from Bambuk and Bure mines",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q912",
+          "url": "https://www.wikidata.org/wiki/Q912"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Mali",
+          "url": "https://en.wikipedia.org/wiki/Mali"
+        }
+      ]
+    },
+    {
+      "tag": "religious_legitimacy",
+      "layer": "ideology_religion",
+      "description": "Malian emperors' adoption of Islam integrated them into the Islamic scholarly network and legitimised governance for Muslim merchant communities",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q912",
+          "url": "https://www.wikidata.org/wiki/Q912"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Mali",
+          "url": "https://en.wikipedia.org/wiki/Mali"
+        }
+      ]
+    },
+    {
+      "tag": "military_organizational_advantage",
+      "layer": "military_security",
+      "description": "Sundiata's cavalry and infantry alliance system unified the Manding clans into a professional military force unlike earlier Ghana's informal levies",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q912",
+          "url": "https://www.wikidata.org/wiki/Q912"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Mali",
+          "url": "https://en.wikipedia.org/wiki/Mali"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "succession_instability",
+      "layer": "dynastic_legitimacy",
+      "description": "Post-Musa succession conflicts produced multiple simultaneous claimants who hired Tuareg mercenaries, draining treasury and enabling raids",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q912",
+          "url": "https://www.wikidata.org/wiki/Q912"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Mali",
+          "url": "https://en.wikipedia.org/wiki/Mali"
+        }
+      ]
+    },
+    {
+      "tag": "rival_fragmentation",
+      "layer": "external_political",
+      "description": "Songhay Sunni Ali's conquests absorbed the Niger Bend trade cities that were Mali's primary revenue source",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q912",
+          "url": "https://www.wikidata.org/wiki/Q912"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Mali",
+          "url": "https://en.wikipedia.org/wiki/Mali"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Sundiata Keita",
+      "role": "founder",
+      "years": "1235–1255",
+      "year_start": 1235,
+      "year_end": 1255,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Sundiata Keita",
+          "url": "https://en.wikipedia.org/wiki/Sundiata_Keita"
+        }
+      ]
+    },
+    {
+      "name": "Mansa Musa I",
+      "role": "ruler",
+      "years": "1312–1337",
+      "year_start": 1312,
+      "year_end": 1337,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Mansa Musa I",
+          "url": "https://en.wikipedia.org/wiki/Mansa_Musa"
+        }
+      ]
+    },
+    {
+      "name": "Mansa Suleyman",
+      "role": "ruler",
+      "years": "1341–1360",
+      "year_start": 1341,
+      "year_end": 1360,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Mansa Suleyman",
+          "url": "https://en.wikipedia.org/wiki/Sulayman_of_Mali"
+        }
+      ]
+    }
+  ],
+  "predecessor_entity_ids": [
+    "ghana"
+  ],
+  "successor_entity_ids": [
+    "songhai_empire"
+  ],
+  "economic": {
+    "primary_base": "long_distance_trade",
+    "secondary_bases": [
+      "gold_production",
+      "agriculture",
+      "salt_trade"
+    ],
+    "wealth_level": "very_high",
+    "major_exports": [
+      "gold",
+      "salt",
+      "kola_nuts",
+      "slaves",
+      "ivory"
+    ],
+    "major_trade_partners": [
+      "mamluk_sultanate",
+      "north_africa_berbers",
+      "takrur"
+    ],
+    "revenue_sources": [
+      "trans_saharan_tariffs",
+      "gold_export_tax",
+      "agricultural_tribute"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q912",
+        "url": "https://www.wikidata.org/wiki/Q912"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Mali",
+        "url": "https://en.wikipedia.org/wiki/Mali"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q912",
+    "matched_name": "Mali",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mali",
+    "capital": {
+      "name": "Bamako",
+      "coords": [
+        12.64583,
+        -7.99222
+      ]
+    },
+    "rulers_from_wikidata": [
+      {
+        "name": "Badara Aliou Macalou",
+        "qid": "Q16267410",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q16267410",
+            "url": "https://www.wikidata.org/wiki/Q16267410"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Badara Aliou Macalou",
+            "url": "https://en.wikipedia.org/wiki/Badara_Aliou_Macalou"
+          }
+        ]
+      },
+      {
+        "name": "Karl-Heinz Witzke",
+        "qid": "Q1730026",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1730026",
+            "url": "https://www.wikidata.org/wiki/Q1730026"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Karl-Heinz Witzke",
+            "url": "https://en.wikipedia.org/wiki/Karl-Heinz_Witzke"
+          }
+        ]
+      },
+      {
+        "name": "Ousmane Kone",
+        "qid": "Q18358774",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q18358774",
+            "url": "https://www.wikidata.org/wiki/Q18358774"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ousmane Kone",
+            "url": "https://en.wikipedia.org/wiki/Ousmane_Kone"
+          }
+        ]
+      },
+      {
+        "name": "Oumar Ibrahima Touré",
+        "qid": "Q3358300",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3358300",
+            "url": "https://www.wikidata.org/wiki/Q3358300"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Oumar Ibrahima Touré",
+            "url": "https://en.wikipedia.org/wiki/Oumar_Ibrahima_Touré"
+          }
+        ]
+      },
+      {
+        "name": "Modibo Sidibé",
+        "qid": "Q445841",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q445841",
+            "url": "https://www.wikidata.org/wiki/Q445841"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Modibo Sidibé",
+            "url": "https://en.wikipedia.org/wiki/Modibo_Sidibé"
+          }
+        ]
+      },
+      {
+        "name": "Belco Bah",
+        "qid": "Q91621670",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q91621670",
+            "url": "https://www.wikidata.org/wiki/Q91621670"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Belco Bah",
+            "url": "https://en.wikipedia.org/wiki/Belco_Bah"
+          }
+        ]
+      },
+      {
+        "name": "Oumar Mariko",
+        "qid": "Q936365",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q936365",
+            "url": "https://www.wikidata.org/wiki/Q936365"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Oumar Mariko",
+            "url": "https://en.wikipedia.org/wiki/Oumar_Mariko"
+          }
+        ]
+      },
+      {
+        "name": "Younoussi Touré",
+        "qid": "Q1362358",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1362358",
+            "url": "https://www.wikidata.org/wiki/Q1362358"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Younoussi Touré",
+            "url": "https://en.wikipedia.org/wiki/Younoussi_Touré"
+          }
+        ]
+      },
+      {
+        "name": "Ibrahim Ag Mohamed Assaleh",
+        "qid": "Q18977723",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q18977723",
+            "url": "https://www.wikidata.org/wiki/Q18977723"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ibrahim Ag Mohamed Assaleh",
+            "url": "https://en.wikipedia.org/wiki/Ibrahim_Ag_Mohamed_Assaleh"
+          }
+        ]
+      },
+      {
+        "name": "Karim Keïta",
+        "qid": "Q22278552",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q22278552",
+            "url": "https://www.wikidata.org/wiki/Q22278552"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Karim Keïta",
+            "url": "https://en.wikipedia.org/wiki/Karim_Keïta"
+          }
+        ]
+      },
+      {
+        "name": "Alioune Blondin Béye",
+        "qid": "Q2837099",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2837099",
+            "url": "https://www.wikidata.org/wiki/Q2837099"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Alioune Blondin Béye",
+            "url": "https://en.wikipedia.org/wiki/Alioune_Blondin_Béye"
+          }
+        ]
+      },
+      {
+        "name": "Modibo Keïta",
+        "qid": "Q313240",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q313240",
+            "url": "https://www.wikidata.org/wiki/Q313240"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Modibo Keïta",
+            "url": "https://en.wikipedia.org/wiki/Modibo_Keïta"
+          }
+        ]
+      },
+      {
+        "name": "Housseini Amion Guindo",
+        "qid": "Q3141374",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3141374",
+            "url": "https://www.wikidata.org/wiki/Q3141374"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Housseini Amion Guindo",
+            "url": "https://en.wikipedia.org/wiki/Housseini_Amion_Guindo"
+          }
+        ]
+      },
+      {
+        "name": "Mountaga Tall",
+        "qid": "Q3326057",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3326057",
+            "url": "https://www.wikidata.org/wiki/Q3326057"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mountaga Tall",
+            "url": "https://en.wikipedia.org/wiki/Mountaga_Tall_(politician)"
+          }
+        ]
+      },
+      {
+        "name": "Dioncounda Traoré",
+        "qid": "Q372780",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q372780",
+            "url": "https://www.wikidata.org/wiki/Q372780"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Dioncounda Traoré",
+            "url": "https://en.wikipedia.org/wiki/Dioncounda_Traoré"
+          }
+        ]
+      },
+      {
+        "name": "Ascofare Oulematou Tamboura",
+        "qid": "Q4803981",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4803981",
+            "url": "https://www.wikidata.org/wiki/Q4803981"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ascofare Oulematou Tamboura",
+            "url": "https://en.wikipedia.org/wiki/Ascofare_Oulematou_Tamboura"
+          }
+        ]
+      },
+      {
+        "name": "Baréma Bocoum",
+        "qid": "Q4866120",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4866120",
+            "url": "https://www.wikidata.org/wiki/Q4866120"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Baréma Bocoum",
+            "url": "https://en.wikipedia.org/wiki/Baréma_Bocoum"
+          }
+        ]
+      },
+      {
+        "name": "Aoua Kéita",
+        "qid": "Q537613",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q537613",
+            "url": "https://www.wikidata.org/wiki/Q537613"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Aoua Kéita",
+            "url": "https://en.wikipedia.org/wiki/Aoua_Kéita"
+          }
+        ]
+      },
+      {
+        "name": "Demba Traoré",
+        "qid": "Q549064",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q549064",
+            "url": "https://www.wikidata.org/wiki/Q549064"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Demba Traoré",
+            "url": "https://en.wikipedia.org/wiki/Demba_Traoré"
+          }
+        ]
+      },
+      {
+        "name": "Souleymane Sidibé",
+        "qid": "Q64030556",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q64030556",
+            "url": "https://www.wikidata.org/wiki/Q64030556"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Souleymane Sidibé",
+            "url": "https://en.wikipedia.org/wiki/Souleymane_Sidibé"
+          }
+        ]
+      },
+      {
+        "name": "Modibo Keita",
+        "qid": "Q6889310",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q6889310",
+            "url": "https://www.wikidata.org/wiki/Q6889310"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Modibo Keita",
+            "url": "https://en.wikipedia.org/wiki/Modibo_Ke%C3%AFta"
+          }
+        ]
+      },
+      {
+        "name": "Sidibé Korian Sidibé",
+        "qid": "Q7508826",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q7508826",
+            "url": "https://www.wikidata.org/wiki/Q7508826"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Sidibé Korian Sidibé",
+            "url": "https://en.wikipedia.org/wiki/Sidibé_Korian_Sidibé"
+          }
+        ]
+      },
+      {
+        "name": "Oumou Sanogo",
+        "qid": "Q116982908",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q116982908",
+            "url": "https://www.wikidata.org/wiki/Q116982908"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Oumou Sanogo",
+            "url": "https://en.wikipedia.org/wiki/Oumou_Sanogo"
+          }
+        ]
+      },
+      {
+        "name": "Ahzam B. Razif",
+        "qid": "Q25460776",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q25460776",
+            "url": "https://www.wikidata.org/wiki/Q25460776"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ahzam B. Razif",
+            "url": "https://en.wikipedia.org/wiki/Ahzam_B._Razif"
+          }
+        ]
+      },
+      {
+        "name": "Fatoumata Dembélé Diarra",
+        "qid": "Q516088",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q516088",
+            "url": "https://www.wikidata.org/wiki/Q516088"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Fatoumata Dembélé Diarra",
+            "url": "https://en.wikipedia.org/wiki/Fatoumata_Dembélé_Diarra"
+          }
+        ]
+      },
+      {
+        "name": "Cissé Mariam Kaïdama Sidibé",
+        "qid": "Q293119",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q293119",
+            "url": "https://www.wikidata.org/wiki/Q293119"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Cissé Mariam Kaïdama Sidibé",
+            "url": "https://en.wikipedia.org/wiki/Cissé_Mariam_Kaïdama_Sidibé"
+          }
+        ]
+      },
+      {
+        "name": "Napoleon Abdulai",
+        "qid": "Q33069732",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q33069732",
+            "url": "https://www.wikidata.org/wiki/Q33069732"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Napoleon Abdulai",
+            "url": "https://en.wikipedia.org/wiki/Napoleon_Abdulai"
+          }
+        ]
+      },
+      {
+        "name": "Moussa Traoré",
+        "qid": "Q313242",
+        "year_start": 1968,
+        "year_end": 1991,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q313242",
+            "url": "https://www.wikidata.org/wiki/Q313242"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Moussa Traoré",
+            "url": "https://en.wikipedia.org/wiki/Moussa_Traoré"
+          }
+        ]
+      },
+      {
+        "name": "Yoro Diakité",
+        "qid": "Q3162939",
+        "year_start": 1968,
+        "year_end": 1969,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3162939",
+            "url": "https://www.wikidata.org/wiki/Q3162939"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Yoro Diakité",
+            "url": "https://en.wikipedia.org/wiki/Yoro_Diakité"
+          }
+        ]
+      },
+      {
+        "name": "Sori Coulibaly",
+        "qid": "Q108443114",
+        "year_start": 1969,
+        "year_end": 1970,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q108443114",
+            "url": "https://www.wikidata.org/wiki/Q108443114"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Sori Coulibaly",
+            "url": "https://en.wikipedia.org/wiki/Sori_Coulibaly"
+          }
+        ]
+      },
+      {
+        "name": "Yusuf Traoré",
+        "qid": "Q108443115",
+        "year_start": 1978,
+        "year_end": 1979,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q108443115",
+            "url": "https://www.wikidata.org/wiki/Q108443115"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Yusuf Traoré",
+            "url": "https://en.wikipedia.org/wiki/Yusuf_Traoré"
+          }
+        ]
+      },
+      {
+        "name": "Mamadou Dembelé",
+        "qid": "Q3038750",
+        "year_start": 1986,
+        "year_end": 1988,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3038750",
+            "url": "https://www.wikidata.org/wiki/Q3038750"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mamadou Dembelé",
+            "url": "https://en.wikipedia.org/wiki/Mamadou_Dembelé"
+          }
+        ]
+      },
+      {
+        "name": "N'Golo Traoré",
+        "qid": "Q108443116",
+        "year_start": 1989,
+        "year_end": 1991,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q108443116",
+            "url": "https://www.wikidata.org/wiki/Q108443116"
+          },
+          {
+            "type": "wikipedia",
+            "label": "N'Golo Traoré",
+            "url": "https://en.wikipedia.org/wiki/N'Golo_Traoré"
+          }
+        ]
+      },
+      {
+        "name": "Amadou Toumani Touré",
+        "qid": "Q170597",
+        "year_start": 1991,
+        "year_end": 1992,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q170597",
+            "url": "https://www.wikidata.org/wiki/Q170597"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Amadou Toumani Touré",
+            "url": "https://en.wikipedia.org/wiki/Amadou_Toumani_Touré"
+          }
+        ]
+      },
+      {
+        "name": "Soumana Sacko",
+        "qid": "Q2304078",
+        "year_start": 1991,
+        "year_end": 1992,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2304078",
+            "url": "https://www.wikidata.org/wiki/Q2304078"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Soumana Sacko",
+            "url": "https://en.wikipedia.org/wiki/Soumana_Sacko"
+          }
+        ]
+      },
+      {
+        "name": "Mohamed Aloussine Touré",
+        "qid": "Q108443117",
+        "year_start": 1992,
+        "year_end": 1993,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q108443117",
+            "url": "https://www.wikidata.org/wiki/Q108443117"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mohamed Aloussine Touré",
+            "url": "https://en.wikipedia.org/wiki/Mohamed_Aloussine_Touré"
+          }
+        ]
+      },
+      {
+        "name": "Sanou Nana Kané",
+        "qid": "Q110680902",
+        "year_start": 1992,
+        "year_end": 1997,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q110680902",
+            "url": "https://www.wikidata.org/wiki/Q110680902"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Sanou Nana Kané",
+            "url": "https://en.wikipedia.org/wiki/Sanou_Nana_Kané"
+          }
+        ]
+      },
+      {
+        "name": "Victorine Dakouo",
+        "qid": "Q110681145",
+        "year_start": 1992,
+        "year_end": 1997,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q110681145",
+            "url": "https://www.wikidata.org/wiki/Q110681145"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Victorine Dakouo",
+            "url": "https://en.wikipedia.org/wiki/Victorine_Dakouo"
+          }
+        ]
+      },
+      {
+        "name": "Alioune Nouhoum Diallo",
+        "qid": "Q106466538",
+        "year_start": 1992,
+        "year_end": 2002,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q106466538",
+            "url": "https://www.wikidata.org/wiki/Q106466538"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Alioune Nouhoum Diallo",
+            "url": "https://en.wikipedia.org/wiki/Alioune_Nouhoum_Diallo"
+          }
+        ]
+      },
+      {
+        "name": "Alpha Oumar Konaré",
+        "qid": "Q313239",
+        "year_start": 1992,
+        "year_end": 2002,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q313239",
+            "url": "https://www.wikidata.org/wiki/Q313239"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Alpha Oumar Konaré",
+            "url": "https://en.wikipedia.org/wiki/Alpha_Oumar_Konaré"
+          }
+        ]
+      },
+      {
+        "name": "Abdoulaye Sékou Sow",
+        "qid": "Q308416",
+        "year_start": 1993,
+        "year_end": 1994,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q308416",
+            "url": "https://www.wikidata.org/wiki/Q308416"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Abdoulaye Sékou Sow",
+            "url": "https://en.wikipedia.org/wiki/Abdoulaye_Sékou_Sow"
+          }
+        ]
+      },
+      {
+        "name": "Sy Kadiatou Sow",
+        "qid": "Q16647851",
+        "year_start": 1994,
+        "year_end": 1994,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q16647851",
+            "url": "https://www.wikidata.org/wiki/Q16647851"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Sy Kadiatou Sow",
+            "url": "https://en.wikipedia.org/wiki/Sy_Kadiatou_Sow"
+          }
+        ]
+      },
+      {
+        "name": "Ibrahim Boubacar Keïta",
+        "qid": "Q324108",
+        "year_start": 1994,
+        "year_end": 2000,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q324108",
+            "url": "https://www.wikidata.org/wiki/Q324108"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ibrahim Boubacar Keïta",
+            "url": "https://en.wikipedia.org/wiki/Ibrahim_Boubacar_Keïta"
+          }
+        ]
+      },
+      {
+        "name": "Tiébilé Dramé",
+        "qid": "Q775684",
+        "year_start": 1997,
+        "year_end": 2020,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q775684",
+            "url": "https://www.wikidata.org/wiki/Q775684"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Tiébilé Dramé",
+            "url": "https://en.wikipedia.org/wiki/Tiébilé_Dramé"
+          }
+        ]
+      },
+      {
+        "name": "Ascofaré Ouleymatou Tamboura",
+        "qid": "Q85984185",
+        "year_start": 1997,
+        "year_end": 2001,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q85984185",
+            "url": "https://www.wikidata.org/wiki/Q85984185"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ascofaré Ouleymatou Tamboura",
+            "url": "https://en.wikipedia.org/wiki/Ascofaré_Ouleymatou_Tamboura"
+          }
+        ]
+      },
+      {
+        "name": "Mandé Sidibé",
+        "qid": "Q2066240",
+        "year_start": 2000,
+        "year_end": 2002,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2066240",
+            "url": "https://www.wikidata.org/wiki/Q2066240"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mandé Sidibé",
+            "url": "https://en.wikipedia.org/wiki/Mandé_Sidibé"
+          }
+        ]
+      },
+      {
+        "name": "Mahamadou Cissé",
+        "qid": "Q110607746",
+        "year_start": 2002,
+        "year_end": 2020,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q110607746",
+            "url": "https://www.wikidata.org/wiki/Q110607746"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mahamadou Cissé",
+            "url": "https://en.wikipedia.org/wiki/Mahamadou_Cissé"
+          }
+        ]
+      },
+      {
+        "name": "Fatimata Niambali",
+        "qid": "Q110665614",
+        "year_start": 2002,
+        "year_end": 2007,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q110665614",
+            "url": "https://www.wikidata.org/wiki/Q110665614"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Fatimata Niambali",
+            "url": "https://en.wikipedia.org/wiki/Fatimata_Niambali"
+          }
+        ]
+      },
+      {
+        "name": "Issaka Sidibé",
+        "qid": "Q23023240",
+        "year_start": 2002,
+        "year_end": 2007,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q23023240",
+            "url": "https://www.wikidata.org/wiki/Q23023240"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Issaka Sidibé",
+            "url": "https://en.wikipedia.org/wiki/Issaka_Sidibé"
+          }
+        ]
+      },
+      {
+        "name": "Lassana Traoré",
+        "qid": "Q6493863",
+        "year_start": 2002,
+        "year_end": 2004,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q6493863",
+            "url": "https://www.wikidata.org/wiki/Q6493863"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Lassana Traoré",
+            "url": "https://en.wikipedia.org/wiki/Lassana_Traoré"
+          }
+        ]
+      },
+      {
+        "name": "Ahmed Mohamed ag Hamani",
+        "qid": "Q401392",
+        "year_start": 2002,
+        "year_end": 2004,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q401392",
+            "url": "https://www.wikidata.org/wiki/Q401392"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ahmed Mohamed ag Hamani",
+            "url": "https://en.wikipedia.org/wiki/Ahmed_Mohamed_ag_Hamani"
+          }
+        ]
+      },
+      {
+        "name": "Bah Ndaw",
+        "qid": "Q99522144",
+        "year_start": 2003,
+        "year_end": 2004,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q99522144",
+            "url": "https://www.wikidata.org/wiki/Q99522144"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Bah Ndaw",
+            "url": "https://en.wikipedia.org/wiki/Bah_Ndaw"
+          }
+        ]
+      },
+      {
+        "name": "Moctar Ouane",
+        "qid": "Q3317754",
+        "year_start": 2004,
+        "year_end": 2011,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3317754",
+            "url": "https://www.wikidata.org/wiki/Q3317754"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Moctar Ouane",
+            "url": "https://en.wikipedia.org/wiki/Moctar_Ouane"
+          }
+        ]
+      },
+      {
+        "name": "Ousmane Issoufi Maïga",
+        "qid": "Q434377",
+        "year_start": 2004,
+        "year_end": 2007,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q434377",
+            "url": "https://www.wikidata.org/wiki/Q434377"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ousmane Issoufi Maïga",
+            "url": "https://en.wikipedia.org/wiki/Ousmane_Issoufi_Maïga"
+          }
+        ]
+      },
+      {
+        "name": "Maïga Zeïnab Mint Youba",
+        "qid": "Q100233714",
+        "year_start": 2004,
+        "year_end": 2007,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q100233714",
+            "url": "https://www.wikidata.org/wiki/Q100233714"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Maïga Zeïnab Mint Youba",
+            "url": "https://en.wikipedia.org/wiki/Maïga_Zeïnab_Mint_Youba"
+          }
+        ]
+      },
+      {
+        "name": "Sadio Gassama",
+        "qid": "Q3461134",
+        "year_start": 2004,
+        "year_end": 2012,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3461134",
+            "url": "https://www.wikidata.org/wiki/Q3461134"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Sadio Gassama",
+            "url": "https://en.wikipedia.org/wiki/Sadio_Gassama"
+          }
+        ]
+      },
+      {
+        "name": "Oumou Coulibaly",
+        "qid": "Q110655554",
+        "year_start": 2007,
+        "year_end": 2013,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q110655554",
+            "url": "https://www.wikidata.org/wiki/Q110655554"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Oumou Coulibaly",
+            "url": "https://en.wikipedia.org/wiki/Oumou_Coulibaly"
+          }
+        ]
+      },
+      {
+        "name": "Mariam Diassana",
+        "qid": "Q110656850",
+        "year_start": 2007,
+        "year_end": 2013,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q110656850",
+            "url": "https://www.wikidata.org/wiki/Q110656850"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mariam Diassana",
+            "url": "https://en.wikipedia.org/wiki/Mariam_Diassana"
+          }
+        ]
+      },
+      {
+        "name": "Soumeylou Boubèye Maïga",
+        "qid": "Q2398472",
+        "year_start": 2011,
+        "year_end": 2012,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2398472",
+            "url": "https://www.wikidata.org/wiki/Q2398472"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Soumeylou Boubèye Maïga",
+            "url": "https://en.wikipedia.org/wiki/Soumeylou_Boubèye_Maïga"
+          }
+        ]
+      },
+      {
+        "name": "Diallo Madeleine Bâ",
+        "qid": "Q16267917",
+        "year_start": 2011,
+        "year_end": 2012,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q16267917",
+            "url": "https://www.wikidata.org/wiki/Q16267917"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Diallo Madeleine Bâ",
+            "url": "https://en.wikipedia.org/wiki/Diallo_Madeleine_Bâ"
+          }
+        ]
+      },
+      {
+        "name": "Sadio Lamine Sow",
+        "qid": "Q3461135",
+        "year_start": 2012,
+        "year_end": 2012,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3461135",
+            "url": "https://www.wikidata.org/wiki/Q3461135"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Sadio Lamine Sow",
+            "url": "https://en.wikipedia.org/wiki/Sadio_Lamine_Sow"
+          }
+        ]
+      },
+      {
+        "name": "Tiéman Hubert Coulibaly",
+        "qid": "Q3530016",
+        "year_start": 2012,
+        "year_end": 2013,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3530016",
+            "url": "https://www.wikidata.org/wiki/Q3530016"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Tiéman Hubert Coulibaly",
+            "url": "https://en.wikipedia.org/wiki/Tiéman_Hubert_Coulibaly"
+          }
+        ]
+      },
+      {
+        "name": "Seyba Traoré",
+        "qid": "Q113669238",
+        "year_start": 2012,
+        "year_end": 2012,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q113669238",
+            "url": "https://www.wikidata.org/wiki/Q113669238"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Seyba Traoré",
+            "url": "https://en.wikipedia.org/wiki/Seyba_Traoré"
+          }
+        ]
+      },
+      {
+        "name": "Amadou Sanogo",
+        "qid": "Q372679",
+        "year_start": 2012,
+        "year_end": 2012,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q372679",
+            "url": "https://www.wikidata.org/wiki/Q372679"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Amadou Sanogo",
+            "url": "https://en.wikipedia.org/wiki/Amadou_Sanogo"
+          }
+        ]
+      },
+      {
+        "name": "Soumana Makadji",
+        "qid": "Q2304068",
+        "year_start": 2012,
+        "year_end": 2013,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2304068",
+            "url": "https://www.wikidata.org/wiki/Q2304068"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Soumana Makadji",
+            "url": "https://en.wikipedia.org/wiki/Soumana_Makadji"
+          }
+        ]
+      },
+      {
+        "name": "Cheick Modibo Diarra",
+        "qid": "Q548003",
+        "year_start": 2012,
+        "year_end": 2012,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q548003",
+            "url": "https://www.wikidata.org/wiki/Q548003"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Cheick Modibo Diarra",
+            "url": "https://en.wikipedia.org/wiki/Cheick_Modibo_Diarra"
+          }
+        ]
+      },
+      {
+        "name": "Tiéfing Konaté",
+        "qid": "Q3530011",
+        "year_start": 2012,
+        "year_end": 2013,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3530011",
+            "url": "https://www.wikidata.org/wiki/Q3530011"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Tiéfing Konaté",
+            "url": "https://en.wikipedia.org/wiki/Tiéfing_Konaté"
+          }
+        ]
+      },
+      {
+        "name": "Django Sissoko",
+        "qid": "Q861710",
+        "year_start": 2012,
+        "year_end": 2013,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q861710",
+            "url": "https://www.wikidata.org/wiki/Q861710"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Django Sissoko",
+            "url": "https://en.wikipedia.org/wiki/Django_Sissoko"
+          }
+        ]
+      },
+      {
+        "name": "Moussa Timbiné",
+        "qid": "Q95114007",
+        "year_start": 2013,
+        "year_end": 2020,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q95114007",
+            "url": "https://www.wikidata.org/wiki/Q95114007"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Moussa Timbiné",
+            "url": "https://en.wikipedia.org/wiki/Moussa_Timbiné"
+          }
+        ]
+      },
+      {
+        "name": "Oumou Soumaré",
+        "qid": "Q110619740",
+        "year_start": 2013,
+        "year_end": 2020,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q110619740",
+            "url": "https://www.wikidata.org/wiki/Q110619740"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Oumou Soumaré",
+            "url": "https://en.wikipedia.org/wiki/Oumou_Soumaré"
+          }
+        ]
+      },
+      {
+        "name": "Zahabi Ould Sidi Mohamed",
+        "qid": "Q16269580",
+        "year_start": 2013,
+        "year_end": 2014,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q16269580",
+            "url": "https://www.wikidata.org/wiki/Q16269580"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Zahabi Ould Sidi Mohamed",
+            "url": "https://en.wikipedia.org/wiki/Zahabi_Ould_Sidi_Mohamed"
+          }
+        ]
+      },
+      {
+        "name": "Mohamed Ag Intalla",
+        "qid": "Q19629297",
+        "year_start": 2013,
+        "year_end": 2020,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q19629297",
+            "url": "https://www.wikidata.org/wiki/Q19629297"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mohamed Ag Intalla",
+            "url": "https://en.wikipedia.org/wiki/Mohamed_Ag_Intalla"
+          }
+        ]
+      },
+      {
+        "name": "Oumar Tatam Ly",
+        "qid": "Q14832856",
+        "year_start": 2013,
+        "year_end": 2014,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q14832856",
+            "url": "https://www.wikidata.org/wiki/Q14832856"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Oumar Tatam Ly",
+            "url": "https://en.wikipedia.org/wiki/Oumar_Tatam_Ly"
+          }
+        ]
+      },
+      {
+        "name": "Togola Marie Jacqueline Nana",
+        "qid": "Q100275809",
+        "year_start": 2013,
+        "year_end": 2015,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q100275809",
+            "url": "https://www.wikidata.org/wiki/Q100275809"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Togola Marie Jacqueline Nana",
+            "url": "https://en.wikipedia.org/wiki/Togola_Marie_Jacqueline_Nana"
+          }
+        ]
+      },
+      {
+        "name": "Belco Samassékou",
+        "qid": "Q110656156",
+        "year_start": 2014,
+        "year_end": 2020,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q110656156",
+            "url": "https://www.wikidata.org/wiki/Q110656156"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Belco Samassékou",
+            "url": "https://en.wikipedia.org/wiki/Belco_Samassékou"
+          }
+        ]
+      },
+      {
+        "name": "Aminata Traoré Bagayoko",
+        "qid": "Q110665543",
+        "year_start": 2014,
+        "year_end": 2020,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q110665543",
+            "url": "https://www.wikidata.org/wiki/Q110665543"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Aminata Traoré Bagayoko",
+            "url": "https://en.wikipedia.org/wiki/Aminata_Traoré_Bagayoko"
+          }
+        ]
+      },
+      {
+        "name": "Rokia Traoré",
+        "qid": "Q110665787",
+        "year_start": 2014,
+        "year_end": 2020,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q110665787",
+            "url": "https://www.wikidata.org/wiki/Q110665787"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Rokia Traoré",
+            "url": "https://en.wikipedia.org/wiki/Rokia_Traoré"
+          }
+        ]
+      },
+      {
+        "name": "Alhousna Malick Touré",
+        "qid": "Q110665803",
+        "year_start": 2014,
+        "year_end": 2020,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q110665803",
+            "url": "https://www.wikidata.org/wiki/Q110665803"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Alhousna Malick Touré",
+            "url": "https://en.wikipedia.org/wiki/Alhousna_Malick_Touré"
+          }
+        ]
+      },
+      {
+        "name": "Fatoumata Simpara",
+        "qid": "Q110665898",
+        "year_start": 2014,
+        "year_end": 2020,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q110665898",
+            "url": "https://www.wikidata.org/wiki/Q110665898"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Fatoumata Simpara",
+            "url": "https://en.wikipedia.org/wiki/Fatoumata_Simpara"
+          }
+        ]
+      },
+      {
+        "name": "Dioncounda Sacko",
+        "qid": "Q110672313",
+        "year_start": 2014,
+        "year_end": 2020,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q110672313",
+            "url": "https://www.wikidata.org/wiki/Q110672313"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Dioncounda Sacko",
+            "url": "https://en.wikipedia.org/wiki/Dioncounda_Sacko"
+          }
+        ]
+      },
+      {
+        "name": "Abdoulaye Diop",
+        "qid": "Q2821367",
+        "year_start": 2014,
+        "year_end": 2017,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2821367",
+            "url": "https://www.wikidata.org/wiki/Q2821367"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Abdoulaye Diop",
+            "url": "https://en.wikipedia.org/wiki/Abdoulaye_Diop"
+          }
+        ]
+      },
+      {
+        "name": "Moussa Mara",
+        "qid": "Q3326215",
+        "year_start": 2014,
+        "year_end": 2015,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3326215",
+            "url": "https://www.wikidata.org/wiki/Q3326215"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Moussa Mara",
+            "url": "https://en.wikipedia.org/wiki/Moussa_Mara"
+          }
+        ]
+      },
+      {
+        "name": "Marie Madeleine Togo",
+        "qid": "Q30005640",
+        "year_start": 2015,
+        "year_end": 2017,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q30005640",
+            "url": "https://www.wikidata.org/wiki/Q30005640"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Marie Madeleine Togo",
+            "url": "https://en.wikipedia.org/wiki/Marie_Madeleine_Togo"
+          }
+        ]
+      },
+      {
+        "name": "Salif Traoré",
+        "qid": "Q30121857",
+        "year_start": 2015,
+        "year_end": 2020,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q30121857",
+            "url": "https://www.wikidata.org/wiki/Q30121857"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Salif Traoré",
+            "url": "https://en.wikipedia.org/wiki/Salif_Traoré"
+          }
+        ]
+      },
+      {
+        "name": "Abdoulaye Idrissa Maïga",
+        "qid": "Q26845654",
+        "year_start": 2017,
+        "year_end": 2017,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q26845654",
+            "url": "https://www.wikidata.org/wiki/Q26845654"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Abdoulaye Idrissa Maïga",
+            "url": "https://en.wikipedia.org/wiki/Abdoulaye_Idrissa_Maïga"
+          }
+        ]
+      },
+      {
+        "name": "Samba Ousemane Sow",
+        "qid": "Q108938055",
+        "year_start": 2017,
+        "year_end": 2019,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q108938055",
+            "url": "https://www.wikidata.org/wiki/Q108938055"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Samba Ousemane Sow",
+            "url": "https://en.wikipedia.org/wiki/Samba_Ousemane_Sow"
+          }
+        ]
+      },
+      {
+        "name": "Kadidia Sangaré",
+        "qid": "Q110663397",
+        "year_start": 2018,
+        "year_end": 2019,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q110663397",
+            "url": "https://www.wikidata.org/wiki/Q110663397"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Kadidia Sangaré",
+            "url": "https://en.wikipedia.org/wiki/Kadidia_Sangaré"
+          }
+        ]
+      },
+      {
+        "name": "Samba Alhamdou Baby",
+        "qid": "Q113669582",
+        "year_start": 2018,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q113669582",
+            "url": "https://www.wikidata.org/wiki/Q113669582"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Samba Alhamdou Baby",
+            "url": "https://en.wikipedia.org/wiki/Samba_Alhamdou_Baby"
+          }
+        ]
+      }
+    ],
+    "population_from_wikidata": [
+      {
+        "estimate": 5098942,
+        "confidence": "low",
+        "year": 1960
+      },
+      {
+        "estimate": 5151827,
+        "confidence": "low",
+        "year": 1961
+      },
+      {
+        "estimate": 5205248,
+        "confidence": "low",
+        "year": 1962
+      },
+      {
+        "estimate": 5259686,
+        "confidence": "low",
+        "year": 1963
+      },
+      {
+        "estimate": 5315835,
+        "confidence": "low",
+        "year": 1964
+      },
+      {
+        "estimate": 5374327,
+        "confidence": "low",
+        "year": 1965
+      },
+      {
+        "estimate": 5435158,
+        "confidence": "low",
+        "year": 1966
+      },
+      {
+        "estimate": 5498558,
+        "confidence": "low",
+        "year": 1967
+      },
+      {
+        "estimate": 5565670,
+        "confidence": "low",
+        "year": 1968
+      },
+      {
+        "estimate": 5637927,
+        "confidence": "low",
+        "year": 1969
+      },
+      {
+        "estimate": 5716294,
+        "confidence": "low",
+        "year": 1970
+      },
+      {
+        "estimate": 5801472,
+        "confidence": "low",
+        "year": 1971
+      },
+      {
+        "estimate": 5893113,
+        "confidence": "low",
+        "year": 1972
+      },
+      {
+        "estimate": 5989840,
+        "confidence": "low",
+        "year": 1973
+      },
+      {
+        "estimate": 6089644,
+        "confidence": "low",
+        "year": 1974
+      },
+      {
+        "estimate": 6191134,
+        "confidence": "low",
+        "year": 1975
+      },
+      {
+        "estimate": 6293218,
+        "confidence": "low",
+        "year": 1976
+      },
+      {
+        "estimate": 6396391,
+        "confidence": "low",
+        "year": 1977
+      },
+      {
+        "estimate": 6502693,
+        "confidence": "low",
+        "year": 1978
+      },
+      {
+        "estimate": 6615058,
+        "confidence": "low",
+        "year": 1979
+      },
+      {
+        "estimate": 6735247,
+        "confidence": "low",
+        "year": 1980
+      },
+      {
+        "estimate": 6865516,
+        "confidence": "low",
+        "year": 1981
+      },
+      {
+        "estimate": 7004456,
+        "confidence": "low",
+        "year": 1982
+      },
+      {
+        "estimate": 7145879,
+        "confidence": "low",
+        "year": 1983
+      },
+      {
+        "estimate": 7281246,
+        "confidence": "low",
+        "year": 1984
+      },
+      {
+        "estimate": 7405201,
+        "confidence": "low",
+        "year": 1985
+      },
+      {
+        "estimate": 7514770,
+        "confidence": "low",
+        "year": 1986
+      },
+      {
+        "estimate": 7613990,
+        "confidence": "low",
+        "year": 1987
+      },
+      {
+        "estimate": 7713098,
+        "confidence": "low",
+        "year": 1988
+      },
+      {
+        "estimate": 7826368,
+        "confidence": "low",
+        "year": 1989
+      }
+    ]
+  },
+  "monogram": "ME"
+}

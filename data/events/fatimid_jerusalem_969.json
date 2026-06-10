@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "fatimid_jerusalem_969",
+  "name": "Fatimid Caliphate Conquers Egypt and Palestine",
+  "year": 969,
+  "type": "conquest",
+  "category": "violence",
+  "coords": [
+    30.06,
+    31.25
+  ],
+  "entity": "fatimid_caliphate",
+  "summary": "Fatimid general Jawhar al-Siqilli conquers Egypt from the Ikhshidid dynasty, ending Abbasid nominal control over the country. Jawhar founds the new city of Cairo (al-Qahira, \"the Victorious\") as the Fatimid capital. Within a year, Fatimid forces take Jerusalem and much of Syria. At its peak, the Fatimid Caliphate controls Egypt, Palestine, coastal Syria, the Hejaz (including Mecca and Medina), and parts of North Africa, making it the most powerful Shia political entity in history.",
+  "outcomes": [
+    "egypt_conquered",
+    "cairo_founded",
+    "fatimid_caliphate_at_zenith"
+  ],
+  "_quarry": {
+    "participants": [
+      "fatimid_caliphate"
+    ],
+    "structural_significance": "The Fatimid Caliphate's control of Jerusalem and Egypt creates the religious tension that helps motivate the First Crusade; al-Azhar mosque (founded 970) becomes the most influential Islamic educational institution in the world; Cairo's foundation establishes the Egyptian capital that survives to the present; Fatimid-Abbasid rivalry demonstrates the Islam's Sunni-Shia split cannot be resolved militarily",
+    "year_range": [
+      969,
+      970
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "brett_the_2001",
+      "daftary_the_1990",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "sweden_birger_jarl_stockholm_1252",
+  "name": "Birger Jarl Founds Stockholm",
+  "year": 1252,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    60,
+    15
+  ],
+  "entity": "kingdom_of_sweden",
+  "summary": "Birger Jarl founded Stockholm as a fortified town controlling trade between Lake Mälaren and the Baltic Sea. Stockholm grew into the dominant Swedish city and commercial centre through Hanseatic League connections.",
+  "outcomes": [
+    "stockholm_founded",
+    "hanseatic_trade",
+    "swedish_state_formation"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_sweden"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_medieval_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

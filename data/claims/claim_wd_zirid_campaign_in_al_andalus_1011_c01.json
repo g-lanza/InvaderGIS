@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_zirid_campaign_in_al_andalus_1011_c01",
+  "statement": "Zirid campaign in Al-Andalus (1011 CE), at Iberian Peninsula.",
+  "subject_ids": [
+    "caliphate_of_cordoba"
+  ],
+  "period": {
+    "from": 1011,
+    "to": 1011
+  },
+  "derived_from": "wd_zirid_campaign_in_al_andalus_1011",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_muslim_1996",
+      "scales_the_1994"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

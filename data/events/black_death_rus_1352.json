@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "black_death_rus_1352",
+  "name": "Black Death reaches the Rus principalities",
+  "year": 1352,
+  "type": "epidemic",
+  "category": "hazard",
+  "coords": [
+    58.52,
+    31.27
+  ],
+  "entity": "principality_of_novgorod",
+  "summary": "Plague arrives at Pskov via the Hanseatic Baltic route in 1352 and spreads through Novgorod, Smolensk, Tver, and Moscow over the next two years. Grand Prince Simeon of Moscow and most of his court die in 1353.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "principality_of_novgorod",
+      "principality_of_vladimir_suzdal"
+    ],
+    "structural_significance": "Demographic devastation in the Rus principalities slows consolidation against the Mongol Golden Horde for a generation; Moscow's eventual recovery under Ivan Kalita's heirs sets it apart from Novgorod.",
+    "year_range": [
+      1352,
+      1354
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "martin_treasure_1986",
+      "birnbaum_lord_1981"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

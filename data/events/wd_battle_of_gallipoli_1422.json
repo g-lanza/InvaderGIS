@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_gallipoli_1422",
+  "name": "Battle of Gallipoli",
+  "year": 1422,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    42.7,
+    18.9
+  ],
+  "entity": "ottoman_empire",
+  "summary": "Battle of Gallipoli (1422 CE), at Gallipoli. Source: Wikidata Q137427251.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "ottoman_empire",
+      "republic_of_genoa"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

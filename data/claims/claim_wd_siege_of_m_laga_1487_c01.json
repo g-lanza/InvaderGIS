@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_m_laga_1487_c01",
+  "statement": "Siege of Málaga (1487 CE), at Málaga (part of Granada War).",
+  "subject_ids": [
+    "emirate_of_granada"
+  ],
+  "period": {
+    "from": 1487,
+    "to": 1487
+  },
+  "derived_from": "wd_siege_of_m_laga_1487",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "harvey_islamic_1990",
+      "fernández-puertas_the_1997"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

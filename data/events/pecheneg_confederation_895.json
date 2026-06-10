@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "pecheneg_confederation_895",
+  "name": "Pechenegs Drive Magyars into Europe",
+  "year": 895,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    47.0475,
+    25.0715
+  ],
+  "entity": "pecheneg_confederation",
+  "summary": "Pecheneg attacks on the Magyar confederation in 895 CE drove the Magyars out of the Pontic steppe and across the Carpathians into the Pannonian basin. This migration led directly to the founding of Hungary. The Pechenegs subsequently occupied the steppe between the Dnieper and Danube, threatening both Byzantium and Kyivan Rus for the next century.",
+  "outcomes": [
+    "magyar_migration",
+    "hungary_founded",
+    "steppe_balance_shifts"
+  ],
+  "_quarry": {
+    "participants": [
+      "pecheneg_confederation",
+      "magyars"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

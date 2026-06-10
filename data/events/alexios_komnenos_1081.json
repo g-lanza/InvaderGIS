@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "alexios_komnenos_1081",
+  "name": "Alexios I Komnenos Seizes the Byzantine Throne",
+  "year": 1081,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.01,
+    28.97
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Alexios I Komnenos seizes the Byzantine throne with the support of the military aristocracy and begins a systematic reconstruction of the empire's shattered institutions. He replaces the thematic system with pronoia grants (military fiefs), replaces ethnic Greek officers with family members of the Komnenos clan, and stabilizes the currency. Facing Seljuk pressure in Anatolia and Norman pressure in the Balkans, he writes to Pope Urban II in 1095 requesting mercenaries, triggering the First Crusade.",
+  "outcomes": [
+    "komnenian_restoration_begins",
+    "empire_reformed_around_family_networks",
+    "first_crusade_invited"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire"
+    ],
+    "structural_significance": "The Komnenian restoration (1081-1185) gives Byzantium a century of relative stability through aristocratic family networks that substitute for broken institutions; however, the pronoia system undermines the central treasury and creates hereditary military power outside imperial control; Alexios's letter to Urban II is among the most consequential diplomatic communications in medieval history",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

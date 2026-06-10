@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_fall_of_haifa_1265",
+  "name": "Fall of Haifa",
+  "year": 1265,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    33.2,
+    29.7
+  ],
+  "entity": "knights_hospitaller_rhodes",
+  "summary": "Fall of Haifa (1265 CE), at Haifa (part of Fall of Outremer). Source: Wikidata Q5432154.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "knights_hospitaller_rhodes",
+      "mamluk_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_hospitallers_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

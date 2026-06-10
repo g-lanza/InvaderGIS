@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "iceland_commonwealth",
+  "name": "Thingvellir National Park",
+  "entity_id": "iceland_commonwealth",
+  "entity_name": "Icelandic Commonwealth",
+  "start_year": 930,
+  "end_year": 1262,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q62389"
+    }
+  },
+  "coords": [
+    -21.125,
+    64.25806
+  ]
+}

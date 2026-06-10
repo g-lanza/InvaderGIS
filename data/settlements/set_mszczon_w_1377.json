@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_mszczon_w_1377",
+  "name": "Mszczonów",
+  "importance": "city",
+  "start_year": 1377,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q477955"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    20.5267,
+    51.9742
+  ]
+}

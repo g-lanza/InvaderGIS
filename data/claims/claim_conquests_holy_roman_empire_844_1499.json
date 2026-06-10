@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_holy_roman_empire_844_1499",
+  "statement": "Holy Roman Empire — campaigns and battles spanned 844–1499, from Battle of Toulouse to Battle of Dornach.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_holy_roman_empire_844_1499",
+  "period": {
+    "from": 844,
+    "to": 1499
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

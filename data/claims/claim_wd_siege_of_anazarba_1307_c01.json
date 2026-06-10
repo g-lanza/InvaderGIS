@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_anazarba_1307_c01",
+  "statement": "Siege of Anazarba (1307 CE), at Anazarbus (part of Mongol invasions of the Levant).",
+  "subject_ids": [
+    "ilkhanate"
+  ],
+  "period": {
+    "from": 1307,
+    "to": 1307
+  },
+  "derived_from": "wd_siege_of_anazarba_1307",
+  "unresolved_sources": [
+    "jackson_the_2005"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "amitai-preiss_mongols_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

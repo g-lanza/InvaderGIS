@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_bouvines",
+  "name": "Battle of Bouvines",
+  "subtype": "battle",
+  "start_year": 1214,
+  "end_year": 1214,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "Philip II's victory over the Anglo-imperial coalition; confirmed Capetian dominance",
+  "coords": [
+    3.243,
+    50.562
+  ]
+}

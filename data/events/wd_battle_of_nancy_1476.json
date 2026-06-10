@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_nancy_1476",
+  "name": "Battle of Nancy",
+  "year": 1476,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    47.6467,
+    6.47
+  ],
+  "entity": "duchy_of_burgundy",
+  "summary": "Battle of Nancy (1476 CE), at Nancy (part of Burgundian Wars). Source: Wikidata Q316877.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "duchy_of_burgundy",
+      "duchy_of_lorraine",
+      "swiss_confederation"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

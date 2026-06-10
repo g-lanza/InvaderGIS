@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "principality_of_wallachia_1290",
+  "name": "Wallachia Founded",
+  "year": 1290,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    44.4,
+    26.1
+  ],
+  "entity": "principality_of_wallachia",
+  "summary": "The Principality of Wallachia traditionally traces its foundation to Radu Negru (Black Radoslav) around 1290 CE. Occupying the fertile plain between the Carpathians and the Danube, Wallachia developed as a Romanian-speaking Orthodox Christian state, nominally a Hungarian vassal but increasingly independent.",
+  "outcomes": [
+    "romanian_state",
+    "radu_negru_founder",
+    "hungarian_vassal"
+  ],
+  "_quarry": {
+    "participants": [
+      "principality_of_wallachia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "deletant_romania_1998",
+      "panaitescu_mircea_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

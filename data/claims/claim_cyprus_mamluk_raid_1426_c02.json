@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_cyprus_mamluk_raid_1426_c02",
+  "statement": "After the 1426 Mamluk raid, Cyprus was forced to pay annual tribute to Egypt.",
+  "subject_ids": [
+    "kingdom_of_cyprus"
+  ],
+  "period": {
+    "from": 1426,
+    "to": 1426
+  },
+  "derived_from": "cyprus_mamluk_raid_1426",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

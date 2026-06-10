@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "suomi_1293",
+  "name": "Viborg Castle Establishes Swedish Control",
+  "year": 1293,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    60.84,
+    26.784
+  ],
+  "entity": "suomi",
+  "summary": "The Swedish crusading campaign of 1293 founded Viborg castle and consolidated Swedish control over southwestern Finland. The Treaty of Nöteborg (1323) established the border between Swedish Finland and Novgorodian territories, setting the basic political geography of Finland for centuries.",
+  "outcomes": [
+    "swedish_finland",
+    "orthodox_russian_border",
+    "viborg_founded"
+  ],
+  "_quarry": {
+    "participants": [
+      "suomi"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

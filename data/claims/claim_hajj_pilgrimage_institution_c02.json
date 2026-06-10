@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_hajj_pilgrimage_institution_c02",
+  "statement": "The institutionalized hajj created an annual gathering at Mecca that drew Muslims from across the expanding Islamic world.",
+  "subject_ids": [
+    "umayyad_caliphate"
+  ],
+  "period": {
+    "from": 632,
+    "to": 632
+  },
+  "derived_from": "hajj_pilgrimage_institution",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_the_2004",
+      "hawting_the_2000",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_ostrovo_1041",
+  "name": "Battle of Ostrovo",
+  "subtype": "battle",
+  "start_year": 1041,
+  "end_year": 1041,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2712298"
+    }
+  },
+  "description": "Battle during Uprising of Peter Delyan (1041)",
+  "coords": [
+    21.8333,
+    40.8
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_volokolamsk_1135",
+  "name": "Volokolamsk",
+  "importance": "city",
+  "start_year": 1135,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q102152"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    35.95,
+    56.0333
+  ]
+}

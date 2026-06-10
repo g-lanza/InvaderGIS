@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_loja_1482",
+  "name": "Siege of Loja",
+  "year": 1482,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    37.2,
+    -3.6
+  ],
+  "entity": "emirate_of_granada",
+  "summary": "Siege of Loja (1482 CE), at Loja (part of Granada War). Source: Wikidata Q131986061.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "emirate_of_granada"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "harvey_islamic_1990",
+      "fernández-puertas_the_1997"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

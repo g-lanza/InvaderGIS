@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_troubadour_culture_1100s_c01",
+  "statement": "The troubadour movement originated around 1100 in Occitan-speaking southern France with Duke William IX of Aquitaine, creating Europe's first major vernacular literary culture.",
+  "subject_ids": [
+    "duchy_of_aquitaine"
+  ],
+  "period": {
+    "from": 1100,
+    "to": 1100
+  },
+  "derived_from": "troubadour_culture_1100s",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

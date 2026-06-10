@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_barcelona_512_c01",
+  "statement": "The Battle of Barcelona was fought in 512 CE at Barcelona.",
+  "subject_ids": [
+    "ostrogothic_kingdom"
+  ],
+  "period": {
+    "from": 512,
+    "to": 512
+  },
+  "derived_from": "wd_battle_of_barcelona_512",
+  "unresolved_sources": [
+    "heather_the_1996"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "amory_people_1997"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

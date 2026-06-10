@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_german_hungarian_war_1030",
+  "name": "German–Hungarian War",
+  "year": 1030,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    49.5333,
+    12.1333
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "German–Hungarian War (1030 CE), at Margraviate of Austria. Source: Wikidata Q138584862.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "duchy_of_bavaria",
+      "duchy_of_bohemia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

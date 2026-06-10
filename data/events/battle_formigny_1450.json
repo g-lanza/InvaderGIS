@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_formigny_1450",
+  "name": "Battle of Formigny, France Ends English Normandy",
+  "year": 1450,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    49.31,
+    -0.9
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "French forces under the Constable of France, Arthur de Richemont, defeat an English relief force at Formigny. The French army's effective use of artillery, the 'Bureau brothers' artillery train', defeats English longbowmen who try to use the Agincourt tactic of inviting a charge. Normandy surrenders within weeks; Caen, Falaise, and Cherbourg follow. England loses its last major French territory outside Gascony.",
+  "outcomes": [
+    "normandy_reconquered",
+    "english_expelled_normandy",
+    "hundred_years_war_ending"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "kingdom_of_england"
+    ],
+    "structural_significance": "Formigny demonstrates the tactical revolution that artillery has accomplished since Agincourt (1415); the longbow, dominant for a century, cannot defend against effective field artillery; the French reconquest of Normandy reverses the Treaty of Troyes and effectively decides the Hundred Years' War two years before Castillon's decisive battle (1453); the Bureau brothers' artillery is the first decisive use of artillery in a western European field battle",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

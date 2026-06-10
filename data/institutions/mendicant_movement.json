@@ -1,0 +1,41 @@
+{
+  "kind": "institution",
+  "dataset": "medieval-europe-500-1500",
+  "id": "mendicant_movement",
+  "name_primary": "Mendicant Movement",
+  "domain": "religious_movement",
+  "formed": 1209,
+  "dissolved": 1500,
+  "_quarry": {
+    "key_developments": [
+      {
+        "year": 1209,
+        "event": "Francis of Assisi receives oral papal approval."
+      },
+      {
+        "year": 1216,
+        "event": "Dominicans formally approved."
+      },
+      {
+        "year": 1247,
+        "event": "Carmelites approved and Mendicantized by Innocent IV."
+      },
+      {
+        "year": 1256,
+        "event": "Augustinian Hermits unified by Alexander IV's Licet Ecclesiae."
+      }
+    ],
+    "influences_entities": [
+      "papal_states",
+      "kingdom_of_france",
+      "kingdom_of_england",
+      "holy_roman_empire"
+    ],
+    "description": "An umbrella term for the 13th-century friars who broke with the older monastic model — they lived in towns rather than rural houses, supported themselves by alms rather than estates, and prioritised preaching and pastoral work over enclosed contemplation. The four classical mendicant orders are Franciscans, Dominicans, Carmelites, and Augustinian Hermits, all approved 1209–1256. They were the medieval church's response to urban religious revival and Cathar/Waldensian appeal."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

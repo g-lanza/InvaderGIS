@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_brunanburh_937",
+  "name": "Battle of Brunanburh",
+  "year": 937,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    53.5,
+    -2.5
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Æthelstan, King of England, defeats a coalition of Dublin Vikings, Scots under Constantine II, and Strathclyde Britons at Brunanburh in 937. The Anglo-Saxon Chronicle poem celebrating the victory calls it 'the greatest slaughter since the Angles and Saxons first came to Britain.' The victory establishes Æthelstan as the supreme ruler of the British Isles and effectively ends the possibility of a Hiberno-Scandinavian alliance reversing English unification.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "kingdom_of_scotland"
+    ],
+    "structural_significance": "Confirms English hegemony over the British Isles; marks the end of serious Viking-Scottish coalitions against the English kingdom; the poem is among the oldest surviving English poetry",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

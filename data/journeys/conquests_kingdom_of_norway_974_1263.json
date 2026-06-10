@@ -1,0 +1,140 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_kingdom_of_norway_974_1263",
+  "name": "Kingdom of Norway — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 974,
+  "year_end": 1263,
+  "waypoints": [
+    {
+      "year": 974,
+      "place": "German–Danish War of 974",
+      "coords": [
+        55.5,
+        9.6667
+      ],
+      "note": "military",
+      "event_id": "wd_german_danish_war_of_974_974"
+    },
+    {
+      "year": 1008,
+      "place": "Battle at Herdaler",
+      "coords": [
+        60.5,
+        8.5
+      ],
+      "note": "military",
+      "event_id": "wd_battle_at_herdaler_1008"
+    },
+    {
+      "year": 1028,
+      "place": "Cnut's invasion of Norway",
+      "coords": [
+        57.75,
+        6.75
+      ],
+      "note": "military",
+      "event_id": "wd_cnut_s_invasion_of_norway_1028"
+    },
+    {
+      "year": 1063,
+      "place": "Swedish–Norwegian War",
+      "coords": [
+        60.25,
+        11.75
+      ],
+      "note": "military",
+      "event_id": "wd_swedish_norwegian_war_1063"
+    },
+    {
+      "year": 1066,
+      "place": "Battle of Fulford",
+      "coords": [
+        56.5,
+        3.75
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_fulford_1066"
+    },
+    {
+      "year": 1099,
+      "place": "Swedish–Norwegian War",
+      "coords": [
+        60.25,
+        11.75
+      ],
+      "note": "military",
+      "event_id": "wd_swedish_norwegian_war_1099"
+    },
+    {
+      "year": 1109,
+      "place": "Siege of Lisbon",
+      "coords": [
+        48.75,
+        2.25
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_lisbon_1109"
+    },
+    {
+      "year": 1110,
+      "place": "Siege of Sidon",
+      "coords": [
+        41.925,
+        21.8
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_sidon_1110"
+    },
+    {
+      "year": 1135,
+      "place": "Battle of Konungahelę",
+      "coords": [
+        60.5,
+        8.5
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_konungahel_1135"
+    },
+    {
+      "year": 1152,
+      "place": "Rögnvald Kali's Crusade",
+      "coords": [
+        60.5,
+        8.5
+      ],
+      "note": "military",
+      "event_id": "wd_r_gnvald_kali_s_crusade_1152"
+    },
+    {
+      "year": 1262,
+      "place": "Scottish–Norwegian War",
+      "coords": [
+        58.5,
+        2.25
+      ],
+      "note": "military",
+      "event_id": "wd_scottish_norwegian_war_1262"
+    },
+    {
+      "year": 1263,
+      "place": "Battle of Largs and Haakon IV's Death — Norwegian Decline",
+      "coords": [
+        55.79,
+        -4.87
+      ],
+      "note": "battle",
+      "event_id": "haakon_iv_peace_1263"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_the_1997",
+      "helle_the_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

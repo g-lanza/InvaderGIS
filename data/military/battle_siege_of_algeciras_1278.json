@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_siege_of_algeciras_1278",
+  "name": "Siege of Algeciras",
+  "subtype": "battle",
+  "start_year": 1278,
+  "end_year": 1278,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q4118683"
+    }
+  },
+  "description": "Battle during Reconquista (1278)",
+  "coords": [
+    -5.4539,
+    36.1275
+  ]
+}

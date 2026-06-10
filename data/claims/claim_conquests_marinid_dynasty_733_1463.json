@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_marinid_dynasty_733_1463",
+  "statement": "Marinid Dynasty — campaigns and battles spanned 733–1463, from Reconquista to Siege of Tangier.",
+  "subject_ids": [
+    "marinid_dynasty"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_marinid_dynasty_733_1463",
+  "period": {
+    "from": 733,
+    "to": 1463
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "abun-nasr_a_1987",
+      "messier_the_2010"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "yuan_dynasty",
+  "name_primary": "Yuan Dynasty",
+  "name_variants": [
+    "Great Yuan",
+    "Mongol Yuan"
+  ],
+  "type": "empire",
+  "region": "east_asia",
+  "formed": 1271,
+  "dissolved": 1368,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    39.9042,
+    116.4074
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "The Mongol dynasty that ruled China from 1271 to 1368, founded by Kublai Khan after the conquest of the Southern Song. Capital at Khanbaliq (Beijing). Maintained Mongol administrative and military structures while adopting Chinese bureaucratic forms; oversaw renewed long-distance trade across Eurasia (Marco Polo era) and Mongol religious tolerance.",
+  "temporal": {
+    "start_year": 1271,
+    "end_year": 1368,
+    "notes": "Founded by Kublai Khan; ruled China after the conquest of Song; overthrown by the Ming dynasty in 1368."
+  },
+  "geographic": {
+    "centroid": [
+      39.9042,
+      116.4074
+    ],
+    "capital": {
+      "name": "Dadu",
+      "coords": [
+        39.9042,
+        116.4074
+      ]
+    }
+  },
+  "predecessor_entity_ids": [
+    "song_empire",
+    "jin_dynasty_jurchen",
+    "xixia"
+  ],
+  "successor_entity_ids": [
+    "ming_dynasty"
+  ],
+  "monogram": "YD"
+}

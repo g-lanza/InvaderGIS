@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_odoric_pordenone_1330_c02",
+  "statement": "Odoric of Pordenone dictated his account of his travels at Padua in 1330 and died the following year.",
+  "subject_ids": [
+    "papal_states"
+  ],
+  "period": {
+    "from": 1330,
+    "to": 1330
+  },
+  "derived_from": "odoric_pordenone_1330",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "bartlett_making_of_europe_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

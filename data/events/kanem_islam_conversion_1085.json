@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kanem_islam_conversion_1085",
+  "name": "Mais Dynasty Converts to Islam",
+  "year": 1085,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    14.885,
+    16.163
+  ],
+  "entity": "kanem",
+  "summary": "The Saifawa (Mais) dynasty formally converted to Islam around 1085 CE, connecting Kanem to North African trade networks and Islamic scholarship. Islam became the state religion and Arabic literacy spread among the ruling class.",
+  "outcomes": [
+    "kanem_islamic",
+    "north_africa_trade_expanded",
+    "islamic_scholarship"
+  ],
+  "_quarry": {
+    "participants": [
+      "kanem"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

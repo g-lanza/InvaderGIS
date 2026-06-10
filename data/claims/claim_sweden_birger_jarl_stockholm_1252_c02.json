@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_sweden_birger_jarl_stockholm_1252_c02",
+  "statement": "Stockholm grew into the dominant Swedish city and commercial centre through Hanseatic League connections.",
+  "subject_ids": [
+    "kingdom_of_sweden"
+  ],
+  "period": {
+    "from": 1252,
+    "to": 1252
+  },
+  "derived_from": "sweden_birger_jarl_stockholm_1252",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_medieval_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

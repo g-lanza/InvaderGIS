@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "concordat_worms_1122",
+  "name": "Concordat of Worms",
+  "year": 1122,
+  "type": "treaty",
+  "category": "diplomacy",
+  "coords": [
+    49.63,
+    8.36
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "The Concordat of Worms (September 23, 1122) resolves the 50-year Investiture Controversy between the papacy and the Holy Roman Empire. Emperor Henry V and Pope Calixtus II agree: the emperor renounces the right to invest bishops with ring and staff (symbols of spiritual authority) but retains the right to invest with the scepter (temporal authority and lands) in Germany before consecration. The compromise separates spiritual from temporal power but leaves both deeply entangled in Germany for centuries.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "papal_states"
+    ],
+    "structural_significance": "Resolves the Investiture Controversy; establishes the conceptual separation of spiritual and temporal authority; weakens imperial control over the German Church but does not eliminate it",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

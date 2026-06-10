@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_khokhanaberd_1236_c01",
+  "statement": "Siege of Khokhanaberd (1236 CE), at Handaberd (part of Mongol Armenia).",
+  "subject_ids": [
+    "mongol_empire"
+  ],
+  "period": {
+    "from": 1236,
+    "to": 1236
+  },
+  "derived_from": "wd_siege_of_khokhanaberd_1236",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

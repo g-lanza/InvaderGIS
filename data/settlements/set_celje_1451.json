@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_celje_1451",
+  "name": "Celje",
+  "importance": "city",
+  "start_year": 1451,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1012"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    15.2641,
+    46.2291
+  ]
+}

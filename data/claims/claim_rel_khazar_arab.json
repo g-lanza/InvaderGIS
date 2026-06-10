@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_khazar_arab",
+  "statement": "Khazar-Arab Wars (note: against caliphal Damascus, not Iberian Umayyads — relationship reflects broader Umayyad pressure).",
+  "subject_ids": [
+    "khazar_khaganate",
+    "umayyad_emirate_cordoba"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_khazar_arab",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "golden_khazar_1980",
+      "brook_the_1999",
+      "constable_medieval_1997",
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 756,
+    "to": 756
+  }
+}

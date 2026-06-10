@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "salerno_medical_school_1000",
+  "name": "The Medical School of Salerno",
+  "year": 1000,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    40.681,
+    14.752
+  ],
+  "entity": "duchy_of_amalfi",
+  "summary": "The Schola Medica Salernitana, active from the 9th century, was the first institution in medieval Europe to teach medicine as a secular discipline. Benefiting from Arab, Greek, Jewish, and Latin medical traditions meeting in Norman southern Italy, Salerno's scholars, including the translator Constantine the African (d. 1087), introduced the works of Hippocrates, Galen, and Islamic physicians like Ibn Sina to Latin readers.",
+  "outcomes": [
+    "First secular university of medicine in Europe",
+    "Arabic medical texts translated into Latin",
+    "Trotula texts on gynecology produced",
+    "Constantine the African brings Islamic medicine to Europe"
+  ],
+  "_quarry": {
+    "participants": [
+      "duchy_of_amalfi"
+    ],
+    "structural_significance": "The primary channel through which classical and Islamic medicine entered medieval Europe; established medicine as a learned discipline before the rise of universities.",
+    "year_range": [
+      900,
+      1200
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Kristeller, The School of Salerno",
+      "wallis_medieval_2010"
+    ],
+    "confidence": "low"
+  }
+}

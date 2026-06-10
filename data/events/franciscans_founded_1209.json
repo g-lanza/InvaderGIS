@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "franciscans_founded_1209",
+  "name": "Approval of the Franciscan Order",
+  "year": 1209,
+  "type": "religious",
+  "category": "religion",
+  "coords": [
+    43.06,
+    12.62
+  ],
+  "entity": "papal_states",
+  "summary": "Francis of Assisi receives oral papal approval from Innocent III for his rule of radical apostolic poverty. The Friars Minor, wandering preachers without property, dependent on alms, quickly spread through urban Europe.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "papal_states"
+    ],
+    "structural_significance": "Together with the Dominicans (1216), the Mendicants reshape 13th-century religious life: preaching shifts from rural monasteries to towns, lay piety intensifies, and the Inquisition emerges as a Dominican-led institution.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

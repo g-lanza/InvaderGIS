@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_university_of_prague_1348_c02",
+  "statement": "Pope Clement VI's bull of 26 January 1347 had granted prior papal approval for the University of Prague.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1348,
+    "to": 1348
+  },
+  "derived_from": "university_of_prague_1348",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "bartlett_making_of_europe_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

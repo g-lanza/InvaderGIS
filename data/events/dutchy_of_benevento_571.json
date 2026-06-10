@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "dutchy_of_benevento_571",
+  "name": "Lombard Duchy of Benevento Founded",
+  "year": 571,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.1,
+    14.8
+  ],
+  "entity": "duchy_of_benevento",
+  "summary": "The Lombard Duchy of Benevento was established in southern Italy around 571 CE, becoming the southernmost and most enduring Lombard political entity. While the northern Lombard kingdom fell to Charlemagne in 774, Benevento maintained independence until the Norman conquests of the 11th century.",
+  "outcomes": [
+    "lombard_southern_italy",
+    "byzantine_enclave_surrounded",
+    "long_lombard_rule"
+  ],
+  "_quarry": {
+    "participants": [
+      "duchy_of_benevento",
+      "duchy_of_benevento"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

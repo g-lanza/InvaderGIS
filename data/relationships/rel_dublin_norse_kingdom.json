@@ -1,0 +1,35 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_dublin_norse_kingdom",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_dublin",
+      "role": "principal"
+    },
+    {
+      "entity_id": "kingdom_of_ireland_high",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 853,
+  "until": 1170,
+  "note": "The Norse Kingdom of Dublin (established c. 841–853 as a longphort/fortified harbor) was the primary Scandinavian political entity in Ireland for 300 years. Dublin's kings — often ruling simultaneously in York, the Isle of Man, or the Hebrides — used the Irish Sea as a political and commercial zone. The Battle of Clontarf (1014) ended Norse political dominance, though Norse merchants remained dominant in Dublin's trade. The city was captured by the Anglo-Normans (1170) and the Norse community gradually assimilated. Dublin's street plan (Fishamble Street, Christchurch) and its commercial traditions were primarily Norse in origin.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Dublin as a Norse foundation establishes the Irish Sea commercial zone centered on the city; Norse Dublin's commercial infrastructure (harbor, market, merchant houses) becomes the foundation for the Anglo-Norman Lordship of Ireland; the Norse population's gradual assimilation into Anglo-Norman Dublin models the broader pattern of Scandinavian cultural absorption in the British Isles"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

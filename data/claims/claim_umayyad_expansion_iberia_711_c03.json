@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_umayyad_expansion_iberia_711_c03",
+  "statement": "Within five years of 711, Arab and Berber forces conquered most of the Iberian Peninsula, with only the Asturian mountains in the far northwest resisting.",
+  "subject_ids": [
+    "visigothic_kingdom"
+  ],
+  "period": {
+    "from": 711,
+    "to": 711
+  },
+  "derived_from": "umayyad_expansion_iberia_711",
+  "unresolved_sources": [
+    "thompson_the_1969"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "collins_visigothic_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

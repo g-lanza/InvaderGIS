@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "cologne_cathedral_1248",
+  "name": "Founding of Cologne Cathedral",
+  "year": 1248,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    50.941,
+    6.958
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Construction of Cologne Cathedral began in 1248 to house the relics of the Three Kings (Magi), making Cologne a major pilgrimage destination. Designed in the French High Gothic style, it was the most ambitious building project of medieval Germany. Construction stalled in the 16th century after the choir and part of the nave were built, leaving a famous crane on the unfinished tower for centuries. Completion came only in 1880.",
+  "outcomes": [
+    "Largest Gothic cathedral project in medieval Europe begun",
+    "Construction pauses in 16th century",
+    "Completed only in 1880",
+    "Relics of the Three Kings housed there"
+  ],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire"
+    ],
+    "structural_significance": "The most ambitious Gothic building project of northern Europe; its long construction history epitomizes the multigenerational ambition of medieval ecclesiastical architecture.",
+    "year_range": [
+      1248,
+      1880
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Arnold, Medieval Germany 500–1300",
+      "Binding, Das Kölner Domkapitel"
+    ],
+    "confidence": "low"
+  }
+}

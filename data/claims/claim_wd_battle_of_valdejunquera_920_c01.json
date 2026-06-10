@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_valdejunquera_920_c01",
+  "statement": "Battle of Valdejunquera (920 CE), at Kingdom of Pamplona (part of Reconquista).",
+  "subject_ids": [
+    "kingdom_of_leon"
+  ],
+  "period": {
+    "from": 920,
+    "to": 920
+  },
+  "derived_from": "wd_battle_of_valdejunquera_920",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

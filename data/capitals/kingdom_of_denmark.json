@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_denmark",
+  "name": "Copenhagen",
+  "entity_id": "kingdom_of_denmark",
+  "entity_name": "Kingdom of Denmark",
+  "start_year": 965,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q756617"
+    }
+  },
+  "coords": [
+    12.56889,
+    55.67611
+  ]
+}

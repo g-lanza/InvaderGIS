@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "joan_of_arc_rouen_1431",
+  "name": "Joan of Arc's Trial and Execution at Rouen",
+  "year": 1431,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    49.44,
+    1.09
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Joan of Arc, captured by the Burgundians in 1430 and sold to the English, is tried by an ecclesiastical court at Rouen for heresy and witchcraft. The trial, presided over by the Bishop of Beauvais Pierre Cauchon (a Burgundian partisan), finds her guilty; she is burned at the stake on May 30, 1431. Twenty-five years later, a papal retrial (1456) rehabilitates her posthumously. She is canonized in 1920.",
+  "outcomes": [
+    "joan_burned_at_stake",
+    "french_cause_becomes_martyrdom",
+    "papal_retrial_eventual_canonization"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "kingdom_of_england"
+    ],
+    "structural_significance": "Joan's martyrdom transforms French resistance from a dynastic conflict into a religious-national cause; Charles VII's subsequent reconquest of Normandy and Gascony completes the expulsion of the English; Joan's trial demonstrates how ecclesiastical courts could be weaponized for political purposes; the rehabilitation trial establishes important precedents in judicial review of ecclesiastical verdicts",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

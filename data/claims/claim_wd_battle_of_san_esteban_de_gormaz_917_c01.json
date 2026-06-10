@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_san_esteban_de_gormaz_917_c01",
+  "statement": "Battle of San Esteban de Gormaz (917 CE), at San Esteban de Gormaz (part of Reconquista).",
+  "subject_ids": [
+    "caliphate_of_cordoba"
+  ],
+  "period": {
+    "from": 917,
+    "to": 917
+  },
+  "derived_from": "wd_battle_of_san_esteban_de_gormaz_917",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_muslim_1996",
+      "scales_the_1994"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kurs_1210",
+  "name": "Curonians Resist German Crusaders",
+  "year": 1210,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    57.085,
+    22.205
+  ],
+  "entity": "kurs",
+  "summary": "The Curonians (Kurs) of the eastern Baltic coast successfully resisted the early phases of the German Northern Crusades in the early 13th century. Known as 'Baltic Vikings' for their seafaring raids, the Curonians maintained independence longer than their Livonian and Estonian neighbours.",
+  "outcomes": [
+    "livonian_order",
+    "crusade_resistance",
+    "baltic_independence"
+  ],
+  "_quarry": {
+    "participants": [
+      "kurs"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

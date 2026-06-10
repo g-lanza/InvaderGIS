@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "aragon_peter_iii_sicily_1282",
+  "name": "Peter III Acquires Sicily",
+  "year": 1282,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.7,
+    0.5
+  ],
+  "entity": "crown_of_aragon",
+  "summary": "Peter III of Aragon claimed Sicily following the Sicilian Vespers uprising against Charles of Anjou. The ensuing war established Aragonese dominance in the western Mediterranean and began the Crown of Aragon's maritime empire.",
+  "outcomes": [
+    "sicily_aragonese",
+    "mediterranean_expansion",
+    "war_of_sicilian_vespers"
+  ],
+  "_quarry": {
+    "participants": [
+      "crown_of_aragon"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

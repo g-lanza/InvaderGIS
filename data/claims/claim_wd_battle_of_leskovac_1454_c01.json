@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_leskovac_1454_c01",
+  "statement": "Battle of Leskovac (1454 CE), (part of Ottoman Wars in Europe).",
+  "subject_ids": [
+    "ottoman_empire"
+  ],
+  "period": {
+    "from": 1454,
+    "to": 1454
+  },
+  "derived_from": "wd_battle_of_leskovac_1454",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_austrian_habsburg_partition_1379_c02",
+  "statement": "The Albertine-Leopoldine division of Habsburg Austria lasted until Albert V reunified the dynasty in 1424.",
+  "subject_ids": [
+    "duchy_of_austria"
+  ],
+  "period": {
+    "from": 1379,
+    "to": 1379
+  },
+  "derived_from": "austrian_habsburg_partition_1379",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

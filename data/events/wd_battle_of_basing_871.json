@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_basing_871",
+  "name": "Battle of Basing",
+  "year": 871,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    52.25,
+    -1.25
+  ],
+  "entity": "kingdom_of_wessex",
+  "summary": "Battle of Basing (871 CE), at Old Basing (part of Viking activity in the British Isles). Source: Wikidata Q1992574.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_wessex",
+      "danelaw"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

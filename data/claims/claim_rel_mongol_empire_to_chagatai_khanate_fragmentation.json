@@ -1,0 +1,31 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_mongol_empire_to_chagatai_khanate_fragmentation",
+  "statement": "Derived from predecessor/successor links recorded in the mongol_empire and chagatai_khanate entity records. Transition anchored to chagatai_khanate start_year.",
+  "subject_ids": [
+    "mongol_empire",
+    "chagatai_khanate"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_mongol_empire_to_chagatai_khanate_fragmentation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009",
+      "biran_chinggis_2007",
+      "manz_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "chagatai_khanate"
+  ],
+  "period": {
+    "from": 1226,
+    "to": 1226
+  }
+}

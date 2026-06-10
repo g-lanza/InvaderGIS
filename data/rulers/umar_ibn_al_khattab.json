@@ -1,0 +1,47 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "umar_ibn_al_khattab",
+  "name": "Umar ibn al-Khattab",
+  "polity": "rashidun_caliphate",
+  "title": "caliph",
+  "reign_start": 634,
+  "reign_end": 644,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 584,
+      "death_year": 644
+    },
+    "entity_associations": [
+      {
+        "entity_id": "rashidun_caliphate",
+        "role": "caliph",
+        "start_year": 634,
+        "end_year": 644
+      }
+    ],
+    "key_actions": [
+      {
+        "year": 636,
+        "event": "Battle of Yarmouk — defeats Byzantine field army; Levant lost to Islam."
+      },
+      {
+        "year": 637,
+        "event": "Conquers Jerusalem; visits in person, refuses to pray in Holy Sepulchre."
+      },
+      {
+        "year": 642,
+        "event": "Battle of Nahavand ends Sasanian resistance; Persia conquered."
+      }
+    ],
+    "region": "arabia",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "hodgson_venture_of_islam_1974"
+    ],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,1357 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "tibet",
+  "name_primary": "Tibetan Empire",
+  "name_variants": [
+    "Tibet"
+  ],
+  "type": "kingdom",
+  "region": "central_asia",
+  "formed": 618,
+  "dissolved": 842,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 800,
+      "label": "Tibetan Empire",
+      "polygon": [
+        [
+          27.17,
+          91.58
+        ],
+        [
+          27.02,
+          87.87
+        ],
+        [
+          25.11,
+          87.19
+        ],
+        [
+          25.24,
+          85.93
+        ],
+        [
+          25.8,
+          85.1
+        ],
+        [
+          24.83,
+          84.04
+        ],
+        [
+          24.77,
+          82.74
+        ],
+        [
+          25.23,
+          81.59
+        ],
+        [
+          27.31,
+          79.87
+        ],
+        [
+          27.63,
+          79.28
+        ],
+        [
+          27.81,
+          79.25
+        ],
+        [
+          27.97,
+          79.85
+        ],
+        [
+          28.34,
+          79.15
+        ],
+        [
+          30.53,
+          78.49
+        ],
+        [
+          31.33,
+          77.1
+        ],
+        [
+          31.91,
+          76.76
+        ],
+        [
+          36.97,
+          76.53
+        ],
+        [
+          37.78,
+          75.15
+        ],
+        [
+          39.27,
+          75.15
+        ],
+        [
+          40.2,
+          75.38
+        ],
+        [
+          40.77,
+          79.98
+        ],
+        [
+          41.46,
+          82.05
+        ],
+        [
+          43.42,
+          85.62
+        ],
+        [
+          43.76,
+          87.58
+        ],
+        [
+          43.76,
+          90
+        ],
+        [
+          43.3,
+          92.07
+        ],
+        [
+          41.12,
+          94.6
+        ],
+        [
+          40.66,
+          96.32
+        ],
+        [
+          41,
+          98.97
+        ],
+        [
+          40.31,
+          100.81
+        ],
+        [
+          39.39,
+          101.27
+        ],
+        [
+          38.47,
+          102.19
+        ],
+        [
+          38.01,
+          104.04
+        ],
+        [
+          36.51,
+          104.27
+        ],
+        [
+          33.4,
+          102.77
+        ],
+        [
+          31.91,
+          104.27
+        ],
+        [
+          30.3,
+          103.58
+        ],
+        [
+          28.69,
+          104.15
+        ],
+        [
+          28,
+          104.15
+        ],
+        [
+          26.38,
+          103
+        ],
+        [
+          24.89,
+          102.42
+        ],
+        [
+          22.59,
+          101.96
+        ],
+        [
+          21.98,
+          101.43
+        ],
+        [
+          21.9,
+          99.43
+        ],
+        [
+          22.59,
+          98.28
+        ],
+        [
+          24.43,
+          98.4
+        ],
+        [
+          24.89,
+          97.94
+        ],
+        [
+          24.66,
+          94.48
+        ],
+        [
+          24.25,
+          93.41
+        ],
+        [
+          27.17,
+          91.58
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    33.5986,
+    90.5295
+  ],
+  "population_estimates": [
+    {
+      "year": 700,
+      "estimate": 2000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2431480",
+          "url": "https://www.wikidata.org/wiki/Q2431480",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Tibet",
+          "url": "https://en.wikipedia.org/wiki/Tibetan_Empire"
+        }
+      ]
+    },
+    {
+      "year": 800,
+      "estimate": 3000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2431480",
+          "url": "https://www.wikidata.org/wiki/Q2431480",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Tibet",
+          "url": "https://en.wikipedia.org/wiki/Tibetan_Empire"
+        }
+      ]
+    },
+    {
+      "year": 1000,
+      "estimate": 2500000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2431480",
+          "url": "https://www.wikidata.org/wiki/Q2431480",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Tibet",
+          "url": "https://en.wikipedia.org/wiki/Tibetan_Empire"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Tibetan Empire (618–842) that conquered a vast territory from Central Asia to the Chinese frontier and Bengal, rivalling Tang China and the Abbasid Caliphate for control of the Silk Road; under emperors (tsenpo) including Songtsen Gampo, Trisong Detsen, and Tri Ralpachen, Tibet adopted Buddhism as the state religion and sponsored major translations of Indian Buddhist texts that defined Tibetan religious culture for all subsequent centuries.",
+  "temporal": {
+    "start_year": 618,
+    "end_year": 842,
+    "notes": ""
+  },
+  "geographic": {
+    "centroid": [
+      33.5986,
+      90.5295
+    ],
+    "polygon_simplified": [
+      [
+        27.17,
+        91.58
+      ],
+      [
+        27.02,
+        87.87
+      ],
+      [
+        25.11,
+        87.19
+      ],
+      [
+        25.24,
+        85.93
+      ],
+      [
+        25.8,
+        85.1
+      ],
+      [
+        24.83,
+        84.04
+      ],
+      [
+        24.77,
+        82.74
+      ],
+      [
+        25.23,
+        81.59
+      ],
+      [
+        27.31,
+        79.87
+      ],
+      [
+        27.63,
+        79.28
+      ],
+      [
+        27.81,
+        79.25
+      ],
+      [
+        27.97,
+        79.85
+      ],
+      [
+        28.34,
+        79.15
+      ],
+      [
+        30.53,
+        78.49
+      ],
+      [
+        31.33,
+        77.1
+      ],
+      [
+        31.91,
+        76.76
+      ],
+      [
+        36.97,
+        76.53
+      ],
+      [
+        37.78,
+        75.15
+      ],
+      [
+        39.27,
+        75.15
+      ],
+      [
+        40.2,
+        75.38
+      ],
+      [
+        40.77,
+        79.98
+      ],
+      [
+        41.46,
+        82.05
+      ],
+      [
+        43.42,
+        85.62
+      ],
+      [
+        43.76,
+        87.58
+      ],
+      [
+        43.76,
+        90
+      ],
+      [
+        43.3,
+        92.07
+      ],
+      [
+        41.12,
+        94.6
+      ],
+      [
+        40.66,
+        96.32
+      ],
+      [
+        41,
+        98.97
+      ],
+      [
+        40.31,
+        100.81
+      ],
+      [
+        39.39,
+        101.27
+      ],
+      [
+        38.47,
+        102.19
+      ],
+      [
+        38.01,
+        104.04
+      ],
+      [
+        36.51,
+        104.27
+      ],
+      [
+        33.4,
+        102.77
+      ],
+      [
+        31.91,
+        104.27
+      ],
+      [
+        30.3,
+        103.58
+      ],
+      [
+        28.69,
+        104.15
+      ],
+      [
+        28,
+        104.15
+      ],
+      [
+        26.38,
+        103
+      ],
+      [
+        24.89,
+        102.42
+      ],
+      [
+        22.59,
+        101.96
+      ],
+      [
+        21.98,
+        101.43
+      ],
+      [
+        21.9,
+        99.43
+      ],
+      [
+        22.59,
+        98.28
+      ],
+      [
+        24.43,
+        98.4
+      ],
+      [
+        24.89,
+        97.94
+      ],
+      [
+        24.66,
+        94.48
+      ],
+      [
+        24.25,
+        93.41
+      ],
+      [
+        27.17,
+        91.58
+      ]
+    ],
+    "capital": {
+      "name": "Lhasa",
+      "coords": [
+        29.64576,
+        91.14082
+      ],
+      "source": "wikidata"
+    },
+    "polygon_snapshots": [
+      {
+        "year": 800,
+        "label": "Tibetan Empire",
+        "polygon": [
+          [
+            27.17,
+            91.58
+          ],
+          [
+            27.02,
+            87.87
+          ],
+          [
+            25.11,
+            87.19
+          ],
+          [
+            25.24,
+            85.93
+          ],
+          [
+            25.8,
+            85.1
+          ],
+          [
+            24.83,
+            84.04
+          ],
+          [
+            24.77,
+            82.74
+          ],
+          [
+            25.23,
+            81.59
+          ],
+          [
+            27.31,
+            79.87
+          ],
+          [
+            27.63,
+            79.28
+          ],
+          [
+            27.81,
+            79.25
+          ],
+          [
+            27.97,
+            79.85
+          ],
+          [
+            28.34,
+            79.15
+          ],
+          [
+            30.53,
+            78.49
+          ],
+          [
+            31.33,
+            77.1
+          ],
+          [
+            31.91,
+            76.76
+          ],
+          [
+            36.97,
+            76.53
+          ],
+          [
+            37.78,
+            75.15
+          ],
+          [
+            39.27,
+            75.15
+          ],
+          [
+            40.2,
+            75.38
+          ],
+          [
+            40.77,
+            79.98
+          ],
+          [
+            41.46,
+            82.05
+          ],
+          [
+            43.42,
+            85.62
+          ],
+          [
+            43.76,
+            87.58
+          ],
+          [
+            43.76,
+            90
+          ],
+          [
+            43.3,
+            92.07
+          ],
+          [
+            41.12,
+            94.6
+          ],
+          [
+            40.66,
+            96.32
+          ],
+          [
+            41,
+            98.97
+          ],
+          [
+            40.31,
+            100.81
+          ],
+          [
+            39.39,
+            101.27
+          ],
+          [
+            38.47,
+            102.19
+          ],
+          [
+            38.01,
+            104.04
+          ],
+          [
+            36.51,
+            104.27
+          ],
+          [
+            33.4,
+            102.77
+          ],
+          [
+            31.91,
+            104.27
+          ],
+          [
+            30.3,
+            103.58
+          ],
+          [
+            28.69,
+            104.15
+          ],
+          [
+            28,
+            104.15
+          ],
+          [
+            26.38,
+            103
+          ],
+          [
+            24.89,
+            102.42
+          ],
+          [
+            22.59,
+            101.96
+          ],
+          [
+            21.98,
+            101.43
+          ],
+          [
+            21.9,
+            99.43
+          ],
+          [
+            22.59,
+            98.28
+          ],
+          [
+            24.43,
+            98.4
+          ],
+          [
+            24.89,
+            97.94
+          ],
+          [
+            24.66,
+            94.48
+          ],
+          [
+            24.25,
+            93.41
+          ],
+          [
+            27.17,
+            91.58
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "real_historical_boundary",
+    "polygon_source": "aourednik/historical-basemaps",
+    "polygon_source_date": "2026-05-09"
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "formation",
+      "years": "618–641",
+      "description": "Songtsen Gampo unifies Tibetan plateau; marries Nepalese and Chinese princesses; Buddhist adoption begins; Tibetan script created",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2431480",
+          "url": "https://www.wikidata.org/wiki/Q2431480"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Tibet",
+          "url": "https://en.wikipedia.org/wiki/Tibetan_Empire"
+        }
+      ]
+    },
+    {
+      "phase": "peak",
+      "years": "641–755",
+      "description": "Trisong Detsen invades Tang China; captures Chang'an briefly (763); controls Central Asian trade routes; Samye monastery founded (779)",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2431480",
+          "url": "https://www.wikidata.org/wiki/Q2431480"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Tibet",
+          "url": "https://en.wikipedia.org/wiki/Tibetan_Empire"
+        }
+      ]
+    },
+    {
+      "phase": "decline",
+      "years": "755–817",
+      "description": "Tang recovery limits Tibetan expansion; internal Buddhist-Bon conflict; Tri Ralpachen's pro-Buddhist reforms create noble opposition",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2431480",
+          "url": "https://www.wikidata.org/wiki/Q2431480"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Tibet",
+          "url": "https://en.wikipedia.org/wiki/Tibetan_Empire"
+        }
+      ]
+    },
+    {
+      "phase": "dissolution",
+      "years": "817–842",
+      "description": "Lang Darma's anti-Buddhist suppression; assassination (842); empire fragments into regional principalities; central authority dissolves",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2431480",
+          "url": "https://www.wikidata.org/wiki/Q2431480"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Tibet",
+          "url": "https://en.wikipedia.org/wiki/Tibetan_Empire"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "military_organizational_advantage",
+      "layer": "military_security",
+      "description": "Tibetan cavalry proved capable of sustained campaigning at high altitude that exhausted lowland armies, giving Tibetan forces strategic advantage across Central Asia",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2431480",
+          "url": "https://www.wikidata.org/wiki/Q2431480"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Tibet",
+          "url": "https://en.wikipedia.org/wiki/Tibetan_Empire"
+        }
+      ]
+    },
+    {
+      "tag": "geographic_defensibility",
+      "layer": "geography_territory",
+      "description": "The Tibetan plateau's altitude and terrain made it impenetrable to Chinese and Central Asian cavalry-based armies except through specific mountain passes",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2431480",
+          "url": "https://www.wikidata.org/wiki/Q2431480"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Tibet",
+          "url": "https://en.wikipedia.org/wiki/Tibetan_Empire"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "succession_instability",
+      "layer": "dynastic_legitimacy",
+      "description": "Lang Darma's anti-Buddhist persecution split the tsenpo's support base and his assassination ended centralised imperial succession",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q2431480",
+          "url": "https://www.wikidata.org/wiki/Q2431480"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Tibet",
+          "url": "https://en.wikipedia.org/wiki/Tibetan_Empire"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Songtsen Gampo",
+      "role": "ruler",
+      "years": "617–650",
+      "year_start": 617,
+      "year_end": 650,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Songtsen Gampo",
+          "url": "https://en.wikipedia.org/wiki/Songtsen_Gampo"
+        }
+      ]
+    },
+    {
+      "name": "Trisong Detsen",
+      "role": "ruler",
+      "years": "755–797",
+      "year_start": 755,
+      "year_end": 797,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Trisong Detsen",
+          "url": "https://en.wikipedia.org/wiki/Trisong_Detsen"
+        }
+      ]
+    },
+    {
+      "name": "Ralpacan",
+      "role": "ruler",
+      "years": "817–836",
+      "year_start": 817,
+      "year_end": 836,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Ralpacan",
+          "url": "https://en.wikipedia.org/wiki/Ralpachen"
+        }
+      ]
+    }
+  ],
+  "economic": {
+    "primary_base": "pastoralism",
+    "secondary_bases": [
+      "agriculture",
+      "long_distance_trade",
+      "salt_trade"
+    ],
+    "wealth_level": "moderate",
+    "major_exports": [
+      "horses",
+      "wool",
+      "salt",
+      "musk"
+    ],
+    "major_trade_partners": [
+      "tang_empire",
+      "palas",
+      "abbasid_caliphate"
+    ],
+    "revenue_sources": [
+      "tribute_from_vassal_states",
+      "silk_road_tolls",
+      "salt_trade"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q2431480",
+        "url": "https://www.wikidata.org/wiki/Q2431480"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Tibet",
+        "url": "https://en.wikipedia.org/wiki/Tibetan_Empire"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q2431480",
+    "matched_name": "manual/tibet",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tibetan_Empire",
+    "capital": {
+      "name": "Lhasa",
+      "coords": [
+        29.64576,
+        91.14082
+      ]
+    },
+    "rulers_from_wikidata": [
+      {
+        "name": "Zanam Zindé",
+        "qid": "Q1068600",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1068600",
+            "url": "https://www.wikidata.org/wiki/Q1068600"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Zanam Zindé",
+            "url": "https://en.wikipedia.org/wiki/Zanam_Zindé"
+          }
+        ]
+      },
+      {
+        "name": "Tisholek Tsenpo",
+        "qid": "Q10886009",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q10886009",
+            "url": "https://www.wikidata.org/wiki/Q10886009"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Tisholek Tsenpo",
+            "url": "https://en.wikipedia.org/wiki/Tisholek_Tsenpo"
+          }
+        ]
+      },
+      {
+        "name": "Mutri Tsenpo",
+        "qid": "Q13866497",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q13866497",
+            "url": "https://www.wikidata.org/wiki/Q13866497"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mutri Tsenpo",
+            "url": "https://en.wikipedia.org/wiki/Mutri_Tsenpo"
+          }
+        ]
+      },
+      {
+        "name": "Sotri Tsenpo",
+        "qid": "Q2124742",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2124742",
+            "url": "https://www.wikidata.org/wiki/Q2124742"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Sotri Tsenpo",
+            "url": "https://en.wikipedia.org/wiki/Sotri_Tsenpo"
+          }
+        ]
+      },
+      {
+        "name": "Isholek Tsenpo",
+        "qid": "Q2165410",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2165410",
+            "url": "https://www.wikidata.org/wiki/Q2165410"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Isholek Tsenpo",
+            "url": "https://en.wikipedia.org/wiki/Isholek_Tsenpo"
+          }
+        ]
+      },
+      {
+        "name": "Drigum Tsenpo",
+        "qid": "Q2184757",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2184757",
+            "url": "https://www.wikidata.org/wiki/Q2184757"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Drigum Tsenpo",
+            "url": "https://en.wikipedia.org/wiki/Drigum_Tsenpo"
+          }
+        ]
+      },
+      {
+        "name": "Dingtri Tsenpo",
+        "qid": "Q2315095",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2315095",
+            "url": "https://www.wikidata.org/wiki/Q2315095"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Dingtri Tsenpo",
+            "url": "https://en.wikipedia.org/wiki/Dingtri_Tsenpo"
+          }
+        ]
+      },
+      {
+        "name": "Mertri Tsenpo",
+        "qid": "Q2397732",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2397732",
+            "url": "https://www.wikidata.org/wiki/Q2397732"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mertri Tsenpo",
+            "url": "https://en.wikipedia.org/wiki/Mertri_Tsenpo"
+          }
+        ]
+      },
+      {
+        "name": "Gongrulek Tsenpo",
+        "qid": "Q2403500",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2403500",
+            "url": "https://www.wikidata.org/wiki/Q2403500"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Gongrulek Tsenpo",
+            "url": "https://en.wikipedia.org/wiki/Gongrulek_Tsenpo"
+          }
+        ]
+      },
+      {
+        "name": "Daktri Tsenpo",
+        "qid": "Q2431534",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2431534",
+            "url": "https://www.wikidata.org/wiki/Q2431534"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Daktri Tsenpo",
+            "url": "https://en.wikipedia.org/wiki/Daktri_Tsenpo"
+          }
+        ]
+      },
+      {
+        "name": "Drongzherlek Tsenpo",
+        "qid": "Q2633137",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2633137",
+            "url": "https://www.wikidata.org/wiki/Q2633137"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Drongzherlek Tsenpo",
+            "url": "https://en.wikipedia.org/wiki/Drongzherlek_Tsenpo"
+          }
+        ]
+      },
+      {
+        "name": "Esholek Tsenpo",
+        "qid": "Q3191189",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3191189",
+            "url": "https://www.wikidata.org/wiki/Q3191189"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Esholek Tsenpo",
+            "url": "https://en.wikipedia.org/wiki/Esholek_Tsenpo"
+          }
+        ]
+      },
+      {
+        "name": "Jatri Tsenpo",
+        "qid": "Q3902094",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3902094",
+            "url": "https://www.wikidata.org/wiki/Q3902094"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Jatri Tsenpo",
+            "url": "https://en.wikipedia.org/wiki/Jatri_Tsenpo"
+          }
+        ]
+      },
+      {
+        "name": "Siptri Tsenpo",
+        "qid": "Q676066",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q676066",
+            "url": "https://www.wikidata.org/wiki/Q676066"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Siptri Tsenpo",
+            "url": "https://en.wikipedia.org/wiki/Siptri_Tsenpo"
+          }
+        ]
+      },
+      {
+        "name": "Desholek Tsenpo",
+        "qid": "Q751362",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q751362",
+            "url": "https://www.wikidata.org/wiki/Q751362"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Desholek Tsenpo",
+            "url": "https://en.wikipedia.org/wiki/Desholek_Tsenpo"
+          }
+        ]
+      },
+      {
+        "name": "Nyatri Tsenpo",
+        "qid": "Q611881",
+        "year_start": -126,
+        "year_end": -100,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q611881",
+            "url": "https://www.wikidata.org/wiki/Q611881"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Nyatri Tsenpo",
+            "url": "https://en.wikipedia.org/wiki/Nyatri_Tsenpo"
+          }
+        ]
+      },
+      {
+        "name": "Tridu Songtsen",
+        "qid": "Q2666817",
+        "year_start": 676,
+        "year_end": 704,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2666817",
+            "url": "https://www.wikidata.org/wiki/Q2666817"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Tridu Songtsen",
+            "url": "https://en.wikipedia.org/wiki/Tridu_Songtsen"
+          }
+        ]
+      },
+      {
+        "name": "Me Agtsom",
+        "qid": "Q2187385",
+        "year_start": 705,
+        "year_end": 755,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2187385",
+            "url": "https://www.wikidata.org/wiki/Q2187385"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Me Agtsom",
+            "url": "https://en.wikipedia.org/wiki/M%C3%A9_Aktsom"
+          }
+        ]
+      },
+      {
+        "name": "Tri Songdetsen",
+        "qid": "Q366661",
+        "year_start": 755,
+        "year_end": 797,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q366661",
+            "url": "https://www.wikidata.org/wiki/Q366661"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Tri Songdetsen",
+            "url": "https://en.wikipedia.org/wiki/Trisong_Detsen"
+          }
+        ]
+      },
+      {
+        "name": "Muné Tsenpo",
+        "qid": "Q2420583",
+        "year_start": 797,
+        "year_end": 799,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2420583",
+            "url": "https://www.wikidata.org/wiki/Q2420583"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Muné Tsenpo",
+            "url": "https://en.wikipedia.org/wiki/Muné_Tsenpo"
+          }
+        ]
+      },
+      {
+        "name": "Sadnalegs",
+        "qid": "Q1910177",
+        "year_start": 800,
+        "year_end": 815,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1910177",
+            "url": "https://www.wikidata.org/wiki/Q1910177"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Sadnalegs",
+            "url": "https://en.wikipedia.org/wiki/Sadnalegs"
+          }
+        ]
+      },
+      {
+        "name": "Ralpacan",
+        "qid": "Q2353150",
+        "year_start": 815,
+        "year_end": 838,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2353150",
+            "url": "https://www.wikidata.org/wiki/Q2353150"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ralpacan",
+            "url": "https://en.wikipedia.org/wiki/Ralpachen"
+          }
+        ]
+      },
+      {
+        "name": "Langdarma",
+        "qid": "Q558271",
+        "year_start": 838,
+        "year_end": 842,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q558271",
+            "url": "https://www.wikidata.org/wiki/Q558271"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Langdarma",
+            "url": "https://en.wikipedia.org/wiki/Langdarma"
+          }
+        ]
+      }
+    ]
+  },
+  "monogram": "TE"
+}

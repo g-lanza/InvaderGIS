@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_kingdom_of_hungary_955_1526",
+  "statement": "Kingdom of Hungary — campaigns and battles spanned 955–1526, from Battle of Lechfeld to Battle of Mohács — Ottoman Conquest of Hungary.",
+  "subject_ids": [
+    "kingdom_of_hungary"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_kingdom_of_hungary_955_1526",
+  "period": {
+    "from": 955,
+    "to": 1526
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "engel_the_2001",
+      "berend_at_2001"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

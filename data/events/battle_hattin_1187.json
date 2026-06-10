@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_hattin_1187",
+  "name": "Battle of Hattin",
+  "year": 1187,
+  "type": "conflict",
+  "category": "violence",
+  "coords": [
+    32.77,
+    35.47
+  ],
+  "entity": "kingdom_of_jerusalem",
+  "summary": "On 4 July 1187, Saladin lured the Crusader army under King Guy of Lusignan away from water onto the dry plateau near the Horns of Hattin. Surrounded and dying of thirst, the Frankish host was destroyed. King Guy was captured, the True Cross taken, and within months Jerusalem and most of the kingdom fell. The disaster shocked Christendom and precipitated the Third Crusade.",
+  "outcomes": [
+    "Crusader army annihilated",
+    "True Cross captured",
+    "Jerusalem falls within months",
+    "Third Crusade launched"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_jerusalem",
+      "ayyubid_sultanate"
+    ],
+    "structural_significance": "The decisive turning point of Crusader Palestine; the kingdom never recovered full territorial control, and the event permanently shifted the balance toward Muslim reconquest.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "jackson_saladin_1982",
+      "Nicolle, Hattin 1187"
+    ],
+    "confidence": "low"
+  }
+}

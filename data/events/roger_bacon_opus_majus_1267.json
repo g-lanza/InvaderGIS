@@ -1,0 +1,31 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "roger_bacon_opus_majus_1267",
+  "name": "Roger Bacon sends Opus Majus to Clement IV",
+  "year": 1267,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    51.7548,
+    -1.2544
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "The English Franciscan Roger Bacon, working at the secret request of Clement IV, finishes the Opus Majus, a survey of mathematics, optics, astronomy, alchemy, and moral philosophy advocating experimental method (scientia experimentalis). The manuscript reaches Viterbo shortly before Clement's death.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "papal_states"
+    ],
+    "structural_significance": "Earliest sustained medieval Latin argument for empirical investigation as a distinct mode of knowledge; revived interest in optics, calendars, and language study at Oxford for a century after.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "marenbon_later_medieval_philosophy_1991"
+    ],
+    "confidence": "low"
+  }
+}

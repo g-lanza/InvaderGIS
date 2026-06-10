@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_slavic_rebellion_of_1066_1066",
+  "name": "Slavic rebellion of 1066",
+  "year": 1066,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    52,
+    11
+  ],
+  "entity": "duchy_of_saxony",
+  "summary": "Slavic rebellion of 1066 (1066 CE). Source: Wikidata Q130377080.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "duchy_of_saxony"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "albert_the_bear",
+  "name": "Albert the Bear",
+  "polity": "margraviate_of_brandenburg",
+  "title": "dynastic_founder",
+  "reign_start": 1100,
+  "reign_end": 1170,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "margraviate_of_brandenburg",
+        "role": "dynastic_founder",
+        "start_year": 1100,
+        "end_year": 1170
+      }
+    ],
+    "key_actions": [],
+    "region": "central_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

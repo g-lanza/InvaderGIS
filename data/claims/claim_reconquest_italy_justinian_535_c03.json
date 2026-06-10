@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_reconquest_italy_justinian_535_c03",
+  "statement": "The general Narses destroyed the Ostrogothic forces at the Battle of Busta Gallorum in 552.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 535,
+    "to": 535
+  },
+  "derived_from": "reconquest_italy_justinian_535",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

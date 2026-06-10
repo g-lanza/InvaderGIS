@@ -1,0 +1,31 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_chenla_khmer_succession",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "chenla",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "khmer_empire",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 790,
+  "until": 802,
+  "note": "Jayavarman II reunified the fragmented 'Land Chenla' and 'Water Chenla' polities and proclaimed himself chakravartin (universal monarch) on Mount Mahendraparvata in 802 CE — the conventional foundation date of the Khmer Empire of Angkor.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Inaugurated the four-century apogee of Khmer civilisation."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

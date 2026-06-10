@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_amalfi",
+  "name": "Amalfi",
+  "entity_id": "duchy_of_amalfi",
+  "entity_name": "Duchy of Amalfi",
+  "start_year": 958,
+  "end_year": 1073,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q686312"
+    }
+  },
+  "coords": [
+    14.60278,
+    40.63333
+  ]
+}

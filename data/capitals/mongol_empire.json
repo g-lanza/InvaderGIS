@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "mongol_empire",
+  "name": "Karakorum",
+  "entity_id": "mongol_empire",
+  "entity_name": "Mongol Empire",
+  "start_year": 1206,
+  "end_year": 1368,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q12557"
+    }
+  },
+  "coords": [
+    102.82379,
+    47.19753
+  ]
+}

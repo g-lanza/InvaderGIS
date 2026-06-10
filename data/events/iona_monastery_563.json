@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "iona_monastery_563",
+  "name": "Columba Founds Iona, Celtic Christianity Spreads",
+  "year": 563,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    56.33,
+    -6.42
+  ],
+  "entity": "kingdom_of_dal_riata",
+  "summary": "Irish monk Columba (Colum Cille) founds a monastery on the island of Iona (off western Scotland) in 563, establishing the most influential religious house in the early medieval British Isles. Iona becomes the base for the conversion of the Picts and later Northumbria (through Aidan, who founds Lindisfarne in 635). The Lindisfarne Gospels (c. 715) represent the artistic peak of this tradition.",
+  "outcomes": [
+    "iona_founded",
+    "scotland_evangelized",
+    "northumbria_evangelized"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_dal_riata"
+    ],
+    "structural_significance": "Iona's foundation is the starting point of the transformation of Scotland and northern England from pagan to Christian; the Irish monastic model it embodies, dispersed hermitages, wandering scholar-monks, scriptoria preserving classical texts, contrasts with the Roman episcopal model and creates the diversity of early medieval Christianity; the preservation of classical manuscripts in Irish monasteries is crucial to the survival of ancient learning",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

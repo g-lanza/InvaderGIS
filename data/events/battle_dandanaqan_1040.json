@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_dandanaqan_1040",
+  "name": "Battle of Dandanaqan",
+  "year": 1040,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    36.8,
+    61.5
+  ],
+  "entity": "seljuk_sultanate",
+  "summary": "The Seljuk Turks defeat the Ghaznavid Sultan Mas'ud I at Dandanaqan in Khorasan (modern Turkmenistan), ending Ghaznavid control over the region. The battle marks the emergence of the Seljuks as an independent imperial power; within fifteen years they control all of Persia, Iraq, and Baghdad. The defeated Ghaznavids retreat permanently to their eastern territories around Lahore.",
+  "outcomes": [
+    "seljuk_independence_established",
+    "khorasan_conquered"
+  ],
+  "_quarry": {
+    "participants": [
+      "seljuk_sultanate"
+    ],
+    "structural_significance": "Birth of the Seljuk Empire as a major power; beginning of Turkic political dominance over the Islamic heartland",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "peacock_the_2015",
+      "bosworth_the_1963",
+      "cahen_preottoman_1968"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

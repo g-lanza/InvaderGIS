@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_ibn_battuta_returns_1354_c02",
+  "statement": "Ibn Battuta's travelogue, dictated as the Rihla, is the most extensive eyewitness account of the 14th-century Islamic world.",
+  "subject_ids": [
+    "marinid_dynasty"
+  ],
+  "period": {
+    "from": 1354,
+    "to": 1354
+  },
+  "derived_from": "ibn_battuta_returns_1354",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "hourani_arab_peoples_1991",
+      "abu_lughod_before_european_hegemony_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_jorvik_england_recovery",
+  "statement": "The Viking Kingdom of Jorvik (York) — established by the Danish Great Heathen Army in 866 — was the center of Norse power in northern England. A series of Norse and Norwegian kings ruled Jorvik in an unstable succession. The Wessex king Eadred finally expelled and killed Erik Bloodaxe (the last King of Jorvik) in 954, ending the kingdom. Jorvik's recovery brought all of England north of the Humber under Wessex/English control for the first time, completing the political unification of England that Æthelstan had begun at Brunanburh (937).",
+  "subject_ids": [
+    "kingdom_of_jorvik",
+    "kingdom_of_england"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_jorvik_england_recovery",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "kingdom_of_england"
+  ],
+  "period": {
+    "from": 954,
+    "to": 954
+  }
+}

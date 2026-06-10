@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "timurid_empire_1402",
+  "name": "Battle of Ankara, Ottomans Defeated",
+  "year": 1402,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    40.35,
+    47.9
+  ],
+  "entity": "timurid_empire",
+  "summary": "Timur's decisive defeat of the Ottoman Sultan Bayezid I at the Battle of Ankara in 1402 was one of the most stunning military upsets of the medieval period. Bayezid was captured (and reportedly died in captivity), the Ottoman Empire was nearly destroyed, and Constantinople gained another half-century of existence.",
+  "outcomes": [
+    "bayezid_captured",
+    "ottoman_interregnum",
+    "timur_peak"
+  ],
+  "_quarry": {
+    "participants": [
+      "timurid_empire",
+      "ottoman_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "manz_the_1989",
+      "lentz_timur_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

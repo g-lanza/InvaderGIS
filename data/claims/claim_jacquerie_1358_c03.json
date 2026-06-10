@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_jacquerie_1358_c03",
+  "statement": "The nobility under Charles of Navarre massacred the Jacques' leaders, causing the 1358 uprising to collapse within weeks.",
+  "subject_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 1358,
+    "to": 1358
+  },
+  "derived_from": "jacquerie_1358",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "ims_fordham",
+      "ims_fordham_sbook1m"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

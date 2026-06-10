@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "vienna_1365_siege",
+  "name": "Ottoman raid on Vienna region",
+  "year": 1365,
+  "type": "war",
+  "category": "violence",
+  "coords": [
+    48.21,
+    16.37
+  ],
+  "entity": "duchy_of_austria",
+  "summary": "In 1365, Ottoman forces under Sultan Murad I cross the Maritsa and take Adrianople (Edirne), making it the new Ottoman capital in Europe. The shift of the Ottoman capital from Bursa (in Anatolia) to Adrianople (in Europe) marks the transformation of the Ottomans from an Anatolian beylik into a European empire. The Ottomans use Adrianople as the base for systematic conquest of Thrace and Bulgaria (1370s) and the sieges of Constantinople. The city remains the Ottoman capital until Mehmed II moves it to Constantinople after 1453.",
+  "outcomes": [
+    "frontier_raid"
+  ],
+  "_quarry": {
+    "participants": [
+      "duchy_of_austria",
+      "ottoman_beylik"
+    ],
+    "structural_significance": "The transfer of the Ottoman capital to Adrianople signals Ottoman commitment to European conquest; the new capital is ideally positioned to coordinate further Balkan campaigns; this is the turning point at which the Ottomans become a fundamentally European power",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

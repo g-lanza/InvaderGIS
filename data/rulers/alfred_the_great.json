@@ -1,0 +1,47 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "alfred_the_great",
+  "name": "Alfred the Great",
+  "polity": "kingdom_of_wessex",
+  "title": "king",
+  "reign_start": 871,
+  "reign_end": 899,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 849,
+      "death_year": 899
+    },
+    "entity_associations": [
+      {
+        "entity_id": "kingdom_of_wessex",
+        "role": "king",
+        "start_year": 871,
+        "end_year": 899
+      }
+    ],
+    "key_actions": [
+      {
+        "year": 878,
+        "event": "Defeats Guthrum at Edington; Treaty of Wedmore creates Danelaw."
+      },
+      {
+        "year": 886,
+        "event": "Recaptures London; styled 'King of the Anglo-Saxons'."
+      },
+      {
+        "year": 890,
+        "event": "Commissions Anglo-Saxon Chronicle; translates Boethius and Augustine."
+      }
+    ],
+    "region": "british_isles",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_inheritance_of_rome_2009"
+    ],
+    "confidence": "low"
+  }
+}

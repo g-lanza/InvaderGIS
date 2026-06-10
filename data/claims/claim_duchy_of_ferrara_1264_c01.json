@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_duchy_of_ferrara_1264_c01",
+  "statement": "The Este family consolidated signorial control over Ferrara in 1264, beginning one of the longest-lasting dynastic rules in Italian history.",
+  "subject_ids": [
+    "duchy_of_ferrara"
+  ],
+  "period": {
+    "from": 1264,
+    "to": 1264
+  },
+  "derived_from": "duchy_of_ferrara_1264",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

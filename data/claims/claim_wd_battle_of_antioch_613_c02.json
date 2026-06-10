@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_antioch_613_c02",
+  "statement": "The Battle of Antioch (613 CE) took place at Antioch.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 613,
+    "to": 613
+  },
+  "derived_from": "wd_battle_of_antioch_613",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

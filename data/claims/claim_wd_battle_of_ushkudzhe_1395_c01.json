@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_ushkudzhe_1395_c01",
+  "statement": "Battle of Ushkudzhe (1395 CE), at Dagestan (part of Timurid conquests and invasions).",
+  "subject_ids": [
+    "timurid_empire"
+  ],
+  "period": {
+    "from": 1395,
+    "to": 1395
+  },
+  "derived_from": "wd_battle_of_ushkudzhe_1395",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "manz_the_1989",
+      "lentz_timur_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

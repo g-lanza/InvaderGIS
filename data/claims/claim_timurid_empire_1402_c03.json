@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_timurid_empire_1402_c03",
+  "statement": "Timur's defeat of Bayezid I nearly destroyed the Ottoman Empire and gave Constantinople another half-century of existence.",
+  "subject_ids": [
+    "timurid_empire"
+  ],
+  "period": {
+    "from": 1402,
+    "to": 1402
+  },
+  "derived_from": "timurid_empire_1402",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "manz_the_1989",
+      "lentz_timur_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

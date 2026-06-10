@@ -1,0 +1,35 @@
+{
+  "kind": "technology",
+  "dataset": "medieval-europe-500-1500",
+  "id": "water_mill",
+  "name_primary": "Water mill",
+  "domain": "industrial",
+  "origin": {
+    "place": "mediterranean",
+    "year": 500
+  },
+  "diffusion": [
+    "byzantine_empire",
+    "carolingian_empire",
+    "kingdom_of_france",
+    "kingdom_of_england",
+    "abbasid_caliphate"
+  ],
+  "_quarry": {
+    "polities_adopted": [
+      "byzantine_empire",
+      "carolingian_empire",
+      "kingdom_of_france",
+      "kingdom_of_england",
+      "abbasid_caliphate"
+    ],
+    "description": "Vertical-wheeled grain mill driven by flowing water — a late-Roman inheritance that survived the western collapse and proliferated. The Domesday survey counted some 5,624 mills in England in 1086, a density that implies a deeply mechanised grain economy. Beyond grinding flour, the same wheel was put to fulling cloth, sawing wood, hammering iron, and pumping bellows by the High Middle Ages."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "duby_rural_economy_country_life_1968"
+    ],
+    "confidence": "low"
+  }
+}

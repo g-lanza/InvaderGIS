@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_al_kura_1251",
+  "name": "Battle of al-Kura",
+  "year": 1251,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    30.1,
+    31.2
+  ],
+  "entity": "ayyubid_sultanate",
+  "summary": "Battle of al-Kura (1251 CE), at Nile Delta. Source: Wikidata Q125245989.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "ayyubid_sultanate",
+      "mamluk_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "humphreys_from_1977",
+      "lyons_saladin_1982",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

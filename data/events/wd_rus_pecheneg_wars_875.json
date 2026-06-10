@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_rus_pecheneg_wars_875",
+  "name": "Rus'-Pecheneg Wars",
+  "year": 875,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    48.45,
+    30.25
+  ],
+  "entity": "pecheneg_confederation",
+  "summary": "Rus'-Pecheneg Wars (875 CE), at Rus. Source: Wikidata Q19692622.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "pecheneg_confederation",
+      "kievan_rus"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

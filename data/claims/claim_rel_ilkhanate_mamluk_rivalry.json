@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_ilkhanate_mamluk_rivalry",
+  "statement": "The Mamluks' victory at Ain Jalut (1260) halted the Mongol advance into Africa; intermittent warfare continued for decades, with the Ilkhanate repeatedly attempting to break through the Mamluk defensive line in Syria. The Ilkhans briefly allied with Crusaders and the Armenians against the Mamluks.",
+  "subject_ids": [
+    "ilkhanate",
+    "mamluk_sultanate"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_ilkhanate_mamluk_rivalry",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "jackson_the_2005",
+      "amitai-preiss_mongols_1995",
+      "irwin_the_1986",
+      "northrup_from_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1260,
+    "to": 1335
+  }
+}

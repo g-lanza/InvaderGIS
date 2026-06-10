@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_forbie_1244",
+  "name": "Battle of Forbie",
+  "year": 1244,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    32.8,
+    31.5333
+  ],
+  "entity": "kingdom_of_jerusalem",
+  "summary": "Battle of Forbie (1244 CE), at Hiribya (part of Crusades). Source: Wikidata Q578201.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_jerusalem",
+      "ayyubid_sultanate",
+      "knights_hospitaller_rhodes"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

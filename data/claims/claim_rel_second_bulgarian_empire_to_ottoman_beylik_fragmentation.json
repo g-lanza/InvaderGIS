@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_second_bulgarian_empire_to_ottoman_beylik_fragmentation",
+  "statement": "Derived from predecessor/successor links recorded in the second_bulgarian_empire and ottoman_beylik entity records. Transition anchored to ottoman_beylik start_year.",
+  "subject_ids": [
+    "second_bulgarian_empire",
+    "ottoman_beylik"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_second_bulgarian_empire_to_ottoman_beylik_fragmentation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fine_the_1987",
+      "reuter_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "ottoman_beylik"
+  ],
+  "period": {
+    "from": 1299,
+    "to": 1299
+  }
+}

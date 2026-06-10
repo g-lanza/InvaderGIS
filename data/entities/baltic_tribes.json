@@ -1,0 +1,556 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "baltic_tribes",
+  "name_primary": "Baltic Tribes",
+  "name_variants": [],
+  "type": "tribal_confederation",
+  "region": "northern_europe",
+  "formed": 500,
+  "dissolved": 1300,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    57.0584,
+    25.193
+  ],
+  "population_estimates": [
+    {
+      "year": 1000,
+      "estimate": 500000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q207761",
+          "url": "https://www.wikidata.org/wiki/Q207761",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Baltic Tribes",
+          "url": "https://en.wikipedia.org/wiki/Balts"
+        }
+      ]
+    },
+    {
+      "year": 1100,
+      "estimate": 650000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q207761",
+          "url": "https://www.wikidata.org/wiki/Q207761",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Baltic Tribes",
+          "url": "https://en.wikipedia.org/wiki/Balts"
+        }
+      ]
+    },
+    {
+      "year": 1200,
+      "estimate": 800000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q207761",
+          "url": "https://www.wikidata.org/wiki/Q207761",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Baltic Tribes",
+          "url": "https://en.wikipedia.org/wiki/Balts"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Baltic-speaking peoples of the eastern Baltic (Prussians, Latvians, Lithuanians, Latvians, Semigallians) whose late Christianisation, Lithuania's paganism lasted until 1387, made the eastern Baltic the last frontier of medieval Crusading; Baltic cultures maintained distinctive polytheistic religions, amber trade networks, and agricultural societies that resisted both German Teutonic Order conquest and Christian assimilation.",
+  "temporal": {
+    "start_year": 500,
+    "end_year": 1300,
+    "notes": "Pre-state Baltic-speaking peoples (Prussians, Lithuanians, Latvians, Semigallians) before consolidation into the Grand Duchy of Lithuania and absorption by the Teutonic Order; later dates handled by teutonic_order_state and grand_duchy_of_lithuania."
+  },
+  "geographic": {
+    "centroid": [
+      57.0584,
+      25.193
+    ],
+    "polygon_simplified": [
+      [
+        [
+          55.634,
+          21.0185
+        ],
+        [
+          55.6971,
+          21.0148
+        ],
+        [
+          56.0241,
+          20.996
+        ],
+        [
+          56.07,
+          20.9454
+        ],
+        [
+          56.0967,
+          20.916
+        ],
+        [
+          56.1367,
+          20.9195
+        ],
+        [
+          56.2761,
+          22.6311
+        ],
+        [
+          56.884,
+          23.526
+        ],
+        [
+          56.8659,
+          23.7678
+        ],
+        [
+          56.9755,
+          24.1584
+        ],
+        [
+          57.0301,
+          24.2663
+        ],
+        [
+          57.1597,
+          24.3465
+        ],
+        [
+          57.3369,
+          24.3229
+        ],
+        [
+          57.7282,
+          24.2362
+        ],
+        [
+          57.8375,
+          24.3254
+        ],
+        [
+          57.8622,
+          24.3456
+        ],
+        [
+          57.9479,
+          24.4156
+        ],
+        [
+          58.1059,
+          24.4144
+        ],
+        [
+          58.2026,
+          24.4887
+        ],
+        [
+          58.2132,
+          24.4968
+        ],
+        [
+          58.3079,
+          24.3311
+        ],
+        [
+          58.1115,
+          24.0584
+        ],
+        [
+          58.2244,
+          23.9081
+        ],
+        [
+          58.2414,
+          23.6709
+        ],
+        [
+          58.6655,
+          23.6905
+        ],
+        [
+          58.5809,
+          23.5119
+        ],
+        [
+          58.7674,
+          23.3608
+        ],
+        [
+          58.8581,
+          23.432
+        ],
+        [
+          58.9724,
+          23.3379
+        ],
+        [
+          59.0055,
+          23.457
+        ],
+        [
+          59.119,
+          23.4158
+        ],
+        [
+          59.1381,
+          23.5702
+        ],
+        [
+          59.1757,
+          24.0321
+        ],
+        [
+          59.2354,
+          24.0296
+        ],
+        [
+          59.2841,
+          24.2819
+        ],
+        [
+          59.3689,
+          24.3416
+        ],
+        [
+          59.3234,
+          24.5376
+        ],
+        [
+          59.3743,
+          24.5709
+        ],
+        [
+          59.3518,
+          24.7138
+        ],
+        [
+          59.4485,
+          24.7512
+        ],
+        [
+          59.3618,
+          25.2483
+        ],
+        [
+          59.494,
+          25.4488
+        ],
+        [
+          59.42,
+          25.49
+        ],
+        [
+          59.4598,
+          25.7211
+        ],
+        [
+          59.4466,
+          26.3433
+        ],
+        [
+          59.3717,
+          26.8619
+        ],
+        [
+          59.3177,
+          26.999
+        ],
+        [
+          59.338,
+          27.2651
+        ],
+        [
+          59.314,
+          27.5246
+        ],
+        [
+          58.999,
+          27.5702
+        ],
+        [
+          59.0069,
+          27.5237
+        ],
+        [
+          58.9949,
+          27.2981
+        ],
+        [
+          58.9542,
+          27.1073
+        ],
+        [
+          58.8843,
+          26.9741
+        ],
+        [
+          58.8056,
+          26.9664
+        ],
+        [
+          58.6479,
+          27.1567
+        ],
+        [
+          58.4522,
+          27.2366
+        ],
+        [
+          58.4019,
+          27.3239
+        ],
+        [
+          58.3031,
+          27.4255
+        ],
+        [
+          58.2167,
+          27.4727
+        ],
+        [
+          58.1841,
+          27.4971
+        ],
+        [
+          58.0143,
+          27.6238
+        ],
+        [
+          58.0185,
+          27.6783
+        ],
+        [
+          58.0106,
+          27.7133
+        ],
+        [
+          56.311,
+          27.9593
+        ],
+        [
+          54.8311,
+          25.1976
+        ],
+        [
+          55.6143,
+          21.0319
+        ],
+        [
+          55.634,
+          21.0185
+        ]
+      ]
+    ],
+    "no_central_capital": true,
+    "no_central_capital_reason": "Pre-state tribal groups (Curonians, Semigallians, Yotvingians)."
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "tribal_autonomy",
+      "years": "500-1000",
+      "description": "Baltic peoples (Latvians, Lithuanians, Prussians, Curonians) occupied the eastern Baltic littoral as independent tribal confederations.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q207761",
+          "url": "https://www.wikidata.org/wiki/Q207761"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Baltic Tribes",
+          "url": "https://en.wikipedia.org/wiki/Balts"
+        }
+      ]
+    },
+    {
+      "phase": "external_pressure",
+      "years": "1000-1200",
+      "description": "Increasing pressure from Viking raids, early Russian principalities, and Polish expansion threatened tribal independence.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q207761",
+          "url": "https://www.wikidata.org/wiki/Q207761"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Baltic Tribes",
+          "url": "https://en.wikipedia.org/wiki/Balts"
+        }
+      ]
+    },
+    {
+      "phase": "crusading_conquest",
+      "years": "1200-1400",
+      "description": "Northern Crusades led by Teutonic Knights and Livonian Order subjugated most Baltic tribes; Lithuanians alone formed a lasting kingdom.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q207761",
+          "url": "https://www.wikidata.org/wiki/Q207761"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Baltic Tribes",
+          "url": "https://en.wikipedia.org/wiki/Balts"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "geographic_defensibility",
+      "layer": "geography_territory",
+      "description": "Dense forests and marshes of the Baltic littoral made conquest logistically difficult.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q207761",
+          "url": "https://www.wikidata.org/wiki/Q207761"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Baltic Tribes",
+          "url": "https://en.wikipedia.org/wiki/Balts"
+        }
+      ]
+    },
+    {
+      "tag": "trade_route_control",
+      "layer": "economic_commercial",
+      "description": "Control of Baltic amber trade provided economic resources for weapons and alliance-building.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q207761",
+          "url": "https://www.wikidata.org/wiki/Q207761"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Baltic Tribes",
+          "url": "https://en.wikipedia.org/wiki/Balts"
+        }
+      ],
+      "tag_prose": "amber_trade"
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "crusading_military_superiority",
+      "layer": "military_security",
+      "description": "German and Danish crusaders with castles and professional knights overwhelmed tribal war bands.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q207761",
+          "url": "https://www.wikidata.org/wiki/Q207761"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Baltic Tribes",
+          "url": "https://en.wikipedia.org/wiki/Balts"
+        }
+      ]
+    },
+    {
+      "tag": "internal_fragmentation",
+      "layer": "governance_institutional",
+      "description": "Lack of unified political structure made coordinated resistance impossible.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q207761",
+          "url": "https://www.wikidata.org/wiki/Q207761"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Baltic Tribes",
+          "url": "https://en.wikipedia.org/wiki/Balts"
+        }
+      ],
+      "tag_prose": "political_fragmentation"
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Mindaugas of Lithuania",
+      "role": "ruler",
+      "years": "1236–1263",
+      "year_start": 1236,
+      "year_end": 1263,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Mindaugas of Lithuania",
+          "url": "https://en.wikipedia.org/wiki/Mindaugas"
+        }
+      ]
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "amber_trade",
+      "fishing",
+      "fur_trade"
+    ],
+    "wealth_level": "low",
+    "major_exports": [
+      "amber",
+      "furs",
+      "timber",
+      "wax"
+    ],
+    "major_trade_partners": [
+      "hanseatic_league",
+      "kievan_rus",
+      "kingdom_of_denmark"
+    ],
+    "revenue_sources": [
+      "amber_export",
+      "fur_trade",
+      "tribute"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q207761",
+        "url": "https://www.wikidata.org/wiki/Q207761"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Baltic Tribes",
+        "url": "https://en.wikipedia.org/wiki/Balts"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q207761",
+    "matched_name": "manual/baltic_tribes",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Balts"
+  },
+  "monogram": "BT"
+}

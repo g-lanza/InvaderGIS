@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_masts_655",
+  "name": "Battle of the Masts",
+  "year": 655,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    36.5,
+    30
+  ],
+  "entity": "byzantine_empire",
+  "summary": "The first major Arab naval victory, fought off the Lycian coast (modern Turkey) around 655 CE. Emperor Constans II personally commands the Byzantine fleet of approximately 500 ships against an Arab force under Muawiya's admiral. The Arabs, fighting from ships chained together, destroy the Byzantine fleet; Constans escapes in disguise by swapping clothes with a sailor (the sailor is killed believing he has captured the emperor). The battle reveals that Arab expansion is no longer purely a land phenomenon.",
+  "outcomes": [
+    "byzantine_fleet_destroyed",
+    "arab_naval_supremacy_established",
+    "mediterranean_opened_to_arab_raids"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "umayyad_caliphate"
+    ],
+    "structural_significance": "Establishes Arab naval capability in the Mediterranean; opens the sea lanes to Arab raids on Cyprus, Rhodes, and Sicily; the Byzantine inability to defend the sea after this battle leads to generations of coastal raids; prefigures the later Arab sieges of Constantinople (674, 717) that attempt to destroy the Empire by sea",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

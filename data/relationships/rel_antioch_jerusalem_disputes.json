@@ -1,0 +1,40 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_antioch_jerusalem_disputes",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "principality_of_antioch",
+      "role": "principal"
+    },
+    {
+      "entity_id": "kingdom_of_jerusalem",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 1100,
+  "until": 1268,
+  "note": "The Principality of Antioch and the Kingdom of Jerusalem were allied but frequently competing Crusader states. The competition centered on precedence (Antioch's prince claimed independence from Jerusalem's king; the king of Jerusalem claimed feudal suzerainty as the senior Crusader monarch) and territorial disputes — particularly over the contested borderlands and the city of Tripoli (technically independent but often aligned with Jerusalem against Antioch). These disputes weakened the capacity for unified defense: the failure of Antioch to relieve Edessa (1144) was partly due to unresolved disputes with the King of Jerusalem about military precedence.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Antioch-Jerusalem disputes demonstrate the fundamental problem of the Crusader states: they were independent feudal entities with competing interests rather than a unified state; their inability to achieve military coordination against the unified Zengid then Ayyubid threat makes their eventual defeat predictable in retrospect"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "asbridge_the_2000",
+      "cahen_la_1940",
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

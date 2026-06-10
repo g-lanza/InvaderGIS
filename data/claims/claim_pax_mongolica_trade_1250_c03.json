@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_pax_mongolica_trade_1250_c03",
+  "statement": "Friar John of Plano Carpini, William of Rubruck, and Marco Polo made transcontinental journeys during the Pax Mongolica.",
+  "subject_ids": [
+    "mongol_empire"
+  ],
+  "period": {
+    "from": 1250,
+    "to": 1250
+  },
+  "derived_from": "pax_mongolica_trade_1250",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

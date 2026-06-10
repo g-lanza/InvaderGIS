@@ -1,0 +1,29 @@
+{
+  "id": "corpus_juris_justice",
+  "kind": "annotation",
+  "dataset": "medieval",
+  "target_id": "corpus_juris_civilis",
+  "target_kind": "text",
+  "anchor": {
+    "quote": "Justice is the constant and perpetual will to render to each his due. The precepts of the law are these: to live honourably, to injure no one, to give each his own.",
+    "locator": "Institutes, Book I, Title I"
+  },
+  "body": "Justinian's restatement of the maxims of Roman law. Rediscovered at Bologna in the 11th–12th centuries, the Corpus became the seed of the medieval ius commune and the European civil-law tradition.",
+  "links_to": [
+    "byzantine_empire"
+  ],
+  "tags": [
+    "law",
+    "byzantium",
+    "justice",
+    "reception"
+  ],
+  "provenance": {
+    "status": "draft",
+    "confidence": "high",
+    "attestation": "strong",
+    "sources_used": [
+      "corpus_juris_civilis"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_arab_conquests_syria_636_c02",
+  "statement": "Jerusalem surrendered to Caliph Umar in 638 during the Arab conquest of Syria.",
+  "subject_ids": [
+    "umayyad_caliphate"
+  ],
+  "period": {
+    "from": 636,
+    "to": 636
+  },
+  "derived_from": "arab_conquests_syria_636",
+  "unresolved_sources": [
+    "kennedy_the_2004",
+    "hawting_the_2000"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

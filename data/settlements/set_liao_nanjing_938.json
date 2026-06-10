@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_liao_nanjing_938",
+  "name": "Liao Nanjing",
+  "importance": "city",
+  "start_year": 938,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q4312918"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    116.3511,
+    39.8906
+  ]
+}

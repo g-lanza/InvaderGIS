@@ -1,0 +1,48 @@
+{
+ "kind": "ruler",
+ "dataset": "medieval-europe-500-1500",
+ "id": "ibn_sina",
+ "name": "Ibn Sīnā (Avicenna)",
+ "polity": "",
+ "title": "theologian",
+ "reign_start": 0,
+ "reign_end": null,
+ "_quarry": {
+  "lifespan": {
+   "birth_year": 980,
+   "death_year": 1037
+  },
+  "entity_associations": [],
+  "key_actions": [
+   {
+    "year": 1014,
+    "summary": "Begins composing Kitāb al-Shifāʾ (The Book of Healing), a multi-volume philosophical encyclopedia.",
+    "source_id": "hodgson_venture_of_islam_1974"
+   },
+   {
+    "year": 1025,
+    "summary": "Completes Al-Qānūn fī al-Ṭibb (The Canon of Medicine), the standard medical textbook of the Islamic world and (via Latin translation) of medieval European universities until the 17th century.",
+    "source_id": "hodgson_venture_of_islam_1974"
+   },
+   {
+    "year": 1037,
+    "summary": "Dies at Hamadan; leaves a Peripatetic philosophical tradition (mashshāʾī) that decisively shapes both Sunni theology and Latin scholasticism via Albertus Magnus and Aquinas.",
+    "source_id": "hodgson_venture_of_islam_1974"
+   }
+  ],
+  "region": "central_asia",
+  "name_variants": [
+   "Avicenna",
+   "Abū ʿAlī al-Ḥusayn ibn ʿAbd Allāh Ibn Sīnā"
+  ]
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "hodgson_venture_of_islam_1974",
+   "ims_fordham",
+   "ims_fordham_sbook1d"
+  ],
+  "confidence": "low"
+ }
+}

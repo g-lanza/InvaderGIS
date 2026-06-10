@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "martyrdom_of_boniface_754",
+  "name": "Martyrdom of Boniface, Apostle of Germany",
+  "year": 754,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    53,
+    8.8
+  ],
+  "entity": "carolingian_empire",
+  "summary": "Boniface (Wynfrith), the English monk who organized the German church and reformed the Frankish church under Carolingian patronage, is martyred in Frisia while on a missionary journey. His work founding monasteries at Fulda and Reichenau and organizing the German dioceses creates the ecclesiastical framework for Charlemagne's German empire.",
+  "outcomes": [
+    "german_christianization_complete",
+    "frankish_papal_alliance",
+    "frankish_church_reform"
+  ],
+  "_quarry": {
+    "participants": [
+      "carolingian_empire"
+    ],
+    "structural_significance": "Boniface's church organization gives Charlemagne the episcopal network through which to govern; Fulda becomes the leading intellectual center in Carolingian Germany; the Frankish-papal alliance Boniface brokered enables Pepin's seizure of the throne.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "mckitterick_charlemagne_2008",
+      "riché_the_1993",
+      "nelson_king_2019"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

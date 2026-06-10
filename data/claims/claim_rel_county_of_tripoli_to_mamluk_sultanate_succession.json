@@ -1,0 +1,29 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_county_of_tripoli_to_mamluk_sultanate_succession",
+  "statement": "Derived from predecessor/successor links recorded in the county_of_tripoli and mamluk_sultanate entity records. Transition anchored to mamluk_sultanate start_year.",
+  "subject_ids": [
+    "county_of_tripoli",
+    "mamluk_sultanate"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_county_of_tripoli_to_mamluk_sultanate_succession",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "irwin_the_1986",
+      "northrup_from_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "mamluk_sultanate"
+  ],
+  "period": {
+    "from": 1250,
+    "to": 1250
+  }
+}

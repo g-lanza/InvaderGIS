@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_exarchate_of_ravenna_584_c01",
+  "statement": "The Exarchate of Ravenna was established around 584 CE as Byzantium's administrative response to Lombard invasions of Italy.",
+  "subject_ids": [
+    "exarchate_of_ravenna"
+  ],
+  "period": {
+    "from": 584,
+    "to": 584
+  },
+  "derived_from": "exarchate_of_ravenna_584",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

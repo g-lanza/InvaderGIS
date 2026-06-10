@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_paris_885",
+  "name": "Siege of Paris",
+  "year": 885,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    48,
+    2.5
+  ],
+  "entity": "west_francia",
+  "summary": "Siege of Paris (885 CE), at Paris (part of viking expansion). Source: Wikidata Q815192.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "west_francia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

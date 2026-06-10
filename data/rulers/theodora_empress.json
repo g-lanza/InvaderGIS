@@ -1,0 +1,53 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "theodora_empress",
+  "name": "Theodora",
+  "polity": "byzantine_empire",
+  "title": "empress_consort",
+  "reign_start": 527,
+  "reign_end": 548,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 500,
+      "death_year": 548
+    },
+    "entity_associations": [
+      {
+        "entity_id": "byzantine_empire",
+        "role": "empress_consort",
+        "start_year": 527,
+        "end_year": 548
+      }
+    ],
+    "key_actions": [
+      {
+        "year": 525,
+        "summary": "Marries the future emperor Justinian, after the lex restoring senatorial-grade marriage rights to former actresses (the Lex de nuptiis) is enacted by Justin I.",
+        "source_id": "kaldellis_streams_of_gold_2017"
+      },
+      {
+        "year": 532,
+        "summary": "Reportedly speaks against fleeing the capital during the Nika riots — 'purple is the noblest shroud' — stiffening Justinian's resolve and securing the dynasty.",
+        "source_id": "kaldellis_streams_of_gold_2017"
+      },
+      {
+        "year": 548,
+        "summary": "Dies of cancer in June 548. Justinian, surviving her by 17 years, never remarries; her domestic policy initiatives (including legislation against forced prostitution) are continued in his later Novellae.",
+        "source_id": "kaldellis_streams_of_gold_2017"
+      }
+    ],
+    "region": "byzantine_world",
+    "name_variants": [
+      "Theodora of Byzantium"
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kaldellis_streams_of_gold_2017",
+      "kazhdan_oxford_dictionary_byzantium_1991"
+    ],
+    "confidence": "low"
+  }
+}

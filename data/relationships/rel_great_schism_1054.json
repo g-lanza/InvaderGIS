@@ -1,0 +1,39 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_great_schism_1054",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "papal_states",
+      "role": "principal"
+    },
+    {
+      "entity_id": "byzantine_empire",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "religious_jurisdiction",
+  "since": 1054,
+  "until": 1453,
+  "note": "The Great Schism of 1054, when papal legate Cardinal Humbert placed a bull of excommunication on the altar of Hagia Sophia (July 16, 1054) and Patriarch Michael Cerularius excommunicated the legates in return, formalized the split between the Roman Catholic and Eastern Orthodox churches. The immediate issue was the filioque clause (whether the Holy Spirit proceeds from the Father alone or from the Father and the Son) plus papal primacy claims and liturgical differences (unleavened vs. leavened bread). The mutual excommunications were not lifted until 1964 (by Paul VI and Patriarch Athenagoras).",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Great Schism creates the fundamental division of Christianity into two families that persists to the present; it polarizes the Byzantine-Latin relationship, making cooperation difficult; the Sack of Constantinople (1204) deepens the split catastrophically; the schism shapes the cultural and political boundaries of European civilization along the Orthodox-Catholic divide"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989",
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_seljuk_sultanate_1037_1101",
+  "name": "Seljuk Sultanate — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1037,
+  "year_end": 1101,
+  "waypoints": [
+    {
+      "year": 1037,
+      "place": "Seljuks Conquer Khorasan",
+      "coords": [
+        35.5345,
+        61.791
+      ],
+      "note": "military",
+      "event_id": "khoiasan_1037"
+    },
+    {
+      "year": 1040,
+      "place": "Battle of Dandanaqan",
+      "coords": [
+        36.8,
+        61.5
+      ],
+      "note": "battle",
+      "event_id": "battle_dandanaqan_1040"
+    },
+    {
+      "year": 1055,
+      "place": "Tughril Beg Enters Baghdad — Seljuk Power at its Peak",
+      "coords": [
+        33.33,
+        44.4
+      ],
+      "note": "conquest",
+      "event_id": "seljuk_sultanate_peak_1055"
+    },
+    {
+      "year": 1071,
+      "place": "Battle of Manzikert",
+      "coords": [
+        39.15,
+        42.54
+      ],
+      "note": "battle",
+      "event_id": "battle_manzikert_1071"
+    },
+    {
+      "year": 1071,
+      "place": "Battle of Manzikert — Consequences for Anatolia",
+      "coords": [
+        38.96,
+        42.52
+      ],
+      "note": "battle",
+      "event_id": "battle_manzikert_context"
+    },
+    {
+      "year": 1097,
+      "place": "Battle of Dorylaeum",
+      "coords": [
+        39.78,
+        30.52
+      ],
+      "note": "battle",
+      "event_id": "battle_dorylaeum_1097"
+    },
+    {
+      "year": 1097,
+      "place": "Siege of Nicaea — First Crusade's Opening Campaign",
+      "coords": [
+        40.43,
+        29.72
+      ],
+      "note": "battle",
+      "event_id": "siege_nicea_1097"
+    },
+    {
+      "year": 1101,
+      "place": "Crusade of 1101 — The Second Wave Destroyed",
+      "coords": [
+        40.15,
+        37.55
+      ],
+      "note": "battle",
+      "event_id": "crusade_of_1101"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "peacock_the_2015",
+      "bosworth_the_1963",
+      "cahen_preottoman_1968"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

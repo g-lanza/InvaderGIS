@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "seljuk_sultanate_peak_1055",
+  "name": "Tughril Beg Enters Baghdad, Seljuk Power at its Peak",
+  "year": 1055,
+  "type": "conquest",
+  "category": "violence",
+  "coords": [
+    33.33,
+    44.4
+  ],
+  "entity": "seljuk_sultanate",
+  "summary": "Tughril Beg, the Seljuk sultan, enters Baghdad, expels the Shia Buyid dynasty, and receives the title Sultan from the Abbasid Caliph al-Qaim. The Seljuks present themselves as champions of Sunni orthodoxy, rescuing the caliph from Shia dominance. The arrangement mirrors the Buyid period: the sultan holds real power while the caliph provides religious legitimacy. Tughril's successors (Alp Arslan, Malik Shah) build the largest Sunni power since the early Abbasids.",
+  "outcomes": [
+    "buyids_expelled",
+    "caliph_protected",
+    "sultan_title_formalized"
+  ],
+  "_quarry": {
+    "participants": [
+      "seljuk_sultanate",
+      "abbasid_caliphate"
+    ],
+    "structural_significance": "The Seljuk conquest of Baghdad creates a new Sunni-Turkic imperial model that shapes the Islamic world for centuries; the sultan-caliph separation of power (military authority vs. religious legitimacy) becomes the template for subsequent Islamic states; the Seljuks' patronage of madrasas (including the Nizamiyya in Baghdad) institutionalizes Sunni religious education; their defeat by the Mongols (1243 at Köse Dağ) is the first step toward the later Mongol destruction of Baghdad",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "peacock_the_2015",
+      "bosworth_the_1963",
+      "cahen_preottoman_1968"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

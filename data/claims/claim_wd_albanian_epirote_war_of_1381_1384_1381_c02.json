@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_albanian_epirote_war_of_1381_1384_1381_c02",
+  "statement": "The Albanian-Epirote War of 1381-1384 was fought in Epirus.",
+  "subject_ids": [
+    "despotate_of_epirus"
+  ],
+  "period": {
+    "from": 1381,
+    "to": 1381
+  },
+  "derived_from": "wd_albanian_epirote_war_of_1381_1384_1381",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

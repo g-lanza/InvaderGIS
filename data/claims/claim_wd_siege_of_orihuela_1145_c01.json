@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_orihuela_1145_c01",
+  "statement": "Siege of Orihuela (1145 CE), at Orihuela (part of Andalusi revolt against the Almoravids).",
+  "subject_ids": [
+    "almoravid_emirate_iberia"
+  ],
+  "period": {
+    "from": 1145,
+    "to": 1145
+  },
+  "derived_from": "wd_siege_of_orihuela_1145",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_the_2004",
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_burgundy_war_523",
+  "name": "Burgundy War",
+  "year": 523,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    49,
+    3.5
+  ],
+  "entity": "merovingian_kingdom",
+  "summary": "Burgundy War (523 CE). Source: Wikidata Q1016077.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "merovingian_kingdom"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wood_the_1994",
+      "geary_before_1988"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

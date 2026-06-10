@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "pagan_anawrahta_unification_1044",
+  "name": "Anawrahta Unifies Burma",
+  "year": 1044,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    15.644,
+    96.765
+  ],
+  "entity": "kingdom_of_pagan",
+  "summary": "Anawrahta unified the Irrawaddy valley, conquered the Mon kingdom of Thaton, and obtained the Pali Buddhist canon. He converted to Theravada Buddhism and the Pagan Empire became the greatest patron of Theravada in Southeast Asia.",
+  "outcomes": [
+    "burma_unified",
+    "theravada_established",
+    "pali_canon_obtained"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_pagan"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

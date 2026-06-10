@@ -1,0 +1,42 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ilkhanate_christianity_1258",
+  "name": "Ilkhanate and the Mongol-Christian Alliance Attempts",
+  "year": 1260,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    36.2,
+    44
+  ],
+  "entity": "ilkhanate",
+  "summary": "Following the Mongol destruction of Baghdad (1258), Western Christian powers, including Louis IX of France and successive popes, attempt to forge an alliance with the Ilkhanate (Mongol Persia) against the Mamluks. Hulagu Khan's mother and wife are Nestorian Christians; he himself is open to diplomatic approaches. However, the Mongol defeat at Ain Jalut (1260) and the Ilkhanate's eventual conversion to Islam (under Ghazan Khan, 1295) ends the alliance's possibility.",
+  "outcomes": [
+    "franco_mongol_alliance_attempted",
+    "ain_jalut_defeats_mongols",
+    "ilkhanate_eventually_converts_to_islam"
+  ],
+  "_quarry": {
+    "participants": [
+      "ilkhanate",
+      "mamluk_sultanate",
+      "kingdom_of_france",
+      "papal_states"
+    ],
+    "structural_significance": "The Franco-Mongol alliance attempts represent the most consequential diplomatic opportunity the Crusader states missed; a coordinated attack on the Mamluks from both west and east could have permanently changed the balance of power in the Levant; the Ilkhanate's ultimate Islamic conversion shows that Mongol rulers pragmatically adopted the faith of their majority subjects; Ghazan's conversion ends the period of Mongol religious pluralism",
+    "year_range": [
+      1258,
+      1295
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "jackson_the_2005",
+      "amitai-preiss_mongols_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

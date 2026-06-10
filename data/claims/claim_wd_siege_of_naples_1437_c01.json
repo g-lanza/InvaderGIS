@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_naples_1437_c01",
+  "statement": "Siege of Naples (1437 CE), at Naples (part of Aragonese conquest of Naples).",
+  "subject_ids": [
+    "duchy_of_milan"
+  ],
+  "period": {
+    "from": 1437,
+    "to": 1437
+  },
+  "derived_from": "wd_siege_of_naples_1437",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

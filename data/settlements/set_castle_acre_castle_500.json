@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_castle_acre_castle_500",
+  "name": "Castle Acre Castle",
+  "importance": "city",
+  "start_year": 500,
+  "end_year": 1291,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "high",
+    "attestation": "inferred",
+    "external_ids": {
+      "pleiades": "95991112"
+    }
+  },
+  "end_confidence": "high",
+  "coords": [
+    0.6913,
+    52.7033
+  ]
+}

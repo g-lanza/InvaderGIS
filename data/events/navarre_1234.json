@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "navarre_1234",
+  "name": "French Dynasty Takes Navarre",
+  "year": 1234,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    42.8,
+    -1.6
+  ],
+  "entity": "kingdom_of_navarre",
+  "summary": "The extinction of the native dynasty in 1234 brought the House of Champagne to the throne of Navarre. This began a long association with French dynasties that would eventually incorporate Navarre into French political orbit, while the kingdom retained its distinct Basque cultural identity.",
+  "outcomes": [
+    "champagne_dynasty_rules",
+    "french_influence_grows",
+    "iberian_isolation_increases"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_navarre"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

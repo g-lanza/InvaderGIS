@@ -1,0 +1,133 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "bahmani_sultanate",
+  "name_primary": "Bahmani Sultanate",
+  "name_variants": [
+    "Bahmanid Sultanate"
+  ],
+  "type": "sultanate",
+  "region": "south_asia",
+  "formed": 1347,
+  "dissolved": 1527,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    17.4,
+    76.8
+  ],
+  "population_estimates": [
+    {
+      "year": 1450,
+      "estimate": 12000000,
+      "confidence": "low",
+      "note": "Deccan plateau under Bahmani administration; estimates from Habib and Raychaudhuri."
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Muslim Deccan sultanate (1347–1527) founded by Ala-ud-Din Bahman Shah, an officer of the Tughluq Sultanate who revolted at Daulatabad after the Delhi Sultanate's expansion into the south had overextended its administration; the Bahmanis ruled the Deccan plateau north of the Tungabhadra from Gulbarga and later Bidar, fought protracted wars with the Vijayanagara Empire over the Raichur Doab, became the principal Persianate Islamic state of the Indian subcontinent through patronage of architecture, calligraphy, and Persian court culture, and built the Madrasa of Mahmud Gawan (1472); from the late 15th century the sultanate fragmented into the five Deccan successor states (Bijapur, Golconda, Ahmadnagar, Bidar, Berar) that would later combine to defeat Vijayanagara at Talikota (1565).",
+  "temporal": {
+    "start_year": 1347,
+    "end_year": 1527,
+    "end_year_within_scope": 1500,
+    "notes": "Founded by Ala-ud-Din Bahman Shah after the Daulatabad rebellion against the Tughluq Sultanate; fragmented into the five Deccan sultanates (Bijapur, Golconda, Ahmadnagar, Bidar, Berar) from c. 1490; finally extinguished 1527."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      17.4,
+      76.8
+    ],
+    "core_regions": [
+      "south_asia"
+    ],
+    "capital": {
+      "name": "Gulbarga (later Bidar)",
+      "coords": [
+        17.329,
+        76.832
+      ],
+      "source": "wikidata"
+    }
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "foundation",
+      "years": "1347–1397",
+      "description": "Ala-ud-Din Bahman Shah declares independence from the Tughluq Sultanate at Daulatabad; capital established at Gulbarga; first wars with Vijayanagara."
+    },
+    {
+      "phase": "imperial_apogee",
+      "years": "1463–1481",
+      "description": "Vizier Mahmud Gawan reforms the army, divides the empire into administrative tarafs, and conducts the Konkan campaigns that bring the Bahmani sultanate to its maximum extent."
+    },
+    {
+      "phase": "fragmentation",
+      "years": "1481–1527",
+      "description": "Execution of Mahmud Gawan (1481) triggers factionalism; provincial governors progressively assert autonomy as the five Deccan sultanates (Bijapur, Golconda, Ahmadnagar, Bidar, Berar) emerge from the Bahmani frame."
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Ala-ud-Din Bahman Shah",
+      "role": "sultan",
+      "years": "1347–1358",
+      "year_start": 1347,
+      "year_end": 1358
+    },
+    {
+      "name": "Mahmud Gawan",
+      "role": "vizier",
+      "years": "1463–1481",
+      "year_start": 1463,
+      "year_end": 1481
+    }
+  ],
+  "predecessor_entity_ids": [
+    "delhi_sultanate"
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "cotton_textiles",
+      "horse_trade",
+      "manufacturing"
+    ],
+    "wealth_level": "high",
+    "major_exports": [
+      "cotton_textiles",
+      "diamonds",
+      "iron_steel"
+    ],
+    "major_trade_partners": [
+      "vijayanagara_empire",
+      "delhi_sultanate"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "trade_customs"
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q374521",
+    "matched_name": "manual/bahmani_sultanate",
+    "enrichment_date": "2026-05-24",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Bahmani_Sultanate",
+    "capital": {
+      "name": "Gulbarga",
+      "coords": [
+        17.329,
+        76.832
+      ]
+    },
+    "predecessors_from_wikidata": [
+      "Delhi Sultanate"
+    ]
+  },
+  "monogram": "BS"
+}

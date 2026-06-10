@@ -1,0 +1,1402 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "chola_state",
+  "name_primary": "Chola Empire",
+  "name_variants": [
+    "Chola state"
+  ],
+  "type": "kingdom",
+  "region": "south_asia",
+  "formed": 850,
+  "dissolved": 1279,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 900,
+      "label": "Chola Empire (approx.)",
+      "polygon": [
+        [
+          8,
+          77
+        ],
+        [
+          8,
+          78
+        ],
+        [
+          10,
+          80
+        ],
+        [
+          13,
+          80
+        ],
+        [
+          15,
+          80
+        ],
+        [
+          17,
+          81
+        ],
+        [
+          17,
+          78
+        ],
+        [
+          15,
+          76
+        ],
+        [
+          13,
+          76
+        ],
+        [
+          11,
+          75
+        ],
+        [
+          8,
+          77
+        ]
+      ]
+    },
+    {
+      "year": 1000,
+      "label": "Chola Empire, peak (approx.)",
+      "polygon": [
+        [
+          8,
+          77
+        ],
+        [
+          8,
+          78
+        ],
+        [
+          10,
+          80
+        ],
+        [
+          13,
+          80
+        ],
+        [
+          15,
+          80
+        ],
+        [
+          17,
+          81
+        ],
+        [
+          17,
+          78
+        ],
+        [
+          15,
+          76
+        ],
+        [
+          13,
+          76
+        ],
+        [
+          11,
+          75
+        ],
+        [
+          8,
+          77
+        ]
+      ]
+    },
+    {
+      "year": 1100,
+      "label": "Chola Empire (approx.)",
+      "polygon": [
+        [
+          8,
+          77
+        ],
+        [
+          8,
+          78
+        ],
+        [
+          10,
+          80
+        ],
+        [
+          13,
+          80
+        ],
+        [
+          15,
+          80
+        ],
+        [
+          17,
+          81
+        ],
+        [
+          17,
+          78
+        ],
+        [
+          15,
+          76
+        ],
+        [
+          13,
+          76
+        ],
+        [
+          11,
+          75
+        ],
+        [
+          8,
+          77
+        ]
+      ]
+    },
+    {
+      "year": 1200,
+      "label": "Chola Empire (approx.)",
+      "polygon": [
+        [
+          8,
+          77
+        ],
+        [
+          8,
+          78
+        ],
+        [
+          10,
+          80
+        ],
+        [
+          13,
+          80
+        ],
+        [
+          15,
+          80
+        ],
+        [
+          17,
+          81
+        ],
+        [
+          17,
+          78
+        ],
+        [
+          15,
+          76
+        ],
+        [
+          13,
+          76
+        ],
+        [
+          11,
+          75
+        ],
+        [
+          8,
+          77
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    12.6324,
+    77.9853
+  ],
+  "population_estimates": [
+    {
+      "year": 1000,
+      "estimate": 10000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q151148",
+          "url": "https://www.wikidata.org/wiki/Q151148",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chola state",
+          "url": "https://en.wikipedia.org/wiki/Chola_dynasty"
+        }
+      ]
+    },
+    {
+      "year": 1100,
+      "estimate": 12000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q151148",
+          "url": "https://www.wikidata.org/wiki/Q151148",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chola state",
+          "url": "https://en.wikipedia.org/wiki/Chola_dynasty"
+        }
+      ]
+    },
+    {
+      "year": 1200,
+      "estimate": 10000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q151148",
+          "url": "https://www.wikidata.org/wiki/Q151148",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chola state",
+          "url": "https://en.wikipedia.org/wiki/Chola_dynasty"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "South Indian maritime empire (c. 850–1279) under the imperial Chola dynasty that conquered Sri Lanka, the Malabar coast, and launched naval expeditions to Southeast Asia (1025) reaching Sumatra, the Malay Peninsula, and the Bay of Bengal coasts; the Chola bronze tradition, the Nataraja dancing Shiva, represents the highest achievement of medieval Indian bronzework, while their hydraulic infrastructure in the Kaveri delta supported the most productive agricultural system in medieval South Asia.",
+  "temporal": {
+    "start_year": 850,
+    "end_year": 1279,
+    "notes": ""
+  },
+  "geographic": {
+    "centroid": [
+      12.6324,
+      77.9853
+    ],
+    "polygon_simplified": [
+      [
+        8,
+        77
+      ],
+      [
+        8,
+        78
+      ],
+      [
+        10,
+        80
+      ],
+      [
+        13,
+        80
+      ],
+      [
+        15,
+        80
+      ],
+      [
+        17,
+        81
+      ],
+      [
+        17,
+        78
+      ],
+      [
+        15,
+        76
+      ],
+      [
+        13,
+        76
+      ],
+      [
+        11,
+        75
+      ],
+      [
+        8,
+        77
+      ]
+    ],
+    "capital": {
+      "name": "Puhar",
+      "coords": [
+        11.144,
+        79.855
+      ],
+      "source": "wikidata"
+    },
+    "polygon_snapshots": [
+      {
+        "year": 900,
+        "label": "Chola Empire (approx.)",
+        "polygon": [
+          [
+            8,
+            77
+          ],
+          [
+            8,
+            78
+          ],
+          [
+            10,
+            80
+          ],
+          [
+            13,
+            80
+          ],
+          [
+            15,
+            80
+          ],
+          [
+            17,
+            81
+          ],
+          [
+            17,
+            78
+          ],
+          [
+            15,
+            76
+          ],
+          [
+            13,
+            76
+          ],
+          [
+            11,
+            75
+          ],
+          [
+            8,
+            77
+          ]
+        ]
+      },
+      {
+        "year": 1000,
+        "label": "Chola Empire, peak (approx.)",
+        "polygon": [
+          [
+            8,
+            77
+          ],
+          [
+            8,
+            78
+          ],
+          [
+            10,
+            80
+          ],
+          [
+            13,
+            80
+          ],
+          [
+            15,
+            80
+          ],
+          [
+            17,
+            81
+          ],
+          [
+            17,
+            78
+          ],
+          [
+            15,
+            76
+          ],
+          [
+            13,
+            76
+          ],
+          [
+            11,
+            75
+          ],
+          [
+            8,
+            77
+          ]
+        ]
+      },
+      {
+        "year": 1100,
+        "label": "Chola Empire (approx.)",
+        "polygon": [
+          [
+            8,
+            77
+          ],
+          [
+            8,
+            78
+          ],
+          [
+            10,
+            80
+          ],
+          [
+            13,
+            80
+          ],
+          [
+            15,
+            80
+          ],
+          [
+            17,
+            81
+          ],
+          [
+            17,
+            78
+          ],
+          [
+            15,
+            76
+          ],
+          [
+            13,
+            76
+          ],
+          [
+            11,
+            75
+          ],
+          [
+            8,
+            77
+          ]
+        ]
+      },
+      {
+        "year": 1200,
+        "label": "Chola Empire (approx.)",
+        "polygon": [
+          [
+            8,
+            77
+          ],
+          [
+            8,
+            78
+          ],
+          [
+            10,
+            80
+          ],
+          [
+            13,
+            80
+          ],
+          [
+            15,
+            80
+          ],
+          [
+            17,
+            81
+          ],
+          [
+            17,
+            78
+          ],
+          [
+            15,
+            76
+          ],
+          [
+            13,
+            76
+          ],
+          [
+            11,
+            75
+          ],
+          [
+            8,
+            77
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "approximate",
+    "polygon_source": "hand_crafted",
+    "polygon_source_date": "2026-05-11"
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "early_chola",
+      "years": "300-550",
+      "description": "Early Chola dynasty dominated parts of Tamil Nadu; mentioned in Sangam literature as patrons of Tamil poetry.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q151148",
+          "url": "https://www.wikidata.org/wiki/Q151148"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chola state",
+          "url": "https://en.wikipedia.org/wiki/Chola_dynasty"
+        }
+      ]
+    },
+    {
+      "phase": "medieval_revival",
+      "years": "848-985",
+      "description": "Medieval Chola revival under Vijayalaya; recaptured Tanjore from Pandyas and re-established the dynasty.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q151148",
+          "url": "https://www.wikidata.org/wiki/Q151148"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chola state",
+          "url": "https://en.wikipedia.org/wiki/Chola_dynasty"
+        }
+      ]
+    },
+    {
+      "phase": "imperial_peak",
+      "years": "985-1070",
+      "description": "Rajaraja I and Rajendra I created a maritime empire stretching from Sri Lanka to Sumatra; navy raided Srivijaya.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q151148",
+          "url": "https://www.wikidata.org/wiki/Q151148"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chola state",
+          "url": "https://en.wikipedia.org/wiki/Chola_dynasty"
+        }
+      ]
+    },
+    {
+      "phase": "decline",
+      "years": "1070-1279",
+      "description": "Gradually lost northern territories to Hoysalas and Pandyas; final rulers were subordinate to Pandya overlords.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q151148",
+          "url": "https://www.wikidata.org/wiki/Q151148"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chola state",
+          "url": "https://en.wikipedia.org/wiki/Chola_dynasty"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "mobility_advantage",
+      "layer": "military_security",
+      "description": "Chola navy was the most powerful in the Indian Ocean; enabled Sri Lanka conquest and Srivijaya raids.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q151148",
+          "url": "https://www.wikidata.org/wiki/Q151148"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chola state",
+          "url": "https://en.wikipedia.org/wiki/Chola_dynasty"
+        }
+      ],
+      "tag_prose": "naval_power"
+    },
+    {
+      "tag": "administrative_innovation",
+      "layer": "governance_institutional",
+      "description": "Village-level sabha councils and inscribed temple records created an unusually well-documented administrative system.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q151148",
+          "url": "https://www.wikidata.org/wiki/Q151148"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chola state",
+          "url": "https://en.wikipedia.org/wiki/Chola_dynasty"
+        }
+      ]
+    },
+    {
+      "tag": "temple_economy",
+      "layer": "economic_commercial",
+      "description": "Major temples served as banks, granaries, and economic centres that stabilised regional commerce.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q151148",
+          "url": "https://www.wikidata.org/wiki/Q151148"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chola state",
+          "url": "https://en.wikipedia.org/wiki/Chola_dynasty"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "pandya_rivalry",
+      "layer": "military_security",
+      "description": "Pandya kingdom systematically eroded Chola power in the 13th century, culminating in conquest of Tanjore.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q151148",
+          "url": "https://www.wikidata.org/wiki/Q151148"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chola state",
+          "url": "https://en.wikipedia.org/wiki/Chola_dynasty"
+        }
+      ]
+    },
+    {
+      "tag": "dynastic_weakness",
+      "layer": "dynastic_legitimacy",
+      "description": "Later Chola kings were increasingly subordinate clients of rival dynasties.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q151148",
+          "url": "https://www.wikidata.org/wiki/Q151148"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Chola state",
+          "url": "https://en.wikipedia.org/wiki/Chola_dynasty"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Vijayalaya",
+      "role": "ruler",
+      "years": "848–871",
+      "year_start": 848,
+      "year_end": 871,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Vijayalaya",
+          "url": "https://en.wikipedia.org/wiki/Vijayalaya_Chola"
+        }
+      ]
+    },
+    {
+      "name": "Rajaraja I",
+      "role": "ruler",
+      "years": "985–1014",
+      "year_start": 985,
+      "year_end": 1014,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Rajaraja I",
+          "url": "https://en.wikipedia.org/wiki/Rajaraja_I"
+        }
+      ]
+    },
+    {
+      "name": "Rajendra I",
+      "role": "ruler",
+      "years": "1014–1044",
+      "year_start": 1014,
+      "year_end": 1044,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Rajendra I",
+          "url": "https://en.wikipedia.org/wiki/Rajendra_I"
+        }
+      ]
+    },
+    {
+      "name": "Kulottunga I",
+      "role": "ruler",
+      "years": "1070–1120",
+      "year_start": 1070,
+      "year_end": 1120,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Kulottunga I",
+          "url": "https://en.wikipedia.org/wiki/Kulottunga_I"
+        }
+      ]
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "maritime_trade",
+      "temple_economy",
+      "textiles"
+    ],
+    "wealth_level": "very_high",
+    "major_exports": [
+      "cotton_textiles",
+      "pepper",
+      "gold",
+      "iron",
+      "pearls"
+    ],
+    "major_trade_partners": [
+      "srivijaya_empire",
+      "song_empire",
+      "arab_merchants"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "port_duties",
+      "temple_revenues",
+      "trade_taxes"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q151148",
+        "url": "https://www.wikidata.org/wiki/Q151148"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Chola state",
+        "url": "https://en.wikipedia.org/wiki/Chola_dynasty"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q151148",
+    "matched_name": "manual/chola_state",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Chola_dynasty",
+    "capital": {
+      "name": "Puhar",
+      "coords": [
+        11.144,
+        79.855
+      ]
+    },
+    "rulers_from_wikidata": [
+      {
+        "name": "Kopperuncholan",
+        "qid": "Q12977639",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q12977639",
+            "url": "https://www.wikidata.org/wiki/Q12977639"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Kopperuncholan",
+            "url": "https://en.wikipedia.org/wiki/Kopperuncholan"
+          }
+        ]
+      },
+      {
+        "name": "Nedunkilli",
+        "qid": "Q16311479",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q16311479",
+            "url": "https://www.wikidata.org/wiki/Q16311479"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Nedunkilli",
+            "url": "https://en.wikipedia.org/wiki/Nedunkilli"
+          }
+        ]
+      },
+      {
+        "name": "Ilamcetcenni",
+        "qid": "Q1658288",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1658288",
+            "url": "https://www.wikidata.org/wiki/Q1658288"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ilamcetcenni",
+            "url": "https://en.wikipedia.org/wiki/Ilamchetchenni"
+          }
+        ]
+      },
+      {
+        "name": "Uththama Chola",
+        "qid": "Q3536701",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3536701",
+            "url": "https://www.wikidata.org/wiki/Q3536701"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Uththama Chola",
+            "url": "https://en.wikipedia.org/wiki/Uttama_(Chola_dynasty)"
+          }
+        ]
+      },
+      {
+        "name": "Aditya Karikalan",
+        "qid": "Q3536705",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3536705",
+            "url": "https://www.wikidata.org/wiki/Q3536705"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Aditya Karikalan",
+            "url": "https://en.wikipedia.org/wiki/Aditha_Karikalan"
+          }
+        ]
+      },
+      {
+        "name": "Elara",
+        "qid": "Q540008",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q540008",
+            "url": "https://www.wikidata.org/wiki/Q540008"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Elara",
+            "url": "https://en.wikipedia.org/wiki/Elara"
+          }
+        ]
+      },
+      {
+        "name": "Gandaraditya",
+        "qid": "Q5520608",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q5520608",
+            "url": "https://www.wikidata.org/wiki/Q5520608"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Gandaraditya",
+            "url": "https://en.wikipedia.org/wiki/Gandaraditya"
+          }
+        ]
+      },
+      {
+        "name": "Killivalavan",
+        "qid": "Q6407858",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q6407858",
+            "url": "https://www.wikidata.org/wiki/Q6407858"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Killivalavan",
+            "url": "https://en.wikipedia.org/wiki/Killivalavan"
+          }
+        ]
+      },
+      {
+        "name": "Kocengannan",
+        "qid": "Q6424737",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q6424737",
+            "url": "https://www.wikidata.org/wiki/Q6424737"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Kocengannan",
+            "url": "https://en.wikipedia.org/wiki/Kochchenganan"
+          }
+        ]
+      },
+      {
+        "name": "Nalankilli",
+        "qid": "Q6960811",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q6960811",
+            "url": "https://www.wikidata.org/wiki/Q6960811"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Nalankilli",
+            "url": "https://en.wikipedia.org/wiki/Nalankilli"
+          }
+        ]
+      },
+      {
+        "name": "Perunarkilli",
+        "qid": "Q7171087",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q7171087",
+            "url": "https://www.wikidata.org/wiki/Q7171087"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Perunarkilli",
+            "url": "https://en.wikipedia.org/wiki/Perunarkilli"
+          }
+        ]
+      },
+      {
+        "name": "Rajadhiraja Chola II",
+        "qid": "Q7285611",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q7285611",
+            "url": "https://www.wikidata.org/wiki/Q7285611"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Rajadhiraja Chola II",
+            "url": "https://en.wikipedia.org/wiki/Rajadhiraja_II"
+          }
+        ]
+      },
+      {
+        "name": "Karikala Chola",
+        "qid": "Q745268",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q745268",
+            "url": "https://www.wikidata.org/wiki/Q745268"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Karikala Chola",
+            "url": "https://en.wikipedia.org/wiki/Karikala"
+          }
+        ]
+      },
+      {
+        "name": "Vijayalaya Chola",
+        "qid": "Q7929271",
+        "year_start": 848,
+        "year_end": 871,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q7929271",
+            "url": "https://www.wikidata.org/wiki/Q7929271"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Vijayalaya Chola",
+            "url": "https://en.wikipedia.org/wiki/Vijayalaya_Chola"
+          }
+        ]
+      },
+      {
+        "name": "Aditya I",
+        "qid": "Q3535800",
+        "year_start": 871,
+        "year_end": 907,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3535800",
+            "url": "https://www.wikidata.org/wiki/Q3535800"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Aditya I",
+            "url": "https://en.wikipedia.org/wiki/Aditya_I"
+          }
+        ]
+      },
+      {
+        "name": "Parantaka I",
+        "qid": "Q7135564",
+        "year_start": 907,
+        "year_end": 955,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q7135564",
+            "url": "https://www.wikidata.org/wiki/Q7135564"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Parantaka I",
+            "url": "https://en.wikipedia.org/wiki/Parantaka_I"
+          }
+        ]
+      },
+      {
+        "name": "Arinjaya Chola",
+        "qid": "Q4790726",
+        "year_start": 956,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4790726",
+            "url": "https://www.wikidata.org/wiki/Q4790726"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Arinjaya Chola",
+            "url": "https://en.wikipedia.org/wiki/Arinjaya_Chola"
+          }
+        ]
+      },
+      {
+        "name": "Parantaka Chola II",
+        "qid": "Q4997590",
+        "year_start": 957,
+        "year_end": 970,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4997590",
+            "url": "https://www.wikidata.org/wiki/Q4997590"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Parantaka Chola II",
+            "url": "https://en.wikipedia.org/wiki/Parantaka_II"
+          }
+        ]
+      },
+      {
+        "name": "Rajaraja I",
+        "qid": "Q2128757",
+        "year_start": 985,
+        "year_end": 1014,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2128757",
+            "url": "https://www.wikidata.org/wiki/Q2128757"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Rajaraja I",
+            "url": "https://en.wikipedia.org/wiki/Rajaraja_I"
+          }
+        ]
+      },
+      {
+        "name": "Rajendra Chola I",
+        "qid": "Q211483",
+        "year_start": 1014,
+        "year_end": 1044,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q211483",
+            "url": "https://www.wikidata.org/wiki/Q211483"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Rajendra Chola I",
+            "url": "https://en.wikipedia.org/wiki/Rajendra_I"
+          }
+        ]
+      },
+      {
+        "name": "Rajadhiraja Chola",
+        "qid": "Q2128678",
+        "year_start": 1044,
+        "year_end": 1054,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2128678",
+            "url": "https://www.wikidata.org/wiki/Q2128678"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Rajadhiraja Chola",
+            "url": "https://en.wikipedia.org/wiki/Rajadhiraja_I"
+          }
+        ]
+      },
+      {
+        "name": "Rajendra Chola II",
+        "qid": "Q3536611",
+        "year_start": 1054,
+        "year_end": 1063,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3536611",
+            "url": "https://www.wikidata.org/wiki/Q3536611"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Rajendra Chola II",
+            "url": "https://en.wikipedia.org/wiki/Rajendra_II"
+          }
+        ]
+      },
+      {
+        "name": "Virarajendra Chola",
+        "qid": "Q7933646",
+        "year_start": 1063,
+        "year_end": 1070,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q7933646",
+            "url": "https://www.wikidata.org/wiki/Q7933646"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Virarajendra Chola",
+            "url": "https://en.wikipedia.org/wiki/Virarajendra"
+          }
+        ]
+      },
+      {
+        "name": "Kulothunga Chola I",
+        "qid": "Q2119008",
+        "year_start": 1070,
+        "year_end": 1120,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2119008",
+            "url": "https://www.wikidata.org/wiki/Q2119008"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Kulothunga Chola I",
+            "url": "https://en.wikipedia.org/wiki/Kulottunga_I"
+          }
+        ]
+      },
+      {
+        "name": "Athirajendra Chola",
+        "qid": "Q3536565",
+        "year_start": 1070,
+        "year_end": 1070,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3536565",
+            "url": "https://www.wikidata.org/wiki/Q3536565"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Athirajendra Chola",
+            "url": "https://en.wikipedia.org/wiki/Athirajendra"
+          }
+        ]
+      },
+      {
+        "name": "Vikrama Chola",
+        "qid": "Q7929581",
+        "year_start": 1118,
+        "year_end": 1135,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q7929581",
+            "url": "https://www.wikidata.org/wiki/Q7929581"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Vikrama Chola",
+            "url": "https://en.wikipedia.org/wiki/Vikrama_Chola"
+          }
+        ]
+      },
+      {
+        "name": "Kulothunga Chola II",
+        "qid": "Q709302",
+        "year_start": 1133,
+        "year_end": 1150,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q709302",
+            "url": "https://www.wikidata.org/wiki/Q709302"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Kulothunga Chola II",
+            "url": "https://en.wikipedia.org/wiki/Kulothunga_II"
+          }
+        ]
+      },
+      {
+        "name": "Rajaraja II",
+        "qid": "Q7285772",
+        "year_start": 1146,
+        "year_end": 1173,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q7285772",
+            "url": "https://www.wikidata.org/wiki/Q7285772"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Rajaraja II",
+            "url": "https://en.wikipedia.org/wiki/Rajaraja_II"
+          }
+        ]
+      },
+      {
+        "name": "Rajadiraja Chola II",
+        "qid": "Q7285606",
+        "year_start": 1166,
+        "year_end": 1178,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q7285606",
+            "url": "https://www.wikidata.org/wiki/Q7285606"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Rajadiraja Chola II",
+            "url": "https://en.wikipedia.org/wiki/Rajadiraja_Chola_II"
+          }
+        ]
+      },
+      {
+        "name": "Kulothunga Chola III",
+        "qid": "Q335836",
+        "year_start": 1178,
+        "year_end": 1218,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q335836",
+            "url": "https://www.wikidata.org/wiki/Q335836"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Kulothunga Chola III",
+            "url": "https://en.wikipedia.org/wiki/Kulothunga_III"
+          }
+        ]
+      },
+      {
+        "name": "Rajaraja III",
+        "qid": "Q7285774",
+        "year_start": 1216,
+        "year_end": 1256,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q7285774",
+            "url": "https://www.wikidata.org/wiki/Q7285774"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Rajaraja III",
+            "url": "https://en.wikipedia.org/wiki/Rajaraja_III"
+          }
+        ]
+      },
+      {
+        "name": "Rajendra Chola III",
+        "qid": "Q7285985",
+        "year_start": 1246,
+        "year_end": 1279,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q7285985",
+            "url": "https://www.wikidata.org/wiki/Q7285985"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Rajendra Chola III",
+            "url": "https://en.wikipedia.org/wiki/Rajendra_III"
+          }
+        ]
+      }
+    ]
+  },
+  "monogram": "CE"
+}

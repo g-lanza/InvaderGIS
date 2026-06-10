@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_principality_of_tver_1327_c01",
+  "statement": "A popular uprising in Tver against Mongol tax collectors occurred in 1327.",
+  "subject_ids": [
+    "principality_of_tver"
+  ],
+  "period": {
+    "from": 1327,
+    "to": 1327
+  },
+  "derived_from": "principality_of_tver_1327",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_greenland_norway",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_norway",
+      "role": "suzerain"
+    },
+    {
+      "entity_id": "norse_greenland",
+      "role": "vassal"
+    }
+  ],
+  "directed": true,
+  "type": "vassalage",
+  "since": 985,
+  "until": 1397,
+  "note": "Norse Greenland (established c. 985 by Erik the Red) maintained commercial and administrative ties with Norway — the only source of timber, grain, and iron that the settlements required. Norway extracted tribute in the form of walrus ivory, white bears, and other Arctic luxury goods. The settlements accepted Norwegian royal sovereignty in 1261 (the same year as Iceland). The western settlement collapsed c. 1350 (likely from a combination of climate cooling and Inuit pressure); the eastern settlement persisted until c. 1408. The last certain record of the eastern settlement is a 1408 marriage recorded at the Hvalsey church.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Norse Greenland represents the westernmost extent of medieval European settlement; the settlement's dependency on Norwegian supply chains makes it uniquely vulnerable to climate deterioration and the disruption of long-distance trade; the mysterious disappearance of the eastern settlement (after 1408) remains one of the great historical puzzles"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_the_1997",
+      "helle_the_2003",
+      "reuter_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

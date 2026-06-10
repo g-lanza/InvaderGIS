@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_printing_pamphlets_1490s_c01",
+  "statement": "By the 1490s printing presses in Mainz, Venice, Cologne, Paris, and London were producing thousands of political pamphlets, satires, and theological tracts.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1494,
+    "to": 1494
+  },
+  "derived_from": "printing_pamphlets_1490s",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

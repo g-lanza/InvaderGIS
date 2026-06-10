@@ -1,0 +1,30 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_strathclyde_to_scotland",
+  "statement": "Brythonic Strathclyde absorbed into expanding Scottish realm over eleventh century; dates approximate.",
+  "subject_ids": [
+    "kingdom_of_strathclyde",
+    "kingdom_of_scotland"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_strathclyde_to_scotland",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "barrell_medieval_2000",
+      "brown_the_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "kingdom_of_scotland"
+  ],
+  "period": {
+    "from": 1018,
+    "to": 1018
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_burgundy_france",
+  "statement": "The Valois Dukes of Burgundy (1363–1477) — a cadet line of the French royal family — built the most powerful principality in 15th-century Europe through a combination of French royal grants, diplomatic marriages, and inheritance: Philip the Bold (1363–1404), John the Fearless (1404–1419), Philip the Good (1419–1467), and Charles the Bold (1467–1477). At its peak, Burgundy controlled the Low Countries, Flanders, Artois, Picardy, and the original duchy — effectively creating an independent state between France and Germany. Charles the Bold's death at Nancy (1477) ended the Burgundian state; Louis XI seized the duchy itself.",
+  "subject_ids": [
+    "kingdom_of_france",
+    "duchy_of_burgundy"
+  ],
+  "predicate": "vassalage",
+  "derived_from": "rel_burgundy_france",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "duchy_of_burgundy"
+  ],
+  "period": {
+    "from": 1363,
+    "to": 1477
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_kingdom_of_east_anglia_917_c01",
+  "statement": "Edward the Elder of Wessex reconquered East Anglia from Danish control in 917 CE, incorporating the former kingdom into the emerging unified English state.",
+  "subject_ids": [
+    "kingdom_of_east_anglia"
+  ],
+  "period": {
+    "from": 917,
+    "to": 917
+  },
+  "derived_from": "kingdom_of_east_anglia_917",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

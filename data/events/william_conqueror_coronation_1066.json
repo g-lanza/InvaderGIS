@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "william_conqueror_coronation_1066",
+  "name": "Coronation of William the Conqueror",
+  "year": 1066,
+  "type": "coronation",
+  "category": "power",
+  "coords": [
+    51.5,
+    -0.13
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "On Christmas Day 1066, ten weeks after Hastings, William is crowned king of England at Westminster Abbey by Archbishop Ealdred of York. Norman troops outside, hearing shouts of acclamation inside, mistake them for an attack and burn surrounding buildings, the ceremony completes amid smoke.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "duchy_of_normandy"
+    ],
+    "structural_significance": "Begins the Norman replacement of the Anglo-Saxon ruling class: by 1086 (Domesday Book) only about 5% of land in England remains in English hands. Cross-Channel polity of Anglo-Norman realm structures English politics until 1204.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

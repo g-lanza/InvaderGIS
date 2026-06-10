@@ -1,0 +1,162 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "jin_dynasty_jurchen",
+  "name_primary": "Jin Dynasty (Jurchen)",
+  "name_variants": [
+    "Great Jin",
+    "金朝",
+    "Jurchen Jin"
+  ],
+  "type": "dynasty",
+  "region": "east_asia",
+  "formed": 1115,
+  "dissolved": 1234,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    40,
+    120
+  ],
+  "population_estimates": [
+    {
+      "year": 1150,
+      "estimate": 45000000,
+      "confidence": "low",
+      "note": "North China population under Jin rule; census-based but with Jurchen-Han ratio uncertain."
+    },
+    {
+      "year": 1200,
+      "estimate": 50000000,
+      "confidence": "low",
+      "note": "Peak before Mongol conquest demographic collapse."
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Jurchen-founded dynasty (1115–1234) established by Wanyan Aguda in present-day Manchuria; within ten years the Jin overthrew the Khitan Liao (1125), captured the Northern Song capital of Kaifeng with the Jingkang Incident (1127) and seized the entire North China Plain, forcing the Song court south to Hangzhou; the dynasty governed a Sinicized state combining Jurchen tribal elites with the inherited Chinese bureaucracy, moved its capital from Shangjing to Zhongdu (near modern Beijing) in 1153, and held the north until the Mongol conquest of 1234 that destroyed its army at the siege of Caizhou.",
+  "temporal": {
+    "start_year": 1115,
+    "end_year": 1234,
+    "notes": "Jurchen-founded dynasty that replaced the Khitan Liao and conquered Northern Song; distinct from the earlier (265–420) Sima Jin and later (1616–1636) Later Jin."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      40,
+      120
+    ],
+    "core_regions": [
+      "east_asia"
+    ],
+    "capital": {
+      "name": "Zhongdu",
+      "coords": [
+        39.9042,
+        116.4074
+      ],
+      "source": "wikidata"
+    }
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "foundation",
+      "years": "1115–1125",
+      "description": "Wanyan Aguda declares Jin dynasty in Manchuria, allies with Northern Song against Liao, then turns on its ally; conquest of the Khitan Liao complete by 1125."
+    },
+    {
+      "phase": "expansion",
+      "years": "1125–1142",
+      "description": "Jingkang Incident (1127), Kaifeng falls; Emperors Huizong and Qinzong of Song captured; Jin holds all of north China to the Huai River; Treaty of Shaoxing (1142) freezes the front with Southern Song."
+    },
+    {
+      "phase": "consolidation",
+      "years": "1142–1211",
+      "description": "Capital moved to Zhongdu (1153); Jurchen elites adopt Chinese administrative forms; long peace with Southern Song punctuated by inconclusive wars; tributary relationship with Xixia."
+    },
+    {
+      "phase": "decline",
+      "years": "1211–1234",
+      "description": "Mongol invasion under Genghis Khan from 1211; loss of Zhongdu (1215); court flees to Kaifeng; Caizhou falls 1234, ending the dynasty."
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Wanyan Aguda (Emperor Taizu of Jin)",
+      "role": "emperor",
+      "years": "1115–1123",
+      "year_start": 1115,
+      "year_end": 1123
+    },
+    {
+      "name": "Emperor Taizong of Jin (Wanyan Wuqimai)",
+      "role": "emperor",
+      "years": "1123–1135",
+      "year_start": 1123,
+      "year_end": 1135
+    },
+    {
+      "name": "Emperor Shizong of Jin (Wanyan Yong)",
+      "role": "emperor",
+      "years": "1161–1189",
+      "year_start": 1161,
+      "year_end": 1189
+    },
+    {
+      "name": "Emperor Aizong of Jin (Wanyan Shouxu)",
+      "role": "emperor",
+      "years": "1224–1234",
+      "year_start": 1224,
+      "year_end": 1234
+    }
+  ],
+  "predecessor_entity_ids": [
+    "liao"
+  ],
+  "successor_entity_ids": [
+    "yuan_dynasty"
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "horse_breeding",
+      "iron",
+      "manufacturing"
+    ],
+    "wealth_level": "high",
+    "major_trade_partners": [
+      "song_empire",
+      "xixia",
+      "mongol_empire"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "tribute",
+      "salt_monopoly"
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q5066",
+    "matched_name": "manual/jin_dynasty_jurchen",
+    "enrichment_date": "2026-05-24",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Jin_dynasty_(1115%E2%80%931234)",
+    "capital": {
+      "name": "Zhongdu",
+      "coords": [
+        39.9042,
+        116.4074
+      ]
+    },
+    "predecessors_from_wikidata": [
+      "Liao dynasty"
+    ],
+    "successors_from_wikidata": [
+      "Yuan dynasty"
+    ]
+  },
+  "monogram": "JD"
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "crete_earthquake_1303",
+  "name": "Crete earthquake and eastern Mediterranean tsunami",
+  "year": 1303,
+  "type": "earthquake",
+  "category": "hazard",
+  "coords": [
+    34.5,
+    25
+  ],
+  "entity": "byzantine_empire",
+  "summary": "A great submarine earthquake centred near Crete on 8 August 1303 triggered a tsunami that swept the southern Aegean and the Egyptian coast. Contemporary Mamluk chroniclers describe the inundation of Alexandria, where the Pharos lighthouse, still standing in 1303, was severely damaged and subsequently abandoned. Crete's southern ports suffered extensive losses.",
+  "outcomes": [
+    "alexandria_pharos_damaged",
+    "crete_coastal_settlements_inundated"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "mamluk_sultanate",
+      "republic_of_venice"
+    ],
+    "structural_significance": "One of the largest documented seismic events of the medieval Mediterranean. The collapse of the Pharos closed a fifteen-hundred-year chapter of the Alexandrine waterfront and is repeatedly cited in Mediterranean disaster history. Abulafia treats it as a marker event for the late-medieval eastern basin.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "abulafia_great_sea_2011"
+    ],
+    "confidence": "low"
+  }
+}

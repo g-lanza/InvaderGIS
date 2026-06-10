@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "st_marcellus_flood_1219",
+  "name": "St Marcellus's Flood (Marcellus Flood)",
+  "year": 1219,
+  "type": "disaster",
+  "category": "hazard",
+  "coords": [
+    53.55,
+    8.58
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "A North Sea storm surge on 16 January 1219 inundates the Frisian and Holstein coasts, killing an estimated 36,000 people and permanently reshaping the coastline of what is now the German Bight. Several villages are obliterated; new tidal bays form.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "hanseatic_league"
+    ],
+    "structural_significance": "One of the deadliest single-day natural disasters in medieval European history. Drives the systematic Frisian and Dutch investment in dyke engineering and water boards over the following two centuries, the social institutions that produce the early modern Dutch hydraulic landscape.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

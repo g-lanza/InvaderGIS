@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_kulikovo_1380_c01",
+  "statement": "Dmitry Donskoy, Grand Prince of Moscow, defeated the Golden Horde's army under Mamai at Kulikovo on 8 September 1380.",
+  "subject_ids": [
+    "grand_principality_of_moscow"
+  ],
+  "period": {
+    "from": 1380,
+    "to": 1380
+  },
+  "derived_from": "kulikovo_1380",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "fennell_the_1983",
+      "ostrowski_muscovy_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

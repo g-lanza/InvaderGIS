@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_mongol_subjugation_rus_1240_c01",
+  "statement": "Batu Khan's campaigns destroyed Vladimir and Ryazan in 1237-1238 and Kiev in 1240.",
+  "subject_ids": [
+    "kievan_rus"
+  ],
+  "period": {
+    "from": 1240,
+    "to": 1240
+  },
+  "derived_from": "mongol_subjugation_rus_1240",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "franklin_the_1996",
+      "riasanovsky_a_2000",
+      "martin_medieval_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

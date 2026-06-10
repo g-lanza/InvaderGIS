@@ -1,0 +1,169 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_county_of_edessa_1098_1146",
+  "name": "County of Edessa — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1098,
+  "year_end": 1146,
+  "waypoints": [
+    {
+      "year": 1098,
+      "place": "Expedition to Samosata",
+      "coords": [
+        37.2,
+        38.8
+      ],
+      "note": "military",
+      "event_id": "wd_expedition_to_samosata_1098"
+    },
+    {
+      "year": 1102,
+      "place": "Siege of Tripoli",
+      "coords": [
+        37.2,
+        25.2833
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_tripoli_1102"
+    },
+    {
+      "year": 1104,
+      "place": "Siege of Edessa",
+      "coords": [
+        36.7,
+        37.5
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_edessa_1104"
+    },
+    {
+      "year": 1108,
+      "place": "Battle of Manbij",
+      "coords": [
+        37.2,
+        38.8
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_manbij_1108"
+    },
+    {
+      "year": 1115,
+      "place": "Battle of Sarmin",
+      "coords": [
+        36.7,
+        37.5
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_sarmin_1115"
+    },
+    {
+      "year": 1122,
+      "place": "Battle of Saruj",
+      "coords": [
+        37.2,
+        38.8
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_saruj_1122"
+    },
+    {
+      "year": 1124,
+      "place": "Battle of Manbij",
+      "coords": [
+        37.2,
+        38.8
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_manbij_1124"
+    },
+    {
+      "year": 1124,
+      "place": "Siege of Aleppo",
+      "coords": [
+        34.5,
+        37
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_aleppo_1124"
+    },
+    {
+      "year": 1125,
+      "place": "Battle of Azaz",
+      "coords": [
+        34.9,
+        36.5
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_azaz_1125"
+    },
+    {
+      "year": 1138,
+      "place": "Siege of Aleppo",
+      "coords": [
+        38.1333,
+        34.6333
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_aleppo_1138"
+    },
+    {
+      "year": 1144,
+      "place": "Fall of Edessa",
+      "coords": [
+        37.1,
+        38.8
+      ],
+      "note": "battle",
+      "event_id": "siege_edessa_1144"
+    },
+    {
+      "year": 1144,
+      "place": "Fall of Edessa",
+      "coords": [
+        37.16,
+        38.79
+      ],
+      "note": "battle",
+      "event_id": "siege_edessa_1144"
+    },
+    {
+      "year": 1144,
+      "place": "Siege of Edessa",
+      "coords": [
+        37.2,
+        38.8
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_edessa_1144"
+    },
+    {
+      "year": 1145,
+      "place": "Fall of Saruj",
+      "coords": [
+        37.2,
+        38.8
+      ],
+      "note": "military",
+      "event_id": "wd_fall_of_saruj_1145"
+    },
+    {
+      "year": 1146,
+      "place": "Siege of Edessa",
+      "coords": [
+        37.2,
+        38.8
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_edessa_1146"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_tren_ianske_teplice_1379",
+  "name": "Trenčianske Teplice",
+  "importance": "city",
+  "start_year": 1379,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q532555"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    18.1661,
+    48.9106
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_mongol_invasion_of_alania_1220_c01",
+  "statement": "Mongol invasion of Alania (1220 CE), at North Caucasus (part of Mongol invasions and conquests).",
+  "subject_ids": [
+    "mongol_empire"
+  ],
+  "period": {
+    "from": 1220,
+    "to": 1220
+  },
+  "derived_from": "wd_mongol_invasion_of_alania_1220",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

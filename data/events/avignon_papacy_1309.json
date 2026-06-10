@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "avignon_papacy_1309",
+  "name": "Avignon Papacy begins",
+  "year": 1309,
+  "type": "religious_council",
+  "category": "religion",
+  "coords": [
+    43.95,
+    4.81
+  ],
+  "entity": "papal_states",
+  "summary": "Pope Clement V, a Frenchman, moves the papal court from Rome to Avignon in the south of France (1309), beginning the 'Babylonian Captivity' of the papacy (1309–1377). The move follows French king Philip IV's victory over Pope Boniface VIII (Unam Sanctam, 1302), his destruction of the Knights Templar (1307), and his ability to select French popes. Six consecutive French popes reside at Avignon, building a magnificent palace complex. Critics like Petrarch denounce the court's worldliness; the absence from Rome damages papal authority in Italy.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "papal_states",
+      "kingdom_of_france"
+    ],
+    "structural_significance": "Damages papal moral authority and independence; raises French influence over the Catholic Church; leads to the Western Schism (1378); stimulates the conciliarism movement",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

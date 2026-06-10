@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_jemdet_nasr_500",
+  "name": "Jemdet Nasr",
+  "importance": "city",
+  "start_year": 500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "inferred",
+    "external_ids": {
+      "pleiades": "733910291"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    44.7796,
+    32.7182
+  ]
+}

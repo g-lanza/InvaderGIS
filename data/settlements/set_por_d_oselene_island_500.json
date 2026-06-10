@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_por_d_oselene_island_500",
+  "name": "Por(d)oselene (island)",
+  "importance": "city",
+  "start_year": 500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "inferred",
+    "external_ids": {
+      "pleiades": "983965673"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    26.6406,
+    39.3622
+  ]
+}

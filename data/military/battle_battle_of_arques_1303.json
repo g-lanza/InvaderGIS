@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_arques_1303",
+  "name": "Battle of Arques",
+  "subtype": "battle",
+  "start_year": 1303,
+  "end_year": 1303,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2092043"
+    }
+  },
+  "description": "Battle during Franco-Flemish War (1303)",
+  "coords": [
+    2.3033,
+    50.7361
+  ]
+}

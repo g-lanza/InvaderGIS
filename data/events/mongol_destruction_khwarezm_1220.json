@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "mongol_destruction_khwarezm_1220",
+  "name": "Mongol Destruction of the Khwarazmian Empire",
+  "year": 1220,
+  "type": "conflict",
+  "category": "violence",
+  "coords": [
+    39.655,
+    66.975
+  ],
+  "entity": "mongol_empire",
+  "summary": "Genghis Khan's invasion of the Khwarazmian Empire (1219–1221) was among the most destructive campaigns in history. Cities such as Bukhara, Samarkand, and Merv, then among the world's largest and most culturally advanced, were sacked, their populations massacred or enslaved. The irrigation systems that supported Central Asian agriculture were destroyed, and the region's demographic and cultural recovery took centuries.",
+  "outcomes": [
+    "Samarkand, Bukhara, and Merv sacked",
+    "Millions killed or displaced",
+    "Irrigation systems destroyed; agricultural landscape wrecked",
+    "Central Asian civilization set back by generations"
+  ],
+  "_quarry": {
+    "participants": [
+      "mongol_empire"
+    ],
+    "structural_significance": "The Mongol destruction of Khwarezm depopulated one of the most developed regions of the medieval world; it broke Central Asian Islamic civilization at its peak.",
+    "year_range": [
+      1219,
+      1221
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Morgan, The Mongols",
+      "man_genghis_2004"
+    ],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "timurid_empire_1370",
+  "name": "Timur Establishes His Empire",
+  "year": 1370,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.7,
+    66.9
+  ],
+  "entity": "timurid_empire",
+  "summary": "Timur (Tamerlane) established his empire from Samarkand in 1370, beginning a series of conquests that would stretch from Delhi to Ankara. Despite his reputation for brutality (towers of skulls), Timur was a lavish patron of art and architecture; Samarkand under him became one of the finest cities in the world.",
+  "outcomes": [
+    "samarkand_capital",
+    "central_asia_conquered",
+    "renaissance_patronage"
+  ],
+  "_quarry": {
+    "participants": [
+      "timurid_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "manz_the_1989",
+      "lentz_timur_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

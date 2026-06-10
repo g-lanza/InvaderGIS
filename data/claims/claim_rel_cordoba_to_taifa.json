@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_cordoba_to_taifa",
+  "statement": "The Caliphate of Córdoba collapsed in the Fitna (civil war) of 1009–1031, fragmenting into approximately 23 Taifa kingdoms. The collapse followed a series of weak caliphs, the destruction of Medina Azahara by Berber mercenaries (1010), and the inability of any faction to maintain central authority. The Taifa kingdoms — often centered on individual cities — were militarily weak but culturally vibrant, producing the finest Arabic poetry and philosophy of the medieval period. Their weakness invited Christian military pressure (paying parias/tribute to Castile-León) and ultimately Almoravid intervention (1086).",
+  "subject_ids": [
+    "caliphate_of_cordoba",
+    "taifa_kingdoms"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_cordoba_to_taifa",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_muslim_1996",
+      "scales_the_1994",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1031,
+    "to": 1031
+  }
+}

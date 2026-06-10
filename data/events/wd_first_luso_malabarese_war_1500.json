@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_first_luso_malabarese_war_1500",
+  "name": "First Luso-Malabarese War",
+  "year": 1500,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.5,
+    -8
+  ],
+  "entity": "kingdom_of_portugal",
+  "summary": "First Luso-Malabarese War (1500 CE), at Indian Ocean. Source: Wikidata Q124506168.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_portugal"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

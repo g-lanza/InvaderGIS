@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "william_ii_villehardouin",
+  "name": "William II of Villehardouin",
+  "polity": "principality_of_achaea",
+  "title": "ruler",
+  "reign_start": 1246,
+  "reign_end": 1278,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "principality_of_achaea",
+        "role": "ruler",
+        "start_year": 1246,
+        "end_year": 1278
+      }
+    ],
+    "key_actions": [],
+    "region": "southeastern_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "aristotle_recovery_1150s",
+  "name": "Recovery of Aristotle, The 12th-Century Renaissance",
+  "year": 1150,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    39.86,
+    -4.02
+  ],
+  "entity": "kingdom_of_sicily_norman",
+  "summary": "Twelfth-century translators working in Toledo, Palermo, and other contact zones between Islamic and Christian cultures produce Latin translations of Aristotle's complete works (unknown to medieval Europe except the Organon), along with Arabic commentaries by Avicenna and Averroës. The recovery transforms European intellectual life, Aristotelian logic, natural philosophy, and ethics provide a secular rational framework that challenges purely theological approaches.",
+  "outcomes": [
+    "greek_philosophy_enters_europe",
+    "scholastic_movement_begins",
+    "christian_aristotelian_synthesis"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_sicily_norman",
+      "caliphate_of_cordoba",
+      "kingdom_of_castile"
+    ],
+    "structural_significance": "The Aristotle recovery is the single most transformative intellectual event of the medieval period; the new texts create the Scholastic movement, drive the founding of universities, and force the Church to develop a systematic theological response (culminating in Aquinas); Aristotle's physics and cosmology (the unmoved mover, the eternal universe) create the philosophical tensions that early modern science resolves; the transmission through Arabic translators creates lasting medieval awareness of Islamic intellectual achievement",
+    "year_range": [
+      1120,
+      1200
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_ottoman_bulgaria",
+  "statement": "The Second Bulgarian Empire fell to the Ottomans in stages: Tarnovo (the capital) fell in 1393, and the last Bulgarian tsardom — centered at Vidin under Ivan Sratsimir — was conquered after the Battle of Nicopolis (1396). Bulgaria remained under direct Ottoman administration for nearly 500 years (until 1878), the longest period of any Balkan nation under Ottoman rule. The Bulgarian church (the Patriarchate of Tarnovo) was suppressed and subordinated to the Greek Patriarchate of Constantinople.",
+  "subject_ids": [
+    "second_bulgarian_empire",
+    "ottoman_empire"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_ottoman_bulgaria",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fine_the_1987",
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "ottoman_empire"
+  ],
+  "period": {
+    "from": 1396,
+    "to": 1396
+  }
+}

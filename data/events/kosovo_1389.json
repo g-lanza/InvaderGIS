@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kosovo_1389",
+  "name": "Battle of Kosovo",
+  "year": 1389,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    42.64,
+    21.09
+  ],
+  "entity": "serbian_kingdom_nemanjic",
+  "summary": "On June 28, 1389 (St. Vitus's Day / Vidovdan), Ottoman Sultan Murad I confronts a coalition of Serbian, Bosnian, Albanian, and Wallachian forces under Prince Lazar Hrebeljanović on Kosovo Polje (the 'Field of Blackbirds'). Both commanders die: Murad I is assassinated by the Serbian nobleman Miloš Obilić, and Prince Lazar is captured and executed after the battle. The Ottomans win tactically; the Serbian principality becomes an Ottoman vassal. Kosovo becomes the defining myth of Serbian national identity for centuries.",
+  "outcomes": [
+    "ottoman_field_superiority"
+  ],
+  "_quarry": {
+    "participants": [
+      "serbian_kingdom_nemanjic",
+      "ottoman_beylik"
+    ],
+    "structural_significance": "Establishes Ottoman dominance over the Balkans; creates the Serbian national epic around Lazar's sacrifice; opens the road to further Ottoman expansion into Europe",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fine_the_1987",
+      "ćirković_the_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

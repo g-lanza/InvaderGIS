@@ -1,0 +1,27 @@
+{
+  "kind": "text",
+  "dataset": "medieval-europe-500-1500",
+  "id": "quran",
+  "name_primary": "Quran",
+  "author": "Recitations attributed to the Prophet Muhammad; canonical recension under Caliph Uthman",
+  "language": "Classical Arabic",
+  "composed": {
+    "year": 650
+  },
+  "_quarry": {
+    "kind": "religious",
+    "polities_referenced": [
+      "rashidun_caliphate",
+      "umayyad_caliphate",
+      "abbasid_caliphate"
+    ],
+    "description": "The scripture of Islam, comprising the revelations received by Muhammad between roughly 610 and 632 and assembled into a single written canon under the third caliph Uthman around 650. Its Classical Arabic became the prestige language of Islamic civilisation, anchoring not only law and theology but also the spread of Arabic grammar, calligraphy, and prose style across the Dar al-Islam."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "hourani_arab_peoples_1991"
+    ],
+    "confidence": "low"
+  }
+}

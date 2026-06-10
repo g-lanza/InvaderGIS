@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "habsburg_rise_1273",
+  "name": "Rudolf of Habsburg Elected Emperor",
+  "year": 1273,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    48.21,
+    16.37
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "The German princes elect Rudolf of Habsburg as Holy Roman Emperor, ending the Great Interregnum (1254-1273) and beginning the Habsburg dynasty's domination of the Empire. Rudolf defeats King Ottokar II of Bohemia at the Battle of Marchfeld (1278) and grants Austria and Styria to his sons, establishing the hereditary territorial base that becomes the core of Habsburg power for 645 years.",
+  "outcomes": [
+    "habsburg_dynasty_begins",
+    "bohemia_defeated",
+    "austria_becomes_habsburg_base"
+  ],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "duchy_of_austria"
+    ],
+    "structural_significance": "Rudolf's election inaugurates the most enduring political dynasty in European history; the Habsburgs never lose the imperial dignity after 1438 (except for 1740-1745); the acquisition of Austria rather than direct control of the Empire is the key, hereditary territorial power is more reliable than an elected imperial title; Rudolf's strategy of using the imperial office to acquire territory for his family becomes the Habsburg template",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

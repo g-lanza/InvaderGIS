@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_aleppo_1303_c03",
+  "statement": "The Battle of Aleppo (1303 CE) was part of the Mongol invasions of the Levant.",
+  "subject_ids": [
+    "ilkhanate"
+  ],
+  "period": {
+    "from": 1303,
+    "to": 1303
+  },
+  "derived_from": "wd_battle_of_aleppo_1303",
+  "unresolved_sources": [
+    "jackson_the_2005"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "amitai-preiss_mongols_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

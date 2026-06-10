@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_savonarola_1498_c02",
+  "statement": "Savonarola organized 'Bonfires of the Vanities' in Florence that burned cosmetics, mirrors, secular books, and artworks.",
+  "subject_ids": [
+    "republic_of_florence"
+  ],
+  "period": {
+    "from": 1498,
+    "to": 1498
+  },
+  "derived_from": "savonarola_1498",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "najemy_a_2006",
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

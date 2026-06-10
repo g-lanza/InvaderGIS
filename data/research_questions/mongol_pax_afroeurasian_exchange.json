@@ -1,0 +1,53 @@
+{
+  "id": "mongol_pax_afroeurasian_exchange",
+  "question": "How did the Mongol Pax enable Afro-Eurasian exchange across the 13th and 14th centuries?",
+  "description": "Examines how the unification of the steppe under a single Mongol order, and the secure overland and Black Sea routes its successor khanates policed, integrated China, Persia, the Golden Horde lands, and the Mediterranean trading republics into a single commercial and informational system — the 'archipelago of towns' Janet Abu-Lughod described — before the system fractured with the khanates and the Black Death.",
+  "scope": {
+    "from": 1200,
+    "to": 1400,
+    "regions": ["central_asia", "east_asia", "near_east", "eastern_europe"]
+  },
+  "evidence": {
+    "entity_ids": [
+      "mongol_empire",
+      "yuan_dynasty",
+      "ilkhanate",
+      "golden_horde",
+      "chagatai_khanate",
+      "song_empire",
+      "republic_of_genoa",
+      "republic_of_venice"
+    ],
+    "claim_ids": [
+      "claim_pax_mongolica_trade_1250_c01",
+      "claim_pax_mongolica_trade_1250_c02",
+      "claim_pax_mongolica_trade_1250_c03",
+      "claim_black_sea_trade_1265_c01",
+      "claim_mongol_china_conquest_1279_c01"
+    ],
+    "source_ids": [
+      "abu_lughod_before_european_hegemony_1989",
+      "hansen_silk_road_new_history_2012",
+      "morgan_mongols_2007",
+      "may_the_2012"
+    ],
+    "relationship_ids": [
+      "rel_mongol_empire_to_golden_horde_fragmentation",
+      "rel_mongol_empire_to_ilkhanate_fragmentation",
+      "rel_song_empire_to_yuan_dynasty_succession"
+    ],
+    "event_ids": [
+      "mongol_commercial_pax_1260",
+      "mongol_golden_horde_peak_1250",
+      "mongol_china_conquest_1279"
+    ]
+  },
+  "status": "open",
+  "findings": "The conquests that subordinated Song China to the Yuan and stretched contiguous Mongol authority from the Pacific to the Black Sea created, for roughly a century, an unusually low-friction corridor for goods, people, technologies, and disease across Eurasia. Genoese and Venetian colonies on the Black Sea plugged the Mediterranean into the Ilkhanid and Golden Horde routes, and the resulting integration is a central pillar of Abu-Lughod's case for a thirteenth-century world system that predated European dominance. The same connectivity later carried the plague that helped unravel it.",
+  "provenance": {
+    "status": "draft",
+    "sources_used": ["abu_lughod_before_european_hegemony_1989", "hansen_silk_road_new_history_2012", "morgan_mongols_2007"],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

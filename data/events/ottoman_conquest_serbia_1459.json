@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ottoman_conquest_serbia_1459",
+  "name": "Ottoman Conquest of Serbia",
+  "year": 1459,
+  "type": "conquest",
+  "category": "violence",
+  "coords": [
+    44.66,
+    20.93
+  ],
+  "entity": "ottoman_empire",
+  "summary": "Sultan Mehmed II captures Smederevo, the last stronghold of the Serbian Despotate, on June 20, 1459, bringing the final organized Serbian resistance to Ottoman rule to an end. The Serbian Despotate had survived as a vassal state after the Battle of Kosovo (1389) and Second Kosovo (1448), but the fall of Constantinople (1453) removed any hope of Byzantine support. Despot Lazar Branković flees; the Serbian nobility either converts to Islam, emigrates to Hungary, or accepts Ottoman overlordship. Serbia will remain under Ottoman rule until 1830.",
+  "outcomes": [
+    "smederevo_falls",
+    "serbian_despotate_ended",
+    "balkans_under_ottoman_control"
+  ],
+  "_quarry": {
+    "participants": [
+      "ottoman_empire",
+      "serbian_despotate"
+    ],
+    "structural_significance": "Completes the Ottoman conquest of the central Balkans; Hungary becomes the direct frontier state against Ottoman expansion; the Serbian Orthodox Church survives under Ottoman protection, preserving Serbian cultural identity through centuries of political subjugation; the Serbian diaspora enriches Hungarian military capacity with knowledge of Ottoman tactics",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

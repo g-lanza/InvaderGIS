@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "mongol_golden_horde_peak_1250",
+  "name": "Golden Horde at its Peak",
+  "year": 1250,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    48.5,
+    44.5
+  ],
+  "entity": "golden_horde",
+  "summary": "The Golden Horde, founded by Batu Khan after the western Mongol campaigns (1236–1242), controlled the Eurasian steppe from the lower Danube to western Siberia. Russian princes were required to travel to Sarai on the Volga to receive yarliqs (patents of authority) and pay tribute. Under Özbeg Khan (1313–1341), the Horde converted to Islam and reached its demographic and commercial peak before the Black Death and internal fragmentation in the 1360s.",
+  "outcomes": [
+    "Controls steppes from Danube to Irtish",
+    "Russian princes pay tribute at Sarai",
+    "Trade routes across Pontic steppe flourish",
+    "Converts to Islam under Özbeg Khan 1313"
+  ],
+  "_quarry": {
+    "participants": [
+      "golden_horde"
+    ],
+    "structural_significance": "The Golden Horde shaped Russian politics for two centuries; the tribute system and Mongol administrative practices left deep marks on Russian statecraft and vocabulary.",
+    "year_range": [
+      1240,
+      1360
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Halperin, Russia and the Golden Horde",
+      "Vásáry, Cumans and Tatars"
+    ],
+    "confidence": "low"
+  }
+}

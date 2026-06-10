@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "portuguese_bartolomeu_dias_1488",
+  "name": "Bartolomeu Dias Rounds the Cape",
+  "year": 1488,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    -34.357,
+    18.473
+  ],
+  "entity": "kingdom_of_portugal",
+  "summary": "In February 1488, Bartolomeu Dias rounded the southern tip of Africa, the Cape of Good Hope, demonstrating that the Atlantic and Indian Oceans were connected and that a sea route to the Indies was achievable. Dias had sailed further south than any European before. Though he turned back without reaching India, his voyage transformed European geographical knowledge and directly inspired Vasco da Gama's 1497 voyage to Calicut.",
+  "outcomes": [
+    "Cape of Good Hope rounded",
+    "Sea route to Indian Ocean proven possible",
+    "Da Gama voyage to India follows 1497–1499",
+    "Portuguese spice trade route established"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_portugal"
+    ],
+    "structural_significance": "Proved the possibility of a direct sea route from Europe to Asia; opened the era of direct oceanic trade that ended the medieval Silk Road model.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Diffie & Winius, Foundations of the Portuguese Empire",
+      "Newitt, A History of Portuguese Overseas Expansion"
+    ],
+    "confidence": "low"
+  }
+}

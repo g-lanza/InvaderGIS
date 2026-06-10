@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_vistula_lagoon_1463",
+  "name": "Battle of Vistula Lagoon",
+  "year": 1463,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    53,
+    19.75
+  ],
+  "entity": "teutonic_order_state",
+  "summary": "Battle of Vistula Lagoon (1463 CE), at Vistula Lagoon (part of Thirteen Years' War). Source: Wikidata Q835077.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "teutonic_order_state",
+      "kingdom_of_poland_jagiellonian"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "christiansen_the_1997",
+      "urban_the_1994",
+      "turnbull_crusader_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

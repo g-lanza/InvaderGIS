@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_toulouse_721",
+  "name": "Battle of Toulouse",
+  "year": 721,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    44.84,
+    -0.58
+  ],
+  "entity": "duchy_of_aquitaine",
+  "summary": "Battle of Toulouse (721 CE), at Toulouse (part of Umayyad invasion of Gaul). Source: Wikidata Q652320.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "duchy_of_aquitaine"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

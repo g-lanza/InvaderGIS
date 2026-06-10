@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_wasit_749",
+  "name": "Siege of Wasit",
+  "year": 749,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    33.4,
+    40.35
+  ],
+  "entity": "abbasid_caliphate",
+  "summary": "Siege of Wasit (749 CE), at Wasit (part of Abbasid Revolution). Source: Wikidata Q16931475.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "abbasid_caliphate",
+      "umayyad_caliphate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_the_2004",
+      "kennedy_when_2004",
+      "crone_gods_2004",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_republic_of_genoa_1014_1495",
+  "statement": "Republic of Genoa — campaigns and battles spanned 1014–1495, from Mujahid's invasion of Sardinia to Battle of Rapallo (1495).",
+  "subject_ids": [
+    "republic_of_genoa"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_republic_of_genoa_1014_1495",
+  "period": {
+    "from": 1014,
+    "to": 1495
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

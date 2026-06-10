@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_brentford_1016",
+  "name": "Battle of Brentford",
+  "year": 1016,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    54.25,
+    4.5
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Battle of Brentford (1016 CE), at Brentford (part of Viking activity in the British Isles). Source: Wikidata Q3636352.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "kingdom_of_denmark"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

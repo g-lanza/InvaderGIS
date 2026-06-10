@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "lombard_invasion_568",
+  "name": "Lombard invasion of Italy",
+  "year": 568,
+  "type": "war",
+  "category": "violence",
+  "coords": [
+    45.19,
+    9.16
+  ],
+  "entity": "lombard_kingdom",
+  "summary": "The Lombard king Alboin leads his people from Pannonia into Italy (568), exploiting Byzantine exhaustion after the Gothic Wars. Within three years, most of northern Italy falls; the Po Valley becomes 'Lombardy.' Rome, Naples, Sicily, Ravenna, and certain coastal cities remain Byzantine, but the peninsula is permanently fragmented. Alboin is assassinated (572) by his wife Rosamund (legend says he forced her to drink from her father's skull); the kingdom briefly fragments among regional dukes.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "lombard_kingdom",
+      "byzantine_empire"
+    ],
+    "structural_significance": "Creates the political fragmentation of Italy that persists until 1861; establishes the pattern of northern Italian cities as the economic core; the Byzantine Exarchate of Ravenna's survival creates the conditions for the Papal States",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "deacon_history_1907",
+      "christie_the_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

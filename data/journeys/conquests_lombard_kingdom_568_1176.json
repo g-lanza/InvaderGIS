@@ -1,0 +1,200 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_lombard_kingdom_568_1176",
+  "name": "Lombard Kingdom — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 568,
+  "year_end": 1176,
+  "waypoints": [
+    {
+      "year": 568,
+      "place": "Lombard invasion of Italy",
+      "coords": [
+        45.19,
+        9.16
+      ],
+      "note": "war",
+      "event_id": "lombard_invasion_568"
+    },
+    {
+      "year": 568,
+      "place": "Lombard Invasion of Italy",
+      "coords": [
+        45.47,
+        9.19
+      ],
+      "note": "conquest",
+      "event_id": "lombard_invasion_568"
+    },
+    {
+      "year": 569,
+      "place": "Siege of Pavia",
+      "coords": [
+        43.25,
+        19.05
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_pavia_569"
+    },
+    {
+      "year": 590,
+      "place": "Siege of Pavia",
+      "coords": [
+        44.96,
+        10.7
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_pavia_590"
+    },
+    {
+      "year": 601,
+      "place": "Siege of Padua",
+      "coords": [
+        43.25,
+        19.05
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_padua_601"
+    },
+    {
+      "year": 603,
+      "place": "Siege of Cremona",
+      "coords": [
+        43.25,
+        19.05
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_cremona_603"
+    },
+    {
+      "year": 643,
+      "place": "Battle of the Scultenna",
+      "coords": [
+        44.96,
+        10.7
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_the_scultenna_643"
+    },
+    {
+      "year": 663,
+      "place": "Battle of Forino",
+      "coords": [
+        43.25,
+        19.05
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_forino_663"
+    },
+    {
+      "year": 663,
+      "place": "Battle of Siponto",
+      "coords": [
+        39.5,
+        22.75
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_siponto_663"
+    },
+    {
+      "year": 663,
+      "place": "Italian campaign of 663",
+      "coords": [
+        42.5333,
+        17.6333
+      ],
+      "note": "military",
+      "event_id": "wd_italian_campaign_of_663_663"
+    },
+    {
+      "year": 719,
+      "place": "Umayyad invasion of Gaul",
+      "coords": [
+        42.6667,
+        16.3333
+      ],
+      "note": "military",
+      "event_id": "wd_umayyad_invasion_of_gaul_719"
+    },
+    {
+      "year": 751,
+      "place": "Lombards Capture Ravenna",
+      "coords": [
+        44.96,
+        10.7
+      ],
+      "note": "military",
+      "event_id": "exarchate_of_ravenna_751"
+    },
+    {
+      "year": 754,
+      "place": "Battle of the Susa Valley",
+      "coords": [
+        47.25,
+        6.35
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_the_susa_valley_754"
+    },
+    {
+      "year": 755,
+      "place": "Siege of Pavia",
+      "coords": [
+        47.25,
+        6.35
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_pavia_755"
+    },
+    {
+      "year": 756,
+      "place": "Siege of Rome",
+      "coords": [
+        44,
+        10.85
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_rome_756"
+    },
+    {
+      "year": 773,
+      "place": "Battle of Chiusa di San Michele",
+      "coords": [
+        47.25,
+        6.35
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_chiusa_di_san_michele_773"
+    },
+    {
+      "year": 774,
+      "place": "Charlemagne conquers Lombards",
+      "coords": [
+        45.19,
+        9.16
+      ],
+      "note": "war",
+      "event_id": "charlemagne_lombard_774"
+    },
+    {
+      "year": 1176,
+      "place": "Battle of Legnano",
+      "coords": [
+        45.6,
+        8.92
+      ],
+      "note": "battle",
+      "event_id": "legnano_1176"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "deacon_history_1907",
+      "christie_the_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

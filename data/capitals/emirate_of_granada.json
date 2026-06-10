@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "emirate_of_granada",
+  "name": "Madinat Gharnāṭah",
+  "entity_id": "emirate_of_granada",
+  "entity_name": "Emirate of Granada",
+  "start_year": 1230,
+  "end_year": 1492,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q238445"
+    }
+  },
+  "coords": [
+    -3.59078,
+    37.18863
+  ]
+}

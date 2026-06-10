@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_treaty_tordesillas_1494_c01",
+  "statement": "The Treaty of Tordesillas was signed on 7 June 1494, mediated by Pope Alexander VI, dividing the non-European world between Spain and Portugal along a meridian 370 leagues west of the Cape Verde Islands.",
+  "subject_ids": [
+    "crown_of_castile"
+  ],
+  "period": {
+    "from": 1494,
+    "to": 1494
+  },
+  "derived_from": "treaty_tordesillas_1494",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "o'callaghan_a_1975",
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

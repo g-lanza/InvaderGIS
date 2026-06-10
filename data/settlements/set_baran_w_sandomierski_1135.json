@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_baran_w_sandomierski_1135",
+  "name": "Baranów Sandomierski",
+  "importance": "city",
+  "start_year": 1135,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q807271"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    21.5333,
+    50.5
+  ]
+}

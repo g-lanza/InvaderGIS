@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ghent_trade_dominance_1302",
+  "name": "Battle of the Golden Spurs, Flemish Artisan Revolt",
+  "year": 1302,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    50.83,
+    3.27
+  ],
+  "entity": "county_of_flanders",
+  "summary": "Flemish infantry, primarily weavers and artisans from Bruges, Ghent, and Ypres, defeat the flower of French chivalry at the Battle of Courtrai (Battle of the Golden Spurs) on July 11, 1302. The French cavalry charges into a drainage ditch and is slaughtered; the victors collect 500 golden spurs from the dead knights as trophies. The battle temporarily preserves Flemish city autonomy against French royal centralization.",
+  "outcomes": [
+    "french_knights_defeated_by_infantry",
+    "flemish_cities_autonomy_preserved",
+    "golden_spurs_collected"
+  ],
+  "_quarry": {
+    "participants": [
+      "county_of_flanders",
+      "kingdom_of_france"
+    ],
+    "structural_significance": "Courtrai is the first major demonstration that organized urban infantry could defeat feudal cavalry, shocking the military assumptions of the age; it directly inspires Swiss and English infantry tactics; Flemish city autonomy preserved by the battle maintains the wool-cloth industry that connects English wool producers to continental markets and is one of the economic foundations of the Hundred Years' War",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

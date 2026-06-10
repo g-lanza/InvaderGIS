@@ -1,0 +1,736 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "pratiharas",
+  "name_primary": "Gurjara-Pratihara Empire",
+  "name_variants": [
+    "Pratiharas"
+  ],
+  "type": "kingdom",
+  "region": "south_asia",
+  "formed": 730,
+  "dissolved": 1036,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 800,
+      "label": "Gurjara-Pratihara Empire (approx.)",
+      "polygon": [
+        [
+          23,
+          72
+        ],
+        [
+          23,
+          76
+        ],
+        [
+          24,
+          80
+        ],
+        [
+          25,
+          82
+        ],
+        [
+          27,
+          82
+        ],
+        [
+          28,
+          80
+        ],
+        [
+          29,
+          78
+        ],
+        [
+          29,
+          75
+        ],
+        [
+          28,
+          73
+        ],
+        [
+          27,
+          71
+        ],
+        [
+          25,
+          71
+        ],
+        [
+          23,
+          72
+        ]
+      ]
+    },
+    {
+      "year": 900,
+      "label": "Gurjara-Pratihara Empire (approx.)",
+      "polygon": [
+        [
+          23,
+          72
+        ],
+        [
+          23,
+          76
+        ],
+        [
+          24,
+          80
+        ],
+        [
+          25,
+          82
+        ],
+        [
+          27,
+          82
+        ],
+        [
+          28,
+          80
+        ],
+        [
+          29,
+          78
+        ],
+        [
+          29,
+          75
+        ],
+        [
+          28,
+          73
+        ],
+        [
+          27,
+          71
+        ],
+        [
+          25,
+          71
+        ],
+        [
+          23,
+          72
+        ]
+      ]
+    },
+    {
+      "year": 1000,
+      "label": "Gurjara-Pratihara Empire (approx.)",
+      "polygon": [
+        [
+          23,
+          72
+        ],
+        [
+          23,
+          76
+        ],
+        [
+          24,
+          80
+        ],
+        [
+          25,
+          82
+        ],
+        [
+          27,
+          82
+        ],
+        [
+          28,
+          80
+        ],
+        [
+          29,
+          78
+        ],
+        [
+          29,
+          75
+        ],
+        [
+          28,
+          73
+        ],
+        [
+          27,
+          71
+        ],
+        [
+          25,
+          71
+        ],
+        [
+          23,
+          72
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    25.9167,
+    76.25
+  ],
+  "population_estimates": [
+    {
+      "year": 800,
+      "estimate": 8000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q5324",
+          "url": "https://www.wikidata.org/wiki/Q5324",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Pratiharas",
+          "url": "https://en.wikipedia.org/wiki/Pratihara_dynasty"
+        }
+      ]
+    },
+    {
+      "year": 850,
+      "estimate": 9000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q5324",
+          "url": "https://www.wikidata.org/wiki/Q5324",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Pratiharas",
+          "url": "https://en.wikipedia.org/wiki/Pratihara_dynasty"
+        }
+      ]
+    },
+    {
+      "year": 900,
+      "estimate": 10000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q5324",
+          "url": "https://www.wikidata.org/wiki/Q5324",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Pratiharas",
+          "url": "https://en.wikipedia.org/wiki/Pratihara_dynasty"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Gurjara-Pratihara empire (730–1036) of northwestern India that blocked Arab expansion beyond Sindh; defeating Arab armies advancing from Sindh for over a century, the Pratiharas were hailed as protectors of the subcontinent; under Mihira Bhoja (836–885) the empire controlled most of northern India from its Kannauj capital, patronising Sanskrit learning and the distinctive Pratihara temple sculptural style before Rashtrakuta and later Pala pressure fragmented their authority.",
+  "temporal": {
+    "start_year": 730,
+    "end_year": 1036,
+    "notes": ""
+  },
+  "geographic": {
+    "centroid": [
+      25.9167,
+      76.25
+    ],
+    "polygon_simplified": [
+      [
+        23,
+        72
+      ],
+      [
+        23,
+        76
+      ],
+      [
+        24,
+        80
+      ],
+      [
+        25,
+        82
+      ],
+      [
+        27,
+        82
+      ],
+      [
+        28,
+        80
+      ],
+      [
+        29,
+        78
+      ],
+      [
+        29,
+        75
+      ],
+      [
+        28,
+        73
+      ],
+      [
+        27,
+        71
+      ],
+      [
+        25,
+        71
+      ],
+      [
+        23,
+        72
+      ]
+    ],
+    "capital": {
+      "name": "Kannauj",
+      "coords": [
+        27.07,
+        79.92
+      ],
+      "source": "wikidata"
+    },
+    "polygon_snapshots": [
+      {
+        "year": 800,
+        "label": "Gurjara-Pratihara Empire (approx.)",
+        "polygon": [
+          [
+            23,
+            72
+          ],
+          [
+            23,
+            76
+          ],
+          [
+            24,
+            80
+          ],
+          [
+            25,
+            82
+          ],
+          [
+            27,
+            82
+          ],
+          [
+            28,
+            80
+          ],
+          [
+            29,
+            78
+          ],
+          [
+            29,
+            75
+          ],
+          [
+            28,
+            73
+          ],
+          [
+            27,
+            71
+          ],
+          [
+            25,
+            71
+          ],
+          [
+            23,
+            72
+          ]
+        ]
+      },
+      {
+        "year": 900,
+        "label": "Gurjara-Pratihara Empire (approx.)",
+        "polygon": [
+          [
+            23,
+            72
+          ],
+          [
+            23,
+            76
+          ],
+          [
+            24,
+            80
+          ],
+          [
+            25,
+            82
+          ],
+          [
+            27,
+            82
+          ],
+          [
+            28,
+            80
+          ],
+          [
+            29,
+            78
+          ],
+          [
+            29,
+            75
+          ],
+          [
+            28,
+            73
+          ],
+          [
+            27,
+            71
+          ],
+          [
+            25,
+            71
+          ],
+          [
+            23,
+            72
+          ]
+        ]
+      },
+      {
+        "year": 1000,
+        "label": "Gurjara-Pratihara Empire (approx.)",
+        "polygon": [
+          [
+            23,
+            72
+          ],
+          [
+            23,
+            76
+          ],
+          [
+            24,
+            80
+          ],
+          [
+            25,
+            82
+          ],
+          [
+            27,
+            82
+          ],
+          [
+            28,
+            80
+          ],
+          [
+            29,
+            78
+          ],
+          [
+            29,
+            75
+          ],
+          [
+            28,
+            73
+          ],
+          [
+            27,
+            71
+          ],
+          [
+            25,
+            71
+          ],
+          [
+            23,
+            72
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "approximate",
+    "polygon_source": "hand_crafted",
+    "polygon_source_date": "2026-05-11"
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "formation",
+      "years": "650-780",
+      "description": "Gurjara-Pratihara dynasty rose in Rajputana; became dominant power of western and central India.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q5324",
+          "url": "https://www.wikidata.org/wiki/Q5324"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Pratiharas",
+          "url": "https://en.wikipedia.org/wiki/Pratihara_dynasty"
+        }
+      ]
+    },
+    {
+      "phase": "peak",
+      "years": "780-915",
+      "description": "Nagabhata II and Mihira Bhoja repelled Arab raids from Sindh; controlled the Gangetic plain from Kanauj.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q5324",
+          "url": "https://www.wikidata.org/wiki/Q5324"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Pratiharas",
+          "url": "https://en.wikipedia.org/wiki/Pratihara_dynasty"
+        }
+      ]
+    },
+    {
+      "phase": "decline",
+      "years": "915-1036",
+      "description": "Rashtrakuta raids devastated Kanauj; fragmentation under Chandela, Paramara, and other Rajput dynasties reduced Pratihara to a regional power.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q5324",
+          "url": "https://www.wikidata.org/wiki/Q5324"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Pratiharas",
+          "url": "https://en.wikipedia.org/wiki/Pratihara_dynasty"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "arab_resistance",
+      "layer": "military_security",
+      "description": "Pratihara armies repelled multiple Umayyad and Abbasid raids into India, earning prestige as defenders of dharma.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q5324",
+          "url": "https://www.wikidata.org/wiki/Q5324"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Pratiharas",
+          "url": "https://en.wikipedia.org/wiki/Pratihara_dynasty"
+        }
+      ]
+    },
+    {
+      "tag": "kanauj_control",
+      "layer": "governance_institutional",
+      "description": "Kanauj was the symbolic capital of Indian supremacy; its control legitimised Pratihara hegemony.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q5324",
+          "url": "https://www.wikidata.org/wiki/Q5324"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Pratiharas",
+          "url": "https://en.wikipedia.org/wiki/Pratihara_dynasty"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "rashtrakuta_raids",
+      "layer": "military_security",
+      "description": "Rashtrakuta kings repeatedly sacked Kanauj, destroying Pratihara military and economic capacity.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q5324",
+          "url": "https://www.wikidata.org/wiki/Q5324"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Pratiharas",
+          "url": "https://en.wikipedia.org/wiki/Pratihara_dynasty"
+        }
+      ]
+    },
+    {
+      "tag": "internal_fragmentation",
+      "layer": "governance_institutional",
+      "description": "Subordinate Rajput dynasties broke away from Pratihara overlordship as central power weakened.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q5324",
+          "url": "https://www.wikidata.org/wiki/Q5324"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Pratiharas",
+          "url": "https://en.wikipedia.org/wiki/Pratihara_dynasty"
+        }
+      ],
+      "tag_prose": "rajput_fragmentation"
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Nagabhata I",
+      "role": "ruler",
+      "years": "730–756",
+      "year_start": 730,
+      "year_end": 756,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Nagabhata I",
+          "url": "https://en.wikipedia.org/wiki/Nagabhata_I"
+        }
+      ]
+    },
+    {
+      "name": "Vatsaraja",
+      "role": "ruler",
+      "years": "775–805",
+      "year_start": 775,
+      "year_end": 805,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Vatsaraja",
+          "url": "https://en.wikipedia.org/wiki/Vatsaraja"
+        }
+      ]
+    },
+    {
+      "name": "Nagabhata II",
+      "role": "ruler",
+      "years": "805–833",
+      "year_start": 805,
+      "year_end": 833,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Nagabhata II",
+          "url": "https://en.wikipedia.org/wiki/Nagabhata_II"
+        }
+      ]
+    },
+    {
+      "name": "Mihira Bhoja",
+      "role": "ruler",
+      "years": "836–885",
+      "year_start": 836,
+      "year_end": 885,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Mihira Bhoja",
+          "url": "https://en.wikipedia.org/wiki/Mihira_Bhoja"
+        }
+      ]
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "long_distance_trade",
+      "horse_trade",
+      "pastoralism"
+    ],
+    "wealth_level": "high",
+    "major_exports": [
+      "grain",
+      "horses",
+      "cotton",
+      "spices"
+    ],
+    "major_trade_partners": [
+      "rashtrakuta",
+      "palas",
+      "arab_merchants"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "tribute_from_vassals",
+      "trade_duties"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q5324",
+        "url": "https://www.wikidata.org/wiki/Q5324"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Pratiharas",
+        "url": "https://en.wikipedia.org/wiki/Pratihara_dynasty"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q5324",
+    "matched_name": "manual/pratiharas",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pratihara_dynasty",
+    "capital": {
+      "name": "Kannauj",
+      "coords": [
+        27.07,
+        79.92
+      ]
+    },
+    "rulers_from_wikidata": [
+      {
+        "name": "Bhoja II",
+        "qid": "Q4901900",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4901900",
+            "url": "https://www.wikidata.org/wiki/Q4901900"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Bhoja II",
+            "url": "https://en.wikipedia.org/wiki/Bhoja_II"
+          }
+        ]
+      }
+    ]
+  },
+  "monogram": "GP"
+}

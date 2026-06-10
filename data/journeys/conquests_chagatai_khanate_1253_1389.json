@@ -1,0 +1,100 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_chagatai_khanate_1253_1389",
+  "name": "Chagatai Khanate — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1253,
+  "year_end": 1389,
+  "waypoints": [
+    {
+      "year": 1253,
+      "place": "Mongol campaign against the Nizaris",
+      "coords": [
+        45.7333,
+        73.7667
+      ],
+      "note": "military",
+      "event_id": "wd_mongol_campaign_against_the_nizaris_1253"
+    },
+    {
+      "year": 1268,
+      "place": "Kaidu–Kublai War",
+      "coords": [
+        41.9,
+        56.6333
+      ],
+      "note": "military",
+      "event_id": "wd_kaidu_kublai_war_1268"
+    },
+    {
+      "year": 1270,
+      "place": "Battle of Herat",
+      "coords": [
+        38.5,
+        62.7
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_herat_1270"
+    },
+    {
+      "year": 1297,
+      "place": "Mongol invasion of India",
+      "coords": [
+        34.95,
+        75.6
+      ],
+      "note": "military",
+      "event_id": "wd_mongol_invasion_of_india_1297"
+    },
+    {
+      "year": 1314,
+      "place": "Esen Buqa–Ayurbarwada War",
+      "coords": [
+        38.5,
+        62.7
+      ],
+      "note": "military",
+      "event_id": "wd_esen_buqa_ayurbarwada_war_1314"
+    },
+    {
+      "year": 1363,
+      "place": "Battle of the Stone Bridge",
+      "coords": [
+        41.3,
+        74
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_the_stone_bridge_1363"
+    },
+    {
+      "year": 1365,
+      "place": "Battle of the Mire",
+      "coords": [
+        41.3,
+        74
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_the_mire_1365"
+    },
+    {
+      "year": 1389,
+      "place": "Mogolistan War of 1389-1390",
+      "coords": [
+        41.3,
+        74
+      ],
+      "note": "military",
+      "event_id": "wd_mogolistan_war_of_1389_1390_1389"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "biran_chinggis_2007",
+      "manz_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_constitution_melfi_1231_c01",
+  "statement": "Frederick II promulgated the Liber Augustalis at Melfi in 1231, a comprehensive legal code for the Kingdom of Sicily.",
+  "subject_ids": [
+    "kingdom_of_sicily_hohenstaufen"
+  ],
+  "period": {
+    "from": 1231,
+    "to": 1231
+  },
+  "derived_from": "constitution_melfi_1231",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

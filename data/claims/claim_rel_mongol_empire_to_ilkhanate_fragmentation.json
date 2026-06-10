@@ -1,0 +1,31 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_mongol_empire_to_ilkhanate_fragmentation",
+  "statement": "Derived from predecessor/successor links recorded in the mongol_empire and ilkhanate entity records. Transition anchored to ilkhanate start_year.",
+  "subject_ids": [
+    "mongol_empire",
+    "ilkhanate"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_mongol_empire_to_ilkhanate_fragmentation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009",
+      "jackson_the_2005",
+      "amitai-preiss_mongols_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "ilkhanate"
+  ],
+  "period": {
+    "from": 1256,
+    "to": 1256
+  }
+}

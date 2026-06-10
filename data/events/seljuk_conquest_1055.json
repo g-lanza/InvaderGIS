@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "seljuk_conquest_1055",
+  "name": "Seljuk Conquest of Baghdad",
+  "year": 1055,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    33.3,
+    44.4
+  ],
+  "entity": "abbasid_caliphate",
+  "summary": "Seljuk Turkish leader Tughril Beg enters Baghdad and receives the title of Sultan from the Abbasid Caliph, ending the Buyid Shia domination of the caliphate. The Seljuks, recent converts to Sunni Islam, become its military champions. Tughril's successors, Alp Arslan and Malik Shah, build an empire stretching from Central Asia to the Mediterranean.",
+  "outcomes": [
+    "abbasid_caliph_controlled",
+    "sultanate_created",
+    "sunni_revival"
+  ],
+  "_quarry": {
+    "participants": [
+      "abbasid_caliphate",
+      "ghana"
+    ],
+    "structural_significance": "Revives Sunni political power and creates the model of the sultan as secular ruler under the caliph's religious authority; Seljuk power enables the Battle of Manzikert and the launch of the Crusades.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_the_2004",
+      "kennedy_when_2004",
+      "crone_gods_2004",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

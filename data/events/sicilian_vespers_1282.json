@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "sicilian_vespers_1282",
+  "name": "Sicilian Vespers",
+  "year": 1282,
+  "type": "rebellion",
+  "category": "violence",
+  "coords": [
+    38.11,
+    13.36
+  ],
+  "entity": "kingdom_of_sicily_hohenstaufen",
+  "summary": "On the evening of March 30, 1282 (the hour of Vespers), a French soldier assaults a Sicilian woman near the Church of the Holy Spirit outside Palermo. The crowd kills him, and the violence spreads: within a month, approximately 8,000 French soldiers and officials are massacred across Sicily. Sicilians test each person's French by asking them to pronounce 'cicero', the Sicilian pronunciation revealed native speakers. King Peter III of Aragon invades within weeks with a Hohenstaufen inheritance claim. The Sicilian Vespers permanently separates Sicily from the mainland Angevin kingdom.",
+  "outcomes": [
+    "anzio_insurgency_context"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_sicily_hohenstaufen",
+      "crown_of_aragon",
+      "kingdom_of_naples"
+    ],
+    "structural_significance": "Ends Angevin control of Sicily; permanently splits the kingdom of Sicily between island (Aragonese) and mainland (Angevin/Neapolitan); triggers a 20-year war that reshapes the western Mediterranean",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

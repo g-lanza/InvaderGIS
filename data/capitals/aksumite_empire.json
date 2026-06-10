@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "aksumite_empire",
+  "name": "Aksum",
+  "entity_id": "aksumite_empire",
+  "entity_name": "Aksumite Empire",
+  "start_year": 100,
+  "end_year": 940,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q200894"
+    }
+  },
+  "coords": [
+    38.72,
+    14.13
+  ]
+}

@@ -1,0 +1,672 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_umayyad_caliphate_627_800",
+  "name": "Umayyad Caliphate — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 627,
+  "year_end": 800,
+  "waypoints": [
+    {
+      "year": 627,
+      "place": "Khazar campaigns in Georgia",
+      "coords": [
+        37.9333,
+        42.5667
+      ],
+      "note": "military",
+      "event_id": "wd_khazar_campaigns_in_georgia_627"
+    },
+    {
+      "year": 629,
+      "place": "Arab–Byzantine Wars",
+      "coords": [
+        36.255,
+        33.0388
+      ],
+      "note": "military",
+      "event_id": "wd_arab_byzantine_wars_629"
+    },
+    {
+      "year": 636,
+      "place": "Arab Conquest of Syria and Palestine",
+      "coords": [
+        33.51,
+        36.29
+      ],
+      "note": "conquest",
+      "event_id": "arab_conquests_syria_636"
+    },
+    {
+      "year": 636,
+      "place": "Battle of Yarmouk",
+      "coords": [
+        32.8,
+        36.3
+      ],
+      "note": "battle",
+      "event_id": "battle_yarmouk_636"
+    },
+    {
+      "year": 641,
+      "place": "Arab Conquest of Egypt",
+      "coords": [
+        30.06,
+        31.24
+      ],
+      "note": "conquest",
+      "event_id": "arab_conquest_egypt_641"
+    },
+    {
+      "year": 642,
+      "place": "Arab conquest of Armenia",
+      "coords": [
+        40.5,
+        37.4
+      ],
+      "note": "military",
+      "event_id": "wd_arab_conquest_of_armenia_642"
+    },
+    {
+      "year": 642,
+      "place": "Arab–Khazar Wars",
+      "coords": [
+        37.9333,
+        42.5667
+      ],
+      "note": "military",
+      "event_id": "wd_arab_khazar_wars_642"
+    },
+    {
+      "year": 647,
+      "place": "Muslim conquest of the Maghreb",
+      "coords": [
+        37.25,
+        32.6
+      ],
+      "note": "military",
+      "event_id": "wd_muslim_conquest_of_the_maghreb_647"
+    },
+    {
+      "year": 655,
+      "place": "Battle of the Masts",
+      "coords": [
+        36.5,
+        30
+      ],
+      "note": "battle",
+      "event_id": "battle_masts_655"
+    },
+    {
+      "year": 658,
+      "place": "Mu'awiya I's Southern Campaigns",
+      "coords": [
+        33.5,
+        36.3
+      ],
+      "note": "military",
+      "event_id": "wd_mu_awiya_i_s_southern_campaigns_658"
+    },
+    {
+      "year": 661,
+      "place": "Umayyad campaigns in Qiqan",
+      "coords": [
+        33.5,
+        36.3
+      ],
+      "note": "military",
+      "event_id": "wd_umayyad_campaigns_in_qiqan_661"
+    },
+    {
+      "year": 663,
+      "place": "Battle of Siponto",
+      "coords": [
+        39.5,
+        22.75
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_siponto_663"
+    },
+    {
+      "year": 674,
+      "place": "Siege of Constantinople",
+      "coords": [
+        37.25,
+        32.6
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_constantinople_674"
+    },
+    {
+      "year": 682,
+      "place": "Battle of Vescera",
+      "coords": [
+        37.25,
+        32.6
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_vescera_682"
+    },
+    {
+      "year": 683,
+      "place": "Siege of Mecca",
+      "coords": [
+        33.5,
+        36.3
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_mecca_683"
+    },
+    {
+      "year": 685,
+      "place": "Uprising of Mukhtar",
+      "coords": [
+        33.5,
+        36.3
+      ],
+      "note": "military",
+      "event_id": "wd_uprising_of_mukhtar_685"
+    },
+    {
+      "year": 686,
+      "place": "Battle of Khazir",
+      "coords": [
+        33.5,
+        36.3
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_khazir_686"
+    },
+    {
+      "year": 688,
+      "place": "Battle of Mamma",
+      "coords": [
+        33.5,
+        36.3
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_mamma_688"
+    },
+    {
+      "year": 691,
+      "place": "Battle of Maskin",
+      "coords": [
+        33.5,
+        36.3
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_maskin_691"
+    },
+    {
+      "year": 692,
+      "place": "Battle of Sebastopolis",
+      "coords": [
+        37.25,
+        32.6
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_sebastopolis_692"
+    },
+    {
+      "year": 694,
+      "place": "Battle of Marash",
+      "coords": [
+        37.25,
+        32.6
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_marash_694"
+    },
+    {
+      "year": 698,
+      "place": "Battle of Carthage",
+      "coords": [
+        37.25,
+        32.6
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_carthage_698"
+    },
+    {
+      "year": 698,
+      "place": "Battle of Meskiana",
+      "coords": [
+        33.5,
+        36.3
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_meskiana_698"
+    },
+    {
+      "year": 700,
+      "place": "Abd al-Rahman ibn Muhammad ibn al-Ash'ath's revolt",
+      "coords": [
+        33.5,
+        36.3
+      ],
+      "note": "military",
+      "event_id": "wd_abd_al_rahman_ibn_muhammad_ibn_al_ash_ath_s_revolt_700"
+    },
+    {
+      "year": 702,
+      "place": "Battle of Vardanakert",
+      "coords": [
+        33.5,
+        36.3
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_vardanakert_702"
+    },
+    {
+      "year": 707,
+      "place": "Siege of Tyana",
+      "coords": [
+        37.25,
+        32.6
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_tyana_707"
+    },
+    {
+      "year": 708,
+      "place": "Battle of Amorium",
+      "coords": [
+        37.25,
+        32.6
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_amorium_708"
+    },
+    {
+      "year": 709,
+      "place": "Battle of Bukhara",
+      "coords": [
+        33.5,
+        36.3
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_bukhara_709"
+    },
+    {
+      "year": 711,
+      "place": "Arab Conquest of Central Asia and Sind",
+      "coords": [
+        39.65,
+        66.94
+      ],
+      "note": "conquest",
+      "event_id": "umayyad_east_conquest_711_2"
+    },
+    {
+      "year": 711,
+      "place": "Tariq ibn Ziyad Crosses the Strait of Gibraltar",
+      "coords": [
+        36.14,
+        -5.35
+      ],
+      "note": "conquest",
+      "event_id": "umayyad_expansion_iberia_711"
+    },
+    {
+      "year": 711,
+      "place": "Battle of Écija",
+      "coords": [
+        36.95,
+        16.3
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_cija_711"
+    },
+    {
+      "year": 711,
+      "place": "Siege of Córdoba",
+      "coords": [
+        33.5,
+        36.3
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_c_rdoba_711"
+    },
+    {
+      "year": 712,
+      "place": "Battle of Aror",
+      "coords": [
+        33.5,
+        36.3
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_aror_712"
+    },
+    {
+      "year": 713,
+      "place": "Battle of Orihuela",
+      "coords": [
+        36.95,
+        16.3
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_orihuela_713"
+    },
+    {
+      "year": 713,
+      "place": "Capture of Málaga",
+      "coords": [
+        33.5,
+        36.3
+      ],
+      "note": "military",
+      "event_id": "wd_capture_of_m_laga_713"
+    },
+    {
+      "year": 717,
+      "place": "Second Arab Siege of Constantinople",
+      "coords": [
+        41.01,
+        28.97
+      ],
+      "note": "battle",
+      "event_id": "arab_siege_constantinople_717_2"
+    },
+    {
+      "year": 717,
+      "place": "Siege of Constantinople",
+      "coords": [
+        39.325,
+        29.8647
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_constantinople_717"
+    },
+    {
+      "year": 718,
+      "place": "Battle of Covadonga",
+      "coords": [
+        38.45,
+        15.25
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_covadonga_718"
+    },
+    {
+      "year": 719,
+      "place": "Umayyad invasion of Gaul",
+      "coords": [
+        42.6667,
+        16.3333
+      ],
+      "note": "military",
+      "event_id": "wd_umayyad_invasion_of_gaul_719"
+    },
+    {
+      "year": 722,
+      "place": "Battle of Derbent",
+      "coords": [
+        40.25,
+        41.65
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_derbent_722"
+    },
+    {
+      "year": 722,
+      "place": "Battle of Olalíes",
+      "coords": [
+        38.45,
+        15.25
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_olal_es_722"
+    },
+    {
+      "year": 723,
+      "place": "Battle of Balanjar",
+      "coords": [
+        40.25,
+        41.65
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_balanjar_723"
+    },
+    {
+      "year": 724,
+      "place": "Day of Thirst",
+      "coords": [
+        33.5,
+        36.3
+      ],
+      "note": "military",
+      "event_id": "wd_day_of_thirst_724"
+    },
+    {
+      "year": 729,
+      "place": "Battle of Baykand",
+      "coords": [
+        33.5,
+        36.3
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_baykand_729"
+    },
+    {
+      "year": 730,
+      "place": "Battle of Bajarwan",
+      "coords": [
+        40.25,
+        41.65
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_bajarwan_730"
+    },
+    {
+      "year": 731,
+      "place": "Battle of Llívia",
+      "coords": [
+        33.5,
+        36.3
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_ll_via_731"
+    },
+    {
+      "year": 732,
+      "place": "Battle of Balanjar",
+      "coords": [
+        40.25,
+        41.65
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_balanjar_732"
+    },
+    {
+      "year": 732,
+      "place": "Battle of the River Garonne",
+      "coords": [
+        39.17,
+        17.86
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_the_river_garonne_732"
+    },
+    {
+      "year": 733,
+      "place": "Reconquista",
+      "coords": [
+        39.332,
+        -1.6233
+      ],
+      "note": "military",
+      "event_id": "wd_reconquista_733"
+    },
+    {
+      "year": 735,
+      "place": "Umayyad invasion of Georgia",
+      "coords": [
+        33.5,
+        36.3
+      ],
+      "note": "military",
+      "event_id": "wd_umayyad_invasion_of_georgia_735"
+    },
+    {
+      "year": 736,
+      "place": "Siege of Anakopia",
+      "coords": [
+        33.5,
+        36.3
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_anakopia_736"
+    },
+    {
+      "year": 737,
+      "place": "Battle of Avignon",
+      "coords": [
+        41.25,
+        19.9
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_avignon_737"
+    },
+    {
+      "year": 737,
+      "place": "Battle of Kharistan",
+      "coords": [
+        33.5,
+        36.3
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_kharistan_737"
+    },
+    {
+      "year": 737,
+      "place": "Battle of Volga River",
+      "coords": [
+        40.25,
+        41.65
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_volga_river_737"
+    },
+    {
+      "year": 739,
+      "place": "Berber (Amazigh) Revolt",
+      "coords": [
+        33.5,
+        36.3
+      ],
+      "note": "military",
+      "event_id": "wd_berber_amazigh_revolt_739"
+    },
+    {
+      "year": 740,
+      "place": "Battle of Akroinon",
+      "coords": [
+        37.25,
+        32.6
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_akroinon_740"
+    },
+    {
+      "year": 740,
+      "place": "Battle of Sebou",
+      "coords": [
+        33.5,
+        36.3
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_sebou_740"
+    },
+    {
+      "year": 741,
+      "place": "Battle of Bagdoura",
+      "coords": [
+        33.5,
+        36.3
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_bagdoura_741"
+    },
+    {
+      "year": 742,
+      "place": "Battle of al-Asnam",
+      "coords": [
+        33.5,
+        36.3
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_al_asnam_742"
+    },
+    {
+      "year": 746,
+      "place": "Battle of Keramaia",
+      "coords": [
+        37.25,
+        32.6
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_keramaia_746"
+    },
+    {
+      "year": 748,
+      "place": "Battle of Jurjān",
+      "coords": [
+        33.5,
+        36.3
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_jurj_n_748"
+    },
+    {
+      "year": 749,
+      "place": "Siege of Wasit",
+      "coords": [
+        33.4,
+        40.35
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_wasit_749"
+    },
+    {
+      "year": 750,
+      "place": "Battle of the Zab",
+      "coords": [
+        33.4,
+        40.35
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_the_zab_750"
+    },
+    {
+      "year": 751,
+      "place": "Battle of Talas",
+      "coords": [
+        42.5,
+        72.2
+      ],
+      "note": "battle",
+      "event_id": "battle_talas_751"
+    },
+    {
+      "year": 800,
+      "place": "Campaign of the mud",
+      "coords": [
+        40.25,
+        41.65
+      ],
+      "note": "military",
+      "event_id": "wd_campaign_of_the_mud_800"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_the_2004",
+      "hawting_the_2000",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_chagatai_khanate_peak_1260_c01",
+  "statement": "The Chagatai Khanate governed Central Asia's heartland including the Silk Road cities of Samarkand, Bukhara, and Khotan.",
+  "subject_ids": [
+    "chagatai_khanate"
+  ],
+  "period": {
+    "from": 1260,
+    "to": 1260
+  },
+  "derived_from": "chagatai_khanate_peak_1260",
+  "unresolved_sources": [
+    "manz_the_1989"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "biran_chinggis_2007"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

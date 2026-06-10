@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_aquitanian_war_761",
+  "name": "Aquitanian War",
+  "year": 761,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    46.92,
+    1.46
+  ],
+  "entity": "merovingian_kingdom",
+  "summary": "Aquitanian War (761 CE), at Duchy of Aquitaine. Source: Wikidata Q139759427.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "merovingian_kingdom",
+      "duchy_of_aquitaine"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wood_the_1994",
+      "geary_before_1988"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_kingdom_of_gwynedd_1282_c01",
+  "statement": "Llywelyn ap Gruffudd was killed in battle in 1282, ending the last independent Welsh principality.",
+  "subject_ids": [
+    "kingdom_of_gwynedd"
+  ],
+  "period": {
+    "from": 1282,
+    "to": 1282
+  },
+  "derived_from": "kingdom_of_gwynedd_1282",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_kingdom_of_mercia_642_910",
+  "name": "Kingdom of Mercia — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 642,
+  "year_end": 910,
+  "waypoints": [
+    {
+      "year": 642,
+      "place": "Battle of Maserfield",
+      "coords": [
+        52.5,
+        -1.5
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_maserfield_642"
+    },
+    {
+      "year": 779,
+      "place": "Battle of Bensington",
+      "coords": [
+        51.75,
+        -1.75
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_bensington_779"
+    },
+    {
+      "year": 825,
+      "place": "Battle of Ellandun",
+      "coords": [
+        51.75,
+        -1.75
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_ellandun_825"
+    },
+    {
+      "year": 893,
+      "place": "Battle of Buttington",
+      "coords": [
+        51.75,
+        -1.75
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_buttington_893"
+    },
+    {
+      "year": 899,
+      "place": "Æthelwold's Revolt",
+      "coords": [
+        51.75,
+        -1.75
+      ],
+      "note": "military",
+      "event_id": "wd_thelwold_s_revolt_899"
+    },
+    {
+      "year": 910,
+      "place": "Battle of Tettenhall",
+      "coords": [
+        51.75,
+        -1.75
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_tettenhall_910"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

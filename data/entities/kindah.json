@@ -1,0 +1,50 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kindah",
+  "name_primary": "Kindah",
+  "name_variants": [
+    "Kingdom of Kindah",
+    "Banu Kinda"
+  ],
+  "type": "tribal_confederation",
+  "region": "arabia",
+  "formed": 425,
+  "dissolved": 528,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    24,
+    45
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "hourani_arab_peoples_1991"
+    ],
+    "confidence": "low"
+  },
+  "description": "Central-Arabian tribal kingdom of the fifth and early sixth centuries, the first attested attempt at a unified Arab monarchy in inland Arabia. The Kindah operated as a Himyarite client at the height of South Arabian regional power and competed with the Lakhmids of al-Hira for influence across the desert. The polity dissolved after the killing of its king al-Harith ibn Amr around 528. The poet-prince Imru' al-Qais, son of Hujr the Kindite, became one of the most celebrated voices of pre-Islamic Arabic verse.",
+  "temporal": {
+    "start_year": 425,
+    "end_year": 528,
+    "end_year_within_scope": 528,
+    "notes": "Central-Arabian tribal kingdom of the fifth and early sixth centuries; collapsed after the killing of the king al-Harith ibn Amr by the Lakhmids around 528. Within atlas scope from 500 to 528."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      24,
+      45
+    ],
+    "core_regions": [
+      "central_arabia",
+      "najd"
+    ],
+    "notes": "Centroid set in the Najd region of central Arabia; the polity was a confederation of mobile tribes without a single fixed capital."
+  },
+  "sources": [
+    "hourani_arab_peoples_1991"
+  ],
+  "monogram": "KI"
+}

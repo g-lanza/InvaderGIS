@@ -1,0 +1,33 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "hethum_i",
+  "name": "Hethum I",
+  "polity": "armenian_kingdom_of_cilicia",
+  "title": "ruler",
+  "reign_start": 1226,
+  "reign_end": 1270,
+  "succeeds": "leo_i_of_armenia",
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "armenian_kingdom_of_cilicia",
+        "role": "ruler",
+        "start_year": 1226,
+        "end_year": 1270
+      }
+    ],
+    "key_actions": [],
+    "region": "byzantine_world",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

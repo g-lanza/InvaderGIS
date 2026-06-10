@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_zaragoza_city_1118",
+  "name": "Zaragoza City",
+  "importance": "city",
+  "start_year": 1118,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q31926034"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    -0.8793,
+    41.6565
+  ]
+}

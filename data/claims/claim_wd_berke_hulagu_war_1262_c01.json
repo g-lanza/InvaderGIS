@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_berke_hulagu_war_1262_c01",
+  "statement": "Berke–Hulagu War (1262 CE), at Caucasus Mountains (part of division of the Mongol Empire).",
+  "subject_ids": [
+    "golden_horde"
+  ],
+  "period": {
+    "from": 1262,
+    "to": 1262
+  },
+  "derived_from": "wd_berke_hulagu_war_1262",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "allsen_mongol_1987"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

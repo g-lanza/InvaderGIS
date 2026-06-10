@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "alans_370",
+  "name": "Alans Defeated by Huns",
+  "year": 370,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    47.49,
+    28.309
+  ],
+  "entity": "alans",
+  "summary": "The Hunnic invasion around 370 CE shattered the Alan confederacy that had dominated the Pontic steppe. Some Alans were absorbed into the Hunnic empire; others fled westward, joining the Gothic migrations into the Roman Empire. A remnant Alan population survived in the northern Caucasus, ancestors of the modern Ossetians.",
+  "outcomes": [
+    "hunnic_conquest",
+    "alan_diaspora",
+    "steppe_power_shift"
+  ],
+  "_quarry": {
+    "participants": [
+      "alans"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

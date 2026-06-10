@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_black_death_german_lands_1349_c01",
+  "statement": "Mass pogroms against Jewish communities accused of poisoning wells erupted in Strasbourg, Mainz, and Cologne during the Black Death, often before the disease arrived.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1349,
+    "to": 1349
+  },
+  "derived_from": "black_death_german_lands_1349",
+  "unresolved_sources": [
+    "scales_the_2012"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

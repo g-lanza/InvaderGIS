@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "gunpowder_artillery_1346",
+  "name": "Crécy, English Use Artillery in Battle",
+  "year": 1346,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    50.26,
+    1.88
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "At the Battle of Crécy (August 1346), the English under Edward III defeat Philip VI's French army. Alongside the decisive longbow, the English deploy small cannon (ribaulds or ribaldequins), among the first recorded battlefield uses of artillery. Though their tactical role at Crécy is uncertain, the symbolic deployment marks the beginning of gunpowder artillery's integration into field warfare.",
+  "outcomes": [
+    "english_victory_crécy",
+    "ribaulds_used",
+    "cannon_deployed_in_field"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "kingdom_of_france"
+    ],
+    "structural_significance": "Crécy represents the transition moment between the medieval and early modern military paradigm; the longbow's effectiveness is already being superseded in importance by the cannon; within a century, artillery renders the medieval castle obsolete (demonstrated at the sieges of the Hundred Years' War's final phase); the simultaneous use of longbows and cannon at Crécy epitomizes the transitional character of 14th-century warfare",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

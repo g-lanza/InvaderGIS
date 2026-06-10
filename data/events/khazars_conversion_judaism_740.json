@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "khazars_conversion_judaism_740",
+  "name": "Khazar Elite Converts to Judaism",
+  "year": 740,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    47,
+    47
+  ],
+  "entity": "khazar_khaganate",
+  "summary": "The Khazar ruling elite converted to Judaism, the only medieval ruling class outside Israel to do so. The conversion may have been partly a political statement of neutrality between Christian Byzantium and Islamic Caliphate.",
+  "outcomes": [
+    "khazar_judaism",
+    "unique_medieval_state",
+    "caliph_byzantine_neutral"
+  ],
+  "_quarry": {
+    "participants": [
+      "khazar_khaganate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "golden_khazar_1980",
+      "brook_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

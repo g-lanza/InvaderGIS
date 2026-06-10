@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_horde_moscow",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "golden_horde",
+      "role": "hegemon"
+    },
+    {
+      "entity_id": "grand_principality_of_moscow",
+      "role": "tributary"
+    }
+  ],
+  "directed": true,
+  "type": "tributary",
+  "since": 1283,
+  "until": 1480,
+  "note": "Muscovite princes paid annual tribute (the 'Mongol yoke') to the Golden Horde from 1243 to 1480, when Ivan III formally ended tributary payments. The relationship was more complex than simple subjugation: Moscow's princes served as the Horde's primary tribute collectors for other Russian principalities, a role that enriched Moscow and gave it leverage over its neighbors. Ivan I 'Moneybag' (Kalita) used this role to accumulate territory. Ivan III's 'stand on the Ugra River' (1480) — when both sides backed down without fighting — marks the effective end of the tributary relationship.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The 237-year Mongol tribute relationship shapes Moscow's political culture: centralized power, importance of vertical loyalty, and administrative capacity for resource extraction all develop partly in response to Mongol tributary demands; the end of tribute (1480) is the symbolic birth of independent Russia"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "allsen_mongol_1987",
+      "fennell_the_1983",
+      "ostrowski_muscovy_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

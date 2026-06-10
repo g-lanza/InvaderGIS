@@ -1,0 +1,43 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ezana",
+  "name": "Ezana",
+  "polity": "aksumite_empire",
+  "title": "king",
+  "reign_start": 320,
+  "reign_end": 360,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 305,
+      "death_year": 360
+    },
+    "entity_associations": [
+      {
+        "entity_id": "aksumite_empire",
+        "role": "king",
+        "start_year": 320,
+        "end_year": 360
+      }
+    ],
+    "key_actions": [
+      {
+        "year": 330,
+        "event": "Converts to Christianity under tutelage of Frumentius."
+      },
+      {
+        "year": 340,
+        "event": "Conquers Meroe; ends the Kingdom of Kush."
+      }
+    ],
+    "region": "horn_of_africa",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "munro_hay_aksum_1991"
+    ],
+    "confidence": "low"
+  }
+}

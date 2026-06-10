@@ -1,0 +1,31 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "university_of_naples_1224",
+  "name": "University of Naples founded",
+  "year": 1224,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    40.8454,
+    14.2575
+  ],
+  "entity": "kingdom_of_sicily_norman",
+  "summary": "Emperor Frederick II issues the Generalis lictera at Syracuse, founding a state university at Naples to train administrators and jurists for his Sicilian-imperial bureaucracy. This is the first European university created by direct state act.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_sicily_norman",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "Earliest royal-state foundation among medieval universities; Aquinas studies here (1239–1244) before joining the Dominicans.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "bartlett_making_of_europe_1993"
+    ],
+    "confidence": "low"
+  }
+}

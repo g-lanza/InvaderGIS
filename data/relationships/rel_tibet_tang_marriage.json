@@ -1,0 +1,31 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_tibet_tang_marriage",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "tibet",
+      "role": "partner"
+    },
+    {
+      "entity_id": "tang_dynasty",
+      "role": "partner"
+    }
+  ],
+  "directed": false,
+  "type": "dynastic_union",
+  "since": 641,
+  "until": 710,
+  "note": "Princess Wencheng (641) and Princess Jincheng (710) were sent by Tang emperors to marry Tibetan emperors as part of the heqin marriage-alliance diplomacy, intended to defuse the Tibet-Tang rivalry.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Buddhist iconography and Tang court culture entered Tibet via the imperial brides."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

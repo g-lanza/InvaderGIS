@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_almer_a_1157",
+  "name": "Siege of Almería",
+  "year": 1157,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41.25,
+    -1.175
+  ],
+  "entity": "republic_of_genoa",
+  "summary": "Siege of Almería (1157 CE), at Almería (part of Reconquista). Source: Wikidata Q130251288.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_genoa",
+      "kingdom_of_leon",
+      "kingdom_of_castile",
+      "almohad_caliphate_iberia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_pictish_to_alba",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "pictish_confederation",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "kingdom_of_alba",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 843,
+  "until": 843,
+  "note": "Union of Pictish and Dál Riatan realms under Kenneth MacAlpin narrative; boundaries disputed in scholarship.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The absorption of Pictish political structures into the new kingdom of Alba (c. 843) involved either conquest or dynastic amalgamation that extinguished the Pictish language and matrilineal succession system within two generations; the erasure of the most distinctive Pictish institutions—symbol stones, distinctive kingship—represents one of the most complete cultural-political transformations in early medieval Britain."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

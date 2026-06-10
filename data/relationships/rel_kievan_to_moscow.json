@@ -1,0 +1,39 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_kievan_to_moscow",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kievan_rus",
+      "role": "parent"
+    },
+    {
+      "entity_id": "grand_principality_of_moscow",
+      "role": "fragment"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 1283,
+  "until": 1547,
+  "note": "Moscow emerged as a major principality only in the 13th century, its rise enabled by cooperation with the Mongol Golden Horde and geographic advantages (forests, rivers, central position). The Metropolitanate of Russia transferred to Moscow (1325), giving it ecclesiastical primacy. Ivan I 'Moneybag' (1325–1341) collected Mongol tribute for neighboring principalities and used his privileged position to accumulate territory. Ivan III (1462–1505) ended tribute, annexed Novgorod and Tver, and established Moscow as the 'Third Rome' following Constantinople's fall.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Moscow's rise from minor principality to dominant Russian power is the central political development of 14th–15th century Russia; ecclesiastical primacy supports political claims; Ivan III's marriage to Sophia Palaiologina links Moscow to Byzantine imperial tradition"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "franklin_the_1996",
+      "riasanovsky_a_2000",
+      "martin_medieval_1995",
+      "halperin_russia_1985",
+      "fennell_the_1983",
+      "ostrowski_muscovy_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

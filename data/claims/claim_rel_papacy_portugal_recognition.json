@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_papacy_portugal_recognition",
+  "statement": "Afonso Henriques, Count of Portugal (from 1128), sought papal recognition of Portuguese royal dignity to legitimize his independence from León. After defeating the Moors at the Battle of Ourique (1139) and proclaiming himself king, he placed Portugal under papal protection, paying an annual tribute (the 'denarius Sancti Petri'). Pope Alexander III formally recognized Portugal as a kingdom (1179) in the bull Manifestis Probatum. The papal recognition was Portugal's international legitimization and protection against Leonese absorption — a model similar to the earlier Polish appeal to the papacy for protection from German crusading.",
+  "subject_ids": [
+    "papal_states",
+    "kingdom_of_portugal"
+  ],
+  "predicate": "religious_jurisdiction",
+  "derived_from": "rel_papacy_portugal_recognition",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989",
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1179,
+    "to": 1179
+  }
+}

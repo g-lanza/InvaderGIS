@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "georgia_mongol_invasion_1220",
+  "name": "Mongol Invasion of Georgia",
+  "year": 1220,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41.72,
+    44.8
+  ],
+  "entity": "kingdom_of_georgia",
+  "summary": "The Mongol expedition under Subutai and Jebe swept through Georgia, defeating Georgian armies twice. Continued Mongol invasions through the 1230s forced Georgia into vassalage and ended the Georgian Golden Age.",
+  "outcomes": [
+    "georgian_golden_age_ended",
+    "mongol_vassal",
+    "economy_disrupted"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_georgia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "hussite_movement_1415",
+  "name": "Martyrdom of Jan Hus and Hussite Movement",
+  "year": 1415,
+  "type": "religious",
+  "category": "religion",
+  "coords": [
+    47.66,
+    9.18
+  ],
+  "entity": "kingdom_of_bohemia",
+  "summary": "The Council of Constance burns Czech reformer Jan Hus at the stake despite an imperial safe-conduct. Outrage in Bohemia ignites a mass religious-national movement; the Hussite Wars (1419–1434) repel five successive papal crusades and establish a tolerated 'Utraquist' Czech church for decades.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_bohemia",
+      "papal_states",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "First successful armed defiance of papal authority in Christendom; demonstrates that vernacular-language reformist religion plus battlefield innovation (wagenburg tactics) can defeat conventional crusading armies. Direct intellectual precursor to Luther.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

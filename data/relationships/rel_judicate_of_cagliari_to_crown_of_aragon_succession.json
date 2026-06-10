@@ -1,0 +1,35 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_judicate_of_cagliari_to_crown_of_aragon_succession",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "judicate_of_cagliari",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "crown_of_aragon",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 1162,
+  "until": 1162,
+  "note": "Derived from predecessor/successor links recorded in the judicate_of_cagliari and crown_of_aragon entity records. Transition anchored to crown_of_aragon start_year.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Mechanical normalisation of curated predecessor/successor links into the relationships register."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

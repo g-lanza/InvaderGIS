@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_marj_al_saffar_1303",
+  "name": "Battle of Marj al-Saffar",
+  "subtype": "battle",
+  "start_year": 1303,
+  "end_year": 1303,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2732255"
+    }
+  },
+  "description": "Battle during Mongol invasions of the Levant (1303)",
+  "coords": [
+    36.2482,
+    33.3608
+  ]
+}

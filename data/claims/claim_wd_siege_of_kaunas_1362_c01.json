@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_kaunas_1362_c01",
+  "statement": "Siege of Kaunas (1362 CE), at Kaunas Castle (part of Lithuanian Crusade).",
+  "subject_ids": [
+    "livonian_order_state"
+  ],
+  "period": {
+    "from": 1362,
+    "to": 1362
+  },
+  "derived_from": "wd_siege_of_kaunas_1362",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_hospitallers_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

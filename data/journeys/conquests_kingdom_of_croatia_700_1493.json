@@ -1,0 +1,59 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_kingdom_of_croatia_700_1493",
+  "name": "Kingdom of Croatia — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 700,
+  "year_end": 1493,
+  "waypoints": [
+    {
+      "year": 700,
+      "place": "Croatian-Venetian Wars",
+      "coords": [
+        44.95,
+        14.4
+      ],
+      "note": "military",
+      "event_id": "wd_croatian_venetian_wars_700"
+    },
+    {
+      "year": 1000,
+      "place": "Siege of Lastovo",
+      "coords": [
+        44.95,
+        14.4
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_lastovo_1000"
+    },
+    {
+      "year": 1097,
+      "place": "Battle of Gvozd Mountain",
+      "coords": [
+        46,
+        17.75
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_gvozd_mountain_1097"
+    },
+    {
+      "year": 1493,
+      "place": "Hundred Years' Croatian–Ottoman War",
+      "coords": [
+        42.75,
+        22.7
+      ],
+      "note": "military",
+      "event_id": "wd_hundred_years_croatian_ottoman_war_1493"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fine_the_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

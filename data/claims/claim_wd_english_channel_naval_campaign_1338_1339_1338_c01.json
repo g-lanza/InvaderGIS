@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_english_channel_naval_campaign_1338_1339_1338_c01",
+  "statement": "English Channel naval campaign, 1338-1339 (1338 CE), at English Channel (part of Hundred Years' War).",
+  "subject_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 1338,
+    "to": 1338
+  },
+  "derived_from": "wd_english_channel_naval_campaign_1338_1339_1338",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

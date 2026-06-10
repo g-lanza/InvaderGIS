@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_norman_conquest_sicily_c02",
+  "statement": "Roger de Hauteville and Robert Guiscard expelled the Byzantines from Calabria and Apulia by 1071 and conquered Muslim Sicily from 1061 to 1091.",
+  "subject_ids": [
+    "kingdom_of_sicily_norman"
+  ],
+  "period": {
+    "from": 1061,
+    "to": 1061
+  },
+  "derived_from": "norman_conquest_sicily",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

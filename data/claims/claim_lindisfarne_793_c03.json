@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_lindisfarne_793_c03",
+  "statement": "The Viking raid on Lindisfarne in 793 is conventionally dated as the beginning of the Viking Age in England.",
+  "subject_ids": [
+    "kingdom_of_northumbria"
+  ],
+  "period": {
+    "from": 793,
+    "to": 793
+  },
+  "derived_from": "lindisfarne_793",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

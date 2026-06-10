@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_marco_polo_kublai_court_1275_c03",
+  "statement": "Marco Polo's Travels introduced Europeans to Chinese silk, paper money, coal, and the scope of Asian civilization.",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1275,
+    "to": 1275
+  },
+  "derived_from": "marco_polo_kublai_court_1275",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

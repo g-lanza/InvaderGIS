@@ -1,0 +1,42 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "saladin_career_1169",
+  "name": "Saladin Becomes Vizier of Egypt",
+  "year": 1169,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    30.06,
+    31.25
+  ],
+  "entity": "ayyubid_sultanate",
+  "summary": "Saladin (Salah ad-Din Yusuf ibn Ayyub), a Kurdish general in the service of the Zengid sultan Nur ad-Din, becomes vizier of the Fatimid Caliphate in Cairo. He systematically marginalizes the Fatimid Shia establishment, converts Egypt to Sunni Islam, and on the death of the last Fatimid caliph (1171), ends the Fatimid dynasty. On Nur ad-Din's death (1174), Saladin seizes Damascus, unifying Egypt and Syria under his control.",
+  "outcomes": [
+    "fatimid_caliphate_ended",
+    "egypt_becomes_sunni",
+    "ayyubid_dynasty_founded"
+  ],
+  "_quarry": {
+    "participants": [
+      "ayyubid_sultanate",
+      "fatimid_caliphate"
+    ],
+    "structural_significance": "Saladin's career demonstrates how an outsider (a Kurd serving a Zengid Turk) could use a failing state (the Fatimids) as a power base; his reunification of Egypt and Syria under Sunni leadership ends the three-way Islamic division that had allowed the Crusader states to survive; his subsequent capture of Jerusalem (1187) transforms the Islamic world's relationship with the Crusades from defensive to offensive",
+    "year_range": [
+      1169,
+      1174
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "humphreys_from_1977",
+      "lyons_saladin_1982",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

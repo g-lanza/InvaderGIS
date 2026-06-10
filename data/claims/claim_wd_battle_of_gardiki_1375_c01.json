@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_gardiki_1375_c01",
+  "statement": "Battle of Gardiki (1375 CE), at Gardiki Castle, Arcadia (part of Byzantine–Latin wars).",
+  "subject_ids": [
+    "principality_of_achaea"
+  ],
+  "period": {
+    "from": 1375,
+    "to": 1375
+  },
+  "derived_from": "wd_battle_of_gardiki_1375",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

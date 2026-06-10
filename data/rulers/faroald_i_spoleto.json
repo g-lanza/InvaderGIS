@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "faroald_i_spoleto",
+  "name": "Faroald I",
+  "polity": "duchy_of_spoleto",
+  "title": "dynastic_founder",
+  "reign_start": 570,
+  "reign_end": 591,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "duchy_of_spoleto",
+        "role": "dynastic_founder",
+        "start_year": 570,
+        "end_year": 591
+      }
+    ],
+    "key_actions": [],
+    "region": "italy",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

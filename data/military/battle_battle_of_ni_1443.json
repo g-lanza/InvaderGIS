@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_ni_1443",
+  "name": "Battle of Niš",
+  "subtype": "battle",
+  "start_year": 1443,
+  "end_year": 1443,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q3339470"
+    }
+  },
+  "description": "Battle during Crusade of Varna (1443)",
+  "coords": [
+    21.8961,
+    43.3192
+  ]
+}

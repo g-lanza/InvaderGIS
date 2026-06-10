@@ -1,0 +1,63 @@
+{
+  "kind": "institution",
+  "dataset": "medieval-europe-500-1500",
+  "id": "mediterranean_trade_network",
+  "name_primary": "Mediterranean Trade Network",
+  "domain": "trade_network",
+  "formed": 800,
+  "dissolved": 1500,
+  "_quarry": {
+    "key_developments": [
+      {
+        "year": 827,
+        "event": "Aghlabid invasion of Sicily begins — Islamic-Christian Mediterranean coexistence intensifies."
+      },
+      {
+        "year": 1082,
+        "event": "Venice obtains chrysobull from Alexios I — duty-free trade in Byzantine empire."
+      },
+      {
+        "year": 1204,
+        "event": "Fourth Crusade hands Venice control of the Aegean."
+      },
+      {
+        "year": 1252,
+        "event": "Florence introduces the gold florin — first stable European gold coinage in 600 years."
+      },
+      {
+        "year": 1284,
+        "event": "Genoa's gold genovino debuts; Venice's ducat (1284) follows."
+      },
+      {
+        "year": 1340,
+        "event": "Bardi and Peruzzi (Florence) collapse — first major medieval banking crisis."
+      },
+      {
+        "year": 1453,
+        "event": "Fall of Constantinople severs Venetian access to Black Sea."
+      }
+    ],
+    "influences_entities": [
+      "republic_of_venice",
+      "republic_of_genoa",
+      "republic_of_pisa",
+      "republic_of_florence",
+      "kingdom_of_sicily_norman",
+      "byzantine_empire",
+      "fatimid_caliphate",
+      "ayyubid_sultanate",
+      "mamluk_sultanate",
+      "kingdom_of_jerusalem",
+      "principality_of_antioch"
+    ],
+    "description": "The maritime commercial system that knit Christian and Islamic Mediterranean shorelines into a single shared economy. From the late 9th century, Italian maritime republics (Amalfi, Venice, Pisa, Genoa) developed the colleganza partnership, double-entry bookkeeping, and the bill of exchange — financial instruments that decoupled commerce from physical bullion shipment. The Crusades opened the Levantine coast to Italian merchant colonies. By 1300 a Genoese or Venetian merchant could sit in Florence and direct cargo from Alexandria via Trebizond, Famagusta, and Bruges. The system gave Europe the capital surplus that financed early-modern overseas expansion."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lopez_commercial_revolution_1971",
+      "abulafia_great_sea_2011"
+    ],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_prussian_crusade_1200",
+  "name": "Prussian Crusade",
+  "year": 1200,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    52.1948,
+    19.8508
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Prussian Crusade (1200 CE), (part of Northern Crusades). Source: Wikidata Q2665664.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "grand_duchy_of_lithuania",
+      "prussians",
+      "principality_of_galicia_volhynia",
+      "kingdom_of_poland_piast"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

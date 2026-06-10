@@ -1,0 +1,42 @@
+{
+  "kind": "institution",
+  "dataset": "medieval-europe-500-1500",
+  "id": "university_of_salamanca",
+  "name_primary": "University of Salamanca",
+  "domain": "university",
+  "formed": 1218,
+  "dissolved": 1500,
+  "_quarry": {
+    "key_developments": [
+      {
+        "year": 1218,
+        "event": "Alfonso IX of León establishes the Studium Generale."
+      },
+      {
+        "year": 1254,
+        "event": "Alfonso X confirms statutes and royal patronage."
+      },
+      {
+        "year": 1255,
+        "event": "Alexander IV's Per scripta apostolica grants ius ubique docendi."
+      },
+      {
+        "year": 1411,
+        "event": "Benedict XIII's constitutions reform the university's organisation."
+      }
+    ],
+    "influences_entities": [
+      "kingdom_of_leon",
+      "kingdom_of_castile",
+      "crown_of_castile"
+    ],
+    "description": "Founded c.1218 by Alfonso IX of León as a Studium Generale — the earliest royal-foundation university in the Latin West — and definitively organised by Alfonso X of Castile-León in 1254. Papal recognition came from Alexander IV in 1255, granting the ius ubique docendi (right to teach anywhere). Salamanca quickly became the principal university of the Iberian world, dominant in canon law, civil law, and theology; by the 15th century it housed major Thomist revival schools and prepared the legal apparatus for the Castilian discovery and administration of the Indies."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "bartlett_making_of_europe_1993"
+    ],
+    "confidence": "low"
+  }
+}

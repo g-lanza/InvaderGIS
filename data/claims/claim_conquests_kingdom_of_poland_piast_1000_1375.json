@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_kingdom_of_poland_piast_1000_1375",
+  "statement": "Kingdom of Poland (Piast) — campaigns and battles spanned 1000–1375, from Pomeranian Tribes Resist Polish Expansion to Hungarian–Ottoman War.",
+  "subject_ids": [
+    "kingdom_of_poland_piast"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_kingdom_of_poland_piast_1000_1375",
+  "period": {
+    "from": 1000,
+    "to": 1375
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "davies_gods_1981",
+      "knoll_the_1972"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

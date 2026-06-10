@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "treaty_of_meersen_870",
+  "name": "Treaty of Meersen",
+  "year": 870,
+  "type": "treaty",
+  "category": "diplomacy",
+  "coords": [
+    50.88,
+    5.75
+  ],
+  "entity": "east_francia",
+  "summary": "On the death of Lothair II without legitimate heirs, his uncles Louis the German and Charles the Bald divide his Middle-Frankish realm (Lotharingia) between them. The line runs from the North Sea down the Meuse to the Saône, establishing the linguistic Romance/Germanic boundary in the Low Countries that survives to the modern Belgian language divide.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "east_francia",
+      "west_francia"
+    ],
+    "structural_significance": "Eliminates the imperial 'Middle Kingdom' as a separate political unit; the contested Lotharingian space becomes the persistent fault line of West European politics through the modern era.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

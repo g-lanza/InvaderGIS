@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_waidhofen_1431",
+  "name": "Battle of Waidhofen",
+  "subtype": "battle",
+  "start_year": 1431,
+  "end_year": 1431,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q11154688"
+    }
+  },
+  "description": "Battle during Hussite Wars (1431)",
+  "coords": [
+    15.2839,
+    48.8194
+  ]
+}

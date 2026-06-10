@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_molinella_1467",
+  "name": "Battle of Molinella",
+  "year": 1467,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    44.6,
+    11.75
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Battle of Molinella (1467 CE), at Molinella. Source: Wikidata Q532899.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "republic_of_florence"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

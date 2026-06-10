@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "treaty_bretigny_1360",
+  "name": "Treaty of Brétigny",
+  "year": 1360,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    48.44,
+    1.43
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "After the English victory at Poitiers (1356) and the capture of French King John II, France agrees to the Treaty of Brétigny: England gains full sovereignty over Aquitaine (Guyenne and Gascony), Calais, and other territories, roughly a third of France. John II's ransom is set at three million gold écus. Edward III renounces his claim to the French throne. The peace is the high-water mark of English territorial gains in France, but its terms prove unenforceable; within a decade Charles V of France has recovered most of the ceded territories through diplomatic and guerrilla warfare.",
+  "outcomes": [
+    "edward_iii_gains_aquitaine",
+    "john_ii_ransomed",
+    "hundred_years_war_paused"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "kingdom_of_france"
+    ],
+    "structural_significance": "Represents the maximum English territorial achievement of the Hundred Years' War's first phase; the ransom of John II drains French royal finances; Edward III's tactical genius and the longbow's tactical dominance reach their culmination; the subsequent French recovery under Charles V demonstrates the limits of military conquest without administrative control",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

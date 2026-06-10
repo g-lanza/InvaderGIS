@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_anazarba_1307",
+  "name": "Siege of Anazarba",
+  "year": 1307,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    36.3,
+    43.65
+  ],
+  "entity": "ilkhanate",
+  "summary": "Siege of Anazarba (1307 CE), at Anazarbus (part of Mongol invasions of the Levant). Source: Wikidata Q135447244.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "ilkhanate",
+      "armenian_kingdom_of_cilicia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "jackson_the_2005",
+      "amitai-preiss_mongols_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

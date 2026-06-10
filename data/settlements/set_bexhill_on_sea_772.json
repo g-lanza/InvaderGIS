@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_bexhill_on_sea_772",
+  "name": "Bexhill-on-Sea",
+  "importance": "city",
+  "start_year": 772,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q853012"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    0.4711,
+    50.8417
+  ]
+}

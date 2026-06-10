@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_blue_waters_1362",
+  "name": "Battle of Blue Waters",
+  "year": 1362,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    48.35,
+    30.5
+  ],
+  "entity": "grand_duchy_of_lithuania",
+  "summary": "At the Battle of Blue Waters (Sinivoda, on the Syniukha River in modern Ukraine), the Grand Duchy of Lithuania under Algirdas decisively defeats three Tatar princes of the Mongol Golden Horde, establishing Lithuanian control over the vast territories of the former Kievan Rus between the Carpathians and the Black Sea. The victory extends Lithuanian sovereignty to the Black Sea and reduces the Golden Horde's dominance in the western steppes. It is one of the key events in Lithuania's transformation into the largest state in medieval Europe.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "grand_duchy_of_lithuania",
+      "golden_horde"
+    ],
+    "structural_significance": "Establishes Lithuanian control over Podolia and the Black Sea steppe; reduces the Golden Horde's western sphere of influence; fundamental to Lithuania's emergence as a great power",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "rowell_lithuania_1994",
+      "christiansen_the_1997"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

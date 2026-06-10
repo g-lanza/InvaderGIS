@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_umayyad_franks_tours",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "umayyad_emirate_cordoba",
+      "role": "principal"
+    },
+    {
+      "entity_id": "merovingian_kingdom",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 719,
+  "until": 759,
+  "note": "Umayyad raids into Frankish territory checked at Tours (732); ended with Pepin's recovery of Septimania.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Frankish victory at Tours/Poitiers (732) halted the northern advance of Umayyad raiding into the Frankish heartland; though not decisive in a purely military sense—the Umayyads faced logistical limits in Iberia—it established Charles Martel's military reputation and his family's political dominance, providing the legitimacy foundation for the Carolingian dynasty's eventual royal and imperial authority."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "constable_medieval_1997",
+      "kennedy_muslim_1996",
+      "wood_the_1994",
+      "geary_before_1988"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

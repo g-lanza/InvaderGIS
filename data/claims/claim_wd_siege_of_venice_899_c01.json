@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_venice_899_c01",
+  "statement": "Siege of Venice (899 CE), at Venice (part of Hungarian invasions of Europe).",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 899,
+    "to": 899
+  },
+  "derived_from": "wd_siege_of_venice_899",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

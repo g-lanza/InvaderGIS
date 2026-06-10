@@ -1,0 +1,50 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_duchy_of_bavaria_1030_1390",
+  "name": "Duchy of Bavaria — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1030,
+  "year_end": 1390,
+  "waypoints": [
+    {
+      "year": 1030,
+      "place": "German–Hungarian War",
+      "coords": [
+        49.5333,
+        12.1333
+      ],
+      "note": "military",
+      "event_id": "wd_german_hungarian_war_1030"
+    },
+    {
+      "year": 1140,
+      "place": "Battle near Weinsberg",
+      "coords": [
+        49.15,
+        9.29
+      ],
+      "note": "battle",
+      "event_id": "battle_onin_1142"
+    },
+    {
+      "year": 1390,
+      "place": "First Milano–Florentine War",
+      "coords": [
+        45.115,
+        11.4125
+      ],
+      "note": "military",
+      "event_id": "wd_first_milano_florentine_war_1390"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

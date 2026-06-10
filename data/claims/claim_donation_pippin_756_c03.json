@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_donation_pippin_756_c03",
+  "statement": "In exchange for the donation, Stephen II anointed Pippin and his sons as 'Patricians of the Romans'.",
+  "subject_ids": [
+    "carolingian_empire"
+  ],
+  "period": {
+    "from": 756,
+    "to": 756
+  },
+  "derived_from": "donation_pippin_756",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "mckitterick_charlemagne_2008",
+      "riché_the_1993",
+      "nelson_king_2019"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_cyprus_lusignan_kingdom_1192_c02",
+  "statement": "Cyprus became a major logistics hub and sugar producer for the Crusader states.",
+  "subject_ids": [
+    "kingdom_of_cyprus"
+  ],
+  "period": {
+    "from": 1192,
+    "to": 1192
+  },
+  "derived_from": "cyprus_lusignan_kingdom_1192",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

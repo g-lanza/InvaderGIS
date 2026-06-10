@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "tibet",
+  "name": "Lhasa",
+  "entity_id": "tibet",
+  "entity_name": "Tibetan Empire",
+  "start_year": 618,
+  "end_year": 842,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2431480"
+    }
+  },
+  "coords": [
+    91.14082,
+    29.64576
+  ]
+}

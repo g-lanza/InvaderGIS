@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_star_tur_1392",
+  "name": "Stará Turá",
+  "importance": "city",
+  "start_year": 1392,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q512771"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    17.6956,
+    48.7772
+  ]
+}

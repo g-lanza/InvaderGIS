@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_crimean_khanate_slave_trade_c02",
+  "statement": "Slaves taken by the Crimean Khanate were sold through the port of Kaffa to Ottoman buyers.",
+  "subject_ids": [
+    "khanate_of_crimea"
+  ],
+  "period": {
+    "from": 1450,
+    "to": 1450
+  },
+  "derived_from": "crimean_khanate_slave_trade",
+  "unresolved_sources": [
+    "fisher_the_1978"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "davies_warfare_2007"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

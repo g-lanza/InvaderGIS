@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_ibn_fadlan_volga_922_c01",
+  "statement": "Aḥmad ibn Faḍlān served as secretary on an Abbasid embassy, dispatched by Caliph al-Muqtadir in 921, to the king of the Volga Bulgars.",
+  "subject_ids": [
+    "abbasid_caliphate"
+  ],
+  "period": {
+    "from": 922,
+    "to": 922
+  },
+  "derived_from": "ibn_fadlan_volga_922",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "hourani_arab_peoples_1991",
+      "hodgson_venture_of_islam_1974"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

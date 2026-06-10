@@ -1,0 +1,43 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "great_famine_1315",
+  "name": "Great Famine of 1315–1322",
+  "year": 1315,
+  "type": "disaster",
+  "category": "hazard",
+  "coords": [
+    51,
+    3.5
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Seven years of catastrophic harvest failures across Northern Europe, triggered by a prolonged period of cold and wet weather associated with the beginning of the Little Ice Age. The summer of 1315 sees almost uninterrupted rainfall across England, France, the Low Countries, and the Holy Roman Empire, rotting crops in fields. Livestock diseases compound grain failures. Desperate populations eat pets, rats, bark, and according to some sources resort to cannibalism. Mortality estimates vary from 10 to 25 percent in worst-affected regions. The famine weakens an entire generation.",
+  "outcomes": [
+    "10_to_15_percent_population_loss",
+    "social_order_disrupted",
+    "black_death_vulnerability_increased"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "kingdom_of_england",
+      "holy_roman_empire",
+      "kingdom_of_poland_piast"
+    ],
+    "structural_significance": "The Great Famine ends the medieval population boom begun around 1000 CE; weakens the population's health and immune resilience just a generation before the Black Death (1347); accelerates social stratification as peasants lose land during debt crises; prefigures the demographic crisis that will reshape European society by 1350",
+    "year_range": [
+      1315,
+      1322
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

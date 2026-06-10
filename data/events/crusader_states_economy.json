@@ -1,0 +1,44 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "crusader_states_economy",
+  "name": "Crusader States as Commercial Bridgeheads",
+  "year": 1150,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    32.92,
+    35.07
+  ],
+  "entity": "kingdom_of_jerusalem",
+  "summary": "The Crusader states create a commercial zone connecting European consumers to eastern luxury goods. Italian city-states (Venice, Genoa, Pisa) receive entire quarters of Crusader cities (the Venetian quarter of Acre, the Genoese quarter of Tyre) and trade privileges that effectively give them extraterritorial rights. Sugar cultivation (introduced by Arabs) is taken over by European lords, creating plantation agriculture whose methods are later transferred to Cyprus, Madeira, and the Americas.",
+  "outcomes": [
+    "italian_merchants_privilege_in_holy_land",
+    "spice_trade_routes_controlled",
+    "sugar_production_begins"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_jerusalem",
+      "republic_of_venice",
+      "republic_of_genoa"
+    ],
+    "structural_significance": "The Crusader states' commercial significance persists long after their military failure; the institutional framework for Italian commercial dominance of eastern trade (the fondaco, the trading quarter, the consulate) is developed in Crusader cities; the transfer of sugar plantation technology from the Levant through Cyprus and Madeira to the Atlantic is one of the direct connections between the Crusades and the later European colonial plantation system",
+    "year_range": [
+      1100,
+      1291
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

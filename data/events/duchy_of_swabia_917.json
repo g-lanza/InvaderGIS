@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_swabia_917",
+  "name": "Duchy of Swabia Established",
+  "year": 917,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    49.26,
+    9.78
+  ],
+  "entity": "duchy_of_swabia",
+  "summary": "The Duchy of Swabia was formally established in 917 CE as one of the five major stem duchies of the emerging Holy Roman Empire. Its territory covered modern southwest Germany and parts of Switzerland. The Hohenstaufen dynasty, who later became Holy Roman Emperors, rose from Swabian roots.",
+  "outcomes": [
+    "stem_duchy_formed",
+    "alemannic_territory",
+    "hohenstaufen_precursor"
+  ],
+  "_quarry": {
+    "participants": [
+      "duchy_of_swabia",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

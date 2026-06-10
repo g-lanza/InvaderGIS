@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_bede_ecclesiastical_history_731_c01",
+  "statement": "Bede, a monk at Jarrow in Northumbria, completed his Ecclesiastical History of the English People in 731.",
+  "subject_ids": [
+    "kingdom_of_northumbria"
+  ],
+  "period": {
+    "from": 731,
+    "to": 731
+  },
+  "derived_from": "bede_ecclesiastical_history_731",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

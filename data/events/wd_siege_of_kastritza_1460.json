@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_kastritza_1460",
+  "name": "Siege of Kastritza",
+  "year": 1460,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    42.39,
+    17.06
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Siege of Kastritza (1460 CE), at Arcadia (part of Ottoman conquest of the Morea). Source: Wikidata Q137691215.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "ottoman_empire",
+      "duchy_of_milan",
+      "papal_states",
+      "despotate_of_the_morea"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

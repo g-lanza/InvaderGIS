@@ -1,0 +1,38 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_swiss_hre_independence",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "swiss_confederation",
+      "role": "principal"
+    },
+    {
+      "entity_id": "holy_roman_empire",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 1291,
+  "until": 1499,
+  "note": "Swiss Confederation gradually freed itself from Habsburg/Imperial control; effective independence by Swabian War (1499).",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Swabian War (1499) victory and subsequent Peace of Basel established Swiss de facto independence from imperial jurisdiction, creating the first successful secession from the Holy Roman Empire based on cantonal self-governance rather than dynastic right; the Swiss precedent of collective civic sovereignty and military pike-based defence influenced subsequent constitutional thought and urban self-governance movements."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "marchal_schweizer_2006",
+      "rippmann_die_2006",
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

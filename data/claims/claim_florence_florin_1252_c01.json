@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_florence_florin_1252_c01",
+  "statement": "In 1252 the commune of Florence issued its first gold coin, the fiorino d'oro, containing 3.5 grams of pure gold and bearing the lily of Florence and a standing John the Baptist.",
+  "subject_ids": [
+    "republic_of_florence"
+  ],
+  "period": {
+    "from": 1252,
+    "to": 1252
+  },
+  "derived_from": "florence_florin_1252",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lopez_commercial_revolution_1971",
+      "abu_lughod_before_european_hegemony_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

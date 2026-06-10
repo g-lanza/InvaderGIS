@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_hundred_years_war_1337_c01",
+  "statement": "In 1337, Edward III of England formally asserted his claim to the French throne through his mother Isabella, triggering the Hundred Years' War.",
+  "subject_ids": [
+    "kingdom_of_england"
+  ],
+  "period": {
+    "from": 1337,
+    "to": 1337
+  },
+  "derived_from": "hundred_years_war_1337",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "ims_fordham",
+      "ims_fordham_sbook1n"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

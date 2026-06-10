@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "swiss_battle_morgarten_1315",
+  "name": "Battle of Morgarten",
+  "year": 1315,
+  "type": "conflict",
+  "category": "violence",
+  "coords": [
+    47.07,
+    8.67
+  ],
+  "entity": "swiss_confederation",
+  "summary": "On 15 November 1315, the army of Duke Leopold I of Habsburg marched through a narrow alpine defile at Morgarten and was ambushed by Swiss peasant infantry from Uri, Schwyz, and Unterwalden. Rolling boulders and halberds devastated the armored cavalry. The lopsided Swiss victory established the forest cantons' military reputation and their ability to defeat feudal cavalry, a lesson that shaped European warfare for generations.",
+  "outcomes": [
+    "Swiss forest cantons destroy Habsburg army",
+    "Halberds and terrain defeat armored knights",
+    "Swiss military reputation founded",
+    "Confederation strengthened by Pact of Brunnen 1315"
+  ],
+  "_quarry": {
+    "participants": [
+      "swiss_confederation",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "Switzerland's foundational military victory; proved that disciplined infantry in suitable terrain could reliably defeat armored cavalry, anticipating the Swiss mercenary dominance of the 15th century.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Schaufelberger, Der alte Schweizer und sein Krieg",
+      "Sonderegger, Fußvolk"
+    ],
+    "confidence": "low"
+  }
+}

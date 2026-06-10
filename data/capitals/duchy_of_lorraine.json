@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_lorraine",
+  "name": "Nancy",
+  "entity_id": "duchy_of_lorraine",
+  "entity_name": "Duchy of Lorraine",
+  "start_year": 855,
+  "end_year": 1766,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q155019"
+    }
+  },
+  "coords": [
+    6.18361,
+    48.69278
+  ]
+}

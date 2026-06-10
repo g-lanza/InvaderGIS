@@ -1,0 +1,56 @@
+{
+  "kind": "institution",
+  "dataset": "medieval-europe-500-1500",
+  "id": "scholasticism",
+  "name_primary": "Scholasticism",
+  "domain": "intellectual_tradition",
+  "formed": 1100,
+  "dissolved": 1500,
+  "_quarry": {
+    "key_developments": [
+      {
+        "year": 1100,
+        "event": "Anselm of Canterbury's ontological argument; faith-seeking-understanding programme."
+      },
+      {
+        "year": 1140,
+        "event": "Peter Abelard's Sic et Non — model of paired authorities to be reconciled by reason."
+      },
+      {
+        "year": 1215,
+        "event": "University of Paris statutes formalised; Sorbonne founded 1257."
+      },
+      {
+        "year": 1255,
+        "event": "Aristotle's full corpus made mandatory at Paris."
+      },
+      {
+        "year": 1265,
+        "event": "Thomas Aquinas begins Summa Theologiae."
+      },
+      {
+        "year": 1320,
+        "event": "William of Ockham's nominalism challenges Thomist realism."
+      }
+    ],
+    "influences_entities": [
+      "kingdom_of_france",
+      "kingdom_of_england",
+      "papal_states",
+      "kingdom_of_naples",
+      "holy_roman_empire",
+      "kingdom_of_castile",
+      "crown_of_aragon",
+      "duchy_of_brabant"
+    ],
+    "description": "The dominant philosophical-theological method of high-medieval universities, marked by systematic dialectical reasoning, reconciliation of faith with newly-rediscovered Aristotle, and the question-and-answer structure (quaestio disputata). Anchored at Paris and Oxford, scholasticism produced the Summa Theologiae of Thomas Aquinas (1265–1274), the voluntarism of Duns Scotus, and the via moderna of William of Ockham. By 1450 scholastic method was the universal training of European clergy, lawyers, and physicians."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "pieper_scholasticism_1960",
+      "marenbon_later_medieval_philosophy_1991"
+    ],
+    "confidence": "low"
+  }
+}

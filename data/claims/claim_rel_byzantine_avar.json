@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_byzantine_avar",
+  "statement": "The Avar Khaganate and Byzantium maintained a tributary relationship from the Avars' arrival on the Danube frontier (c. 558) until the failed joint Avar-Persian siege of Constantinople (626). Byzantium paid annual subsidies — gradually increasing — to keep the Avars from raiding the Balkans; the Avars used this money and the Slavic populations under their control to raid anyway. The siege of Thessalonica (586) and the siege of Constantinople (626) represented the peak of Avar-Slavic military pressure; the 626 failure broke the Avar coalition and began the Khaganate's decline, accelerated by the Frankish campaigns under Charlemagne (788–796) that destroyed it entirely.",
+  "subject_ids": [
+    "byzantine_empire",
+    "avar_khaganate"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_byzantine_avar",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991",
+      "morgan_the_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 580,
+    "to": 626
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_treaty_of_granada_1491_c01",
+  "statement": "Treaty of Granada (1491 CE), at Emirate of Granada (part of Granada War).",
+  "subject_ids": [
+    "emirate_of_granada"
+  ],
+  "period": {
+    "from": 1491,
+    "to": 1491
+  },
+  "derived_from": "wd_treaty_of_granada_1491",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "harvey_islamic_1990",
+      "fernández-puertas_the_1997"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

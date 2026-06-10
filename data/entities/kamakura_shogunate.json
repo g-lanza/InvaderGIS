@@ -1,0 +1,159 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kamakura_shogunate",
+  "name_primary": "Kamakura Shogunate",
+  "name_variants": [
+    "Kamakura bakufu",
+    "鎌倉幕府"
+  ],
+  "type": "kingdom",
+  "region": "east_asia",
+  "formed": 1185,
+  "dissolved": 1333,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    35.32,
+    139.55
+  ],
+  "population_estimates": [
+    {
+      "year": 1200,
+      "estimate": 7000000,
+      "confidence": "low",
+      "note": "Aggregate Japanese population (imperial + bakufu domains); medieval Japanese demography is highly uncertain."
+    },
+    {
+      "year": 1300,
+      "estimate": 8000000,
+      "confidence": "low",
+      "note": "Stable into the Kamakura late period before the 14th-century crises."
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "First Japanese military government (1185–1333), established by Minamoto no Yoritomo after his victory over the Taira clan at the naval battle of Dan-no-ura that ended the Genpei War; Yoritomo received the title sei-i taishōgun in 1192 and ruled from his eastern stronghold of Kamakura while leaving the imperial court intact at Kyoto, creating the dual-court arrangement that defined Japanese politics for the next seven centuries; after Yoritomo's death (1199) the Hōjō clan ruled as hereditary shikken regents from 1203, presided over the successful defence against the Mongol invasions of 1274 and 1281, and were finally overthrown in 1333 when Emperor Go-Daigo's Kenmu Restoration movement allied with rebel commanders including Ashikaga Takauji.",
+  "temporal": {
+    "start_year": 1185,
+    "end_year": 1333,
+    "notes": "First Japanese military government (bakufu). Ruled de facto from Kamakura; the imperial court continued in Kyoto throughout."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      35.32,
+      139.55
+    ],
+    "core_regions": [
+      "east_asia"
+    ],
+    "capital": {
+      "name": "Kamakura",
+      "coords": [
+        35.319,
+        139.546
+      ],
+      "source": "wikidata"
+    }
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "foundation",
+      "years": "1180–1192",
+      "description": "Genpei War (1180–1185), Minamoto no Yoritomo defeats the Taira clan, ends with the naval battle of Dan-no-ura; Yoritomo establishes the bakufu at Kamakura and receives the shogun title in 1192."
+    },
+    {
+      "phase": "consolidation",
+      "years": "1199–1274",
+      "description": "Yoritomo dies (1199); Hōjō clan establishes the hereditary shikken regency from 1203, sidelining Minamoto heirs; jitō land-stewards extend bakufu power into provincial estates."
+    },
+    {
+      "phase": "external_pressure",
+      "years": "1274–1281",
+      "description": "Two Mongol invasion attempts under Kublai Khan repelled, partly through coastal defences and partly through the kamikaze typhoons; the bakufu wins the wars but cannot reward the loyal samurai with conquered land."
+    },
+    {
+      "phase": "decline",
+      "years": "1281–1333",
+      "description": "Resource exhaustion from the Mongol defence weakens samurai loyalty; Emperor Go-Daigo's Kenmu Restoration (1331–1333) allied with Ashikaga Takauji ends the Hōjō regency at the siege of Kamakura (1333)."
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Minamoto no Yoritomo",
+      "role": "shogun",
+      "years": "1192–1199",
+      "year_start": 1192,
+      "year_end": 1199
+    },
+    {
+      "name": "Hōjō Tokimasa",
+      "role": "shikken (regent)",
+      "years": "1203–1205",
+      "year_start": 1203,
+      "year_end": 1205
+    },
+    {
+      "name": "Hōjō Tokimune",
+      "role": "shikken (regent)",
+      "years": "1268–1284",
+      "year_start": 1268,
+      "year_end": 1284
+    },
+    {
+      "name": "Hōjō Takatoki",
+      "role": "shikken (regent)",
+      "years": "1316–1326",
+      "year_start": 1316,
+      "year_end": 1326
+    }
+  ],
+  "predecessor_entity_ids": [
+    "imperial_japan_fujiwara"
+  ],
+  "successor_entity_ids": [
+    "muromachi_shogunate"
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "manorial_estates",
+      "manufacturing"
+    ],
+    "wealth_level": "moderate",
+    "major_trade_partners": [
+      "song_empire",
+      "korea"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "manorial_dues"
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q736839",
+    "matched_name": "manual/kamakura_shogunate",
+    "enrichment_date": "2026-05-24",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Kamakura_shogunate",
+    "capital": {
+      "name": "Kamakura",
+      "coords": [
+        35.319,
+        139.546
+      ]
+    },
+    "predecessors_from_wikidata": [
+      "Heian Japan"
+    ],
+    "successors_from_wikidata": [
+      "Kenmu Restoration",
+      "Ashikaga shogunate"
+    ]
+  },
+  "monogram": "KS"
+}

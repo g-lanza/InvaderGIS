@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_al_ghazali_revival_1095_c01",
+  "statement": "Abu Hamid al-Ghazali abandoned his teaching position at the Nizamiyya in Baghdad around 1095 for a decade of Sufi wandering.",
+  "subject_ids": [
+    "seljuk_sultanate"
+  ],
+  "period": {
+    "from": 1095,
+    "to": 1095
+  },
+  "derived_from": "al_ghazali_revival_1095",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "hodgson_venture_of_islam_1974",
+      "hourani_arab_peoples_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

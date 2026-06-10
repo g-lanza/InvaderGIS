@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_battle_kulikovo_1380_c02",
+  "statement": "Despite the victory at Kulikovo, the Mongols sacked Moscow two years later in 1382.",
+  "subject_ids": [
+    "grand_principality_of_moscow"
+  ],
+  "period": {
+    "from": 1380,
+    "to": 1380
+  },
+  "derived_from": "battle_kulikovo_1380",
+  "unresolved_sources": [
+    "fennell_the_1983"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "ostrowski_muscovy_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

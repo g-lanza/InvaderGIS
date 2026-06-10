@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_first_siege_of_pontevico_1452_c01",
+  "statement": "First Siege of Pontevico (1452 CE), at Pontevico (part of Wars in Lombardy).",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1452,
+    "to": 1452
+  },
+  "derived_from": "wd_first_siege_of_pontevico_1452",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

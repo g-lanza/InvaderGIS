@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "marinid_dynasty_1244",
+  "name": "Marinids Conquer Fez",
+  "year": 1244,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    33.9,
+    -5.5
+  ],
+  "entity": "marinid_dynasty",
+  "summary": "The Marinid Berber tribe captured Fez in 1244, seizing the intellectual and commercial capital of Morocco from the weakened Almohads. Fez under the Marinids became one of the great centres of Islamic civilisation, with the Madrasa Bou Inania and Madrasa al-Attarine among the finest examples of Moroccan architecture.",
+  "outcomes": [
+    "merinid_triumph",
+    "almohad_weakness",
+    "moroccan_state"
+  ],
+  "_quarry": {
+    "participants": [
+      "marinid_dynasty"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "abun-nasr_a_1987",
+      "messier_the_2010"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_rednitz_910",
+  "name": "Battle of Rednitz",
+  "year": 910,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    49.0475,
+    14.8215
+  ],
+  "entity": "east_francia",
+  "summary": "Battle of Rednitz (910 CE), at Rednitz (part of Hungarian invasions of Europe). Source: Wikidata Q20036700.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "east_francia",
+      "magyars"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

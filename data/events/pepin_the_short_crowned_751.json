@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "pepin_the_short_crowned_751",
+  "name": "Coronation of Pepin the Short",
+  "year": 751,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    49,
+    2.8
+  ],
+  "entity": "carolingian_empire",
+  "summary": "Pepin III ('the Short'), son of Charles Martel and mayor of the palace to the last Merovingian king Childeric III, asks Pope Zachary a pointed question: who should be king, the one who holds power or the one who merely carries the title? The Pope answers in Pepin's favor. Childeric III is deposed and sent to a monastery; Pepin is anointed king of the Franks by St. Boniface, and subsequently by Pope Stephen II in 754. This is the first papal coronation of a Frankish king and establishes the precedent that papal sanction legitimizes royal power.",
+  "outcomes": [
+    "merovingian_dynasty_ended",
+    "carolingian_kingship_begun",
+    "pope_sanctions_new_dynasty"
+  ],
+  "_quarry": {
+    "participants": [
+      "carolingian_empire",
+      "papal_states",
+      "merovingian_kingdom"
+    ],
+    "structural_significance": "Ends the Merovingian dynasty and founds the Carolingian dynasty that produces Charlemagne; the papal-Frankish alliance becomes the cornerstone of medieval Western politics; Pepin's Donation (754) creates the Papal States as a temporal kingdom, giving the papacy independent political power; the precedent that popes can sanction rulers, and by implication depose them, fuels the Investiture Controversy three centuries later",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "mckitterick_charlemagne_2008",
+      "riché_the_1993",
+      "nelson_king_2019"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

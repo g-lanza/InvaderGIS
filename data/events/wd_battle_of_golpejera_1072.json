@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_golpejera_1072",
+  "name": "Battle of Golpejera",
+  "year": 1072,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41.8,
+    -4.8
+  ],
+  "entity": "kingdom_of_leon",
+  "summary": "Battle of Golpejera (1072 CE), at Cardeñosa de Volpejera (part of Reconquista). Source: Wikidata Q1243260.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_leon",
+      "kingdom_of_castile"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

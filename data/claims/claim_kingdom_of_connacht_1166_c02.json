@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_kingdom_of_connacht_1166_c02",
+  "statement": "The political difficulties of Ruaidrí Ua Conchobair led the deposed Leinster king Diarmait Mac Murchada to invite Anglo-Norman forces to Ireland.",
+  "subject_ids": [
+    "kingdom_of_connacht"
+  ],
+  "period": {
+    "from": 1166,
+    "to": 1166
+  },
+  "derived_from": "kingdom_of_connacht_1166",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

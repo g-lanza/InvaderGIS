@@ -1,0 +1,35 @@
+{
+ "kind": "event",
+ "dataset": "medieval-europe-500-1500",
+ "id": "nika_revolt_532",
+ "name": "Nika Revolt, Justinian Nearly Overthrown",
+ "year": 532,
+ "type": "political",
+ "category": "power",
+ "coords": [
+  41.01,
+  28.97
+ ],
+ "entity": "byzantine_empire",
+ "summary": "The Nika Revolt erupts in Constantinople's Hippodrome when chariot-racing factional violence expands into political revolt against Justinian I's tax officials and corrupt advisers. For five days the city burns; at one point Justinian prepares to flee, but his wife Empress Theodora delivers a famous speech urging resistance ('the purple is the noblest shroud'). General Belisarius traps and massacres approximately 30,000 rebels in the Hippodrome.",
+ "outcomes": [
+  "constantinople_burns",
+  "justinian_survives",
+  "theodora_speech_decisive"
+ ],
+ "_quarry": {
+  "participants": [
+   "byzantine_empire"
+  ],
+  "structural_significance": "The Nika Revolt reveals the extreme political instability underlying Byzantine imperial authority; the Hippodrome's circus factions (Blues, Greens) are simultaneously sports clubs, political parties, and street gangs; Theodora's intervention demonstrates the decisive political role of imperial consorts in Byzantine history; the revolt's suppression enables Justinian's subsequent legislative, military, and architectural program (Hagia Sophia is rebuilt on the site of the burned church)",
+  "year_range": null
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "ims_fordham",
+   "ims_fordham_sbook1c"
+  ],
+  "confidence": "low"
+ }
+}

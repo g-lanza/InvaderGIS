@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_nisibis_541",
+  "name": "Battle of Nisibis",
+  "subtype": "battle",
+  "start_year": 541,
+  "end_year": 541,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q86750828"
+    }
+  },
+  "description": "Battle during Belisarius' invasion of Mesopotamia (541)",
+  "coords": [
+    41.2157,
+    37.0753
+  ]
+}

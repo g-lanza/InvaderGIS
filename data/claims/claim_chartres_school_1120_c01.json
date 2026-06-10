@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_chartres_school_1120_c01",
+  "statement": "The cathedral school at Chartres became the leading centre of 12th-century Latin Platonist philosophy under masters such as Bernard and Thierry of Chartres.",
+  "subject_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 1120,
+    "to": 1120
+  },
+  "derived_from": "chartres_school_1120",
+  "unresolved_sources": [
+    "jordan_france_2004"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

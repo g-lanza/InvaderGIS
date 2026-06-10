@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ain_jalut_1260",
+  "name": "Battle of Ain Jalut",
+  "year": 1260,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    32.62,
+    35.42
+  ],
+  "entity": "mamluk_sultanate",
+  "summary": "Mamluk Sultan Qutuz defeats the Mongol army at the Spring of Goliath (Ain Jalut) in Galilee, the first major defeat of a Mongol army in open battle. The victory halts the Mongol advance into Africa and the Mediterranean world. Baybars, who commands the Mamluk vanguard, assassinates Qutuz immediately after the battle and seizes the sultanate.",
+  "outcomes": [
+    "mongol_advance_halted"
+  ],
+  "_quarry": {
+    "participants": [
+      "mamluk_sultanate",
+      "ilkhanate"
+    ],
+    "structural_significance": "First defeat of a Mongol army in open battle; determined the western limit of Mongol expansion",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "irwin_the_1986",
+      "northrup_from_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

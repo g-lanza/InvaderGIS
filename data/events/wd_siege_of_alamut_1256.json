@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_alamut_1256",
+  "name": "Siege of Alamut",
+  "year": 1256,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    47.2,
+    102.8
+  ],
+  "entity": "mongol_empire",
+  "summary": "Siege of Alamut (1256 CE), at Alamut Castle (part of Mongol campaign against the Nizaris). Source: Wikidata Q17586779.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "mongol_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

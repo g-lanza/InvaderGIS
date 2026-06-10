@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_almoravid_northern_expeditions_1112_c01",
+  "statement": "The Almoravids conducted northern expeditions in 1112 CE.",
+  "subject_ids": [
+    "almoravid_emirate_iberia"
+  ],
+  "period": {
+    "from": 1112,
+    "to": 1112
+  },
+  "derived_from": "wd_almoravid_northern_expeditions_1112",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_the_2004",
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

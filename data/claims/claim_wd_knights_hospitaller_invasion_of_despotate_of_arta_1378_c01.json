@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_knights_hospitaller_invasion_of_despotate_of_arta_1378_c01",
+  "statement": "Knights Hospitaller invasion of Despotate of Arta (1378 CE), at Despotate of Arta.",
+  "subject_ids": [
+    "knights_hospitaller_rhodes"
+  ],
+  "period": {
+    "from": 1378,
+    "to": 1378
+  },
+  "derived_from": "wd_knights_hospitaller_invasion_of_despotate_of_arta_1378",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_hospitallers_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

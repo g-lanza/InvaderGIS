@@ -1,0 +1,139 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_principality_of_moldavia_1352_1498",
+  "name": "Principality of Moldavia — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1352,
+  "year_end": 1498,
+  "waypoints": [
+    {
+      "year": 1352,
+      "place": "Moldavian–Horde Wars",
+      "coords": [
+        47.85,
+        36.25
+      ],
+      "note": "military",
+      "event_id": "wd_moldavian_horde_wars_1352"
+    },
+    {
+      "year": 1399,
+      "place": "Battle of the Vorskla River",
+      "coords": [
+        49.76,
+        28.78
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_the_vorskla_river_1399"
+    },
+    {
+      "year": 1410,
+      "place": "Siege of Marienburg",
+      "coords": [
+        51.9,
+        24.4333
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_marienburg_1410"
+    },
+    {
+      "year": 1422,
+      "place": "Battle of Marienburg",
+      "coords": [
+        50.5,
+        24
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_marienburg_1422"
+    },
+    {
+      "year": 1467,
+      "place": "Battle of Baia",
+      "coords": [
+        47.25,
+        23.5
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_baia_1467"
+    },
+    {
+      "year": 1470,
+      "place": "Battle of Lipnic",
+      "coords": [
+        47.85,
+        36.25
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_lipnic_1470"
+    },
+    {
+      "year": 1475,
+      "place": "Stephen the Great Defeats Ottomans",
+      "coords": [
+        44,
+        28.45
+      ],
+      "note": "military",
+      "event_id": "principality_of_moldavia_1475"
+    },
+    {
+      "year": 1485,
+      "place": "Battle of Cătlăbuga",
+      "coords": [
+        44,
+        28.45
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_c_tl_buga_1485"
+    },
+    {
+      "year": 1485,
+      "place": "Polish-Ottoman War of 1485–1503",
+      "coords": [
+        48.33,
+        27.26
+      ],
+      "note": "military",
+      "event_id": "wd_polish_ottoman_war_of_1485_1503_1485"
+    },
+    {
+      "year": 1497,
+      "place": "Battle of the Cosmin Forest",
+      "coords": [
+        47,
+        28
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_the_cosmin_forest_1497"
+    },
+    {
+      "year": 1497,
+      "place": "Polish-Moldavian War",
+      "coords": [
+        47.5667,
+        27.4
+      ],
+      "note": "military",
+      "event_id": "wd_polish_moldavian_war_1497"
+    },
+    {
+      "year": 1498,
+      "place": "Moldavian campaign in Poland",
+      "coords": [
+        44.3167,
+        30.3333
+      ],
+      "note": "military",
+      "event_id": "wd_moldavian_campaign_in_poland_1498"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "treptow_a_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

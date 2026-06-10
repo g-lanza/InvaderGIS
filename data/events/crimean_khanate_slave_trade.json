@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "crimean_khanate_slave_trade",
+  "name": "Crimean Khanate, Major Slave Trading State",
+  "year": 1450,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    45.04,
+    34
+  ],
+  "entity": "khanate_of_crimea",
+  "summary": "The Crimean Khanate, established as a Golden Horde successor under Ottoman suzerainty, organizes systematic slave raids into Poland, Lithuania, and the emerging Muscovite state. Estimates suggest 1-3 million people are enslaved between 1450-1700, with the peak in the 15th-16th centuries. The slaves (mostly young people) are sold through the Crimean port of Kaffa to Ottoman buyers.",
+  "outcomes": [
+    "tatar_raids_for_slaves",
+    "ukraine_russia_devastated",
+    "ottoman_slaves_supplied"
+  ],
+  "_quarry": {
+    "participants": [
+      "khanate_of_crimea",
+      "ottoman_empire"
+    ],
+    "structural_significance": "The Crimean slave trade is one of the most consequential but underappreciated aspects of medieval Eastern European history; the demographic drain from annual raids stunts eastern Slavic population growth and forces continuous military investment in frontier defense (the Ukraine's etymology, 'borderland', reflects its perpetual frontier status); the trade makes the Crimean Khanate financially dependent on the Ottoman market, tying it to Ottoman political survival until Russian conquest (1783)",
+    "year_range": [
+      1430,
+      1550
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fisher_the_1978",
+      "davies_warfare_2007"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

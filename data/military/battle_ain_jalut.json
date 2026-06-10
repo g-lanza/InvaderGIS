@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_ain_jalut",
+  "name": "Battle of Ain Jalut",
+  "subtype": "battle",
+  "start_year": 1260,
+  "end_year": 1260,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "Mamluk defeat of the Mongols at Ein Harod spring; first major Mongol reversal",
+  "coords": [
+    35.371,
+    32.554
+  ]
+}

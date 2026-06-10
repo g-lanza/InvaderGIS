@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_denmark_norway_valdemar_empire_1169_c02",
+  "statement": "Under Valdemar I and II, Denmark dominated the Baltic Sea and controlled lucrative herring fisheries.",
+  "subject_ids": [
+    "kingdom_of_denmark"
+  ],
+  "period": {
+    "from": 1169,
+    "to": 1169
+  },
+  "derived_from": "denmark_norway_valdemar_empire_1169",
+  "unresolved_sources": [
+    "roesdahl_the_1992"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_medieval_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

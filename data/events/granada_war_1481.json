@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "granada_war_1481",
+  "name": "Granada War, Final Reconquista Campaign",
+  "year": 1482,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    37.18,
+    -3.6
+  ],
+  "entity": "emirate_of_granada",
+  "summary": "Ferdinand II of Aragon and Isabella I of Castile launch the systematic conquest of the Nasrid Emirate of Granada, the last Muslim state in Iberia. The 10-year campaign uses artillery to reduce one castle at a time, avoiding pitched battles. The emirate's internal civil war (between Boabdil and his uncle Muhammad XIII) assists the conquest. Granada surrenders on January 2, 1492, the same year Columbus sails west.",
+  "outcomes": [
+    "granada_falls_1492",
+    "boabdil_surrenders",
+    "muslim_spain_ends"
+  ],
+  "_quarry": {
+    "participants": [
+      "emirate_of_granada",
+      "crown_of_castile",
+      "crown_of_aragon"
+    ],
+    "structural_significance": "The fall of Granada closes the 781-year medieval Reconquista; its completion in the same year as Columbus's voyage is not coincidental, the Reconquista's resources, military experience, and ideological framework (holy war, conquest, conversion) are immediately transferred to the Americas; the expulsion of Spanish Jews (the Alhambra Decree, April 1492) follows within months, demonstrating that the Catholic Monarchs' religious uniformity project extends beyond military conquest",
+    "year_range": [
+      1481,
+      1492
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "harvey_islamic_1990",
+      "fernández-puertas_the_1997"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

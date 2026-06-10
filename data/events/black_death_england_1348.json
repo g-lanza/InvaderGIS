@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "black_death_england_1348",
+  "name": "Black Death reaches England",
+  "year": 1348,
+  "type": "epidemic",
+  "category": "hazard",
+  "coords": [
+    50.72,
+    -1.88
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Plague is reported at Melcombe Regis (Weymouth) in June 1348 and reaches London by autumn. Mortality varies sharply by community: rural manors record 40–60% deaths; Westminster Abbey loses 27 of its 50 monks. Repeated waves continue (1361, 1369, 1375).",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england"
+    ],
+    "structural_significance": "Triggers the legislative response of the Ordinance of Labourers (1349) and Statute of Labourers (1351), attempting (unsuccessfully) to peg wages at pre-plague levels. The accumulated grievance helps drive the 1381 Peasants' Revolt.",
+    "year_range": [
+      1348,
+      1350
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

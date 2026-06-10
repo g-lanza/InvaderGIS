@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_helge_1026",
+  "name": "Battle of Helgeå",
+  "year": 1026,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    55,
+    5
+  ],
+  "entity": "north_sea_empire",
+  "summary": "Battle of Helgeå (1026 CE), at Scania. Source: Wikidata Q499768.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "north_sea_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

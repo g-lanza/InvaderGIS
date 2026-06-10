@@ -1,0 +1,38 @@
+{
+ "kind": "event",
+ "dataset": "medieval-europe-500-1500",
+ "id": "battle_bannockburn_1314",
+ "name": "Battle of Bannockburn",
+ "year": 1314,
+ "type": "battle",
+ "category": "violence",
+ "coords": [
+  56.09,
+  -3.91
+ ],
+ "entity": "kingdom_of_scotland",
+ "summary": "Robert the Bruce defeats Edward II's invasion force at Bannockburn, routing an English army three times larger by choosing ground that neutralized English archery and cavalry. The victory effectively secures Scottish independence; the Declaration of Arbroath (1320) and the Treaty of Edinburgh-Northampton (1328) formalize it. Scotland remains independent for 289 years.",
+ "outcomes": [
+  "scottish_independence_secured",
+  "edward_ii_defeated"
+ ],
+ "_quarry": {
+  "participants": [
+   "kingdom_of_scotland",
+   "kingdom_of_england"
+  ],
+  "structural_significance": "Secures Scottish independence for nearly three centuries; demonstrates that disciplined infantry can defeat heavy cavalry; weakens Edward II's domestic political position, leading to his deposition",
+  "year_range": null
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "barrell_medieval_2000",
+   "brown_the_2004",
+   "ims_fordham",
+   "ims_fordham_sbook1o"
+  ],
+  "confidence": "low",
+  "attestation": "inferred"
+ }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_siege_of_moscow_1238",
+  "name": "Siege of Moscow",
+  "subtype": "battle",
+  "start_year": 1238,
+  "end_year": 1238,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q21641828"
+    }
+  },
+  "description": "Battle of 1238",
+  "coords": [
+    37.6178,
+    55.7558
+  ]
+}

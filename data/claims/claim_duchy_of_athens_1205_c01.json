@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_duchy_of_athens_1205_c01",
+  "statement": "Otto de la Roche established the Duchy of Athens following the Fourth Crusade's partition of the Byzantine Empire in 1205.",
+  "subject_ids": [
+    "duchy_of_athens"
+  ],
+  "period": {
+    "from": 1205,
+    "to": 1205
+  },
+  "derived_from": "duchy_of_athens_1205",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

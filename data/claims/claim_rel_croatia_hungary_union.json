@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_croatia_hungary_union",
+  "statement": "Pacta Conventa (1102) joined Croatia in personal union with Hungary; persisted through medieval period.",
+  "subject_ids": [
+    "kingdom_of_croatia",
+    "kingdom_of_hungary"
+  ],
+  "predicate": "personal_union",
+  "derived_from": "rel_croatia_hungary_union",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fine_the_1983",
+      "engel_the_2001",
+      "berend_at_2001"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1102,
+    "to": 1102
+  }
+}

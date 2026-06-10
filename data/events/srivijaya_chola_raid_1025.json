@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "srivijaya_chola_raid_1025",
+  "name": "Chola Raid on Srivijaya Weakens Maritime Empire",
+  "year": 1025,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    0.13,
+    109.718
+  ],
+  "entity": "srivijaya_empire",
+  "summary": "The Chola fleet under Rajendra I raided Srivijayan ports including Kadaram (Kedah), disrupting the empire's control of Malacca Strait trade. Though Srivijaya recovered, the raid signalled that its commercial monopoly was no longer unassailable.",
+  "outcomes": [
+    "srivijaya_weakened",
+    "chola_naval_supremacy",
+    "spice_trade_disrupted"
+  ],
+  "_quarry": {
+    "participants": [
+      "srivijaya_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

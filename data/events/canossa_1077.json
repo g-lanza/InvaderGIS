@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "canossa_1077",
+  "name": "Penance of Canossa",
+  "year": 1077,
+  "type": "religious",
+  "category": "religion",
+  "coords": [
+    44.5601,
+    10.425
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Holy Roman Emperor Henry IV stands barefoot in the snow outside the castle of Canossa for three days, seeking absolution from Pope Gregory VII, who lifts the excommunication levied during the Investiture Controversy.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "papal_states"
+    ],
+    "structural_significance": "Most iconic single moment of the Investiture Controversy and a lasting image of papal-imperial confrontation; demonstrates the political force of excommunication against a ruler whose princes were ready to defect.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morris_papal_monarchy_1989",
+      "robinson_papacy_1990"
+    ],
+    "confidence": "low"
+  }
+}

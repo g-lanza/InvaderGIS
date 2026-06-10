@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_trebizond_1282_c01",
+  "statement": "Siege of Trebizond (1282 CE), at Trabzon (part of Byzantine–Georgian Wars).",
+  "subject_ids": [
+    "empire_of_trebizond"
+  ],
+  "period": {
+    "from": 1282,
+    "to": 1282
+  },
+  "derived_from": "wd_siege_of_trebizond_1282",
+  "unresolved_sources": [
+    "eastmond_art_2004"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "miller_trebizond_1926"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

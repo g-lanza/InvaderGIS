@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_lithuania_horde_rivalry",
+  "statement": "Lithuania and the Golden Horde competed for control of the western Eurasian steppe and the Orthodox Ruthenian principalities from the 1340s onward. Lithuanian expansion under Algirdas (1345–1377) pushed into Horde-controlled territory; the Battle of Blue Waters (1362) broke Horde military power in the western steppe, enabling Lithuania to extend to the Black Sea coast. Lithuania's rise was partly enabled by the Horde's internal civil wars ('the Great Troubles,' 1359–1380s). The Horde's power continued to decline after Kulikovo (1380) and Timur's campaigns (1395–1396), ceding western steppe dominance to Lithuania and eventually to Poland-Lithuania.",
+  "subject_ids": [
+    "grand_duchy_of_lithuania",
+    "golden_horde"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_lithuania_horde_rivalry",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "rowell_lithuania_1994",
+      "christiansen_the_1997",
+      "halperin_russia_1985",
+      "allsen_mongol_1987"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1316,
+    "to": 1430
+  }
+}

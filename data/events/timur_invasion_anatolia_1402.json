@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "timur_invasion_anatolia_1402",
+  "name": "Timur's Invasion, Battle of Ankara",
+  "year": 1402,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    39.91,
+    32.85
+  ],
+  "entity": "ottoman_empire",
+  "summary": "Timur (Tamerlane) invades Anatolia and defeats the Ottoman army at the Battle of Ankara (July 1402). Sultan Bayezid I is captured, the first Ottoman sultan taken prisoner in battle, and dies in Timurid captivity. Timur dismembers the Ottoman Empire, restoring Anatolian beyliks and returning Anatolia to its pre-Ottoman fragmentation. An Ottoman interregnum (1402-1413) follows as Bayezid's sons fight over the throne.",
+  "outcomes": [
+    "bayezid_i_captured",
+    "ottoman_civil_war_follows",
+    "constantinople_survives_decades_more"
+  ],
+  "_quarry": {
+    "participants": [
+      "ottoman_empire"
+    ],
+    "structural_significance": "Timur's victory saves Constantinople, the city had been under Ottoman siege since 1394; the Byzantines gain 50 more years of existence (until 1453); the Ottoman interregnum demonstrates the empire's vulnerability to succession crises but also its institutional resilience, the Ottoman state reconstitutes itself completely under Mehmed I (1413-1421); Ankara is a reminder that the Ottoman Empire could have been destroyed in 1402",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

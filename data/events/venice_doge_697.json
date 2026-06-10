@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "venice_doge_697",
+  "name": "Election of the First Doge of Venice",
+  "year": 697,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    45.44,
+    12.33
+  ],
+  "entity": "republic_of_venice",
+  "summary": "The lagoon communities of the Veneto elect Paoluccio Anafesto as the first Doge (Dux) of Venice, according to later tradition. The actual origins of the Venetian institutions are more complex, but by the late 8th century Venice functions as a self-governing community under nominal Byzantine suzerainty. Charlemagne's treaty with Byzantium in 810 confirms Venetian independence from Frankish authority, Venice pays tribute to Byzantium while managing its own affairs.",
+  "outcomes": [
+    "venetian_republic_institutional_origins",
+    "doge_elected_not_hereditary",
+    "lagoon_independence_established"
+  ],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice"
+    ],
+    "structural_significance": "Venice's early institutional autonomy, its freedom from Frankish overlordship, gives it the commercial independence to develop without feudal constraints; the doge's elective nature (though often captured by oligarchic families) prevents dynastic concentration of power; Venice's lagoon geography makes it militarily impregnable to land armies, allowing long-term institutional development",
+    "year_range": [
+      697,
+      810
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

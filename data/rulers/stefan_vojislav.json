@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "stefan_vojislav",
+  "name": "Stefan Vojislav",
+  "polity": "principality_of_zeta",
+  "title": "dynastic_founder",
+  "reign_start": 1055,
+  "reign_end": null,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "principality_of_zeta",
+        "role": "dynastic_founder",
+        "start_year": 1055,
+        "end_year": null
+      }
+    ],
+    "key_actions": [],
+    "region": "southeastern_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

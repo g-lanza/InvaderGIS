@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_denmark_norway_cnut_north_sea_empire_1016_c02",
+  "statement": "At its peak the North Sea Empire united England, Denmark, Norway, and parts of Sweden under a single king.",
+  "subject_ids": [
+    "kingdom_of_denmark"
+  ],
+  "period": {
+    "from": 1016,
+    "to": 1016
+  },
+  "derived_from": "denmark_norway_cnut_north_sea_empire_1016",
+  "unresolved_sources": [
+    "roesdahl_the_1992"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_medieval_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

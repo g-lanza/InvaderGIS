@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_hemmingstedt_1500",
+  "name": "Battle of Hemmingstedt",
+  "year": 1500,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    58,
+    12
+  ],
+  "entity": "kalmar_union",
+  "summary": "Battle of Hemmingstedt (1500 CE), at Hemmingstedt. Source: Wikidata Q656190.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kalmar_union"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

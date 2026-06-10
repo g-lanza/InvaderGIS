@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_gwynedd_1282",
+  "name": "Llywelyn the Last Falls, Wales Conquered",
+  "year": 1282,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    52.775,
+    -2.64
+  ],
+  "entity": "kingdom_of_gwynedd",
+  "summary": "The death of Llywelyn ap Gruffudd in battle in 1282 ended the last independent Welsh principality. Edward I completed the conquest of Wales with the Statute of Rhuddlan (1284) and created the title Prince of Wales for his heir in 1301, a title held by English and British heirs apparent ever since.",
+  "outcomes": [
+    "welsh_independence_ends",
+    "statute_of_rhuddlan",
+    "english_prince_of_wales"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_gwynedd",
+      "kingdom_of_england"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_civetot_1096",
+  "name": "Battle of Civetot",
+  "year": 1096,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    40.77,
+    29.93
+  ],
+  "entity": "byzantine_empire",
+  "summary": "The People's Crusade, a mass movement of poor pilgrims and petty knights led by Peter the Hermit, precedes the First Crusade's main army. After a chaotic march through the Balkans (massacring Jewish communities along the way), approximately 30,000 reach Constantinople. Emperor Alexios I, alarmed, transports them to Asia Minor. Ignoring Byzantine warnings, they advance into Seljuk territory and are ambushed at Civetot (October 21, 1096) by Kilij Arslan's Turkish forces. The entire People's Crusade is annihilated; Peter the Hermit himself survives only because he had returned to Constantinople. The survivors are enslaved.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire"
+    ],
+    "structural_significance": "Destroys the People's Crusade; demonstrates the military impossibility of undisciplined mass movements against professional armies; the disaster shapes Alexios I's cautious approach to the main Crusade army that follows",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

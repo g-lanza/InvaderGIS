@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_duchy_of_milan_1363_1495",
+  "statement": "Duchy of Milan — campaigns and battles spanned 1363–1495, from Battle of Canturino to Siege of Novara.",
+  "subject_ids": [
+    "duchy_of_milan"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_duchy_of_milan_1363_1495",
+  "period": {
+    "from": 1363,
+    "to": 1495
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

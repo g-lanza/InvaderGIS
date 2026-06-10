@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "muscat_1508",
+  "name": "Portuguese Capture Muscat",
+  "year": 1508,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    24.358,
+    57.099
+  ],
+  "entity": "muscat",
+  "summary": "Portuguese forces captured Muscat in 1508 as part of their campaign to control the Indian Ocean trade. The Portuguese fortified the harbour and used Muscat as a base for controlling Gulf commerce. Omani resistance eventually expelled the Portuguese in 1650, beginning Oman's own maritime empire.",
+  "outcomes": [
+    "portuguese_conquest",
+    "indian_ocean_control",
+    "omani_resistance_begins"
+  ],
+  "_quarry": {
+    "participants": [
+      "muscat"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

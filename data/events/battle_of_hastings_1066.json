@@ -1,0 +1,23 @@
+{
+ "kind": "event",
+ "id": "battle_of_hastings_1066",
+ "name": "Battle of Hastings",
+ "year": 1066,
+ "type": "military",
+ "coords": [
+  50.8999,
+  0.5207
+ ],
+ "summary": "Norman conquest victory establishing William I's rule over England.",
+ "provenance": {
+  "sources_used": [
+   "ims_fordham",
+   "ims_fordham_sbook1n"
+  ],
+  "confidence": "high",
+  "status": "draft"
+ },
+ "dataset": "medieval-europe-500-1500",
+ "_fordham_index": "sbook1n",
+ "from_sourcebook": true
+}

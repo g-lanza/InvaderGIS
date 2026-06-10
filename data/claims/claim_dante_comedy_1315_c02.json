@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_dante_comedy_1315_c02",
+  "statement": "Dante wrote the Divine Comedy in exile after the Guelphs expelled him from Florence in 1302.",
+  "subject_ids": [
+    "republic_of_florence"
+  ],
+  "period": {
+    "from": 1315,
+    "to": 1315
+  },
+  "derived_from": "dante_comedy_1315",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "najemy_a_2006",
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

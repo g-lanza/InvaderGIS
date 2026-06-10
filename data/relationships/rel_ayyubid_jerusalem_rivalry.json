@@ -1,0 +1,41 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_ayyubid_jerusalem_rivalry",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "ayyubid_sultanate",
+      "role": "rival"
+    },
+    {
+      "entity_id": "kingdom_of_jerusalem",
+      "role": "rival"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 1174,
+  "until": 1250,
+  "note": "Saladin's unification of Egypt and Syria put the Kingdom of Jerusalem in an existential strategic bind; Hattin (1187) and the fall of Jerusalem define this rivalry. After Saladin's death, intermittent warfare and diplomacy including the Sixth Crusade's negotiated return of Jerusalem (1229–1244) continued under his successors.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Saladin's recapture of Jerusalem (1187) eliminated the political rationale for the First Crusader Kingdom and forced the reconfiguration of the Crusader presence to coastal enclaves; the subsequent Treaty of Jaffa (1229) demonstrated that accommodation rather than reconquest was the sustainable model, reshaping crusading ideology toward diplomatic engagement."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "humphreys_from_1977",
+      "lyons_saladin_1982",
+      "ims_fordham",
+      "ims_fordham_sbook1d",
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

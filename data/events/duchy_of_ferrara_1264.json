@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_ferrara_1264",
+  "name": "Este Dynasty Controls Ferrara",
+  "year": 1264,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    44.84,
+    11.62
+  ],
+  "entity": "duchy_of_ferrara",
+  "summary": "The Este family consolidated signorial control over Ferrara in 1264, beginning one of the longest-lasting dynastic rules in Italian history. The Este court became a renowned centre of Renaissance patronage, supporting poets including Ariosto and Tasso, and the city thrived as a cultural and commercial hub of the Po valley.",
+  "outcomes": [
+    "este_lords_established",
+    "po_valley_power",
+    "patronage_culture_begins"
+  ],
+  "_quarry": {
+    "participants": [
+      "duchy_of_ferrara"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

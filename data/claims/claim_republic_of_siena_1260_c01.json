@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_republic_of_siena_1260_c01",
+  "statement": "At the Battle of Montaperti in 1260 Siena routed the Florentine Guelfs.",
+  "subject_ids": [
+    "republic_of_siena"
+  ],
+  "period": {
+    "from": 1260,
+    "to": 1260
+  },
+  "derived_from": "republic_of_siena_1260",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

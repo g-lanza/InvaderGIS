@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_ephesus_1147",
+  "name": "Battle of Ephesus",
+  "subtype": "battle",
+  "start_year": 1147,
+  "end_year": 1147,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q15983960"
+    }
+  },
+  "description": "Battle during Second Crusade (1147)",
+  "coords": [
+    27.3419,
+    37.9411
+  ]
+}

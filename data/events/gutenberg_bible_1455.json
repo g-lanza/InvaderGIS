@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "gutenberg_bible_1455",
+  "name": "Gutenberg Bible, First Major Printed Book",
+  "year": 1455,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    50,
+    8.27
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Johannes Gutenberg completes the printing of approximately 180 copies of his Latin Bible, 135 on paper, 45 on vellum, in Mainz. The two-volume Bible uses a typeface designed to resemble hand-lettered manuscripts, initially concealing its mechanical production. The Gutenberg Bible's per-copy cost (approximately 30 florins) is still lower than a manuscript Bible; within decades, mass printing reduces book prices by 80%.",
+  "outcomes": [
+    "180_copies_printed",
+    "cost_drops",
+    "literacy_expands"
+  ],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire"
+    ],
+    "structural_significance": "The Gutenberg Bible is the first book printed with moveable type in Western Europe; it precipitates an information revolution comparable to the internet: by 1500, over 15 million books are in circulation; the democratization of text access permanently changes how knowledge is produced, transmitted, and challenged; the printing press's role in the Protestant Reformation (distributing Luther's ideas instantly across Europe) makes the Gutenberg Bible the technological ancestor of modern media",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

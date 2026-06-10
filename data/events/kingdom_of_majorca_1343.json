@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_majorca_1343",
+  "name": "Majorca Absorbed by Crown of Aragon",
+  "year": 1343,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    40.635,
+    1.575
+  ],
+  "entity": "kingdom_of_majorca",
+  "summary": "Peter IV of Aragon conquered the Kingdom of Majorca in 1343, reabsorbing it into the Crown of Aragon. The islands prosperity as a Mediterranean trading hub continued under Aragonese rule; Majorcan cartographers produced the Catalan Atlas (1375), one of the greatest medieval maps of the known world.",
+  "outcomes": [
+    "independence_ends",
+    "aragonese_reunification",
+    "catalan_atlas"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_majorca",
+      "crown_of_aragon"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "county_of_holland_1083",
+  "name": "County of Holland Consolidates",
+  "year": 1083,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    52.16,
+    4.49
+  ],
+  "entity": "county_of_holland",
+  "summary": "The County of Holland consolidated in the 11th century, named for the hollow land (Holla) of the peat bogs and lowlands. The Hollanders extraordinary engineering to reclaim land from the sea through dykes and drainage created both the distinctive Dutch landscape and the agricultural wealth that would fund later commercial expansion.",
+  "outcomes": [
+    "dutch_territory",
+    "peat_farming",
+    "flood_management"
+  ],
+  "_quarry": {
+    "participants": [
+      "county_of_holland"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

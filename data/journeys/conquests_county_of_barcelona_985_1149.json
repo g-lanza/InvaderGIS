@@ -1,0 +1,90 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_county_of_barcelona_985_1149",
+  "name": "County of Barcelona — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 985,
+  "year_end": 1149,
+  "waypoints": [
+    {
+      "year": 985,
+      "place": "Battle of Rovirans",
+      "coords": [
+        39.65,
+        -1.3
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_rovirans_985"
+    },
+    {
+      "year": 1010,
+      "place": "Battle of Aqbat al-Bakr",
+      "coords": [
+        39.65,
+        -1.3
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_aqbat_al_bakr_1010"
+    },
+    {
+      "year": 1112,
+      "place": "Great Occitan War",
+      "coords": [
+        42.5,
+        1.8
+      ],
+      "note": "military",
+      "event_id": "wd_great_occitan_war_1112"
+    },
+    {
+      "year": 1114,
+      "place": "Almoravid expedition to Catalonia",
+      "coords": [
+        39.2,
+        -0.9
+      ],
+      "note": "military",
+      "event_id": "wd_almoravid_expedition_to_catalonia_1114"
+    },
+    {
+      "year": 1122,
+      "place": "Siege of Lleida",
+      "coords": [
+        40.0333,
+        -0.9
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_lleida_1122"
+    },
+    {
+      "year": 1126,
+      "place": "Battle of Corbins",
+      "coords": [
+        39.2,
+        -0.9
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_corbins_1126"
+    },
+    {
+      "year": 1149,
+      "place": "Siege of Lleida",
+      "coords": [
+        39.2,
+        -0.9
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_lleida_1149"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

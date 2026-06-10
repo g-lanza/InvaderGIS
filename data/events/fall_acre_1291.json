@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "fall_acre_1291",
+  "name": "Fall of Acre",
+  "year": 1291,
+  "type": "dissolution_event",
+  "category": "power",
+  "coords": [
+    32.92,
+    35.07
+  ],
+  "entity": "kingdom_of_jerusalem",
+  "summary": "The Mamluk Sultan al-Ashraf Khalil besieges Acre (Saint-Jean d'Acre), the last major Crusader stronghold in the Holy Land, in April 1291. The city falls on May 18 after a six-week siege. The garrison, Hospitallers, Templars, Teutonic Knights, Venetians, and Genoese, fights to the last; the Templar headquarters collapses killing Templar knights and their Mamluk attackers together. The fall of Acre ends the Crusader presence in the Holy Land after 192 years (1099–1291). The Military Orders survive but lose their strategic purpose; the Hospitallers retreat to Cyprus then Rhodes.",
+  "outcomes": [
+    "crusader_mainland_end"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_jerusalem",
+      "mamluk_sultanate"
+    ],
+    "structural_significance": "Ends the Crusader presence in the Holy Land permanently; destroys the raison d'être of the Military Orders; triggers European calls for a new crusade that never materializes; the Templars' dissolution (1307–1312) follows from their loss of purpose",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

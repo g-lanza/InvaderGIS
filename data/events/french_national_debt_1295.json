@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "french_national_debt_1295",
+  "name": "Philip IV Expels Jews and Seizes Templars",
+  "year": 1306,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    48.85,
+    2.35
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Philip IV of France undertakes a series of fiscal operations that transform royal finance: he expels the Jews (1306) and confiscates their property; arrests the Knights Templar (1307) and seizes their enormous wealth; and imposes heavy taxation on the French clergy. These measures reveal the French monarchy's willingness to exploit religious minorities and military orders for fiscal gain and demonstrate the growing power of the centralized state over corporate privileges.",
+  "outcomes": [
+    "jewish_expulsion_generates_treasury_windfall",
+    "templar_property_seized",
+    "royal_fiscal_power_expanded"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "papal_states"
+    ],
+    "structural_significance": "Philip IV's operations establish the principle that the French king could override special privileges when royal necessity (raison d'état) demanded it; the Templar suppression is a watershed, it shows that the pope could be pressured into destroying a powerful institution if a strong king pushed hard enough; Philip's fiscal innovations (including currency debasement) establish precedents that lead to the long-term fiscal crisis of medieval French monarchy",
+    "year_range": [
+      1295,
+      1314
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

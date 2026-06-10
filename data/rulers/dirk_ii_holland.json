@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "dirk_ii_holland",
+  "name": "Dirk II",
+  "polity": "county_of_holland",
+  "title": "ruler",
+  "reign_start": 933,
+  "reign_end": 988,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "county_of_holland",
+        "role": "ruler",
+        "start_year": 933,
+        "end_year": 988
+      }
+    ],
+    "key_actions": [],
+    "region": "western_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_almohad_caliphate_iberia_to_hafsid_sultanate_fragmentation",
+  "statement": "Derived from predecessor/successor links recorded in the almohad_caliphate_iberia and hafsid_sultanate entity records. Transition anchored to hafsid_sultanate start_year.",
+  "subject_ids": [
+    "almohad_caliphate_iberia",
+    "hafsid_sultanate"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_almohad_caliphate_iberia_to_hafsid_sultanate_fragmentation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_kingdoms_2018",
+      "o'callaghan_reconquest_2003",
+      "abun-nasr_a_1987",
+      "khaldun_the_1958"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "hafsid_sultanate"
+  ],
+  "period": {
+    "from": 1229,
+    "to": 1229
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_principality_of_novgorod_1101_1443",
+  "name": "Novgorod Republic — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1101,
+  "year_end": 1443,
+  "waypoints": [
+    {
+      "year": 1101,
+      "place": "Swedish–Novgorodian Wars",
+      "coords": [
+        59.25,
+        23.15
+      ],
+      "note": "military",
+      "event_id": "wd_swedish_novgorodian_wars_1101"
+    },
+    {
+      "year": 1164,
+      "place": "Battle of the Voronezhka River",
+      "coords": [
+        59.25,
+        23.15
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_the_voronezhka_river_1164"
+    },
+    {
+      "year": 1240,
+      "place": "1240 Izborsk and Pskov campaign",
+      "coords": [
+        57.2,
+        32.2333
+      ],
+      "note": "military",
+      "event_id": "wd_1240_izborsk_and_pskov_campaign_1240"
+    },
+    {
+      "year": 1240,
+      "place": "Battle of the Neva",
+      "coords": [
+        60.2823,
+        25.2073
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_the_neva_1240"
+    },
+    {
+      "year": 1242,
+      "place": "Battle on the Ice",
+      "coords": [
+        58.55,
+        27.55
+      ],
+      "note": "battle",
+      "event_id": "alexander_nevsky_1242"
+    },
+    {
+      "year": 1242,
+      "place": "Battle of the Ice",
+      "coords": [
+        58.5,
+        31.3
+      ],
+      "note": "military",
+      "event_id": "alexander_nevsky_1242"
+    },
+    {
+      "year": 1245,
+      "place": "Alexander Nevsky's Lithuanian campaign",
+      "coords": [
+        56.4333,
+        32.3333
+      ],
+      "note": "military",
+      "event_id": "wd_alexander_nevsky_s_lithuanian_campaign_1245"
+    },
+    {
+      "year": 1318,
+      "place": "Attack on Åbo",
+      "coords": [
+        59.25,
+        23.15
+      ],
+      "note": "military",
+      "event_id": "wd_attack_on_bo_1318"
+    },
+    {
+      "year": 1443,
+      "place": "Novgorod-Livonian War",
+      "coords": [
+        57.75,
+        28.15
+      ],
+      "note": "military",
+      "event_id": "wd_novgorod_livonian_war_1443"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "martin_treasure_1986",
+      "birnbaum_lord_1981"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

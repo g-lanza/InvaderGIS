@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_kent_825",
+  "name": "Kent Absorbed by Wessex",
+  "year": 825,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    51.89,
+    -0.24
+  ],
+  "entity": "kingdom_of_kent",
+  "summary": "Following the Battle of Ellandun in 825 CE, Kent acknowledged West Saxon overlordship under Egbert of Wessex, effectively ending its independence as a separate kingdom. Kent's importance nonetheless continued through Canterbury's ecclesiastical primacy.",
+  "outcomes": [
+    "west_saxon_dominance",
+    "kentish_independence_ends",
+    "english_unification"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_kent",
+      "kingdom_of_wessex"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

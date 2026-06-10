@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_crusade_1228_frederick_c02",
+  "statement": "Under the Treaty of Jaffa, Muslims retained control of the Temple Mount including the al-Aqsa Mosque and Dome of the Rock.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1229,
+    "to": 1229
+  },
+  "derived_from": "crusade_1228_frederick",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

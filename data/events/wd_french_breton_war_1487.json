@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_french_breton_war_1487",
+  "name": "French–Breton War",
+  "year": 1487,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    47.6,
+    1
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "French–Breton War (1487 CE), at Duchy of Brittany. Source: Wikidata Q3118990.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "kingdom_of_france",
+      "duchy_of_brittany",
+      "crown_of_castile",
+      "kingdom_of_england"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

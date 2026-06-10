@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_guadalmes_1342",
+  "name": "Battle of Guadalmesí",
+  "year": 1342,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    38.1333,
+    -5.8333
+  ],
+  "entity": "kingdom_of_portugal",
+  "summary": "Battle of Guadalmesí (1342 CE), (part of Battle of the Strait). Source: Wikidata Q129274274.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_portugal",
+      "crown_of_castile",
+      "marinid_dynasty"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

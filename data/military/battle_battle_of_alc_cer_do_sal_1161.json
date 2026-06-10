@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_alc_cer_do_sal_1161",
+  "name": "Battle of Alcácer do Sal",
+  "subtype": "battle",
+  "start_year": 1161,
+  "end_year": 1161,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q129994693"
+    }
+  },
+  "description": "Battle during Reconquista (1161)",
+  "coords": [
+    -8.5133,
+    38.3725
+  ]
+}

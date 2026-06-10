@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_county_of_anjou_1116_1204",
+  "statement": "County of Anjou — campaigns and battles spanned 1116–1204, from Anglo-French War to France Annexes Anjou from England.",
+  "subject_ids": [
+    "county_of_anjou"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_county_of_anjou_1116_1204",
+  "period": {
+    "from": 1116,
+    "to": 1204
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

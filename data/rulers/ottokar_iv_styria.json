@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ottokar_iv_styria",
+  "name": "Ottokar IV of Styria",
+  "polity": "duchy_of_styria",
+  "title": "ruler",
+  "reign_start": 1163,
+  "reign_end": 1192,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "duchy_of_styria",
+        "role": "ruler",
+        "start_year": 1163,
+        "end_year": 1192
+      }
+    ],
+    "key_actions": [],
+    "region": "central_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

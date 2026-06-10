@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wales_llywelyn_1267_c03",
+  "statement": "Edward I's conquest of Wales (1277-1283) extinguished independent Welsh princeship.",
+  "subject_ids": [
+    "principality_of_wales"
+  ],
+  "period": {
+    "from": 1267,
+    "to": 1267
+  },
+  "derived_from": "wales_llywelyn_1267",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

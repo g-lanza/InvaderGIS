@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_conquest_of_ceuta_1415",
+  "name": "Conquest of Ceuta",
+  "subtype": "battle",
+  "start_year": 1415,
+  "end_year": 1415,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2888296"
+    }
+  },
+  "description": "Battle during Moroccan–Portuguese conflicts (1415)",
+  "coords": [
+    -5.3003,
+    35.8958
+  ]
+}

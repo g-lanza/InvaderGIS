@@ -1,0 +1,34 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_templar_jerusalem",
+  "statement": "The Knights Templar were founded in Jerusalem c. 1119 by Hugh de Payns and Godfrey de Saint-Omer to protect pilgrims on the dangerous roads to Jerusalem. St. Bernard of Clairvaux wrote their rule and championed their recognition at the Council of Troyes (1129). The Templars became the most powerful military order in the Crusader states — holding massive castles like Château Pèlerin — and simultaneously developed the first European banking system, allowing pilgrims to deposit money in Europe and withdraw it in the Holy Land. The Order's enormous wealth and privileges made it politically dangerous after the fall of Acre (1291).",
+  "subject_ids": [
+    "kingdom_of_jerusalem",
+    "teutonic_order_state"
+  ],
+  "predicate": "vassalage",
+  "derived_from": "rel_templar_jerusalem",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k",
+      "christiansen_the_1997",
+      "urban_the_1994",
+      "turnbull_crusader_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "teutonic_order_state"
+  ],
+  "period": {
+    "from": 1230,
+    "to": 1291
+  }
+}

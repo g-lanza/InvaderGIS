@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_covadonga_718",
+  "name": "Battle of Covadonga",
+  "year": 718,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    38.45,
+    15.25
+  ],
+  "entity": "kingdom_of_asturias",
+  "summary": "Battle of Covadonga (718 CE), at Covadonga (part of Reconquista). Source: Wikidata Q957186.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_asturias",
+      "umayyad_caliphate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "lombard_league_1167",
+  "name": "Formation of the Lombard League",
+  "year": 1167,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    45.65,
+    9.4
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Sixteen northern Italian communes, led by Milan and supported by Pope Alexander III, form the Lombard League at Pontida in April 1167 to resist Emperor Frederick I Barbarossa's efforts to reassert direct imperial control over Italian cities. Frederick had razed Milan in 1162; the League rebuilds it and constructs a new fortress city, Alessandria, specifically to block imperial invasion routes. The allied cities field professional communal militias trained to fight on foot.",
+  "outcomes": [
+    "sixteen_cities_allied",
+    "milan_rebuilt",
+    "imperial_authority_challenged"
+  ],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "commune_of_milan",
+      "republic_of_venice",
+      "republic_of_genoa",
+      "papal_states"
+    ],
+    "structural_significance": "Demonstrates that urban communes can defeat feudal emperors when organized collectively; the League's victory at Legnano (1176) forces Frederick to recognize communal self-governance in the Peace of Constance (1183); establishes the legal precedent for Italian city autonomy that shapes the Renaissance era; the Lombard League is revived in the 13th century against Frederick II",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

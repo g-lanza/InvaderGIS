@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "establishment_of_islam_632",
+  "name": "Death of Muhammad and Early Caliphate",
+  "year": 632,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    24.5,
+    39.6
+  ],
+  "entity": "rashidun_caliphate",
+  "summary": "Muhammad dies in Medina after unifying most of Arabia under Islam. The question of succession (khalifa = caliph) creates immediate controversy. Abu Bakr becomes the first caliph; his two-year reign suppresses tribal apostasy wars (Ridda Wars) and launches the first Islamic conquests of Byzantine Syria and Sassanid Persia. The speed of expansion suggests a powerful combination of military skill, religious motivation, and Byzantine-Sassanid exhaustion.",
+  "outcomes": [
+    "rashidun_caliphate",
+    "succession_question",
+    "rapid_conquests_begin"
+  ],
+  "_quarry": {
+    "participants": [
+      "rashidun_caliphate"
+    ],
+    "structural_significance": "The establishment of the caliphate creates the model of Islamic governance that shapes Muslim political thought to the present; the rapid conquests transform the political map from Spain to India within 100 years.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

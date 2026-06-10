@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kublai_great_khan_1260",
+  "name": "Kublai becomes Great Khan",
+  "year": 1260,
+  "type": "succession_crisis",
+  "category": "power",
+  "coords": [
+    48.5,
+    44.5
+  ],
+  "entity": "golden_horde",
+  "summary": "After the death of Möngke Khan (1259), Kublai Khan claims the title of Great Khan despite the opposition of his younger brother Ariq Böke, who held traditional Mongolian support. The resulting civil war (1260–1264) fragments the unified Mongol Empire irreversibly. Kublai's victory leaves him in control of China and nominal suzerainty over the other Mongol khanates, but the Golden Horde, the Ilkhanate, and the Chagatai Khanate effectively become independent. Kublai founds the Yuan dynasty in China (1271) and moves the Mongol capital to Dadu (Beijing). His failed invasions of Japan (1274, 1281) and Vietnam demonstrate the limits of Mongol power at sea.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "golden_horde"
+    ],
+    "structural_significance": "The civil war following Möngke Khan's death definitively fragments the Mongol Empire into four independent khanates; Kublai's focus on China shifts Mongol center of gravity eastward; the failed invasions of Japan preserve Japanese independence and create the 'kamikaze' (divine wind) legend",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "allsen_mongol_1987"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

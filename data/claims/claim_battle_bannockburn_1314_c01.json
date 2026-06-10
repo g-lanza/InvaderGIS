@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_battle_bannockburn_1314_c01",
+  "statement": "Robert the Bruce defeated Edward II's much larger invasion force at Bannockburn in 1314 by choosing ground that neutralized English archery and cavalry.",
+  "subject_ids": [
+    "kingdom_of_scotland"
+  ],
+  "period": {
+    "from": 1314,
+    "to": 1314
+  },
+  "derived_from": "battle_bannockburn_1314",
+  "unresolved_sources": [
+    "brown_the_2004"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "barrell_medieval_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

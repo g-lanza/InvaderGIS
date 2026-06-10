@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "chartres_school_1120",
+  "name": "The Cathedral School of Chartres",
+  "year": 1120,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    48.45,
+    1.48
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Under Bernard of Chartres, Thierry of Chartres, William of Conches, and Bishop Gilbert de la Porrée, the cathedral school at Chartres becomes the leading centre of 12th-century Latin Platonist philosophy and study of natural causes. Its alumni and texts shape the early universities of Paris and Oxford.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france"
+    ],
+    "structural_significance": "Transmits a synthesised reading of Plato's Timaeus, Boethius, Augustine, and newly-translated Aristotle to the next generation of scholastics. The phrase 'dwarfs standing on the shoulders of giants' is attributed to Bernard of Chartres.",
+    "year_range": [
+      1100,
+      1180
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

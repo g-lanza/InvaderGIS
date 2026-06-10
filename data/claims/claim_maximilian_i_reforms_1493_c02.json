@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_maximilian_i_reforms_1493_c02",
+  "statement": "Maximilian I developed the Landsknecht mercenary infantry that became a dominant European military force.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1493,
+    "to": 1493
+  },
+  "derived_from": "maximilian_i_reforms_1493",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

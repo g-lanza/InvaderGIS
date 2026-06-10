@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "clovis_battle_tolbiac_496",
+  "name": "Battle of Tolbiac, Clovis Against the Alamanni",
+  "year": 496,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    50.77,
+    6.08
+  ],
+  "entity": "merovingian_kingdom",
+  "summary": "Clovis I defeats the Alamanni at the Battle of Tolbiac (near Cologne), reportedly vowing to convert to Christianity if he wins. The victory halts Alamannic expansion into the Rhine valley and establishes Frankish dominance over the central Rhineland. The conversion vow, fulfilled in 498 at Reims, becomes the founding myth connecting Frankish military success with Catholic Christianity.",
+  "outcomes": [
+    "franks_defeat_alamanni",
+    "clovis_vow_to_convert",
+    "frankish_expansion_east"
+  ],
+  "_quarry": {
+    "participants": [
+      "merovingian_kingdom"
+    ],
+    "structural_significance": "Tolbiac illustrates how battlefield vows and conversion linked military success to religious transformation in early medieval consciousness; the battle secures the Rhine frontier that becomes the eastern boundary of the Carolingian heartland; Clovis's Catholicism (rather than Arianism) gives him a military-ideological advantage over Arian German rivals",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wood_the_1994",
+      "geary_before_1988"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

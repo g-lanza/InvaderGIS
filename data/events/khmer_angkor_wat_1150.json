@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "khmer_angkor_wat_1150",
+  "name": "Angkor Wat Constructed by Suryavarman II",
+  "year": 1150,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    11.723,
+    104.06
+  ],
+  "entity": "khmer_empire",
+  "summary": "Suryavarman II completed Angkor Wat, the largest religious monument ever built. Dedicated to Vishnu and designed as his funeral temple, it covers 400 acres and took an estimated 300,000 workers and 6,000 elephants to construct.",
+  "outcomes": [
+    "angkor_wat_built",
+    "vishnu_temple",
+    "khmer_art_peak"
+  ],
+  "_quarry": {
+    "participants": [
+      "khmer_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

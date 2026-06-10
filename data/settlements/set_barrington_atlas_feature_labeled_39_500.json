@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_barrington_atlas_feature_labeled_39_500",
+  "name": "Barrington Atlas feature labeled 39",
+  "importance": "city",
+  "start_year": 500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "inferred",
+    "external_ids": {
+      "pleiades": "140470"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    1.9718,
+    46.1085
+  ]
+}

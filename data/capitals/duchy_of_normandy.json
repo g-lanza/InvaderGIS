@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_normandy",
+  "name": "Rouen",
+  "entity_id": "duchy_of_normandy",
+  "entity_name": "Duchy of Normandy",
+  "start_year": 911,
+  "end_year": 1204,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q842091"
+    }
+  },
+  "coords": [
+    1.1025,
+    49.44306
+  ]
+}

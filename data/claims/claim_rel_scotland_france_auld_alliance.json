@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_scotland_france_auld_alliance",
+  "statement": "The Auld Alliance (the 'Old Alliance' between Scotland and France, traditionally dated to 1295) was the defining axis of Scottish foreign policy for over 200 years. Formally renewed multiple times, the Alliance provided Scotland with French diplomatic support and occasional military assistance against English pressure; France received Scottish military manpower for service in the French army (the Scots Guard, established 1418, protected French kings personally until 1830). The Alliance peaked when Scots fought at Baugé (1421) and the Hundred Years' War; it faded after the Scottish Reformation (1560) aligned Scotland with Protestant England.",
+  "subject_ids": [
+    "kingdom_of_scotland",
+    "kingdom_of_france"
+  ],
+  "predicate": "alliance",
+  "derived_from": "rel_scotland_france_auld_alliance",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "barrell_medieval_2000",
+      "brown_the_2004",
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1295,
+    "to": 1500
+  }
+}

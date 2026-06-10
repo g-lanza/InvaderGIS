@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_roche_au_moine_1214",
+  "name": "Battle of Roche-au-Moine",
+  "year": 1214,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    49.5,
+    0.75
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Battle of Roche-au-Moine (1214 CE), at Savennières (part of Anglo-French War of 1213–14). Source: Wikidata Q1575254.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "kingdom_of_england"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

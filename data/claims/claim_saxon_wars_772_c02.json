@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_saxon_wars_772_c02",
+  "statement": "Charlemagne destroyed the Irminsul, a sacred Saxon pillar, in 772.",
+  "subject_ids": [
+    "carolingian_empire"
+  ],
+  "period": {
+    "from": 772,
+    "to": 772
+  },
+  "derived_from": "saxon_wars_772",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "mckitterick_charlemagne_2008",
+      "riché_the_1993",
+      "nelson_king_2019"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

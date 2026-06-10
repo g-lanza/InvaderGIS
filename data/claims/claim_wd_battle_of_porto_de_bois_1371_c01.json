@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_porto_de_bois_1371_c01",
+  "statement": "Battle of Porto de Bois (1371 CE), at Porto de Bois (part of First Fernandine War).",
+  "subject_ids": [
+    "crown_of_castile"
+  ],
+  "period": {
+    "from": 1371,
+    "to": 1371
+  },
+  "derived_from": "wd_battle_of_porto_de_bois_1371",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "o'callaghan_a_1975",
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

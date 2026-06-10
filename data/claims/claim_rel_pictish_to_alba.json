@@ -1,0 +1,29 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_pictish_to_alba",
+  "statement": "Union of Pictish and Dál Riatan realms under Kenneth MacAlpin narrative; boundaries disputed in scholarship.",
+  "subject_ids": [
+    "pictish_confederation",
+    "kingdom_of_alba"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_pictish_to_alba",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "kingdom_of_alba"
+  ],
+  "period": {
+    "from": 843,
+    "to": 843
+  }
+}

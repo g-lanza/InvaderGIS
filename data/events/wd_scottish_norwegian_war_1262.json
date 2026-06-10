@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_scottish_norwegian_war_1262",
+  "name": "Scottish–Norwegian War",
+  "year": 1262,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    58.5,
+    2.25
+  ],
+  "entity": "kingdom_of_scotland",
+  "summary": "Scottish–Norwegian War (1262 CE). Source: Wikidata Q430572.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_scotland",
+      "kingdom_of_norway"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "barrell_medieval_2000",
+      "brown_the_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

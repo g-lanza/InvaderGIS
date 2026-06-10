@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_suebi_kingdom_409_c01",
+  "statement": "The Suebi crossed the Pyrenees into Iberia in 409 CE as Roman frontier control collapsed.",
+  "subject_ids": [
+    "suebi_kingdom"
+  ],
+  "period": {
+    "from": 409,
+    "to": 409
+  },
+  "derived_from": "suebi_kingdom_409",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

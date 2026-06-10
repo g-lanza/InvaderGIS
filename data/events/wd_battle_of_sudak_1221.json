@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_sudak_1221",
+  "name": "Battle of Sudak",
+  "year": 1221,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    44.225,
+    34.425
+  ],
+  "entity": "empire_of_trebizond",
+  "summary": "Battle of Sudak (1221 CE), at Sudak (part of Byzantine–Seljuq Wars). Source: Wikidata Q111914409.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "empire_of_trebizond",
+      "sultanate_of_rum",
+      "kievan_rus",
+      "cuman_kipchak_confederation"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "miller_trebizond_1926",
+      "eastmond_art_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

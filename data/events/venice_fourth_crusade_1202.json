@@ -1,0 +1,42 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "venice_fourth_crusade_1202",
+  "name": "Venice Diverts the Fourth Crusade",
+  "year": 1202,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.01,
+    28.97
+  ],
+  "entity": "republic_of_venice",
+  "summary": "The Fourth Crusade contracts with Venice for transport to Egypt, agreeing to pay 85,000 silver marks. When the crusaders cannot pay, Doge Enrico Dandolo proposes attacking Zara (a Christian city that had defected to Hungary) as partial payment. After sacking Zara, the crusade is redirected to Constantinople to restore the deposed Byzantine emperor Alexios IV. When he cannot pay the promised rewards, the crusaders sack Constantinople in April 1204.",
+  "outcomes": [
+    "crusade_diverted_from_egypt",
+    "zara_sacked",
+    "constantinople_sacked_1204"
+  ],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "kingdom_of_jerusalem",
+      "byzantine_empire",
+      "latin_empire_constantinople"
+    ],
+    "structural_significance": "The Fourth Crusade's diversion reveals the vulnerability of international organizations (crusades) to the commercial interests of their logistical partners; Venice's manipulation secures the Byzantine commercial privileges that make it the dominant Mediterranean trading power for a century; the sack of Constantinople (the richest city in Christendom) by crusaders is the most damaging single event to Christian unity in the medieval period; it makes the Byzantine-Western reconciliation required to resist the Ottomans practically impossible",
+    "year_range": [
+      1202,
+      1204
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

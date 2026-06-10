@@ -1,0 +1,39 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_venice_byzantine_treaties",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "republic_of_venice",
+      "role": "principal"
+    },
+    {
+      "entity_id": "byzantine_empire",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "alliance",
+  "since": 992,
+  "until": 1171,
+  "note": "Venice's relationship with Byzantium was structured through a series of golden bulls (imperial rescripts) that granted progressively more extensive commercial privileges. Alexios I's golden bull (1082) granted Venice duty-free trade throughout the empire in exchange for naval assistance against the Normans — a more favorable position than Byzantine citizens. Subsequent agreements modified these terms. The 1171 arrest of Venetian merchants throughout the empire (by Manuel I, who favored Genoese competition) temporarily collapsed the relationship; the Fourth Crusade's sack of Constantinople (1204) was partly Venetian revenge for this humiliation. The Latin Empire then granted Venice a permanent quarter and extensive Aegean territories.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The progressive expansion of Venetian commercial privileges from 1082 onward creates an extractive dynamic that destroys Byzantine merchant capacity; the 1171 arrest demonstrates Byzantine vulnerability to commercial leverage; the Fourth Crusade transforms commercial exploitation into political conquest — the logical extreme of the treaty-based relationship"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982",
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_naval_battle_of_the_tejo_1384",
+  "name": "Naval Battle of the Tejo",
+  "year": 1384,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    40.25,
+    -6
+  ],
+  "entity": "kingdom_of_portugal",
+  "summary": "Naval Battle of the Tejo (1384 CE), at Tagus River (part of 1383–1385 Portuguese Interregnum). Source: Wikidata Q6981766.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_portugal",
+      "crown_of_castile"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

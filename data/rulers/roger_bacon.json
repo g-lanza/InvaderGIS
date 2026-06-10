@@ -1,0 +1,52 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "roger_bacon",
+  "name": "Roger Bacon",
+  "polity": "kingdom_of_england",
+  "title": "scholar",
+  "reign_start": 1240,
+  "reign_end": 1292,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 1220,
+      "death_year": 1292
+    },
+    "entity_associations": [
+      {
+        "entity_id": "kingdom_of_england",
+        "role": "scholar",
+        "start_year": 1240,
+        "end_year": 1292
+      }
+    ],
+    "key_actions": [
+      {
+        "year": 1257,
+        "summary": "Joins the Franciscans; subsequently writes in conditions of restricted output, possibly under direct supervision.",
+        "source_id": "marenbon_later_medieval_philosophy_1991"
+      },
+      {
+        "year": 1267,
+        "summary": "Sends Opus Majus, Opus Minus, and Opus Tertium to Clement IV; the trilogy argues for experimental method, mathematical natural philosophy, and improved calendar science.",
+        "source_id": "marenbon_later_medieval_philosophy_1991"
+      },
+      {
+        "year": 1278,
+        "summary": "Reportedly imprisoned by the Franciscan general Jerome of Ascoli (later Pope Nicholas IV) for 'suspected novelties'; released around 1290.",
+        "source_id": "marenbon_later_medieval_philosophy_1991"
+      }
+    ],
+    "region": "british_isles",
+    "name_variants": [
+      "Doctor Mirabilis"
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "marenbon_later_medieval_philosophy_1991"
+    ],
+    "confidence": "low"
+  }
+}

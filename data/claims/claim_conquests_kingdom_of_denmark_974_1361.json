@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_kingdom_of_denmark_974_1361",
+  "statement": "Kingdom of Denmark — campaigns and battles spanned 974–1361, from German–Danish War of 974 to Battle of Visby.",
+  "subject_ids": [
+    "kingdom_of_denmark"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_kingdom_of_denmark_974_1361",
+  "period": {
+    "from": 974,
+    "to": 1361
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_medieval_1993",
+      "roesdahl_the_1992"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

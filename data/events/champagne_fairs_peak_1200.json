@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "champagne_fairs_peak_1200",
+  "name": "Champagne Fairs at their commercial peak",
+  "year": 1200,
+  "type": "economic",
+  "category": "economy",
+  "coords": [
+    48.3,
+    4.08
+  ],
+  "entity": "county_of_champagne",
+  "summary": "Six fairs across four Champagne towns (Lagny, Bar-sur-Aube, Provins, Troyes) sustain a year-round trade cycle linking Flemish cloth, English wool, Italian silk, German silver, and Levantine spices. Fair-court justice protects foreign merchants; the comital guards safeguard the roads.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "county_of_champagne",
+      "kingdom_of_france"
+    ],
+    "structural_significance": "First sustained pan-European trade fair system; pioneers international bills of exchange and notarial credit instruments that become the basis of medieval banking. Decline after Philip IV's 1284 annexation of Champagne to the French crown and the rise of maritime Genoa-Bruges routes.",
+    "year_range": [
+      1180,
+      1280
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

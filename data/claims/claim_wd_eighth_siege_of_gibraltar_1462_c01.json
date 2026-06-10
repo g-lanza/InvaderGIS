@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_eighth_siege_of_gibraltar_1462_c01",
+  "statement": "Eighth siege of Gibraltar (1462 CE), at Gibraltar (part of Reconquista).",
+  "subject_ids": [
+    "crown_of_castile"
+  ],
+  "period": {
+    "from": 1462,
+    "to": 1462
+  },
+  "derived_from": "wd_eighth_siege_of_gibraltar_1462",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "o'callaghan_a_1975",
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

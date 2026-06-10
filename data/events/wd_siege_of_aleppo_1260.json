@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_aleppo_1260",
+  "name": "Siege of Aleppo",
+  "year": 1260,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    34.75,
+    38.675
+  ],
+  "entity": "ayyubid_sultanate",
+  "summary": "Siege of Aleppo (1260 CE), at Aleppo (part of Mongol invasions of the Levant). Source: Wikidata Q7509797.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "ayyubid_sultanate",
+      "principality_of_antioch",
+      "armenian_kingdom_of_cilicia",
+      "ilkhanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "humphreys_from_1977",
+      "lyons_saladin_1982",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

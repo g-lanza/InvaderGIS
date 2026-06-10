@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "henry_navigator_ceuta_1415",
+  "name": "Henry the Navigator and Portuguese Exploration",
+  "year": 1415,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    37.008,
+    -8.944
+  ],
+  "entity": "kingdom_of_portugal",
+  "summary": "Prince Henry of Portugal, after participating in the capture of Ceuta (1415), became the patron of systematic maritime exploration. From his base at Sagres he sponsored annual voyages down the African coast, gathered cartographic knowledge, and introduced the caravel. His captains rounded Cape Bojador in 1434 (previously thought impassable) and explored to present-day Sierra Leone before his death in 1460. Henry's patronage inaugurated the Age of Discovery.",
+  "outcomes": [
+    "Ceuta captured 1415",
+    "School of navigation established at Sagres",
+    "African coast systematically explored",
+    "Cape Bojador rounded 1434",
+    "Madeira and Azores colonized"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_portugal"
+    ],
+    "structural_significance": "The systematic organization of exploration under crown patronage, Henry's model, became the template for all subsequent European maritime empires.",
+    "year_range": [
+      1415,
+      1460
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Russell, Prince Henry the Navigator",
+      "Diffie & Winius, Foundations of the Portuguese Empire"
+    ],
+    "confidence": "low"
+  }
+}

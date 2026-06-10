@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_tortosa_808_c01",
+  "statement": "Siege of Tortosa (808 CE), at Turtusha (part of Carolingian conquest of the Spanish March).",
+  "subject_ids": [
+    "carolingian_empire"
+  ],
+  "period": {
+    "from": 808,
+    "to": 808
+  },
+  "derived_from": "wd_siege_of_tortosa_808",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "mckitterick_charlemagne_2008",
+      "riché_the_1993",
+      "nelson_king_2019"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

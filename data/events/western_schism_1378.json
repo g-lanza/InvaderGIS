@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "western_schism_1378",
+  "name": "Western Schism begins",
+  "year": 1378,
+  "type": "religious_council",
+  "category": "religion",
+  "coords": [
+    41.9,
+    12.45
+  ],
+  "entity": "papal_states",
+  "summary": "On the death of Pope Gregory XI (1378), the first pope to return to Rome after the Avignon period, a disputed election produces two popes: Urban VI in Rome and Clement VII in Avignon. For 39 years, the Latin Church has two (and eventually three) simultaneous claimants to the papacy. National loyalties determine allegiance: France, Castile, Scotland, and Naples support the Avignon papacy; England, Germany, Hungary, and Italy support Rome. The Council of Constance (1414–1418) resolves the schism but permanently damages papal moral authority.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "papal_states"
+    ],
+    "structural_significance": "Destroys the papacy's moral authority at a critical moment; demonstrates the limitation of papal power when national interests override religious unity; contributes to the conditions that make the Protestant Reformation possible",
+    "year_range": [
+      1378,
+      1417
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

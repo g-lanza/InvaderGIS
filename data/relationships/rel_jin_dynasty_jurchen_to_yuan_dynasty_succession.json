@@ -1,0 +1,31 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_jin_dynasty_jurchen_to_yuan_dynasty_succession",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "jin_dynasty_jurchen",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "yuan_dynasty",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 1271,
+  "until": 1271,
+  "note": "Derived from predecessor/successor links recorded in the jin_dynasty_jurchen and yuan_dynasty entity records. Transition anchored to yuan_dynasty start_year.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Mechanical normalisation of curated predecessor/successor links into the relationships register."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

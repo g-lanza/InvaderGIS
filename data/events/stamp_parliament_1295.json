@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "stamp_parliament_1295",
+  "name": "Model Parliament summoned",
+  "year": 1295,
+  "type": "coronation",
+  "category": "power",
+  "coords": [
+    51.5,
+    -0.13
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Edward I of England summons the 'Model Parliament' (November 1295), so named by later historians, the first assembly to include not only magnates and bishops but also knights from each shire, burgesses from each borough, and lower clergy. Edward's summons declares the constitutional principle: 'What touches all should be approved by all' (Quod omnes tangit). The assembly's purpose is to grant taxes for simultaneous wars against Scotland, France, and Wales. The Model Parliament establishes the pattern of representative assembly, two knights per shire, two burgesses per borough, that becomes standard for all subsequent parliaments.",
+  "outcomes": [
+    "tax_consult_expanded"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "kingdom_of_scotland"
+    ],
+    "structural_significance": "Establishes the institutional composition of the English Parliament; enshrines the representative principle in English constitutional practice; creates the framework that eventually limits royal power and develops into modern parliamentary democracy",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_largs_1263_c01",
+  "statement": "Battle of Largs (1263 CE), at Largs (part of Scottish–Norwegian War).",
+  "subject_ids": [
+    "kingdom_of_scotland"
+  ],
+  "period": {
+    "from": 1263,
+    "to": 1263
+  },
+  "derived_from": "wd_battle_of_largs_1263",
+  "unresolved_sources": [
+    "brown_the_2004"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "barrell_medieval_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

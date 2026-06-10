@@ -1,0 +1,200 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "inca_empire",
+  "name_primary": "Inca Empire",
+  "name_variants": [
+    "Tawantinsuyu",
+    "Tahuantinsuyu",
+    "Realm of the Four Parts"
+  ],
+  "type": "empire",
+  "region": "andean",
+  "formed": 1438,
+  "dissolved": 1572,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    -13.532,
+    -71.967
+  ],
+  "religion": "Inca state religion (Inti / Viracocha)",
+  "population_estimates": [
+    {
+      "year": 1500,
+      "estimate": 10000000,
+      "confidence": "moderate",
+      "note": "Scholarly estimates range 6–14 million at peak; midpoint reported here."
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "daltroy_incas_2014"
+    ],
+    "confidence": "low"
+  },
+  "description": "Highland Andean empire ruling from Cuzco, ascendant after Pachacuti's defence of the city against the Chancas around 1438 and expanded under Pachacuti, Tupac Inca Yupanqui, and Huayna Capac to a north-south span of some 4,000 kilometres. The empire administered through an elaborate khipu-recorded fiscal system, a road network of about 40,000 kilometres, and resettlement (mitma) policies. By 1500 it had absorbed Chimor and the southern Andean polities; its succession crisis between Atahualpa and Huascar opened the way to Pizarro's 1532 conquest.",
+  "temporal": {
+    "start_year": 1438,
+    "end_year": 1572,
+    "end_year_within_scope": 1500,
+    "notes": "Conventionally dated from Pachacuti's accession and his 1438 defence of Cuzco against the Chancas. The empire fell to the Spanish in 1533; Vilcabamba neo-Inca state to 1572. Within atlas scope to 1500."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      -13.532,
+      -71.967
+    ],
+    "core_regions": [
+      "peruvian_highlands",
+      "north_coast_peru",
+      "ecuador_highlands",
+      "northern_chile",
+      "bolivian_altiplano"
+    ],
+    "notes": "Capital Cuzco; the empire was administratively organised into four quarters (Antisuyu, Chinchaysuyu, Collasuyu, Cuntisuyu) meeting at the capital."
+  },
+  "lifecycle_phases": [
+    {
+      "start_year": 1438,
+      "end_year": 1471,
+      "description": "Pachacuti defeats Chanca; conquers Lake Titicaca region and Chimor.",
+      "phase": "expansion"
+    },
+    {
+      "start_year": 1471,
+      "end_year": 1493,
+      "description": "Topa Inca Yupanqui pushes the empire into modern Ecuador and Chile.",
+      "phase": "peak"
+    },
+    {
+      "start_year": 1493,
+      "end_year": 1527,
+      "description": "Huayna Capac founds northern co-capital at Quito; northern expansion.",
+      "phase": "imperial_apogee"
+    },
+    {
+      "start_year": 1527,
+      "end_year": 1533,
+      "description": "Civil war between Huascar and Atahualpa fractures the state on the eve of Pizarro's arrival.",
+      "phase": "succession_crisis"
+    }
+  ],
+  "rise_factors": [
+    {
+      "layer": "governance_institutional",
+      "direction": "rise",
+      "tag": "administrative_innovation",
+      "description": "Mit'a labour tax, khipu record-keeping, and decimal administration (chunkas of 10 households) enabled state coordination without writing or money.",
+      "sources": [
+        "daltroy_incas_2014"
+      ]
+    },
+    {
+      "layer": "geography_territory",
+      "direction": "rise",
+      "tag": "geographic_advantage",
+      "description": "Vertical-archipelago economy linked highland, valley, and coastal ecological zones for complementary production.",
+      "sources": [
+        "daltroy_incas_2014"
+      ]
+    },
+    {
+      "layer": "military_security",
+      "direction": "rise",
+      "tag": "military_organizational_advantage",
+      "description": "Mit'a-conscripted armies of 30,000–80,000 supported by a stone road network of ~40,000 km made rapid mobilisation possible across two thousand kilometres of mountain terrain.",
+      "sources": [
+        "daltroy_incas_2014"
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "layer": "dynastic_legitimacy",
+      "direction": "decline",
+      "tag": "succession_crisis",
+      "description": "Civil war between Huascar and Atahualpa (1527–1532) over Huayna Capac's succession weakened the state immediately before Pizarro's 1532 arrival.",
+      "sources": [
+        "daltroy_incas_2014"
+      ]
+    },
+    {
+      "layer": "population_environment",
+      "direction": "decline",
+      "tag": "epidemic_demographic",
+      "description": "Smallpox arriving via Panama in 1525–28 killed Huayna Capac and ~50% of the indigenous population before any direct European contact in Tawantinsuyu.",
+      "sources": [
+        "daltroy_incas_2014"
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Pachacuti Inca Yupanqui",
+      "role": "sapa_inca",
+      "year_start": 1438,
+      "year_end": 1471,
+      "sources": [
+        "daltroy_incas_2014"
+      ]
+    },
+    {
+      "name": "Topa Inca Yupanqui",
+      "role": "sapa_inca",
+      "year_start": 1471,
+      "year_end": 1493,
+      "sources": [
+        "daltroy_incas_2014"
+      ]
+    },
+    {
+      "name": "Huayna Capac",
+      "role": "sapa_inca",
+      "year_start": 1493,
+      "year_end": 1527,
+      "sources": [
+        "daltroy_incas_2014"
+      ]
+    },
+    {
+      "name": "Atahualpa",
+      "role": "sapa_inca",
+      "year_start": 1532,
+      "year_end": 1533,
+      "sources": [
+        "daltroy_incas_2014"
+      ]
+    }
+  ],
+  "predecessor_entity_ids": [
+    "chimor"
+  ],
+  "economic": {
+    "primary_base": "terraced highland agriculture (maize, potato, quinoa)",
+    "secondary_bases": [
+      "camelid herding",
+      "vertical-archipelago coastal exchange"
+    ],
+    "wealth_level": "very_high",
+    "revenue_sources": [
+      "mit'a labour",
+      "tribute_in_kind"
+    ],
+    "sources": [
+      "daltroy_incas_2014"
+    ]
+  },
+  "sources": [
+    {
+      "type": "book",
+      "author": "D'Altroy, Terence N.",
+      "title": "The Incas",
+      "publisher": "Wiley-Blackwell",
+      "year": 2014
+    }
+  ],
+  "monogram": "IE"
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_venice_cyprus_acquisition_1489_c03",
+  "statement": "The Ottomans took Cyprus from Venice in 1571.",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1489,
+    "to": 1489
+  },
+  "derived_from": "venice_cyprus_acquisition_1489",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

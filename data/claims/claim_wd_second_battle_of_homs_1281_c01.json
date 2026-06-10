@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_second_battle_of_homs_1281_c01",
+  "statement": "Second Battle of Homs (1281 CE), at Homs (part of Mongol invasions of the Levant).",
+  "subject_ids": [
+    "kingdom_of_georgia"
+  ],
+  "period": {
+    "from": 1281,
+    "to": 1281
+  },
+  "derived_from": "wd_second_battle_of_homs_1281",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

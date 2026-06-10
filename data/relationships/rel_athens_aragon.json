@@ -1,0 +1,35 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_athens_aragon",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "crown_of_aragon",
+      "role": "suzerain"
+    },
+    {
+      "entity_id": "duchy_of_athens",
+      "role": "vassal"
+    }
+  ],
+  "directed": true,
+  "type": "vassalage",
+  "since": 1311,
+  "until": 1388,
+  "note": "The Catalan Company — a mercenary force originally from Aragon and Catalonia — seized the Duchy of Athens (1311) after defeating the French knights at the Battle of the Kephissos. After placing themselves under the nominal sovereignty of the King of Sicily (of the Aragonese line), they created a unique Catalan cultural enclave in Attica and Boeotia. The Catalans maintained Catalan institutions (the General Council of Catalans) and Catalan language in Athens for 77 years (1311–1388). The Acciaiuoli Florentine family then displaced them; the Duchy passed to the Ottomans in 1456.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Catalan Company's seizure of Athens through military coup creates a unique Iberian cultural implant in classical Greece; the battle of the Kephissos is the paradigmatic example of professional mercenary infantry defeating armored feudal cavalry; the company's self-governance model prefigures later mercenary state-creation"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_siege_of_rouen_1418",
+  "name": "Siege of Rouen",
+  "subtype": "battle",
+  "start_year": 1418,
+  "end_year": 1418,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q815203"
+    }
+  },
+  "description": "Battle during Hundred Years' War (1418)",
+  "coords": [
+    1.1025,
+    49.4431
+  ]
+}

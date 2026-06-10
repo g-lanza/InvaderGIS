@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_kingdom_of_cyprus_1191_1426",
+  "statement": "Kingdom of Cyprus — campaigns and battles spanned 1191–1426, from Richard I Conquers Cyprus to Mamluk Egypt Sacks Limassol.",
+  "subject_ids": [
+    "kingdom_of_cyprus"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_kingdom_of_cyprus_1191_1426",
+  "period": {
+    "from": 1191,
+    "to": 1426
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

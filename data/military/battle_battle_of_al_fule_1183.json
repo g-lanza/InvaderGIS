@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_al_fule_1183",
+  "name": "Battle of Al-Fule",
+  "subtype": "battle",
+  "start_year": 1183,
+  "end_year": 1183,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2246708"
+    }
+  },
+  "description": "Battle during Crusader battles between 1149 and 1189 (1183)",
+  "coords": [
+    35.3,
+    32.6
+  ]
+}

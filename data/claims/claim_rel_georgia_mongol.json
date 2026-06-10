@@ -1,0 +1,30 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_georgia_mongol",
+  "statement": "Georgia under Mongol tribute through Ilkhanate (note: Ilkhanate not Golden Horde — using closest available).",
+  "subject_ids": [
+    "golden_horde",
+    "kingdom_of_georgia"
+  ],
+  "predicate": "tributary",
+  "derived_from": "rel_georgia_mongol",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "allsen_mongol_1987",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "kingdom_of_georgia"
+  ],
+  "period": {
+    "from": 1240,
+    "to": 1330
+  }
+}

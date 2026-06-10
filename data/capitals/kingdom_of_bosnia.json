@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_bosnia",
+  "name": "Bobovac",
+  "entity_id": "kingdom_of_bosnia",
+  "entity_name": "Kingdom of Bosnia",
+  "start_year": 1180,
+  "end_year": 1463,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2980623"
+    }
+  },
+  "coords": [
+    18.23805,
+    44.13668
+  ]
+}

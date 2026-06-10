@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_zedazeni_castle_1103_c01",
+  "statement": "Siege of Zedazeni Castle (1103 CE), at Zedazeni (part of unification of the Georgian realm).",
+  "subject_ids": [
+    "kingdom_of_georgia"
+  ],
+  "period": {
+    "from": 1103,
+    "to": 1103
+  },
+  "derived_from": "wd_siege_of_zedazeni_castle_1103",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

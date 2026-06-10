@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "truce_of_god_1027",
+  "name": "Truce of God promulgated",
+  "year": 1027,
+  "type": "religious_council",
+  "category": "religion",
+  "coords": [
+    42.6033,
+    2.8917
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "The Council of Elne (1027) and Toulouges (1041) extend the Peace of God by prohibiting warfare on certain days of the week (initially Thursday through Sunday, the Treuga Dei) and during Lent and Advent. The Truce becomes general canon law through 11th-century papal endorsement.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "papal_states"
+    ],
+    "structural_significance": "Codifies a temporal calendar restricting legitimate Christian warfare; the principle that organised violence must be sacrally regulated underpins both the Crusades (violence redirected outward) and the later just-war tradition.",
+    "year_range": [
+      1027,
+      1095
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "bartlett_making_of_europe_1993"
+    ],
+    "confidence": "low"
+  }
+}

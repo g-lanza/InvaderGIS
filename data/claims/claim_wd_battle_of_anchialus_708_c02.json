@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_anchialus_708_c02",
+  "statement": "The Battle of Anchialus took place at Pomorie.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 708,
+    "to": 708
+  },
+  "derived_from": "wd_battle_of_anchialus_708",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

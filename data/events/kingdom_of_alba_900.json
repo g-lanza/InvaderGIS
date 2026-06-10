@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_alba_900",
+  "name": "Kingdom of Alba Consolidates",
+  "year": 900,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    56.5,
+    -4
+  ],
+  "entity": "kingdom_of_alba",
+  "summary": "The Kingdom of Alba, formed from the merger of Pictish and Scottish peoples under Kenneth MacAlpin's dynasty, consolidated its hold over mainland Scotland north of the Forth around 900 CE. Gaelic language and culture replaced Pictish as the dominant cultural tradition of the kingdom.",
+  "outcomes": [
+    "pictish_scots_merged",
+    "gaelic_expansion",
+    "northward_consolidation"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_alba"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

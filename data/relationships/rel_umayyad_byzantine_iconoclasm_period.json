@@ -1,0 +1,39 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_umayyad_byzantine_iconoclasm_period",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "umayyad_emirate_cordoba",
+      "role": "principal"
+    },
+    {
+      "entity_id": "byzantine_empire",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 756,
+  "until": 800,
+  "note": "Mediterranean naval and territorial competition; Umayyad Iberia distinct from caliphal Damascus but participated in broader Mediterranean conflict.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Umayyad siege of Constantinople (717–718) and Byzantine iconoclasm (726) were causally linked: Emperor Leo III's religious reform was partly motivated by the need to rally theological unity against Islamic propaganda claiming that Christian image-worship was idolatrous; the Umayyad military pressure thus inadvertently triggered the Byzantine doctrinal crisis that fractured relations with Rome and created conditions for the Carolingian-papal alliance."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "constable_medieval_1997",
+      "kennedy_muslim_1996",
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

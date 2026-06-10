@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "granada_nasrid_1238",
+  "name": "Muhammad I Establishes the Nasrid Emirate of Granada",
+  "year": 1238,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    37.18,
+    -3.6
+  ],
+  "entity": "emirate_of_granada",
+  "summary": "Muhammad I ibn al-Ahmar founds the Nasrid Emirate of Granada after the Almohad collapse. He accepts Castilian suzerainty (paying tribute and providing military assistance) in exchange for political independence, a pragmatic arrangement that ensures the emirate's survival for 254 years. The Alhambra palace complex begins construction under Muhammad I and his successors, becoming the finest surviving example of Nasrid architecture.",
+  "outcomes": [
+    "nasrid_dynasty_founded",
+    "alhambra_construction_begins",
+    "last_muslim_state_iberia"
+  ],
+  "_quarry": {
+    "participants": [
+      "emirate_of_granada"
+    ],
+    "structural_significance": "The Nasrid strategy of accommodation and tribute payment to Castile is the most successful diplomatic approach in al-Andalus history; it preserves a Muslim state in Iberia for two and a half centuries after the Almohad collapse; the Alhambra and the cultural florescence of Nasrid Granada represents the final flower of Andalusian civilization; the emirate's fall in 1492 ends 781 years of Muslim political presence in Iberia",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "harvey_islamic_1990",
+      "fernández-puertas_the_1997"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

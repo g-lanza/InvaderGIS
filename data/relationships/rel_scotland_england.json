@@ -1,0 +1,39 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_scotland_england",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_scotland",
+      "role": "principal"
+    },
+    {
+      "entity_id": "kingdom_of_england",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 1066,
+  "until": 1500,
+  "note": "Anglo-Scottish relations from the Norman Conquest (1066) through the medieval period were defined by English attempts at dominance and Scottish resistance. The Wars of Scottish Independence (1296–1357) — triggered by Edward I's attempt to make Scotland an English vassal — produced William Wallace, Robert Bruce, and the Declaration of Arbroath (1320). The 1328 Treaty of Edinburgh-Northampton recognized Scottish independence. The 'Auld Alliance' with France defined Scottish policy throughout the Hundred Years' War. Periodic warfare continued until the Union of Crowns (1603).",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Defines Scottish national identity through resistance to English dominance; the Wars of Independence create Scotland's foundational political mythology; the Auld Alliance shapes French-English-Scottish triangular diplomacy for 300 years"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "barrell_medieval_2000",
+      "brown_the_2004",
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

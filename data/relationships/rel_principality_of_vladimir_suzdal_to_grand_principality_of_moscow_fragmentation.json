@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_principality_of_vladimir_suzdal_to_grand_principality_of_moscow_fragmentation",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "principality_of_vladimir_suzdal",
+      "role": "parent"
+    },
+    {
+      "entity_id": "grand_principality_of_moscow",
+      "role": "fragment"
+    }
+  ],
+  "directed": true,
+  "type": "fragmentation",
+  "since": 1283,
+  "until": 1283,
+  "note": "Derived from predecessor/successor links recorded in the principality_of_vladimir_suzdal and grand_principality_of_moscow entity records. Transition anchored to grand_principality_of_moscow start_year.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Mechanical normalisation of curated predecessor/successor links into the relationships register."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "franklin_the_1996",
+      "halperin_russia_1985",
+      "fennell_the_1983",
+      "ostrowski_muscovy_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

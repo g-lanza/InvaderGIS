@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "fort_conwy",
+  "name": "Conwy Castle",
+  "subtype": "fort",
+  "start_year": 1283,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "Edwardian castle in Wales; part of the iron ring",
+  "coords": [
+    -3.838,
+    53.28
+  ]
+}

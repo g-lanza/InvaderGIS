@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "siege_antioch_1098",
+  "name": "Siege of Antioch 1098",
+  "subtype": "siege",
+  "start_year": 1098,
+  "end_year": 1098,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "First Crusade captures Antioch after months-long siege",
+  "coords": [
+    36.16,
+    36.2
+  ]
+}

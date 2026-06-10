@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_malta_1283",
+  "name": "Battle of Malta",
+  "subtype": "battle",
+  "start_year": 1283,
+  "end_year": 1283,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2889222"
+    }
+  },
+  "description": "Battle during War of the Sicilian Vespers (1283)",
+  "coords": [
+    14.5206,
+    35.895
+  ]
+}

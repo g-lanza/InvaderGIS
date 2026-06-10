@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "medina_constitution_622",
+  "name": "The Constitution of Medina, Islamic Political Community",
+  "year": 622,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    24.46,
+    39.61
+  ],
+  "entity": "umayyad_caliphate",
+  "summary": "Muhammad's Constitution of Medina (c. 622) establishes a political community (umma) encompassing Muslim, Jewish, and Arab pagan tribes in Medina. It defines mutual defense obligations, judicial procedures, and the relationship between religious and tribal identity. The document is the earliest surviving example of Islamic constitutional thought and establishes principles that Islamic political theorists develop for centuries.",
+  "outcomes": [
+    "umma_defined",
+    "muslim_jewish_christian_relations",
+    "islamic_political_theory_origins"
+  ],
+  "_quarry": {
+    "participants": [
+      "umayyad_caliphate"
+    ],
+    "structural_significance": "The Constitution of Medina is foundational for Islamic political theory; its pluralist approach (including non-Muslims in the umma) contrasts with later Islamic polities' dhimmi system; its combination of religious and political authority in a single leadership structure (Muhammad as both prophet and political leader) creates the caliphate model; modern Islamic constitutionalists continue to debate whether Medina or the later caliphate represents the authentic Islamic political ideal",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_the_2004",
+      "hawting_the_2000",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_golden_horde_1237_1470",
+  "statement": "Golden Horde — campaigns and battles spanned 1237–1470, from Mongol Invasion of Rus to Battle of Lipnic.",
+  "subject_ids": [
+    "golden_horde"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_golden_horde_1237_1470",
+  "period": {
+    "from": 1237,
+    "to": 1470
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "allsen_mongol_1987"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

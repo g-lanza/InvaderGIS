@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_yijing_pilgrimage_695_c01",
+  "statement": "Tang Buddhist monk Yijing (635–713) completes a 24-year journey to India by the southern sea route via Srivijaya (Sumatra), in contrast to Xuanzang's overland route.",
+  "subject_ids": [
+    "tang_dynasty"
+  ],
+  "period": {
+    "from": 695,
+    "to": 695
+  },
+  "derived_from": "yijing_pilgrimage_695",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "twitchett_cambridge_history_china_v3_1979",
+      "hall_history_southeast_asia_2011"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

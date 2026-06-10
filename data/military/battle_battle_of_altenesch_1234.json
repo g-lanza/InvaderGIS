@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_altenesch_1234",
+  "name": "Battle of Altenesch",
+  "subtype": "battle",
+  "start_year": 1234,
+  "end_year": 1234,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2236796"
+    }
+  },
+  "description": "Battle during Crusade against the Stedinger (1234)",
+  "coords": [
+    8.6236,
+    53.1276
+  ]
+}

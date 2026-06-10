@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_navarre_1234_c01",
+  "statement": "The extinction of Navarre's native dynasty in 1234 brought the House of Champagne to the throne of Navarre.",
+  "subject_ids": [
+    "kingdom_of_navarre"
+  ],
+  "period": {
+    "from": 1234,
+    "to": 1234
+  },
+  "derived_from": "navarre_1234",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "emirate_of_sicily_827",
+  "name": "Arab Conquest of Sicily Begins",
+  "year": 827,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    37.655,
+    14.078
+  ],
+  "entity": "emirate_of_sicily",
+  "summary": "The Aghlabid dynasty of North Africa launched the invasion of Byzantine Sicily in 827 CE, beginning a decades-long conquest. By 902 the island was largely under Arab control, transforming it into a flourishing Islamic emirate that became one of the most prosperous territories in the Mediterranean.",
+  "outcomes": [
+    "byzantine_sicily_attacked",
+    "aghlabid_invasion",
+    "island_transformation_begins"
+  ],
+  "_quarry": {
+    "participants": [
+      "emirate_of_sicily"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

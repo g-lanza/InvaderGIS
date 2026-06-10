@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_siege_of_montargis_1427",
+  "name": "Siege of Montargis",
+  "subtype": "battle",
+  "start_year": 1427,
+  "end_year": 1427,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q39071913"
+    }
+  },
+  "description": "Battle during Hundred Years' War (1427)",
+  "coords": [
+    2.7325,
+    47.9969
+  ]
+}

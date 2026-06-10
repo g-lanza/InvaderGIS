@@ -1,0 +1,1554 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_georgia",
+  "name_primary": "Kingdom of Georgia",
+  "name_variants": [
+    "Sakartvelo",
+    "Georgia"
+  ],
+  "type": "kingdom",
+  "region": "eastern_europe",
+  "formed": 888,
+  "dissolved": 1490,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 1000,
+      "label": "Kingdom of Georgia",
+      "polygon": [
+        [
+          40.95,
+          43.33
+        ],
+        [
+          40.66,
+          42.67
+        ],
+        [
+          41.46,
+          41.52
+        ],
+        [
+          41.79,
+          41.68
+        ],
+        [
+          42.79,
+          41.41
+        ],
+        [
+          43.63,
+          39.74
+        ],
+        [
+          43.03,
+          43.06
+        ],
+        [
+          42.37,
+          45.29
+        ],
+        [
+          42.42,
+          45.98
+        ],
+        [
+          42.23,
+          46.22
+        ],
+        [
+          42.06,
+          45.87
+        ],
+        [
+          41.7,
+          45.83
+        ],
+        [
+          41.35,
+          44.81
+        ],
+        [
+          40.94,
+          44.55
+        ],
+        [
+          41.12,
+          44.03
+        ],
+        [
+          40.95,
+          43.33
+        ]
+      ]
+    },
+    {
+      "year": 1100,
+      "label": "Kingdom of Georgia",
+      "polygon": [
+        [
+          41.12,
+          44.03
+        ],
+        [
+          40.66,
+          42.67
+        ],
+        [
+          41.46,
+          41.52
+        ],
+        [
+          41.79,
+          41.68
+        ],
+        [
+          42.79,
+          41.41
+        ],
+        [
+          43.63,
+          39.74
+        ],
+        [
+          43.03,
+          43.06
+        ],
+        [
+          42.37,
+          45.29
+        ],
+        [
+          42.42,
+          45.98
+        ],
+        [
+          42.23,
+          46.22
+        ],
+        [
+          42.06,
+          45.87
+        ],
+        [
+          41.7,
+          45.83
+        ],
+        [
+          41.35,
+          44.81
+        ],
+        [
+          40.94,
+          44.55
+        ],
+        [
+          41.12,
+          44.03
+        ]
+      ]
+    },
+    {
+      "year": 1200,
+      "label": "Georgia",
+      "polygon": [
+        [
+          41.79,
+          41.68
+        ],
+        [
+          42.61,
+          41.5
+        ],
+        [
+          43.02,
+          41.12
+        ],
+        [
+          42.83,
+          43.55
+        ],
+        [
+          42.44,
+          45.26
+        ],
+        [
+          41.84,
+          45.56
+        ],
+        [
+          41.46,
+          45.43
+        ],
+        [
+          40.95,
+          43.33
+        ],
+        [
+          41.37,
+          43.37
+        ],
+        [
+          41.71,
+          43.11
+        ],
+        [
+          41.79,
+          41.68
+        ]
+      ]
+    },
+    {
+      "year": 1300,
+      "label": "Georgia",
+      "polygon": [
+        [
+          41.44,
+          41.48
+        ],
+        [
+          42.12,
+          41.65
+        ],
+        [
+          42.79,
+          41.41
+        ],
+        [
+          43.02,
+          41.12
+        ],
+        [
+          42.83,
+          43.55
+        ],
+        [
+          42.44,
+          45.26
+        ],
+        [
+          42.03,
+          44.45
+        ],
+        [
+          41.44,
+          41.48
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    42.0991,
+    43.4946
+  ],
+  "religion": "orthodox",
+  "population_estimates": [
+    {
+      "year": 1000,
+      "estimate": 800000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q154667",
+          "url": "https://www.wikidata.org/wiki/Q154667",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Georgia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Georgia"
+        }
+      ]
+    },
+    {
+      "year": 1200,
+      "estimate": 2000000,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q154667",
+          "url": "https://www.wikidata.org/wiki/Q154667",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Georgia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Georgia"
+        }
+      ]
+    },
+    {
+      "year": 1300,
+      "estimate": 800000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q154667",
+          "url": "https://www.wikidata.org/wiki/Q154667",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Georgia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Georgia"
+        }
+      ]
+    },
+    {
+      "year": 1400,
+      "estimate": 500000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q154667",
+          "url": "https://www.wikidata.org/wiki/Q154667",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Georgia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Georgia"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low"
+  },
+  "description": "Caucasian kingdom (c. 888–1490) that under Queen Tamar (1184–1213) reached its medieval apex, controlling Armenia, northern Persia, and parts of Anatolia; its role as protector of Armenian Christianity and Orthodox cultural patronage made it the eastern bulwark of Christendom until Mongol invasions fractured its territorial coherence.",
+  "temporal": {
+    "start_year": 888,
+    "end_year": 1490,
+    "end_year_within_scope": null,
+    "start_event_id": null,
+    "end_event_id": null,
+    "notes": "Bagrationi golden age; Tamar's reign peak; Caucasian Christian kingdom."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      42.0991,
+      43.4946
+    ],
+    "core_regions": [
+      "Kartli",
+      "Iberia"
+    ],
+    "polygon_simplified": [
+      [
+        41.79,
+        41.68
+      ],
+      [
+        42.61,
+        41.5
+      ],
+      [
+        43.02,
+        41.12
+      ],
+      [
+        42.83,
+        43.55
+      ],
+      [
+        42.44,
+        45.26
+      ],
+      [
+        41.84,
+        45.56
+      ],
+      [
+        41.46,
+        45.43
+      ],
+      [
+        40.95,
+        43.33
+      ],
+      [
+        41.37,
+        43.37
+      ],
+      [
+        41.71,
+        43.11
+      ],
+      [
+        41.79,
+        41.68
+      ]
+    ],
+    "notes": "Centroid approximate; polygon pending schematic or OHM sourcing.",
+    "polygon_snapshots": [
+      {
+        "year": 1000,
+        "label": "Kingdom of Georgia",
+        "polygon": [
+          [
+            40.95,
+            43.33
+          ],
+          [
+            40.66,
+            42.67
+          ],
+          [
+            41.46,
+            41.52
+          ],
+          [
+            41.79,
+            41.68
+          ],
+          [
+            42.79,
+            41.41
+          ],
+          [
+            43.63,
+            39.74
+          ],
+          [
+            43.03,
+            43.06
+          ],
+          [
+            42.37,
+            45.29
+          ],
+          [
+            42.42,
+            45.98
+          ],
+          [
+            42.23,
+            46.22
+          ],
+          [
+            42.06,
+            45.87
+          ],
+          [
+            41.7,
+            45.83
+          ],
+          [
+            41.35,
+            44.81
+          ],
+          [
+            40.94,
+            44.55
+          ],
+          [
+            41.12,
+            44.03
+          ],
+          [
+            40.95,
+            43.33
+          ]
+        ]
+      },
+      {
+        "year": 1100,
+        "label": "Kingdom of Georgia",
+        "polygon": [
+          [
+            41.12,
+            44.03
+          ],
+          [
+            40.66,
+            42.67
+          ],
+          [
+            41.46,
+            41.52
+          ],
+          [
+            41.79,
+            41.68
+          ],
+          [
+            42.79,
+            41.41
+          ],
+          [
+            43.63,
+            39.74
+          ],
+          [
+            43.03,
+            43.06
+          ],
+          [
+            42.37,
+            45.29
+          ],
+          [
+            42.42,
+            45.98
+          ],
+          [
+            42.23,
+            46.22
+          ],
+          [
+            42.06,
+            45.87
+          ],
+          [
+            41.7,
+            45.83
+          ],
+          [
+            41.35,
+            44.81
+          ],
+          [
+            40.94,
+            44.55
+          ],
+          [
+            41.12,
+            44.03
+          ]
+        ]
+      },
+      {
+        "year": 1200,
+        "label": "Georgia",
+        "polygon": [
+          [
+            41.79,
+            41.68
+          ],
+          [
+            42.61,
+            41.5
+          ],
+          [
+            43.02,
+            41.12
+          ],
+          [
+            42.83,
+            43.55
+          ],
+          [
+            42.44,
+            45.26
+          ],
+          [
+            41.84,
+            45.56
+          ],
+          [
+            41.46,
+            45.43
+          ],
+          [
+            40.95,
+            43.33
+          ],
+          [
+            41.37,
+            43.37
+          ],
+          [
+            41.71,
+            43.11
+          ],
+          [
+            41.79,
+            41.68
+          ]
+        ]
+      },
+      {
+        "year": 1300,
+        "label": "Georgia",
+        "polygon": [
+          [
+            41.44,
+            41.48
+          ],
+          [
+            42.12,
+            41.65
+          ],
+          [
+            42.79,
+            41.41
+          ],
+          [
+            43.02,
+            41.12
+          ],
+          [
+            42.83,
+            43.55
+          ],
+          [
+            42.44,
+            45.26
+          ],
+          [
+            42.03,
+            44.45
+          ],
+          [
+            41.44,
+            41.48
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "real_historical_boundary",
+    "polygon_source": "aourednik/historical-basemaps",
+    "polygon_source_date": "2026-05-09",
+    "capital": {
+      "name": "Tbilisi",
+      "coords": [
+        41.7225,
+        44.7925
+      ],
+      "source": "wikidata"
+    }
+  },
+  "internal_structure": {
+    "centralization": "low_to_medium",
+    "centralization_trajectory": null,
+    "governance_type": "dynastic_feudal",
+    "legitimacy_basis": [
+      "inheritance",
+      "religious_consecration"
+    ],
+    "administrative_system": ""
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "formation",
+      "years": "c.1008–1050",
+      "description": "Bagrat III unifies Georgia.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q154667",
+          "url": "https://www.wikidata.org/wiki/Q154667"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Georgia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Georgia"
+        }
+      ]
+    },
+    {
+      "phase": "expansion",
+      "years": "1050–1184",
+      "description": "David IV the Builder; Georgia conquers the Caucasus.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q154667",
+          "url": "https://www.wikidata.org/wiki/Q154667"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Georgia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Georgia"
+        }
+      ]
+    },
+    {
+      "phase": "peak",
+      "years": "1184–1220",
+      "description": "Queen Tamar; maximum extent and Golden Age.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q154667",
+          "url": "https://www.wikidata.org/wiki/Q154667"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Georgia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Georgia"
+        }
+      ]
+    },
+    {
+      "phase": "crisis",
+      "years": "1220–1330",
+      "description": "Mongol conquest and occupation.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q154667",
+          "url": "https://www.wikidata.org/wiki/Q154667"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Georgia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Georgia"
+        }
+      ]
+    },
+    {
+      "phase": "recovery_consolidation",
+      "years": "1330–1386",
+      "description": "Partial recovery under later Bagratids.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q154667",
+          "url": "https://www.wikidata.org/wiki/Q154667"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Georgia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Georgia"
+        }
+      ]
+    },
+    {
+      "phase": "decline",
+      "years": "1386–1500",
+      "description": "Timurid invasions; fragmentation into sub-kingdoms.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q154667",
+          "url": "https://www.wikidata.org/wiki/Q154667"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Georgia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Georgia"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "dynastic_consolidation",
+      "layer": "dynastic_legitimacy",
+      "description": "Bagratid dynasty unified Georgian kingdoms of Kartli, Kakheti, and Abkhazia under a single crown by 1008.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q154667",
+          "url": "https://www.wikidata.org/wiki/Q154667"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Georgia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Georgia"
+        }
+      ]
+    },
+    {
+      "tag": "religious_legitimacy",
+      "layer": "ideology_religion",
+      "description": "Georgian Orthodox Church bound cultural and political identity; Georgia styled itself as defender of Caucasian Christianity.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q154667",
+          "url": "https://www.wikidata.org/wiki/Q154667"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Georgia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Georgia"
+        }
+      ]
+    },
+    {
+      "tag": "military_organizational_advantage",
+      "layer": "military_security",
+      "description": "Georgian cavalry, reformed under David IV, became one of the most effective forces in the Caucasus and Near East.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q154667",
+          "url": "https://www.wikidata.org/wiki/Q154667"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Georgia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Georgia"
+        }
+      ]
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "dynastic_consolidation",
+      "direction": "rise",
+      "description": "The Bagratid dynasty unified Georgia's fragmented principalities under a single crown by 1008 under Bagrat III, creating a centralized monarchy capable of confronting Byzantine and Seljuk pressure.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q154667",
+          "url": "https://www.wikidata.org/wiki/Q154667"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Georgia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Georgia"
+        }
+      ],
+      "tag_prose": "bagratid_unification"
+    },
+    {
+      "layer": "ideology_religion",
+      "tag": "golden_age_culture",
+      "direction": "rise",
+      "description": "Under David the Builder and Queen Tamar (1089–1213), Georgia experienced a golden age of church construction, manuscript illumination, and the Vepkhistkaosani (Knight in the Panther's Skin) epic, projecting cultural power across the Caucasus.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q154667",
+          "url": "https://www.wikidata.org/wiki/Q154667"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Georgia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Georgia"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "external_military_pressure",
+      "layer": "military_security",
+      "description": "Mongol invasions 1220s–1240s devastated Georgia, forced tribute, and set demographic recovery back by a century.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q154667",
+          "url": "https://www.wikidata.org/wiki/Q154667"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Georgia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Georgia"
+        }
+      ]
+    },
+    {
+      "tag": "demographic_collapse",
+      "layer": "population_environment",
+      "description": "Black Death 1346 hit the Caucasus severely; combined with Timurid devastation (1386–1403), Georgia's population collapsed.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q154667",
+          "url": "https://www.wikidata.org/wiki/Q154667"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Georgia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Georgia"
+        }
+      ]
+    },
+    {
+      "tag": "succession_crisis",
+      "layer": "dynastic_legitimacy",
+      "description": "Fragmentation into the kingdoms of Kartli, Kakheti, and Imereti by the late 15th century ended unified Georgian rule.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q154667",
+          "url": "https://www.wikidata.org/wiki/Q154667"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Georgia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Georgia"
+        }
+      ]
+    },
+    {
+      "layer": "military_security",
+      "tag": "external_military_pressure",
+      "direction": "decline",
+      "description": "Mongol forces invaded Georgia in 1220 and subjected it to devastating raids; after the conquest of 1236, Georgia became a Mongol vassal state, with repeated campaigns fragmenting its political structure.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q154667",
+          "url": "https://www.wikidata.org/wiki/Q154667"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Georgia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Georgia"
+        }
+      ],
+      "tag_prose": "mongol_invasion"
+    },
+    {
+      "layer": "military_security",
+      "tag": "external_military_pressure",
+      "direction": "decline",
+      "description": "Timur's eight campaigns against Georgia between 1386 and 1403 systematically destroyed cities, massacred populations, and carried off craftsmen, shattering the kingdom's economic and cultural infrastructure.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q154667",
+          "url": "https://www.wikidata.org/wiki/Q154667"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Georgia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Georgia"
+        }
+      ],
+      "tag_prose": "timur_invasions"
+    }
+  ],
+  "key_figures": [
+    {
+      "person_id": "bagrat_iii_georgia",
+      "name": "Bagrat III",
+      "role": "dynastic_founder",
+      "years": "975–1014",
+      "year_start": 975,
+      "year_end": 1014,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Bagrat III",
+          "url": "https://en.wikipedia.org/wiki/Bagrat_III"
+        }
+      ]
+    },
+    {
+      "person_id": "david_iv_builder",
+      "name": "David IV the Builder",
+      "role": "ruler",
+      "years": "1073–1125",
+      "year_start": 1073,
+      "year_end": 1125,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "David IV the Builder",
+          "url": "https://en.wikipedia.org/wiki/David_IV"
+        }
+      ]
+    },
+    {
+      "person_id": "tamar_of_georgia",
+      "name": "Queen Tamar",
+      "role": "ruler",
+      "years": "1166–1213",
+      "year_start": 1166,
+      "year_end": 1213,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Queen Tamar",
+          "url": "https://en.wikipedia.org/wiki/Tamar_I"
+        }
+      ]
+    }
+  ],
+  "successor_entity_ids": [
+    "mongol_empire"
+  ],
+  "primary_ethnicity": "georgian",
+  "ethnic_composition": [
+    {
+      "group": "georgian",
+      "proportion": 0.52
+    },
+    {
+      "group": "armenian",
+      "proportion": 0.22
+    },
+    {
+      "group": "turkic",
+      "proportion": 0.12
+    },
+    {
+      "group": "alan",
+      "proportion": 0.08
+    },
+    {
+      "group": "persian_iranian",
+      "proportion": 0.06
+    }
+  ],
+  "religion_composition": [
+    {
+      "religion": "orthodox",
+      "proportion": 0.58
+    },
+    {
+      "religion": "armenian",
+      "proportion": 0.22
+    },
+    {
+      "religion": "islam",
+      "proportion": 0.14
+    },
+    {
+      "religion": "pagan",
+      "proportion": 0.06
+    }
+  ],
+  "primary_language": "georgian_lang",
+  "language_composition": [
+    {
+      "language": "georgian_lang",
+      "proportion": 0.52,
+      "role": "vernacular"
+    },
+    {
+      "language": "armenian_lang",
+      "proportion": 0.2,
+      "role": "regional"
+    },
+    {
+      "language": "persian",
+      "proportion": 0.14,
+      "role": "administrative"
+    },
+    {
+      "language": "arabic",
+      "proportion": 0.08,
+      "role": "liturgical"
+    },
+    {
+      "language": "greek",
+      "proportion": 0.06,
+      "role": "regional"
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "long_distance_trade",
+      "mining"
+    ],
+    "wealth_level": "high",
+    "major_exports": [
+      "wine",
+      "silk",
+      "copper",
+      "horses",
+      "gold"
+    ],
+    "major_trade_partners": [
+      "byzantine_empire",
+      "armenian_kingdom_of_cilicia",
+      "ilkhanate"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "customs_duties",
+      "tribute"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q154667",
+        "url": "https://www.wikidata.org/wiki/Q154667"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Kingdom of Georgia",
+        "url": "https://en.wikipedia.org/wiki/Kingdom_of_Georgia"
+      }
+    ]
+  },
+  "social_structure": {
+    "ruling_ethnicity": "georgian",
+    "subject_majority": "georgian",
+    "military_ethnicity": "georgian",
+    "administrative_language": "georgian_lang",
+    "stratification_type": "dynastic_multiethnic"
+  },
+  "wikidata_enrichment": {
+    "qid": "Q154667",
+    "matched_name": "Kingdom of Georgia",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Kingdom_of_Georgia",
+    "capital": {
+      "name": "Tbilisi",
+      "coords": [
+        41.7225,
+        44.7925
+      ]
+    },
+    "rulers_from_wikidata": [
+      {
+        "name": "Michael Doukas Glabas Tarchaneiotes",
+        "qid": "Q1151596",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1151596",
+            "url": "https://www.wikidata.org/wiki/Q1151596"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Michael Doukas Glabas Tarchaneiotes",
+            "url": "https://en.wikipedia.org/wiki/Michael_Doukas_Glabas_Tarchaneiotes"
+          }
+        ]
+      },
+      {
+        "name": "Eustathios Argyros",
+        "qid": "Q15622765",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q15622765",
+            "url": "https://www.wikidata.org/wiki/Q15622765"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Eustathios Argyros",
+            "url": "https://en.wikipedia.org/wiki/Eustathios_Argyros"
+          }
+        ]
+      },
+      {
+        "name": "George Phakrases",
+        "qid": "Q18169357",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q18169357",
+            "url": "https://www.wikidata.org/wiki/Q18169357"
+          },
+          {
+            "type": "wikipedia",
+            "label": "George Phakrases",
+            "url": "https://en.wikipedia.org/wiki/George_Phakrases"
+          }
+        ]
+      },
+      {
+        "name": "Andronikos Palaiologos",
+        "qid": "Q19664185",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q19664185",
+            "url": "https://www.wikidata.org/wiki/Q19664185"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Andronikos Palaiologos",
+            "url": "https://en.wikipedia.org/wiki/Andronikos_Palaiologos"
+          }
+        ]
+      },
+      {
+        "name": "Manuel Kamytzes",
+        "qid": "Q197999",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q197999",
+            "url": "https://www.wikidata.org/wiki/Q197999"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Manuel Kamytzes",
+            "url": "https://en.wikipedia.org/wiki/Manuel_Kamytzes"
+          }
+        ]
+      },
+      {
+        "name": "Nikephoros Phokas the Elder",
+        "qid": "Q211668",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q211668",
+            "url": "https://www.wikidata.org/wiki/Q211668"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Nikephoros Phokas the Elder",
+            "url": "https://en.wikipedia.org/wiki/Nikephoros_Phokas_the_Elder"
+          }
+        ]
+      },
+      {
+        "name": "Markos Palaiologos Iagaris",
+        "qid": "Q22084852",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q22084852",
+            "url": "https://www.wikidata.org/wiki/Q22084852"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Markos Palaiologos Iagaris",
+            "url": "https://en.wikipedia.org/wiki/Markos_Palaiologos_Iagaris"
+          }
+        ]
+      },
+      {
+        "name": "John Phrangopoulos",
+        "qid": "Q22084861",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q22084861",
+            "url": "https://www.wikidata.org/wiki/Q22084861"
+          },
+          {
+            "type": "wikipedia",
+            "label": "John Phrangopoulos",
+            "url": "https://en.wikipedia.org/wiki/John_Phrangopoulos"
+          }
+        ]
+      },
+      {
+        "name": "John Angelos",
+        "qid": "Q23926308",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q23926308",
+            "url": "https://www.wikidata.org/wiki/Q23926308"
+          },
+          {
+            "type": "wikipedia",
+            "label": "John Angelos",
+            "url": "https://en.wikipedia.org/wiki/John_Angelos"
+          }
+        ]
+      },
+      {
+        "name": "John Ises",
+        "qid": "Q23931494",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q23931494",
+            "url": "https://www.wikidata.org/wiki/Q23931494"
+          },
+          {
+            "type": "wikipedia",
+            "label": "John Ises",
+            "url": "https://en.wikipedia.org/wiki/John_Ises"
+          }
+        ]
+      },
+      {
+        "name": "Alexios Doukas Philanthropenos",
+        "qid": "Q248374",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q248374",
+            "url": "https://www.wikidata.org/wiki/Q248374"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Alexios Doukas Philanthropenos",
+            "url": "https://en.wikipedia.org/wiki/Alexios_Doukas_Philanthropenos"
+          }
+        ]
+      },
+      {
+        "name": "Constantin Tarchaniotès",
+        "qid": "Q2995024",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2995024",
+            "url": "https://www.wikidata.org/wiki/Q2995024"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Constantin Tarchaniotès",
+            "url": "https://en.wikipedia.org/wiki/Constantin_Tarchaniotès"
+          }
+        ]
+      },
+      {
+        "name": "Manuel Komnenos",
+        "qid": "Q3286784",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3286784",
+            "url": "https://www.wikidata.org/wiki/Q3286784"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Manuel Komnenos",
+            "url": "https://en.wikipedia.org/wiki/Manuel_I_Komnenos"
+          }
+        ]
+      },
+      {
+        "name": "Manuel the Armenian",
+        "qid": "Q3286990",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3286990",
+            "url": "https://www.wikidata.org/wiki/Q3286990"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Manuel the Armenian",
+            "url": "https://en.wikipedia.org/wiki/Manuel_the_Armenian"
+          }
+        ]
+      },
+      {
+        "name": "Alexios Axouch",
+        "qid": "Q384442",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q384442",
+            "url": "https://www.wikidata.org/wiki/Q384442"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Alexios Axouch",
+            "url": "https://en.wikipedia.org/wiki/Alexios_Axouch"
+          }
+        ]
+      },
+      {
+        "name": "Michael II",
+        "qid": "Q41640",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q41640",
+            "url": "https://www.wikidata.org/wiki/Q41640"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Michael II",
+            "url": "https://en.wikipedia.org/wiki/Michael_II"
+          }
+        ]
+      },
+      {
+        "name": "Leo V the Armenian",
+        "qid": "Q41641",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q41641",
+            "url": "https://www.wikidata.org/wiki/Q41641"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Leo V the Armenian",
+            "url": "https://en.wikipedia.org/wiki/Leo_V_the_Armenian"
+          }
+        ]
+      },
+      {
+        "name": "Filis Paleologos",
+        "qid": "Q59784046",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q59784046",
+            "url": "https://www.wikidata.org/wiki/Q59784046"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Filis Paleologos",
+            "url": "https://en.wikipedia.org/wiki/Filis_Paleologos"
+          }
+        ]
+      },
+      {
+        "name": "Giovanni Giustiniani",
+        "qid": "Q59879",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q59879",
+            "url": "https://www.wikidata.org/wiki/Q59879"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Giovanni Giustiniani",
+            "url": "https://en.wikipedia.org/wiki/Giovanni_Giustiniani"
+          }
+        ]
+      },
+      {
+        "name": "Ivan the Russian",
+        "qid": "Q6097870",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q6097870",
+            "url": "https://www.wikidata.org/wiki/Q6097870"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ivan the Russian",
+            "url": "https://en.wikipedia.org/wiki/Ivan_the_Russian"
+          }
+        ]
+      },
+      {
+        "name": "Michael Doukas",
+        "qid": "Q6829943",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q6829943",
+            "url": "https://www.wikidata.org/wiki/Q6829943"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Michael Doukas",
+            "url": "https://en.wikipedia.org/wiki/Michael_Doukas"
+          }
+        ]
+      },
+      {
+        "name": "Alexios Komnenos",
+        "qid": "Q7596674",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q7596674",
+            "url": "https://www.wikidata.org/wiki/Q7596674"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Alexios Komnenos",
+            "url": "https://en.wikipedia.org/wiki/Alexios_I_Komnenos"
+          }
+        ]
+      },
+      {
+        "name": "Theodore Synadenos",
+        "qid": "Q7782061",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q7782061",
+            "url": "https://www.wikidata.org/wiki/Q7782061"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Theodore Synadenos",
+            "url": "https://en.wikipedia.org/wiki/Theodore_Synadenos"
+          }
+        ]
+      }
+    ],
+    "population_from_wikidata": [
+      {
+        "estimate": 860000,
+        "confidence": "low",
+        "year": 1254
+      }
+    ],
+    "predecessors_from_wikidata": [
+      "Kingdom of the Iberians",
+      "Kingdom of Abkhazia",
+      "Emirate of Tbilisi",
+      "Bagratid Armenia",
+      "First Kingdom of Kakheti"
+    ],
+    "successors_from_wikidata": [
+      "Kingdom of Kartli"
+    ]
+  },
+  "sources": [
+    {
+      "type": "book",
+      "author": "Wickham, Chris",
+      "title": "The Inheritance of Rome: A History of Europe from 400 to 1000",
+      "publisher": "Allen Lane",
+      "year": 2009
+    },
+    {
+      "type": "book",
+      "author": "Abulafia, David (ed.)",
+      "title": "The New Cambridge Medieval History, Vol. V: c. 1198 – c. 1300",
+      "publisher": "Cambridge University Press",
+      "year": 1999
+    }
+  ],
+  "monogram": "GE"
+}

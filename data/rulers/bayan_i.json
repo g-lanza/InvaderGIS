@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "bayan_i",
+  "name": "Bayan I",
+  "polity": "avar_khaganate",
+  "title": "military_leader",
+  "reign_start": 565,
+  "reign_end": 602,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "avar_khaganate",
+        "role": "military_leader",
+        "start_year": 565,
+        "end_year": 602
+      }
+    ],
+    "key_actions": [],
+    "region": "central_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

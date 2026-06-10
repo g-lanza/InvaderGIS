@@ -1,0 +1,22 @@
+{
+ "kind": "polity",
+ "id": "normandy",
+ "name": "Duchy of Normandy",
+ "type": "duchy",
+ "formed": 911,
+ "dissolved": 1204,
+ "provenance": {
+  "sources_used": [
+   "ims_fordham",
+   "ims_fordham_sbook1m",
+   "ims_fordham_sbook1i"
+  ],
+  "confidence": "high",
+  "status": "draft"
+ },
+ "dataset": "medieval-europe-500-1500",
+ "_fordham_index": "sbook1m",
+ "from_sourcebook": true,
+ "name_primary": "Duchy of Normandy",
+ "monogram": "NO"
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "song_northern_loss_1127",
+  "name": "Jurchen Jin Conquer Northern China, Southern Song Begins",
+  "year": 1127,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    28.49,
+    115.988
+  ],
+  "entity": "song_empire",
+  "summary": "The Jurchen Jin Dynasty conquered northern China and captured Emperors Huizong and Qinzong. The Song court fled south to Hangzhou, creating the Southern Song. Despite losing half its territory, the Southern Song became one of the most commercially advanced civilisations in history.",
+  "outcomes": [
+    "northern_china_lost",
+    "southern_song_begins",
+    "capital_moved_hangzhou"
+  ],
+  "_quarry": {
+    "participants": [
+      "song_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

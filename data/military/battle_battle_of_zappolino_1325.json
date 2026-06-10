@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_zappolino_1325",
+  "name": "Battle of Zappolino",
+  "subtype": "battle",
+  "start_year": 1325,
+  "end_year": 1325,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q402237"
+    }
+  },
+  "description": "Battle during Guelphs and Ghibellines (1325)",
+  "coords": [
+    11.0833,
+    44.5
+  ]
+}

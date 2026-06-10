@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "castilla_navas_de_tolosa_1212",
+  "name": "Battle of Las Navas de Tolosa",
+  "year": 1212,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41,
+    -4
+  ],
+  "entity": "kingdom_of_castile",
+  "summary": "A Christian coalition of Castile, Aragon, Navarre, and Portugal crushed the Almohad Caliphate at Las Navas de Tolosa. The battle effectively ended Almohad military power in Iberia and opened Andalusia to Christian reconquest within a generation.",
+  "outcomes": [
+    "almohad_power_broken",
+    "reconquista_accelerated",
+    "christian_coalition_victory"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_castile"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

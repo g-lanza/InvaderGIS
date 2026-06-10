@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_spoleto_570",
+  "name": "Lombards Establish Duchy of Spoleto",
+  "year": 570,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    44.125,
+    10.965
+  ],
+  "entity": "duchy_of_spoleto",
+  "summary": "The Lombards established the Duchy of Spoleto around 570 CE, one of their two major southern duchies alongside Benevento. Spoleto's location in central Italy made it a constant flashpoint between Lombard, Byzantine, Frankish, and Papal interests throughout the early medieval period.",
+  "outcomes": [
+    "lombard_control",
+    "central_italy_divided",
+    "papal_corridor_threatened"
+  ],
+  "_quarry": {
+    "participants": [
+      "duchy_of_spoleto",
+      "lombard_kingdom"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

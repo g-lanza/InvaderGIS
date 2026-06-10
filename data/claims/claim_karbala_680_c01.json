@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_karbala_680_c01",
+  "statement": "On 10 October 680, Umayyad forces killed Husayn ibn Ali, grandson of the Prophet Muhammad, with his small party on the plain of Karbala in southern Iraq.",
+  "subject_ids": [
+    "umayyad_caliphate"
+  ],
+  "period": {
+    "from": 680,
+    "to": 680
+  },
+  "derived_from": "karbala_680",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "hodgson_venture_of_islam_1974"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

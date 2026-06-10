@@ -1,0 +1,30 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_duchy_of_swabia_to_swiss_confederation_fragmentation",
+  "statement": "Derived from predecessor/successor links recorded in the duchy_of_swabia and swiss_confederation entity records. Transition anchored to swiss_confederation start_year.",
+  "subject_ids": [
+    "duchy_of_swabia",
+    "swiss_confederation"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_duchy_of_swabia_to_swiss_confederation_fragmentation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "marchal_schweizer_2006",
+      "rippmann_die_2006"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "swiss_confederation"
+  ],
+  "period": {
+    "from": 1291,
+    "to": 1291
+  }
+}

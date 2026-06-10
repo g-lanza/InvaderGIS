@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_battle_dorylaeum_1097_c02",
+  "statement": "The arrival of Godfrey of Bouillon's main army turned Dorylaeum into a Crusader victory that opened the road across Anatolia.",
+  "subject_ids": [
+    "kingdom_of_jerusalem"
+  ],
+  "period": {
+    "from": 1097,
+    "to": 1097
+  },
+  "derived_from": "battle_dorylaeum_1097",
+  "unresolved_sources": [
+    "riley-smith_the_2005",
+    "prawer_the_1972",
+    "asbridge_the_2010"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

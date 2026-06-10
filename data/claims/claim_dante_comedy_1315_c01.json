@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_dante_comedy_1315_c01",
+  "statement": "Dante Alighieri completed the Divine Comedy around 1315-1321, the first major literary work in Italian rather than Latin.",
+  "subject_ids": [
+    "republic_of_florence"
+  ],
+  "period": {
+    "from": 1315,
+    "to": 1315
+  },
+  "derived_from": "dante_comedy_1315",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "najemy_a_2006",
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "avignon_papacy_detail_1309",
+  "name": "Clement V Moves to Avignon, Papal Captivity",
+  "year": 1309,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    43.95,
+    4.81
+  ],
+  "entity": "papal_states",
+  "summary": "Pope Clement V, a Frenchman dependent on Philip IV of France, establishes the papal court at Avignon (a papal territory adjacent to France) in 1309. The papacy remains there through seven popes until Gregory XI returns to Rome in 1377. The Avignon papacy becomes notorious for nepotism, fiscal exploitation through annates and reservations, and French political manipulation. Petrarch famously calls it the 'Babylonian Captivity of the Church.'",
+  "outcomes": [
+    "papacy_moves_to_france",
+    "french_cardinals_dominate",
+    "papal_independence_questioned"
+  ],
+  "_quarry": {
+    "participants": [
+      "papal_states",
+      "kingdom_of_france"
+    ],
+    "structural_significance": "The Avignon papacy damages the papacy's claim to universal authority above national politics; the perception that the pope is a French puppet undermines his role as neutral arbitrator in European conflicts; the elaborate Avignon bureaucracy (developed to extract revenue from benefices across Christendom) creates the corruption that the conciliarist and Protestant reform movements attack",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

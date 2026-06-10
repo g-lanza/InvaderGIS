@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_joan_of_arc_rouen_1431_c03",
+  "statement": "A papal retrial in 1456 posthumously rehabilitated Joan of Arc, and she was canonized in 1920.",
+  "subject_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 1431,
+    "to": 1431
+  },
+  "derived_from": "joan_of_arc_rouen_1431",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

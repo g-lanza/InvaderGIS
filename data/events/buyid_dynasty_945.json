@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "buyid_dynasty_945",
+  "name": "Buyid Dynasts Seize Baghdad",
+  "year": 945,
+  "type": "conquest",
+  "category": "violence",
+  "coords": [
+    33.33,
+    44.4
+  ],
+  "entity": "abbasid_caliphate",
+  "summary": "The Buyid (Buwayhid) amir Muizz al-Dawla enters Baghdad and effectively deposes the Abbasid Caliph al-Mustakfi, replacing him with a puppet and taking the title Amir al-Umara (Commander of Commanders). The Buyids are Shia Muslims controlling a Sunni Abbasid caliph, they keep the caliphate as a source of symbolic legitimacy while exercising real political power. The arrangement lasts until the Seljuk conquest of Baghdad (1055).",
+  "outcomes": [
+    "abbasid_caliph_reduced_to_figurehead",
+    "shia_dynasty_controls_sunni_caliph",
+    "buyid_cultural_patronage"
+  ],
+  "_quarry": {
+    "participants": [
+      "abbasid_caliphate"
+    ],
+    "structural_significance": "The Buyid seizure demonstrates that the Abbasid caliphate has become a purely symbolic institution; the pattern of dynasties maintaining a figurehead caliph while exercising real power persists until the Mongol destruction of Baghdad (1258); Buyid patronage of philosophy and Shia scholarship creates a flourishing intellectual culture in Baghdad and western Persia",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_the_2004",
+      "kennedy_when_2004",
+      "crone_gods_2004",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

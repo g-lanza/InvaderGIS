@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "carolingian_renaissance_790",
+  "name": "Carolingian Renaissance under Alcuin",
+  "year": 790,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    50.78,
+    6.08
+  ],
+  "entity": "carolingian_empire",
+  "summary": "Alcuin of York, recruited by Charlemagne to direct the palace school at Aachen, oversees a systematic recovery of classical Latin learning. Standardised Caroline minuscule script, the trivium-quadrivium curriculum, and copying programmes preserve most surviving Latin classical texts.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "carolingian_empire"
+    ],
+    "structural_significance": "Without the Carolingian copying programme roughly half the Latin classical corpus would not have survived. Caroline minuscule becomes the foundation of modern lower-case Western script; every Roman font derives from it.",
+    "year_range": [
+      780,
+      840
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "mckitterick_charlemagne_2008",
+      "riché_the_1993",
+      "nelson_king_2019"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

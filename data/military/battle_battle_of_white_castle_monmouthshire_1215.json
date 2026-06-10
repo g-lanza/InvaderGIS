@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_white_castle_monmouthshire_1215",
+  "name": "Battle of White Castle, Monmouthshire",
+  "subtype": "battle",
+  "start_year": 1215,
+  "end_year": 1215,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q61398580"
+    }
+  },
+  "description": "Battle during Norman Invasion of Wales (1215)",
+  "coords": [
+    -2.902,
+    51.8458
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_ostashkov_1301",
+  "name": "Ostashkov",
+  "importance": "city",
+  "start_year": 1301,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q176761"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    33.1,
+    57.15
+  ]
+}

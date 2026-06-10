@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "principality_of_achaea_1205",
+  "name": "Principality of Achaea Founded",
+  "year": 1205,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    37.8,
+    22.4
+  ],
+  "entity": "principality_of_achaea",
+  "summary": "Guillaume de Champlitte and Geoffrey de Villehardouin founded the Principality of Achaea (Morea) in the Peloponnese following the Fourth Crusade. The principality became one of the most stable and culturally vibrant Latin states in Greece, renowned for its chivalric court culture and the Chronicle of Morea.",
+  "outcomes": [
+    "frankish_peloponnese",
+    "latin_feudalism",
+    "troubadour_culture"
+  ],
+  "_quarry": {
+    "participants": [
+      "principality_of_achaea"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_cheolju_fortress_1231",
+  "name": "Battle of Cheolju Fortress",
+  "year": 1231,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    42.423,
+    114.922
+  ],
+  "entity": "mongol_empire",
+  "summary": "Battle of Cheolju Fortress (1231 CE), at Yalu River. Source: Wikidata Q109458658.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "mongol_empire",
+      "korea"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

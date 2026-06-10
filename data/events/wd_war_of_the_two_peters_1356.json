@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_war_of_the_two_peters_1356",
+  "name": "War of the Two Peters",
+  "year": 1356,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41.35,
+    -1.75
+  ],
+  "entity": "crown_of_aragon",
+  "summary": "War of the Two Peters (1356 CE), at Crown of Aragon (part of Hundred Years' War). Source: Wikidata Q2664602.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "crown_of_aragon",
+      "crown_of_castile"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "arab_conquest_egypt_641",
+  "name": "Arab Conquest of Egypt",
+  "year": 641,
+  "type": "conquest",
+  "category": "violence",
+  "coords": [
+    30.06,
+    31.24
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Arab general Amr ibn al-As leads a force of approximately 4,000 men from Palestine into Egypt in 639, exploiting Byzantine exhaustion after the Persian wars. He defeats the Byzantines at the Battle of Heliopolis (640) and lays siege to Alexandria. The ancient city surrenders in 641, ending seven centuries of Greco-Roman rule. Egypt's Coptic Christian population, oppressed by Constantinople over theological disputes, largely accepts Arab rule, which imposes moderate taxes and tolerates Christianity. Alexandria, once the intellectual capital of the ancient world, becomes the center of Arab trade with the Indian Ocean.",
+  "outcomes": [
+    "alexandria_surrenders",
+    "byzantine_egypt_ended",
+    "egypt_islamized"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "umayyad_caliphate"
+    ],
+    "structural_significance": "The loss of Egypt, the Empire's wealthiest province and primary grain supplier, cripples Byzantine finances permanently; Alexandria's fall ends the classical Mediterranean world order; Egypt's agricultural surplus now funds Arab expansion westward across North Africa and northward into Spain; the Coptic Church evolves separately from both Rome and Constantinople",
+    "year_range": [
+      639,
+      641
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_livonian_order_state_to_grand_duchy_of_lithuania_fragmentation",
+  "statement": "Derived from predecessor/successor links recorded in the livonian_order_state and grand_duchy_of_lithuania entity records. Transition anchored to grand_duchy_of_lithuania start_year.",
+  "subject_ids": [
+    "livonian_order_state",
+    "grand_duchy_of_lithuania"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_livonian_order_state_to_grand_duchy_of_lithuania_fragmentation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_hospitallers_1999",
+      "rowell_lithuania_1994",
+      "christiansen_the_1997"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "grand_duchy_of_lithuania"
+  ],
+  "period": {
+    "from": 1236,
+    "to": 1236
+  }
+}

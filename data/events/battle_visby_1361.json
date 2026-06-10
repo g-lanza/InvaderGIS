@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_visby_1361",
+  "name": "Battle of Visby",
+  "year": 1361,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    57.63,
+    18.3
+  ],
+  "entity": "kingdom_of_denmark",
+  "summary": "Danish King Valdemar IV Atterdag invades the wealthy Hanseatic island of Gotland (July 1361), landing at Visby. The local militia of Gutnish farmers, armed with agricultural tools and obsolete weapons, confronts the professional Danish army outside the city walls. The battle is a massacre; approximately 1,800 Gutnish defenders are killed in a single afternoon. Mass graves excavated in the 19th century revealed the bodies still in their equipment. Visby surrenders; Valdemar loots the city. The Hanseatic League, outraged, forms the Confederation of Cologne to oppose Danish control of the Baltic.",
+  "outcomes": [
+    "gotland_pillage"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_denmark",
+      "kingdom_of_sweden"
+    ],
+    "structural_significance": "Demonstrates Hanseatic weakness without military force; triggers the Hanseatic war against Denmark (1367–1370); the mass graves at Visby provide the best-preserved evidence of medieval battlefield casualties in Europe",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_medieval_1993",
+      "roesdahl_the_1992"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

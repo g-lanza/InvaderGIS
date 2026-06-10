@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "fort_stirling",
+  "name": "Stirling Castle",
+  "subtype": "fort",
+  "start_year": 1110,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "Strategic Scottish castle; key to control of central Scotland",
+  "coords": [
+    -3.947,
+    56.124
+  ]
+}

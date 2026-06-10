@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "byzantine_schism_1054",
+  "name": "The Great Schism, East-West Christianity Splits",
+  "year": 1054,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.01,
+    28.97
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Papal legate Cardinal Humbert lays a bull of excommunication on the altar of Hagia Sophia (July 16, 1054), excommunicating Patriarch Michael Cerularius; Cerularius immediately excommunicates the papal legates. The immediate cause is a dispute over filioque (whether the Holy Spirit proceeds from the Father 'and the Son') and papal primacy, but the underlying tensions are centuries old, different liturgical languages, different theological emphases, and different conceptions of church authority.",
+  "outcomes": [
+    "mutual_excommunications",
+    "latin_greek_churches_separate",
+    "christendom_permanently_divided"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "papal_states"
+    ],
+    "structural_significance": "The Great Schism permanently divides Christianity into Roman Catholic and Eastern Orthodox branches with different liturgies, theologies, and political relationships; the split ensures that Byzantium cannot receive western military aid against the Ottomans without theological compromise that its population rejects; the mutual excommunications are technically lifted only in 1964 (Paul VI and Patriarch Athenagoras); the schism shapes the different cultural trajectories of western and eastern Europe",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

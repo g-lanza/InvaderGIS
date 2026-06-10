@@ -1,0 +1,130 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_hanseatic_league_1360_1469",
+  "name": "Hanseatic League — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1360,
+  "year_end": 1469,
+  "waypoints": [
+    {
+      "year": 1360,
+      "place": "Siege of Nykøbing",
+      "coords": [
+        56.75,
+        12.5
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_nyk_bing_1360"
+    },
+    {
+      "year": 1361,
+      "place": "Second Danish-Hanseatic War",
+      "coords": [
+        53.5,
+        10
+      ],
+      "note": "military",
+      "event_id": "wd_second_danish_hanseatic_war_1361"
+    },
+    {
+      "year": 1362,
+      "place": "Battle of Helsingborg",
+      "coords": [
+        53.5,
+        10
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_helsingborg_1362"
+    },
+    {
+      "year": 1368,
+      "place": "Siege of Copenhagen",
+      "coords": [
+        53.5,
+        10
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_copenhagen_1368"
+    },
+    {
+      "year": 1368,
+      "place": "Siege of Helsingborg",
+      "coords": [
+        56.75,
+        12.5
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_helsingborg_1368"
+    },
+    {
+      "year": 1420,
+      "place": "Battle of La Rochelle",
+      "coords": [
+        49,
+        1.6667
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_la_rochelle_1420"
+    },
+    {
+      "year": 1426,
+      "place": "Dano-Hanseatic War of 1426–1435",
+      "coords": [
+        55.75,
+        11
+      ],
+      "note": "military",
+      "event_id": "wd_dano_hanseatic_war_of_1426_1435_1426"
+    },
+    {
+      "year": 1427,
+      "place": "Battle of Copenhagen (1427)",
+      "coords": [
+        55.75,
+        11
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_copenhagen_1427_1427"
+    },
+    {
+      "year": 1428,
+      "place": "Bombardment of Copenhagen",
+      "coords": [
+        55.75,
+        11
+      ],
+      "note": "military",
+      "event_id": "wd_bombardment_of_copenhagen_1428"
+    },
+    {
+      "year": 1438,
+      "place": "Dutch–Hanseatic War",
+      "coords": [
+        52.7267,
+        9.3
+      ],
+      "note": "military",
+      "event_id": "wd_dutch_hanseatic_war_1438"
+    },
+    {
+      "year": 1469,
+      "place": "Anglo-Hanseatic War",
+      "coords": [
+        53,
+        4.5
+      ],
+      "note": "military",
+      "event_id": "wd_anglo_hanseatic_war_1469"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dollinger_the_1970",
+      "hammel-kiesow_die_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

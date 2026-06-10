@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_madrid_city_1083",
+  "name": "Madrid city",
+  "importance": "city",
+  "start_year": 1083,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q116170766"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    -3.7026,
+    40.4165
+  ]
+}

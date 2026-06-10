@@ -1,0 +1,22 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_merv",
+  "name": "Merv",
+  "importance": "megacity",
+  "start_year": 500,
+  "end_year": 1221,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "high",
+    "attestation": "inferred"
+  },
+  "end_confidence": "high",
+  "coords": [
+    62.187,
+    37.68
+  ]
+}

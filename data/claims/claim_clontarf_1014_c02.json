@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_clontarf_1014_c02",
+  "statement": "Brian Boru was killed after the Battle of Clontarf, and his death without a strong successor ended the brief period of unified Irish kingship.",
+  "subject_ids": [
+    "kingdom_of_ireland_high"
+  ],
+  "period": {
+    "from": 1014,
+    "to": 1014
+  },
+  "derived_from": "clontarf_1014",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

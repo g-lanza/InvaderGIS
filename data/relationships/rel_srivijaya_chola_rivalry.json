@@ -1,0 +1,31 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_srivijaya_chola_rivalry",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "srivijaya_empire",
+      "role": "partner"
+    },
+    {
+      "entity_id": "chola_state",
+      "role": "partner"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 850,
+  "until": 1279,
+  "note": "Two centuries of maritime rivalry for control of the Strait of Malacca trade. Chola Rajendra I's 1025 naval raid sacked Srivijayan capital Palembang, after which Srivijaya never fully recovered.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Rare instance of large-scale medieval Indian naval power-projection."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

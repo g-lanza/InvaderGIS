@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "domesday_book_detail_1086",
+  "name": "Domesday Book, England's First Census",
+  "year": 1086,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    51.5,
+    -0.12
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "William I commissions the Domesday survey, a comprehensive census of English landholding designed to determine what taxes were owed and by whom. Royal commissioners travel through every English shire, recording who held what land in 1086 and who had held it before the Conquest (1066). The resulting two volumes assess virtually every English village, listing landowners, tenants, livestock, mills, and fisheries.",
+  "outcomes": [
+    "entire_kingdom_surveyed",
+    "royal_taxation_rationalized",
+    "feudal_tenure_documented"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england"
+    ],
+    "structural_significance": "Domesday is the most comprehensive administrative survey undertaken in medieval Europe; no comparable census exists for any other kingdom until modern times; it demonstrates the extraordinary administrative capacity of the Norman state and its determination to understand and exploit its conquered territory; the survey establishes the fiscal basis for English royal finance that makes England unusually governable compared to France or Germany",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

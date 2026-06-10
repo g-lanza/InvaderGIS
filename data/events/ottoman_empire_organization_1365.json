@@ -1,0 +1,42 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ottoman_empire_organization_1365",
+  "name": "Ottoman Administrative Reforms, Murad I's State Building",
+  "year": 1365,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.69,
+    26.56
+  ],
+  "entity": "ottoman_empire",
+  "summary": "Sultan Murad I (r. 1361-1389) transforms the Ottoman beylik into a functioning empire through systematic administrative reforms. He creates the kadi (judge) system of Islamic law courts throughout the empire, establishes the provincial sancak administrative units, systematizes the devshirme levy of Christian boys for the military, and builds the Janissary corps into a professional standing army. His capital moves to Adrianople (Edirne) in 1363.",
+  "outcomes": [
+    "devshirme_systematized",
+    "kadi_judicial_system",
+    "provincial_government_established"
+  ],
+  "_quarry": {
+    "participants": [
+      "ottoman_empire"
+    ],
+    "structural_significance": "Murad I's administrative reforms are the foundation of Ottoman imperial governance that persists until the 19th century; the combination of Islamic law courts (for Muslim subjects), Christian legal autonomy (the millet system for non-Muslims), and the devshirme's meritocratic military creates a sophisticated multi-ethnic empire; Murad's murder at Kosovo (1389) does not disrupt these institutions, showing how durable his foundations are",
+    "year_range": [
+      1361,
+      1389
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

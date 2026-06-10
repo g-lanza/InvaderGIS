@@ -1,0 +1,44 @@
+{
+  "kind": "institution",
+  "dataset": "medieval-europe-500-1500",
+  "id": "medieval_inquisition",
+  "name_primary": "Medieval Inquisition",
+  "domain": "religious_institution",
+  "formed": 1184,
+  "dissolved": 1500,
+  "_quarry": {
+    "key_developments": [
+      {
+        "year": 1184,
+        "event": "Ad abolendam under Lucius III — first systematic episcopal inquisition."
+      },
+      {
+        "year": 1208,
+        "event": "Murder of papal legate Pierre de Castelnau triggers the Albigensian Crusade."
+      },
+      {
+        "year": 1231,
+        "event": "Gregory IX's Excommunicamus establishes papal inquisitors (mostly Dominican)."
+      },
+      {
+        "year": 1252,
+        "event": "Innocent IV's Ad extirpanda authorises judicial torture in heresy trials."
+      },
+      {
+        "year": 1307,
+        "event": "Mass arrest of Templars in France; trials use inquisitorial procedure."
+      }
+    ],
+    "influences_entities": [
+      "papal_states",
+      "kingdom_of_france",
+      "crown_of_aragon"
+    ],
+    "description": "A network of ecclesiastical tribunals charged with identifying and trying heretics, beginning with the Episcopal Inquisition of Ad abolendam (1184) and formalised under papal commission with Excommunicamus (1231). Initially aimed at Cathars and Waldensians in Languedoc, then expanded against Beguines, Spiritual Franciscans, Templars (1307), and others. Distinct from the later Spanish Inquisition (founded 1478) which was a royal institution."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

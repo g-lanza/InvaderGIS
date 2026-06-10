@@ -1,0 +1,21 @@
+{
+ "kind": "polity",
+ "id": "eastern_roman_empire",
+ "name": "Eastern Roman Empire",
+ "type": "empire",
+ "formed": 395,
+ "dissolved": 1453,
+ "provenance": {
+  "sources_used": [
+   "ims_fordham",
+   "ims_fordham_sbook1b",
+   "ims_fordham_sbookmap"
+  ],
+  "confidence": "high",
+  "status": "draft"
+ },
+ "dataset": "medieval-europe-500-1500",
+ "_fordham_index": "sbook1b",
+ "from_sourcebook": true,
+ "name_primary": "Eastern Roman Empire"
+}

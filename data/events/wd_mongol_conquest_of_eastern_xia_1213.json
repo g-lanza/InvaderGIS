@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_mongol_conquest_of_eastern_xia_1213",
+  "name": "Mongol conquest of Eastern Xia",
+  "year": 1213,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    47.2,
+    102.8
+  ],
+  "entity": "mongol_empire",
+  "summary": "Mongol conquest of Eastern Xia (1213 CE), at Manchuria. Source: Wikidata Q96177307.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "mongol_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

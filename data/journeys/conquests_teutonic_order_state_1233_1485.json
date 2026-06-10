@@ -1,0 +1,181 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_teutonic_order_state_1233_1485",
+  "name": "State of the Teutonic Order — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1233,
+  "year_end": 1485,
+  "waypoints": [
+    {
+      "year": 1233,
+      "place": "Teutonic Order Begins Prussian Crusade",
+      "coords": [
+        54.237,
+        20.227
+      ],
+      "note": "military",
+      "event_id": "prussians_1233"
+    },
+    {
+      "year": 1241,
+      "place": "Battle of Legnica",
+      "coords": [
+        51.21,
+        16.17
+      ],
+      "note": "battle",
+      "event_id": "battle_legnica_1241"
+    },
+    {
+      "year": 1241,
+      "place": "Mongol Invasion of Poland",
+      "coords": [
+        50.06,
+        19.94
+      ],
+      "note": "conquest",
+      "event_id": "mongol_invasion_poland_1241"
+    },
+    {
+      "year": 1283,
+      "place": "Prussians Finally Subdued",
+      "coords": [
+        54.237,
+        20.227
+      ],
+      "note": "military",
+      "event_id": "prussians_1283"
+    },
+    {
+      "year": 1399,
+      "place": "Battle of the Vorskla River",
+      "coords": [
+        49.76,
+        28.78
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_the_vorskla_river_1399"
+    },
+    {
+      "year": 1409,
+      "place": "Polish-Lithuanian-Teutonic War",
+      "coords": [
+        54.35,
+        22.65
+      ],
+      "note": "military",
+      "event_id": "wd_polish_lithuanian_teutonic_war_1409"
+    },
+    {
+      "year": 1410,
+      "place": "Battle of Grunwald",
+      "coords": [
+        53.49,
+        20.12
+      ],
+      "note": "battle",
+      "event_id": "grunwald_1410"
+    },
+    {
+      "year": 1410,
+      "place": "Battle of Grunwald — Poland-Lithuania Defeats the Teutonic Order",
+      "coords": [
+        53.49,
+        20.08
+      ],
+      "note": "battle",
+      "event_id": "teutonic_order_grunwald_1410"
+    },
+    {
+      "year": 1410,
+      "place": "Siege of Marienburg",
+      "coords": [
+        51.9,
+        24.4333
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_marienburg_1410"
+    },
+    {
+      "year": 1422,
+      "place": "Battle of Marienburg",
+      "coords": [
+        50.5,
+        24
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_marienburg_1422"
+    },
+    {
+      "year": 1433,
+      "place": "Hussite expedition to the Baltic",
+      "coords": [
+        53,
+        19.75
+      ],
+      "note": "military",
+      "event_id": "wd_hussite_expedition_to_the_baltic_1433"
+    },
+    {
+      "year": 1454,
+      "place": "Siege of Marienburg",
+      "coords": [
+        54,
+        20
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_marienburg_1454"
+    },
+    {
+      "year": 1457,
+      "place": "Siege of Marienburg",
+      "coords": [
+        54,
+        20
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_marienburg_1457"
+    },
+    {
+      "year": 1460,
+      "place": "Battle of Bornholm",
+      "coords": [
+        54,
+        20
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_bornholm_1460"
+    },
+    {
+      "year": 1463,
+      "place": "Battle of Vistula Lagoon",
+      "coords": [
+        53,
+        19.75
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_vistula_lagoon_1463"
+    },
+    {
+      "year": 1485,
+      "place": "Polish-Ottoman War of 1485–1503",
+      "coords": [
+        48.33,
+        27.26
+      ],
+      "note": "military",
+      "event_id": "wd_polish_ottoman_war_of_1485_1503_1485"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "christiansen_the_1997",
+      "urban_the_1994",
+      "turnbull_crusader_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

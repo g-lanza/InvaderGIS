@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_siege_of_tartu_1224",
+  "name": "Siege of Tartu",
+  "subtype": "battle",
+  "start_year": 1224,
+  "end_year": 1224,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q3738423"
+    }
+  },
+  "description": "Battle during Livonian Crusade (1224)",
+  "coords": [
+    26.7225,
+    58.38
+  ]
+}

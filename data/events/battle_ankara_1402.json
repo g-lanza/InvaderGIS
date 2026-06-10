@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_ankara_1402",
+  "name": "Battle of Ankara",
+  "year": 1402,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    39.93,
+    32.85
+  ],
+  "entity": "ottoman_empire",
+  "summary": "Timur (Tamerlane), ruler of the Timurid Empire, confronts the Ottoman Sultan Bayezid I 'the Thunderbolt' near Ankara on July 20, 1402. Bayezid had been besieging Constantinople for seven years; Timur's invasion of Anatolia forced him to lift the siege. Timur's forces are significantly larger; crucially, several Anatolian beyliks fighting under compulsion for Bayezid defect during the battle. Bayezid is captured, the only Ottoman sultan ever taken prisoner in battle, and dies in Timurid captivity (1403). The Ottomans lose most of Anatolia and enter the 'Ottoman Interregnum' (1402–1413).",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "ottoman_empire",
+      "timurid_empire"
+    ],
+    "structural_significance": "Only Ottoman military defeat ending in the sultan's capture; reverses decades of Ottoman expansion temporarily; inadvertently saves Constantinople by removing the Ottoman siege; Timur redistributes Ottoman Anatolian conquests back to original beylik rulers",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

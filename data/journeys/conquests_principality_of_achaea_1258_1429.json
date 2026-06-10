@@ -1,0 +1,120 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_principality_of_achaea_1258_1429",
+  "name": "Principality of Achaea — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1258,
+  "year_end": 1429,
+  "waypoints": [
+    {
+      "year": 1258,
+      "place": "Battle of Karydi",
+      "coords": [
+        37.89,
+        23.065
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_karydi_1258"
+    },
+    {
+      "year": 1259,
+      "place": "Achaea Defeated at Pelagonia",
+      "coords": [
+        39.4,
+        25.65
+      ],
+      "note": "military",
+      "event_id": "principality_of_achaea_1259"
+    },
+    {
+      "year": 1263,
+      "place": "Achaean–Byzantine War",
+      "coords": [
+        39.4,
+        25.65
+      ],
+      "note": "military",
+      "event_id": "wd_achaean_byzantine_war_1263"
+    },
+    {
+      "year": 1293,
+      "place": "Battle of Zonglos",
+      "coords": [
+        39.75,
+        11.45
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_zonglos_1293"
+    },
+    {
+      "year": 1294,
+      "place": "Fall of Nikli",
+      "coords": [
+        39.4,
+        25.65
+      ],
+      "note": "military",
+      "event_id": "wd_fall_of_nikli_1294"
+    },
+    {
+      "year": 1326,
+      "place": "Battle of Santameri Plain",
+      "coords": [
+        39.4,
+        25.65
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_santameri_plain_1326"
+    },
+    {
+      "year": 1359,
+      "place": "Battle of Megara",
+      "coords": [
+        39.2875,
+        21.325
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_megara_1359"
+    },
+    {
+      "year": 1375,
+      "place": "Battle of Gardiki",
+      "coords": [
+        37.675,
+        22.4
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_gardiki_1375"
+    },
+    {
+      "year": 1378,
+      "place": "Knights Hospitaller invasion of Despotate of Arta",
+      "coords": [
+        37.1,
+        25.3
+      ],
+      "note": "military",
+      "event_id": "wd_knights_hospitaller_invasion_of_despotate_of_arta_1378"
+    },
+    {
+      "year": 1429,
+      "place": "Siege of Patras",
+      "coords": [
+        37.675,
+        22.4
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_patras_1429"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

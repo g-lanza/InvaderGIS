@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_lisbon_1373_c01",
+  "statement": "Battle of Lisbon (1373 CE), at Lisbon (part of Hundred Years' War).",
+  "subject_ids": [
+    "kingdom_of_portugal"
+  ],
+  "period": {
+    "from": 1373,
+    "to": 1373
+  },
+  "derived_from": "wd_battle_of_lisbon_1373",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

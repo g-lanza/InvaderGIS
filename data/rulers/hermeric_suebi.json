@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "hermeric_suebi",
+  "name": "Hermeric",
+  "polity": "suebi_kingdom",
+  "title": "dynastic_founder",
+  "reign_start": 406,
+  "reign_end": 438,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "suebi_kingdom",
+        "role": "dynastic_founder",
+        "start_year": 406,
+        "end_year": 438
+      }
+    ],
+    "key_actions": [],
+    "region": "iberia",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_byzantine_bulgaria_1",
+  "statement": "The First Bulgarian Empire (founded 681 by Asparuh Khan) competed with Byzantium for dominance over the Balkans for 340 years. Major conflicts included: Avar-Bulgarian pressure on Constantinople (811–813), Khan Krum's destruction of the Byzantine army at Pliska (811, killing Emperor Nikephoros I in the only emperor killed in battle since 378), the conversion of Boris I (864), the Bulgarian-Byzantine war under Simeon I (who besieged Constantinople three times), and Basil II's systematic conquest culminating in Kleidion (1014). The rivalry defined the political character of the medieval Balkans.",
+  "subject_ids": [
+    "byzantine_empire",
+    "bulgar_khanate"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_byzantine_bulgaria_1",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 681,
+    "to": 1018
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_nancy_1476",
+  "name": "Battle of Nancy",
+  "subtype": "battle",
+  "start_year": 1476,
+  "end_year": 1476,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q316877"
+    }
+  },
+  "description": "Battle during Burgundian Wars (1476)",
+  "coords": [
+    6.1813,
+    48.6953
+  ]
+}

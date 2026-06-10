@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_milan",
+  "name": "Milan",
+  "entity_id": "duchy_of_milan",
+  "entity_name": "Duchy of Milan",
+  "start_year": 1395,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q153529"
+    }
+  },
+  "coords": [
+    9.19,
+    45.46694
+  ]
+}

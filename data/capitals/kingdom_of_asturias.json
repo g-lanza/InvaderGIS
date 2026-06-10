@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_asturias",
+  "name": "Oviedo",
+  "entity_id": "kingdom_of_asturias",
+  "entity_name": "Kingdom of Asturias",
+  "start_year": 718,
+  "end_year": 910,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q231392"
+    }
+  },
+  "coords": [
+    -5.85028,
+    43.3625
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_founding_bologna_university_1088_c01",
+  "statement": "The University of Bologna began formal instruction in Roman law around 1088, traditionally under the legal scholar Irnerius.",
+  "subject_ids": [
+    "commune_of_milan"
+  ],
+  "period": {
+    "from": 1088,
+    "to": 1088
+  },
+  "derived_from": "founding_bologna_university_1088",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

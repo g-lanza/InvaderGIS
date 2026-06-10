@@ -1,0 +1,31 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_khazar_khaganate_to_kievan_rus_fragmentation",
+  "statement": "Derived from predecessor/successor links recorded in the khazar_khaganate and kievan_rus entity records. Transition anchored to kievan_rus start_year.",
+  "subject_ids": [
+    "khazar_khaganate",
+    "kievan_rus"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_khazar_khaganate_to_kievan_rus_fragmentation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "golden_khazar_1980",
+      "brook_the_1999",
+      "franklin_the_1996",
+      "riasanovsky_a_2000",
+      "martin_medieval_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "kievan_rus"
+  ],
+  "period": {
+    "from": 882,
+    "to": 882
+  }
+}

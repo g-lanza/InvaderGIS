@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "charlemagne_coronation_800",
+  "name": "Charlemagne crowned Emperor of the Romans",
+  "year": 800,
+  "type": "coronation",
+  "category": "power",
+  "coords": [
+    41.9,
+    12.45
+  ],
+  "entity": "carolingian_empire",
+  "summary": "On Christmas Day in St Peter's Basilica, Pope Leo III crowns Charlemagne 'Emperor of the Romans'. The act revives an imperial title in the Latin West vacant since 476, in direct ideological challenge to the Byzantine emperor Irene in Constantinople.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "carolingian_empire",
+      "papal_states"
+    ],
+    "structural_significance": "Establishes the medieval Western imperial idea, that legitimacy for empire requires papal coronation in Rome. The model is replicated by Otto I (962), Henry IV, Frederick Barbarossa, and every German emperor seeking the imperial title until 1530.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "mckitterick_charlemagne_2008",
+      "riché_the_1993",
+      "nelson_king_2019"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

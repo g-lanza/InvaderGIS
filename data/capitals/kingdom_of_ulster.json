@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_ulster",
+  "name": "Armagh",
+  "entity_id": "kingdom_of_ulster",
+  "entity_name": "Kingdom of Ulster",
+  "start_year": 500,
+  "end_year": 1241,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1991460"
+    }
+  },
+  "coords": [
+    -6.65,
+    54.35
+  ]
+}

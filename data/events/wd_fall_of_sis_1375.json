@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_fall_of_sis_1375",
+  "name": "Fall of Sis",
+  "year": 1375,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    33.45,
+    33.55
+  ],
+  "entity": "mamluk_sultanate",
+  "summary": "Fall of Sis (1375 CE), at Sis. Source: Wikidata Q124260231.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "mamluk_sultanate",
+      "armenian_kingdom_of_cilicia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "irwin_the_1986",
+      "northrup_from_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

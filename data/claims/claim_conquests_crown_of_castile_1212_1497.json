@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_crown_of_castile_1212_1497",
+  "statement": "Crown of Castile — campaigns and battles spanned 1212–1497, from Las Navas de Tolosa — Almohad Power Broken to Attack on Mers el-Kébir.",
+  "subject_ids": [
+    "crown_of_castile"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_crown_of_castile_1212_1497",
+  "period": {
+    "from": 1212,
+    "to": 1497
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "o'callaghan_a_1975",
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

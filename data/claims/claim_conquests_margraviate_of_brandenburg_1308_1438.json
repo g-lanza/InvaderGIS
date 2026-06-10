@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_margraviate_of_brandenburg_1308_1438",
+  "statement": "Margraviate of Brandenburg — campaigns and battles spanned 1308–1438, from North German Margrave War to Dutch–Hanseatic War.",
+  "subject_ids": [
+    "margraviate_of_brandenburg"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_margraviate_of_brandenburg_1308_1438",
+  "period": {
+    "from": 1308,
+    "to": 1438
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_the_guiniguada_1478_c01",
+  "statement": "Battle of the Guiniguada (1478 CE), at Barranco de Guiniguada (part of Conquest of Gran Canaria).",
+  "subject_ids": [
+    "crown_of_castile"
+  ],
+  "period": {
+    "from": 1478,
+    "to": 1478
+  },
+  "derived_from": "wd_battle_of_the_guiniguada_1478",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "o'callaghan_a_1975",
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

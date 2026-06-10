@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_kingston_upon_hull_1101",
+  "name": "Kingston upon Hull",
+  "importance": "city",
+  "start_year": 1101,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q128147"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    -0.3325,
+    53.7444
+  ]
+}

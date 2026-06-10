@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_hagia_sophia_rebuild_537_c01",
+  "statement": "Justinian I inaugurated the rebuilt Hagia Sophia on 27 December 537 after a five-year construction supervised by Anthemius of Tralles and Isidore of Miletus.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 537,
+    "to": 537
+  },
+  "derived_from": "hagia_sophia_rebuild_537",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kazhdan_oxford_dictionary_byzantium_1991",
+      "kaldellis_streams_of_gold_2017"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

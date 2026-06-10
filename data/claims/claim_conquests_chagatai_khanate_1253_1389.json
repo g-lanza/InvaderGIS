@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_chagatai_khanate_1253_1389",
+  "statement": "Chagatai Khanate — campaigns and battles spanned 1253–1389, from Mongol campaign against the Nizaris to Mogolistan War of 1389-1390.",
+  "subject_ids": [
+    "chagatai_khanate"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_chagatai_khanate_1253_1389",
+  "period": {
+    "from": 1253,
+    "to": 1389
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "biran_chinggis_2007",
+      "manz_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

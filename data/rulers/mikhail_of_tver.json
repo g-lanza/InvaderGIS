@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "mikhail_of_tver",
+  "name": "Mikhail of Tver",
+  "polity": "principality_of_tver",
+  "title": "ruler",
+  "reign_start": 1271,
+  "reign_end": 1318,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "principality_of_tver",
+        "role": "ruler",
+        "start_year": 1271,
+        "end_year": 1318
+      }
+    ],
+    "key_actions": [],
+    "region": "eastern_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

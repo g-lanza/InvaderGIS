@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_battle_nancy_1477_c01",
+  "statement": "Charles the Bold, Duke of Burgundy, was killed at the Battle of Nancy on 5 January 1477 against a coalition of Swiss and Lorraine forces.",
+  "subject_ids": [
+    "duchy_of_burgundy"
+  ],
+  "period": {
+    "from": 1477,
+    "to": 1477
+  },
+  "derived_from": "battle_nancy_1477",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "treaty_tordesillas_1494",
+  "name": "Treaty of Tordesillas",
+  "year": 1494,
+  "type": "treaty",
+  "category": "diplomacy",
+  "coords": [
+    41.5,
+    -5
+  ],
+  "entity": "crown_of_castile",
+  "summary": "The Treaty of Tordesillas (June 7, 1494), mediated by Pope Alexander VI, divides the non-European world between Spain and Portugal along a meridian 370 leagues west of the Cape Verde Islands. Land east of the line is Portuguese; land west is Spanish. The treaty, a revision of the papal bull Inter Caetera (1493), was negotiated after Columbus's first voyage revealed Spanish claims in the Atlantic. The line, while it was originally intended to be a north-south split of the Atlantic, accidentally gives Portugal Brazil (which its navigator Cabral reaches in 1500), recognized by Spain in a subsequent treaty.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "crown_of_castile",
+      "kingdom_of_portugal"
+    ],
+    "structural_significance": "First international agreement dividing the world between colonial powers; establishes the framework of Iberian overseas empire; gives Portugal Brazil through the fortuitous placement of the meridian; the treaty is rejected by France, England, and the Netherlands, who build rival colonial empires",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "o'callaghan_a_1975",
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

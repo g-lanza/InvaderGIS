@@ -1,0 +1,39 @@
+{
+  "kind": "technology",
+  "dataset": "medieval-europe-500-1500",
+  "id": "crucible_steel",
+  "name_primary": "Crucible Steel (Wootz / Damascus Steel)",
+  "domain": "metallurgy",
+  "origin": {
+    "place": "Southern India (Tamil Nadu) and Sri Lanka",
+    "year": 300
+  },
+  "materials": [
+    "high-carbon iron ore",
+    "charcoal",
+    "sealed clay crucibles",
+    "organic flux materials"
+  ],
+  "diffusion": [
+    "Deccan Plateau",
+    "Sri Lanka",
+    "Sasanid Persia",
+    "Abbasid Caliphate",
+    "Damascus",
+    "Crusader States",
+    "Kievan Rus",
+    "Holy Roman Empire"
+  ],
+  "_quarry": {
+    "description": "Wootz steel, the basis of Damascus blades, originated in southern India with production evidence from Kodumanal (Tamil Nadu) tentatively dated to c. 300 BCE; ingots were exported to the Middle East and forged into the patterned swords described by al-Kindi (c. 850 CE) in his treatise On Swords and Their Kinds. The crucible process involved melting iron with carbon-rich material in sealed vessels, yielding ultra-high-carbon steel with characteristic banding. The precise formula was lost by the 18th century, though modern metallurgical research has identified the role of carbide-forming trace elements."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wiki_wootz_steel",
+      "wiki_damascus_steel"
+    ],
+    "confidence": "low",
+    "attestation": "weak"
+  }
+}

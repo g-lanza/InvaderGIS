@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_holy_roman_empire_otto_936_c02",
+  "statement": "Otto I developed the Reichskirchensystem, using bishops and abbots as royal administrators appointed through royal investiture.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 936,
+    "to": 936
+  },
+  "derived_from": "holy_roman_empire_otto_936",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

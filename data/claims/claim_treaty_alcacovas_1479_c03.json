@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_treaty_alcacovas_1479_c03",
+  "statement": "Spain received the Canary Islands under the Treaty of Alcáçovas, the first formal division of Atlantic colonial spheres and predecessor to the Treaty of Tordesillas of 1494.",
+  "subject_ids": [
+    "crown_of_castile"
+  ],
+  "period": {
+    "from": 1479,
+    "to": 1479
+  },
+  "derived_from": "treaty_alcacovas_1479",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "o'callaghan_a_1975",
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

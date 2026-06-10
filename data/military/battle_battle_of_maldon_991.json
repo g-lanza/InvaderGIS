@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_maldon_991",
+  "name": "Battle of Maldon",
+  "subtype": "battle",
+  "start_year": 991,
+  "end_year": 991,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1442050"
+    }
+  },
+  "description": "Battle during Viking activity in the British Isles (991)",
+  "coords": [
+    0.7008,
+    51.7153
+  ]
+}

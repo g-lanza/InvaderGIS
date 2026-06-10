@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_abrantes_1179",
+  "name": "Siege of Abrantes",
+  "year": 1179,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    38.25,
+    -6
+  ],
+  "entity": "kingdom_of_portugal",
+  "summary": "Siege of Abrantes (1179 CE), at Abrantes (part of Spanish Christian–Muslim War of 1172–1212). Source: Wikidata Q130262584.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_portugal",
+      "almohad_caliphate_iberia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

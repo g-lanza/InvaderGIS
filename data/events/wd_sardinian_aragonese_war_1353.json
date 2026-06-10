@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_sardinian_aragonese_war_1353",
+  "name": "Sardinian–Aragonese War",
+  "year": 1353,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41.6333,
+    9.7667
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Sardinian–Aragonese War (1353 CE), at Sardinia. Source: Wikidata Q21190134.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "kingdom_of_naples",
+      "republic_of_genoa",
+      "kingdom_of_sicily_norman",
+      "crown_of_aragon",
+      "judicate_of_arborea"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

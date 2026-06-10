@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_araviana_1359",
+  "name": "Battle of Araviana",
+  "year": 1359,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41.35,
+    -1.75
+  ],
+  "entity": "crown_of_aragon",
+  "summary": "Battle of Araviana (1359 CE), at Ágreda (part of War of the Two Peters). Source: Wikidata Q3817182.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "crown_of_aragon",
+      "crown_of_castile"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

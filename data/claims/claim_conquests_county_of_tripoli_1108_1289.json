@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_county_of_tripoli_1108_1289",
+  "statement": "County of Tripoli — campaigns and battles spanned 1108–1289, from Battle of Akkum to Fall of Tripoli.",
+  "subject_ids": [
+    "county_of_tripoli"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_county_of_tripoli_1108_1289",
+  "period": {
+    "from": 1108,
+    "to": 1289
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

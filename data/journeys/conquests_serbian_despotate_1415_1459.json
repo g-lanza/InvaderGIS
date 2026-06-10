@@ -1,0 +1,80 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_serbian_despotate_1415_1459",
+  "name": "Serbian Despotate — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1415,
+  "year_end": 1459,
+  "waypoints": [
+    {
+      "year": 1415,
+      "place": "Hungarian–Ottoman War",
+      "coords": [
+        46.7733,
+        23.0867
+      ],
+      "note": "military",
+      "event_id": "wd_hungarian_ottoman_war_1415"
+    },
+    {
+      "year": 1420,
+      "place": "War of the South Danube",
+      "coords": [
+        45.728,
+        23.804
+      ],
+      "note": "military",
+      "event_id": "wd_war_of_the_south_danube_1420"
+    },
+    {
+      "year": 1426,
+      "place": "Hungarian–Ottoman War",
+      "coords": [
+        45.728,
+        23.804
+      ],
+      "note": "military",
+      "event_id": "wd_hungarian_ottoman_war_1426"
+    },
+    {
+      "year": 1437,
+      "place": "Hungarian–Ottoman War",
+      "coords": [
+        45.188,
+        22.644
+      ],
+      "note": "military",
+      "event_id": "wd_hungarian_ottoman_war_1437"
+    },
+    {
+      "year": 1440,
+      "place": "Siege of Belgrade",
+      "coords": [
+        42.685,
+        24.915
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_belgrade_1440"
+    },
+    {
+      "year": 1459,
+      "place": "Ottoman Conquest of Serbia",
+      "coords": [
+        44.66,
+        20.93
+      ],
+      "note": "conquest",
+      "event_id": "ottoman_conquest_serbia_1459"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

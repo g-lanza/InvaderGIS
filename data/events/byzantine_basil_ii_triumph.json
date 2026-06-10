@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "byzantine_basil_ii_triumph",
+  "name": "Basil II's Western Campaign, Conquest of Bulgaria",
+  "year": 1018,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    42.14,
+    24.75
+  ],
+  "entity": "byzantine_empire",
+  "summary": "After the blinding of 15,000 Bulgarian prisoners at Kleidion (1014), Tsar Samuel dies of shock. His successors cannot resist Basil II's systematic campaigns. By 1018, Bulgaria is fully incorporated into the Byzantine Empire for the first time since 681. Basil's generous terms to Bulgarian nobles (retaining their estates as Byzantine prounoiars) and preservation of the Bulgarian Patriarchate ease the transition.",
+  "outcomes": [
+    "bulgaria_conquered",
+    "balkans_unified",
+    "byzantine_expansion_zenith"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "first_bulgarian_empire"
+    ],
+    "structural_significance": "The Bulgarian conquest is Byzantium's greatest territorial expansion after Justinian; it gives the empire control of the Balkans from the Adriatic to the Black Sea; the Bulgarian church's preservation as an archbishopric (downgraded from Patriarchate) demonstrates Byzantine ecclesiastical strategy of absorption rather than destruction; the conquest's overextension contributes to the administrative crisis of the 11th century",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_armenian_cilicia_crusaders",
+  "statement": "The Armenian Kingdom of Cilicia was among the most consistent allies of the Crusader states throughout the 12th–13th centuries. The Armenians provided local geographic knowledge, logistics support, and infantry for Crusader campaigns (notably the First and Third Crusades); Armenian ports (Ayas/Lajazzo) served as the primary entry point for Crusader supplies and reinforcements. Dynastic marriages linked the Armenian Rubenid and Hethumid dynasties to Crusader noble houses. The Armenians' conversion to communion with the Roman Catholic Church (1198) — a controversial decision internally — was driven partly by the desire to maintain Crusader alliance.",
+  "subject_ids": [
+    "armenian_kingdom_of_cilicia",
+    "principality_of_antioch"
+  ],
+  "predicate": "alliance",
+  "derived_from": "rel_armenian_cilicia_crusaders",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "boase_the_1978",
+      "mutafian_le_1993",
+      "asbridge_the_2000",
+      "cahen_la_1940"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1198,
+    "to": 1268
+  }
+}

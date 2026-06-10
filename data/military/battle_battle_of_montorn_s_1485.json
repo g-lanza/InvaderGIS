@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_montorn_s_1485",
+  "name": "Battle of Montornès",
+  "subtype": "battle",
+  "start_year": 1485,
+  "end_year": 1485,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q21085987"
+    }
+  },
+  "description": "Battle during War of the Remences (1485)",
+  "coords": [
+    2.267,
+    41.5444
+  ]
+}

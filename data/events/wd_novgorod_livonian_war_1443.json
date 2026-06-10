@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_novgorod_livonian_war_1443",
+  "name": "Novgorod-Livonian War",
+  "year": 1443,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    57.75,
+    28.15
+  ],
+  "entity": "livonian_order_state",
+  "summary": "Novgorod-Livonian War (1443 CE). Source: Wikidata Q48955813.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "livonian_order_state",
+      "principality_of_novgorod"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_hospitallers_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

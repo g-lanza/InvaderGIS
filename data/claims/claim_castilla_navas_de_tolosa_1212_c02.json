@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_castilla_navas_de_tolosa_1212_c02",
+  "statement": "Las Navas de Tolosa effectively ended Almohad military power in Iberia and opened Andalusia to Christian reconquest within a generation.",
+  "subject_ids": [
+    "kingdom_of_castile"
+  ],
+  "period": {
+    "from": 1212,
+    "to": 1212
+  },
+  "derived_from": "castilla_navas_de_tolosa_1212",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

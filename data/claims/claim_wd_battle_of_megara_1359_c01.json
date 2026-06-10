@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_megara_1359_c01",
+  "statement": "Battle of Megara (1359 CE), at Megara Gulf (part of Crusades after Acre of 1291–1399).",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1359,
+    "to": 1359
+  },
+  "derived_from": "wd_battle_of_megara_1359",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

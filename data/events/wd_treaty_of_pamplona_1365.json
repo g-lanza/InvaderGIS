@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_treaty_of_pamplona_1365",
+  "name": "treaty of Pamplona",
+  "year": 1365,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    44.65,
+    0.45
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "treaty of Pamplona (1365 CE), at Pamplona city. Source: Wikidata Q3536848.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "kingdom_of_navarre"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

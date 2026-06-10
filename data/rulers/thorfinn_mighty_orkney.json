@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "thorfinn_mighty_orkney",
+  "name": "Thorfinn the Mighty",
+  "polity": "earldom_of_orkney",
+  "title": "ruler",
+  "reign_start": 1009,
+  "reign_end": 1065,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "earldom_of_orkney",
+        "role": "ruler",
+        "start_year": 1009,
+        "end_year": 1065
+      }
+    ],
+    "key_actions": [],
+    "region": "british_isles",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

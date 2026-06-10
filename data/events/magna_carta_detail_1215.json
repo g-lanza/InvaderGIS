@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "magna_carta_detail_1215",
+  "name": "Magna Carta, Foundation of English Constitutional Law",
+  "year": 1215,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    51.44,
+    -0.57
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Barons force King John to seal Magna Carta at Runnymede, 63 clauses limiting royal prerogative. Key provisions: no free man imprisoned except by judgment of peers or law of the land (habeas corpus precedent); no taxation without consent of the Great Council; and a committee of 25 barons to enforce compliance. John immediately requests papal annulment (granted); the First Barons' War follows. But reissued versions of Magna Carta (1216, 1217, 1225) establish it as permanent constitutional law.",
+  "outcomes": [
+    "king_limited_by_law",
+    "habeas_corpus_principles",
+    "parliament_eventually_develops"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "papal_states"
+    ],
+    "structural_significance": "Magna Carta is the foundational document of English constitutionalism; its principle that the king is under the law (not above it) shapes English political development from the 13th century through the Glorious Revolution (1688); Clause 39's protection against arbitrary imprisonment becomes the philosophical basis for habeas corpus, due process, and the rule of law in the Anglo-American legal tradition; its modern importance far exceeds its original medieval significance",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

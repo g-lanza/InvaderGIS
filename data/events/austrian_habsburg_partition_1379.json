@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "austrian_habsburg_partition_1379",
+  "name": "Habsburg Partition of Austria, Dynastic Division",
+  "year": 1379,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    48.21,
+    16.37
+  ],
+  "entity": "duchy_of_austria",
+  "summary": "The Treaty of Neuberg (1379) divides Habsburg Austria between Duke Albert III (Austria proper) and Duke Leopold III (Styria, Carinthia, Tyrol, Further Austria). This 'Albertine-Leopoldine' division lasts until Albert V reunifies the dynasty (1424). The repeated Habsburg partitions reflect the Carolingian inheritance law that treated territories as family property rather than indivisible states.",
+  "outcomes": [
+    "austria_divided",
+    "albertine_leopoldine_lines",
+    "habsburg_unity_fractured"
+  ],
+  "_quarry": {
+    "participants": [
+      "duchy_of_austria",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "The Austrian partition demonstrates why the Habsburg imperial project required abolishing the partition inheritance system; Emperor Frederick III's use of the motto AEIOU (Alles Erdreich ist Österreich untertan, All the world is subject to Austria) reflects Habsburg aspirations that partition constantly undermines; Maximilian I's concentration of the inheritance was essential to the Charles V empire",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

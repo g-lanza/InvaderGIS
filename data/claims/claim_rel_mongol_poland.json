@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_mongol_poland",
+  "statement": "Two major Mongol invasions devastated Poland (1241, 1259–1260) but failed to produce permanent occupation. The first invasion destroyed Kraków and Wrocław, killing Duke Henry II of Silesia at the Battle of Legnica; the second looted large areas of Lesser Poland. Unlike Russia, Poland experienced the invasions as devastating raids rather than permanent conquest and tribute extraction. Duke Bolesław V 'the Chaste' rebuilt Kraków with a formal municipal charter (1257) immediately after the first invasion. The invasions fragmented Poland into competing principalities for another century, delaying Piast reunification until Władysław I (1320).",
+  "subject_ids": [
+    "golden_horde",
+    "kingdom_of_poland_piast"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_mongol_poland",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "allsen_mongol_1987",
+      "davies_gods_1981",
+      "knoll_the_1972"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1241,
+    "to": 1241
+  }
+}

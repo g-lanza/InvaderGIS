@@ -1,0 +1,47 @@
+{
+ "kind": "institution",
+ "dataset": "medieval-europe-500-1500",
+ "id": "franciscan_order",
+ "name_primary": "Order of Friars Minor (Franciscans)",
+ "domain": "mendicant_order",
+ "formed": 1209,
+ "dissolved": 1500,
+ "_quarry": {
+  "key_developments": [
+   {
+    "year": 1209,
+    "event": "Francis and 11 companions receive oral approval from Innocent III."
+   },
+   {
+    "year": 1212,
+    "event": "Clare of Assisi founds the Second Order (Poor Clares)."
+   },
+   {
+    "year": 1223,
+    "event": "Final rule (Regula bullata) confirmed by Honorius III."
+   },
+   {
+    "year": 1226,
+    "event": "Death of Francis; canonised 1228."
+   },
+   {
+    "year": 1322,
+    "event": "John XXII condemns the Spiritual Franciscan position on apostolic poverty."
+   }
+  ],
+  "influences_entities": [
+   "papal_states",
+   "kingdom_of_france",
+   "kingdom_of_england"
+  ],
+  "description": "Founded by Francis of Assisi in 1209 and approved orally by Pope Innocent III, the Franciscans were a radical experiment in apostolic poverty — friars who owned nothing, individually or collectively, and survived by begging. Tension between the founder's strict ideal and the order's rapid institutional growth produced the Spiritual/Conventual split (1270s+). Franciscans rivalled the Dominicans in the universities (Bonaventure, Duns Scotus, William of Ockham)."
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "ims_fordham",
+   "ims_fordham_sbook1z"
+  ],
+  "confidence": "low"
+ }
+}

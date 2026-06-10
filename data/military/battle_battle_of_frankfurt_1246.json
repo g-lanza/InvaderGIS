@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_frankfurt_1246",
+  "name": "Battle of Frankfurt",
+  "subtype": "battle",
+  "start_year": 1246,
+  "end_year": 1246,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q17326070"
+    }
+  },
+  "description": "Battle during Crusade against the Hohenstaufen (1246)",
+  "coords": [
+    8.6822,
+    50.1106
+  ]
+}

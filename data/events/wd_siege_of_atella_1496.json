@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_atella_1496",
+  "name": "Siege of Atella",
+  "year": 1496,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    43.8,
+    10.4
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Siege of Atella (1496 CE), at Atella (part of Italian War of 1494–1495). Source: Wikidata Q5708031.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "kingdom_of_france",
+      "papal_states",
+      "kingdom_of_naples"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

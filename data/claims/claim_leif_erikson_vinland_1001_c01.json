@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_leif_erikson_vinland_1001_c01",
+  "statement": "Around 1001, Leif Erikson sailed west from Greenland and overwintered on the North American coast at the site later excavated as L'Anse aux Meadows in Newfoundland.",
+  "subject_ids": [
+    "kingdom_of_norway"
+  ],
+  "period": {
+    "from": 1001,
+    "to": 1001
+  },
+  "derived_from": "leif_erikson_vinland_1001",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "jones_history_vikings_1984"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

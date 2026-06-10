@@ -1,0 +1,33 @@
+{
+  "kind": "technology",
+  "dataset": "medieval-europe-500-1500",
+  "id": "magnetic_compass",
+  "name_primary": "Magnetic compass",
+  "domain": "navigational",
+  "origin": {
+    "place": "song_china",
+    "year": 1100
+  },
+  "diffusion": [
+    "song_dynasty",
+    "republic_of_venice",
+    "republic_of_genoa",
+    "mamluk_sultanate"
+  ],
+  "_quarry": {
+    "polities_adopted": [
+      "song_dynasty",
+      "republic_of_venice",
+      "republic_of_genoa",
+      "mamluk_sultanate"
+    ],
+    "description": "Magnetised needle floated or pivoted to indicate magnetic north. Described in Song-era Chinese sources for navigation by the late eleventh century; in use on Mediterranean shipping by the late twelfth, transmitted by Indian Ocean and Red Sea trade. Combined with the portolan chart and the astrolabe it enabled open-water navigation in winter when the polar star was obscured."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "hansen_silk_road_new_history_2012"
+    ],
+    "confidence": "low"
+  }
+}

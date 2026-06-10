@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_hanse_novgorod",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "hanseatic_league",
+      "role": "principal"
+    },
+    {
+      "entity_id": "principality_of_novgorod",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "contested_influence",
+  "since": 1241,
+  "until": 1478,
+  "note": "The Hanseatic League's Novgorod Kontor (established at the Church of St. Peter in Novgorod's German quarter) was the eastern anchor of the Hanseatic commercial system, providing access to the fur, wax, and honey of the Rus hinterland. German merchants traded cloth and salt for luxury goods that commanded premium prices in western Europe. The relationship was managed through strict protocols: German merchants were confined to their quarter, prohibited from Russian wives, and required to maintain fixed prices. Ivan III's closure of the Kontor (1494) — as punishment for Hanseatic failure to support Novgorod against Moscow — ended 250 years of direct commercial connection.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Novgorod Kontor is the easternmost point of Western European commercial integration in the medieval period; its closure (1494) reflects Moscow's determination to control Russian external trade; the replacement of Hanseatic merchants with English Merchant Adventurers (via the Muscovy Company, 1553) demonstrates how commercial networks adapt to political change"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dollinger_the_1970",
+      "hammel-kiesow_die_2000",
+      "martin_treasure_1986",
+      "birnbaum_lord_1981"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

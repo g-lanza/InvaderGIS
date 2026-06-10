@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_viana_1219",
+  "name": "Viana",
+  "importance": "city",
+  "start_year": 1219,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q101002825"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    -2.3712,
+    42.5155
+  ]
+}

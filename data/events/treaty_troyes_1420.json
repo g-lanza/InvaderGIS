@@ -1,0 +1,37 @@
+{
+ "kind": "event",
+ "dataset": "medieval-europe-500-1500",
+ "id": "treaty_troyes_1420",
+ "name": "Treaty of Troyes",
+ "year": 1420,
+ "type": "treaty",
+ "category": "diplomacy",
+ "coords": [
+  48.3,
+  4.08
+ ],
+ "entity": "kingdom_of_england",
+ "summary": "The Treaty of Troyes (May 21, 1420) makes Henry V of England the heir to the French throne through his marriage to Catherine of Valois, daughter of the mad king Charles VI. Charles VI disinherits his own son (the future Charles VII) and recognizes Henry as regent and heir. England and France would be united under a single crown on Charles VI's death. Henry V's sudden death (August 1422) and Charles VI's death (October 1422) leave the infant Henry VI as nominal king of both realms, creating an unworkable political situation that Joan of Arc ultimately unravels.",
+ "outcomes": [],
+ "_quarry": {
+  "participants": [
+   "kingdom_of_england",
+   "kingdom_of_france"
+  ],
+  "structural_significance": "Represents the high point of English dominance in France; creates the dual monarchy that ultimately proves unworkable; disinheriting the dauphin gives Joan of Arc's mission its specific political goal",
+  "year_range": null
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "carpenter_the_2003",
+   "warren_king_1961",
+   "bartlett_england_2000",
+   "prestwich_plantagenet_2005",
+   "ims_fordham",
+   "ims_fordham_sbook1w"
+  ],
+  "confidence": "low",
+  "attestation": "inferred"
+ }
+}

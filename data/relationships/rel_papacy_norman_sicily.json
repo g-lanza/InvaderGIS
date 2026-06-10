@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_papacy_norman_sicily",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "papal_states",
+      "role": "suzerain"
+    },
+    {
+      "entity_id": "kingdom_of_sicily_norman",
+      "role": "vassal"
+    }
+  ],
+  "directed": true,
+  "type": "vassalage",
+  "since": 1130,
+  "until": 1194,
+  "note": "Pope Nicholas II's recognition of Robert Guiscard as the papacy's vassal for his Italian conquests (1059) established the fundamental constitutional framework for the Norman relationship with Rome. The papacy received military protection against imperial and local enemies; the Normans received papal legitimacy for their conquests and a free hand to organize the church in Norman-controlled territories. This arrangement worked spectacularly well for the Investiture Controversy era — the Normans rescued Gregory VII from Henry IV's siege (1084). When the Hohenstaufen inherited the Norman kingdom (1194), this useful military alliance became the papacy's worst nightmare.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The papacy's vassal relationship with Norman Sicily provides crucial military support during the Investiture Controversy; the constitutional arrangement creates the 'Kingdom of Sicily as papal fief' that persists through the Staufen inheritance; the papacy's inability to prevent the Staufen-Norman inheritance demonstrates the limits of papal constitutional arrangements"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

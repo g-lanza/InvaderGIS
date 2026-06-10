@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_vienna_1365_siege_c01",
+  "statement": "In 1365, Ottoman forces under Sultan Murad I took Adrianople (Edirne) and made it the new Ottoman capital in Europe.",
+  "subject_ids": [
+    "duchy_of_austria"
+  ],
+  "period": {
+    "from": 1365,
+    "to": 1365
+  },
+  "derived_from": "vienna_1365_siege",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

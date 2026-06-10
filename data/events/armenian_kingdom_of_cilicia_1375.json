@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "armenian_kingdom_of_cilicia_1375",
+  "name": "Mamluk Conquest Ends Cilician Armenia",
+  "year": 1375,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    33.45,
+    33.55
+  ],
+  "entity": "armenian_kingdom_of_cilicia",
+  "summary": "The Mamluk Sultanate conquered the Kingdom of Cilician Armenia in 1375 CE, ending the last Armenian state until the 20th century. The last king Leo V was captured and eventually ransomed, spending the rest of his life seeking in vain to organise a crusade for the kingdoms recovery. Armenian nobles and commoners dispersed across Europe and the Mediterranean.",
+  "outcomes": [
+    "armenian_state_destroyed",
+    "armenian_diaspora",
+    "last_armenian_king_captive"
+  ],
+  "_quarry": {
+    "participants": [
+      "armenian_kingdom_of_cilicia",
+      "mamluk_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "boase_the_1978",
+      "mutafian_le_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

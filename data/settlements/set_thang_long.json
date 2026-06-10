@@ -1,0 +1,22 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_thang_long",
+  "name": "Thăng Long (Hanoi)",
+  "importance": "capital",
+  "start_year": 1010,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "end_confidence": "low",
+  "coords": [
+    105.854,
+    21.028
+  ]
+}

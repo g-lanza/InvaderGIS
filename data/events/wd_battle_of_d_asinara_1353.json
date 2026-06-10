@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_d_asinara_1353",
+  "name": "Battle of d’Asinara",
+  "year": 1353,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41.25,
+    6.7
+  ],
+  "entity": "kingdom_of_naples",
+  "summary": "Battle of d’Asinara (1353 CE), at Asinara. Source: Wikidata Q66821514.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_naples",
+      "crown_of_aragon"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

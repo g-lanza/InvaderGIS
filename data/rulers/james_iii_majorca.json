@@ -1,0 +1,33 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "james_iii_majorca",
+  "name": "James III of Majorca",
+  "polity": "kingdom_of_majorca",
+  "title": "ruler",
+  "reign_start": 1315,
+  "reign_end": 1349,
+  "succeeds": "james_ii_majorca",
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "kingdom_of_majorca",
+        "role": "ruler",
+        "start_year": 1315,
+        "end_year": 1349
+      }
+    ],
+    "key_actions": [],
+    "region": "iberia",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_battle_dara_530_c01",
+  "statement": "General Belisarius defeated a larger Sassanid Persian force at the fortress of Dara around 530.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 530,
+    "to": 530
+  },
+  "derived_from": "battle_dara_530",
+  "unresolved_sources": [
+    "treadgold_a_1997",
+    "kazhdan_the_1991"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "haldon_byzantium_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

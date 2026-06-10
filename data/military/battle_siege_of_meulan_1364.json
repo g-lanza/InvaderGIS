@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_siege_of_meulan_1364",
+  "name": "Siege of Meulan",
+  "subtype": "battle",
+  "start_year": 1364,
+  "end_year": 1364,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q3485961"
+    }
+  },
+  "description": "Battle during Hundred Years' War (1364)",
+  "coords": [
+    1.91,
+    49.005
+  ]
+}

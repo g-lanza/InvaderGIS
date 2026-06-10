@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_maximilian_i_reforms_1493_c01",
+  "statement": "Maximilian I reorganized the Imperial Diet, with the 1495 Diet of Worms establishing the Eternal Public Peace and an imperial court.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1493,
+    "to": 1493
+  },
+  "derived_from": "maximilian_i_reforms_1493",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

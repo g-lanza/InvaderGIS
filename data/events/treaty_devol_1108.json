@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "treaty_devol_1108",
+  "name": "Treaty of Devol",
+  "year": 1108,
+  "type": "treaty",
+  "category": "diplomacy",
+  "coords": [
+    40.78,
+    20.44
+  ],
+  "entity": "byzantine_empire",
+  "summary": "The Treaty of Devol (September 1108), imposed by Byzantine Emperor Alexios I Komnenos on the Norman prince Bohemund I after his failed invasion of the Byzantine Balkans (1107–1108), requires Bohemund to become a Byzantine vassal for the Principality of Antioch. Bohemund must return all territories taken from Byzantium and accept a Byzantine duke (Doux) in Antioch. Bohemund signs under military necessity; the treaty is never enforced because Bohemund dies in 1111 and his nephew Tancred (who had refused to sign) holds Antioch as regent. Nevertheless, the treaty establishes Byzantine sovereignty claims over Antioch that persist for decades.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "principality_of_antioch"
+    ],
+    "structural_significance": "Establishes Byzantine suzerainty over the Principality of Antioch on paper; demonstrates Alexios I's diplomatic skill in converting military stalemate into apparent Byzantine victory; the treaty's non-enforcement reveals the limits of Byzantine power to enforce agreements on crusader states",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

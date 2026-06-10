@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "peace_of_utrecht_1474",
+  "name": "Peace of Utrecht and Hanseatic Decline",
+  "year": 1474,
+  "type": "economic",
+  "category": "economy",
+  "coords": [
+    52.09,
+    5.12
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "The Peace of Utrecht (1474) between the Hanseatic League and England settled a trade war during which England had suspended Hanse privileges. The League retained its Steelyard privileges in London, but the settlement revealed its weakness: it could no longer exclude English merchants from the Baltic. As national monarchies centralized commercial policy, the city-based Hanse model of cooperative merchant power became progressively obsolete.",
+  "outcomes": [
+    "Hanse retains privileges in England",
+    "English merchants gain access to Baltic",
+    "Beginning of Hanseatic decline as nation-states assert trade control",
+    "Commercial balance shifting toward individual monarchies"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "Marked the beginning of the Hanseatic League's long decline as nation-states developed coherent commercial policies that superseded merchant city alliances.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Dollinger, The German Hansa",
+      "Lloyd, England and the German Hanse"
+    ],
+    "confidence": "low"
+  }
+}

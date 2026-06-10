@@ -1,0 +1,36 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_avar_khaganate_to_great_moravia_fragmentation",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "avar_khaganate",
+      "role": "parent"
+    },
+    {
+      "entity_id": "great_moravia",
+      "role": "fragment"
+    }
+  ],
+  "directed": true,
+  "type": "fragmentation",
+  "since": 833,
+  "until": 833,
+  "note": "Derived from predecessor/successor links recorded in the avar_khaganate and great_moravia entity records. Transition anchored to great_moravia start_year.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Mechanical normalisation of curated predecessor/successor links into the relationships register."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "havlík_kronika_1992",
+      "bowlus_franks_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

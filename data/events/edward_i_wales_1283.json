@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "edward_i_wales_1283",
+  "name": "Edward I Conquers Wales, Statute of Rhuddlan",
+  "year": 1283,
+  "type": "conquest",
+  "category": "violence",
+  "coords": [
+    53.14,
+    -4.27
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Edward I completes the conquest of Wales following the death of Llywelyn ap Gruffudd (1282) and the execution of his brother Dafydd (1283). The Statute of Rhuddlan (1284) imposes English law and administration on Wales, dividing it into shires on the English model. Edward builds eight massive concentric castles (Caernarfon, Conwy, Harlech, Beaumaris) to control the conquered territory, the most ambitious castle-building program in medieval British history.",
+  "outcomes": [
+    "wales_incorporated_england",
+    "llywelyn_ap_gruffudd_killed",
+    "castle_ring_built"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "principality_of_wales"
+    ],
+    "structural_significance": "The Welsh conquest establishes that English kings could use legal, administrative, and military instruments together to permanently absorb neighboring territories; the castle program becomes the model for English colonial control; Edward's subsequent title Prince of Wales (given to his son born at Caernarfon) creates the tradition that persists to the present day",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_keban_1218",
+  "name": "Battle of Keban",
+  "year": 1218,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    37.7,
+    34.2
+  ],
+  "entity": "armenian_kingdom_of_cilicia",
+  "summary": "Battle of Keban (1218 CE), at Keban (part of Cilicia Campaign of Kaykaus I). Source: Wikidata Q117528889.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "armenian_kingdom_of_cilicia",
+      "sultanate_of_rum"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "boase_the_1978",
+      "mutafian_le_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_marienburg_1454_c01",
+  "statement": "Siege of Marienburg (1454 CE), at Malbork (part of Thirteen Years' War).",
+  "subject_ids": [
+    "teutonic_order_state"
+  ],
+  "period": {
+    "from": 1454,
+    "to": 1454
+  },
+  "derived_from": "wd_siege_of_marienburg_1454",
+  "unresolved_sources": [
+    "urban_the_1994"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "christiansen_the_1997",
+      "turnbull_crusader_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

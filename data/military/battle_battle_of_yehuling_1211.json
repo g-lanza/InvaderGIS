@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_yehuling_1211",
+  "name": "Battle of Yehuling",
+  "subtype": "battle",
+  "start_year": 1211,
+  "end_year": 1211,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1018947"
+    }
+  },
+  "description": "Battle during Mongol conquest of the Jin dynasty (1211)",
+  "coords": [
+    114.717,
+    41.1037
+  ]
+}

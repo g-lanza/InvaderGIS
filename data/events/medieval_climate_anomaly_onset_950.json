@@ -1,0 +1,31 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "medieval_climate_anomaly_onset_950",
+  "name": "Medieval Climate Anomaly intensifies",
+  "year": 950,
+  "type": "disaster",
+  "category": "hazard",
+  "coords": [
+    60.72,
+    -46.04
+  ],
+  "entity": "",
+  "summary": "Northern Hemisphere proxy records (tree rings, ice cores, marine sediments) document a sustained warm phase, ~0.3–0.6 °C above the 1961–1990 mean, between roughly 950 and 1250 CE. The North Atlantic warming opens the route to Iceland (874), Greenland (986), and Vinland (c. 1000); Europe-wide growing seasons lengthen.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [],
+    "structural_significance": "Climatic enabler of the 11th–13th century European demographic, agricultural, and territorial expansion; the warm phase ends in the early 14th century with the cooling that precedes the Great Famine.",
+    "year_range": [
+      900,
+      1250
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "campbell_great_transition_2016"
+    ],
+    "confidence": "low"
+  }
+}

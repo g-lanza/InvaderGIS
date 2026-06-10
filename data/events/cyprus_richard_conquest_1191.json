@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "cyprus_richard_conquest_1191",
+  "name": "Richard I Conquers Cyprus",
+  "year": 1191,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    35,
+    33
+  ],
+  "entity": "kingdom_of_cyprus",
+  "summary": "Richard I of England conquered Cyprus from the Byzantine governor Isaac Komnenos during the Third Crusade. He sold the island to the Knights Templar and then to Guy of Lusignan, beginning three centuries of Latin rule.",
+  "outcomes": [
+    "cyprus_crusader",
+    "lusignan_granted_cyprus",
+    "byzantine_rule_ended"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_cyprus"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

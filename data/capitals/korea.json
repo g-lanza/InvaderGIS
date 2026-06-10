@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "korea",
+  "name": "Kaesong",
+  "entity_id": "korea",
+  "entity_name": "Goryeo Kingdom",
+  "start_year": 918,
+  "end_year": 1392,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q28208"
+    }
+  },
+  "coords": [
+    126.55278,
+    37.97167
+  ]
+}

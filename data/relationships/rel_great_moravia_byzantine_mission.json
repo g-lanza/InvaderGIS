@@ -1,0 +1,39 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_great_moravia_byzantine_mission",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "great_moravia",
+      "role": "principal"
+    },
+    {
+      "entity_id": "byzantine_empire",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "religious_jurisdiction",
+  "since": 863,
+  "until": 885,
+  "note": "The Byzantine mission to Great Moravia (863) — led by the brothers Cyril and Methodius at Prince Rastislav's invitation — created the first Slavic alphabet (Glagolitic) and the first Slavic liturgy. Rastislav's motivation was political: he wanted a church independent of the Frankish bishops who were encroaching on Moravian autonomy. The brothers translated the Gospels, liturgy, and canon law into Slavic. Pope Hadrian II recognized the Slavic liturgy (868); after Cyril's death (869), Methodius continued as Archbishop of Moravia until his death (885). His disciples, expelled by Frankish bishops, carried the mission to Bulgaria, where it transformed Slavic literacy.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Glagolitic/Cyrillic alphabet and Slavic liturgy created by Cyril and Methodius transform the cultural trajectory of all Slavic peoples; without the Cyrillo-Methodian tradition, the Slavic world would have been divided between Latin and Greek literacy; the mission's Bulgarian reception makes it the foundation of Orthodox Slavic civilization"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "havlík_kronika_1992",
+      "bowlus_franks_1995",
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

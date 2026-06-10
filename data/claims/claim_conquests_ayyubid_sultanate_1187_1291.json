@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_ayyubid_sultanate_1187_1291",
+  "statement": "Ayyubid Sultanate — campaigns and battles spanned 1187–1291, from Battle of Hattin to Siege of Acre.",
+  "subject_ids": [
+    "ayyubid_sultanate"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_ayyubid_sultanate_1187_1291",
+  "period": {
+    "from": 1187,
+    "to": 1291
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "humphreys_from_1977",
+      "lyons_saladin_1982",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

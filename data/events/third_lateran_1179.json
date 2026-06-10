@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "third_lateran_1179",
+  "name": "Third Lateran Council",
+  "year": 1179,
+  "type": "religious_council",
+  "category": "religion",
+  "coords": [
+    41.9,
+    12.45
+  ],
+  "entity": "papal_states",
+  "summary": "The Third Lateran Council (1179), convened by Pope Alexander III after his victory in the schism against Frederick Barbarossa's antipopes, issues the canon Licet de vitanda (canon 1): henceforth, papal elections require a two-thirds majority of the College of Cardinals. This resolves the disputed elections that had produced the Western Schism of 1159–1177 (four antipopes). The council also condemned the Cathar heresy, issued canons against clerical corruption, and regulated the qualification of bishops and priests. The two-thirds rule for papal elections has governed every conclave since 1179.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "papal_states"
+    ],
+    "structural_significance": "Establishes the two-thirds supermajority rule for papal elections that has governed every conclave to the present day; condemns Catharism (presaging the Albigensian Crusade 30 years later); marks Alexander III's triumph over the Barbarossa-backed antipopes",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_cheolju_fortress_1231_c02",
+  "statement": "The Battle of Cheolju Fortress took place at the Yalu River.",
+  "subject_ids": [
+    "mongol_empire"
+  ],
+  "period": {
+    "from": 1231,
+    "to": 1231
+  },
+  "derived_from": "wd_battle_of_cheolju_fortress_1231",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

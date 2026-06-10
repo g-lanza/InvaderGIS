@@ -1,0 +1,31 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_west_francia_to_france",
+  "statement": "The Capetian dynasty transformed West Francia into the Kingdom of France through three centuries of patient royal domain expansion, administrative development, and dynastic continuity. Hugh Capet (elected 987) ruled only the Île-de-France directly; his great-granddaughter would have recognized little 'France' beyond Paris. Philip II Augustus (1180–1223) doubled the royal domain by conquering Normandy and Anjou. Louis IX (1226–1270) institutionalized royal justice. Philip IV 'the Fair' (1285–1314) built the royal bureaucracy. By 1300, France was the most powerful and administratively sophisticated monarchy in Europe.",
+  "subject_ids": [
+    "west_francia",
+    "kingdom_of_france"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_west_francia_to_france",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 987,
+    "to": 987
+  }
+}

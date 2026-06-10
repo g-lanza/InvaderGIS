@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_amroha_1305",
+  "name": "Battle of Amroha",
+  "year": 1305,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    37.9,
+    90
+  ],
+  "entity": "mongol_empire",
+  "summary": "Battle of Amroha (1305 CE), at Amroha (part of Mongol invasions of India). Source: Wikidata Q4870295.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "mongol_empire",
+      "delhi_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

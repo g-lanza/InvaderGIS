@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_county_of_holland_1083_c02",
+  "statement": "Hollanders' engineering to reclaim land from the sea through dykes and drainage created the distinctive Dutch landscape and agricultural wealth.",
+  "subject_ids": [
+    "county_of_holland"
+  ],
+  "period": {
+    "from": 1083,
+    "to": 1083
+  },
+  "derived_from": "county_of_holland_1083",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

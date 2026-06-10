@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_boccaccio_decameron_1353_c02",
+  "statement": "The Decameron's frame narrative is a foundational document of plague literature.",
+  "subject_ids": [
+    "republic_of_florence"
+  ],
+  "period": {
+    "from": 1353,
+    "to": 1353
+  },
+  "derived_from": "boccaccio_decameron_1353",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "le_goff_medieval_civilization_1988",
+      "campbell_great_transition_2016"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

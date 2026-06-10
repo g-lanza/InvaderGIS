@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_first_crusade_1096",
+  "name": "First Crusade",
+  "year": 1096,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    43.3,
+    11.2
+  ],
+  "entity": "duchy_of_brittany",
+  "summary": "First Crusade (1096 CE), at Near East (part of Crusades). Source: Wikidata Q51649.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "duchy_of_brittany",
+      "county_of_flanders",
+      "fatimid_caliphate",
+      "republic_of_genoa",
+      "armenian_kingdom_of_cilicia",
+      "duchy_of_normandy",
+      "county_of_toulouse"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

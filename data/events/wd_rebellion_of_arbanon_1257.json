@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_rebellion_of_arbanon_1257",
+  "name": "Rebellion of Arbanon",
+  "year": 1257,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    40.05,
+    25.25
+  ],
+  "entity": "empire_of_nicaea",
+  "summary": "Rebellion of Arbanon (1257 CE). Source: Wikidata Q7302104.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "empire_of_nicaea",
+      "despotate_of_epirus"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

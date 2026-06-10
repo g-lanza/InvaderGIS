@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "swabian_war_1499",
+  "name": "Swabian War",
+  "year": 1499,
+  "type": "war",
+  "category": "violence",
+  "coords": [
+    47.56,
+    7.59
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "The Swabian War (January–September 1499) is the final conflict between the Swiss Confederation and the Holy Roman Empire over Swiss autonomy. Emperor Maximilian I attempts to impose imperial taxation and court jurisdiction on the Swiss cantons; the Swiss refuse and defeat imperial and Swabian League forces at the battles of Hard, Bruderholz, Dornach, and others. Swiss pike formations prove superior to imperial cavalry. The Peace of Basel (September 22, 1499) grants the Swiss Confederation de facto independence from imperial jurisdiction, though formal independence is only recognized at the Peace of Westphalia (1648).",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "swiss_confederation"
+    ],
+    "structural_significance": "Establishes effective Swiss independence from the Holy Roman Empire; Swiss military supremacy through pike formations makes Switzerland the dominant mercenary force in 16th-century Europe; the defeat embarrasses Maximilian I and demonstrates the limits of imperial authority over peripheral territories",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

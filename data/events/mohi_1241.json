@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "mohi_1241",
+  "name": "Battle of Mohi",
+  "year": 1241,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    47.94,
+    20.55
+  ],
+  "entity": "kingdom_of_hungary",
+  "summary": "At the Battle of Mohi on the Sajó River (April 11, 1241), Batu Khan's Mongol army under Subutai destroys the Hungarian royal army of King Béla IV. Simultaneously, at the Battle of Legnica (April 9, 1241), another Mongol army defeats a Polish-German force under Duke Henry II of Silesia, who is killed. Within two months, the Mongols control most of Hungary and Poland; they reach the Adriatic at Spalato. Only Béla IV's survival on an island in the Adriatic and news of Khan Ögedei's death prevent the conquest of Western Europe.",
+  "outcomes": [
+    "mongol_tactical_victory"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_hungary",
+      "golden_horde"
+    ],
+    "structural_significance": "Demonstrates Mongol ability to operate across two theaters simultaneously; reveals vulnerability of Western European feudal armies to Mongol tactics; Ögedei's death prevents western expansion",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "engel_the_2001",
+      "berend_at_2001"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

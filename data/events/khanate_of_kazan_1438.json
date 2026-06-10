@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "khanate_of_kazan_1438",
+  "name": "Khanate of Kazan Founded",
+  "year": 1438,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    55.79,
+    49.12
+  ],
+  "entity": "khanate_of_kazan",
+  "summary": "The Khanate of Kazan was established around 1438 as a successor state to the dissolving Golden Horde, controlling the strategic confluence of the Volga and Kama rivers. The khanate became a major power in the region, raiding Russian principalities while maintaining important trade connections.",
+  "outcomes": [
+    "golden_horde_successor",
+    "volga_region_controlled",
+    "russian_pressure"
+  ],
+  "_quarry": {
+    "participants": [
+      "khanate_of_kazan"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

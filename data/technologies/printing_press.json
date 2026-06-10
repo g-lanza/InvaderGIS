@@ -1,0 +1,31 @@
+{
+  "kind": "technology",
+  "dataset": "medieval-europe-500-1500",
+  "id": "printing_press",
+  "name_primary": "Movable-type printing press",
+  "domain": "printing",
+  "origin": {
+    "place": "central_europe",
+    "year": 1450
+  },
+  "diffusion": [
+    "holy_roman_empire",
+    "kingdom_of_france",
+    "republic_of_venice",
+    "kingdom_of_england"
+  ],
+  "_quarry": {
+    "polities_adopted": [
+      "holy_roman_empire",
+      "kingdom_of_france",
+      "republic_of_venice",
+      "kingdom_of_england"
+    ],
+    "description": "Cast metal sortable type, oil-based ink, and a screw press, combined by Johannes Gutenberg in Mainz around 1450 to print the 42-line Bible. Earlier movable type existed in Song and Goryeo Korea, but the European press's pairing with cheap rag paper and a Latin alphabet small enough to recombine gave it explosive reach: by 1500 presses operated in some 250 European cities and over 27,000 separate works had appeared in print."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

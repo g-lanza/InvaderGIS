@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_rychwa_1394",
+  "name": "Rychwał",
+  "importance": "city",
+  "start_year": 1394,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q259489"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    18.1717,
+    52.0711
+  ]
+}

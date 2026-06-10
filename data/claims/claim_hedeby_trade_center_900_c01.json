@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_hedeby_trade_center_900_c01",
+  "statement": "Around 900 CE, Hedeby at the base of the Jutland peninsula was the largest Viking Age trading center in northern Europe.",
+  "subject_ids": [
+    "kingdom_of_denmark"
+  ],
+  "period": {
+    "from": 900,
+    "to": 900
+  },
+  "derived_from": "hedeby_trade_center_900",
+  "unresolved_sources": [
+    "roesdahl_the_1992"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_medieval_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

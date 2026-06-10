@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_ayn_al_tamr_633",
+  "name": "Battle of Ayn al-Tamr",
+  "subtype": "battle",
+  "start_year": 633,
+  "end_year": 633,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2576269"
+    }
+  },
+  "description": "Battle during Muslim conquest of Persia (633)",
+  "coords": [
+    43.4802,
+    32.5574
+  ]
+}

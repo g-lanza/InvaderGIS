@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_crecy",
+  "name": "Battle of Crécy",
+  "subtype": "battle",
+  "start_year": 1346,
+  "end_year": 1346,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "English longbowmen devastate French cavalry",
+  "coords": [
+    1.874,
+    50.254
+  ]
+}

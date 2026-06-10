@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_morlaix_1342",
+  "name": "Battle of Morlaix",
+  "subtype": "battle",
+  "start_year": 1342,
+  "end_year": 1342,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1887009"
+    }
+  },
+  "description": "Battle during War of the Breton Succession (1342)",
+  "coords": [
+    -3.74,
+    48.63
+  ]
+}

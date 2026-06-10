@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_nika_revolt_532_c01",
+  "statement": "The Nika Revolt erupted in Constantinople's Hippodrome in 532 when chariot-racing factional violence expanded into political revolt against Justinian I.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 532,
+    "to": 532
+  },
+  "derived_from": "nika_revolt_532",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "ims_fordham",
+      "ims_fordham_sbook1c"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

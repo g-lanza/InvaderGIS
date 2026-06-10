@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_jaffa_1192",
+  "name": "Battle of Jaffa",
+  "year": 1192,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    46.8667,
+    6.1
+  ],
+  "entity": "republic_of_genoa",
+  "summary": "Battle of Jaffa (1192 CE), at Jaffa (part of Third Crusade). Source: Wikidata Q2008448.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_genoa",
+      "kingdom_of_england",
+      "republic_of_pisa"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

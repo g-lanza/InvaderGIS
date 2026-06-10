@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_gutenberg_mainz_1445_c03",
+  "statement": "Gutenberg's breakthrough was the hand mold enabling rapid type casting, whose first major product was the 42-line Bible around 1454-1455.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1445,
+    "to": 1445
+  },
+  "derived_from": "gutenberg_mainz_1445",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

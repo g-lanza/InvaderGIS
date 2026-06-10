@@ -1,0 +1,110 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_khanate_of_crimea_1307_1498",
+  "name": "Crimean Khanate — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1307,
+  "year_end": 1498,
+  "waypoints": [
+    {
+      "year": 1307,
+      "place": "Genoese–Mongol Wars",
+      "coords": [
+        45.25,
+        43.84
+      ],
+      "note": "military",
+      "event_id": "wd_genoese_mongol_wars_1307"
+    },
+    {
+      "year": 1414,
+      "place": "Conquests of Inal the Great",
+      "coords": [
+        44.9425,
+        33.075
+      ],
+      "note": "military",
+      "event_id": "wd_conquests_of_inal_the_great_1414"
+    },
+    {
+      "year": 1414,
+      "place": "History of the Crimean–Circassian Wars",
+      "coords": [
+        44.95,
+        34.1
+      ],
+      "note": "military",
+      "event_id": "wd_history_of_the_crimean_circassian_wars_1414"
+    },
+    {
+      "year": 1475,
+      "place": "Siege of Caffa",
+      "coords": [
+        43.45,
+        23.9667
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_caffa_1475"
+    },
+    {
+      "year": 1479,
+      "place": "Crimean-Circassian War",
+      "coords": [
+        44.95,
+        34.1
+      ],
+      "note": "military",
+      "event_id": "wd_crimean_circassian_war_1479"
+    },
+    {
+      "year": 1485,
+      "place": "Polish-Ottoman War of 1485–1503",
+      "coords": [
+        48.33,
+        27.26
+      ],
+      "note": "military",
+      "event_id": "wd_polish_ottoman_war_of_1485_1503_1485"
+    },
+    {
+      "year": 1487,
+      "place": "Muscovite-Lithuanian War of 1487-1494",
+      "coords": [
+        49.825,
+        29.7
+      ],
+      "note": "military",
+      "event_id": "wd_muscovite_lithuanian_war_of_1487_1494_1487"
+    },
+    {
+      "year": 1492,
+      "place": "Pyatigorsk War",
+      "coords": [
+        44.95,
+        34.1
+      ],
+      "note": "military",
+      "event_id": "wd_pyatigorsk_war_1492"
+    },
+    {
+      "year": 1498,
+      "place": "Moldavian campaign in Poland",
+      "coords": [
+        44.3167,
+        30.3333
+      ],
+      "note": "military",
+      "event_id": "wd_moldavian_campaign_in_poland_1498"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fisher_the_1978",
+      "davies_warfare_2007"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

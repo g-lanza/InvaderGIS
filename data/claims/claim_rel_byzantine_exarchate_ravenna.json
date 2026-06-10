@@ -1,0 +1,32 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_byzantine_exarchate_ravenna",
+  "statement": "The Exarchate of Ravenna — the Byzantine administrative center in northern Italy established after Justinian's reconquest (540) — governed Byzantine Italy for over 200 years. Ravenna served as the western seat of imperial administration because its coastal position and surrounding marshes made it defensible against Lombard land power. The Exarchate's mosaics (San Vitale, Sant'Apollinare) represent the peak of Byzantine art in the West. The Lombard King Aistulf captured Ravenna (751), ending Byzantine administration in northern Italy; Pope Stephen II's subsequent appeal to Pippin III produced the Donation of Pippin and the Frankish-papal alliance.",
+  "subject_ids": [
+    "byzantine_empire",
+    "exarchate_of_ravenna"
+  ],
+  "predicate": "vassalage",
+  "derived_from": "rel_byzantine_exarchate_ravenna",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "exarchate_of_ravenna"
+  ],
+  "period": {
+    "from": 584,
+    "to": 751
+  }
+}

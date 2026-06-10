@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "swiss_confederation",
+  "name": "Bern",
+  "entity_id": "swiss_confederation",
+  "entity_name": "Swiss Confederation",
+  "start_year": 1291,
+  "end_year": 1499,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q435583"
+    }
+  },
+  "coords": [
+    7.45,
+    46.95
+  ]
+}

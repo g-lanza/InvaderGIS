@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_pax_nicephori_803",
+  "name": "Pax Nicephori",
+  "year": 803,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    45,
+    16.2
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Pax Nicephori (803 CE). Source: Wikidata Q2470109.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "merovingian_kingdom"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

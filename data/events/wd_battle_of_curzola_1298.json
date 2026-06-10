@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_curzola_1298",
+  "name": "Battle of Curzola",
+  "year": 1298,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    44.9,
+    10.6
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Battle of Curzola (1298 CE), at Korčula (part of War of Curzola). Source: Wikidata Q2139987.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "republic_of_genoa"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "abd_al_rahman_iii_caliph_929",
+  "name": "Abd al-Rahman III Proclaims the Caliphate of Córdoba",
+  "year": 929,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    37.89,
+    -4.78
+  ],
+  "entity": "caliphate_of_cordoba",
+  "summary": "Abd al-Rahman III, emir of Córdoba since 912, takes the titles of Caliph and Commander of the Faithful in 929, declaring himself equal to the Abbasid caliph in Baghdad and the Fatimid caliph in Cairo. He has already suppressed the internal revolts that had plagued the emirate, consolidated al-Andalus's territory, and built the spectacular palace city of Medina Azahara outside Córdoba. His caliphate represents the peak of Andalusian civilization.",
+  "outcomes": [
+    "third_caliphate_declared",
+    "iberian_umayyads_claim_caliphate",
+    "abbasid_fatimid_challenged"
+  ],
+  "_quarry": {
+    "participants": [
+      "caliphate_of_cordoba",
+      "umayyad_emirate_cordoba"
+    ],
+    "structural_significance": "The Caliphate of Córdoba's declaration signals the definitive fracturing of Islamic political unity, three simultaneous caliphates (Abbasid, Fatimid, Umayyad) compete for Islamic legitimacy; Córdoba under Abd al-Rahman III becomes Europe's largest and most literate city; the caliphate's subsequent collapse (1009-1031) into taifa kingdoms is the political opportunity that enables the Reconquista's advance",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_muslim_1996",
+      "scales_the_1994"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

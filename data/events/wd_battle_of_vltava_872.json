@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_vltava_872",
+  "name": "Battle of Vltava",
+  "year": 872,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    50.3,
+    11.95
+  ],
+  "entity": "east_francia",
+  "summary": "Battle of Vltava (872 CE), at Vltava. Source: Wikidata Q9172506.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "east_francia",
+      "duchy_of_bohemia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,1014 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_kent",
+  "name_primary": "Kingdom of Kent",
+  "name_variants": [
+    "Cantware"
+  ],
+  "type": "kingdom",
+  "region": "british_isles",
+  "formed": 455,
+  "dissolved": 825,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 500,
+      "label": "Kingdom of Kent",
+      "polygon": [
+        [
+          51.05,
+          0.3
+        ],
+        [
+          51.05,
+          0.56
+        ],
+        [
+          50.91,
+          0.82
+        ],
+        [
+          51.18,
+          1.39
+        ],
+        [
+          51.38,
+          1.38
+        ],
+        [
+          51.51,
+          -0.07
+        ],
+        [
+          51.11,
+          0.05
+        ],
+        [
+          51.05,
+          0.3
+        ]
+      ]
+    },
+    {
+      "year": 534,
+      "label": "Kingdom of Kent",
+      "polygon": [
+        [
+          51.05,
+          0.22
+        ],
+        [
+          51.05,
+          0.56
+        ],
+        [
+          50.91,
+          0.82
+        ],
+        [
+          51.18,
+          1.39
+        ],
+        [
+          51.38,
+          1.38
+        ],
+        [
+          51.45,
+          -0.06
+        ],
+        [
+          51.11,
+          0.05
+        ],
+        [
+          51.11,
+          0.22
+        ],
+        [
+          51.05,
+          0.22
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    51.28,
+    0.52
+  ],
+  "religion": "catholic",
+  "population_estimates": [
+    {
+      "year": 550,
+      "estimate": 105000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q328818",
+          "url": "https://www.wikidata.org/wiki/Q328818",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Kent",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Kent"
+        }
+      ]
+    },
+    {
+      "year": 700,
+      "estimate": 150000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q328818",
+          "url": "https://www.wikidata.org/wiki/Q328818",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Kent",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Kent"
+        }
+      ]
+    },
+    {
+      "year": 850,
+      "estimate": 165000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q328818",
+          "url": "https://www.wikidata.org/wiki/Q328818",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Kent",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Kent"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low"
+  },
+  "description": "Earliest and most Romanised Anglo-Saxon kingdom (c. 455–825) whose king Æthelberht welcomed Augustine's mission (597), making Kent the first Anglo-Saxon kingdom to accept Christianity; its legal code, the Laws of Æthelberht, is the oldest surviving document written in Old English.",
+  "temporal": {
+    "start_year": 455,
+    "end_year": 825,
+    "end_year_within_scope": null,
+    "start_event_id": null,
+    "end_event_id": null,
+    "notes": "Jutish heptarchy kingdom; Augustine mission 597."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      51.28,
+      0.52
+    ],
+    "core_regions": [
+      "Kent"
+    ],
+    "polygon_simplified": [
+      [
+        51.05,
+        0.22
+      ],
+      [
+        51.05,
+        0.56
+      ],
+      [
+        50.91,
+        0.82
+      ],
+      [
+        51.18,
+        1.39
+      ],
+      [
+        51.38,
+        1.38
+      ],
+      [
+        51.45,
+        -0.06
+      ],
+      [
+        51.11,
+        0.05
+      ],
+      [
+        51.11,
+        0.22
+      ],
+      [
+        51.05,
+        0.22
+      ]
+    ],
+    "notes": "Centroid approximate; polygon pending schematic or OHM sourcing.",
+    "polygon_snapshots": [
+      {
+        "year": 500,
+        "label": "Kingdom of Kent",
+        "polygon": [
+          [
+            51.05,
+            0.3
+          ],
+          [
+            51.05,
+            0.56
+          ],
+          [
+            50.91,
+            0.82
+          ],
+          [
+            51.18,
+            1.39
+          ],
+          [
+            51.38,
+            1.38
+          ],
+          [
+            51.51,
+            -0.07
+          ],
+          [
+            51.11,
+            0.05
+          ],
+          [
+            51.05,
+            0.3
+          ]
+        ]
+      },
+      {
+        "year": 534,
+        "label": "Kingdom of Kent",
+        "polygon": [
+          [
+            51.05,
+            0.22
+          ],
+          [
+            51.05,
+            0.56
+          ],
+          [
+            50.91,
+            0.82
+          ],
+          [
+            51.18,
+            1.39
+          ],
+          [
+            51.38,
+            1.38
+          ],
+          [
+            51.45,
+            -0.06
+          ],
+          [
+            51.11,
+            0.05
+          ],
+          [
+            51.11,
+            0.22
+          ],
+          [
+            51.05,
+            0.22
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "real_historical_boundary",
+    "polygon_source": "Seshat-Global-History-Databank/cliopatria",
+    "polygon_source_date": "2026-05-10",
+    "capital": {
+      "name": "Canterbury",
+      "coords": [
+        51.27833,
+        1.0775
+      ],
+      "source": "wikidata"
+    }
+  },
+  "internal_structure": {
+    "centralization": "low_to_medium",
+    "centralization_trajectory": null,
+    "governance_type": "dynastic_feudal",
+    "legitimacy_basis": [
+      "inheritance"
+    ],
+    "administrative_system": ""
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "formation",
+      "years": "c.449–550",
+      "description": "Jutes establish the kingdom under Hengist tradition.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q328818",
+          "url": "https://www.wikidata.org/wiki/Q328818"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Kent",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Kent"
+        }
+      ]
+    },
+    {
+      "phase": "peak",
+      "years": "550–685",
+      "description": "Æthelberht I; Canterbury established; height of Kentish influence.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q328818",
+          "url": "https://www.wikidata.org/wiki/Q328818"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Kent",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Kent"
+        }
+      ]
+    },
+    {
+      "phase": "decline",
+      "years": "685–762",
+      "description": "Mercian pressure; sub-kings multiply.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q328818",
+          "url": "https://www.wikidata.org/wiki/Q328818"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Kent",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Kent"
+        }
+      ]
+    },
+    {
+      "phase": "dissolution",
+      "years": "762–825",
+      "description": "Offa of Mercia controls Kent; absorbed into Wessex 825.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q328818",
+          "url": "https://www.wikidata.org/wiki/Q328818"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Kent",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Kent"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "trade_route_control",
+      "layer": "economic_commercial",
+      "description": "Canterbury and Kentish ports were the leading points of contact with Frankish trade in the early medieval period.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q328818",
+          "url": "https://www.wikidata.org/wiki/Q328818"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Kent",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Kent"
+        }
+      ]
+    },
+    {
+      "tag": "religious_legitimacy",
+      "layer": "ideology_religion",
+      "description": "Augustine's Gregorian mission made Kent the first English Christian kingdom; Canterbury became the primatial see of England.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q328818",
+          "url": "https://www.wikidata.org/wiki/Q328818"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Kent",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Kent"
+        }
+      ]
+    },
+    {
+      "tag": "geographic_defensibility",
+      "layer": "geography_territory",
+      "description": "Channel coast with Thanet Island and proximity to continental exchange routes gave economic and strategic advantages.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q328818",
+          "url": "https://www.wikidata.org/wiki/Q328818"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Kent",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Kent"
+        }
+      ]
+    },
+    {
+      "layer": "ideology_religion",
+      "tag": "first_english_christianity",
+      "direction": "rise",
+      "description": "Kent was the entry point of Roman Christianity to England; Augustine's mission landed at Thanet in 597 and King Æthelberht's conversion made Canterbury the primatial see of all England.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q328818",
+          "url": "https://www.wikidata.org/wiki/Q328818"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Kent",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Kent"
+        }
+      ]
+    },
+    {
+      "layer": "economic_commercial",
+      "tag": "trade_route_control",
+      "direction": "rise",
+      "description": "Kent's proximity to the Continent made it the dominant channel of Frankish-English trade in the 7th century, with the Kentish ports of Sandwich and Richborough generating royal customs revenues.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q328818",
+          "url": "https://www.wikidata.org/wiki/Q328818"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Kent",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Kent"
+        }
+      ],
+      "tag_prose": "cross_channel_trade"
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "external_military_pressure",
+      "layer": "military_security",
+      "description": "Mercian overlordship under Æthelbald and Offa progressively subordinated Kent.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q328818",
+          "url": "https://www.wikidata.org/wiki/Q328818"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Kent",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Kent"
+        }
+      ]
+    },
+    {
+      "tag": "succession_crisis",
+      "layer": "dynastic_legitimacy",
+      "description": "Kentish royal lines splintered and were repeatedly replaced or subordinated to Mercian and then Wessex overlords.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q328818",
+          "url": "https://www.wikidata.org/wiki/Q328818"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Kent",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Kent"
+        }
+      ]
+    },
+    {
+      "tag": "internal_fragmentation",
+      "layer": "governance_institutional",
+      "description": "Kent was often divided between east and west Kent sub-kings, preventing effective unified governance.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q328818",
+          "url": "https://www.wikidata.org/wiki/Q328818"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Kent",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Kent"
+        }
+      ]
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "mercian_overlordship",
+      "direction": "decline",
+      "description": "Offa of Mercia subordinated Kent in the 780s, imposing Mercian overlordship and depriving Kentish kings of independent foreign policy for decades.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q328818",
+          "url": "https://www.wikidata.org/wiki/Q328818"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Kent",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Kent"
+        }
+      ]
+    },
+    {
+      "layer": "military_security",
+      "tag": "external_military_pressure",
+      "direction": "decline",
+      "description": "Egbert of Wessex conquered Kent in 825 and incorporated it permanently into Wessex, ending the Oiscingas dynasty and making Kent a sub-kingdom administered by Wessex princes.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q328818",
+          "url": "https://www.wikidata.org/wiki/Q328818"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Kent",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Kent"
+        }
+      ],
+      "tag_prose": "wessex_absorption"
+    }
+  ],
+  "key_figures": [
+    {
+      "person_id": "aethelberht_i_kent",
+      "name": "Æthelberht I",
+      "role": "ruler",
+      "years": "c.560–616",
+      "year_start": 560,
+      "year_end": 616,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Æthelberht I",
+          "url": "https://en.wikipedia.org/wiki/%C3%86thelberht_of_Kent"
+        }
+      ]
+    }
+  ],
+  "predecessor_entity_ids": [
+    "anglo_saxon_heptarchy"
+  ],
+  "successor_entity_ids": [
+    "kingdom_of_england"
+  ],
+  "primary_ethnicity": "english",
+  "ethnic_composition": [
+    {
+      "group": "english",
+      "proportion": 0.9
+    }
+  ],
+  "religion_composition": [
+    {
+      "religion": "catholic",
+      "proportion": 0.95
+    },
+    {
+      "religion": "pagan",
+      "proportion": 0.05
+    }
+  ],
+  "primary_language": "old_english",
+  "language_composition": [
+    {
+      "language": "old_english",
+      "proportion": 0.86,
+      "role": "vernacular"
+    },
+    {
+      "language": "latin",
+      "proportion": 0.1,
+      "role": "liturgical"
+    },
+    {
+      "language": "celtic_lang",
+      "proportion": 0.04,
+      "role": "regional"
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "maritime_trade",
+      "manufacturing"
+    ],
+    "wealth_level": "moderate",
+    "major_exports": [
+      "wool",
+      "grain",
+      "salt",
+      "pottery"
+    ],
+    "major_trade_partners": [
+      "carolingian_empire",
+      "duchy_of_normandy"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "customs_duties",
+      "tithes"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q328818",
+        "url": "https://www.wikidata.org/wiki/Q328818"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Kingdom of Kent",
+        "url": "https://en.wikipedia.org/wiki/Kingdom_of_Kent"
+      }
+    ]
+  },
+  "social_structure": {
+    "ruling_ethnicity": "english",
+    "subject_majority": "english",
+    "military_ethnicity": "english",
+    "administrative_language": "old_english",
+    "stratification_type": "homogeneous"
+  },
+  "wikidata_enrichment": {
+    "qid": "Q328818",
+    "matched_name": "Kingdom of Kent",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Kingdom_of_Kent",
+    "capital": {
+      "name": "Canterbury",
+      "coords": [
+        51.27833,
+        1.0775
+      ]
+    },
+    "rulers_from_wikidata": [
+      {
+        "name": "Sigered of Kent",
+        "qid": "Q326688",
+        "year_start": null,
+        "year_end": 765,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q326688",
+            "url": "https://www.wikidata.org/wiki/Q326688"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Sigered of Kent",
+            "url": "https://en.wikipedia.org/wiki/Sigered_of_Kent"
+          }
+        ]
+      },
+      {
+        "name": "Æthelstan of Kent",
+        "qid": "Q3562315",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3562315",
+            "url": "https://www.wikidata.org/wiki/Q3562315"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Æthelstan of Kent",
+            "url": "https://en.wikipedia.org/wiki/Æthelstan_of_Kent"
+          }
+        ]
+      },
+      {
+        "name": "Baldred of Kent",
+        "qid": "Q528507",
+        "year_start": null,
+        "year_end": 825,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q528507",
+            "url": "https://www.wikidata.org/wiki/Q528507"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Baldred of Kent",
+            "url": "https://en.wikipedia.org/wiki/Baldred_of_Kent"
+          }
+        ]
+      },
+      {
+        "name": "Heaberht of Kent",
+        "qid": "Q738301",
+        "year_start": null,
+        "year_end": 765,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q738301",
+            "url": "https://www.wikidata.org/wiki/Q738301"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Heaberht of Kent",
+            "url": "https://en.wikipedia.org/wiki/Heaberht_of_Kent"
+          }
+        ]
+      },
+      {
+        "name": "Eanmund of Kent",
+        "qid": "Q886055",
+        "year_start": null,
+        "year_end": 765,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q886055",
+            "url": "https://www.wikidata.org/wiki/Q886055"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Eanmund of Kent",
+            "url": "https://en.wikipedia.org/wiki/Eanmund_of_Kent"
+          }
+        ]
+      },
+      {
+        "name": "Æthelberht",
+        "qid": "Q272173",
+        "year_start": 580,
+        "year_end": 612,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q272173",
+            "url": "https://www.wikidata.org/wiki/Q272173"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Æthelberht",
+            "url": "https://en.wikipedia.org/wiki/Æthelberht"
+          }
+        ]
+      },
+      {
+        "name": "Ecgberht of Kent",
+        "qid": "Q880215",
+        "year_start": 664,
+        "year_end": 673,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q880215",
+            "url": "https://www.wikidata.org/wiki/Q880215"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ecgberht of Kent",
+            "url": "https://en.wikipedia.org/wiki/Ecgberht_of_Kent"
+          }
+        ]
+      },
+      {
+        "name": "Hlothhere of Kent",
+        "qid": "Q495540",
+        "year_start": 673,
+        "year_end": 685,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q495540",
+            "url": "https://www.wikidata.org/wiki/Q495540"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Hlothhere of Kent",
+            "url": "https://en.wikipedia.org/wiki/Hlothhere_of_Kent"
+          }
+        ]
+      },
+      {
+        "name": "Wihtred of Kent",
+        "qid": "Q888048",
+        "year_start": 690,
+        "year_end": 725,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q888048",
+            "url": "https://www.wikidata.org/wiki/Q888048"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Wihtred of Kent",
+            "url": "https://en.wikipedia.org/wiki/Wihtred_of_Kent"
+          }
+        ]
+      },
+      {
+        "name": "Æthelbert II",
+        "qid": "Q272171",
+        "year_start": 725,
+        "year_end": 762,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q272171",
+            "url": "https://www.wikidata.org/wiki/Q272171"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Æthelbert II",
+            "url": "https://en.wikipedia.org/wiki/Æthelbert_II"
+          }
+        ]
+      },
+      {
+        "name": "Eadbert I of Kent",
+        "qid": "Q887678",
+        "year_start": 725,
+        "year_end": 748,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q887678",
+            "url": "https://www.wikidata.org/wiki/Q887678"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Eadbert I of Kent",
+            "url": "https://en.wikipedia.org/wiki/Eadbert_I_of_Kent"
+          }
+        ]
+      },
+      {
+        "name": "Eardwulf of Kent",
+        "qid": "Q708964",
+        "year_start": 747,
+        "year_end": 765,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q708964",
+            "url": "https://www.wikidata.org/wiki/Q708964"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Eardwulf of Kent",
+            "url": "https://en.wikipedia.org/wiki/Eardwulf_of_Kent"
+          }
+        ]
+      },
+      {
+        "name": "Egbert II of Kent",
+        "qid": "Q888551",
+        "year_start": 765,
+        "year_end": 779,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q888551",
+            "url": "https://www.wikidata.org/wiki/Q888551"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Egbert II of Kent",
+            "url": "https://en.wikipedia.org/wiki/Ecgberht_II_of_Kent"
+          }
+        ]
+      },
+      {
+        "name": "Ealhmund of Kent",
+        "qid": "Q728177",
+        "year_start": 778,
+        "year_end": 779,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q728177",
+            "url": "https://www.wikidata.org/wiki/Q728177"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ealhmund of Kent",
+            "url": "https://en.wikipedia.org/wiki/Ealhmund_of_Kent"
+          }
+        ]
+      },
+      {
+        "name": "Eadberht III Præn",
+        "qid": "Q285325",
+        "year_start": 796,
+        "year_end": 798,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q285325",
+            "url": "https://www.wikidata.org/wiki/Q285325"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Eadberht III Præn",
+            "url": "https://en.wikipedia.org/wiki/Eadberht_III_Præn"
+          }
+        ]
+      },
+      {
+        "name": "Cuthred of Kent",
+        "qid": "Q878926",
+        "year_start": 798,
+        "year_end": 807,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q878926",
+            "url": "https://www.wikidata.org/wiki/Q878926"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Cuthred of Kent",
+            "url": "https://en.wikipedia.org/wiki/Cuthred_of_Kent"
+          }
+        ]
+      },
+      {
+        "name": "Ceolwulf I of Mercia",
+        "qid": "Q888634",
+        "year_start": 821,
+        "year_end": 823,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q888634",
+            "url": "https://www.wikidata.org/wiki/Q888634"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ceolwulf I of Mercia",
+            "url": "https://en.wikipedia.org/wiki/Ceolwulf_I_of_Mercia"
+          }
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "type": "book",
+      "author": "Wickham, Chris",
+      "title": "The Inheritance of Rome: A History of Europe from 400 to 1000",
+      "publisher": "Allen Lane",
+      "year": 2009
+    },
+    {
+      "type": "book",
+      "author": "Abulafia, David (ed.)",
+      "title": "The New Cambridge Medieval History, Vol. V: c. 1198 – c. 1300",
+      "publisher": "Cambridge University Press",
+      "year": 1999
+    }
+  ],
+  "monogram": "KE"
+}

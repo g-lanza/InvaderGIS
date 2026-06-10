@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_lombard_invasion_568_c04",
+  "statement": "Alboin was assassinated in 572, after which the Lombard kingdom briefly fragmented among regional dukes.",
+  "subject_ids": [
+    "lombard_kingdom"
+  ],
+  "period": {
+    "from": 568,
+    "to": 568
+  },
+  "derived_from": "lombard_invasion_568",
+  "unresolved_sources": [
+    "christie_the_1995"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "deacon_history_1907"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

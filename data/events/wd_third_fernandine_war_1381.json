@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_third_fernandine_war_1381",
+  "name": "Third Fernandine War",
+  "year": 1381,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    44.3333,
+    -4.3333
+  ],
+  "entity": "kingdom_of_portugal",
+  "summary": "Third Fernandine War (1381 CE), at Atlantic Ocean (part of Fernandine Wars). Source: Wikidata Q7784850.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_portugal",
+      "kingdom_of_england",
+      "crown_of_castile"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

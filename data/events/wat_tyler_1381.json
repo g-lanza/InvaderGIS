@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wat_tyler_1381",
+  "name": "Peasants' Revolt",
+  "year": 1381,
+  "type": "rebellion",
+  "category": "violence",
+  "coords": [
+    51.51,
+    -0.1
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "The Peasants' Revolt (June 1381) is the most widespread popular uprising in English medieval history. Triggered by an unpopular poll tax (the third in four years) and festering post-Black Death economic grievances, rebels under Wat Tyler and John Ball march from Kent and Essex on London. They breach London, murder Archbishop Sudbury (Chancellor), and burn John of Gaunt's Savoy Palace. Richard II (14 years old) negotiates personally with the rebels at Smithfield; Wat Tyler is killed by the Lord Mayor in the king's presence. The rebellion collapses; the poll tax is never reimposed; villeinage (serfdom) effectively ends within a generation.",
+  "outcomes": [
+    "london_occupied_briefly"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england"
+    ],
+    "structural_significance": "Most serious popular uprising in medieval English history; the poll tax is abandoned; the social pressure accelerates the effective end of serfdom; John Ball's radical theology ('When Adam delved and Eve span, who was then the gentleman?') marks the beginning of English radical political tradition",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "al_tabari",
+  "name": "Abū Jaʿfar Muḥammad ibn Jarīr al-Ṭabarī",
+  "polity": "abbasid_caliphate",
+  "title": "scholar",
+  "reign_start": 870,
+  "reign_end": 923,
+  "succeeds": "al_bukhari",
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 839,
+      "death_year": 923
+    },
+    "entity_associations": [
+      {
+        "entity_id": "abbasid_caliphate",
+        "role": "scholar",
+        "start_year": 870,
+        "end_year": 923
+      }
+    ],
+    "key_actions": [
+      {
+        "year": 883,
+        "summary": "Begins Jāmiʿ al-bayān ʿan taʾwīl āy al-Qurʾān, a verse-by-verse Qur'anic exegesis collecting earlier traditions.",
+        "source_id": "hodgson_venture_of_islam_1974"
+      },
+      {
+        "year": 915,
+        "summary": "Completes Taʾrīkh al-rusul wa-l-mulūk (History of the Prophets and Kings) — the most extensive Arabic universal history of the medieval period, from creation through 915 CE.",
+        "source_id": "hodgson_venture_of_islam_1974"
+      },
+      {
+        "year": 923,
+        "summary": "Dies at Baghdad. The Taʾrīkh becomes the single most-cited source for Umayyad and early Abbasid history.",
+        "source_id": "hodgson_venture_of_islam_1974"
+      }
+    ],
+    "region": "central_asia",
+    "name_variants": [
+      "Al-Tabari"
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "hodgson_venture_of_islam_1974",
+      "hourani_arab_peoples_1991"
+    ],
+    "confidence": "low"
+  }
+}

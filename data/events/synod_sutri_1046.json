@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "synod_sutri_1046",
+  "name": "Synod of Sutri, End of Papal Chaos",
+  "year": 1046,
+  "type": "religious",
+  "category": "religion",
+  "coords": [
+    42.24,
+    12.22
+  ],
+  "entity": "papal_states",
+  "summary": "Emperor Henry III presides over the Synod of Sutri, deposing three rival popes simultaneously, an unprecedented demonstration of imperial authority over the papacy. The papacy had been dominated by Roman noble families for decades, with simony (selling church offices) and nepotism rampant. Henry III, committed to church reform, appoints a series of German reforming popes who transform the papacy into an institution focused on moral renewal and independence from lay control. These reformers eventually turn on the emperor himself in the Investiture Controversy.",
+  "outcomes": [
+    "three_rival_popes_deposed",
+    "german_reformer_pope_installed",
+    "gregorian_reform_begins"
+  ],
+  "_quarry": {
+    "participants": [
+      "papal_states",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "The Synod of Sutri begins the Gregorian Reform movement that transforms the medieval Church; the reforming popes installed by Henry III eventually claim the right to appoint bishops without imperial consent, triggering the Investiture Controversy (1076); the irony is that Henry III's reform program creates a papacy strong enough to challenge his son Henry IV",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

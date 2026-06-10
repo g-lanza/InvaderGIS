@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_timurid_empire_1370_1469",
+  "statement": "Timurid Empire — campaigns and battles spanned 1370–1469, from Timur Establishes His Empire to Battle of Qarabagh.",
+  "subject_ids": [
+    "timurid_empire"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_timurid_empire_1370_1469",
+  "period": {
+    "from": 1370,
+    "to": 1469
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "manz_the_1989",
+      "lentz_timur_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

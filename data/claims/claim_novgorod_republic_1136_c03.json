@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_novgorod_republic_1136_c03",
+  "statement": "The Novgorod Republic survived until Ivan III's annexation in 1478.",
+  "subject_ids": [
+    "principality_of_novgorod"
+  ],
+  "period": {
+    "from": 1136,
+    "to": 1136
+  },
+  "derived_from": "novgorod_republic_1136",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "martin_treasure_1986",
+      "birnbaum_lord_1981"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

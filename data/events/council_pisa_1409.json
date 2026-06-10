@@ -1,0 +1,38 @@
+{
+ "kind": "event",
+ "dataset": "medieval-europe-500-1500",
+ "id": "council_pisa_1409",
+ "name": "Council of Pisa, Three Simultaneous Popes",
+ "year": 1409,
+ "type": "political",
+ "category": "power",
+ "coords": [
+  43.72,
+  10.4
+ ],
+ "entity": "papal_states",
+ "summary": "Cardinals from both the Roman (Gregory XII) and Avignon (Benedict XIII) lines meet at the Council of Pisa and elect a third pope, Alexander V, intending to resolve the Western Schism by deposing the other two. Instead, neither deposed pope accepts the council's authority, leaving Christendom with three simultaneous claimants to the papal throne. The situation is finally resolved by the Council of Constance (1414-1418), which deposes all three and elects Martin V.",
+ "outcomes": [
+  "third_pope_elected",
+  "western_schism_worsened",
+  "conciliarism_movement_gains_momentum"
+ ],
+ "_quarry": {
+  "participants": [
+   "papal_states"
+  ],
+  "structural_significance": "The Pisan fiasco strengthens the conciliarist argument that a general council has authority superior to the pope, a constitutional theory the papacy resists throughout the 15th century; the three-pope crisis provides Jan Hus with ammunition for his attack on the corrupted Church; the eventual resolution at Constance (including Hus's execution) demonstrates both the council's power and its limits",
+  "year_range": null
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "partner_the_1972",
+   "morris_the_1989",
+   "ims_fordham",
+   "ims_fordham_sbook1w"
+  ],
+  "confidence": "low",
+  "attestation": "inferred"
+ }
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_heavenfield_634",
+  "name": "Battle of Heavenfield",
+  "year": 634,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    53.775,
+    -2.89
+  ],
+  "entity": "kingdom_of_northumbria",
+  "summary": "Battle of Heavenfield (634 CE), at Hexham. Source: Wikidata Q956923.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_northumbria",
+      "kingdom_of_gwynedd"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

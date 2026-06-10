@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_nakhchivan_1406_c01",
+  "statement": "Battle of Nakhchivan (1406 CE), at Nakhchivan (part of Timurid conquests and invasions).",
+  "subject_ids": [
+    "timurid_empire"
+  ],
+  "period": {
+    "from": 1406,
+    "to": 1406
+  },
+  "derived_from": "wd_battle_of_nakhchivan_1406",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "manz_the_1989",
+      "lentz_timur_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

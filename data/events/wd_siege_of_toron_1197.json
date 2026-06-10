@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_toron_1197",
+  "name": "Siege of Toron",
+  "year": 1197,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    40.9,
+    22.85
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Siege of Toron (1197 CE), at Toron (part of Crusade of 1197). Source: Wikidata Q125481232.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "kingdom_of_jerusalem"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

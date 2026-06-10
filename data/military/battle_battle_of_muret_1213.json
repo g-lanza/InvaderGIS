@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_muret_1213",
+  "name": "Battle of Muret",
+  "subtype": "battle",
+  "start_year": 1213,
+  "end_year": 1213,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1354080"
+    }
+  },
+  "description": "Battle during Albigensian Crusade (1213)",
+  "coords": [
+    1.3267,
+    43.4611
+  ]
+}

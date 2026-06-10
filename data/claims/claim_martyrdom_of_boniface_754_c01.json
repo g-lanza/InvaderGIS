@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_martyrdom_of_boniface_754_c01",
+  "statement": "Boniface, the English monk who organized the German church and reformed the Frankish church, was martyred in Frisia in 754.",
+  "subject_ids": [
+    "carolingian_empire"
+  ],
+  "period": {
+    "from": 754,
+    "to": 754
+  },
+  "derived_from": "martyrdom_of_boniface_754",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "mckitterick_charlemagne_2008",
+      "riché_the_1993",
+      "nelson_king_2019"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

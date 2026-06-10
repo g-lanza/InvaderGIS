@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_ba_rin_1137",
+  "name": "Battle of Ba'rin",
+  "year": 1137,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    33.1,
+    35.5
+  ],
+  "entity": "kingdom_of_jerusalem",
+  "summary": "Battle of Ba'rin (1137 CE), at Ba'rin (part of Crusader battles between 1101 and 1145). Source: Wikidata Q3511112.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_jerusalem",
+      "county_of_tripoli"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

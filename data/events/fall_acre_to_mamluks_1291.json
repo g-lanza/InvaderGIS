@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "fall_acre_to_mamluks_1291",
+  "name": "Final Fall of the Crusader States",
+  "year": 1291,
+  "type": "conquest",
+  "category": "violence",
+  "coords": [
+    32.92,
+    35.07
+  ],
+  "entity": "mamluk_sultanate",
+  "summary": "Sultan al-Ashraf Khalil leads the Mamluk army to besiege Acre, the last major Crusader city in the Holy Land, with over 60,000 men and 90 siege engines. Despite fierce resistance, the city falls on May 18, 1291; the remaining population is massacred or enslaved. The Crusaders' final fortress at Tortosa falls months later. The Crusading era in the Levant ends after 192 years. The Military Orders evacuate: the Hospitallers eventually establish themselves on Rhodes (1309), the Teutonic Order focuses on the Baltic. Crusading ideology persists, but the geographic center of Christendom's armed engagement with Islam shifts.",
+  "outcomes": [
+    "acre_falls",
+    "crusader_holy_land_ended",
+    "military_orders_relocate"
+  ],
+  "_quarry": {
+    "participants": [
+      "mamluk_sultanate",
+      "kingdom_of_jerusalem",
+      "republic_of_venice",
+      "knights_hospitaller_rhodes"
+    ],
+    "structural_significance": "Definitively ends Latin Christian presence in the Holy Land for centuries; the failure of Crusading to achieve its stated goals permanently damages the papacy's moral authority to command such enterprises; the military orders' survival and transformation shapes European geopolitics; the psychological impact of losing the Holy Land contributes to the late medieval crisis of Christian confidence",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "irwin_the_1986",
+      "northrup_from_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

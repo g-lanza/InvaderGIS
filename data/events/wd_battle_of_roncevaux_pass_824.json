@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_roncevaux_pass_824",
+  "name": "Battle of Roncevaux Pass",
+  "year": 824,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    50,
+    6
+  ],
+  "entity": "carolingian_empire",
+  "summary": "Battle of Roncevaux Pass (824 CE), at Roncevaux Pass. Source: Wikidata Q4872202.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "carolingian_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "mckitterick_charlemagne_2008",
+      "riché_the_1993",
+      "nelson_king_2019"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_caroline_war_1369",
+  "name": "Caroline War",
+  "year": 1369,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    46.16,
+    -1.42
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Caroline War (1369 CE), at France (part of Hundred Years' War). Source: Wikidata Q3778613.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "duchy_of_brittany",
+      "kingdom_of_england",
+      "kingdom_of_navarre",
+      "crown_of_castile"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

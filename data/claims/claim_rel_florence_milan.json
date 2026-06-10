@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_florence_milan",
+  "statement": "Florence and Milan maintained a perennial rivalry as the two dominant powers in central and northern Italy respectively. Their competition was partly territorial (control of Tuscany, access to the Ligurian coast) and partly ideological (Guelf Florence vs. Ghibelline Milan). The Visconti expansion toward Tuscany in the late 14th century — culminating in Gian Galeazzo Visconti's near-encirclement of Florence (1400–1402) — was broken only by his sudden death from plague. The Sforza-Medici alliance (1450s) transformed the relationship into cooperation, underpinning the Italian League (1455) that provided 40 years of relative peninsular stability.",
+  "subject_ids": [
+    "republic_of_florence",
+    "duchy_of_milan"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_florence_milan",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "najemy_a_2006",
+      "brucker_renaissance_1983",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1395,
+    "to": 1500
+  }
+}

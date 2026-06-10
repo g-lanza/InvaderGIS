@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_hunger_war_1414_c01",
+  "statement": "Hunger War (1414 CE), at State of the Teutonic Order (part of Polish–Teutonic Wars).",
+  "subject_ids": [
+    "grand_duchy_of_lithuania"
+  ],
+  "period": {
+    "from": 1414,
+    "to": 1414
+  },
+  "derived_from": "wd_hunger_war_1414",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "rowell_lithuania_1994",
+      "christiansen_the_1997"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

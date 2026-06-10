@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "model_parliament_1295",
+  "name": "Edward I's Model Parliament, Taxation and Representation",
+  "year": 1295,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    51.5,
+    -0.12
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Edward I summons the Model Parliament of 1295, including knights of the shire and burgesses from towns alongside the clergy and magnates, with the formula 'what touches all should be approved by all.' Though not a constitutional innovation (de Montfort's Parliament of 1265 had similar composition), the Model Parliament establishes the precedent of including representatives of the commons in tax-granting assemblies.",
+  "outcomes": [
+    "knights_burgesses_summoned",
+    "parliament_principle_established",
+    "taxation_requires_consent"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england"
+    ],
+    "structural_significance": "The Model Parliament establishes parliamentary structure that endures to the present; the inclusion of non-noble representatives (knights, burgesses) in tax-granting assemblies creates the institutional basis for a broad political community; the 'no taxation without representation' principle formalized here is the ancestor of the principle that American revolutionaries invoke in 1776; parliament's role as the legitimate tax-granting body prevents the French pattern of absolute monarchy",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

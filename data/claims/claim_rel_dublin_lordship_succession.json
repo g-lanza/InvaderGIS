@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_dublin_lordship_succession",
+  "statement": "The Norse Kingdom of Dublin — the most commercially important Norse settlement in Ireland — was captured by Strongbow (Richard de Clare, 2nd Earl of Pembroke) and Diarmait Mac Murchada's forces (1170), then taken under direct English royal control when Henry II arrived (1171). Dublin became the center of the English Lordship of Ireland, housing the English administration, the Anglo-Norman cathedral of Christ Church, and the merchant community that oriented Irish trade toward Bristol and the west of England. The shift from Norse to Anglo-Norman Dublin transformed the city's commercial and political character.",
+  "subject_ids": [
+    "kingdom_of_dublin",
+    "lordship_of_ireland"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_dublin_lordship_succession",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "lordship_of_ireland"
+  ],
+  "period": {
+    "from": 1170,
+    "to": 1170
+  }
+}

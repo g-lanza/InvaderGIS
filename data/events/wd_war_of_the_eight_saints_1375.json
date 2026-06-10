@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_war_of_the_eight_saints_1375",
+  "name": "War of the Eight Saints",
+  "year": 1375,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    43.2067,
+    11.6767
+  ],
+  "entity": "republic_of_florence",
+  "summary": "War of the Eight Saints (1375 CE), at Italian Peninsula. Source: Wikidata Q2288424.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_florence",
+      "papal_states",
+      "republic_of_siena"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "najemy_a_2006",
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

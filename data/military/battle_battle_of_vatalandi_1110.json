@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_vatalandi_1110",
+  "name": "Battle of Vatalandi",
+  "subtype": "battle",
+  "start_year": 1110,
+  "end_year": 1110,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q9651130"
+    }
+  },
+  "description": "Battle during Almoravid conquest of al-Andalus (1110)",
+  "coords": [
+    -8.6869,
+    39.2392
+  ]
+}

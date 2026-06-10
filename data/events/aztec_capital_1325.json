@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "aztec_capital_1325",
+  "name": "Foundation of Tenochtitlan",
+  "year": 1325,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    19.4,
+    -99.1
+  ],
+  "entity": "mexica_aztec",
+  "summary": "The Mexica (Aztec) people found Tenochtitlan on an island in Lake Texcoco, guided (according to tradition) by the omen of an eagle devouring a snake. The island location provides defensive advantages; chinampas (floating gardens) enable intensive agriculture. By 1500, Tenochtitlan has a population of 200,000–300,000, making it one of the world's largest cities.",
+  "outcomes": [
+    "aztec_empire_foundations",
+    "lake_texcoco_city",
+    "mesoamerican_expansion"
+  ],
+  "_quarry": {
+    "participants": [
+      "mexica_aztec"
+    ],
+    "structural_significance": "The Aztec Empire becomes the dominant power in Mesoamerica by 1500, controlling a tributary system of millions; its destruction by Cortés in 1521 represents one of the most consequential colonial encounters in history.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "smith_aztecs_2012"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

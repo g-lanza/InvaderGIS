@@ -1,0 +1,30 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_abbasid_fatimid_rivalry",
+  "statement": "The Fatimid Caliphate claimed the title of rightful caliphs against the Abbasids; the Sunni-Shia divide expressed as a geopolitical rivalry between Cairo and Baghdad, with both powers sponsoring missionaries and proxy rulers across the Islamic world.",
+  "subject_ids": [
+    "abbasid_caliphate",
+    "fatimid_caliphate"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_abbasid_fatimid_rivalry",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_the_2004",
+      "kennedy_when_2004",
+      "crone_gods_2004",
+      "ims_fordham",
+      "ims_fordham_sbook1d",
+      "brett_the_2001",
+      "daftary_the_1990"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 909,
+    "to": 1171
+  }
+}

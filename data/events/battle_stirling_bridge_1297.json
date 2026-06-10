@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_stirling_bridge_1297",
+  "name": "Battle of Stirling Bridge",
+  "year": 1297,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    56.12,
+    -3.94
+  ],
+  "entity": "kingdom_of_scotland",
+  "summary": "William Wallace and Andrew de Moray lead a Scottish army in an audacious ambush of an English army crossing Stirling Bridge on September 11, 1297. The English cavalry and infantry are trapped on the narrow bridge when the Scots attack; English Treasurer Hugh de Cressingham is killed and his skin allegedly made into a sword belt by Wallace. The victory reverses the English occupation of Scotland and makes Wallace Guardian of Scotland. Edward I returns the following year and defeats Wallace at Falkirk, but Stirling Bridge remains the defining Scottish victory of independence.",
+  "outcomes": [
+    "scottish_victory"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_scotland",
+      "kingdom_of_england"
+    ],
+    "structural_significance": "Demonstrates the viability of Scottish resistance to English occupation; makes William Wallace the symbol of Scottish independence; first major Scottish victory of the Wars of Independence",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "barrell_medieval_2000",
+      "brown_the_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

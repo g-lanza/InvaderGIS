@@ -1,0 +1,43 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "second_crusade_1147",
+  "name": "Second Crusade",
+  "year": 1147,
+  "type": "crusade",
+  "category": "violence",
+  "coords": [
+    47.46,
+    3.74
+  ],
+  "entity": "kingdom_of_jerusalem",
+  "summary": "Bernard of Clairvaux preaches the Second Crusade in response to Zengi's capture of Edessa (1144). Louis VII of France and Conrad III of Germany lead the largest Crusade to date, but a disastrously mismanaged siege of Damascus (1148) ends in retreat. The Second Crusade is the first major Crusade to fail completely, damaging the papacy's credibility and straining relations between Crusader states and their European backers.",
+  "outcomes": [
+    "damascus_siege_failed",
+    "edessa_not_recovered"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_jerusalem",
+      "kingdom_of_france",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "First major Crusading failure; damages Catholic confidence in holy war; failure to recover Edessa leaves the Crusader states permanently exposed on their northern flank",
+    "year_range": [
+      1147,
+      1149
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

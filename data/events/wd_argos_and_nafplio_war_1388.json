@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_argos_and_nafplio_war_1388",
+  "name": "Argos and Nafplio War",
+  "year": 1388,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    40.31,
+    19.4767
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Argos and Nafplio War (1388 CE), at Peloponnese. Source: Wikidata Q86675526.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "duchy_of_athens",
+      "despotate_of_the_morea"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

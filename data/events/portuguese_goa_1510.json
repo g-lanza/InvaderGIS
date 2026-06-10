@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "portuguese_goa_1510",
+  "name": "Portuguese Conquest of Goa",
+  "year": 1510,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    15.5,
+    73.8
+  ],
+  "entity": "kingdom_of_portugal",
+  "summary": "Afonso de Albuquerque captures Goa from the Bijapur Sultanate, establishing Portugal's permanent base in India. Goa becomes the capital of the Estado da India, Portugal's maritime commercial empire spanning from West Africa to Japan. Portuguese control of key ports across the Indian Ocean disrupts the traditional Ottoman-Venetian-Egyptian spice trade.",
+  "outcomes": [
+    "india_trade_base",
+    "estado_da_india",
+    "spice_trade_control"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_portugal"
+    ],
+    "structural_significance": "Creates the first European colonial empire in Asia; Portugal's Estado da India network controls Indian Ocean trade for a century; the colonial model of fortified trading posts (feitorias) is adopted by Dutch, English, and French successors.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

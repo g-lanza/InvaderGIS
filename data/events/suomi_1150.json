@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "suomi_1150",
+  "name": "Swedish First Crusade to Finland",
+  "year": 1150,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    60.84,
+    26.784
+  ],
+  "entity": "suomi",
+  "summary": "The traditional date for the Swedish First Crusade to Finland is around 1150 CE, associated with King Erik IX and Bishop Henry. Though the historicity is debated, this period saw the beginning of Swedish expansion into Finnish territories and the Christianisation of the Finns, incorporating Finland into the Swedish sphere.",
+  "outcomes": [
+    "christianisation_begins",
+    "swedish_expansion",
+    "bishop_henry"
+  ],
+  "_quarry": {
+    "participants": [
+      "suomi"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

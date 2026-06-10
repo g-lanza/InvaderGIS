@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rudolph_ii_burgundy",
+  "name": "Rudolph II of Burgundy",
+  "polity": "kingdom_of_burgundy",
+  "title": "ruler",
+  "reign_start": 912,
+  "reign_end": 937,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "kingdom_of_burgundy",
+        "role": "ruler",
+        "start_year": 912,
+        "end_year": 937
+      }
+    ],
+    "key_actions": [],
+    "region": "western_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

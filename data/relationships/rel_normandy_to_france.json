@@ -1,0 +1,38 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_normandy_to_france",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "duchy_of_normandy",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "kingdom_of_france",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 1204,
+  "until": 1204,
+  "note": "Normandy — held by English kings as a French fief since the Norman Conquest (1066) — was lost by King John after Philip II Augustus declared his fiefs forfeit (1202) and besieged Château Gaillard (1203–1204). The fall of Rouen (June 1204) completed the conquest. Normandy's absorption doubled the French royal domain and gave Philip II access to the Channel coast. The Duchy was granted to the King's sons periodically but returned to the crown in 1468 when Louis XI confiscated it from his brother Charles. Normandy's cultural and administrative traditions — including common law elements — continued to influence French governance.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The loss of Normandy removes the Angevin Empire's core; Philip II Augustus's conquest transforms France into the dominant Western European power; the cultural memory of the Angevin loss feeds the Hundred Years' War a century later when Edward III reasserts the claim"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_mamluk_jerusalem_conquest",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "mamluk_sultanate",
+      "role": "aggressor"
+    },
+    {
+      "entity_id": "kingdom_of_jerusalem",
+      "role": "defender"
+    }
+  ],
+  "directed": true,
+  "type": "rivalry",
+  "since": 1250,
+  "until": 1291,
+  "note": "Mamluk sultans Baybars and Qalawun systematically dismantled the remaining Crusader states; Caesarea (1265), Jaffa (1268), Krak des Chevaliers (1271), and Acre (1291) fell in a methodical campaign that ended the Crusader presence in the Holy Land.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Mamluk systematic dismantlement of the Crusader coastal strip (1265–1291) permanently eliminated Western European territorial presence in the Levant and closed the two-century chapter of Latin Christian sovereignty in the Holy Land; the subsequent shift in Crusade ideology toward trade embargoes and naval strategy represented the pragmatic recognition that territorial reconquest was no longer achievable."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "irwin_the_1986",
+      "northrup_from_1998",
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

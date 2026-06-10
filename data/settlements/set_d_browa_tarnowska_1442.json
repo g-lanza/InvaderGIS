@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_d_browa_tarnowska_1442",
+  "name": "Dąbrowa Tarnowska",
+  "importance": "city",
+  "start_year": 1442,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q324971"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    20.9833,
+    50.175
+  ]
+}

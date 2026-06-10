@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rus_christianization_988",
+  "name": "Baptism of Rus under Vladimir the Great",
+  "year": 988,
+  "type": "religious",
+  "category": "religion",
+  "coords": [
+    50.45,
+    30.52
+  ],
+  "entity": "kievan_rus",
+  "summary": "Grand Prince Vladimir of Kiev formally adopts Byzantine Christianity and mass-baptises the Rus population in the Dnieper at Kiev. The decision aligns Rus with Constantinople rather than the Latin West, permanently shaping the religious geography of Eastern Europe.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kievan_rus",
+      "byzantine_empire"
+    ],
+    "structural_significance": "Brings the Eastern Slavic world into the Byzantine cultural orbit; establishes Slavonic-language liturgy and a Cyrillic literate clergy that becomes the backbone of medieval Russian statecraft.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "franklin_the_1996",
+      "riasanovsky_a_2000",
+      "martin_medieval_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

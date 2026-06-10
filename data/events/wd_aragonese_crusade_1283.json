@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_aragonese_crusade_1283",
+  "name": "Aragonese Crusade",
+  "year": 1283,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    42.61,
+    5.6786
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Aragonese Crusade (1283 CE), at Principality of Catalonia (part of War of the Sicilian Vespers). Source: Wikidata Q625133.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "papal_states",
+      "kingdom_of_naples",
+      "republic_of_genoa",
+      "kingdom_of_navarre",
+      "crown_of_aragon",
+      "kingdom_of_majorca"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

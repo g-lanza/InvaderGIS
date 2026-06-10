@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_alamin_1131",
+  "name": "Battle of Alamin",
+  "year": 1131,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39,
+    -4
+  ],
+  "entity": "almoravid_emirate_iberia",
+  "summary": "Battle of Alamin (1131 CE), at Escalona (part of Almoravid conquest of al-Andalus). Source: Wikidata Q131632281.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "almoravid_emirate_iberia",
+      "kingdom_of_castile"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_the_2004",
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

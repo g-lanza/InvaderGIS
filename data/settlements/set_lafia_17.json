@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_lafia_17",
+  "name": "Lafia",
+  "importance": "city",
+  "start_year": 17,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1023721"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    8.5167,
+    8.5
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_naples_1441",
+  "name": "Siege of Naples",
+  "year": 1441,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41.25,
+    7.4
+  ],
+  "entity": "kingdom_of_naples",
+  "summary": "Siege of Naples (1441 CE), at Naples (part of Aragonese conquest of Naples). Source: Wikidata Q71174865.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_naples",
+      "crown_of_aragon"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

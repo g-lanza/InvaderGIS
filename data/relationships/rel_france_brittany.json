@@ -1,0 +1,38 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_france_brittany",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_france",
+      "role": "suzerain"
+    },
+    {
+      "entity_id": "duchy_of_brittany",
+      "role": "vassal"
+    }
+  ],
+  "directed": true,
+  "type": "vassalage",
+  "since": 1200,
+  "until": 1500,
+  "note": "The Duchy of Brittany maintained a semi-autonomous status within the French royal system, its dukes holding their territory as French vassals but effectively governing independently. Breton Celtic cultural distinctiveness — language, saints, legal customs — reinforced political separatism. The succession crisis following Duke Francis II's death (1488) allowed France to absorb Brittany through the marriage of his daughter Anne of Brittany to Charles VIII (1491) and then Louis XII (1499). The Edict of Union (1532) formally incorporated Brittany into France, though maintaining Breton legal privileges.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Brittany's absorption (1532) completes French territorial consolidation in the west; Anne of Brittany's two marriages to successive French kings are the key mechanism; Breton legal and cultural distinctiveness is preserved in the union terms — Brittany retains its estates and laws"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

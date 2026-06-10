@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "hafsid_sultanate_1229",
+  "name": "Hafsids Establish Independent Sultanate",
+  "year": 1229,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    36.8,
+    10.2
+  ],
+  "entity": "hafsid_sultanate",
+  "summary": "Abu Zakariya Yahya declared Hafsid independence from the collapsing Almohad empire in 1229, establishing Tunisia (Ifriqiya) as an independent sultanate. The Hafsids based at Tunis became the major power in the central Mediterranean, controlling trade between Europe and sub-Saharan Africa.",
+  "outcomes": [
+    "almohad_collapse",
+    "ifriqiya_independent",
+    "tunis_capital"
+  ],
+  "_quarry": {
+    "participants": [
+      "hafsid_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "abun-nasr_a_1987",
+      "khaldun_the_1958"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

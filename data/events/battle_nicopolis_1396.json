@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_nicopolis_1396",
+  "name": "Battle of Nicopolis, Last Major Crusade Destroyed",
+  "year": 1396,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    43.71,
+    24.89
+  ],
+  "entity": "ottoman_empire",
+  "summary": "A large Western crusading force, French, Burgundian, Hungarian, and Wallachian knights, is annihilated by Sultan Bayezid I at Nicopolis on the Danube. The Western knights' disorganized charge into Turkish lines is repulsed; Bayezid's Anatolian cavalry then destroys the demoralized crusaders. Over 10,000 captives are killed or enslaved; Jean de Nevers (the Burgundian commander) is ransomed for 200,000 gold florins.",
+  "outcomes": [
+    "crusade_annihilated",
+    "ottoman_balkan_control_confirmed",
+    "feudal_cavalry_obsolete"
+  ],
+  "_quarry": {
+    "participants": [
+      "ottoman_empire",
+      "kingdom_of_hungary",
+      "kingdom_of_france"
+    ],
+    "structural_significance": "Nicopolis ends the era of Franco-Burgundian crusading enthusiasm; no western European power mounts a serious anti-Ottoman land campaign for decades; the battle demonstrates the futility of heavy cavalry charges against disciplined infantry with archery support; the Burgundian nobility's capture and ransom deepens Burgundy's fiscal crisis and focuses it on consolidating its Low Countries domains rather than eastern adventure",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

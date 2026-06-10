@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_georgia_knight_panther_skin_1207_c01",
+  "statement": "Shota Rustaveli composed the Georgian epic The Knight in the Panther's Skin at the court of Queen Tamar.",
+  "subject_ids": [
+    "kingdom_of_georgia"
+  ],
+  "period": {
+    "from": 1207,
+    "to": 1207
+  },
+  "derived_from": "georgia_knight_panther_skin_1207",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

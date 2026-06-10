@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "statute_of_acton_burnell_1283",
+  "name": "Statute of Acton Burnell, merchant debt recovery",
+  "year": 1283,
+  "type": "economic",
+  "category": "economy",
+  "coords": [
+    52.5945,
+    -2.7236
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Statute issued by Edward I at the Shropshire manor of Acton Burnell in October 1283, creating a registry of merchant debts before the mayors of London, York, and Bristol. Defaulting debtors could be imprisoned and their lands and chattels seized by certified writ. Superseded by the broader Statute of Merchants (1285).",
+  "outcomes": [
+    "merchant_debt_recognised_in_royal_courts",
+    "english_trade_protections_codified"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england"
+    ],
+    "structural_significance": "Among the earliest English statutes treating mercantile credit as a category requiring royal-court enforcement, mirroring the shift Lopez tracks toward the formalisation of merchant law across thirteenth-century western Europe.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lopez_commercial_revolution_1971"
+    ],
+    "confidence": "low"
+  }
+}

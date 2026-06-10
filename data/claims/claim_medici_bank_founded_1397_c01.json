@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_medici_bank_founded_1397_c01",
+  "statement": "Giovanni di Bicci de' Medici founded the Banco Medici in Florence on 1 October 1397, opening branches in Rome, Venice, and Geneva.",
+  "subject_ids": [
+    "republic_of_florence"
+  ],
+  "period": {
+    "from": 1397,
+    "to": 1397
+  },
+  "derived_from": "medici_bank_founded_1397",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lopez_commercial_revolution_1971",
+      "abulafia_great_sea_2011"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

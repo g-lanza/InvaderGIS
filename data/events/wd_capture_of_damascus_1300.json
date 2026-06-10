@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_capture_of_damascus_1300",
+  "name": "Capture of Damascus",
+  "year": 1300,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    32.85,
+    41.3
+  ],
+  "entity": "ilkhanate",
+  "summary": "Capture of Damascus (1300 CE), at Damascus (part of Mongol invasions of the Levant). Source: Wikidata Q138545123.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "ilkhanate",
+      "mamluk_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "jackson_the_2005",
+      "amitai-preiss_mongols_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

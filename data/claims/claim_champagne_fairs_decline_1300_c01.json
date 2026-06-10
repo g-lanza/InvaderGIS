@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_champagne_fairs_decline_1300_c01",
+  "statement": "The Champagne Fairs declined in the early 14th century as Genoese galley services and Philip IV's fiscal policies diverted traffic to sea routes and Paris.",
+  "subject_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 1300,
+    "to": 1300
+  },
+  "derived_from": "champagne_fairs_decline_1300",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lopez_commercial_revolution_1971",
+      "abu_lughod_before_european_hegemony_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

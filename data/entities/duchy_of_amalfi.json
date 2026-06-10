@@ -1,0 +1,629 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_amalfi",
+  "name_primary": "Duchy of Amalfi",
+  "name_variants": [
+    "Republic of Amalfi"
+  ],
+  "type": "duchy",
+  "region": "italy",
+  "formed": 958,
+  "dissolved": 1073,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 960,
+      "label": "Republic of Amalfi",
+      "polygon": [
+        [
+          40.68,
+          14.5
+        ],
+        [
+          40.68,
+          14.66
+        ],
+        [
+          40.74,
+          14.66
+        ],
+        [
+          40.74,
+          14.5
+        ],
+        [
+          40.68,
+          14.5
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    40.63,
+    14.6
+  ],
+  "religion": "catholic",
+  "population_estimates": [
+    {
+      "year": 850,
+      "estimate": 56000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q686312",
+          "url": "https://www.wikidata.org/wiki/Q686312",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Amalfi",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Amalfi"
+        }
+      ]
+    },
+    {
+      "year": 1000,
+      "estimate": 80000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q686312",
+          "url": "https://www.wikidata.org/wiki/Q686312",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Amalfi",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Amalfi"
+        }
+      ]
+    },
+    {
+      "year": 1150,
+      "estimate": 88000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q686312",
+          "url": "https://www.wikidata.org/wiki/Q686312",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Amalfi",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Amalfi"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low"
+  },
+  "description": "Maritime city-state on the Tyrrhenian coast (c. 839–1073) that pioneered Mediterranean commerce before Venice and Genoa; its merchants established trade colonies in Constantinople and the Levant, its nautical compendium the Tabula Amalphitana influenced maritime law, and its early Norman conquest showed the vulnerability of purely commercial polities to military power.",
+  "temporal": {
+    "start_year": 958,
+    "end_year": 1073,
+    "end_year_within_scope": null,
+    "start_event_id": null,
+    "end_event_id": null,
+    "notes": "Maritime republic ruled by duke; Norman conquest ends independence."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      40.63,
+      14.6
+    ],
+    "core_regions": [
+      "Amalfi",
+      "Campania"
+    ],
+    "polygon_simplified": [
+      [
+        40.68,
+        14.5
+      ],
+      [
+        40.68,
+        14.66
+      ],
+      [
+        40.74,
+        14.66
+      ],
+      [
+        40.74,
+        14.5
+      ],
+      [
+        40.68,
+        14.5
+      ]
+    ],
+    "notes": "Centroid approximate; polygon pending schematic or OHM sourcing.",
+    "polygon_snapshots": [
+      {
+        "year": 960,
+        "label": "Republic of Amalfi",
+        "polygon": [
+          [
+            40.68,
+            14.5
+          ],
+          [
+            40.68,
+            14.66
+          ],
+          [
+            40.74,
+            14.66
+          ],
+          [
+            40.74,
+            14.5
+          ],
+          [
+            40.68,
+            14.5
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "real_historical_boundary",
+    "polygon_source": "Seshat-Global-History-Databank/cliopatria",
+    "polygon_source_date": "2026-05-10",
+    "capital": {
+      "name": "Amalfi",
+      "coords": [
+        40.63333,
+        14.60278
+      ],
+      "source": "wikidata"
+    }
+  },
+  "internal_structure": {
+    "centralization": "low_to_medium",
+    "centralization_trajectory": null,
+    "governance_type": "dynastic_feudal",
+    "legitimacy_basis": [
+      "commercial_charter",
+      "elective_office"
+    ],
+    "administrative_system": ""
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "formation",
+      "years": "c.839–870",
+      "description": "Amalfi asserts independence from Byzantine Naples.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q686312",
+          "url": "https://www.wikidata.org/wiki/Q686312"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Amalfi",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Amalfi"
+        }
+      ]
+    },
+    {
+      "phase": "expansion",
+      "years": "870–970",
+      "description": "Maritime trade network reaches Egypt and Constantinople.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q686312",
+          "url": "https://www.wikidata.org/wiki/Q686312"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Amalfi",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Amalfi"
+        }
+      ]
+    },
+    {
+      "phase": "peak",
+      "years": "970–1073",
+      "description": "Height of Amalfitan commercial dominance; Tabula Amalfitana compiled.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q686312",
+          "url": "https://www.wikidata.org/wiki/Q686312"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Amalfi",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Amalfi"
+        }
+      ]
+    },
+    {
+      "phase": "crisis",
+      "years": "1073–1131",
+      "description": "Norman overlordship; Pisan competition intensifies.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q686312",
+          "url": "https://www.wikidata.org/wiki/Q686312"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Amalfi",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Amalfi"
+        }
+      ]
+    },
+    {
+      "phase": "dissolution",
+      "years": "1131",
+      "description": "Norman kingdom absorbs Amalfi; Pisan sack 1135 destroys the fleet.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q686312",
+          "url": "https://www.wikidata.org/wiki/Q686312"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Amalfi",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Amalfi"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "trade_route_control",
+      "layer": "economic_commercial",
+      "description": "Amalfitan merchants pioneered Latin Christian trade with Fatimid Egypt and the Byzantine Levant; trading colonies established in Constantinople and Jerusalem.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q686312",
+          "url": "https://www.wikidata.org/wiki/Q686312"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Amalfi",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Amalfi"
+        }
+      ]
+    },
+    {
+      "tag": "mobility_advantage",
+      "layer": "military_security",
+      "description": "The Amalfitan fleet was among the most capable in the Tyrrhenian Sea in the 10th–11th centuries.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q686312",
+          "url": "https://www.wikidata.org/wiki/Q686312"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Amalfi",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Amalfi"
+        }
+      ]
+    },
+    {
+      "tag": "administrative_innovation",
+      "layer": "governance_institutional",
+      "description": "The Tabula Amalfitana codified maritime law and was adopted across the Mediterranean.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q686312",
+          "url": "https://www.wikidata.org/wiki/Q686312"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Amalfi",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Amalfi"
+        }
+      ]
+    },
+    {
+      "layer": "economic_commercial",
+      "tag": "trade_route_control",
+      "direction": "rise",
+      "description": "Amalfi pioneered the Mediterranean spice and luxury trade as an autonomous maritime republic, establishing trading colonies across the Byzantine and Islamic worlds centuries before Venice dominated.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q686312",
+          "url": "https://www.wikidata.org/wiki/Q686312"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Amalfi",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Amalfi"
+        }
+      ],
+      "tag_prose": "maritime_trade"
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "maritime_law",
+      "direction": "rise",
+      "description": "The Tabula Amalphitana, one of Europe's earliest maritime legal codes, regulated trade and navigation across the Mediterranean, giving Amalfi merchants enforceable commercial rights.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q686312",
+          "url": "https://www.wikidata.org/wiki/Q686312"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Amalfi",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Amalfi"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "economic_disruption",
+      "layer": "economic_commercial",
+      "description": "The Pisan naval sack of 1135 destroyed Amalfi's port and merchant fleet, ending its commercial supremacy permanently.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q686312",
+          "url": "https://www.wikidata.org/wiki/Q686312"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Amalfi",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Amalfi"
+        }
+      ]
+    },
+    {
+      "tag": "external_military_pressure",
+      "layer": "military_security",
+      "description": "Norman conquest of southern Italy incorporated Amalfi into the Kingdom of Sicily.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q686312",
+          "url": "https://www.wikidata.org/wiki/Q686312"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Amalfi",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Amalfi"
+        }
+      ]
+    },
+    {
+      "tag": "overextension",
+      "layer": "governance_institutional",
+      "description": "Commercial network spread too thin against rising Pisan and Genoese competition.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q686312",
+          "url": "https://www.wikidata.org/wiki/Q686312"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Amalfi",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Amalfi"
+        }
+      ]
+    },
+    {
+      "layer": "military_security",
+      "tag": "external_military_pressure",
+      "direction": "decline",
+      "description": "Norman forces under Robert Guiscard captured Amalfi in 1073, ending its political independence and integrating it into the Norman Kingdom of Sicily.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q686312",
+          "url": "https://www.wikidata.org/wiki/Q686312"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Amalfi",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Amalfi"
+        }
+      ],
+      "tag_prose": "norman_conquest"
+    },
+    {
+      "layer": "economic_commercial",
+      "tag": "pisan_sack",
+      "direction": "decline",
+      "description": "Pisan forces sacked Amalfi in 1135 and again in 1137, destroying its fleet and commercial infrastructure and transferring maritime dominance to Pisa and later Genoa.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q686312",
+          "url": "https://www.wikidata.org/wiki/Q686312"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Amalfi",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Amalfi"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "person_id": "mastalus_i_amalfi",
+      "name": "Mastalus I",
+      "role": "ruler",
+      "years": "c.839–866",
+      "year_start": 839,
+      "year_end": 866,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Mastalus I",
+          "url": "https://en.wikipedia.org/wiki/Mastalus_I"
+        }
+      ]
+    },
+    {
+      "person_id": "mansone_i_amalfi",
+      "name": "Mansone I",
+      "role": "ruler",
+      "years": "966–1004",
+      "year_start": 966,
+      "year_end": 1004,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Mansone I",
+          "url": "https://en.wikipedia.org/wiki/Mansone_I"
+        }
+      ]
+    }
+  ],
+  "predecessor_entity_ids": [
+    "byzantine_empire"
+  ],
+  "successor_entity_ids": [
+    "kingdom_of_sicily_norman"
+  ],
+  "primary_ethnicity": "italian_roman",
+  "ethnic_composition": [
+    {
+      "group": "italian_roman",
+      "proportion": 0.92
+    }
+  ],
+  "religion_composition": [
+    {
+      "religion": "catholic",
+      "proportion": 0.95
+    },
+    {
+      "religion": "pagan",
+      "proportion": 0.05
+    }
+  ],
+  "primary_language": "italian_lang",
+  "language_composition": [
+    {
+      "language": "italian_lang",
+      "proportion": 0.78,
+      "role": "vernacular"
+    },
+    {
+      "language": "greek",
+      "proportion": 0.12,
+      "role": "regional"
+    },
+    {
+      "language": "latin",
+      "proportion": 0.08,
+      "role": "liturgical"
+    },
+    {
+      "language": "arabic",
+      "proportion": 0.02,
+      "role": "regional"
+    }
+  ],
+  "economic": {
+    "primary_base": "maritime_trade",
+    "secondary_bases": [
+      "manufacturing",
+      "long_distance_trade"
+    ],
+    "wealth_level": "very_high",
+    "major_exports": [
+      "linen",
+      "spices",
+      "luxury_goods",
+      "silk"
+    ],
+    "major_trade_partners": [
+      "byzantine_empire",
+      "fatimid_caliphate",
+      "abbasid_caliphate",
+      "kingdom_of_sicily_norman"
+    ],
+    "revenue_sources": [
+      "customs_duties",
+      "commercial_taxes"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q686312",
+        "url": "https://www.wikidata.org/wiki/Q686312"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Duchy of Amalfi",
+        "url": "https://en.wikipedia.org/wiki/Duchy_of_Amalfi"
+      }
+    ]
+  },
+  "social_structure": {
+    "ruling_ethnicity": "italian_roman",
+    "subject_majority": "italian_roman",
+    "military_ethnicity": "italian_roman",
+    "administrative_language": "italian_lang",
+    "stratification_type": "homogeneous"
+  },
+  "wikidata_enrichment": {
+    "qid": "Q686312",
+    "matched_name": "Duchy of Amalfi",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Duchy_of_Amalfi",
+    "capital": {
+      "name": "Amalfi",
+      "coords": [
+        40.63333,
+        14.60278
+      ]
+    },
+    "predecessors_from_wikidata": [
+      "Duchy of Naples"
+    ],
+    "successors_from_wikidata": [
+      "Byzantine Empire",
+      "Kingdom of Sicily"
+    ]
+  },
+  "sources": [
+    {
+      "type": "book",
+      "author": "Wickham, Chris",
+      "title": "The Inheritance of Rome: A History of Europe from 400 to 1000",
+      "publisher": "Allen Lane",
+      "year": 2009
+    },
+    {
+      "type": "book",
+      "author": "Abulafia, David (ed.)",
+      "title": "The New Cambridge Medieval History, Vol. V: c. 1198 – c. 1300",
+      "publisher": "Cambridge University Press",
+      "year": 1999
+    }
+  ],
+  "monogram": "AM"
+}

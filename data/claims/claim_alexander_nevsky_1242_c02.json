@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_alexander_nevsky_1242_c02",
+  "statement": "The Battle on the Ice halted the Teutonic and Livonian Order's eastward expansion.",
+  "subject_ids": [
+    "principality_of_novgorod"
+  ],
+  "period": {
+    "from": 1242,
+    "to": 1242
+  },
+  "derived_from": "alexander_nevsky_1242",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "martin_treasure_1986",
+      "birnbaum_lord_1981"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

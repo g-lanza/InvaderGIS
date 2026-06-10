@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "venice_cyprus_acquisition_1489",
+  "name": "Venice Acquires Cyprus",
+  "year": 1489,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    45.4,
+    12.3
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Queen Catherine Cornaro, a Venetian noblewoman, ceded Cyprus to the Republic of Venice. Venice now controlled a crucial eastern Mediterranean island but faced growing Ottoman pressure that would eventually take it (1571).",
+  "outcomes": [
+    "cyprus_venetian",
+    "eastern_mediterranean_extended",
+    "ottoman_conflict_looms"
+  ],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_knights_hospitaller_rhodes_1148_1498",
+  "statement": "Knights Hospitaller (Rhodes) — campaigns and battles spanned 1148–1498, from Siege of Damascus to Battle of Karpathos.",
+  "subject_ids": [
+    "knights_hospitaller_rhodes"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_knights_hospitaller_rhodes_1148_1498",
+  "period": {
+    "from": 1148,
+    "to": 1498
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_hospitallers_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

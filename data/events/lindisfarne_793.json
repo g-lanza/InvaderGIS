@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "lindisfarne_793",
+  "name": "Sack of Lindisfarne",
+  "year": 793,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    55.68,
+    -1.8
+  ],
+  "entity": "kingdom_of_northumbria",
+  "summary": "On June 8, 793, a Viking raiding fleet attacks the monastery of Lindisfarne (Holy Island) off the Northumbrian coast, the cultural center of early medieval English Christianity and home of the Lindisfarne Gospels (c.715). The monks are killed or enslaved, the monastery's treasures looted. Alcuin of York writes in horror: 'Never before has such terror appeared in Britain as we have now suffered from a pagan race.' Lindisfarne 793 is conventionally dated as the beginning of the Viking Age in England, transforming European political history for the next three centuries.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_northumbria"
+    ],
+    "structural_significance": "Conventionally marks the beginning of the Viking Age; demonstrates the vulnerability of monastic wealth; beginning of Viking raids that reshape the political map of northern Europe",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

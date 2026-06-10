@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_mount_tabor_1217",
+  "name": "Siege of Mount Tabor",
+  "year": 1217,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    37.52,
+    29.42
+  ],
+  "entity": "kingdom_of_jerusalem",
+  "summary": "Siege of Mount Tabor (1217 CE), at Mount Tabor (part of Fifth Crusade). Source: Wikidata Q125498707.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_jerusalem",
+      "knights_hospitaller_rhodes",
+      "kingdom_of_cyprus",
+      "principality_of_antioch",
+      "duchy_of_austria"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

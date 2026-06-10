@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_middle_francia_870_c02",
+  "statement": "The borderlands of former Middle Francia became a contested zone between Germany and France for centuries.",
+  "subject_ids": [
+    "middle_francia"
+  ],
+  "period": {
+    "from": 870,
+    "to": 870
+  },
+  "derived_from": "middle_francia_870",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

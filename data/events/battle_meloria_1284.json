@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_meloria_1284",
+  "name": "Battle of Meloria, Genoa Destroys Pisa's Fleet",
+  "year": 1284,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    43.55,
+    10.25
+  ],
+  "entity": "republic_of_genoa",
+  "summary": "The Genoese fleet defeats the Pisan navy at Meloria, off the Tuscan coast, capturing 72 Pisan galleys and killing or enslaving 11,000 Pisan sailors and soldiers. Among the prisoners is the chronicler Rustichello da Pisa, who will later co-write Marco Polo's travels. Pisa never recovers its naval power; the battle effectively ends Pisan commercial competition with Genoa in the western Mediterranean.",
+  "outcomes": [
+    "pisa_naval_power_destroyed",
+    "genoa_sardinia_dominance",
+    "pisa_begins_decline"
+  ],
+  "_quarry": {
+    "participants": [
+      "republic_of_genoa",
+      "republic_of_pisa"
+    ],
+    "structural_significance": "Meloria demonstrates the zero-sum nature of maritime city-state competition, one city's decisive defeat removes it from the commercial contest permanently; Pisa's naval destruction shifts commercial dominance in the Tyrrhenian to Genoa and begins Pisa's political decline; the battle's role in Marco Polo's narrative transmission illustrates how warfare and cultural transmission intersect",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

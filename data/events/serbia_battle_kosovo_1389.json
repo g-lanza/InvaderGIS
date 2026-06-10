@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "serbia_battle_kosovo_1389",
+  "name": "Battle of Kosovo",
+  "year": 1389,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    42.91,
+    18.098
+  ],
+  "entity": "serbia",
+  "summary": "The Serbian army under Prince Lazar Hrebeljanović met the Ottoman forces of Murad I at Kosovo Polje. Both leaders were killed; the battle is remembered in Serbian epic tradition as a defining moment of sacrifice and Serbian national identity, though it did not immediately end Serbian statehood.",
+  "outcomes": [
+    "ottoman_advance",
+    "lazar_killed",
+    "serbian_independence_ended"
+  ],
+  "_quarry": {
+    "participants": [
+      "serbia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

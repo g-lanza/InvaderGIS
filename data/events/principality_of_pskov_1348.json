@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "principality_of_pskov_1348",
+  "name": "Pskov Gains Independence from Novgorod",
+  "year": 1348,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    57.81,
+    28.33
+  ],
+  "entity": "principality_of_pskov",
+  "summary": "The Treaty of Bolotovo in 1348 recognised Pskov as an independent republic, separating it from Novgorodian overlordship. Like Novgorod, Pskov was governed by a veche (popular assembly) and merchant oligarchy, making it one of the few republican polities in medieval Russia.",
+  "outcomes": [
+    "treaty_of_bolotovo",
+    "veche_republic",
+    "merchant_oligarchy"
+  ],
+  "_quarry": {
+    "participants": [
+      "principality_of_pskov"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

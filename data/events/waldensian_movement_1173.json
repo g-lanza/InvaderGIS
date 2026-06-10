@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "waldensian_movement_1173",
+  "name": "Peter Waldo and the Waldensian Movement",
+  "year": 1173,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    45.76,
+    4.83
+  ],
+  "entity": "papal_states",
+  "summary": "Peter Waldo, a wealthy Lyon merchant, gives away his fortune and founds the Poor of Lyon (Waldensians), a movement emphasizing voluntary poverty, lay preaching, and vernacular Bible reading. Initially tolerated, the movement is condemned by the Third Lateran Council (1179) and excommunicated by Pope Lucius III (1184). Waldensian communities survive in the Alpine valleys of Piedmont and spread through southern France, Bohemia, and Germany despite systematic persecution.",
+  "outcomes": [
+    "lay_bible_reading_movement",
+    "papal_condemnation_follows",
+    "pre_reformation_heresy_survives"
+  ],
+  "_quarry": {
+    "participants": [
+      "papal_states",
+      "kingdom_of_france"
+    ],
+    "structural_significance": "The Waldensians are the oldest continuously surviving pre-Reformation Christian movement, they eventually join the Protestant Reformation in 1532; their emphasis on vernacular scripture, lay preaching, and apostolic poverty anticipates Lollards, Hussites, and Protestant reformers; the Church's condemnation demonstrates its failure to accommodate reform impulses within the institutional framework",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

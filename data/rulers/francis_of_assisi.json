@@ -1,0 +1,36 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "francis_of_assisi",
+  "name": "Francis of Assisi",
+  "polity": "",
+  "title": "friar",
+  "reign_start": 0,
+  "reign_end": null,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 1181,
+      "death_year": 1226
+    },
+    "entity_associations": [],
+    "key_actions": [
+      {
+        "year": 1209,
+        "event": "Receives papal approval for the Order of Friars Minor."
+      },
+      {
+        "year": 1224,
+        "event": "Receives stigmata on Mount La Verna."
+      }
+    ],
+    "region": "italy",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lawrence_medieval_monasticism_2001"
+    ],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_sicily_norman_to_staufen",
+  "statement": "The Kingdom of Sicily passed from the Norman Hauteville dynasty to the Hohenstaufen (Staufen) when Constance — the posthumous daughter of Roger II of Sicily and heiress of the Norman kingdom — married Henry VI of Germany (1186). Henry VI conquered Sicily (1194) despite resistance; their son Frederick II was raised in Sicily and became Emperor Frederick II — simultaneously Holy Roman Emperor and King of Sicily/Naples. The union of imperial and Sicilian power was the papacy's greatest nightmare: encirclement of the Papal States. It drove the catastrophic pope-emperor conflict (1239–1250).",
+  "subject_ids": [
+    "kingdom_of_sicily_norman",
+    "kingdom_of_sicily_hohenstaufen"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_sicily_norman_to_staufen",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "kingdom_of_sicily_hohenstaufen"
+  ],
+  "period": {
+    "from": 1198,
+    "to": 1198
+  }
+}

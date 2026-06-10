@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_halmyros_1311",
+  "name": "Battle of Halmyros",
+  "year": 1311,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    37.98,
+    23.73
+  ],
+  "entity": "duchy_of_athens",
+  "summary": "Battle of Halmyros (1311 CE), at Almyros. Source: Wikidata Q2064142.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "duchy_of_athens"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

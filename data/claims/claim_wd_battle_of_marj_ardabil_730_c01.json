@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_marj_ardabil_730_c01",
+  "statement": "Battle of Marj Ardabil (730 CE), at Ardabil (part of Arab–Khazar Wars).",
+  "subject_ids": [
+    "khazar_khaganate"
+  ],
+  "period": {
+    "from": 730,
+    "to": 730
+  },
+  "derived_from": "wd_battle_of_marj_ardabil_730",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "golden_khazar_1980",
+      "brook_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

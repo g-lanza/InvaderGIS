@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_the_navy_1420",
+  "name": "Battle of the Navy",
+  "subtype": "battle",
+  "start_year": 1420,
+  "end_year": 1420,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q20876304"
+    }
+  },
+  "description": "Battle during Mediterranean campaign of Alfonso V of Aragon (1420)",
+  "coords": [
+    14.25,
+    40.8333
+  ]
+}

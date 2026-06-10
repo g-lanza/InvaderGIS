@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_peruzzi_bankruptcy_1343_c02",
+  "statement": "Edward III of England had borrowed approximately 600,000 florins to finance the early Hundred Years' War.",
+  "subject_ids": [
+    "republic_of_florence"
+  ],
+  "period": {
+    "from": 1343,
+    "to": 1343
+  },
+  "derived_from": "peruzzi_bankruptcy_1343",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lopez_commercial_revolution_1971",
+      "abu_lughod_before_european_hegemony_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

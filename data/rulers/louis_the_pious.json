@@ -1,0 +1,46 @@
+{
+ "kind": "ruler",
+ "dataset": "medieval-europe-500-1500",
+ "id": "louis_the_pious",
+ "name": "Louis the Pious",
+ "polity": "carolingian_empire",
+ "title": "emperor",
+ "reign_start": 814,
+ "reign_end": 840,
+ "succeeds": "charlemagne",
+ "_quarry": {
+  "lifespan": {
+   "birth_year": 778,
+   "death_year": 840
+  },
+  "entity_associations": [
+   {
+    "entity_id": "carolingian_empire",
+    "role": "emperor",
+    "start_year": 814,
+    "end_year": 840
+   }
+  ],
+  "key_actions": [
+   {
+    "year": 817,
+    "event": "Issues Ordinatio Imperii dividing inheritance among sons — embeds future fragmentation."
+   },
+   {
+    "year": 833,
+    "event": "Deposed at Field of Lies; reinstated 834."
+   }
+  ],
+  "region": "western_europe",
+  "name_variants": []
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "wickham_inheritance_of_rome_2009",
+   "ims_fordham",
+   "ims_fordham_sbook1h"
+  ],
+  "confidence": "low"
+ }
+}

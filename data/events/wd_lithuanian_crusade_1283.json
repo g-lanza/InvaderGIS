@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_lithuanian_crusade_1283",
+  "name": "Lithuanian Crusade",
+  "year": 1283,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    55.85,
+    25.15
+  ],
+  "entity": "livonian_order_state",
+  "summary": "Lithuanian Crusade (1283 CE), (part of Northern Crusades). Source: Wikidata Q16362506.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "livonian_order_state",
+      "grand_duchy_of_lithuania"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_hospitallers_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

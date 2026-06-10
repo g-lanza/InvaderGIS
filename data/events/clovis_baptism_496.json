@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "clovis_baptism_496",
+  "name": "Baptism of Clovis I",
+  "year": 496,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    49.25,
+    4.03
+  ],
+  "entity": "merovingian_kingdom",
+  "summary": "Clovis I, king of the Franks, converts to Nicene (Catholic) Christianity, unlike other Germanic kings who had adopted Arianism. Bishop Remigius of Reims baptizes him with 3,000 warriors. Pope Anastasius congratulates him. The conversion gives Clovis the support of the Gallo-Roman clergy and population, distinguishing him from Arian Visigoths and Burgundians.",
+  "outcomes": [
+    "catholic_frankish_alliance",
+    "papal_support_for_franks",
+    "germanic_catholic_precedent"
+  ],
+  "_quarry": {
+    "participants": [
+      "merovingian_kingdom"
+    ],
+    "structural_significance": "Creates the Frankish-papal alliance that underpins Carolingian history; the Franks become the \"eldest daughter of the Church\"; Clovis can justify wars against Arian neighbors as religious crusades.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wood_the_1994",
+      "geary_before_1988"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

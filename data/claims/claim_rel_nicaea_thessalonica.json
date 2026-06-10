@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_nicaea_thessalonica",
+  "statement": "The Empire of Nicaea and the splinter Kingdom of Thessalonica (established by Theodore Komnenos Doukas of Epirus after his capture of the city in 1224) were competing Byzantine successor states. John III Vatatzes of Nicaea invaded Thessalonica, captured Theodore's nephew Manuel (1242), and forced the Thessalonican court to accept Nicaean imperial precedence (renouncing their imperial title for the lesser title of 'despot'). Nicaea subsequently absorbed Thessalonica (1246) under John III, eliminating the last separate Epirote/Thessalonican claim to Byzantine imperial succession.",
+  "subject_ids": [
+    "empire_of_nicaea",
+    "kingdom_of_thessalonica"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_nicaea_thessalonica",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1205,
+    "to": 1224
+  }
+}

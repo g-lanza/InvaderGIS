@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "viking_discovery_america_1000",
+  "name": "Leif Erikson Reaches North America",
+  "year": 1000,
+  "type": "exploration",
+  "category": "discovery",
+  "coords": [
+    51.6,
+    -55.5
+  ],
+  "entity": "norse_greenland",
+  "summary": "Leif Erikson, son of Erik the Red, sails from Greenland to Vinland (likely Newfoundland or New England), establishing temporary settlements including one confirmed by archaeology at L'Anse aux Meadows in Newfoundland. The Norse establish contacts with indigenous peoples (Skraelings); violent conflicts eventually lead to abandonment of the settlements around 1013.",
+  "outcomes": [
+    "vinland_discovered",
+    "north_american_contact",
+    "failed_settlement"
+  ],
+  "_quarry": {
+    "participants": [
+      "norse_greenland"
+    ],
+    "structural_significance": "First confirmed European contact with the Americas, 492 years before Columbus; the settlement fails to take hold due to indigenous resistance and the small Norse population; the discovery leaves no lasting European footprint.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

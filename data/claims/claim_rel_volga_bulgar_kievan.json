@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_volga_bulgar_kievan",
+  "statement": "The Volga Bulgaria — a Turkic Muslim state on the middle Volga — maintained commercial relations with Kievan Rus through the river trade routes. Rus merchants traveled up the Volga to trade at Bulgar (the Volga Bulgarian capital), exchanging slaves, furs, and forest products for silver dirhams from the Islamic world and luxury goods. The relationship was also politically competitive: Sviatoslav I of Kiev campaigned against the Volga Bulgars (965) as part of his eastern campaigns that also destroyed the Khazar Khaganate. The subsequent relationship was commercially productive but periodically disrupted by Rus-Bulgarian border conflicts.",
+  "subject_ids": [
+    "volga_bulgaria",
+    "kievan_rus"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_volga_bulgar_kievan",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "franklin_the_1996",
+      "riasanovsky_a_2000",
+      "martin_medieval_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 965,
+    "to": 1236
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_second_lateran_1139_c03",
+  "statement": "The Second Lateran Council of 1139 enacted the prohibition on clerical marriage as a matter of canon law.",
+  "subject_ids": [
+    "papal_states"
+  ],
+  "period": {
+    "from": 1139,
+    "to": 1139
+  },
+  "derived_from": "second_lateran_1139",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morris_papal_monarchy_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

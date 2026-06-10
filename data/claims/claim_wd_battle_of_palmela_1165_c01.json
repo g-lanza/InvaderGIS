@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_palmela_1165_c01",
+  "statement": "Battle of Palmela (1165 CE), at Palmela (part of Almohad wars in the Iberian Peninsula).",
+  "subject_ids": [
+    "kingdom_of_portugal"
+  ],
+  "period": {
+    "from": 1165,
+    "to": 1165
+  },
+  "derived_from": "wd_battle_of_palmela_1165",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

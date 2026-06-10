@@ -1,0 +1,42 @@
+{
+ "kind": "event",
+ "dataset": "medieval-europe-500-1500",
+ "id": "battle_las_navas_tolosa_1212",
+ "name": "Battle of Las Navas de Tolosa",
+ "year": 1212,
+ "type": "battle",
+ "category": "violence",
+ "coords": [
+  38.3,
+  -3.6
+ ],
+ "entity": "crown_of_castile",
+ "summary": "A coalition of Christian Iberian kings under Alfonso VIII of Castile, supported by Peter II of Aragon, Sancho VII of Navarre, and contingents from Portugal, defeats the Almohad Caliph al-Nasir at a mountain pass north of Jaén. The battle is declared a crusade by Pope Innocent III. The Almohad army, estimated at 120,000 (likely exaggerated), is routed; al-Nasir flees, and according to legend, King Sancho of Navarre breaks through the iron chain guarding the Caliph's tent.",
+ "outcomes": [
+  "almohad_military_shattered",
+  "reconquista_accelerated",
+  "southern_iberia_opened"
+ ],
+ "_quarry": {
+  "participants": [
+   "crown_of_castile",
+   "kingdom_of_aragon",
+   "kingdom_of_navarre",
+   "kingdom_of_portugal",
+   "almohad_caliphate_iberia"
+  ],
+  "structural_significance": "The decisive turning point of the Reconquista: within 40 years Córdoba (1236), Valencia (1238), and Seville (1248) fall to Christian kingdoms; the Almohads never recover military dominance in Iberia; Muslim political control retreats to the Emirate of Granada until 1492",
+  "year_range": null
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "o'callaghan_a_1975",
+   "catlos_kingdoms_2018",
+   "ims_fordham",
+   "ims_fordham_sbook1p"
+  ],
+  "confidence": "low",
+  "attestation": "inferred"
+ }
+}

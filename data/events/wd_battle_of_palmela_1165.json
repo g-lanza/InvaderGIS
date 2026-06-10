@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_palmela_1165",
+  "name": "Battle of Palmela",
+  "year": 1165,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    38.25,
+    -6
+  ],
+  "entity": "kingdom_of_portugal",
+  "summary": "Battle of Palmela (1165 CE), at Palmela (part of Almohad wars in the Iberian Peninsula). Source: Wikidata Q130027483.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_portugal",
+      "almohad_caliphate_iberia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

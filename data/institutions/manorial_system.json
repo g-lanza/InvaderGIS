@@ -1,0 +1,54 @@
+{
+  "kind": "institution",
+  "dataset": "medieval-europe-500-1500",
+  "id": "manorial_system",
+  "name_primary": "Manorial System",
+  "domain": "economic_system",
+  "formed": 800,
+  "dissolved": 1500,
+  "_quarry": {
+    "key_developments": [
+      {
+        "year": 900,
+        "event": "Three-field rotation and heavy plough spread through northern Europe."
+      },
+      {
+        "year": 1086,
+        "event": "Domesday Book inventories English manors."
+      },
+      {
+        "year": 1150,
+        "event": "Cistercian grange system intensifies sheep farming on marginal land."
+      },
+      {
+        "year": 1315,
+        "event": "Great Famine — climatic shift exposes Malthusian limits of medieval agriculture."
+      },
+      {
+        "year": 1348,
+        "event": "Black Death halves European population; surviving peasants demand cash wages."
+      },
+      {
+        "year": 1381,
+        "event": "Peasants' Revolt in England — broad challenge to manorial labour obligations."
+      }
+    ],
+    "influences_entities": [
+      "kingdom_of_england",
+      "kingdom_of_france",
+      "holy_roman_empire",
+      "duchy_of_burgundy",
+      "kingdom_of_poland_jagiellonian",
+      "kingdom_of_castile"
+    ],
+    "description": "The agrarian economic counterpart to feudalism: the manor as the unit of agricultural production, divided into the lord's demesne (worked partly by labour-rent from peasants), the peasant holdings (tenements), and the commons. Peasants owed the lord labour services (week-work), payments in kind, and a share of harvest; in return they received protection, access to manorial mills and ovens (at a fee), and customary rights in the commons. The system intensified in the 11th–12th centuries with the three-field rotation and heavy plough, supporting Europe's medieval demographic expansion, then collapsed in the 14th century under Black Death labour shortages that gave surviving peasants leverage to commute labour services into cash rents."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "duby_rural_economy_country_life_1968",
+      "campbell_great_transition_2016"
+    ],
+    "confidence": "low"
+  }
+}

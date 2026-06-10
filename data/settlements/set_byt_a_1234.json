@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_byt_a_1234",
+  "name": "Bytča",
+  "importance": "city",
+  "start_year": 1234,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q27907"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    18.5581,
+    49.2228
+  ]
+}

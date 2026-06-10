@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_koyun_islands_1090",
+  "name": "Battle of Koyun Islands",
+  "subtype": "battle",
+  "start_year": 1090,
+  "end_year": 1090,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q85966865"
+    }
+  },
+  "description": "Battle during Seljuk campaigns in the Aegean (1090)",
+  "coords": [
+    26.2167,
+    38.5167
+  ]
+}

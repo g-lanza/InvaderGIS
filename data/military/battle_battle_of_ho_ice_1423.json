@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_ho_ice_1423",
+  "name": "Battle of Hořice",
+  "subtype": "battle",
+  "start_year": 1423,
+  "end_year": 1423,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1500196"
+    }
+  },
+  "description": "Battle during Hussite Wars (1423)",
+  "coords": [
+    15.6444,
+    50.3647
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_st_jakob_an_der_birs_1444",
+  "name": "Battle of St. Jakob an der Birs",
+  "subtype": "battle",
+  "start_year": 1444,
+  "end_year": 1444,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q451853"
+    }
+  },
+  "description": "Battle during Old Zürich War (1444)",
+  "coords": [
+    7.618,
+    47.542
+  ]
+}

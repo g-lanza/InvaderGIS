@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_fall_of_western_rome_476_c02",
+  "statement": "After 476, Odoacer ruled Italy as king, theoretically under Byzantine suzerainty.",
+  "subject_ids": [
+    "ostrogothic_kingdom"
+  ],
+  "period": {
+    "from": 476,
+    "to": 476
+  },
+  "derived_from": "fall_of_western_rome_476",
+  "unresolved_sources": [
+    "heather_the_1996"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "amory_people_1997"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

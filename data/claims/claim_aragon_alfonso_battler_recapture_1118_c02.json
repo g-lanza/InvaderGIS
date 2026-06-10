@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_aragon_alfonso_battler_recapture_1118_c02",
+  "statement": "The capture of Zaragoza doubled the size of the kingdom of Aragon and opened the Ebro valley.",
+  "subject_ids": [
+    "crown_of_aragon"
+  ],
+  "period": {
+    "from": 1118,
+    "to": 1118
+  },
+  "derived_from": "aragon_alfonso_battler_recapture_1118",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

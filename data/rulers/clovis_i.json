@@ -1,0 +1,47 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "clovis_i",
+  "name": "Clovis I",
+  "polity": "merovingian_kingdom",
+  "title": "king",
+  "reign_start": 481,
+  "reign_end": 511,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 466,
+      "death_year": 511
+    },
+    "entity_associations": [
+      {
+        "entity_id": "merovingian_kingdom",
+        "role": "king",
+        "start_year": 481,
+        "end_year": 511
+      }
+    ],
+    "key_actions": [
+      {
+        "year": 486,
+        "event": "Defeats Roman general Syagrius at Soissons — establishes Frankish authority in Gaul."
+      },
+      {
+        "year": 496,
+        "event": "Baptism at Reims — first major Germanic king to convert to Nicene Christianity."
+      },
+      {
+        "year": 507,
+        "event": "Defeats Visigoths at Vouillé; conquers Aquitaine."
+      }
+    ],
+    "region": "western_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_inheritance_of_rome_2009"
+    ],
+    "confidence": "low"
+  }
+}

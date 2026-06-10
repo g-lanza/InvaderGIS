@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_cartagena_1264_c01",
+  "statement": "Siege of Cartagena (1264 CE), at Cartagena (part of Mudéjar revolt of 1264–1266).",
+  "subject_ids": [
+    "crown_of_castile"
+  ],
+  "period": {
+    "from": 1264,
+    "to": 1264
+  },
+  "derived_from": "wd_siege_of_cartagena_1264",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "o'callaghan_a_1975",
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

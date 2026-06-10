@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_bac_u_1399",
+  "name": "Bacău",
+  "importance": "city",
+  "start_year": 1399,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q10737004"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    26.9167,
+    46.5833
+  ]
+}

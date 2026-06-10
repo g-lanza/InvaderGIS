@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_xuanzang_sets_out_629_c01",
+  "statement": "Buddhist monk Xuanzang leaves the Tang capital in defiance of an imperial travel ban to seek authentic Sanskrit sources of Mahayana doctrine.",
+  "subject_ids": [
+    "tang_dynasty"
+  ],
+  "period": {
+    "from": 629,
+    "to": 629
+  },
+  "derived_from": "xuanzang_sets_out_629",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "twitchett_cambridge_history_china_v3_1979"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

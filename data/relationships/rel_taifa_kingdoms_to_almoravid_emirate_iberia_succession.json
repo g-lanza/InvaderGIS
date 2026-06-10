@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_taifa_kingdoms_to_almoravid_emirate_iberia_succession",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "taifa_kingdoms",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "almoravid_emirate_iberia",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 1086,
+  "until": 1086,
+  "note": "Derived from predecessor/successor links recorded in the taifa_kingdoms and almoravid_emirate_iberia entity records. Transition anchored to almoravid_emirate_iberia start_year.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Mechanical normalisation of curated predecessor/successor links into the relationships register."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "catlos_the_2004",
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

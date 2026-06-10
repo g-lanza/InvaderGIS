@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "fort_gravensteen",
+  "name": "Gravensteen",
+  "subtype": "fort",
+  "start_year": 1180,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "Castle of the Counts of Flanders in Ghent",
+  "coords": [
+    3.719,
+    51.057
+  ]
+}

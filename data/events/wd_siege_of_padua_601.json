@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_padua_601",
+  "name": "Siege of Padua",
+  "year": 601,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    43.25,
+    19.05
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Siege of Padua (601 CE), at Padua (part of Byzantine–Lombard Wars). Source: Wikidata Q25535585.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "lombard_kingdom"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

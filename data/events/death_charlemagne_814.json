@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "death_charlemagne_814",
+  "name": "Death of Charlemagne",
+  "year": 814,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    50.77,
+    6.09
+  ],
+  "entity": "carolingian_empire",
+  "summary": "Charlemagne dies on January 28, 814 at Aachen, aged approximately 72, after a reign of 46 years. He is succeeded solely by his surviving son, Louis the Pious, avoiding the Frankish custom of partible inheritance that had divided the empire under previous dynasties. Charlemagne's death comes at the peak of Carolingian power: the empire stretches from the Ebro to the Elbe, from the North Sea to central Italy. His court at Aachen has been a center of Latin learning and Christian culture, the Carolingian Renaissance, systematizing literacy, scripture, and law across Western Europe.",
+  "outcomes": [
+    "louis_the_pious_succeeds",
+    "carolingian_unity_begins_fracturing",
+    "carolingian_renaissance_peak"
+  ],
+  "_quarry": {
+    "participants": [
+      "carolingian_empire"
+    ],
+    "structural_significance": "The passing of Charlemagne transfers power to Louis the Pious, whose weak governance and religious scruples lead to the civil wars and eventual tripartite division at Verdun (843); the Carolingian model of a unified Christian empire under a single emperor becomes the ideal that medieval European rulers measure themselves against for centuries",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "mckitterick_charlemagne_2008",
+      "riché_the_1993",
+      "nelson_king_2019"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

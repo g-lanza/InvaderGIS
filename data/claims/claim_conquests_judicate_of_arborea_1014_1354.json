@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_judicate_of_arborea_1014_1354",
+  "statement": "Judicate of Arborea — campaigns and battles spanned 1014–1354, from Mujahid's invasion of Sardinia to Battle of Quartu.",
+  "subject_ids": [
+    "judicate_of_arborea"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_judicate_of_arborea_1014_1354",
+  "period": {
+    "from": 1014,
+    "to": 1354
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

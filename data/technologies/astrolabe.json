@@ -1,0 +1,40 @@
+{
+  "kind": "technology",
+  "dataset": "medieval-europe-500-1500",
+  "id": "astrolabe",
+  "name_primary": "Astrolabe",
+  "domain": "other",
+  "origin": {
+    "place": "Baghdad (Abbasid Caliphate)",
+    "year": 800
+  },
+  "materials": [
+    "brass",
+    "silver",
+    "engraved rete",
+    "alidade sighting bar",
+    "leather case"
+  ],
+  "diffusion": [
+    "Abbasid Caliphate",
+    "Fatimid Egypt",
+    "Al-Andalus",
+    "Norman Sicily",
+    "Crown of Castile",
+    "Kingdom of France",
+    "Holy Roman Empire",
+    "Crown of England"
+  ],
+  "_quarry": {
+    "description": "Although the planispheric astrolabe was theorized by Hipparchus and described by Theon of Alexandria, Islamic craftsmen in 8th–9th-century Baghdad systematized its manufacture and expanded its functions; the earliest surviving Islamic astrolabe dates to c. 900 CE from Baghdad. Abbasid scholars under al-Mansur and al-Mamun standardized interchangeable latitude plates and used the instrument to determine prayer times and qibla direction. Knowledge of the astrolabe entered Latin Europe via Toledo and Córdoba translations in the 10th–11th centuries, where it became the standard astronomical and navigational instrument until the 17th century."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "metmuseum_astronomy_medieval",
+      "wiki_astrolabe"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

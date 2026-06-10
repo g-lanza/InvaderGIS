@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_peace_constance_1183_c01",
+  "statement": "The Peace of Constance, signed June 25, 1183, ended the conflict between Frederick Barbarossa and the Lombard League.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1183,
+    "to": 1183
+  },
+  "derived_from": "peace_constance_1183",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

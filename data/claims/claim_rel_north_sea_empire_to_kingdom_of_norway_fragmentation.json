@@ -1,0 +1,30 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_north_sea_empire_to_kingdom_of_norway_fragmentation",
+  "statement": "Derived from predecessor/successor links recorded in the north_sea_empire and kingdom_of_norway entity records. Transition anchored to kingdom_of_norway start_year.",
+  "subject_ids": [
+    "north_sea_empire",
+    "kingdom_of_norway"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_north_sea_empire_to_kingdom_of_norway_fragmentation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "sawyer_the_1997",
+      "helle_the_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "kingdom_of_norway"
+  ],
+  "period": {
+    "from": 872,
+    "to": 872
+  }
+}

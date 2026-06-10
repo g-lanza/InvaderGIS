@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_hungary_bosnia",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_hungary",
+      "role": "suzerain"
+    },
+    {
+      "entity_id": "kingdom_of_bosnia",
+      "role": "vassal"
+    }
+  ],
+  "directed": true,
+  "type": "vassalage",
+  "since": 1377,
+  "until": 1377,
+  "note": "Bosnia maintained complex vassalage relations with Hungary, acknowledged as the nominal suzerain while Bosnian bans exercised effective independence. Hungarian interest in Bosnia was driven by Catholicism (Hungary used crusade ideology against the heterodox Bosnian Church) and strategic concern about the Adriatic coast. The Angevin kings of Hungary (from 1301) attempted to integrate Bosnia more firmly; King Tvrtko I of Bosnia (1353–1391) expanded Bosnian territory at Hungary's expense during the Angevin dynasty's weakness. The Ottoman conquest of Bosnia (1463) — which Hungary failed to prevent — opened the Adriatic flank to Ottoman raiding.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Hungary's nominal suzerainty over Bosnia creates a persistent constitutional ambiguity that the Bosnian bans exploit for autonomy; the Ottoman conquest of Bosnia (1463) is a catastrophic failure of Hungarian defense that brings Ottoman raiding to the Adriatic and begins the pressure on Hungary that culminates in Mohács (1526)"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "engel_the_2001",
+      "berend_at_2001",
+      "fine_the_1987",
+      "imamović_historija_1997"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

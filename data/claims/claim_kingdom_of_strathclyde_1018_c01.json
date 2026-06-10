@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_kingdom_of_strathclyde_1018_c01",
+  "statement": "At the Battle of Carham in 1018, Strathclyde and Scottish forces defeated Northumbria.",
+  "subject_ids": [
+    "kingdom_of_strathclyde"
+  ],
+  "period": {
+    "from": 1018,
+    "to": 1018
+  },
+  "derived_from": "kingdom_of_strathclyde_1018",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

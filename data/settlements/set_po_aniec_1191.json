@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_po_aniec_1191",
+  "name": "Połaniec",
+  "importance": "city",
+  "start_year": 1191,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q988658"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    21.2833,
+    50.4333
+  ]
+}

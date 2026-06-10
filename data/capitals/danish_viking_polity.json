@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "danish_viking_polity",
+  "name": "Jelling",
+  "entity_id": "danish_viking_polity",
+  "entity_name": "Danish Viking Polity",
+  "start_year": 793,
+  "end_year": 1066,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q35666"
+    }
+  },
+  "coords": [
+    9.42,
+    55.76
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_arab_conquest_egypt_641_c01",
+  "statement": "The Arab general Amr ibn al-As led a force into Egypt in 639, exploiting Byzantine exhaustion after the Persian wars.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 641,
+    "to": 641
+  },
+  "derived_from": "arab_conquest_egypt_641",
+  "unresolved_sources": [
+    "treadgold_a_1997",
+    "kazhdan_the_1991"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "haldon_byzantium_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

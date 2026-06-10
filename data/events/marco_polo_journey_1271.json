@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "marco_polo_journey_1271",
+  "name": "Polo brothers and Marco depart for the Mongol court",
+  "year": 1271,
+  "type": "exploration",
+  "category": "discovery",
+  "coords": [
+    45.43,
+    12.35
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Niccolò, Maffeo, and Marco Polo leave Venice for the court of Kublai Khan, travelling via Acre, Hormuz, Khotan, and the Tarim Basin to Khanbaliq (Beijing). They return 24 years later with the prosimetric account that becomes Il Milione.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "mongol_empire"
+    ],
+    "structural_significance": "First substantial first-hand European description of the geography, wealth, and political organisation of China and Inner Asia. Polo's account directly inspires later European voyages, Columbus carried a heavily annotated copy on his 1492 voyage.",
+    "year_range": [
+      1271,
+      1295
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

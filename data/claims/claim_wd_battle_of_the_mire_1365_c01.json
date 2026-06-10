@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_the_mire_1365_c01",
+  "statement": "Battle of the Mire (1365 CE), at Tashkent (part of Timurid conquests and invasions).",
+  "subject_ids": [
+    "chagatai_khanate"
+  ],
+  "period": {
+    "from": 1365,
+    "to": 1365
+  },
+  "derived_from": "wd_battle_of_the_mire_1365",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "biran_chinggis_2007",
+      "manz_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

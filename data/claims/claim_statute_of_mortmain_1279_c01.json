@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_statute_of_mortmain_1279_c01",
+  "statement": "Edward I issued the Statute of Mortmain in November 1279, forbidding the alienation of land to ecclesiastical corporations without royal licence.",
+  "subject_ids": [
+    "kingdom_of_england"
+  ],
+  "period": {
+    "from": 1279,
+    "to": 1279
+  },
+  "derived_from": "statute_of_mortmain_1279",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "bartlett_making_of_europe_1993",
+      "morris_papal_monarchy_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

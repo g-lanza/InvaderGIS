@@ -1,0 +1,35 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_duchy_of_bohemia_to_kingdom_of_bohemia_succession",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "duchy_of_bohemia",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "kingdom_of_bohemia",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 1198,
+  "until": 1198,
+  "note": "Derived from predecessor/successor links recorded in the duchy_of_bohemia and kingdom_of_bohemia entity records. Transition anchored to kingdom_of_bohemia start_year.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Mechanical normalisation of curated predecessor/successor links into the relationships register."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

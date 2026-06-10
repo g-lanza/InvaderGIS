@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "byzantine_trade_silk_562",
+  "name": "Byzantine Silk Industry, Smuggled Worms",
+  "year": 562,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.01,
+    28.97
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Nestorian monks (according to Procopius) smuggle silkworm eggs from Central Asia (possibly Sogdia) to Constantinople in hollow walking sticks, enabling Justinian I to establish a Byzantine silk industry. The imperial silk workshops (the gynaecea) produce the luxury garments that Byzantine diplomacy uses as gifts, tribute, and symbols of imperial majesty. Silk now reaches Europe without transiting the Persian Empire.",
+  "outcomes": [
+    "silk_production_begins",
+    "persian_monopoly_broken",
+    "silk_road_bypassed"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire"
+    ],
+    "structural_significance": "The silk technology transfer is a rare medieval example of industrial espionage with lasting consequences; Byzantine silk production funds the imperial treasury and provides essential diplomatic gifts for centuries; the monopoly on purple-dyed silk (reserved for imperial use) becomes a marker of sovereignty; the transfer reduces the Persian-Byzantine trade tension but creates a new Byzantine-Islamic competition when the Arabs conquer the silk-producing regions",
+    "year_range": [
+      552,
+      568
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

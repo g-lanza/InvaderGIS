@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_iceland_eldgja_eruption_939_c02",
+  "statement": "Eldgjá's tephra and sulphate aerosols depressed Northern Hemisphere temperatures for several years.",
+  "subject_ids": [
+    "iceland_commonwealth"
+  ],
+  "period": {
+    "from": 939,
+    "to": 939
+  },
+  "derived_from": "iceland_eldgja_eruption_939",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

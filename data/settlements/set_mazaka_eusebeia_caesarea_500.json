@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_mazaka_eusebeia_caesarea_500",
+  "name": "Mazaka/Eusebeia/Caesarea",
+  "importance": "city",
+  "start_year": 500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "inferred",
+    "external_ids": {
+      "pleiades": "629035"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    35.4744,
+    38.7264
+  ]
+}

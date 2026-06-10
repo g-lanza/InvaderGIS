@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_mosul_1261",
+  "name": "Siege of Mosul",
+  "year": 1261,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    32.85,
+    41.3
+  ],
+  "entity": "ilkhanate",
+  "summary": "Siege of Mosul (1261 CE), at Mosul (part of Mongol invasions of the Levant). Source: Wikidata Q138037968.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "ilkhanate",
+      "mamluk_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "jackson_the_2005",
+      "amitai-preiss_mongols_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

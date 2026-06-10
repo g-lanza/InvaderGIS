@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_myriokephalon_1176",
+  "name": "Battle of Myriokephalon",
+  "year": 1176,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    37.8,
+    31.3
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Seljuk Sultan Kilij Arslan II ambushes and defeats Byzantine Emperor Manuel I Komnenos in a mountain pass in Phrygia. Manuel had intended to recover Anatolia for Byzantium, as Alexios I had hoped the Crusades would facilitate. The defeat ends any realistic prospect of Byzantine reconquest of Anatolia. Kilij Arslan compares it to Manzikert, it definitively secures Seljuk control of the Anatolian interior.",
+  "outcomes": [
+    "byzantine_reconquest_of_anatolia_ended",
+    "seljuk_anatolia_secured"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "sultanate_of_rum"
+    ],
+    "structural_significance": "Permanently ends Byzantine ambitions to reconquer central Anatolia; Anatolia's demographic and cultural transformation to Turkic identity becomes irreversible",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

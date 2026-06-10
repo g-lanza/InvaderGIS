@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_tripoli_1271",
+  "name": "Siege of Tripoli",
+  "year": 1271,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    32.2,
+    33.5
+  ],
+  "entity": "county_of_tripoli",
+  "summary": "Siege of Tripoli (1271 CE), at Tripoli (part of Ninth Crusade). Source: Wikidata Q7510468.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "county_of_tripoli",
+      "mamluk_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

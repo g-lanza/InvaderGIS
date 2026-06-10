@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_assault_on_ivangorod_1496",
+  "name": "Assault on Ivangorod",
+  "year": 1496,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    57.9,
+    26.3
+  ],
+  "entity": "kingdom_of_sweden",
+  "summary": "Assault on Ivangorod (1496 CE), at Ivangorod (part of Russo-Swedish War of 1495–1497). Source: Wikidata Q21643643.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_sweden",
+      "grand_principality_of_moscow"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_medieval_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

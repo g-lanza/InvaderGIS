@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_the_vega_of_granada_1319",
+  "name": "Battle of the Vega of Granada",
+  "year": 1319,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.1,
+    -3.8
+  ],
+  "entity": "crown_of_castile",
+  "summary": "Battle of the Vega of Granada (1319 CE), at Pinos Puente (part of Reconquista). Source: Wikidata Q5803812.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "crown_of_castile",
+      "emirate_of_granada"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "o'callaghan_a_1975",
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

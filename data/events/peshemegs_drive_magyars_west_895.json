@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "peshemegs_drive_magyars_west_895",
+  "name": "Pechenegs Drive Magyars from Pontic Steppe",
+  "year": 895,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    46.5,
+    30
+  ],
+  "entity": "pecheneg_confederation",
+  "summary": "Pecheneg tribes, aided by Bulgarian pressure from the south, drove the Magyar confederation from their homeland on the Pontic steppe westward across the Carpathians. This displacement was the immediate cause of the Magyar settlement of the Pannonian basin.",
+  "outcomes": [
+    "magyars_displaced",
+    "pecheneg_steppe_dominance",
+    "hungarian_migration"
+  ],
+  "_quarry": {
+    "participants": [
+      "pecheneg_confederation"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

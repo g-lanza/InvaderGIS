@@ -1,0 +1,41 @@
+{
+ "kind": "event",
+ "dataset": "medieval-europe-500-1500",
+ "id": "first_crusade_1099",
+ "name": "Capture of Jerusalem (First Crusade)",
+ "year": 1099,
+ "type": "crusade",
+ "category": "violence",
+ "coords": [
+  31.78,
+  35.23
+ ],
+ "entity": "kingdom_of_jerusalem",
+ "summary": "The First Crusade, launched by Pope Urban II's 1095 call, culminates in the capture of Jerusalem (July 15, 1099). The massacre of the Muslim and Jewish inhabitants shocks the Islamic world. Crusader states are established: the County of Edessa (1098), Principality of Antioch (1098), Kingdom of Jerusalem (1099), and County of Tripoli (1102). The Military Orders are founded to defend them.",
+ "outcomes": [
+  "jerusalem_captured",
+  "crusader_states_established"
+ ],
+ "_quarry": {
+  "participants": [
+   "kingdom_of_jerusalem",
+   "kingdom_of_france",
+   "kingdom_of_england"
+  ],
+  "structural_significance": "Establishes Christian Latin presence in the Holy Land for 192 years; creates a strategic flashpoint that drives Islamic politics for two centuries; Military Orders become major political actors across Europe",
+  "year_range": null
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "riley-smith_the_2005",
+   "prawer_the_1972",
+   "asbridge_the_2010",
+   "ims_fordham",
+   "ims_fordham_sbook1k",
+   "ims_fordham_sbookmap"
+  ],
+  "confidence": "low",
+  "attestation": "inferred"
+ }
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_volga_bulgaria_to_mongol_empire_fragmentation",
+  "statement": "Derived from predecessor/successor links recorded in the volga_bulgaria and mongol_empire entity records. Transition anchored to mongol_empire start_year.",
+  "subject_ids": [
+    "volga_bulgaria",
+    "mongol_empire"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_volga_bulgaria_to_mongol_empire_fragmentation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "mongol_empire"
+  ],
+  "period": {
+    "from": 1206,
+    "to": 1206
+  }
+}

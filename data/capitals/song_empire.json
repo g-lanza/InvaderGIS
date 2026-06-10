@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "song_empire",
+  "name": "Bianliang",
+  "entity_id": "song_empire",
+  "entity_name": "Song Empire",
+  "start_year": 960,
+  "end_year": 1279,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q7462"
+    }
+  },
+  "coords": [
+    114.34028,
+    34.79361
+  ]
+}

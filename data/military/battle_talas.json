@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_talas",
+  "name": "Battle of Talas",
+  "subtype": "battle",
+  "start_year": 751,
+  "end_year": 751,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "Abbasid and Tang Chinese armies clash; Arab victory ends Chinese expansion into Central Asia",
+  "coords": [
+    72.3,
+    42.9
+  ]
+}

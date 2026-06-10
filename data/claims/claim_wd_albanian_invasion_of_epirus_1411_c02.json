@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_albanian_invasion_of_epirus_1411_c02",
+  "statement": "The 1411 Albanian invasion of Epirus occurred in the West Greece Region.",
+  "subject_ids": [
+    "despotate_of_epirus"
+  ],
+  "period": {
+    "from": 1411,
+    "to": 1411
+  },
+  "derived_from": "wd_albanian_invasion_of_epirus_1411",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_duchy_of_athens_1205_c02",
+  "statement": "The Frankish Duchy of Athens occupied the Acropolis and introduced Western feudalism to Greece.",
+  "subject_ids": [
+    "duchy_of_athens"
+  ],
+  "period": {
+    "from": 1205,
+    "to": 1205
+  },
+  "derived_from": "duchy_of_athens_1205",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

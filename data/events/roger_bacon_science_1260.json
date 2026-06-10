@@ -1,0 +1,42 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "roger_bacon_science_1260",
+  "name": "Roger Bacon and Experimental Science",
+  "year": 1268,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    51.75,
+    -1.25
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Roger Bacon, Franciscan friar at Oxford and Paris, advocates for systematic empirical observation, mathematics, and experimentation as the path to knowledge, writing his Opus Majus (1267) for Pope Clement IV arguing for educational reform. He makes important contributions to optics (studying rainbows, mirrors, magnification), proposes calendar reform (implemented 300 years later as the Gregorian calendar), and speculatively describes gunpowder, flying machines, and telescopes.",
+  "outcomes": [
+    "empirical_observation_argued",
+    "optics_studied",
+    "calendar_reform_proposed"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "papal_states"
+    ],
+    "structural_significance": "Bacon's significance lies not in specific discoveries but in articulating the experimental method as the correct approach to natural knowledge, a century before it becomes standard; his Franciscan context shows how mendicant intellectual culture could produce radical methodological innovation; his imprisonment by his order (late 1270s) demonstrates the institutional resistance to empirical challenges to established learning; his ideas circulate underground until the 16th-century scientific revolution",
+    "year_range": [
+      1250,
+      1292
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_sultanate_of_rum_1084_1303",
+  "statement": "Sultanate of Rum — campaigns and battles spanned 1084–1303, from Siege of Antioch to Battle of Vashlovani.",
+  "subject_ids": [
+    "sultanate_of_rum"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_sultanate_of_rum_1084_1303",
+  "period": {
+    "from": 1084,
+    "to": 1303
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

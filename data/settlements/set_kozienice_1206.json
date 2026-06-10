@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_kozienice_1206",
+  "name": "Kozienice",
+  "importance": "city",
+  "start_year": 1206,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q990651"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    21.5511,
+    51.5856
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_mohi_1241",
+  "name": "Battle of Mohi, Mongol Destruction of Hungary",
+  "year": 1241,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    48.24,
+    21.06
+  ],
+  "entity": "kingdom_of_hungary",
+  "summary": "Batu Khan's Mongol army defeats King Béla IV's Hungarian force at Mohi (on the Sajó River) on April 11, 1241, the same day as the Mongol victory over the Poles at Legnica. The Hungarian kingdom collapses; Mongol columns reach the Adriatic Sea at Split. Estimates suggest 15-25% of Hungary's population dies from direct killing or subsequent famine and disease. King Béla flees to Croatia and islands off the Dalmatian coast.",
+  "outcomes": [
+    "hungarian_army_annihilated",
+    "half_population_killed",
+    "batu_khan_reaches_adriatic"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_hungary",
+      "mongol_empire"
+    ],
+    "structural_significance": "The Mongol invasion transforms Hungary, the demographic collapse creates labor shortages that strengthen the surviving nobility; Béla IV rebuilds the kingdom around stone castle fortifications (over 100 built by 1270) that the Mongols could not take; the invasion demonstrates that Christian kingdoms needed castle-based defense against steppe armies, accelerating castle construction across Central Europe",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "engel_the_2001",
+      "berend_at_2001"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

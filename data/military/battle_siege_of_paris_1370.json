@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_siege_of_paris_1370",
+  "name": "Siege of Paris",
+  "subtype": "battle",
+  "start_year": 1370,
+  "end_year": 1370,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q3485976"
+    }
+  },
+  "description": "Battle during Hundred Years' War (1370)",
+  "coords": [
+    2.3518,
+    48.8566
+  ]
+}

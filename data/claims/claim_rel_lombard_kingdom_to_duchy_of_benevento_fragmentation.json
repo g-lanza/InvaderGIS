@@ -1,0 +1,30 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_lombard_kingdom_to_duchy_of_benevento_fragmentation",
+  "statement": "Derived from predecessor/successor links recorded in the lombard_kingdom and duchy_of_benevento entity records. Transition anchored to duchy_of_benevento start_year.",
+  "subject_ids": [
+    "lombard_kingdom",
+    "duchy_of_benevento"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_lombard_kingdom_to_duchy_of_benevento_fragmentation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "deacon_history_1907",
+      "christie_the_1995",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "duchy_of_benevento"
+  ],
+  "period": {
+    "from": 571,
+    "to": 571
+  }
+}

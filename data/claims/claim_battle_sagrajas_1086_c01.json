@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_battle_sagrajas_1086_c01",
+  "statement": "Almoravid Sultan Yusuf ibn Tashfin inflicted a catastrophic defeat on Alfonso VI of Castile-León at Sagrajas near Badajoz in 1086.",
+  "subject_ids": [
+    "almoravid_emirate_iberia"
+  ],
+  "period": {
+    "from": 1086,
+    "to": 1086
+  },
+  "derived_from": "battle_sagrajas_1086",
+  "unresolved_sources": [
+    "catlos_the_2004"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

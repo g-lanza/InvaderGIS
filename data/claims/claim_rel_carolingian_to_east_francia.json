@@ -1,0 +1,31 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_carolingian_to_east_francia",
+  "statement": "East Francia emerged from the Treaty of Verdun (843) as Louis the German's share of the Carolingian Empire. It retained Carolingian administrative traditions — missi dominici, palace schools, the system of counties — but faced constant pressure from external enemies (Magyars, Vikings, Slavs) and internal fragmentation into great stem duchies (Bavaria, Saxony, Franconia, Swabia, Lorraine). The extinction of the East Frankish Carolingian line (911) led to the election of Conrad I (non-Carolingian) and then Henry I (Ottonian) — transforming East Francia into the Holy Roman Empire.",
+  "subject_ids": [
+    "carolingian_empire",
+    "east_francia"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_carolingian_to_east_francia",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "mckitterick_charlemagne_2008",
+      "riché_the_1993",
+      "nelson_king_2019",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "east_francia"
+  ],
+  "period": {
+    "from": 843,
+    "to": 843
+  }
+}

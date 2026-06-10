@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_khazar_arab",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "khazar_khaganate",
+      "role": "principal"
+    },
+    {
+      "entity_id": "umayyad_emirate_cordoba",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 756,
+  "until": 756,
+  "note": "Khazar-Arab Wars (note: against caliphal Damascus, not Iberian Umayyads — relationship reflects broader Umayyad pressure).",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Khazar military barrier in the Caucasus prevented Arab expansion into the Pontic steppe and eastern Europe during the Umayyad period's most aggressive phase; this containment preserved the non-Islamic character of the northern steppe and Kievan Rus regions, with profound long-term consequences for the religious geography of eastern Europe and Russia."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "golden_khazar_1980",
+      "brook_the_1999",
+      "constable_medieval_1997",
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "khanate_of_kazan_1487",
+  "name": "Ivan III Installs Vassal Khan",
+  "year": 1487,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    55.795,
+    43.36
+  ],
+  "entity": "khanate_of_kazan",
+  "summary": "Ivan III of Moscow captured Kazan in 1487 and installed a pro-Moscow khan, making the khanate effectively a Russian vassal. This began the long process of Russian encroachment that would culminate in Ivan the Terrible's permanent conquest of Kazan in 1552.",
+  "outcomes": [
+    "russian_vassal",
+    "moscow_influence",
+    "kazan_independence_weakened"
+  ],
+  "_quarry": {
+    "participants": [
+      "khanate_of_kazan",
+      "grand_principality_of_moscow"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

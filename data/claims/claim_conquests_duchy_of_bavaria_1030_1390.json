@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_duchy_of_bavaria_1030_1390",
+  "statement": "Duchy of Bavaria — campaigns and battles spanned 1030–1390, from German–Hungarian War to First Milano–Florentine War.",
+  "subject_ids": [
+    "duchy_of_bavaria"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_duchy_of_bavaria_1030_1390",
+  "period": {
+    "from": 1030,
+    "to": 1390
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

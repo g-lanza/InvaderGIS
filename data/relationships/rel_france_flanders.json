@@ -1,0 +1,38 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_france_flanders",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_france",
+      "role": "suzerain"
+    },
+    {
+      "entity_id": "county_of_flanders",
+      "role": "vassal"
+    }
+  ],
+  "directed": true,
+  "type": "vassalage",
+  "since": 987,
+  "until": 1384,
+  "note": "The counts of Flanders held their territory as French royal vassals, creating a persistent tension between Flemish autonomy and French overlordship. The relationship broke down under Philip IV 'the Fair' when he attempted direct royal administration of Flanders (1300). The Battle of Courtrai (1302) — Flemish weavers defeating the French cavalry — temporarily expelled French control. Philip recovered the county but never fully integrated it. Flanders's commercial ties with England (through the wool trade) repeatedly put it at odds with French royal interests during the Hundred Years' War.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Flemish vassalage to France creates a persistent fault line in Franco-English relations; the wool trade dependency on England makes Flanders a natural English ally during the Hundred Years' War; the Flemish cities' resistance to French control prefigures Burgundian independence"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

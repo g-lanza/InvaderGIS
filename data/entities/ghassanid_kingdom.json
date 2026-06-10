@@ -1,0 +1,57 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ghassanid_kingdom",
+  "name_primary": "Ghassanid Kingdom",
+  "name_variants": [
+    "Ghassanids",
+    "Banu Ghassan",
+    "Jafnid"
+  ],
+  "type": "kingdom",
+  "region": "levant",
+  "formed": 220,
+  "dissolved": 638,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    32.6,
+    36.7
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "hourani_arab_peoples_1991",
+      "kennedy_caliphate_2004"
+    ],
+    "confidence": "low"
+  },
+  "description": "Arab Christian kingdom of the Banu Ghassan, federate clients of the Byzantine emperor along the Syrian and Jordanian desert frontier from the early third through the early seventh century. The Ghassanids fielded auxiliary cavalry on the Roman side of the long Roman-Persian wars and competed with the Sasanian-aligned Lakhmids of al-Hira. Their Miaphysite Christianity placed them in delicate communion with imperial Constantinople. The polity disintegrated under the Arab conquest of the Levant after 634, the surviving Ghassanid Jafnid line losing its federate role under Heraclius and then under the Rashidun caliphate.",
+  "temporal": {
+    "start_year": 220,
+    "end_year": 638,
+    "end_year_within_scope": 638,
+    "notes": "Arab Christian client kingdom of the Byzantines along the Syrian and Jordanian frontier; collapsed in the wake of the Arab conquest of the Levant culminating at Yarmouk (636) and the fall of Damascus and Jerusalem."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      32.6,
+      36.7
+    ],
+    "core_regions": [
+      "syrian_desert_fringe",
+      "transjordan",
+      "hauran"
+    ],
+    "notes": "Centroid set in the Hauran south of Damascus; the capital shifted between Jabiya and other tribal seats over the polity's life."
+  },
+  "successor_entity_ids": [
+    "rashidun_caliphate"
+  ],
+  "sources": [
+    "hourani_arab_peoples_1991",
+    "kennedy_caliphate_2004"
+  ],
+  "monogram": "GK"
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "hafsid_sultanate",
+  "name": "Tunis",
+  "entity_id": "hafsid_sultanate",
+  "entity_name": "Hafsid Sultanate",
+  "start_year": 1229,
+  "end_year": 1574,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q752662"
+    }
+  },
+  "coords": [
+    10.18,
+    36.80083
+  ]
+}

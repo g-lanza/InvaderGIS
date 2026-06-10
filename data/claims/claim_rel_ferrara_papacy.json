@@ -1,0 +1,30 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_ferrara_papacy",
+  "statement": "The Este lords of Ferrara held the city as papal vicars, with the Este family recognized as hereditary vicars by Pope Nicholas III (1279). Ferrara's position at the Po delta made it strategically valuable for the Papal States; the Este maintained their position by balancing papal interests with imperial connections and by paying substantial annual fees to Rome. When the Este male line failed (1598), Pope Clement VIII claimed Ferrara as a papal fief by his interpretation of the vicariate's terms, absorbing the city into the Papal States despite protests from other Italian powers.",
+  "subject_ids": [
+    "papal_states",
+    "duchy_of_ferrara"
+  ],
+  "predicate": "vassalage",
+  "derived_from": "rel_ferrara_papacy",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "duchy_of_ferrara"
+  ],
+  "period": {
+    "from": 1264,
+    "to": 1500
+  }
+}

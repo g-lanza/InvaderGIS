@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "basil_ii_byzantine_coronation_976",
+  "name": "Basil II becomes senior Byzantine emperor",
+  "year": 976,
+  "type": "coronation",
+  "category": "power",
+  "coords": [
+    41.005,
+    28.978
+  ],
+  "entity": "byzantine_empire",
+  "summary": "On the death of John I Tzimiskes, Basil II, long crowned as co-emperor since infancy, assumes the senior throne at age 18. His 50-year reign (976–1025) restores Byzantine territorial control to its largest extent since the 7th century.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire"
+    ],
+    "structural_significance": "Beginning of the Byzantine military and territorial peak that ends only with the disaster at Manzikert in 1071. Basil's campaigns against the First Bulgarian Empire earn him the epithet 'Boulgaroktonos' (Bulgar-slayer) and erase Bulgaria as a sovereign state until 1185.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

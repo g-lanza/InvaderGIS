@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_patras_1429",
+  "name": "Siege of Patras",
+  "year": 1429,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    37.675,
+    22.4
+  ],
+  "entity": "principality_of_achaea",
+  "summary": "Siege of Patras (1429 CE), at Patras (part of Byzantine–Latin wars). Source: Wikidata Q12883581.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "principality_of_achaea",
+      "despotate_of_the_morea"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

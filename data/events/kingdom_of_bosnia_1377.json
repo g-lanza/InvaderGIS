@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_bosnia_1377",
+  "name": "Bosnia Elevated to Kingdom",
+  "year": 1377,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    44.17,
+    17.79
+  ],
+  "entity": "kingdom_of_bosnia",
+  "summary": "Tvrtko I was crowned King of Bosnia in 1377, elevating the territory from a banate to a kingdom. Ruling as the most powerful lord of the western Balkans, Tvrtko briefly incorporated Serbian and Croatian territories and was the most powerful figure in the region before Ottoman pressure transformed the Balkans.",
+  "outcomes": [
+    "tvrtko_crowned",
+    "bosnian_autonomy",
+    "serbian_heritage"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_bosnia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fine_the_1987",
+      "imamović_historija_1997"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

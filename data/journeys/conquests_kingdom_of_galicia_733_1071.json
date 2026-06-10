@@ -1,0 +1,80 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_kingdom_of_galicia_733_1071",
+  "name": "Kingdom of Galicia — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 733,
+  "year_end": 1071,
+  "waypoints": [
+    {
+      "year": 733,
+      "place": "Reconquista",
+      "coords": [
+        39.332,
+        -1.6233
+      ],
+      "note": "military",
+      "event_id": "wd_reconquista_733"
+    },
+    {
+      "year": 844,
+      "place": "Viking raid on Galicia and Asturias",
+      "coords": [
+        40.39,
+        -6.675
+      ],
+      "note": "military",
+      "event_id": "wd_viking_raid_on_galicia_and_asturias_844"
+    },
+    {
+      "year": 966,
+      "place": "Battle of Aguioncha",
+      "coords": [
+        42.88,
+        -8.55
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_aguioncha_966"
+    },
+    {
+      "year": 968,
+      "place": "Battle of Fornelos",
+      "coords": [
+        42.88,
+        -8.55
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_fornelos_968"
+    },
+    {
+      "year": 983,
+      "place": "Battle of Portela de Areas",
+      "coords": [
+        42.74,
+        -7.075
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_portela_de_areas_983"
+    },
+    {
+      "year": 1071,
+      "place": "Battle of Pedroso",
+      "coords": [
+        42.88,
+        -8.55
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_pedroso_1071"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

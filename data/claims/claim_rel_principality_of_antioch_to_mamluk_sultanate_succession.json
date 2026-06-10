@@ -1,0 +1,30 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_principality_of_antioch_to_mamluk_sultanate_succession",
+  "statement": "Derived from predecessor/successor links recorded in the principality_of_antioch and mamluk_sultanate entity records. Transition anchored to mamluk_sultanate start_year.",
+  "subject_ids": [
+    "principality_of_antioch",
+    "mamluk_sultanate"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_principality_of_antioch_to_mamluk_sultanate_succession",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "asbridge_the_2000",
+      "cahen_la_1940",
+      "irwin_the_1986",
+      "northrup_from_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "mamluk_sultanate"
+  ],
+  "period": {
+    "from": 1250,
+    "to": 1250
+  }
+}

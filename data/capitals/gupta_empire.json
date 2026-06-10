@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "gupta_empire",
+  "name": "Pataliputra",
+  "entity_id": "gupta_empire",
+  "entity_name": "Gupta Empire",
+  "start_year": 320,
+  "end_year": 550,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q174224"
+    }
+  },
+  "coords": [
+    85.14,
+    25.61
+  ]
+}

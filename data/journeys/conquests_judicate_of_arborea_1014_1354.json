@@ -1,0 +1,80 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_judicate_of_arborea_1014_1354",
+  "name": "Judicate of Arborea — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1014,
+  "year_end": 1354,
+  "waypoints": [
+    {
+      "year": 1014,
+      "place": "Mujahid's invasion of Sardinia",
+      "coords": [
+        41.805,
+        9.2525
+      ],
+      "note": "military",
+      "event_id": "wd_mujahid_s_invasion_of_sardinia_1014"
+    },
+    {
+      "year": 1273,
+      "place": "Tuscan War",
+      "coords": [
+        41.25,
+        11.05
+      ],
+      "note": "military",
+      "event_id": "wd_tuscan_war_1273"
+    },
+    {
+      "year": 1323,
+      "place": "Arborea Leads Sardinian Resistance",
+      "coords": [
+        39.9,
+        8.6
+      ],
+      "note": "military",
+      "event_id": "judicate_of_arborea_1323"
+    },
+    {
+      "year": 1350,
+      "place": "War of the Straits",
+      "coords": [
+        41.5,
+        16.21
+      ],
+      "note": "military",
+      "event_id": "wd_war_of_the_straits_1350"
+    },
+    {
+      "year": 1353,
+      "place": "Sardinian–Aragonese War",
+      "coords": [
+        41.6333,
+        9.7667
+      ],
+      "note": "military",
+      "event_id": "wd_sardinian_aragonese_war_1353"
+    },
+    {
+      "year": 1354,
+      "place": "Battle of Quartu",
+      "coords": [
+        40.8,
+        4.55
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_quartu_1354"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

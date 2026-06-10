@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "holy_roman_empire",
+  "name": "Aachen",
+  "entity_id": "holy_roman_empire",
+  "entity_name": "Holy Roman Empire",
+  "start_year": 962,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q12548"
+    }
+  },
+  "coords": [
+    6.08379,
+    50.77621
+  ]
+}

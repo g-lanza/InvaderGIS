@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_wiener_neustadt_1487_c01",
+  "statement": "Siege of Wiener Neustadt (1487 CE), at Wiener Neustadt (part of Austrian–Hungarian War).",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1487,
+    "to": 1487
+  },
+  "derived_from": "wd_siege_of_wiener_neustadt_1487",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

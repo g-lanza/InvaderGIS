@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_viking_raid_on_galicia_and_asturias_844",
+  "name": "Viking raid on Galicia and Asturias",
+  "year": 844,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    40.39,
+    -6.675
+  ],
+  "entity": "kingdom_of_galicia",
+  "summary": "Viking raid on Galicia and Asturias (844 CE), at Lisbon (part of Vikings in Iberia). Source: Wikidata Q20102592.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_galicia",
+      "umayyad_emirate_cordoba"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

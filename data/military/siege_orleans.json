@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "siege_orleans",
+  "name": "Siege of Orléans",
+  "subtype": "siege",
+  "start_year": 1429,
+  "end_year": 1429,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "Joan of Arc breaks the English siege; turning point of the Hundred Years' War",
+  "coords": [
+    1.909,
+    47.902
+  ]
+}

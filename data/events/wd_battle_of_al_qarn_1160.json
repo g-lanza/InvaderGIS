@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_al_qarn_1160",
+  "name": "Battle of Al-Qarn",
+  "year": 1160,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    37,
+    -4
+  ],
+  "entity": "almohad_caliphate_iberia",
+  "summary": "Battle of Al-Qarn (1160 CE), at Kairouan. Source: Wikidata Q137216484.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "almohad_caliphate_iberia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_kingdoms_2018",
+      "o'callaghan_reconquest_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

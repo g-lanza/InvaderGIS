@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "hainan_900",
+  "name": "Hainan Integrated into Song China",
+  "year": 900,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    19.226,
+    109.72
+  ],
+  "entity": "hainan",
+  "summary": "The island of Hainan was integrated into the Chinese administrative system during the Tang dynasty, though the indigenous Li people of the interior maintained substantial autonomy. Tang and Song administrators used Hainan as a place of exile for disgraced officials, including the great Song poet Su Shi (Su Dongpo) who wrote some of his finest works while exiled there.",
+  "outcomes": [
+    "chinese_administration",
+    "li_people_resist",
+    "tropical_exile"
+  ],
+  "_quarry": {
+    "participants": [
+      "hainan"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

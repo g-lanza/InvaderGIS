@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_scotland",
+  "name": "Edinburgh",
+  "entity_id": "kingdom_of_scotland",
+  "entity_name": "Kingdom of Scotland",
+  "start_year": 843,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q230791"
+    }
+  },
+  "coords": [
+    -3.18917,
+    55.95333
+  ]
+}

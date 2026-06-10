@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_arco_di_riccardo_500",
+  "name": "Arco di Riccardo",
+  "importance": "city",
+  "start_year": 500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "inferred",
+    "external_ids": {
+      "pleiades": "282152514"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    13.7688,
+    45.6478
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_funan_chenla_succession",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "funan",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "chenla",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 540,
+  "until": 600,
+  "note": "Chenla, originating as an inland vassal of Funan, absorbed Funanese territory through the 6th century, completing the transfer by c.600 CE.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": ""
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

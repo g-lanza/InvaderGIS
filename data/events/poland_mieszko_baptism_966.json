@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "poland_mieszko_baptism_966",
+  "name": "Mieszko I Baptism, Poland Enters Christendom",
+  "year": 966,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    52.433,
+    18.017
+  ],
+  "entity": "poland",
+  "summary": "Duke Mieszko I of Poland was baptised, integrating Poland into western Christendom and securing a papal connection that protected Poland from German crusading expansion. The 966 baptism is considered Poland's founding date.",
+  "outcomes": [
+    "poland_christianised",
+    "piast_dynasty",
+    "western_alliance"
+  ],
+  "_quarry": {
+    "participants": [
+      "poland"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

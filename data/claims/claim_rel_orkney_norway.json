@@ -1,0 +1,30 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_orkney_norway",
+  "statement": "The Orkney Islands were settled by Norse Vikings in the late 9th century and governed as a Norwegian earldom. The Earls of Orkney — notably Sigurd the Stout (d. 1014, killed at Clontarf) and later the canonized Magnus Erlendsson — maintained a culturally rich Norse society that produced the Orkneyinga Saga. Norwegian royal authority over Orkney was periodically asserted but practically limited. The islands were pawned to Scotland in 1468–1469 when King Christian I was unable to pay his daughter's dowry, ending 600 years of Norse sovereignty.",
+  "subject_ids": [
+    "kingdom_of_norway",
+    "earldom_of_orkney"
+  ],
+  "predicate": "vassalage",
+  "derived_from": "rel_orkney_norway",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_the_1997",
+      "helle_the_2003",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "earldom_of_orkney"
+  ],
+  "period": {
+    "from": 875,
+    "to": 1397
+  }
+}

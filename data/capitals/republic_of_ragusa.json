@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "republic_of_ragusa",
+  "name": "Dubrovnik",
+  "entity_id": "republic_of_ragusa",
+  "entity_name": "Republic of Ragusa",
+  "start_year": 1358,
+  "end_year": 1808,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q208169"
+    }
+  },
+  "coords": [
+    18.10833,
+    42.64028
+  ]
+}

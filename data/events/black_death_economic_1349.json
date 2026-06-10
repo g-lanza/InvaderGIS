@@ -1,0 +1,44 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "black_death_economic_1349",
+  "name": "Post-Plague Economic Transformation",
+  "year": 1349,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    48.85,
+    2.35
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "The Black Death's destruction of one-third of Europe's labor force transforms the medieval economy. Real wages for agricultural workers roughly double in the generation after 1348; lords cannot prevent peasant migration to better-paying work; serfdom collapses in western Europe as lords cannot enforce villein obligations on mobile workers. English landlords shift from labor-intensive grain farming to sheep grazing (less labor), expanding wool exports that fund the Hundred Years' War.",
+  "outcomes": [
+    "wages_double",
+    "serfdom_weakens",
+    "sumptuary_laws_fail",
+    "wool_sheep_economy_expands"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "kingdom_of_france",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "The plague-induced economic transformation is as important as the demographic one; the rise of real wages for common people, the weakening of servile obligations, and the shift to pastoral farming reshape the English and continental economies; the paradox of demographic catastrophe producing prosperity for survivors creates the conditions for late medieval consumer culture and the increasing domestic demand that drives craft specialization",
+    "year_range": [
+      1349,
+      1380
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

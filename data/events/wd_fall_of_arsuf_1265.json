@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_fall_of_arsuf_1265",
+  "name": "Fall of Arsuf",
+  "year": 1265,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    33.2,
+    29.7
+  ],
+  "entity": "knights_hospitaller_rhodes",
+  "summary": "Fall of Arsuf (1265 CE), at Arsuf (part of Fall of Outremer). Source: Wikidata Q5432145.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "knights_hospitaller_rhodes",
+      "mamluk_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_hospitallers_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

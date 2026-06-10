@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "robert_bruce_coronation_1306",
+  "name": "Robert Bruce Crowned King of Scotland",
+  "year": 1306,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    56.41,
+    -3.43
+  ],
+  "entity": "kingdom_of_scotland",
+  "summary": "Robert Bruce kills his rival John Comyn in Dumfries church (February 1306) and has himself crowned King of Scotland at Scone six weeks later, reviving Scottish resistance to English domination. Edward I responds with fury, Bruce is defeated, his supporters executed (some hanged and drawn), his female relatives imprisoned. Bruce retreats to the western islands but returns to win Bannockburn (1314) and then Scottish recognition by England (Treaty of Edinburgh-Northampton, 1328).",
+  "outcomes": [
+    "bruce_crowned",
+    "english_supremacy_rejected",
+    "scottish_independence_war_continues"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_scotland"
+    ],
+    "structural_significance": "Bruce's coronation begins the second phase of Scottish independence, transforming it from Balliol's dynastic claim to Bruce's national cause; his survival after 1306 (hiding in the western islands, perhaps Rathlin) becomes legendary; Bannockburn (1314) demonstrates that a well-positioned, motivated defense can defeat a numerically superior English army; the Declaration of Arbroath (1320) articulates Scottish national identity in terms that anticipate Enlightenment political philosophy",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "barrell_medieval_2000",
+      "brown_the_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

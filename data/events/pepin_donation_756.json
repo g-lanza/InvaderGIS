@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "pepin_donation_756",
+  "name": "Pepin the Short's Donation, Papal States Created",
+  "year": 756,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    44.4,
+    11.95
+  ],
+  "entity": "carolingian_empire",
+  "summary": "Pepin III (the Short) leads two campaigns across the Alps (754, 756) to defend Pope Stephen II against the Lombards. He donates the conquered Exarchate of Ravenna and surrounding territories to the papacy, creating the Papal States as a territorial entity. This 'Donation of Pepin' is the political basis for papal temporal power for the next 1,100 years (until 1870).",
+  "outcomes": [
+    "papal_states_created",
+    "lombards_defeated",
+    "papacy_becomes_temporal_power"
+  ],
+  "_quarry": {
+    "participants": [
+      "carolingian_empire",
+      "lombard_kingdom",
+      "papal_states"
+    ],
+    "structural_significance": "The Donation of Pepin permanently entangles the papacy in Italian politics; the Papal States require military defense and administrative governance, creating the temporal-spiritual tension that defines medieval Church-state relations; the donation also creates a precedent for Carolingian-papal cooperation that reaches its apex with Charlemagne's imperial coronation in 800",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "mckitterick_charlemagne_2008",
+      "riché_the_1993",
+      "nelson_king_2019"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

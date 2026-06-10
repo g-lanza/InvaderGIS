@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_council_of_pisa_1409_c01",
+  "statement": "The Council of Pisa in 1409 deposed both rival popes and elected Alexander V, but neither rival accepted the deposition.",
+  "subject_ids": [
+    "papal_states"
+  ],
+  "period": {
+    "from": 1409,
+    "to": 1409
+  },
+  "derived_from": "council_of_pisa_1409",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morris_papal_monarchy_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

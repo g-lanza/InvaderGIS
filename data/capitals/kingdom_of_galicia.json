@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_galicia",
+  "name": "A Coruña",
+  "entity_id": "kingdom_of_galicia",
+  "entity_name": "Kingdom of Galicia",
+  "start_year": 910,
+  "end_year": 1833,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q303421"
+    }
+  },
+  "coords": [
+    -8.40003,
+    43.37386
+  ]
+}

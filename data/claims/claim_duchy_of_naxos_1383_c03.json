@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_duchy_of_naxos_1383_c03",
+  "statement": "The Duchy of Naxos was finally absorbed into the Ottoman Empire in 1579.",
+  "subject_ids": [
+    "duchy_of_naxos"
+  ],
+  "period": {
+    "from": 1383,
+    "to": 1383
+  },
+  "derived_from": "duchy_of_naxos_1383",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

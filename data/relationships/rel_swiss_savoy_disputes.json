@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_swiss_savoy_disputes",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "swiss_confederation",
+      "role": "principal"
+    },
+    {
+      "entity_id": "county_of_savoy",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 1300,
+  "until": 1416,
+  "note": "The Swiss Confederation's expansion into the Vaud (acquired 1536) and Valais brought it into repeated conflict with the Duchy of Savoy, whose territories surrounded the Swiss cantons to the south and west. The Swiss defeated Savoy at the Battle of Laupen (1339) and in subsequent campaigns in the late 14th century. The conflict was partly about control of Alpine passes and partly about the liberation of Vaud's cities (Lausanne, Geneva) from Savoyard feudal control. The Swiss acquisition of Vaud (1536) made the Confederation the dominant power in the western Alps.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Swiss-Savoyard conflict defines the western Alpine political geography; the Swiss acquisition of Vaud transforms the strategic balance of the western Alps; Geneva's liberation from Savoyard control (1536) enables its later role as Calvin's reformation base"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "marchal_schweizer_2006",
+      "rippmann_die_2006",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

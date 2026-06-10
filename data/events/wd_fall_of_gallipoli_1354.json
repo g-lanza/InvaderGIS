@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_fall_of_gallipoli_1354",
+  "name": "Fall of Gallipoli",
+  "year": 1354,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41,
+    28.9
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Fall of Gallipoli (1354 CE), at Gelibolu (part of Byzantine–Ottoman wars). Source: Wikidata Q916266.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "ottoman_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

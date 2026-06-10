@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "black_prince_poitiers_1356",
+  "name": "Edward the Black Prince's Campaigns",
+  "year": 1356,
+  "type": "conflict",
+  "category": "violence",
+  "coords": [
+    46.58,
+    0.34
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Edward of Woodstock, the Black Prince, commanded the English army at Crécy (1346) and led an independent chevauchée into southern France in 1355–1356. At Poitiers on 19 September 1356 his outnumbered force annihilated the French army and captured King John II, yielding a massive ransom. Later as Prince of Aquitaine he sacked Limoges (1370), a controversial act that damaged his reputation.",
+  "outcomes": [
+    "Battle of Poitiers 1356, King John II of France captured",
+    "Massive English chevauchée devastates Languedoc",
+    "Prince of Wales in Aquitaine 1355–1371",
+    "Capture of Limoges 1370 tarnishes reputation"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "kingdom_of_france"
+    ],
+    "structural_significance": "The Black Prince's victories demonstrated English military dominance in France and brought the French monarchy to its lowest point of the 14th century.",
+    "year_range": [
+      1346,
+      1371
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Barber, Edward Prince of Wales and Aquitaine",
+      "Sumption, Trial by Fire"
+    ],
+    "confidence": "low"
+  }
+}

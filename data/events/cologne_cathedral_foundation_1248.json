@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "cologne_cathedral_foundation_1248",
+  "name": "Cologne Cathedral Foundation, Gothic Architecture",
+  "year": 1248,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    50.94,
+    6.96
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Archbishop Konrad von Hochstaden lays the foundation stone for the new Cologne Cathedral, designed in the French High Gothic style. The choir (completed 1322) sets the standard for Gothic cathedral architecture north of the Alps. The nave and west towers remain unfinished for nearly 600 years, the construction crane on the south tower becomes a permanent feature of the Cologne skyline for 300 years.",
+  "outcomes": [
+    "greatest_gothic_cathedral_begun",
+    "french_gothic_north_of_alps",
+    "cathedral_not_completed_until_1880"
+  ],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire"
+    ],
+    "structural_significance": "Cologne Cathedral is the most ambitious building project of medieval Germany; its construction demonstrates the integration of French Gothic aesthetic into German building culture; cathedrals serve as the primary investment vehicles for surplus urban wealth, their construction employs skilled workers for generations and creates the institutional framework (cathedral chapters, fabric funds) for continuous long-term capital investment; the 600-year construction demonstrates medieval architectural ambition exceeding immediate capacity",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

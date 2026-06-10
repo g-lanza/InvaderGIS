@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "siege_jerusalem_1187",
+  "name": "Siege of Jerusalem 1187",
+  "subtype": "siege",
+  "start_year": 1187,
+  "end_year": 1187,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "Saladin recaptures Jerusalem from the Crusaders",
+  "coords": [
+    35.217,
+    31.769
+  ]
+}

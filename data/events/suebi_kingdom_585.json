@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "suebi_kingdom_585",
+  "name": "Visigoths Absorb Suebi Kingdom",
+  "year": 585,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41.34,
+    -6.075
+  ],
+  "entity": "suebi_kingdom",
+  "summary": "The Visigothic king Leovigild conquered and absorbed the Suebi kingdom in 585 CE, ending one of the earliest Germanic kingdoms in the West after nearly 175 years of existence. The Suebi had converted to Catholicism just two decades earlier; their absorption completed the Visigothic unification of the Iberian Peninsula.",
+  "outcomes": [
+    "suebi_kingdom_ends",
+    "visigothic_iberia",
+    "galicia_absorbed"
+  ],
+  "_quarry": {
+    "participants": [
+      "suebi_kingdom",
+      "visigothic_kingdom"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

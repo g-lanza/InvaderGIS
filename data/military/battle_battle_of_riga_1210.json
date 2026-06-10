@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_riga_1210",
+  "name": "Battle of Riga",
+  "subtype": "battle",
+  "start_year": 1210,
+  "end_year": 1210,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q17351689"
+    }
+  },
+  "description": "Battle during Livonian Crusade (1210)",
+  "coords": [
+    24.1069,
+    56.9475
+  ]
+}

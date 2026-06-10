@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_scaliger_war_1336",
+  "name": "Scaliger War",
+  "year": 1336,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    44.6,
+    11.75
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Scaliger War (1336 CE), at Veneto. Source: Wikidata Q131412102.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "republic_of_florence"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_cologne_cathedral_foundation_1248_c01",
+  "statement": "Archbishop Konrad von Hochstaden laid the foundation stone of the new Cologne Cathedral in 1248, designed in French High Gothic style.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1248,
+    "to": 1248
+  },
+  "derived_from": "cologne_cathedral_foundation_1248",
+  "unresolved_sources": [
+    "scales_the_2012"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

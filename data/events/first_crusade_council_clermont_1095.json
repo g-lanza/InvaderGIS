@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "first_crusade_council_clermont_1095",
+  "name": "Pope Urban II's Council of Clermont",
+  "year": 1095,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    45.772,
+    3.087
+  ],
+  "entity": "papal_states",
+  "summary": "At the Council of Clermont in November 1095, Pope Urban II delivered a sermon calling on Western Christians to take up arms to liberate Jerusalem and aid the Byzantine Empire from the Seljuk Turks. The response was immediate: the crowd cried \"Deus lo volt!\" (God wills it), and thousands took the cross. The subsequent People's Crusade (1096) and the First Crusade (1096–1099) were direct results. Urban's speech is considered one of the most consequential in medieval history.",
+  "outcomes": [
+    "First Crusade proclaimed",
+    "Crowd responds \"Deus lo volt!\" (God wills it)",
+    "Knights, clergy, and peasants mobilize",
+    "Peter the Hermit leads the People's Crusade"
+  ],
+  "_quarry": {
+    "participants": [
+      "papal_states",
+      "kingdom_of_france"
+    ],
+    "structural_significance": "Launched the Crusading movement that shaped Mediterranean and Middle Eastern politics for two centuries; demonstrated the papacy's ability to mobilize all of Western Christendom.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Riley-Smith, The First Crusade and the Idea of Crusading",
+      "asbridge_the_2004"
+    ],
+    "confidence": "low"
+  }
+}

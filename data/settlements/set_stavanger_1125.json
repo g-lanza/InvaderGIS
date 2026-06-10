@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_stavanger_1125",
+  "name": "Stavanger",
+  "importance": "city",
+  "start_year": 1125,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q26772333"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    5.7333,
+    58.9701
+  ]
+}

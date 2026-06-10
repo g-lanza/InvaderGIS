@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_valencia_1101",
+  "name": "Siege of Valencia",
+  "year": 1101,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39,
+    -4
+  ],
+  "entity": "almoravid_emirate_iberia",
+  "summary": "Siege of Valencia (1101 CE), at Valencia (part of Almoravid conquest of al-Andalus). Source: Wikidata Q131626390.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "almoravid_emirate_iberia",
+      "kingdom_of_castile"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_the_2004",
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

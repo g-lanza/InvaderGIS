@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "provenzano_salvani",
+  "name": "Provenzano Salvani",
+  "polity": "republic_of_siena",
+  "title": "military_leader",
+  "reign_start": 1269,
+  "reign_end": null,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "republic_of_siena",
+        "role": "military_leader",
+        "start_year": 1269,
+        "end_year": null
+      }
+    ],
+    "key_actions": [],
+    "region": "italy",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

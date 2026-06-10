@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_belvoir_castle_1187_c01",
+  "statement": "Siege of Belvoir Castle (1187 CE), at Belvoir Fortress (part of Crusader battles between 1149 and 1189).",
+  "subject_ids": [
+    "knights_hospitaller_rhodes"
+  ],
+  "period": {
+    "from": 1187,
+    "to": 1187
+  },
+  "derived_from": "wd_siege_of_belvoir_castle_1187",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_hospitallers_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

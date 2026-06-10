@@ -1,0 +1,90 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_kingdom_of_denmark_974_1361",
+  "name": "Kingdom of Denmark — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 974,
+  "year_end": 1361,
+  "waypoints": [
+    {
+      "year": 974,
+      "place": "German–Danish War of 974",
+      "coords": [
+        55.5,
+        9.6667
+      ],
+      "note": "military",
+      "event_id": "wd_german_danish_war_of_974_974"
+    },
+    {
+      "year": 1013,
+      "place": "Danish Conquest of England",
+      "coords": [
+        52,
+        -1
+      ],
+      "note": "conquest",
+      "event_id": "danish_conquest_england_1013"
+    },
+    {
+      "year": 1016,
+      "place": "Battle of Brentford",
+      "coords": [
+        54.25,
+        4.5
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_brentford_1016"
+    },
+    {
+      "year": 1030,
+      "place": "Battle of Stiklestad",
+      "coords": [
+        56,
+        10
+      ],
+      "note": "military",
+      "event_id": "denmark_norway_battle_stiklestad_1030"
+    },
+    {
+      "year": 1169,
+      "place": "Valdemar I Builds Baltic Empire",
+      "coords": [
+        56,
+        10
+      ],
+      "note": "military",
+      "event_id": "denmark_norway_valdemar_empire_1169"
+    },
+    {
+      "year": 1308,
+      "place": "North German Margrave War",
+      "coords": [
+        54.26,
+        11.705
+      ],
+      "note": "military",
+      "event_id": "wd_north_german_margrave_war_1308"
+    },
+    {
+      "year": 1361,
+      "place": "Battle of Visby",
+      "coords": [
+        57.63,
+        18.3
+      ],
+      "note": "battle",
+      "event_id": "battle_visby_1361"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_medieval_1993",
+      "roesdahl_the_1992"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

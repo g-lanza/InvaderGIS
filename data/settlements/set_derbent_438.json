@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_derbent_438",
+  "name": "Derbent",
+  "importance": "city",
+  "start_year": 438,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q131416"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    48.2889,
+    42.0578
+  ]
+}

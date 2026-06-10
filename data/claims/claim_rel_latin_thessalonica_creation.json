@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_latin_thessalonica_creation",
+  "statement": "The Kingdom of Thessalonica was created after the Fourth Crusade's division of Byzantine territory, with Boniface of Montferrat receiving Thessalonica and Macedonia. Boniface had expected to receive Constantinople itself; his disappointment at Baldwin of Flanders's election as Latin Emperor led to immediate tensions. The Kingdom of Thessalonica was the second Latin state in Greece after the Latin Empire of Constantinople, but it was peripheral and militarily exposed. Theodore Komnenos Doukas of Epirus captured it in 1224, ending 20 years of Latin rule.",
+  "subject_ids": [
+    "latin_empire_constantinople",
+    "kingdom_of_thessalonica"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_latin_thessalonica_creation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "kingdom_of_thessalonica"
+  ],
+  "period": {
+    "from": 1205,
+    "to": 1205
+  }
+}

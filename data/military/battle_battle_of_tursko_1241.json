@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_tursko_1241",
+  "name": "Battle of Tursko",
+  "subtype": "battle",
+  "start_year": 1241,
+  "end_year": 1241,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q9173656"
+    }
+  },
+  "description": "Battle during Mongol invasion of Poland (1241)",
+  "coords": [
+    21.3786,
+    50.46
+  ]
+}

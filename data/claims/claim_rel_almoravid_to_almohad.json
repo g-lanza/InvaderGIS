@@ -1,0 +1,30 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_almoravid_to_almohad",
+  "statement": "The Almohad Caliphate (al-Muwahhidun, 'those who affirm divine unity') arose in the Atlas Mountains of Morocco as a Berber religious reform movement under Ibn Tumart (d. 1130) and his successor Abd al-Mu'min. The Almohads overthrew the Almoravid Empire by capturing Marrakesh (1147), then crossed to al-Andalus and absorbed the Almoravid territories in Iberia (1148–1172). The Almohad regime was more rigidly orthodox than the Almoravids, forcibly converting or expelling Jewish and Christian communities in North Africa and Iberia. The defeat at Las Navas de Tolosa (1212) began the Almohad collapse.",
+  "subject_ids": [
+    "almoravid_emirate_iberia",
+    "almohad_caliphate_iberia"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_almoravid_to_almohad",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_the_2004",
+      "kennedy_muslim_1996",
+      "catlos_kingdoms_2018",
+      "o'callaghan_reconquest_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "almohad_caliphate_iberia"
+  ],
+  "period": {
+    "from": 1147,
+    "to": 1147
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_papal_ottonian_alliance",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "papal_states",
+      "role": "principal"
+    },
+    {
+      "entity_id": "holy_roman_empire",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "alliance",
+  "since": 962,
+  "until": 1054,
+  "note": "The Ottonian emperors (Otto I, II, III, Henry II) and the papacy developed a cooperative model in which the emperor protected and reformed the papacy while the pope consecrated the emperor and supported imperial ecclesiastical policy. Otto I deposed corrupt popes (John XII, Leo VIII) and appointed replacements; Pope Sylvester II (Gerbert of Aurillac, elected with Otto III's support) was the most intellectually distinguished pope of the 10th century. The system worked because both sides benefited from cooperation; it broke down under the reforming popes of the mid-11th century who rejected imperial control of papal appointments.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Ottonian-papal alliance creates the cooperative template for Church-Empire relations that the Gregorian Reform deliberately destroys; the alliance's success (10th-century Church reform, Cluniac renewal) makes its breakdown under Gregory VII all the more catastrophic; the model of emperor-as-reformer is replaced by the model of pope-as-independent-sovereign"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989",
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

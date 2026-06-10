@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_university_of_padua_1222_c01",
+  "statement": "A secession of masters and students from Bologna founded the Studium Generale at Padua in 1222, in protest at infringements on Bolognese scholarly privilege.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1222,
+    "to": 1222
+  },
+  "derived_from": "university_of_padua_1222",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "bartlett_making_of_europe_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

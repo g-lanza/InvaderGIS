@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "bede_writes_history_731",
+  "name": "Bede Completes the Ecclesiastical History",
+  "year": 731,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    54.97,
+    -1.46
+  ],
+  "entity": "kingdom_of_northumbria",
+  "summary": "The Venerable Bede of Jarrow completes the Ecclesiastical History of the English People, the foundational text of English history. Bede's careful use of sources and chronological precision establish the conventions of medieval historiography. His adoption of the Anno Domini dating system (BC/AD) eventually becomes universal in Western scholarship.",
+  "outcomes": [
+    "english_national_identity",
+    "latin_historiography",
+    "anno_domini_usage"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_northumbria"
+    ],
+    "structural_significance": "Bede is the father of English history; his use of AD dating spreads across Europe via Carolingian adoption; his synthesis of Roman Christianity and Anglo-Saxon history creates an \"English\" identity predating political unification.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

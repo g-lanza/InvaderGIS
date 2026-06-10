@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_montecatini_1315",
+  "name": "Battle of Montecatini",
+  "year": 1315,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    42.7667,
+    11.9667
+  ],
+  "entity": "republic_of_florence",
+  "summary": "Battle of Montecatini (1315 CE), at Montecatini Terme. Source: Wikidata Q946298.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_florence",
+      "kingdom_of_naples",
+      "republic_of_pisa"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "najemy_a_2006",
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

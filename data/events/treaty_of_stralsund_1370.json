@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "treaty_of_stralsund_1370",
+  "name": "Treaty of Stralsund",
+  "year": 1370,
+  "type": "treaty",
+  "category": "diplomacy",
+  "coords": [
+    54.31,
+    13.09
+  ],
+  "entity": "hanseatic_league",
+  "summary": "Denmark concedes to the Hanseatic League after defeat in the Danish-Hanseatic War (1368–70). The League gains 15% of Danish Sound dues, four Scanian fortresses for 15 years, and veto power over Danish royal elections. The treaty is the Hansa's diplomatic high-water mark.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "hanseatic_league",
+      "kingdom_of_denmark"
+    ],
+    "structural_significance": "Cements the Hanseatic League's commercial monopoly over the Baltic and North Sea for the next century; institutionalises a non-territorial commercial confederation as a Great Power in Northern European diplomacy.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dollinger_the_1970",
+      "hammel-kiesow_die_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_candespina_1110",
+  "name": "Battle of Candespina",
+  "year": 1110,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    42.15,
+    -3.25
+  ],
+  "entity": "kingdom_of_leon",
+  "summary": "Battle of Candespina (1110 CE), at Fresno de Cantespino. Source: Wikidata Q3754937.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_leon",
+      "kingdom_of_aragon"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "siege_of_antioch_1098",
+  "name": "Siege and Capture of Antioch",
+  "year": 1098,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    36.2,
+    36.2
+  ],
+  "entity": "kingdom_of_jerusalem",
+  "summary": "The First Crusade's eight-month siege of Antioch succeeds when a Frankish traitor opens a gate. The crusaders take Antioch but are immediately besieged by a relief army. Inspired by the discovery of the Holy Lance (whether genuine or fraud), the starving crusaders sally out and rout the Muslim forces. The episode reveals crusader psychology: religious ecstasy combined with pragmatic military skill.",
+  "outcomes": [
+    "antioch_falls",
+    "crusader_resolve",
+    "principality_founded"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_jerusalem"
+    ],
+    "structural_significance": "The capture of Antioch demonstrates crusader military resilience; the Holy Lance episode shows how religious psychology drives crusader behavior; the Principality of Antioch becomes the most culturally hybrid crusader state.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

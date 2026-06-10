@@ -1,0 +1,32 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_fatimid_caliphate_to_ayyubid_sultanate_succession",
+  "statement": "Derived from predecessor/successor links recorded in the fatimid_caliphate and ayyubid_sultanate entity records. Transition anchored to ayyubid_sultanate start_year.",
+  "subject_ids": [
+    "fatimid_caliphate",
+    "ayyubid_sultanate"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_fatimid_caliphate_to_ayyubid_sultanate_succession",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "brett_the_2001",
+      "daftary_the_1990",
+      "ims_fordham",
+      "ims_fordham_sbook1d",
+      "humphreys_from_1977",
+      "lyons_saladin_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "ayyubid_sultanate"
+  ],
+  "period": {
+    "from": 1171,
+    "to": 1171
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_ayyubid_mamluk_succession",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "ayyubid_sultanate",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "mamluk_sultanate",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 1250,
+  "until": 1250,
+  "note": "The Mamluk slave-soldiers — the Ayyubid dynasty's own military elite — overthrow and kill Sultan Turanshah immediately after their victory over the Seventh Crusade at Mansura (1250); the Mamluks seize Egypt and gradually eliminate remaining Ayyubid princes from Syria by 1260.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Mamluk coup ending Ayyubid rule replaced a dynastic hereditary system with a meritocratic slave-soldier oligarchy that proved more militarily effective; the Mamluks' subsequent systematic destruction of the Crusader states demonstrated that the structural transition from Ayyubid plurality to Mamluk unity was the decisive factor enabling the complete elimination of the Latin coastal presence."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "humphreys_from_1977",
+      "lyons_saladin_1982",
+      "ims_fordham",
+      "ims_fordham_sbook1d",
+      "irwin_the_1986",
+      "northrup_from_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_beirut_1110",
+  "name": "Siege of Beirut",
+  "year": 1110,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    38.7,
+    17.42
+  ],
+  "entity": "kingdom_of_jerusalem",
+  "summary": "Siege of Beirut (1110 CE), at Beirut (part of Crusader battles between 1101 and 1145). Source: Wikidata Q111291326.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_jerusalem",
+      "fatimid_caliphate",
+      "republic_of_genoa",
+      "county_of_toulouse",
+      "republic_of_pisa"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

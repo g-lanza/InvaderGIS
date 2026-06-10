@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "norman_conquest_sicily_1072",
+  "name": "Norman Conquest of Sicily",
+  "year": 1072,
+  "type": "conquest",
+  "category": "violence",
+  "coords": [
+    38.12,
+    13.37
+  ],
+  "entity": "kingdom_of_sicily_norman",
+  "summary": "Roger I of Hauteville completes the Norman conquest of Sicily begun in 1061, capturing Palermo in January 1072 and becoming Count of Sicily. The island had been under Arab Muslim rule since 827, with a mixed population of Muslims, Greek Christians, and Latin Christians. Rather than expel or massacre the Muslim population, the Normans create a remarkable multicultural kingdom: Arab bureaucrats serve Norman kings, mosaics in Palermo churches show Greek, Arab, and Norman artistic fusion, and the royal court functions in Arabic, Greek, and Latin. The conquest is complete by 1091 with the fall of Noto.",
+  "outcomes": [
+    "palermo_captured",
+    "sicily_christianized",
+    "multicultural_norman_kingdom"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_sicily_norman",
+      "fatimid_caliphate"
+    ],
+    "structural_significance": "Creates the most culturally sophisticated kingdom in 12th-century Europe; Norman Sicily's Arab-Norman-Greek synthesis produces advances in medicine, mathematics, and cartography (al-Idrisi's world map for Roger II, 1154); the later Kingdom of Sicily under the Hohenstaufen becomes a critical bridge between Islamic and Christian learning in Europe",
+    "year_range": [
+      1061,
+      1091
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

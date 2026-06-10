@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "principality_of_wallachia_1456",
+  "name": "Vlad the Impaler Rules Wallachia",
+  "year": 1456,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    42.7,
+    27.5
+  ],
+  "entity": "principality_of_wallachia",
+  "summary": "Vlad III (the Impaler) of Wallachia defied Ottoman overlordship during his second reign (1456–1462), impaling Ottoman envoys and launching raids into Bulgaria. His brutal methods of punishing enemies, though historically documented, became the inspiration for Bram Stoker's Dracula legend.",
+  "outcomes": [
+    "ottoman_tribute_refused",
+    "brutal_methods",
+    "dracula_legend"
+  ],
+  "_quarry": {
+    "participants": [
+      "principality_of_wallachia",
+      "ottoman_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "deletant_romania_1998",
+      "panaitescu_mircea_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

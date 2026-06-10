@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_fall_cpel",
+  "name": "Fall of Constantinople",
+  "subtype": "siege",
+  "start_year": 1453,
+  "end_year": 1453,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "Mehmed II's siege ends the Byzantine Empire",
+  "coords": [
+    28.98,
+    41.008
+  ]
+}

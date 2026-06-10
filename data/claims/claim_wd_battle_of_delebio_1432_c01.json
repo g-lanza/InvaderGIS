@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_delebio_1432_c01",
+  "statement": "Battle of Delebio (1432 CE), at Delebio (part of Wars in Lombardy).",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1432,
+    "to": 1432
+  },
+  "derived_from": "wd_battle_of_delebio_1432",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_william_rubruck_karakorum_1255_c01",
+  "statement": "Franciscan friar William of Rubruck, sent by Louis IX of France from Acre in May 1253, travels via Constantinople, Sudak, and the Volga to the Mongol court at Karakorum (December 1253).",
+  "subject_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 1255,
+    "to": 1255
+  },
+  "derived_from": "william_rubruck_karakorum_1255",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_mongols_2007"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "founding_bologna_university_1088",
+  "name": "Founding of the University of Bologna",
+  "year": 1088,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    44.49,
+    11.34
+  ],
+  "entity": "commune_of_milan",
+  "summary": "The University of Bologna, recognized as the first university in the Western world, begins formal instruction in Roman law around 1088, traditionally under the legal scholar Irnerius. Bologna attracts students from across Europe to study Justinian's Corpus Juris Civilis, recently rediscovered and systematized. The institution's model, students forming a guild (universitas) to hire professors and protect their interests, becomes the pattern for Paris, Oxford, and hundreds of subsequent universities. By 1200, Bologna has over a thousand students from every European country.",
+  "outcomes": [
+    "first_university_established",
+    "roman_law_systematized",
+    "legal_education_institutionalized"
+  ],
+  "_quarry": {
+    "participants": [
+      "commune_of_milan",
+      "holy_roman_empire",
+      "papal_states"
+    ],
+    "structural_significance": "Establishes the institutional model that transforms European intellectual life; the recovery and teaching of Roman law provides secular rulers (and the Church) with a sophisticated legal vocabulary; Bologna's graduates spread legal reasoning, procedural standards, and the concept of corporate legal personhood across Europe; the university as an institution becomes one of the Middle Ages' most enduring contributions to modernity",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

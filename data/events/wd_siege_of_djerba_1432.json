@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_djerba_1432",
+  "name": "Siege of Djerba",
+  "year": 1432,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.25,
+    5.35
+  ],
+  "entity": "crown_of_aragon",
+  "summary": "Siege of Djerba (1432 CE), at Djerba. Source: Wikidata Q17605482.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "crown_of_aragon",
+      "hafsid_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

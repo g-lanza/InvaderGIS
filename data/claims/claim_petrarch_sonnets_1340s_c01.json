@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_petrarch_sonnets_1340s_c01",
+  "statement": "Petrarch's Italian sonnets, the Canzoniere, established the Petrarchan sonnet form.",
+  "subject_ids": [
+    "republic_of_florence"
+  ],
+  "period": {
+    "from": 1341,
+    "to": 1341
+  },
+  "derived_from": "petrarch_sonnets_1340s",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "najemy_a_2006",
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

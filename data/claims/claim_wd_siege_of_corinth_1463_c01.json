@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_corinth_1463_c01",
+  "statement": "Siege of Corinth (1463 CE), at Corinth (part of First Ottoman–Venetian War).",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1463,
+    "to": 1463
+  },
+  "derived_from": "wd_siege_of_corinth_1463",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

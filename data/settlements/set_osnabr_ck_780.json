@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_osnabr_ck_780",
+  "name": "Osnabrück",
+  "importance": "city",
+  "start_year": 780,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2916"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    8.0431,
+    52.2789
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_otep_1217",
+  "name": "Battle of Otepää",
+  "subtype": "battle",
+  "start_year": 1217,
+  "end_year": 1217,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q3739195"
+    }
+  },
+  "description": "Battle during Livonian Crusade (1217)",
+  "coords": [
+    26.5047,
+    58.0575
+  ]
+}

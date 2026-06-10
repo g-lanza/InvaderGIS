@@ -1,0 +1,67 @@
+{
+  "kind": "institution",
+  "dataset": "medieval-europe-500-1500",
+  "id": "catholic_church",
+  "name_primary": "Latin / Catholic Church",
+  "domain": "religious_institution",
+  "formed": 500,
+  "dissolved": 1500,
+  "_quarry": {
+    "key_developments": [
+      {
+        "year": 496,
+        "event": "Conversion of Clovis I; the Frankish-Roman alliance becomes the political backbone of Western Christendom."
+      },
+      {
+        "year": 800,
+        "event": "Charlemagne crowned Holy Roman Emperor by Leo III on Christmas Day — papal coronation legitimises empire."
+      },
+      {
+        "year": 1054,
+        "event": "Mutual excommunications between Rome and Constantinople formalise the Great Schism."
+      },
+      {
+        "year": 1075,
+        "event": "Investiture Controversy begins under Gregory VII — papal claim to temporal supremacy over emperors."
+      },
+      {
+        "year": 1095,
+        "event": "Council of Clermont; Urban II launches the First Crusade."
+      },
+      {
+        "year": 1215,
+        "event": "Fourth Lateran Council — defines transubstantiation, mandates annual confession."
+      },
+      {
+        "year": 1378,
+        "event": "Western Schism — competing popes in Rome and Avignon."
+      },
+      {
+        "year": 1417,
+        "event": "Council of Constance ends the schism, deposes John XXIII, elects Martin V."
+      }
+    ],
+    "influences_entities": [
+      "papal_states",
+      "holy_roman_empire",
+      "kingdom_of_france",
+      "kingdom_of_england",
+      "kingdom_of_castile",
+      "kingdom_of_portugal",
+      "duchy_of_burgundy",
+      "republic_of_venice",
+      "kingdom_of_sicily_norman",
+      "kingdom_of_poland_piast",
+      "kingdom_of_hungary"
+    ],
+    "description": "The institutional heir of the Roman Church in the Western Mediterranean, the Latin Church evolved from one of the five ancient patriarchates into the sole religious authority of post-Roman Europe. Through the medieval period it consolidated doctrinal control (Nicene Creed, papal supremacy), built a trans-imperial bureaucracy (papal curia, canon law, dioceses), and shaped political legitimacy by crowning emperors and deposing kings. The 1054 Great Schism formally severed it from the Eastern Orthodox Church; the 1095 Crusades projected it into the Levant; and the 1378 Western Schism nearly destroyed it before the Council of Constance (1414–1418) restored unity. By 1500 the Church was simultaneously the largest landowner in Europe, the principal patron of art and scholarship, and the institution that defined what it meant to be European."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_inheritance_of_rome_2009",
+      "morris_papal_monarchy_1989"
+    ],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_so_called_villa_selene_500",
+  "name": "So-called Villa Selene",
+  "importance": "city",
+  "start_year": 500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "inferred",
+    "external_ids": {
+      "pleiades": "963101209"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    14.1781,
+    32.7096
+  ]
+}

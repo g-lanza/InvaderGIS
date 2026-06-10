@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_seljuk_conquest_1055_c01",
+  "statement": "In 1055, the Seljuk Turkish leader Tughril Beg entered Baghdad and received the title of Sultan from the Abbasid Caliph, ending Buyid Shia domination of the caliphate.",
+  "subject_ids": [
+    "abbasid_caliphate"
+  ],
+  "period": {
+    "from": 1055,
+    "to": 1055
+  },
+  "derived_from": "seljuk_conquest_1055",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_the_2004",
+      "kennedy_when_2004",
+      "crone_gods_2004",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

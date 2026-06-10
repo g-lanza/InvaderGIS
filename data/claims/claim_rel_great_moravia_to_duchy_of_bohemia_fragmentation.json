@@ -1,0 +1,30 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_great_moravia_to_duchy_of_bohemia_fragmentation",
+  "statement": "Derived from predecessor/successor links recorded in the great_moravia and duchy_of_bohemia entity records. Transition anchored to duchy_of_bohemia start_year.",
+  "subject_ids": [
+    "great_moravia",
+    "duchy_of_bohemia"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_great_moravia_to_duchy_of_bohemia_fragmentation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "havlík_kronika_1992",
+      "bowlus_franks_1995",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "duchy_of_bohemia"
+  ],
+  "period": {
+    "from": 870,
+    "to": 870
+  }
+}

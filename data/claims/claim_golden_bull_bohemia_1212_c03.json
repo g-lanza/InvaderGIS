@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_golden_bull_bohemia_1212_c03",
+  "statement": "The Golden Bull of Sicily formalized Bohemia's special status within the Empire and is regarded as the Bohemian Magna Carta.",
+  "subject_ids": [
+    "kingdom_of_bohemia"
+  ],
+  "period": {
+    "from": 1212,
+    "to": 1212
+  },
+  "derived_from": "golden_bull_bohemia_1212",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

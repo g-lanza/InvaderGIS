@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_latin_morea_creation",
+  "statement": "The Principality of Achaea (the Morea, comprising the Peloponnese) was the most successful and most stable of the Crusader states created after the Fourth Crusade (1204). Geoffrey I of Villehardouin and his successors built a functioning feudal state on Byzantine foundations, maintaining Byzantine administrative structures while imposing French feudal customs on top. The Assizes of Romania (the law code of the Latin states in Greece) was developed in Achaea. At its height, Achaea was the model 'Western' state in the Mediterranean, admired even by Byzantine observers for its efficient governance.",
+  "subject_ids": [
+    "latin_empire_constantinople",
+    "principality_of_achaea"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_latin_morea_creation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "principality_of_achaea"
+  ],
+  "period": {
+    "from": 1205,
+    "to": 1205
+  }
+}

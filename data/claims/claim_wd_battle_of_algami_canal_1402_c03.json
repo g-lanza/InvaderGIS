@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_algami_canal_1402_c03",
+  "statement": "The Battle of Algami Canal (1402 CE) was part of the Timurid conquests and invasions.",
+  "subject_ids": [
+    "timurid_empire"
+  ],
+  "period": {
+    "from": 1402,
+    "to": 1402
+  },
+  "derived_from": "wd_battle_of_algami_canal_1402",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "manz_the_1989",
+      "lentz_timur_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

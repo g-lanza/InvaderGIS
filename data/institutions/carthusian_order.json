@@ -1,0 +1,35 @@
+{
+  "kind": "institution",
+  "dataset": "medieval-europe-500-1500",
+  "id": "carthusian_order",
+  "name_primary": "Carthusian Order",
+  "domain": "monastic_movement",
+  "formed": 1084,
+  "dissolved": 1500,
+  "_quarry": {
+    "key_developments": [
+      {
+        "year": 1084,
+        "event": "Bruno of Cologne founds the Grande Chartreuse."
+      },
+      {
+        "year": 1133,
+        "event": "First lay-brother establishments approved."
+      },
+      {
+        "year": 1170,
+        "event": "Customs codified by Prior Guigo as the Consuetudines Cartusiae."
+      }
+    ],
+    "influences_entities": [
+      "kingdom_of_france",
+      "holy_roman_empire"
+    ],
+    "description": "An eremitic order founded by Bruno of Cologne in 1084 at the Grande Chartreuse in the French Alps. Each monk lives in a private cell within a shared monastery — a hybrid of hermit and communal life. The Carthusians never underwent the reform-decay cycle of other orders (their motto: Nunquam reformata quia nunquam deformata — 'never reformed because never deformed') and remained small and rigorous through the period."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

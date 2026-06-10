@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_golden_horde_sarai_1255_c03",
+  "statement": "The Golden Horde converted to Islam under Berke Khan, who ruled from 1257 to 1267.",
+  "subject_ids": [
+    "golden_horde"
+  ],
+  "period": {
+    "from": 1255,
+    "to": 1255
+  },
+  "derived_from": "golden_horde_sarai_1255",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "allsen_mongol_1987"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

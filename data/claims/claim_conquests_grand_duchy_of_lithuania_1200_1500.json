@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_grand_duchy_of_lithuania_1200_1500",
+  "statement": "Grand Duchy of Lithuania — campaigns and battles spanned 1200–1500, from Prussian Crusade to Muscovite-Lithuanian War of 1500-1503.",
+  "subject_ids": [
+    "grand_duchy_of_lithuania"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_grand_duchy_of_lithuania_1200_1500",
+  "period": {
+    "from": 1200,
+    "to": 1500
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "rowell_lithuania_1994",
+      "christiansen_the_1997"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

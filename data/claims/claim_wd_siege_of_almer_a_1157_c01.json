@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_almer_a_1157_c01",
+  "statement": "Siege of Almería (1157 CE), at Almería (part of Reconquista).",
+  "subject_ids": [
+    "republic_of_genoa"
+  ],
+  "period": {
+    "from": 1157,
+    "to": 1157
+  },
+  "derived_from": "wd_siege_of_almer_a_1157",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

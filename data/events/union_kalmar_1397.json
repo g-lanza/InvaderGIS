@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "union_kalmar_1397",
+  "name": "Union of Kalmar",
+  "year": 1397,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    56.66,
+    16.36
+  ],
+  "entity": "kalmar_union",
+  "summary": "Queen Margaret I of Denmark architects the personal union of Denmark, Sweden, and Norway at Kalmar in June 1397, with her great-nephew Eric of Pomerania crowned king of all three. The union is proposed as a response to the growing power of the Hanseatic League and the Holstein nobility. Margaret, though never formally queen, exercises effective governance. The Kalmar Union represents the largest territorial entity in northern Europe, controlling the Baltic sea lanes and the Sound tolls.",
+  "outcomes": [
+    "three_nordic_kingdoms_united",
+    "eric_of_pomerania_crowned",
+    "margaret_i_dominates_union"
+  ],
+  "_quarry": {
+    "participants": [
+      "kalmar_union",
+      "kingdom_of_denmark",
+      "kingdom_of_sweden",
+      "kingdom_of_norway"
+    ],
+    "structural_significance": "Creates the Kalmar Union lasting until 1523, when Sweden under Gustav Vasa breaks away; controls Baltic trade routes critical to the Hanseatic League; establishes Scandinavian political unity that remains influential even after formal dissolution; Margaret I is one of the most powerful female rulers of medieval Europe",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

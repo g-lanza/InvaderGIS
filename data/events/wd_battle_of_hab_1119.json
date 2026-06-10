@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_hab_1119",
+  "name": "Battle of Hab",
+  "year": 1119,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    34.1333,
+    35.7333
+  ],
+  "entity": "kingdom_of_jerusalem",
+  "summary": "Battle of Hab (1119 CE), at Berjhab (part of Crusader battles between 1101 and 1145). Source: Wikidata Q2607475.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_jerusalem",
+      "principality_of_antioch",
+      "county_of_tripoli"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

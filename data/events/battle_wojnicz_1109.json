@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_wojnicz_1109",
+  "name": "Battle of Wysokie",
+  "year": 1109,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    51.2,
+    16.16
+  ],
+  "entity": "kingdom_of_poland_piast",
+  "summary": "At the Battle of Hundsfeld (Psie Pole, 'Dog's Field') near Wrocław (August 24, 1109), Duke Bolesław III Wrymouth of Poland defeats Holy Roman Emperor Henry V's invasion force, which was advancing to support Bolesław's exiled brother Zbigniew. The Polish victory, aided by a devastating ambush in the Silesian marshes, forces Henry V to withdraw. The battle, the most famous Polish medieval military victory before Grunwald, establishes Bolesław III's rule and preserves Polish independence from imperial incorporation. The Polish chronicle of Gallus Anonymus celebrates it as a foundational national victory.",
+  "outcomes": [
+    "piast_retook_gniezno"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_poland_piast"
+    ],
+    "structural_significance": "Secures Polish independence from Holy Roman Empire absorption; establishes Bolesław III's dynastic authority; the victory over the empire demonstrates that peripheral kingdoms could resist Staufen expansion; becomes a foundational event in Polish historical memory",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "davies_gods_1981",
+      "knoll_the_1972"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_horde_to_crimea",
+  "statement": "The Crimean Khanate broke from the fragmented Golden Horde under Hacı I Giray (1441–1466), who established an independent Chinggisid dynasty controlling the Crimean Peninsula and the adjacent steppe. The Crimean Khanate quickly came under Ottoman suzerainty (1475–1478) after Mehmed II's Black Sea campaign captured the Genoese colonies. Under Ottoman protection, the Crimean Tatars became the most persistent raiding force against Poland-Lithuania and Muscovy, conducting slave raids that depopulated the Ukrainian steppe and provided the Ottoman Empire with enslaved workers. The Khanate persisted until Russian conquest (1783).",
+  "subject_ids": [
+    "golden_horde",
+    "khanate_of_crimea"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_horde_to_crimea",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "allsen_mongol_1987",
+      "fisher_the_1978",
+      "davies_warfare_2007"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "khanate_of_crimea"
+  ],
+  "period": {
+    "from": 1441,
+    "to": 1441
+  }
+}

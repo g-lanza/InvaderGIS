@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_verchen_1164",
+  "name": "Battle of Verchen",
+  "year": 1164,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    52,
+    11
+  ],
+  "entity": "duchy_of_saxony",
+  "summary": "Battle of Verchen (1164 CE), at Verchen. Source: Wikidata Q1649708.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "duchy_of_saxony"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

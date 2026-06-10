@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_s_quiricus_mon_500",
+  "name": "S. Quiricus, Mon.",
+  "importance": "city",
+  "start_year": 500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "inferred",
+    "external_ids": {
+      "pleiades": "138530"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    3.1429,
+    45.5511
+  ]
+}

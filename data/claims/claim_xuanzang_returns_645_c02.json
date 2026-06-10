@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_xuanzang_returns_645_c02",
+  "statement": "Tang Taizong establishes a translation bureau at the Da Cien temple; over the next two decades Xuanzang and his team translate 76 sutras (~1,300 fascicles) into Chinese.",
+  "subject_ids": [
+    "tang_dynasty"
+  ],
+  "period": {
+    "from": 645,
+    "to": 645
+  },
+  "derived_from": "xuanzang_returns_645",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "twitchett_cambridge_history_china_v3_1979"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

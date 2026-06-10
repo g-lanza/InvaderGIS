@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_derbent_722_c01",
+  "statement": "Battle of Derbent (722 CE), at Derbent (part of Arab–Khazar Wars).",
+  "subject_ids": [
+    "khazar_khaganate"
+  ],
+  "period": {
+    "from": 722,
+    "to": 722
+  },
+  "derived_from": "wd_battle_of_derbent_722",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "golden_khazar_1980",
+      "brook_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

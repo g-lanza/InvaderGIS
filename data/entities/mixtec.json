@@ -1,0 +1,49 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "mixtec",
+  "name_primary": "Mixtec polities",
+  "name_variants": [
+    "Ñuu Dzaui",
+    "Mixteca"
+  ],
+  "type": "city_state_federation",
+  "region": "mesoamerica",
+  "formed": 950,
+  "dissolved": 1500,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    16.92,
+    -97.34
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Network of Mixtec-speaking city-states and small kingdoms (señoríos) across the Mixteca region of present-day Oaxaca, ascendant after the contraction of Monte Albán and famous for codex-based historical record-keeping, fine metalwork, and the legendary career of the eleventh-century warlord Eight Deer Jaguar Claw. Several Mixtec polities fell tributary to the Mexica in the late fifteenth century without losing internal political organisation.",
+  "temporal": {
+    "start_year": 950,
+    "end_year": 1500,
+    "end_year_within_scope": 1500,
+    "notes": "Postclassic Mixtec city-states and small kingdoms across the Mixteca region; some annexed by the Mexica in the late fifteenth century but retained local political identity to Spanish contact."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      16.92,
+      -97.34
+    ],
+    "core_regions": [
+      "mixteca_alta",
+      "mixteca_baja",
+      "mixteca_costa"
+    ],
+    "notes": "Centroid set in the Mixteca Alta highlands; political authority was distributed across many small señoríos rather than concentrated at a single capital."
+  },
+  "predecessor_entity_ids": [
+    "zapotec_monte_alban"
+  ],
+  "monogram": "MP"
+}

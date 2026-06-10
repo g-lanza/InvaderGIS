@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_foundation_venice_976_c01",
+  "statement": "A popular uprising in Venice in 976 burned the ducal palace and killed Doge Pietro IV Candiano and his family.",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 976,
+    "to": 976
+  },
+  "derived_from": "foundation_venice_976",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

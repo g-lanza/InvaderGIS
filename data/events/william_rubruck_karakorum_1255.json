@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "william_rubruck_karakorum_1255",
+  "name": "William of Rubruck reaches Karakorum",
+  "year": 1255,
+  "type": "exploration",
+  "category": "discovery",
+  "coords": [
+    47.22,
+    102.8453
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Franciscan friar William of Rubruck, sent by Louis IX of France from Acre in May 1253, travels via Constantinople, Sudak, and the Volga to the Mongol court at Karakorum (December 1253). At the court of Möngke Khan he participates in the famous May 1254 inter-religious debate with Nestorian Christians, Muslims, and Buddhists.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "mongol_empire"
+    ],
+    "structural_significance": "Most analytically penetrating European medieval ethnography of the Mongols. Rubruck's Itinerarium, addressed directly to Louis IX, records the multi-confessional intellectual life of the Mongol court and includes the first European-language description of Chinese writing, the use of paper money, and the Nestorian Christian presence in Inner Asia.",
+    "year_range": [
+      1253,
+      1255
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_mongols_2007"
+    ],
+    "confidence": "low"
+  }
+}

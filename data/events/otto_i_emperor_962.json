@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "otto_i_emperor_962",
+  "name": "Otto I Crowned Holy Roman Emperor",
+  "year": 962,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.9,
+    12.45
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Pope John XII crowns Otto I of Germany as Holy Roman Emperor in Rome, reviving the Carolingian imperial title and creating the institutional basis of the Holy Roman Empire. Otto has recently defeated the Magyars at the Battle of Lechfeld (955), saving Central Europe from devastation. His coronation inaugurates the \"Ottonian Renaissance\" in German learning and church-building.",
+  "outcomes": [
+    "holy_roman_empire_founded",
+    "german_italian_connection",
+    "ottonian_dynasty"
+  ],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "magyars"
+    ],
+    "structural_significance": "Creates the Holy Roman Empire that shapes European politics until 1806; the intimate connection between German kingship and Italian papal politics creates centuries of conflict; the Ottonian dynasty's cultivation of episcopal administration creates a powerful German church.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

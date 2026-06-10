@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_t_rshavn_901",
+  "name": "Tórshavn",
+  "importance": "city",
+  "start_year": 901,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q10704"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    -6.7713,
+    62.0098
+  ]
+}

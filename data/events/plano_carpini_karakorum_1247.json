@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "plano_carpini_karakorum_1247",
+  "name": "John of Plano Carpini's embassy to Karakorum",
+  "year": 1247,
+  "type": "exploration",
+  "category": "discovery",
+  "coords": [
+    47.22,
+    102.8453
+  ],
+  "entity": "papal_states",
+  "summary": "Franciscan friar Giovanni da Pian del Carpine, sent by Innocent IV after the Council of Lyon (1245), reaches the Mongol heartland in time to attend the enthronement of Güyük Khan at Karakorum (August 1246). Returns via Russia and Kiev in 1247, delivering Güyük's uncompromising response to the papal embassy.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "papal_states",
+      "mongol_empire"
+    ],
+    "structural_significance": "First documented Latin Christian embassy to reach the Mongol heartland; the Ystoria Mongalorum produced on his return is the first systematic European-language ethnography of the Mongols, used by later 13th-century missionaries and merchants.",
+    "year_range": [
+      1245,
+      1247
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_mongols_2007"
+    ],
+    "confidence": "low"
+  }
+}

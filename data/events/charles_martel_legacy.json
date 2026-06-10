@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "charles_martel_legacy",
+  "name": "Charles Martel, Hammer of the Franks",
+  "year": 737,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    48.35,
+    6.17
+  ],
+  "entity": "merovingian_kingdom",
+  "summary": "Charles Martel serves as Mayor of the Palace (effectively ruling Frankland without the Merovingian king) from 714 to 741. He defeats the Muslim invaders at Tours (732), suppresses internal revolts, conquers Frisia and Bavaria, and distributes church lands to his military followers, creating a class of armed horsemen (precursors to knights) bound to him by personal loyalty.",
+  "outcomes": [
+    "frankish_unity_restored",
+    "battle_tours_consequence",
+    "carolingian_rise_enabled"
+  ],
+  "_quarry": {
+    "participants": [
+      "merovingian_kingdom",
+      "carolingian_empire"
+    ],
+    "structural_significance": "Charles Martel's confiscation of church lands to fund cavalry is foundational for Carolingian military power; the mounted warrior class he creates becomes the feudal noble order; the Tours victory makes him the hero of Christian Europe; his refusal to take the royal title (leaving it to the puppet Merovingians) models the restraint his son Pepin abandons when he deposes the last Merovingian (751)",
+    "year_range": [
+      714,
+      741
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wood_the_1994",
+      "geary_before_1988"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_kingdom_of_bosnia_1463_c01",
+  "statement": "The Ottoman conquest of Bosnia in 1463 was swift and decisive, and the last Bosnian king Stjepan Tomašević was captured and executed.",
+  "subject_ids": [
+    "kingdom_of_bosnia"
+  ],
+  "period": {
+    "from": 1463,
+    "to": 1463
+  },
+  "derived_from": "kingdom_of_bosnia_1463",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fine_the_1987",
+      "imamović_historija_1997"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

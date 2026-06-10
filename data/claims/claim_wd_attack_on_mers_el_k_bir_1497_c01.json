@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_attack_on_mers_el_k_bir_1497_c01",
+  "statement": "An attack on Mers el-Kébir occurred in 1497 CE.",
+  "subject_ids": [
+    "crown_of_castile"
+  ],
+  "period": {
+    "from": 1497,
+    "to": 1497
+  },
+  "derived_from": "wd_attack_on_mers_el_k_bir_1497",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "o'callaghan_a_1975",
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

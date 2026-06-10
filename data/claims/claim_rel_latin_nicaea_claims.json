@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_latin_nicaea_claims",
+  "statement": "The Latin Empire of Constantinople (1204–1261) maintained formal sovereignty over a vast Latin feudal empire in Greece and Anatolia, but the Empire of Nicaea — the primary Byzantine successor state — contested this claim through continuous military pressure and diplomatic competition. The Nicaean emperors (Theodore I Laskaris, John III Vatatzes, Theodore II Laskaris) systematically reconquered Byzantine territories from the Latin Empire, leaving Constantinople as an isolated city by the 1250s. The Latin emperors appealed constantly for Western aid that never materialized in sufficient force, and John de Brienne's desperate defense ultimately gave way when Michael VIII Palaiologos retook Constantinople (1261).",
+  "subject_ids": [
+    "latin_empire_constantinople",
+    "empire_of_nicaea"
+  ],
+  "predicate": "contested_influence",
+  "derived_from": "rel_latin_nicaea_claims",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1204,
+    "to": 1261
+  }
+}

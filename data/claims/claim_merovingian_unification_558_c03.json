@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_merovingian_unification_558_c03",
+  "statement": "Chlothar I's death in 561 led to the partition of the Frankish realm among his four sons, inaugurating civil wars between Austrasia, Neustria, and Burgundy.",
+  "subject_ids": [
+    "merovingian_kingdom"
+  ],
+  "period": {
+    "from": 558,
+    "to": 558
+  },
+  "derived_from": "merovingian_unification_558",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wood_the_1994",
+      "geary_before_1988"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "principality_of_antioch",
+  "name": "Antioch",
+  "entity_id": "principality_of_antioch",
+  "entity_name": "Principality of Antioch",
+  "start_year": 1098,
+  "end_year": 1268,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q235030"
+    }
+  },
+  "coords": [
+    36.15,
+    36.2
+  ]
+}

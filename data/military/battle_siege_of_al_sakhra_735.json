@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_siege_of_al_sakhra_735",
+  "name": "Siege of Al-Sakhra",
+  "subtype": "battle",
+  "start_year": 735,
+  "end_year": 735,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q18006531"
+    }
+  },
+  "description": "Battle during Reconquista (735)",
+  "coords": [
+    -5.0556,
+    43.3089
+  ]
+}

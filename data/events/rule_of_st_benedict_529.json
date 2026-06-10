@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rule_of_st_benedict_529",
+  "name": "Rule of Saint Benedict",
+  "year": 529,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    41.5,
+    13.8
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Benedict of Nursia founds Monte Cassino monastery and writes the Rule of Saint Benedict, a detailed code regulating monastic life through prayer (ora), work (labora), and study. The Rule becomes the dominant framework for western monasticism, organizing hundreds of monasteries that preserve classical learning, clear forests, and drain swamps across early medieval Europe.",
+  "outcomes": [
+    "benedictine_monasticism",
+    "ora_et_labora",
+    "monastic_network"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire"
+    ],
+    "structural_significance": "Benedictine monasteries become the primary educational and agricultural development institutions of early medieval Europe; they preserve classical manuscripts through the Dark Ages and pioneer agricultural techniques across northern Europe.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

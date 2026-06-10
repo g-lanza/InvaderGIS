@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "chagatai_khanate_peak_1260",
+  "name": "Chagatai Khanate, Central Asian Mongol Power",
+  "year": 1260,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    39.65,
+    66.94
+  ],
+  "entity": "chagatai_khanate",
+  "summary": "The Chagatai Khanate, named after Genghis Khan's second son, governs Central Asia's heartland including the Silk Road cities of Samarkand, Bukhara, and Khotan. Unlike the Ilkhanate (which converts to Islam early) and the Golden Horde (Berke Khan converts 1257), the Chagatai khans are slow to convert, maintaining a pluralistic policy that supports Buddhist, Muslim, and shamanist subjects. The khanate eventually converts to Islam under Kebek Khan (1318).",
+  "outcomes": [
+    "silk_road_controlled",
+    "islam_gradually_adopted",
+    "transoxiana_administered"
+  ],
+  "_quarry": {
+    "participants": [
+      "chagatai_khanate"
+    ],
+    "structural_significance": "The Chagatai Khanate's control of Transoxiana and the Silk Road ensures that Chinese goods continue moving west after the conquests; its gradual Islamic conversion demonstrates that Mongol rulers who wanted administrative cooperation from their sedentary Muslim subjects adopted Islam; the Timurid dynasty that eventually dominates the region (Timur is from the Chagatai realm) inherits this sophisticated urban Islamic culture",
+    "year_range": [
+      1227,
+      1347
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "biran_chinggis_2007",
+      "manz_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

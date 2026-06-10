@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_donation_of_pepin_756_c01",
+  "statement": "Following his victory over the Lombard king Aistulf, the Frankish king Pepin the Short conveyed the formerly Byzantine Exarchate of Ravenna and adjacent territories to Pope Stephen II in 756.",
+  "subject_ids": [
+    "carolingian_empire"
+  ],
+  "period": {
+    "from": 756,
+    "to": 756
+  },
+  "derived_from": "donation_of_pepin_756",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morris_papal_monarchy_1989",
+      "robinson_papacy_1990"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

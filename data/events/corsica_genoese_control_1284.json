@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "corsica_genoese_control_1284",
+  "name": "Battle of Meloria, Genoa Secures Corsica",
+  "year": 1284,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    42.209,
+    8.987
+  ],
+  "entity": "corsica",
+  "summary": "The Battle of Meloria saw the Genoese fleet decisively defeat Pisa, ending Pisan influence in the western Mediterranean. Genoa assumed effective control of Corsica, which it would hold until 1768.",
+  "outcomes": [
+    "pisa_defeated",
+    "genoa_corsica",
+    "pisa_mediterranean_power_broken"
+  ],
+  "_quarry": {
+    "participants": [
+      "corsica"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

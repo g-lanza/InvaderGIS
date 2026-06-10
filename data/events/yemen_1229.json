@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "yemen_1229",
+  "name": "Rasulid Sultanate Controls Yemen",
+  "year": 1229,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    14.041,
+    45.147
+  ],
+  "entity": "yemen",
+  "summary": "The Rasulid dynasty seized control of Yemen from the Ayyubids in 1229, establishing a sultanate that would last over two centuries. The Rasulids controlled the strategic Red Sea and Indian Ocean trade routes, making Yemen one of the wealthiest regions in the Islamic world and sponsoring remarkable agricultural and architectural achievements.",
+  "outcomes": [
+    "ayyubid_successor",
+    "rasulid_golden_age",
+    "indian_ocean_trade"
+  ],
+  "_quarry": {
+    "participants": [
+      "yemen"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

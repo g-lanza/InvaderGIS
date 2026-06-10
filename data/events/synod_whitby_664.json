@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "synod_whitby_664",
+  "name": "Synod of Whitby",
+  "year": 664,
+  "type": "religious_council",
+  "category": "religion",
+  "coords": [
+    54.49,
+    -0.62
+  ],
+  "entity": "kingdom_of_northumbria",
+  "summary": "King Oswiu of Northumbria convenes a synod at Whitby Abbey (664) to resolve a fundamental conflict in English Christianity: the Celtic Church (Irish-Northumbrian tradition) and the Roman Church used different methods to calculate the date of Easter, creating liturgical chaos in courts with mixed clergy. Oswiu decides in favor of the Roman tradition, following Pope Peter over the Celtic tradition of St. Columba. The decision integrates England into the universal Roman Church and marginalizes the Celtic monastic tradition.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_northumbria"
+    ],
+    "structural_significance": "Integrates English Christianity with the Roman universal Church; marginalizes the Celtic tradition; enables the Northumbrian renaissance that transmits classical learning to the Carolingian world",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

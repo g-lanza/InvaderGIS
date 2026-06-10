@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_constantinople_717",
+  "name": "Siege of Constantinople",
+  "year": 717,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.325,
+    29.8647
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Siege of Constantinople (717 CE), at Constantinople (part of Arab–Byzantine Wars). Source: Wikidata Q27900.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "bulgar_khanate",
+      "umayyad_caliphate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

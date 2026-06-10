@@ -1,0 +1,29 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_kievan_to_vladimir",
+  "statement": "Vladimir-Suzdal emerged as the dominant northeastern Russian principality under Andrei Bogolyubsky (1157–1174), who moved the grand princely seat from Kiev to Vladimir and sacked Kiev itself (1169) — a shocking desacralization of the traditional center. The transfer of power from Kiev to Vladimir reflects the demographic shift of Russian population northward (away from the steppe frontier) that had been underway since the 11th century. Vladimir became the ecclesiastical and political center of Russia until the rise of Moscow in the 14th century.",
+  "subject_ids": [
+    "kievan_rus",
+    "principality_of_vladimir_suzdal"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_kievan_to_vladimir",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "franklin_the_1996",
+      "riasanovsky_a_2000",
+      "martin_medieval_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "principality_of_vladimir_suzdal"
+  ],
+  "period": {
+    "from": 1157,
+    "to": 1157
+  }
+}

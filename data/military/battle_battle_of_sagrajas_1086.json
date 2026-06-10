@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_sagrajas_1086",
+  "name": "Battle of Sagrajas",
+  "subtype": "battle",
+  "start_year": 1086,
+  "end_year": 1086,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q392538"
+    }
+  },
+  "description": "Battle during Almoravid conquest of al-Andalus (1086)",
+  "coords": [
+    -6.9014,
+    38.9231
+  ]
+}

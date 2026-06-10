@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_siege_of_barbastro_1065",
+  "name": "Siege of Barbastro",
+  "subtype": "battle",
+  "start_year": 1065,
+  "end_year": 1065,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q11949521"
+    }
+  },
+  "description": "Battle during Reconquista (1065)",
+  "coords": [
+    -0.1167,
+    42.0333
+  ]
+}

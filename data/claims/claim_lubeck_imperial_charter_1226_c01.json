@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_lubeck_imperial_charter_1226_c01",
+  "statement": "Emperor Frederick II granted Lübeck the status of Free Imperial City in 1226, confirming its autonomy from territorial princes.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1226,
+    "to": 1226
+  },
+  "derived_from": "lubeck_imperial_charter_1226",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "abu_lughod_before_european_hegemony_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

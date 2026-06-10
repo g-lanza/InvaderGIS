@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_north_sea_empire_1013_1028",
+  "statement": "North Sea Empire — campaigns and battles spanned 1013–1028, from Danish Conquest of England to Cnut's invasion of Norway.",
+  "subject_ids": [
+    "north_sea_empire"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_north_sea_empire_1013_1028",
+  "period": {
+    "from": 1013,
+    "to": 1028
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

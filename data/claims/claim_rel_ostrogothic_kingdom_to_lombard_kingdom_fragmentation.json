@@ -1,0 +1,30 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_ostrogothic_kingdom_to_lombard_kingdom_fragmentation",
+  "statement": "Derived from predecessor/successor links recorded in the ostrogothic_kingdom and lombard_kingdom entity records. Transition anchored to lombard_kingdom start_year.",
+  "subject_ids": [
+    "ostrogothic_kingdom",
+    "lombard_kingdom"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_ostrogothic_kingdom_to_lombard_kingdom_fragmentation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "amory_people_1997",
+      "heather_the_1996",
+      "deacon_history_1907",
+      "christie_the_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "lombard_kingdom"
+  ],
+  "period": {
+    "from": 568,
+    "to": 568
+  }
+}

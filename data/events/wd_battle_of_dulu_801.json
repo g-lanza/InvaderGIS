@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_dulu_801",
+  "name": "Battle of Dulu",
+  "year": 801,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    29.4247,
+    79.7287
+  ],
+  "entity": "abbasid_caliphate",
+  "summary": "Battle of Dulu (801 CE), at Wei Zhou. Source: Wikidata Q1264833.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "abbasid_caliphate",
+      "nan_chao",
+      "tibet"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_the_2004",
+      "kennedy_when_2004",
+      "crone_gods_2004",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

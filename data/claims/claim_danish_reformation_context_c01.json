@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_danish_reformation_context_c01",
+  "statement": "King Christian II of Denmark executed around 90 Swedish aristocrats and clergy in the Stockholm Bloodbath of November 1520.",
+  "subject_ids": [
+    "kingdom_of_denmark"
+  ],
+  "period": {
+    "from": 1520,
+    "to": 1520
+  },
+  "derived_from": "danish_reformation_context",
+  "unresolved_sources": [
+    "roesdahl_the_1992"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_medieval_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

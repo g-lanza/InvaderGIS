@@ -1,0 +1,31 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_anjou_to_france",
+  "statement": "The County of Anjou — the ancestral domain of the Plantagenet/Angevin dynasty — was conquered by Philip II Augustus of France in 1204 simultaneously with Normandy. John of England's military failures (inability to relieve Château Gaillard, failure at Bouvines in 1214 against a Poitevin rebellion backed by Philip) confirmed French control. Anjou's absorption with its associated counties (Maine, Touraine) gave France the Loire Valley heartland. A restored Angevin dynasty (the House of Valois-Anjou) received Anjou as an appanage in 1360, but it reverted to the crown on René I's death (1480).",
+  "subject_ids": [
+    "county_of_anjou",
+    "kingdom_of_france"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_anjou_to_france",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 1204,
+    "to": 1204
+  }
+}

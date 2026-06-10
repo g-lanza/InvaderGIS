@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_mongol_invasion_of_circassia_1237_c01",
+  "statement": "Mongol invasion of Circassia (1237 CE), at Circassia (part of Mongol invasions and conquests).",
+  "subject_ids": [
+    "mongol_empire"
+  ],
+  "period": {
+    "from": 1237,
+    "to": 1237
+  },
+  "derived_from": "wd_mongol_invasion_of_circassia_1237",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

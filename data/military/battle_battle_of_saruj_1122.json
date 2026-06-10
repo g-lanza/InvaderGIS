@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_saruj_1122",
+  "name": "Battle of Saruj",
+  "subtype": "battle",
+  "start_year": 1122,
+  "end_year": 1122,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q135903027"
+    }
+  },
+  "description": "Battle during Crusader battles between 1101 and 1145 (1122)",
+  "coords": [
+    38.4244,
+    36.975
+  ]
+}

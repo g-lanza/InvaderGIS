@@ -1,0 +1,33 @@
+{
+  "kind": "technology",
+  "dataset": "medieval-europe-500-1500",
+  "id": "stirrup",
+  "name_primary": "Stirrup",
+  "domain": "military",
+  "origin": {
+    "place": "central_asia",
+    "year": 600
+  },
+  "diffusion": [
+    "byzantine_empire",
+    "frankish_kingdom",
+    "carolingian_empire",
+    "tang_dynasty"
+  ],
+  "_quarry": {
+    "polities_adopted": [
+      "byzantine_empire",
+      "frankish_kingdom",
+      "carolingian_empire",
+      "tang_dynasty"
+    ],
+    "description": "Foot loop attached to a saddle that gave a mounted rider stability for shock combat — the lance could be couched and driven home without the rider being unseated. Spread westward from Inner Asia in the sixth and seventh centuries via steppe nomads; by the eighth century it had reached Frankish heavy cavalry. The military and tenurial implications were debated at length by Lynn White, who tied stirrup adoption to the rise of mounted retainers in early-medieval Europe."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_inheritance_of_rome_2009"
+    ],
+    "confidence": "low"
+  }
+}

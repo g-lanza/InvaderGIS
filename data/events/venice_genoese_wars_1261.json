@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "venice_genoese_wars_1261",
+  "name": "Venice Loses Constantinople to Genoese-Backed Byzantines",
+  "year": 1261,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    45.4,
+    12.3
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Michael VIII Palaiologos recaptured Constantinople with Genoese support, expelling Venice. This began the prolonged Venetian-Genoese rivalry that culminated in the War of Chioggia (1378-1381), from which Venice ultimately emerged dominant.",
+  "outcomes": [
+    "latin_empire_ended",
+    "venice_expelled_constantinople",
+    "chioggia_war_follows"
+  ],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "venetian_galley_trade",
+  "name": "Venetian Galley Convoys, State-Organized Long Distance Trade",
+  "year": 1320,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    45.44,
+    12.33
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Venice organizes the mude system, state-organized merchant galley convoys to the Levant, Flanders, and the Black Sea, with departure and return dates fixed by the Senate. The galleys are state-owned and leased to merchants; their military capability provides protection while spreading risk across the merchant community. The system handles the most valuable goods in Mediterranean commerce: spices, silk, and luxury cloth.",
+  "outcomes": [
+    "state_galley_system",
+    "annual_convoys_organized",
+    "commercial_hegemony_maintained"
+  ],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "mamluk_sultanate"
+    ],
+    "structural_significance": "The mude system is the most sophisticated state commercial organization in medieval Europe; it demonstrates that the Venetian republic could function as a commercial corporation, pooling risk and deploying military protection systematically; the system's collapse after the Ottoman conquest of Constantinople (1453) and the Portuguese discovery of the Cape route (1498) illustrates how Venice's commercial supremacy depended on controlling the chokepoints of Levantine trade",
+    "year_range": [
+      1300,
+      1453
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

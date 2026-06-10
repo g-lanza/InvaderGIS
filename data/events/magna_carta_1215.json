@@ -1,0 +1,31 @@
+{
+ "kind": "event",
+ "dataset": "medieval-europe-500-1500",
+ "id": "magna_carta_1215",
+ "name": "Magna Carta",
+ "year": 1215,
+ "type": "rebellion",
+ "category": "violence",
+ "coords": [
+  51.44,
+  -0.55
+ ],
+ "entity": "kingdom_of_england",
+ "summary": "On June 15, 1215, King John of England seals Magna Carta ('Great Charter') at Runnymede under pressure from a baronial coalition. The document contains 63 clauses limiting royal power: no taxation without consent of the Great Council, no imprisonment without lawful judgment, and the famous clause that 'no free man shall be seized or imprisoned...except by the lawful judgment of his equals.' Although John immediately received papal annulment of the charter, it was reissued multiple times and became the foundational document of English constitutional law and the model for constitutional limitations on royal power worldwide.",
+ "outcomes": [],
+ "_quarry": {
+  "participants": [
+   "kingdom_of_england"
+  ],
+  "structural_significance": "First constitutional limitation on English royal power; establishes the principle of rule of law over royal prerogative; becomes the model for constitutional rights worldwide including the American Constitution",
+  "year_range": null
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "ims_fordham",
+   "ims_fordham_sbook1n"
+  ],
+  "confidence": "low"
+ }
+}

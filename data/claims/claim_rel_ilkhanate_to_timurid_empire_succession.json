@@ -1,0 +1,30 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_ilkhanate_to_timurid_empire_succession",
+  "statement": "Derived from predecessor/successor links recorded in the ilkhanate and timurid_empire entity records. Transition anchored to timurid_empire start_year.",
+  "subject_ids": [
+    "ilkhanate",
+    "timurid_empire"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_ilkhanate_to_timurid_empire_succession",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "jackson_the_2005",
+      "amitai-preiss_mongols_1995",
+      "manz_the_1989",
+      "lentz_timur_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "timurid_empire"
+  ],
+  "period": {
+    "from": 1370,
+    "to": 1370
+  }
+}

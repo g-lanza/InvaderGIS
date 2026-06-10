@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conversion_hungary_1000",
+  "name": "Stephen I crowned",
+  "year": 1000,
+  "type": "coronation",
+  "category": "power",
+  "coords": [
+    47.79,
+    18.74
+  ],
+  "entity": "kingdom_of_hungary",
+  "summary": "Stephen I of Hungary receives a royal crown from Pope Sylvester II (or his legate) on Christmas Day 1000 (or January 1, 1001), accepting Latin Christianity for his kingdom. He organizes Hungary into a diocese system with archbishops at Esztergom, defeats pagan Magyar chieftains who resist conversion, and establishes a legal system based on Carolingian models. The 'Crown of Saint Stephen' becomes the symbol of Hungarian statehood for the next millennium.",
+  "outcomes": [
+    "christian_monarchy_consolidated"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_hungary",
+      "papal_states"
+    ],
+    "structural_significance": "Integrates Hungary into Western Christendom; establishes the institutional church as a pillar of Hungarian governance; the Crown of Saint Stephen becomes the symbol of Hungarian statehood",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "engel_the_2001",
+      "berend_at_2001"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

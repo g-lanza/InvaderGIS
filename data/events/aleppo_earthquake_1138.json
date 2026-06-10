@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "aleppo_earthquake_1138",
+  "name": "Aleppo earthquake of 1138",
+  "year": 1138,
+  "type": "disaster",
+  "category": "hazard",
+  "coords": [
+    36.2,
+    37.16
+  ],
+  "entity": "seljuk_sultanate",
+  "summary": "Long-duration earthquake sequence in Syria's Dead Sea Transform zone in autumn 1138 levels much of Aleppo and the surrounding Atharib citadel. Medieval chroniclers (Ibn al-Athir, Bar Hebraeus) report 230,000 dead, likely exaggerated but still among the deadliest medieval seismic events.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "seljuk_sultanate"
+    ],
+    "structural_significance": "Catastrophic damage in northern Syria coincides with the consolidation of Zengi's emirate; cities in ruins are rebuilt under his successor Nur al-Din with stronger fortifications that later resist Crusader sieges through the 1180s.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "peacock_the_2015",
+      "bosworth_the_1963",
+      "cahen_preottoman_1968"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

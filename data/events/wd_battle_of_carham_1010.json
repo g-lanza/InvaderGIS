@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_carham_1010",
+  "name": "Battle of Carham",
+  "year": 1010,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    54.8167,
+    -2.8667
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Battle of Carham (1010 CE), at Carham. Source: Wikidata Q2575960.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "kingdom_of_strathclyde",
+      "kingdom_of_scotland"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

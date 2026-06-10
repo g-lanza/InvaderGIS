@@ -1,0 +1,35 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_vespers_split",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_naples",
+      "role": "fragment"
+    },
+    {
+      "entity_id": "kingdom_of_sicily_aragonese",
+      "role": "fragment"
+    }
+  ],
+  "directed": false,
+  "type": "fragmentation",
+  "since": 1282,
+  "until": 1282,
+  "note": "The Sicilian Vespers (1282) permanently split the Kingdom of Sicily into two distinct states: the island of Sicily under Aragonese rule (Peter III of Aragon, 1282–1285) and the mainland kingdom (Naples) remaining under the Angevins. The split was formalized in the Peace of Caltabellotta (1302), which recognized Frederick III of Sicily as king of the island and Charles II of Naples as king of the mainland. The divided kingdom persisted for over 150 years, with periodic wars (the Wars of the Sicilian Vespers, 1282–1302; the later Angevin-Aragonese conflicts) until the Aragonese-ruled dynasty also acquired Naples (1442).",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Vespers split creates two rival dynasties competing for Italian influence; the Wars of the Sicilian Vespers reshape the western Mediterranean's political balance; the Aragonese-Angevin conflict pulls France and Spain into Italian politics, establishing the pattern of foreign intervention that defines the Italian Wars (1494–1559)"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

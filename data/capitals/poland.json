@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "poland",
+  "name": "Warsaw",
+  "entity_id": "poland",
+  "entity_name": "Poland",
+  "start_year": 1000,
+  "end_year": 1300,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q36"
+    }
+  },
+  "coords": [
+    21.01111,
+    52.23
+  ]
+}

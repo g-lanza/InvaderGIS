@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_lombard_papacy_threat",
+  "statement": "The Lombard Kingdom's expansion in Italy periodically threatened the papacy's independence and territorial holdings. The Lombard capture of the Exarchate of Ravenna (751) — eliminating the last Byzantine administrative center in northern Italy — left the papacy without its traditional protector. Pope Stephen II's appeal to Pippin III of the Franks (754) for military protection, secured by the Donation of Pippin (756), created the Franco-papal alliance that replaced Byzantine protection. The Lombard threat thus inadvertently produced the Carolingian Empire — Charlemagne conquered the Lombard Kingdom entirely (774) at papal request.",
+  "subject_ids": [
+    "lombard_kingdom",
+    "papal_states"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_lombard_papacy_threat",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "deacon_history_1907",
+      "christie_the_1995",
+      "partner_the_1972",
+      "morris_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 754,
+    "to": 774
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_second_battle_of_olmedo_1467_c01",
+  "statement": "Second Battle of Olmedo (1467 CE), at Olmedo (part of Conflict over the succession of Henry IV of Castile).",
+  "subject_ids": [
+    "crown_of_castile"
+  ],
+  "period": {
+    "from": 1467,
+    "to": 1467
+  },
+  "derived_from": "wd_second_battle_of_olmedo_1467",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "o'callaghan_a_1975",
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

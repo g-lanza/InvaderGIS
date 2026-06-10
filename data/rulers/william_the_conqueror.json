@@ -1,0 +1,49 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "william_the_conqueror",
+  "name": "William the Conqueror",
+  "polity": "duchy_of_normandy",
+  "title": "duke",
+  "reign_start": 1035,
+  "reign_end": 1087,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 1028,
+      "death_year": 1087
+    },
+    "entity_associations": [
+      {
+        "entity_id": "duchy_of_normandy",
+        "role": "duke",
+        "start_year": 1035,
+        "end_year": 1087
+      },
+      {
+        "entity_id": "kingdom_of_england",
+        "role": "king",
+        "start_year": 1066,
+        "end_year": 1087
+      }
+    ],
+    "key_actions": [
+      {
+        "year": 1066,
+        "event": "Defeats Harold Godwinson at Hastings; crowned at Westminster Abbey on Christmas Day."
+      },
+      {
+        "year": 1085,
+        "event": "Commissions Domesday Book — most detailed pre-modern land survey in Europe."
+      }
+    ],
+    "region": "western_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "bartlett_making_of_europe_1993"
+    ],
+    "confidence": "low"
+  }
+}

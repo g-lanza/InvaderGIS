@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_byzantine_schism_1054_c01",
+  "statement": "Papal legate Cardinal Humbert excommunicated Patriarch Michael Cerularius in Hagia Sophia on 16 July 1054, and Cerularius excommunicated the legates in return.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 1054,
+    "to": 1054
+  },
+  "derived_from": "byzantine_schism_1054",
+  "unresolved_sources": [
+    "treadgold_a_1997",
+    "kazhdan_the_1991"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "haldon_byzantium_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

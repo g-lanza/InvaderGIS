@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_zelenogradsk_1252",
+  "name": "Zelenogradsk",
+  "importance": "city",
+  "start_year": 1252,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q5584"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    20.4833,
+    54.95
+  ]
+}

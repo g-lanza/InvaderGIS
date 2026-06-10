@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_lancastrian_war_1453_c01",
+  "statement": "Lancastrian War (1453 CE), at France (part of Hundred Years' War).",
+  "subject_ids": [
+    "duchy_of_burgundy"
+  ],
+  "period": {
+    "from": 1453,
+    "to": 1453
+  },
+  "derived_from": "wd_lancastrian_war_1453",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

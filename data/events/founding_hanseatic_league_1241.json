@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "founding_hanseatic_league_1241",
+  "name": "Formation of the Hanseatic League",
+  "year": 1241,
+  "type": "economic",
+  "category": "economy",
+  "coords": [
+    53.87,
+    10.68
+  ],
+  "entity": "hanseatic_league",
+  "summary": "Lübeck and Hamburg conclude a treaty in 1241 creating a mutual trade alliance that becomes the nucleus of the Hanseatic League. The term 'Hanse' (a merchant guild) describes an informal network that grows to include over 200 cities at its peak, from Novgorod in the east to London and Bruges in the west. The League establishes Kontore (trading posts) in Bergen, London, Bruges, and Novgorod, controlling the trade in grain, timber, furs, herring, and cloth across northern Europe.",
+  "outcomes": [
+    "lubeck_hamburg_alliance",
+    "baltic_north_sea_trade_network",
+    "merchant_self_governance_established"
+  ],
+  "_quarry": {
+    "participants": [
+      "hanseatic_league"
+    ],
+    "structural_significance": "Creates the dominant trading network of northern Europe for three centuries; the League's ability to impose trade embargoes gives it coercive power exceeding many kingdoms; its decline in the 16th century as Dutch and English competition grows marks the transition to early modern commerce; prefigures concepts of free trade and commercial law",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dollinger_the_1970",
+      "hammel-kiesow_die_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

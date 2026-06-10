@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_abrantes_1179_c01",
+  "statement": "Siege of Abrantes (1179 CE), at Abrantes (part of Spanish Christian–Muslim War of 1172–1212).",
+  "subject_ids": [
+    "kingdom_of_portugal"
+  ],
+  "period": {
+    "from": 1179,
+    "to": 1179
+  },
+  "derived_from": "wd_siege_of_abrantes_1179",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "council_of_constance_1418",
+  "name": "Council of Constance Ends Western Schism",
+  "year": 1418,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    47.7,
+    9.2
+  ],
+  "entity": "papal_states",
+  "summary": "The Council of Constance (1414–18) ends the Great Western Schism by deposing or accepting the resignations of competing popes and electing Martin V. It also burns Jan Hus for heresy despite a safe-conduct promise, triggering the Hussite Wars. The council's assertion that general councils rank above popes (conciliarism) is later condemned by the papacy.",
+  "outcomes": [
+    "martin_v_elected",
+    "great_schism_ended",
+    "huss_burned"
+  ],
+  "_quarry": {
+    "participants": [
+      "papal_states",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "Heals the institutional crisis of three competing popes; but Hus's burning and the Hussite Wars preview the Reformation; the conciliarist-papalist debate shapes Catholic governance until Vatican I.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

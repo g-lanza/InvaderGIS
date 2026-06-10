@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kalka_1223",
+  "name": "Battle of the Kalka River",
+  "year": 1223,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    47.15,
+    37.05
+  ],
+  "entity": "kievan_rus",
+  "summary": "At the Battle of the Kalka River (May 31, 1223), a Mongol scouting force under generals Jebe and Subutai, having already swept through the Caucasus, Georgia, and the north Caucasian steppe, confronts a joint Rus-Cuman army of perhaps 80,000. The Mongols feign retreat; the Cumans pursue and break formation; the Mongol cavalry wheels and annihilates the now-separated forces. Six Rus princes are captured; the Mongols execute them by suffocation under boards while dining on top. The Mongol force then withdraws eastward. The battle is the first contact between the Mongols and the Rus, a 17-year warning before Batu Khan's full invasion.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kievan_rus",
+      "cuman_kipchak_confederation"
+    ],
+    "structural_significance": "First Mongol encounter with the Rus and Cuman forces; demonstrates Mongol tactical superiority; the withdrawal east prevents immediate conquest, giving a false sense of security; sets the stage for the full invasion of 1237–1240",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "franklin_the_1996",
+      "riasanovsky_a_2000",
+      "martin_medieval_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_carmelite_rule_approved_1247_c01",
+  "statement": "Pope Innocent IV's bull Quae honorem Conditoris of 1247 mitigated the Carmelite eremitic rule, permitting the friars to settle in towns and beg for alms.",
+  "subject_ids": [
+    "papal_states"
+  ],
+  "period": {
+    "from": 1247,
+    "to": 1247
+  },
+  "derived_from": "carmelite_rule_approved_1247",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lawrence_medieval_monasticism_2001"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

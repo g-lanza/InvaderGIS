@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_moscow_kazan",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "grand_principality_of_moscow",
+      "role": "principal"
+    },
+    {
+      "entity_id": "khanate_of_kazan",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 1438,
+  "until": 1500,
+  "note": "The Khanate of Kazan — founded when Ulugh Muhammad broke from the Golden Horde (1438) and established himself at Kazan on the middle Volga — became Moscow's most persistent eastern opponent in the 15th century. Moscow and Kazan fought repeatedly over control of the Volga trade route and the loyalty of the Mari, Chuvash, and Mordvin peoples of the middle Volga. Moscow suffered serious defeats (Ivan III's defeat at the Oka, 1469; the 1521 Kazan raid that reached Moscow). Kazan was finally conquered by Ivan IV 'the Terrible' in 1552 — the first major Russian expansion east of the Volga.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Moscow-Kazan conflict defines Russian eastern policy for a century; Kazan's position controlling the Volga-Ural trade route makes it a strategic prize; Ivan IV's conquest (1552) is the first step in Russian eastward expansion that eventually reaches the Pacific (1639)"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "fennell_the_1983",
+      "ostrowski_muscovy_1998",
+      "morgan_the_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

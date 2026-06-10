@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "hanseatic_league_formation_1241",
+  "name": "Formation of the Hanseatic League",
+  "year": 1241,
+  "type": "economic",
+  "category": "economy",
+  "coords": [
+    53.865,
+    10.686
+  ],
+  "entity": "duchy_of_saxony",
+  "summary": "The commercial alliance that became the Hanseatic League began with a treaty between Hamburg and Lübeck in 1241 for mutual defense of trade routes. By the 14th century the Hanse comprised over 200 cities and maintained trading posts (Kontors) in London, Bruges, Bergen, and Novgorod. It controlled the export of Baltic grain, Scandinavian fish, and Russian furs westward, while importing cloth and manufactured goods. Its political power could depose Scandinavian kings.",
+  "outcomes": [
+    "Hamburg and Lübeck sign mutual defense treaty 1241",
+    "Formal Hanse established at Lübeck 1356",
+    "Network of Kontors (trading posts) across northern Europe",
+    "Monopoly on Baltic and North Sea trade"
+  ],
+  "_quarry": {
+    "participants": [
+      "duchy_of_saxony",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "The most powerful mercantile organization of medieval northern Europe; its trade networks integrated the Baltic with western markets and funded the prosperity of north German cities.",
+    "year_range": [
+      1241,
+      1356
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Dollinger, The German Hansa",
+      "hammel-kiesow_die_2000"
+    ],
+    "confidence": "low"
+  }
+}

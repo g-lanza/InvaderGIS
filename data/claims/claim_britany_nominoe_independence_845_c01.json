@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_britany_nominoe_independence_845_c01",
+  "statement": "Nominoe of Brittany defeated the Frankish army of Charles the Bald at the Battle of Ballon in 845, establishing Breton de facto independence.",
+  "subject_ids": [
+    "duchy_of_brittany"
+  ],
+  "period": {
+    "from": 845,
+    "to": 845
+  },
+  "derived_from": "britany_nominoe_independence_845",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

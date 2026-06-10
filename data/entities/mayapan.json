@@ -1,0 +1,175 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "mayapan",
+  "name_primary": "Mayapan",
+  "name_variants": [
+    "Mayapán",
+    "League of Mayapan"
+  ],
+  "type": "city_state",
+  "region": "mesoamerica",
+  "formed": 1221,
+  "dissolved": 1441,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    20.63,
+    -89.46
+  ],
+  "religion": "Postclassic Maya polytheism (Kukulkan central)",
+  "population_estimates": [
+    {
+      "year": 1400,
+      "estimate": 12000,
+      "confidence": "moderate",
+      "note": "Resident-population estimate within the walled city."
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "demarest_ancient_2004"
+    ],
+    "confidence": "low"
+  },
+  "description": "Mayapan was the last major Maya pre-Hispanic capital, founded after the abandonment of Chichen Itza and dominating northern Yucatán from c. 1221 until c. 1441. Unlike its Classic-period predecessors, the city was a tightly walled compact settlement of ~12,000 inhabitants, with elite residential compounds clustered around a smaller-scale temple core that copied Chichen Itza's monuments. Mayapan operated as the seat of a loose 'league' of provincial Maya rulers (the multepal system) until factional war between the Cocom and Xiu dynasties destroyed it; the surviving Maya kingdoms of Yucatán fragmented into the ~16 cuchcabaloob the Spanish encountered.",
+  "temporal": {
+    "start_year": 1221,
+    "end_year": 1441,
+    "end_year_within_scope": 1441,
+    "start_event_id": null,
+    "end_event_id": null,
+    "notes": "Conventional dating: Mayapan founded c. 1221 after the abandonment of Chichen Itza, abandoned itself after the Cocom-Xiu war c. 1441."
+  },
+  "geographic": {
+    "representation": "schematic_approximation",
+    "centroid": [
+      20.63,
+      -89.46
+    ],
+    "core_regions": [
+      "northern Yucatán peninsula"
+    ],
+    "polygon_simplified": [
+      [
+        21.5,
+        -90.5
+      ],
+      [
+        21.5,
+        -88
+      ],
+      [
+        20,
+        -87.5
+      ],
+      [
+        18.5,
+        -88.5
+      ],
+      [
+        18.5,
+        -90.5
+      ],
+      [
+        20,
+        -91
+      ],
+      [
+        21.5,
+        -90.5
+      ]
+    ],
+    "capital": {
+      "name": "Mayapan",
+      "coords": [
+        20.6286,
+        -89.4583
+      ],
+      "source": "curated"
+    }
+  },
+  "lifecycle_phases": [
+    {
+      "start_year": 1221,
+      "end_year": 1300,
+      "description": "Mayapan founded as new northern Yucatán capital after Chichen Itza's abandonment.",
+      "phase": "formation"
+    },
+    {
+      "start_year": 1300,
+      "end_year": 1400,
+      "description": "Peak, Cocom dynasty dominates the multepal council of provincial lords.",
+      "phase": "peak"
+    },
+    {
+      "start_year": 1400,
+      "end_year": 1441,
+      "description": "Xiu revolt against Cocom dominance; city sacked and abandoned c. 1441.",
+      "phase": "fragmentation"
+    }
+  ],
+  "rise_factors": [
+    {
+      "layer": "governance_institutional",
+      "direction": "rise",
+      "tag": "administrative_innovation",
+      "description": "The multepal council of provincial lords centralised in Mayapan gave northern Yucatán a single political node for ~two centuries.",
+      "sources": [
+        "demarest_ancient_maya_2004"
+      ]
+    },
+    {
+      "layer": "external_political",
+      "direction": "rise",
+      "tag": "predecessor_succession",
+      "description": "Mayapan's elites consciously echoed Chichen Itza's monumental forms to claim continuity with the prior northern Maya hegemony.",
+      "sources": [
+        "demarest_ancient_maya_2004"
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "layer": "dynastic_legitimacy",
+      "direction": "decline",
+      "tag": "succession_crisis",
+      "description": "The Xiu revolt against Cocom rule c. 1441 destroyed Mayapan and fragmented northern Yucatán into the cuchcabaloob.",
+      "sources": [
+        "demarest_ancient_maya_2004"
+      ]
+    }
+  ],
+  "economic": {
+    "primary_base": "northern Yucatán milpa agriculture",
+    "secondary_bases": [
+      "salt extraction from northern Yucatán coast",
+      "coastal trade circuits"
+    ],
+    "wealth_level": "high",
+    "sources": [
+      "demarest_ancient_maya_2004"
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q567966",
+    "capital": {
+      "name": "Mayapan",
+      "coords": [
+        20.6286,
+        -89.4583
+      ]
+    }
+  },
+  "sources": [
+    {
+      "type": "book",
+      "author": "Demarest, Arthur A.",
+      "title": "Ancient Maya: The Rise and Fall of a Rainforest Civilization",
+      "publisher": "Cambridge University Press",
+      "year": 2004
+    }
+  ],
+  "monogram": "MA"
+}

@@ -1,0 +1,44 @@
+{
+ "kind": "institution",
+ "dataset": "medieval-europe-500-1500",
+ "id": "university_of_naples",
+ "name_primary": "University of Naples (Studium Generale Federico II)",
+ "domain": "university",
+ "formed": 1224,
+ "dissolved": 1500,
+ "_quarry": {
+  "key_developments": [
+   {
+    "year": 1224,
+    "event": "Frederick II's foundation diploma Generalis lictera establishes the Studium."
+   },
+   {
+    "year": 1239,
+    "event": "Thomas Aquinas begins studies at Naples."
+   },
+   {
+    "year": 1258,
+    "event": "Manfred refounds the Studium after Frederick II's death."
+   },
+   {
+    "year": 1465,
+    "event": "Aragonese kings reorganise the curriculum and chairs."
+   }
+  ],
+  "influences_entities": [
+   "kingdom_of_sicily_norman",
+   "kingdom_of_naples",
+   "holy_roman_empire"
+  ],
+  "description": "Founded in 1224 by Emperor Frederick II by imperial decree — the first European university created by direct state act, before the Sicilian sovereign sought any papal or communal sanction. The foundation purpose was explicitly utilitarian: training royal administrators and lawyers for the Sicilian-imperial bureaucracy, breaking student dependence on Bologna's traffic and on autonomous communal masters. Thomas Aquinas studied here 1239–1244. The university survived Hohenstaufen collapse, Angevin and Aragonese rule, and remained the principal Mezzogiorno seat of learning through the period."
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "bartlett_making_of_europe_1993",
+   "ims_fordham",
+   "ims_fordham_sbook1r"
+  ],
+  "confidence": "low"
+ }
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_flodden_1513",
+  "name": "Battle of Flodden, Scotland Loses a King",
+  "year": 1513,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    55.62,
+    -2.15
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "While Henry VIII is in France, James IV of Scotland invades England in fulfillment of the Auld Alliance. The English army under the Earl of Surrey defeats the Scots at Flodden Field; James IV is killed, the last British monarch to die in battle. Scottish casualties include 10,000-12,000 men, including most of the senior nobility and clergy. Scotland is weakened for a generation.",
+  "outcomes": [
+    "james_iv_killed",
+    "scottish_nobility_decimated",
+    "franco_scottish_alliance_fails"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "kingdom_of_scotland"
+    ],
+    "structural_significance": "Flodden demonstrates the strategic limitation of the Auld Alliance, Scotland's sacrifices do not prevent English victories in France; the scale of Scottish losses makes the battle a cultural trauma comparable to Bannockburn in reverse; James IV's death without leaving an experienced successor weakens Scottish governance for decades and eventually contributes to the conditions for the Reformation's rapid advance in Scotland",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

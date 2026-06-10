@@ -1,0 +1,35 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_serbian_nemanjic_bulgaria",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "serbian_kingdom_nemanjic",
+      "role": "principal"
+    },
+    {
+      "entity_id": "second_bulgarian_empire",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 1217,
+  "until": 1346,
+  "note": "The Serbian Nemanjić dynasty and the Bulgarian tsardom competed for Balkan hegemony and Byzantine succession throughout the 13th–14th centuries. Stefan Nemanja allied with the Bulgarians against Byzantium; his successors alternately competed and cooperated with Bulgaria. Stefan Dušan's conquest of much of Bulgaria's western Macedonian territories (1330s) as part of his Balkan empire-building directly weakened Bulgaria before the Ottoman advance. The Bulgarian-Serbian competition prevented Balkan Christian unity and created the fragmented political landscape that the Ottomans exploited.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Nemanjić-Asen dynasty rivalry is one of the primary reasons for Balkan Christian disunity against the Ottoman advance; the competition for Macedonia (the most strategic Balkan territory) exhausts both powers simultaneously; both Bulgaria and Serbia collapse within decades of each other, creating the Ottoman opportunity"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fine_the_1987",
+      "ćirković_the_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

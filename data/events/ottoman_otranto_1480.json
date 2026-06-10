@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ottoman_otranto_1480",
+  "name": "Ottoman landing at Otranto",
+  "year": 1480,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    40.15,
+    18.49
+  ],
+  "entity": "ottoman_empire",
+  "summary": "An Ottoman fleet of 128 ships under Gedik Ahmed Pasha lands at Otranto in the heel of Italy (July 28, 1480), capturing the city after a two-week siege. The garrison and approximately 12,000 inhabitants are killed or enslaved; 800 who refuse to convert to Islam are executed (the 'Martyrs of Otranto'). The news reaches Rome on August 11; Pope Sixtus IV prepares to flee and Italian states scramble to organize a relief expedition. The Ottomans are dislodged only in September 1481 after Mehmed II's death removes the driving force of the invasion. The landing demonstrated Ottoman ability to project power deep into Western Europe.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "ottoman_empire",
+      "kingdom_of_naples"
+    ],
+    "structural_significance": "First Ottoman occupation of Italian mainland soil; proves Ottoman naval capability to strike at the heart of Western Europe; Mehmed II's death (1481) prevents the consolidation of a permanent Ottoman Italian foothold; the martyrs of Otranto are canonized by the Catholic Church in 2013",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

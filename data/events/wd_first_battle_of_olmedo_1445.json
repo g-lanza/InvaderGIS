@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_first_battle_of_olmedo_1445",
+  "name": "First Battle of Olmedo",
+  "year": 1445,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41.8333,
+    -1.7
+  ],
+  "entity": "kingdom_of_navarre",
+  "summary": "First Battle of Olmedo (1445 CE), at Olmedo (part of Castilian Civil War). Source: Wikidata Q2473814.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_navarre",
+      "crown_of_aragon",
+      "crown_of_castile"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

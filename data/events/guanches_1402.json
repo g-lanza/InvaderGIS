@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "guanches_1402",
+  "name": "Castilian Conquest of Canary Islands Begins",
+  "year": 1402,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    28.642,
+    -13.947
+  ],
+  "entity": "guanches",
+  "summary": "Jean de Béthencourt's expedition to the Canary Islands in 1402 began the conquest of the Guanche people under Castilian sponsorship. The Guanches, who had lived in isolation from the mainland since ancient times, mounted fierce resistance. The conquest of all seven islands was not completed until 1496.",
+  "outcomes": [
+    "spanish_conquest",
+    "norman_adventurers",
+    "resistance_begins"
+  ],
+  "_quarry": {
+    "participants": [
+      "guanches"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_principality_of_wallachia_1290_c02",
+  "statement": "Wallachia occupied the plain between the Carpathians and the Danube and developed as a Romanian-speaking Orthodox Christian state.",
+  "subject_ids": [
+    "principality_of_wallachia"
+  ],
+  "period": {
+    "from": 1290,
+    "to": 1290
+  },
+  "derived_from": "principality_of_wallachia_1290",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "deletant_romania_1998",
+      "panaitescu_mircea_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

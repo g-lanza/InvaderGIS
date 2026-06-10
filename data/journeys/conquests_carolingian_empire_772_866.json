@@ -1,0 +1,121 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_carolingian_empire_772_866",
+  "name": "Carolingian Empire — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 772,
+  "year_end": 866,
+  "waypoints": [
+    {
+      "year": 772,
+      "place": "Saxon Wars",
+      "coords": [
+        52.37,
+        9.73
+      ],
+      "note": "war",
+      "event_id": "saxon_wars_772"
+    },
+    {
+      "year": 774,
+      "place": "Charlemagne conquers Lombards",
+      "coords": [
+        45.19,
+        9.16
+      ],
+      "note": "war",
+      "event_id": "charlemagne_lombard_774"
+    },
+    {
+      "year": 778,
+      "place": "Battle of Roncevaux Pass",
+      "coords": [
+        43,
+        -1.32
+      ],
+      "note": "battle",
+      "event_id": "battle_roncevaux_778"
+    },
+    {
+      "year": 788,
+      "place": "Charlemagne's Avar campaigns",
+      "coords": [
+        47.5,
+        18
+      ],
+      "note": "war",
+      "event_id": "avar_war_788"
+    },
+    {
+      "year": 808,
+      "place": "Siege of Tortosa",
+      "coords": [
+        43.95,
+        0.6
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_tortosa_808"
+    },
+    {
+      "year": 813,
+      "place": "Battle of Mallorca",
+      "coords": [
+        43.95,
+        0.6
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_mallorca_813"
+    },
+    {
+      "year": 819,
+      "place": "Ljudevit uprising",
+      "coords": [
+        50,
+        6
+      ],
+      "note": "military",
+      "event_id": "wd_ljudevit_uprising_819"
+    },
+    {
+      "year": 824,
+      "place": "Battle of Roncevaux Pass",
+      "coords": [
+        50,
+        6
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_roncevaux_pass_824"
+    },
+    {
+      "year": 827,
+      "place": "Siege of Girona",
+      "coords": [
+        43.95,
+        0.6
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_girona_827"
+    },
+    {
+      "year": 866,
+      "place": "Louis II's campaign against Bari",
+      "coords": [
+        50,
+        6
+      ],
+      "note": "military",
+      "event_id": "wd_louis_ii_s_campaign_against_bari_866"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "mckitterick_charlemagne_2008",
+      "riché_the_1993",
+      "nelson_king_2019"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

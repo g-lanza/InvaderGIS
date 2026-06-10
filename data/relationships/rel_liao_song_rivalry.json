@@ -1,0 +1,31 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_liao_song_rivalry",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "liao",
+      "role": "partner"
+    },
+    {
+      "entity_id": "song_empire",
+      "role": "partner"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 960,
+  "until": 1125,
+  "note": "The Khitan Liao dynasty and the Northern Song fought repeated wars over the Sixteen Prefectures of northern China. The 1005 Treaty of Chanyuan formalised Song annual tribute to Liao in exchange for peace — an unprecedented Chinese diplomatic concession.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Established the 'multi-state' East Asian diplomatic order that lasted until Mongol unification."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_pavia_590_c01",
+  "statement": "Siege of Pavia (590 CE), at Pavia (part of Byzantine–Lombard Wars).",
+  "subject_ids": [
+    "exarchate_of_ravenna"
+  ],
+  "period": {
+    "from": 590,
+    "to": 590
+  },
+  "derived_from": "wd_siege_of_pavia_590",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

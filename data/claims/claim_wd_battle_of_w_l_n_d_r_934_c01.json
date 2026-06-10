@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_w_l_n_d_r_934_c01",
+  "statement": "Battle of W.l.n.d.r (934 CE), at Belgrade (part of Hungarian invasions of Europe).",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 934,
+    "to": 934
+  },
+  "derived_from": "wd_battle_of_w_l_n_d_r_934",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

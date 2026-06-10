@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "columba_iona",
+  "name": "Columba of Iona",
+  "polity": "kingdom_of_dal_riata",
+  "title": "religious_authority",
+  "reign_start": 521,
+  "reign_end": 597,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "kingdom_of_dal_riata",
+        "role": "religious_authority",
+        "start_year": 521,
+        "end_year": 597
+      }
+    ],
+    "key_actions": [],
+    "region": "british_isles",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

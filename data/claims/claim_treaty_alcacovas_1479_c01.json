@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_treaty_alcacovas_1479_c01",
+  "statement": "The Treaty of Alcáçovas of September 4, 1479 ended the War of Castilian Succession of 1475-1479 between Portugal and the Catholic Monarchs Ferdinand and Isabella.",
+  "subject_ids": [
+    "crown_of_castile"
+  ],
+  "period": {
+    "from": 1479,
+    "to": 1479
+  },
+  "derived_from": "treaty_alcacovas_1479",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "o'callaghan_a_1975",
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

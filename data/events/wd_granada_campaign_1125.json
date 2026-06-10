@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_granada_campaign_1125",
+  "name": "Granada campaign",
+  "year": 1125,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.35,
+    -2.45
+  ],
+  "entity": "almoravid_emirate_iberia",
+  "summary": "Granada campaign (1125 CE), at Province of Granada (part of Almoravid conquest of al-Andalus). Source: Wikidata Q5853330.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "almoravid_emirate_iberia",
+      "kingdom_of_aragon"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_the_2004",
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_my_lib_rz_700",
+  "name": "Myślibórz",
+  "importance": "city",
+  "start_year": 700,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q640453"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    14.8667,
+    52.925
+  ]
+}

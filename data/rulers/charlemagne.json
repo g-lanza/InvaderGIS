@@ -1,0 +1,65 @@
+{
+ "kind": "ruler",
+ "dataset": "medieval-europe-500-1500",
+ "id": "charlemagne",
+ "name": "Charlemagne (Charles I)",
+ "polity": "carolingian_empire",
+ "title": "emperor",
+ "reign_start": 800,
+ "reign_end": 814,
+ "_quarry": {
+  "lifespan": {
+   "birth_year": 742,
+   "death_year": 814
+  },
+  "entity_associations": [
+   {
+    "entity_id": "carolingian_empire",
+    "role": "emperor",
+    "start_year": 800,
+    "end_year": 814
+   },
+   {
+    "entity_id": "merovingian_kingdom",
+    "role": "king_of_the_franks",
+    "start_year": 768,
+    "end_year": 800
+   }
+  ],
+  "key_actions": [
+   {
+    "year": 772,
+    "event": "Begins 32-year Saxon Wars; forced conversion of Saxony to Christianity."
+   },
+   {
+    "year": 774,
+    "event": "Defeats Lombards; takes title 'King of the Lombards'."
+   },
+   {
+    "year": 800,
+    "event": "Crowned 'Emperor of the Romans' by Pope Leo III on Christmas Day."
+   },
+   {
+    "year": 802,
+    "event": "Issues capitulary establishing missi dominici — itinerant royal inspectors."
+   },
+   {
+    "year": 813,
+    "event": "Crowns son Louis as co-emperor; establishes dynastic succession."
+   }
+  ],
+  "region": "western_europe",
+  "name_variants": []
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "wickham_inheritance_of_rome_2009",
+   "le_goff_medieval_civilization_1988",
+   "ims_fordham",
+   "ims_fordham_sbook1h",
+   "ims_fordham_sbookmap"
+  ],
+  "confidence": "low"
+ }
+}

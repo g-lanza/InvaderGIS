@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "county_of_anjou_1154",
+  "name": "Anjou Joins Angevin Empire Under Henry II",
+  "year": 1154,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    47.47,
+    -0.55
+  ],
+  "entity": "county_of_anjou",
+  "summary": "The accession of Henry Plantagenet (Henry II) to the English throne in 1154 brought the County of Anjou to the heart of the Angevin Empire stretching from Scotland to the Pyrenees. Anjou, the ancestral home of the Plantagenet dynasty, became a key territory linking England and Normandy to the vast French territories of the dynasty.",
+  "outcomes": [
+    "henry_ii_king",
+    "angevin_empire",
+    "plantagenet_dynasty"
+  ],
+  "_quarry": {
+    "participants": [
+      "county_of_anjou"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

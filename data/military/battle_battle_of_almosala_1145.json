@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_almosala_1145",
+  "name": "Battle of Almosala",
+  "subtype": "battle",
+  "start_year": 1145,
+  "end_year": 1145,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q11908706"
+    }
+  },
+  "description": "Battle during Andalusi revolt against the Almoravids (1145)",
+  "coords": [
+    -3.6,
+    37.1667
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_westkapelle_1253",
+  "name": "Battle of Westkapelle",
+  "subtype": "battle",
+  "start_year": 1253,
+  "end_year": 1253,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q73105"
+    }
+  },
+  "description": "Battle during War of the Flemish Succession (1253)",
+  "coords": [
+    3.58,
+    51.52
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_the_indus_1027",
+  "name": "Battle of the Indus",
+  "subtype": "battle",
+  "start_year": 1027,
+  "end_year": 1027,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q136469148"
+    }
+  },
+  "description": "Battle during Ghaznavid campaigns in India (1027)",
+  "coords": [
+    67.4308,
+    23.9944
+  ]
+}

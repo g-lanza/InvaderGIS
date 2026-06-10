@@ -1,0 +1,40 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_abbasid_fatimid_rivalry",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "abbasid_caliphate",
+      "role": "rival"
+    },
+    {
+      "entity_id": "fatimid_caliphate",
+      "role": "rival"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 909,
+  "until": 1171,
+  "note": "The Fatimid Caliphate claimed the title of rightful caliphs against the Abbasids; the Sunni-Shia divide expressed as a geopolitical rivalry between Cairo and Baghdad, with both powers sponsoring missionaries and proxy rulers across the Islamic world.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Competing caliphal legitimacy claims fragmented Islamic political unity into Sunni and Shia spheres; the Fatimid counter-caliphate in Cairo forced every Muslim ruler to choose sides, undermining the fiction of a single Islamic commonwealth and establishing the sectarian divide that shaped Islamic political geography through the Crusader period."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_the_2004",
+      "kennedy_when_2004",
+      "crone_gods_2004",
+      "ims_fordham",
+      "ims_fordham_sbook1d",
+      "brett_the_2001",
+      "daftary_the_1990"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

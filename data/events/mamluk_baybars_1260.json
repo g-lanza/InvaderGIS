@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "mamluk_baybars_1260",
+  "name": "Baybars and the Mamluk Sultanate's Rise",
+  "year": 1260,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    30.044,
+    31.235
+  ],
+  "entity": "mamluk_sultanate",
+  "summary": "Baybars, the Mamluk commander who played a decisive role at Ain Jalut (1260), murdered Sultan Qutuz to seize power. As sultan until 1277 he transformed the Mamluk state into the dominant power of the Middle East: he drove Crusaders from several key fortresses, raided Cilician Armenia, and established a shadow Abbasid caliphate in Cairo to give his sultanate Islamic legitimacy. His administrative reforms lasted for generations.",
+  "outcomes": [
+    "Baybars seizes sultanate after Ayn Jalut",
+    "Crusader fortresses systematically reduced",
+    "Shadow Abbasid caliph installed in Cairo",
+    "Mongol threat contained"
+  ],
+  "_quarry": {
+    "participants": [
+      "mamluk_sultanate"
+    ],
+    "structural_significance": "Established the Mamluk Sultanate as the preeminent power in the Islamic Middle East; his systematic reduction of Crusader strongholds foreshadowed their final expulsion.",
+    "year_range": [
+      1260,
+      1277
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Amitai-Preiss, Mongols and Mamluks",
+      "thorau_lion_1992"
+    ],
+    "confidence": "low"
+  }
+}

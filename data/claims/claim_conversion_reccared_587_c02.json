@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conversion_reccared_587_c02",
+  "statement": "Reccared's conversion ended the religious divide between the Arian Germanic ruling class and the Catholic Hispano-Roman majority.",
+  "subject_ids": [
+    "visigothic_kingdom"
+  ],
+  "period": {
+    "from": 587,
+    "to": 587
+  },
+  "derived_from": "conversion_reccared_587",
+  "unresolved_sources": [
+    "thompson_the_1969"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "collins_visigothic_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

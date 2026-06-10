@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_calatrava_1173_c02",
+  "statement": "The Battle of Calatrava took place at Caracuel de Calatrava.",
+  "subject_ids": [
+    "kingdom_of_castile"
+  ],
+  "period": {
+    "from": 1173,
+    "to": 1173
+  },
+  "derived_from": "wd_battle_of_calatrava_1173",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

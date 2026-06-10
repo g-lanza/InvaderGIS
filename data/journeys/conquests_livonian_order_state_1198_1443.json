@@ -1,0 +1,89 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_livonian_order_state_1198_1443",
+  "name": "Livonian Confederation — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1198,
+  "year_end": 1443,
+  "waypoints": [
+    {
+      "year": 1198,
+      "place": "Livonian Crusade",
+      "coords": [
+        58.5,
+        20
+      ],
+      "note": "military",
+      "event_id": "wd_livonian_crusade_1198"
+    },
+    {
+      "year": 1240,
+      "place": "1240 Izborsk and Pskov campaign",
+      "coords": [
+        57.2,
+        32.2333
+      ],
+      "note": "military",
+      "event_id": "wd_1240_izborsk_and_pskov_campaign_1240"
+    },
+    {
+      "year": 1242,
+      "place": "Battle on the Ice",
+      "coords": [
+        58.55,
+        27.55
+      ],
+      "note": "battle",
+      "event_id": "alexander_nevsky_1242"
+    },
+    {
+      "year": 1242,
+      "place": "Alexander Nevsky Defeats Teutonic Knights",
+      "coords": [
+        57.405,
+        26.665
+      ],
+      "note": "military",
+      "event_id": "principality_of_pskov_1240"
+    },
+    {
+      "year": 1283,
+      "place": "Lithuanian Crusade",
+      "coords": [
+        55.85,
+        25.15
+      ],
+      "note": "military",
+      "event_id": "wd_lithuanian_crusade_1283"
+    },
+    {
+      "year": 1362,
+      "place": "Siege of Kaunas",
+      "coords": [
+        55.85,
+        25.15
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_kaunas_1362"
+    },
+    {
+      "year": 1443,
+      "place": "Novgorod-Livonian War",
+      "coords": [
+        57.75,
+        28.15
+      ],
+      "note": "military",
+      "event_id": "wd_novgorod_livonian_war_1443"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_hospitallers_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

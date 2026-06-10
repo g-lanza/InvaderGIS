@@ -1,0 +1,43 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "godfrey_of_bouillon",
+  "name": "Godfrey of Bouillon",
+  "polity": "kingdom_of_jerusalem",
+  "title": "advocatus_sancti_sepulchri",
+  "reign_start": 1099,
+  "reign_end": 1100,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 1060,
+      "death_year": 1100
+    },
+    "entity_associations": [
+      {
+        "entity_id": "kingdom_of_jerusalem",
+        "role": "advocatus_sancti_sepulchri",
+        "start_year": 1099,
+        "end_year": 1100
+      }
+    ],
+    "key_actions": [
+      {
+        "year": 1099,
+        "event": "Leads First Crusade siege and capture of Jerusalem."
+      },
+      {
+        "year": 1099,
+        "event": "Refuses crown of Jerusalem; takes title 'Advocate of the Holy Sepulchre'."
+      }
+    ],
+    "region": "levant",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley_smith_crusades_2005"
+    ],
+    "confidence": "low"
+  }
+}

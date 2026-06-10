@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_sack_of_chernigov_1239",
+  "name": "Sack of Chernigov",
+  "subtype": "battle",
+  "start_year": 1239,
+  "end_year": 1239,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q19692674"
+    }
+  },
+  "description": "Battle of 1239",
+  "coords": [
+    31.2947,
+    51.4939
+  ]
+}

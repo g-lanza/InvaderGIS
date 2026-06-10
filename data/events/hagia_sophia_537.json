@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "hagia_sophia_537",
+  "name": "Hagia Sophia Completed, Justinian's Cathedral",
+  "year": 537,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.01,
+    28.98
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Emperor Justinian I dedicates the rebuilt Hagia Sophia (Church of Holy Wisdom) in Constantinople on December 27, 537, reportedly exclaiming 'Solomon, I have surpassed thee.' Built in just five years by 10,000 workers under architects Anthemius of Tralles and Isidorus of Miletus, the dome of 31 meters diameter appears to float on a ring of windows. The church serves as the center of Eastern Christianity for nearly a thousand years until the Ottoman conquest (1453).",
+  "outcomes": [
+    "greatest_church_of_christendom_built",
+    "pendentive_dome_innovation",
+    "byzantine_propaganda_triumph"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire"
+    ],
+    "structural_significance": "Hagia Sophia's dome represents the peak of late antique architectural achievement; its preservation through the Byzantine and Ottoman periods makes it a unique monument to the transition between Christian and Islamic civilization; its conversion to a mosque (1453) and eventual museum (1934)/mosque (2020) status makes it a permanent geopolitical symbol; the engineering innovations developed for its construction influence Byzantine and eventually Ottoman mosque architecture",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

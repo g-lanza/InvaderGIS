@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_clontarf_1014_c01",
+  "statement": "Brian Boru, High King of Ireland, defeated a coalition of Leinster Irish and Dublin Norse at the Battle of Clontarf on 23 April 1014.",
+  "subject_ids": [
+    "kingdom_of_ireland_high"
+  ],
+  "period": {
+    "from": 1014,
+    "to": 1014
+  },
+  "derived_from": "clontarf_1014",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

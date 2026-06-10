@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_pouanc_1066",
+  "name": "Battle of Pouancé",
+  "subtype": "battle",
+  "start_year": 1066,
+  "end_year": 1066,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q4872092"
+    }
+  },
+  "description": "Battle during Breton-Norman War (1066)",
+  "coords": [
+    -1.175,
+    47.7414
+  ]
+}

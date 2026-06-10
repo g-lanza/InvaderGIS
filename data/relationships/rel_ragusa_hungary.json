@@ -1,0 +1,36 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_ragusa_hungary",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_hungary",
+      "role": "suzerain"
+    },
+    {
+      "entity_id": "republic_of_ragusa",
+      "role": "vassal"
+    }
+  ],
+  "directed": true,
+  "type": "vassalage",
+  "since": 1358,
+  "until": 1500,
+  "note": "Ragusa (Dubrovnik) transferred from Venetian to Hungarian overlordship under the Treaty of Zadar (1358), paying an annual tribute to the Hungarian crown in exchange for protection and commercial privileges in Hungarian-controlled Adriatic ports. Hungarian overlordship was far lighter than Venetian — the Hungarians had no commercial fleet to compete with Ragusan merchants — giving Ragusa effective independence while maintaining nominal vassalage. This arrangement lasted until the Ottoman threat and Venice's power made renewed accommodation with Venice more practical (1420, temporarily) and with the Ottomans thereafter.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Hungarian overlordship gives Ragusa the light suzerainty that enables its golden age; lacking a commercial fleet, Hungary cannot exploit Ragusa's trade; Ragusa's model of paying tribute to multiple overlords simultaneously — Venice, Hungary, then the Ottomans — becomes its signature diplomatic strategy"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "engel_the_2001",
+      "berend_at_2001",
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

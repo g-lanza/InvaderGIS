@@ -1,0 +1,718 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_alba",
+  "name_primary": "Kingdom of Alba",
+  "name_variants": [],
+  "type": "kingdom",
+  "region": "british_isles",
+  "formed": 843,
+  "dissolved": 1286,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 900,
+      "label": "Scots",
+      "polygon": [
+        [
+          55.95,
+          -3.83
+        ],
+        [
+          55.92,
+          -4.63
+        ],
+        [
+          56.13,
+          -4.71
+        ],
+        [
+          55.75,
+          -5.57
+        ],
+        [
+          55.94,
+          -5.63
+        ],
+        [
+          56.54,
+          -5.27
+        ],
+        [
+          56.65,
+          -5.55
+        ],
+        [
+          56.4,
+          -5.82
+        ],
+        [
+          56.47,
+          -6.04
+        ],
+        [
+          57,
+          -5.63
+        ],
+        [
+          57.26,
+          -5.73
+        ],
+        [
+          57.39,
+          -5.46
+        ],
+        [
+          57.62,
+          -5.76
+        ],
+        [
+          57.78,
+          -5.57
+        ],
+        [
+          57.71,
+          -5.23
+        ],
+        [
+          56.05,
+          -4.15
+        ],
+        [
+          55.95,
+          -3.83
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    56.673,
+    -5.1133
+  ],
+  "religion": "catholic",
+  "population_estimates": [
+    {
+      "year": 850,
+      "estimate": 280000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1991742",
+          "url": "https://www.wikidata.org/wiki/Q1991742",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Alba",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Alba"
+        }
+      ]
+    },
+    {
+      "year": 1000,
+      "estimate": 400000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1991742",
+          "url": "https://www.wikidata.org/wiki/Q1991742",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Alba",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Alba"
+        }
+      ]
+    },
+    {
+      "year": 1150,
+      "estimate": 440000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1991742",
+          "url": "https://www.wikidata.org/wiki/Q1991742",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Alba",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Alba"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low"
+  },
+  "description": "Proto-Scottish kingdom (c. 848–1034) formed by the union of Pictish and Scottish Dál Riata populations under Kenneth MacAlpin; its Gaelic cultural synthesis and gradual extension southward toward the Forth-Clyde line established the territorial and dynastic foundations from which the medieval Kingdom of Scotland would develop.",
+  "temporal": {
+    "start_year": 843,
+    "end_year": 1286,
+    "end_year_within_scope": null,
+    "start_event_id": null,
+    "end_event_id": null,
+    "notes": "Gaelic kingdom; transitions to Latinate 'Scotia' under MacMalcolm dynasty"
+  },
+  "geographic": {
+    "representation": "schematic_approximation",
+    "centroid": [
+      56.673,
+      -5.1133
+    ],
+    "core_regions": [
+      "Scotland"
+    ],
+    "polygon_simplified": [
+      [
+        55.95,
+        -3.83
+      ],
+      [
+        55.92,
+        -4.63
+      ],
+      [
+        56.13,
+        -4.71
+      ],
+      [
+        55.75,
+        -5.57
+      ],
+      [
+        55.94,
+        -5.63
+      ],
+      [
+        56.54,
+        -5.27
+      ],
+      [
+        56.65,
+        -5.55
+      ],
+      [
+        56.4,
+        -5.82
+      ],
+      [
+        56.47,
+        -6.04
+      ],
+      [
+        57,
+        -5.63
+      ],
+      [
+        57.26,
+        -5.73
+      ],
+      [
+        57.39,
+        -5.46
+      ],
+      [
+        57.62,
+        -5.76
+      ],
+      [
+        57.78,
+        -5.57
+      ],
+      [
+        57.71,
+        -5.23
+      ],
+      [
+        56.05,
+        -4.15
+      ],
+      [
+        55.95,
+        -3.83
+      ]
+    ],
+    "notes": "",
+    "polygon_status": "real_historical_boundary",
+    "polygon_representative_year": 1064,
+    "polygon_source": "aourednik/historical-basemaps",
+    "polygon_source_date": "2026-05-09",
+    "polygon_snapshots": [
+      {
+        "year": 900,
+        "label": "Scots",
+        "polygon": [
+          [
+            55.95,
+            -3.83
+          ],
+          [
+            55.92,
+            -4.63
+          ],
+          [
+            56.13,
+            -4.71
+          ],
+          [
+            55.75,
+            -5.57
+          ],
+          [
+            55.94,
+            -5.63
+          ],
+          [
+            56.54,
+            -5.27
+          ],
+          [
+            56.65,
+            -5.55
+          ],
+          [
+            56.4,
+            -5.82
+          ],
+          [
+            56.47,
+            -6.04
+          ],
+          [
+            57,
+            -5.63
+          ],
+          [
+            57.26,
+            -5.73
+          ],
+          [
+            57.39,
+            -5.46
+          ],
+          [
+            57.62,
+            -5.76
+          ],
+          [
+            57.78,
+            -5.57
+          ],
+          [
+            57.71,
+            -5.23
+          ],
+          [
+            56.05,
+            -4.15
+          ],
+          [
+            55.95,
+            -3.83
+          ]
+        ]
+      }
+    ],
+    "capital": {
+      "name": "Scone",
+      "coords": [
+        56.42,
+        -3.4
+      ],
+      "source": "curated"
+    }
+  },
+  "internal_structure": {
+    "centralization": null,
+    "centralization_trajectory": null,
+    "governance_type": "dynastic",
+    "legitimacy_basis": [
+      "inheritance"
+    ],
+    "administrative_system": ""
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "pictish_scottish_union",
+      "years": "843–1040",
+      "description": "Kenneth MacAlpin's union of the Picts and Scots (843) creates Alba, the kingdom of the Scots centered on Perthshire and Angus. The kingdom speaks both Gaelic (among the Scots) and Pictish; Pictish culture and language gradually fade under Gaelic dominance. Vikings from Orkney and Hebrides continuously raid the coasts. Constantine II (900–943) provides stability through decades of diplomacy and defensive warfare.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1991742",
+          "url": "https://www.wikidata.org/wiki/Q1991742"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Alba",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Alba"
+        }
+      ]
+    },
+    {
+      "phase": "expansion",
+      "years": "1040–1286",
+      "description": "Malcolm II's victory at Carham (1018) adds Lothian, giving Alba Edinburgh and the Forth. His grandson Duncan I is murdered by Macbeth (1040); Macbeth rules well for 17 years before being killed by Malcolm III Canmore (1057). Under David I (1124–1153) Alba transforms into a feudal kingdom along Anglo-Norman lines while retaining Celtic traditions. 'Alba' gradually becomes 'Scotland'; the kingdom's identity is consolidated.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1991742",
+          "url": "https://www.wikidata.org/wiki/Q1991742"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Alba",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Alba"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "dynastic_consolidation",
+      "layer": "dynastic_legitimacy",
+      "description": "The MacAlpin dynasty's mythologized unification of Picts and Scots provided the legitimating narrative for a kingdom whose ethnic diversity (Scots, Picts, Britons, Angles, Vikings) could otherwise have fragmented; the dynasty's survival through multiple assassination attempts shows its political resilience",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1991742",
+          "url": "https://www.wikidata.org/wiki/Q1991742"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Alba",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Alba"
+        }
+      ]
+    },
+    {
+      "tag": "gaelic_pictish_fusion",
+      "layer": "ideology_religion",
+      "description": "The merger of Gaelic Dál Riata and the Pictish kingdom created a culturally cohesive highland state; the Columban church provided spiritual authority and educational infrastructure that unified disparate tribal groupings",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1991742",
+          "url": "https://www.wikidata.org/wiki/Q1991742"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Alba",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Alba"
+        }
+      ]
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "dynastic_consolidation",
+      "direction": "rise",
+      "description": "Kenneth MacAlpin's consolidation of Pictish and Dalriadic kingdoms (c.843) created a unified Scotia under a single dynasty. The merger of two distinct cultures into a coherent political entity was the essential precondition for Scottish statehood.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1991742",
+          "url": "https://www.wikidata.org/wiki/Q1991742"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Alba",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Alba"
+        }
+      ],
+      "tag_prose": "pictish_dalriada_unification"
+    },
+    {
+      "layer": "military_security",
+      "tag": "viking_threat_consolidation",
+      "direction": "rise",
+      "description": "Persistent Norse raids on monastic settlements and coastal areas forced Scottish kingdoms to consolidate or perish. The shared threat created political incentives for unification that internal competition alone had not provided.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1991742",
+          "url": "https://www.wikidata.org/wiki/Q1991742"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Alba",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Alba"
+        }
+      ]
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "mormaer_governance_system",
+      "direction": "rise",
+      "description": "The mormaer (great steward) system of regional governance distributed royal authority through powerful regional lords who commanded local levies, enabling Alba to administer a large territory without Roman-style bureaucracy.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1991742",
+          "url": "https://www.wikidata.org/wiki/Q1991742"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Alba",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Alba"
+        }
+      ]
+    },
+    {
+      "layer": "ideology_religion",
+      "tag": "columban_church_network",
+      "direction": "rise",
+      "description": "The Columban monastic tradition (Iona, Dunkeld) provided literacy, historical consciousness, and administrative expertise to the kingdom. Abbots served as royal advisors and their monasteries as secure storage for royal treasures and records.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1991742",
+          "url": "https://www.wikidata.org/wiki/Q1991742"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Alba",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Alba"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "succession_instability",
+      "layer": "dynastic_legitimacy",
+      "description": "Celtic tanistry, rotating succession among eligible males of the royal line, produced endemic violence; multiple Scottish kings died by assassination or in battle against rivals, with Macbeth's killing of Duncan I being the most famous example",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1991742",
+          "url": "https://www.wikidata.org/wiki/Q1991742"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Alba",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Alba"
+        }
+      ]
+    },
+    {
+      "tag": "viking_pressure",
+      "layer": "external_political",
+      "description": "Norse settlement of the Hebrides and Orkney persistently pressured Alba's western and northern flanks; the Norse maintained control of the Western Isles until 1266, fragmenting potential Scottish maritime power",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1991742",
+          "url": "https://www.wikidata.org/wiki/Q1991742"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Alba",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Alba"
+        }
+      ]
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "english_overlordship_pressure",
+      "direction": "decline",
+      "description": "English kings periodically demanded Scottish kings perform homage for Scottish lands held in England, blurring the boundary between personal feudal obligation and national subjugation, a persistent source of conflict and constitutional ambiguity.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1991742",
+          "url": "https://www.wikidata.org/wiki/Q1991742"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Alba",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Alba"
+        }
+      ]
+    },
+    {
+      "layer": "military_security",
+      "tag": "english_intervention",
+      "direction": "decline",
+      "description": "English kings repeatedly intervened in Scottish succession disputes in the late 13th century; Edward I's claim to feudal overlordship and his conquest of 1296 transformed Alba's gradual evolution into a crisis that only the Wars of Scottish Independence resolved.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1991742",
+          "url": "https://www.wikidata.org/wiki/Q1991742"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of Alba",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Alba"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Kenneth MacAlpin",
+      "role": "dynastic_founder",
+      "years": "810–858",
+      "year_start": 810,
+      "year_end": 858,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Kenneth MacAlpin",
+          "url": "https://en.wikipedia.org/wiki/Kenneth_MacAlpin"
+        }
+      ]
+    },
+    {
+      "name": "Constantine II",
+      "role": "ruler",
+      "years": "879–952",
+      "year_start": 879,
+      "year_end": 952,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Constantine II",
+          "url": "https://en.wikipedia.org/wiki/Constantine_II"
+        }
+      ]
+    },
+    {
+      "name": "David I",
+      "role": "ruler",
+      "years": "1084–1153",
+      "year_start": 1084,
+      "year_end": 1153,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "David I",
+          "url": "https://en.wikipedia.org/wiki/David_I"
+        }
+      ]
+    }
+  ],
+  "successor_entity_ids": [
+    "kingdom_of_scotland"
+  ],
+  "primary_ethnicity": "celtic",
+  "ethnic_composition": [
+    {
+      "group": "celtic",
+      "proportion": 0.7
+    },
+    {
+      "group": "norse_scandinavian",
+      "proportion": 0.15
+    }
+  ],
+  "religion_composition": [
+    {
+      "religion": "catholic",
+      "proportion": 0.95
+    },
+    {
+      "religion": "pagan",
+      "proportion": 0.05
+    }
+  ],
+  "primary_language": "celtic_lang",
+  "language_composition": [
+    {
+      "language": "celtic_lang",
+      "proportion": 0.58,
+      "role": "vernacular"
+    },
+    {
+      "language": "old_english",
+      "proportion": 0.3,
+      "role": "regional"
+    },
+    {
+      "language": "norse",
+      "proportion": 0.08,
+      "role": "regional"
+    },
+    {
+      "language": "latin",
+      "proportion": 0.04,
+      "role": "liturgical"
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "pastoral",
+      "mining"
+    ],
+    "wealth_level": "low",
+    "major_exports": [
+      "cattle",
+      "wool",
+      "fish",
+      "timber"
+    ],
+    "major_trade_partners": [
+      "kingdom_of_england",
+      "kingdom_of_norway"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "tithes",
+      "customs_duties"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q1991742",
+        "url": "https://www.wikidata.org/wiki/Q1991742"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Kingdom of Alba",
+        "url": "https://en.wikipedia.org/wiki/Kingdom_of_Alba"
+      }
+    ]
+  },
+  "social_structure": {
+    "ruling_ethnicity": "celtic",
+    "subject_majority": "celtic",
+    "military_ethnicity": "celtic",
+    "administrative_language": "celtic_lang",
+    "stratification_type": "homogeneous"
+  },
+  "wikidata_enrichment": {
+    "qid": "Q1991742",
+    "matched_name": "Kingdom of Alba",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Kingdom_of_Alba"
+  },
+  "sources": [
+    {
+      "type": "book",
+      "author": "Wickham, Chris",
+      "title": "The Inheritance of Rome: A History of Europe from 400 to 1000",
+      "publisher": "Allen Lane",
+      "year": 2009
+    },
+    {
+      "type": "book",
+      "author": "Abulafia, David (ed.)",
+      "title": "The New Cambridge Medieval History, Vol. V: c. 1198 – c. 1300",
+      "publisher": "Cambridge University Press",
+      "year": 1999
+    }
+  ],
+  "monogram": "AL"
+}

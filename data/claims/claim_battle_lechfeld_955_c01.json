@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_battle_lechfeld_955_c01",
+  "statement": "Otto I defeated the invading Magyar army near Augsburg at the Battle of Lechfeld in 955, ending half a century of Magyar raids into Western and Central Europe.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 955,
+    "to": 955
+  },
+  "derived_from": "battle_lechfeld_955",
+  "unresolved_sources": [
+    "scales_the_2012"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "armenia_bagratid_kingdom_885",
+  "name": "Bagratid Kingdom of Armenia Restored",
+  "year": 885,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    39.436,
+    44.147
+  ],
+  "entity": "armenia",
+  "summary": "Ashot I Bagratuni was recognized as king by both the Abbasid Caliph and the Byzantine Emperor, restoring Armenian independence after two centuries of Arab occupation. The Bagratid capital at Ani became one of the great medieval cities.",
+  "outcomes": [
+    "armenia_independent",
+    "bagratid_dynasty",
+    "ani_capital"
+  ],
+  "_quarry": {
+    "participants": [
+      "armenia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

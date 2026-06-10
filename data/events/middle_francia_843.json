@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "middle_francia_843",
+  "name": "Treaty of Verdun Creates Middle Francia",
+  "year": 843,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    48.75,
+    6.25
+  ],
+  "entity": "middle_francia",
+  "summary": "The Treaty of Verdun in 843 CE divided the Carolingian Empire among Charlemagne's three grandsons, creating Middle Francia as the central portion. Stretching from the Low Countries to Italy, Middle Francia was an artificial creation without ethnic or linguistic coherence, destined to fragment further.",
+  "outcomes": [
+    "carolingian_partition",
+    "lotharingia_formed",
+    "three_kingdoms"
+  ],
+  "_quarry": {
+    "participants": [
+      "middle_francia",
+      "carolingian_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

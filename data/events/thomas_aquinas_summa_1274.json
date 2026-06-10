@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "thomas_aquinas_summa_1274",
+  "name": "Thomas Aquinas and the Summa Theologiae",
+  "year": 1274,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    48.85,
+    2.35
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Thomas Aquinas, a Dominican friar at the University of Paris, writes the Summa Theologiae (1265-1274), the comprehensive synthesis of Aristotelian philosophy and Christian theology. The unfinished work systematizes Christian doctrine through the Scholastic method of objection, counter-argument, and resolution. Aquinas's natural law theory, that reason can discern moral principles independently of revelation, becomes the foundation of Catholic social and political thought.",
+  "outcomes": [
+    "aristotle_christianized",
+    "scholastic_theology_systematized",
+    "natural_law_theory_developed"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "papal_states"
+    ],
+    "structural_significance": "The Summa Theologiae is the intellectual achievement of medieval Christendom; Aquinas's synthesis shapes Catholic theology, philosophy of law, and political theory for centuries; his argument that reason and faith are complementary (not opposed) legitimizes the study of Aristotle and creates the philosophical framework that enables early modern science; 'Thomism' becomes the official philosophy of the Catholic Church (confirmed in 1879)",
+    "year_range": [
+      1265,
+      1274
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

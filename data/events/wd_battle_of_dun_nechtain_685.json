@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_dun_nechtain_685",
+  "name": "Battle of Dun Nechtain",
+  "year": 685,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    54.5,
+    -1.5
+  ],
+  "entity": "kingdom_of_northumbria",
+  "summary": "Battle of Dun Nechtain (685 CE), at Dunnichen. Source: Wikidata Q961243.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_northumbria"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

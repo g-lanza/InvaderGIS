@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "oxford_1258",
+  "name": "Provisions of Oxford",
+  "year": 1258,
+  "type": "rebellion",
+  "category": "violence",
+  "coords": [
+    51.75,
+    -1.25
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "The Provisions of Oxford (June 1258), imposed on Henry III by a coalition of English barons led by Simon de Montfort, establish England's first written constitution. Henry III had infuriated the barons by filling his court with French favorites and pursuing an expensive, unsuccessful Sicilian policy. The Provisions create a permanent Council of Fifteen to govern with the king, a Parliament to meet three times per year, and a committee to oversee royal appointments. Henry later repudiates the Provisions; de Montfort's rebellion (1263–1265) follows. Though the specific provisions are revoked, they establish the principle that government requires baronial consent.",
+  "outcomes": [
+    "baronial_reform_forced"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england"
+    ],
+    "structural_significance": "First written English constitution; establishes that the king governs with a permanent council rather than by personal prerogative; the subsequent de Montfort rebellion (1265) produces the first Parliament to include commoners, the direct precursor to modern Parliament",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

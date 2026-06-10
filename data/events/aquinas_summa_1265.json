@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "aquinas_summa_1265",
+  "name": "Thomas Aquinas Writes the Summa Theologica",
+  "year": 1265,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    41.3,
+    13.8
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Thomas Aquinas begins his Summa Theologica, the most comprehensive synthesis of Aristotelian philosophy and Christian theology in medieval history. Though left unfinished at Aquinas's death (1274), the Summa becomes the standard text of Catholic philosophy, incorporating natural reason as a legitimate path to theological truth.",
+  "outcomes": [
+    "scholastic_synthesis",
+    "aristotle_christianized",
+    "natural_law"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "papal_states"
+    ],
+    "structural_significance": "Thomism becomes the official philosophy of the Catholic Church; the synthesis of faith and reason shapes Catholic intellectual tradition to the present; the natural law theory derived from Aristotle provides the basis for modern human rights discourse.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

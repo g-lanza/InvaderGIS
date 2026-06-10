@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_callann_1261",
+  "name": "Battle of Callann",
+  "year": 1261,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    53,
+    -8
+  ],
+  "entity": "lordship_of_ireland",
+  "summary": "Battle of Callann (1261 CE), at Kilgarvan. Source: Wikidata Q4870614.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "lordship_of_ireland"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

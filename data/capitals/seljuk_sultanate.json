@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "seljuk_sultanate",
+  "name": "Isfahan",
+  "entity_id": "seljuk_sultanate",
+  "entity_name": "Seljuk Sultanate",
+  "start_year": 1037,
+  "end_year": 1194,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1295689"
+    }
+  },
+  "coords": [
+    51.66,
+    32.65
+  ]
+}

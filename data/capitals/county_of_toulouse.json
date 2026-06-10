@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "county_of_toulouse",
+  "name": "Toulouse",
+  "entity_id": "county_of_toulouse",
+  "entity_name": "County of Toulouse",
+  "start_year": 778,
+  "end_year": 1271,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1334322"
+    }
+  },
+  "coords": [
+    1.44333,
+    43.60444
+  ]
+}

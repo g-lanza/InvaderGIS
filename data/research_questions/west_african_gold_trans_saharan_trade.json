@@ -1,0 +1,51 @@
+{
+  "id": "west_african_gold_trans_saharan_trade",
+  "question": "How did West African gold and the trans-Saharan trade power the succession of Sahelian empires (Ghana, Mali, Songhai) and reshape Mediterranean economies (1000–1500)?",
+  "description": "Examines the gold-and-salt economy that underwrote the rise and succession of the Sahelian empires — Ghana, then Mali, then Songhai — the Almoravid pressure on Ghana, the Islamisation of the savanna courts, the spectacle of Mansa Musa's 1324 pilgrimage, and how the northward flow of Saharan gold fed the bullion supply of Genoa and the wider Mediterranean.",
+  "scope": {
+    "from": 1000,
+    "to": 1500,
+    "regions": ["west_africa", "north_africa", "islamic_world_european_facing"]
+  },
+  "evidence": {
+    "entity_ids": [
+      "ghana",
+      "mali",
+      "songhai_empire",
+      "kanem",
+      "republic_of_genoa"
+    ],
+    "claim_ids": [
+      "claim_mali_empire_mansa_musa_1324_c01",
+      "claim_mali_empire_mansa_musa_1324_c02",
+      "claim_mali_empire_mansa_musa_1324_c03",
+      "claim_genoa_genoin_gold_1252_c01",
+      "claim_genoa_genoin_gold_1252_c02"
+    ],
+    "source_ids": [
+      "levtzion_ancient_ghana_and_mali",
+      "conrad_empires_medieval_west_africa_2010",
+      "abu_lughod_before_european_hegemony_1989",
+      "abulafia_great_sea_2011"
+    ],
+    "relationship_ids": [
+      "rel_ghana_to_mali_succession",
+      "rel_songhai_mali_succession",
+      "rel_songhai_kanem_trade"
+    ],
+    "event_ids": [
+      "ghana_almoravid_conquest_1076",
+      "mali_sundiata_battle_of_kirina_1235",
+      "mali_mansa_musa_hajj_1324",
+      "kanem_islam_conversion_1085"
+    ]
+  },
+  "status": "in_progress",
+  "findings": "Control of the gold sources of the western Sudan and the salt and goods of the Saharan caravan trade underwrote a serial succession of Sahelian powers: Ghana, pressured by the Almoravids in the eleventh century, gave way to Mali after Sundiata's victory at Kirina, and Mali in turn to Songhai. The wealth was great enough that Mansa Musa's 1324 hajj reportedly disturbed gold prices along his route, and the same West African bullion, drawn north across the desert, was a significant feed into the Mediterranean coinage on which Genoa and its rivals built their commercial revival.",
+  "provenance": {
+    "status": "draft",
+    "sources_used": ["levtzion_ancient_ghana_and_mali", "conrad_empires_medieval_west_africa_2010", "abu_lughod_before_european_hegemony_1989"],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

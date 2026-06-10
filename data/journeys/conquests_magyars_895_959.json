@@ -1,0 +1,156 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_magyars_895_959",
+  "name": "Magyars — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 895,
+  "year_end": 959,
+  "waypoints": [
+    {
+      "year": 895,
+      "place": "Magyar Conquest of the Pannonian Basin",
+      "coords": [
+        47.595,
+        20.143
+      ],
+      "note": "military",
+      "event_id": "magyars_arrival_pannonia_895"
+    },
+    {
+      "year": 895,
+      "place": "Pechenegs Drive Magyars into Europe",
+      "coords": [
+        47.0475,
+        25.0715
+      ],
+      "note": "military",
+      "event_id": "pecheneg_confederation_895"
+    },
+    {
+      "year": 899,
+      "place": "Battle of Brenta",
+      "coords": [
+        47.595,
+        20.143
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_brenta_899"
+    },
+    {
+      "year": 899,
+      "place": "Siege of Venice",
+      "coords": [
+        46.4975,
+        16.2215
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_venice_899"
+    },
+    {
+      "year": 910,
+      "place": "Battle of Lechfeld",
+      "coords": [
+        49.0475,
+        14.8215
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_lechfeld_910"
+    },
+    {
+      "year": 924,
+      "place": "Assedio di Pavia",
+      "coords": [
+        47.595,
+        20.143
+      ],
+      "note": "military",
+      "event_id": "wd_assedio_di_pavia_924"
+    },
+    {
+      "year": 925,
+      "place": "Battle of Drava River",
+      "coords": [
+        47.595,
+        20.143
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_drava_river_925"
+    },
+    {
+      "year": 933,
+      "place": "Battle of Riade",
+      "coords": [
+        49.0475,
+        14.8215
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_riade_933"
+    },
+    {
+      "year": 934,
+      "place": "Battle of W.l.n.d.r",
+      "coords": [
+        44.6425,
+        25.8592
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_w_l_n_d_r_934"
+    },
+    {
+      "year": 942,
+      "place": "Battle of Fraxinet",
+      "coords": [
+        47.595,
+        20.143
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_fraxinet_942"
+    },
+    {
+      "year": 942,
+      "place": "Siege of Lérida",
+      "coords": [
+        42.7475,
+        7.6715
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_l_rida_942"
+    },
+    {
+      "year": 955,
+      "place": "Battle of Lechfeld",
+      "coords": [
+        48.3,
+        10.9
+      ],
+      "note": "battle",
+      "event_id": "battle_of_lechfeld_955"
+    },
+    {
+      "year": 955,
+      "place": "Battle of Lechfeld Ends Magyar Raiding",
+      "coords": [
+        47.595,
+        20.143
+      ],
+      "note": "military",
+      "event_id": "magyars_battle_lechfeld_955"
+    },
+    {
+      "year": 959,
+      "place": "Hungarian invasions of Thrace",
+      "coords": [
+        44.0233,
+        24.479
+      ],
+      "note": "military",
+      "event_id": "wd_hungarian_invasions_of_thrace_959"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_champagne_fairs_peak_1200_c01",
+  "statement": "Around 1200 six fairs across four Champagne towns sustained a year-round trade cycle linking Flemish cloth, English wool, Italian silk, German silver, and Levantine spices.",
+  "subject_ids": [
+    "county_of_champagne"
+  ],
+  "period": {
+    "from": 1200,
+    "to": 1200
+  },
+  "derived_from": "champagne_fairs_peak_1200",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

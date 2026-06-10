@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "umayyad_emirate_cordoba",
+  "name": "Córdoba",
+  "entity_id": "umayyad_emirate_cordoba",
+  "entity_name": "Emirate of Córdoba",
+  "start_year": 711,
+  "end_year": 929,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1337854"
+    }
+  },
+  "coords": [
+    -4.78,
+    37.88
+  ]
+}

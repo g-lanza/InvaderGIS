@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "niccolo_iii_este",
+  "name": "Niccolò III d'Este",
+  "polity": "duchy_of_ferrara",
+  "title": "ruler",
+  "reign_start": 1383,
+  "reign_end": 1441,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "duchy_of_ferrara",
+        "role": "ruler",
+        "start_year": 1383,
+        "end_year": 1441
+      }
+    ],
+    "key_actions": [],
+    "region": "italy",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

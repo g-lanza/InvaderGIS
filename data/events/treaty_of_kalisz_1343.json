@@ -1,0 +1,29 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "treaty_of_kalisz_1343",
+  "name": "Treaty of Kalisz",
+  "year": 1343,
+  "type": "treaty",
+  "category": "diplomacy",
+  "coords": [
+    51.76,
+    18.08
+  ],
+  "entity": "poland",
+  "summary": "Casimir III of Poland and the Teutonic Order settle the long-running war over Pomerelia and Kuyavia: Poland recovers Kuyavia and Dobrzyń but cedes Pomerelia (including Danzig/Gdańsk) to the Order. Casimir uses the breathing space to focus on Galicia and internal reforms.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "poland",
+      "teutonic_order_state"
+    ],
+    "structural_significance": "Loss of Pomerelia leaves Poland landlocked on the Baltic until the Second Peace of Toruń (1466). Casimir's pivot to the south-east (annexation of Halych-Volhynia by 1349) sets the eastern expansion trajectory of the late medieval Polish state.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

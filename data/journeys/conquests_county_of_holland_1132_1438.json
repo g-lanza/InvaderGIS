@@ -1,0 +1,50 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_county_of_holland_1132_1438",
+  "name": "County of Holland — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1132,
+  "year_end": 1438,
+  "waypoints": [
+    {
+      "year": 1132,
+      "place": "West-Frisian Wars",
+      "coords": [
+        52.16,
+        4.49
+      ],
+      "note": "military",
+      "event_id": "wd_west_frisian_wars_1132"
+    },
+    {
+      "year": 1345,
+      "place": "Battle of Warns",
+      "coords": [
+        52.16,
+        4.49
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_warns_1345"
+    },
+    {
+      "year": 1438,
+      "place": "Dutch–Hanseatic War",
+      "coords": [
+        52.7267,
+        9.3
+      ],
+      "note": "military",
+      "event_id": "wd_dutch_hanseatic_war_1438"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_second_battle_of_athenry_1316",
+  "name": "Second Battle of Athenry",
+  "subtype": "battle",
+  "start_year": 1316,
+  "end_year": 1316,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q4141460"
+    }
+  },
+  "description": "Battle during Bruce campaign in Ireland (1316)",
+  "coords": [
+    -8.748,
+    53.3105
+  ]
+}

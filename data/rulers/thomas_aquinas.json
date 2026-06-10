@@ -1,0 +1,37 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "thomas_aquinas",
+  "name": "Thomas Aquinas",
+  "polity": "",
+  "title": "theologian",
+  "reign_start": 0,
+  "reign_end": null,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 1225,
+      "death_year": 1274
+    },
+    "entity_associations": [],
+    "key_actions": [
+      {
+        "year": 1265,
+        "event": "Begins Summa Theologiae at Rome."
+      },
+      {
+        "year": 1274,
+        "event": "Dies en route to Council of Lyon."
+      }
+    ],
+    "region": "italy",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "marenbon_later_medieval_philosophy_1991",
+      "pieper_scholasticism_1960"
+    ],
+    "confidence": "low"
+  }
+}

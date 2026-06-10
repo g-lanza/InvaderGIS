@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "viking_settlement_russia_862_2",
+  "name": "Rurik Founds Novgorod, Rus State Origins",
+  "year": 862,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    58.52,
+    31.27
+  ],
+  "entity": "kievan_rus",
+  "summary": "Rurik, a Varangian leader from Sweden, is invited by Slavic tribes to rule Novgorod, ending tribal quarrels by accepting outside mediation. The Primary Chronicle records that the Slavs said 'our land is great and rich but there is no order in it; come and rule over us.' Whether historical or legendary, Rurik's arrival marks the foundation of the Rurikid dynasty that rules Russia until 1598.",
+  "outcomes": [
+    "novgorod_founded",
+    "rurik_dynasty_begins",
+    "rus_state_established"
+  ],
+  "_quarry": {
+    "participants": [
+      "kievan_rus"
+    ],
+    "structural_significance": "The Rurik story encodes the Norse contribution to Russian state formation; the 'invitation' narrative (rather than conquest) gives Russian political tradition a voluntary element that distinguishes it from Norman conquest models; the Rurikid dynasty's extraordinary longevity (736 years) creates the dynastic continuity that shapes Russian political culture; the transition from Varangian (Norse) to Slavic cultural identity within the dynasty models how immigrant elites assimilate into host cultures",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "franklin_the_1996",
+      "riasanovsky_a_2000",
+      "martin_medieval_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_champagne_fairs_network",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "county_of_champagne",
+      "role": "principal"
+    },
+    {
+      "entity_id": "county_of_flanders",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "cultural_exchange",
+  "since": 1150,
+  "until": 1284,
+  "note": "The Champagne Fairs (held at Troyes, Provins, Lagny, and Bar-sur-Aube on a rotating annual calendar) were the premier commercial exchange in northern Europe from the late 11th to early 14th centuries. Italian merchants (especially Genoese and Venetian) brought Mediterranean luxury goods and letters of credit; Flemish and English merchants brought wool and cloth; northern European merchants brought furs and metalwork. The fairs' sophisticated financial instruments — bills of exchange, forward contracts, standardized units of account (the 'money of Champagne') — created the foundations of European commercial finance. Genoese-Venetian sea routes (from c. 1277) gradually bypassed the overland Champagne route.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Champagne Fairs are the crucible of medieval European commercial finance; the bills of exchange, letters of credit, and standardized accounting developed at the fairs become the foundations of Italian banking; the fairs' decline (after 1300) transfers commercial leadership to the Italian banking houses in Bruges, London, and Avignon"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

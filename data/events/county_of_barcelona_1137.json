@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "county_of_barcelona_1137",
+  "name": "Barcelona Unites with Aragon",
+  "year": 1137,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.55,
+    1.35
+  ],
+  "entity": "county_of_barcelona",
+  "summary": "The marriage of Petronilla of Aragon and Ramon Berenguer IV of Barcelona in 1137 created the dynastic union that became the Crown of Aragon. Though nominally joined to the Kingdom of Aragon, the County of Barcelona and its Catalan culture dominated the new composite monarchy, which would build a Mediterranean empire.",
+  "outcomes": [
+    "crown_of_aragon",
+    "catalan_aragonese_power",
+    "mediterranean_empire"
+  ],
+  "_quarry": {
+    "participants": [
+      "county_of_barcelona",
+      "crown_of_aragon"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

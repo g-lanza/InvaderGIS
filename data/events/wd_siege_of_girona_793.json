@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_girona_793",
+  "name": "Siege of Girona",
+  "year": 793,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    43.45,
+    -0.65
+  ],
+  "entity": "merovingian_kingdom",
+  "summary": "Siege of Girona (793 CE), at Girona (part of Carolingian conquest of the Spanish March). Source: Wikidata Q11949532.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "merovingian_kingdom",
+      "umayyad_emirate_cordoba"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wood_the_1994",
+      "geary_before_1988"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "almohad_caliphate_iberia",
+  "name": "Marrakesh",
+  "entity_id": "almohad_caliphate_iberia",
+  "entity_name": "Almohad rule in al-Andalus",
+  "start_year": 1147,
+  "end_year": 1238,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q199688"
+    }
+  },
+  "coords": [
+    -7.98108,
+    31.62947
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_kingdom_of_sicily_norman_1039_1429",
+  "statement": "Norman Kingdom of Sicily — campaigns and battles spanned 1039–1429, from Byzantine–Norman Wars to Siege of Malta.",
+  "subject_ids": [
+    "kingdom_of_sicily_norman"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_kingdom_of_sicily_norman_1039_1429",
+  "period": {
+    "from": 1039,
+    "to": 1429
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

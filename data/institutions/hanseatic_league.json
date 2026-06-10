@@ -1,0 +1,41 @@
+{
+  "kind": "institution",
+  "dataset": "medieval-europe-500-1500",
+  "id": "hanseatic_league",
+  "name_primary": "Hanseatic League",
+  "domain": "trade_league",
+  "formed": 1356,
+  "dissolved": 1500,
+  "_quarry": {
+    "key_developments": [
+      {
+        "year": 1241,
+        "event": "Lübeck-Hamburg trade alliance — proto-Hanseatic agreement."
+      },
+      {
+        "year": 1356,
+        "event": "First Hansetag (Hanseatic Diet) at Lübeck formalises the League."
+      },
+      {
+        "year": 1370,
+        "event": "Treaty of Stralsund: Denmark grants the League sweeping trade privileges."
+      },
+      {
+        "year": 1494,
+        "event": "Ivan III closes the Novgorod Kontor; Russian trade collapses."
+      }
+    ],
+    "influences_entities": [
+      "holy_roman_empire",
+      "kingdom_of_denmark",
+      "kingdom_of_sweden",
+      "principality_of_novgorod"
+    ],
+    "description": "A confederation of north German merchant towns and their trading posts (Kontore) across the North Sea and Baltic — Lübeck, Hamburg, Bremen, Cologne, Danzig, Bergen, Novgorod, London. Formally constituted at the Diet of Lübeck in 1356, the League dominated Baltic trade through the 14th and 15th centuries and could wage war as a corporate body (war against Denmark 1361–1370, Treaty of Stralsund 1370 cemented its commercial supremacy)."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

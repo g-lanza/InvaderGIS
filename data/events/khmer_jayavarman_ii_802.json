@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "khmer_jayavarman_ii_802",
+  "name": "Jayavarman II Founds Khmer Empire",
+  "year": 802,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    11.723,
+    104.06
+  ],
+  "entity": "khmer_empire",
+  "summary": "Jayavarman II performed a ceremony on Phnom Kulen proclaiming himself universal monarch (chakravartin) and ending Javanese suzerainty. He established the god-king (devaraja) cult that linked royal legitimacy to Shiva, the ideological basis of Angkorian kingship.",
+  "outcomes": [
+    "khmer_empire_founded",
+    "devaraja_cult",
+    "javanese_suzerainty_ended"
+  ],
+  "_quarry": {
+    "participants": [
+      "khmer_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

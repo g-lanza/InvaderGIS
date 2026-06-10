@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_bardi_peruzzi_collapse_1345_c02",
+  "statement": "The collapse of the Bardi and Peruzzi banks triggered cascade failures among smaller Florentine houses.",
+  "subject_ids": [
+    "republic_of_florence"
+  ],
+  "period": {
+    "from": 1345,
+    "to": 1345
+  },
+  "derived_from": "bardi_peruzzi_collapse_1345",
+  "unresolved_sources": [
+    "najemy_a_2006"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

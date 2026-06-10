@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_st_matthew_s_day_1217",
+  "name": "Battle of St. Matthew's Day",
+  "subtype": "battle",
+  "start_year": 1217,
+  "end_year": 1217,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1082410"
+    }
+  },
+  "description": "Battle during Northern Crusades (1217)",
+  "coords": [
+    25.5956,
+    58.3633
+  ]
+}

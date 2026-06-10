@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_adrianople_1205",
+  "name": "Battle of Adrianople",
+  "year": 1205,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41,
+    28.9
+  ],
+  "entity": "latin_empire_constantinople",
+  "summary": "Battle of Adrianople (1205 CE), at Edirne (part of Byzantine–Bulgarian Wars). Source: Wikidata Q1427630.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "latin_empire_constantinople"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

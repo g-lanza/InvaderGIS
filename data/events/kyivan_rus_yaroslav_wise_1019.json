@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kyivan_rus_yaroslav_wise_1019",
+  "name": "Yaroslav the Wise, Kievan Rus Golden Age",
+  "year": 1019,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    50.4,
+    30.5
+  ],
+  "entity": "kievan_rus",
+  "summary": "Yaroslav the Wise codified Russian law (Russkaya Pravda), built the Cathedral of Hagia Sophia in Kiev, and married his children to royal families across Europe. Kiev's population may have reached 50,000-100,000, larger than Paris or London.",
+  "outcomes": [
+    "russkaya_pravda",
+    "hagia_sophia_kiev",
+    "dynastic_marriages_europe"
+  ],
+  "_quarry": {
+    "participants": [
+      "kievan_rus"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "franklin_the_1996",
+      "riasanovsky_a_2000",
+      "martin_medieval_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

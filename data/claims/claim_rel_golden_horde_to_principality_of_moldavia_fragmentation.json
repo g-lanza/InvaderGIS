@@ -1,0 +1,29 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_golden_horde_to_principality_of_moldavia_fragmentation",
+  "statement": "Derived from predecessor/successor links recorded in the golden_horde and principality_of_moldavia entity records. Transition anchored to principality_of_moldavia start_year.",
+  "subject_ids": [
+    "golden_horde",
+    "principality_of_moldavia"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_golden_horde_to_principality_of_moldavia_fragmentation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "allsen_mongol_1987",
+      "treptow_a_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "principality_of_moldavia"
+  ],
+  "period": {
+    "from": 1346,
+    "to": 1346
+  }
+}

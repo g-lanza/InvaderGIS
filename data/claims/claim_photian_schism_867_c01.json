@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_photian_schism_867_c01",
+  "statement": "Patriarch Photius of Constantinople convened a council in 867 that excommunicated Pope Nicholas I.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 867,
+    "to": 867
+  },
+  "derived_from": "photian_schism_867",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "meyendorff_byzantium_and_rise_of_russia_1981",
+      "kazhdan_oxford_dictionary_byzantium_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

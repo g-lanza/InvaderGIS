@@ -1,0 +1,156 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "muromachi_shogunate",
+  "name_primary": "Muromachi Shogunate",
+  "name_variants": [
+    "Ashikaga Shogunate",
+    "Muromachi bakufu",
+    "室町幕府"
+  ],
+  "type": "kingdom",
+  "region": "east_asia",
+  "formed": 1336,
+  "dissolved": 1573,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    35.01,
+    135.76
+  ],
+  "population_estimates": [
+    {
+      "year": 1400,
+      "estimate": 9000000,
+      "confidence": "low",
+      "note": "Japanese demography is poorly documented in this period; estimates vary widely."
+    },
+    {
+      "year": 1500,
+      "estimate": 12000000,
+      "confidence": "low",
+      "note": "Pre-Sengoku-collapse aggregate; Ōnin War destruction concentrated in the capital region."
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Second Japanese shogunate (1336–1573), founded by Ashikaga Takauji after he turned against Emperor Go-Daigo's Kenmu Restoration and established a rival imperial line in Kyoto; the early Ashikaga period was defined by the Nanboku-chō split (1336–1392) between the Northern Court at Kyoto and the Southern Court at Yoshino, resolved when the third shogun Ashikaga Yoshimitsu negotiated the reunification of the imperial lines and built the Kinkaku-ji (Golden Pavilion); the mid-15th century saw a high cultural flowering, Zen monastery influence, the Higashiyama culture of the eighth shogun Yoshimasa, the Ginkaku-ji (Silver Pavilion), tea ceremony and noh theatre take shape, followed by the catastrophic Ōnin War (1467–1477) that destroyed Kyoto and inaugurated the Sengoku (Warring States) period during which the bakufu's central authority collapsed even as Ashikaga shoguns continued to nominally hold the title; within the atlas's 1500 horizon the shogunate is mid-Sengoku, in name only.",
+  "temporal": {
+    "start_year": 1336,
+    "end_year": 1573,
+    "end_year_within_scope": 1500,
+    "notes": "Founded by Ashikaga Takauji after the Kenmu Restoration; named for the Muromachi district of Kyoto where the third shogun moved the bakufu palace; ruled to 1573, beyond the atlas's 1500 horizon."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      35.01,
+      135.76
+    ],
+    "core_regions": [
+      "east_asia"
+    ],
+    "capital": {
+      "name": "Kyoto",
+      "coords": [
+        35.0116,
+        135.7681
+      ],
+      "source": "wikidata"
+    }
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "foundation",
+      "years": "1336–1392",
+      "description": "Ashikaga Takauji breaks with Emperor Go-Daigo, establishes a rival emperor in Kyoto (Northern Court); the Southern Court at Yoshino contests legitimacy until reunification under Yoshimitsu in 1392."
+    },
+    {
+      "phase": "imperial_apogee",
+      "years": "1392–1441",
+      "description": "Ashikaga Yoshimitsu unifies the imperial courts (1392), accepts the title 'King of Japan' from Ming China, builds Kinkaku-ji; Zen Buddhism and tea culture flourish."
+    },
+    {
+      "phase": "consolidation",
+      "years": "1441–1467",
+      "description": "Higashiyama culture under Yoshimasa; Ginkaku-ji (Silver Pavilion) built; shugo daimyō become more autonomous in the provinces; central bakufu finance and authority erode."
+    },
+    {
+      "phase": "crisis",
+      "years": "1467–1500",
+      "description": "Ōnin War (1467–1477) destroys Kyoto and triggers the Sengoku period; central authority disintegrates while shoguns remain nominally in office; the bakufu's actual power survives only in the Kinai region around the capital."
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Ashikaga Takauji",
+      "role": "shogun",
+      "years": "1338–1358",
+      "year_start": 1338,
+      "year_end": 1358
+    },
+    {
+      "name": "Ashikaga Yoshimitsu",
+      "role": "shogun",
+      "years": "1368–1394",
+      "year_start": 1368,
+      "year_end": 1394
+    },
+    {
+      "name": "Ashikaga Yoshimasa",
+      "role": "shogun",
+      "years": "1449–1473",
+      "year_start": 1449,
+      "year_end": 1473
+    }
+  ],
+  "predecessor_entity_ids": [
+    "kamakura_shogunate"
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "manorial_estates",
+      "maritime_trade",
+      "manufacturing"
+    ],
+    "wealth_level": "moderate",
+    "major_exports": [
+      "swords",
+      "silver",
+      "copper",
+      "sulphur"
+    ],
+    "major_trade_partners": [
+      "ming_dynasty",
+      "korea",
+      "ryukyu_kingdom"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "manorial_dues",
+      "tally_trade"
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q1154406",
+    "matched_name": "manual/muromachi_shogunate",
+    "enrichment_date": "2026-05-24",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ashikaga_shogunate",
+    "capital": {
+      "name": "Kyoto",
+      "coords": [
+        35.0116,
+        135.7681
+      ]
+    },
+    "predecessors_from_wikidata": [
+      "Kamakura shogunate"
+    ]
+  },
+  "monogram": "MS"
+}

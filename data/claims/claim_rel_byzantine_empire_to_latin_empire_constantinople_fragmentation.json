@@ -1,0 +1,32 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_byzantine_empire_to_latin_empire_constantinople_fragmentation",
+  "statement": "Derived from predecessor/successor links recorded in the byzantine_empire and latin_empire_constantinople entity records. Transition anchored to latin_empire_constantinople start_year.",
+  "subject_ids": [
+    "byzantine_empire",
+    "latin_empire_constantinople"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_byzantine_empire_to_latin_empire_constantinople_fragmentation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "latin_empire_constantinople"
+  ],
+  "period": {
+    "from": 1204,
+    "to": 1204
+  }
+}

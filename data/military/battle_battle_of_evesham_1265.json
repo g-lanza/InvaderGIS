@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_evesham_1265",
+  "name": "Battle of Evesham",
+  "subtype": "battle",
+  "start_year": 1265,
+  "end_year": 1265,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1339928"
+    }
+  },
+  "description": "Battle during Second Barons' War (1265)",
+  "coords": [
+    -1.9461,
+    52.1081
+  ]
+}

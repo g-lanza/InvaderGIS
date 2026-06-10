@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "fall_granada_1492",
+  "name": "Fall of Granada",
+  "year": 1492,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    37.18,
+    -3.6
+  ],
+  "entity": "emirate_of_granada",
+  "summary": "On January 2, 1492, Muhammad XII (Boabdil), the last Nasrid sultan of Granada, surrenders the keys of the Alhambra to Ferdinand and Isabella of Castile and Aragon. The final campaign (1482–1492) used superior artillery to reduce Granada's mountain fortresses one by one; the loss of Málaga (1487) cut Granada off from Moroccan reinforcement. Boabdil's surrender reportedly prompted him to weep while looking back at the Alhambra; his mother is said to have reproached him with 'You weep like a woman for what you could not defend as a man.' The Catholic Monarchs then immediately expel the Jews (Alhambra Decree, March 31, 1492) and commission Columbus's first voyage.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "emirate_of_granada",
+      "crown_of_castile"
+    ],
+    "structural_significance": "Ends 781 years of Islamic political presence in Iberia; unifies Spain under the Catholic Monarchs; creates the ideological and financial conditions for the Spanish overseas empire",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "harvey_islamic_1990",
+      "fernández-puertas_the_1997"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

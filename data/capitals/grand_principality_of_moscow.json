@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "grand_principality_of_moscow",
+  "name": "Moscow",
+  "entity_id": "grand_principality_of_moscow",
+  "entity_name": "Grand Principality of Moscow",
+  "start_year": 1283,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q170770"
+    }
+  },
+  "coords": [
+    37.6175,
+    55.75056
+  ]
+}

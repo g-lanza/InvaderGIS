@@ -1,0 +1,47 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wu_zetian",
+  "name": "Wu Zetian",
+  "polity": "tang_dynasty",
+  "title": "empress_consort_then_regnant",
+  "reign_start": 655,
+  "reign_end": 705,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 624,
+      "death_year": 705
+    },
+    "entity_associations": [
+      {
+        "entity_id": "tang_dynasty",
+        "role": "empress_consort_then_regnant",
+        "start_year": 655,
+        "end_year": 705
+      }
+    ],
+    "key_actions": [
+      {
+        "year": 683,
+        "event": "Becomes empress dowager after Gaozong's death; effectively rules."
+      },
+      {
+        "year": 690,
+        "event": "Founds her own Zhou dynasty; only woman to formally rule China as emperor."
+      },
+      {
+        "year": 705,
+        "event": "Forced to abdicate; Tang restored."
+      }
+    ],
+    "region": "east_asia",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "twitchett_cambridge_history_china_v3_1979"
+    ],
+    "confidence": "low"
+  }
+}

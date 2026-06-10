@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_penrhos_castle_1251",
+  "name": "Battle of Penrhos Castle",
+  "subtype": "battle",
+  "start_year": 1251,
+  "end_year": 1251,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q61403655"
+    }
+  },
+  "description": "Battle during Norman Invasion of Wales (1251)",
+  "coords": [
+    -2.8581,
+    51.814
+  ]
+}

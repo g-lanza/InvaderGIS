@@ -1,0 +1,42 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "champagne_fairs_1100s",
+  "name": "Champagne Fairs, Medieval International Commerce",
+  "year": 1150,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    48.3,
+    4.08
+  ],
+  "entity": "county_of_champagne",
+  "summary": "The Champagne Fairs, six annual trade fairs at Troyes, Provins, Bar-sur-Aube, and Lagny, become the commercial center of western Europe. Italian merchants (Genoese, Venetian, Florentine) meet Flemish cloth merchants and German buyers in a regulated fair cycle that runs nearly year-round. The counts of Champagne guarantee merchants' safety and enforce contracts; the fair courts develop commercial law; letters of credit (lettres de foire) enable large transactions without moving physical currency.",
+  "outcomes": [
+    "international_trading_system_established",
+    "commercial_law_developed",
+    "letters_of_credit_normalized"
+  ],
+  "_quarry": {
+    "participants": [
+      "county_of_champagne",
+      "kingdom_of_france",
+      "republic_of_genoa",
+      "republic_of_venice"
+    ],
+    "structural_significance": "The Champagne Fairs create the first integrated European commercial market; Italian banking techniques (double-entry bookkeeping, bills of exchange, commercial credit) spread northward through the fairs; their decline (after 1300, as Genoese galley routes to Bruges replace overland routes) illustrates how commercial geography changes with transport technology; the fairs' legal innovations form the basis of European commercial law",
+    "year_range": [
+      1100,
+      1300
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

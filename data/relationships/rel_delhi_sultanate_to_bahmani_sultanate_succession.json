@@ -1,0 +1,35 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_delhi_sultanate_to_bahmani_sultanate_succession",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "delhi_sultanate",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "bahmani_sultanate",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 1347,
+  "until": 1347,
+  "note": "Derived from predecessor/successor links recorded in the delhi_sultanate and bahmani_sultanate entity records. Transition anchored to bahmani_sultanate start_year.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Mechanical normalisation of curated predecessor/successor links into the relationships register."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "jackson_the_1999",
+      "kumar_the_2007"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

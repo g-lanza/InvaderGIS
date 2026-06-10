@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "chaucer_canterbury_tales_1387",
+  "name": "Chaucer's Canterbury Tales, English Literary Identity",
+  "year": 1387,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    51.28,
+    1.08
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Geoffrey Chaucer begins the Canterbury Tales (c. 1387), a frame narrative in which pilgrims from all social classes tell stories on the road to Canterbury. Written in Middle English rather than French (the prestige language of the English court since 1066), the Tales satirize clergy, knights, merchants, and peasants with equal irreverence. The work establishes English as a literary language worthy of French or Italian.",
+  "outcomes": [
+    "middle_english_literary_language",
+    "social_satire_across_classes",
+    "english_identity_articulated"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england"
+    ],
+    "structural_significance": "Chaucer's decision to write in English (rather than French or Latin) is as consequential for England as Dante's for Italy; the Canterbury Tales' social panorama, from knight to miller, creates a vision of English society in which all classes participate in the national story; the work demonstrates that the vernacular can sustain complex literary forms, directly inspiring Shakespeare and subsequent English literature; Chaucer writes during the period when English replaces French in English courts and law",
+    "year_range": [
+      1387,
+      1400
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

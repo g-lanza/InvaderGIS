@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_santar_m_1171",
+  "name": "Siege of Santarém",
+  "year": 1171,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.7,
+    -5.8667
+  ],
+  "entity": "kingdom_of_portugal",
+  "summary": "Siege of Santarém (1171 CE), at Santarém (part of Almohad wars in the Iberian Peninsula). Source: Wikidata Q130272607.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_portugal",
+      "kingdom_of_leon",
+      "almohad_caliphate_iberia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

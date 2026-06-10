@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_kingdom_of_ulster_637_c01",
+  "statement": "The Battle of Moira in 637 CE was one of the largest battles in early medieval Irish history.",
+  "subject_ids": [
+    "kingdom_of_ulster"
+  ],
+  "period": {
+    "from": 637,
+    "to": 637
+  },
+  "derived_from": "kingdom_of_ulster_637",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

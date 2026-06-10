@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_naxos_1383",
+  "name": "Duchy Passes to Crispo Family",
+  "year": 1383,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.25,
+    18.835
+  ],
+  "entity": "duchy_of_naxos",
+  "summary": "The Crispo family inherited the Duchy of Naxos in 1383, continuing Latin rule but facing growing Ottoman pressure. The duchy survived as an Ottoman vassal after 1537, paying tribute while maintaining relative autonomy until its final absorption into the Ottoman Empire in 1579.",
+  "outcomes": [
+    "crispo_dynasty",
+    "ottoman_pressure_begins",
+    "aegean_equilibrium_shifts"
+  ],
+  "_quarry": {
+    "participants": [
+      "duchy_of_naxos",
+      "republic_of_venice"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

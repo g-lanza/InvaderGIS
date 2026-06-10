@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "boccaccio_decameron_1351",
+  "name": "Boccaccio's Decameron, Black Death Literature",
+  "year": 1351,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    43.77,
+    11.25
+  ],
+  "entity": "republic_of_florence",
+  "summary": "Giovanni Boccaccio writes the Decameron (1348-1353), 100 novellas told by seven young women and three men sheltering from the Black Death in a Florentine villa. The tales are frankly secular, often erotic, satirizing clergy and celebrating human wit and desire. The Decameron is the first major work of Italian secular prose narrative and directly influences Chaucer (Canterbury Tales) and Shakespeare.",
+  "outcomes": [
+    "plague_framing_device",
+    "secular_literature",
+    "human_nature_examined"
+  ],
+  "_quarry": {
+    "participants": [
+      "republic_of_florence"
+    ],
+    "structural_significance": "The Decameron represents the literary response to the Black Death's challenge to religious authority; if God failed to prevent the plague's indiscriminate killing of good and bad alike, secular human enjoyment and cleverness become valid responses to mortality; the work's frank celebration of human sexuality and worldly intelligence contrasts sharply with the penitential religious culture that the plague otherwise promoted; Boccaccio's secular framework for storytelling creates the template for European prose fiction",
+    "year_range": [
+      1348,
+      1353
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "najemy_a_2006",
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

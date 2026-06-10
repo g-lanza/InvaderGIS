@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_belgrade_1071",
+  "name": "Siege of Belgrade",
+  "year": 1071,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    43.75,
+    29.45
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Siege of Belgrade (1071 CE), at Belgrade (part of Byzantine–Hungarian War). Source: Wikidata Q138005970.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "pecheneg_confederation"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

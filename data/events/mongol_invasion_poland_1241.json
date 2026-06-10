@@ -1,0 +1,43 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "mongol_invasion_poland_1241",
+  "name": "Mongol Invasion of Poland",
+  "year": 1241,
+  "type": "conquest",
+  "category": "violence",
+  "coords": [
+    50.06,
+    19.94
+  ],
+  "entity": "mongol_empire",
+  "summary": "A Mongol northern detachment under Baidar and Kadan invades Poland in late 1240, sacking Kraków (March 1241, whose population had fled), defeating a Polish force at Chmielnik, and annihilating the combined Polish-German-Teutonic army at Legnica (April 9, 1241). The Mongols then sweep through Moravia and Silesia, ravaging systematically. They halt only when news arrives of Great Khan Ögedei's death (December 1241), requiring the western princes to return east for the kurultai (succession council). Poland's population loss may have been 25% in worst-affected regions.",
+  "outcomes": [
+    "krakow_sacked",
+    "silesia_devastated",
+    "mongols_withdraw_after_ogedei_death"
+  ],
+  "_quarry": {
+    "participants": [
+      "mongol_empire",
+      "kingdom_of_poland_piast",
+      "holy_roman_empire",
+      "teutonic_order_state"
+    ],
+    "structural_significance": "Despite the military catastrophe, Poland survives as a political entity due to Ögedei's fortuitous death; the destruction accelerates demographic shifts, Jewish immigration westward from Russia, and German colonization (Ostsiedlung) of depopulated regions; the Mongol threat shapes Polish military organization and castle-building for generations",
+    "year_range": [
+      1241,
+      1242
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

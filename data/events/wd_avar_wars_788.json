@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_avar_wars_788",
+  "name": "Avar Wars",
+  "year": 788,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    48,
+    11.5
+  ],
+  "entity": "avar_khaganate",
+  "summary": "Avar Wars (788 CE). Source: Wikidata Q3119173.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "avar_khaganate",
+      "merovingian_kingdom"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

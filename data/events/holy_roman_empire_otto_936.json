@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "holy_roman_empire_otto_936",
+  "name": "Otto I's Coronation and the Empire's Foundational Moment",
+  "year": 936,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    50.75,
+    6.09
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Otto I is crowned at Aachen in a ceremony deliberately evoking Charlemagne, establishing the Ottonian dynasty's claim to Carolingian succession. Over his reign, Otto develops the Reichskirchensystem, using bishops and abbots as royal administrators, endowing them with land and public functions while appointing them through royal investiture. His victory over the Magyars at Lechfeld (955) and his Roman imperial coronation (962) create the Holy Roman Empire.",
+  "outcomes": [
+    "ottonian_dynasty_consolidates",
+    "bishops_made_imperial_administrators",
+    "reichskirchensystem_begins"
+  ],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "east_francia"
+    ],
+    "structural_significance": "Otto's reign establishes the fundamental tension of the Holy Roman Empire: the Reichskirchensystem gives the emperor administrative reach throughout Germany but requires controlling episcopal appointments, the very issue the papacy challenges in the Investiture Controversy; the empire's dual nature (German kingdom plus Roman imperial pretension) creates structural conflicts between German territorial ambition and Italian imperial authority that persist until the empire's dissolution in 1806",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_vasilev_995",
+  "name": "Battle of Vasilev",
+  "year": 995,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    48.45,
+    30.25
+  ],
+  "entity": "pecheneg_confederation",
+  "summary": "Battle of Vasilev (995 CE), at Vasylkiv (part of Rus'-Pecheneg Wars). Source: Wikidata Q19692188.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "pecheneg_confederation",
+      "kievan_rus"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "liao",
+  "name": "Zhongjing",
+  "entity_id": "liao",
+  "entity_name": "Liao Dynasty",
+  "start_year": 907,
+  "end_year": 1125,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q4958"
+    }
+  },
+  "coords": [
+    119.15556,
+    41.56972
+  ]
+}

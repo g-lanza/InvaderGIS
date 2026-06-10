@@ -1,0 +1,31 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_moscow_pskov_annexation",
+  "statement": "Vasili III of Moscow annexed the Republic of Pskov (1510) by summoning its posadniki (mayors) to Moscow, arresting them, and abolishing the veche (popular assembly). Pskov — which had maintained republican self-government like Novgorod, though less wealthy — had been a loyal ally of Moscow against Novgorod and the Teutonic Order. Its annexation completed Moscow's control of northwestern Russia. Three hundred Pskovian noble families were deported and replaced with Muscovite settlers, following the same pattern used in Novgorod (1478).",
+  "subject_ids": [
+    "principality_of_pskov",
+    "grand_principality_of_moscow"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_moscow_pskov_annexation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "halperin_russia_1985",
+      "fennell_the_1983",
+      "ostrowski_muscovy_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "grand_principality_of_moscow"
+  ],
+  "period": {
+    "from": 1348,
+    "to": 1348
+  }
+}

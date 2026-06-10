@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_dubravnica_1380",
+  "name": "Battle of Dubravnica",
+  "year": 1380,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41,
+    28.9
+  ],
+  "entity": "ottoman_empire",
+  "summary": "Battle of Dubravnica (1380 CE), (part of Ottoman Wars in Europe). Source: Wikidata Q700880.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "ottoman_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_republic_of_florence_1260_1479",
+  "statement": "Republic of Florence — campaigns and battles spanned 1260–1479, from Siena Defeats Florence at Montaperti to Battle of Poggio Imperiale.",
+  "subject_ids": [
+    "republic_of_florence"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_republic_of_florence_1260_1479",
+  "period": {
+    "from": 1260,
+    "to": 1479
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "najemy_a_2006",
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

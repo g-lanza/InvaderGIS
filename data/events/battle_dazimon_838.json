@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_dazimon_838",
+  "name": "Battle of Dazimon, Abbasid Invasion of Anatolia",
+  "year": 838,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    39.05,
+    31.52
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Caliph al-Mutasim leads a major Abbasid offensive into Anatolia in response to Emperor Theophilus's raids into Syria. The Byzantine army is defeated at Dazimon (near the Halys River), and the Abbasid forces sack Amorium, the birthplace of the Amorian dynasty and among the most important Byzantine cities. The sack of Amorium is a propaganda disaster for Theophilus and prompts diplomatic missions to the Carolingians seeking an alliance.",
+  "outcomes": [
+    "amorium_sacked",
+    "byzantine_army_defeated",
+    "abbasid_deep_penetration_anatolia"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "abbasid_caliphate"
+    ],
+    "structural_significance": "Amorium's sack (838) is one of the greatest disasters of the Byzantine-Abbasid border wars; it spurs Byzantine military reform under Basil I and contributes to the Macedonian dynasty's military recovery; the raids also demonstrate the strategic depth of Byzantine frontier defenses, even major defeats cannot force a decisive outcome because of the empire's institutional resilience",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

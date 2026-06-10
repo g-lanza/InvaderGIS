@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_peace_of_lodi_1454_c02",
+  "statement": "The Peace of Lodi recognized Francesco Sforza as Duke of Milan.",
+  "subject_ids": [
+    "duchy_of_milan"
+  ],
+  "period": {
+    "from": 1454,
+    "to": 1454
+  },
+  "derived_from": "peace_of_lodi_1454",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

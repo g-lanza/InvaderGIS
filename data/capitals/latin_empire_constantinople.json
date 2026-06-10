@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "latin_empire_constantinople",
+  "name": "Constantinople",
+  "entity_id": "latin_empire_constantinople",
+  "entity_name": "Latin Empire of Constantinople",
+  "start_year": 1204,
+  "end_year": 1261,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q178897"
+    }
+  },
+  "coords": [
+    28.97602,
+    41.01224
+  ]
+}

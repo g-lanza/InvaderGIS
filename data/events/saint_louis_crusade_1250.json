@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "saint_louis_crusade_1250",
+  "name": "Capture of Louis IX, Egypt Crusade Disaster",
+  "year": 1250,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    30.87,
+    31.39
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "King Louis IX of France leads the Seventh Crusade against Egypt. After initial success (capturing Damietta in 1249), the French army is destroyed by Mamluk forces at the Battle of Al Mansurah; the king himself is captured in April 1250. He is ransomed for 800,000 gold bezants, an enormous sum, and spends years in the Holy Land strengthening Crusader fortifications before returning to France. His capture occurs during the Mamluk coup that replaces the Ayyubids.",
+  "outcomes": [
+    "french_army_destroyed",
+    "louis_ix_captured",
+    "enormous_ransom_paid"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "mamluk_sultanate",
+      "ayyubid_sultanate"
+    ],
+    "structural_significance": "The Seventh Crusade's failure demonstrates that the Egyptian approach to the Holy Land is strategically sound but tactically catastrophic without naval superiority; Louis's personal capture galvanizes French crusading piety and establishes his reputation as the ideal Christian king (he is canonized in 1297); the huge ransom strengthens France financially through increased royal taxation, which Louis uses to build royal infrastructure",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_kingdom_of_jerusalem_1097_1291",
+  "statement": "Kingdom of Jerusalem — campaigns and battles spanned 1097–1291, from Battle of Dorylaeum to Siege of Acre.",
+  "subject_ids": [
+    "kingdom_of_jerusalem"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_kingdom_of_jerusalem_1097_1291",
+  "period": {
+    "from": 1097,
+    "to": 1291
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

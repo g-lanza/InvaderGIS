@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_habsburg_rise_1273_c03",
+  "statement": "Rudolf granted Austria and Styria to his sons, establishing the hereditary territorial base of Habsburg power.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1273,
+    "to": 1273
+  },
+  "derived_from": "habsburg_rise_1273",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

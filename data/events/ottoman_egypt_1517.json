@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ottoman_egypt_1517",
+  "name": "Ottoman Conquest of Egypt and the Caliphate",
+  "year": 1517,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    30.1,
+    31.4
+  ],
+  "entity": "ottoman_empire",
+  "summary": "Sultan Selim I defeats the Mamluk Sultan Tumanbay at the Battle of Ridaniyya with artillery the Mamluks refused to use. Egypt, Syria, and the Hejaz (with Mecca and Medina) pass to Ottoman control. The last Abbasid caliph of Cairo transfers the caliphate to Selim, giving the Ottoman sultans a powerful religious legitimacy claim.",
+  "outcomes": [
+    "mamluk_sultanate_destroyed",
+    "ottoman_caliphate_claim",
+    "holy_cities_controlled"
+  ],
+  "_quarry": {
+    "participants": [
+      "ottoman_empire",
+      "mamluk_sultanate"
+    ],
+    "structural_significance": "Completes Ottoman domination of the Arab world; control of the Holy Cities gives Ottoman sultans unrivaled Islamic prestige; the combination of military power, religious legitimacy, and commercial control makes the Ottoman Empire the dominant force in the Muslim world.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

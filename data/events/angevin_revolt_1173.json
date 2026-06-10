@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "angevin_revolt_1173",
+  "name": "Great Revolt against Henry II",
+  "year": 1173,
+  "type": "rebellion",
+  "category": "violence",
+  "coords": [
+    46.58,
+    0.34
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Henry II of England's three eldest sons, Henry the Young King, Richard (the future Lionheart), and Geoffrey, rebel simultaneously with the backing of King Louis VII of France, King William I of Scotland, and numerous English barons (1173–1174). The revolt was precipitated by Henry II's refusal to give his sons real power. Scotland invades from the north; rebel barons hold castles across England and Normandy. Henry II's rapid, skillful campaign captures King William of Scotland (1174); the rebellion collapses. Henry II forces his sons to submit at Montlouis, pardons them, but roots out the rebel barons.",
+  "outcomes": [
+    "angevin_princes_rebelled"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "kingdom_of_france"
+    ],
+    "structural_significance": "The most serious dynastic challenge to Henry II; demonstrates the Angevin Empire's internal fragility despite its surface power; the pattern of sons rebelling against their father recurs throughout the Angevin dynasty; Richard's later rebellion (1189) with Philip II finally destroys Henry II",
+    "year_range": [
+      1173,
+      1174
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

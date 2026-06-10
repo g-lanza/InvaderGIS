@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "siege_antioch_1098",
+  "name": "Siege of Antioch",
+  "year": 1098,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    36.2,
+    36.16
+  ],
+  "entity": "principality_of_antioch",
+  "summary": "The First Crusade besieges Antioch from October 1097 to June 1098, a seven-month siege that tests the crusaders to the breaking point. The city is taken through treachery (Bohemund bribed a guard). Three days after the crusaders capture Antioch, a relieving Turkish army arrives; the crusaders are now besieged inside the city they just captured, facing starvation. The miraculous discovery of the 'Holy Lance' (supposedly the spear that pierced Christ's side) inspires a sortie that routs the Turkish army (June 28, 1098). Bohemund keeps Antioch and founds the Principality of Antioch.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "principality_of_antioch",
+      "byzantine_empire"
+    ],
+    "structural_significance": "Creates the Principality of Antioch; demonstrates the tactical effectiveness of crusader morale even under extreme conditions; establishes the pattern of Crusader state formation from conquered cities",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "asbridge_the_2000",
+      "cahen_la_1940"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

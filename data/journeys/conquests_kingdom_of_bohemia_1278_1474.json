@@ -1,0 +1,110 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_kingdom_of_bohemia_1278_1474",
+  "name": "Kingdom of Bohemia — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1278,
+  "year_end": 1474,
+  "waypoints": [
+    {
+      "year": 1278,
+      "place": "Battle of Marchfeld",
+      "coords": [
+        48.3,
+        16.75
+      ],
+      "note": "battle",
+      "event_id": "battle_marchfeld_1278"
+    },
+    {
+      "year": 1278,
+      "place": "Battle of Marchfeld — Habsburg Defeats Bohemia",
+      "coords": [
+        48.39,
+        16.91
+      ],
+      "note": "battle",
+      "event_id": "premyslid_ottokar_1278"
+    },
+    {
+      "year": 1326,
+      "place": "Polish–Teutonic War of 1327–1332",
+      "coords": [
+        50.7667,
+        19.5667
+      ],
+      "note": "military",
+      "event_id": "wd_polish_teutonic_war_of_1327_1332_1326"
+    },
+    {
+      "year": 1337,
+      "place": "Edwardian War",
+      "coords": [
+        47.3691,
+        2.2482
+      ],
+      "note": "military",
+      "event_id": "wd_edwardian_war_1337"
+    },
+    {
+      "year": 1345,
+      "place": "Polish-Bohemian War of 1345–1348",
+      "coords": [
+        50.1,
+        14.4
+      ],
+      "note": "military",
+      "event_id": "wd_polish_bohemian_war_of_1345_1348_1345"
+    },
+    {
+      "year": 1403,
+      "place": "Siege of Suchdol",
+      "coords": [
+        50.1,
+        14.4
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_suchdol_1403"
+    },
+    {
+      "year": 1419,
+      "place": "Hussite Wars",
+      "coords": [
+        50.08,
+        14.42
+      ],
+      "note": "war",
+      "event_id": "hussite_wars_1419"
+    },
+    {
+      "year": 1420,
+      "place": "Battle of Vítkov — Hussite Military Revolution",
+      "coords": [
+        50.06,
+        14.44
+      ],
+      "note": "battle",
+      "event_id": "hussite_tabor_1420"
+    },
+    {
+      "year": 1474,
+      "place": "Silesian War (1474)",
+      "coords": [
+        49.2,
+        14.6333
+      ],
+      "note": "military",
+      "event_id": "wd_silesian_war_1474_1474"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

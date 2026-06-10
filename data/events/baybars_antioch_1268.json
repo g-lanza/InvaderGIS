@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "baybars_antioch_1268",
+  "name": "Baybars Destroys Antioch, End of the Crusader Principality",
+  "year": 1268,
+  "type": "conquest",
+  "category": "violence",
+  "coords": [
+    36.2,
+    36.16
+  ],
+  "entity": "mamluk_sultanate",
+  "summary": "Mamluk Sultan Baybars captures and systematically destroys Antioch in May 1268, killing or enslaving the entire population. Prince Bohemond VI is absent in Tripoli; Baybars writes him a letter sarcastically describing the destruction. Antioch, one of the original Crusader principalities, is completely eliminated; the city never recovers its former importance.",
+  "outcomes": [
+    "antioch_destroyed",
+    "crusader_principality_ends",
+    "baybars_consolidates_syria"
+  ],
+  "_quarry": {
+    "participants": [
+      "mamluk_sultanate",
+      "principality_of_antioch"
+    ],
+    "structural_significance": "Baybars's campaign demonstrates the Mamluk strategy of systematic elimination rather than gradual pressure; Antioch's destruction removes the northernmost Crusader state and exposes Tripoli; Baybars's military genius (also defeating the Mongols at Ain Jalut, 1260) makes him the most formidable opponent the Crusader states face; his letter to Bohemond is a masterpiece of psychological warfare, rubbing in the extent of the destruction in formal diplomatic language",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "irwin_the_1986",
+      "northrup_from_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

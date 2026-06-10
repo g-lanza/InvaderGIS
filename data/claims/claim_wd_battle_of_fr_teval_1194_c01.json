@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_fr_teval_1194_c01",
+  "statement": "Battle of Fréteval (1194 CE), at Fréteval (part of Anglo-French War of 1194–1199).",
+  "subject_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 1194,
+    "to": 1194
+  },
+  "derived_from": "wd_battle_of_fr_teval_1194",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

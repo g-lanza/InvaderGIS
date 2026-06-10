@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_the_vorskla_river_1399_c01",
+  "statement": "Battle of the Vorskla River (1399 CE), at Vorskla (part of Military conflicts between the Grand Duchy of Lithuania and the Golden Horde).",
+  "subject_ids": [
+    "grand_duchy_of_lithuania"
+  ],
+  "period": {
+    "from": 1399,
+    "to": 1399
+  },
+  "derived_from": "wd_battle_of_the_vorskla_river_1399",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "rowell_lithuania_1994",
+      "christiansen_the_1997"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

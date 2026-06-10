@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_byzantine_norman_wars_1039",
+  "name": "Byzantine–Norman Wars",
+  "year": 1039,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    43.8333,
+    13.45
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Byzantine–Norman Wars (1039 CE), at Apulia. Source: Wikidata Q327150.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "byzantine_empire",
+      "holy_roman_empire",
+      "kingdom_of_france",
+      "papal_states",
+      "kingdom_of_sicily_norman"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

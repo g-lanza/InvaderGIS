@@ -1,0 +1,31 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "erik_red_greenland_985",
+  "name": "Erik the Red colonises Greenland",
+  "year": 985,
+  "type": "exploration",
+  "category": "discovery",
+  "coords": [
+    60.92,
+    -46.05
+  ],
+  "entity": "iceland_commonwealth",
+  "summary": "After his banishment from Iceland for manslaughter, Erik Thorvaldsson leads a fleet of 25 ships (only 14 survive the crossing) to settle the south-west coast of Greenland at Brattahlíð and Garðar. The Norse Greenland colony reaches perhaps 2,500 settlers at peak.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "iceland_commonwealth"
+    ],
+    "structural_significance": "Norse Greenland is medieval Europe's farthest western outpost and the launching ground for the Vinland voyages. The colony's isolation, climate-driven decline, and disappearance by ~1450 are documented archaeologically but only sparsely in Norse written sources.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

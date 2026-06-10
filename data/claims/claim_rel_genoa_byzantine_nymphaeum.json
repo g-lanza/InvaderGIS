@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_genoa_byzantine_nymphaeum",
+  "statement": "The Treaty of Nymphaion (March 1261), signed between Michael VIII Palaiologos of the Empire of Nicaea and Genoa, granted Genoa exclusive trading rights throughout the Byzantine Empire and the Black Sea in exchange for naval assistance against Venice and the Latin Empire. Genoese merchants replaced Venetians as the dominant commercial presence in Constantinople after Michael VIII's restoration. The Galata (Pera) quarter across the Golden Horn became effectively a Genoese city-state within Constantinople, with its own walls, government, and church. Genoese Black Sea colonies — Caffa in Crimea, Trebizond, Tana at the Don mouth — controlled the luxury trade routes.",
+  "subject_ids": [
+    "republic_of_genoa",
+    "byzantine_empire"
+  ],
+  "predicate": "alliance",
+  "derived_from": "rel_genoa_byzantine_nymphaeum",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015",
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1261,
+    "to": 1453
+  }
+}

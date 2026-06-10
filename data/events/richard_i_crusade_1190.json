@@ -1,0 +1,43 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "richard_i_crusade_1190",
+  "name": "Richard I Departs on the Third Crusade",
+  "year": 1190,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    32.08,
+    34.79
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Richard I of England departs on the Third Crusade with Philip II of France. He conquers Cyprus (from its Byzantine ruler), retakes Acre after a two-year siege, and wins the Battle of Arsuf (1191). However, his forces twice come within sight of Jerusalem without attacking, recognizing that even if taken, they could not hold it without permanent garrisons. The Treaty of Jaffa (1192) allows Christian pilgrims access to Jerusalem without political control.",
+  "outcomes": [
+    "acre_retaken",
+    "jerusalem_not_recovered",
+    "jaffa_treaty_signed"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "kingdom_of_france",
+      "ayyubid_sultanate"
+    ],
+    "structural_significance": "The Third Crusade demonstrates the structural problem of all crusades: superior Western military performance (Richard's tactical mastery at Arsuf) cannot translate into permanent political control because crusading forces eventually go home; the Treaty of Jaffa establishes the pattern of negotiated access that substitutes for crusading conquest; Richard's political difficulties in England (John's regent intrigues, Philip's opportunistic attacks on Normandy) illustrate how crusading diverted royal attention from governance",
+    "year_range": [
+      1190,
+      1192
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

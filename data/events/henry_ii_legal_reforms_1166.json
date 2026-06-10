@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "henry_ii_legal_reforms_1166",
+  "name": "Henry II's Legal Reforms",
+  "year": 1166,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    51.507,
+    -0.128
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Henry II's Assizes of Clarendon (1166) and Northampton (1176) transformed English law by requiring local juries to present suspected criminals for royal justice. Henry extended royal courts into areas previously governed by feudal or church jurisdictions, creating a common law applicable across England. His reforms built the institutional foundation that outlasted his dynasty.",
+  "outcomes": [
+    "Assize of Clarendon establishes jury of presentment",
+    "Common law extends royal jurisdiction",
+    "Itinerant justices carry royal law across England"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england"
+    ],
+    "structural_significance": "Laid the foundations of English common law and the adversarial jury trial; transferred power from feudal and ecclesiastical courts to the crown.",
+    "year_range": [
+      1154,
+      1189
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Turner, The English Judiciary in the Age of Glanvill",
+      "Hudson, The Formation of the English Common Law"
+    ],
+    "confidence": "low"
+  }
+}

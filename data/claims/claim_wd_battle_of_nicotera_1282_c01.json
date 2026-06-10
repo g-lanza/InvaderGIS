@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_nicotera_1282_c01",
+  "statement": "Battle of Nicotera (1282 CE), at Nicotera (part of War of the Sicilian Vespers).",
+  "subject_ids": [
+    "kingdom_of_naples"
+  ],
+  "period": {
+    "from": 1282,
+    "to": 1282
+  },
+  "derived_from": "wd_battle_of_nicotera_1282",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

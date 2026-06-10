@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_great_moravia_east_francia",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "great_moravia",
+      "role": "principal"
+    },
+    {
+      "entity_id": "east_francia",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 843,
+  "until": 907,
+  "note": "Great Moravia and the East Frankish kingdom maintained a complex relationship of conflict and dependence from Moravia's foundation (c. 830) through its destruction (906). Rastislav of Moravia sought independence from Frankish ecclesiastical domination by requesting Byzantine missionaries (862) — resulting in Cyril and Methodius's Slavic mission. His successor Sviatopluk negotiated a treaty with Louis the German (874) while maintaining autonomy. East Frankish princes allied with Magyar invaders who destroyed Moravia (906); the Franks subsequently failed to prevent Magyar raids westward.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The East Frankish-Moravian conflict drives Moravia toward Byzantine Christianity; the resulting Slavic alphabet and liturgy transform the cultural trajectory of all Slavic peoples; the Frankish failure to absorb Moravia, followed by Magyar destruction, creates the political vacuum in the Danube basin"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "havlík_kronika_1992",
+      "bowlus_franks_1995",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

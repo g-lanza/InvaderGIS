@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_third_crusade_1189_c01",
+  "statement": "The Third Crusade, fought from 1189 to 1192 and led by Philip II of France, Frederick Barbarossa, and Richard I of England, responded to Saladin's capture of Jerusalem in 1187.",
+  "subject_ids": [
+    "kingdom_of_england"
+  ],
+  "period": {
+    "from": 1189,
+    "to": 1189
+  },
+  "derived_from": "third_crusade_1189",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

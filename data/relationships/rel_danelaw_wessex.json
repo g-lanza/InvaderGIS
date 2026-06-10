@@ -1,0 +1,36 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_danelaw_wessex",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "danelaw",
+      "role": "principal"
+    },
+    {
+      "entity_id": "kingdom_of_wessex",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "contested_influence",
+  "since": 878,
+  "until": 927,
+  "note": "The Danelaw — the Norse-ruled territory of northern and eastern England established by the Great Heathen Army's settlement (865–878) — coexisted and competed with Wessex for nearly a century before the reconquest. The Danelaw was not a unified political entity but a patchwork of Danish-held towns (the Five Boroughs: Leicester, Nottingham, Derby, Stamford, Lincoln) and Norse-speaking rural areas. Alfred the Great's Treaty of Wedmore (878) established the boundary; his descendants — Edward the Elder (913–920) and Æthelflæd — reconquered it systematically, with the death of Eric Bloodaxe in 954 ending Norse Jorvik.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Danelaw creates a persistent Scandinavian demographic and cultural presence in northern and eastern England; its place-name heritage (all towns ending in -by, -thorpe, -thwaite) remains visible to the present; the reconquest strategy — building burhs ahead of the frontier — becomes the model for medieval offensive-defensive warfare"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

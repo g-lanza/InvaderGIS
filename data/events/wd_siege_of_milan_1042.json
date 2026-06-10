@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_milan_1042",
+  "name": "Siege of Milan",
+  "year": 1042,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    45.5,
+    9.2
+  ],
+  "entity": "commune_of_milan",
+  "summary": "Siege of Milan (1042 CE), at Milan. Source: Wikidata Q110473263.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "commune_of_milan"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

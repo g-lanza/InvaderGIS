@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_pavia_590",
+  "name": "Siege of Pavia",
+  "year": 590,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    44.96,
+    10.7
+  ],
+  "entity": "exarchate_of_ravenna",
+  "summary": "Siege of Pavia (590 CE), at Pavia (part of Byzantine–Lombard Wars). Source: Wikidata Q108834352.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "exarchate_of_ravenna",
+      "lombard_kingdom"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

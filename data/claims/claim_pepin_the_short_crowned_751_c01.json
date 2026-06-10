@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_pepin_the_short_crowned_751_c01",
+  "statement": "Pepin III obtained Pope Zachary's judgment that the holder of power rather than the holder of the title should be king.",
+  "subject_ids": [
+    "carolingian_empire"
+  ],
+  "period": {
+    "from": 751,
+    "to": 751
+  },
+  "derived_from": "pepin_the_short_crowned_751",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "mckitterick_charlemagne_2008",
+      "riché_the_1993",
+      "nelson_king_2019"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

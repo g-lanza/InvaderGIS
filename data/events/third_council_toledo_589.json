@@ -1,0 +1,34 @@
+{
+ "kind": "event",
+ "dataset": "medieval-europe-500-1500",
+ "id": "third_council_toledo_589",
+ "name": "Third Council of Toledo",
+ "year": 589,
+ "type": "religious_council",
+ "category": "religion",
+ "coords": [
+  39.86,
+  -4.03
+ ],
+ "entity": "visigothic_kingdom",
+ "summary": "The Third Council of Toledo (589), convened by King Reccared I of the Visigoths, formalizes the conversion of the Visigothic ruling class from Arianism to Catholic Christianity. Reccared publicly abjures Arianism, followed by his bishops and nobles. The council issues canons unifying the administration of the Visigothic church on Roman lines, prohibiting mixed marriages between Catholics and heretics, and establishing the Visigoths as the champions of Catholic orthodoxy. Spain's profound identification of nationality with Catholicism, which will persist through the Reconquista, the Inquisition, and the colonial empire, originates at Toledo in 589.",
+ "outcomes": [],
+ "_quarry": {
+  "participants": [
+   "visigothic_kingdom"
+  ],
+  "structural_significance": "Unifies the Visigothic Kingdom under Catholic Christianity; ends the Arian-Catholic divide that had separated the Germanic ruling class from the Hispano-Roman majority; creates the Visigothic church-state model that shapes Iberian political culture through the Reconquista",
+  "year_range": null
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "collins_visigothic_2004",
+   "thompson_the_1969",
+   "ims_fordham",
+   "ims_fordham_sbook1f"
+  ],
+  "confidence": "low",
+  "attestation": "inferred"
+ }
+}

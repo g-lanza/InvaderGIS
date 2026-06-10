@@ -1,0 +1,40 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_crimea_ottoman",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "ottoman_empire",
+      "role": "suzerain"
+    },
+    {
+      "entity_id": "khanate_of_crimea",
+      "role": "vassal"
+    }
+  ],
+  "directed": true,
+  "type": "vassalage",
+  "since": 1475,
+  "until": 1500,
+  "note": "The Ottoman Empire absorbed the Genoese colonies of the Crimean coast (Caffa, Soldaia) in 1475 and imposed Ottoman suzerainty over the Crimean Khanate — making the Giray dynasty (Chinggisid rulers of Crimea) vassals of the Ottoman Sultan rather than independent rulers. The Ottomans stationed garrisons at the major ports and used the Crimean Tatars as cavalry auxiliaries in their European campaigns. The arrangement created a mutually beneficial relationship: Crimean Tatars conducted slave raids against Poland-Lithuania and Russia, selling captives through the Ottoman slave markets at Caffa.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Ottoman control of the Crimea and the Bosphorus gives the empire effective dominance over the Black Sea — a 'Turkish lake' for 300 years; the Caffa slave market processes tens of thousands of eastern European captives annually, making Crimea the primary source of enslaved labor for the Ottoman Empire"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d",
+      "fisher_the_1978",
+      "davies_warfare_2007"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

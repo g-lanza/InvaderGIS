@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "fort_sacsayhuaman",
+  "name": "Sacsayhuamán Fortress",
+  "subtype": "fort",
+  "start_year": 1438,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "Inca fortress above Cusco; massive ashlar walls; site of the great siege of 1536",
+  "coords": [
+    -71.982,
+    -13.509
+  ]
+}

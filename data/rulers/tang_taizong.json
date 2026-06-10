@@ -1,0 +1,51 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "tang_taizong",
+  "name": "Tang Taizong (Li Shimin)",
+  "polity": "tang_dynasty",
+  "title": "emperor",
+  "reign_start": 626,
+  "reign_end": 649,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 598,
+      "death_year": 649
+    },
+    "entity_associations": [
+      {
+        "entity_id": "tang_dynasty",
+        "role": "emperor",
+        "start_year": 626,
+        "end_year": 649
+      }
+    ],
+    "key_actions": [
+      {
+        "year": 626,
+        "event": "Xuanwu Gate incident; kills brothers and forces father's abdication."
+      },
+      {
+        "year": 630,
+        "event": "Defeats Eastern Turkic Khaganate; takes title 'Tian Kehan' (heavenly khagan)."
+      },
+      {
+        "year": 641,
+        "event": "Sends Princess Wencheng to marry Tibetan emperor Songtsen Gampo."
+      },
+      {
+        "year": 645,
+        "event": "Codifies Tang Code — foundation of East Asian legal traditions."
+      }
+    ],
+    "region": "east_asia",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "twitchett_cambridge_history_china_v3_1979"
+    ],
+    "confidence": "low"
+  }
+}

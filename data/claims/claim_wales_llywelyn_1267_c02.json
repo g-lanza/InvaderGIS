@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wales_llywelyn_1267_c02",
+  "statement": "The Treaty of Montgomery was the only time England officially acknowledged a native Welsh prince with the title Prince of Wales.",
+  "subject_ids": [
+    "principality_of_wales"
+  ],
+  "period": {
+    "from": 1267,
+    "to": 1267
+  },
+  "derived_from": "wales_llywelyn_1267",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "chuds_1030",
+  "name": "Yaroslav the Wise Campaigns Against Chuds",
+  "year": 1030,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    60.481,
+    29.869
+  ],
+  "entity": "chuds",
+  "summary": "Yaroslav the Wise of Kyivan Rus campaigned against the Chud (Estonian/Finnic) tribes in 1030 CE and founded the city of Yuryev (modern Tartu, Estonia). The campaign extended Russian influence into the eastern Baltic but did not permanently subjugate the Finnic peoples of the region.",
+  "outcomes": [
+    "yaroslav_victory",
+    "estonian_subdued",
+    "tartu_founded"
+  ],
+  "_quarry": {
+    "participants": [
+      "chuds"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

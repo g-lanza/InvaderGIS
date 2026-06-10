@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_louis_ix_crusade_1248_c01",
+  "statement": "Louis IX of France led the Seventh Crusade, sailing from Aigues-Mortes in 1248 with a strategy targeting Egypt.",
+  "subject_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 1248,
+    "to": 1248
+  },
+  "derived_from": "louis_ix_crusade_1248",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

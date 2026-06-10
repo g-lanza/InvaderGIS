@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_anglo_hanseatic_war_1469",
+  "name": "Anglo-Hanseatic War",
+  "year": 1469,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    53,
+    4.5
+  ],
+  "entity": "hanseatic_league",
+  "summary": "Anglo-Hanseatic War (1469 CE), at English Channel. Source: Wikidata Q442268.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "hanseatic_league",
+      "kingdom_of_england"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dollinger_the_1970",
+      "hammel-kiesow_die_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

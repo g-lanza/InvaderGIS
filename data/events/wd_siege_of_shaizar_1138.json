@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_shaizar_1138",
+  "name": "Siege of Shaizar",
+  "year": 1138,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    38.1333,
+    34.6333
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Siege of Shaizar (1138 CE), at Shaizar (part of Crusader battles between 1101 and 1145). Source: Wikidata Q7510395.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "county_of_edessa",
+      "principality_of_antioch"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

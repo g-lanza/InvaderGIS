@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_castilla_toledo_1085_c01",
+  "statement": "Alfonso VI of Castile captured Toledo, the ancient Visigothic capital, from its Taifa ruler in 1085.",
+  "subject_ids": [
+    "kingdom_of_castile"
+  ],
+  "period": {
+    "from": 1085,
+    "to": 1085
+  },
+  "derived_from": "castilla_toledo_1085",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

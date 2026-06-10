@@ -1,0 +1,46 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_poland_1194_1462",
+  "name": "Poland — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1194,
+  "year_end": 1462,
+  "waypoints": [
+    {
+      "year": 1194,
+      "place": "Battle of Drohiczyn",
+      "coords": [
+        52.433,
+        18.017
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_drohiczyn_1194"
+    },
+    {
+      "year": 1205,
+      "place": "Battle of Zawichost",
+      "coords": [
+        52.433,
+        18.017
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_zawichost_1205"
+    },
+    {
+      "year": 1462,
+      "place": "Battle of Świecino",
+      "coords": [
+        52.433,
+        18.017
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_wiecino_1462"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

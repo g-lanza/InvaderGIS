@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "black_death_origin_1347",
+  "name": "Black Death Reaches Europe via Caffa",
+  "year": 1347,
+  "type": "disaster",
+  "category": "hazard",
+  "coords": [
+    45.04,
+    35.38
+  ],
+  "entity": "golden_horde",
+  "summary": "The Black Death reaches Europe through the Genoese trading port of Caffa (modern Feodosia) in Crimea, besieged by the Golden Horde under Jani Beg. As plague kills Mongol soldiers, Jani Beg reportedly catapults infected corpses over Caffa's walls, possibly the first recorded instance of biological warfare. Genoese merchants flee by ship; when they dock at Messina in Sicily in October 1347, their ships carry rats infected with the plague. The Messina port authorities order the ships out, but it is too late. The Black Death moves north and west at a pace of several miles per day, killing approximately one-third of Europe's population by 1353.",
+  "outcomes": [
+    "plague_reaches_mediterranean",
+    "caffa_siege_abandoned",
+    "ships_carry_plague_to_messina"
+  ],
+  "_quarry": {
+    "participants": [
+      "golden_horde",
+      "republic_of_genoa",
+      "republic_of_venice"
+    ],
+    "structural_significance": "The entry point of the most devastating pandemic in human history; the Black Death kills approximately 25 million Europeans (1347-53), with some regions losing 50-60% of their population; the demographic collapse reshapes feudal labor relations as surviving peasants demand higher wages; the Church's failure to explain or stop the plague undermines its authority, contributing to late medieval religiosity and eventually the Reformation",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "allsen_mongol_1987"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

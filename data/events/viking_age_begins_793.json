@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "viking_age_begins_793",
+  "name": "Viking Raid on Lindisfarne",
+  "year": 793,
+  "type": "conflict",
+  "category": "violence",
+  "coords": [
+    55.673,
+    -1.8
+  ],
+  "entity": "kingdom_of_northumbria",
+  "summary": "On 8 June 793, Norse raiders attacked the monastery of Lindisfarne (Holy Island) off the Northumbrian coast, killing monks, plundering the treasury, and burning buildings. The attack shocked the Christian world: Alcuin of York wrote that such wickedness had never been seen in Britain before. The Lindisfarne raid is conventionally taken as the beginning of the Viking Age, two and a half centuries of Scandinavian raids, settlement, and state-building across Europe.",
+  "outcomes": [
+    "Monastery of Lindisfarne sacked",
+    "Scholars and clerics killed or enslaved",
+    "Christendom shocked by pagan assault on holy site",
+    "Viking Age conventionally begins"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_northumbria",
+      "danish_viking_polity"
+    ],
+    "structural_significance": "The symbolic opening of the Viking Age; the shock it produced throughout Christendom marked the arrival of a new force that would reshape the political map of Europe.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Haywood, The Penguin Historical Atlas of the Vikings",
+      "Jones, A History of the Vikings"
+    ],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_champagne_fairs_1100s_c01",
+  "statement": "The Champagne Fairs, six annual trade fairs across four towns, became the commercial center of western Europe in the 12th century.",
+  "subject_ids": [
+    "county_of_champagne"
+  ],
+  "period": {
+    "from": 1150,
+    "to": 1150
+  },
+  "derived_from": "champagne_fairs_1100s",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

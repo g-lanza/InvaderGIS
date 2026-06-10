@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_moscow_rise_1325_c01",
+  "statement": "Ivan I of Moscow (Kalita), from 1325, received from the Golden Horde the right to collect tribute from other Russian princes.",
+  "subject_ids": [
+    "grand_principality_of_moscow"
+  ],
+  "period": {
+    "from": 1325,
+    "to": 1325
+  },
+  "derived_from": "moscow_rise_1325",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "fennell_the_1983",
+      "ostrowski_muscovy_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "cambridge_university_1209",
+  "name": "Founding of Cambridge University",
+  "year": 1209,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    52.204,
+    0.118
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "After a violent dispute between Oxford scholars and townspeople in 1209, a group of masters and students migrated northeast to Cambridge, establishing a new school. The University of Cambridge grew slowly but steadily; Peterhouse, its first college, was founded in 1284. Over centuries Cambridge became Oxford's rival as the intellectual heart of England, producing Newton, Bacon, Milton, and Darwin among its alumni.",
+  "outcomes": [
+    "Oxford scholars flee to Cambridge after town-gown riot",
+    "New studium generale established",
+    "Peterhouse founded 1284 as first college",
+    "Rival to Oxford for seven centuries"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england"
+    ],
+    "structural_significance": "Cambridge University became one of the twin pillars of English higher education; its collegiate residential model shaped elite education worldwide.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Leader, A History of the University of Cambridge Vol. I",
+      "Brooke, A History of the University of Cambridge"
+    ],
+    "confidence": "low"
+  }
+}

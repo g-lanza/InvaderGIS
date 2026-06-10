@@ -1,0 +1,33 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_mamluk_jerusalem_conquest",
+  "statement": "Mamluk sultans Baybars and Qalawun systematically dismantled the remaining Crusader states; Caesarea (1265), Jaffa (1268), Krak des Chevaliers (1271), and Acre (1291) fell in a methodical campaign that ended the Crusader presence in the Holy Land.",
+  "subject_ids": [
+    "mamluk_sultanate",
+    "kingdom_of_jerusalem"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_mamluk_jerusalem_conquest",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "irwin_the_1986",
+      "northrup_from_1998",
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "kingdom_of_jerusalem"
+  ],
+  "period": {
+    "from": 1250,
+    "to": 1291
+  }
+}

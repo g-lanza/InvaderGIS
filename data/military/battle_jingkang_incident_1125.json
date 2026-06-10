@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_jingkang_incident_1125",
+  "name": "Jingkang Incident",
+  "subtype": "battle",
+  "start_year": 1125,
+  "end_year": 1125,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1326831"
+    }
+  },
+  "description": "Battle during Jurchen campaigns against the Song dynasty (1125)",
+  "coords": [
+    114.345,
+    34.795
+  ]
+}

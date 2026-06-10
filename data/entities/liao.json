@@ -1,0 +1,1156 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "liao",
+  "name_primary": "Liao Dynasty",
+  "name_variants": [
+    "Liao"
+  ],
+  "type": "kingdom",
+  "region": "east_asia",
+  "formed": 907,
+  "dissolved": 1125,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 1000,
+      "label": "Liao dynasty",
+      "polygon": [
+        [
+          43.29,
+          131.87
+        ],
+        [
+          41.86,
+          129.82
+        ],
+        [
+          39.81,
+          123.92
+        ],
+        [
+          39.67,
+          123.04
+        ],
+        [
+          38.76,
+          121.22
+        ],
+        [
+          38.75,
+          121.07
+        ],
+        [
+          39.33,
+          121.66
+        ],
+        [
+          39.35,
+          121.28
+        ],
+        [
+          39.55,
+          121.24
+        ],
+        [
+          40.35,
+          122.11
+        ],
+        [
+          40.86,
+          121.43
+        ],
+        [
+          40.85,
+          121.01
+        ],
+        [
+          40.15,
+          120.27
+        ],
+        [
+          39.84,
+          119.39
+        ],
+        [
+          39.22,
+          118.98
+        ],
+        [
+          39,
+          118.27
+        ],
+        [
+          39.26,
+          117.91
+        ],
+        [
+          38.77,
+          117.51
+        ],
+        [
+          39.57,
+          115.7
+        ],
+        [
+          39.57,
+          111.42
+        ],
+        [
+          39.88,
+          110.5
+        ],
+        [
+          41.2,
+          109.38
+        ],
+        [
+          41.51,
+          108.36
+        ],
+        [
+          43.25,
+          113.83
+        ],
+        [
+          44.42,
+          127.58
+        ],
+        [
+          46.53,
+          131.91
+        ],
+        [
+          46.53,
+          133.03
+        ],
+        [
+          45.41,
+          133.71
+        ],
+        [
+          44.67,
+          133.4
+        ],
+        [
+          43.29,
+          131.87
+        ]
+      ]
+    },
+    {
+      "year": 1100,
+      "label": "Liao dynasty",
+      "polygon": [
+        [
+          43.29,
+          131.87
+        ],
+        [
+          41.86,
+          129.82
+        ],
+        [
+          39.81,
+          123.92
+        ],
+        [
+          39.67,
+          123.04
+        ],
+        [
+          38.76,
+          121.22
+        ],
+        [
+          38.75,
+          121.07
+        ],
+        [
+          39.33,
+          121.66
+        ],
+        [
+          39.35,
+          121.28
+        ],
+        [
+          39.55,
+          121.24
+        ],
+        [
+          40.35,
+          122.11
+        ],
+        [
+          40.86,
+          121.43
+        ],
+        [
+          40.85,
+          121.01
+        ],
+        [
+          40.15,
+          120.27
+        ],
+        [
+          39.84,
+          119.39
+        ],
+        [
+          39.22,
+          118.98
+        ],
+        [
+          39,
+          118.27
+        ],
+        [
+          39.26,
+          117.91
+        ],
+        [
+          38.77,
+          117.51
+        ],
+        [
+          39.57,
+          115.7
+        ],
+        [
+          39.57,
+          111.42
+        ],
+        [
+          39.88,
+          110.5
+        ],
+        [
+          41.2,
+          109.38
+        ],
+        [
+          41.51,
+          108.36
+        ],
+        [
+          43.25,
+          113.83
+        ],
+        [
+          44.42,
+          127.58
+        ],
+        [
+          46.53,
+          131.91
+        ],
+        [
+          46.53,
+          133.03
+        ],
+        [
+          45.41,
+          133.71
+        ],
+        [
+          44.67,
+          133.4
+        ],
+        [
+          43.29,
+          131.87
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    42.1941,
+    121.4892
+  ],
+  "population_estimates": [
+    {
+      "year": 1000,
+      "estimate": 4000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q4958",
+          "url": "https://www.wikidata.org/wiki/Q4958",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Liao",
+          "url": "https://en.wikipedia.org/wiki/Liao_dynasty"
+        }
+      ]
+    },
+    {
+      "year": 1050,
+      "estimate": 4500000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q4958",
+          "url": "https://www.wikidata.org/wiki/Q4958",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Liao",
+          "url": "https://en.wikipedia.org/wiki/Liao_dynasty"
+        }
+      ]
+    },
+    {
+      "year": 1100,
+      "estimate": 5000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q4958",
+          "url": "https://www.wikidata.org/wiki/Q4958",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Liao",
+          "url": "https://en.wikipedia.org/wiki/Liao_dynasty"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Khitan dynasty (907–1125) that built the first steppe empire to successfully govern both nomadic and sedentary populations using a dual administrative system; controlling northern China and Mongolia from their Shangjing capital, the Liao established diplomatic equality with the Song through the Chanyuan Treaty (1005) and extracted annual tribute, while Khitan script, art, and Buddhism developed a distinctive northern Chinese frontier civilisation.",
+  "temporal": {
+    "start_year": 907,
+    "end_year": 1125,
+    "notes": ""
+  },
+  "geographic": {
+    "centroid": [
+      42.1941,
+      121.4892
+    ],
+    "polygon_simplified": [
+      [
+        43.29,
+        131.87
+      ],
+      [
+        41.86,
+        129.82
+      ],
+      [
+        39.81,
+        123.92
+      ],
+      [
+        39.67,
+        123.04
+      ],
+      [
+        38.76,
+        121.22
+      ],
+      [
+        38.75,
+        121.07
+      ],
+      [
+        39.33,
+        121.66
+      ],
+      [
+        39.35,
+        121.28
+      ],
+      [
+        39.55,
+        121.24
+      ],
+      [
+        40.35,
+        122.11
+      ],
+      [
+        40.86,
+        121.43
+      ],
+      [
+        40.85,
+        121.01
+      ],
+      [
+        40.15,
+        120.27
+      ],
+      [
+        39.84,
+        119.39
+      ],
+      [
+        39.22,
+        118.98
+      ],
+      [
+        39,
+        118.27
+      ],
+      [
+        39.26,
+        117.91
+      ],
+      [
+        38.77,
+        117.51
+      ],
+      [
+        39.57,
+        115.7
+      ],
+      [
+        39.57,
+        111.42
+      ],
+      [
+        39.88,
+        110.5
+      ],
+      [
+        41.2,
+        109.38
+      ],
+      [
+        41.51,
+        108.36
+      ],
+      [
+        43.25,
+        113.83
+      ],
+      [
+        44.42,
+        127.58
+      ],
+      [
+        46.53,
+        131.91
+      ],
+      [
+        46.53,
+        133.03
+      ],
+      [
+        45.41,
+        133.71
+      ],
+      [
+        44.67,
+        133.4
+      ],
+      [
+        43.29,
+        131.87
+      ]
+    ],
+    "capital": {
+      "name": "Zhongjing",
+      "coords": [
+        41.56972,
+        119.15556
+      ],
+      "source": "wikidata"
+    },
+    "polygon_snapshots": [
+      {
+        "year": 1000,
+        "label": "Liao dynasty",
+        "polygon": [
+          [
+            43.29,
+            131.87
+          ],
+          [
+            41.86,
+            129.82
+          ],
+          [
+            39.81,
+            123.92
+          ],
+          [
+            39.67,
+            123.04
+          ],
+          [
+            38.76,
+            121.22
+          ],
+          [
+            38.75,
+            121.07
+          ],
+          [
+            39.33,
+            121.66
+          ],
+          [
+            39.35,
+            121.28
+          ],
+          [
+            39.55,
+            121.24
+          ],
+          [
+            40.35,
+            122.11
+          ],
+          [
+            40.86,
+            121.43
+          ],
+          [
+            40.85,
+            121.01
+          ],
+          [
+            40.15,
+            120.27
+          ],
+          [
+            39.84,
+            119.39
+          ],
+          [
+            39.22,
+            118.98
+          ],
+          [
+            39,
+            118.27
+          ],
+          [
+            39.26,
+            117.91
+          ],
+          [
+            38.77,
+            117.51
+          ],
+          [
+            39.57,
+            115.7
+          ],
+          [
+            39.57,
+            111.42
+          ],
+          [
+            39.88,
+            110.5
+          ],
+          [
+            41.2,
+            109.38
+          ],
+          [
+            41.51,
+            108.36
+          ],
+          [
+            43.25,
+            113.83
+          ],
+          [
+            44.42,
+            127.58
+          ],
+          [
+            46.53,
+            131.91
+          ],
+          [
+            46.53,
+            133.03
+          ],
+          [
+            45.41,
+            133.71
+          ],
+          [
+            44.67,
+            133.4
+          ],
+          [
+            43.29,
+            131.87
+          ]
+        ]
+      },
+      {
+        "year": 1100,
+        "label": "Liao dynasty",
+        "polygon": [
+          [
+            43.29,
+            131.87
+          ],
+          [
+            41.86,
+            129.82
+          ],
+          [
+            39.81,
+            123.92
+          ],
+          [
+            39.67,
+            123.04
+          ],
+          [
+            38.76,
+            121.22
+          ],
+          [
+            38.75,
+            121.07
+          ],
+          [
+            39.33,
+            121.66
+          ],
+          [
+            39.35,
+            121.28
+          ],
+          [
+            39.55,
+            121.24
+          ],
+          [
+            40.35,
+            122.11
+          ],
+          [
+            40.86,
+            121.43
+          ],
+          [
+            40.85,
+            121.01
+          ],
+          [
+            40.15,
+            120.27
+          ],
+          [
+            39.84,
+            119.39
+          ],
+          [
+            39.22,
+            118.98
+          ],
+          [
+            39,
+            118.27
+          ],
+          [
+            39.26,
+            117.91
+          ],
+          [
+            38.77,
+            117.51
+          ],
+          [
+            39.57,
+            115.7
+          ],
+          [
+            39.57,
+            111.42
+          ],
+          [
+            39.88,
+            110.5
+          ],
+          [
+            41.2,
+            109.38
+          ],
+          [
+            41.51,
+            108.36
+          ],
+          [
+            43.25,
+            113.83
+          ],
+          [
+            44.42,
+            127.58
+          ],
+          [
+            46.53,
+            131.91
+          ],
+          [
+            46.53,
+            133.03
+          ],
+          [
+            45.41,
+            133.71
+          ],
+          [
+            44.67,
+            133.4
+          ],
+          [
+            43.29,
+            131.87
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "real_historical_boundary",
+    "polygon_source": "aourednik/historical-basemaps",
+    "polygon_source_date": "2026-05-09"
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "formation",
+      "years": "907–947",
+      "description": "Yelü Abaoji unifies Khitan tribes; captures Sixteen Prefectures from Later Jin (947); dual administrative system established",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q4958",
+          "url": "https://www.wikidata.org/wiki/Q4958"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Liao",
+          "url": "https://en.wikipedia.org/wiki/Liao_dynasty"
+        }
+      ]
+    },
+    {
+      "phase": "peak",
+      "years": "947–1055",
+      "description": "Chanyuan Treaty (1005) with Song: 120,000 bolts of silk and 200,000 oz silver annual tribute; Liao controls northern steppe and border Chinese territories",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q4958",
+          "url": "https://www.wikidata.org/wiki/Q4958"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Liao",
+          "url": "https://en.wikipedia.org/wiki/Liao_dynasty"
+        }
+      ]
+    },
+    {
+      "phase": "decline",
+      "years": "1055–1115",
+      "description": "Succession conflicts; Jurchen Wanyan clan in Manchuria resists Liao authority",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q4958",
+          "url": "https://www.wikidata.org/wiki/Q4958"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Liao",
+          "url": "https://en.wikipedia.org/wiki/Liao_dynasty"
+        }
+      ]
+    },
+    {
+      "phase": "dissolution",
+      "years": "1115–1125",
+      "description": "Jurchen Jin dynasty wars; Song alliance abandons Chanyuan arrangement; Liao emperor captured; Kara-Khitan western remnant survives until 1218",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q4958",
+          "url": "https://www.wikidata.org/wiki/Q4958"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Liao",
+          "url": "https://en.wikipedia.org/wiki/Liao_dynasty"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "administrative_innovation",
+      "layer": "governance_institutional",
+      "description": "Liao's Northern and Southern Court system, separate administrations for Khitan nomads and sedentary Chinese, successfully governed both populations without forcing either to adopt the other's lifestyle",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q4958",
+          "url": "https://www.wikidata.org/wiki/Q4958"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Liao",
+          "url": "https://en.wikipedia.org/wiki/Liao_dynasty"
+        }
+      ]
+    },
+    {
+      "tag": "military_organizational_advantage",
+      "layer": "military_security",
+      "description": "Khitan cavalry mobility gave Liao military projection across both steppe and agricultural frontier zones inaccessible to Song infantry",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q4958",
+          "url": "https://www.wikidata.org/wiki/Q4958"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Liao",
+          "url": "https://en.wikipedia.org/wiki/Liao_dynasty"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "succession_instability",
+      "layer": "dynastic_legitimacy",
+      "description": "Late Liao succession disputes weakened central authority precisely when Jurchen Jin military power was developing in Manchuria",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q4958",
+          "url": "https://www.wikidata.org/wiki/Q4958"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Liao",
+          "url": "https://en.wikipedia.org/wiki/Liao_dynasty"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Abaoji (Taizu)",
+      "role": "emperor",
+      "years": "907–926",
+      "year_start": 907,
+      "year_end": 926,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Abaoji (Taizu)",
+          "url": "https://en.wikipedia.org/wiki/Abaoji_(Taizu)"
+        }
+      ]
+    },
+    {
+      "name": "Deguang (Taizong)",
+      "role": "emperor",
+      "years": "926–947",
+      "year_start": 926,
+      "year_end": 947,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Deguang (Taizong)",
+          "url": "https://en.wikipedia.org/wiki/Deguang_(Taizong)"
+        }
+      ]
+    },
+    {
+      "name": "Shengzong",
+      "role": "emperor",
+      "years": "982–1031",
+      "year_start": 982,
+      "year_end": 1031,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Shengzong",
+          "url": "https://en.wikipedia.org/wiki/Emperor_Shengzong_of_Liao"
+        }
+      ]
+    }
+  ],
+  "successor_entity_ids": [
+    "jin_dynasty_jurchen"
+  ],
+  "economic": {
+    "primary_base": "pastoralism",
+    "secondary_bases": [
+      "agriculture",
+      "tribute",
+      "long_distance_trade"
+    ],
+    "wealth_level": "high",
+    "major_exports": [
+      "horses",
+      "fur",
+      "cattle",
+      "silk_from_song"
+    ],
+    "major_trade_partners": [
+      "song_empire",
+      "xixia",
+      "kievan_rus"
+    ],
+    "revenue_sources": [
+      "tribute_from_song",
+      "pastoral_surplus",
+      "frontier_trade"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q4958",
+        "url": "https://www.wikidata.org/wiki/Q4958"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Liao",
+        "url": "https://en.wikipedia.org/wiki/Liao_dynasty"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q4958",
+    "matched_name": "manual/liao",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Liao_dynasty",
+    "capital": {
+      "name": "Zhongjing",
+      "coords": [
+        41.56972,
+        119.15556
+      ]
+    },
+    "rulers_from_wikidata": [
+      {
+        "name": "Empress Xiao",
+        "qid": "Q8254173",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q8254173",
+            "url": "https://www.wikidata.org/wiki/Q8254173"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Empress Xiao",
+            "url": "https://en.wikipedia.org/wiki/Empress_Xiao"
+          }
+        ]
+      },
+      {
+        "name": "Emperor Taizu of Liao",
+        "qid": "Q4989",
+        "year_start": 916,
+        "year_end": 926,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4989",
+            "url": "https://www.wikidata.org/wiki/Q4989"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Emperor Taizu of Liao",
+            "url": "https://en.wikipedia.org/wiki/Abaoji"
+          }
+        ]
+      },
+      {
+        "name": "Emperor Taizong of Liao",
+        "qid": "Q4991",
+        "year_start": 927,
+        "year_end": 947,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4991",
+            "url": "https://www.wikidata.org/wiki/Q4991"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Emperor Taizong of Liao",
+            "url": "https://en.wikipedia.org/wiki/Emperor_Taizong_of_Liao"
+          }
+        ]
+      },
+      {
+        "name": "Emperor Shizong of Liao",
+        "qid": "Q4992",
+        "year_start": 947,
+        "year_end": 951,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4992",
+            "url": "https://www.wikidata.org/wiki/Q4992"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Emperor Shizong of Liao",
+            "url": "https://en.wikipedia.org/wiki/Emperor_Shizong_of_Liao"
+          }
+        ]
+      },
+      {
+        "name": "Emperor Muzong of Liao",
+        "qid": "Q4993",
+        "year_start": 951,
+        "year_end": 969,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4993",
+            "url": "https://www.wikidata.org/wiki/Q4993"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Emperor Muzong of Liao",
+            "url": "https://en.wikipedia.org/wiki/Emperor_Muzong_of_Liao"
+          }
+        ]
+      },
+      {
+        "name": "Emperor Jingzong of Liao",
+        "qid": "Q4997",
+        "year_start": 969,
+        "year_end": 982,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4997",
+            "url": "https://www.wikidata.org/wiki/Q4997"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Emperor Jingzong of Liao",
+            "url": "https://en.wikipedia.org/wiki/Emperor_Jingzong_of_Liao"
+          }
+        ]
+      },
+      {
+        "name": "Emperor Shengzong of Liao",
+        "qid": "Q5000",
+        "year_start": 982,
+        "year_end": 1031,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q5000",
+            "url": "https://www.wikidata.org/wiki/Q5000"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Emperor Shengzong of Liao",
+            "url": "https://en.wikipedia.org/wiki/Emperor_Shengzong_of_Liao"
+          }
+        ]
+      },
+      {
+        "name": "Emperor Xingzong of Liao",
+        "qid": "Q5005",
+        "year_start": 1031,
+        "year_end": 1055,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q5005",
+            "url": "https://www.wikidata.org/wiki/Q5005"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Emperor Xingzong of Liao",
+            "url": "https://en.wikipedia.org/wiki/Emperor_Xingzong_of_Liao"
+          }
+        ]
+      },
+      {
+        "name": "Emperor Daozong of Liao",
+        "qid": "Q5007",
+        "year_start": 1055,
+        "year_end": 1101,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q5007",
+            "url": "https://www.wikidata.org/wiki/Q5007"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Emperor Daozong of Liao",
+            "url": "https://en.wikipedia.org/wiki/Emperor_Daozong_of_Liao"
+          }
+        ]
+      },
+      {
+        "name": "Shen Kuo",
+        "qid": "Q270085",
+        "year_start": 1075,
+        "year_end": 1076,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q270085",
+            "url": "https://www.wikidata.org/wiki/Q270085"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Shen Kuo",
+            "url": "https://en.wikipedia.org/wiki/Shen_Kuo"
+          }
+        ]
+      },
+      {
+        "name": "Emperor Tianzuo of Liao",
+        "qid": "Q5009",
+        "year_start": 1101,
+        "year_end": 1125,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q5009",
+            "url": "https://www.wikidata.org/wiki/Q5009"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Emperor Tianzuo of Liao",
+            "url": "https://en.wikipedia.org/wiki/Emperor_Tianzuo_of_Liao"
+          }
+        ]
+      }
+    ]
+  },
+  "monogram": "LD"
+}

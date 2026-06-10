@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_vespers_1282_c01",
+  "statement": "The Sicilian Vespers uprising began on the evening of March 30, 1282, near the Church of the Holy Spirit outside Palermo.",
+  "subject_ids": [
+    "kingdom_of_sicily_aragonese"
+  ],
+  "period": {
+    "from": 1282,
+    "to": 1282
+  },
+  "derived_from": "vespers_1282",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

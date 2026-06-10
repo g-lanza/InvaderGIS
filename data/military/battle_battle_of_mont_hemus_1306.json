@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_mont_hemus_1306",
+  "name": "Battle of Mont Hemus",
+  "subtype": "battle",
+  "start_year": 1306,
+  "end_year": 1306,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q11908791"
+    }
+  },
+  "description": "Battle during Catalan Revenge (1306)",
+  "coords": [
+    26.345,
+    41.7608
+  ]
+}

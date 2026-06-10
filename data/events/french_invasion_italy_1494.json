@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "french_invasion_italy_1494",
+  "name": "French invasion of Italy",
+  "year": 1494,
+  "type": "war",
+  "category": "violence",
+  "coords": [
+    45.07,
+    7.69
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Charles VIII of France invades Italy (September 1494) to press his dynastic claim to the Kingdom of Naples, inherited through the Angevin line. His army of approximately 25,000 troops, including powerful Swiss pike infantry and the first modern artillery train in European warfare, sweeps through Italy with unprecedented speed, reaching Naples in February 1495. The Italian states, unable to resist, form the League of Venice (1495) to expel him; Charles retreats. The invasion demonstrates Italian political fragmentation and inaugurates 65 years of Italian Wars that eventually leave Spain dominant in the peninsula.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "kingdom_of_naples"
+    ],
+    "structural_significance": "Opens the Italian Wars (1494–1559); introduces modern artillery as a decisive battlefield force; exposes Italian political fragmentation to European powers; ultimately transfers Italian dominance from France to Spain under Charles V",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

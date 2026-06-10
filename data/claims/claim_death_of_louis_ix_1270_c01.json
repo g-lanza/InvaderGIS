@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_death_of_louis_ix_1270_c01",
+  "statement": "Louis IX of France led his second crusade against Tunis in 1270, where his army was devastated by dysentery.",
+  "subject_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 1270,
+    "to": 1270
+  },
+  "derived_from": "death_of_louis_ix_1270",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

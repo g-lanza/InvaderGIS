@@ -1,0 +1,29 @@
+{
+ "kind": "text",
+ "dataset": "medieval-europe-500-1500",
+ "id": "beowulf",
+ "name_primary": "Beowulf",
+ "author": "anonymous",
+ "language": "Old English",
+ "composed": {
+  "place": "England",
+  "year": 1000
+ },
+ "tradition": "epic",
+ "influence": [
+  "Old English literary tradition",
+  "Germanic heroic poetry",
+  "modern fantasy literature",
+  "Tolkien's mythology"
+ ],
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "klaeber_beowulf_2008",
+   "ims_fordham",
+   "ims_fordham_sbook1ff"
+  ],
+  "confidence": "low",
+  "attestation": "inferred"
+ }
+}

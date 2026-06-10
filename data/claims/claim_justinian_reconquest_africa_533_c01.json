@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_justinian_reconquest_africa_533_c01",
+  "statement": "In 533, General Belisarius defeated the Vandal king Gelimer at the Battles of Ad Decimum and Tricamarum, destroying the Vandal kingdom in less than a year.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 533,
+    "to": 533
+  },
+  "derived_from": "justinian_reconquest_africa_533",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_kingdom_of_poland_piast_1000_1375",
+  "name": "Kingdom of Poland (Piast) — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1000,
+  "year_end": 1375,
+  "waypoints": [
+    {
+      "year": 1000,
+      "place": "Pomeranian Tribes Resist Polish Expansion",
+      "coords": [
+        52.924,
+        15.369
+      ],
+      "note": "military",
+      "event_id": "pomerania_1000"
+    },
+    {
+      "year": 1028,
+      "place": "German–Polish War of 1028-1031",
+      "coords": [
+        50.625,
+        18.6
+      ],
+      "note": "military",
+      "event_id": "wd_german_polish_war_of_1028_1031_1028"
+    },
+    {
+      "year": 1029,
+      "place": "Siege of Bautzen",
+      "coords": [
+        51,
+        14.75
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_bautzen_1029"
+    },
+    {
+      "year": 1069,
+      "place": "Bolesław II the Bold's expedition to Kiev",
+      "coords": [
+        49.6333,
+        26.5
+      ],
+      "note": "military",
+      "event_id": "wd_boles_aw_ii_the_bold_s_expedition_to_kiev_1069"
+    },
+    {
+      "year": 1077,
+      "place": "Bolesław II the Bold's expedition to Kiev",
+      "coords": [
+        51.2,
+        24.75
+      ],
+      "note": "military",
+      "event_id": "wd_boles_aw_ii_the_bold_s_expedition_to_kiev_1077"
+    },
+    {
+      "year": 1109,
+      "place": "Battle of Wysokie",
+      "coords": [
+        51.2,
+        16.16
+      ],
+      "note": "battle",
+      "event_id": "battle_wojnicz_1109"
+    },
+    {
+      "year": 1109,
+      "place": "Battle of Nakło",
+      "coords": [
+        52,
+        19
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_nak_o_1109"
+    },
+    {
+      "year": 1109,
+      "place": "German–Polish War of 1109",
+      "coords": [
+        50.7,
+        14.6333
+      ],
+      "note": "military",
+      "event_id": "wd_german_polish_war_of_1109_1109"
+    },
+    {
+      "year": 1145,
+      "place": "Battle of the marshlands of Pilica",
+      "coords": [
+        52,
+        19
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_the_marshlands_of_pilica_1145"
+    },
+    {
+      "year": 1146,
+      "place": "Siege of Poznań",
+      "coords": [
+        52,
+        19
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_pozna_1146"
+    },
+    {
+      "year": 1157,
+      "place": "Frederick I's expedition to Głogów",
+      "coords": [
+        50.7148,
+        19.8708
+      ],
+      "note": "military",
+      "event_id": "wd_frederick_i_s_expedition_to_g_og_w_1157"
+    },
+    {
+      "year": 1200,
+      "place": "Prussian Crusade",
+      "coords": [
+        52.1948,
+        19.8508
+      ],
+      "note": "military",
+      "event_id": "wd_prussian_crusade_1200"
+    },
+    {
+      "year": 1240,
+      "place": "Mongol invasion of Poland",
+      "coords": [
+        49.7333,
+        44.1
+      ],
+      "note": "military",
+      "event_id": "wd_mongol_invasion_of_poland_1240"
+    },
+    {
+      "year": 1241,
+      "place": "Battle of Legnica",
+      "coords": [
+        51.21,
+        16.17
+      ],
+      "note": "battle",
+      "event_id": "battle_legnica_1241"
+    },
+    {
+      "year": 1241,
+      "place": "Mongol invasion of Europe",
+      "coords": [
+        51.21,
+        16.16
+      ],
+      "note": "war",
+      "event_id": "mongol_invasion_europe_1241"
+    },
+    {
+      "year": 1241,
+      "place": "Mongol Invasion of Poland",
+      "coords": [
+        50.06,
+        19.94
+      ],
+      "note": "conquest",
+      "event_id": "mongol_invasion_poland_1241"
+    },
+    {
+      "year": 1241,
+      "place": "Battle of Racibórz",
+      "coords": [
+        49.6,
+        60.9
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_racib_rz_1241"
+    },
+    {
+      "year": 1375,
+      "place": "Hungarian–Ottoman War",
+      "coords": [
+        45.125,
+        24.9
+      ],
+      "note": "military",
+      "event_id": "wd_hungarian_ottoman_war_1375"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "davies_gods_1981",
+      "knoll_the_1972"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

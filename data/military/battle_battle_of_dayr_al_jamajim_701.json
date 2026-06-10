@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_dayr_al_jamajim_701",
+  "name": "Battle of Dayr al-Jamajim",
+  "subtype": "battle",
+  "start_year": 701,
+  "end_year": 701,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2949566"
+    }
+  },
+  "description": "Battle during Abd al-Rahman ibn Muhammad ibn al-Ash'ath's revolt (701)",
+  "coords": [
+    44.4,
+    32.0333
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_norman_invasion_of_wales_1067",
+  "name": "Norman invasion of Wales",
+  "year": 1067,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    52.4975,
+    -3.32
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Norman invasion of Wales (1067 CE). Source: Wikidata Q2394805.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "kingdom_of_gwynedd",
+      "kingdom_of_deheubarth",
+      "principality_of_wales"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "oengus_mac_fergusa",
+  "name": "Óengus mac Fergusa",
+  "polity": "pictish_confederation",
+  "title": "ruler",
+  "reign_start": 729,
+  "reign_end": 761,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "pictish_confederation",
+        "role": "ruler",
+        "start_year": 729,
+        "end_year": 761
+      }
+    ],
+    "key_actions": [],
+    "region": "british_isles",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_mercia_757",
+  "name": "Offa Becomes King of Mercia",
+  "year": 757,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    52.5,
+    -1.5
+  ],
+  "entity": "kingdom_of_mercia",
+  "summary": "Offa's seizure of the Mercian throne in 757 CE began the period of Mercian supremacy in England. His construction of Offa's Dyke (a defensive earthwork along the Welsh border) demonstrated remarkable centralised administrative capacity. Offa was the first English king to style himself 'Rex Anglorum' (King of the English).",
+  "outcomes": [
+    "mercian_supremacy",
+    "offa_dyke",
+    "english_high_king"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_mercia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

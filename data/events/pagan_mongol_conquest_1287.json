@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "pagan_mongol_conquest_1287",
+  "name": "Mongol Conquest of Pagan Empire",
+  "year": 1287,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    15.644,
+    96.765
+  ],
+  "entity": "kingdom_of_pagan",
+  "summary": "Mongol forces sacked the city of Pagan after the king fled. The empire fragmented into multiple smaller kingdoms, though Pagan's temple-building tradition (with 10,000+ temples) survived as a lasting cultural legacy.",
+  "outcomes": [
+    "pagan_sacked",
+    "kingdom_fragmented",
+    "mongol_advance_southeast_asia"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_pagan"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

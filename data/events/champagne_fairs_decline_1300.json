@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "champagne_fairs_decline_1300",
+  "name": "Champagne fairs begin decline",
+  "year": 1300,
+  "type": "economic",
+  "category": "economy",
+  "coords": [
+    48.2998,
+    4.0746
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "The annual cycle of fairs at Lagny, Bar-sur-Aube, Provins, and Troyes, which had been the principal land-based exchange between Mediterranean and northern European trade since the 1180s, declines in the early 14th century. Genoese galley services to Bruges and Southampton (from 1277) and Philip IV's centralising fiscal policies divert traffic to sea routes and Paris.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france"
+    ],
+    "structural_significance": "Marks the transition from a primarily land-based to a primarily sea-based north-south European trade geography; Italian merchant houses relocate from Champagne to Bruges, Paris, and London.",
+    "year_range": [
+      1290,
+      1320
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lopez_commercial_revolution_1971",
+      "abu_lughod_before_european_hegemony_1989"
+    ],
+    "confidence": "low"
+  }
+}

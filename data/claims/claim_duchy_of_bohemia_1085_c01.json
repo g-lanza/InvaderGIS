@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_duchy_of_bohemia_1085_c01",
+  "statement": "Emperor Henry IV granted King Vratislaus II of Bohemia the royal title in 1085 as reward for support during the Investiture Controversy.",
+  "subject_ids": [
+    "duchy_of_bohemia"
+  ],
+  "period": {
+    "from": 1085,
+    "to": 1085
+  },
+  "derived_from": "duchy_of_bohemia_1085",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

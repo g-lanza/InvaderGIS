@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_the_meander_1147",
+  "name": "Battle of the Meander",
+  "year": 1147,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    38.5,
+    32.5
+  ],
+  "entity": "sultanate_of_rum",
+  "summary": "Battle of the Meander (1147 CE), at Great Menderes River (part of Second Crusade). Source: Wikidata Q4872949.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "sultanate_of_rum"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

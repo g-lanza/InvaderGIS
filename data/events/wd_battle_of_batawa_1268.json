@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_batawa_1268",
+  "name": "Battle of Batawa",
+  "year": 1268,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    36.8,
+    10.2
+  ],
+  "entity": "hafsid_sultanate",
+  "summary": "Battle of Batawa (1268 CE). Source: Wikidata Q136497695.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "hafsid_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "abun-nasr_a_1987",
+      "khaldun_the_1958"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conversion_of_lithuania_1387_c02",
+  "statement": "Lithuania's conversion deprived the Teutonic Order of its crusading justification.",
+  "subject_ids": [
+    "grand_duchy_of_lithuania"
+  ],
+  "period": {
+    "from": 1387,
+    "to": 1387
+  },
+  "derived_from": "conversion_of_lithuania_1387",
+  "unresolved_sources": [
+    "christiansen_the_1997"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "rowell_lithuania_1994"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

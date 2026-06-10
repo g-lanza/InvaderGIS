@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_east_francia_to_duchy_of_saxony_fragmentation",
+  "statement": "Derived from predecessor/successor links recorded in the east_francia and duchy_of_saxony entity records. Transition anchored to duchy_of_saxony start_year.",
+  "subject_ids": [
+    "east_francia",
+    "duchy_of_saxony"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_east_francia_to_duchy_of_saxony_fragmentation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "duchy_of_saxony"
+  ],
+  "period": {
+    "from": 804,
+    "to": 804
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_treaty_tordesillas_1494_c03",
+  "statement": "The Treaty of Tordesillas (1494) was a revision of the papal bull Inter Caetera (1493), negotiated after Columbus's first voyage revealed Spanish claims in the Atlantic.",
+  "subject_ids": [
+    "crown_of_castile"
+  ],
+  "period": {
+    "from": 1494,
+    "to": 1494
+  },
+  "derived_from": "treaty_tordesillas_1494",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "o'callaghan_a_1975",
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

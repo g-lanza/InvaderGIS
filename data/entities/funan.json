@@ -1,0 +1,246 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "funan",
+  "name_primary": "Funan",
+  "name_variants": [
+    "扶南",
+    "Bnam"
+  ],
+  "type": "kingdom",
+  "region": "southeast_asia",
+  "formed": 50,
+  "dissolved": 550,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    11.21,
+    105.05
+  ],
+  "religion": "Hinduism (Vaishnava) and Mahayana Buddhism in syncretic combination",
+  "population_estimates": [
+    {
+      "year": 300,
+      "estimate": 1000000,
+      "confidence": "low",
+      "note": "Mekong delta concentration."
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Funan (c.50–550 CE) is the conventional name (from Chinese sources) for the earliest Indianised state of mainland Southeast Asia, centred on the Mekong Delta. Funan controlled the maritime trade route between China and India during the period when ships still had to portage across the Isthmus of Kra rather than risk the Strait of Malacca. Indian merchants and brahmins brought Sanskrit, the cult of Vishnu, Buddhist iconography, and Indic court ritual to Funan, which then transmitted these forms further east. Funan declined as ships began rounding the Malay Peninsula, and was eventually absorbed by its inland successor, Chenla.",
+  "temporal": {
+    "start_year": 50,
+    "end_year": 550,
+    "end_year_within_scope": 550,
+    "start_event_id": null,
+    "end_event_id": null,
+    "notes": ""
+  },
+  "geographic": {
+    "representation": "schematic_approximation",
+    "centroid": [
+      11.21,
+      105.05
+    ],
+    "core_regions": [],
+    "polygon_simplified": [
+      [
+        13.5,
+        102.5
+      ],
+      [
+        13.5,
+        106.5
+      ],
+      [
+        11.5,
+        107.5
+      ],
+      [
+        10,
+        106
+      ],
+      [
+        9.5,
+        104
+      ],
+      [
+        10,
+        102
+      ],
+      [
+        12,
+        101.5
+      ],
+      [
+        13.5,
+        102.5
+      ]
+    ],
+    "capital": {
+      "name": "Vyadhapura (Angkor Borei)",
+      "coords": [
+        11.21,
+        105.05
+      ],
+      "source": "curated"
+    }
+  },
+  "internal_structure": {
+    "centralization": "moderate",
+    "governance_type": "indianised_kingship",
+    "legitimacy_basis": "divine kingship via Vaishnava ritual",
+    "administrative_system": "subordinate vassal kings under a paramount maharaja"
+  },
+  "lifecycle_phases": [
+    {
+      "start_year": 50,
+      "end_year": 200,
+      "description": "Legendary union of brahmin Kaundinya with local Soma princess.",
+      "phase": "foundation"
+    },
+    {
+      "start_year": 200,
+      "end_year": 450,
+      "description": "Oc Eo emporium serves China-India trade.",
+      "phase": "commercial_peak"
+    },
+    {
+      "start_year": 450,
+      "end_year": 550,
+      "description": "Successor Chenla annexes Funanese territory.",
+      "phase": "absorption"
+    }
+  ],
+  "rise_factors": [
+    {
+      "layer": "economic_commercial",
+      "direction": "rise",
+      "tag": "maritime_entrepot",
+      "description": "Controlled the Funan-Oc Eo coast where China-India shipping had to portage.",
+      "evidence_strength": "medium",
+      "sources": []
+    },
+    {
+      "layer": "ideology_religion",
+      "direction": "rise",
+      "tag": "indianisation",
+      "description": "Adoption of Sanskrit administrative and religious vocabulary integrated Funan into Indic networks.",
+      "evidence_strength": "medium",
+      "sources": []
+    },
+    {
+      "layer": "economic_commercial",
+      "direction": "rise",
+      "tag": "hydraulic_engineering",
+      "description": "Network of canals at Oc Eo enabled wet-rice agriculture supporting urban population.",
+      "evidence_strength": "medium",
+      "sources": []
+    }
+  ],
+  "decline_factors": [
+    {
+      "layer": "economic_commercial",
+      "direction": "decline",
+      "tag": "trade_route_shift",
+      "description": "Improvements in shipbuilding made the Malay Peninsula circumnavigable, bypassing Oc Eo.",
+      "evidence_strength": "medium",
+      "sources": []
+    },
+    {
+      "layer": "governance_institutional",
+      "direction": "decline",
+      "tag": "chenla_succession",
+      "description": "Inland Chenla polity gradually absorbed Funanese territory in the 6th century.",
+      "evidence_strength": "medium",
+      "sources": []
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Kaundinya I",
+      "role": "King (legendary)",
+      "start_year": 50,
+      "end_year": 100,
+      "notes": "Brahmin founder per Chinese sources."
+    },
+    {
+      "name": "Fan Shih-man",
+      "role": "King",
+      "start_year": 205,
+      "end_year": 225,
+      "notes": "Conqueror who expanded Funan to peak extent."
+    },
+    {
+      "name": "Rudravarman",
+      "role": "King",
+      "start_year": 514,
+      "end_year": 550,
+      "notes": "Last attested Funanese king before Chenla absorption."
+    }
+  ],
+  "primary_ethnicity": "",
+  "religion_composition": [
+    {
+      "label": "Hinduism (Vaishnava)",
+      "percentage": 50,
+      "confidence": "low"
+    },
+    {
+      "label": "Mahayana Buddhism",
+      "percentage": 35,
+      "confidence": "low"
+    },
+    {
+      "label": "Local animism",
+      "percentage": 15,
+      "confidence": "low"
+    }
+  ],
+  "primary_language": "Old Khmer",
+  "language_composition": [
+    {
+      "language": "Old Khmer",
+      "share": "primary",
+      "use": "daily speech"
+    },
+    {
+      "language": "Sanskrit",
+      "share": "court / religious",
+      "use": "inscriptions, scripture"
+    }
+  ],
+  "economic": {
+    "primary_base": "maritime trade brokerage",
+    "secondary_bases": [
+      "wet-rice agriculture",
+      "fishing",
+      "tin mining"
+    ],
+    "wealth_level": "high",
+    "major_exports": [
+      "aromatics",
+      "gold",
+      "tin",
+      "ivory"
+    ],
+    "major_trade_partners": [
+      "gupta_empire",
+      "han_dynasty_china",
+      "srivijaya_empire"
+    ],
+    "revenue_sources": [
+      "customs at Oc Eo",
+      "tribute"
+    ]
+  },
+  "social_structure": "",
+  "wikidata_enrichment": {
+    "qid": "Q867782"
+  },
+  "monogram": "FU"
+}

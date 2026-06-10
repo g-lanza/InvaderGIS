@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_tur_ianske_teplice_1281",
+  "name": "Turčianske Teplice",
+  "importance": "city",
+  "start_year": 1281,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q135647"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    18.8636,
+    48.8589
+  ]
+}

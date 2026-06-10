@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_cellorigo_882_c03",
+  "statement": "The Battle of Cellorigo was part of the Reconquista.",
+  "subject_ids": [
+    "kingdom_of_asturias"
+  ],
+  "period": {
+    "from": 882,
+    "to": 882
+  },
+  "derived_from": "wd_battle_of_cellorigo_882",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

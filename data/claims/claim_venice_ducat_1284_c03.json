@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_venice_ducat_1284_c03",
+  "statement": "The Venetian ducat circulated unchanged in weight and fineness for five centuries.",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1284,
+    "to": 1284
+  },
+  "derived_from": "venice_ducat_1284",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lopez_commercial_revolution_1971",
+      "abulafia_great_sea_2011"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

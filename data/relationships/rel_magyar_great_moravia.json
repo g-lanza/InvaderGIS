@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_magyar_great_moravia",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_hungary",
+      "role": "principal"
+    },
+    {
+      "entity_id": "great_moravia",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 895,
+  "until": 907,
+  "note": "Magyar nomadic cavalry raids from the Pannonian Plain destroyed Great Moravia (906), eliminating the most sophisticated Slavic state of the early medieval period. The Magyars had been invited as allies by East Frankish princes against Moravia; they proved impossible to control and subsequently raided deep into Germany, France, and Italy for half a century until their decisive defeat at Lechfeld (955). The destruction of Great Moravia permanently eliminated the Slavic Cyrillo-Methodian tradition from the Danube basin, driving it eastward to Bulgaria.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Magyar destruction of Great Moravia eliminates the Slavic state that was developing the most advanced literacy and administrative culture in central Europe; the destruction redirects Slavic cultural development eastward to Bulgaria and eventually Russia; Magyar settlement of Pannonia creates the Kingdom of Hungary"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "engel_the_2001",
+      "berend_at_2001",
+      "havlík_kronika_1992",
+      "bowlus_franks_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

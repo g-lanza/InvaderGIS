@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_beas_river_1285",
+  "name": "Battle of Beas River",
+  "subtype": "battle",
+  "start_year": 1285,
+  "end_year": 1285,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q19568883"
+    }
+  },
+  "description": "Battle during Mongol invasion of Central Asia (1285)",
+  "coords": [
+    74.9521,
+    31.1502
+  ]
+}

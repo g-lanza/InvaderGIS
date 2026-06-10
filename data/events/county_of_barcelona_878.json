@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "county_of_barcelona_878",
+  "name": "County of Barcelona Becomes Hereditary",
+  "year": 878,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.4,
+    2.2
+  ],
+  "entity": "county_of_barcelona",
+  "summary": "Guifre el Pilos (Wilfred the Hairy) received the County of Barcelona as a hereditary possession in 878 CE, breaking the tradition of Frankish royal appointment. His dynasty ruled Barcelona continuously for five centuries, making the county the nucleus of Catalan culture and language and eventually the core of the Crown of Aragon.",
+  "outcomes": [
+    "catalan_identity",
+    "frankish_march",
+    "catalan_language"
+  ],
+  "_quarry": {
+    "participants": [
+      "county_of_barcelona"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_brylleion_myrleia_apamea_col_iulia_concordia_500",
+  "name": "Brylleion/Myrleia/Apamea/Col. Iulia Concordia",
+  "importance": "city",
+  "start_year": 500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "inferred",
+    "external_ids": {
+      "pleiades": "511194"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    28.8827,
+    40.3756
+  ]
+}

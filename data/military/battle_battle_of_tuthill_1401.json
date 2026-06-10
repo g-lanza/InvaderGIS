@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_tuthill_1401",
+  "name": "Battle of Tuthill",
+  "subtype": "battle",
+  "start_year": 1401,
+  "end_year": 1401,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q4872613"
+    }
+  },
+  "description": "Battle during Glyndŵr rebellion (1401)",
+  "coords": [
+    -4.27,
+    53.14
+  ]
+}

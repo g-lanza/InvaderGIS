@@ -1,0 +1,31 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_east_anglia_wessex_recovery",
+  "statement": "East Anglia — conquered by the Vikings as part of the Danelaw in 869 (when they martyred King Edmund) — was recovered by Edward the Elder, Alfred the Great's son, during the reconquest campaigns of 913–920. Edward systematically built burhs (fortified towns) advancing into Danelaw territory, forcing Danish leaders to submit. East Anglia's recovery, along with Mercia and Essex, gave Edward control of England south of the Humber. The region became the economic core of medieval England, its Danelaw heritage visible in Norse place-names to this day.",
+  "subject_ids": [
+    "danelaw",
+    "kingdom_of_england"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_east_anglia_wessex_recovery",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999",
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "kingdom_of_england"
+  ],
+  "period": {
+    "from": 927,
+    "to": 927
+  }
+}

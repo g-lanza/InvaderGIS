@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_concordat_of_vienna_1448",
+  "name": "Concordat of Vienna",
+  "year": 1448,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    46.25,
+    11.5
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Concordat of Vienna (1448 CE). Source: Wikidata Q2568988.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "papal_states"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

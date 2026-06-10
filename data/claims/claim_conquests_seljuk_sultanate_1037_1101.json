@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_seljuk_sultanate_1037_1101",
+  "statement": "Seljuk Sultanate — campaigns and battles spanned 1037–1101, from Seljuks Conquer Khorasan to Crusade of 1101 — The Second Wave Destroyed.",
+  "subject_ids": [
+    "seljuk_sultanate"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_seljuk_sultanate_1037_1101",
+  "period": {
+    "from": 1037,
+    "to": 1101
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "peacock_the_2015",
+      "bosworth_the_1963",
+      "cahen_preottoman_1968"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

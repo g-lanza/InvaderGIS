@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_basil_ii_byzantine_coronation_976_c02",
+  "statement": "Basil II's fifty-year reign restored Byzantine territory to its largest extent since the 7th century.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 976,
+    "to": 976
+  },
+  "derived_from": "basil_ii_byzantine_coronation_976",
+  "unresolved_sources": [
+    "treadgold_a_1997",
+    "kazhdan_the_1991"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "haldon_byzantium_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

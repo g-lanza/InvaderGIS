@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_mongol_kurultai_1206_c03",
+  "statement": "Genghis Khan created a social order based on merit and a military organized on decimal principles.",
+  "subject_ids": [
+    "mongol_empire"
+  ],
+  "period": {
+    "from": 1206,
+    "to": 1206
+  },
+  "derived_from": "mongol_kurultai_1206",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

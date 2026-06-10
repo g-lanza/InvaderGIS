@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_schwaderloh_1499",
+  "name": "Battle of Schwaderloh",
+  "subtype": "battle",
+  "start_year": 1499,
+  "end_year": 1499,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q319467"
+    }
+  },
+  "description": "Battle during Swabian War (1499)",
+  "coords": [
+    9.1105,
+    47.6604
+  ]
+}

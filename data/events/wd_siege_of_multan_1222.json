@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_multan_1222",
+  "name": "Siege of Multan",
+  "year": 1222,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    47.2,
+    102.8
+  ],
+  "entity": "mongol_empire",
+  "summary": "Siege of Multan (1222 CE), at Multan (part of Mongol invasions of India). Source: Wikidata Q136332982.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "mongol_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

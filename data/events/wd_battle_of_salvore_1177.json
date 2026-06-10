@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_salvore_1177",
+  "name": "Battle of Salvore",
+  "year": 1177,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    45.875,
+    10.525
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Battle of Salvore (1177 CE), at Cape Savudrija. Source: Wikidata Q4872253.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "holy_roman_empire",
+      "republic_of_genoa",
+      "republic_of_pisa"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_verdun_frag",
+  "statement": "The Treaty of Verdun (843) — signed after three years of Carolingian civil war following Louis the Pious's death — permanently divided the Carolingian Empire among his three surviving sons: Louis the German (East Francia/Germany), Charles the Bald (West Francia/France), and Lothair (Middle Francia + the imperial title). The partition created the political geography of Western Europe: France and Germany as separate states, with the contested 'middle strip' (Lorraine, Burgundy, Italy) as the perpetual battleground between them for the next 1,100 years.",
+  "subject_ids": [
+    "carolingian_empire",
+    "west_francia",
+    "east_francia",
+    "middle_francia"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_verdun_frag",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "mckitterick_charlemagne_2008",
+      "riché_the_1993",
+      "nelson_king_2019",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 843,
+    "to": 843
+  }
+}

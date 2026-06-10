@@ -1,0 +1,34 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_abbasid_seljuk",
+  "statement": "Seljuks capture Baghdad (1055) and become protectors of the Abbasid Caliph; the caliph retains religious legitimacy while Seljuk sultans hold all real power.",
+  "subject_ids": [
+    "seljuk_sultanate",
+    "abbasid_caliphate"
+  ],
+  "predicate": "vassalage",
+  "derived_from": "rel_abbasid_seljuk",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "peacock_the_2015",
+      "bosworth_the_1963",
+      "cahen_preottoman_1968",
+      "kennedy_the_2004",
+      "kennedy_when_2004",
+      "crone_gods_2004",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "abbasid_caliphate"
+  ],
+  "period": {
+    "from": 1055,
+    "to": 1194
+  }
+}

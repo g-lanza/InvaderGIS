@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "plague_of_amwas_638",
+  "name": "Plague of Amwas",
+  "year": 638,
+  "type": "epidemic",
+  "category": "hazard",
+  "coords": [
+    31.842,
+    34.989
+  ],
+  "entity": "rashidun_caliphate",
+  "summary": "Outbreak of bubonic plague at the Syrian garrison town of Amwas (Latin Emmaus) in 638-639, during the Arab consolidation of the Levant following the Yarmuk campaign. Several thousand of the Muslim army perished, including senior commanders Abu Ubayda ibn al-Jarrah and Shurahbil ibn Hasana. The early Islamic discussion of the proper response, whether to flee the affected area, generated foundational hadith-jurisprudential material on contagion and divine decree.",
+  "outcomes": [
+    "abu_ubayda_killed",
+    "shurabhil_killed",
+    "early_islamic_command_decimated"
+  ],
+  "_quarry": {
+    "participants": [
+      "rashidun_caliphate",
+      "byzantine_empire"
+    ],
+    "structural_significance": "Stripped the first generation of Companion-commanders from the army of Syria in the immediate post-conquest decade. Hodgson treats it as one of the contingent shocks that shaped the institutional improvisation of the Rashidun caliphate.",
+    "year_range": [
+      638,
+      639
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "hodgson_venture_of_islam_1974"
+    ],
+    "confidence": "low"
+  }
+}

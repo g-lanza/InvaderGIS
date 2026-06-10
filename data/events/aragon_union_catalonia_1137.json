@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "aragon_union_catalonia_1137",
+  "name": "Union of Aragon and Catalonia",
+  "year": 1137,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.7,
+    0.5
+  ],
+  "entity": "crown_of_aragon",
+  "summary": "The marriage of Ramon Berenguer IV of Barcelona to Petronilla of Aragon created the Crown of Aragon, uniting the Kingdom of Aragon with the County of Barcelona. This gave Aragon access to Mediterranean trade through Catalonian ports.",
+  "outcomes": [
+    "crown_of_aragon_formed",
+    "mediterranean_access_gained"
+  ],
+  "_quarry": {
+    "participants": [
+      "crown_of_aragon"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

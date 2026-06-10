@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "republic_of_ragusa_1358",
+  "name": "Ragusa Gains Full Independence from Venice",
+  "year": 1358,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    44.025,
+    15.195
+  ],
+  "entity": "republic_of_ragusa",
+  "summary": "The Peace of Zadar in 1358 transferred Dalmatia from Venice to Hungary and allowed Ragusa (Dubrovnik) to negotiate full independence. The small republic became a major Adriatic trading power, using sophisticated diplomacy to maintain independence between Venice, Hungary, and the Ottoman Empire.",
+  "outcomes": [
+    "venetian_suzerainty_ends",
+    "full_sovereignty_gained",
+    "adriatic_trade_hub"
+  ],
+  "_quarry": {
+    "participants": [
+      "republic_of_ragusa",
+      "republic_of_venice"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

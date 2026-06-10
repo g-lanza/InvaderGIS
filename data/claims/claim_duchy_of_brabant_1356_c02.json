@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_duchy_of_brabant_1356_c02",
+  "statement": "The Joyeuse Entrée of 1356 prefigured later parliamentary developments in the Low Countries.",
+  "subject_ids": [
+    "duchy_of_brabant"
+  ],
+  "period": {
+    "from": 1356,
+    "to": 1356
+  },
+  "derived_from": "duchy_of_brabant_1356",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

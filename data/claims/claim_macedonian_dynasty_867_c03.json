@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_macedonian_dynasty_867_c03",
+  "statement": "Basil I began the Basilika, a comprehensive Greek revision of Justinian's Latin legal code.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 867,
+    "to": 867
+  },
+  "derived_from": "macedonian_dynasty_867",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

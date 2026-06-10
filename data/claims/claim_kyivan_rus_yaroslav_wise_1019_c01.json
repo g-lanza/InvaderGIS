@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_kyivan_rus_yaroslav_wise_1019_c01",
+  "statement": "Yaroslav the Wise codified Russian law in the Russkaya Pravda during his reign beginning in 1019.",
+  "subject_ids": [
+    "kievan_rus"
+  ],
+  "period": {
+    "from": 1019,
+    "to": 1019
+  },
+  "derived_from": "kyivan_rus_yaroslav_wise_1019",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "franklin_the_1996",
+      "riasanovsky_a_2000",
+      "martin_medieval_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

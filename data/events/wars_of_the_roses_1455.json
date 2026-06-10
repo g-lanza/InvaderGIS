@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wars_of_the_roses_1455",
+  "name": "Wars of the Roses Begin",
+  "year": 1455,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    51.72,
+    -0.34
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "The Wars of the Roses, a series of civil wars between the Houses of York (white rose) and Lancaster (red rose), both descendants of Edward III, begin with the First Battle of St Albans in May 1455. The underlying causes are the mental incapacity of Henry VI (Lancastrian), the ambitions of Richard Duke of York, and aristocratic factionalism intensified by the losses of the Hundred Years' War. Over 30 years, the English throne changes hands six times. The conflict ends with Henry Tudor's victory at Bosworth Field (1485) and the founding of the Tudor dynasty.",
+  "outcomes": [
+    "yorkist_lancastrian_civil_war",
+    "henry_vi_deposed",
+    "tudor_dynasty_eventually_victorious"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england"
+    ],
+    "structural_significance": "The Wars of the Roses decimates the old English nobility; the Tudor settlement (Henry VII marrying Elizabeth of York, uniting the roses) creates the dynasty that transforms England into a major European power; the conflict accelerates the decline of feudal baronial power and the rise of gentry and merchant classes; Shakespeare's history plays immortalize this period in literature",
+    "year_range": [
+      1455,
+      1485
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

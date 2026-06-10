@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "louis_ix_crusade_1248",
+  "name": "Seventh Crusade (Louis IX)",
+  "year": 1248,
+  "type": "crusade",
+  "category": "violence",
+  "coords": [
+    31.42,
+    31.81
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Louis IX of France (St. Louis) leads the Seventh Crusade, sailing from Aigues-Mortes in August 1248. His strategy targets Egypt, the economic core of Mamluk power, rather than Palestine. He captures Damietta (June 1249) but his advance on Cairo is halted at Mansourah (February 1250), where his brother Robert of Artois is killed in a rash charge. The Crusade army is surrounded, decimated by dysentery and famine, and Louis IX himself is captured (April 1250). He is ransomed for 400,000 livres tournois (half the annual French royal revenue) and Damietta. He spends four more years in the Holy Land organizing defenses before returning to France.",
+  "outcomes": [
+    "st_louis_egypt_campaign"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "ayyubid_sultanate"
+    ],
+    "structural_significance": "The most ambitious and best-organized crusade of the 13th century; its failure demonstrates the strategic impossibility of defeating Ayyubid/Mamluk Egypt; marks the effective end of large-scale royal crusading to the Holy Land",
+    "year_range": [
+      1248,
+      1254
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

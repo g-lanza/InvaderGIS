@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_doge_venice_enrico_dandolo_c02",
+  "statement": "After diverting the Fourth Crusade to sack Zara and Constantinople, Venice received three-eighths of the Byzantine Empire under the Partitio Romaniae, including Crete and a quarter of Constantinople.",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1202,
+    "to": 1202
+  },
+  "derived_from": "doge_venice_enrico_dandolo",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

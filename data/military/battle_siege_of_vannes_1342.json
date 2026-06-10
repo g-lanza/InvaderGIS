@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_siege_of_vannes_1342",
+  "name": "Siege of Vannes",
+  "subtype": "battle",
+  "start_year": 1342,
+  "end_year": 1342,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1194227"
+    }
+  },
+  "description": "Battle during War of the Breton Succession (1342)",
+  "coords": [
+    -2.7617,
+    47.655
+  ]
+}

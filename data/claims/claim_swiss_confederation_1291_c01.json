@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_swiss_confederation_1291_c01",
+  "statement": "In 1291 the Forest Cantons of Uri, Schwyz, and Unterwalden signed the Federal Charter pledging mutual defense.",
+  "subject_ids": [
+    "swiss_confederation"
+  ],
+  "period": {
+    "from": 1291,
+    "to": 1291
+  },
+  "derived_from": "swiss_confederation_1291",
+  "unresolved_sources": [
+    "rippmann_die_2006"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "marchal_schweizer_2006"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_al_harrah_683",
+  "name": "Battle of al-Harrah",
+  "subtype": "battle",
+  "start_year": 683,
+  "end_year": 683,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q514382"
+    }
+  },
+  "description": "Battle during Second Fitna (683)",
+  "coords": [
+    39.6333,
+    24.4667
+  ]
+}

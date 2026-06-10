@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_naval_battle_of_the_tejo_1384_c01",
+  "statement": "Naval Battle of the Tejo (1384 CE), at Tagus River (part of 1383–1385 Portuguese Interregnum).",
+  "subject_ids": [
+    "kingdom_of_portugal"
+  ],
+  "period": {
+    "from": 1384,
+    "to": 1384
+  },
+  "derived_from": "wd_naval_battle_of_the_tejo_1384",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_duchy_of_lorraine_1337_1485",
+  "statement": "Duchy of Lorraine — campaigns and battles spanned 1337–1485, from Edwardian War to Mad War.",
+  "subject_ids": [
+    "duchy_of_lorraine"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_duchy_of_lorraine_1337_1485",
+  "period": {
+    "from": 1337,
+    "to": 1485
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

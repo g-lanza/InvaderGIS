@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "magyarsmigration_895",
+  "name": "Magyar Settlement in the Carpathian Basin",
+  "year": 895,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    47.5,
+    19
+  ],
+  "entity": "magyars",
+  "summary": "The Magyar tribal confederation under Árpád crosses the Carpathians and settles the Pannonian Plain, displacing and absorbing the existing Slavic and Avar populations. For the next 50 years, Magyar cavalry raiders terrorize Western Europe from France to Burgundy, forcing new defensive architectures and political realignments, until their defeat at Lechfeld (955).",
+  "outcomes": [
+    "hungary_founded",
+    "central_europe_raided",
+    "nomadic_people_settling"
+  ],
+  "_quarry": {
+    "participants": [
+      "magyars",
+      "great_moravia",
+      "first_bulgarian_empire"
+    ],
+    "structural_significance": "Magyar settlement creates the geographic space of modern Hungary; the raids contribute to the collapse of the Carolingian successor states and the rise of regional strongmen (counts, margraves); eventual Christianization under Stephen I integrates Hungary into Latin Christendom.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

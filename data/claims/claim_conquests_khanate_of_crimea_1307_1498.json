@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_khanate_of_crimea_1307_1498",
+  "statement": "Crimean Khanate — campaigns and battles spanned 1307–1498, from Genoese–Mongol Wars to Moldavian campaign in Poland.",
+  "subject_ids": [
+    "khanate_of_crimea"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_khanate_of_crimea_1307_1498",
+  "period": {
+    "from": 1307,
+    "to": 1498
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fisher_the_1978",
+      "davies_warfare_2007"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

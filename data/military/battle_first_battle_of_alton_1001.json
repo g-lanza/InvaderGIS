@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_first_battle_of_alton_1001",
+  "name": "First Battle of Alton",
+  "subtype": "battle",
+  "start_year": 1001,
+  "end_year": 1001,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q5452499"
+    }
+  },
+  "description": "Battle of 1001",
+  "coords": [
+    -0.975,
+    51.151
+  ]
+}

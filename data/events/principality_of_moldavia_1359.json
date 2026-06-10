@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "principality_of_moldavia_1359",
+  "name": "Principality of Moldavia Founded",
+  "year": 1359,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    47,
+    28
+  ],
+  "entity": "principality_of_moldavia",
+  "summary": "Bogdan I established the Principality of Moldavia in 1359 after leading a revolt against Hungarian overlordship. The new principality occupied the territories between the Carpathians, the Dniester, and the Black Sea, becoming one of the two Romanian principalities that would eventually unite to form Romania.",
+  "outcomes": [
+    "romanian_state",
+    "bogdan_founder",
+    "hungarian_vassal_rejected"
+  ],
+  "_quarry": {
+    "participants": [
+      "principality_of_moldavia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "treptow_a_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

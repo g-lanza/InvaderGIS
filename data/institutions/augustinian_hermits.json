@@ -1,0 +1,43 @@
+{
+  "kind": "institution",
+  "dataset": "medieval-europe-500-1500",
+  "id": "augustinian_hermits",
+  "name_primary": "Order of Hermits of Saint Augustine",
+  "domain": "mendicant_order",
+  "formed": 1244,
+  "dissolved": 1500,
+  "_quarry": {
+    "key_developments": [
+      {
+        "year": 1244,
+        "event": "Innocent IV's Incumbit nobis convenes the Tuscan eremitic communities — Little Union."
+      },
+      {
+        "year": 1256,
+        "event": "Alexander IV's Licet Ecclesiae catholicae regimini formalises the Magna Unio across all Italian Augustinian eremites."
+      },
+      {
+        "year": 1287,
+        "event": "Aegidius Romanus (Giles of Rome) — first major Augustinian master at Paris."
+      },
+      {
+        "year": 1303,
+        "event": "Giles of Rome's De ecclesiastica potestate provides the ideological backbone for Boniface VIII's Unam sanctam."
+      }
+    ],
+    "influences_entities": [
+      "papal_states",
+      "kingdom_of_france",
+      "holy_roman_empire",
+      "kingdom_of_naples"
+    ],
+    "description": "The Augustinian Hermits (Ordo Eremitarum Sancti Augustini) were constituted from a fusion of several eremitic communities in central Italy — the Tuscan Hermits, the Williamites, and others — first gathered by Innocent IV's Incumbit nobis (1243–1244) and definitively unified under Alexander IV's Licet Ecclesiae catholicae regimini (the Magna Unio, 1256). The new order followed an Augustinian Rule, lived as friars rather than enclosed hermits, and joined the four classical mendicant orders. Augustinian convents proliferated in northern Italian, German, and Iberian cities; the order furnished Martin Luther's formation two and a half centuries after foundation."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lawrence_medieval_monasticism_2001"
+    ],
+    "confidence": "low"
+  }
+}

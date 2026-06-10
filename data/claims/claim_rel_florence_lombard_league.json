@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_florence_lombard_league",
+  "statement": "Florence, as the leading Guelf city of Tuscany, was a natural ally of the Lombard League against the Hohenstaufen emperors. Florence sent troops to support the League and benefited from Barbarossa's defeat at Legnano (1176) and Frederick II's struggles with the Italian communes. The Guelf-Ghibelline (papal-imperial) factional divisions that structured Florentine politics throughout the 13th–14th centuries originated in this alignment. The Guelf party's victory over the Ghibellines (expulsion of the Ghibellines after Benevento, 1266) transformed Florence into a Guelf city that subsequently defined itself in opposition to imperial power.",
+  "subject_ids": [
+    "republic_of_florence",
+    "commune_of_milan"
+  ],
+  "predicate": "alliance",
+  "derived_from": "rel_florence_lombard_league",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "najemy_a_2006",
+      "brucker_renaissance_1983",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1167,
+    "to": 1183
+  }
+}

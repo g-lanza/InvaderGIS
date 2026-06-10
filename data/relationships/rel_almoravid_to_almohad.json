@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_almoravid_to_almohad",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "almoravid_emirate_iberia",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "almohad_caliphate_iberia",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 1147,
+  "until": 1147,
+  "note": "The Almohad Caliphate (al-Muwahhidun, 'those who affirm divine unity') arose in the Atlas Mountains of Morocco as a Berber religious reform movement under Ibn Tumart (d. 1130) and his successor Abd al-Mu'min. The Almohads overthrew the Almoravid Empire by capturing Marrakesh (1147), then crossed to al-Andalus and absorbed the Almoravid territories in Iberia (1148–1172). The Almohad regime was more rigidly orthodox than the Almoravids, forcibly converting or expelling Jewish and Christian communities in North Africa and Iberia. The defeat at Las Navas de Tolosa (1212) began the Almohad collapse.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Almohad takeover represents the second wave of North African Berber intervention in al-Andalus; the Almohad religious program drives out the Jewish and Christian minorities who had coexisted under the Almoravids; Las Navas de Tolosa (1212) is the decisive battle of the Reconquista, opening the way for Castile's conquest of Andalusia"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_the_2004",
+      "kennedy_muslim_1996",
+      "catlos_kingdoms_2018",
+      "o'callaghan_reconquest_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

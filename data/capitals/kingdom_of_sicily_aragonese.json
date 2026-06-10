@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_sicily_aragonese",
+  "name": "Catania",
+  "entity_id": "kingdom_of_sicily_aragonese",
+  "entity_name": "Aragonese Sicily",
+  "start_year": 1282,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1390127"
+    }
+  },
+  "coords": [
+    15.08727,
+    37.50267
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "principality_of_zeta_1421",
+  "name": "Zeta Becomes Venetian Protectorate",
+  "year": 1421,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    44.09,
+    15.71
+  ],
+  "entity": "principality_of_zeta",
+  "summary": "As Ottoman pressure increased on the Balkans, Zeta accepted Venetian protection of its coastal territories in 1421. The maritime Venetian alliance allowed the coastal towns to survive Ottoman raids while the interior fell under Ottoman influence, creating the distinctive split between coastal (Catholic/Venetian) and interior (Orthodox) Montenegro.",
+  "outcomes": [
+    "venetian_protection",
+    "ottoman_pressure",
+    "coastal_survival"
+  ],
+  "_quarry": {
+    "participants": [
+      "principality_of_zeta",
+      "republic_of_venice"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

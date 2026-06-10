@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ottoman_adrianople_1369",
+  "name": "Ottomans Capture Adrianople, European Foothold",
+  "year": 1369,
+  "type": "conquest",
+  "category": "violence",
+  "coords": [
+    41.69,
+    26.56
+  ],
+  "entity": "ottoman_empire",
+  "summary": "Murad I captures Adrianople (Edirne) in 1369 and makes it the Ottoman capital, establishing the Ottoman Empire's center in Europe rather than Anatolia. Constantinople is now surrounded on three sides by Ottoman territory; the Byzantine Empire is reduced to the city itself and a few nearby enclaves. Murad's court at Edirne coordinates Ottoman administration of the Balkans and the further conquest of Bulgaria and Serbia.",
+  "outcomes": [
+    "adrianople_becomes_ottoman_capital",
+    "byzantium_isolated",
+    "ottoman_europe_begins"
+  ],
+  "_quarry": {
+    "participants": [
+      "ottoman_empire",
+      "byzantine_empire"
+    ],
+    "structural_significance": "Adrianople's capture completes Constantinople's encirclement; the city can now only be supplied by sea, making Venetian and Genoese naval cooperation essential to Byzantine survival; the Ottoman choice of a European capital (Edirne) rather than an Anatolian one signals the empire's orientation toward European conquest; this strategic choice shapes Ottoman warfare, culture, and politics for the next century",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

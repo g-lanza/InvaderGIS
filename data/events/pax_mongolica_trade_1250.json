@@ -1,0 +1,43 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "pax_mongolica_trade_1250",
+  "name": "The Pax Mongolica, Safe Passage Across Asia",
+  "year": 1250,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    50,
+    80
+  ],
+  "entity": "mongol_empire",
+  "summary": "At the height of Mongol dominance, a merchant with a paiza (Mongol safe-conduct tablet) could travel from China to Hungary in relative safety. The Mongol postal relay system (yam), universal commercial protection, and standardized weights enabled unprecedented long-distance trade. Friar John of Plano Carpini (1245), William of Rubruck (1253), and Marco Polo (1271-95) all make transcontinental journeys impossible before or after this brief window.",
+  "outcomes": [
+    "silk_road_safest_in_history",
+    "east_west_trade_peaks",
+    "plague_transmission_enabled"
+  ],
+  "_quarry": {
+    "participants": [
+      "mongol_empire",
+      "golden_horde",
+      "ilkhanate",
+      "chagatai_khanate"
+    ],
+    "structural_significance": "The Pax Mongolica is a historically unique episode of transcontinental connectivity; its commercial integration facilitates the technology transfers (gunpowder, paper, printing) that transform Europe; its biological integration enables the Black Death (Y. pestis travels from Central Asian rodent reservoirs to the Black Sea coast via the trade routes); the Pax ends with the dissolution of Mongol unity in the 1340s-1360s",
+    "year_range": [
+      1240,
+      1340
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

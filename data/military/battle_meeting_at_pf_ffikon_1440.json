@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_meeting_at_pf_ffikon_1440",
+  "name": "Meeting at Pfäffikon",
+  "subtype": "battle",
+  "start_year": 1440,
+  "end_year": 1440,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q91753003"
+    }
+  },
+  "description": "Battle during Old Zürich War (1440)",
+  "coords": [
+    8.7822,
+    47.3667
+  ]
+}

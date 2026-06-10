@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_zovk_1111",
+  "name": "Siege of Zovk",
+  "year": 1111,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    38.5,
+    32.5
+  ],
+  "entity": "sultanate_of_rum",
+  "summary": "Siege of Zovk (1111 CE), at Cilicia. Source: Wikidata Q131522059.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "sultanate_of_rum"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

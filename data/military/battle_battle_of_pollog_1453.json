@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_pollog_1453",
+  "name": "Battle of Pollog",
+  "subtype": "battle",
+  "start_year": 1453,
+  "end_year": 1453,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q3304647"
+    }
+  },
+  "description": "Battle during Ottoman Wars in Europe (1453)",
+  "coords": [
+    20.9649,
+    41.958
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_yarmouk_636",
+  "name": "Battle of Yarmouk",
+  "year": 636,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    32.8,
+    36.3
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Khalid ibn al-Walid leads Arab Muslim armies against the massive Byzantine force under Vahan near the Yarmouk River in modern Jordan. Despite being outnumbered, the Arab cavalry exploits a dust storm to shatter the Byzantine line. The six-day battle ends Byzantine rule over Syria and Palestine, territories lost to Rome for centuries. Jerusalem falls the following year.",
+  "outcomes": [
+    "arab_conquest_of_levant",
+    "byzantine_syria_lost"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "umayyad_caliphate"
+    ],
+    "structural_significance": "Permanently ends Byzantine control of the Levant, Egypt follows in 641; establishes Islamic dominance over the eastern Mediterranean coast for the next four centuries",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

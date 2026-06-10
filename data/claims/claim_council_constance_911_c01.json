@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_council_constance_911_c01",
+  "statement": "After the death of Ludwig the Child in 911, the East Frankish nobles elected Conrad I of Franconia as king at Forchheim, choosing a non-Carolingian for the first time.",
+  "subject_ids": [
+    "east_francia"
+  ],
+  "period": {
+    "from": 911,
+    "to": 911
+  },
+  "derived_from": "council_constance_911",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

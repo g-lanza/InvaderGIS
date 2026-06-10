@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "norman_conquest_1066",
+  "name": "Norman Conquest of England",
+  "year": 1066,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    50.9,
+    0.5
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "William of Normandy's victory at the Battle of Hastings kills King Harold II and the core of the Anglo-Saxon warrior aristocracy. William's subsequent coronation at Westminster on Christmas Day and distribution of English lands to Norman barons transforms England's culture, language, and administration. French becomes the language of the English court for three centuries.",
+  "outcomes": [
+    "harold_killed",
+    "norman_england",
+    "french_language_influence"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "duchy_of_normandy"
+    ],
+    "structural_significance": "Creates the Anglo-Norman dual monarchy; introduces French vocabulary into English (still 30% of English words derive from French); Norman administrative innovations create Domesday Book and common law institutions; turns England's focus toward Continental politics.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

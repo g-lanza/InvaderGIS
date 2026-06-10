@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_stilo_982",
+  "name": "Battle of Stilo",
+  "year": 982,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    45.55,
+    12.65
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Battle of Stilo (982 CE), at Capo Colonna (part of Muslim invasions of Italy). Source: Wikidata Q703523.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "duchy_of_benevento"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

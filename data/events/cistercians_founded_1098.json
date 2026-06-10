@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "cistercians_founded_1098",
+  "name": "Foundation of the Cistercian Order at Cîteaux",
+  "year": 1098,
+  "type": "religious",
+  "category": "religion",
+  "coords": [
+    47.13,
+    5.08
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Robert of Molesme founds the Abbey of Cîteaux in Burgundy as a return to strict Benedictine observance, manual labour, austerity, and silence. Under Bernard of Clairvaux from 1115 the order expands explosively: ~340 houses across Europe by 1200.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france"
+    ],
+    "structural_significance": "Drives the Romanesque-to-Gothic agrarian colonisation of forests and frontier lands across western Europe; standardised Cistercian water-management and stockbreeding raise rural productivity from Castile to Pomerania.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

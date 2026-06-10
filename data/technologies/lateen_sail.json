@@ -1,0 +1,39 @@
+{
+  "kind": "technology",
+  "dataset": "medieval-europe-500-1500",
+  "id": "lateen_sail",
+  "name_primary": "Lateen Sail",
+  "domain": "maritime",
+  "origin": {
+    "place": "Eastern Mediterranean (late Roman / early Byzantine)",
+    "year": 500
+  },
+  "materials": [
+    "triangular linen or cotton sail",
+    "long yard spar",
+    "timber mast",
+    "hemp rigging"
+  ],
+  "diffusion": [
+    "Byzantine Empire",
+    "Arab Caliphates",
+    "Fatimid Egypt",
+    "Republic of Venice",
+    "Republic of Genoa",
+    "Crown of Aragon",
+    "Kingdom of Portugal",
+    "Mamluk Sultanate"
+  ],
+  "_quarry": {
+    "description": "The lateen sail — a triangular fore-and-aft rig mounted on a long yard — is clearly depicted in Mediterranean iconography by the late 5th century CE, as argued by Whitewright (2009) based on the Kelenderis mosaic and other late-antique sources; it had fully replaced the square sail in Mediterranean use by the early medieval period. Earlier scholarship attributed the lateen to Arab diffusion from the Indian Ocean, but Whitewright and Campbell have demonstrated that the rig was native to the late-antique Mediterranean. The lateen enabled sailing closer to the wind, revolutionizing long-distance Mediterranean and Atlantic navigation and underpinning the later Portuguese Age of Discovery."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "whitewright_lateen_2009",
+      "campbell_lateen_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

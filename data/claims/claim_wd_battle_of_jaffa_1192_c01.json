@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_jaffa_1192_c01",
+  "statement": "Battle of Jaffa (1192 CE), at Jaffa (part of Third Crusade).",
+  "subject_ids": [
+    "republic_of_genoa"
+  ],
+  "period": {
+    "from": 1192,
+    "to": 1192
+  },
+  "derived_from": "wd_battle_of_jaffa_1192",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

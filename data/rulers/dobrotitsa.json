@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "dobrotitsa",
+  "name": "Dobrotitsa",
+  "polity": "despotate_of_dobruja",
+  "title": "ruler",
+  "reign_start": 1354,
+  "reign_end": 1385,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "despotate_of_dobruja",
+        "role": "ruler",
+        "start_year": 1354,
+        "end_year": 1385
+      }
+    ],
+    "key_actions": [],
+    "region": "southeastern_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

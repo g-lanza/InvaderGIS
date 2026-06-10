@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_sidon_1110",
+  "name": "Siege of Sidon",
+  "year": 1110,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41.925,
+    21.8
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Siege of Sidon (1110 CE), at Sidon (part of Norwegian Crusade). Source: Wikidata Q3431465.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "kingdom_of_jerusalem",
+      "fatimid_caliphate",
+      "kingdom_of_norway"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

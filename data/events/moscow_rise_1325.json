@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "moscow_rise_1325",
+  "name": "Ivan I Kalita, Moscow's Rise as Tax Collector",
+  "year": 1325,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    55.75,
+    37.62
+  ],
+  "entity": "grand_principality_of_moscow",
+  "summary": "Ivan I of Moscow (called Kalita, 'Moneybag') receives from the Golden Horde the right to collect tribute from other Russian princes, an extraordinary power that enriches Moscow at rivals' expense. He also persuades Metropolitan Peter to move the Orthodox Church's seat to Moscow (1326), making Moscow the spiritual as well as political center of emerging Russia. His submission policy toward the Horde provides peace that allows Moscow's growth.",
+  "outcomes": [
+    "moscow_collects_horde_tribute",
+    "metropolitan_church_moves_to_moscow",
+    "moscow_grows_wealthy"
+  ],
+  "_quarry": {
+    "participants": [
+      "grand_principality_of_moscow",
+      "golden_horde"
+    ],
+    "structural_significance": "Ivan I's strategy transforms Moscow from a minor principality into Russia's dominant state; using Mongol authority to extract tribute from rivals creates the capital accumulation that funds later Muscovite expansion; the Metropolitan's move to Moscow gives the princes of Moscow a spiritual prestige that reinforces their political claims; Ivan's grandson Dmitri Donskoi can challenge the Horde at Kulikovo (1380) because of the foundation Ivan built",
+    "year_range": [
+      1325,
+      1341
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "fennell_the_1983",
+      "ostrowski_muscovy_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

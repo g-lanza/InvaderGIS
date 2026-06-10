@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "muscat_630",
+  "name": "Oman Converts to Islam",
+  "year": 630,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    24.358,
+    57.099
+  ],
+  "entity": "muscat",
+  "summary": "The Omanis converted to Islam during the Prophet Muhammad's lifetime, with Amr ibn al-As bringing the message to Oman in 630 CE. The Omanis adopted the Ibadi school of Islam, a distinctive moderate branch, and used their maritime expertise to spread Islam along the East African and Indian trade routes.",
+  "outcomes": [
+    "ibadi_islam",
+    "early_conversion",
+    "arab_maritime"
+  ],
+  "_quarry": {
+    "participants": [
+      "muscat"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

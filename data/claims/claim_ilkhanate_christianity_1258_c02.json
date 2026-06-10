@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_ilkhanate_christianity_1258_c02",
+  "statement": "Hulagu Khan's mother and wife were Nestorian Christians, and he was open to diplomatic approaches.",
+  "subject_ids": [
+    "ilkhanate"
+  ],
+  "period": {
+    "from": 1260,
+    "to": 1260
+  },
+  "derived_from": "ilkhanate_christianity_1258",
+  "unresolved_sources": [
+    "jackson_the_2005"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "amitai-preiss_mongols_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_mohi",
+  "name": "Battle of Mohi",
+  "subtype": "battle",
+  "start_year": 1241,
+  "end_year": 1241,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "Mongol victory over Hungary; devastating the kingdom",
+  "coords": [
+    20.73,
+    47.9
+  ]
+}

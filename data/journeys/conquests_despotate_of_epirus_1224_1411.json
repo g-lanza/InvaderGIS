@@ -1,0 +1,90 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_despotate_of_epirus_1224_1411",
+  "name": "Despotate of Epirus — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1224,
+  "year_end": 1411,
+  "waypoints": [
+    {
+      "year": 1224,
+      "place": "Epirus Captures Thessaloniki",
+      "coords": [
+        40.17,
+        21.875
+      ],
+      "note": "military",
+      "event_id": "despotate_of_epirus_1224"
+    },
+    {
+      "year": 1257,
+      "place": "Rebellion of Arbanon",
+      "coords": [
+        40.05,
+        25.25
+      ],
+      "note": "military",
+      "event_id": "wd_rebellion_of_arbanon_1257"
+    },
+    {
+      "year": 1358,
+      "place": "Albanian-Epirote War of 1359",
+      "coords": [
+        39.7,
+        20.8
+      ],
+      "note": "military",
+      "event_id": "wd_albanian_epirote_war_of_1359_1358"
+    },
+    {
+      "year": 1367,
+      "place": "Albanian-Epirote War of 1367-1370",
+      "coords": [
+        39.7,
+        20.8
+      ],
+      "note": "military",
+      "event_id": "wd_albanian_epirote_war_of_1367_1370_1367"
+    },
+    {
+      "year": 1374,
+      "place": "Albanian-Epirote War of 1374-1375",
+      "coords": [
+        39.7,
+        20.8
+      ],
+      "note": "military",
+      "event_id": "wd_albanian_epirote_war_of_1374_1375_1374"
+    },
+    {
+      "year": 1381,
+      "place": "Albanian-Epirote War of 1381-1384",
+      "coords": [
+        39.7,
+        20.8
+      ],
+      "note": "military",
+      "event_id": "wd_albanian_epirote_war_of_1381_1384_1381"
+    },
+    {
+      "year": 1411,
+      "place": "Albanian invasion of Epirus",
+      "coords": [
+        39.7,
+        20.8
+      ],
+      "note": "military",
+      "event_id": "wd_albanian_invasion_of_epirus_1411"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

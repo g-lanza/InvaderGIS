@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_breton_war_1341",
+  "name": "Breton War",
+  "year": 1341,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    46.6667,
+    -0.8333
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Breton War (1341 CE). Source: Wikidata Q21193517.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "crown_of_castile",
+      "kingdom_of_england"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

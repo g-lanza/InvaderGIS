@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_wroc_aw_new_town_1263",
+  "name": "Wrocław New Town",
+  "importance": "city",
+  "start_year": 1263,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q9378128"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    17.043,
+    51.1107
+  ]
+}

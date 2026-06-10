@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "emirate_of_sicily_1072",
+  "name": "Normans Conquer Palermo",
+  "year": 1072,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    37.655,
+    14.078
+  ],
+  "entity": "emirate_of_sicily",
+  "summary": "The Norman conquest of Palermo in 1072 effectively ended Arab political control of Sicily. Under Roger I and his successors, the island became the unique Kingdom of Sicily, a multicultural realm where Norman, Arab, Byzantine, and Jewish cultures coexisted and produced remarkable artistic and intellectual achievements.",
+  "outcomes": [
+    "arab_rule_ends",
+    "norman_sicily_emerges",
+    "multicultural_kingdom"
+  ],
+  "_quarry": {
+    "participants": [
+      "emirate_of_sicily"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

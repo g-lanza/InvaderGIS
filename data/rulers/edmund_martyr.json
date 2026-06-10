@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "edmund_martyr",
+  "name": "Edmund the Martyr",
+  "polity": "kingdom_of_east_anglia",
+  "title": "ruler",
+  "reign_start": 855,
+  "reign_end": 869,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "kingdom_of_east_anglia",
+        "role": "ruler",
+        "start_year": 855,
+        "end_year": 869
+      }
+    ],
+    "key_actions": [],
+    "region": "british_isles",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

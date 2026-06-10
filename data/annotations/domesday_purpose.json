@@ -1,0 +1,29 @@
+{
+  "id": "domesday_purpose",
+  "kind": "annotation",
+  "dataset": "medieval",
+  "target_id": "domesday_book",
+  "target_kind": "text",
+  "anchor": {
+    "quote": "There was no single hide nor a yard of land, nor indeed one ox nor one cow nor one pig which was left out, and not put down in his record.",
+    "locator": "Anglo-Saxon Chronicle, entry for 1085 (describing the survey)"
+  },
+  "body": "The Anglo-Saxon Chronicle's description of the exhaustiveness of William I's 1086 survey — the most complete record of land, livestock, and obligation in any medieval European kingdom, and the fiscal backbone of Norman royal administration.",
+  "links_to": [
+    "kingdom_of_england"
+  ],
+  "tags": [
+    "administration",
+    "taxation",
+    "land",
+    "conquest"
+  ],
+  "provenance": {
+    "status": "draft",
+    "confidence": "high",
+    "attestation": "strong",
+    "sources_used": [
+      "domesday_book"
+    ]
+  }
+}

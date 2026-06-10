@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_leinster",
+  "name": "Ferns",
+  "entity_id": "kingdom_of_leinster",
+  "entity_name": "Kingdom of Leinster",
+  "start_year": 500,
+  "end_year": 1171,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q4671762"
+    }
+  },
+  "coords": [
+    -6.5,
+    52.59
+  ]
+}

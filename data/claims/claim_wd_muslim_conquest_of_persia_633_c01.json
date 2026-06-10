@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_muslim_conquest_of_persia_633_c01",
+  "statement": "Muslim conquest of Persia (633 CE), at Sasanian Empire (part of Muslim conquests).",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 633,
+    "to": 633
+  },
+  "derived_from": "wd_muslim_conquest_of_persia_633",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

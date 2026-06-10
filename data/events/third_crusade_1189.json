@@ -1,0 +1,39 @@
+{
+ "kind": "event",
+ "dataset": "medieval-europe-500-1500",
+ "id": "third_crusade_1189",
+ "name": "Third Crusade",
+ "year": 1189,
+ "type": "crusade",
+ "category": "violence",
+ "coords": [
+  32.92,
+  35.07
+ ],
+ "entity": "kingdom_of_england",
+ "summary": "The Third Crusade (1189–1192), led by Philip II of France, Frederick Barbarossa, and Richard I of England, responds to Saladin's capture of Jerusalem (1187). Frederick Barbarossa drowns in Cilicia (1190); his German army dissolves. Philip II quarrels with Richard and returns home. Richard I leads the Crusade alone: he reconquers the coastal cities, defeats Saladin at Arsuf and Jaffa, brings his army within sight of Jerusalem twice but judges assault impossible. The Treaty of Jaffa (1192) gives Christians access to Jerusalem without sovereignty; the Kingdom of Jerusalem survives on the coast. Richard departs; Saladin dies (1193).",
+ "outcomes": [
+  "acre_recaptured"
+ ],
+ "_quarry": {
+  "participants": [
+   "kingdom_of_england",
+   "kingdom_of_france",
+   "holy_roman_empire",
+   "kingdom_of_jerusalem"
+  ],
+  "structural_significance": "Fails to recapture Jerusalem despite the presence of three kings; establishes the military stalemate between Crusader and Ayyubid forces; the treaty preserves the coastal Crusader kingdom for another century; Richard I's reputation makes him the archetype of crusading chivalry",
+  "year_range": [
+   1189,
+   1192
+  ]
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "ims_fordham",
+   "ims_fordham_sbook1k"
+  ],
+  "confidence": "low"
+ }
+}

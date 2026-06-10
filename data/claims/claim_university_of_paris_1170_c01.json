@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_university_of_paris_1170_c01",
+  "statement": "Around 1170, the masters teaching in the schools attached to the cathedral of Notre-Dame in Paris organised themselves into a self-governing universitas.",
+  "subject_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 1170,
+    "to": 1170
+  },
+  "derived_from": "university_of_paris_1170",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "bartlett_making_of_europe_1993",
+      "marenbon_later_medieval_philosophy_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

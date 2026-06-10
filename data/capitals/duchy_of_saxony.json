@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_saxony",
+  "name": "Magdeburg",
+  "entity_id": "duchy_of_saxony",
+  "entity_name": "Duchy of Saxony",
+  "start_year": 804,
+  "end_year": 1296,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q164092"
+    }
+  },
+  "coords": [
+    11.63,
+    52.13
+  ]
+}

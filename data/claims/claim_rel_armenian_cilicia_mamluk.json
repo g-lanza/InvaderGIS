@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_armenian_cilicia_mamluk",
+  "statement": "The Armenian Kingdom of Cilicia faced sustained Mamluk pressure throughout the 14th century, with major campaigns in 1266 (capturing Sis temporarily), 1275, 1322, and 1337. Armenian Cilicia's alliance with the Mongol Ilkhanate (against the Mamluks) collapsed when the Ilkhanate dissolved (1335). The Crusading powers the Armenians appealed to — the Hospitallers, Cyprus, the papacy — provided inadequate support. The Mamluk Sultan Barquq launched the final campaign (1374–1375) that destroyed the kingdom; King Leo VI escaped to Europe but found no support for a recovery and died in exile (1393).",
+  "subject_ids": [
+    "armenian_kingdom_of_cilicia",
+    "mamluk_sultanate"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_armenian_cilicia_mamluk",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "boase_the_1978",
+      "mutafian_le_1993",
+      "irwin_the_1986",
+      "northrup_from_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1268,
+    "to": 1375
+  }
+}

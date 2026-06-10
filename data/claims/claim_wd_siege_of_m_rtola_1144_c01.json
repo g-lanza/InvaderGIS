@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_m_rtola_1144_c01",
+  "statement": "Siege of Mértola (1144 CE), at Mértola (part of Andalusi revolt against the Almoravids).",
+  "subject_ids": [
+    "almoravid_emirate_iberia"
+  ],
+  "period": {
+    "from": 1144,
+    "to": 1144
+  },
+  "derived_from": "wd_siege_of_m_rtola_1144",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_the_2004",
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

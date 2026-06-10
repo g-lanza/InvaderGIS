@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_bannockburn",
+  "name": "Battle of Bannockburn",
+  "subtype": "battle",
+  "start_year": 1314,
+  "end_year": 1314,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "Robert the Bruce's decisive victory over Edward II; secures Scottish independence",
+  "coords": [
+    -3.928,
+    56.09
+  ]
+}

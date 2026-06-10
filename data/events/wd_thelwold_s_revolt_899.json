@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_thelwold_s_revolt_899",
+  "name": "Æthelwold's Revolt",
+  "year": 899,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    51.75,
+    -1.75
+  ],
+  "entity": "kingdom_of_mercia",
+  "summary": "Æthelwold's Revolt (899 CE), at England. Source: Wikidata Q8077397.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_mercia",
+      "kingdom_of_wessex"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

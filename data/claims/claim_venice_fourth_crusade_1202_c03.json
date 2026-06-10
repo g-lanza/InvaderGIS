@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_venice_fourth_crusade_1202_c03",
+  "statement": "After sacking Zara, the Fourth Crusade was redirected to Constantinople.",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1202,
+    "to": 1202
+  },
+  "derived_from": "venice_fourth_crusade_1202",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

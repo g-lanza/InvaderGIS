@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_duchy_of_carinthia_976_c01",
+  "statement": "Carinthia was separated from Bavaria as a distinct duchy in 976 CE under Emperor Otto II.",
+  "subject_ids": [
+    "duchy_of_carinthia"
+  ],
+  "period": {
+    "from": 976,
+    "to": 976
+  },
+  "derived_from": "duchy_of_carinthia_976",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

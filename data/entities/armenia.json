@@ -1,0 +1,2942 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "armenia",
+  "name_primary": "Armenia",
+  "name_variants": [],
+  "type": "kingdom",
+  "region": "caucasus",
+  "formed": 700,
+  "dissolved": 1200,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 1000,
+      "label": "Armenia",
+      "polygon": [
+        [
+          41.12,
+          44.03
+        ],
+        [
+          40.94,
+          44.55
+        ],
+        [
+          41.3,
+          44.78
+        ],
+        [
+          41.46,
+          45.43
+        ],
+        [
+          38.34,
+          46.82
+        ],
+        [
+          37.67,
+          46.82
+        ],
+        [
+          36.78,
+          44.84
+        ],
+        [
+          36.82,
+          44.46
+        ],
+        [
+          38.13,
+          42.02
+        ],
+        [
+          38.34,
+          41.01
+        ],
+        [
+          38.68,
+          41.81
+        ],
+        [
+          40.7,
+          42.69
+        ],
+        [
+          41.12,
+          44.03
+        ]
+      ]
+    },
+    {
+      "year": 1100,
+      "label": "Armenia",
+      "polygon": [
+        [
+          38.92,
+          45.55
+        ],
+        [
+          38.77,
+          46.25
+        ],
+        [
+          38.96,
+          46.51
+        ],
+        [
+          37.92,
+          46.91
+        ],
+        [
+          37.67,
+          46.82
+        ],
+        [
+          36.78,
+          44.84
+        ],
+        [
+          36.82,
+          44.46
+        ],
+        [
+          38.13,
+          42.02
+        ],
+        [
+          38.34,
+          41.01
+        ],
+        [
+          38.68,
+          41.81
+        ],
+        [
+          40.7,
+          42.69
+        ],
+        [
+          41.12,
+          44.03
+        ],
+        [
+          40.94,
+          44.55
+        ],
+        [
+          39.86,
+          44.52
+        ],
+        [
+          38.92,
+          45.55
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    39.436,
+    44.147
+  ],
+  "population_estimates": [
+    {
+      "year": 900,
+      "estimate": 2000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q399",
+          "url": "https://www.wikidata.org/wiki/Q399",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Armenia",
+          "url": "https://en.wikipedia.org/wiki/Armenia"
+        }
+      ]
+    },
+    {
+      "year": 1000,
+      "estimate": 2500000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q399",
+          "url": "https://www.wikidata.org/wiki/Q399",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Armenia",
+          "url": "https://en.wikipedia.org/wiki/Armenia"
+        }
+      ]
+    },
+    {
+      "year": 1200,
+      "estimate": 1500000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q399",
+          "url": "https://www.wikidata.org/wiki/Q399",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Armenia",
+          "url": "https://en.wikipedia.org/wiki/Armenia"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Armenian kingdom (ancient – medieval) in the South Caucasus whose conversion to Christianity (301 CE) made it the first Christian state in the world; Armenian political history alternated between Persian, Byzantine, Arab, Mongol, and Turkish overlordship while Armenian cultural identity was preserved through the unique Armenian alphabet (created 405 CE), the Apostolic Church, and a literate merchant diaspora that spread from the Mediterranean to India.",
+  "temporal": {
+    "start_year": 700,
+    "end_year": 1200,
+    "notes": "Stub: dates from GeoJSON basemap years 700–1200"
+  },
+  "geographic": {
+    "centroid": [
+      39.436,
+      44.147
+    ],
+    "polygon_simplified": [
+      [
+        38.92,
+        45.55
+      ],
+      [
+        38.77,
+        46.25
+      ],
+      [
+        38.96,
+        46.51
+      ],
+      [
+        37.92,
+        46.91
+      ],
+      [
+        37.67,
+        46.82
+      ],
+      [
+        36.78,
+        44.84
+      ],
+      [
+        36.82,
+        44.46
+      ],
+      [
+        38.13,
+        42.02
+      ],
+      [
+        38.34,
+        41.01
+      ],
+      [
+        38.68,
+        41.81
+      ],
+      [
+        40.7,
+        42.69
+      ],
+      [
+        41.12,
+        44.03
+      ],
+      [
+        40.94,
+        44.55
+      ],
+      [
+        39.86,
+        44.52
+      ],
+      [
+        38.92,
+        45.55
+      ]
+    ],
+    "capital": {
+      "name": "Yerevan",
+      "coords": [
+        40.18139,
+        44.51444
+      ],
+      "source": "wikidata"
+    },
+    "polygon_snapshots": [
+      {
+        "year": 1000,
+        "label": "Armenia",
+        "polygon": [
+          [
+            41.12,
+            44.03
+          ],
+          [
+            40.94,
+            44.55
+          ],
+          [
+            41.3,
+            44.78
+          ],
+          [
+            41.46,
+            45.43
+          ],
+          [
+            38.34,
+            46.82
+          ],
+          [
+            37.67,
+            46.82
+          ],
+          [
+            36.78,
+            44.84
+          ],
+          [
+            36.82,
+            44.46
+          ],
+          [
+            38.13,
+            42.02
+          ],
+          [
+            38.34,
+            41.01
+          ],
+          [
+            38.68,
+            41.81
+          ],
+          [
+            40.7,
+            42.69
+          ],
+          [
+            41.12,
+            44.03
+          ]
+        ]
+      },
+      {
+        "year": 1100,
+        "label": "Armenia",
+        "polygon": [
+          [
+            38.92,
+            45.55
+          ],
+          [
+            38.77,
+            46.25
+          ],
+          [
+            38.96,
+            46.51
+          ],
+          [
+            37.92,
+            46.91
+          ],
+          [
+            37.67,
+            46.82
+          ],
+          [
+            36.78,
+            44.84
+          ],
+          [
+            36.82,
+            44.46
+          ],
+          [
+            38.13,
+            42.02
+          ],
+          [
+            38.34,
+            41.01
+          ],
+          [
+            38.68,
+            41.81
+          ],
+          [
+            40.7,
+            42.69
+          ],
+          [
+            41.12,
+            44.03
+          ],
+          [
+            40.94,
+            44.55
+          ],
+          [
+            39.86,
+            44.52
+          ],
+          [
+            38.92,
+            45.55
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "real_historical_boundary",
+    "polygon_source": "aourednik/historical-basemaps",
+    "polygon_source_date": "2026-05-09"
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "early_medieval_survival",
+      "years": "500-650",
+      "description": "Armenian nobility (nakharars) maintained semi-independence under alternating Byzantine and Sasanian suzerainty.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q399",
+          "url": "https://www.wikidata.org/wiki/Q399"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Armenia",
+          "url": "https://en.wikipedia.org/wiki/Armenia"
+        }
+      ]
+    },
+    {
+      "phase": "arab_conquest_era",
+      "years": "650-885",
+      "description": "Arab conquest ended Arsacid rule; Armenians endured as subordinate marzpanate while preserving church and alphabet.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q399",
+          "url": "https://www.wikidata.org/wiki/Q399"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Armenia",
+          "url": "https://en.wikipedia.org/wiki/Armenia"
+        }
+      ]
+    },
+    {
+      "phase": "bagratid_restoration",
+      "years": "885-1064",
+      "description": "Bagratid dynasty unified Armenian principalities and established a cultural renaissance centred on Ani.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q399",
+          "url": "https://www.wikidata.org/wiki/Q399"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Armenia",
+          "url": "https://en.wikipedia.org/wiki/Armenia"
+        }
+      ]
+    },
+    {
+      "phase": "seljuk_fragmentation",
+      "years": "1064-1200",
+      "description": "Seljuk conquest of Ani (1064) dispersed Armenians; diaspora communities formed the Armenian Kingdom of Cilicia in the south.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q399",
+          "url": "https://www.wikidata.org/wiki/Q399"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Armenia",
+          "url": "https://en.wikipedia.org/wiki/Armenia"
+        }
+      ]
+    },
+    {
+      "phase": "cilician_continuation",
+      "years": "1080-1375",
+      "description": "Armenian Kingdom of Cilicia flourished as a Crusader-era maritime state until Mamluk conquest in 1375.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q399",
+          "url": "https://www.wikidata.org/wiki/Q399"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Armenia",
+          "url": "https://en.wikipedia.org/wiki/Armenia"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "religious_cohesion",
+      "layer": "ideology_religion",
+      "description": "Armenian Apostolic Church and unique alphabet created cultural identity resistant to conquest.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q399",
+          "url": "https://www.wikidata.org/wiki/Q399"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Armenia",
+          "url": "https://en.wikipedia.org/wiki/Armenia"
+        }
+      ]
+    },
+    {
+      "tag": "geographic_defensibility",
+      "layer": "geography_territory",
+      "description": "Mountain terrain of the Armenian Plateau impeded full conquest by any single power.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q399",
+          "url": "https://www.wikidata.org/wiki/Q399"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Armenia",
+          "url": "https://en.wikipedia.org/wiki/Armenia"
+        }
+      ]
+    },
+    {
+      "tag": "dynastic_consolidation",
+      "layer": "dynastic_legitimacy",
+      "description": "Bagratid dynasty effectively united nakharar nobility under a single crown.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q399",
+          "url": "https://www.wikidata.org/wiki/Q399"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Armenia",
+          "url": "https://en.wikipedia.org/wiki/Armenia"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "geopolitical_exposure",
+      "layer": "external_political",
+      "description": "Permanent location between Byzantine, Sasanian, Arab, and Seljuk powers meant constant military pressure.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q399",
+          "url": "https://www.wikidata.org/wiki/Q399"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Armenia",
+          "url": "https://en.wikipedia.org/wiki/Armenia"
+        }
+      ]
+    },
+    {
+      "tag": "external_military_pressure",
+      "layer": "military_security",
+      "description": "Fall of Ani in 1064 ended Armenian statehood in the homeland for centuries.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q399",
+          "url": "https://www.wikidata.org/wiki/Q399"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Armenia",
+          "url": "https://en.wikipedia.org/wiki/Armenia"
+        }
+      ],
+      "tag_prose": "seljuk_conquest"
+    },
+    {
+      "tag": "crusader_dependency",
+      "layer": "external_political",
+      "description": "Cilician Armenia's survival depended on Crusader support that evaporated after Acre fell (1291).",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q399",
+          "url": "https://www.wikidata.org/wiki/Q399"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Armenia",
+          "url": "https://en.wikipedia.org/wiki/Armenia"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Ashot I Bagratuni",
+      "role": "ruler",
+      "years": "885–890",
+      "year_start": 885,
+      "year_end": 890,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Ashot I Bagratuni",
+          "url": "https://en.wikipedia.org/wiki/Ashot_I_Bagratuni"
+        }
+      ]
+    },
+    {
+      "name": "Gagik I",
+      "role": "ruler",
+      "years": "989–1020",
+      "year_start": 989,
+      "year_end": 1020,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Gagik I",
+          "url": "https://en.wikipedia.org/wiki/Gagik_I_of_Armenia"
+        }
+      ]
+    },
+    {
+      "name": "Thoros I of Cilicia",
+      "role": "ruler",
+      "years": "1100–1129",
+      "year_start": 1100,
+      "year_end": 1129,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Thoros I of Cilicia",
+          "url": "https://en.wikipedia.org/wiki/Thoros_I_of_Cilicia"
+        }
+      ]
+    },
+    {
+      "name": "Leon II of Cilicia",
+      "role": "ruler",
+      "years": "1187–1219",
+      "year_start": 1187,
+      "year_end": 1219,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Leon II of Cilicia",
+          "url": "https://en.wikipedia.org/wiki/Leon_II_of_Cilicia"
+        }
+      ]
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "long_distance_trade",
+      "silk_production",
+      "craftwork"
+    ],
+    "wealth_level": "moderate",
+    "major_exports": [
+      "silk",
+      "wine",
+      "copper",
+      "dried_fruit"
+    ],
+    "major_trade_partners": [
+      "byzantine_empire",
+      "abbasid_caliphate",
+      "seljuk_sultanate"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "silk_trade_duties",
+      "feudal_dues"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q399",
+        "url": "https://www.wikidata.org/wiki/Q399"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Armenia",
+        "url": "https://en.wikipedia.org/wiki/Armenia"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q399",
+    "matched_name": "Armenia",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Armenia",
+    "capital": {
+      "name": "Yerevan",
+      "coords": [
+        40.18139,
+        44.51444
+      ]
+    },
+    "rulers_from_wikidata": [
+      {
+        "name": "Vahe Hovhannisyan",
+        "qid": "Q25918154",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q25918154",
+            "url": "https://www.wikidata.org/wiki/Q25918154"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Vahe Hovhannisyan",
+            "url": "https://en.wikipedia.org/wiki/Vahe_Hovhannisyan"
+          }
+        ]
+      },
+      {
+        "name": "Hovik Abrahamyan",
+        "qid": "Q2633067",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2633067",
+            "url": "https://www.wikidata.org/wiki/Q2633067"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Hovik Abrahamyan",
+            "url": "https://en.wikipedia.org/wiki/Hovik_Abrahamyan"
+          }
+        ]
+      },
+      {
+        "name": "Vladimir Darbinyan",
+        "qid": "Q2644893",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2644893",
+            "url": "https://www.wikidata.org/wiki/Q2644893"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Vladimir Darbinyan",
+            "url": "https://en.wikipedia.org/wiki/Vladimir_Darbinyan"
+          }
+        ]
+      },
+      {
+        "name": "Tevan Poghosyan",
+        "qid": "Q26703171",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q26703171",
+            "url": "https://www.wikidata.org/wiki/Q26703171"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Tevan Poghosyan",
+            "url": "https://en.wikipedia.org/wiki/Tevan_Poghosyan"
+          }
+        ]
+      },
+      {
+        "name": "Vazgen Sargsyan",
+        "qid": "Q279396",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q279396",
+            "url": "https://www.wikidata.org/wiki/Q279396"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Vazgen Sargsyan",
+            "url": "https://en.wikipedia.org/wiki/Vazgen_Sargsyan"
+          }
+        ]
+      },
+      {
+        "name": "Aragats Akhoyan",
+        "qid": "Q28169776",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q28169776",
+            "url": "https://www.wikidata.org/wiki/Q28169776"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Aragats Akhoyan",
+            "url": "https://en.wikipedia.org/wiki/Aragats_Akhoyan"
+          }
+        ]
+      },
+      {
+        "name": "Albert Bazeyan",
+        "qid": "Q2830950",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2830950",
+            "url": "https://www.wikidata.org/wiki/Q2830950"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Albert Bazeyan",
+            "url": "https://en.wikipedia.org/wiki/Albert_Bazeyan"
+          }
+        ]
+      },
+      {
+        "name": "Mane Tandilyan",
+        "qid": "Q29310134",
+        "year_start": null,
+        "year_end": 2020,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q29310134",
+            "url": "https://www.wikidata.org/wiki/Q29310134"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mane Tandilyan",
+            "url": "https://en.wikipedia.org/wiki/Mane_Tandilyan"
+          }
+        ]
+      },
+      {
+        "name": "Tatyana Grigorevna Mikaelyan",
+        "qid": "Q30130066",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q30130066",
+            "url": "https://www.wikidata.org/wiki/Q30130066"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Tatyana Grigorevna Mikaelyan",
+            "url": "https://en.wikipedia.org/wiki/Tatyana_Grigorevna_Mikaelyan"
+          }
+        ]
+      },
+      {
+        "name": "Knyaz Hasanov",
+        "qid": "Q30131111",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q30131111",
+            "url": "https://www.wikidata.org/wiki/Q30131111"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Knyaz Hasanov",
+            "url": "https://en.wikipedia.org/wiki/Knyaz_Hasanov"
+          }
+        ]
+      },
+      {
+        "name": "Lena Nazaryan",
+        "qid": "Q30195988",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q30195988",
+            "url": "https://www.wikidata.org/wiki/Q30195988"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Lena Nazaryan",
+            "url": "https://en.wikipedia.org/wiki/Lena_Nazaryan"
+          }
+        ]
+      },
+      {
+        "name": "Gevorg Gorgisyan",
+        "qid": "Q30196500",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q30196500",
+            "url": "https://www.wikidata.org/wiki/Q30196500"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Gevorg Gorgisyan",
+            "url": "https://en.wikipedia.org/wiki/Gevorg_Gorgisyan"
+          }
+        ]
+      },
+      {
+        "name": "Andranik Karapetyan",
+        "qid": "Q31196186",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q31196186",
+            "url": "https://www.wikidata.org/wiki/Q31196186"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Andranik Karapetyan",
+            "url": "https://en.wikipedia.org/wiki/Andranik_Karapetyan"
+          }
+        ]
+      },
+      {
+        "name": "Ararat Mirzoyan",
+        "qid": "Q31196321",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q31196321",
+            "url": "https://www.wikidata.org/wiki/Q31196321"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ararat Mirzoyan",
+            "url": "https://en.wikipedia.org/wiki/Ararat_Mirzoyan"
+          }
+        ]
+      },
+      {
+        "name": "Arsen Mikhaylov",
+        "qid": "Q31196357",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q31196357",
+            "url": "https://www.wikidata.org/wiki/Q31196357"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Arsen Mikhaylov",
+            "url": "https://en.wikipedia.org/wiki/Arsen_Mikhaylov"
+          }
+        ]
+      },
+      {
+        "name": "Suren Manukyan",
+        "qid": "Q31196479",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q31196479",
+            "url": "https://www.wikidata.org/wiki/Q31196479"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Suren Manukyan",
+            "url": "https://en.wikipedia.org/wiki/Suren_Manukyan"
+          }
+        ]
+      },
+      {
+        "name": "Armenouhi Kyureghyan",
+        "qid": "Q31196619",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q31196619",
+            "url": "https://www.wikidata.org/wiki/Q31196619"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Armenouhi Kyureghyan",
+            "url": "https://en.wikipedia.org/wiki/Armenouhi_Kyureghyan"
+          }
+        ]
+      },
+      {
+        "name": "Armen Babayan",
+        "qid": "Q31196621",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q31196621",
+            "url": "https://www.wikidata.org/wiki/Q31196621"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Armen Babayan",
+            "url": "https://en.wikipedia.org/wiki/Armen_Babayan"
+          }
+        ]
+      },
+      {
+        "name": "Mihran Hakobyan",
+        "qid": "Q31196635",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q31196635",
+            "url": "https://www.wikidata.org/wiki/Q31196635"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mihran Hakobyan",
+            "url": "https://en.wikipedia.org/wiki/Mihran_Hakobyan"
+          }
+        ]
+      },
+      {
+        "name": "Nora Arustamyan",
+        "qid": "Q31196740",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q31196740",
+            "url": "https://www.wikidata.org/wiki/Q31196740"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Nora Arustamyan",
+            "url": "https://en.wikipedia.org/wiki/Nora_Arustamyan"
+          }
+        ]
+      },
+      {
+        "name": "Argam Abrahamyan",
+        "qid": "Q31196741",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q31196741",
+            "url": "https://www.wikidata.org/wiki/Q31196741"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Argam Abrahamyan",
+            "url": "https://en.wikipedia.org/wiki/Argam_Abrahamyan"
+          }
+        ]
+      },
+      {
+        "name": "Margarit Yesayan",
+        "qid": "Q31196902",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q31196902",
+            "url": "https://www.wikidata.org/wiki/Q31196902"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Margarit Yesayan",
+            "url": "https://en.wikipedia.org/wiki/Margarit_Yesayan"
+          }
+        ]
+      },
+      {
+        "name": "Samvel Nikoyan",
+        "qid": "Q3249851",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3249851",
+            "url": "https://www.wikidata.org/wiki/Q3249851"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Samvel Nikoyan",
+            "url": "https://en.wikipedia.org/wiki/Samvel_Nikoyan"
+          }
+        ]
+      },
+      {
+        "name": "Suren Khachatryan",
+        "qid": "Q33816",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q33816",
+            "url": "https://www.wikidata.org/wiki/Q33816"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Suren Khachatryan",
+            "url": "https://en.wikipedia.org/wiki/Suren_Khachatryan"
+          }
+        ]
+      },
+      {
+        "name": "Stepan Demirchyan",
+        "qid": "Q3498414",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3498414",
+            "url": "https://www.wikidata.org/wiki/Q3498414"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Stepan Demirchyan",
+            "url": "https://en.wikipedia.org/wiki/Stepan_Demirchyan"
+          }
+        ]
+      },
+      {
+        "name": "Suren Abrahamyan",
+        "qid": "Q3505201",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3505201",
+            "url": "https://www.wikidata.org/wiki/Q3505201"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Suren Abrahamyan",
+            "url": "https://en.wikipedia.org/wiki/Suren_Abrahamyan"
+          }
+        ]
+      },
+      {
+        "name": "Taron Margaryan",
+        "qid": "Q3515771",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3515771",
+            "url": "https://www.wikidata.org/wiki/Q3515771"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Taron Margaryan",
+            "url": "https://en.wikipedia.org/wiki/Taron_Margaryan"
+          }
+        ]
+      },
+      {
+        "name": "Babken Ararktsyan",
+        "qid": "Q4018418",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4018418",
+            "url": "https://www.wikidata.org/wiki/Q4018418"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Babken Ararktsyan",
+            "url": "https://en.wikipedia.org/wiki/Babken_Ararktsyan"
+          }
+        ]
+      },
+      {
+        "name": "Yerjanik Abgaryan",
+        "qid": "Q4054421",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4054421",
+            "url": "https://www.wikidata.org/wiki/Q4054421"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Yerjanik Abgaryan",
+            "url": "https://en.wikipedia.org/wiki/Yerjanik_Abgaryan"
+          }
+        ]
+      },
+      {
+        "name": "Hovik Abovyan",
+        "qid": "Q4054811",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4054811",
+            "url": "https://www.wikidata.org/wiki/Q4054811"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Hovik Abovyan",
+            "url": "https://en.wikipedia.org/wiki/Hovik_Abovyan"
+          }
+        ]
+      },
+      {
+        "name": "Armen Abrahamyan",
+        "qid": "Q4055030",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4055030",
+            "url": "https://www.wikidata.org/wiki/Q4055030"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Armen Abrahamyan",
+            "url": "https://en.wikipedia.org/wiki/Armen_Abrahamyan"
+          }
+        ]
+      },
+      {
+        "name": "Gagik Abrahamyan",
+        "qid": "Q4055034",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4055034",
+            "url": "https://www.wikidata.org/wiki/Q4055034"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Gagik Abrahamyan",
+            "url": "https://en.wikipedia.org/wiki/Gagik_Abrahamyan"
+          }
+        ]
+      },
+      {
+        "name": "Henrik Abrahamyan",
+        "qid": "Q4055037",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4055037",
+            "url": "https://www.wikidata.org/wiki/Q4055037"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Henrik Abrahamyan",
+            "url": "https://en.wikipedia.org/wiki/Henrik_Abrahamyan"
+          }
+        ]
+      },
+      {
+        "name": "Seryozha Abrahamyan",
+        "qid": "Q4055039",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4055039",
+            "url": "https://www.wikidata.org/wiki/Q4055039"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Seryozha Abrahamyan",
+            "url": "https://en.wikipedia.org/wiki/Seryozha_Abrahamyan"
+          }
+        ]
+      },
+      {
+        "name": "Arsen Avagyan",
+        "qid": "Q4055272",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4055272",
+            "url": "https://www.wikidata.org/wiki/Q4055272"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Arsen Avagyan",
+            "url": "https://en.wikipedia.org/wiki/Arsen_Avagyan"
+          }
+        ]
+      },
+      {
+        "name": "Karen Avagyan",
+        "qid": "Q4055273",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4055273",
+            "url": "https://www.wikidata.org/wiki/Q4055273"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Karen Avagyan",
+            "url": "https://en.wikipedia.org/wiki/Karen_Avagyan"
+          }
+        ]
+      },
+      {
+        "name": "Seiran Avagian",
+        "qid": "Q4055275",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4055275",
+            "url": "https://www.wikidata.org/wiki/Q4055275"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Seiran Avagian",
+            "url": "https://en.wikipedia.org/wiki/Seiran_Avagian"
+          }
+        ]
+      },
+      {
+        "name": "Grigor Avagyan",
+        "qid": "Q4055276",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4055276",
+            "url": "https://www.wikidata.org/wiki/Q4055276"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Grigor Avagyan",
+            "url": "https://en.wikipedia.org/wiki/Grigor_Avagyan"
+          }
+        ]
+      },
+      {
+        "name": "Samvel Avetisyan",
+        "qid": "Q4055724",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4055724",
+            "url": "https://www.wikidata.org/wiki/Q4055724"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Samvel Avetisyan",
+            "url": "https://en.wikipedia.org/wiki/Samvel_Avetisyan"
+          }
+        ]
+      },
+      {
+        "name": "Sukias Avetisyan",
+        "qid": "Q4055727",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4055727",
+            "url": "https://www.wikidata.org/wiki/Q4055727"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Sukias Avetisyan",
+            "url": "https://en.wikipedia.org/wiki/Sukias_Avetisyan"
+          }
+        ]
+      },
+      {
+        "name": "Varazdat Avoyan",
+        "qid": "Q4055983",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4055983",
+            "url": "https://www.wikidata.org/wiki/Q4055983"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Varazdat Avoyan",
+            "url": "https://en.wikipedia.org/wiki/Varazdat_Avoyan"
+          }
+        ]
+      },
+      {
+        "name": "Artsruni Aghajanyan",
+        "qid": "Q4056535",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4056535",
+            "url": "https://www.wikidata.org/wiki/Q4056535"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Artsruni Aghajanyan",
+            "url": "https://en.wikipedia.org/wiki/Artsruni_Aghajanyan"
+          }
+        ]
+      },
+      {
+        "name": "Avet Adonts",
+        "qid": "Q4057940",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4057940",
+            "url": "https://www.wikidata.org/wiki/Q4057940"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Avet Adonts",
+            "url": "https://en.wikipedia.org/wiki/Avet_Adonts"
+          }
+        ]
+      },
+      {
+        "name": "Napoleon Azizyan",
+        "qid": "Q4058335",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4058335",
+            "url": "https://www.wikidata.org/wiki/Q4058335"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Napoleon Azizyan",
+            "url": "https://en.wikipedia.org/wiki/Napoleon_Azizyan"
+          }
+        ]
+      },
+      {
+        "name": "Hovik Azoyan",
+        "qid": "Q4058453",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4058453",
+            "url": "https://www.wikidata.org/wiki/Q4058453"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Hovik Azoyan",
+            "url": "https://en.wikipedia.org/wiki/Hovik_Azoyan"
+          }
+        ]
+      },
+      {
+        "name": "Smbat Aivazian",
+        "qid": "Q4058745",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4058745",
+            "url": "https://www.wikidata.org/wiki/Q4058745"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Smbat Aivazian",
+            "url": "https://en.wikipedia.org/wiki/Smbat_Aivazian"
+          }
+        ]
+      },
+      {
+        "name": "Vardan Ayvazyan",
+        "qid": "Q4058746",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4058746",
+            "url": "https://www.wikidata.org/wiki/Q4058746"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Vardan Ayvazyan",
+            "url": "https://en.wikipedia.org/wiki/Vardan_Ayvazyan"
+          }
+        ]
+      },
+      {
+        "name": "Vardges Hayotsian",
+        "qid": "Q4058931",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4058931",
+            "url": "https://www.wikidata.org/wiki/Q4058931"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Vardges Hayotsian",
+            "url": "https://en.wikipedia.org/wiki/Vardges_Hayotsian"
+          }
+        ]
+      },
+      {
+        "name": "Ruben Ayrapetyan",
+        "qid": "Q4058953",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4058953",
+            "url": "https://www.wikidata.org/wiki/Q4058953"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ruben Ayrapetyan",
+            "url": "https://en.wikipedia.org/wiki/Ruben_Ayrapetyan"
+          }
+        ]
+      },
+      {
+        "name": "Hakob Hakobyan",
+        "qid": "Q4059731",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4059731",
+            "url": "https://www.wikidata.org/wiki/Q4059731"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Hakob Hakobyan",
+            "url": "https://en.wikipedia.org/wiki/Hakob_Hakobyan"
+          }
+        ]
+      },
+      {
+        "name": "Aleksan Hakobyan",
+        "qid": "Q4059735",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4059735",
+            "url": "https://www.wikidata.org/wiki/Q4059735"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Aleksan Hakobyan",
+            "url": "https://en.wikipedia.org/wiki/Aleksan_Hakobyan"
+          }
+        ]
+      },
+      {
+        "name": "Vahagn Hakobyan",
+        "qid": "Q4059742",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4059742",
+            "url": "https://www.wikidata.org/wiki/Q4059742"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Vahagn Hakobyan",
+            "url": "https://en.wikipedia.org/wiki/Vahagn_Hakobyan"
+          }
+        ]
+      },
+      {
+        "name": "Versand Hakobyan",
+        "qid": "Q4059745",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4059745",
+            "url": "https://www.wikidata.org/wiki/Q4059745"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Versand Hakobyan",
+            "url": "https://en.wikipedia.org/wiki/Versand_Hakobyan"
+          }
+        ]
+      },
+      {
+        "name": "Gevorg Hakobyan",
+        "qid": "Q4059746",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4059746",
+            "url": "https://www.wikidata.org/wiki/Q4059746"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Gevorg Hakobyan",
+            "url": "https://en.wikipedia.org/wiki/Gevorg_Hakobyan"
+          }
+        ]
+      },
+      {
+        "name": "Hranush Hakobyan",
+        "qid": "Q4059749",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4059749",
+            "url": "https://www.wikidata.org/wiki/Q4059749"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Hranush Hakobyan",
+            "url": "https://en.wikipedia.org/wiki/Hranush_Hakobyan"
+          }
+        ]
+      },
+      {
+        "name": "Leonid Hakobyan",
+        "qid": "Q4059755",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4059755",
+            "url": "https://www.wikidata.org/wiki/Q4059755"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Leonid Hakobyan",
+            "url": "https://en.wikipedia.org/wiki/Leonid_Hakobyan"
+          }
+        ]
+      },
+      {
+        "name": "Mels Hakobyan",
+        "qid": "Q4059756",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4059756",
+            "url": "https://www.wikidata.org/wiki/Q4059756"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mels Hakobyan",
+            "url": "https://en.wikipedia.org/wiki/Mels_Hakobyan"
+          }
+        ]
+      },
+      {
+        "name": "Rubik Hakobyan",
+        "qid": "Q4059758",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4059758",
+            "url": "https://www.wikidata.org/wiki/Q4059758"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Rubik Hakobyan",
+            "url": "https://en.wikipedia.org/wiki/Rubik_Hakobyan"
+          }
+        ]
+      },
+      {
+        "name": "Larisa Alaverdyan",
+        "qid": "Q4060412",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4060412",
+            "url": "https://www.wikidata.org/wiki/Q4060412"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Larisa Alaverdyan",
+            "url": "https://en.wikipedia.org/wiki/Larisa_Alaverdyan"
+          }
+        ]
+      },
+      {
+        "name": "Lernik Aleksanyan",
+        "qid": "Q4061571",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4061571",
+            "url": "https://www.wikidata.org/wiki/Q4061571"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Lernik Aleksanyan",
+            "url": "https://en.wikipedia.org/wiki/Lernik_Aleksanyan"
+          }
+        ]
+      },
+      {
+        "name": "Samvel Aleksanyan",
+        "qid": "Q4061572",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4061572",
+            "url": "https://www.wikidata.org/wiki/Q4061572"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Samvel Aleksanyan",
+            "url": "https://en.wikipedia.org/wiki/Samvel_Aleksanyan"
+          }
+        ]
+      },
+      {
+        "name": "Marat Aleksanian",
+        "qid": "Q4061574",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4061574",
+            "url": "https://www.wikidata.org/wiki/Q4061574"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Marat Aleksanian",
+            "url": "https://en.wikipedia.org/wiki/Marat_Aleksanian"
+          }
+        ]
+      },
+      {
+        "name": "Aramayis Aloyan",
+        "qid": "Q4062849",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4062849",
+            "url": "https://www.wikidata.org/wiki/Q4062849"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Aramayis Aloyan",
+            "url": "https://en.wikipedia.org/wiki/Aramayis_Aloyan"
+          }
+        ]
+      },
+      {
+        "name": "Arkadi Hambardzumyan",
+        "qid": "Q4064013",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4064013",
+            "url": "https://www.wikidata.org/wiki/Q4064013"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Arkadi Hambardzumyan",
+            "url": "https://en.wikipedia.org/wiki/Arkadi_Hambardzumyan"
+          }
+        ]
+      },
+      {
+        "name": "Jemma Ananyan",
+        "qid": "Q4064844",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4064844",
+            "url": "https://www.wikidata.org/wiki/Q4064844"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Jemma Ananyan",
+            "url": "https://en.wikipedia.org/wiki/Jemma_Ananyan"
+          }
+        ]
+      },
+      {
+        "name": "Vahan Kerobyan",
+        "qid": "Q108566635",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q108566635",
+            "url": "https://www.wikidata.org/wiki/Q108566635"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Vahan Kerobyan",
+            "url": "https://en.wikipedia.org/wiki/Vahan_Kerobyan"
+          }
+        ]
+      },
+      {
+        "name": "Artavazd Surmeyan",
+        "qid": "Q20507396",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q20507396",
+            "url": "https://www.wikidata.org/wiki/Q20507396"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Artavazd Surmeyan",
+            "url": "https://en.wikipedia.org/wiki/Artavazd_Surmeyan"
+          }
+        ]
+      },
+      {
+        "name": "Karekin II",
+        "qid": "Q270978",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q270978",
+            "url": "https://www.wikidata.org/wiki/Q270978"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Karekin II",
+            "url": "https://en.wikipedia.org/wiki/Garegin_II"
+          }
+        ]
+      },
+      {
+        "name": "Avetik Sahakyan",
+        "qid": "Q3513048",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3513048",
+            "url": "https://www.wikidata.org/wiki/Q3513048"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Avetik Sahakyan",
+            "url": "https://en.wikipedia.org/wiki/Avetik_Sahakyan"
+          }
+        ]
+      },
+      {
+        "name": "Husik Santurjan",
+        "qid": "Q507951",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q507951",
+            "url": "https://www.wikidata.org/wiki/Q507951"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Husik Santurjan",
+            "url": "https://en.wikipedia.org/wiki/Husik_Santurjan"
+          }
+        ]
+      },
+      {
+        "name": "Alexan Karapetyan",
+        "qid": "Q13050722",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q13050722",
+            "url": "https://www.wikidata.org/wiki/Q13050722"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Alexan Karapetyan",
+            "url": "https://en.wikipedia.org/wiki/Alexan_Karapetyan"
+          }
+        ]
+      },
+      {
+        "name": "Hakob R. Hakobyan",
+        "qid": "Q13053415",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q13053415",
+            "url": "https://www.wikidata.org/wiki/Q13053415"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Hakob R. Hakobyan",
+            "url": "https://en.wikipedia.org/wiki/Hakob_R._Hakobyan"
+          }
+        ]
+      },
+      {
+        "name": "Hrayr Tovmasyan",
+        "qid": "Q13053833",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q13053833",
+            "url": "https://www.wikidata.org/wiki/Q13053833"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Hrayr Tovmasyan",
+            "url": "https://en.wikipedia.org/wiki/Hrayr_Tovmasyan"
+          }
+        ]
+      },
+      {
+        "name": "Edmund Tsaturyan",
+        "qid": "Q15061547",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q15061547",
+            "url": "https://www.wikidata.org/wiki/Q15061547"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Edmund Tsaturyan",
+            "url": "https://en.wikipedia.org/wiki/Edmund_Tsaturyan"
+          }
+        ]
+      },
+      {
+        "name": "Aramazd Zakarian",
+        "qid": "Q15066807",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q15066807",
+            "url": "https://www.wikidata.org/wiki/Q15066807"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Aramazd Zakarian",
+            "url": "https://en.wikipedia.org/wiki/Aramazd_Zakarian"
+          }
+        ]
+      },
+      {
+        "name": "Ghukas Ulikhanyan",
+        "qid": "Q15068048",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q15068048",
+            "url": "https://www.wikidata.org/wiki/Q15068048"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ghukas Ulikhanyan",
+            "url": "https://en.wikipedia.org/wiki/Ghukas_Ulikhanyan"
+          }
+        ]
+      },
+      {
+        "name": "Samvel Tumanyan",
+        "qid": "Q15069409",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q15069409",
+            "url": "https://www.wikidata.org/wiki/Q15069409"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Samvel Tumanyan",
+            "url": "https://en.wikipedia.org/wiki/Samvel_Tumanyan"
+          }
+        ]
+      },
+      {
+        "name": "Abraham Manukyan",
+        "qid": "Q15071998",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q15071998",
+            "url": "https://www.wikidata.org/wiki/Q15071998"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Abraham Manukyan",
+            "url": "https://en.wikipedia.org/wiki/Abraham_Manukyan"
+          }
+        ]
+      },
+      {
+        "name": "Murad Muradyan",
+        "qid": "Q15074226",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q15074226",
+            "url": "https://www.wikidata.org/wiki/Q15074226"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Murad Muradyan",
+            "url": "https://en.wikipedia.org/wiki/Murad_Muradyan"
+          }
+        ]
+      },
+      {
+        "name": "Martin Sukiasyan",
+        "qid": "Q15075331",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q15075331",
+            "url": "https://www.wikidata.org/wiki/Q15075331"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Martin Sukiasyan",
+            "url": "https://en.wikipedia.org/wiki/Martin_Sukiasyan"
+          }
+        ]
+      },
+      {
+        "name": "Samson Sargsyan",
+        "qid": "Q15081489",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q15081489",
+            "url": "https://www.wikidata.org/wiki/Q15081489"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Samson Sargsyan",
+            "url": "https://en.wikipedia.org/wiki/Samson_Sargsyan"
+          }
+        ]
+      },
+      {
+        "name": "Armen Martirosyan",
+        "qid": "Q16214505",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q16214505",
+            "url": "https://www.wikidata.org/wiki/Q16214505"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Armen Martirosyan",
+            "url": "https://en.wikipedia.org/wiki/Armen_Martirosyan"
+          }
+        ]
+      },
+      {
+        "name": "Artak Sargsyan",
+        "qid": "Q16371609",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q16371609",
+            "url": "https://www.wikidata.org/wiki/Q16371609"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Artak Sargsyan",
+            "url": "https://en.wikipedia.org/wiki/Artak_Sargsyan"
+          }
+        ]
+      },
+      {
+        "name": "Grigor Grigoryan",
+        "qid": "Q16377996",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q16377996",
+            "url": "https://www.wikidata.org/wiki/Q16377996"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Grigor Grigoryan",
+            "url": "https://en.wikipedia.org/wiki/Grigor_Grigoryan"
+          }
+        ]
+      },
+      {
+        "name": "Gevorg Kostanyan",
+        "qid": "Q16378244",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q16378244",
+            "url": "https://www.wikidata.org/wiki/Q16378244"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Gevorg Kostanyan",
+            "url": "https://en.wikipedia.org/wiki/Gevorg_Kostanyan"
+          }
+        ]
+      },
+      {
+        "name": "Samvel Tadevosyan",
+        "qid": "Q16398714",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q16398714",
+            "url": "https://www.wikidata.org/wiki/Q16398714"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Samvel Tadevosyan",
+            "url": "https://en.wikipedia.org/wiki/Samvel_Tadevosyan"
+          }
+        ]
+      },
+      {
+        "name": "Levon Mkrtchyan",
+        "qid": "Q1822203",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1822203",
+            "url": "https://www.wikidata.org/wiki/Q1822203"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Levon Mkrtchyan",
+            "url": "https://en.wikipedia.org/wiki/Levon_Mkrtchyan"
+          }
+        ]
+      },
+      {
+        "name": "Arsen Julfalakyan",
+        "qid": "Q1875808",
+        "year_start": null,
+        "year_end": 2020,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1875808",
+            "url": "https://www.wikidata.org/wiki/Q1875808"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Arsen Julfalakyan",
+            "url": "https://en.wikipedia.org/wiki/Arsen_Julfalakyan"
+          }
+        ]
+      },
+      {
+        "name": "Hovhannes Tokmajyan",
+        "qid": "Q18842070",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q18842070",
+            "url": "https://www.wikidata.org/wiki/Q18842070"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Hovhannes Tokmajyan",
+            "url": "https://en.wikipedia.org/wiki/Hovhannes_Tokmajyan"
+          }
+        ]
+      },
+      {
+        "name": "Vartan Oskanian",
+        "qid": "Q1974113",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1974113",
+            "url": "https://www.wikidata.org/wiki/Q1974113"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Vartan Oskanian",
+            "url": "https://en.wikipedia.org/wiki/Vartan_Oskanian"
+          }
+        ]
+      },
+      {
+        "name": "Khosrov Harutyunyan",
+        "qid": "Q1975237",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1975237",
+            "url": "https://www.wikidata.org/wiki/Q1975237"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Khosrov Harutyunyan",
+            "url": "https://en.wikipedia.org/wiki/Khosrov_Harutyunyan"
+          }
+        ]
+      },
+      {
+        "name": "Hrant Bagratyan",
+        "qid": "Q1975243",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1975243",
+            "url": "https://www.wikidata.org/wiki/Q1975243"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Hrant Bagratyan",
+            "url": "https://en.wikipedia.org/wiki/Hrant_Bagratyan"
+          }
+        ]
+      },
+      {
+        "name": "Paruyr Hayrikyan",
+        "qid": "Q1975502",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1975502",
+            "url": "https://www.wikidata.org/wiki/Q1975502"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Paruyr Hayrikyan",
+            "url": "https://en.wikipedia.org/wiki/Paruyr_Hayrikyan"
+          }
+        ]
+      },
+      {
+        "name": "Tigran Urikhanyan",
+        "qid": "Q19763698",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q19763698",
+            "url": "https://www.wikidata.org/wiki/Q19763698"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Tigran Urikhanyan",
+            "url": "https://en.wikipedia.org/wiki/Tigran_Urikhanyan"
+          }
+        ]
+      },
+      {
+        "name": "Gagik Beglaryan",
+        "qid": "Q1977367",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1977367",
+            "url": "https://www.wikidata.org/wiki/Q1977367"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Gagik Beglaryan",
+            "url": "https://en.wikipedia.org/wiki/Gagik_Beglaryan"
+          }
+        ]
+      },
+      {
+        "name": "Mihran Poghosyan",
+        "qid": "Q19915942",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q19915942",
+            "url": "https://www.wikidata.org/wiki/Q19915942"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mihran Poghosyan",
+            "url": "https://en.wikipedia.org/wiki/Mihran_Poghosyan"
+          }
+        ]
+      },
+      {
+        "name": "Martun Grigoryan",
+        "qid": "Q20506949",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q20506949",
+            "url": "https://www.wikidata.org/wiki/Q20506949"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Martun Grigoryan",
+            "url": "https://en.wikipedia.org/wiki/Martun_Grigoryan"
+          }
+        ]
+      },
+      {
+        "name": "Hakob Beglaryan",
+        "qid": "Q20509334",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q20509334",
+            "url": "https://www.wikidata.org/wiki/Q20509334"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Hakob Beglaryan",
+            "url": "https://en.wikipedia.org/wiki/Hakob_Beglaryan"
+          }
+        ]
+      },
+      {
+        "name": "Gevorg Petrosyan",
+        "qid": "Q20509405",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q20509405",
+            "url": "https://www.wikidata.org/wiki/Q20509405"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Gevorg Petrosyan",
+            "url": "https://en.wikipedia.org/wiki/Giorgio_Petrosyan"
+          }
+        ]
+      },
+      {
+        "name": "Stepan Margaryan",
+        "qid": "Q20509642",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q20509642",
+            "url": "https://www.wikidata.org/wiki/Q20509642"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Stepan Margaryan",
+            "url": "https://en.wikipedia.org/wiki/Stepan_Margaryan"
+          }
+        ]
+      },
+      {
+        "name": "Koryun Nahapetyan",
+        "qid": "Q20509893",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q20509893",
+            "url": "https://www.wikidata.org/wiki/Q20509893"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Koryun Nahapetyan",
+            "url": "https://en.wikipedia.org/wiki/Koryun_Nahapetyan"
+          }
+        ]
+      },
+      {
+        "name": "Khachik Harutyunyan",
+        "qid": "Q20509987",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q20509987",
+            "url": "https://www.wikidata.org/wiki/Q20509987"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Khachik Harutyunyan",
+            "url": "https://en.wikipedia.org/wiki/Khachik_Harutyunyan"
+          }
+        ]
+      },
+      {
+        "name": "Levon Martirosyan",
+        "qid": "Q20510294",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q20510294",
+            "url": "https://www.wikidata.org/wiki/Q20510294"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Levon Martirosyan",
+            "url": "https://en.wikipedia.org/wiki/Levon_Martirosyan"
+          }
+        ]
+      },
+      {
+        "name": "Rustam Gasparyan",
+        "qid": "Q20510849",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q20510849",
+            "url": "https://www.wikidata.org/wiki/Q20510849"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Rustam Gasparyan",
+            "url": "https://en.wikipedia.org/wiki/Rustam_Gasparyan"
+          }
+        ]
+      },
+      {
+        "name": "Alderman Vardanyan",
+        "qid": "Q20511000",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q20511000",
+            "url": "https://www.wikidata.org/wiki/Q20511000"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Alderman Vardanyan",
+            "url": "https://en.wikipedia.org/wiki/Alderman_Vardanyan"
+          }
+        ]
+      },
+      {
+        "name": "David Hovhannes",
+        "qid": "Q20511296",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q20511296",
+            "url": "https://www.wikidata.org/wiki/Q20511296"
+          },
+          {
+            "type": "wikipedia",
+            "label": "David Hovhannes",
+            "url": "https://en.wikipedia.org/wiki/David_Hovhannes"
+          }
+        ]
+      },
+      {
+        "name": "Arthur Hovhannisyan",
+        "qid": "Q20511355",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q20511355",
+            "url": "https://www.wikidata.org/wiki/Q20511355"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Arthur Hovhannisyan",
+            "url": "https://en.wikipedia.org/wiki/Arthur_Hovhannisyan"
+          }
+        ]
+      },
+      {
+        "name": "Hovhannes Sahakyan",
+        "qid": "Q20511551",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q20511551",
+            "url": "https://www.wikidata.org/wiki/Q20511551"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Hovhannes Sahakyan",
+            "url": "https://en.wikipedia.org/wiki/Hovhannes_Sahakyan"
+          }
+        ]
+      },
+      {
+        "name": "Artak Zakaryan",
+        "qid": "Q20511784",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q20511784",
+            "url": "https://www.wikidata.org/wiki/Q20511784"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Artak Zakaryan",
+            "url": "https://en.wikipedia.org/wiki/Artak_Zakaryan"
+          }
+        ]
+      },
+      {
+        "name": "Lyudmila Sargsyan",
+        "qid": "Q20512579",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q20512579",
+            "url": "https://www.wikidata.org/wiki/Q20512579"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Lyudmila Sargsyan",
+            "url": "https://en.wikipedia.org/wiki/Lyudmila_Sargsyan"
+          }
+        ]
+      },
+      {
+        "name": "Armenak Armenakyan",
+        "qid": "Q20514480",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q20514480",
+            "url": "https://www.wikidata.org/wiki/Q20514480"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Armenak Armenakyan",
+            "url": "https://en.wikipedia.org/wiki/Armenian_parliament_shooting"
+          }
+        ]
+      },
+      {
+        "name": "Stepan Zakaryan",
+        "qid": "Q20514518",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q20514518",
+            "url": "https://www.wikidata.org/wiki/Q20514518"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Stepan Zakaryan",
+            "url": "https://en.wikipedia.org/wiki/Stepan_Zakaryan"
+          }
+        ]
+      },
+      {
+        "name": "Gurgen Sargsyan",
+        "qid": "Q20514627",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q20514627",
+            "url": "https://www.wikidata.org/wiki/Q20514627"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Gurgen Sargsyan",
+            "url": "https://en.wikipedia.org/wiki/Gurgen_Sargsyan"
+          }
+        ]
+      },
+      {
+        "name": "Arayik Aghababyan",
+        "qid": "Q21209630",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q21209630",
+            "url": "https://www.wikidata.org/wiki/Q21209630"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Arayik Aghababyan",
+            "url": "https://en.wikipedia.org/wiki/Arayik_Aghababyan"
+          }
+        ]
+      },
+      {
+        "name": "Arthur Gregorian",
+        "qid": "Q21211084",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q21211084",
+            "url": "https://www.wikidata.org/wiki/Q21211084"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Arthur Gregorian",
+            "url": "https://en.wikipedia.org/wiki/Arthur_T._Gregorian"
+          }
+        ]
+      }
+    ],
+    "population_from_wikidata": [
+      {
+        "estimate": 1867396,
+        "confidence": "low",
+        "year": 1960
+      },
+      {
+        "estimate": 1934239,
+        "confidence": "low",
+        "year": 1961
+      },
+      {
+        "estimate": 2002170,
+        "confidence": "low",
+        "year": 1962
+      },
+      {
+        "estimate": 2070427,
+        "confidence": "low",
+        "year": 1963
+      },
+      {
+        "estimate": 2138133,
+        "confidence": "low",
+        "year": 1964
+      },
+      {
+        "estimate": 2204650,
+        "confidence": "low",
+        "year": 1965
+      },
+      {
+        "estimate": 2269475,
+        "confidence": "low",
+        "year": 1966
+      },
+      {
+        "estimate": 2332624,
+        "confidence": "low",
+        "year": 1967
+      },
+      {
+        "estimate": 2394635,
+        "confidence": "low",
+        "year": 1968
+      },
+      {
+        "estimate": 2456370,
+        "confidence": "low",
+        "year": 1969
+      },
+      {
+        "estimate": 2518408,
+        "confidence": "low",
+        "year": 1970
+      },
+      {
+        "estimate": 2580894,
+        "confidence": "low",
+        "year": 1971
+      },
+      {
+        "estimate": 2643464,
+        "confidence": "low",
+        "year": 1972
+      },
+      {
+        "estimate": 2705584,
+        "confidence": "low",
+        "year": 1973
+      },
+      {
+        "estimate": 2766495,
+        "confidence": "low",
+        "year": 1974
+      },
+      {
+        "estimate": 2825650,
+        "confidence": "low",
+        "year": 1975
+      },
+      {
+        "estimate": 2882831,
+        "confidence": "low",
+        "year": 1976
+      },
+      {
+        "estimate": 2938181,
+        "confidence": "low",
+        "year": 1977
+      },
+      {
+        "estimate": 2991954,
+        "confidence": "low",
+        "year": 1978
+      },
+      {
+        "estimate": 3044564,
+        "confidence": "low",
+        "year": 1979
+      },
+      {
+        "estimate": 3096298,
+        "confidence": "low",
+        "year": 1980
+      },
+      {
+        "estimate": 3145885,
+        "confidence": "low",
+        "year": 1981
+      },
+      {
+        "estimate": 3192877,
+        "confidence": "low",
+        "year": 1982
+      },
+      {
+        "estimate": 3239212,
+        "confidence": "low",
+        "year": 1983
+      },
+      {
+        "estimate": 3287588,
+        "confidence": "low",
+        "year": 1984
+      },
+      {
+        "estimate": 3339147,
+        "confidence": "low",
+        "year": 1985
+      },
+      {
+        "estimate": 3396511,
+        "confidence": "low",
+        "year": 1986
+      },
+      {
+        "estimate": 3457054,
+        "confidence": "low",
+        "year": 1987
+      },
+      {
+        "estimate": 3510439,
+        "confidence": "low",
+        "year": 1988
+      },
+      {
+        "estimate": 3542720,
+        "confidence": "low",
+        "year": 1989
+      }
+    ]
+  },
+  "monogram": "AR"
+}

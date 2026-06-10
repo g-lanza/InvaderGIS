@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "justinian_reconquest_africa_533",
+  "name": "Byzantine Reconquest of North Africa",
+  "year": 533,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    36.8,
+    10.2
+  ],
+  "entity": "byzantine_empire",
+  "summary": "General Belisarius defeats the Vandal king Gelimer at the Battles of Ad Decimum and Tricamarum with a force of only 15,000, destroying the Vandal kingdom in less than a year. The campaign recovers the western Mediterranean's grain supply for Byzantium and re-establishes imperial control over North Africa for a century.",
+  "outcomes": [
+    "vandal_kingdom_destroyed",
+    "africa_retaken",
+    "belisarius_triumph"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire"
+    ],
+    "structural_significance": "First step in Justinian's reconquest program; demonstrates Byzantine military capacity against western kingdoms; but exposes the overextension that will strain Byzantine finances for decades.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

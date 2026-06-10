@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_cumae_717",
+  "name": "Battle of Cumae",
+  "year": 717,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41.1,
+    14.8
+  ],
+  "entity": "duchy_of_benevento",
+  "summary": "Battle of Cumae (717 CE), at Cumae (part of Byzantine–Lombard Wars). Source: Wikidata Q60851087.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "duchy_of_benevento"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_county_of_toulouse_1096_1209",
+  "name": "County of Toulouse — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1096,
+  "year_end": 1209,
+  "waypoints": [
+    {
+      "year": 1096,
+      "place": "First Crusade",
+      "coords": [
+        43.3,
+        11.2
+      ],
+      "note": "military",
+      "event_id": "wd_first_crusade_1096"
+    },
+    {
+      "year": 1102,
+      "place": "Siege of Tripoli",
+      "coords": [
+        37.2,
+        25.2833
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_tripoli_1102"
+    },
+    {
+      "year": 1110,
+      "place": "Siege of Beirut",
+      "coords": [
+        38.7,
+        17.42
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_beirut_1110"
+    },
+    {
+      "year": 1112,
+      "place": "Great Occitan War",
+      "coords": [
+        42.5,
+        1.8
+      ],
+      "note": "military",
+      "event_id": "wd_great_occitan_war_1112"
+    },
+    {
+      "year": 1209,
+      "place": "Albigensian Crusade",
+      "coords": [
+        43.21,
+        2.35
+      ],
+      "note": "crusade",
+      "event_id": "albigensian_crusade"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

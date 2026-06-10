@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_poland_piast",
+  "name": "Gniezno",
+  "entity_id": "kingdom_of_poland_piast",
+  "entity_name": "Kingdom of Poland (Piast)",
+  "start_year": 1025,
+  "end_year": 1385,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q577867"
+    }
+  },
+  "coords": [
+    17.6,
+    52.53333
+  ]
+}

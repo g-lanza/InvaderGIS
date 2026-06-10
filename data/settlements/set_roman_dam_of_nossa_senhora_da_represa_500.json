@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_roman_dam_of_nossa_senhora_da_represa_500",
+  "name": "Roman dam of Nossa Senhora da Represa",
+  "importance": "city",
+  "start_year": 500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "inferred",
+    "external_ids": {
+      "pleiades": "844790836"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    -7.9165,
+    38.2336
+  ]
+}

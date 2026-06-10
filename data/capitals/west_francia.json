@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "west_francia",
+  "name": "Paris",
+  "entity_id": "west_francia",
+  "entity_name": "West Francia",
+  "start_year": 843,
+  "end_year": 987,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q46370"
+    }
+  },
+  "coords": [
+    2.35222,
+    48.85667
+  ]
+}

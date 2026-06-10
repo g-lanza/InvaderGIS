@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_azat_mousa_s_invasion_of_georgia_1302_c02",
+  "statement": "Azat Mousa's 1302 invasion of Georgia took place in Tao-Klarjeti.",
+  "subject_ids": [
+    "sultanate_of_rum"
+  ],
+  "period": {
+    "from": 1302,
+    "to": 1302
+  },
+  "derived_from": "wd_azat_mousa_s_invasion_of_georgia_1302",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

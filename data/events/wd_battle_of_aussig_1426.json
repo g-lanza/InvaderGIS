@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_aussig_1426",
+  "name": "Battle of Aussig",
+  "year": 1426,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    52.35,
+    17.9
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Battle of Aussig (1426 CE), at Ústí nad Labem (part of Hussite Wars). Source: Wikidata Q1787589.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "grand_duchy_of_lithuania"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

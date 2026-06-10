@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "dictatus_papae_1075",
+  "name": "Dictatus papae",
+  "year": 1075,
+  "type": "religious_council",
+  "category": "religion",
+  "coords": [
+    41.9,
+    12.45
+  ],
+  "entity": "papal_states",
+  "summary": "Pope Gregory VII issues the Dictatus Papae ('Dictates of the Pope'), 27 papal propositions asserting absolute supremacy of the papacy over all secular rulers and ecclesiastical institutions. Key claims: the pope alone can convoke general councils; the pope alone can call himself 'universal'; the pope can depose emperors; papal legates outrank all bishops; the pope can absolve subjects from loyalty to wicked rulers. Gregory's program transforms the papacy from a spiritual authority into an aggressive political actor that directly confronts secular rulers.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "papal_states",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "Launches the Investiture Controversy; defines the medieval papacy's claim to universal sovereignty; sets the terms of the Church-State conflict that defines the High Middle Ages",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

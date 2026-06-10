@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_ponza_1300",
+  "name": "Battle of Ponza",
+  "year": 1300,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41.7,
+    0.5
+  ],
+  "entity": "crown_of_aragon",
+  "summary": "Battle of Ponza (1300 CE), at Ponza (part of War of the Sicilian Vespers). Source: Wikidata Q4872078.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "crown_of_aragon"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

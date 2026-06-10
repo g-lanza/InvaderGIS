@@ -1,0 +1,31 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "lake_lop_nor_drought_870",
+  "name": "Tarim Basin drying and oasis abandonment",
+  "year": 870,
+  "type": "disaster",
+  "category": "hazard",
+  "coords": [
+    40.2,
+    90.5
+  ],
+  "entity": "tang_dynasty",
+  "summary": "Prolonged climate drying across the Tarim Basin between c. 700 and 1000 desiccates Lake Lop Nor and forces the abandonment of the Loulan, Niya, and Endere oases that had been continuously inhabited since the Han dynasty. Caravan routes shift north to Turfan and Hami, then south through the Hexi Corridor.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "tang_dynasty"
+    ],
+    "structural_significance": "Reshapes the Silk Road geography for the entire medieval period: the southern Tarim route is effectively closed; Buddhist monastic populations relocate to Dunhuang, contributing to the Dunhuang cave manuscript cache (sealed ~1006).",
+    "year_range": [
+      700,
+      1000
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

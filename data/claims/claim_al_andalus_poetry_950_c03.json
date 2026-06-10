@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_al_andalus_poetry_950_c03",
+  "statement": "The muwaššaḥ strophic poetic form was invented in Iberia under the Córdoban caliphate.",
+  "subject_ids": [
+    "caliphate_of_cordoba"
+  ],
+  "period": {
+    "from": 950,
+    "to": 950
+  },
+  "derived_from": "al_andalus_poetry_950",
+  "unresolved_sources": [
+    "scales_the_1994"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

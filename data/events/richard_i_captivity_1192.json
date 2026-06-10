@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "richard_i_captivity_1192",
+  "name": "Richard I's Captivity in Germany",
+  "year": 1192,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    48.2,
+    16.37
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Returning from the Third Crusade, Richard I was shipwrecked near Venice and captured by Duke Leopold of Austria (whom he had insulted at Acre) in December 1192. Leopold sold him to Emperor Henry VI who demanded a ransom of 150,000 marks, roughly twice England's annual royal revenue. England was subjected to crushing taxation; silver plate was confiscated from churches. Richard was released in February 1194 after partial payment.",
+  "outcomes": [
+    "Richard captured by Leopold of Austria",
+    "Enormous ransom of 150,000 marks demanded",
+    "England taxed at unprecedented rate to pay ransom",
+    "Richard released February 1194"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "Demonstrated both the enormous financial demands of crusading and the vulnerability of even the most powerful monarch when traveling through enemy territory; the ransom taxation contributed to English baronial grievances.",
+    "year_range": [
+      1192,
+      1194
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Gillingham, Richard I",
+      "Turner & Heiser, The Reign of Richard Lionheart"
+    ],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_alcoy_1276_c03",
+  "statement": "The Battle of Alcoy (1276 CE) was part of the Aragonese conquest of Valencia.",
+  "subject_ids": [
+    "crown_of_aragon"
+  ],
+  "period": {
+    "from": 1276,
+    "to": 1276
+  },
+  "derived_from": "wd_battle_of_alcoy_1276",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

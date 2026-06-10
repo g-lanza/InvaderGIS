@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_lechfeld",
+  "name": "Battle of Lechfeld",
+  "subtype": "battle",
+  "start_year": 955,
+  "end_year": 955,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "Otto I's decisive victory over the Magyars",
+  "coords": [
+    10.87,
+    48.28
+  ]
+}

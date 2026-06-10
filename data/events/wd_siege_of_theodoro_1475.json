@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_theodoro_1475",
+  "name": "Siege of Theodoro",
+  "year": 1475,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    44,
+    28.45
+  ],
+  "entity": "ottoman_empire",
+  "summary": "Siege of Theodoro (1475 CE), at Mangup (part of Ottoman conquest of the southern coast of Crimea). Source: Wikidata Q16683523.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "ottoman_empire",
+      "principality_of_moldavia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

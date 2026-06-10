@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_union_kalmar_1397_c03",
+  "statement": "The Kalmar Union controlled the Baltic sea lanes and the Sound tolls, representing the largest territorial entity in northern Europe.",
+  "subject_ids": [
+    "kalmar_union"
+  ],
+  "period": {
+    "from": 1397,
+    "to": 1397
+  },
+  "derived_from": "union_kalmar_1397",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "portuguese_independence_1139",
+  "name": "Battle of Ourique and Portuguese Independence",
+  "year": 1139,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    37.89,
+    -8
+  ],
+  "entity": "kingdom_of_portugal",
+  "summary": "Afonso Henriques defeats a Moorish force at Ourique and his troops proclaim him King of Portugal, rejecting the suzerainty of his cousin Alfonso VII of León and Castile. Pope Alexander III recognizes Portugal as an independent kingdom in 1179. Afonso Henriques captures Lisbon in 1147 with the assistance of Anglo-Norman and Flemish crusaders en route to the Holy Land, establishing Portugal's southern frontier on the Tagus River.",
+  "outcomes": [
+    "portugal_declares_independence",
+    "afonso_henriques_king",
+    "reconquista_on_atlantic_front"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_portugal",
+      "kingdom_of_leon"
+    ],
+    "structural_significance": "Portuguese independence creates a distinct Iberian kingdom with Atlantic access; Afonso's use of crusaders to take Lisbon establishes the precedent of combining the Reconquista with crusader ideology; Portugal's separate development from Castile eventually produces the rival Atlantic empires of the 15th-16th centuries, the Treaty of Tordesillas divides the world between them",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_ancyra_phrygia_500",
+  "name": "Ancyra (Phrygia)",
+  "importance": "city",
+  "start_year": 500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "inferred",
+    "external_ids": {
+      "pleiades": "609305"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    28.864,
+    39.1533
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_charlemagne_coronation_800_c02",
+  "statement": "Charlemagne's coronation revived an imperial title in the Latin West vacant since 476, challenging the Byzantine emperor.",
+  "subject_ids": [
+    "carolingian_empire"
+  ],
+  "period": {
+    "from": 800,
+    "to": 800
+  },
+  "derived_from": "charlemagne_coronation_800",
+  "unresolved_sources": [
+    "riché_the_1993"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "mckitterick_charlemagne_2008",
+      "nelson_king_2019"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "william_of_occam_1320",
+  "name": "William of Ockham, Nominalism and Political Theory",
+  "year": 1324,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    48.14,
+    11.58
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "William of Ockham, English Franciscan philosopher, develops Nominalism (only individual things are real; 'universals' are just names) against the Realist-Scholastic tradition, and writes political tracts attacking Pope John XXII's authority over secular rulers. Living at Munich under Louis IV's protection after fleeing Avignon, he articulates arguments for the limitation of papal temporal power and the priority of imperial authority in secular matters.",
+  "outcomes": [
+    "nominalism_developed",
+    "papal_authority_attacked",
+    "individual_rights_theory"
+  ],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "papal_states"
+    ],
+    "structural_significance": "Ockham's Nominalism has far-reaching consequences: it challenges the Scholastic metaphysics that supported Church doctrine, preparing the ground for empirical science (knowledge of particulars rather than universals); his political writings on papal limitations directly contribute to the Conciliarist movement; his 'Ockham's Razor' (prefer the simpler explanation) becomes the foundational methodological principle of scientific thinking",
+    "year_range": [
+      1320,
+      1349
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

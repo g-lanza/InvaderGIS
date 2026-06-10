@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_medici_bank_founded_1397_c02",
+  "statement": "The Medici bank's holding-company structure became the template for early modern multinational banking.",
+  "subject_ids": [
+    "republic_of_florence"
+  ],
+  "period": {
+    "from": 1397,
+    "to": 1397
+  },
+  "derived_from": "medici_bank_founded_1397",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lopez_commercial_revolution_1971",
+      "abulafia_great_sea_2011"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

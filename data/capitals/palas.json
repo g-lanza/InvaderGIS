@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "palas",
+  "name": "Pataliputra",
+  "entity_id": "palas",
+  "entity_name": "Pala Empire",
+  "start_year": 750,
+  "end_year": 1174,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q668412"
+    }
+  },
+  "coords": [
+    85.144,
+    25.611
+  ]
+}

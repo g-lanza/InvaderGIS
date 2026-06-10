@@ -1,0 +1,66 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_song_empire_979_1279",
+  "name": "Song Empire — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 979,
+  "year_end": 1279,
+  "waypoints": [
+    {
+      "year": 979,
+      "place": "Battle of Gaoliang River",
+      "coords": [
+        34.593,
+        118.9795
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_gaoliang_river_979"
+    },
+    {
+      "year": 1075,
+      "place": "Song-Lý War",
+      "coords": [
+        28.49,
+        115.988
+      ],
+      "note": "military",
+      "event_id": "wd_song_l_war_1075"
+    },
+    {
+      "year": 1127,
+      "place": "Jurchen Jin Conquer Northern China — Southern Song Begins",
+      "coords": [
+        28.49,
+        115.988
+      ],
+      "note": "military",
+      "event_id": "song_northern_loss_1127"
+    },
+    {
+      "year": 1211,
+      "place": "Mongol conquest of the Jin dynasty",
+      "coords": [
+        38.582,
+        105.4387
+      ],
+      "note": "military",
+      "event_id": "wd_mongol_conquest_of_the_jin_dynasty_1211"
+    },
+    {
+      "year": 1279,
+      "place": "Mongol Conquest of Southern Song",
+      "coords": [
+        28.49,
+        115.988
+      ],
+      "note": "military",
+      "event_id": "song_mongol_conquest_1279"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

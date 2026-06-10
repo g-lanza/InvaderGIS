@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_hagia_sophia_537_c03",
+  "statement": "The Hagia Sophia served as the center of Eastern Christianity until the Ottoman conquest of 1453.",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 537,
+    "to": 537
+  },
+  "derived_from": "hagia_sophia_537",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

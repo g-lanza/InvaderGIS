@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_siena_florence",
+  "statement": "Siena and Florence were rival Tuscan city-states with competing banking families, trade routes, and political allegiances — Florence was Guelf, Siena predominantly Ghibelline. Siena won the most famous battle between them at Montaperti (1260), where the Florentines were catastrophically defeated (the Arbia river 'ran red,' in Dante's words). Siena never followed up its military advantage; Florence recovered, and the Guelf victory throughout Italy (after Benevento, 1266) marginalized Siena's Ghibelline alignment. The Black Death (1348) hit Siena disproportionately hard, killing perhaps half the population and preventing the completion of its cathedral expansion.",
+  "subject_ids": [
+    "republic_of_siena",
+    "republic_of_florence"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_siena_florence",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015",
+      "najemy_a_2006",
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1125,
+    "to": 1500
+  }
+}

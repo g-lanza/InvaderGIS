@@ -1,0 +1,29 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_iceland_norway",
+  "statement": "The Icelandic Commonwealth (930–1262) maintained complex relations with the Norwegian crown: dependent on Norwegian timber and grain imports, subject to Norwegian pressure for conversion to Christianity (under Olaf Tryggvason, 999–1000), and eventually accepting Norwegian overlordship under the Old Covenant (Gamli sáttmáli, 1262–1264). The submission followed a decade of civil war among Icelandic chieftain clans (the Sturlungaöld) that left the commonwealth unable to maintain order. Iceland remained under the Norwegian and then Danish crown until 1944.",
+  "subject_ids": [
+    "kingdom_of_norway",
+    "iceland_commonwealth"
+  ],
+  "predicate": "tributary",
+  "derived_from": "rel_iceland_norway",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_the_1997",
+      "helle_the_2003",
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "iceland_commonwealth"
+  ],
+  "period": {
+    "from": 1262,
+    "to": 1262
+  }
+}

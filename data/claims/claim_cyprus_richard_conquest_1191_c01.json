@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_cyprus_richard_conquest_1191_c01",
+  "statement": "Richard I of England conquered Cyprus from the Byzantine governor Isaac Komnenos during the Third Crusade in 1191.",
+  "subject_ids": [
+    "kingdom_of_cyprus"
+  ],
+  "period": {
+    "from": 1191,
+    "to": 1191
+  },
+  "derived_from": "cyprus_richard_conquest_1191",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

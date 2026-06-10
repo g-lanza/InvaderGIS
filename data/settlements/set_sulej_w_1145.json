@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_sulej_w_1145",
+  "name": "Sulejów",
+  "importance": "city",
+  "start_year": 1145,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1015172"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    19.8847,
+    51.3528
+  ]
+}

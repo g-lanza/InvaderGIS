@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "iconoclasm_controversy_726",
+  "name": "Byzantine Iconoclasm Controversy",
+  "year": 726,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41,
+    29
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Emperor Leo III orders the destruction of religious images (icons), launching a century-long theological dispute. Pope Gregory III condemns iconoclasm; Leo seizes papal estates in Italy in retaliation. The controversy strains Byzantine-papal relations, pushing the papacy toward the Franks for military protection and accelerating Italy's drift from Byzantine influence.",
+  "outcomes": [
+    "pope_gregory_iii_condemns",
+    "italian_alienation",
+    "ecclesiastical_conflict"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire"
+    ],
+    "structural_significance": "Deepens the theological and political rift between Rome and Constantinople that eventually produces the Great Schism of 1054; the papal turn toward the Franks creates the political conditions for Charlemagne's coronation.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

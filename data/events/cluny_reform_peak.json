@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "cluny_reform_peak",
+  "name": "Cluniac influence referenced",
+  "year": 1100,
+  "type": "religious_council",
+  "category": "religion",
+  "coords": [
+    46.43,
+    4.66
+  ],
+  "entity": "papal_states",
+  "summary": "The Cluniac Reform movement, founded at Cluny Abbey (910) by Duke William of Aquitaine, reaches the peak of its influence under Abbots Hugh of Semur (1049–1109) and Peter the Venerable (1122–1156). At its height, the Cluniac network comprises over 1,000 dependent monasteries across Western Europe, all under the direct authority of the Abbot of Cluny (exempt from local bishops). The Cluniacs champion the Gregorian Reform (clerical celibacy, simony prohibition, the prohibition of lay investiture), provide the papacy's most effective reforming agents, and create the organizational model for the later Military Orders. Cluny's church, begun 1088, completed 1130, is the largest building in Christendom until St. Peter's (16th century).",
+  "outcomes": [
+    "monastic_reform_network"
+  ],
+  "_quarry": {
+    "participants": [
+      "papal_states",
+      "kingdom_of_france"
+    ],
+    "structural_significance": "Cluniac network provides the organizational infrastructure for the Gregorian Reform; exempt monasteries model a church independent of local feudal lords; the Cluniac emphasis on liturgy and pilgrimage creates the cultural infrastructure of high medieval Christianity",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

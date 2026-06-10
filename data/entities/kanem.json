@@ -1,0 +1,656 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kanem",
+  "name_primary": "Kanem Empire",
+  "name_variants": [
+    "Kanem"
+  ],
+  "type": "kingdom",
+  "region": "west_africa",
+  "formed": 700,
+  "dissolved": 1376,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 800,
+      "label": "Kanem",
+      "polygon": [
+        [
+          13.29,
+          14.38
+        ],
+        [
+          14.9,
+          15.13
+        ],
+        [
+          15.59,
+          17
+        ],
+        [
+          14.78,
+          20.72
+        ],
+        [
+          12.68,
+          21.5
+        ],
+        [
+          10.17,
+          18.63
+        ],
+        [
+          11.31,
+          15.66
+        ],
+        [
+          12.9,
+          14.41
+        ],
+        [
+          13.29,
+          14.38
+        ]
+      ]
+    },
+    {
+      "year": 1000,
+      "label": "Kanem",
+      "polygon": [
+        [
+          16.22,
+          17.1
+        ],
+        [
+          15.74,
+          18.45
+        ],
+        [
+          15.18,
+          19.17
+        ],
+        [
+          14.47,
+          19.41
+        ],
+        [
+          13.51,
+          18.77
+        ],
+        [
+          13.19,
+          17.65
+        ],
+        [
+          13.12,
+          15.82
+        ],
+        [
+          13.43,
+          13.83
+        ],
+        [
+          14.47,
+          12.64
+        ],
+        [
+          15.66,
+          12.64
+        ],
+        [
+          16.06,
+          12.88
+        ],
+        [
+          16.22,
+          17.1
+        ]
+      ]
+    },
+    {
+      "year": 1200,
+      "label": "Kanem",
+      "polygon": [
+        [
+          16.22,
+          17.1
+        ],
+        [
+          15.74,
+          18.45
+        ],
+        [
+          15.18,
+          19.17
+        ],
+        [
+          14.47,
+          19.41
+        ],
+        [
+          13.51,
+          18.77
+        ],
+        [
+          13.19,
+          17.65
+        ],
+        [
+          13.12,
+          15.82
+        ],
+        [
+          13.43,
+          13.83
+        ],
+        [
+          14.47,
+          12.64
+        ],
+        [
+          15.66,
+          12.64
+        ],
+        [
+          16.06,
+          12.88
+        ],
+        [
+          16.22,
+          17.1
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    14.885,
+    16.163
+  ],
+  "population_estimates": [
+    {
+      "year": 1000,
+      "estimate": 500000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q422776",
+          "url": "https://www.wikidata.org/wiki/Q422776",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kanem",
+          "url": "https://en.wikipedia.org/wiki/Kanem"
+        }
+      ]
+    },
+    {
+      "year": 1100,
+      "estimate": 750000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q422776",
+          "url": "https://www.wikidata.org/wiki/Q422776",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kanem",
+          "url": "https://en.wikipedia.org/wiki/Kanem"
+        }
+      ]
+    },
+    {
+      "year": 1200,
+      "estimate": 1000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q422776",
+          "url": "https://www.wikidata.org/wiki/Q422776",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kanem",
+          "url": "https://en.wikipedia.org/wiki/Kanem"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Central African empire straddling Lake Chad (c. 700–1376) where the Zaghawa and later Sefuwa dynasties controlled the trans-Saharan trade routes connecting North Africa to sub-Saharan gold, ivory, and slaves; conversion to Islam under Mai Humay (c. 1085) integrated Kanem into the Islamic scholarly network while the mai (king) system maintained legitimacy through combined Islamic and pre-Islamic ritual authority.",
+  "temporal": {
+    "start_year": 700,
+    "end_year": 1376,
+    "notes": ""
+  },
+  "geographic": {
+    "centroid": [
+      14.885,
+      16.163
+    ],
+    "polygon_simplified": [
+      [
+        16.22,
+        17.1
+      ],
+      [
+        15.74,
+        18.45
+      ],
+      [
+        15.18,
+        19.17
+      ],
+      [
+        14.47,
+        19.41
+      ],
+      [
+        13.51,
+        18.77
+      ],
+      [
+        13.19,
+        17.65
+      ],
+      [
+        13.12,
+        15.82
+      ],
+      [
+        13.43,
+        13.83
+      ],
+      [
+        14.47,
+        12.64
+      ],
+      [
+        15.66,
+        12.64
+      ],
+      [
+        16.06,
+        12.88
+      ],
+      [
+        16.22,
+        17.1
+      ]
+    ],
+    "capital": {
+      "name": "Njimi",
+      "coords": [
+        14.5,
+        14.6
+      ],
+      "source": "curated"
+    },
+    "polygon_snapshots": [
+      {
+        "year": 800,
+        "label": "Kanem",
+        "polygon": [
+          [
+            13.29,
+            14.38
+          ],
+          [
+            14.9,
+            15.13
+          ],
+          [
+            15.59,
+            17
+          ],
+          [
+            14.78,
+            20.72
+          ],
+          [
+            12.68,
+            21.5
+          ],
+          [
+            10.17,
+            18.63
+          ],
+          [
+            11.31,
+            15.66
+          ],
+          [
+            12.9,
+            14.41
+          ],
+          [
+            13.29,
+            14.38
+          ]
+        ]
+      },
+      {
+        "year": 1000,
+        "label": "Kanem",
+        "polygon": [
+          [
+            16.22,
+            17.1
+          ],
+          [
+            15.74,
+            18.45
+          ],
+          [
+            15.18,
+            19.17
+          ],
+          [
+            14.47,
+            19.41
+          ],
+          [
+            13.51,
+            18.77
+          ],
+          [
+            13.19,
+            17.65
+          ],
+          [
+            13.12,
+            15.82
+          ],
+          [
+            13.43,
+            13.83
+          ],
+          [
+            14.47,
+            12.64
+          ],
+          [
+            15.66,
+            12.64
+          ],
+          [
+            16.06,
+            12.88
+          ],
+          [
+            16.22,
+            17.1
+          ]
+        ]
+      },
+      {
+        "year": 1200,
+        "label": "Kanem",
+        "polygon": [
+          [
+            16.22,
+            17.1
+          ],
+          [
+            15.74,
+            18.45
+          ],
+          [
+            15.18,
+            19.17
+          ],
+          [
+            14.47,
+            19.41
+          ],
+          [
+            13.51,
+            18.77
+          ],
+          [
+            13.19,
+            17.65
+          ],
+          [
+            13.12,
+            15.82
+          ],
+          [
+            13.43,
+            13.83
+          ],
+          [
+            14.47,
+            12.64
+          ],
+          [
+            15.66,
+            12.64
+          ],
+          [
+            16.06,
+            12.88
+          ],
+          [
+            16.22,
+            17.1
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "real_historical_boundary",
+    "polygon_source": "aourednik/historical-basemaps",
+    "polygon_source_date": "2026-05-09"
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "early_state",
+      "years": "700-900",
+      "description": "Kanem kingdom emerged around Lake Chad under the Zaghawa dynasty; trans-Saharan trade was its economic foundation.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q422776",
+          "url": "https://www.wikidata.org/wiki/Q422776"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kanem",
+          "url": "https://en.wikipedia.org/wiki/Kanem"
+        }
+      ]
+    },
+    {
+      "phase": "mais_dynasty",
+      "years": "900-1380",
+      "description": "Saifawa (Mais) dynasty converted to Islam; controlled northern trans-Saharan routes to North Africa.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q422776",
+          "url": "https://www.wikidata.org/wiki/Q422776"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kanem",
+          "url": "https://en.wikipedia.org/wiki/Kanem"
+        }
+      ]
+    },
+    {
+      "phase": "collapse_and_migration",
+      "years": "1380-1500",
+      "description": "Internal revolt by the Bulala confederation expelled the Saifawa from Kanem; dynasty regrouped in Bornu to the west.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q422776",
+          "url": "https://www.wikidata.org/wiki/Q422776"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kanem",
+          "url": "https://en.wikipedia.org/wiki/Kanem"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "trade_route_control",
+      "layer": "economic_commercial",
+      "description": "Kanem controlled the central trans-Saharan route linking sub-Saharan Africa with the Maghreb.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q422776",
+          "url": "https://www.wikidata.org/wiki/Q422776"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kanem",
+          "url": "https://en.wikipedia.org/wiki/Kanem"
+        }
+      ]
+    },
+    {
+      "tag": "religious_legitimacy",
+      "layer": "ideology_religion",
+      "description": "Conversion to Islam (c. 11th century) connected Kanem to wider Islamic scholarly and commercial networks.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q422776",
+          "url": "https://www.wikidata.org/wiki/Q422776"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kanem",
+          "url": "https://en.wikipedia.org/wiki/Kanem"
+        }
+      ],
+      "tag_prose": "islamic_legitimacy"
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "bulala_revolt",
+      "layer": "military_security",
+      "description": "Bulala confederation's sustained military pressure expelled the ruling dynasty from Kanem.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q422776",
+          "url": "https://www.wikidata.org/wiki/Q422776"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kanem",
+          "url": "https://en.wikipedia.org/wiki/Kanem"
+        }
+      ]
+    },
+    {
+      "tag": "drought_and_famine",
+      "layer": "geography_territory",
+      "description": "Sahelian droughts reduced agricultural and pastoral capacity around Lake Chad.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q422776",
+          "url": "https://www.wikidata.org/wiki/Q422776"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kanem",
+          "url": "https://en.wikipedia.org/wiki/Kanem"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Humai ibn Salamna",
+      "role": "mais",
+      "years": "1085–1097",
+      "year_start": 1085,
+      "year_end": 1097,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Humai ibn Salamna",
+          "url": "https://en.wikipedia.org/wiki/Humai_ibn_Salamna"
+        }
+      ]
+    },
+    {
+      "name": "Dunama Dabbalemi",
+      "role": "mais",
+      "years": "1210–1248",
+      "year_start": 1210,
+      "year_end": 1248,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Dunama Dabbalemi",
+          "url": "https://en.wikipedia.org/wiki/Dunama_II_Dibalemi"
+        }
+      ]
+    }
+  ],
+  "economic": {
+    "primary_base": "long_distance_trade",
+    "secondary_bases": [
+      "pastoralism",
+      "slave_trade",
+      "agriculture"
+    ],
+    "wealth_level": "moderate",
+    "major_exports": [
+      "slaves",
+      "ivory",
+      "cattle",
+      "horses"
+    ],
+    "major_trade_partners": [
+      "north_africa_berbers",
+      "egypt_fatimid"
+    ],
+    "revenue_sources": [
+      "trans_saharan_caravan_tax",
+      "tribute_from_vassals",
+      "slave_trade"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q422776",
+        "url": "https://www.wikidata.org/wiki/Q422776"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Kanem",
+        "url": "https://en.wikipedia.org/wiki/Kanem"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q422776",
+    "matched_name": "Kanem",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Kanem"
+  },
+  "monogram": "KE"
+}

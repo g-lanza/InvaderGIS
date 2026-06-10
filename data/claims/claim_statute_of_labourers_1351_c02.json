@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_statute_of_labourers_1351_c02",
+  "statement": "The 1351 Statute of Labourers aimed to neutralise the post-plague labour shortage that had pushed wages up by a factor of two to three.",
+  "subject_ids": [
+    "kingdom_of_england"
+  ],
+  "period": {
+    "from": 1351,
+    "to": 1351
+  },
+  "derived_from": "statute_of_labourers_1351",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "campbell_great_transition_2016",
+      "duby_rural_economy_country_life_1968"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

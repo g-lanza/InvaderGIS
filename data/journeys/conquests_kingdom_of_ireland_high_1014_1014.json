@@ -1,0 +1,60 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_kingdom_of_ireland_high_1014_1014",
+  "name": "High Kingship of Ireland — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1014,
+  "year_end": 1014,
+  "waypoints": [
+    {
+      "year": 1014,
+      "place": "Battle of Clontarf",
+      "coords": [
+        53.37,
+        -6.19
+      ],
+      "note": "battle",
+      "event_id": "clontarf_1014"
+    },
+    {
+      "year": 1014,
+      "place": "Battle of Clontarf",
+      "coords": [
+        53.36,
+        -6.2
+      ],
+      "note": "battle",
+      "event_id": "clontarf_1014"
+    },
+    {
+      "year": 1014,
+      "place": "Connacht at Battle of Clontarf",
+      "coords": [
+        53.375,
+        -8.375
+      ],
+      "note": "military",
+      "event_id": "kingdom_of_connacht_1014"
+    },
+    {
+      "year": 1014,
+      "place": "Battle of Clontarf",
+      "coords": [
+        52.675,
+        -8.425
+      ],
+      "note": "military",
+      "event_id": "clontarf_1014"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

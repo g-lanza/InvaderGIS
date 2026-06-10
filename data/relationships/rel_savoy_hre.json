@@ -1,0 +1,38 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_savoy_hre",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "holy_roman_empire",
+      "role": "suzerain"
+    },
+    {
+      "entity_id": "county_of_savoy",
+      "role": "vassal"
+    }
+  ],
+  "directed": true,
+  "type": "vassalage",
+  "since": 1033,
+  "until": 1416,
+  "note": "The Counts, then Dukes, of Savoy held their Alpine territories as imperial vassals, controlling the vital Alpine passes (Mont Cenis, Great St. Bernard) that were the primary routes between France, Germany, and Italy. This strategic position made Savoy indispensable to imperial policy: emperors crossing the Alps to Italy needed Savoyard cooperation. Savoy's count was elevated to Duke by Emperor Sigismund (1416). The duchy's position between France and the Empire gave it permanent diplomatic significance — playing French and imperial ambitions against each other — that belied its small size.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Savoy's control of the Alpine passes gives this small state extraordinary strategic significance; the ability to open or close the main imperial route to Italy makes Savoy a perpetual diplomatic prize contested between France and the Empire"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

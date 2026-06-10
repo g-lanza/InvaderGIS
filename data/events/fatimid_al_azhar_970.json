@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "fatimid_al_azhar_970",
+  "name": "Foundation of Al-Azhar, Islamic University",
+  "year": 970,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    30.05,
+    31.26
+  ],
+  "entity": "fatimid_caliphate",
+  "summary": "Fatimid commander Jawhar founds Al-Azhar mosque in Cairo (970) as both a center of Shia Ismaili learning and a congregational mosque. Under subsequent Fatimid caliphs it develops into a teaching institution. After Saladin's conquest (1171) transforms Egypt to Sunni, Al-Azhar shifts to Sunni Shafi'i learning; it eventually becomes the most authoritative Islamic educational institution in the Sunni world.",
+  "outcomes": [
+    "al_azhar_founded",
+    "shia_learning_center",
+    "later_becomes_sunni_institution"
+  ],
+  "_quarry": {
+    "participants": [
+      "fatimid_caliphate"
+    ],
+    "structural_significance": "Al-Azhar's 1,050-year continuity makes it the world's oldest continuously operating university; its authority on Islamic legal and theological questions is without parallel in the Sunni world; the institution's original Shia orientation (transformed to Sunni by political conquest) illustrates how institutional continuity can transcend ideological shifts; modern Al-Azhar's statements on Islamic law carry global weight in 1.8 billion-strong Sunni Islam",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "brett_the_2001",
+      "daftary_the_1990",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

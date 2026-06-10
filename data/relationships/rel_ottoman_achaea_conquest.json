@@ -1,0 +1,40 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_ottoman_achaea_conquest",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "principality_of_achaea",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "ottoman_empire",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 1432,
+  "until": 1432,
+  "note": "The Principality of Achaea (the Morea/Peloponnese) was a Latin crusader state established after the Fourth Crusade (1204). The Byzantine Despotate of the Morea gradually recovered much of the Peloponnese from the Latins throughout the 14th–15th centuries. When Mehmed II's Ottoman forces invaded in 1460, the Despotate — already weakened by internal conflicts between the brothers Demetrios and Thomas Palaiologos — offered minimal resistance. The Peloponnese was absorbed into the Ottoman Empire; the remaining Latin principality (Venetian Nauplion and Modon) held out longer.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Ottoman absorption of Achaea/Morea completes the elimination of the Crusader state system in mainland Greece; Venetian coastal fortresses continued to resist, demonstrating the critical importance of naval supremacy for maintaining isolated strongholds against Ottoman land power"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

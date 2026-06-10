@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_kulikovo",
+  "name": "Battle of Kulikovo",
+  "subtype": "battle",
+  "start_year": 1380,
+  "end_year": 1380,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "Russian victory over the Golden Horde; turning point in Mongol domination",
+  "coords": [
+    38.65,
+    53.64
+  ]
+}

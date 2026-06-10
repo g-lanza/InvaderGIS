@@ -1,0 +1,65 @@
+{
+  "kind": "institution",
+  "dataset": "medieval-europe-500-1500",
+  "id": "papal_curia",
+  "name_primary": "Papal Curia",
+  "domain": "administrative_system",
+  "formed": 1000,
+  "dissolved": 1500,
+  "_quarry": {
+    "key_developments": [
+      {
+        "year": 1059,
+        "event": "Nicholas II's decree In Nomine Domini transfers papal election to cardinals only."
+      },
+      {
+        "year": 1075,
+        "event": "Gregory VII's Dictatus Papae claims papal supremacy over emperors."
+      },
+      {
+        "year": 1198,
+        "event": "Innocent III — apogee of medieval papal monarchy."
+      },
+      {
+        "year": 1245,
+        "event": "First Council of Lyon — papal claim to depose emperors crystallised."
+      },
+      {
+        "year": 1309,
+        "event": "Clement V moves curia to Avignon — beginning of 'Babylonian Captivity'."
+      },
+      {
+        "year": 1378,
+        "event": "Western Schism begins."
+      },
+      {
+        "year": 1417,
+        "event": "Council of Constance restores unity under Martin V."
+      },
+      {
+        "year": 1450,
+        "event": "Nicholas V founds Vatican Library."
+      }
+    ],
+    "influences_entities": [
+      "papal_states",
+      "holy_roman_empire",
+      "kingdom_of_france",
+      "kingdom_of_england",
+      "kingdom_of_castile",
+      "republic_of_venice",
+      "republic_of_florence",
+      "duchy_of_milan",
+      "kingdom_of_naples"
+    ],
+    "description": "The papal court and central bureaucracy of the Latin Church. From the 11th-century Gregorian Reform onward, the Curia developed into the largest single administrative apparatus of medieval Europe: the Chancery (issuing documents), the Apostolic Camera (finances), the Penitentiary (cases of conscience), and the Rota (judicial appeals). The papacy's claim to plenitudo potestatis over both spiritual and temporal matters depended on the Curia's bureaucratic reach. Its move to Avignon (1309–1377) and the subsequent Western Schism (1378–1417) destabilised the institution but did not destroy it; the Renaissance papacy of Nicholas V (1447–1455) and Sixtus IV (1471–1484) rebuilt it as a Renaissance court."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "robinson_papacy_1990",
+      "kelly_oxford_dictionary_popes_1986"
+    ],
+    "confidence": "low"
+  }
+}

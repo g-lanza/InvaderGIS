@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_georgia_mongol",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "golden_horde",
+      "role": "hegemon"
+    },
+    {
+      "entity_id": "kingdom_of_georgia",
+      "role": "tributary"
+    }
+  ],
+  "directed": true,
+  "type": "tributary",
+  "since": 1240,
+  "until": 1330,
+  "note": "Georgia under Mongol tribute through Ilkhanate (note: Ilkhanate not Golden Horde — using closest available).",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Georgia's incorporation as a Mongol vassal under the Ilkhanate paradoxically preserved its political existence while enabling continued Orthodox patronage; the Mongol Pax allowed Georgian merchants access to the Eurasian trade network while the Mongol buffer temporarily reduced Ottoman-Mamluk pressure, demonstrating how tributary submission could be a survival strategy rather than mere subjugation."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "allsen_mongol_1987",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

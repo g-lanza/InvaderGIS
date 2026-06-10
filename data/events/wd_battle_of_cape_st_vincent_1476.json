@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_cape_st_vincent_1476",
+  "name": "Battle of Cape St. Vincent",
+  "year": 1476,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    43.4667,
+    1.1333
+  ],
+  "entity": "kingdom_of_portugal",
+  "summary": "Battle of Cape St. Vincent (1476 CE), at Cape St. Vincent (part of War of the Castilian Succession). Source: Wikidata Q97096812.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_portugal",
+      "kingdom_of_france",
+      "republic_of_genoa"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

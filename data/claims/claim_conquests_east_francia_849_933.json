@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_east_francia_849_933",
+  "statement": "East Francia — campaigns and battles spanned 849–933, from Battle of Zásek to Battle of Riade.",
+  "subject_ids": [
+    "east_francia"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_east_francia_849_933",
+  "period": {
+    "from": 849,
+    "to": 933
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

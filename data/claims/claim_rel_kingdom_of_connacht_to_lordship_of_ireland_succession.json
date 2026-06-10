@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_kingdom_of_connacht_to_lordship_of_ireland_succession",
+  "statement": "Derived from predecessor/successor links recorded in the kingdom_of_connacht and lordship_of_ireland entity records. Transition anchored to lordship_of_ireland start_year.",
+  "subject_ids": [
+    "kingdom_of_connacht",
+    "lordship_of_ireland"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_kingdom_of_connacht_to_lordship_of_ireland_succession",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "lordship_of_ireland"
+  ],
+  "period": {
+    "from": 1177,
+    "to": 1177
+  }
+}

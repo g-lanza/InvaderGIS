@@ -1,0 +1,1421 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "suebi_kingdom",
+  "name_primary": "Kingdom of the Suebi",
+  "name_variants": [
+    "Galliciae regnum"
+  ],
+  "type": "kingdom",
+  "region": "iberia",
+  "formed": 409,
+  "dissolved": 585,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 500,
+      "label": "Kingdom of the Suebi",
+      "polygon": [
+        [
+          43.21,
+          -5.94
+        ],
+        [
+          43.54,
+          -6.05
+        ],
+        [
+          43.54,
+          -7.18
+        ],
+        [
+          43.6,
+          -7.34
+        ],
+        [
+          43.73,
+          -7.28
+        ],
+        [
+          43.73,
+          -8.24
+        ],
+        [
+          43.6,
+          -8.39
+        ],
+        [
+          43.41,
+          -8.37
+        ],
+        [
+          43.41,
+          -8.85
+        ],
+        [
+          43.15,
+          -9.3
+        ],
+        [
+          42.56,
+          -9.08
+        ],
+        [
+          42.56,
+          -8.92
+        ],
+        [
+          42.43,
+          -8.9
+        ],
+        [
+          42.3,
+          -8.65
+        ],
+        [
+          42.17,
+          -8.96
+        ],
+        [
+          40.74,
+          -8.73
+        ],
+        [
+          40.61,
+          -8.87
+        ],
+        [
+          40.36,
+          -8.85
+        ],
+        [
+          40.36,
+          -8.93
+        ],
+        [
+          39.77,
+          -9.03
+        ],
+        [
+          39.77,
+          -9.1
+        ],
+        [
+          39.51,
+          -9.16
+        ],
+        [
+          39.45,
+          -9.39
+        ],
+        [
+          39.26,
+          -9.37
+        ],
+        [
+          39.26,
+          -8.97
+        ],
+        [
+          39.45,
+          -8.91
+        ],
+        [
+          39.45,
+          -8.76
+        ],
+        [
+          39.77,
+          -8.47
+        ],
+        [
+          39.84,
+          -7.93
+        ],
+        [
+          40.29,
+          -6.86
+        ],
+        [
+          41.07,
+          -6.85
+        ],
+        [
+          41.46,
+          -6.25
+        ],
+        [
+          41.85,
+          -6.13
+        ],
+        [
+          41.98,
+          -5.9
+        ],
+        [
+          42.43,
+          -5.78
+        ],
+        [
+          42.43,
+          -5.7
+        ],
+        [
+          42.76,
+          -5.73
+        ],
+        [
+          42.76,
+          -5.81
+        ],
+        [
+          43.08,
+          -5.76
+        ],
+        [
+          43.21,
+          -5.94
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    42.28,
+    -8.45
+  ],
+  "religion": "arian",
+  "population_estimates": [
+    {
+      "year": 500,
+      "estimate": 350000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1048918",
+          "url": "https://www.wikidata.org/wiki/Q1048918",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of the Suebi",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_the_Suebi"
+        }
+      ]
+    },
+    {
+      "year": 550,
+      "estimate": 500000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1048918",
+          "url": "https://www.wikidata.org/wiki/Q1048918",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of the Suebi",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_the_Suebi"
+        }
+      ]
+    },
+    {
+      "year": 700,
+      "estimate": 550000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1048918",
+          "url": "https://www.wikidata.org/wiki/Q1048918",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of the Suebi",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_the_Suebi"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low"
+  },
+  "description": "Germanic Suebian kingdom in northwestern Iberia (409–585) established during the Rhine crossing of 406; the first Germanic kingdom to convert to Nicene Christianity (c. 561) under the influence of Martin of Braga, it maintained a distinct identity in modern Galicia and northern Portugal until Visigothic conquest established Iberian unity under Toledo.",
+  "temporal": {
+    "start_year": 409,
+    "end_year": 585,
+    "end_year_within_scope": null,
+    "start_event_id": null,
+    "end_event_id": null,
+    "notes": "First barbarian kingdom in Iberia; Leovigild absorption."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      42.28,
+      -8.45
+    ],
+    "core_regions": [
+      "Gallaecia"
+    ],
+    "polygon_simplified": [
+      [
+        43.21,
+        -5.94
+      ],
+      [
+        43.54,
+        -6.05
+      ],
+      [
+        43.54,
+        -7.18
+      ],
+      [
+        43.6,
+        -7.34
+      ],
+      [
+        43.73,
+        -7.28
+      ],
+      [
+        43.73,
+        -8.24
+      ],
+      [
+        43.6,
+        -8.39
+      ],
+      [
+        43.41,
+        -8.37
+      ],
+      [
+        43.41,
+        -8.85
+      ],
+      [
+        43.15,
+        -9.3
+      ],
+      [
+        42.56,
+        -9.08
+      ],
+      [
+        42.56,
+        -8.92
+      ],
+      [
+        42.43,
+        -8.9
+      ],
+      [
+        42.3,
+        -8.65
+      ],
+      [
+        42.17,
+        -8.96
+      ],
+      [
+        40.74,
+        -8.73
+      ],
+      [
+        40.61,
+        -8.87
+      ],
+      [
+        40.36,
+        -8.85
+      ],
+      [
+        40.36,
+        -8.93
+      ],
+      [
+        39.77,
+        -9.03
+      ],
+      [
+        39.77,
+        -9.1
+      ],
+      [
+        39.51,
+        -9.16
+      ],
+      [
+        39.45,
+        -9.39
+      ],
+      [
+        39.26,
+        -9.37
+      ],
+      [
+        39.26,
+        -8.97
+      ],
+      [
+        39.45,
+        -8.91
+      ],
+      [
+        39.45,
+        -8.76
+      ],
+      [
+        39.77,
+        -8.47
+      ],
+      [
+        39.84,
+        -7.93
+      ],
+      [
+        40.29,
+        -6.86
+      ],
+      [
+        41.07,
+        -6.85
+      ],
+      [
+        41.46,
+        -6.25
+      ],
+      [
+        41.85,
+        -6.13
+      ],
+      [
+        41.98,
+        -5.9
+      ],
+      [
+        42.43,
+        -5.78
+      ],
+      [
+        42.43,
+        -5.7
+      ],
+      [
+        42.76,
+        -5.73
+      ],
+      [
+        42.76,
+        -5.81
+      ],
+      [
+        43.08,
+        -5.76
+      ],
+      [
+        43.21,
+        -5.94
+      ]
+    ],
+    "notes": "Centroid approximate; polygon pending schematic or OHM sourcing.",
+    "polygon_snapshots": [
+      {
+        "year": 500,
+        "label": "Kingdom of the Suebi",
+        "polygon": [
+          [
+            43.21,
+            -5.94
+          ],
+          [
+            43.54,
+            -6.05
+          ],
+          [
+            43.54,
+            -7.18
+          ],
+          [
+            43.6,
+            -7.34
+          ],
+          [
+            43.73,
+            -7.28
+          ],
+          [
+            43.73,
+            -8.24
+          ],
+          [
+            43.6,
+            -8.39
+          ],
+          [
+            43.41,
+            -8.37
+          ],
+          [
+            43.41,
+            -8.85
+          ],
+          [
+            43.15,
+            -9.3
+          ],
+          [
+            42.56,
+            -9.08
+          ],
+          [
+            42.56,
+            -8.92
+          ],
+          [
+            42.43,
+            -8.9
+          ],
+          [
+            42.3,
+            -8.65
+          ],
+          [
+            42.17,
+            -8.96
+          ],
+          [
+            40.74,
+            -8.73
+          ],
+          [
+            40.61,
+            -8.87
+          ],
+          [
+            40.36,
+            -8.85
+          ],
+          [
+            40.36,
+            -8.93
+          ],
+          [
+            39.77,
+            -9.03
+          ],
+          [
+            39.77,
+            -9.1
+          ],
+          [
+            39.51,
+            -9.16
+          ],
+          [
+            39.45,
+            -9.39
+          ],
+          [
+            39.26,
+            -9.37
+          ],
+          [
+            39.26,
+            -8.97
+          ],
+          [
+            39.45,
+            -8.91
+          ],
+          [
+            39.45,
+            -8.76
+          ],
+          [
+            39.77,
+            -8.47
+          ],
+          [
+            39.84,
+            -7.93
+          ],
+          [
+            40.29,
+            -6.86
+          ],
+          [
+            41.07,
+            -6.85
+          ],
+          [
+            41.46,
+            -6.25
+          ],
+          [
+            41.85,
+            -6.13
+          ],
+          [
+            41.98,
+            -5.9
+          ],
+          [
+            42.43,
+            -5.78
+          ],
+          [
+            42.43,
+            -5.7
+          ],
+          [
+            42.76,
+            -5.73
+          ],
+          [
+            42.76,
+            -5.81
+          ],
+          [
+            43.08,
+            -5.76
+          ],
+          [
+            43.21,
+            -5.94
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "real_historical_boundary",
+    "polygon_source": "Seshat-Global-History-Databank/cliopatria",
+    "polygon_source_date": "2026-05-10",
+    "capital": {
+      "name": "Braga",
+      "coords": [
+        41.53333,
+        -8.41667
+      ],
+      "source": "wikidata"
+    }
+  },
+  "internal_structure": {
+    "centralization": "low_to_medium",
+    "centralization_trajectory": null,
+    "governance_type": "dynastic_feudal",
+    "legitimacy_basis": [
+      "inheritance",
+      "conquest"
+    ],
+    "administrative_system": ""
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "formation",
+      "years": "c.409–450",
+      "description": "Hermeric leads Suebi into Gallaecia; kingdom established.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1048918",
+          "url": "https://www.wikidata.org/wiki/Q1048918"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of the Suebi",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_the_Suebi"
+        }
+      ]
+    },
+    {
+      "phase": "consolidation",
+      "years": "450–560",
+      "description": "Suebi maintain Gallaecia; conversion to Catholicism.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1048918",
+          "url": "https://www.wikidata.org/wiki/Q1048918"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of the Suebi",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_the_Suebi"
+        }
+      ]
+    },
+    {
+      "phase": "peak",
+      "years": "550–569",
+      "description": "Miro's reign; kingdom relatively stable.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1048918",
+          "url": "https://www.wikidata.org/wiki/Q1048918"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of the Suebi",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_the_Suebi"
+        }
+      ]
+    },
+    {
+      "phase": "crisis",
+      "years": "569–585",
+      "description": "Leovigild's campaigns; Suebi resistance collapses.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1048918",
+          "url": "https://www.wikidata.org/wiki/Q1048918"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of the Suebi",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_the_Suebi"
+        }
+      ]
+    },
+    {
+      "phase": "dissolution",
+      "years": "585",
+      "description": "Visigothic conquest; Suebi absorbed.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1048918",
+          "url": "https://www.wikidata.org/wiki/Q1048918"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of the Suebi",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_the_Suebi"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "mobility_advantage",
+      "layer": "military_security",
+      "description": "Germanic migration gave the Suebi rapid occupation of Gallaecia before other groups could consolidate.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1048918",
+          "url": "https://www.wikidata.org/wiki/Q1048918"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of the Suebi",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_the_Suebi"
+        }
+      ]
+    },
+    {
+      "tag": "geographic_defensibility",
+      "layer": "geography_territory",
+      "description": "Remote Atlantic corner of the Iberian Peninsula reduced exposure to competing Germanic kingdoms.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1048918",
+          "url": "https://www.wikidata.org/wiki/Q1048918"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of the Suebi",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_the_Suebi"
+        }
+      ]
+    },
+    {
+      "tag": "external_alliance",
+      "layer": "external_political",
+      "description": "Trade contacts with Byzantine merchants provided diplomatic reach and commercial goods.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1048918",
+          "url": "https://www.wikidata.org/wiki/Q1048918"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of the Suebi",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_the_Suebi"
+        }
+      ]
+    },
+    {
+      "layer": "military_security",
+      "tag": "roman_collapse",
+      "direction": "rise",
+      "description": "The Suebi crossed the frozen Rhine with other Germanic peoples in 406 CE and settled in northwestern Iberia (Gallaecia and Lusitania) as the Western Roman Empire lost the capacity to expel them.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1048918",
+          "url": "https://www.wikidata.org/wiki/Q1048918"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of the Suebi",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_the_Suebi"
+        }
+      ]
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "religious_legitimacy",
+      "direction": "rise",
+      "description": "The Suebi were among the first Germanic kingdoms to convert to Nicene Christianity under King Rechiar in the 440s, gaining papal favor and ecclesiastical support that stabilized governance.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1048918",
+          "url": "https://www.wikidata.org/wiki/Q1048918"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of the Suebi",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_the_Suebi"
+        }
+      ],
+      "tag_prose": "early_conversion"
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "external_military_pressure",
+      "layer": "military_security",
+      "description": "Visigothic king Leovigild launched systematic conquest 569–585, overwhelming Suebi military capacity.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1048918",
+          "url": "https://www.wikidata.org/wiki/Q1048918"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of the Suebi",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_the_Suebi"
+        }
+      ]
+    },
+    {
+      "tag": "succession_crisis",
+      "layer": "dynastic_legitimacy",
+      "description": "Internal dynastic disputes weakened Suebi resistance to Visigothic pressure.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1048918",
+          "url": "https://www.wikidata.org/wiki/Q1048918"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of the Suebi",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_the_Suebi"
+        }
+      ]
+    },
+    {
+      "tag": "religious_schism",
+      "layer": "ideology_religion",
+      "description": "Arianism vs Catholicism created internal religious tension; conversion of Reccared ended the kingdom's distinctiveness.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1048918",
+          "url": "https://www.wikidata.org/wiki/Q1048918"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of the Suebi",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_the_Suebi"
+        }
+      ]
+    },
+    {
+      "layer": "military_security",
+      "tag": "external_military_pressure",
+      "direction": "decline",
+      "description": "Visigothic King Leovigild conquered the Suebi kingdom in 585, incorporating it into the unified Visigothic kingdom of Hispania and ending over 170 years of Suebi autonomous rule.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1048918",
+          "url": "https://www.wikidata.org/wiki/Q1048918"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of the Suebi",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_the_Suebi"
+        }
+      ],
+      "tag_prose": "visigothic_conquest"
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "internal_dynastic_conflict",
+      "direction": "decline",
+      "description": "Successive Suebi kings faced dynastic instability and a re-adoption of Arianism under Remismund, undermining the Catholic church alliance that had provided political legitimacy.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q1048918",
+          "url": "https://www.wikidata.org/wiki/Q1048918"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Kingdom of the Suebi",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_the_Suebi"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "person_id": "hermeric_suebi",
+      "name": "Hermeric",
+      "role": "dynastic_founder",
+      "years": "c.406–438",
+      "year_start": 406,
+      "year_end": 438,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Hermeric",
+          "url": "https://en.wikipedia.org/wiki/Hermeric"
+        }
+      ]
+    },
+    {
+      "person_id": "miro_suebi",
+      "name": "Miro",
+      "role": "ruler",
+      "years": "570–583",
+      "year_start": 570,
+      "year_end": 583,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Miro",
+          "url": "https://en.wikipedia.org/wiki/Miro"
+        }
+      ]
+    }
+  ],
+  "successor_entity_ids": [
+    "visigothic_kingdom"
+  ],
+  "primary_ethnicity": "germanic",
+  "ethnic_composition": [
+    {
+      "group": "germanic",
+      "proportion": 0.3
+    },
+    {
+      "group": "iberian",
+      "proportion": 0.65
+    }
+  ],
+  "religion_composition": [
+    {
+      "religion": "arian",
+      "proportion": 0.95
+    },
+    {
+      "religion": "pagan",
+      "proportion": 0.05
+    }
+  ],
+  "primary_language": "german",
+  "language_composition": [
+    {
+      "language": "ibero_romance",
+      "proportion": 0.48,
+      "role": "vernacular"
+    },
+    {
+      "language": "german",
+      "proportion": 0.38,
+      "role": "administrative"
+    },
+    {
+      "language": "latin",
+      "proportion": 0.1,
+      "role": "liturgical"
+    },
+    {
+      "language": "celtic_lang",
+      "proportion": 0.04,
+      "role": "regional"
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "mining",
+      "long_distance_trade"
+    ],
+    "wealth_level": "moderate",
+    "major_exports": [
+      "gold",
+      "tin",
+      "cattle",
+      "grain"
+    ],
+    "major_trade_partners": [
+      "visigothic_kingdom",
+      "byzantine_empire"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "tribute",
+      "tithes"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q1048918",
+        "url": "https://www.wikidata.org/wiki/Q1048918"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Kingdom of the Suebi",
+        "url": "https://en.wikipedia.org/wiki/Kingdom_of_the_Suebi"
+      }
+    ]
+  },
+  "social_structure": {
+    "ruling_ethnicity": "germanic",
+    "subject_majority": "iberian",
+    "military_ethnicity": "germanic",
+    "administrative_language": "latin",
+    "stratification_type": "conquest_colonial"
+  },
+  "wikidata_enrichment": {
+    "qid": "Q1048918",
+    "matched_name": "Kingdom of the Suebi",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Kingdom_of_the_Suebi",
+    "capital": {
+      "name": "Braga",
+      "coords": [
+        41.53333,
+        -8.41667
+      ]
+    },
+    "rulers_from_wikidata": [
+      {
+        "name": "Italicus",
+        "qid": "Q11926996",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q11926996",
+            "url": "https://www.wikidata.org/wiki/Q11926996"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Italicus",
+            "url": "https://en.wikipedia.org/wiki/Italicus_Rosolio_di_Bergamotto"
+          }
+        ]
+      },
+      {
+        "name": "Heremigarius",
+        "qid": "Q2732545",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2732545",
+            "url": "https://www.wikidata.org/wiki/Q2732545"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Heremigarius",
+            "url": "https://en.wikipedia.org/wiki/Heremigar"
+          }
+        ]
+      },
+      {
+        "name": "Hermeric",
+        "qid": "Q364200",
+        "year_start": 411,
+        "year_end": 438,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q364200",
+            "url": "https://www.wikidata.org/wiki/Q364200"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Hermeric",
+            "url": "https://en.wikipedia.org/wiki/Hermeric"
+          }
+        ]
+      },
+      {
+        "name": "Rechila",
+        "qid": "Q364161",
+        "year_start": 438,
+        "year_end": 448,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q364161",
+            "url": "https://www.wikidata.org/wiki/Q364161"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Rechila",
+            "url": "https://en.wikipedia.org/wiki/Rechila"
+          }
+        ]
+      },
+      {
+        "name": "Rechiar",
+        "qid": "Q364260",
+        "year_start": 448,
+        "year_end": 456,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q364260",
+            "url": "https://www.wikidata.org/wiki/Q364260"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Rechiar",
+            "url": "https://en.wikipedia.org/wiki/Rechiar"
+          }
+        ]
+      },
+      {
+        "name": "Framta",
+        "qid": "Q2089874",
+        "year_start": 456,
+        "year_end": 457,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2089874",
+            "url": "https://www.wikidata.org/wiki/Q2089874"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Framta",
+            "url": "https://en.wikipedia.org/wiki/Framta"
+          }
+        ]
+      },
+      {
+        "name": "Maldras",
+        "qid": "Q2292792",
+        "year_start": 456,
+        "year_end": 459,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2292792",
+            "url": "https://www.wikidata.org/wiki/Q2292792"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Maldras",
+            "url": "https://en.wikipedia.org/wiki/Maldras"
+          }
+        ]
+      },
+      {
+        "name": "Frumar",
+        "qid": "Q2291939",
+        "year_start": 459,
+        "year_end": 463,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2291939",
+            "url": "https://www.wikidata.org/wiki/Q2291939"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Frumar",
+            "url": "https://en.wikipedia.org/wiki/Frumar"
+          }
+        ]
+      },
+      {
+        "name": "Richimund",
+        "qid": "Q2466231",
+        "year_start": 459,
+        "year_end": 463,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2466231",
+            "url": "https://www.wikidata.org/wiki/Q2466231"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Richimund",
+            "url": "https://en.wikipedia.org/wiki/Richimund"
+          }
+        ]
+      },
+      {
+        "name": "Remismund",
+        "qid": "Q887957",
+        "year_start": 463,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q887957",
+            "url": "https://www.wikidata.org/wiki/Q887957"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Remismund",
+            "url": "https://en.wikipedia.org/wiki/Remismund"
+          }
+        ]
+      },
+      {
+        "name": "Theodemund",
+        "qid": "Q2212101",
+        "year_start": 500,
+        "year_end": 550,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2212101",
+            "url": "https://www.wikidata.org/wiki/Q2212101"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Theodemund",
+            "url": "https://en.wikipedia.org/wiki/Theodemund"
+          }
+        ]
+      },
+      {
+        "name": "Hermeneric",
+        "qid": "Q2575972",
+        "year_start": 500,
+        "year_end": 500,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2575972",
+            "url": "https://www.wikidata.org/wiki/Q2575972"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Hermeneric",
+            "url": "https://en.wikipedia.org/wiki/Hermeneric"
+          }
+        ]
+      },
+      {
+        "name": "Veremund",
+        "qid": "Q2732741",
+        "year_start": 500,
+        "year_end": 500,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2732741",
+            "url": "https://www.wikidata.org/wiki/Q2732741"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Veremund",
+            "url": "https://en.wikipedia.org/wiki/Veremund"
+          }
+        ]
+      },
+      {
+        "name": "Chararic",
+        "qid": "Q2602296",
+        "year_start": 550,
+        "year_end": 559,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2602296",
+            "url": "https://www.wikidata.org/wiki/Q2602296"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Chararic",
+            "url": "https://en.wikipedia.org/wiki/Chararic"
+          }
+        ]
+      },
+      {
+        "name": "Theodemar",
+        "qid": "Q511273",
+        "year_start": 559,
+        "year_end": 570,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q511273",
+            "url": "https://www.wikidata.org/wiki/Q511273"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Theodemar",
+            "url": "https://en.wikipedia.org/wiki/Theodemir"
+          }
+        ]
+      },
+      {
+        "name": "Miro",
+        "qid": "Q887358",
+        "year_start": 570,
+        "year_end": 583,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q887358",
+            "url": "https://www.wikidata.org/wiki/Q887358"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Miro",
+            "url": "https://en.wikipedia.org/wiki/Miro"
+          }
+        ]
+      },
+      {
+        "name": "Eboric",
+        "qid": "Q768276",
+        "year_start": 583,
+        "year_end": 584,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q768276",
+            "url": "https://www.wikidata.org/wiki/Q768276"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Eboric",
+            "url": "https://en.wikipedia.org/wiki/Eboric"
+          }
+        ]
+      },
+      {
+        "name": "Andeca",
+        "qid": "Q2347552",
+        "year_start": 584,
+        "year_end": 585,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2347552",
+            "url": "https://www.wikidata.org/wiki/Q2347552"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Andeca",
+            "url": "https://en.wikipedia.org/wiki/Audeca"
+          }
+        ]
+      },
+      {
+        "name": "Liuvigild",
+        "qid": "Q313065",
+        "year_start": 585,
+        "year_end": 586,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q313065",
+            "url": "https://www.wikidata.org/wiki/Q313065"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Liuvigild",
+            "url": "https://en.wikipedia.org/wiki/Liuvigild"
+          }
+        ]
+      },
+      {
+        "name": "Malaric",
+        "qid": "Q2097689",
+        "year_start": 585,
+        "year_end": 586,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2097689",
+            "url": "https://www.wikidata.org/wiki/Q2097689"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Malaric",
+            "url": "https://en.wikipedia.org/wiki/Malaric"
+          }
+        ]
+      },
+      {
+        "name": "Wittiza",
+        "qid": "Q350672",
+        "year_start": 694,
+        "year_end": 710,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q350672",
+            "url": "https://www.wikidata.org/wiki/Q350672"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Wittiza",
+            "url": "https://en.wikipedia.org/wiki/Wittiza"
+          }
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "type": "book",
+      "author": "Wickham, Chris",
+      "title": "The Inheritance of Rome: A History of Europe from 400 to 1000",
+      "publisher": "Allen Lane",
+      "year": 2009
+    },
+    {
+      "type": "book",
+      "author": "Abulafia, David (ed.)",
+      "title": "The New Cambridge Medieval History, Vol. V: c. 1198 – c. 1300",
+      "publisher": "Cambridge University Press",
+      "year": 1999
+    }
+  ],
+  "monogram": "SU"
+}

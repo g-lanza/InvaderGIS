@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_onin_1142",
+  "name": "Battle near Weinsberg",
+  "year": 1140,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    49.15,
+    9.29
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "At the Battle of Weinsberg (near the Neckar, December 1140), Holy Roman Emperor Conrad III defeats the Welf Duke Henry the Proud's supporters. After the battle, Conrad offers the defeated garrison's women safe passage with what they could carry on their backs, whereupon the women of Weinsberg carried their husbands out on their backs. Known as 'The Loyal Wives of Weinsberg,' this story became celebrated across medieval Germany. The battle continues the Staufen-Welf (Ghibelline-Guelf) conflict that will define German and Italian politics for the next century.",
+  "outcomes": [
+    "staufen_welf_clash"
+  ],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire",
+      "duchy_of_bavaria"
+    ],
+    "structural_significance": "Continues the Staufen-Welf civil conflict that divides Germany for generations; the Loyal Wives story becomes one of the most celebrated tales of medieval German chivalry; lays groundwork for the later Italian Guelph-Ghibelline factionalism",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

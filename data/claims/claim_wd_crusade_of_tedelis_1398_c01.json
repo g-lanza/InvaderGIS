@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_crusade_of_tedelis_1398_c01",
+  "statement": "Crusade of Tedelis (1398 CE), at Dellys (part of Barbary Crusades).",
+  "subject_ids": [
+    "crown_of_aragon"
+  ],
+  "period": {
+    "from": 1398,
+    "to": 1398
+  },
+  "derived_from": "wd_crusade_of_tedelis_1398",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "crown_of_aragon",
+  "name": "Barcelona",
+  "entity_id": "crown_of_aragon",
+  "entity_name": "Crown of Aragon",
+  "start_year": 1162,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q204920"
+    }
+  },
+  "coords": [
+    2.17,
+    41.39
+  ]
+}

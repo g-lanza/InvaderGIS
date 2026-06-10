@@ -1,0 +1,557 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "karelians",
+  "name_primary": "Karelians",
+  "name_variants": [],
+  "type": "kingdom",
+  "region": "northern_europe",
+  "formed": 1000,
+  "dissolved": 1323,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    62.347,
+    29.322
+  ],
+  "population_estimates": [
+    {
+      "year": 1000,
+      "estimate": 100000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q213470",
+          "url": "https://www.wikidata.org/wiki/Q213470",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Karelians",
+          "url": "https://en.wikipedia.org/wiki/Karelians"
+        }
+      ]
+    },
+    {
+      "year": 1150,
+      "estimate": 125000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q213470",
+          "url": "https://www.wikidata.org/wiki/Q213470",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Karelians",
+          "url": "https://en.wikipedia.org/wiki/Karelians"
+        }
+      ]
+    },
+    {
+      "year": 1300,
+      "estimate": 150000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q213470",
+          "url": "https://www.wikidata.org/wiki/Q213470",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Karelians",
+          "url": "https://en.wikipedia.org/wiki/Karelians"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Finno-Ugric people (medieval to modern) inhabiting the region between Lake Ladoga and the White Sea contested by Novgorod, Sweden, and later Russia; Karelian conversion to Orthodox Christianity under Novgorodian influence distinguished them from Lutheran-influenced Finnish Karelians, while the Kalevala oral epic collected in the nineteenth century preserves pre-Christian Finno-Ugric mythological traditions of which Karelia was a primary reservoir.",
+  "temporal": {
+    "start_year": 1000,
+    "end_year": 1323,
+    "notes": "Stub: dates from GeoJSON basemap years 800–1000"
+  },
+  "geographic": {
+    "centroid": [
+      62.347,
+      29.322
+    ],
+    "polygon_simplified": [
+      [
+        [
+          61.1037,
+          32.5047
+        ],
+        [
+          61.1665,
+          32.3671
+        ],
+        [
+          61.2531,
+          32.061
+        ],
+        [
+          61.3455,
+          31.8316
+        ],
+        [
+          61.4436,
+          31.6787
+        ],
+        [
+          61.467,
+          31.6213
+        ],
+        [
+          61.4156,
+          31.6594
+        ],
+        [
+          61.3947,
+          31.6611
+        ],
+        [
+          61.4041,
+          31.6265
+        ],
+        [
+          61.4235,
+          31.5915
+        ],
+        [
+          61.4528,
+          31.5562
+        ],
+        [
+          61.4774,
+          31.5462
+        ],
+        [
+          61.4974,
+          31.5615
+        ],
+        [
+          61.5389,
+          31.5289
+        ],
+        [
+          61.602,
+          31.4487
+        ],
+        [
+          61.6215,
+          31.379
+        ],
+        [
+          61.5973,
+          31.32
+        ],
+        [
+          61.6057,
+          31.26
+        ],
+        [
+          61.6469,
+          31.199
+        ],
+        [
+          61.6627,
+          31.1639
+        ],
+        [
+          61.653,
+          31.1548
+        ],
+        [
+          61.636,
+          31.1577
+        ],
+        [
+          61.6117,
+          31.1728
+        ],
+        [
+          61.5989,
+          31.1625
+        ],
+        [
+          61.5976,
+          31.1268
+        ],
+        [
+          61.6197,
+          31.106
+        ],
+        [
+          61.6653,
+          31.0999
+        ],
+        [
+          61.7124,
+          31.0138
+        ],
+        [
+          61.7609,
+          30.8475
+        ],
+        [
+          61.7549,
+          30.7372
+        ],
+        [
+          61.6944,
+          30.6829
+        ],
+        [
+          61.6517,
+          30.6718
+        ],
+        [
+          61.6268,
+          30.7041
+        ],
+        [
+          61.6077,
+          30.6745
+        ],
+        [
+          61.5944,
+          30.5829
+        ],
+        [
+          61.5777,
+          30.5627
+        ],
+        [
+          61.5577,
+          30.6138
+        ],
+        [
+          61.5459,
+          30.5817
+        ],
+        [
+          61.5425,
+          30.4665
+        ],
+        [
+          61.5251,
+          30.4236
+        ],
+        [
+          61.4937,
+          30.4531
+        ],
+        [
+          61.4901,
+          30.4035
+        ],
+        [
+          61.5142,
+          30.275
+        ],
+        [
+          61.5001,
+          30.2203
+        ],
+        [
+          61.4811,
+          30.2272
+        ],
+        [
+          61.7707,
+          29.0189
+        ],
+        [
+          62.418,
+          21.226
+        ],
+        [
+          62.4352,
+          21.2001
+        ],
+        [
+          62.4773,
+          21.0337
+        ],
+        [
+          62.6117,
+          21.0618
+        ],
+        [
+          62.7607,
+          21.1948
+        ],
+        [
+          62.8888,
+          21.4813
+        ],
+        [
+          62.9741,
+          21.546
+        ],
+        [
+          63.123,
+          21.4947
+        ],
+        [
+          63.1873,
+          21.6665
+        ],
+        [
+          63.131,
+          21.9513
+        ],
+        [
+          63.1028,
+          22.075
+        ],
+        [
+          63.2027,
+          22.2924
+        ],
+        [
+          63.395,
+          22.4288
+        ],
+        [
+          63.6016,
+          22.4758
+        ],
+        [
+          63.723,
+          22.569
+        ],
+        [
+          63.5806,
+          22.7042
+        ],
+        [
+          63.5809,
+          22.8255
+        ],
+        [
+          63.7834,
+          23.1306
+        ],
+        [
+          63.3545,
+          27.2316
+        ],
+        [
+          64.938,
+          30.604
+        ],
+        [
+          65.3962,
+          34.2934
+        ],
+        [
+          65.3455,
+          34.332
+        ],
+        [
+          65.1065,
+          34.4257
+        ],
+        [
+          64.6822,
+          34.7729
+        ],
+        [
+          64.4598,
+          34.8148
+        ],
+        [
+          64.3668,
+          34.8846
+        ],
+        [
+          64.2883,
+          35.0818
+        ],
+        [
+          64.2536,
+          35.6233
+        ],
+        [
+          64.2257,
+          35.8168
+        ],
+        [
+          61.1037,
+          32.5047
+        ]
+      ]
+    ],
+    "no_central_capital": true,
+    "no_central_capital_reason": "Finnic tribal peoples; mostly subsumed by Novgorod/Sweden."
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "tribal_autonomy",
+      "years": "500-1100",
+      "description": "Karelian Finno-Ugric people inhabited forests between the Gulf of Finland and White Sea; fur-trading economy.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q213470",
+          "url": "https://www.wikidata.org/wiki/Q213470"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Karelians",
+          "url": "https://en.wikipedia.org/wiki/Karelians"
+        }
+      ]
+    },
+    {
+      "phase": "novgorod_incorporation",
+      "years": "1100-1400",
+      "description": "Gradually incorporated into the Novgorod sphere as tribute-paying fur hunters.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q213470",
+          "url": "https://www.wikidata.org/wiki/Q213470"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Karelians",
+          "url": "https://en.wikipedia.org/wiki/Karelians"
+        }
+      ]
+    },
+    {
+      "phase": "swedish_russian_contest",
+      "years": "1300-1500",
+      "description": "Swedish-Russian competition for Karelia created a contested borderland; Treaty of Noteborg (1323) divided the territory.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q213470",
+          "url": "https://www.wikidata.org/wiki/Q213470"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Karelians",
+          "url": "https://en.wikipedia.org/wiki/Karelians"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "trade_route_control",
+      "layer": "economic_commercial",
+      "description": "Karelian forests produced premium furs that were the main luxury exports of northern Europe.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q213470",
+          "url": "https://www.wikidata.org/wiki/Q213470"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Karelians",
+          "url": "https://en.wikipedia.org/wiki/Karelians"
+        }
+      ],
+      "tag_prose": "fur_trade_wealth"
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "caught_between_powers",
+      "layer": "external_political",
+      "description": "Permanent location between Novgorod and Sweden prevented Karelians from maintaining independent political structures.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q213470",
+          "url": "https://www.wikidata.org/wiki/Q213470"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Karelians",
+          "url": "https://en.wikipedia.org/wiki/Karelians"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Valitt (semi-legendary leader)",
+      "role": "chieftain",
+      "years": "1300–1323",
+      "year_start": 1300,
+      "year_end": 1323,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Valitt (semi-legendary leader)",
+          "url": "https://en.wikipedia.org/wiki/Valitt_(semi-legendary_leader)"
+        }
+      ]
+    }
+  ],
+  "economic": {
+    "primary_base": "fur_trade",
+    "secondary_bases": [
+      "fishing",
+      "limited_agriculture"
+    ],
+    "wealth_level": "low",
+    "major_exports": [
+      "furs",
+      "fish",
+      "timber",
+      "tar"
+    ],
+    "major_trade_partners": [
+      "novgorod",
+      "kingdom_of_sweden",
+      "hanseatic_league"
+    ],
+    "revenue_sources": [
+      "fur_tribute",
+      "fishing_surplus"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q213470",
+        "url": "https://www.wikidata.org/wiki/Q213470"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Karelians",
+        "url": "https://en.wikipedia.org/wiki/Karelians"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q213470",
+    "matched_name": "Karelians",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Karelians",
+    "population_from_wikidata": [
+      {
+        "estimate": 88850,
+        "confidence": "low"
+      }
+    ]
+  },
+  "monogram": "KA"
+}

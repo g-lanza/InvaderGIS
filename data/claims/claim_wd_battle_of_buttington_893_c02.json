@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_buttington_893_c02",
+  "statement": "The Battle of Buttington (893 CE) was part of Viking activity in the British Isles.",
+  "subject_ids": [
+    "kingdom_of_mercia"
+  ],
+  "period": {
+    "from": 893,
+    "to": 893
+  },
+  "derived_from": "wd_battle_of_buttington_893",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

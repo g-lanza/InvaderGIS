@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_fi_akovo_1246",
+  "name": "Fiľakovo",
+  "importance": "city",
+  "start_year": 1246,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q247620"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    19.8286,
+    48.2719
+  ]
+}

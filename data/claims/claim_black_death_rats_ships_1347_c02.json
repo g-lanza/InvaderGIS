@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_black_death_rats_ships_1347_c02",
+  "statement": "Despite Messina's port authorities ordering the plague ships out, the disease spread through Sicily and reached mainland Italy by spring 1348.",
+  "subject_ids": [
+    "kingdom_of_sicily_aragonese"
+  ],
+  "period": {
+    "from": 1347,
+    "to": 1347
+  },
+  "derived_from": "black_death_rats_ships_1347",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

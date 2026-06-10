@@ -1,0 +1,31 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_songhai_mali_succession",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "mali",
+      "role": "predecessor"
+    },
+    {
+      "entity_id": "songhai_empire",
+      "role": "successor"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 1400,
+  "until": 1464,
+  "note": "As the Mali Empire weakened in the late 14th–15th centuries, the eastern province of Gao broke free and gradually absorbed Mali's trade network and Niger River territory. By Sonni Ali's reign (1464+) Songhai had fully eclipsed Mali as the West African hegemon.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Sahelian imperial baton-pass; both empires depended on the same trans-Saharan gold trade."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "owain_ap_dyfnwal",
+  "name": "Owain ap Dyfnwal",
+  "polity": "kingdom_of_strathclyde",
+  "title": "ruler",
+  "reign_start": 934,
+  "reign_end": 937,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "kingdom_of_strathclyde",
+        "role": "ruler",
+        "start_year": 934,
+        "end_year": 937
+      }
+    ],
+    "key_actions": [],
+    "region": "british_isles",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

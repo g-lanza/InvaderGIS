@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "florence_guelph_ghibelline_1215",
+  "name": "Guelph-Ghibelline Conflict in Florence",
+  "year": 1215,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    43.77,
+    11.25
+  ],
+  "entity": "republic_of_florence",
+  "summary": "The murder of Buondelmonte dei Buondelmonti at the Ponte Vecchio (1216) triggers the Guelph-Ghibelline factional conflict in Florence that persists for generations. Guelphs support papal authority; Ghibellines support imperial authority. The factions sweep through Italian cities, with each expelling the other when they gain power. Florence alternates between Guelph and Ghibelline dominance until the decisive Guelph victory at Benevento (1266) establishes permanent Guelph domination.",
+  "outcomes": [
+    "florence_divided_factions",
+    "buondelmonti_murder_causes_factional_war",
+    "dante_exiled_eventually"
+  ],
+  "_quarry": {
+    "participants": [
+      "republic_of_florence",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "The Guelph-Ghibelline conflict prevents northern Italian cities from uniting against external powers; it creates the political exile culture that produces Dante Alighieri's Divine Comedy (1308-1320), the foundational text of Italian literature; the conflict ultimately serves to keep Italy fragmented, preventing the formation of an Italian national state and preserving the multi-state balance of power",
+    "year_range": [
+      1215,
+      1268
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "najemy_a_2006",
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

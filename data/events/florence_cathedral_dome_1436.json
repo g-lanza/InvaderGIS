@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "florence_cathedral_dome_1436",
+  "name": "Brunelleschi's Dome, Engineering the Renaissance",
+  "year": 1436,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    43.77,
+    11.26
+  ],
+  "entity": "republic_of_florence",
+  "summary": "Filippo Brunelleschi completes the dome of Florence Cathedral (Santa Maria del Fiore), 42 meters diameter, no external buttresses, built without wooden centering using an innovative double-shell herringbone brick technique. Pope Eugenius IV consecrates the cathedral in 1436. The dome, visible from throughout the Tuscan countryside, represents the first great architectural achievement to surpass Roman antiquity.",
+  "outcomes": [
+    "dome_completed",
+    "ancient_rome_surpassed",
+    "renaissance_architecture_begins"
+  ],
+  "_quarry": {
+    "participants": [
+      "republic_of_florence"
+    ],
+    "structural_significance": "Brunelleschi's dome is the founding monument of Renaissance architecture and Renaissance confidence in human reason overcoming ancient problems; his solution, reinventing Roman engineering techniques from first principles and combining them with new innovations, models the Renaissance approach to classical heritage; the dome's civic significance for Florence (a symbol of the city's wealth, ambition, and technical mastery) demonstrates how architecture functioned as political communication",
+    "year_range": [
+      1420,
+      1436
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "najemy_a_2006",
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

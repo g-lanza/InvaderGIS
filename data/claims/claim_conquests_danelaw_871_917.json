@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_danelaw_871_917",
+  "statement": "Danelaw — campaigns and battles spanned 871–917, from Battle of Basing to Battle of Derby.",
+  "subject_ids": [
+    "danelaw"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_danelaw_871_917",
+  "period": {
+    "from": 871,
+    "to": 917
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

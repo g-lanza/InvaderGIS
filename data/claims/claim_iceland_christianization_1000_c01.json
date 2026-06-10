@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_iceland_christianization_1000_c01",
+  "statement": "At the Althing in 1000, the lawspeaker Þorgeirr Ljósvetningagoði ruled in favour of formal conversion to Christianity to prevent the island fracturing.",
+  "subject_ids": [
+    "iceland_commonwealth"
+  ],
+  "period": {
+    "from": 1000,
+    "to": 1000
+  },
+  "derived_from": "iceland_christianization_1000",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

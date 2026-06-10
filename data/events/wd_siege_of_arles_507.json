@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_arles_507",
+  "name": "Siege of Arles",
+  "year": 507,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    43.7667,
+    4.1
+  ],
+  "entity": "visigothic_kingdom",
+  "summary": "Siege of Arles (507 CE), at Arles (part of Franco-Visigothic Wars). Source: Wikidata Q3485818.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "visigothic_kingdom",
+      "merovingian_kingdom",
+      "ostrogothic_kingdom"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "collins_visigothic_2004",
+      "thompson_the_1969"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

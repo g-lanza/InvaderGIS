@@ -1,0 +1,38 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_swabia_hre_stem",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "holy_roman_empire",
+      "role": "suzerain"
+    },
+    {
+      "entity_id": "duchy_of_swabia",
+      "role": "vassal"
+    }
+  ],
+  "directed": true,
+  "type": "vassalage",
+  "since": 962,
+  "until": 1268,
+  "note": "Swabia was one of the five original stem duchies of the East Frankish/German kingdom, its dukes holding key strategic territory in the southwest — the upper Rhine, Lake Constance, and the Alpine passes. The Hohenstaufen family gained Swabia in 1079 (through Frederick I's marriage to Agnes, daughter of Emperor Henry IV) and used it as the base for their imperial dynasty. After the Hohenstaufen extinction (Conradin, 1268), the duchy fragmented: no new duke was appointed, and Swabia's territory was gradually absorbed by the Habsburgs, the Swiss Confederation, and various lesser princes.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Swabia's Hohenstaufen connection makes it the heartland of the most powerful medieval German dynasty; the duchy's fragmentation after the Hohenstaufen extinction creates the patchwork of small lordships that eventually form the Swiss Confederation and the Habsburg Austrian domains"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

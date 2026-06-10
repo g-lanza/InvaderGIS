@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_exarchate_of_ravenna_751_c01",
+  "statement": "The Lombard king Aistulf captured Ravenna in 751 CE, ending Byzantine administration of Italy.",
+  "subject_ids": [
+    "exarchate_of_ravenna"
+  ],
+  "period": {
+    "from": 751,
+    "to": 751
+  },
+  "derived_from": "exarchate_of_ravenna_751",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

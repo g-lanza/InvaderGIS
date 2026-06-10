@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_iona_monastery_563_c03",
+  "statement": "Aidan, sent from Iona, founded the monastery of Lindisfarne in 635.",
+  "subject_ids": [
+    "kingdom_of_dal_riata"
+  ],
+  "period": {
+    "from": 563,
+    "to": 563
+  },
+  "derived_from": "iona_monastery_563",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

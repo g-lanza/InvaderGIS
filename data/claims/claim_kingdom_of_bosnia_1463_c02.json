@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_kingdom_of_bosnia_1463_c02",
+  "statement": "Following the 1463 conquest, Bosnia became an Ottoman province and significant portions of the population eventually converted to Islam.",
+  "subject_ids": [
+    "kingdom_of_bosnia"
+  ],
+  "period": {
+    "from": 1463,
+    "to": 1463
+  },
+  "derived_from": "kingdom_of_bosnia_1463",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fine_the_1987",
+      "imamović_historija_1997"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

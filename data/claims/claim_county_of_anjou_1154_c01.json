@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_county_of_anjou_1154_c01",
+  "statement": "The accession of Henry Plantagenet to the English throne in 1154 brought the County of Anjou into the Angevin Empire.",
+  "subject_ids": [
+    "county_of_anjou"
+  ],
+  "period": {
+    "from": 1154,
+    "to": 1154
+  },
+  "derived_from": "county_of_anjou_1154",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

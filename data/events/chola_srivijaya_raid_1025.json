@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "chola_srivijaya_raid_1025",
+  "name": "Rajendra I Raids Srivijaya",
+  "year": 1025,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    7.781,
+    80.564
+  ],
+  "entity": "chola_state",
+  "summary": "Rajendra I launched a massive naval expedition against the Srivijaya Empire in Southeast Asia, sacking its major ports. This extraordinary raid, the furthest medieval Indian naval operation, demonstrated Chola maritime supremacy and disrupted Srivijayan control of the Malacca Strait spice trade.",
+  "outcomes": [
+    "srivijaya_weakened",
+    "chola_naval_power_demonstrated",
+    "indian_ocean_trade"
+  ],
+  "_quarry": {
+    "participants": [
+      "chola_state"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

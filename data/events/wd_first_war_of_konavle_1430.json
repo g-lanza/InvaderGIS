@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_first_war_of_konavle_1430",
+  "name": "First War of Konavle",
+  "year": 1430,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    43.41,
+    17.94
+  ],
+  "entity": "republic_of_ragusa",
+  "summary": "First War of Konavle (1430 CE), at Konavle. Source: Wikidata Q13085198.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_ragusa",
+      "kingdom_of_bosnia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

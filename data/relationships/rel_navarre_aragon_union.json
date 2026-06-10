@@ -1,0 +1,35 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_navarre_aragon_union",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kingdom_of_navarre",
+      "role": "principal"
+    },
+    {
+      "entity_id": "kingdom_of_aragon",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "personal_union",
+  "since": 1076,
+  "until": 1134,
+  "note": "Navarre and Aragon were united under Sancho III 'the Great' of Pamplona (1004–1035), who also controlled Castile and León temporarily — the closest medieval Iberia came to a single Christian kingdom before Ferdinand and Isabella. His death produced the familiar disaster: partition among sons. Aragon (under Ramiro I) and Navarre (under García III) became separate kingdoms that only reunited briefly under Alfonso I 'the Battler' (ruled both 1104–1134). Alfonso I's death without heirs permanently separated them: Aragon passed to Ramon Berenguer IV through marriage; Navarre elected García Ramírez.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Sancho III unification is the high point of early Navarrese-Aragonese power; the subsequent partition models the repeated failure of Iberian unification through personal union; the permanent Aragon-Navarre split after 1134 determines the subsequent structure of Iberian kingdoms — Aragon becomes a Mediterranean empire while Navarre becomes a French borderland"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

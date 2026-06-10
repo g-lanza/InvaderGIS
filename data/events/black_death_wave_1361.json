@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "black_death_wave_1361",
+  "name": "Pestis secunda (second European wave of plague)",
+  "year": 1361,
+  "type": "epidemic",
+  "category": "hazard",
+  "coords": [
+    43.95,
+    4.8
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "First major recurrence of Yersinia pestis after the 1347–53 Black Death. Chronicled as the pestis secunda or pestis puerorum because it disproportionately killed children, the post-Black-Death generation lacking adult-acquired immunity.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "kingdom_of_england",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "Confirms the Black Death as a recurrent rather than singular epidemic; the demographic recovery anticipated after 1353 stalls as further waves (1369, 1374, 1390s) maintain a smaller European population through the early 15th century.",
+    "year_range": [
+      1361,
+      1363
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "campbell_great_transition_2016"
+    ],
+    "confidence": "low"
+  }
+}

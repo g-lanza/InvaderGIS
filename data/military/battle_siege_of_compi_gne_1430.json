@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_siege_of_compi_gne_1430",
+  "name": "Siege of Compiègne",
+  "subtype": "battle",
+  "start_year": 1430,
+  "end_year": 1430,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q668577"
+    }
+  },
+  "description": "Battle during Hundred Years' War (1430)",
+  "coords": [
+    2.8222,
+    49.4142
+  ]
+}

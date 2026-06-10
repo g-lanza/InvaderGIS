@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_syrian_campaign_1400",
+  "name": "Syrian campaign",
+  "year": 1400,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    34.85,
+    49.05
+  ],
+  "entity": "mamluk_sultanate",
+  "summary": "Syrian campaign (1400 CE), at Syria (part of Seven Years' Campaign). Source: Wikidata Q110425929.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "mamluk_sultanate",
+      "timurid_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "irwin_the_1986",
+      "northrup_from_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

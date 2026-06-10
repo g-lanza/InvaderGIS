@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_britany_anne_union_france_1532_c02",
+  "statement": "The Edict of Union of 1532 incorporated Brittany into the French crown, ending Breton sovereignty.",
+  "subject_ids": [
+    "duchy_of_brittany"
+  ],
+  "period": {
+    "from": 1514,
+    "to": 1514
+  },
+  "derived_from": "britany_anne_union_france_1532",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

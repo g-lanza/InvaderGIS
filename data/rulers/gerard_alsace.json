@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "gerard_alsace",
+  "name": "Gerard of Alsace",
+  "polity": "duchy_of_lorraine",
+  "title": "dynastic_founder",
+  "reign_start": 1048,
+  "reign_end": 1070,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "duchy_of_lorraine",
+        "role": "dynastic_founder",
+        "start_year": 1048,
+        "end_year": 1070
+      }
+    ],
+    "key_actions": [],
+    "region": "western_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

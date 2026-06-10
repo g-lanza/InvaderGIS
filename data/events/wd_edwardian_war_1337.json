@@ -1,0 +1,42 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_edwardian_war_1337",
+  "name": "Edwardian War",
+  "year": 1337,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    47.3691,
+    2.2482
+  ],
+  "entity": "kingdom_of_bohemia",
+  "summary": "Edwardian War (1337 CE), at France (part of Hundred Years' War). Source: Wikidata Q2259304.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_bohemia",
+      "kingdom_of_france",
+      "duchy_of_brittany",
+      "duchy_of_lorraine",
+      "county_of_flanders",
+      "republic_of_genoa",
+      "kingdom_of_england",
+      "kingdom_of_navarre",
+      "crown_of_castile",
+      "kingdom_of_scotland",
+      "kingdom_of_majorca"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

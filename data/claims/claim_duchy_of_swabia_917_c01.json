@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_duchy_of_swabia_917_c01",
+  "statement": "The Duchy of Swabia was formally established in 917 CE as one of the five major stem duchies of the emerging Holy Roman Empire.",
+  "subject_ids": [
+    "duchy_of_swabia"
+  ],
+  "period": {
+    "from": 917,
+    "to": 917
+  },
+  "derived_from": "duchy_of_swabia_917",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

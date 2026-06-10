@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "danish_reformation_context",
+  "name": "Christian II and the Stockholm Bloodbath",
+  "year": 1520,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    59.33,
+    18.07
+  ],
+  "entity": "kingdom_of_denmark",
+  "summary": "King Christian II of Denmark invites Swedish nobles to Stockholm for reconciliation, then executes approximately 90 Swedish aristocrats and clergy in the Stockholm Bloodbath (November 1520). The massacre provokes Gustav Vasa to lead a successful Swedish independence revolt; he is elected King of Sweden (1523), permanently ending the Kalmar Union. Christian II is deposed by Danish nobles (1523) and the Union dissolves.",
+  "outcomes": [
+    "swedish_nobles_massacred",
+    "gustaf_vasa_revolt_follows",
+    "denmark_union_ends"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_denmark",
+      "kingdom_of_sweden"
+    ],
+    "structural_significance": "The Stockholm Bloodbath demonstrates the impossibility of maintaining the Kalmar Union through coercion; Sweden's independence (1523) creates the Baltic power rivalry between Denmark and Sweden that dominates northern European politics for 200 years; Gustav Vasa's subsequent adoption of Lutheranism (1527) and confiscation of Church property provides the fiscal resources for Swedish state-building that eventually produces the Swedish Empire",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_medieval_1993",
+      "roesdahl_the_1992"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

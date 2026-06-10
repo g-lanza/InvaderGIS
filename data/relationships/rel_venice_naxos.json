@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_venice_naxos",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "republic_of_venice",
+      "role": "suzerain"
+    },
+    {
+      "entity_id": "duchy_of_naxos",
+      "role": "vassal"
+    }
+  ],
+  "directed": true,
+  "type": "vassalage",
+  "since": 1207,
+  "until": 1500,
+  "note": "The Duchy of Naxos (or Duchy of the Archipelago) was a Venetian-backed crusader state in the Cyclades Islands, created by Marco Sanudo (1207) after the Fourth Crusade. Sanudo, a Venetian nobleman, conquered the Cyclades and established a Latin duchy that would persist for over 350 years until Ottoman conquest (1579). The duchy was formally a fief of the Latin Empire of Constantinople; after 1261 it maintained autonomy by accepting Ottoman suzerainty while retaining Catholic Latin governance. The duchy's extraordinary longevity demonstrates Venetian skill in establishing durable island outposts.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Duchy of Naxos's 370-year persistence demonstrates the viability of island-based Crusader states outlasting mainland ones; the duchy's combination of Venetian commercial backing and Ottoman tributary status models the survival strategy that Ragusa also employed; the Cyclades under Latin rule preserve Catholic Christianity in an Orthodox-majority region"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

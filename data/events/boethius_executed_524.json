@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "boethius_executed_524",
+  "name": "Execution of Boethius",
+  "year": 524,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.9,
+    12.5
+  ],
+  "entity": "ostrogothic_kingdom",
+  "summary": "Theoderic the Great executes the philosopher-statesman Boethius on charges of treason and sorcery. In prison awaiting execution, Boethius writes The Consolation of Philosophy, one of the most widely read books of the Middle Ages. His death marks the end of the collaboration between Roman senatorial culture and Gothic rule.",
+  "outcomes": [
+    "consolation_of_philosophy_written",
+    "roman_senate_cowed",
+    "theoderic_tyranny"
+  ],
+  "_quarry": {
+    "participants": [
+      "ostrogothic_kingdom"
+    ],
+    "structural_significance": "The Consolation of Philosophy transmits Platonic and Stoic philosophy to the medieval West; the text's vision of Fortune's Wheel becomes the dominant medieval metaphor for the rise and fall of worldly success.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "amory_people_1997",
+      "heather_the_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

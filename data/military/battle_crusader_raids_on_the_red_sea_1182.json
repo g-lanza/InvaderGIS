@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_crusader_raids_on_the_red_sea_1182",
+  "name": "Crusader raids on the Red Sea",
+  "subtype": "battle",
+  "start_year": 1182,
+  "end_year": 1182,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q16828499"
+    }
+  },
+  "description": "Battle during Crusader battles between 1149 and 1189 (1182)",
+  "coords": [
+    46,
+    23
+  ]
+}

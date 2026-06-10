@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "principality_of_vladimir_suzdal",
+  "name": "Vladimir",
+  "entity_id": "principality_of_vladimir_suzdal",
+  "entity_name": "Principality of Vladimir-Suzdal",
+  "start_year": 1157,
+  "end_year": 1331,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q83546"
+    }
+  },
+  "coords": [
+    40.40583,
+    56.12861
+  ]
+}

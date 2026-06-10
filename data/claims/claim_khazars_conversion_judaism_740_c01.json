@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_khazars_conversion_judaism_740_c01",
+  "statement": "Around 740, the Khazar ruling elite converted to Judaism.",
+  "subject_ids": [
+    "khazar_khaganate"
+  ],
+  "period": {
+    "from": 740,
+    "to": 740
+  },
+  "derived_from": "khazars_conversion_judaism_740",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "golden_khazar_1980",
+      "brook_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

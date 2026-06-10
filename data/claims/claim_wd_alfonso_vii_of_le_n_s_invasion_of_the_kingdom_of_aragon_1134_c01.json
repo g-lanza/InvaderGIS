@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_alfonso_vii_of_le_n_s_invasion_of_the_kingdom_of_aragon_1134_c01",
+  "statement": "Alfonso VII of León's invasion of the Kingdom of Aragon took place in 1134 CE.",
+  "subject_ids": [
+    "kingdom_of_leon"
+  ],
+  "period": {
+    "from": 1134,
+    "to": 1134
+  },
+  "derived_from": "wd_alfonso_vii_of_le_n_s_invasion_of_the_kingdom_of_aragon_1134",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

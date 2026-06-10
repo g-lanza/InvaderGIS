@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_xacitarxan_1250",
+  "name": "Xacitarxan",
+  "importance": "city",
+  "start_year": 1250,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2477836"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    47.9703,
+    46.4411
+  ]
+}

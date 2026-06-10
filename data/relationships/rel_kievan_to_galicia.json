@@ -1,0 +1,38 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_kievan_to_galicia",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "kievan_rus",
+      "role": "parent"
+    },
+    {
+      "entity_id": "principality_of_galicia_volhynia",
+      "role": "fragment"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 1199,
+  "until": 1199,
+  "note": "The Principality of Galicia-Volhynia emerged as the southwestern successor state of Kievan Rus after the Mongol invasions (1241). Under Roman the Great (d. 1205) and his son Daniel of Galicia (1201–1264), it was the most powerful post-Kievan polity, seeking recognition from both the papacy (Daniel received a papal crown in 1253) and the Mongol Horde. The principality occupied a crucial position between Poland, Lithuania, Hungary, and the Horde, conducting a sophisticated multi-directional diplomacy. After Daniel's line died out (1323), Galicia was absorbed by Poland and Volhynia by Lithuania.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Galicia-Volhynia is the southwestern successor of Kievan Rus, incorporating the Ukrainian heartland; Daniel of Galicia's negotiations with both the papacy and the Mongols exemplify the diplomatic sophistication required of successor-state rulers; the absorption by Poland-Lithuania shapes the ethnic and religious map of Ukraine"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "franklin_the_1996",
+      "riasanovsky_a_2000",
+      "martin_medieval_1995",
+      "dimnik_the_1994",
+      "magocsi_a_2010"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

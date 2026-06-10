@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_silistra_968",
+  "name": "Battle of Silistra",
+  "subtype": "battle",
+  "start_year": 968,
+  "end_year": 968,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q3623153"
+    }
+  },
+  "description": "Battle during Sviatoslav's invasion of Bulgaria (968)",
+  "coords": [
+    27.2667,
+    44.1167
+  ]
+}

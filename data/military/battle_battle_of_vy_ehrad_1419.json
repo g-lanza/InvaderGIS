@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_vy_ehrad_1419",
+  "name": "Battle of Vyšehrad",
+  "subtype": "battle",
+  "start_year": 1419,
+  "end_year": 1419,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1468732"
+    }
+  },
+  "description": "Battle during Hussite Wars (1419)",
+  "coords": [
+    14.4311,
+    50.0578
+  ]
+}

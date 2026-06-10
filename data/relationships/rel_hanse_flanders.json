@@ -1,0 +1,37 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_hanse_flanders",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "hanseatic_league",
+      "role": "principal"
+    },
+    {
+      "entity_id": "county_of_flanders",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "contested_influence",
+  "since": 1252,
+  "until": 1384,
+  "note": "Flanders was the western terminus of the Hanseatic trade network, with the Bruges Kontor (trading post) serving as the primary exchange point between Baltic goods (grain, timber, fur, amber, dried fish) and western luxury goods (English wool, Flemish cloth, spices from Genoa and Venice). Bruges's pre-eminence as a commercial center from the 12th through 14th centuries was built on this nexus. The Hanse's sanctions against Bruges (periodic 'kontorverlegungen' — transferring the Kontor to Dordrecht or elsewhere) demonstrated commercial leverage; Bruges's silting harbor and Antwerp's rise in the 15th century gradually shifted the Flemish commercial pole eastward.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Hanse-Flanders connection makes Bruges the premier commercial city of northern Europe in the 12th–14th centuries; the Hanseatic commercial nexus at Bruges creates the most sophisticated financial market in northern Europe, pioneering bills of exchange, maritime insurance, and futures contracts; Bruges's commercial model is directly transmitted to Antwerp, then Amsterdam"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dollinger_the_1970",
+      "hammel-kiesow_die_2000",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

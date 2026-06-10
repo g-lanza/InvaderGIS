@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_la_albuera_1479",
+  "name": "Battle of La Albuera",
+  "subtype": "battle",
+  "start_year": 1479,
+  "end_year": 1479,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q30104640"
+    }
+  },
+  "description": "Battle during War of the Castilian Succession (1479)",
+  "coords": [
+    -6.3664,
+    38.9697
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_benjamin_tudela_1173_c01",
+  "statement": "Benjamin of Tudela returned around 1173 from an eight-year journey through southern France, Italy, Constantinople, Syria, Mesopotamia, Iran, Yemen, and Egypt.",
+  "subject_ids": [
+    "kingdom_of_navarre"
+  ],
+  "period": {
+    "from": 1173,
+    "to": 1173
+  },
+  "derived_from": "benjamin_tudela_1173",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "bartlett_making_of_europe_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_llangollen_870",
+  "name": "Battle of Llangollen",
+  "subtype": "battle",
+  "start_year": 870,
+  "end_year": 870,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q61410209"
+    }
+  },
+  "description": "Battle during Anglo-Saxon invasion of Wales (870)",
+  "coords": [
+    -3.1595,
+    52.9792
+  ]
+}

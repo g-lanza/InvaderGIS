@@ -1,0 +1,31 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_teutonic_to_polish_vassal",
+  "statement": "The Second Peace of Thorn (October 1466) ended the Thirteen Years' War (1454–1466) by requiring the Teutonic Order to cede Royal Prussia (including Danzig/Gdańsk and the Vistula corridor) to Poland-Lithuania and to render feudal homage to the Polish king for the remaining 'Ducal Prussia.' The Order's Grand Master was obligated to swear loyalty to the Polish crown and provide military service. The provision was deeply humiliating to the Order's traditional claim of direct papal/imperial sovereignty; it was never fully accepted by the Order, which sought imperial support for its revision.",
+  "subject_ids": [
+    "kingdom_of_poland_jagiellonian",
+    "teutonic_order_state"
+  ],
+  "predicate": "vassalage",
+  "derived_from": "rel_teutonic_to_polish_vassal",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "davies_gods_1981",
+      "lukowski_a_2001",
+      "christiansen_the_1997",
+      "urban_the_1994",
+      "turnbull_crusader_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "teutonic_order_state"
+  ],
+  "period": {
+    "from": 1466,
+    "to": 1500
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_france_england",
+  "statement": "The relationship between France and England from the Norman Conquest (1066) through the Hundred Years' War (1337–1453) was defined by the English crown's possession of French fiefs — first the Duchy of Normandy, then the full Angevin Empire — creating a vassal-overlord relationship in which the King of England owed homage to the King of France for his French territories. French kings exploited English kings' position as vassals through the judicial mechanisms of the French court. The progressive elimination of English continental holdings — Normandy (1204), most of Aquitaine (by 1453) — drove both kingdoms' military and administrative development.",
+  "subject_ids": [
+    "kingdom_of_france",
+    "kingdom_of_england"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_france_england",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004",
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1154,
+    "to": 1453
+  }
+}

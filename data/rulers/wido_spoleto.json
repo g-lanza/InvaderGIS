@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wido_spoleto",
+  "name": "Wido of Spoleto",
+  "polity": "duchy_of_spoleto",
+  "title": "ruler",
+  "reign_start": 842,
+  "reign_end": 894,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "duchy_of_spoleto",
+        "role": "ruler",
+        "start_year": 842,
+        "end_year": 894
+      }
+    ],
+    "key_actions": [],
+    "region": "italy",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

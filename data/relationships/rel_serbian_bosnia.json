@@ -1,0 +1,36 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_serbian_bosnia",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "serbian_kingdom_nemanjic",
+      "role": "principal"
+    },
+    {
+      "entity_id": "kingdom_of_bosnia",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 1180,
+  "until": 1377,
+  "note": "Bosnia maintained a complex tributary relationship with the Serbian Kingdom and later Empire for much of the 12th–14th centuries. Serbian kings claimed suzerainty over Bosnian bans; Bosnia operated with considerable autonomy in practice, its Christian identity distinct from both Catholic and Orthodox norms (the 'Bosnian Church,' whose exact nature is debated). Stefan Dušan's expansion (1340s) incorporated Bosnia into the Serbian imperial sphere, but after his death (1355) Bosnia regained independence and expanded under Ban Tvrtko I, who crowned himself King of Bosnia and Serbia (1377), claiming Serbian royal heritage.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Bosnia's position between Catholic Hungary, Orthodox Serbia, and the Adriatic coast creates its distinctive religious ambiguity (the Bosnian Church); Tvrtko I's royal coronation demonstrates how Serbian imperial collapse created opportunities for peripheral vassals to claim succession; Bosnia's subsequent Ottoman conquest (1463) and mass noble conversion creates modern Bosnia's Muslim community"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fine_the_1987",
+      "ćirković_the_2004",
+      "imamović_historija_1997"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

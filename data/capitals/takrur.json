@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "takrur",
+  "name": "Morfil",
+  "entity_id": "takrur",
+  "entity_name": "Takrur Kingdom",
+  "start_year": 800,
+  "end_year": 1285,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2272880"
+    }
+  },
+  "coords": [
+    -14.58384,
+    16.58356
+  ]
+}

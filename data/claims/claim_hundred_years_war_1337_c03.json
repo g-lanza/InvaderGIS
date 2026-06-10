@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_hundred_years_war_1337_c03",
+  "statement": "The Treaty of Brétigny in 1360 gave England vast French territories in exchange for dropping the royal claim.",
+  "subject_ids": [
+    "kingdom_of_england"
+  ],
+  "period": {
+    "from": 1337,
+    "to": 1337
+  },
+  "derived_from": "hundred_years_war_1337",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "ims_fordham",
+      "ims_fordham_sbook1n"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

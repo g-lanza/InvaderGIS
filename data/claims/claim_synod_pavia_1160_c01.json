@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_synod_pavia_1160_c01",
+  "statement": "The Synod of Pavia of February 1160 was convened by Holy Roman Emperor Frederick Barbarossa to settle the disputed papal election of 1159 between Alexander III and Victor IV.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1160,
+    "to": 1160
+  },
+  "derived_from": "synod_pavia_1160",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_swabia",
+  "name": "Augsburg",
+  "entity_id": "duchy_of_swabia",
+  "entity_name": "Duchy of Swabia",
+  "start_year": 496,
+  "end_year": 1268,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q693980"
+    }
+  },
+  "coords": [
+    10.9,
+    48.37
+  ]
+}

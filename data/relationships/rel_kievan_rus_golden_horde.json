@@ -1,0 +1,38 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_kievan_rus_golden_horde",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "golden_horde",
+      "role": "hegemon"
+    },
+    {
+      "entity_id": "kievan_rus",
+      "role": "tributary"
+    }
+  ],
+  "directed": true,
+  "type": "tributary",
+  "since": 1240,
+  "until": 1480,
+  "note": "Following the Mongol destruction of Kiev (1240), Russian principalities become tributaries of the Golden Horde. Princes must travel to Sarai to receive their yarlik (patent) from the khan. This arrangement lasts until Moscow's Ivan III refuses tribute payment in 1480.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Golden Horde tributary domination of Kievan Rus principalities (1240–1480) restructured Russian political geography by eliminating Kiev's primacy and elevating northeastern princes—particularly Moscow—who served as Mongol tax-collectors; this unintended consequence of Mongol administrative devolution created the political conditions for Muscovite centralisation and eventual independence."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "allsen_mongol_1987",
+      "franklin_the_1996",
+      "riasanovsky_a_2000",
+      "martin_medieval_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

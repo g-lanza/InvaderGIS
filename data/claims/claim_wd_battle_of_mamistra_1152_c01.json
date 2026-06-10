@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_mamistra_1152_c01",
+  "statement": "Battle of Mamistra (1152 CE), at Mopsuestia (part of Armenian-Byzantine wars).",
+  "subject_ids": [
+    "byzantine_empire"
+  ],
+  "period": {
+    "from": 1152,
+    "to": 1152
+  },
+  "derived_from": "wd_battle_of_mamistra_1152",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "david_iv_builder",
+  "name": "David IV the Builder",
+  "polity": "kingdom_of_georgia",
+  "title": "ruler",
+  "reign_start": 1073,
+  "reign_end": 1125,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "kingdom_of_georgia",
+        "role": "ruler",
+        "start_year": 1073,
+        "end_year": 1125
+      }
+    ],
+    "key_actions": [],
+    "region": "eastern_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

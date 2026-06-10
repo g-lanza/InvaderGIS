@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_the_susa_valley_754_c01",
+  "statement": "Battle of the Susa Valley (754 CE), at Susa Valley (part of Franco-Lombard Wars).",
+  "subject_ids": [
+    "merovingian_kingdom"
+  ],
+  "period": {
+    "from": 754,
+    "to": 754
+  },
+  "derived_from": "wd_battle_of_the_susa_valley_754",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wood_the_1994",
+      "geary_before_1988"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

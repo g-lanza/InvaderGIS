@@ -1,0 +1,135 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "black_death_1346_1353",
+  "name": "Black Death Pandemic",
+  "kind_type": "spread",
+  "year_start": 1346,
+  "year_end": 1353,
+  "waypoints": [
+    {
+      "year": 1346,
+      "place": "Kaffa",
+      "coords": [
+        45.04,
+        35.38
+      ],
+      "note": "Genoese trading post on the Crimea; Mongol siege catapulted plague-infected corpses over the walls"
+    },
+    {
+      "year": 1347,
+      "place": "Constantinople",
+      "coords": [
+        41.01,
+        28.97
+      ],
+      "note": "spread to the Byzantine capital and Aegean"
+    },
+    {
+      "year": 1347,
+      "place": "Messina",
+      "coords": [
+        38.19,
+        15.55
+      ],
+      "note": "Sicilian arrival via Genoese galleys"
+    },
+    {
+      "year": 1347,
+      "place": "Marseille",
+      "coords": [
+        43.3,
+        5.37
+      ]
+    },
+    {
+      "year": 1348,
+      "place": "Paris",
+      "coords": [
+        48.86,
+        2.35
+      ]
+    },
+    {
+      "year": 1348,
+      "place": "Florence",
+      "coords": [
+        43.77,
+        11.25
+      ],
+      "note": "Boccaccio's setting for the Decameron"
+    },
+    {
+      "year": 1348,
+      "place": "Avignon",
+      "coords": [
+        43.95,
+        4.81
+      ],
+      "note": "papal court; Clement VI ordered the city sealed"
+    },
+    {
+      "year": 1348,
+      "place": "London",
+      "coords": [
+        51.51,
+        -0.13
+      ]
+    },
+    {
+      "year": 1349,
+      "place": "Vienna",
+      "coords": [
+        48.21,
+        16.37
+      ]
+    },
+    {
+      "year": 1349,
+      "place": "Bergen",
+      "coords": [
+        60.39,
+        5.32
+      ],
+      "note": "arrived in Norway via an English ship"
+    },
+    {
+      "year": 1350,
+      "place": "Stockholm",
+      "coords": [
+        59.33,
+        18.07
+      ]
+    },
+    {
+      "year": 1351,
+      "place": "Riga",
+      "coords": [
+        56.95,
+        24.1
+      ]
+    },
+    {
+      "year": 1352,
+      "place": "Moscow",
+      "coords": [
+        55.75,
+        37.62
+      ]
+    },
+    {
+      "year": 1353,
+      "place": "Novgorod",
+      "coords": [
+        58.52,
+        31.27
+      ],
+      "note": "northern terminus before the wave receded"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

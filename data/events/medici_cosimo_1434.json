@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "medici_cosimo_1434",
+  "name": "Cosimo de' Medici Returns from Exile, Medici Rule Begins",
+  "year": 1434,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    43.77,
+    11.25
+  ],
+  "entity": "republic_of_florence",
+  "summary": "Cosimo de' Medici returns from exile to Florence in 1434 and establishes the Medici family's informal dominance over the Florentine republic. Unlike later rulers, Cosimo never holds formal office above the traditional magistracies; his power rests on his banking fortune (the Medici bank is Europe's largest), his patronage of artists and scholars (Brunelleschi, Donatello, Fra Angelico), and his control of the electoral bags from which officeholders are drawn by lot.",
+  "outcomes": [
+    "medici_informal_dominance_established",
+    "florentine_republic_preserved_nominally",
+    "patronage_network_controls_politics"
+  ],
+  "_quarry": {
+    "participants": [
+      "republic_of_florence"
+    ],
+    "structural_significance": "Cosimo's rule demonstrates that financial power could dominate a republican city without formal monarchy; the Medici system of informal control through patronage is imitated across Italy (Sforza Milan, Este Ferrara); Cosimo's patronage creates the material conditions for the early Renaissance, Brunelleschi's dome, Donatello's David, the Platonic Academy at Careggi; the model of private wealth funding public culture shapes European cultural history",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "najemy_a_2006",
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

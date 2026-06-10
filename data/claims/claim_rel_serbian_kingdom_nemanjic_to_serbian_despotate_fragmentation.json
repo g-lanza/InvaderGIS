@@ -1,0 +1,30 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_serbian_kingdom_nemanjic_to_serbian_despotate_fragmentation",
+  "statement": "Derived from predecessor/successor links recorded in the serbian_kingdom_nemanjic and serbian_despotate entity records. Transition anchored to serbian_despotate start_year.",
+  "subject_ids": [
+    "serbian_kingdom_nemanjic",
+    "serbian_despotate"
+  ],
+  "predicate": "fragmentation",
+  "derived_from": "rel_serbian_kingdom_nemanjic_to_serbian_despotate_fragmentation",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fine_the_1987",
+      "ćirković_the_2004",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "serbian_despotate"
+  ],
+  "period": {
+    "from": 1402,
+    "to": 1402
+  }
+}

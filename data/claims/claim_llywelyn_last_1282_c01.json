@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_llywelyn_last_1282_c01",
+  "statement": "The Treaty of Montgomery in 1267 recognized Llywelyn ap Gruffudd as Prince of Wales with authority over all other Welsh lords.",
+  "subject_ids": [
+    "principality_of_wales"
+  ],
+  "period": {
+    "from": 1282,
+    "to": 1282
+  },
+  "derived_from": "llywelyn_last_1282",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

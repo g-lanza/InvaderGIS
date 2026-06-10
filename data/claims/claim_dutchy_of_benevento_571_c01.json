@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_dutchy_of_benevento_571_c01",
+  "statement": "The Lombard Duchy of Benevento was established in southern Italy around 571 CE, becoming the southernmost and most enduring Lombard political entity.",
+  "subject_ids": [
+    "duchy_of_benevento"
+  ],
+  "period": {
+    "from": 571,
+    "to": 571
+  },
+  "derived_from": "dutchy_of_benevento_571",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

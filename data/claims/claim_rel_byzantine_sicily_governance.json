@@ -1,0 +1,32 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_byzantine_sicily_governance",
+  "statement": "Byzantine Sicily served as the empire's westernmost major province from Justinian's reconquest (535) until the Arab conquest (827–902). The island was administered by a strategos based at Syracuse and served as the empire's primary grain source and a base for naval operations in the central Mediterranean. The Arab siege of Syracuse (827–878) and the final conquest of Taormina (902) ended 367 years of Byzantine governance. Byzantine cultural influence in Sicily — Greek language, Orthodox Christianity, Byzantine art forms — persisted under Arab then Norman rule; the Norman kings deliberately preserved Greek administrative practices and multilingual court culture.",
+  "subject_ids": [
+    "byzantine_empire",
+    "duchy_of_benevento"
+  ],
+  "predicate": "vassalage",
+  "derived_from": "rel_byzantine_sicily_governance",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "duchy_of_benevento"
+  ],
+  "period": {
+    "from": 584,
+    "to": 774
+  }
+}

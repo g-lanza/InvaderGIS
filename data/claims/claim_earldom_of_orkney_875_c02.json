@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_earldom_of_orkney_875_c02",
+  "statement": "The Pictish population of Orkney was displaced or absorbed following the Norse settlement.",
+  "subject_ids": [
+    "earldom_of_orkney"
+  ],
+  "period": {
+    "from": 875,
+    "to": 875
+  },
+  "derived_from": "earldom_of_orkney_875",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

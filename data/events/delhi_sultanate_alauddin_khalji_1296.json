@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "delhi_sultanate_alauddin_khalji_1296",
+  "name": "Alauddin Khalji's Conquests",
+  "year": 1296,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    28.6,
+    77.2
+  ],
+  "entity": "delhi_sultanate",
+  "summary": "Alauddin Khalji (r. 1296-1316) extended the Sultanate to its greatest extent, raiding deep into south India. He implemented radical market-price controls to fund his armies and successfully repelled five major Mongol invasions.",
+  "outcomes": [
+    "south_india_raided",
+    "market_reforms",
+    "mongols_repelled"
+  ],
+  "_quarry": {
+    "participants": [
+      "delhi_sultanate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "jackson_the_1999",
+      "kumar_the_2007"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

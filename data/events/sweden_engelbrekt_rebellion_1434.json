@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "sweden_engelbrekt_rebellion_1434",
+  "name": "Engelbrekt Rebellion Against Danish Rule",
+  "year": 1434,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    60,
+    15
+  ],
+  "entity": "kingdom_of_sweden",
+  "summary": "Engelbrekt Engelbrektsson led a popular uprising of Swedish miners and peasants against Danish exploitation under the Kalmar Union. The rebellion established Sweden's first Riksdag (parliament) in 1435.",
+  "outcomes": [
+    "kalmar_union_challenged",
+    "swedish_autonomy_asserted",
+    "riksdag_formed"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_sweden"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_medieval_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

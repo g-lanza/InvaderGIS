@@ -1,0 +1,22 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "fort_angkor_thom",
+  "name": "Angkor Thom (Walled City)",
+  "subtype": "fort",
+  "start_year": 900,
+  "end_year": 1432,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "description": "Khmer walled capital; 9 km perimeter with moat; repelled multiple Cham invasions",
+  "coords": [
+    103.859,
+    13.443
+  ]
+}

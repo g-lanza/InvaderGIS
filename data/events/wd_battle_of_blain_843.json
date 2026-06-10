@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_blain_843",
+  "name": "Battle of Blain",
+  "year": 843,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    48,
+    -3
+  ],
+  "entity": "duchy_of_brittany",
+  "summary": "Battle of Blain (843 CE), at Blain. Source: Wikidata Q2888154.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "duchy_of_brittany"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

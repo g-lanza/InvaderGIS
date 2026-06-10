@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "smaragdus_ravenna",
+  "name": "Smaragdus",
+  "polity": "exarchate_of_ravenna",
+  "title": "administrator",
+  "reign_start": 603,
+  "reign_end": 611,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "exarchate_of_ravenna",
+        "role": "administrator",
+        "start_year": 603,
+        "end_year": 611
+      }
+    ],
+    "key_actions": [],
+    "region": "italy",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

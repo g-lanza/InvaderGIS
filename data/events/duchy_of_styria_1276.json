@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_styria_1276",
+  "name": "Styria Passes to Habsburg Rule",
+  "year": 1276,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    47.07,
+    15.44
+  ],
+  "entity": "duchy_of_styria",
+  "summary": "Rudolf of Habsburg acquired Styria in 1276 after defeating Ottokar II of Bohemia, who had briefly controlled it. Combined with Austria, this gave the Habsburgs a powerful base in the Alpine region from which they would eventually dominate the Holy Roman Empire.",
+  "outcomes": [
+    "habsburg_acquisition",
+    "bohemian_defeated",
+    "austrian_bloc_grows"
+  ],
+  "_quarry": {
+    "participants": [
+      "duchy_of_styria"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

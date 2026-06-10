@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_balanjar_732_c02",
+  "statement": "The Battle of Balanjar (732 CE) was part of the Campaign of the Mud.",
+  "subject_ids": [
+    "khazar_khaganate"
+  ],
+  "period": {
+    "from": 732,
+    "to": 732
+  },
+  "derived_from": "wd_battle_of_balanjar_732",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "golden_khazar_1980",
+      "brook_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "maya_classic",
+  "name_primary": "Classic Maya",
+  "name_variants": [
+    "Classic Period Maya",
+    "Late Classic Maya"
+  ],
+  "type": "city_state_federation",
+  "region": "mesoamerica",
+  "formed": 250,
+  "dissolved": 900,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    17.5,
+    -89.5
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Network of independent and shifting city-states across the southern Maya lowlands and adjacent highlands, sharing a writing system, ritual calendar, and material culture. Major centres, Tikal, Calakmul, Palenque, Copán, Caracol, competed and allied through dynastic marriages and protracted wars. The Late Classic period saw extensive monumental construction; the ninth-century collapse depopulated most of the southern lowland centres while the northern Yucatán transitioned into the Postclassic.",
+  "temporal": {
+    "start_year": 250,
+    "end_year": 900,
+    "end_year_within_scope": 900,
+    "notes": "Classic Maya civilisation spans roughly 250–900 CE; within the atlas scope (500–1500) from 500 to the Classic collapse ~900. Succeeded by the Postclassic Maya polities."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      17.5,
+      -89.5
+    ],
+    "core_regions": [
+      "guatemala_lowlands",
+      "yucatan_peninsula",
+      "chiapas",
+      "belize"
+    ],
+    "notes": "Centroid set near Tikal in the Petén lowlands; territory was a constellation of city-states (Tikal, Calakmul, Palenque, Copán, Caracol) rather than a single contiguous realm."
+  },
+  "successor_entity_ids": [
+    "maya_postclassic"
+  ],
+  "monogram": "CM"
+}

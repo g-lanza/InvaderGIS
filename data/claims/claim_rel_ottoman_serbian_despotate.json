@@ -1,0 +1,33 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_ottoman_serbian_despotate",
+  "statement": "The Serbian Despotate — successor to the Serbian Empire after the fragmentation following Emperor Stefan Dušan's death (1355) — became an Ottoman vassal after Kosovo (1389) and the Ottomans gradually absorbed it over the following decades. The Battle of Kosovo (1448) sealed Serbian subjugation. The Despotate's capital Smederevo fell in 1459, seven years after Constantinople. With Serbian independence gone, the Ottomans controlled the entire western Balkans from the Danube to the Adriatic.",
+  "subject_ids": [
+    "serbian_despotate",
+    "ottoman_empire"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_ottoman_serbian_despotate",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "ottoman_empire"
+  ],
+  "period": {
+    "from": 1459,
+    "to": 1459
+  }
+}

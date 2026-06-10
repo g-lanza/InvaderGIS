@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "khanate_of_kazan",
+  "name": "Kazan",
+  "entity_id": "khanate_of_kazan",
+  "entity_name": "Khanate of Kazan",
+  "start_year": 1438,
+  "end_year": 1552,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q186537"
+    }
+  },
+  "coords": [
+    49.11444,
+    55.79083
+  ]
+}

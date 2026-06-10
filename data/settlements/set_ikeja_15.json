@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_ikeja_15",
+  "name": "Ikeja",
+  "importance": "city",
+  "start_year": 15,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1024647"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    3.3333,
+    6.5833
+  ]
+}

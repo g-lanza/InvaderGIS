@@ -1,0 +1,2399 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "yemen",
+  "name_primary": "Yemen",
+  "name_variants": [],
+  "type": "kingdom",
+  "region": "arabia",
+  "formed": 819,
+  "dissolved": 1500,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    15.0828,
+    45.217
+  ],
+  "population_estimates": [
+    {
+      "year": 900,
+      "estimate": 1500000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q805",
+          "url": "https://www.wikidata.org/wiki/Q805",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Yemen",
+          "url": "https://en.wikipedia.org/wiki/Yemen"
+        }
+      ]
+    },
+    {
+      "year": 1250,
+      "estimate": 2000000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q805",
+          "url": "https://www.wikidata.org/wiki/Q805",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Yemen",
+          "url": "https://en.wikipedia.org/wiki/Yemen"
+        }
+      ]
+    },
+    {
+      "year": 1450,
+      "estimate": 1800000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q805",
+          "url": "https://www.wikidata.org/wiki/Q805",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Yemen",
+          "url": "https://en.wikipedia.org/wiki/Yemen"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Southern Arabian polities (various, medieval period) including the Ziyadi, Yufurid, Sulayhid, Hamdanid, Rasulid, and Tahirid dynasties controlling the incense trade routes and the Red Sea entrance; Yemen's mountain highland agriculture and monsoon-powered maritime commerce made it the wealthiest part of Arabia, with Aden serving as the key entrepôt for Indian Ocean trade while highland Zaydi Shia imamates maintained semi-independent governance against various lowland dynasties.",
+  "temporal": {
+    "start_year": 819,
+    "end_year": 1500,
+    "notes": ""
+  },
+  "geographic": {
+    "centroid": [
+      15.0828,
+      45.217
+    ],
+    "polygon_simplified": [
+      [
+        [
+          13.4739,
+          46.8777
+        ],
+        [
+          13.4005,
+          46.6012
+        ],
+        [
+          13.3994,
+          46.0793
+        ],
+        [
+          13.4052,
+          45.8259
+        ],
+        [
+          13.3478,
+          45.6925
+        ],
+        [
+          13.2076,
+          45.5186
+        ],
+        [
+          13.0739,
+          45.396
+        ],
+        [
+          12.9337,
+          45.1934
+        ],
+        [
+          12.8252,
+          44.9636
+        ],
+        [
+          12.8057,
+          44.7888
+        ],
+        [
+          12.8246,
+          44.6811
+        ],
+        [
+          12.6398,
+          44.4405
+        ],
+        [
+          12.6136,
+          44.0627
+        ],
+        [
+          12.6639,
+          43.8406
+        ],
+        [
+          12.8289,
+          43.6049
+        ],
+        [
+          12.8603,
+          43.5601
+        ],
+        [
+          12.93,
+          43.4836
+        ],
+        [
+          13.1267,
+          43.3408
+        ],
+        [
+          13.241,
+          43.3028
+        ],
+        [
+          13.5652,
+          43.384
+        ],
+        [
+          13.851,
+          43.3476
+        ],
+        [
+          14.0795,
+          43.2069
+        ],
+        [
+          14.6065,
+          43.0533
+        ],
+        [
+          15.4701,
+          42.7959
+        ],
+        [
+          15.667,
+          42.7635
+        ],
+        [
+          15.9849,
+          42.8839
+        ],
+        [
+          16.3215,
+          42.828
+        ],
+        [
+          16.4041,
+          42.8144
+        ],
+        [
+          16.6455,
+          42.7637
+        ],
+        [
+          17.6937,
+          45.2404
+        ],
+        [
+          17.1178,
+          46.2769
+        ],
+        [
+          15.7482,
+          47.0639
+        ],
+        [
+          14.1687,
+          48.8793
+        ],
+        [
+          14.0977,
+          48.7646
+        ],
+        [
+          14.0464,
+          48.5367
+        ],
+        [
+          14.0776,
+          48.2701
+        ],
+        [
+          14.0454,
+          48.0362
+        ],
+        [
+          13.8476,
+          47.6623
+        ],
+        [
+          13.6691,
+          47.3696
+        ],
+        [
+          13.4902,
+          46.9394
+        ],
+        [
+          13.4739,
+          46.8777
+        ]
+      ]
+    ],
+    "capital": {
+      "name": "Sanaa",
+      "coords": [
+        15.35,
+        44.2
+      ],
+      "source": "wikidata"
+    }
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "rasulid_sultanate",
+      "years": "500-630",
+      "description": "Pre-Islamic Yemen was divided among Himyarite, Axumite, and Sasanian rulers before Islamic conquest.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q805",
+          "url": "https://www.wikidata.org/wiki/Q805"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Yemen",
+          "url": "https://en.wikipedia.org/wiki/Yemen"
+        }
+      ]
+    },
+    {
+      "phase": "early_islamic_era",
+      "years": "630-900",
+      "description": "Yemen became an early Muslim province; the region maintained its ancient trade identity alongside Islamic governance.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q805",
+          "url": "https://www.wikidata.org/wiki/Q805"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Yemen",
+          "url": "https://en.wikipedia.org/wiki/Yemen"
+        }
+      ]
+    },
+    {
+      "phase": "ziyadid_and_local_dynasties",
+      "years": "819-1229",
+      "description": "Series of local dynasties (Ziyadids, Yufrids, Najahids) governed Yemen semi-independently.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q805",
+          "url": "https://www.wikidata.org/wiki/Q805"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Yemen",
+          "url": "https://en.wikipedia.org/wiki/Yemen"
+        }
+      ]
+    },
+    {
+      "phase": "rasulid_peak",
+      "years": "1229-1454",
+      "description": "Rasulid dynasty created a prosperous, cultured sultanate; major patrons of Islamic architecture and agriculture.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q805",
+          "url": "https://www.wikidata.org/wiki/Q805"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Yemen",
+          "url": "https://en.wikipedia.org/wiki/Yemen"
+        }
+      ]
+    },
+    {
+      "phase": "tahirid_era",
+      "years": "1454-1517",
+      "description": "Tahirid dynasty ruled until Ottoman conquest; Yemen remained a significant regional power through Red Sea trade.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q805",
+          "url": "https://www.wikidata.org/wiki/Q805"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Yemen",
+          "url": "https://en.wikipedia.org/wiki/Yemen"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "trade_route_control",
+      "layer": "economic_commercial",
+      "description": "Yemen's position at the mouth of the Red Sea made it indispensable for Indian Ocean to Mediterranean commerce.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q805",
+          "url": "https://www.wikidata.org/wiki/Q805"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Yemen",
+          "url": "https://en.wikipedia.org/wiki/Yemen"
+        }
+      ],
+      "tag_prose": "red_sea_trade"
+    },
+    {
+      "tag": "resource_concentration",
+      "layer": "economic_commercial",
+      "description": "Yemen's terraced highland agriculture (coffee, qat, wheat) produced surpluses that supported urban civilization.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q805",
+          "url": "https://www.wikidata.org/wiki/Q805"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Yemen",
+          "url": "https://en.wikipedia.org/wiki/Yemen"
+        }
+      ],
+      "tag_prose": "highland_agriculture"
+    },
+    {
+      "tag": "ancient_trading_tradition",
+      "layer": "economic_commercial",
+      "description": "Ancient South Arabian mercantile networks gave Yemeni merchants expertise and connections across the Indian Ocean.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q805",
+          "url": "https://www.wikidata.org/wiki/Q805"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Yemen",
+          "url": "https://en.wikipedia.org/wiki/Yemen"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "external_military_pressure",
+      "layer": "military_security",
+      "description": "Ottoman Empire conquered Yemen in 1517, ending indigenous dynastic rule.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q805",
+          "url": "https://www.wikidata.org/wiki/Q805"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Yemen",
+          "url": "https://en.wikipedia.org/wiki/Yemen"
+        }
+      ],
+      "tag_prose": "ottoman_conquest"
+    },
+    {
+      "tag": "portuguese_competition",
+      "layer": "economic_commercial",
+      "description": "Portuguese rounding of Africa disrupted the Red Sea spice trade that was Yemen's economic foundation.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q805",
+          "url": "https://www.wikidata.org/wiki/Q805"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Yemen",
+          "url": "https://en.wikipedia.org/wiki/Yemen"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Umar ibn Rasul",
+      "role": "sultan",
+      "years": "1229–1249",
+      "year_start": 1229,
+      "year_end": 1249,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Umar ibn Rasul",
+          "url": "https://en.wikipedia.org/wiki/Umar_ibn_Rasul"
+        }
+      ]
+    },
+    {
+      "name": "al-Muzaffar Yusuf I",
+      "role": "sultan",
+      "years": "1249–1295",
+      "year_start": 1249,
+      "year_end": 1295,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "al-Muzaffar Yusuf I",
+          "url": "https://en.wikipedia.org/wiki/Al-Muzaffar_Yusuf_I"
+        }
+      ]
+    },
+    {
+      "name": "Amir ibn Abd al-Wahab Tahirid",
+      "role": "sultan",
+      "years": "1489–1517",
+      "year_start": 1489,
+      "year_end": 1517,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Amir ibn Abd al-Wahab Tahirid",
+          "url": "https://en.wikipedia.org/wiki/Amir_ibn_Abd_al-Wahab_Tahirid"
+        }
+      ]
+    }
+  ],
+  "economic": {
+    "primary_base": "long_distance_trade",
+    "secondary_bases": [
+      "agriculture",
+      "coffee_qat",
+      "fishing"
+    ],
+    "wealth_level": "high",
+    "major_exports": [
+      "coffee",
+      "incense",
+      "horses",
+      "fish",
+      "grain"
+    ],
+    "major_trade_partners": [
+      "mamluk_sultanate",
+      "india_general",
+      "east_africa_ports"
+    ],
+    "revenue_sources": [
+      "port_duties",
+      "red_sea_transit_fees",
+      "agricultural_taxes"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q805",
+        "url": "https://www.wikidata.org/wiki/Q805"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Yemen",
+        "url": "https://en.wikipedia.org/wiki/Yemen"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q805",
+    "matched_name": "Yemen",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Yemen",
+    "capital": {
+      "name": "Sanaa",
+      "coords": [
+        15.35,
+        44.2
+      ]
+    },
+    "rulers_from_wikidata": [
+      {
+        "name": "Abdul Rahman al-Baidhani",
+        "qid": "Q12222671",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q12222671",
+            "url": "https://www.wikidata.org/wiki/Q12222671"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Abdul Rahman al-Baidhani",
+            "url": "https://en.wikipedia.org/wiki/Abdul_Rahman_al-Baidhani"
+          }
+        ]
+      },
+      {
+        "name": "Muḥammad Aḥmad Nuʻmān",
+        "qid": "Q12239532",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q12239532",
+            "url": "https://www.wikidata.org/wiki/Q12239532"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Muḥammad Aḥmad Nuʻmān",
+            "url": "https://en.wikipedia.org/wiki/Muḥammad_Aḥmad_Nuʻmān"
+          }
+        ]
+      },
+      {
+        "name": "Mohammed Qahtan",
+        "qid": "Q12240919",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q12240919",
+            "url": "https://www.wikidata.org/wiki/Q12240919"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mohammed Qahtan",
+            "url": "https://en.wikipedia.org/wiki/Mohammed_Qahtan"
+          }
+        ]
+      },
+      {
+        "name": "Hassan Muhammad Makki",
+        "qid": "Q15197815",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q15197815",
+            "url": "https://www.wikidata.org/wiki/Q15197815"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Hassan Muhammad Makki",
+            "url": "https://en.wikipedia.org/wiki/Hassan_Muhammad_Makki"
+          }
+        ]
+      },
+      {
+        "name": "Hassan ibn Yahya",
+        "qid": "Q2266637",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2266637",
+            "url": "https://www.wikidata.org/wiki/Q2266637"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Hassan ibn Yahya",
+            "url": "https://en.wikipedia.org/wiki/Hassan_ibn_Yahya"
+          }
+        ]
+      },
+      {
+        "name": "Hassan al-Amri",
+        "qid": "Q2460197",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2460197",
+            "url": "https://www.wikidata.org/wiki/Q2460197"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Hassan al-Amri",
+            "url": "https://en.wikipedia.org/wiki/Hassan_al-Amri"
+          }
+        ]
+      },
+      {
+        "name": "Talal Aklan",
+        "qid": "Q26311375",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q26311375",
+            "url": "https://www.wikidata.org/wiki/Q26311375"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Talal Aklan",
+            "url": "https://en.wikipedia.org/wiki/Talal_Aklan"
+          }
+        ]
+      },
+      {
+        "name": "Ahmad Numan",
+        "qid": "Q400701",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q400701",
+            "url": "https://www.wikidata.org/wiki/Q400701"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ahmad Numan",
+            "url": "https://en.wikipedia.org/wiki/Ahmad_Muhammad_Numan"
+          }
+        ]
+      },
+      {
+        "name": "Abd al-Latif Dayfallah",
+        "qid": "Q4665499",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4665499",
+            "url": "https://www.wikidata.org/wiki/Q4665499"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Abd al-Latif Dayfallah",
+            "url": "https://en.wikipedia.org/wiki/Abd_al-Latif_Dayfallah"
+          }
+        ]
+      },
+      {
+        "name": "Abdul Salam Sabrah",
+        "qid": "Q4665705",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4665705",
+            "url": "https://www.wikidata.org/wiki/Q4665705"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Abdul Salam Sabrah",
+            "url": "https://en.wikipedia.org/wiki/Abdul_Salam_Sabrah"
+          }
+        ]
+      },
+      {
+        "name": "Abdullah Kurshumi",
+        "qid": "Q4666020",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4666020",
+            "url": "https://www.wikidata.org/wiki/Q4666020"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Abdullah Kurshumi",
+            "url": "https://en.wikipedia.org/wiki/Abdullah_Kurshumi"
+          }
+        ]
+      },
+      {
+        "name": "Hamoud al-Gayifi",
+        "qid": "Q5645953",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q5645953",
+            "url": "https://www.wikidata.org/wiki/Q5645953"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Hamoud al-Gayifi",
+            "url": "https://en.wikipedia.org/wiki/Hamoud_Al-Jaifi"
+          }
+        ]
+      },
+      {
+        "name": "Kadhi Abdullah al-Hagri",
+        "qid": "Q6345458",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q6345458",
+            "url": "https://www.wikidata.org/wiki/Q6345458"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Kadhi Abdullah al-Hagri",
+            "url": "https://en.wikipedia.org/wiki/Abdullah_al-Hagri"
+          }
+        ]
+      },
+      {
+        "name": "Saleh Al-Aulaqi",
+        "qid": "Q7403883",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q7403883",
+            "url": "https://www.wikidata.org/wiki/Q7403883"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Saleh Al-Aulaqi",
+            "url": "https://en.wikipedia.org/wiki/Muhammad_Saleh_al-Aulaqi"
+          }
+        ]
+      },
+      {
+        "name": "Abdullah Ahmed Ghanim",
+        "qid": "Q116160359",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q116160359",
+            "url": "https://www.wikidata.org/wiki/Q116160359"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Abdullah Ahmed Ghanim",
+            "url": "https://en.wikipedia.org/wiki/Abdullah_Ahmed_Ghanim"
+          }
+        ]
+      },
+      {
+        "name": "Ahmed Al-Asbahi",
+        "qid": "Q116201029",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q116201029",
+            "url": "https://www.wikidata.org/wiki/Q116201029"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ahmed Al-Asbahi",
+            "url": "https://en.wikipedia.org/wiki/Ahmed_Al-Asbahi"
+          }
+        ]
+      },
+      {
+        "name": "Ali Abdullah Al-Sallal",
+        "qid": "Q116795023",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q116795023",
+            "url": "https://www.wikidata.org/wiki/Q116795023"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ali Abdullah Al-Sallal",
+            "url": "https://en.wikipedia.org/wiki/Ali_Abdullah_Al-Sallal"
+          }
+        ]
+      },
+      {
+        "name": "Ahmad Awad Bin Mubarak",
+        "qid": "Q16119688",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q16119688",
+            "url": "https://www.wikidata.org/wiki/Q16119688"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ahmad Awad Bin Mubarak",
+            "url": "https://en.wikipedia.org/wiki/Ahmad_Awad_bin_Mubarak"
+          }
+        ]
+      },
+      {
+        "name": "Ahmed Mohammed Al-Kahlani",
+        "qid": "Q20397480",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q20397480",
+            "url": "https://www.wikidata.org/wiki/Q20397480"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ahmed Mohammed Al-Kahlani",
+            "url": "https://en.wikipedia.org/wiki/Ahmed_Mohammed_Al-Kahlani"
+          }
+        ]
+      },
+      {
+        "name": "Hussein Arab",
+        "qid": "Q16127778",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q16127778",
+            "url": "https://www.wikidata.org/wiki/Q16127778"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Hussein Arab",
+            "url": "https://en.wikipedia.org/wiki/Hussein_Arab"
+          }
+        ]
+      },
+      {
+        "name": "Ali Ahmed Al Amrani",
+        "qid": "Q12227830",
+        "year_start": null,
+        "year_end": 2014,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q12227830",
+            "url": "https://www.wikidata.org/wiki/Q12227830"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ali Ahmed Al Amrani",
+            "url": "https://en.wikipedia.org/wiki/Ali_Ahmed_Al_Amrani"
+          }
+        ]
+      },
+      {
+        "name": "Mohammad Jalal Firuznia",
+        "qid": "Q124608516",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q124608516",
+            "url": "https://www.wikidata.org/wiki/Q124608516"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mohammad Jalal Firuznia",
+            "url": "https://en.wikipedia.org/wiki/Mohammad_Jalal_Firuznia"
+          }
+        ]
+      },
+      {
+        "name": "Moammar Al-Eryani",
+        "qid": "Q16127851",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q16127851",
+            "url": "https://www.wikidata.org/wiki/Q16127851"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Moammar Al-Eryani",
+            "url": "https://en.wikipedia.org/wiki/Moammar_Al-Eryani"
+          }
+        ]
+      },
+      {
+        "name": "Nasser al-Awlaki",
+        "qid": "Q16148673",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q16148673",
+            "url": "https://www.wikidata.org/wiki/Q16148673"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Nasser al-Awlaki",
+            "url": "https://en.wikipedia.org/wiki/Nasser_al-Awlaki"
+          }
+        ]
+      },
+      {
+        "name": "Jon Atle Gaarder",
+        "qid": "Q6270324",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q6270324",
+            "url": "https://www.wikidata.org/wiki/Q6270324"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Jon Atle Gaarder",
+            "url": "https://en.wikipedia.org/wiki/Jon_Atle_Gaarder"
+          }
+        ]
+      },
+      {
+        "name": "Pavlos Apostolidis",
+        "qid": "Q960748",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q960748",
+            "url": "https://www.wikidata.org/wiki/Q960748"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Pavlos Apostolidis",
+            "url": "https://en.wikipedia.org/wiki/Pavlos_Apostolidis"
+          }
+        ]
+      },
+      {
+        "name": "Radhia Mohammed Abdullah",
+        "qid": "Q134987181",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q134987181",
+            "url": "https://www.wikidata.org/wiki/Q134987181"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Radhia Mohammed Abdullah",
+            "url": "https://en.wikipedia.org/wiki/Radhia_Mohammed_Abdullah"
+          }
+        ]
+      },
+      {
+        "name": "Arif Al Zuka",
+        "qid": "Q23904861",
+        "year_start": null,
+        "year_end": 2011,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q23904861",
+            "url": "https://www.wikidata.org/wiki/Q23904861"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Arif Al Zuka",
+            "url": "https://en.wikipedia.org/wiki/Arif_Al_Zuka"
+          }
+        ]
+      },
+      {
+        "name": "Mohammed Saadi",
+        "qid": "Q12240556",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q12240556",
+            "url": "https://www.wikidata.org/wiki/Q12240556"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mohammed Saadi",
+            "url": "https://en.wikipedia.org/wiki/Mohammed_Saadi"
+          }
+        ]
+      },
+      {
+        "name": "Hamoud Al Sufi",
+        "qid": "Q16118013",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q16118013",
+            "url": "https://www.wikidata.org/wiki/Q16118013"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Hamoud Al Sufi",
+            "url": "https://en.wikipedia.org/wiki/Hamoud_Al_Sufi"
+          }
+        ]
+      },
+      {
+        "name": "Mohammed Abdul Wahed Al - Mithimi",
+        "qid": "Q20423114",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q20423114",
+            "url": "https://www.wikidata.org/wiki/Q20423114"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mohammed Abdul Wahed Al - Mithimi",
+            "url": "https://en.wikipedia.org/wiki/Mohammed_Abdul_Wahed_Al_-_Mithimi"
+          }
+        ]
+      },
+      {
+        "name": "Zafar Hilaly",
+        "qid": "Q8064226",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q8064226",
+            "url": "https://www.wikidata.org/wiki/Q8064226"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Zafar Hilaly",
+            "url": "https://en.wikipedia.org/wiki/Zafar_Hilaly"
+          }
+        ]
+      },
+      {
+        "name": "Abdullah ibn Yahya",
+        "qid": "Q108548924",
+        "year_start": 1948,
+        "year_end": 1955,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q108548924",
+            "url": "https://www.wikidata.org/wiki/Q108548924"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Abdullah ibn Yahya",
+            "url": "https://en.wikipedia.org/wiki/Abdullah_ibn_Yahya"
+          }
+        ]
+      },
+      {
+        "name": "Abdul Rahman al-Baidani",
+        "qid": "Q108548925",
+        "year_start": 1962,
+        "year_end": 1963,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q108548925",
+            "url": "https://www.wikidata.org/wiki/Q108548925"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Abdul Rahman al-Baidani",
+            "url": "https://en.wikipedia.org/wiki/Abdul_Rahman_al-Baidani"
+          }
+        ]
+      },
+      {
+        "name": "Ahmad al-Shami",
+        "qid": "Q108548927",
+        "year_start": 1962,
+        "year_end": 1968,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q108548927",
+            "url": "https://www.wikidata.org/wiki/Q108548927"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ahmad al-Shami",
+            "url": "https://en.wikipedia.org/wiki/Ahmad_Al-Shami"
+          }
+        ]
+      },
+      {
+        "name": "Mustafa Yaqub",
+        "qid": "Q108548928",
+        "year_start": 1963,
+        "year_end": 1966,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q108548928",
+            "url": "https://www.wikidata.org/wiki/Q108548928"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mustafa Yaqub",
+            "url": "https://en.wikipedia.org/wiki/Mustafa_Yaqub"
+          }
+        ]
+      },
+      {
+        "name": "Ahmed al-Marouni",
+        "qid": "Q116480136",
+        "year_start": 1963,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q116480136",
+            "url": "https://www.wikidata.org/wiki/Q116480136"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ahmed al-Marouni",
+            "url": "https://en.wikipedia.org/wiki/Ahmed_al-Marouni"
+          }
+        ]
+      },
+      {
+        "name": "Mohsin al-Sirri",
+        "qid": "Q108548929",
+        "year_start": 1964,
+        "year_end": 1965,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q108548929",
+            "url": "https://www.wikidata.org/wiki/Q108548929"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mohsin al-Sirri",
+            "url": "https://en.wikipedia.org/wiki/Mohsin_al-Sirri"
+          }
+        ]
+      },
+      {
+        "name": "Abdul Qawi Hamim",
+        "qid": "Q108548930",
+        "year_start": 1965,
+        "year_end": 1965,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q108548930",
+            "url": "https://www.wikidata.org/wiki/Q108548930"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Abdul Qawi Hamim",
+            "url": "https://en.wikipedia.org/wiki/Abdul_Qawi_Hamim"
+          }
+        ]
+      },
+      {
+        "name": "Saif Ahmad al-Dali",
+        "qid": "Q108548933",
+        "year_start": 1967,
+        "year_end": 1969,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q108548933",
+            "url": "https://www.wikidata.org/wiki/Q108548933"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Saif Ahmad al-Dali",
+            "url": "https://en.wikipedia.org/wiki/Saif_Ahmad_al-Dali"
+          }
+        ]
+      },
+      {
+        "name": "Mohsin Ahmad al-Aini",
+        "qid": "Q4058917",
+        "year_start": 1967,
+        "year_end": 1967,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4058917",
+            "url": "https://www.wikidata.org/wiki/Q4058917"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mohsin Ahmad al-Aini",
+            "url": "https://en.wikipedia.org/wiki/Mohsin_Ahmad_al-Aini"
+          }
+        ]
+      },
+      {
+        "name": "Yahya Jaghman",
+        "qid": "Q108548935",
+        "year_start": 1968,
+        "year_end": 1975,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q108548935",
+            "url": "https://www.wikidata.org/wiki/Q108548935"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Yahya Jaghman",
+            "url": "https://en.wikipedia.org/wiki/Yahya_Jaghman"
+          }
+        ]
+      },
+      {
+        "name": "Hussein Ali al-Hubaishi",
+        "qid": "Q108548937",
+        "year_start": 1969,
+        "year_end": 1969,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q108548937",
+            "url": "https://www.wikidata.org/wiki/Q108548937"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Hussein Ali al-Hubaishi",
+            "url": "https://en.wikipedia.org/wiki/Hussein_Ali_al-Hubaishi"
+          }
+        ]
+      },
+      {
+        "name": "Ahmad Qaid Barakat",
+        "qid": "Q108548938",
+        "year_start": 1969,
+        "year_end": 1970,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q108548938",
+            "url": "https://www.wikidata.org/wiki/Q108548938"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ahmad Qaid Barakat",
+            "url": "https://en.wikipedia.org/wiki/Ahmad_Qaid_Barakat"
+          }
+        ]
+      },
+      {
+        "name": "Abdullah al-Asnaj",
+        "qid": "Q108548939",
+        "year_start": 1971,
+        "year_end": 1971,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q108548939",
+            "url": "https://www.wikidata.org/wiki/Q108548939"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Abdullah al-Asnaj",
+            "url": "https://en.wikipedia.org/wiki/Abdullah_al-Asnaj"
+          }
+        ]
+      },
+      {
+        "name": "Muhammad Saleh al-Awlaqi",
+        "qid": "Q108548940",
+        "year_start": 1971,
+        "year_end": 1973,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q108548940",
+            "url": "https://www.wikidata.org/wiki/Q108548940"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Muhammad Saleh al-Awlaqi",
+            "url": "https://en.wikipedia.org/wiki/Muhammad_Saleh_al-Aulaqi"
+          }
+        ]
+      },
+      {
+        "name": "Muhammad Ali Numan",
+        "qid": "Q108548941",
+        "year_start": 1973,
+        "year_end": 1974,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q108548941",
+            "url": "https://www.wikidata.org/wiki/Q108548941"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Muhammad Ali Numan",
+            "url": "https://en.wikipedia.org/wiki/Muhammad_Ali_Numan"
+          }
+        ]
+      },
+      {
+        "name": "Muhammad Saleh Muti",
+        "qid": "Q108548942",
+        "year_start": 1973,
+        "year_end": 1979,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q108548942",
+            "url": "https://www.wikidata.org/wiki/Q108548942"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Muhammad Saleh Muti",
+            "url": "https://en.wikipedia.org/wiki/Muhammad_Saleh_Muti"
+          }
+        ]
+      },
+      {
+        "name": "Hussein Abdullah al-Amri",
+        "qid": "Q108548944",
+        "year_start": 1979,
+        "year_end": 1979,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q108548944",
+            "url": "https://www.wikidata.org/wiki/Q108548944"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Hussein Abdullah al-Amri",
+            "url": "https://en.wikipedia.org/wiki/Hussein_Abdullah_al-Amri"
+          }
+        ]
+      },
+      {
+        "name": "Salim Saleh Muhammad",
+        "qid": "Q108548945",
+        "year_start": 1979,
+        "year_end": 1982,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q108548945",
+            "url": "https://www.wikidata.org/wiki/Q108548945"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Salim Saleh Muhammad",
+            "url": "https://en.wikipedia.org/wiki/Salim_Saleh_Muhammad"
+          }
+        ]
+      },
+      {
+        "name": "Hikmat Zaid",
+        "qid": "Q99826716",
+        "year_start": 1979,
+        "year_end": 1985,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q99826716",
+            "url": "https://www.wikidata.org/wiki/Q99826716"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Hikmat Zaid",
+            "url": "https://en.wikipedia.org/wiki/Hikmat_Zaid"
+          }
+        ]
+      },
+      {
+        "name": "Ali Lutfi al-Thawr",
+        "qid": "Q108548946",
+        "year_start": 1980,
+        "year_end": 1984,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q108548946",
+            "url": "https://www.wikidata.org/wiki/Q108548946"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ali Lutfi al-Thawr",
+            "url": "https://en.wikipedia.org/wiki/Ali_Lutfi_al-Thawr"
+          }
+        ]
+      },
+      {
+        "name": "Adnan Dabbagh",
+        "qid": "Q134053978",
+        "year_start": 1980,
+        "year_end": 1981,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q134053978",
+            "url": "https://www.wikidata.org/wiki/Q134053978"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Adnan Dabbagh",
+            "url": "https://en.wikipedia.org/wiki/Adnan_Dabbagh"
+          }
+        ]
+      },
+      {
+        "name": "Ali Nasir Muhammad",
+        "qid": "Q924397",
+        "year_start": 1980,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q924397",
+            "url": "https://www.wikidata.org/wiki/Q924397"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ali Nasir Muhammad",
+            "url": "https://en.wikipedia.org/wiki/Ali_Nasir_Muhammad"
+          }
+        ]
+      },
+      {
+        "name": "Abdul Aziz al-Dali",
+        "qid": "Q108548947",
+        "year_start": 1982,
+        "year_end": 1990,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q108548947",
+            "url": "https://www.wikidata.org/wiki/Q108548947"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Abdul Aziz al-Dali",
+            "url": "https://en.wikipedia.org/wiki/Abdul_Aziz_al-Dali"
+          }
+        ]
+      },
+      {
+        "name": "Ali Salim al-Beidh",
+        "qid": "Q2555542",
+        "year_start": 1986,
+        "year_end": 1994,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2555542",
+            "url": "https://www.wikidata.org/wiki/Q2555542"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ali Salim al-Beidh",
+            "url": "https://en.wikipedia.org/wiki/Ali_Salem_al-Beidh"
+          }
+        ]
+      },
+      {
+        "name": "Ali Abdullah Saleh",
+        "qid": "Q483672",
+        "year_start": 1990,
+        "year_end": 2011,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q483672",
+            "url": "https://www.wikidata.org/wiki/Q483672"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ali Abdullah Saleh",
+            "url": "https://en.wikipedia.org/wiki/Ali_Abdullah_Saleh"
+          }
+        ]
+      },
+      {
+        "name": "Abdul-Wahhab Al-Sabbagh",
+        "qid": "Q67205472",
+        "year_start": 1990,
+        "year_end": 1993,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q67205472",
+            "url": "https://www.wikidata.org/wiki/Q67205472"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Abdul-Wahhab Al-Sabbagh",
+            "url": "https://en.wikipedia.org/wiki/Abdul-Wahhab_Al-Sabbagh"
+          }
+        ]
+      },
+      {
+        "name": "Haidar Abu Bakr al-Attas",
+        "qid": "Q1322893",
+        "year_start": 1990,
+        "year_end": 1994,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1322893",
+            "url": "https://www.wikidata.org/wiki/Q1322893"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Haidar Abu Bakr al-Attas",
+            "url": "https://en.wikipedia.org/wiki/Haidar_Abu_Bakr_al-Attas"
+          }
+        ]
+      },
+      {
+        "name": "Abd Al-Karim Al-Iryani",
+        "qid": "Q4119595",
+        "year_start": 1990,
+        "year_end": 1993,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4119595",
+            "url": "https://www.wikidata.org/wiki/Q4119595"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Abd Al-Karim Al-Iryani",
+            "url": "https://en.wikipedia.org/wiki/Abdul-Karim_Al-Iryani"
+          }
+        ]
+      },
+      {
+        "name": "Haitham Qassim Taher",
+        "qid": "Q28491404",
+        "year_start": 1990,
+        "year_end": 1994,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q28491404",
+            "url": "https://www.wikidata.org/wiki/Q28491404"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Haitham Qassim Taher",
+            "url": "https://en.wikipedia.org/wiki/Haitham_Qassim_Taher"
+          }
+        ]
+      },
+      {
+        "name": "Ṣāliḥ munaṣṣar alsyyly",
+        "qid": "Q137824522",
+        "year_start": 1990,
+        "year_end": 1993,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q137824522",
+            "url": "https://www.wikidata.org/wiki/Q137824522"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ṣāliḥ munaṣṣar alsyyly",
+            "url": "https://en.wikipedia.org/wiki/Ṣāliḥ_munaṣṣar_alsyyly"
+          }
+        ]
+      },
+      {
+        "name": "Ṣāliḥ Abū Bakr ibn ḥsynwn",
+        "qid": "Q137858410",
+        "year_start": 1990,
+        "year_end": 1994,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q137858410",
+            "url": "https://www.wikidata.org/wiki/Q137858410"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ṣāliḥ Abū Bakr ibn ḥsynwn",
+            "url": "https://en.wikipedia.org/wiki/Ṣāliḥ_Abū_Bakr_ibn_ḥsynwn"
+          }
+        ]
+      },
+      {
+        "name": "ʻAbd al-Wāsiʻ Sallām",
+        "qid": "Q137859616",
+        "year_start": 1990,
+        "year_end": 1993,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q137859616",
+            "url": "https://www.wikidata.org/wiki/Q137859616"
+          },
+          {
+            "type": "wikipedia",
+            "label": "ʻAbd al-Wāsiʻ Sallām",
+            "url": "https://en.wikipedia.org/wiki/ʻAbd_al-Wāsiʻ_Sallām"
+          }
+        ]
+      },
+      {
+        "name": "Ṣāliḥ ʻAbd Allāh Muthanná",
+        "qid": "Q137859533",
+        "year_start": 1990,
+        "year_end": 1993,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q137859533",
+            "url": "https://www.wikidata.org/wiki/Q137859533"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ṣāliḥ ʻAbd Allāh Muthanná",
+            "url": "https://en.wikipedia.org/wiki/Ṣāliḥ_ʻAbd_Allāh_Muthanná"
+          }
+        ]
+      },
+      {
+        "name": "Yahya Hussain Al-Aarashi",
+        "qid": "Q8046919",
+        "year_start": 1990,
+        "year_end": 1993,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q8046919",
+            "url": "https://www.wikidata.org/wiki/Q8046919"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Yahya Hussain Al-Aarashi",
+            "url": "https://en.wikipedia.org/wiki/Yahya_Hussain_Al-Aarashi"
+          }
+        ]
+      },
+      {
+        "name": "Ismail Ahmed Al-Wazir",
+        "qid": "Q16125163",
+        "year_start": 1990,
+        "year_end": 2001,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q16125163",
+            "url": "https://www.wikidata.org/wiki/Q16125163"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ismail Ahmed Al-Wazir",
+            "url": "https://en.wikipedia.org/wiki/Ismail_Ahmed_Al-Wazir"
+          }
+        ]
+      },
+      {
+        "name": "Muḥsin al-Hamadānī",
+        "qid": "Q138554924",
+        "year_start": 1990,
+        "year_end": 1993,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q138554924",
+            "url": "https://www.wikidata.org/wiki/Q138554924"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Muḥsin al-Hamadānī",
+            "url": "https://en.wikipedia.org/wiki/Muḥsin_al-Hamadānī"
+          }
+        ]
+      },
+      {
+        "name": "Mujahid Abu Shawarib",
+        "qid": "Q12238789",
+        "year_start": 1990,
+        "year_end": 1994,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q12238789",
+            "url": "https://www.wikidata.org/wiki/Q12238789"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mujahid Abu Shawarib",
+            "url": "https://en.wikipedia.org/wiki/Mujahid_Abu_Shawarib"
+          }
+        ]
+      },
+      {
+        "name": "Muḥammad Ḥaydarah Masdūs",
+        "qid": "Q138536633",
+        "year_start": 1990,
+        "year_end": 1994,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q138536633",
+            "url": "https://www.wikidata.org/wiki/Q138536633"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Muḥammad Ḥaydarah Masdūs",
+            "url": "https://en.wikipedia.org/wiki/Muḥammad_Ḥaydarah_Masdūs"
+          }
+        ]
+      },
+      {
+        "name": "Saleh Obaid Ahmed",
+        "qid": "Q137830259",
+        "year_start": 1990,
+        "year_end": 1993,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q137830259",
+            "url": "https://www.wikidata.org/wiki/Q137830259"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Saleh Obaid Ahmed",
+            "url": "https://en.wikipedia.org/wiki/Saleh_Obaid_Ahmed"
+          }
+        ]
+      },
+      {
+        "name": "Ghaleb al-Qamesh",
+        "qid": "Q116398205",
+        "year_start": 1990,
+        "year_end": 1993,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q116398205",
+            "url": "https://www.wikidata.org/wiki/Q116398205"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ghaleb al-Qamesh",
+            "url": "https://en.wikipedia.org/wiki/Ghaleb_al-Qamesh"
+          }
+        ]
+      },
+      {
+        "name": "Ahmed Mohamed Al-Ansi",
+        "qid": "Q28498165",
+        "year_start": 1990,
+        "year_end": 2001,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q28498165",
+            "url": "https://www.wikidata.org/wiki/Q28498165"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ahmed Mohamed Al-Ansi",
+            "url": "https://en.wikipedia.org/wiki/Ahmed_Mohamed_Al-Ansi"
+          }
+        ]
+      },
+      {
+        "name": "Muḥammad Saʻīd ʻAbd Allāh",
+        "qid": "Q137829274",
+        "year_start": 1990,
+        "year_end": 1993,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q137829274",
+            "url": "https://www.wikidata.org/wiki/Q137829274"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Muḥammad Saʻīd ʻAbd Allāh",
+            "url": "https://en.wikipedia.org/wiki/Muḥammad_Saʻīd_ʻAbd_Allāh"
+          }
+        ]
+      },
+      {
+        "name": "Sadeq Ameen Abu Rass",
+        "qid": "Q28714829",
+        "year_start": 1990,
+        "year_end": 1994,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q28714829",
+            "url": "https://www.wikidata.org/wiki/Q28714829"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Sadeq Ameen Abu Rass",
+            "url": "https://en.wikipedia.org/wiki/Sadeq_Amin_Abu_Rass"
+          }
+        ]
+      },
+      {
+        "name": "Muḥammad Aḥmad jrhwm",
+        "qid": "Q137859710",
+        "year_start": 1990,
+        "year_end": 1993,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q137859710",
+            "url": "https://www.wikidata.org/wiki/Q137859710"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Muḥammad Aḥmad jrhwm",
+            "url": "https://en.wikipedia.org/wiki/Muḥammad_Aḥmad_jrhwm"
+          }
+        ]
+      },
+      {
+        "name": "Sālim Muḥammad Jubrān",
+        "qid": "Q137860985",
+        "year_start": 1990,
+        "year_end": 1993,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q137860985",
+            "url": "https://www.wikidata.org/wiki/Q137860985"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Sālim Muḥammad Jubrān",
+            "url": "https://en.wikipedia.org/wiki/Sālim_Muḥammad_Jubrān"
+          }
+        ]
+      },
+      {
+        "name": "Mohammed Ahmed Al-Kabab",
+        "qid": "Q125494071",
+        "year_start": 1990,
+        "year_end": 1994,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q125494071",
+            "url": "https://www.wikidata.org/wiki/Q125494071"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mohammed Ahmed Al-Kabab",
+            "url": "https://en.wikipedia.org/wiki/Mohammed_Ahmed_Al-Kabab"
+          }
+        ]
+      },
+      {
+        "name": "Maḥmūd ʻAbd Allāh al-ʻArāsī",
+        "qid": "Q138556905",
+        "year_start": 1990,
+        "year_end": 1994,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q138556905",
+            "url": "https://www.wikidata.org/wiki/Q138556905"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Maḥmūd ʻAbd Allāh al-ʻArāsī",
+            "url": "https://en.wikipedia.org/wiki/Maḥmūd_ʻAbd_Allāh_al-ʻArāsī"
+          }
+        ]
+      },
+      {
+        "name": "Faraj Said Bin Ghanem",
+        "qid": "Q5434768",
+        "year_start": 1990,
+        "year_end": 1993,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q5434768",
+            "url": "https://www.wikidata.org/wiki/Q5434768"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Faraj Said Bin Ghanem",
+            "url": "https://en.wikipedia.org/wiki/Faraj_Said_Bin_Ghanem"
+          }
+        ]
+      },
+      {
+        "name": "Alawi Saleh al-Salami",
+        "qid": "Q116264110",
+        "year_start": 1990,
+        "year_end": 1994,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q116264110",
+            "url": "https://www.wikidata.org/wiki/Q116264110"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Alawi Saleh al-Salami",
+            "url": "https://en.wikipedia.org/wiki/Alawi_Saleh_al-Salami"
+          }
+        ]
+      },
+      {
+        "name": "Hasan al-Lawzi",
+        "qid": "Q2784436",
+        "year_start": 1990,
+        "year_end": 1993,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2784436",
+            "url": "https://www.wikidata.org/wiki/Q2784436"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Hasan al-Lawzi",
+            "url": "https://en.wikipedia.org/wiki/Hasan_al-Lawzi"
+          }
+        ]
+      },
+      {
+        "name": "Muḥammad ʻAlī Muqbil",
+        "qid": "Q138556627",
+        "year_start": 1990,
+        "year_end": 1993,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q138556627",
+            "url": "https://www.wikidata.org/wiki/Q138556627"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Muḥammad ʻAlī Muqbil",
+            "url": "https://en.wikipedia.org/wiki/Muḥammad_ʻAlī_Muqbil"
+          }
+        ]
+      },
+      {
+        "name": "Muḥammad ʻAbd Allāh aljāʼfy",
+        "qid": "Q138552841",
+        "year_start": 1990,
+        "year_end": 1993,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q138552841",
+            "url": "https://www.wikidata.org/wiki/Q138552841"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Muḥammad ʻAbd Allāh aljāʼfy",
+            "url": "https://en.wikipedia.org/wiki/Muḥammad_ʻAbd_Allāh_aljāʼfy"
+          }
+        ]
+      },
+      {
+        "name": "Aḥmad Sālim al-Qāḍī",
+        "qid": "Q138557947",
+        "year_start": 1990,
+        "year_end": 1993,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q138557947",
+            "url": "https://www.wikidata.org/wiki/Q138557947"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Aḥmad Sālim al-Qāḍī",
+            "url": "https://en.wikipedia.org/wiki/Aḥmad_Sālim_al-Qāḍī"
+          }
+        ]
+      },
+      {
+        "name": "Muhammad Said al-Attar",
+        "qid": "Q12240557",
+        "year_start": 1990,
+        "year_end": 1996,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q12240557",
+            "url": "https://www.wikidata.org/wiki/Q12240557"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Muhammad Said al-Attar",
+            "url": "https://en.wikipedia.org/wiki/Muhammad_Said_al-Attar"
+          }
+        ]
+      },
+      {
+        "name": "Faḍl Muḥsin ʻAbd Allāh",
+        "qid": "Q137844911",
+        "year_start": 1990,
+        "year_end": 1993,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q137844911",
+            "url": "https://www.wikidata.org/wiki/Q137844911"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Faḍl Muḥsin ʻAbd Allāh",
+            "url": "https://en.wikipedia.org/wiki/Faḍl_Muḥsin_ʻAbd_Allāh"
+          }
+        ]
+      },
+      {
+        "name": "ʻAbd al-ʻAzīz al-Dālī",
+        "qid": "Q137824331",
+        "year_start": 1990,
+        "year_end": 1993,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q137824331",
+            "url": "https://www.wikidata.org/wiki/Q137824331"
+          },
+          {
+            "type": "wikipedia",
+            "label": "ʻAbd al-ʻAzīz al-Dālī",
+            "url": "https://en.wikipedia.org/wiki/ʻAbd_al-ʻAzīz_al-Dālī"
+          }
+        ]
+      },
+      {
+        "name": "Rashid Mohammed Thabit",
+        "qid": "Q137845940",
+        "year_start": 1990,
+        "year_end": 1993,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q137845940",
+            "url": "https://www.wikidata.org/wiki/Q137845940"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Rashid Mohammed Thabit",
+            "url": "https://en.wikipedia.org/wiki/Rashid_Mohammed_Thabit"
+          }
+        ]
+      },
+      {
+        "name": "Muḥammad al-Khādim al-Wajīh",
+        "qid": "Q138547506",
+        "year_start": 1990,
+        "year_end": 1993,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q138547506",
+            "url": "https://www.wikidata.org/wiki/Q138547506"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Muḥammad al-Khādim al-Wajīh",
+            "url": "https://en.wikipedia.org/wiki/Muḥammad_al-Khādim_al-Wajīh"
+          }
+        ]
+      },
+      {
+        "name": "Ahmed Mohamed Luqman",
+        "qid": "Q20386152",
+        "year_start": 1990,
+        "year_end": 1993,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q20386152",
+            "url": "https://www.wikidata.org/wiki/Q20386152"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ahmed Mohamed Luqman",
+            "url": "https://en.wikipedia.org/wiki/Ahmed_Mohamed_Luqman"
+          }
+        ]
+      },
+      {
+        "name": "ʻAbd al-Qawī Muthanná Hādī",
+        "qid": "Q137861013",
+        "year_start": 1990,
+        "year_end": 1990,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q137861013",
+            "url": "https://www.wikidata.org/wiki/Q137861013"
+          },
+          {
+            "type": "wikipedia",
+            "label": "ʻAbd al-Qawī Muthanná Hādī",
+            "url": "https://en.wikipedia.org/wiki/ʻAbd_al-Qawī_Muthanná_Hādī"
+          }
+        ]
+      },
+      {
+        "name": "ʻAbd al-Raḥmān Dhībān",
+        "qid": "Q138557805",
+        "year_start": 1990,
+        "year_end": 1997,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q138557805",
+            "url": "https://www.wikidata.org/wiki/Q138557805"
+          },
+          {
+            "type": "wikipedia",
+            "label": "ʻAbd al-Raḥmān Dhībān",
+            "url": "https://en.wikipedia.org/wiki/ʻAbd_al-Raḥmān_Dhībān"
+          }
+        ]
+      },
+      {
+        "name": "Yahya al-Mutawakel",
+        "qid": "Q12251666",
+        "year_start": 1990,
+        "year_end": 1995,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q12251666",
+            "url": "https://www.wikidata.org/wiki/Q12251666"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Yahya al-Mutawakel",
+            "url": "https://en.wikipedia.org/wiki/Yahya_Al-Mutawakel"
+          }
+        ]
+      },
+      {
+        "name": "Yahya Rabah",
+        "qid": "Q116620330",
+        "year_start": 1990,
+        "year_end": 2003,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q116620330",
+            "url": "https://www.wikidata.org/wiki/Q116620330"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Yahya Rabah",
+            "url": "https://en.wikipedia.org/wiki/Yahya_Rabah"
+          }
+        ]
+      },
+      {
+        "name": "Muḥammad Aḥmad Salmān",
+        "qid": "Q137858746",
+        "year_start": 1990,
+        "year_end": 1993,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q137858746",
+            "url": "https://www.wikidata.org/wiki/Q137858746"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Muḥammad Aḥmad Salmān",
+            "url": "https://en.wikipedia.org/wiki/Muḥammad_Aḥmad_Salmān"
+          }
+        ]
+      },
+      {
+        "name": "Mieczysław Stępiński",
+        "qid": "Q64821815",
+        "year_start": 1991,
+        "year_end": 1996,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q64821815",
+            "url": "https://www.wikidata.org/wiki/Q64821815"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mieczysław Stępiński",
+            "url": "https://en.wikipedia.org/wiki/Mieczysław_Stępiński"
+          }
+        ]
+      },
+      {
+        "name": "Sadiq al-Ahmar",
+        "qid": "Q475105",
+        "year_start": 1993,
+        "year_end": 2003,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q475105",
+            "url": "https://www.wikidata.org/wiki/Q475105"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Sadiq al-Ahmar",
+            "url": "https://en.wikipedia.org/wiki/Sadiq_al-Ahmar"
+          }
+        ]
+      },
+      {
+        "name": "Mohammed Basindawa",
+        "qid": "Q57905",
+        "year_start": 1993,
+        "year_end": 1994,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q57905",
+            "url": "https://www.wikidata.org/wiki/Q57905"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mohammed Basindawa",
+            "url": "https://en.wikipedia.org/wiki/Mohammed_Basindawa"
+          }
+        ]
+      },
+      {
+        "name": "Ghālib ʻAbd al-Kāfī Qurashī",
+        "qid": "Q16125181",
+        "year_start": 1993,
+        "year_end": 1997,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q16125181",
+            "url": "https://www.wikidata.org/wiki/Q16125181"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Ghālib ʻAbd al-Kāfī Qurashī",
+            "url": "https://en.wikipedia.org/wiki/Ghālib_ʻAbd_al-Kāfī_Qurashī"
+          }
+        ]
+      },
+      {
+        "name": "Mohammed Hassan Damaj",
+        "qid": "Q116480225",
+        "year_start": 1993,
+        "year_end": 1997,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q116480225",
+            "url": "https://www.wikidata.org/wiki/Q116480225"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Mohammed Hassan Damaj",
+            "url": "https://en.wikipedia.org/wiki/Mohammed_Hassan_Damaj"
+          }
+        ]
+      }
+    ],
+    "population_from_wikidata": [
+      {
+        "estimate": 9402070,
+        "confidence": "low",
+        "year": 1984
+      },
+      {
+        "estimate": 15831757,
+        "confidence": "low",
+        "year": 1994
+      },
+      {
+        "estimate": 19685161,
+        "confidence": "low",
+        "year": 2004
+      },
+      {
+        "estimate": 22492035,
+        "confidence": "low",
+        "year": 2009
+      },
+      {
+        "estimate": 24259561,
+        "confidence": "low",
+        "year": 2012
+      },
+      {
+        "estimate": 26183676,
+        "confidence": "low",
+        "year": 2014
+      },
+      {
+        "estimate": 28250420,
+        "confidence": "low",
+        "year": 2017
+      }
+    ]
+  },
+  "monogram": "YE"
+}

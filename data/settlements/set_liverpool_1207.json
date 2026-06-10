@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_liverpool_1207",
+  "name": "Liverpool",
+  "importance": "city",
+  "start_year": 1207,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q24826"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    -2.9917,
+    53.4072
+  ]
+}

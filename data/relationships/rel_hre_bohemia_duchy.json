@@ -1,0 +1,38 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_hre_bohemia_duchy",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "holy_roman_empire",
+      "role": "suzerain"
+    },
+    {
+      "entity_id": "duchy_of_bohemia",
+      "role": "vassal"
+    }
+  ],
+  "directed": true,
+  "type": "vassalage",
+  "since": 962,
+  "until": 1198,
+  "note": "Bohemia was incorporated into the Holy Roman Empire as a stem duchy when the Přemyslid dynasty accepted imperial suzerainty (c. 950 under Boleslav I). As the Kingdom of Bohemia (elevated by Frederick Barbarossa in 1198), it became one of the seven electoral princes with special constitutional status: the King of Bohemia was the first among secular electors, presided over the electoral feast as royal cup-bearer (Mundschenk), and — uniquely among imperial territories — held his crown by hereditary right and was exempt from many imperial obligations. The Golden Bull of 1356 codified Bohemia's exceptional position.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Bohemia's exceptional status as a hereditary electoral kingdom within the empire creates its unique constitutional position; the Golden Bull makes the Bohemian king the most powerful secular elector; Bohemia's combination of resources and autonomy makes it the prize of central European politics"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

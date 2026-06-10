@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "pazzi_conspiracy_1478",
+  "name": "Pazzi Conspiracy, Assassination Attempt on Lorenzo de' Medici",
+  "year": 1478,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    43.77,
+    11.25
+  ],
+  "entity": "republic_of_florence",
+  "summary": "The Pazzi banking family, backed by Pope Sixtus IV and the Archbishop of Pisa, organizes an assassination attempt against the Medici brothers during High Mass in Florence Cathedral (April 26, 1478). Giuliano de' Medici is stabbed 19 times and killed; Lorenzo escapes wounded. Florence rallies to the Medici; the conspirators are hunted down and hanged from the Palazzo della Signoria. Lorenzo's response, executing the Archbishop, provokes a papal interdict and war.",
+  "outcomes": [
+    "giuliano_medici_killed",
+    "lorenzo_survives",
+    "medici_power_consolidated"
+  ],
+  "_quarry": {
+    "participants": [
+      "republic_of_florence",
+      "papal_states"
+    ],
+    "structural_significance": "The Pazzi Conspiracy demonstrates the extreme instability beneath Italian city-state politics; even the most sophisticated banking dynasty needed military protection and could not rely on institutional guarantees; Lorenzo's survival and subsequent consolidation of power makes him the dominant figure in Italian politics for another decade; his cultivation of humanist culture (Michelangelo, Botticelli, Poliziano) at the Medici court represents the apex of Florentine cultural patronage",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "najemy_a_2006",
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

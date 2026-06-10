@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "spanish_inquisition_1478",
+  "name": "Founding of the Spanish Inquisition",
+  "year": 1478,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    40.416,
+    -3.703
+  ],
+  "entity": "crown_of_castile",
+  "summary": "Ferdinand and Isabella obtained a papal bull in 1478 authorizing a new inquisition to investigate the sincerity of Jewish converts to Christianity (conversos). Unlike earlier papal inquisitions, this was a royal institution under crown control. Under Tomás de Torquemada from 1483, it conducted thousands of trials across the peninsula, using torture and burning of heretics. Its primary initial targets were conversos suspected of continuing Jewish practice.",
+  "outcomes": [
+    "Pope Sixtus IV authorizes Inquisition in Castile",
+    "Tomás de Torquemada becomes Grand Inquisitor 1483",
+    "Thousands of conversos investigated for secret Judaism",
+    "Operates until 1834"
+  ],
+  "_quarry": {
+    "participants": [
+      "crown_of_castile",
+      "crown_of_aragon",
+      "papal_states"
+    ],
+    "structural_significance": "The first inquisition under direct royal rather than papal control; became one of the most powerful instruments of royal and religious conformity in early modern Europe.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "Kamen, The Spanish Inquisition",
+      "Peters, Inquisition"
+    ],
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_sack_of_kiev_1240_c03",
+  "statement": "After the 1240 sack the Kievan political confederation of Rus principalities ceased to exist as an independent entity.",
+  "subject_ids": [
+    "mongol_empire"
+  ],
+  "period": {
+    "from": 1240,
+    "to": 1240
+  },
+  "derived_from": "sack_of_kiev_1240",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

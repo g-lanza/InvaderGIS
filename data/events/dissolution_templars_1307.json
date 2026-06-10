@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "dissolution_templars_1307",
+  "name": "Arrest and Dissolution of the Knights Templar",
+  "year": 1307,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    48.85,
+    2.35
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "On October 13, 1307 (Friday the 13th), Philip IV of France orders the simultaneous arrest of all Templars in France, approximately 15,000 men including Grand Master Jacques de Molay. Under torture, many confess to heresy, sodomy, and denial of Christ. Pope Clement V (residing at Avignon under French influence) orders the arrest of Templars across Europe. The Council of Vienne (1312) formally dissolves the Order. Jacques de Molay and Geoffrey de Charney are burned at the stake in 1314, reportedly cursing Philip and Clement from the flames.",
+  "outcomes": [
+    "knights_templar_dissolved",
+    "templar_assets_seized",
+    "grand_master_de_molay_burned"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "papal_states"
+    ],
+    "structural_significance": "Destroys the most powerful military order in Christendom; Philip IV cancels his enormous debts to the Templars; their assets are transferred largely to the Hospitallers and the French Crown; the dissolution ends the era of crusading military orders as autonomous geopolitical actors; the 'Friday the 13th' curse becomes a lasting cultural memory",
+    "year_range": [
+      1307,
+      1312
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

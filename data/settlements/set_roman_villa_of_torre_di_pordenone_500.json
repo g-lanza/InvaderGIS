@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_roman_villa_of_torre_di_pordenone_500",
+  "name": "Roman villa of Torre di Pordenone",
+  "importance": "city",
+  "start_year": 500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "inferred",
+    "external_ids": {
+      "pleiades": "125510816"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    12.6817,
+    45.9668
+  ]
+}

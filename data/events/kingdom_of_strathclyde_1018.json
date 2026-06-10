@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_strathclyde_1018",
+  "name": "Strathclyde Absorbed into Scotland",
+  "year": 1018,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    55.975,
+    -3.8
+  ],
+  "entity": "kingdom_of_strathclyde",
+  "summary": "Following the Battle of Carham in 1018, where Strathclyde and Scottish forces defeated Northumbria, the Kingdom of Strathclyde effectively merged with Scotland when its last king died without heirs. This completed Scottish control of mainland Britain north of the Solway-Tweed line.",
+  "outcomes": [
+    "malcolm_ii_inherits",
+    "scottish_territory_expands",
+    "british_kingdom_ends"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_strathclyde",
+      "kingdom_of_alba"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

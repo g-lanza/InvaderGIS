@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_principality_of_wales_1067_1405",
+  "statement": "Principality of Wales — campaigns and battles spanned 1067–1405, from Norman invasion of Wales to Battle of Milford Haven.",
+  "subject_ids": [
+    "principality_of_wales"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_principality_of_wales_1067_1405",
+  "period": {
+    "from": 1067,
+    "to": 1405
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

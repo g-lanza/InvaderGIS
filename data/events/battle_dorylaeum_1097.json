@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_dorylaeum_1097",
+  "name": "Battle of Dorylaeum",
+  "year": 1097,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    39.78,
+    30.52
+  ],
+  "entity": "kingdom_of_jerusalem",
+  "summary": "The First Crusade's most dangerous moment: the vanguard under Bohemond of Taranto is ambushed by a large Seljuk force at Dorylaeum (modern Eskişehir) in July 1097. Seljuk horse archers encircle the Crusader column, raining arrows on knights who cannot effectively pursue them. The vanguard suffers terrible losses until Godfrey of Bouillon arrives with the main army; the combined force repels the attack and the Seljuks retreat. The victory opens the road across Anatolia and establishes the Crusaders' ability to defeat Seljuk armies in pitched battle.",
+  "outcomes": [
+    "crusader_army_nearly_destroyed",
+    "seljuk_ambush_repelled",
+    "anatolia_crossing_secured"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_jerusalem",
+      "seljuk_sultanate",
+      "sultanate_of_rum"
+    ],
+    "structural_significance": "Secures the Crusader crossing of Anatolia; demonstrates that heavy cavalry can defeat Seljuk horse archers when supported by a large enough force; the battle's near-disastrous opening teaches the Crusaders to keep their forces united; the subsequent occupation of Anatolia proves temporary, the Crusaders march through but cannot hold the territory",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

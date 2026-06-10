@@ -1,0 +1,38 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "sicilian_vespers_context_1282",
+  "name": "Sicilian Vespers, Origins and Immediate Causes",
+  "year": 1282,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    38.12,
+    13.36
+  ],
+  "entity": "kingdom_of_sicily_aragonese",
+  "summary": "The Sicilian Vespers uprising begins at the Church of the Holy Spirit outside Palermo on 30 March 1282, at the bell call for evening prayer. Sicilians massacre French Angevin soldiers and officials; within six weeks the entire island has expelled or killed the French garrison. Peter III of Aragon, with a fleet ready in Tunis claiming to be crusading, arrives in August and is accepted as king of Sicily by the rebels.",
+  "outcomes": [
+    "angevin_sicily_destroyed",
+    "peter_iii_invited",
+    "war_of_sicilian_vespers_begins"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_sicily_aragonese",
+      "kingdom_of_sicily_hohenstaufen",
+      "papal_states"
+    ],
+    "structural_significance": "The Vespers demonstrates that popular revolt could overthrow a military occupation when the ruling power had lost legitimacy through fiscal oppression and cultural contempt; the Angevin failure in Sicily directly causes the permanent separation of the Kingdom of Naples and Sicily that weakens both successor states; the episode shows how dynastic politics (the Aragonese claim through Constance of Sicily) could channel popular revolt into a new ruling arrangement",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

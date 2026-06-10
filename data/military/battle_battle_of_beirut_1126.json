@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_beirut_1126",
+  "name": "Battle of Beirut",
+  "subtype": "battle",
+  "start_year": 1126,
+  "end_year": 1126,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q132528607"
+    }
+  },
+  "description": "Battle during Crusader battles between 1101 and 1145 (1126)",
+  "coords": [
+    35.5131,
+    33.8869
+  ]
+}

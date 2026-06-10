@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_principality_of_tver_1238_c01",
+  "statement": "Tver rebuilt relatively quickly after the Mongol invasion of 1237-1242 due to its location north of the main Mongol routes.",
+  "subject_ids": [
+    "principality_of_tver"
+  ],
+  "period": {
+    "from": 1238,
+    "to": 1238
+  },
+  "derived_from": "principality_of_tver_1238",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

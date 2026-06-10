@@ -1,0 +1,130 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_visigothic_kingdom_410_713",
+  "name": "Visigothic Kingdom — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 410,
+  "year_end": 713,
+  "waypoints": [
+    {
+      "year": 410,
+      "place": "Sack of Rome by the Visigoths",
+      "coords": [
+        41.9,
+        12.5
+      ],
+      "note": "battle",
+      "event_id": "sack_of_rome_410"
+    },
+    {
+      "year": 507,
+      "place": "Battle of Vouillé",
+      "coords": [
+        46.66,
+        0.2
+      ],
+      "note": "battle",
+      "event_id": "battle_vouille_507"
+    },
+    {
+      "year": 507,
+      "place": "Franco-Gothic War",
+      "coords": [
+        43.075,
+        10.3
+      ],
+      "note": "military",
+      "event_id": "wd_franco_gothic_war_507"
+    },
+    {
+      "year": 507,
+      "place": "Siege of Arles",
+      "coords": [
+        43.7667,
+        4.1
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_arles_507"
+    },
+    {
+      "year": 535,
+      "place": "Gothic War of 535–554",
+      "coords": [
+        43.075,
+        10.3
+      ],
+      "note": "military",
+      "event_id": "wd_gothic_war_of_535_554_535"
+    },
+    {
+      "year": 585,
+      "place": "Visigoths Absorb Suebi Kingdom",
+      "coords": [
+        41.34,
+        -6.075
+      ],
+      "note": "military",
+      "event_id": "suebi_kingdom_585"
+    },
+    {
+      "year": 711,
+      "place": "Arab Conquest of Iberia",
+      "coords": [
+        36.1,
+        -5.3
+      ],
+      "note": "battle",
+      "event_id": "arab_conquest_iberia_711"
+    },
+    {
+      "year": 711,
+      "place": "Battle of Guadalete",
+      "coords": [
+        36.68,
+        -6.14
+      ],
+      "note": "battle",
+      "event_id": "battle_guadalete_711"
+    },
+    {
+      "year": 711,
+      "place": "Tariq ibn Ziyad Crosses the Strait of Gibraltar",
+      "coords": [
+        36.14,
+        -5.35
+      ],
+      "note": "conquest",
+      "event_id": "umayyad_expansion_iberia_711"
+    },
+    {
+      "year": 711,
+      "place": "Battle of Écija",
+      "coords": [
+        36.95,
+        16.3
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_cija_711"
+    },
+    {
+      "year": 713,
+      "place": "Battle of Orihuela",
+      "coords": [
+        36.95,
+        16.3
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_orihuela_713"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "collins_visigothic_2004",
+      "thompson_the_1969"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

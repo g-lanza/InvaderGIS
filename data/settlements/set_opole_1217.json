@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_opole_1217",
+  "name": "Opole",
+  "importance": "city",
+  "start_year": 1217,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q92212"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    17.9242,
+    50.6667
+  ]
+}

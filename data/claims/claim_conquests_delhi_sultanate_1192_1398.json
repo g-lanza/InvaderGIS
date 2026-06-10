@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_delhi_sultanate_1192_1398",
+  "statement": "Delhi Sultanate — campaigns and battles spanned 1192–1398, from Rajput Defeat at Tarain Ends Era to Siege of Multan.",
+  "subject_ids": [
+    "delhi_sultanate"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_delhi_sultanate_1192_1398",
+  "period": {
+    "from": 1192,
+    "to": 1398
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "jackson_the_1999",
+      "kumar_the_2007"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

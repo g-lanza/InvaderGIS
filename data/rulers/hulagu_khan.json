@@ -1,0 +1,53 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "hulagu_khan",
+  "name": "Hülegü Khan",
+  "polity": "ilkhanate",
+  "title": "khan",
+  "reign_start": 1256,
+  "reign_end": 1265,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 1217,
+      "death_year": 1265
+    },
+    "entity_associations": [
+      {
+        "entity_id": "ilkhanate",
+        "role": "khan",
+        "start_year": 1256,
+        "end_year": 1265
+      }
+    ],
+    "key_actions": [
+      {
+        "year": 1253,
+        "summary": "Despatched west from the Mongol heartland by his brother Möngke with orders to subjugate Iran, Iraq, and Syria.",
+        "source_id": "morgan_mongols_2007"
+      },
+      {
+        "year": 1256,
+        "summary": "Destroys the Nizari Ismaili strongholds in northern Iran, including Alamut on 15 December 1256.",
+        "source_id": "morgan_mongols_2007"
+      },
+      {
+        "year": 1258,
+        "summary": "Sacks Baghdad (29 January – 10 February 1258) and executes the Abbasid caliph al-Mustaʿṣim, ending the Abbasid caliphate as a political institution.",
+        "source_id": "morgan_mongols_2007"
+      }
+    ],
+    "region": "central_asia",
+    "name_variants": [
+      "Hulagu Khan",
+      "Hulegu"
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_mongols_2007"
+    ],
+    "confidence": "low"
+  }
+}

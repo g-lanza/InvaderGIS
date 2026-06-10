@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_thessalonica_1000",
+  "name": "Battle of Thessalonica",
+  "subtype": "battle",
+  "start_year": 1000,
+  "end_year": 1000,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q2890177"
+    }
+  },
+  "description": "Battle during Byzantine conquest of Bulgaria (1000)",
+  "coords": [
+    22.9,
+    40.65
+  ]
+}

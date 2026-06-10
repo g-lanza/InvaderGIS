@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "peace_constance_1183",
+  "name": "Peace of Constance",
+  "year": 1183,
+  "type": "treaty",
+  "category": "diplomacy",
+  "coords": [
+    47.66,
+    9.18
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "The Peace of Constance (June 25, 1183) formally ends the conflict between Holy Roman Emperor Frederick Barbarossa and the Lombard League of northern Italian communes, a conflict that had reached its decisive military moment at Legnano (1176). The peace grants the communes full self-governing rights (consuls, taxation, fortifications, leagues) in exchange for nominal imperial sovereignty and an annual payment. Frederick retains symbolic honors (the right to hear appeals) but accepts communal autonomy as the political reality. The Peace of Constance defines the constitutional relationship between the empire and the Italian cities for the remainder of the medieval period.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire"
+    ],
+    "structural_significance": "Formalizes the political independence of the northern Italian communes that produce the Renaissance; Barbarossa accepts communal self-governance in exchange for nominal sovereignty, a settlement that neither side can fully honor; the communes' autonomy produces Florence, Venice, Genoa, and Milan as independent political and cultural centers",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

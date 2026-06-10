@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_swabian_war_1499_c02",
+  "statement": "Emperor Maximilian I attempted to impose imperial taxation and court jurisdiction on the Swiss cantons, which the Swiss refused.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1499,
+    "to": 1499
+  },
+  "derived_from": "swabian_war_1499",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

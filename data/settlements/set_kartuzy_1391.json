@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_kartuzy_1391",
+  "name": "Kartuzy",
+  "importance": "city",
+  "start_year": 1391,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q640355"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    18.1974,
+    54.3342
+  ]
+}

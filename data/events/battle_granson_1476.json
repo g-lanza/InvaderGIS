@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_granson_1476",
+  "name": "Battle of Grandson, Swiss Destroy Burgundian Army",
+  "year": 1476,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    46.91,
+    6.65
+  ],
+  "entity": "swiss_confederation",
+  "summary": "The Swiss Confederacy destroys Charles the Bold's Burgundian army at Grandson on Lake Neuchâtel, the most spectacular Swiss military victory since Morgarten. The Burgundians flee in panic, abandoning their camp with Charles's treasury (the celebrated Bourgogne Diamond, the Order of the Golden Fleece's jewels), artillery train, and thousands of tents. Swiss pikemen demonstrate that disciplined infantry formations can rout even the best-equipped European armies.",
+  "outcomes": [
+    "burgundian_army_routed",
+    "enormous_plunder_captured",
+    "charles_the_bold_weakened"
+  ],
+  "_quarry": {
+    "participants": [
+      "swiss_confederation",
+      "duchy_of_burgundy"
+    ],
+    "structural_significance": "Grandson (followed by Murten and Nancy) ends Charles the Bold's imperial ambitions and fatally weakens Burgundy; the Swiss victory confirms the infantry revolution that Courtrai (1302) had begun, pike squares replace cavalry as the dominant tactical unit; Charles's death at Nancy (1477) without male heirs causes the Burgundian inheritance crisis that triggers the Habsburg-Valois rivalry",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "marchal_schweizer_2006",
+      "rippmann_die_2006"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

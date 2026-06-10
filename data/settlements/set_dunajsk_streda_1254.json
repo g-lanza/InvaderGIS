@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_dunajsk_streda_1254",
+  "name": "Dunajská Streda",
+  "importance": "city",
+  "start_year": 1254,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q646393"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    17.6147,
+    47.9961
+  ]
+}

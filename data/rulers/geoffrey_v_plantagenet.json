@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "geoffrey_v_plantagenet",
+  "name": "Geoffrey V Plantagenet",
+  "polity": "county_of_anjou",
+  "title": "ruler",
+  "reign_start": 1113,
+  "reign_end": 1151,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "county_of_anjou",
+        "role": "ruler",
+        "start_year": 1113,
+        "end_year": 1151
+      }
+    ],
+    "key_actions": [],
+    "region": "western_europe",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

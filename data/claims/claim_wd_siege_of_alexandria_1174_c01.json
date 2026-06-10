@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_alexandria_1174_c01",
+  "statement": "Siege of Alexandria (1174 CE), at Alexandria (part of Crusader battles between 1149 and 1189).",
+  "subject_ids": [
+    "kingdom_of_sicily_norman"
+  ],
+  "period": {
+    "from": 1174,
+    "to": 1174
+  },
+  "derived_from": "wd_siege_of_alexandria_1174",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

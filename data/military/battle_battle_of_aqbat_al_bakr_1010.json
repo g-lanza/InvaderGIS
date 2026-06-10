@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_aqbat_al_bakr_1010",
+  "name": "Battle of Aqbat al-Bakr",
+  "subtype": "battle",
+  "start_year": 1010,
+  "end_year": 1010,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q3302805"
+    }
+  },
+  "description": "Battle during Fitna of al-Andalus (1010)",
+  "coords": [
+    -5.0167,
+    38.1833
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_kingdom_of_norway_974_1263",
+  "statement": "Kingdom of Norway — campaigns and battles spanned 974–1263, from German–Danish War of 974 to Battle of Largs and Haakon IV's Death — Norwegian Decline.",
+  "subject_ids": [
+    "kingdom_of_norway"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_kingdom_of_norway_974_1263",
+  "period": {
+    "from": 974,
+    "to": 1263
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_the_1997",
+      "helle_the_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "zapotec_monte_alban",
+  "name_primary": "Zapotec of Monte Albán",
+  "name_variants": [
+    "Monte Albán Zapotec",
+    "Classic Zapotec"
+  ],
+  "type": "city_state",
+  "region": "mesoamerica",
+  "formed": 100,
+  "dissolved": 850,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    17.04,
+    -96.77
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Pre-Columbian Zapotec polity centred on the hilltop city of Monte Albán above the modern Mexican city of Oaxaca, with a continuous occupation from roughly 500 BCE through to the ninth century. At its Classic peak Monte Albán housed perhaps 25,000 residents and exercised regional dominance across the Oaxaca Valley through a network of fortified secondary centres. Its decline from around 700 onward preceded political fragmentation across the valley and the postclassic Mixtec ascendancy at Mitla and elsewhere.",
+  "temporal": {
+    "start_year": 100,
+    "end_year": 850,
+    "end_year_within_scope": 850,
+    "notes": "Classic Zapotec urban civilisation centred on Monte Albán above the Oaxaca Valley; political authority at the site contracted sharply by ~850, after which power dispersed to Mitla, Yagul, and smaller centres."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      17.04,
+      -96.77
+    ],
+    "core_regions": [
+      "oaxaca_valley"
+    ],
+    "notes": "Centroid set at Monte Albán."
+  },
+  "successor_entity_ids": [
+    "mixtec"
+  ],
+  "monogram": "ZM"
+}

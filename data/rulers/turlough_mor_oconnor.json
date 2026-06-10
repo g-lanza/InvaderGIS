@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "turlough_mor_oconnor",
+  "name": "Turlough Mór O'Connor",
+  "polity": "kingdom_of_connacht",
+  "title": "ruler",
+  "reign_start": 1106,
+  "reign_end": 1156,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "kingdom_of_connacht",
+        "role": "ruler",
+        "start_year": 1106,
+        "end_year": 1156
+      }
+    ],
+    "key_actions": [],
+    "region": "british_isles",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

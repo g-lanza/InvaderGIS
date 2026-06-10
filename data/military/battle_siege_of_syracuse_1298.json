@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_siege_of_syracuse_1298",
+  "name": "Siege of Syracuse",
+  "subtype": "battle",
+  "start_year": 1298,
+  "end_year": 1298,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q11949559"
+    }
+  },
+  "description": "Battle during Sicilian Vespers (1298)",
+  "coords": [
+    15.2875,
+    37.0692
+  ]
+}

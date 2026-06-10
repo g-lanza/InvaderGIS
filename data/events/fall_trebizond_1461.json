@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "fall_trebizond_1461",
+  "name": "Fall of Trebizond",
+  "year": 1461,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    41.01,
+    39.73
+  ],
+  "entity": "empire_of_trebizond",
+  "summary": "Mehmed II's Ottoman forces besiege Trebizond (the Empire of Trebizond, the last Byzantine successor state) in August 1461. The Ottoman navy blockades the harbor while land forces advance through the Pontic Alps. After a month, Emperor David Komnenos surrenders; he is later executed despite promises of safety. The fall of Trebizond, 8 years after Constantinople, eliminates the last surviving Christian Greek imperial state. Mehmed II calls himself 'Caesar of Rome' after both conquests.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "empire_of_trebizond",
+      "ottoman_empire"
+    ],
+    "structural_significance": "Eliminates the last Byzantine successor state; completes Ottoman control of all former Byzantine territories; Mehmed II's claim to the Roman imperial title becomes uncontested",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "miller_trebizond_1926",
+      "eastmond_art_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

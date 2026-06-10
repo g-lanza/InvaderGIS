@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_brecon_1093",
+  "name": "Battle of Brecon",
+  "year": 1093,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    52.22,
+    -2.6
+  ],
+  "entity": "kingdom_of_england",
+  "summary": "Battle of Brecon (1093 CE), at Brecon (part of Norman invasion of Wales). Source: Wikidata Q137583618.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_england",
+      "kingdom_of_deheubarth"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

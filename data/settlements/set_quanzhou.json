@@ -1,0 +1,22 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_quanzhou",
+  "name": "Quanzhou (Zaitun)",
+  "importance": "city",
+  "start_year": 700,
+  "end_year": 1400,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "end_confidence": "medium",
+  "coords": [
+    118.676,
+    24.874
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "text",
+  "dataset": "medieval-europe-500-1500",
+  "id": "summa_theologica",
+  "name_primary": "Summa Theologica",
+  "author": "Thomas Aquinas",
+  "language": "Latin",
+  "composed": {
+    "year": 1265
+  },
+  "_quarry": {
+    "kind": "philosophical",
+    "polities_referenced": [
+      "kingdom_of_france",
+      "papal_states"
+    ],
+    "description": "Aquinas's unfinished synthesis of Christian theology with Aristotelian philosophy, written for advanced theology students between roughly 1265 and his death in 1274. Organised as a series of articles addressing objections, the Summa became the canonical statement of high-medieval scholastic method and the touchstone for later Thomist philosophy across the Latin Church."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "marenbon_later_medieval_philosophy_1991"
+    ],
+    "confidence": "low"
+  }
+}

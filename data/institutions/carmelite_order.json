@@ -1,0 +1,47 @@
+{
+  "kind": "institution",
+  "dataset": "medieval-europe-500-1500",
+  "id": "carmelite_order",
+  "name_primary": "Carmelite Order",
+  "domain": "mendicant_order",
+  "formed": 1206,
+  "dissolved": 1500,
+  "_quarry": {
+    "key_developments": [
+      {
+        "year": 1206,
+        "event": "Latin eremites settle on Mount Carmel under prior Brocard."
+      },
+      {
+        "year": 1214,
+        "event": "Albert of Jerusalem grants the primitive rule."
+      },
+      {
+        "year": 1247,
+        "event": "Innocent IV approves mitigated rule (Quae honorem Conditoris) and confers mendicant status."
+      },
+      {
+        "year": 1287,
+        "event": "Constitutions of Montpellier consolidate the order's mendicant character."
+      },
+      {
+        "year": 1432,
+        "event": "Eugene IV's Romani pontificis (mitigation of the rule) widely accepted."
+      }
+    ],
+    "influences_entities": [
+      "kingdom_of_jerusalem",
+      "kingdom_of_france",
+      "kingdom_of_england",
+      "papal_states"
+    ],
+    "description": "The Order of the Brothers of the Blessed Virgin Mary of Mount Carmel began as a community of Latin eremites on Mount Carmel in Crusader Palestine c.1206. Albert of Jerusalem, Latin Patriarch, gave them a primitive rule between 1206 and 1214 emphasising silence, manual labour, and continuous prayer. After Muslim reconquest of the Holy Land forced the brothers westward, Innocent IV's bull Quae honorem Conditoris (1247) approved a mitigated rule and incorporated the Carmelites among the mendicant orders alongside Dominicans, Franciscans, and Augustinian Hermits. The order's late-medieval doctrinal identity centred on Marian devotion and the scapular tradition."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lawrence_medieval_monasticism_2001"
+    ],
+    "confidence": "low"
+  }
+}

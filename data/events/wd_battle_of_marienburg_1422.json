@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_marienburg_1422",
+  "name": "Battle of Marienburg",
+  "year": 1422,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    50.5,
+    24
+  ],
+  "entity": "teutonic_order_state",
+  "summary": "Battle of Marienburg (1422 CE), at Malbork Castle (part of Golub War). Source: Wikidata Q18245721.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "teutonic_order_state",
+      "principality_of_moldavia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "christiansen_the_1997",
+      "urban_the_1994",
+      "turnbull_crusader_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

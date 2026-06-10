@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_second_bulgarian_empire_680_1389",
+  "statement": "Second Bulgarian Empire — campaigns and battles spanned 680–1389, from Byzantine–Bulgarian Wars to Hungarian–Ottoman War.",
+  "subject_ids": [
+    "second_bulgarian_empire"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_second_bulgarian_empire_680_1389",
+  "period": {
+    "from": 680,
+    "to": 1389
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fine_the_1987"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

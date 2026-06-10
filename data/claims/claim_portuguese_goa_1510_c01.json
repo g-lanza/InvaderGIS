@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_portuguese_goa_1510_c01",
+  "statement": "Afonso de Albuquerque captured Goa from the Bijapur Sultanate in 1510.",
+  "subject_ids": [
+    "kingdom_of_portugal"
+  ],
+  "period": {
+    "from": 1510,
+    "to": 1510
+  },
+  "derived_from": "portuguese_goa_1510",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

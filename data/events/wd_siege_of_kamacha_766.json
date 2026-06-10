@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_kamacha_766",
+  "name": "Siege of Kamacha",
+  "year": 766,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    37.15,
+    36.65
+  ],
+  "entity": "abbasid_caliphate",
+  "summary": "Siege of Kamacha (766 CE), at Kemah (part of Arab–Byzantine Wars). Source: Wikidata Q3485906.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "abbasid_caliphate",
+      "byzantine_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_the_2004",
+      "kennedy_when_2004",
+      "crone_gods_2004",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

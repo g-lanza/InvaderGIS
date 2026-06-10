@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_horde_beylik",
+  "statement": "The Golden Horde and the Anatolian Turkish beyliks competed for influence in the Black Sea and Pontic steppe region throughout the 14th century. The beyliks — including the Germiyanids, Sarukhanids, and Ramaids — operated within territories previously subject to Ilkhanid and then Golden Horde influence. The Ottoman beylik's rise complicated this relationship: as the Ottomans expanded into Thrace (1350s–1380s), they pushed the Golden Horde's southern influence northward. The Mongol-Ottoman confrontation culminated in Timur's defeat of Bayezid I at Ankara (1402), which temporarily reversed Ottoman gains.",
+  "subject_ids": [
+    "golden_horde",
+    "ottoman_beylik"
+  ],
+  "predicate": "rivalry",
+  "derived_from": "rel_horde_beylik",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "allsen_mongol_1987",
+      "reuter_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1299,
+    "to": 1453
+  }
+}

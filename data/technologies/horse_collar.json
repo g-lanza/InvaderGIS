@@ -1,0 +1,33 @@
+{
+  "kind": "technology",
+  "dataset": "medieval-europe-500-1500",
+  "id": "horse_collar",
+  "name_primary": "Padded horse collar",
+  "domain": "agricultural",
+  "origin": {
+    "place": "northern_europe",
+    "year": 900
+  },
+  "diffusion": [
+    "kingdom_of_france",
+    "carolingian_empire",
+    "kingdom_of_england",
+    "holy_roman_empire"
+  ],
+  "_quarry": {
+    "polities_adopted": [
+      "kingdom_of_france",
+      "carolingian_empire",
+      "kingdom_of_england",
+      "holy_roman_empire"
+    ],
+    "description": "Rigid padded collar resting on the horse's shoulders rather than the throat, letting a horse pull a plough or wagon without choking under load. Combined with the iron horseshoe and the heavy plough, it made horse traction efficient enough to displace ox teams across much of northern Europe between the tenth and twelfth centuries — a key piece of the medieval agricultural intensification that Duby traced."
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "duby_rural_economy_country_life_1968"
+    ],
+    "confidence": "low"
+  }
+}

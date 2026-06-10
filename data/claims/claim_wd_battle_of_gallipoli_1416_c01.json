@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_gallipoli_1416_c01",
+  "statement": "Battle of Gallipoli (1416 CE), at Gelibolu (part of Ottoman–Venetian Wars).",
+  "subject_ids": [
+    "republic_of_venice"
+  ],
+  "period": {
+    "from": 1416,
+    "to": 1416
+  },
+  "derived_from": "wd_battle_of_gallipoli_1416",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,348 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "guanches",
+  "name_primary": "Guanches",
+  "name_variants": [],
+  "type": "kingdom",
+  "region": "north_africa",
+  "formed": 500,
+  "dissolved": 1496,
+  "capital_history": [],
+  "polygon_snapshots": [],
+  "centroid": [
+    28.1673,
+    -16.9005
+  ],
+  "population_estimates": [
+    {
+      "year": 1000,
+      "estimate": 80000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q219995",
+          "url": "https://www.wikidata.org/wiki/Q219995",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Guanches",
+          "url": "https://en.wikipedia.org/wiki/Guanches"
+        }
+      ]
+    },
+    {
+      "year": 1200,
+      "estimate": 70000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q219995",
+          "url": "https://www.wikidata.org/wiki/Q219995",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Guanches",
+          "url": "https://en.wikipedia.org/wiki/Guanches"
+        }
+      ]
+    },
+    {
+      "year": 1400,
+      "estimate": 60000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q219995",
+          "url": "https://www.wikidata.org/wiki/Q219995",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Guanches",
+          "url": "https://en.wikipedia.org/wiki/Guanches"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  },
+  "description": "Indigenous Canary Island people (pre-contact to c. 16th c.) of Berber or proto-Berber origin whose seven island kingdoms were conquered by Castile between 1402 and 1496; the Guanche oral tradition, mummification practices, and cave culture represent the only uncontacted Atlantic island civilisation in the historical record, and their rapid demographic collapse after Spanish contact foreshadowed the catastrophic impact of Old World diseases on isolated populations.",
+  "temporal": {
+    "start_year": 500,
+    "end_year": 1496,
+    "notes": ""
+  },
+  "geographic": {
+    "centroid": [
+      28.1673,
+      -16.9005
+    ],
+    "polygon_simplified": [
+      [
+        [
+          28.05,
+          -14.5098
+        ],
+        [
+          28.391,
+          -14.147
+        ],
+        [
+          29.0486,
+          -13.8084
+        ],
+        [
+          29.4285,
+          -13.5182
+        ],
+        [
+          29.0909,
+          -13.4214
+        ],
+        [
+          28.8793,
+          -13.7842
+        ],
+        [
+          28.1994,
+          -13.881
+        ],
+        [
+          28.05,
+          -14.5098
+        ]
+      ],
+      [
+        [
+          28.178,
+          -15.574
+        ],
+        [
+          28.1994,
+          -15.4047
+        ],
+        [
+          27.9005,
+          -15.2112
+        ],
+        [
+          27.7294,
+          -15.574
+        ],
+        [
+          27.9005,
+          -15.9127
+        ],
+        [
+          28.178,
+          -15.574
+        ]
+      ],
+      [
+        [
+          28.2846,
+          -17.2913
+        ],
+        [
+          28.3272,
+          -16.8801
+        ],
+        [
+          28.5399,
+          -16.082
+        ],
+        [
+          28.3698,
+          -16.2271
+        ],
+        [
+          28.05,
+          -16.6383
+        ],
+        [
+          28.0287,
+          -17.3397
+        ],
+        [
+          28.2846,
+          -17.2913
+        ]
+      ]
+    ],
+    "no_central_capital": true,
+    "no_central_capital_reason": "Pre-conquest Canary Islands tribal society."
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "isolation",
+      "years": "pre-500 to 1400",
+      "description": "Berber-descended Guanches inhabited the Canary Islands in isolation from the African mainland; pastoral society with stone tools.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q219995",
+          "url": "https://www.wikidata.org/wiki/Q219995"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Guanches",
+          "url": "https://en.wikipedia.org/wiki/Guanches"
+        }
+      ]
+    },
+    {
+      "phase": "european_contact",
+      "years": "1400-1496",
+      "description": "Spanish and Portuguese contact initiated; islands conquered systematically, with fierce Guanche resistance notably in Tenerife.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q219995",
+          "url": "https://www.wikidata.org/wiki/Q219995"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Guanches",
+          "url": "https://en.wikipedia.org/wiki/Guanches"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "island_isolation",
+      "layer": "geography_territory",
+      "description": "Atlantic isolation preserved pre-metal Berber culture long after mainland North Africa was transformed by Islam.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q219995",
+          "url": "https://www.wikidata.org/wiki/Q219995"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Guanches",
+          "url": "https://en.wikipedia.org/wiki/Guanches"
+        }
+      ]
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "external_military_pressure",
+      "layer": "military_security",
+      "description": "Spanish iron weapons, horses, and disease overwhelmed Guanche stone-tool resistance.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q219995",
+          "url": "https://www.wikidata.org/wiki/Q219995"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Guanches",
+          "url": "https://en.wikipedia.org/wiki/Guanches"
+        }
+      ],
+      "tag_prose": "spanish_conquest"
+    },
+    {
+      "tag": "epidemic_demographic",
+      "layer": "external_political",
+      "description": "European diseases killed a large proportion of Guanche population before military conquest was complete.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q219995",
+          "url": "https://www.wikidata.org/wiki/Q219995"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Guanches",
+          "url": "https://en.wikipedia.org/wiki/Guanches"
+        }
+      ],
+      "tag_prose": "epidemic_disease"
+    }
+  ],
+  "key_figures": [
+    {
+      "name": "Bencomo",
+      "role": "chief_tenerife",
+      "years": "1490–1496",
+      "year_start": 1490,
+      "year_end": 1496,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Bencomo",
+          "url": "https://en.wikipedia.org/wiki/Bencomo"
+        }
+      ]
+    },
+    {
+      "name": "Tegueste I",
+      "role": "chief_tegueste",
+      "years": "1490–1496",
+      "year_start": 1490,
+      "year_end": 1496,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Tegueste I",
+          "url": "https://en.wikipedia.org/wiki/Tegueste_I"
+        }
+      ]
+    }
+  ],
+  "economic": {
+    "primary_base": "pastoralism",
+    "secondary_bases": [
+      "fishing",
+      "limited_agriculture"
+    ],
+    "wealth_level": "very_low",
+    "major_exports": [
+      "goat_skins",
+      "pottery",
+      "grain",
+      "fish"
+    ],
+    "major_trade_partners": [
+      "none"
+    ],
+    "revenue_sources": [
+      "pastoral_surplus",
+      "fishing"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q219995",
+        "url": "https://www.wikidata.org/wiki/Q219995"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Guanches",
+        "url": "https://en.wikipedia.org/wiki/Guanches"
+      }
+    ]
+  },
+  "wikidata_enrichment": {
+    "qid": "Q219995",
+    "matched_name": "Guanches",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Guanches"
+  },
+  "monogram": "GU"
+}

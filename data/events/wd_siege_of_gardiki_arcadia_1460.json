@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_siege_of_gardiki_arcadia_1460",
+  "name": "Siege of Gardiki-Arcadia",
+  "year": 1460,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41.3167,
+    21.2
+  ],
+  "entity": "republic_of_venice",
+  "summary": "Siege of Gardiki-Arcadia (1460 CE), at Gardiki Castle, Arcadia (part of Ottoman conquest of the Morea). Source: Wikidata Q137661987.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "republic_of_venice",
+      "ottoman_empire",
+      "despotate_of_the_morea"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "lane_venice_1973",
+      "norwich_a_1982"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

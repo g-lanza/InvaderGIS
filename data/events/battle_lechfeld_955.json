@@ -1,0 +1,38 @@
+{
+ "kind": "event",
+ "dataset": "medieval-europe-500-1500",
+ "id": "battle_lechfeld_955",
+ "name": "Battle of Lechfeld",
+ "year": 955,
+ "type": "battle",
+ "category": "violence",
+ "coords": [
+  48.37,
+  10.9
+ ],
+ "entity": "holy_roman_empire",
+ "summary": "Otto I assembles a coalition of German, Czech, and Italian knights to meet the invading Magyar (Hungarian) army near Augsburg. The decisive German victory ends half a century of Magyar raids deep into Western and Central Europe. The Magyars retreat and begin their transition from nomadic raiders to settled Christian kingdom under Prince Géza and later Stephen I.",
+ "outcomes": [
+  "magyar_expansion_halted",
+  "otto_imperial_prestige"
+ ],
+ "_quarry": {
+  "participants": [
+   "holy_roman_empire"
+  ],
+  "structural_significance": "Ends the Magyar threat to Central Europe; Otto's victory validates his claim to imperial dignity and leads directly to his coronation as emperor in 962; begins Hungary's conversion to Christianity",
+  "year_range": null
+ },
+ "provenance": {
+  "status": "draft",
+  "sources_used": [
+   "arnold_medieval_1997",
+   "scales_the_2012",
+   "fuhrmann_germany_1986",
+   "ims_fordham",
+   "ims_fordham_sbook1i"
+  ],
+  "confidence": "low",
+  "attestation": "inferred"
+ }
+}

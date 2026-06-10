@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "manuel_ii_coronation_1391",
+  "name": "Coronation of Manuel II Palaiologos",
+  "year": 1391,
+  "type": "coronation",
+  "category": "power",
+  "coords": [
+    41.005,
+    28.978
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Manuel II is crowned in Hagia Sophia, succeeding his father John V as Byzantine emperor of a state reduced to Constantinople, Thessalonica, and the Despotate of the Morea. Within months he is fighting alongside Sultan Bayezid I as a tributary vassal.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire"
+    ],
+    "structural_significance": "Marks the lowest political ebb of the Byzantine state before its fall in 1453. Manuel's later European tour (1399–1403) to seek military aid is the first time a sitting Byzantine emperor personally crosses the Latin West.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

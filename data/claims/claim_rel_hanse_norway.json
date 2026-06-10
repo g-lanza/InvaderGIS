@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_hanse_norway",
+  "statement": "The Hanseatic League's relationship with Norway was defined by the Bergen Kontor — one of the four main Hanseatic trading posts — established in Bergen's Bryggen (quay) district. German Hanseatic merchants virtually monopolized Norway's dried fish (stockfish) trade, exporting Norwegian cod to Catholic Europe's Friday markets while importing grain that Norway could not produce in sufficient quantities. The Hanse merchants in Bergen were notoriously exclusive, maintaining German language and customs and resisting Norwegian encroachment on their privileges. Bergen's Bryggen was effectively a German colonial quarter for over two centuries.",
+  "subject_ids": [
+    "hanseatic_league",
+    "kingdom_of_norway"
+  ],
+  "predicate": "contested_influence",
+  "derived_from": "rel_hanse_norway",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dollinger_the_1970",
+      "hammel-kiesow_die_2000",
+      "sawyer_the_1997",
+      "helle_the_2003"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1250,
+    "to": 1397
+  }
+}

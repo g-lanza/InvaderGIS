@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_mercia",
+  "name": "Tamworth",
+  "entity_id": "kingdom_of_mercia",
+  "entity_name": "Kingdom of Mercia",
+  "start_year": 527,
+  "end_year": 918,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q105092"
+    }
+  },
+  "coords": [
+    -1.695,
+    52.63389
+  ]
+}

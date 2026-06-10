@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_peace_of_god_989_c01",
+  "statement": "Beginning with the Council of Charroux in 989, a series of synods promulgated sacral protections for non-combatants, clergy, and peasants under threat of excommunication.",
+  "subject_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 989,
+    "to": 989
+  },
+  "derived_from": "peace_of_god_989",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "bartlett_making_of_europe_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

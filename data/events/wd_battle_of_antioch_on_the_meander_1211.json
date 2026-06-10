@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_antioch_on_the_meander_1211",
+  "name": "Battle of Antioch on the Meander",
+  "year": 1211,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.45,
+    31.1
+  ],
+  "entity": "empire_of_nicaea",
+  "summary": "Battle of Antioch on the Meander (1211 CE), at Antioch on the Maeander (part of Byzantine–Seljuq Wars). Source: Wikidata Q1364027.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "empire_of_nicaea",
+      "sultanate_of_rum"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

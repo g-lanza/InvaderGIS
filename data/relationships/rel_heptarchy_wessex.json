@@ -1,0 +1,36 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_heptarchy_wessex",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "anglo_saxon_heptarchy",
+      "role": "parent"
+    },
+    {
+      "entity_id": "kingdom_of_wessex",
+      "role": "fragment"
+    }
+  ],
+  "directed": true,
+  "type": "succession",
+  "since": 519,
+  "until": 519,
+  "note": "The Anglo-Saxon Heptarchy (the seven main kingdoms of early medieval England: Northumbria, Mercia, East Anglia, Essex, Kent, Sussex, and Wessex) was gradually consolidated into a single kingdom. Mercia dominated in the 8th century under Offa; the Viking invasions of the 9th century destroyed or subjugated all kingdoms except Wessex. Alfred the Great's survival of the Great Heathen Army's onslaught (871–878) and his subsequent reconquest made Wessex the foundation of English unification. His descendants — Edward the Elder, Æthelflæd, and Æthelstan — completed the consolidation by 927.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Heptarchy's collapse under Viking pressure makes Wessex the sole viable English kingdom; the Heptarchy's consolidation into a single kingdom under Æthelstan (927) creates the English state that survives to the present — making England one of the oldest uninterrupted national polities in Europe"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

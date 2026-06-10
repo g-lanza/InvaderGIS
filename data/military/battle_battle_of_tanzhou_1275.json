@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_tanzhou_1275",
+  "name": "Battle of Tanzhou",
+  "subtype": "battle",
+  "start_year": 1275,
+  "end_year": 1275,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q17033415"
+    }
+  },
+  "description": "Battle during Mongol conquest of the Song dynasty (1275)",
+  "coords": [
+    113.1319,
+    28.2439
+  ]
+}

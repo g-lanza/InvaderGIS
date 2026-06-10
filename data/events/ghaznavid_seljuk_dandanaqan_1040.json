@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ghaznavid_seljuk_dandanaqan_1040",
+  "name": "Battle of Dandanaqan, Seljuks Defeat Ghaznavids",
+  "year": 1040,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    34.769,
+    63.982
+  ],
+  "entity": "ghaznavid_emirate",
+  "summary": "The Seljuk Turks decisively defeated the Ghaznavid army at Dandanaqan, ending Ghaznavid control of Khorasan. The Ghaznavids retreated to Afghanistan and the Punjab, becoming a regional power rather than a Central Asian empire.",
+  "outcomes": [
+    "khorasan_lost",
+    "ghaznavid_decline",
+    "seljuk_rise"
+  ],
+  "_quarry": {
+    "participants": [
+      "ghaznavid_emirate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

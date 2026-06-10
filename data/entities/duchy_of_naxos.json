@@ -1,0 +1,1345 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_naxos",
+  "name_primary": "Duchy of the Archipelago",
+  "name_variants": [
+    "Duchy of Naxos",
+    "Duchy of the Aegean"
+  ],
+  "type": "duchy",
+  "region": "southeastern_europe",
+  "formed": 1207,
+  "dissolved": 1579,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 1210,
+      "label": "Duchy of the Archipelago",
+      "polygon": [
+        [
+          [
+            37.77,
+            25.07
+          ],
+          [
+            37.71,
+            24.83
+          ],
+          [
+            37.84,
+            24.68
+          ],
+          [
+            38.03,
+            24.69
+          ],
+          [
+            37.77,
+            25.07
+          ]
+        ],
+        [
+          [
+            37.13,
+            25.42
+          ],
+          [
+            37.13,
+            25.57
+          ],
+          [
+            37,
+            25.56
+          ],
+          [
+            37,
+            25.33
+          ],
+          [
+            37.13,
+            25.34
+          ],
+          [
+            37.13,
+            25.42
+          ]
+        ],
+        [
+          [
+            37.58,
+            24.43
+          ],
+          [
+            37.51,
+            24.27
+          ],
+          [
+            37.64,
+            24.2
+          ],
+          [
+            37.71,
+            24.36
+          ],
+          [
+            37.58,
+            24.43
+          ]
+        ]
+      ]
+    },
+    {
+      "year": 1305,
+      "label": "Duchy of the Archipelago",
+      "polygon": [
+        [
+          38.03,
+          24.69
+        ],
+        [
+          37.84,
+          24.68
+        ],
+        [
+          37.71,
+          24.83
+        ],
+        [
+          37.77,
+          25.07
+        ],
+        [
+          38.03,
+          24.69
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    37.8427,
+    24.8296
+  ],
+  "religion": "catholic",
+  "population_estimates": [
+    {
+      "year": 1250,
+      "estimate": 50000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q777981",
+          "url": "https://www.wikidata.org/wiki/Q777981",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of the Archipelago",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_the_Archipelago"
+        }
+      ]
+    },
+    {
+      "year": 1325,
+      "estimate": 60000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q777981",
+          "url": "https://www.wikidata.org/wiki/Q777981",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of the Archipelago",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_the_Archipelago"
+        }
+      ]
+    },
+    {
+      "year": 1400,
+      "estimate": 70000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q777981",
+          "url": "https://www.wikidata.org/wiki/Q777981",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of the Archipelago",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_the_Archipelago"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low"
+  },
+  "description": "Venetian-administered Aegean archipelago duchy (1207–1579) centred on Naxos; a relic Crusader state that survived through commercial pragmatism and shifting vassalage, first to the Latin Empire then nominally to Byzantium then to the Ottomans, until Selim II extinguished it to consolidate Aegean commercial control.",
+  "temporal": {
+    "start_year": 1207,
+    "end_year": 1579,
+    "end_year_within_scope": null,
+    "start_event_id": null,
+    "end_event_id": null,
+    "notes": "Venetian-affiliated Cycladic duchy (Marco Sanudo)."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      37.8427,
+      24.8296
+    ],
+    "core_regions": [
+      "Cyclades",
+      "Naxos"
+    ],
+    "polygon_simplified": [
+      [
+        38.03,
+        24.69
+      ],
+      [
+        37.84,
+        24.68
+      ],
+      [
+        37.71,
+        24.83
+      ],
+      [
+        37.77,
+        25.07
+      ],
+      [
+        38.03,
+        24.69
+      ]
+    ],
+    "notes": "Centroid approximate; polygon pending schematic or OHM sourcing.",
+    "polygon_snapshots": [
+      {
+        "year": 1210,
+        "label": "Duchy of the Archipelago",
+        "polygon": [
+          [
+            [
+              37.77,
+              25.07
+            ],
+            [
+              37.71,
+              24.83
+            ],
+            [
+              37.84,
+              24.68
+            ],
+            [
+              38.03,
+              24.69
+            ],
+            [
+              37.77,
+              25.07
+            ]
+          ],
+          [
+            [
+              37.13,
+              25.42
+            ],
+            [
+              37.13,
+              25.57
+            ],
+            [
+              37,
+              25.56
+            ],
+            [
+              37,
+              25.33
+            ],
+            [
+              37.13,
+              25.34
+            ],
+            [
+              37.13,
+              25.42
+            ]
+          ],
+          [
+            [
+              37.58,
+              24.43
+            ],
+            [
+              37.51,
+              24.27
+            ],
+            [
+              37.64,
+              24.2
+            ],
+            [
+              37.71,
+              24.36
+            ],
+            [
+              37.58,
+              24.43
+            ]
+          ]
+        ]
+      },
+      {
+        "year": 1305,
+        "label": "Duchy of the Archipelago",
+        "polygon": [
+          [
+            38.03,
+            24.69
+          ],
+          [
+            37.84,
+            24.68
+          ],
+          [
+            37.71,
+            24.83
+          ],
+          [
+            37.77,
+            25.07
+          ],
+          [
+            38.03,
+            24.69
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "real_historical_boundary",
+    "polygon_source": "Seshat-Global-History-Databank/cliopatria",
+    "polygon_source_date": "2026-05-10",
+    "capital": {
+      "name": "Naxos",
+      "coords": [
+        37.10194,
+        25.37944
+      ],
+      "source": "wikidata"
+    }
+  },
+  "internal_structure": {
+    "centralization": "low_to_medium",
+    "centralization_trajectory": null,
+    "governance_type": "dynastic_feudal",
+    "legitimacy_basis": [
+      "feudal_oath"
+    ],
+    "administrative_system": ""
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "formation",
+      "years": "c.1207–1230",
+      "description": "Marco Sanudo establishes the duchy from Fourth Crusade conquests.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q777981",
+          "url": "https://www.wikidata.org/wiki/Q777981"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of the Archipelago",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_the_Archipelago"
+        }
+      ]
+    },
+    {
+      "phase": "peak",
+      "years": "1230–1383",
+      "description": "Sanudo dynasty at height; Aegean trade flourishing.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q777981",
+          "url": "https://www.wikidata.org/wiki/Q777981"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of the Archipelago",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_the_Archipelago"
+        }
+      ]
+    },
+    {
+      "phase": "decline",
+      "years": "1383–1500",
+      "description": "Crispo dynasty; Ottoman pressure grows; tribute relations begin.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q777981",
+          "url": "https://www.wikidata.org/wiki/Q777981"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of the Archipelago",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_the_Archipelago"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "trade_route_control",
+      "layer": "economic_commercial",
+      "description": "The Cyclades island chain commanded Aegean sea routes between Venice, Constantinople, and Levantine ports.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q777981",
+          "url": "https://www.wikidata.org/wiki/Q777981"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of the Archipelago",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_the_Archipelago"
+        }
+      ]
+    },
+    {
+      "tag": "mobility_advantage",
+      "layer": "military_security",
+      "description": "Venetian-backed fleet projected power across the Aegean and defended island positions.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q777981",
+          "url": "https://www.wikidata.org/wiki/Q777981"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of the Archipelago",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_the_Archipelago"
+        }
+      ]
+    },
+    {
+      "tag": "external_alliance",
+      "layer": "external_political",
+      "description": "Venetian commercial patronage provided military and financial backing for the Sanudo dynasty.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q777981",
+          "url": "https://www.wikidata.org/wiki/Q777981"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of the Archipelago",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_the_Archipelago"
+        }
+      ]
+    },
+    {
+      "layer": "military_security",
+      "tag": "fourth_crusade_partition",
+      "direction": "rise",
+      "description": "Marco Sanudo founded the Duchy of Naxos by seizing the Cyclades islands following the Fourth Crusade's partition of the Byzantine Empire, establishing a Venetian-aligned maritime domain.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q777981",
+          "url": "https://www.wikidata.org/wiki/Q777981"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of the Archipelago",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_the_Archipelago"
+        }
+      ]
+    },
+    {
+      "layer": "economic_commercial",
+      "tag": "trade_route_control",
+      "direction": "rise",
+      "description": "The Cyclades islands controlled by the duchy sat on major Aegean shipping lanes, generating tolls and trade revenues from vessels moving between Constantinople, Venice, and the Levant.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q777981",
+          "url": "https://www.wikidata.org/wiki/Q777981"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of the Archipelago",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_the_Archipelago"
+        }
+      ],
+      "tag_prose": "aegean_trade"
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "external_military_pressure",
+      "layer": "military_security",
+      "description": "Ottoman naval expansion progressively isolated and threatened Aegean Latin states through the 15th century.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q777981",
+          "url": "https://www.wikidata.org/wiki/Q777981"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of the Archipelago",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_the_Archipelago"
+        }
+      ]
+    },
+    {
+      "tag": "succession_crisis",
+      "layer": "dynastic_legitimacy",
+      "description": "Sanudo dynasty ended; duchy passed to the Crispo family and eventually became an Ottoman vassal state.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q777981",
+          "url": "https://www.wikidata.org/wiki/Q777981"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of the Archipelago",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_the_Archipelago"
+        }
+      ]
+    },
+    {
+      "tag": "legitimacy_loss",
+      "layer": "dynastic_legitimacy",
+      "description": "Ottoman suzerainty from 1537 effectively ended independent governance.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q777981",
+          "url": "https://www.wikidata.org/wiki/Q777981"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of the Archipelago",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_the_Archipelago"
+        }
+      ]
+    },
+    {
+      "layer": "military_security",
+      "tag": "ottoman_naval_pressure",
+      "direction": "decline",
+      "description": "Ottoman expansion into the Aegean under Suleiman the Magnificent made the island duchy increasingly dependent on Ottoman goodwill, paying tribute from 1537 and eventually absorbed in 1579.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q777981",
+          "url": "https://www.wikidata.org/wiki/Q777981"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of the Archipelago",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_the_Archipelago"
+        }
+      ]
+    },
+    {
+      "layer": "governance_institutional",
+      "tag": "venetian_rivalry",
+      "direction": "decline",
+      "description": "Venice's growing commercial monopoly over the eastern Mediterranean undercut the duchy's independent trading position and left it without reliable support against Ottoman encroachment.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q777981",
+          "url": "https://www.wikidata.org/wiki/Q777981"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of the Archipelago",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_the_Archipelago"
+        }
+      ]
+    }
+  ],
+  "key_figures": [
+    {
+      "person_id": "marco_sanudo",
+      "name": "Marco Sanudo",
+      "role": "dynastic_founder",
+      "years": "1207–1227",
+      "year_start": 1207,
+      "year_end": 1227,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Marco Sanudo",
+          "url": "https://en.wikipedia.org/wiki/Marco_Sanudo"
+        }
+      ]
+    }
+  ],
+  "predecessor_entity_ids": [
+    "latin_empire_constantinople"
+  ],
+  "successor_entity_ids": [
+    "ottoman_empire"
+  ],
+  "primary_ethnicity": "greek_byzantine",
+  "ethnic_composition": [
+    {
+      "group": "greek_byzantine",
+      "proportion": 0.75
+    },
+    {
+      "group": "latin_frankish",
+      "proportion": 0.2
+    },
+    {
+      "group": "italian_roman",
+      "proportion": 0.05
+    }
+  ],
+  "religion_composition": [
+    {
+      "religion": "catholic",
+      "proportion": 0.91
+    },
+    {
+      "religion": "pagan",
+      "proportion": 0.05
+    },
+    {
+      "religion": "orthodox",
+      "proportion": 0.04
+    }
+  ],
+  "primary_language": "greek",
+  "language_composition": [
+    {
+      "language": "greek",
+      "proportion": 0.74,
+      "role": "vernacular"
+    },
+    {
+      "language": "italian_lang",
+      "proportion": 0.18,
+      "role": "administrative"
+    },
+    {
+      "language": "latin",
+      "proportion": 0.08,
+      "role": "liturgical"
+    }
+  ],
+  "economic": {
+    "primary_base": "maritime_trade",
+    "secondary_bases": [
+      "agriculture",
+      "tribute"
+    ],
+    "wealth_level": "moderate",
+    "major_exports": [
+      "grain",
+      "wine",
+      "emery",
+      "silk"
+    ],
+    "major_trade_partners": [
+      "republic_of_venice",
+      "duchy_of_athens",
+      "byzantine_empire"
+    ],
+    "revenue_sources": [
+      "customs_duties",
+      "land_tax",
+      "tribute"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q777981",
+        "url": "https://www.wikidata.org/wiki/Q777981"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Duchy of the Archipelago",
+        "url": "https://en.wikipedia.org/wiki/Duchy_of_the_Archipelago"
+      }
+    ]
+  },
+  "social_structure": {
+    "ruling_ethnicity": "latin_frankish",
+    "subject_majority": "greek_byzantine",
+    "military_ethnicity": "latin_frankish",
+    "administrative_language": "italian_lang",
+    "stratification_type": "conquest_colonial"
+  },
+  "wikidata_enrichment": {
+    "qid": "Q777981",
+    "matched_name": "Duchy of the Archipelago",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Duchy_of_the_Archipelago",
+    "capital": {
+      "name": "Naxos",
+      "coords": [
+        37.10194,
+        25.37944
+      ]
+    },
+    "rulers_from_wikidata": [
+      {
+        "name": "Francesc I Crispo d'Ios",
+        "qid": "Q11922770",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q11922770",
+            "url": "https://www.wikidata.org/wiki/Q11922770"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Francesc I Crispo d'Ios",
+            "url": "https://en.wikipedia.org/wiki/Francesc_I_Crispo_d'Ios"
+          }
+        ]
+      },
+      {
+        "name": "Marc I Crispo",
+        "qid": "Q11935162",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q11935162",
+            "url": "https://www.wikidata.org/wiki/Q11935162"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Marc I Crispo",
+            "url": "https://en.wikipedia.org/wiki/Marc_I_Crispo"
+          }
+        ]
+      },
+      {
+        "name": "Nicholas Crispo, Lord of Syros",
+        "qid": "Q11938746",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q11938746",
+            "url": "https://www.wikidata.org/wiki/Q11938746"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Nicholas Crispo, Lord of Syros",
+            "url": "https://en.wikipedia.org/wiki/Nicholas_Crispo,_Lord_of_Syros"
+          }
+        ]
+      },
+      {
+        "name": "Giacomo Crispo, Governor of the Duchy of the Archipelago",
+        "qid": "Q16828421",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q16828421",
+            "url": "https://www.wikidata.org/wiki/Q16828421"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Giacomo Crispo, Governor of the Duchy of the Archipelago",
+            "url": "https://en.wikipedia.org/wiki/William_II_Crispo"
+          }
+        ]
+      },
+      {
+        "name": "Francesc IV Crispo",
+        "qid": "Q20000740",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q20000740",
+            "url": "https://www.wikidata.org/wiki/Q20000740"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Francesc IV Crispo",
+            "url": "https://en.wikipedia.org/wiki/Francesc_IV_Crispo"
+          }
+        ]
+      },
+      {
+        "name": "Marc II Crispo",
+        "qid": "Q20005548",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q20005548",
+            "url": "https://www.wikidata.org/wiki/Q20005548"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Marc II Crispo",
+            "url": "https://en.wikipedia.org/wiki/Marc_II_Crispo"
+          }
+        ]
+      },
+      {
+        "name": "Gaspar Graziani",
+        "qid": "Q2439735",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2439735",
+            "url": "https://www.wikidata.org/wiki/Q2439735"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Gaspar Graziani",
+            "url": "https://en.wikipedia.org/wiki/Gaspar_Graziani"
+          }
+        ]
+      },
+      {
+        "name": "Giacomo II Crispo",
+        "qid": "Q2759331",
+        "year_start": null,
+        "year_end": 1447,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2759331",
+            "url": "https://www.wikidata.org/wiki/Q2759331"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Giacomo II Crispo",
+            "url": "https://en.wikipedia.org/wiki/Giacomo_II_Crispo"
+          }
+        ]
+      },
+      {
+        "name": "Nicholas II Sanudo",
+        "qid": "Q3339569",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3339569",
+            "url": "https://www.wikidata.org/wiki/Q3339569"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Nicholas II Sanudo",
+            "url": "https://en.wikipedia.org/wiki/Nicholas_II_Sanudo"
+          }
+        ]
+      },
+      {
+        "name": "Joseph Nasi",
+        "qid": "Q472202",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q472202",
+            "url": "https://www.wikidata.org/wiki/Q472202"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Joseph Nasi",
+            "url": "https://en.wikipedia.org/wiki/Joseph_Nasi"
+          }
+        ]
+      },
+      {
+        "name": "Antonio Crispo, Governor of the Duchy of the Archipelago",
+        "qid": "Q4776545",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q4776545",
+            "url": "https://www.wikidata.org/wiki/Q4776545"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Antonio Crispo, Governor of the Duchy of the Archipelago",
+            "url": "https://en.wikipedia.org/wiki/Antonio_Crispo,_Governor_of_the_Duchy_of_the_Archipelago"
+          }
+        ]
+      },
+      {
+        "name": "Fiorenza Sanudo",
+        "qid": "Q5451183",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q5451183",
+            "url": "https://www.wikidata.org/wiki/Q5451183"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Fiorenza Sanudo",
+            "url": "https://en.wikipedia.org/wiki/Florence_Sanudo"
+          }
+        ]
+      },
+      {
+        "name": "Guglielmazzo Sanudo, Lord of Gridia",
+        "qid": "Q5615234",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q5615234",
+            "url": "https://www.wikidata.org/wiki/Q5615234"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Guglielmazzo Sanudo, Lord of Gridia",
+            "url": "https://en.wikipedia.org/wiki/Guglielmazzo_Sanudo,_Lord_of_Gridia"
+          }
+        ]
+      },
+      {
+        "name": "Marco Sanudo, Lord of Gridia",
+        "qid": "Q6757706",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q6757706",
+            "url": "https://www.wikidata.org/wiki/Q6757706"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Marco Sanudo, Lord of Gridia",
+            "url": "https://en.wikipedia.org/wiki/Marco_Sanudo,_Lord_of_Gridia"
+          }
+        ]
+      },
+      {
+        "name": "Marco Sanudo",
+        "qid": "Q6757707",
+        "year_start": null,
+        "year_end": null,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q6757707",
+            "url": "https://www.wikidata.org/wiki/Q6757707"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Marco Sanudo",
+            "url": "https://en.wikipedia.org/wiki/Marco_Sanudo"
+          }
+        ]
+      },
+      {
+        "name": "Marco I Sanudo",
+        "qid": "Q542844",
+        "year_start": 1207,
+        "year_end": 1227,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q542844",
+            "url": "https://www.wikidata.org/wiki/Q542844"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Marco I Sanudo",
+            "url": "https://en.wikipedia.org/wiki/Marco_I_Sanudo"
+          }
+        ]
+      },
+      {
+        "name": "Angelo Sanudo",
+        "qid": "Q2499264",
+        "year_start": 1227,
+        "year_end": 1262,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2499264",
+            "url": "https://www.wikidata.org/wiki/Q2499264"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Angelo Sanudo",
+            "url": "https://en.wikipedia.org/wiki/Angelo_Sanudo"
+          }
+        ]
+      },
+      {
+        "name": "Marco II Sanudo",
+        "qid": "Q2759395",
+        "year_start": 1262,
+        "year_end": 1303,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2759395",
+            "url": "https://www.wikidata.org/wiki/Q2759395"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Marco II Sanudo",
+            "url": "https://en.wikipedia.org/wiki/Marco_II_Sanudo"
+          }
+        ]
+      },
+      {
+        "name": "William I Sanudo",
+        "qid": "Q2759806",
+        "year_start": 1303,
+        "year_end": 1323,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2759806",
+            "url": "https://www.wikidata.org/wiki/Q2759806"
+          },
+          {
+            "type": "wikipedia",
+            "label": "William I Sanudo",
+            "url": "https://en.wikipedia.org/wiki/William_I_Sanudo"
+          }
+        ]
+      },
+      {
+        "name": "Nicholas I Sanudo",
+        "qid": "Q2759814",
+        "year_start": 1323,
+        "year_end": 1341,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2759814",
+            "url": "https://www.wikidata.org/wiki/Q2759814"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Nicholas I Sanudo",
+            "url": "https://en.wikipedia.org/wiki/Nicholas_I_Sanudo"
+          }
+        ]
+      },
+      {
+        "name": "John I Sanudo",
+        "qid": "Q2759793",
+        "year_start": 1341,
+        "year_end": 1362,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2759793",
+            "url": "https://www.wikidata.org/wiki/Q2759793"
+          },
+          {
+            "type": "wikipedia",
+            "label": "John I Sanudo",
+            "url": "https://en.wikipedia.org/wiki/John_I_Sanudo"
+          }
+        ]
+      },
+      {
+        "name": "Florence Sanudo",
+        "qid": "Q2071796",
+        "year_start": 1362,
+        "year_end": 1371,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2071796",
+            "url": "https://www.wikidata.org/wiki/Q2071796"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Florence Sanudo",
+            "url": "https://en.wikipedia.org/wiki/Florence_Sanudo"
+          }
+        ]
+      },
+      {
+        "name": "Nicholas III dalle Carceri",
+        "qid": "Q2759131",
+        "year_start": 1371,
+        "year_end": 1383,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2759131",
+            "url": "https://www.wikidata.org/wiki/Q2759131"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Nicholas III dalle Carceri",
+            "url": "https://en.wikipedia.org/wiki/Nicholas_III_dalle_Carceri"
+          }
+        ]
+      },
+      {
+        "name": "Francesco I Crispo",
+        "qid": "Q2071807",
+        "year_start": 1383,
+        "year_end": 1397,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2071807",
+            "url": "https://www.wikidata.org/wiki/Q2071807"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Francesco I Crispo",
+            "url": "https://en.wikipedia.org/wiki/Francesco_I_Crispo"
+          }
+        ]
+      },
+      {
+        "name": "Giacomo I Crispo",
+        "qid": "Q2705166",
+        "year_start": 1397,
+        "year_end": 1418,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2705166",
+            "url": "https://www.wikidata.org/wiki/Q2705166"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Giacomo I Crispo",
+            "url": "https://en.wikipedia.org/wiki/Giacomo_I_Crispo"
+          }
+        ]
+      },
+      {
+        "name": "John II Crispo",
+        "qid": "Q661629",
+        "year_start": 1418,
+        "year_end": 1437,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q661629",
+            "url": "https://www.wikidata.org/wiki/Q661629"
+          },
+          {
+            "type": "wikipedia",
+            "label": "John II Crispo",
+            "url": "https://en.wikipedia.org/wiki/John_II_Crispo"
+          }
+        ]
+      },
+      {
+        "name": "Gian Giacomo Crispo",
+        "qid": "Q635834",
+        "year_start": 1447,
+        "year_end": 1453,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q635834",
+            "url": "https://www.wikidata.org/wiki/Q635834"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Gian Giacomo Crispo",
+            "url": "https://en.wikipedia.org/wiki/Gian_Giacomo_Crispo"
+          }
+        ]
+      },
+      {
+        "name": "William II Crispo",
+        "qid": "Q2758550",
+        "year_start": 1453,
+        "year_end": 1463,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2758550",
+            "url": "https://www.wikidata.org/wiki/Q2758550"
+          },
+          {
+            "type": "wikipedia",
+            "label": "William II Crispo",
+            "url": "https://en.wikipedia.org/wiki/William_II_Crispo"
+          }
+        ]
+      },
+      {
+        "name": "Giacomo III Crispo",
+        "qid": "Q2072658",
+        "year_start": 1463,
+        "year_end": 1480,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2072658",
+            "url": "https://www.wikidata.org/wiki/Q2072658"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Giacomo III Crispo",
+            "url": "https://en.wikipedia.org/wiki/Giacomo_III_Crispo"
+          }
+        ]
+      },
+      {
+        "name": "Francis II of Naxos",
+        "qid": "Q935405",
+        "year_start": 1463,
+        "year_end": 1463,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q935405",
+            "url": "https://www.wikidata.org/wiki/Q935405"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Francis II of Naxos",
+            "url": "https://en.wikipedia.org/wiki/Francis_II_of_Naxos"
+          }
+        ]
+      },
+      {
+        "name": "Giovanni III Crispo",
+        "qid": "Q3107226",
+        "year_start": 1480,
+        "year_end": 1494,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3107226",
+            "url": "https://www.wikidata.org/wiki/Q3107226"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Giovanni III Crispo",
+            "url": "https://en.wikipedia.org/wiki/John_III_Crispo"
+          }
+        ]
+      },
+      {
+        "name": "Francesco III Crispo",
+        "qid": "Q2072646",
+        "year_start": 1500,
+        "year_end": 1510,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2072646",
+            "url": "https://www.wikidata.org/wiki/Q2072646"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Francesco III Crispo",
+            "url": "https://en.wikipedia.org/wiki/Francesco_III_Crispo"
+          }
+        ]
+      },
+      {
+        "name": "Giovanni IV Crispo",
+        "qid": "Q3107230",
+        "year_start": 1510,
+        "year_end": 1564,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q3107230",
+            "url": "https://www.wikidata.org/wiki/Q3107230"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Giovanni IV Crispo",
+            "url": "https://en.wikipedia.org/wiki/John_IV_Crispo"
+          }
+        ]
+      },
+      {
+        "name": "Giacomo IV Crispo",
+        "qid": "Q2759412",
+        "year_start": 1564,
+        "year_end": 1566,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q2759412",
+            "url": "https://www.wikidata.org/wiki/Q2759412"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Giacomo IV Crispo",
+            "url": "https://en.wikipedia.org/wiki/Giacomo_IV_Crispo"
+          }
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "type": "book",
+      "author": "Wickham, Chris",
+      "title": "The Inheritance of Rome: A History of Europe from 400 to 1000",
+      "publisher": "Allen Lane",
+      "year": 2009
+    },
+    {
+      "type": "book",
+      "author": "Abulafia, David (ed.)",
+      "title": "The New Cambridge Medieval History, Vol. V: c. 1198 – c. 1300",
+      "publisher": "Cambridge University Press",
+      "year": 1999
+    }
+  ],
+  "monogram": "AR"
+}

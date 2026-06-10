@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "buyid_capture_baghdad_945",
+  "name": "Buyid Dynasty Captures Baghdad",
+  "year": 945,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    30.406,
+    51.47
+  ],
+  "entity": "buwayhid_emirates",
+  "summary": "Muiz al-Dawla Ahmad ibn Buya entered Baghdad and took control of the Abbasid Caliphate, confining the caliph to ceremonial functions. This Shia Persian dynasty's control of the symbolic heart of Sunni Islam is one of medieval history's great political paradoxes.",
+  "outcomes": [
+    "abbasid_caliph_controlled",
+    "buyid_power_peak",
+    "persian_revival"
+  ],
+  "_quarry": {
+    "participants": [
+      "buwayhid_emirates",
+      "buwayhid_emirates"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

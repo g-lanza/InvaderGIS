@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "chalukya_empire",
+  "name": "Manyakheta",
+  "entity_id": "chalukya_empire",
+  "entity_name": "Chalukya Dynasty",
+  "start_year": 543,
+  "end_year": 753,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q1395011"
+    }
+  },
+  "coords": [
+    77.16083,
+    17.195
+  ]
+}

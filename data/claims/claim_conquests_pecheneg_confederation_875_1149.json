@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_pecheneg_confederation_875_1149",
+  "statement": "Pecheneg Confederation — campaigns and battles spanned 875–1149, from Rus'-Pecheneg Wars to Byzantine–Hungarian War.",
+  "subject_ids": [
+    "pecheneg_confederation"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_pecheneg_confederation_875_1149",
+  "period": {
+    "from": 875,
+    "to": 1149
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

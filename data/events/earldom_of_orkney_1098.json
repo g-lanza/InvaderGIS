@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "earldom_of_orkney_1098",
+  "name": "Norway Cedes Hebrides, Retains Orkney",
+  "year": 1098,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    59,
+    -3
+  ],
+  "entity": "earldom_of_orkney",
+  "summary": "The Treaty of Tarbert in 1098 between Magnus Barefoot of Norway and Edgar of Scotland clarified the boundary between Norwegian and Scottish spheres. Norway retained Orkney, Shetland, and the Hebrides. The arrangement reflected the continuing importance of Norse political culture in the northern British Isles.",
+  "outcomes": [
+    "treaty_with_scotland",
+    "norway_retains_orkney",
+    "scottish_islands_disputed"
+  ],
+  "_quarry": {
+    "participants": [
+      "earldom_of_orkney"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

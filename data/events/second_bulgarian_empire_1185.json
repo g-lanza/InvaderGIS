@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "second_bulgarian_empire_1185",
+  "name": "Uprising of the Asen Brothers",
+  "year": 1185,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    43.08,
+    25.66
+  ],
+  "entity": "second_bulgarian_empire",
+  "summary": "Brothers Peter and Asen lead a Bulgarian uprising against Byzantine Emperor Isaac II Angelos in 1185, exploiting Byzantine weakness during the Third Crusade preparations. After being refused noble titles by Isaac II, they raise the Bulgarian banner at Tarnovo and rally the Bulgarian and Vlach population. Byzantine punitive campaigns fail; by 1187 Bulgaria's independence is effectively recognized. The Second Bulgarian Empire, with its capital at Tarnovo, becomes a significant Balkan power, at its peak under Ivan Asen II (1218–1241) controlling most of the Balkan peninsula.",
+  "outcomes": [
+    "bulgarian_independence_restored",
+    "tarnovo_capital_established",
+    "byzantine_control_balkans_weakened"
+  ],
+  "_quarry": {
+    "participants": [
+      "second_bulgarian_empire",
+      "byzantine_empire"
+    ],
+    "structural_significance": "Restores Bulgarian statehood after 167 years of Byzantine rule; the Second Bulgarian Empire complicates Byzantine politics for the next two centuries; Ivan Asen II's 13th-century empire nearly matches Dušan's Serbia in Balkan territorial control; the Tarnovo Patriarchate gives the empire religious independence from Constantinople",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "fine_the_1987"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

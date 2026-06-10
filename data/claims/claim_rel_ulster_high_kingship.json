@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_ulster_high_kingship",
+  "statement": "Ulster, as one of the five traditional provinces of Ireland (along with Munster, Leinster, Connacht, and Meath), contributed warriors and tribute to the High King system but frequently asserted regional autonomy. The Uí Néill dynasty — which dominated Ulster and also monopolized the High Kingship of Ireland — split into Northern and Southern branches. Brian Boru's challenge to Uí Néill dominance of the high kingship culminated in the Battle of Clontarf (1014). The Anglo-Norman conquest fragmented Ulster among native Irish chiefs and incoming Anglo-Norman lords.",
+  "subject_ids": [
+    "kingdom_of_ireland_high",
+    "kingdom_of_ulster"
+  ],
+  "predicate": "vassalage",
+  "derived_from": "rel_ulster_high_kingship",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "kingdom_of_ulster"
+  ],
+  "period": {
+    "from": 500,
+    "to": 1166
+  }
+}

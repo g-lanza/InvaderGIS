@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_hospitaller_cyprus",
+  "statement": "After the fall of Acre (1291), the Knights Hospitaller retreated to Cyprus, which they used as a base for another 20 years before conquering Rhodes (1309). Cyprus provided the order's headquarters, naval facilities, and recruitment grounds during the critical transition from a land-based military order to a maritime one. The order's presence in Cyprus also entangled it in the complex dynastic politics of the Lusignan kingdom — a relationship that both aided and complicated the order's development of its new Mediterranean naval role.",
+  "subject_ids": [
+    "knights_hospitaller_rhodes",
+    "kingdom_of_cyprus"
+  ],
+  "predicate": "alliance",
+  "derived_from": "rel_hospitaller_cyprus",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_hospitallers_1999",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1310,
+    "to": 1489
+  }
+}

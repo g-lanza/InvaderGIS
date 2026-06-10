@@ -1,0 +1,45 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_north_sea_empire",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "north_sea_empire",
+      "role": "principal"
+    },
+    {
+      "entity_id": "kingdom_of_denmark",
+      "role": "principal"
+    },
+    {
+      "entity_id": "kingdom_of_england",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "personal_union",
+  "since": 1016,
+  "until": 1042,
+  "note": "Cnut the Great (ruled 1016–1035) assembled the North Sea Empire — England, Denmark, Norway, and nominally parts of Sweden — the largest empire in Northern Europe since the Romans. Cnut's empire linked the Viking and Anglo-Saxon worlds: he governed England with Anglo-Saxon institutions while maintaining Scandinavian kingship networks. The empire dissolved on his death (1035) through inheritance disputes among his sons. Harold Harefoot (England) and Sweyn (Norway) died young; Harthacnut's death (1042) ended the Danish line and restored the Wessex dynasty under Edward the Confessor.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The only successful Norse empire in Britain; Cnut's use of English administrative institutions demonstrates Scandinavian rulers' capacity for governance adaptation; the empire's rapid dissolution shows the limits of personal dynastic empires without institutional continuity"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999",
+      "sawyer_medieval_1993",
+      "roesdahl_the_1992",
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

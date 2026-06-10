@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_bohemia",
+  "name": "Prague",
+  "entity_id": "kingdom_of_bohemia",
+  "entity_name": "Kingdom of Bohemia",
+  "start_year": 1198,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q42585"
+    }
+  },
+  "coords": [
+    14.42139,
+    50.0875
+  ]
+}

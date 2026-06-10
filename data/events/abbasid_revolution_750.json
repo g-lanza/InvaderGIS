@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "abbasid_revolution_750",
+  "name": "Abbasid Revolution",
+  "year": 750,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    33.3,
+    44.4
+  ],
+  "entity": "abbasid_caliphate",
+  "summary": "A revolutionary movement originating in Khorasan (eastern Iran), led by Abu Muslim and backed by Shia Muslims, non-Arab Muslims (mawali), and those who resented Umayyad Arab supremacism, defeats the last Umayyad Caliph Marwan II at the Battle of the Zab River in January 750. The Abbasids kill all Umayyad princes they can find (one, Abd al-Rahman I, escapes to Spain and founds the Emirate of Córdoba). Marwan II flees to Egypt, where he is hunted down and killed. The Abbasids move the capital from Damascus to the newly founded Baghdad (762), shifting the Islamic world's center of gravity eastward toward Persia.",
+  "outcomes": [
+    "umayyad_caliphate_overthrown",
+    "abbasid_dynasty_founded",
+    "baghdad_new_capital"
+  ],
+  "_quarry": {
+    "participants": [
+      "abbasid_caliphate",
+      "umayyad_caliphate"
+    ],
+    "structural_significance": "The Abbasid Revolution transfers Islamic political leadership from Arab tribal aristocracy to a cosmopolitan Persian-influenced bureaucratic model; Baghdad becomes the world's largest city and center of the Islamic Golden Age; the translation movement that brings Greek philosophy into Arabic begins under early Abbasid patronage; the Umayyad survivor founding Córdoba splits the caliphate permanently",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_the_2004",
+      "kennedy_when_2004",
+      "crone_gods_2004",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

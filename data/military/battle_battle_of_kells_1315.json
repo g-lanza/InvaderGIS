@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_kells_1315",
+  "name": "Battle of Kells",
+  "subtype": "battle",
+  "start_year": 1315,
+  "end_year": 1315,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q4871410"
+    }
+  },
+  "description": "Battle during Bruce campaign in Ireland (1315)",
+  "coords": [
+    -6.8769,
+    53.7272
+  ]
+}

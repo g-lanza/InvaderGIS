@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_tours_732",
+  "name": "Battle of Tours",
+  "year": 732,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    46.58,
+    0.34
+  ],
+  "entity": "merovingian_kingdom",
+  "summary": "Charles Martel leads a Frankish-Burgundian force that intercepts a major Umayyad raiding army under Abdul Rahman al-Ghafiqi near Tours (or Poitiers). The seven-day battle ends with Abdul Rahman killed and the Umayyad force retreating to Iberia. The battle is traditionally celebrated as stopping the Islamic advance into Western Europe, though modern historians note al-Andalus was already overextended. Charles's victory establishes the Carolingians as Europe's premier military force.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "merovingian_kingdom",
+      "umayyad_emirate_cordoba"
+    ],
+    "structural_significance": "Establishes Carolingian military dominance in Western Europe; marks effective northern limit of Umayyad territorial expansion; vindicates Charles Martel's claim to power without holding royal title",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wood_the_1994",
+      "geary_before_1988"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

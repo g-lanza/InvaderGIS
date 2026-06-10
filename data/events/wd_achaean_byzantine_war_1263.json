@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_achaean_byzantine_war_1263",
+  "name": "Achaean–Byzantine War",
+  "year": 1263,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.4,
+    25.65
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Achaean–Byzantine War (1263 CE), at Peloponnese (part of Byzantine–Latin wars). Source: Wikidata Q107033914.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "principality_of_achaea"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

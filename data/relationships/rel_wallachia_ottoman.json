@@ -1,0 +1,40 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_wallachia_ottoman",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "ottoman_empire",
+      "role": "hegemon"
+    },
+    {
+      "entity_id": "principality_of_wallachia",
+      "role": "tributary"
+    }
+  ],
+  "directed": true,
+  "type": "tributary",
+  "since": 1453,
+  "until": 1500,
+  "note": "Wallachia became an Ottoman tributary in stages following the Battle of Nicopolis (1396), though Mircea the Elder had already acknowledged Ottoman suzerainty earlier (1393). The arrangement — paying haraç (tribute) and providing military contingents while maintaining internal self-governance — was periodically disrupted by resistance. Vlad III 'the Impaler' (Dracula) famously broke from Ottoman suzerainty and impaled Ottoman envoys (1459), triggering a massive Ottoman invasion. Wallachia's mountain passes and forest terrain, combined with diplomatic maneuver between the Ottomans and Hungary, allowed it to maintain autonomy through the tribute system.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Wallachia's tributary status models the 'autonomous principality' approach that allows Romanian culture and Orthodox Christianity to survive the Ottoman period; Vlad III's resistance becomes the core of the Dracula legend that shapes Western perception of Transylvania; the principality's survival through tribute diplomacy creates the Romanian national continuity"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d",
+      "deletant_romania_1998",
+      "panaitescu_mircea_2000"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

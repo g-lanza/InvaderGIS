@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_duchy_of_athens_1311_c01",
+  "statement": "The Catalan Company massacred the Frankish knights at the Battle of Halmyros in 1311 and seized Athens.",
+  "subject_ids": [
+    "duchy_of_athens"
+  ],
+  "period": {
+    "from": 1311,
+    "to": 1311
+  },
+  "derived_from": "duchy_of_athens_1311",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

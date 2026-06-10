@@ -1,0 +1,28 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_duchy_of_benevento_to_kingdom_of_sicily_norman_succession",
+  "statement": "Derived from predecessor/successor links recorded in the duchy_of_benevento and kingdom_of_sicily_norman entity records. Transition anchored to kingdom_of_sicily_norman start_year.",
+  "subject_ids": [
+    "duchy_of_benevento",
+    "kingdom_of_sicily_norman"
+  ],
+  "predicate": "succession",
+  "derived_from": "rel_duchy_of_benevento_to_kingdom_of_sicily_norman_succession",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "kingdom_of_sicily_norman"
+  ],
+  "period": {
+    "from": 1130,
+    "to": 1130
+  }
+}

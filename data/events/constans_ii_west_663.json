@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "constans_ii_west_663",
+  "name": "Constans II Visits Rome, Last Emperor in the West",
+  "year": 663,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.9,
+    12.51
+  ],
+  "entity": "byzantine_empire",
+  "summary": "Emperor Constans II visits Rome in 663, the last Byzantine emperor to visit the city for centuries. He strips the Pantheon's bronze roof tiles and dismantles other monumental bronzes to ship east, provoking deep resentment. His attempt to reestablish imperial presence in the West fails; he moves his court to Syracuse (Sicily) but is assassinated there in 668.",
+  "outcomes": [
+    "emperor_visits_rome",
+    "bronze_stripped_monuments",
+    "western_reconnection_fails"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "papal_states"
+    ],
+    "structural_significance": "Constans II's visit illustrates Byzantine priorities, extracting resources from the West rather than defending it; the stripping of Roman monuments shows that the western provinces are valued as resources not living communities; his assassination in Syracuse demonstrates the instability of attempting to govern a multi-front empire from an exposed position",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "castilla_toledo_1085",
+  "name": "Capture of Toledo",
+  "year": 1085,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    41,
+    -4
+  ],
+  "entity": "kingdom_of_castile",
+  "summary": "Alfonso VI of Castile captured Toledo from the Taifa of Toledo, a major symbolic and strategic victory. Toledo had been the ancient Visigothic capital and its fall alarmed the other Taifa rulers into inviting the Almoravids from North Africa.",
+  "outcomes": [
+    "toledo_reconquered",
+    "muslim_spain_weakened",
+    "alfonsos_prestige_raised"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_castile"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

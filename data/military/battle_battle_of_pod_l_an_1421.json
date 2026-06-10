@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_pod_l_an_1421",
+  "name": "Battle of Podůlšan",
+  "subtype": "battle",
+  "start_year": 1421,
+  "end_year": 1421,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q112502975"
+    }
+  },
+  "description": "Battle during Hussite Wars (1421)",
+  "coords": [
+    15.7436,
+    50.1372
+  ]
+}

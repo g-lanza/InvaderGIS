@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "gutenberg_mainz_1445",
+  "name": "Gutenberg's Workshop, Development of Printing",
+  "year": 1445,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    50,
+    8.27
+  ],
+  "entity": "holy_roman_empire",
+  "summary": "Johannes Gutenberg works in secret in Mainz developing the printing press, combining oil-based ink (adapted from linseed oil), a screw press (adapted from wine presses), and moveable metal type (possibly adapting existing goldsmiths' techniques). His partnership with Johann Fust provides the capital; his breakthrough is the hand mold enabling rapid type casting. The first major product is the 42-line Gutenberg Bible (c. 1454-1455).",
+  "outcomes": [
+    "metal_type_cast",
+    "ink_developed",
+    "press_built"
+  ],
+  "_quarry": {
+    "participants": [
+      "holy_roman_empire"
+    ],
+    "structural_significance": "The printing press's development requires simultaneous solutions to multiple technical problems, ink, type, press, paper, and the combination of existing technologies into a new synthesis is the characteristic early modern innovation process; Gutenberg's workshop represents the first industrial information technology; his bankruptcy (Fust sues him for the loan in 1455, taking the press and type) is the irony that the most transformative invention in history enriched everyone but its inventor",
+    "year_range": [
+      1440,
+      1450
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "arnold_medieval_1997",
+      "scales_the_2012",
+      "fuhrmann_germany_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

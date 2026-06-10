@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_khazar_khaganate_627_965",
+  "statement": "Khazar Khaganate — campaigns and battles spanned 627–965, from Khazar campaigns in Georgia to Sviatoslav I Destroys the Khazar Khaganate.",
+  "subject_ids": [
+    "khazar_khaganate"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_khazar_khaganate_627_965",
+  "period": {
+    "from": 627,
+    "to": 965
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "golden_khazar_1980",
+      "brook_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_battle_of_vaikal_1465_c01",
+  "statement": "Battle of Vaikal (1465 CE), at Ohrid (part of Ottoman Wars in Europe).",
+  "subject_ids": [
+    "ottoman_empire"
+  ],
+  "period": {
+    "from": 1465,
+    "to": 1465
+  },
+  "derived_from": "wd_battle_of_vaikal_1465",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

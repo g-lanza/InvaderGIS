@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_baia_1467",
+  "name": "Battle of Baia",
+  "year": 1467,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    47.25,
+    23.5
+  ],
+  "entity": "kingdom_of_hungary",
+  "summary": "Battle of Baia (1467 CE), at Baia. Source: Wikidata Q2510875.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_hungary",
+      "principality_of_moldavia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "engel_the_2001",
+      "berend_at_2001"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

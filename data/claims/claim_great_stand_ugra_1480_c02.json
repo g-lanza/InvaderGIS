@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_great_stand_ugra_1480_c02",
+  "statement": "Khan Akhmat withdrew after his Crimean ally failed to support him, and the Golden Horde dissolved shortly after.",
+  "subject_ids": [
+    "grand_principality_of_moscow"
+  ],
+  "period": {
+    "from": 1480,
+    "to": 1480
+  },
+  "derived_from": "great_stand_ugra_1480",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "fennell_the_1983",
+      "ostrowski_muscovy_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

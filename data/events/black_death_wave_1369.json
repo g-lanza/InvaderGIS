@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "black_death_wave_1369",
+  "name": "Pestis tertia (third European wave)",
+  "year": 1369,
+  "type": "epidemic",
+  "category": "hazard",
+  "coords": [
+    43.95,
+    4.8
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Third pan-European outbreak of Yersinia pestis since 1347. Chronicles report ~10–15% additional mortality in affected regions, again with strong age-cohort selection.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "kingdom_of_england",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "Reinforces the post-1347 demographic regime; combined with the 1361 wave, ensures the European population stays well below pre-Black-Death levels for two centuries.",
+    "year_range": [
+      1369,
+      1371
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "campbell_great_transition_2016"
+    ],
+    "confidence": "low"
+  }
+}

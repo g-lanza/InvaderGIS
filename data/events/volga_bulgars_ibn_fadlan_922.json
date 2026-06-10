@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "volga_bulgars_ibn_fadlan_922",
+  "name": "Ibn Fadlan Documents Volga Bulgaria",
+  "year": 922,
+  "type": "cultural",
+  "category": "culture",
+  "coords": [
+    55,
+    49
+  ],
+  "entity": "volga_bulgaria",
+  "summary": "Arab diplomat Ibn Fadlan visited the Volga Bulgarian court and witnessed the formal conversion ceremony to Islam. His Risala ('Account') is one of the most vivid primary sources on medieval steppe societies, describing Viking traders, shamanic rituals, and Islamic practice on the Volga.",
+  "outcomes": [
+    "islam_accepted",
+    "ibn_fadlan_account",
+    "volga_trade_documented"
+  ],
+  "_quarry": {
+    "participants": [
+      "volga_bulgaria"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

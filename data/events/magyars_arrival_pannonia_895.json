@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "magyars_arrival_pannonia_895",
+  "name": "Magyar Conquest of the Pannonian Basin",
+  "year": 895,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    47.595,
+    20.143
+  ],
+  "entity": "magyars",
+  "summary": "The Magyar tribes crossed the Carpathian Mountains under Árpád and settled the Pannonian plain, destroying Great Moravia in the process. The Magyar settlement permanently reorganised central European ethnography and created what would become Hungary.",
+  "outcomes": [
+    "hungary_settled",
+    "carpathians_crossed",
+    "moravia_destroyed"
+  ],
+  "_quarry": {
+    "participants": [
+      "magyars"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

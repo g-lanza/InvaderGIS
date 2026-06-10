@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_timurid_empire_1449_c03",
+  "statement": "The Timurid architectural legacy shaped later Mughal and Safavid art.",
+  "subject_ids": [
+    "timurid_empire"
+  ],
+  "period": {
+    "from": 1449,
+    "to": 1449
+  },
+  "derived_from": "timurid_empire_1449",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "manz_the_1989",
+      "lentz_timur_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

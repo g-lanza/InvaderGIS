@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_a_a_1002",
+  "name": "Šaľa",
+  "importance": "city",
+  "start_year": 1002,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q391361"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    17.8833,
+    48.15
+  ]
+}

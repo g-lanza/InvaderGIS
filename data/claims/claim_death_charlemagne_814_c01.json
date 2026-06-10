@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_death_charlemagne_814_c01",
+  "statement": "Charlemagne died on January 28, 814, at Aachen, aged approximately 72, after a reign of 46 years.",
+  "subject_ids": [
+    "carolingian_empire"
+  ],
+  "period": {
+    "from": 814,
+    "to": 814
+  },
+  "derived_from": "death_charlemagne_814",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "mckitterick_charlemagne_2008",
+      "riché_the_1993",
+      "nelson_king_2019"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

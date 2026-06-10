@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "deaths_of_crusade_leaders_1148",
+  "name": "Second Crusade Failure",
+  "year": 1148,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    33.5,
+    36.3
+  ],
+  "entity": "kingdom_of_jerusalem",
+  "summary": "The Second Crusade, led by Louis VII of France and Conrad III of Germany, attacks Damascus, an ally of the crusader states, and fails miserably after only four days of siege. The fiasco strengthens Nur ad-Din of Aleppo, who will eventually unite Syria and Egypt under Saladin's command.",
+  "outcomes": [
+    "damascus_siege_fails",
+    "crusader_credibility_damaged",
+    "nur_ad_din_rises"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_jerusalem"
+    ],
+    "structural_significance": "Demonstrates the fundamental strategic incoherence of crusading; the failure emboldens Islamic counter-crusade ideology; Bernard of Clairvaux, who had preached the crusade, is severely embarrassed.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "riley-smith_the_2005",
+      "prawer_the_1972",
+      "asbridge_the_2010",
+      "ims_fordham",
+      "ims_fordham_sbook1k"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

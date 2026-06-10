@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_cape_st_vincent_1337",
+  "name": "Battle of Cape St. Vincent",
+  "subtype": "battle",
+  "start_year": 1337,
+  "end_year": 1337,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q4870646"
+    }
+  },
+  "description": "Battle during Luso-Castilian War of 1336–1339 (1337)",
+  "coords": [
+    -8.9944,
+    37.025
+  ]
+}

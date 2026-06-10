@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_pazzi_conspiracy_1478_c03",
+  "statement": "Florence rallied to the Medici after the Pazzi conspiracy, and the conspirators were hunted down and executed.",
+  "subject_ids": [
+    "republic_of_florence"
+  ],
+  "period": {
+    "from": 1478,
+    "to": 1478
+  },
+  "derived_from": "pazzi_conspiracy_1478",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "najemy_a_2006",
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_akkum_1108",
+  "name": "Battle of Akkum",
+  "subtype": "battle",
+  "start_year": 1108,
+  "end_year": 1108,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q9172715"
+    }
+  },
+  "description": "Battle during Crusader battles between 1101 and 1145 (1108)",
+  "coords": [
+    36.3678,
+    34.5175
+  ]
+}

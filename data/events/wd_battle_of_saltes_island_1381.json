@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_saltes_island_1381",
+  "name": "Battle of Saltes Island",
+  "year": 1381,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    40.25,
+    -6
+  ],
+  "entity": "kingdom_of_portugal",
+  "summary": "Battle of Saltes Island (1381 CE), at Saltes Island (part of Third Fernandine War). Source: Wikidata Q2889892.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_portugal",
+      "crown_of_castile"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

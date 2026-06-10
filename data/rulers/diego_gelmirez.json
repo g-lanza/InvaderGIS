@@ -1,0 +1,32 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "diego_gelmirez",
+  "name": "Diego Gelmírez",
+  "polity": "kingdom_of_galicia",
+  "title": "religious_authority",
+  "reign_start": 1070,
+  "reign_end": 1140,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": null,
+      "death_year": null
+    },
+    "entity_associations": [
+      {
+        "entity_id": "kingdom_of_galicia",
+        "role": "religious_authority",
+        "start_year": 1070,
+        "end_year": 1140
+      }
+    ],
+    "key_actions": [],
+    "region": "iberia",
+    "name_variants": []
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

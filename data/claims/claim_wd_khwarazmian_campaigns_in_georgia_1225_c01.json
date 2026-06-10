@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_khwarazmian_campaigns_in_georgia_1225_c01",
+  "statement": "Khwarazmian campaigns in Georgia (1225 CE), at Georgia.",
+  "subject_ids": [
+    "kingdom_of_georgia"
+  ],
+  "period": {
+    "from": 1225,
+    "to": 1225
+  },
+  "derived_from": "wd_khwarazmian_campaigns_in_georgia_1225",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

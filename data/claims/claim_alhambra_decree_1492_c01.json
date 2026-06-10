@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_alhambra_decree_1492_c01",
+  "statement": "Ferdinand and Isabella issued the Alhambra Decree on 31 March 1492, ordering all Jews in Spain who refused baptism to leave within four months.",
+  "subject_ids": [
+    "crown_of_castile"
+  ],
+  "period": {
+    "from": 1492,
+    "to": 1492
+  },
+  "derived_from": "alhambra_decree_1492",
+  "unresolved_sources": [
+    "o'callaghan_a_1975"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

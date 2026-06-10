@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_university_of_montpellier_1220_c01",
+  "statement": "Cardinal Conrad of Urach issued statutes for the medical school at Montpellier in 1220, formalising a community of physicians teaching there since the late 12th century.",
+  "subject_ids": [
+    "kingdom_of_france"
+  ],
+  "period": {
+    "from": 1220,
+    "to": 1220
+  },
+  "derived_from": "university_of_montpellier_1220",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "bartlett_making_of_europe_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

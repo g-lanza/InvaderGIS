@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_university_of_heidelberg_1386_c02",
+  "statement": "The University of Heidelberg opened on 18 October 1386 with Marsilius of Inghen as its first rector.",
+  "subject_ids": [
+    "holy_roman_empire"
+  ],
+  "period": {
+    "from": 1386,
+    "to": 1386
+  },
+  "derived_from": "university_of_heidelberg_1386",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "bartlett_making_of_europe_1993"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

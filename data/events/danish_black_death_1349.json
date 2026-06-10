@@ -1,0 +1,41 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "danish_black_death_1349",
+  "name": "Black Death in Scandinavia",
+  "year": 1349,
+  "type": "disaster",
+  "category": "hazard",
+  "coords": [
+    59.91,
+    10.75
+  ],
+  "entity": "kingdom_of_denmark",
+  "summary": "The Black Death reaches Scandinavia via Bergen and Malmö in 1349, killing 40-60% of Norway's population and 30-40% of Denmark and Sweden. Norway is particularly devastated, many farms are abandoned and don't recover for generations. The demographic collapse weakens each kingdom individually, contributing to the conditions that make the Kalmar Union (1397) politically attractive, the three weakened kingdoms can collectively resist the Hanseatic League that dominates their trade.",
+  "outcomes": [
+    "half_scandinavian_population_dies",
+    "labor_shortage_severe",
+    "kalmar_union_indirectly_enabled"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_denmark",
+      "kingdom_of_sweden",
+      "kingdom_of_norway"
+    ],
+    "structural_significance": "Scandinavia's plague mortality is proportionally among the highest in Europe; Norwegian population doesn't recover to pre-plague levels until the 18th century; the demographic collapse of aristocratic families creates succession vacuums that the Kalmar Union is partly designed to fill; the labor shortage reverses the population growth that had enabled Iceland's settlement and Greenland's expansion",
+    "year_range": [
+      1349,
+      1351
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_medieval_1993",
+      "roesdahl_the_1992"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

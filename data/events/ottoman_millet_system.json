@@ -1,0 +1,43 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ottoman_millet_system",
+  "name": "Ottoman Millet System, Religious Community Governance",
+  "year": 1453,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    41.01,
+    28.97
+  ],
+  "entity": "ottoman_empire",
+  "summary": "Following the conquest of Constantinople, Mehmed II formalizes the Ottoman millet system, allowing non-Muslim communities (Greek Orthodox, Armenian Apostolic, Jewish) to govern themselves according to their own religious laws in personal status matters (marriage, inheritance, religious courts) while paying a special tax (jizya). The Patriarch of Constantinople is recognized as the head (ethnarch) of the Rum Millet.",
+  "outcomes": [
+    "non_muslims_governed_through_communities",
+    "rum_millet_greek_orthodox",
+    "armenian_jewish_millets"
+  ],
+  "_quarry": {
+    "participants": [
+      "ottoman_empire",
+      "byzantine_empire"
+    ],
+    "structural_significance": "The millet system is the Ottoman solution to governing a multi-religious empire; it preserves non-Muslim institutions while ensuring tax extraction and political subordination; the system's relative tolerance (compared to Western Christendom's treatment of religious minorities) makes the Ottoman Empire a refuge for Spanish Jews expelled in 1492; the millet institutions become the foundation for the communal organizations that survive into the modern states of the Balkans and Middle East",
+    "year_range": [
+      1453,
+      1500
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

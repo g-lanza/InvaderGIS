@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_sforza_milan_1450_c01",
+  "statement": "Francesco Sforza, a condottiere who had married the illegitimate daughter of the last Visconti duke, seized Milan in 1450 after three years of the failed Ambrosian Republic.",
+  "subject_ids": [
+    "duchy_of_milan"
+  ],
+  "period": {
+    "from": 1450,
+    "to": 1450
+  },
+  "derived_from": "sforza_milan_1450",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

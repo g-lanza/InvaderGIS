@@ -1,0 +1,27 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_hanse_flanders",
+  "statement": "Flanders was the western terminus of the Hanseatic trade network, with the Bruges Kontor (trading post) serving as the primary exchange point between Baltic goods (grain, timber, fur, amber, dried fish) and western luxury goods (English wool, Flemish cloth, spices from Genoa and Venice). Bruges's pre-eminence as a commercial center from the 12th through 14th centuries was built on this nexus. The Hanse's sanctions against Bruges (periodic 'kontorverlegungen' — transferring the Kontor to Dordrecht or elsewhere) demonstrated commercial leverage; Bruges's silting harbor and Antwerp's rise in the 15th century gradually shifted the Flemish commercial pole eastward.",
+  "subject_ids": [
+    "hanseatic_league",
+    "county_of_flanders"
+  ],
+  "predicate": "contested_influence",
+  "derived_from": "rel_hanse_flanders",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dollinger_the_1970",
+      "hammel-kiesow_die_2000",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "period": {
+    "from": 1252,
+    "to": 1384
+  }
+}

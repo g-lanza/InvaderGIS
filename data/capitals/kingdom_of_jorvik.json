@@ -1,0 +1,25 @@
+{
+  "kind": "capital",
+  "dataset": "medieval-europe-500-1500",
+  "id": "kingdom_of_jorvik",
+  "name": "York",
+  "entity_id": "kingdom_of_jorvik",
+  "entity_name": "Kingdom of York",
+  "start_year": 866,
+  "end_year": 954,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-capital"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q3030574"
+    }
+  },
+  "coords": [
+    -1.08,
+    53.96
+  ]
+}

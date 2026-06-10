@@ -1,0 +1,40 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "fall_trebizond_1461_2",
+  "name": "Fall of Trebizond, Last Byzantine Successor State",
+  "year": 1461,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    40.98,
+    39.72
+  ],
+  "entity": "ottoman_empire",
+  "summary": "Mehmed II personally leads the Ottoman siege of Trebizond. The Comnenian Emperor David is persuaded to surrender without siege on August 15, 1461, eight years after Constantinople's fall. Mehmed deports the Greek population to Constantinople and executes David Komnenos and his sons two years later when he fears their presence might inspire a Christian revival. The last Byzantine successor state is extinguished.",
+  "outcomes": [
+    "trebizond_falls",
+    "last_greek_roman_state_ends",
+    "pontic_greek_culture_ends"
+  ],
+  "_quarry": {
+    "participants": [
+      "ottoman_empire",
+      "empire_of_trebizond"
+    ],
+    "structural_significance": "Trebizond's fall ends over 2,500 years of Greek political presence on the eastern Black Sea coast; the execution of the Komnenian dynasty eliminates the last claimants to Byzantine imperial legitimacy; the fall completes the Ottoman dominance of the Black Sea that eliminates the Genoese trade network; the surviving Pontic Greek community retains its cultural distinctiveness for centuries until population exchanges of the 20th century",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "i̇nalcık_the_1973",
+      "finkel_osmans_2005",
+      "imber_the_2002",
+      "ims_fordham",
+      "ims_fordham_sbook1d"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

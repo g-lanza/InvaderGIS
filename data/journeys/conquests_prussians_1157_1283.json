@@ -1,0 +1,86 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_prussians_1157_1283",
+  "name": "Prussians — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1157,
+  "year_end": 1283,
+  "waypoints": [
+    {
+      "year": 1157,
+      "place": "Frederick I's expedition to Głogów",
+      "coords": [
+        50.7148,
+        19.8708
+      ],
+      "note": "military",
+      "event_id": "wd_frederick_i_s_expedition_to_g_og_w_1157"
+    },
+    {
+      "year": 1200,
+      "place": "Prussian Crusade",
+      "coords": [
+        52.1948,
+        19.8508
+      ],
+      "note": "military",
+      "event_id": "wd_prussian_crusade_1200"
+    },
+    {
+      "year": 1233,
+      "place": "Teutonic Order Begins Prussian Crusade",
+      "coords": [
+        54.237,
+        20.227
+      ],
+      "note": "military",
+      "event_id": "prussians_1233"
+    },
+    {
+      "year": 1242,
+      "place": "First Prussian uprising",
+      "coords": [
+        54.474,
+        20.454
+      ],
+      "note": "military",
+      "event_id": "wd_first_prussian_uprising_1242"
+    },
+    {
+      "year": 1264,
+      "place": "Siege of Bartenstein",
+      "coords": [
+        54.474,
+        20.454
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_bartenstein_1264"
+    },
+    {
+      "year": 1271,
+      "place": "Battle of Pagastin",
+      "coords": [
+        54.474,
+        20.454
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_pagastin_1271"
+    },
+    {
+      "year": 1283,
+      "place": "Prussians Finally Subdued",
+      "coords": [
+        54.237,
+        20.227
+      ],
+      "note": "military",
+      "event_id": "prussians_1283"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

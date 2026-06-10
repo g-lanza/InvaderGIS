@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "leon_997",
+  "name": "Al-Mansur Sacks León",
+  "year": 997,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    40.25,
+    -5.2
+  ],
+  "entity": "kingdom_of_leon",
+  "summary": "The Umayyad regent Al-Mansur led a devastating raid deep into Christian Iberia, sacking and burning the city of León in 997 CE. The cathedral bells were carried to Córdoba as trophies. The raid demonstrated the military superiority of the Caliphate but could not permanently hold the territory.",
+  "outcomes": [
+    "leon_devastated",
+    "cathedral_bells_carried_to_cordoba",
+    "leonese_power_weakened"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_leon",
+      "caliphate_of_cordoba"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

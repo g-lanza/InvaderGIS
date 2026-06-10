@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_prince_henry_sagres_1418_c02",
+  "statement": "Portuguese exploration reached Madeira in 1419 and the Azores in 1427.",
+  "subject_ids": [
+    "kingdom_of_portugal"
+  ],
+  "period": {
+    "from": 1418,
+    "to": 1418
+  },
+  "derived_from": "prince_henry_sagres_1418",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

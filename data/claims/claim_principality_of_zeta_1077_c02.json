@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_principality_of_zeta_1077_c02",
+  "statement": "Zeta was located on the Adriatic coast and navigated between Byzantine, Norman, and Serbian spheres of influence.",
+  "subject_ids": [
+    "principality_of_zeta"
+  ],
+  "period": {
+    "from": 1077,
+    "to": 1077
+  },
+  "derived_from": "principality_of_zeta_1077",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

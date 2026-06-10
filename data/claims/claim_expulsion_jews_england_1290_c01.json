@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_expulsion_jews_england_1290_c01",
+  "statement": "Edward I of England issued the Edict of Expulsion on July 18, 1290, ordering all Jews out of England by November 1, 1290.",
+  "subject_ids": [
+    "kingdom_of_england"
+  ],
+  "period": {
+    "from": 1290,
+    "to": 1290
+  },
+  "derived_from": "expulsion_jews_england_1290",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "carpenter_the_2003",
+      "warren_king_1961",
+      "bartlett_england_2000",
+      "prestwich_plantagenet_2005"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

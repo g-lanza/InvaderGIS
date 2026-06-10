@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_hafsid_sultanate_1184_1441",
+  "statement": "Hafsid Sultanate — campaigns and battles spanned 1184–1441, from Banu Ghaniya invasion of North Africa to Siege of Nefta.",
+  "subject_ids": [
+    "hafsid_sultanate"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_hafsid_sultanate_1184_1441",
+  "period": {
+    "from": 1184,
+    "to": 1441
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "abun-nasr_a_1987",
+      "khaldun_the_1958"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

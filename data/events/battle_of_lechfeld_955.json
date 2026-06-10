@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_of_lechfeld_955",
+  "name": "Battle of Lechfeld",
+  "year": 955,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    48.3,
+    10.9
+  ],
+  "entity": "kingdom_of_hungary",
+  "summary": "Otto I of Germany decisively defeats the Magyar cavalry at Lechfeld near Augsburg, ending half a century of devastating Magyar raids into Western Europe. Seven Magyar leaders are hanged after the battle. The victory ends the existential threat to Central Europe and enables the conversion and settlement of the Magyars under Prince Géza, leading to the founding of the Kingdom of Hungary.",
+  "outcomes": [
+    "magyar_defeated",
+    "german_unity",
+    "otto_legitimized"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_hungary",
+      "magyars"
+    ],
+    "structural_significance": "Ends the Magyar raids; Otto's victory is so decisive it effectively forces the Magyars to abandon nomadic raiding for sedentary Christian statehood; the victory provides the prestige for Otto's imperial coronation.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "engel_the_2001",
+      "berend_at_2001"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

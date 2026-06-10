@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_the_unstrut_river_531",
+  "name": "Battle of the Unstrut River",
+  "year": 531,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    49,
+    3.5
+  ],
+  "entity": "merovingian_kingdom",
+  "summary": "Battle of the Unstrut River (531 CE), at Unstrut. Source: Wikidata Q4873035.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "merovingian_kingdom"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wood_the_1994",
+      "geary_before_1988"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

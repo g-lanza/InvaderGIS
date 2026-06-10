@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_snina_1317",
+  "name": "Snina",
+  "importance": "city",
+  "start_year": 1317,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q754788"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    22.1567,
+    48.9881
+  ]
+}

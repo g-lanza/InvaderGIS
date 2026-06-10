@@ -1,0 +1,22 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_nicea",
+  "name": "Nicaea (İznik)",
+  "importance": "capital",
+  "start_year": 325,
+  "end_year": 1261,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "moderate",
+    "attestation": "inferred"
+  },
+  "end_confidence": "medium",
+  "coords": [
+    29.723,
+    40.43
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_battle_rio_salado_1340_c02",
+  "statement": "Río Salado was the last significant North African military intervention in Iberia, after which control of the Strait of Gibraltar passed to Castile.",
+  "subject_ids": [
+    "crown_of_castile"
+  ],
+  "period": {
+    "from": 1340,
+    "to": 1340
+  },
+  "derived_from": "battle_rio_salado_1340",
+  "unresolved_sources": [
+    "o'callaghan_a_1975"
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_kingdoms_2018"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

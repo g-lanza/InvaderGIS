@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "palas_nalanda_destruction_1193",
+  "name": "Muhammad Khilji Destroys Nalanda",
+  "year": 1193,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    22.383,
+    88.115
+  ],
+  "entity": "palas",
+  "summary": "Ghurid general Muhammad bin Bakhtiyar Khilji sacked and burned Nalanda monastery and library, one of the most catastrophic losses in intellectual history. Monks were massacred, and the 800-year-old centre of Buddhist learning was reduced to ash.",
+  "outcomes": [
+    "nalanda_burned",
+    "buddhism_india_ended",
+    "pala_legacy_destroyed"
+  ],
+  "_quarry": {
+    "participants": [
+      "palas"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [],
+    "confidence": "low"
+  }
+}

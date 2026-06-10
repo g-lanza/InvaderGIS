@@ -1,0 +1,39 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_danelaw_871_917",
+  "name": "Danelaw — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 871,
+  "year_end": 917,
+  "waypoints": [
+    {
+      "year": 871,
+      "place": "Battle of Basing",
+      "coords": [
+        52.25,
+        -1.25
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_basing_871"
+    },
+    {
+      "year": 917,
+      "place": "Battle of Derby",
+      "coords": [
+        53.5,
+        -0.5
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_derby_917"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "reuter_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

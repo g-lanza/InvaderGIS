@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_caliphate_of_cordoba_733_1340",
+  "statement": "Caliphate of Córdoba — campaigns and battles spanned 733–1340, from Reconquista to Battle of the Salado.",
+  "subject_ids": [
+    "caliphate_of_cordoba"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_caliphate_of_cordoba_733_1340",
+  "period": {
+    "from": 733,
+    "to": 1340
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "kennedy_muslim_1996",
+      "scales_the_1994"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

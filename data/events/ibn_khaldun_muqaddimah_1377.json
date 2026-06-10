@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "ibn_khaldun_muqaddimah_1377",
+  "name": "Ibn Khaldun's Muqaddimah, First Social Science",
+  "year": 1377,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    36.81,
+    10.18
+  ],
+  "entity": "mamluk_sultanate",
+  "summary": "Ibn Khaldun completes his Muqaddimah (Introduction to History) in 1377, the first systematic theory of social change and historical causation. His concept of asabiyya (group solidarity/social cohesion) explains how nomadic peoples with strong group bonds repeatedly conquer and then are absorbed by sedentary civilizations, which themselves develop asabiyya through luxury. The work is a product of his observation of North African dynastic cycles.",
+  "outcomes": [
+    "asabiyya_theory",
+    "cyclical_history_model",
+    "sociology_founded"
+  ],
+  "_quarry": {
+    "participants": [
+      "mamluk_sultanate",
+      "emirate_of_granada"
+    ],
+    "structural_significance": "The Muqaddimah anticipates modern sociology, economics, and political science; Ibn Khaldun's cyclical theory of dynasty (rise, peak, decline, conquest) is the first systematic theory of social change; his economic analysis (the labor theory of value, the Laffer curve's precursor) is centuries ahead of European economic thought; his North African vantage point, watching the Marinid, Hafsid, and Zayyanid dynasties, gives him empirical material that Eurocentric historians lack",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "irwin_the_1986",
+      "northrup_from_1998"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_anglo_french_war_1116",
+  "name": "Anglo-French War",
+  "year": 1116,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    49.3675,
+    1.1625
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Anglo-French War (1116 CE), at Île-de-France (part of Claim of William Clito). Source: Wikidata Q21656700.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france",
+      "county_of_flanders",
+      "kingdom_of_england",
+      "county_of_anjou"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

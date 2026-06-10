@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "county_of_luxembourg_963",
+  "name": "County of Luxembourg Founded",
+  "year": 963,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    49.61,
+    6.13
+  ],
+  "entity": "county_of_luxembourg",
+  "summary": "Count Siegfried of the Ardennes received the castle of Lucilinburhuc (Luxembourg) from the Abbey of St Maximin in 963 CE, founding the County of Luxembourg. The strategic hilltop fortress controlling routes between France and Germany made Luxembourg an important position in the Holy Roman Empire.",
+  "outcomes": [
+    "ardennes_fortress",
+    "imperial_fief",
+    "strategic_crossroads"
+  ],
+  "_quarry": {
+    "participants": [
+      "county_of_luxembourg"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

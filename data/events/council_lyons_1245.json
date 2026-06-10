@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "council_lyons_1245",
+  "name": "First Council of Lyon",
+  "year": 1245,
+  "type": "religious_council",
+  "category": "religion",
+  "coords": [
+    45.76,
+    4.83
+  ],
+  "entity": "papal_states",
+  "summary": "Pope Innocent IV, having fled Rome for Lyon (outside imperial territory), convenes the First Council of Lyon (June–July 1245). The council's most dramatic act: the formal deposition of Holy Roman Emperor Frederick II as emperor, king of Germany, king of Sicily, and king of Jerusalem, for crimes including sacrilege, suspicion of heresy, and breaking an oath to crusade. The deposition is an unprecedented assertion of papal supremacy over secular rulers. Frederick refuses to recognize it; German princes elect anti-kings. The schism lasts until Frederick's death (1250).",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "papal_states",
+      "holy_roman_empire"
+    ],
+    "structural_significance": "Most extreme exercise of papal power to depose a secular ruler; triggers the death-struggle between the papacy and the Hohenstaufen dynasty; the dynasty's destruction (1268) leaves a power vacuum in Italy and Germany that shapes politics for a century",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "partner_the_1972",
+      "morris_the_1989"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "hedeby_trade_center_900",
+  "name": "Hedeby, Viking Age Commercial Capital",
+  "year": 900,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    54.48,
+    9.56
+  ],
+  "entity": "kingdom_of_denmark",
+  "summary": "Hedeby (at the base of the Jutland peninsula, modern Schleswig) is the largest Viking Age trading center in northern Europe, with merchants from England, Germany, Byzantium, and the Arab world. The town produces specialized crafts (combs from antler, glass beads, iron goods) and handles furs, slaves, and silver from the east. Arabic dirhams are the primary currency; the town has 1,000-1,500 inhabitants at its peak.",
+  "outcomes": [
+    "hedeby_thrives",
+    "northern_european_trade_center",
+    "silver_currency_spreads"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_denmark"
+    ],
+    "structural_significance": "Hedeby represents the commercial cosmopolitanism of the Viking Age; its destruction by Harald Hardrada (1049) and subsequent Slavic attack (1050) ends the commercial network that had connected Scandinavia to the Islamic world; the silver economy Hedeby represents creates the wealth that funds Viking Age raiding and colonization; the town's excavation in the 20th century reveals a sophisticated artisan economy that contradicts stereotypes of Norse barbarism",
+    "year_range": [
+      800,
+      1050
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_medieval_1993",
+      "roesdahl_the_1992"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

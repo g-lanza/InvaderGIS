@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_wieselburg_1096",
+  "name": "Battle of Wieselburg",
+  "subtype": "battle",
+  "start_year": 1096,
+  "end_year": 1096,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q9173704"
+    }
+  },
+  "description": "Battle during People's Crusade (1096)",
+  "coords": [
+    17.2667,
+    47.8667
+  ]
+}

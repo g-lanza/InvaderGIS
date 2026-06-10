@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "despotate_of_the_morea_1460",
+  "name": "Ottomans Conquer the Morea",
+  "year": 1460,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.275,
+    25.65
+  ],
+  "entity": "despotate_of_the_morea",
+  "summary": "The Ottoman conquest of the Morea in 1460, seven years after Constantinople's fall, extinguished the last Byzantine political entity. Many Greek scholars and artists fled to Italy, contributing to the Renaissance. The Peloponnese remained Ottoman until the Greek War of Independence in the 19th century.",
+  "outcomes": [
+    "last_byzantine_territory_falls",
+    "greek_scholars_flee_west",
+    "ottoman_consolidation"
+  ],
+  "_quarry": {
+    "participants": [
+      "despotate_of_the_morea",
+      "ottoman_empire"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_naval_battle_of_cagliari_1325_c01",
+  "statement": "Naval Battle of Cagliari (1325 CE), at Cagliari (part of Aragonese conquest of Sardinia).",
+  "subject_ids": [
+    "republic_of_genoa"
+  ],
+  "period": {
+    "from": 1325,
+    "to": 1325
+  },
+  "derived_from": "wd_naval_battle_of_cagliari_1325",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

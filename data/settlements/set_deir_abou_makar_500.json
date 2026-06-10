@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_deir_abou_makar_500",
+  "name": "Deir Abou Makar",
+  "importance": "city",
+  "start_year": 500,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "inferred",
+    "external_ids": {
+      "pleiades": "727104"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    30.4758,
+    30.2919
+  ]
+}

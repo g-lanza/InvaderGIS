@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_middle_francia_843_c02",
+  "statement": "Middle Francia stretched from the Low Countries to Italy and lacked ethnic or linguistic coherence.",
+  "subject_ids": [
+    "middle_francia"
+  ],
+  "period": {
+    "from": 843,
+    "to": 843
+  },
+  "derived_from": "middle_francia_843",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

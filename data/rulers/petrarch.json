@@ -1,0 +1,52 @@
+{
+  "kind": "ruler",
+  "dataset": "medieval-europe-500-1500",
+  "id": "petrarch",
+  "name": "Francesco Petrarca",
+  "polity": "papal_states",
+  "title": "scholar",
+  "reign_start": 1326,
+  "reign_end": 1353,
+  "_quarry": {
+    "lifespan": {
+      "birth_year": 1304,
+      "death_year": 1374
+    },
+    "entity_associations": [
+      {
+        "entity_id": "papal_states",
+        "role": "scholar",
+        "start_year": 1326,
+        "end_year": 1353
+      }
+    ],
+    "key_actions": [
+      {
+        "year": 1336,
+        "summary": "Climbs Mont Ventoux with his brother Gherardo (26 April), an event he later treats in De vita solitaria as a turn toward inner-directed contemplation.",
+        "source_id": "le_goff_medieval_civilization_1988"
+      },
+      {
+        "year": 1341,
+        "summary": "Crowned poet laureate on the Capitoline Hill at Rome (8 April), the first such laureation since antiquity — a deliberate revival of classical practice.",
+        "source_id": "le_goff_medieval_civilization_1988"
+      },
+      {
+        "year": 1345,
+        "summary": "Discovers Cicero's letters to Atticus at the Verona Chapter Library; the find decisively shapes the humanist epistolary mode he subsequently develops.",
+        "source_id": "le_goff_medieval_civilization_1988"
+      }
+    ],
+    "region": "italy",
+    "name_variants": [
+      "Petrarch"
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "le_goff_medieval_civilization_1988"
+    ],
+    "confidence": "low"
+  }
+}

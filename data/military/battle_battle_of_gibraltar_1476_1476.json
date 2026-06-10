@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_gibraltar_1476_1476",
+  "name": "Battle of Gibraltar (1476)",
+  "subtype": "battle",
+  "start_year": 1476,
+  "end_year": 1476,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q81650764"
+    }
+  },
+  "description": "Battle during War of the Castilian Succession (1476)",
+  "coords": [
+    -5.35,
+    36.15
+  ]
+}

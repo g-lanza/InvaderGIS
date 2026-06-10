@@ -1,0 +1,34 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_fifth_goryeo_mongol_war_1253",
+  "name": "Fifth Goryeo-Mongol War",
+  "year": 1253,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    42.423,
+    114.922
+  ],
+  "entity": "mongol_empire",
+  "summary": "Fifth Goryeo-Mongol War (1253 CE). Source: Wikidata Q21060247.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "mongol_empire",
+      "korea"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "morgan_the_1986",
+      "may_the_2012",
+      "beckwith_empires_2009"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "saladin_ayyubid_foundation_1171",
+  "name": "Saladin Abolishes the Fatimid Caliphate",
+  "year": 1171,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    30.044,
+    31.235
+  ],
+  "entity": "ayyubid_sultanate",
+  "summary": "Saladin, who had been sent to Egypt as the Fatimid vizier by Nur ad-Din of Syria, used his position to undermine the Ismaili Shia Fatimid caliphate. When the last Fatimid caliph Al-Adid died in September 1171, Saladin simply omitted his name from the Friday sermon, restoring the Sunni Abbasid caliph's name. Egypt returned to Sunni Islam; Saladin's Ayyubid dynasty replaced the Fatimid administration.",
+  "outcomes": [
+    "Last Fatimid caliph dies; no successor named",
+    "Egypt returns to Sunni Abbasid allegiance",
+    "Saladin controls Egypt",
+    "Ayyubid sultanate begins to consolidate"
+  ],
+  "_quarry": {
+    "participants": [
+      "ayyubid_sultanate",
+      "fatimid_caliphate"
+    ],
+    "structural_significance": "Ended two centuries of Fatimid Ismaili rule in Egypt; unified Syria and Egypt under Saladin and created the strategic base for Crusader reconquest.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "jackson_saladin_1982",
+      "Lev, Saladin in Egypt"
+    ],
+    "confidence": "low"
+  }
+}

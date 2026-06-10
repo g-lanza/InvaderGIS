@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "roger_ii_sicily_kingdom_1130",
+  "name": "Roger II Crowned King of Sicily",
+  "year": 1130,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    38.12,
+    13.37
+  ],
+  "entity": "kingdom_of_sicily_norman",
+  "summary": "Roger II of Sicily is crowned king on Christmas Day 1130 by Antipope Anacletus II, consolidating Sicily, southern Italy (Apulia, Calabria, Campania), and parts of North Africa into the Kingdom of Sicily. Roger's court at Palermo is a remarkable synthesis: Arab geographer al-Idrisi creates the world's most accurate medieval map there; Byzantine Greek, Arab, and Norman craftsmen collaborate on the mosaics of the Palatine Chapel; the royal chancery operates in Greek, Arabic, and Latin. Roger II codifies the Assizes of Ariano, establishing a royal law superseding feudal custom.",
+  "outcomes": [
+    "duchy_elevated_to_kingdom",
+    "multicultural_norman_state_peak",
+    "antipope_crowns_roger"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_sicily_norman",
+      "papal_states"
+    ],
+    "structural_significance": "Creates the most sophisticated administrative kingdom in 12th-century Europe; the Norman synthesis of Arab administrative techniques (including the use of Muslim officials) and Byzantine artistic traditions makes Sicily a unique bridge civilization; Frederick II inherits this multicultural tradition and makes it the basis of his imperial administration; Roger's al-Idrisi map remains the most accurate world map for three centuries",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

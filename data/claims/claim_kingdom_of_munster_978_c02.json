@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_kingdom_of_munster_978_c02",
+  "statement": "Brian Boru forged alliances with Norse settlers and used Munster's resources to project power across Ireland.",
+  "subject_ids": [
+    "kingdom_of_munster"
+  ],
+  "period": {
+    "from": 978,
+    "to": 978
+  },
+  "derived_from": "kingdom_of_munster_978",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

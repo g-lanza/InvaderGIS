@@ -1,0 +1,37 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "capetian_election_987",
+  "name": "Hugh Capet Elected King of France",
+  "year": 987,
+  "type": "political",
+  "category": "power",
+  "coords": [
+    48.85,
+    2.35
+  ],
+  "entity": "kingdom_of_france",
+  "summary": "Following the death of the last Carolingian king Louis V without heir, the French nobles elect Hugh Capet, Count of Paris, as King of France in June 987. Hugh immediately associates his son Robert as co-king, establishing the Capetian practice of associating the heir during the father's lifetime, ensuring peaceful succession for 341 years. The Capetian dynasty rules France directly until 1328 and through cadet branches until 1848.",
+  "outcomes": [
+    "capetian_dynasty_begins",
+    "carolingian_line_ends_france",
+    "hereditary_succession_eventually"
+  ],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_france"
+    ],
+    "structural_significance": "The Capetian dynasty begins with minimal royal power, Hugh controls little territory beyond the Île-de-France, but builds royal authority systematically over generations through patient acquisition, strategic marriage, and ecclesiastical alliance; the unbroken hereditary succession (no regency crisis until the 14th century) gives France an institutional stability that England and the Empire lack; the Capetians create France as a coherent political unit",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "dunbabin_france_1985",
+      "hallam_capetian_2001",
+      "jordan_france_2004"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "arab_siege_constantinople_717_2",
+  "name": "Second Arab Siege of Constantinople",
+  "year": 717,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    41.01,
+    28.97
+  ],
+  "entity": "byzantine_empire",
+  "summary": "The Umayyad Caliph Suleiman dispatches an enormous fleet and army to Constantinople, sources claim 80,000 troops and 1,800 ships. Emperor Leo III (the Isaurian) defends the city using Greek fire, which destroys the Arab fleet. Bulgarian attacks from the north and a harsh winter devastate the besieging army. The siege is abandoned in August 718 after catastrophic losses. Leo's success makes him politically unassailable and enables the Iconoclast controversy.",
+  "outcomes": [
+    "umayyad_siege_fails",
+    "greek_fire_decisive",
+    "byzantine_survival_ensured",
+    "umayyad_expansion_halted"
+  ],
+  "_quarry": {
+    "participants": [
+      "byzantine_empire",
+      "umayyad_caliphate"
+    ],
+    "structural_significance": "The failed siege marks the definitive limit of Umayyad expansion into Europe via the eastern route; combined with Charles Martel's victory at Tours (732), it ensures Christianity's survival in Europe; Leo III's prestige from the victory allows him to launch Iconoclasm over Constantinople's protests; the failure redirects Umayyad energy toward the Iberian peninsula",
+    "year_range": [
+      717,
+      718
+    ]
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "herrin_byzantium_2007",
+      "treadgold_a_1997",
+      "haldon_byzantium_2000",
+      "kazhdan_the_1991"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

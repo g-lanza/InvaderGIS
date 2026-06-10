@@ -1,0 +1,25 @@
+{
+  "kind": "settlement",
+  "dataset": "medieval-europe-500-1500",
+  "id": "set_karlino_1240",
+  "name": "Karlino",
+  "importance": "city",
+  "start_year": 1240,
+  "end_year": 1500,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-settlement"
+    ],
+    "confidence": "low",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q988593"
+    }
+  },
+  "end_confidence": "low",
+  "coords": [
+    15.8786,
+    54.0392
+  ]
+}

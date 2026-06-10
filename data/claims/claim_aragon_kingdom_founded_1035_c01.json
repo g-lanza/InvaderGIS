@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_aragon_kingdom_founded_1035_c01",
+  "statement": "Ramiro I inherited Aragon as a kingdom in 1035 after the death of Sancho III of Navarre divided his realms among his sons.",
+  "subject_ids": [
+    "kingdom_of_aragon"
+  ],
+  "period": {
+    "from": 1035,
+    "to": 1035
+  },
+  "derived_from": "aragon_kingdom_founded_1035",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

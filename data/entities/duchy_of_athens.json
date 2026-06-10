@@ -1,0 +1,1122 @@
+{
+  "kind": "polity",
+  "dataset": "medieval-europe-500-1500",
+  "id": "duchy_of_athens",
+  "name_primary": "Duchy of Athens",
+  "name_variants": [],
+  "type": "duchy",
+  "region": "southeastern_europe",
+  "formed": 1205,
+  "dissolved": 1458,
+  "capital_history": [],
+  "polygon_snapshots": [
+    {
+      "year": 1206,
+      "label": "Duchy of Athens",
+      "polygon": [
+        [
+          38.03,
+          23.36
+        ],
+        [
+          37.9,
+          23.04
+        ],
+        [
+          38.29,
+          22.99
+        ],
+        [
+          38.42,
+          22.53
+        ],
+        [
+          38.87,
+          22.39
+        ],
+        [
+          38.87,
+          22.94
+        ],
+        [
+          38.48,
+          23.31
+        ],
+        [
+          38.48,
+          23.7
+        ],
+        [
+          38.42,
+          23.7
+        ],
+        [
+          38.29,
+          24.08
+        ],
+        [
+          38.22,
+          24
+        ],
+        [
+          37.84,
+          23.98
+        ],
+        [
+          38.03,
+          23.36
+        ]
+      ]
+    },
+    {
+      "year": 1216,
+      "label": "Duchy of Athens",
+      "polygon": [
+        [
+          [
+            37.9,
+            23.04
+          ],
+          [
+            38.29,
+            22.99
+          ],
+          [
+            38.42,
+            22.53
+          ],
+          [
+            38.87,
+            22.39
+          ],
+          [
+            38.87,
+            22.94
+          ],
+          [
+            38.48,
+            23.31
+          ],
+          [
+            38.48,
+            23.7
+          ],
+          [
+            38.42,
+            23.7
+          ],
+          [
+            38.29,
+            24.08
+          ],
+          [
+            38.22,
+            24
+          ],
+          [
+            37.84,
+            23.98
+          ],
+          [
+            38.03,
+            23.44
+          ],
+          [
+            37.9,
+            23.04
+          ]
+        ],
+        [
+          [
+            37.51,
+            22.55
+          ],
+          [
+            37.77,
+            22.57
+          ],
+          [
+            37.77,
+            22.8
+          ],
+          [
+            37.45,
+            22.71
+          ],
+          [
+            37.45,
+            22.55
+          ],
+          [
+            37.51,
+            22.55
+          ]
+        ]
+      ]
+    },
+    {
+      "year": 1279,
+      "label": "Duchy of Athens",
+      "polygon": [
+        [
+          38.03,
+          23.36
+        ],
+        [
+          37.9,
+          23.04
+        ],
+        [
+          38.29,
+          22.99
+        ],
+        [
+          38.42,
+          22.53
+        ],
+        [
+          38.67,
+          22.46
+        ],
+        [
+          38.67,
+          22.38
+        ],
+        [
+          38.87,
+          22.39
+        ],
+        [
+          38.87,
+          22.94
+        ],
+        [
+          38.48,
+          23.31
+        ],
+        [
+          38.48,
+          23.7
+        ],
+        [
+          38.29,
+          24.08
+        ],
+        [
+          37.84,
+          23.98
+        ],
+        [
+          38.03,
+          23.36
+        ]
+      ]
+    }
+  ],
+  "centroid": [
+    37.98,
+    23.73
+  ],
+  "religion": "catholic",
+  "population_estimates": [
+    {
+      "year": 1100,
+      "estimate": 105000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q334714",
+          "url": "https://www.wikidata.org/wiki/Q334714",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Athens",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Athens"
+        }
+      ]
+    },
+    {
+      "year": 1250,
+      "estimate": 150000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q334714",
+          "url": "https://www.wikidata.org/wiki/Q334714",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Athens",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Athens"
+        }
+      ]
+    },
+    {
+      "year": 1400,
+      "estimate": 165000,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q334714",
+          "url": "https://www.wikidata.org/wiki/Q334714",
+          "statement": "P1082"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Athens",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Athens"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low"
+  },
+  "description": "Crusader state in central Greece (1205–1456) held successively by French, Catalan, Florentine, and Navarrese rulers; the Catalan Company's seizure (1311) and brutal rule for seventy years made it the most turbulent of the Latin Aegean statelets, before the Acciaiuoli Florentine dynasty restored stability until Ottoman conquest.",
+  "temporal": {
+    "start_year": 1205,
+    "end_year": 1458,
+    "end_year_within_scope": null,
+    "start_event_id": null,
+    "end_event_id": null,
+    "notes": "Fourth Crusader successor state; French, Catalan, then Florentine Acciaiuoli."
+  },
+  "geographic": {
+    "representation": "centroid",
+    "centroid": [
+      37.98,
+      23.73
+    ],
+    "core_regions": [
+      "Attica",
+      "Boeotia"
+    ],
+    "polygon_simplified": [
+      [
+        [
+          37.9,
+          23.04
+        ],
+        [
+          38.29,
+          22.99
+        ],
+        [
+          38.42,
+          22.53
+        ],
+        [
+          38.87,
+          22.39
+        ],
+        [
+          38.87,
+          22.94
+        ],
+        [
+          38.48,
+          23.31
+        ],
+        [
+          38.48,
+          23.7
+        ],
+        [
+          38.42,
+          23.7
+        ],
+        [
+          38.29,
+          24.08
+        ],
+        [
+          38.22,
+          24
+        ],
+        [
+          37.84,
+          23.98
+        ],
+        [
+          38.03,
+          23.44
+        ],
+        [
+          37.9,
+          23.04
+        ]
+      ],
+      [
+        [
+          37.51,
+          22.55
+        ],
+        [
+          37.77,
+          22.57
+        ],
+        [
+          37.77,
+          22.8
+        ],
+        [
+          37.45,
+          22.71
+        ],
+        [
+          37.45,
+          22.55
+        ],
+        [
+          37.51,
+          22.55
+        ]
+      ]
+    ],
+    "notes": "Centroid approximate; polygon pending schematic or OHM sourcing.",
+    "polygon_snapshots": [
+      {
+        "year": 1206,
+        "label": "Duchy of Athens",
+        "polygon": [
+          [
+            38.03,
+            23.36
+          ],
+          [
+            37.9,
+            23.04
+          ],
+          [
+            38.29,
+            22.99
+          ],
+          [
+            38.42,
+            22.53
+          ],
+          [
+            38.87,
+            22.39
+          ],
+          [
+            38.87,
+            22.94
+          ],
+          [
+            38.48,
+            23.31
+          ],
+          [
+            38.48,
+            23.7
+          ],
+          [
+            38.42,
+            23.7
+          ],
+          [
+            38.29,
+            24.08
+          ],
+          [
+            38.22,
+            24
+          ],
+          [
+            37.84,
+            23.98
+          ],
+          [
+            38.03,
+            23.36
+          ]
+        ]
+      },
+      {
+        "year": 1216,
+        "label": "Duchy of Athens",
+        "polygon": [
+          [
+            [
+              37.9,
+              23.04
+            ],
+            [
+              38.29,
+              22.99
+            ],
+            [
+              38.42,
+              22.53
+            ],
+            [
+              38.87,
+              22.39
+            ],
+            [
+              38.87,
+              22.94
+            ],
+            [
+              38.48,
+              23.31
+            ],
+            [
+              38.48,
+              23.7
+            ],
+            [
+              38.42,
+              23.7
+            ],
+            [
+              38.29,
+              24.08
+            ],
+            [
+              38.22,
+              24
+            ],
+            [
+              37.84,
+              23.98
+            ],
+            [
+              38.03,
+              23.44
+            ],
+            [
+              37.9,
+              23.04
+            ]
+          ],
+          [
+            [
+              37.51,
+              22.55
+            ],
+            [
+              37.77,
+              22.57
+            ],
+            [
+              37.77,
+              22.8
+            ],
+            [
+              37.45,
+              22.71
+            ],
+            [
+              37.45,
+              22.55
+            ],
+            [
+              37.51,
+              22.55
+            ]
+          ]
+        ]
+      },
+      {
+        "year": 1279,
+        "label": "Duchy of Athens",
+        "polygon": [
+          [
+            38.03,
+            23.36
+          ],
+          [
+            37.9,
+            23.04
+          ],
+          [
+            38.29,
+            22.99
+          ],
+          [
+            38.42,
+            22.53
+          ],
+          [
+            38.67,
+            22.46
+          ],
+          [
+            38.67,
+            22.38
+          ],
+          [
+            38.87,
+            22.39
+          ],
+          [
+            38.87,
+            22.94
+          ],
+          [
+            38.48,
+            23.31
+          ],
+          [
+            38.48,
+            23.7
+          ],
+          [
+            38.29,
+            24.08
+          ],
+          [
+            37.84,
+            23.98
+          ],
+          [
+            38.03,
+            23.36
+          ]
+        ]
+      }
+    ],
+    "polygon_status": "real_historical_boundary",
+    "polygon_source": "Seshat-Global-History-Databank/cliopatria",
+    "polygon_source_date": "2026-05-10",
+    "capital": {
+      "name": "Athens",
+      "coords": [
+        37.98417,
+        23.72806
+      ],
+      "source": "wikidata"
+    }
+  },
+  "internal_structure": {
+    "centralization": "low_to_medium",
+    "centralization_trajectory": null,
+    "governance_type": "dynastic_feudal",
+    "legitimacy_basis": [
+      "feudal_oath",
+      "conquest"
+    ],
+    "administrative_system": ""
+  },
+  "lifecycle_phases": [
+    {
+      "phase": "formation",
+      "years": "c.1205–1225",
+      "description": "Othon de la Roche establishes Frankish lordship at Athens.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q334714",
+          "url": "https://www.wikidata.org/wiki/Q334714"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Athens",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Athens"
+        }
+      ]
+    },
+    {
+      "phase": "expansion",
+      "years": "1225–1311",
+      "description": "Duchy under de la Roche then de Brienne; French feudal peak.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q334714",
+          "url": "https://www.wikidata.org/wiki/Q334714"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Athens",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Athens"
+        }
+      ]
+    },
+    {
+      "phase": "crisis",
+      "years": "1311",
+      "description": "Battle of Halmyros; Catalan Company massacres Frankish nobility and takes control.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q334714",
+          "url": "https://www.wikidata.org/wiki/Q334714"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Athens",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Athens"
+        }
+      ]
+    },
+    {
+      "phase": "peak",
+      "years": "1311–1387",
+      "description": "Catalan rule under Aragonese Crown; military stability.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q334714",
+          "url": "https://www.wikidata.org/wiki/Q334714"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Athens",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Athens"
+        }
+      ]
+    },
+    {
+      "phase": "decline",
+      "years": "1387–1456",
+      "description": "Navarrese then Florentine (Acciaioli) rule; Ottoman pressure grows.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q334714",
+          "url": "https://www.wikidata.org/wiki/Q334714"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Athens",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Athens"
+        }
+      ]
+    },
+    {
+      "phase": "dissolution",
+      "years": "1456",
+      "description": "Ottoman conquest.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q334714",
+          "url": "https://www.wikidata.org/wiki/Q334714"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Athens",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Athens"
+        }
+      ]
+    }
+  ],
+  "rise_factors": [
+    {
+      "tag": "external_alliance",
+      "layer": "external_political",
+      "description": "Latin Empire and Venetian network provided military, commercial, and diplomatic support for Frankish rule.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q334714",
+          "url": "https://www.wikidata.org/wiki/Q334714"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Athens",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Athens"
+        }
+      ]
+    },
+    {
+      "tag": "military_organizational_advantage",
+      "layer": "military_security",
+      "description": "The Catalan Company (1311–1387) provided a formidable and experienced mercenary military force.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q334714",
+          "url": "https://www.wikidata.org/wiki/Q334714"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Athens",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Athens"
+        }
+      ]
+    },
+    {
+      "tag": "geographic_defensibility",
+      "layer": "geography_territory",
+      "description": "Acropolis of Athens and the Cadmeia of Thebes provided strong fortress anchors.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q334714",
+          "url": "https://www.wikidata.org/wiki/Q334714"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Athens",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Athens"
+        }
+      ]
+    },
+    {
+      "layer": "military_security",
+      "tag": "crusader_establishment",
+      "direction": "rise",
+      "description": "The Duchy of Athens emerged from the Fourth Crusade's partition of Byzantine territory, established by the de la Roche family who controlled Attica and Boeotia as a Frankish fief.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q334714",
+          "url": "https://www.wikidata.org/wiki/Q334714"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Athens",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Athens"
+        }
+      ]
+    },
+    {
+      "layer": "economic_commercial",
+      "tag": "resource_concentration",
+      "direction": "rise",
+      "description": "Control over the fertile plains of Boeotia and the trade routes through Corinth gave the duchy stable agricultural revenues supporting the Frankish settler aristocracy.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q334714",
+          "url": "https://www.wikidata.org/wiki/Q334714"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Athens",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Athens"
+        }
+      ],
+      "tag_prose": "greek_agricultural_surplus"
+    }
+  ],
+  "decline_factors": [
+    {
+      "tag": "external_military_pressure",
+      "layer": "military_security",
+      "description": "Ottoman expansion under Mehmed II captured Athens 1456, ending Frankish rule.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q334714",
+          "url": "https://www.wikidata.org/wiki/Q334714"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Athens",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Athens"
+        }
+      ]
+    },
+    {
+      "tag": "succession_crisis",
+      "layer": "dynastic_legitimacy",
+      "description": "Duchy passed among French, Catalan, Navarrese, and Florentine rulers, undermining institutional continuity.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q334714",
+          "url": "https://www.wikidata.org/wiki/Q334714"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Athens",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Athens"
+        }
+      ]
+    },
+    {
+      "tag": "legitimacy_loss",
+      "layer": "dynastic_legitimacy",
+      "description": "Competing dynastic claims eroded governance capacity from 1311 onward.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q334714",
+          "url": "https://www.wikidata.org/wiki/Q334714"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Athens",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Athens"
+        }
+      ]
+    },
+    {
+      "layer": "military_security",
+      "tag": "catalan_company",
+      "direction": "decline",
+      "description": "The Catalan Company, a mercenary force hired against the Byzantines, turned on Walter of Brienne and destroyed the Frankish nobility at the Battle of Halmyros in 1311.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q334714",
+          "url": "https://www.wikidata.org/wiki/Q334714"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Athens",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Athens"
+        }
+      ]
+    },
+    {
+      "layer": "military_security",
+      "tag": "external_military_pressure",
+      "direction": "decline",
+      "description": "Ottoman forces under Omar Bey captured Athens in 1458, ending the Duchy after it had passed successively through French, Catalan, Navarrese, and Florentine rule.",
+      "sources": [
+        {
+          "type": "wikidata",
+          "id": "Q334714",
+          "url": "https://www.wikidata.org/wiki/Q334714"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Duchy of Athens",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_Athens"
+        }
+      ],
+      "tag_prose": "ottoman_conquest"
+    }
+  ],
+  "key_figures": [
+    {
+      "person_id": "othon_de_la_roche",
+      "name": "Othon de la Roche",
+      "role": "dynastic_founder",
+      "years": "1205–1225",
+      "year_start": 1205,
+      "year_end": 1225,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Othon de la Roche",
+          "url": "https://en.wikipedia.org/wiki/Othon_de_la_Roche"
+        }
+      ]
+    },
+    {
+      "person_id": "walter_vi_brienne",
+      "name": "Walter VI de Brienne",
+      "role": "military_leader",
+      "years": "d.1356",
+      "year_start": 1356,
+      "year_end": null,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "label": "Walter VI de Brienne",
+          "url": "https://en.wikipedia.org/wiki/Walter_VI_de_Brienne"
+        }
+      ]
+    }
+  ],
+  "predecessor_entity_ids": [
+    "byzantine_empire",
+    "latin_empire_constantinople"
+  ],
+  "successor_entity_ids": [
+    "ottoman_empire"
+  ],
+  "primary_ethnicity": "greek_byzantine",
+  "ethnic_composition": [
+    {
+      "group": "greek_byzantine",
+      "proportion": 0.68
+    },
+    {
+      "group": "latin_frankish",
+      "proportion": 0.24
+    },
+    {
+      "group": "slavic",
+      "proportion": 0.05
+    },
+    {
+      "group": "vlach",
+      "proportion": 0.03
+    }
+  ],
+  "religion_composition": [
+    {
+      "religion": "catholic",
+      "proportion": 0.91
+    },
+    {
+      "religion": "pagan",
+      "proportion": 0.05
+    },
+    {
+      "religion": "orthodox",
+      "proportion": 0.04
+    }
+  ],
+  "primary_language": "old_french",
+  "language_composition": [
+    {
+      "language": "greek",
+      "proportion": 0.66,
+      "role": "vernacular"
+    },
+    {
+      "language": "old_french",
+      "proportion": 0.22,
+      "role": "administrative"
+    },
+    {
+      "language": "italian_lang",
+      "proportion": 0.08,
+      "role": "regional"
+    },
+    {
+      "language": "latin",
+      "proportion": 0.04,
+      "role": "liturgical"
+    }
+  ],
+  "economic": {
+    "primary_base": "agriculture",
+    "secondary_bases": [
+      "long_distance_trade",
+      "tribute"
+    ],
+    "wealth_level": "moderate",
+    "major_exports": [
+      "grain",
+      "olive_oil",
+      "wine",
+      "marble"
+    ],
+    "major_trade_partners": [
+      "republic_of_venice",
+      "principality_of_achaea",
+      "byzantine_empire"
+    ],
+    "revenue_sources": [
+      "land_tax",
+      "tribute",
+      "customs_duties"
+    ],
+    "sources": [
+      {
+        "type": "wikidata",
+        "id": "Q334714",
+        "url": "https://www.wikidata.org/wiki/Q334714"
+      },
+      {
+        "type": "wikipedia",
+        "label": "Duchy of Athens",
+        "url": "https://en.wikipedia.org/wiki/Duchy_of_Athens"
+      }
+    ]
+  },
+  "social_structure": {
+    "ruling_ethnicity": "latin_frankish",
+    "subject_majority": "greek_byzantine",
+    "military_ethnicity": "latin_frankish",
+    "administrative_language": "old_french",
+    "stratification_type": "conquest_colonial"
+  },
+  "wikidata_enrichment": {
+    "qid": "Q334714",
+    "matched_name": "Duchy of Athens",
+    "enrichment_date": "2026-05-14",
+    "enrichment_status": "pending_human_review",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Duchy_of_Athens",
+    "capital": {
+      "name": "Athens",
+      "coords": [
+        37.98417,
+        23.72806
+      ]
+    },
+    "rulers_from_wikidata": [
+      {
+        "name": "Otto de la Roche",
+        "qid": "Q717710",
+        "year_start": 1205,
+        "year_end": 1225,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q717710",
+            "url": "https://www.wikidata.org/wiki/Q717710"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Otto de la Roche",
+            "url": "https://en.wikipedia.org/wiki/Othon_de_la_Roche"
+          }
+        ]
+      },
+      {
+        "name": "Roger Deslaur",
+        "qid": "Q1366648",
+        "year_start": 1311,
+        "year_end": 1312,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1366648",
+            "url": "https://www.wikidata.org/wiki/Q1366648"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Roger Deslaur",
+            "url": "https://en.wikipedia.org/wiki/Roger_Deslaur"
+          }
+        ]
+      },
+      {
+        "name": "Francesco II Acciaioli",
+        "qid": "Q1405777",
+        "year_start": 1455,
+        "year_end": 1458,
+        "sources": [
+          {
+            "type": "wikidata",
+            "id": "Q1405777",
+            "url": "https://www.wikidata.org/wiki/Q1405777"
+          },
+          {
+            "type": "wikipedia",
+            "label": "Francesco II Acciaioli",
+            "url": "https://en.wikipedia.org/wiki/Francesco_II_Acciaioli"
+          }
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "type": "book",
+      "author": "Wickham, Chris",
+      "title": "The Inheritance of Rome: A History of Europe from 400 to 1000",
+      "publisher": "Allen Lane",
+      "year": 2009
+    },
+    {
+      "type": "book",
+      "author": "Abulafia, David (ed.)",
+      "title": "The New Cambridge Medieval History, Vol. V: c. 1198 – c. 1300",
+      "publisher": "Cambridge University Press",
+      "year": 1999
+    }
+  ],
+  "monogram": "AT"
+}

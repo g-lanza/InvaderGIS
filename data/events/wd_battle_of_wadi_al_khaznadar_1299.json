@@ -1,0 +1,35 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_wadi_al_khaznadar_1299",
+  "name": "Battle of Wadi al-Khaznadar",
+  "year": 1299,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    36.08,
+    40.825
+  ],
+  "entity": "kingdom_of_georgia",
+  "summary": "Battle of Wadi al-Khaznadar (1299 CE), at Homs (part of Mongol invasions of the Levant). Source: Wikidata Q2290814.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_georgia",
+      "ilkhanate",
+      "mamluk_sultanate",
+      "armenian_kingdom_of_cilicia"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

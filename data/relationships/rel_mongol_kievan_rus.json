@@ -1,0 +1,38 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_mongol_kievan_rus",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "golden_horde",
+      "role": "principal"
+    },
+    {
+      "entity_id": "kievan_rus",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "rivalry",
+  "since": 1240,
+  "until": 1240,
+  "note": "The Mongol invasion of Kievan Rus (1237–1240) under Batu Khan and Subutai was the most destructive event in Russian medieval history. Ryazan fell in December 1237, Vladimir in February 1238, Kiev in December 1240. Estimates suggest 50–80% of urban populations were killed; the archaeological record shows destruction layers in virtually every Rus city. The Mongol 'yoke' that followed (1240–1480) imposed annual tribute, census-taking, and the use of Mongol administrative systems (the decimal military unit structure). The invasion permanently shifted the demographic center of Russian civilization northward.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "The Mongol devastation of Kievan Rus eliminates the existing political structures and forces a complete reconstruction; the shift of political center northward (to Vladimir, then Moscow) reorients Russian civilization away from the steppe frontier; the 240-year tribute relationship shapes Russian political culture's emphasis on centralized state power"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "halperin_russia_1985",
+      "allsen_mongol_1987",
+      "franklin_the_1996",
+      "riasanovsky_a_2000",
+      "martin_medieval_1995"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

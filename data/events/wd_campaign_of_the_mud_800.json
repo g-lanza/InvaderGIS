@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_campaign_of_the_mud_800",
+  "name": "Campaign of the mud",
+  "year": 800,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    40.25,
+    41.65
+  ],
+  "entity": "khazar_khaganate",
+  "summary": "Campaign of the mud (800 CE), at South Caucasus (part of Arab–Khazar Wars). Source: Wikidata Q64744266.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "khazar_khaganate",
+      "umayyad_caliphate"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "golden_khazar_1980",
+      "brook_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_duchy_of_swabia_1268_c03",
+  "statement": "From the fragmentation of Swabia the Swiss Confederation emerged as the Alpine communities sought mutual defence.",
+  "subject_ids": [
+    "duchy_of_swabia"
+  ],
+  "period": {
+    "from": 1268,
+    "to": 1268
+  },
+  "derived_from": "duchy_of_swabia_1268",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

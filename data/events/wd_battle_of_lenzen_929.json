@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_lenzen_929",
+  "name": "Battle of Lenzen",
+  "year": 929,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    51.25,
+    10.25
+  ],
+  "entity": "east_francia",
+  "summary": "Battle of Lenzen (929 CE), at Lenzen (Elbe). Source: Wikidata Q1787252.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "east_francia",
+      "duchy_of_saxony"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_montiel_1143",
+  "name": "Battle of Montiel",
+  "year": 1143,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39,
+    -4
+  ],
+  "entity": "almoravid_emirate_iberia",
+  "summary": "Battle of Montiel (1143 CE), at Montiel (part of Almoravid conquest of al-Andalus). Source: Wikidata Q4871780.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "almoravid_emirate_iberia",
+      "kingdom_of_castile"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "catlos_the_2004",
+      "kennedy_muslim_1996"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

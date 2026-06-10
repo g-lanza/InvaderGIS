@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_despotate_of_epirus_1224_1411",
+  "statement": "Despotate of Epirus — campaigns and battles spanned 1224–1411, from Epirus Captures Thessaloniki to Albanian invasion of Epirus.",
+  "subject_ids": [
+    "despotate_of_epirus"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_despotate_of_epirus_1224_1411",
+  "period": {
+    "from": 1224,
+    "to": 1411
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

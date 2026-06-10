@@ -1,0 +1,36 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "vikings_raid_paris_845",
+  "name": "Vikings Raid Paris",
+  "year": 845,
+  "type": "battle",
+  "category": "violence",
+  "coords": [
+    48.9,
+    2.3
+  ],
+  "entity": "duchy_of_normandy",
+  "summary": "A Norse fleet of 120 ships sails up the Seine and reaches Paris. King Charles the Bald pays 7,000 pounds of silver to make the Vikings leave, the first major \"Danegeld.\" The raids continue; Charles later fortifies bridges across the Seine. The Norse eventually settle in Normandy (911) under Rollo, transforming from raiders to feudal lords.",
+  "outcomes": [
+    "charles_bald_pays_tribute",
+    "paris_defended",
+    "danegeld_established"
+  ],
+  "_quarry": {
+    "participants": [
+      "duchy_of_normandy"
+    ],
+    "structural_significance": "Establishes the pattern of tribute payment that becomes institutionalized as Danegeld; demonstrates the vulnerability of the Carolingian empire's interior to river raids; the Normandy settlement creates the dynasty that conquers England.",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

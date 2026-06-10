@@ -1,0 +1,33 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "hus_burned_1415",
+  "name": "Jan Hus burned",
+  "year": 1415,
+  "type": "rebellion",
+  "category": "violence",
+  "coords": [
+    47.66,
+    9.18
+  ],
+  "entity": "kingdom_of_bohemia",
+  "summary": "Jan Hus, Czech theologian and reformer, is summoned to the Council of Constance (1414–1418) under a safe-conduct promise from Emperor Sigismund. Tried for heresy based on his advocacy of Wycliffite doctrines (lay communion in both kinds, Bible authority over church tradition, clerical poverty), he refuses to recant and is burned at the stake (July 6, 1415). The execution violates his safe-conduct and ignites the Hussite revolt in Bohemia (1419); Hussite armies successfully resist five crusades (1420–1431), the only case in the medieval period of religious reformers defeating the full military resources of the Latin Church.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_bohemia",
+      "papal_states"
+    ],
+    "structural_significance": "Triggers the Hussite Wars, the first successful religious reform movement against the Catholic Church; creates the first proto-Protestant tradition; demonstrates the Council of Constance's inability to restore Church unity",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "relationship",
+  "dataset": "medieval-europe-500-1500",
+  "id": "rel_genoa_sardinia",
+  "from_id": "",
+  "to_id": "",
+  "participants": [
+    {
+      "entity_id": "republic_of_genoa",
+      "role": "principal"
+    },
+    {
+      "entity_id": "judicate_of_arborea",
+      "role": "principal"
+    }
+  ],
+  "directed": false,
+  "type": "contested_influence",
+  "since": 1100,
+  "until": 1300,
+  "note": "Genoa competed with Pisa for control of Sardinia throughout the 12th–13th centuries, exploiting the four indigenous Sardinian 'giudicati' (judgeships) through marriage alliances, commercial concessions, and military pressure. After the Battle of Meloria (1284) eliminated Pisan naval power, Genoa seemed positioned to absorb Sardinia — but the papacy intervened by granting Sardinia to the Crown of Aragon (1297), which conquered the island from the Genoese and the last indigenous giudicato (Arborea) in stages (1323–1420). Genoa retained only its colonies at Sassari and Bonifacio until Aragonese consolidation.",
+  "_quarry": {
+    "key_events": [],
+    "structural_significance": "Sardinia's contested status among Genoa, Pisa, and Aragon demonstrates how papal donation of distant territories could reshape the competition; Aragonese conquest of Sardinia (1323–1420) extends the Crown of Aragon's Mediterranean empire; the long Sardinian resistance (the Giudicato of Arborea lasted until 1420) is one of the most sustained medieval insular resistance movements"
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_sleepwalking_2015",
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

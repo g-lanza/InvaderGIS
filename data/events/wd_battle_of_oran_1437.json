@@ -1,0 +1,32 @@
+{
+  "kind": "event",
+  "dataset": "medieval-europe-500-1500",
+  "id": "wd_battle_of_oran_1437",
+  "name": "Battle of Oran",
+  "year": 1437,
+  "type": "military",
+  "category": "violence",
+  "coords": [
+    39.5,
+    -8
+  ],
+  "entity": "kingdom_of_portugal",
+  "summary": "Battle of Oran (1437 CE), at Oran. Source: Wikidata Q125293663.",
+  "outcomes": [],
+  "_quarry": {
+    "participants": [
+      "kingdom_of_portugal"
+    ],
+    "structural_significance": "",
+    "year_range": null
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "livermore_a_1966",
+      "diffie_foundations_1977"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

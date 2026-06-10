@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_burgandy_1477_c02",
+  "statement": "Charles the Bold's daughter Mary married Maximilian of Habsburg, transferring the Low Countries to the Habsburg dynasty.",
+  "subject_ids": [
+    "duchy_of_burgundy"
+  ],
+  "period": {
+    "from": 1477,
+    "to": 1477
+  },
+  "derived_from": "burgandy_1477",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

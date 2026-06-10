@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_wd_siege_of_lucca_1430_c01",
+  "statement": "Siege of Lucca (1430 CE), at Lucca (part of Wars in Lombardy).",
+  "subject_ids": [
+    "republic_of_florence"
+  ],
+  "period": {
+    "from": 1430,
+    "to": 1430
+  },
+  "derived_from": "wd_siege_of_lucca_1430",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "najemy_a_2006",
+      "brucker_renaissance_1983"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

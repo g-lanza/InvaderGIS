@@ -1,0 +1,150 @@
+{
+  "kind": "journey",
+  "dataset": "medieval-europe-500-1500",
+  "id": "conquests_kingdom_of_cyprus_1191_1426",
+  "name": "Kingdom of Cyprus — campaigns and battles",
+  "kind_type": "conquest",
+  "year_start": 1191,
+  "year_end": 1426,
+  "waypoints": [
+    {
+      "year": 1191,
+      "place": "Richard I Conquers Cyprus",
+      "coords": [
+        35,
+        33
+      ],
+      "note": "military",
+      "event_id": "cyprus_richard_conquest_1191"
+    },
+    {
+      "year": 1217,
+      "place": "Fifth Crusade",
+      "coords": [
+        31.42,
+        31.82
+      ],
+      "note": "crusade",
+      "event_id": "fifth_crusade_1217"
+    },
+    {
+      "year": 1217,
+      "place": "Siege of Mount Tabor",
+      "coords": [
+        37.52,
+        29.42
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_mount_tabor_1217"
+    },
+    {
+      "year": 1218,
+      "place": "Siege of Damietta",
+      "coords": [
+        41.9625,
+        18.725
+      ],
+      "note": "military",
+      "event_id": "wd_siege_of_damietta_1218"
+    },
+    {
+      "year": 1228,
+      "place": "War of the Lombards",
+      "coords": [
+        38.9875,
+        24.775
+      ],
+      "note": "military",
+      "event_id": "wd_war_of_the_lombards_1228"
+    },
+    {
+      "year": 1232,
+      "place": "Battle of Agridi",
+      "coords": [
+        42.5,
+        21.75
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_agridi_1232"
+    },
+    {
+      "year": 1271,
+      "place": "Battle of Qaqun",
+      "coords": [
+        37.14,
+        25.32
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_qaqun_1271"
+    },
+    {
+      "year": 1343,
+      "place": "Smyrniote crusades",
+      "coords": [
+        39.825,
+        21.5
+      ],
+      "note": "military",
+      "event_id": "wd_smyrniote_crusades_1343"
+    },
+    {
+      "year": 1365,
+      "place": "Alexandrian Crusade",
+      "coords": [
+        36.7,
+        26.175
+      ],
+      "note": "military",
+      "event_id": "wd_alexandrian_crusade_1365"
+    },
+    {
+      "year": 1367,
+      "place": "Battle of Tripoli",
+      "coords": [
+        36.45,
+        25.325
+      ],
+      "note": "military",
+      "event_id": "wd_battle_of_tripoli_1367"
+    },
+    {
+      "year": 1373,
+      "place": "Cypriot-Genoese War",
+      "coords": [
+        39.7,
+        20.95
+      ],
+      "note": "military",
+      "event_id": "wd_cypriot_genoese_war_1373"
+    },
+    {
+      "year": 1424,
+      "place": "Mamluk campaigns against Cyprus",
+      "coords": [
+        32.5,
+        32.1
+      ],
+      "note": "military",
+      "event_id": "wd_mamluk_campaigns_against_cyprus_1424"
+    },
+    {
+      "year": 1426,
+      "place": "Mamluk Egypt Sacks Limassol",
+      "coords": [
+        35,
+        33
+      ],
+      "note": "military",
+      "event_id": "cyprus_mamluk_raid_1426"
+    }
+  ],
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

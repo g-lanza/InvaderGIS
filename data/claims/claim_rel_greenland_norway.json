@@ -1,0 +1,29 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_rel_greenland_norway",
+  "statement": "Norse Greenland (established c. 985 by Erik the Red) maintained commercial and administrative ties with Norway — the only source of timber, grain, and iron that the settlements required. Norway extracted tribute in the form of walrus ivory, white bears, and other Arctic luxury goods. The settlements accepted Norwegian royal sovereignty in 1261 (the same year as Iceland). The western settlement collapsed c. 1350 (likely from a combination of climate cooling and Inuit pressure); the eastern settlement persisted until c. 1408. The last certain record of the eastern settlement is a 1408 marriage recorded at the Hvalsey church.",
+  "subject_ids": [
+    "kingdom_of_norway",
+    "norse_greenland"
+  ],
+  "predicate": "vassalage",
+  "derived_from": "rel_greenland_norway",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "sawyer_the_1997",
+      "helle_the_2003",
+      "reuter_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  },
+  "object_ids": [
+    "norse_greenland"
+  ],
+  "period": {
+    "from": 985,
+    "to": 1397
+  }
+}

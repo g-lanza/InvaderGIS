@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_battle_of_trancoso_1140",
+  "name": "Battle of Trancoso",
+  "subtype": "battle",
+  "start_year": 1140,
+  "end_year": 1140,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q129966864"
+    }
+  },
+  "description": "Battle during Almoravid conquest of al-Andalus (1140)",
+  "coords": [
+    -7.35,
+    40.7833
+  ]
+}

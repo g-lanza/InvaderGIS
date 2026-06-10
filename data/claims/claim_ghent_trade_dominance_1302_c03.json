@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_ghent_trade_dominance_1302_c03",
+  "statement": "After the Battle of Courtrai the Flemish victors collected 500 golden spurs from the dead French knights as trophies.",
+  "subject_ids": [
+    "county_of_flanders"
+  ],
+  "period": {
+    "from": 1302,
+    "to": 1302
+  },
+  "derived_from": "ghent_trade_dominance_1302",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

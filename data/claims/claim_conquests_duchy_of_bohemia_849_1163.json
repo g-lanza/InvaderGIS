@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_duchy_of_bohemia_849_1163",
+  "statement": "Duchy of Bohemia — campaigns and battles spanned 849–1163, from Battle of Zásek to Byzantine–Hungarian War.",
+  "subject_ids": [
+    "duchy_of_bohemia"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_duchy_of_bohemia_849_1163",
+  "period": {
+    "from": 849,
+    "to": 1163
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

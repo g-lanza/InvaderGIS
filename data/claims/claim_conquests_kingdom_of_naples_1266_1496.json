@@ -1,0 +1,24 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_conquests_kingdom_of_naples_1266_1496",
+  "statement": "Kingdom of Naples — campaigns and battles spanned 1266–1496, from Battle of Benevento to Siege of Atella.",
+  "subject_ids": [
+    "kingdom_of_naples"
+  ],
+  "predicate": "conquest",
+  "derived_from": "conquests_kingdom_of_naples_1266_1496",
+  "period": {
+    "from": 1266,
+    "to": 1496
+  },
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}

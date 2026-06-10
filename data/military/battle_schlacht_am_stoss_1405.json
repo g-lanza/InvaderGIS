@@ -1,0 +1,25 @@
+{
+  "kind": "military",
+  "dataset": "medieval-europe-500-1500",
+  "id": "battle_schlacht_am_stoss_1405",
+  "name": "Schlacht am Stoss",
+  "subtype": "battle",
+  "start_year": 1405,
+  "end_year": 1405,
+  "provenance": {
+    "status": "community",
+    "sources_used": [
+      "donor-geojson-military"
+    ],
+    "confidence": "moderate",
+    "attestation": "strong",
+    "external_ids": {
+      "wikidata": "Q681458"
+    }
+  },
+  "description": "Battle during Appenzell Wars (1405)",
+  "coords": [
+    9.495,
+    47.3608
+  ]
+}

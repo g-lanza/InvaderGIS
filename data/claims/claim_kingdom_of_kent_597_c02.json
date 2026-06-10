@@ -1,0 +1,23 @@
+{
+  "kind": "claim",
+  "dataset": "medieval-europe-500-1500",
+  "id": "claim_kingdom_of_kent_597_c02",
+  "statement": "King Æthelberht of Kent received Augustine in 597 CE and converted to Christianity.",
+  "subject_ids": [
+    "kingdom_of_kent"
+  ],
+  "period": {
+    "from": 597,
+    "to": 597
+  },
+  "derived_from": "kingdom_of_kent_597",
+  "provenance": {
+    "status": "draft",
+    "sources_used": [
+      "wickham_the_2009",
+      "abulafia_the_1999"
+    ],
+    "confidence": "low",
+    "attestation": "inferred"
+  }
+}
