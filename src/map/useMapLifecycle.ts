@@ -266,14 +266,24 @@ export function useMapLifecycle(containerRef: RefObject<HTMLDivElement | null>) 
         minZoom: 1,
         maxZoom: 12,
         attributionControl: false,
-        // Cap the render resolution at 2× device pixels. A modern phone reports
-        // devicePixelRatio 3, so a full-bleed map would rasterize 9× the fragments
-        // of a 1× canvas — the GPU can't repaint all the time-filtered layers at the
-        // 10 frames/sec REG playback rate, so the map visibly lagged the year on
-        // mobile (desktop, at DPR 1–2, kept up). Capping at 2 cuts the per-repaint
-        // fragment cost ~2.25× on a DPR-3 phone while staying retina-sharp; it is a
-        // no-op on DPR ≤2 displays (desktop), so playback now tracks the year on both.
-        pixelRatio: Math.min(window.devicePixelRatio || 1, 2),
+        // Cap the render resolution so the per-frame GPU cost stays sustainable.
+        //
+        // The phone shell is a FULL-BLEED retina map: at DPR 3 it rasterizes ~998k
+        // backing-store pixels (vs ~508k for the desktop grid-cell map at DPR 1) — and
+        // a phone GPU is several times weaker than a laptop's. That combination is why
+        // the SAME play loop / loader (mobile and desktop run identical code) kept up on
+        // the laptop but lagged on the phone. Measurement: mobile rasterizes ~2× the
+        // pixels of desktop. Capping the phone at 1.5× brings its per-frame pixel load
+        // (~562k) down to roughly desktop-equivalent, so playback tracks the year there
+        // too — at a slight cost in retina crispness that is invisible in motion.
+        //
+        // Desktop (>600px) keeps the 2× cap (a no-op on its DPR 1–2 displays), so its
+        // sharpness is unchanged. The cap is fixed at creation; a desktop↔mobile resize
+        // is rare on a real device and a reload re-evaluates it.
+        pixelRatio: Math.min(
+          window.devicePixelRatio || 1,
+          window.matchMedia('(max-width: 600px)').matches ? 1.5 : 2,
+        ),
         // Disable MapLibre's built-in ResizeObserver. Its un-debounced resize()
         // on every observed size change — fired in a burst while the CSS grid
         // animates a panel collapse/fullscreen — is what storms the WebGL context

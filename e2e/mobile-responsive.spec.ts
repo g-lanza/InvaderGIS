@@ -317,10 +317,12 @@ test.describe('mobile responsiveness', () => {
       if (cssW === 0) return null;
       return c.width / cssW; // backing-store px per CSS px
     });
-    // pixelRatio is capped at 2 in useMapLifecycle, so even on a DPR-3 device the
-    // canvas backing store is ≤2× its CSS size (small tolerance for rounding).
+    // pixelRatio is capped at 1.5 on the phone shell in useMapLifecycle (so the
+    // full-bleed retina map's per-frame pixel cost stays near desktop-equivalent and
+    // playback keeps up). Even on a DPR-3 device the backing store is ≤1.5× its CSS
+    // size (small tolerance for rounding).
     expect(ratio, `canvas backing ratio ${ratio}`).not.toBeNull();
-    expect(ratio!).toBeLessThanOrEqual(2.1);
+    expect(ratio!).toBeLessThanOrEqual(1.6);
   });
 
   for (const label of ['Network', 'Lineage', 'Registers', 'Compare', 'Sources', 'Filter', 'Search', 'Settings', 'Views']) {
