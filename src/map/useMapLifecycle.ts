@@ -72,11 +72,9 @@ import {
 } from './hatchPatterns';
 import { registerEventIcons } from './eventIcons';
 import { registerCapitalTowerIcon, CAPITAL_TOWER_IMAGE_ID } from './capitalTowerIcon';
-import {
-  fetchSeaLabelsGeojson,
-  addSeaLabelsLayer,
-  type SeaLabelFeatureCollection,
-} from './seaLabelsLayer';
+// Sea-labels layer removed (user request) — the ambient Latin sea names
+// ("MARE NOSTRVM", etc.) are no longer fetched or registered. seaLabelsLayer.ts
+// is retained for easy re-enablement but is no longer imported here.
 import {
   fetchRelationshipsGeojson,
   addRelationshipsLayer,
@@ -190,7 +188,6 @@ export function useMapLifecycle(containerRef: RefObject<HTMLDivElement | null>) 
   const settlementsGeojsonRef = useRef<SettlementFeatureCollection | null>(null);
   const militaryGeojsonRef  = useRef<MilitaryFeatureCollection | null>(null);
   const tradeGeojsonRef     = useRef<TradeFeatureCollection | null>(null);
-  const seaLabelsGeojsonRef     = useRef<SeaLabelFeatureCollection | null>(null);
   const relationshipsGeojsonRef = useRef<RelationshipsBuild | null>(null);
   const cartogramGeojsonRef     = useRef<CartogramFeatureCollection | null>(null);
 
@@ -269,6 +266,14 @@ export function useMapLifecycle(containerRef: RefObject<HTMLDivElement | null>) 
         minZoom: 1,
         maxZoom: 12,
         attributionControl: false,
+        // Cap the render resolution at 2× device pixels. A modern phone reports
+        // devicePixelRatio 3, so a full-bleed map would rasterize 9× the fragments
+        // of a 1× canvas — the GPU can't repaint all the time-filtered layers at the
+        // 10 frames/sec REG playback rate, so the map visibly lagged the year on
+        // mobile (desktop, at DPR 1–2, kept up). Capping at 2 cuts the per-repaint
+        // fragment cost ~2.25× on a DPR-3 phone while staying retina-sharp; it is a
+        // no-op on DPR ≤2 displays (desktop), so playback now tracks the year on both.
+        pixelRatio: Math.min(window.devicePixelRatio || 1, 2),
         // Disable MapLibre's built-in ResizeObserver. Its un-debounced resize()
         // on every observed size change — fired in a burst while the CSS grid
         // animates a panel collapse/fullscreen — is what storms the WebGL context
@@ -505,7 +510,6 @@ export function useMapLifecycle(containerRef: RefObject<HTMLDivElement | null>) 
         const settlementsP = fetchSettlementsGeojson();
         const militaryP    = fetchMilitaryGeojson();
         const capitalsP    = fetchCapitalsGeojson();
-        const seaLabelsP   = fetchSeaLabelsGeojson();
 
         // ── Step 7b: Register events layer (non-blocking) ─────────────────────
         // Events fetch runs after polity layers are live. Failure is non-fatal:
@@ -655,23 +659,9 @@ export function useMapLifecycle(containerRef: RefObject<HTMLDivElement | null>) 
           );
         }
 
-        // ── Step 7h: Fetch + register sea-labels layer (non-blocking) ────────────
-        // Italic sea-labels — the ONE sanctioned italic in the design language.
-        // Always visible by default (ambient cartographic atmosphere).
-        // Failure is non-fatal (warning logged, all other layers stay live).
-        const seaLabelsGeojson = await seaLabelsP;
-        if (!cancelled && seaLabelsGeojson !== null) {
-          seaLabelsGeojsonRef.current = seaLabelsGeojson;
-          addSeaLabelsLayer(
-            map,
-            seaLabelsGeojson,
-            tokens.label,
-            /* visible */ true,
-          );
-          mapLog(
-            '[seaLabelsLayer] Loaded ' + seaLabelsGeojson.features.length + ' sea labels',
-          );
-        }
+        // ── Step 7h: Sea-labels layer — REMOVED (user request) ───────────────────
+        // The ambient Latin sea-labels ("MARE NOSTRVM", etc.) were removed at the
+        // user's request: no fetch, no layer, nothing renders over the water.
 
         // ── Step 7i: Add tower-capital symbol layer (atop capitals-circle) ───────
         // A symbol layer using the CAPITAL_TOWER_IMAGE_ID registered at Step 3b.
@@ -883,7 +873,6 @@ export function useMapLifecycle(containerRef: RefObject<HTMLDivElement | null>) 
         settlementsGeojsonRef.current = null;
         militaryGeojsonRef.current    = null;
         tradeGeojsonRef.current       = null;
-        seaLabelsGeojsonRef.current   = null;
         relationshipsGeojsonRef.current = null;
         cartogramGeojsonRef.current     = null;
       }

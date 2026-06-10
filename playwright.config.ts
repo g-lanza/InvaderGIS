@@ -58,6 +58,10 @@ export default defineConfig({
       viewport: { width: vp.width, height: vp.height },
       hasTouch: true,
       isMobile: true,
+      // Phones run at a high device-pixel-ratio (modern iPhones report 3). Emulate
+      // it for the phone widths so tests exercise the real retina path (and verify
+      // the MapLibre pixelRatio cap). The 1280 desktop sentinel stays at 1.
+      deviceScaleFactor: vp.width <= 600 ? 3 : 1,
     },
   })),
 

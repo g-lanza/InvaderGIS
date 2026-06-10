@@ -291,6 +291,36 @@ test.describe('mobile responsiveness', () => {
     const rail = await page.locator('.m-shell__timerail').boundingBox();
     const scr = await page.locator('.tr-scrubber').boundingBox();
     expect(scr!.width, 'scrubber spans most of the strip').toBeGreaterThan(rail!.width * 0.4);
+
+    // The readout (year + period name) must not bleed past its cell into the track:
+    // every readout child's right edge stays within the .tr-readout box.
+    const overflow = await page.evaluate(() => {
+      const readout = document.querySelector('.tr-readout');
+      if (!readout) return false;
+      const box = readout.getBoundingClientRect();
+      return Array.from(readout.children).some(
+        (c) => c.getBoundingClientRect().right > box.right + 1,
+      );
+    });
+    expect(overflow, 'readout year/period must not overflow into the slider').toBe(false);
+  });
+
+  test('map render resolution is capped (≤2× CSS) for mobile playback', async ({ page }) => {
+    await waitForShell(page);
+    test.skip(!(await page.locator('.m-shell').count()), 'No phone shell at this viewport');
+    // Wait for the MapLibre canvas to exist.
+    await page.locator('.m-shell__map canvas').first().waitFor({ state: 'attached', timeout: 15000 });
+    const ratio = await page.evaluate(() => {
+      const c = document.querySelector('.m-shell__map canvas') as HTMLCanvasElement | null;
+      if (!c) return null;
+      const cssW = c.getBoundingClientRect().width;
+      if (cssW === 0) return null;
+      return c.width / cssW; // backing-store px per CSS px
+    });
+    // pixelRatio is capped at 2 in useMapLifecycle, so even on a DPR-3 device the
+    // canvas backing store is ≤2× its CSS size (small tolerance for rounding).
+    expect(ratio, `canvas backing ratio ${ratio}`).not.toBeNull();
+    expect(ratio!).toBeLessThanOrEqual(2.1);
   });
 
   for (const label of ['Network', 'Lineage', 'Registers', 'Compare', 'Sources', 'Filter', 'Search', 'Settings', 'Views']) {

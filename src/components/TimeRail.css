@@ -467,11 +467,6 @@
     display: none;
   }
 
-  /* Legibility floor on the surviving year-readout era sub-label. */
-  .tr-readout__era {
-    font-size: var(--fs-micro);
-  }
-
   /* ── Reclaim track width on narrow phones ───────────────────────────────────
      The readout and playback cluster are flex-shrink:0; on a 320px screen they
      would crush the (min-width:0) track to a few px. Tighten the fixed chrome so
@@ -479,12 +474,25 @@
   .tr-shell {
     gap: var(--space-2);
   }
+  /* The readout holds "YYYY CE" + the period name. Both are white-space:nowrap,
+     so without a width that fits the year and a hard clip, the period name spills
+     into the slider track. Size it to the year, clip overflow, and ellipsize the
+     era label so nothing bleeds. */
   .tr-readout {
-    width: 64px;
+    width: 72px;
     padding-right: var(--space-2);
+    overflow: hidden;
   }
   .tr-readout__year {
-    font-size: 16px;
+    font-size: 15px;
+    max-width: 100%;
+  }
+  /* Era/period name → readable floor, but truncates instead of overflowing. */
+  .tr-readout__era {
+    font-size: var(--fs-micro);
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .tr-play {
     gap: 2px;
