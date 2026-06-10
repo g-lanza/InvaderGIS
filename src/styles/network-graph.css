@@ -711,3 +711,35 @@
   padding: var(--space-1) var(--space-3);
   border-top: 1px solid var(--border);
 }
+
+/* ── Mobile (≤600px) ──────────────────────────────────────────────────────────
+   The force-directed SVG already scales to its container (viewBox +
+   preserveAspectRatio) and gets pan/pinch from usePanZoom. Here we let the legend
+   wrap instead of overflowing, lift the 9–11px micro-labels, and cap the tooltip
+   width to the viewport. Full-screen + close sizing come from the shared rule. */
+@media (max-width: 600px) {
+  .network-overlay__legend {
+    flex-wrap: wrap;
+    gap: var(--space-1) var(--space-2);
+  }
+  .network-overlay__legend-label,
+  .network-overlay__stat,
+  .network-overlay__cost-label,
+  .network-graph__stat,
+  .network-graph__node-label {
+    font-size: var(--fs-micro);
+  }
+  .network-overlay__view-btn,
+  .network-overlay__cost-btn,
+  .network-overlay__active-toggle,
+  .network-overlay__legend-item--toggle {
+    min-height: var(--tap);
+  }
+  .network-graph__tooltip {
+    max-width: calc(100vw - var(--space-6));
+  }
+  /* Capture the touch gesture for pan/pinch instead of the browser scrolling. */
+  .network-graph__svg {
+    touch-action: none;
+  }
+}

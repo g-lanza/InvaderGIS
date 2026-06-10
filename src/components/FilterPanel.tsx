@@ -335,12 +335,13 @@ export function FilterPanel({ open, onClose }: FilterPanelProps) {
       role="dialog"
       aria-label="Filters"
       aria-modal="true"
+      className="msa-panel-overlay"
       style={{
         position: 'fixed',
         top: 14,
         right: 14,
         width: 320,
-        maxHeight: 'calc(100vh - 28px - 40px)',
+        maxHeight: 'calc(100dvh - 28px - 40px)',
         background: 'var(--surface)',
         border: '0.5px solid var(--border-strong)',
         fontFamily: 'var(--font-body)',

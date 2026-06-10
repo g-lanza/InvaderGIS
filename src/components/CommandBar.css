@@ -305,3 +305,15 @@
 .cmd-results::-webkit-scrollbar-track {
   background: transparent;
 }
+
+/* ── Mobile (≤600px) ──────────────────────────────────────────────────────────
+   The command input lifts to ≥16px so focusing it never triggers iOS zoom, and
+   result rows get a comfortable touch height. */
+@media (max-width: 600px) {
+  .cmd-input {
+    font-size: var(--fs-input);
+  }
+  .cmd-item {
+    min-height: var(--tap);
+  }
+}

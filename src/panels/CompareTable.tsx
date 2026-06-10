@@ -277,7 +277,7 @@ function ColHeader({ record, kind, onRemove }: {
             {fmtType(kind)}
           </div>
         </div>
-        <button type="button" onClick={onRemove} aria-label={`Remove ${name}`} style={{
+        <button type="button" onClick={onRemove} aria-label={`Remove ${name}`} className="cmp-col-remove" style={{
           background: 'none', border: 'none', padding: '2px 4px', cursor: 'pointer',
           color: 'var(--ink-mute)', fontFamily: 'var(--font-mono)', fontSize: '14px', lineHeight: 1, flexShrink: 0,
         }}>×</button>

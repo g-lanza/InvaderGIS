@@ -289,6 +289,7 @@ export function SemanticSearchBar({ open, onClose }: SemanticSearchBarProps) {
       role="dialog"
       aria-label="Search records"
       aria-modal="true"
+      className="msa-panel-overlay msa-panel-overlay--center"
       style={{
         position: 'fixed',
         top: 52,

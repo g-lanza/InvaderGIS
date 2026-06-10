@@ -442,3 +442,71 @@
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   MOBILE (≤600px) — touch-friendly chronoscope.
+   Additive only: no layout restructure, no change to TimeRail.tsx logic or the
+   timeStore. We (a) lift the 7–9px labels to the readable --fs-micro floor,
+   (b) enlarge the visible scrub thumb for touch feedback, and (c) widen the
+   range input's hit area to a full ~44px touch zone WITHOUT moving any visible
+   element — the input is already position:absolute and transparent, so growing
+   its vertical reach only enlarges the finger target. The play/speed/loop
+   buttons already read var(--tap), which is 44px on mobile (atlas-tokens.css).
+   ═══════════════════════════════════════════════════════════════════════════ */
+@media (max-width: 600px) {
+  /* Legibility: era / century / era-band micro-labels → readable floor. */
+  .tr-readout__era,
+  .tr-century-mark__label,
+  .tr-era-band__label {
+    font-size: var(--fs-micro);
+  }
+
+  /* ── Reclaim track width on narrow phones ───────────────────────────────────
+     The readout and playback cluster are flex-shrink:0; on a 320px screen they
+     would crush the (min-width:0) track to a few px. Tighten the fixed chrome so
+     the scrubber always keeps a usable, draggable width. */
+  .tr-shell {
+    gap: var(--space-2);
+  }
+  .tr-readout {
+    width: 64px;
+    padding-right: var(--space-2);
+  }
+  .tr-readout__year {
+    font-size: 16px;
+  }
+  .tr-play {
+    gap: 2px;
+    padding-left: var(--space-2);
+  }
+  /* The speed button no longer reserves extra width; its short label fits --tap. */
+  .tr-play__speed {
+    min-width: var(--tap);
+    padding-inline: 2px;
+    font-size: var(--fs-micro);
+  }
+
+  /* Widen the scrubber's touch zone to a full 44px tall target. The input is
+     transparent (opacity:0) and absolutely positioned, so extending it beyond
+     the histogram only grows the finger hit area — nothing visible shifts. It
+     overlaps the era/century strips, whose labels are pointer-events:none. */
+  .tr-scrubber {
+    top: -8px;
+    bottom: -8px;
+    height: auto;
+    /* Guarantee the minimum touch height even when the rail is short. */
+    min-height: var(--tap);
+  }
+
+  /* Bigger, clearer scrub thumb for touch (square, accent, hairline — contract
+     preserved). Grows from 6×6 to 14×14 with a wider needle for visibility. */
+  .tr-thumb-indicator {
+    width: 3px;
+  }
+  .tr-thumb-indicator::after {
+    top: -6px;
+    width: 14px;
+    height: 14px;
+    border-width: 2px;
+  }
+}

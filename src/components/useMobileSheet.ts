@@ -2,30 +2,41 @@
  * useMobileSheet — bottom-sheet toggle controller for ≤600 px viewports.
  *
  * Adds the mobile sheet chrome to the DOM imperatively:
- *   • A `.msa-sheet-bar` strip (two trigger buttons + separator) inserted into
- *     `.msa-app` as a grid child for the "sheetbar" area.
+ *   • A `.msa-sheet-bar` strip (three trigger buttons — Layers / Entity / Menu —
+ *     with separators) inserted into `.msa-app` as a grid child for the
+ *     "sheetbar" area.
  *   • A `.msa-sheet-backdrop` overlay (click to close) inserted into `.msa-app`.
- *   • A `.msa-sheet-handle` handle bar prepended into `.msa-layerrail` and
- *     `.msa-dock` so users can tap to close an open sheet.
+ *   • A `.msa-sheet-handle` handle bar prepended into `.msa-layerrail`,
+ *     `.msa-dock`, and the injected `.msa-menu-sheet` so users can tap (or swipe
+ *     down) to close an open sheet.
+ *   • A `.msa-menu-sheet` bottom sheet that mirrors the TopBar action buttons
+ *     (Network / Compare / Lineage / Sources / Registers / Views / My Data /
+ *     Search / Filter / Settings). On a phone the TopBar can't show ten controls,
+ *     so the Menu sheet surfaces them at thumb height. Each row PROXY-CLICKS the
+ *     corresponding hidden TopBar `<button data-mobile-menu="…">` — this keeps the
+ *     hook store-free and additive (no new props threaded through AppShell, no
+ *     Zustand coupling).
  *
  * Toggle behaviour:
- *   • Opening a sheet closes the other sheet first (only one sheet open at
- *     a time avoids overlapping overlays on narrow viewports).
+ *   • Opening a sheet closes any other open sheet first (only one sheet open at a
+ *     time avoids overlapping overlays on narrow viewports).
  *   • Clicking the backdrop closes the active sheet.
  *   • Clicking the handle of an open sheet closes it.
+ *   • Swiping the handle (or sheet) down past a threshold closes the active sheet.
  *   • Clicking the trigger button for the already-open sheet closes it
  *     (.is-open acts as a toggle).
  *
  * Class protocol (matches atlas-shell.css):
- *   • `.is-open` on `.msa-layerrail` / `.msa-dock` → translateY(0) reveal.
+ *   • `.is-open` on `.msa-layerrail` / `.msa-dock` / `.msa-menu-sheet` → translateY(0) reveal.
  *   • `.is-open` on the corresponding `.msa-sheet-trigger` → accent border + dot fill.
  *   • `.is-visible` on `.msa-sheet-backdrop` → semi-opaque backdrop, pointer-events on.
  *
  * This hook is self-contained:
  *   • It reads nothing from Zustand stores (no frozen-store touch).
  *   • All DOM manipulation is additive (no edits to AppShell, TopBar, LayerRail,
- *     EntityDock, or any existing element's markup).
- *   • It cleans up all inserted nodes on unmount.
+ *     EntityDock, or any existing element's markup — the Menu sheet only reads
+ *     the TopBar's existing buttons and clicks them).
+ *   • It cleans up all inserted nodes and listeners on unmount.
  *   • It watches a ResizeObserver so the mobile chrome is injected/removed
  *     automatically when the viewport crosses the 600 px breakpoint.
  *
@@ -43,6 +54,12 @@ import { useEffect, useRef } from 'react';
 /** Breakpoint that matches atlas-shell.css `--bp-mobile: 600px`. */
 const MOBILE_BP = 600;
 
+/** Vertical drag (px) past which a swipe-down dismisses the active sheet. */
+const SWIPE_CLOSE_THRESHOLD = 64;
+
+/** Which sheet is currently open. */
+type SheetKind = 'rail' | 'dock' | 'menu';
+
 /** Inject mobile chrome into an already-resolved app element. Returns cleanup. */
 function setupMobileChrome(app: HTMLElement): () => void {
   const railEl = app.querySelector<HTMLElement>('.msa-layerrail');
@@ -55,7 +72,7 @@ function setupMobileChrome(app: HTMLElement): () => void {
 
   /* ── State ─────────────────────────────────────────────────────────────── */
 
-  let activeSheet: 'rail' | 'dock' | null = null;
+  let activeSheet: SheetKind | null = null;
 
   /* ── DOM nodes ──────────────────────────────────────────────────────────── */
 
@@ -63,89 +80,136 @@ function setupMobileChrome(app: HTMLElement): () => void {
   const backdrop = document.createElement('div');
   backdrop.className = 'msa-sheet-backdrop';
 
+  // Menu sheet — a third bottom sheet that mirrors the TopBar action buttons.
+  const menuSheet = document.createElement('div');
+  menuSheet.className = 'msa-menu-sheet';
+  menuSheet.setAttribute('role', 'dialog');
+  menuSheet.setAttribute('aria-label', 'Menu');
+
   // Sheet bar
   const bar = document.createElement('div');
   bar.className = 'msa-sheet-bar';
 
-  // Layers trigger button
-  const triggerLayers = document.createElement('button');
-  triggerLayers.className = 'msa-sheet-trigger';
-  triggerLayers.type = 'button';
-  triggerLayers.setAttribute('aria-label', 'Toggle layers panel');
+  /** Build a labelled trigger button with a leading dot indicator. */
+  function makeTrigger(label: string, ariaLabel: string): HTMLButtonElement {
+    const btn = document.createElement('button');
+    btn.className = 'msa-sheet-trigger';
+    btn.type = 'button';
+    btn.setAttribute('aria-label', ariaLabel);
+    const dot = document.createElement('span');
+    dot.className = 'msa-sheet-trigger__dot';
+    btn.appendChild(dot);
+    btn.appendChild(document.createTextNode(label));
+    return btn;
+  }
 
-  const dotLayers = document.createElement('span');
-  dotLayers.className = 'msa-sheet-trigger__dot';
-  triggerLayers.appendChild(dotLayers);
-  triggerLayers.appendChild(document.createTextNode('Layers'));
+  /** Vertical separator between trigger buttons. */
+  function makeSep(): HTMLDivElement {
+    const sep = document.createElement('div');
+    sep.className = 'msa-sheet-bar__sep';
+    sep.setAttribute('aria-hidden', 'true');
+    return sep;
+  }
 
-  // Separator
-  const sep = document.createElement('div');
-  sep.className = 'msa-sheet-bar__sep';
-  sep.setAttribute('aria-hidden', 'true');
-
-  // Entity trigger button
-  const triggerEntity = document.createElement('button');
-  triggerEntity.className = 'msa-sheet-trigger';
-  triggerEntity.type = 'button';
-  triggerEntity.setAttribute('aria-label', 'Toggle entity panel');
-
-  const dotEntity = document.createElement('span');
-  dotEntity.className = 'msa-sheet-trigger__dot';
-  triggerEntity.appendChild(dotEntity);
-  triggerEntity.appendChild(document.createTextNode('Entity'));
+  const triggerLayers = makeTrigger('Layers', 'Toggle layers panel');
+  const triggerEntity = makeTrigger('Entity', 'Toggle entity panel');
+  const triggerMenu = makeTrigger('Menu', 'Toggle menu');
 
   bar.appendChild(triggerLayers);
-  bar.appendChild(sep);
+  bar.appendChild(makeSep());
   bar.appendChild(triggerEntity);
+  bar.appendChild(makeSep());
+  bar.appendChild(triggerMenu);
 
-  // Sheet handles (prepended into each rail so they appear at the top)
-  const handleRail = document.createElement('div');
-  handleRail.className = 'msa-sheet-handle';
-  handleRail.setAttribute('role', 'button');
-  handleRail.setAttribute('aria-label', 'Close layers panel');
-  handleRail.tabIndex = 0;
+  /** Build a sheet handle (tap or swipe-down to close). */
+  function makeHandle(ariaLabel: string): HTMLDivElement {
+    const handle = document.createElement('div');
+    handle.className = 'msa-sheet-handle';
+    handle.setAttribute('role', 'button');
+    handle.setAttribute('aria-label', ariaLabel);
+    handle.tabIndex = 0;
+    return handle;
+  }
 
-  const handleDock = document.createElement('div');
-  handleDock.className = 'msa-sheet-handle';
-  handleDock.setAttribute('role', 'button');
-  handleDock.setAttribute('aria-label', 'Close entity panel');
-  handleDock.tabIndex = 0;
+  const handleRail = makeHandle('Close layers panel');
+  const handleDock = makeHandle('Close entity panel');
+  const handleMenu = makeHandle('Close menu');
+
+  /* ── Menu sheet content (proxy buttons over the TopBar actions) ──────────── */
+
+  // Title row inside the menu sheet (handle is prepended separately below).
+  const menuList = document.createElement('div');
+  menuList.className = 'msa-menu-sheet__list';
+  menuSheet.appendChild(menuList);
+
+  /**
+   * Populate the menu list from the live TopBar's `[data-mobile-menu]` buttons.
+   * Each proxy row clicks its source button, so all toggle behaviour and store
+   * state stays owned by TopBar/AppShell. Rebuilt on every open so the rows
+   * reflect which overlays are currently active (mirrors `.is-active`).
+   */
+  function buildMenu(): void {
+    menuList.replaceChildren();
+    const sources = app.querySelectorAll<HTMLButtonElement>(
+      '.msa-topbar [data-mobile-menu]',
+    );
+    sources.forEach((source) => {
+      const label = source.getAttribute('data-mobile-menu') ?? source.textContent ?? '';
+      const row = document.createElement('button');
+      row.className = 'msa-menu-sheet__item';
+      row.type = 'button';
+      // Mirror the active state so the open overlay is visibly marked.
+      if (source.classList.contains('is-active')) row.classList.add('is-active');
+      row.setAttribute('aria-pressed', String(source.getAttribute('aria-pressed') === 'true'));
+      row.textContent = label;
+      row.addEventListener('click', () => {
+        // Proxy the real control, then close the menu sheet.
+        source.click();
+        closeAll();
+      });
+      menuList.appendChild(row);
+    });
+  }
 
   /* ── State helpers ──────────────────────────────────────────────────────── */
 
-  function openSheet(sheet: 'rail' | 'dock'): void {
-    // Close the other sheet first
-    if (sheet === 'rail') {
-      dock.classList.remove('is-open');
-      triggerEntity.classList.remove('is-open');
-    } else {
-      rail.classList.remove('is-open');
-      triggerLayers.classList.remove('is-open');
+  const sheetEl: Record<SheetKind, HTMLElement> = { rail, dock, menu: menuSheet };
+  const triggerEl: Record<SheetKind, HTMLButtonElement> = {
+    rail: triggerLayers,
+    dock: triggerEntity,
+    menu: triggerMenu,
+  };
+  const ALL_KINDS: SheetKind[] = ['rail', 'dock', 'menu'];
+
+  function openSheet(sheet: SheetKind): void {
+    // Close every other sheet first.
+    for (const k of ALL_KINDS) {
+      if (k === sheet) continue;
+      sheetEl[k].classList.remove('is-open');
+      triggerEl[k].classList.remove('is-open');
     }
 
     activeSheet = sheet;
 
-    if (sheet === 'rail') {
-      rail.classList.add('is-open');
-      triggerLayers.classList.add('is-open');
-    } else {
-      dock.classList.add('is-open');
-      triggerEntity.classList.add('is-open');
-    }
+    if (sheet === 'menu') buildMenu();
 
+    sheetEl[sheet].classList.add('is-open');
+    triggerEl[sheet].classList.add('is-open');
     backdrop.classList.add('is-visible');
   }
 
   function closeAll(): void {
     activeSheet = null;
-    rail.classList.remove('is-open');
-    dock.classList.remove('is-open');
-    triggerLayers.classList.remove('is-open');
-    triggerEntity.classList.remove('is-open');
+    for (const k of ALL_KINDS) {
+      sheetEl[k].classList.remove('is-open');
+      triggerEl[k].classList.remove('is-open');
+      // Clear any in-flight swipe transform.
+      sheetEl[k].style.transform = '';
+    }
     backdrop.classList.remove('is-visible');
   }
 
-  function toggleSheet(sheet: 'rail' | 'dock'): void {
+  function toggleSheet(sheet: SheetKind): void {
     if (activeSheet === sheet) {
       closeAll();
     } else {
@@ -153,36 +217,98 @@ function setupMobileChrome(app: HTMLElement): () => void {
     }
   }
 
+  /* ── Swipe-to-close (pointer drag on a handle) ──────────────────────────── */
+
+  /**
+   * Wire pointer-drag dismissal onto a handle. Dragging down translates the
+   * sheet with the finger; releasing past the threshold closes it, otherwise it
+   * springs back. Compositor-only (transform), pointer-capture so the drag
+   * survives leaving the handle. Returns a disposer for cleanup.
+   */
+  function wireSwipe(handle: HTMLElement, sheet: SheetKind): () => void {
+    let dragging = false;
+    let startY = 0;
+    let dy = 0;
+
+    const onDown = (e: PointerEvent): void => {
+      if (activeSheet !== sheet) return;
+      dragging = true;
+      startY = e.clientY;
+      dy = 0;
+      handle.setPointerCapture(e.pointerId);
+      // Suspend the slide transition during the drag for 1:1 finger tracking.
+      sheetEl[sheet].style.transition = 'none';
+    };
+
+    const onMove = (e: PointerEvent): void => {
+      if (!dragging) return;
+      dy = Math.max(0, e.clientY - startY); // down-only
+      sheetEl[sheet].style.transform = `translateY(${dy}px)`;
+    };
+
+    const finish = (e: PointerEvent): void => {
+      if (!dragging) return;
+      dragging = false;
+      try { handle.releasePointerCapture(e.pointerId); } catch { /* already released */ }
+      // Restore transition (CSS class-driven) and decide open/closed.
+      sheetEl[sheet].style.transition = '';
+      if (dy > SWIPE_CLOSE_THRESHOLD) {
+        closeAll();
+      } else {
+        // Spring back to fully open.
+        sheetEl[sheet].style.transform = '';
+      }
+    };
+
+    handle.addEventListener('pointerdown', onDown);
+    handle.addEventListener('pointermove', onMove);
+    handle.addEventListener('pointerup', finish);
+    handle.addEventListener('pointercancel', finish);
+
+    return (): void => {
+      handle.removeEventListener('pointerdown', onDown);
+      handle.removeEventListener('pointermove', onMove);
+      handle.removeEventListener('pointerup', finish);
+      handle.removeEventListener('pointercancel', finish);
+    };
+  }
+
   /* ── Event handlers ─────────────────────────────────────────────────────── */
 
   const onLayersTrigger = (): void => toggleSheet('rail');
   const onEntityTrigger = (): void => toggleSheet('dock');
+  const onMenuTrigger = (): void => toggleSheet('menu');
   const onBackdrop = (): void => closeAll();
-  const onHandleRail = (): void => closeAll();
-  const onHandleDock = (): void => closeAll();
+  const onHandleClick = (): void => closeAll();
 
-  // Keyboard support for handles (Enter / Space)
-  const onHandleRailKey = (e: KeyboardEvent): void => {
-    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); closeAll(); }
-  };
-  const onHandleDockKey = (e: KeyboardEvent): void => {
+  // Keyboard support for handles (Enter / Space → close).
+  const onHandleKey = (e: KeyboardEvent): void => {
     if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); closeAll(); }
   };
 
   triggerLayers.addEventListener('click', onLayersTrigger);
   triggerEntity.addEventListener('click', onEntityTrigger);
+  triggerMenu.addEventListener('click', onMenuTrigger);
   backdrop.addEventListener('click', onBackdrop);
-  handleRail.addEventListener('click', onHandleRail);
-  handleDock.addEventListener('click', onHandleDock);
-  handleRail.addEventListener('keydown', onHandleRailKey);
-  handleDock.addEventListener('keydown', onHandleDockKey);
+  for (const h of [handleRail, handleDock, handleMenu]) {
+    h.addEventListener('click', onHandleClick);
+    h.addEventListener('keydown', onHandleKey);
+  }
+
+  const disposeSwipes = [
+    wireSwipe(handleRail, 'rail'),
+    wireSwipe(handleDock, 'dock'),
+    wireSwipe(handleMenu, 'menu'),
+  ];
 
   /* ── Mount ──────────────────────────────────────────────────────────────── */
 
   app.appendChild(backdrop);
+  app.appendChild(menuSheet);
   app.appendChild(bar);
   rail.prepend(handleRail);
   dock.prepend(handleDock);
+  menuSheet.prepend(handleMenu);
 
   /* ── Cleanup ────────────────────────────────────────────────────────────── */
 
@@ -190,15 +316,19 @@ function setupMobileChrome(app: HTMLElement): () => void {
     closeAll();
     triggerLayers.removeEventListener('click', onLayersTrigger);
     triggerEntity.removeEventListener('click', onEntityTrigger);
+    triggerMenu.removeEventListener('click', onMenuTrigger);
     backdrop.removeEventListener('click', onBackdrop);
-    handleRail.removeEventListener('click', onHandleRail);
-    handleDock.removeEventListener('click', onHandleDock);
-    handleRail.removeEventListener('keydown', onHandleRailKey);
-    handleDock.removeEventListener('keydown', onHandleDockKey);
+    for (const h of [handleRail, handleDock, handleMenu]) {
+      h.removeEventListener('click', onHandleClick);
+      h.removeEventListener('keydown', onHandleKey);
+    }
+    for (const dispose of disposeSwipes) dispose();
     backdrop.remove();
     bar.remove();
+    menuSheet.remove();
     handleRail.remove();
     handleDock.remove();
+    handleMenu.remove();
   };
 }
 

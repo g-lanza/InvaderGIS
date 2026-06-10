@@ -64,6 +64,7 @@ import { useSettingsStore } from '@/stores/settingsStore';
 import { useFilterStore } from '@/stores/filterStore';
 import { passesFilter, type FilterFacets } from '@/data/filterPredicate';
 import { settleSimulation } from './forceLayout';
+import { usePanZoom } from './usePanZoom';
 import { buildGraph, SVG_W, SVG_H } from './networkGraphBuild';
 import { nodeColor, edgeColor, edgeDashArray, nodeRadius } from './networkColors';
 import {
@@ -234,6 +235,12 @@ export function NetworkGraph({ containerWidth, containerHeight, costBasis = 'dis
    *  When set, nodes more than 1 hop away dim to DIM_OPACITY.
    *  Mirrors the quarry RelationshipNetwork focusEntityId behavior (4D). */
   const [focusEntityId, setFocusEntityId] = useState<string | null>(null);
+
+  // ── Pan / pinch-zoom (touch) ─────────────────────────────────────────────────
+  // The SVG already fits its container via viewBox; this adds a transform layer so
+  // touch users can pan (one finger) and pinch-zoom (two fingers) into the graph.
+  // A tap below the drag threshold still reaches the node beneath (see usePanZoom).
+  const panZoom = usePanZoom();
 
   // ── Relationship cost map (P1-9) ─────────────────────────────────────────────
   // Placed after state so it can depend on state.graph (null during load).
@@ -418,6 +425,7 @@ export function NetworkGraph({ containerWidth, containerHeight, costBasis = 'dis
 
       <svg
         {...svgProps}
+        {...panZoom.handlers}
         viewBox={`0 0 ${SVG_W} ${SVG_H}`}
         preserveAspectRatio="xMidYMid meet"
         role="img"
@@ -438,6 +446,9 @@ export function NetworkGraph({ containerWidth, containerHeight, costBasis = 'dis
             <path d="M0,0 L0,6 L6,3 z" fill="var(--ink-mute)" />
           </marker>
         </defs>
+
+        {/* Pan/zoom transform layer — moves & scales all content as one group. */}
+        <g transform={panZoom.transform}>
 
         {/* ── Edges ── */}
         <g className="network-graph__edges" aria-hidden="true">
@@ -645,6 +656,9 @@ export function NetworkGraph({ containerWidth, containerHeight, costBasis = 'dis
               </g>
             );
           })}
+        </g>
+
+        {/* close pan/zoom transform layer */}
         </g>
       </svg>
 

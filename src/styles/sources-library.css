@@ -374,3 +374,57 @@
   width: 100%;
   height: 100%;
 }
+
+/* ── Mobile (≤600px) ──────────────────────────────────────────────────────────
+   The sources table keeps its min-width inside a horizontal scroll (the shared
+   rule sets overflow:auto on .sources-overlay__canvas). Pin the title column,
+   lift the micro-labels, and give toolbar controls touch height. The overlay
+   root full-screen + close sizing come from the shared rule in atlas-shell.css. */
+@media (max-width: 600px) {
+  .sl-th,
+  .sl-td,
+  .sl-status,
+  .sl-cite-count {
+    font-size: var(--fs-micro);
+  }
+
+  /* Sticky title column so rows stay identifiable while scrolling sideways. */
+  .sl-th--title,
+  .sl-td--title {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    background: var(--surface);
+  }
+  .sl-th--title {
+    z-index: 2;
+    background: var(--surface-2);
+  }
+
+  /* Toolbar/filter controls to comfortable touch height. The filter is a text
+     input, so it also needs ≥16px to avoid iOS focus-zoom (its 11px class rule
+     out-specifies the generic input floor in atlas-shell.css). */
+  .sl-filter,
+  .sl-toolbar .btn {
+    min-height: var(--tap);
+  }
+  .sl-filter {
+    font-size: var(--fs-input);
+  }
+
+  /* Sortable column-header buttons (shared by the sources + registers tables)
+     → full --tap touch height so tapping to sort is comfortable. */
+  .sl-th__btn {
+    min-height: var(--tap);
+  }
+
+  /* Clickable source rows → comfortable 44px touch height. Scoped to the sources
+     overlay so the registers attribute table (which shares the .sl-row class but
+     is locked to ROW_H=30 for virtual scrolling) is NOT affected. */
+  .sources-overlay .sl-row {
+    height: var(--tap);
+  }
+  .sources-overlay .sl-row .sl-td {
+    height: var(--tap);
+  }
+}

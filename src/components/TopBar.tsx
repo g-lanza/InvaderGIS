@@ -241,6 +241,7 @@ export function TopBar({
                   onClick={onNetworkToggle}
                   aria-pressed={networkOpen}
                   title={networkOpen ? 'Close relationship network' : 'Open relationship network'}
+                  data-mobile-menu="Network"
                 >
                   Network
                 </button>
@@ -251,6 +252,7 @@ export function TopBar({
                   onClick={onCompareToggle}
                   aria-pressed={compareOpen}
                   title={compareOpen ? 'Close compare view' : 'Open compare / storyline view'}
+                  data-mobile-menu="Compare"
                 >
                   Compare
                 </button>
@@ -261,6 +263,7 @@ export function TopBar({
                   onClick={onLineageToggle}
                   aria-pressed={lineageOpen}
                   title={lineageOpen ? 'Close ruler lineage' : 'Open ruler lineage chart'}
+                  data-mobile-menu="Lineage"
                 >
                   Lineage
                 </button>
@@ -271,6 +274,7 @@ export function TopBar({
                   onClick={onSourcesToggle}
                   aria-pressed={sourcesOpen}
                   title={sourcesOpen ? 'Close sources library' : 'Open sources library'}
+                  data-mobile-menu="Sources"
                 >
                   Sources
                 </button>
@@ -281,6 +285,7 @@ export function TopBar({
                   onClick={onRegistersToggle}
                   aria-pressed={registersOpen}
                   title={registersOpen ? 'Close registers' : 'Open attribute table registers'}
+                  data-mobile-menu="Registers"
                 >
                   Registers
                 </button>
@@ -303,6 +308,7 @@ export function TopBar({
                   onClick={onViewsToggle}
                   aria-pressed={viewsOpen}
                   title={viewsOpen ? 'Close saved views' : 'Open saved views'}
+                  data-mobile-menu="Views"
                 >
                   Views
                 </button>
@@ -313,6 +319,7 @@ export function TopBar({
                   onClick={onUploadToggle}
                   aria-pressed={uploadOpen}
                   title={uploadOpen ? 'Close my data' : 'Upload and manage your own data'}
+                  data-mobile-menu="My Data"
                 >
                   My Data
                 </button>
@@ -335,6 +342,7 @@ export function TopBar({
                   onClick={onSearchToggle}
                   aria-pressed={searchOpen}
                   title={searchOpen ? 'Close search' : 'Search records (semantic)'}
+                  data-mobile-menu="Search"
                 >
                   Search
                 </button>
@@ -345,6 +353,7 @@ export function TopBar({
                   onClick={onFilterToggle}
                   aria-pressed={filterOpen}
                   title={filterOpen ? 'Close filters' : 'Filter records'}
+                  data-mobile-menu="Filter"
                 >
                   Filter
                 </button>
@@ -367,6 +376,7 @@ export function TopBar({
                 aria-pressed={settingsOpen}
                 title={settingsOpen ? 'Close settings' : 'Theme, map base, guides & data sources'}
                 data-tour="settings-btn"
+                data-mobile-menu="Settings"
               >
                 Settings
               </button>

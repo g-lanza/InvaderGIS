@@ -339,3 +339,26 @@
   align-items: center;
   justify-content: center;
 }
+
+/* ── Mobile (≤600px) ──────────────────────────────────────────────────────────
+   Narrow the ruler-name gutter so the Gantt timeline keeps usable width on a
+   phone, lift the 9px micro-labels, and let the timeline scroll horizontally.
+   The overlay root full-screen + close-button sizing comes from the shared rule
+   in atlas-shell.css. */
+@media (max-width: 600px) {
+  .lineage-overlay {
+    --lineage-label-w: 92px;
+  }
+  .lineage-overlay__stat,
+  .lineage-overlay__legend-label,
+  .lineage-overlay__hint,
+  .lineage-gantt__bar-label {
+    font-size: var(--fs-micro);
+  }
+  /* The Gantt body scrolls both axes on a phone (timeline can exceed width). */
+  .lineage-gantt__scroll,
+  .lineage-gantt__body {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}

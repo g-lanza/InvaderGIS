@@ -2,7 +2,13 @@
 <html lang="en" data-theme="contrast">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- viewport-fit=cover is REQUIRED for env(safe-area-inset-*) to report non-zero
+         on notched devices; without it the CSS safe-area padding is always 0. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <!-- Tint the mobile browser chrome to match the app surface per color scheme.
+         Light maps to the parchment/white chrome surfaces; dark maps to the dark theme bg. -->
+    <meta name="theme-color" content="#f6f6f5" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0f0e0c" media="(prefers-color-scheme: dark)" />
     <title>InvaderGIS</title>
     <!-- SVG favicon — highest fidelity, theme-adaptive in supported browsers. -->
     <link rel="icon" type="image/svg+xml" href="/hdv-logo.svg" />
@@ -26,10 +32,16 @@
       No external origins are permitted; tighten further only if a remote basemap/tile
       provider is ever added (then add its origin to img-src/connect-src). Mirror these
       directives as real HTTP response headers on the host (see netlify.toml / public/_headers).
+
+      NOTE: `frame-ancestors` and `form-action` are intentionally NOT listed here.
+      Browsers ignore both when a CSP is delivered via <meta> (they require an HTTP
+      response header), and listing them only emits a console error. They are
+      enforced for real as HTTP headers in netlify.toml / public/_headers, alongside
+      X-Frame-Options: DENY as a clickjacking backstop.
     -->
     <meta
       http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; worker-src 'self' blob:; child-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; worker-src 'self' blob:; child-src 'self' blob:; object-src 'none'; base-uri 'self'"
     />
     <!--
       Web fonts are self-hosted via @font-face rules in src/styles/fonts.css,
@@ -57,7 +69,6 @@
         <img src="/hdv-logo.svg" alt="InvaderGIS" width="80" height="80" id="app-splash__logo" />
         <span id="app-splash__name">InvaderGIS</span>
         <span id="app-splash__subtitle">Historical Data Visualizer</span>
-        <span id="app-splash__tagline">A custom GIS for historical research, 500–1500 CE</span>
         <span id="app-splash__status">Loading records…</span>
         <div id="app-splash__bar"><div id="app-splash__fill"></div></div>
       </div>
@@ -104,12 +115,6 @@
         color: #555;
         margin-top: -4px;
         -webkit-text-fill-color: #555;
-      }
-      #app-splash__tagline {
-        font-family: Georgia, serif;
-        font-size: 12px;
-        color: #999;
-        font-style: italic;
       }
       #app-splash__status {
         font-family: ui-monospace, monospace;

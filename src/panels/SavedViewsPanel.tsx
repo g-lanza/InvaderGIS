@@ -70,7 +70,7 @@ const PANEL: React.CSSProperties = {
   top: 'calc(var(--topbar-h, 40px) + var(--space-3))',
   right: 'var(--space-3)',
   width: 320,
-  maxHeight: 'calc(100vh - var(--topbar-h, 40px) - var(--statusbar-h, 24px) - var(--space-6))',
+  maxHeight: 'calc(100dvh - var(--topbar-h, 40px) - var(--statusbar-h, 24px) - var(--space-6))',
   background: 'var(--surface)',
   border: '1px solid var(--border-strong)',
   borderRadius: 'var(--radius)',
@@ -177,7 +177,7 @@ export function SavedViewsPanel({ open, onClose }: SavedViewsPanelProps) {
   };
 
   return (
-    <div role="dialog" aria-label="Saved views" style={PANEL}>
+    <div role="dialog" aria-label="Saved views" className="msa-panel-overlay" style={PANEL}>
       {/* Header */}
       <div style={HEADER}>
         <span className="cap-sm" style={{ color: 'var(--ink)' }}>

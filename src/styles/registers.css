@@ -481,3 +481,43 @@
   justify-content: flex-end;
   margin-top: auto;
 }
+
+/* ── Mobile (≤600px) ──────────────────────────────────────────────────────────
+   The attribute table scrolls horizontally inside the full-screen overlay (the
+   shared rule sets overflow:auto on .registers-overlay__canvas). Pin the first
+   data column so the row identity stays visible while scrolling sideways, and
+   lift the micro-labels. ROW HEIGHT IS UNTOUCHED — it must stay 30px to match
+   ROW_H in AttributeTable.tsx (virtual-scroll geometry). The gallery grid uses
+   auto-fill minmax and already reflows. */
+@media (max-width: 600px) {
+  .registers-overlay__hint,
+  .registers-overlay__tabs,
+  .at-table .sl-th,
+  .at-table .sl-td {
+    font-size: var(--fs-micro);
+  }
+
+  /* Sticky first column (the primary name/id cell) for both header and rows. */
+  .at-table .sl-th:first-child,
+  .at-row > .sl-td:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    background: var(--surface);
+  }
+  .at-table .sl-th:first-child {
+    z-index: 2;
+    background: var(--surface-2);
+  }
+
+  /* Bigger tap target for the per-row compare buttons. */
+  .at-cmp-btn {
+    min-width: var(--tap);
+    min-height: var(--tap);
+  }
+
+  /* Register view tabs to full tap height. */
+  .registers-tab {
+    min-height: var(--tap);
+  }
+}

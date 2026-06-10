@@ -101,7 +101,11 @@
 .msa-app {
   display: grid;
   width: 100%;
+  /* Dynamic-viewport height: the 100vh line is the fallback for engines without
+     dvh; the 100dvh line wins where supported (all current iOS/Android browsers)
+     so the shell collapses with the mobile URL bar instead of being clipped by it. */
   height: 100vh;
+  height: 100dvh;
   min-height: 0;
   overflow: hidden;
   background: var(--bg);
@@ -1317,6 +1321,53 @@
     --sheet-bar-h:   44px;
   }
 
+  /* NOTE: the mobile token FLOORS (--tap: 44px, --fs-micro/chip/btn/input) live at
+     the END of atlas-tokens.css, not here — they must come after the base
+     `--tap: 34px` in source order to win the cascade (a media query adds no
+     specificity). The rules below CONSUME those tokens. */
+
+  /* Lift the smallest chrome primitives to readable minimums on phones.
+     Padding (not height) gives .btn a ~44px tap height without touching desktop. */
+  .chip,
+  .cap-sm,
+  .eyebrow {
+    font-size: var(--fs-chip);
+  }
+  .btn {
+    font-size: var(--fs-btn);
+    /* Guarantee a full 44px touch height (inline-flex centers the label). */
+    min-height: var(--tap);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 8px;
+  }
+  /* Ghost + icon button variants: square --tap touch targets. */
+  .btn--ghost,
+  .btn--icon {
+    min-width: var(--tap);
+    min-height: var(--tap);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* Text inputs at ≥16px so iOS Safari does not zoom the viewport on focus. */
+  input,
+  select,
+  textarea {
+    font-size: var(--fs-input);
+  }
+
+  /* ── Safe-area insets (notch / home indicator) ───────────────────────────────
+       Requires viewport-fit=cover in index.html. max() keeps a 0px floor on
+       devices without insets so nothing shifts there. */
+  .msa-topbar {
+    padding-top: max(0px, env(safe-area-inset-top));
+  }
+  .msa-statusbar {
+    padding-bottom: max(0px, env(safe-area-inset-bottom));
+  }
+
   .msa-app {
     grid-template-columns: 1fr;
     grid-template-rows:
@@ -1377,7 +1428,8 @@
     align-items: center;
     justify-content: center;
     gap: var(--space-2);
-    height: 32px;
+    /* Full --tap height (44px on mobile) for a comfortable thumb target. */
+    height: var(--tap);
     background: transparent;
     border: 1px solid var(--border-mid);
     color: var(--ink-mute);
@@ -1507,6 +1559,10 @@
        transform take effect so the sheets start off-screen on mobile. */
     animation: none !important;
     transform: translateY(100%);
+    /* Closed sheets are translated below the fold but still occupy fixed space;
+       disable pointer events so they never intercept taps on the sheet bar or the
+       map underneath. Re-enabled on .is-open. */
+    pointer-events: none;
     /* Slide transition — compositor only */
     transition:
       transform 220ms cubic-bezier(0.22, 1, 0.36, 1),
@@ -1517,11 +1573,248 @@
   .msa-layerrail.is-open,
   .msa-dock.is-open {
     transform: translateY(0);
+    pointer-events: auto;
+    /* Keep sheet content clear of the home indicator when the sheet sits at the
+       very bottom of the viewport (it slides up from the bottom edge). */
+    padding-bottom: max(0px, env(safe-area-inset-bottom));
   }
 
   /* Dock draws slightly above rail on mobile if both open simultaneously */
   .msa-dock {
     z-index: 210;
+  }
+
+  /* ── Menu sheet ───────────────────────────────────────────────────────────────
+     The third bottom sheet (injected by useMobileSheet). Surfaces the TopBar's
+     ~10 action buttons at thumb height. Reuses the sheet grammar: fixed, slides
+     up from the bottom, square corners, hairline borders, no shadow. Each item
+     proxy-clicks a hidden TopBar control. */
+  .msa-menu-sheet {
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-height: 60vh;
+    max-height: 60dvh;
+    bottom: calc(var(--sheet-bar-h) + var(--timerail-h) + var(--statusbar-h));
+    z-index: 220; /* above rail/dock if multiple were ever open */
+    background: var(--surface);
+    border-top: 1px solid var(--border-mid);
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: max(0px, env(safe-area-inset-bottom));
+    /* Start off-screen; slide in on .is-open. Cancel the desktop reveal anim. */
+    animation: none !important;
+    transform: translateY(100%);
+    /* When closed the sheet is translated below the fold but still occupies fixed
+       space; disable pointer events so it never intercepts taps on the sheet bar
+       or map underneath. Re-enabled on .is-open. */
+    pointer-events: none;
+    transition: transform 220ms cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .msa-menu-sheet.is-open {
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+
+  .msa-menu-sheet__list {
+    display: flex;
+    flex-direction: column;
+    padding: var(--space-2);
+    gap: var(--space-1);
+  }
+
+  /* Full-width tappable rows, mono label grammar, --tap height. */
+  .msa-menu-sheet__item {
+    display: flex;
+    align-items: center;
+    min-height: var(--tap);
+    padding: 0 var(--space-3);
+    background: transparent;
+    border: 1px solid var(--border-mid);
+    border-radius: var(--radius);
+    color: var(--ink);
+    font-family: var(--font-mono);
+    font-size: var(--fs-btn);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    cursor: pointer;
+    user-select: none;
+    transition:
+      background 120ms ease,
+      color 120ms ease,
+      border-color 120ms ease;
+  }
+
+  .msa-menu-sheet__item:hover {
+    background: var(--surface-2);
+    border-color: var(--border-strong);
+  }
+
+  /* Active overlay → inverted slab, matching .btn.is-active grammar. */
+  .msa-menu-sheet__item.is-active {
+    background: var(--ink);
+    color: var(--surface);
+    border-color: var(--ink);
+  }
+
+  .msa-menu-sheet__item:focus-visible {
+    outline: 1.5px solid var(--focus-ring, var(--accent));
+    outline-offset: var(--focus-offset, 2px);
+  }
+
+  /* ── TopBar declutter on mobile ───────────────────────────────────────────────
+     The action clusters move into the Menu sheet, so hide their inline labels and
+     the now-redundant cluster button strips + dividers + projection group. The
+     brand stays; the bar no longer needs to scroll ten controls. */
+  .msa-topbar__cluster-label,
+  .msa-topbar__cluster-btns,
+  .msa-topbar__group,
+  .msa-topbar__divider {
+    display: none;
+  }
+
+  /* ── Rail / dock sheet content on mobile ──────────────────────────────────────
+     When the rail and dock are bottom sheets, their desktop "collapse to strip"
+     affordance is meaningless (the sheet closes via the handle / backdrop). Hide
+     the collapse head, and size the dock header controls for touch. */
+  .msa-rail-collapsehead {
+    display: none;
+  }
+
+  /* Dock header: comfortable touch targets for compare + close. */
+  .dock-header__compare {
+    min-height: var(--tap);
+    padding: var(--space-1) var(--space-3);
+    font-size: var(--fs-micro);
+  }
+  .dock-header__close {
+    min-width: var(--tap);
+    min-height: var(--tap);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Rail tabs → full --tap height. */
+  .rail-tab {
+    min-height: var(--tap);
+  }
+
+  /* Per-layer visibility toggle + expand chevron: 16px on desktop → --tap on
+     mobile so each is a comfortable touch target inside the layers sheet. */
+  .layer-item__toggle,
+  .layer-item__expand,
+  .layer-group__toggle,
+  .layer-row__toggle {
+    min-width: var(--tap);
+    min-height: var(--tap);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Layer opacity sliders keep their --tap height (already set); ensure the row
+     gives the slider real width so its hit target isn't a sliver on a phone. */
+  .layer-slider {
+    width: 100%;
+  }
+  .layer-slider__input {
+    min-width: 120px;
+  }
+
+  /* ── Shared heavy-overlay mobile rule ─────────────────────────────────────────
+     All five lazy overlays (Network / Lineage / Registers / Compare / Sources)
+     share an identical skeleton: position:fixed, inset top=topbar / bottom=(timerail
+     + statusbar), with a __bar header, a __close button, and a scrollable content
+     region. On a phone we (a) make them edge-to-edge full-screen so the timerail/
+     statusbar space is reclaimed for content, (b) give every close button a 44px
+     touch target, (c) let the header wrap and grow to tap height, and (d) guarantee
+     the content region scrolls internally instead of overflowing the page.
+     Grouped selectors keep this DRY — one rule, five overlays. */
+  .network-overlay,
+  .lineage-overlay,
+  .registers-overlay,
+  .compare-overlay,
+  .sources-overlay {
+    inset: var(--topbar-h) 0 0 0;            /* full-screen below the topbar */
+    /* dvh-safe: the bottom is the viewport edge, so honor the home indicator. */
+    padding-bottom: max(0px, env(safe-area-inset-bottom));
+  }
+
+  .network-overlay__close,
+  .lineage-overlay__close,
+  .registers-overlay__close,
+  .compare-overlay__close,
+  .sources-overlay__close {
+    min-width: var(--tap);
+    min-height: var(--tap);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .network-overlay__bar,
+  .lineage-overlay__bar,
+  .registers-overlay__bar,
+  .compare-overlay__bar,
+  .sources-overlay__bar {
+    min-height: var(--tap);
+    height: auto;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+  }
+
+  .network-overlay__canvas,
+  .lineage-overlay__canvas,
+  .registers-overlay__canvas,
+  .compare-overlay__content,
+  .sources-overlay__canvas {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* ── Inline-styled dialog panels → full-width sheets on mobile ────────────────
+     Settings / Filter / Saved Views / Search set position+top+right+width via
+     INLINE styles (which beat class rules), so these mobile overrides use
+     !important to convert each desktop floating card into an edge-to-edge sheet
+     anchored under the topbar. The panels keep their own internal scroll. */
+  .msa-panel-overlay {
+    top: var(--topbar-h) !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    max-height: calc(100dvh - var(--topbar-h)) !important;
+    transform: none !important;          /* cancel the centered translateX */
+    border-left: none !important;
+    border-right: none !important;
+    padding-bottom: max(0px, env(safe-area-inset-bottom)) !important;
+  }
+
+  /* Text inputs inside these dialogs at ≥16px (the generic input rule above
+     already covers them, but dialogs sometimes set inline font-size). */
+  .msa-panel-overlay input,
+  .msa-panel-overlay select,
+  .msa-panel-overlay textarea {
+    font-size: var(--fs-input) !important;
+  }
+
+  /* Every button inside an inline-styled dialog panel gets a 44px touch target
+     (both axes), including the bespoke inline-styled toggles/steppers in
+     FilterPanel that carry no .btn class. !important beats inline padding/width.
+     Range inputs already get --tap height from layer-slider rules. */
+  .msa-panel-overlay button {
+    min-width: var(--tap) !important;
+    min-height: var(--tap) !important;
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
   }
 
   /* Collapsed topbar at 480 px — hide subtitle and divider, keep brand + icon controls */
@@ -1541,7 +1834,8 @@
 @media (min-width: 601px) {
   .msa-sheet-bar,
   .msa-sheet-backdrop,
-  .msa-sheet-handle {
+  .msa-sheet-handle,
+  .msa-menu-sheet {
     display: none !important;
   }
 }

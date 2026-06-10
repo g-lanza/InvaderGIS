@@ -256,3 +256,33 @@
   color: var(--ink-mid);
   border-top: 1px solid var(--border);
 }
+
+/* ── Mobile (≤600px) ──────────────────────────────────────────────────────────
+   CompareTable already scrolls both axes with a sticky first column (inline
+   styles in CompareTable.tsx). Here we lift the add-search micro-labels and
+   enlarge the per-column remove (×) button — its inline 2px/4px padding is too
+   small for touch, so !important raises the tap target on mobile only. The
+   overlay root full-screen + header close sizing come from the shared rule. */
+@media (max-width: 600px) {
+  .cmp-addsearch__empty,
+  .cmp-addsearch__full {
+    font-size: var(--fs-micro);
+  }
+  .cmp-col-remove {
+    min-width: var(--tap) !important;
+    min-height: var(--tap) !important;
+    padding: var(--space-2) !important;
+    font-size: 18px !important;
+  }
+
+  /* Any button in the compare content (incl. the inline-styled empty-state /
+     add-entity controls that carry no class) gets a 44px touch target. */
+  .compare-overlay__content button {
+    min-width: var(--tap);
+    min-height: var(--tap);
+  }
+  .cmp-addsearch__kind-btn,
+  .cmp-addsearch__result {
+    min-height: var(--tap);
+  }
+}

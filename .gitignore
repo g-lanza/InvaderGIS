@@ -6,6 +6,11 @@ public/tiles/
 *.local
 .DS_Store
 
+# Playwright e2e artifacts (re-generated each run).
+playwright-report/
+test-results/
+e2e/__screens__/
+
 # Local tooling / editor scaffolding — never part of the published project.
 .agents/
 .claude/

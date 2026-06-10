@@ -250,3 +250,39 @@
   font-size: 13px;
   color: var(--ink);
 }
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   MOBILE (≤600px) — touch-friendly map controls.
+   Zoom +/- become full --tap (44px) targets; numeric readouts lift to the
+   legible --fs-micro floor. The zoom buttons remain a vertical stack with a
+   hairline divider (square corners, no shadow — contract preserved).
+   ═══════════════════════════════════════════════════════════════════════════ */
+@media (max-width: 600px) {
+  .gis-zoom__btn {
+    width: var(--tap);
+    height: var(--tap);
+    font-size: 20px; /* larger glyph to match the bigger button */
+  }
+
+  /* Readouts: lift the 10–11px text so it's legible on a phone. */
+  .gis-coords__label,
+  .gis-coords__value,
+  .gis-rf-scale__value {
+    font-size: var(--fs-micro);
+  }
+  .gis-scale-container .maplibregl-ctrl-scale {
+    font-size: var(--fs-micro) !important;
+  }
+
+  /* The coord readout's fixed 22ch min-width can crowd a 320px screen; let it
+     shrink (the value still wraps cleanly inside the surface card). */
+  .gis-coords__value {
+    min-width: 0;
+  }
+
+  /* If the measure readout stack is shown, keep it clear of the larger zoom
+     buttons (3 × 44px + dividers ≈ 134px). */
+  .gis-measure {
+    top: calc(var(--space-3) + 144px);
+  }
+}

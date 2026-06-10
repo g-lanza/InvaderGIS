@@ -243,3 +243,25 @@ body {
   outline-offset: var(--focus-offset, 2px);
   box-shadow: 0 0 0 3px var(--focus-halo, rgba(0,0,0,0.08));
 }
+
+/* ---- MOBILE TOUCH + TYPE FLOORS (≤600px) ----------------------------------
+   These override the base token values above for phone-sized viewports. They
+   live at the END of this file (not in atlas-shell.css) so they are GUARANTEED
+   to win the cascade over the base `--tap: 34px` regardless of the bundler's CSS
+   injection order — a media query adds no specificity, so source order decides,
+   and "last in this file" beats "base, earlier in this file".
+
+   All four themes inherit --tap and the type primitives from :root, so a single
+   :root override here cascades to atlas / manuscript / dark / contrast. We change
+   only --tap and font sizes — never --radius, shadow, or color — preserving the
+   design contract (square corners, hairline borders, no shadows). Desktop never
+   sees these. */
+@media (max-width: 600px) {
+  :root {
+    --tap: 44px;        /* was 34 — raises .tr-play__*, .btn--icon, sheet triggers, menu rows */
+    --fs-micro: 11px;   /* floor for 7–9px labels: era / century / era-band / legend */
+    --fs-chip:  12px;   /* was .chip / .cap-sm / .eyebrow 10px */
+    --fs-btn:   13px;   /* was .btn 11px */
+    --fs-input: 16px;   /* iOS no-zoom floor for all text inputs */
+  }
+}
