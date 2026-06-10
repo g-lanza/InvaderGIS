@@ -16,6 +16,10 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16.png" />
     <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+    <!-- PWA manifest: enables "Add to Home Screen" with the app name + icon.
+         start_url/scope are pinned to the GitHub Pages base; icon paths are
+         relative to the manifest, so they resolve under /InvaderGIS/ in prod. -->
+    <link rel="manifest" href="/manifest.webmanifest" />
     <meta
       name="description"
       content="InvaderGIS — Historical Data Visualizer. A custom GIS for exploring historical datasets across time and space."
@@ -43,20 +47,22 @@
       content="A custom GIS for exploring historical datasets across time and space, 500–1500 CE."
     />
     <meta property="og:url" content="https://g-lanza.github.io/InvaderGIS/" />
-    <meta property="og:image" content="https://g-lanza.github.io/InvaderGIS/icons/icon-512.png" />
+    <!-- Wide 1200×630 banner for the big rich card. Regenerate with
+         scripts/build/gen-og-banner.mjs if the brand changes. -->
+    <meta property="og:image" content="https://g-lanza.github.io/InvaderGIS/og-banner.png" />
     <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:width" content="512" />
-    <meta property="og:image:height" content="512" />
-    <meta property="og:image:alt" content="InvaderGIS logo" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="InvaderGIS — Historical Data Visualizer" />
 
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="InvaderGIS — Historical Data Visualizer" />
     <meta
       name="twitter:description"
       content="A custom GIS for exploring historical datasets across time and space, 500–1500 CE."
     />
-    <meta name="twitter:image" content="https://g-lanza.github.io/InvaderGIS/icons/icon-512.png" />
-    <meta name="twitter:image:alt" content="InvaderGIS logo" />
+    <meta name="twitter:image" content="https://g-lanza.github.io/InvaderGIS/og-banner.png" />
+    <meta name="twitter:image:alt" content="InvaderGIS — Historical Data Visualizer" />
 
     <!--
       Content-Security-Policy. InvaderGIS is a fully self-contained static SPA that
