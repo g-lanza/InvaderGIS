@@ -306,12 +306,11 @@
   --rail-content-max: 340px;
   width: var(--layerrail-w);
   background: var(--surface);
-  /* Collapse to content: don't stretch the panel background to fill the tall 1fr
-     grid row (that left a large empty --surface block below the groups). align-self
-     lets it size to its content; max-height keeps overflow scrolling meaningful when
-     the Legend tab content is long. The full-height divider next to the map is drawn
-     by .msa-map's border-left so the hairline still runs top-to-bottom. */
-  align-self: start;
+  /* Fill the full grid-row height. The Layers controls and the Legend keys stack
+     in one scrollable column, and the Legend section grows to fill the space below
+     the short layer list — so there's no orphaned white band at the bottom. */
+  align-self: stretch;
+  height: 100%;
   max-height: 100%;
   overflow-y: auto;
   overflow-x: hidden;
@@ -330,43 +329,39 @@
   align-self: flex-start;
 }
 
-/* ── Rail tabs (Layers | Legend) ─────────────────────────────────────────── */
-.rail-tabs {
+/* ── Rail sections (Layers controls + Legend, stacked) ───────────────────────
+   Both sections share the scrollable rail column. The Legend section grows to
+   fill the space below the short layer list so the panel has no dead band. */
+.rail-section {
   display: flex;
-  border-bottom: 1px solid var(--border-mid);
+  flex-direction: column;
+  flex: 0 0 auto;
+}
+
+/* Legend section absorbs the remaining height so the bottom is never empty. */
+.rail-section--legend {
+  flex: 1 1 auto;
+  min-height: 0;
+  border-top: 1px solid var(--border-mid);
+}
+
+/* Small section eyebrow header (replaces the old Layers|Legend tab strip). */
+.rail-section__head {
+  display: flex;
+  align-items: center;
+  padding: var(--space-2) var(--space-3);
   background: var(--surface-2);
+  border-bottom: 1px solid var(--border);
   flex-shrink: 0;
 }
 
-.rail-tab {
-  flex: 1;
-  min-width: 0;
-  padding: var(--space-2) var(--space-2);
-  background: none;
-  border: none;
-  cursor: pointer;
+.rail-section__title {
   font-family: var(--font-mono);
   font-size: 10px;
-  font-weight: 500;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--ink-mute);
-  /* Active tab carries a 2px accent underline (compositor-safe box-shadow). */
-  box-shadow: none;
-  transition: color 120ms ease, box-shadow 120ms ease, background 120ms ease;
-}
-
-.rail-tab:hover { color: var(--ink-mid); }
-
-.rail-tab.is-active {
-  color: var(--ink);
   font-weight: 600;
-  box-shadow: inset 0 -2px 0 var(--accent);
-}
-
-.rail-tab:focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: -2px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-mid);
 }
 
 .msa-layerrail::-webkit-scrollbar { width: 4px; }

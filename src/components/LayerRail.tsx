@@ -714,10 +714,9 @@ export function LayerRail({ collapsed = false, onToggleCollapse, fullscreen = fa
   const politiesVisible      = layers['polities']?.visible ?? false;
   const relationshipsVisible = layers['relationships']?.visible ?? false;
 
-  // Two surfaces: 'layers' = the toggle/opacity controls; 'legend' = the color/
-  // glyph keys. Separated so the rail reads cleanly (the legend is reference, not
-  // controls). Default to the Layers controls.
-  const [activeRailTab, setActiveRailTab] = useState<'layers' | 'legend'>('layers');
+  // Layer CONTROLS and the LEGEND keys are stacked in one scrollable column
+  // (the legend fills what used to be dead space below the short layer list),
+  // so no active-tab state is needed any more.
 
   // Every canonical layer is claimed by a curated group (Territory / Places /
   // Activity), so the rail renders exactly those — no "Other" catch-all group.
@@ -787,72 +786,50 @@ export function LayerRail({ collapsed = false, onToggleCollapse, fullscreen = fa
         </div>
       )}
 
-      {/* Tab strip — separates the layer CONTROLS from the LEGEND keys. */}
-      <div className="rail-tabs" role="tablist" aria-label="Layers panel sections">
-        <button
-          type="button"
-          role="tab"
-          id="rail-tab-layers"
-          aria-selected={activeRailTab === 'layers'}
-          aria-controls="rail-panel-layers"
-          className={`rail-tab${activeRailTab === 'layers' ? ' is-active' : ''}`}
-          onClick={() => setActiveRailTab('layers')}
-        >
-          Layers
-        </button>
-        <button
-          type="button"
-          role="tab"
-          id="rail-tab-legend"
-          aria-selected={activeRailTab === 'legend'}
-          aria-controls="rail-panel-legend"
-          className={`rail-tab${activeRailTab === 'legend' ? ' is-active' : ''}`}
-          onClick={() => setActiveRailTab('legend')}
-        >
-          Legend
-        </button>
+      {/* Layer CONTROLS (toggles + opacity) stacked above the LEGEND keys in one
+          scrollable column. The legend fills what used to be dead space below the
+          short layer list, so the panel reads as a single intentional surface
+          rather than a clump-at-top with an empty band beneath. */}
+      <div className="panel rail-section" id="rail-panel-layers" aria-label="Map layers">
+        <div className="rail-section__head">
+          <span className="rail-section__title">Layers</span>
+        </div>
+        <div className="layer-groups">
+          {groups.map((group) => (
+            <LayerGroupSection
+              key={group.key}
+              group={group}
+              layers={layers}
+              onToggle={toggle}
+              onOpacity={setOpacity}
+            />
+          ))}
+        </div>
       </div>
 
-      {/* Layers tab — layer groups (LayerList): toggles + opacity only. */}
-      {activeRailTab === 'layers' && (
-        <div className="panel" id="rail-panel-layers" role="tabpanel" aria-labelledby="rail-tab-layers">
-          <div className="layer-groups">
-            {groups.map((group) => (
-              <LayerGroupSection
-                key={group.key}
-                group={group}
-                layers={layers}
-                onToggle={toggle}
-                onOpacity={setOpacity}
-              />
-            ))}
-          </div>
+      <div className="panel rail-section rail-section--legend" id="rail-panel-legend" aria-label="Legend">
+        <div className="rail-section__head">
+          <span className="rail-section__title">Legend</span>
         </div>
-      )}
-
-      {/* Legend tab — the color / glyph keys only. */}
-      {activeRailTab === 'legend' && (
-        <div className="panel" id="rail-panel-legend" role="tabpanel" aria-labelledby="rail-tab-legend">
-          <div className="legend-body">
-            <CategoryKey
-              theme={theme}
-              eventsVisible={eventsVisible}
-              onToggleLayer={() => toggle('events')}
-              activeCategory={eventCategory}
-              onToggleCategory={toggleEventCat}
-              onClearCategory={clearEventCat}
-              searchQuery={eventSearch}
-              onSearchChange={setEventSearch}
-              timeMode={eventTimeMode}
-              onTimeModeChange={setEventTimeMode}
-              yearSpan={eventYearSpan}
-              onYearSpanChange={setEventYearSpan}
-            />
-            <RegionKey       theme={theme} politiesVisible={politiesVisible} />
-            <RelationshipKey theme={theme} relationshipsVisible={relationshipsVisible} />
-          </div>
+        <div className="legend-body">
+          <CategoryKey
+            theme={theme}
+            eventsVisible={eventsVisible}
+            onToggleLayer={() => toggle('events')}
+            activeCategory={eventCategory}
+            onToggleCategory={toggleEventCat}
+            onClearCategory={clearEventCat}
+            searchQuery={eventSearch}
+            onSearchChange={setEventSearch}
+            timeMode={eventTimeMode}
+            onTimeModeChange={setEventTimeMode}
+            yearSpan={eventYearSpan}
+            onYearSpanChange={setEventYearSpan}
+          />
+          <RegionKey       theme={theme} politiesVisible={politiesVisible} />
+          <RelationshipKey theme={theme} relationshipsVisible={relationshipsVisible} />
         </div>
-      )}
+      </div>
     </nav>
   );
 }
