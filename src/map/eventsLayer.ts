@@ -205,28 +205,25 @@ export function buildEventsTimeFilter(
   return ['==', ['get', 'year'], year];
 }
 
-// ── Wave 4B — Tier-aware low-zoom opacity windowing ───────────────────────────
+// ── Event marker opacity (formerly Wave 4B tier windowing — now tier-agnostic) ─
 //
-// With 2,914 accreting events, by year 1500 nearly all render at once. At low
-// zoom the tier field (baked by bake-manifests.mjs §8) gates which events are
-// visually prominent:
+// HISTORY: an earlier "Wave 4B" pass faded events by their baked `tier` at low
+// zoom (tier 1 only < zoom 4; tier 2 added at 4–5; tier 3 / the 86%-of-events
+// violence mass only at ≥ 6) to cut overdraw. The side effect was that whole
+// categories — most of them, including every battle — were INVISIBLE at the
+// world/continental zoom users actually use, while a few tier-1 categories showed.
 //
-//   zoom < 4  → only tier 1 (power/religion/diplomacy/discovery — the rarer
-//               high-signal turning points) is fully opaque; tier 2 and the
-//               bulk tier-3 violence mass are faded to 0 to cut overdraw.
-//   zoom 4–5  → tier 1 + tier 2 (culture/economy/hazard) visible; tier 3 faded.
-//   zoom ≥ 6  → all tiers at full opacity (incl. tier-3 violence).
+// USER DECISION (2026-06-10): every event category must be visible at every zoom
+// when the Events layer is on, exactly like any other marker. The tier fade is
+// removed — all tiers now share the same zoom-stepped opacity. The expressions
+// keep their `step`(zoom) → `case`(tier) shape (with all tier branches equal) so
+// the unit-test evaluator and a future re-introduction of per-tier fading stay a
+// one-line change. Density is handled by the exact-year time filter (only events
+// at the scrubber's exact year render) — never by hiding a category by zoom.
 //
-// Implementation: MapLibre `case` expression on the `tier` property, wrapped in
-// a `step` on `['zoom']`. The GL paint thread evaluates this per-feature with
-// no per-feature JS cost. Every event stays in the source; only the rendered
-// opacity changes — features are still clickable at every zoom (same contract as
-// Wave 4A circle-opacity step).
-//
-// The base opacity values (0.5 at low zoom, 0.85 at mid, 0.95 for symbol) come
-// from the existing Wave 4A expressions; tier windowing multiplies into those.
-// setEventsOpacity() uses buildTierOpacityExpression() so the user-facing layer
-// opacity slider continues to work correctly.
+// The base zoom-stepped values (0.5 low / 0.85 mid for the circle pip; full
+// opacity for the pin) are retained from Wave 4A. setEventsOpacity() multiplies
+// the layer-opacity slider scalar through both builders so the slider still works.
 
 /**
  * Build a MapLibre paint opacity expression for the events circle layer.
@@ -358,24 +355,16 @@ export function addEventsLayer(
   const symbolOpacityExpr = buildTierSymbolOpacityExpression(1);
   const visibility       = visible ? 'visible' : 'none';
 
-  // ── Circle fallback / anchor-pip layer ────────────────────────────────────────
-  // Category-colored dot drawn exactly at the event's geographic coordinates.
-  // Serves two roles depending on zoom:
+  // ── Circle anchor-pip layer ────────────────────────────────────────────────
+  // Category-colored dot drawn exactly at the event's geographic coordinates. The
+  // symbol PIN is the primary marker (icon-allow-overlap:true, so every visible
+  // event shows its pin at every zoom); this circle is a small anchor-pip that only
+  // appears at HIGH zoom (≥ 7) directly below the pin's point, reinforcing the
+  // precise geographic anchor. Kept ≤ 2.5px so it doesn't fight the pin head, and
+  // radius 0 below zoom 7 so it never competes with the pins at overview zoom.
   //
-  //   LOW ZOOM (≤ 3): The collision engine culls symbol icons when 2,914 pins
-  //   overlap at world-overview zoom. This circle is the colored-dot fallback
-  //   visible for any event whose pin icon was culled. Tier 1 only (same gate as
-  //   the symbol layer). The colored dot preserves "I can see something happened
-  //   here" legibility even at world zoom.
-  //
-  //   HIGH ZOOM (≥ 6): Acts as a small anchor-pip directly below the pin's point,
-  //   reinforcing the precise geographic anchor. Kept ≤ 4px so it doesn't visually
-  //   fight the pin head.
-  //
-  // Wave 4A: radius interpolation starts at 2px at zoom 2 so the 2,914-stud mass
-  // at low zoom doesn't overwhelm the polity fills (all events still queryable).
-  // Wave 4B: circle-opacity uses buildTierCircleOpacityExpression() — tier 1 only
-  // at zoom < 4; tier 1+2 at 4–5; all at ≥ 6. Features remain clickable at 0 opacity.
+  // circle-opacity uses buildTierCircleOpacityExpression() — tier-agnostic now (all
+  // categories equal); features remain clickable regardless.
   map.addLayer({
     id: EVENTS_CIRCLE_ID,
     type: 'circle',
@@ -407,18 +396,15 @@ export function addEventsLayer(
   // sits exactly on the event's geographic coordinates. The colored head floats
   // above in screen space — the canonical Google-Maps-pin behavior.
   //
-  // icon-size at low zoom (2–3): set to 0.40–0.50 so the colored pin body reads
-  // as ~13–16 CSS px tall — large enough to convey color and pin shape even before
-  // the glyph can be seen. The prior 0.28 produced a ~9px mark too small to read.
-  // With the color-flooded body (no longer cream), even a 13px pin is a clearly
-  // colored teardrop. The collision engine (icon-allow-overlap: false) thins the
-  // dense 2,914-event field without dropping any from the source.
+  // icon-size scales the pin from ~0.62 (world overview) to 1.3 (street) so the
+  // colored teardrop reads as a real map pin at every zoom — never a sub-pixel dot.
+  // icon-allow-overlap:true + icon-ignore-placement:true mean NO collision culling:
+  // every event that passes the time filter shows its pin at every zoom. Density is
+  // bounded by the exact-year time filter (only the scrubber's exact year renders),
+  // not by culling or by per-tier opacity fading.
   //
-  // icon-padding: 1 — tighter than before (was 2) so more pins survive collision
-  // at zoom 3 before the tier opacity gates further thin the field.
-  //
-  // Wave 4B: icon-opacity uses buildTierSymbolOpacityExpression() — tier 1 at
-  // zoom < 3 (0.75), tier 1+2 at zoom 3–5 (0.92), all at ≥ 6 (0.95).
+  // icon-opacity uses buildTierSymbolOpacityExpression() — tier-agnostic now: full
+  // opacity for every category at every zoom (× the layer-opacity slider).
   map.addLayer({
     id: EVENTS_SYMBOL_ID,
     type: 'symbol',
